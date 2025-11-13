@@ -1,0 +1,1903 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ================================================
+     DESIGN SYSTEM - FLUID SPACING & SIZING
+     Uses clamp() for responsive, viewport-based scaling
+     Pattern: clamp(min, preferred, max)
+     ================================================ */
+  
+  /* === FLUID TYPOGRAPHY === */
+  --fluid-h1: clamp(2rem, 5vw + 1rem, 4rem);        /* 32px → 64px */
+  --fluid-h2: clamp(1.5rem, 3vw + 0.75rem, 2.5rem); /* 24px → 40px */
+  --fluid-h3: clamp(1.125rem, 2vw + 0.5rem, 1.75rem); /* 18px → 28px */
+  --fluid-body: clamp(0.875rem, 1.5vw + 0.5rem, 1.125rem); /* 14px → 18px */
+  --fluid-small: clamp(0.75rem, 1vw + 0.375rem, 0.875rem); /* 12px → 14px */
+  --fluid-xs: clamp(0.5625rem, 1.8vw, 0.6875rem); /* 9px → 11px - For very small UI elements */
+  --fluid-lead: clamp(1rem, 2vw + 0.5rem, 1.5rem); /* 16px → 24px */
+  
+  /* === FLUID SPACING SCALE === */
+  /* Use these for all padding, margin, and gaps */
+  --space-3xs: clamp(0.25rem, 0.5vw, 0.5rem);    /* 4px → 8px */
+  --space-2xs: clamp(0.5rem, 1vw, 0.75rem);      /* 8px → 12px */
+  --space-xs: clamp(0.75rem, 1.5vw, 1rem);       /* 12px → 16px */
+  --space-sm: clamp(1rem, 2vw, 1.5rem);          /* 16px → 24px */
+  --space-md: clamp(1.5rem, 3vw, 2rem);          /* 24px → 32px */
+  --space-lg: clamp(2rem, 4vw, 3rem);            /* 32px → 48px */
+  --space-xl: clamp(3rem, 5vw, 4rem);            /* 48px → 64px */
+  --space-2xl: clamp(4rem, 6vw, 6rem);           /* 64px → 96px */
+  --space-3xl: clamp(6rem, 8vw, 8rem);           /* 96px → 128px */
+  
+  /* === PAGE LAYOUT SPACING === */
+  /* Horizontal padding for sections */
+  --page-padding-inline: clamp(1.5rem, 3vw, 6rem);  /* Mobile → Desktop */
+  --page-padding-block: clamp(2rem, 4vh, 4rem);     /* Vertical spacing */
+  
+  /* === FONT FAMILIES === */
+  --font-heading: 'Lora', serif;
+  --font-body: 'Lato', sans-serif;
+  
+  /* === BRAND COLORS === */
+  --color-primary-dark: #162F1C;
+  --color-secondary: #E0CBA8;
+  --color-tertiary: #F5F8F6;
+  --color-fourth: #7F8468;
+  --color-text: #2D2D2D;
+  
+  /* === BORDER & RADIUS === */
+  --border-width: 1px;
+  --border-color: var(--color-secondary);
+  --border-subtle: rgba(224, 203, 168, 0.3);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-xl: 16px;
+  
+  /* === SHADOWS === */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.08);
+  
+  /* === LAYOUT VARIABLES === */
+  --header-height: 78px;
+  
+  /* === HEADER COLORS (Fixed - not affected by dark mode) === */
+  --header-bg: #162F1C;
+  --header-text: #F7F7F3;
+  --header-secondary: #E0CBA8;
+  --header-hover: #1e4028;
+  
+  /* === Z-INDEX SCALE === */
+  /* Proper z-index hierarchy for layering */
+  --z-base: 1;
+  --z-dropdown: 9999;
+  --z-sticky: 100;
+  --z-fixed: 1000;
+  --z-modal-backdrop: 9998;
+  --z-modal: 9999;
+  --z-popover: 9999;
+  --z-tooltip: 10000;
+  
+  /* === DESIGN TOKENS (for Tailwind/ShadCN compatibility) === */
+  --background: #F5F8F6;
+  --foreground: #2D2D2D;
+  --card: #ffffff;
+  --card-foreground: #2D2D2D;
+  --popover: #F5F8F6;
+  --popover-foreground: #2D2D2D;
+  --primary: #162F1C;
+  --primary-foreground: #ffffff;
+  --secondary: #E0CBA8;
+  --secondary-foreground: #2D2D2D;
+  --tertiary: #F7F7F3;
+  --tertiary-foreground: #2D2D2D;
+  --muted: #EEF3F0;
+  --muted-foreground: #7F8468;
+  --accent: #E0CBA8;
+  --accent-foreground: #2D2D2D;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(224, 203, 168, 0.5);
+  --input: transparent;
+  --input-background: #F5F8F6;
+  --switch-background: #7F8468;
+  --ring: #7F8468;
+  --radius: 0.625rem;
+  
+  /* === LANDING PAGE SECTION COLORS === */
+  --section-bg-tertiary: #F7F7F3;
+  --section-bg-secondary: #E0CBA8;
+  
+  /* === KNOWLEDGEBASE SPECIFIC TOKENS === */
+  --benefit: #162F1C;
+  --benefit-accent: #A5D6A7;
+  --benefit-b: #E8F5E9;
+  --benefit-b-accent: #2E7D32;
+  --warning: #FFF3E0;
+  --warning-accent: #F57C00;
+  
+  /* Chart colors */
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  
+  /* Sidebar tokens */
+  --sidebar: #F7F7F3;
+  --sidebar-foreground: #2D2D2D;
+  --sidebar-primary: #162F1C;
+  --sidebar-primary-foreground: #F7F7F3;
+  --sidebar-accent: #E0CBA8;
+  --sidebar-accent-foreground: #2D2D2D;
+  --sidebar-border: rgba(0, 0, 0, 0.1);
+  --sidebar-ring: #7F8468;
+}
+
+/* ================================================
+   DARK MODE COLOR SCHEME
+   Best Practices:
+   - Use soft dark backgrounds (not pure black) for reduced eye strain
+   - Maintain WCAG AAA contrast ratios (7:1 for body text)
+   - Preserve brand identity with adjusted colors
+   - Use slightly elevated surfaces for cards
+   - Softer borders and shadows in dark mode
+   ================================================ */
+.dark {
+  /* === HEADER COLORS (Fixed - same as light mode) === */
+  --header-bg: #162F1C;
+  --header-text: #F7F7F3;
+  --header-secondary: #E0CBA8;
+  --header-hover: #1e4028;
+  
+  /* === BACKGROUNDS === */
+  /* Dark green background maintains brand identity */
+  --background: #162F1C;              /* Use our brand green */
+  --foreground: #e8dec9;              /* Warmer, softer cream for better readability */
+  
+  /* === SURFACES === */
+  /* Elevated surfaces should be slightly lighter */
+  --card: #1a2e1f;                    /* Elevated surface */
+  --card-foreground: #e8dec9;
+  --popover: #1f3524;
+  --popover-foreground: #e8dec9;
+  
+  /* === LANDING PAGE SECTIONS (Dark Mode) === */
+  --section-bg-tertiary: #1a2e1f;     /* Slightly lighter than main background */
+  --section-bg-secondary: #8a7150;    /* DARKER brown/gold for dark mode */
+  
+  /* === INTERACTIVE ELEMENTS === */
+  --primary: #E0CBA8;                 /* Golden color for better visibility */
+  --primary-foreground: #0f1f14;
+  --secondary: #8a7150;               /* DARKER brown/gold for dark mode */
+  --secondary-foreground: #e8dec9;
+  --tertiary: #1f3524;
+  --tertiary-foreground: #e8dec9;
+  
+  /* === TEXT HIERARCHY === */
+  --muted: #243428;                   /* Slightly lighter for muted backgrounds */
+  --muted-foreground: #9fa89d;        /* Softer gray-green for secondary text */
+  
+  /* === ACCENTS === */
+  --accent: #8a7150;                  /* Match darker secondary */
+  --accent-foreground: #e8dec9;
+  --destructive: #f87171;             /* Softer red for dark mode */
+  --destructive-foreground: #ffffff;
+  
+  /* === BORDERS & INPUTS === */
+  /* Borders remain consistent - not affected by dark mode */
+  --border: rgba(224, 203, 168, 0.5);
+  --input: transparent;
+  --input-background: #1f3524;        /* Matches elevated surface */
+  --switch-background: #5a6b54;       /* Lighter switch background */
+  /* Ring/outline remains consistent - not affected by dark mode */
+  --ring: rgba(127, 132, 104, 0.5);
+  
+  /* === KNOWLEDGEBASE DARK MODE === */
+  /* Benefit cards - green tinted */
+  --benefit: #2E7D32;                 /* Darker, richer green background */
+  --benefit-accent: #C8E6C9;          /* Lighter green accent */
+  --benefit-b: #1a3520;               /* Grade B green background */
+  --benefit-b-accent: #66bb6a;        /* Grade B green accent */
+  
+  /* Warning cards - amber tinted */
+  --warning: #332818;                 /* Dark amber background */
+  --warning-accent: #ffb74d;          /* Softer orange accent */
+  
+  /* === BRAND COLORS (Dark Mode) === */
+  --color-primary-dark: #E0CBA8;
+  --color-secondary: #8a7150;         /* DARKER brown/gold for dark mode */
+  --color-tertiary: #1f3524;
+  --color-fourth: #9fa89d;
+  --color-text: #e8dec9;
+  /* Borders remain consistent - not affected by dark mode */
+  --border-subtle: rgba(224, 203, 168, 0.3);
+  
+  /* === SIDEBAR (Dark Mode) === */
+  --sidebar: #162F1C;
+  --sidebar-foreground: #e8dec9;
+  --sidebar-primary: #E0CBA8;
+  --sidebar-primary-foreground: #0f1f14;
+  --sidebar-accent: #d4b896;
+  --sidebar-accent-foreground: #0f1f14;
+  --sidebar-border: rgba(212, 184, 150, 0.2);
+  --sidebar-ring: #d4b896;
+  
+  /* === SHADOWS (Dark Mode) === */
+  /* Softer, lighter shadows work better in dark mode */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/* ================================================
+   BASE STYLES
+   ================================================ */
+
+@layer base {
+  * {
+    /* Border and outline colors remain consistent across themes */
+    border-color: rgba(224, 203, 168, 0.5);
+    outline-color: rgba(127, 132, 104, 0.5);
+  }
+  
+  html {
+    /* Always reserve space for scrollbar to prevent layout shift */
+    overflow-y: scroll;
+    /* Prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* Lock width to viewport */
+    width: 100vw;
+    height: 100%;
+    /* Prevent any positioning shifts */
+    margin: 0;
+    padding: 0;
+    /* Force consistent scrollbar styling to prevent visual shifts */
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+    scrollbar-width: thin;
+    /* Fix anchor links to account for fixed header */
+    scroll-padding-top: calc(var(--header-height) + 20px);
+  }
+  
+  /* Keep scrollbar consistent in dark mode */
+  html.dark {
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+  }
+  
+  /* Webkit scrollbar styling (Chrome, Safari, Edge) */
+  html::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+  }
+  
+  html::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  html.dark::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  html.dark::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  /* Disable all transitions during dark mode toggle to prevent layout shift */
+  html.disable-transitions,
+  html.disable-transitions *,
+  html.disable-transitions *::before,
+  html.disable-transitions *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    /* Prevent font rendering shifts */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    /* Lock dimensions - use 100% to match html, not vh which can shift */
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* Prevent reflow during color changes */
+    overflow-x: hidden;
+  }
+  
+  /* Contain layout shifts */
+  *, *::before, *::after {
+    /* Prevent unexpected layout changes */
+    box-sizing: border-box;
+  }
+  
+  /* Prevent images from causing layout shifts in dark mode */
+  /* Content images are 20% smaller (max-width: 80%) */
+  img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Exceptions - keep these images at full size */
+  [data-layout-header] img,
+  [data-layout-footer] img,
+  [data-name="Logo"] img,
+  [data-button-height] img,
+  button img,
+  a img,
+  [data-knowledgebase-hero] img,
+  [data-grid] img {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  /* Prevent any element from creating horizontal overflow */
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+  
+  /* No transitions to prevent layout shift during dark mode toggle */
+  a, button, input, textarea, select,
+  [data-layout-card],
+  [data-knowledgebase-card],
+  [data-knowledgebase-card-benefit],
+  [data-knowledgebase-card-warning] {
+    /* Transitions removed to prevent layout shift */
+  }
+  
+  /* Link styling */
+  a {
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+  }
+  
+  a:hover {
+    opacity: 1;
+  }
+  
+  /* Footnote link styling */
+  .footnote-link {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 1;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+    cursor: help;
+  }
+  
+  .footnote-link:hover {
+    color: var(--color-fourth);
+    opacity: 1;
+    text-decoration: underline;
+  }
+  
+  /* Dark mode image adjustments */
+  .dark img:not([data-no-dark-filter]) {
+    /* Slightly reduce brightness and increase contrast for better dark mode appearance */
+    filter: brightness(0.9) contrast(1.05);
+  }
+  
+  /* Prevent logo images from being filtered */
+  .dark [data-name="Logo"] img,
+  .dark [alt*="logo" i] img,
+  .dark [alt*="suppl.me" i] img {
+    filter: none;
+  }
+  
+  /* ================================================
+     HEADER & FOOTER: IMMUNE TO DARK MODE
+     These components maintain their original styling
+     ================================================ */
+  
+  /* Header should always have dark green background and light text */
+  .dark [data-layout-header] {
+    background-color: #162F1C !important;
+    border-color: #E0CBA8 !important;
+  }
+  
+  .dark [data-layout-header] p,
+  .dark [data-layout-header] button,
+  .dark [data-layout-header] a {
+    color: #F7F7F3;
+  }
+  
+  /* Footer should always have dark green background */
+  .dark [data-layout-footer] {
+    background-color: #162F1C !important;
+  }
+  
+  .dark [data-layout-footer] p:not(.text-secondary) {
+    color: #F7F7F3;
+  }
+  
+  .dark [data-layout-footer] .text-secondary {
+    color: #E0CBA8 !important;
+  }
+  
+  /* Mobile menu should also stay consistent */
+  .dark [data-radix-popper-content-wrapper] [class*="SheetContent"] {
+    background-color: #162F1C !important;
+    border-color: #E0CBA8 !important;
+  }
+  
+  /* Dropdown menu from header */
+  .dark [data-radix-popper-content-wrapper] [class*="DropdownMenuContent"] {
+    background-color: #162F1C !important;
+    border-color: #E0CBA8 !important;
+  }
+  
+  /* ================================================
+     PAGE LAYOUT
+     All pages have consistent top padding for header
+     ================================================ */
+  
+  [data-layout-page] {
+    padding-top: var(--header-height);
+  }
+  
+  /* === PREVENT DARK MODE FROM AFFECTING BORDERS, OUTLINES, AND STROKES === */
+  /* Force borders and outlines to remain consistent across themes */
+  .dark .border-border,
+  .dark [class*="border-border"] {
+    border-color: rgba(224, 203, 168, 0.5) !important;
+  }
+  
+  .dark *:focus,
+  .dark *:focus-visible {
+    outline-color: rgba(127, 132, 104, 0.5) !important;
+  }
+  
+  /* Prevent SVG strokes from changing (they inherit from text color via currentColor) */
+  /* This is handled by explicit color classes in components */
+}
+
+/* ================================================
+   SEMANTIC LAYOUT SYSTEM
+   Use data attributes for consistent styling
+   
+   NAMING CONVENTION:
+   - data-layout-* : Page-level layout elements (header, footer, container)
+   - data-knowledgebase-* : Knowledge base page specific elements
+   - data-component-* : Reusable UI components
+   ================================================ */
+
+/* === PAGE CONTAINERS === */
+/* Max-width container for content */
+/* Note: Padding comes from parent [data-layout-section] to avoid double padding */
+[data-layout-container],
+[data-container="page"] {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1280px) {
+  [data-layout-container],
+  [data-container="page"] {
+    max-width: 1280px;
+  }
+}
+
+/* === HEADER & FOOTER === */
+[data-layout="footer"],
+[data-layout-footer] {
+  padding-inline: var(--page-padding-inline);
+  padding-block: var(--space-md);
+}
+
+/* === SECTIONS === */
+/* Generic section spacing */
+[data-layout-section],
+[data-section] {
+  padding-inline: var(--page-padding-inline);
+  padding-block: var(--page-padding-block);
+}
+
+/* Knowledge base section wrapper */
+[data-knowledgebase-section] {
+  padding-inline: var(--page-padding-inline);
+  padding-block: var(--page-padding-block);
+}
+
+/* Knowledge base container */
+[data-knowledgebase-container] {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline: var(--page-padding-inline);
+  padding-block: var(--page-padding-block);
+}
+
+@media (min-width: 1280px) {
+  [data-knowledgebase-container] {
+    max-width: 1280px;
+  }
+}
+
+/* Page content offset for fixed header */
+[data-page-content] {
+  padding-top: var(--header-height);
+}
+
+/* === KNOWLEDGEBASE PAGES HEADER OFFSET === */
+/* Ensure all knowledgebase pages account for fixed header */
+.bg-\[#F7F7F3\] {
+  padding-top: var(--header-height);
+}
+
+/* Mobile-specific adjustment for knowledgebase pages */
+@media (max-width: 767px) {
+  .bg-\[#F7F7F3\] {
+    padding-top: var(--header-height);
+  }
+}
+
+/* === GLOSSARY DARK MODE HERO STYLING === */
+/* Glossary pages in dark mode use darker brown background with lighter brown text */
+.dark .glossary-hero {
+  background-color: #8a7150 !important; /* Darker brown background */
+}
+
+.dark .glossary-hero h1,
+.dark .glossary-hero .text-primary-foreground {
+  color: #E0CBA8 !important; /* Lighter brown for main headings */
+}
+
+.dark .glossary-hero .text-secondary,
+.dark .glossary-hero p {
+  color: #F5E6D3 !important; /* Even lighter for secondary text and descriptions */
+}
+
+/* === HERO SECTION BOTTOM BORDER (DARK MODE ONLY) === */
+/* Add bottom border to all hero sections in dark mode to match header stroke */
+.dark #hero,
+.dark .glossary-hero,
+.dark [data-knowledgebase-hero] {
+  border-bottom: 1px solid rgba(224, 203, 168, 0.25);
+  box-shadow: 0 1px 3px rgba(224, 203, 168, 0.05);
+}
+
+/* === KNOWLEDGE BASE HERO === */
+/* Hero section - full height with split layout */
+[data-knowledgebase-hero],
+[data-section="hero"] {
+  padding: 0; /* Hero handles its own padding */
+  min-height: 400px; /* Flexible height on mobile */
+}
+
+/* On desktop, enforce specific height */
+@media (min-width: 768px) {
+  [data-knowledgebase-hero],
+  [data-section="hero"] {
+    height: clamp(400px, 50vh, 600px);
+  }
+}
+
+/* Hero text area inside hero section */
+[data-knowledgebase-hero] [data-knowledgebase-hero-text],
+[data-section="hero"] [data-content="hero-text"] {
+  padding: var(--page-padding-inline);
+}
+
+/* Hero text color overrides */
+[data-knowledgebase-hero] h1 {
+  color: #F7F7F3;
+}
+
+[data-knowledgebase-hero] p {
+  color: #E0CBA8;
+}
+
+/* Hero images maintain consistent appearance in both themes */
+[data-knowledgebase-hero] img,
+.dark [data-knowledgebase-hero] img {
+  /* No filters or opacity changes in dark mode */
+  filter: none;
+  /* Opacity is set inline on images and should not be overridden */
+}
+
+/* === KNOWLEDGE BASE CARDS === */
+/* Info card - for overview, main content */
+[data-knowledgebase-card-info] {
+  background: white;
+  border-radius: var(--radius-lg);
+  border: var(--border-width) solid var(--color-secondary);
+}
+
+.dark [data-knowledgebase-card-info] {
+  background: #162F1C;
+  border-color: #2E7D32;
+}
+
+/* Benefits card - green theme */
+[data-knowledgebase-card-benefits] {
+  background: #E8F5E9;
+  border-radius: var(--radius-lg);
+  border: var(--border-width) solid #2E7D32;
+}
+
+.dark [data-knowledgebase-card-benefits] {
+  background: #1a3d1f;
+  border-color: #4CAF50;
+}
+
+/* Drawbacks card - orange theme */
+[data-knowledgebase-card-drawbacks] {
+  background: #FFF3E0;
+  border-radius: var(--radius-lg);
+  border: var(--border-width) solid #F57C00;
+}
+
+.dark [data-knowledgebase-card-drawbacks] {
+  background: #3d2a1a;
+  border-color: #FF9800;
+}
+
+/* Card content wrapper */
+[data-knowledgebase-card-content] {
+  padding: var(--space-lg);
+}
+
+@media (max-width: 767px) {
+  [data-knowledgebase-card-content] {
+    padding: var(--space-md);
+  }
+}
+
+/* === FOOTNOTE LINKS === */
+/* Clickable footnote references in text */
+.footnote-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footnote-link:hover {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+/* === REFERENCE HIGHLIGHT ANIMATION === */
+/* Highlight effect when jumping to a reference */
+@keyframes reference-highlight {
+  0% {
+    background-color: rgba(224, 203, 168, 0.4);
+    transform: scale(1.02);
+  }
+  100% {
+    background-color: transparent;
+    transform: scale(1);
+  }
+}
+
+.dark .reference-highlight {
+  animation: reference-highlight 2s ease-out;
+}
+
+.reference-highlight {
+  animation: reference-highlight 2s ease-out;
+}
+
+/* Base card styling - legacy support */
+[data-knowledgebase-card],
+[data-card] {
+  background: white;
+  border-radius: var(--radius-lg);
+  border: var(--border-width) solid var(--border-color);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.dark [data-knowledgebase-card],
+.dark [data-card] {
+  background: #162F1C;
+  border-color: #2E7D32;
+}
+
+@media (max-width: 767px) {
+  [data-knowledgebase-card],
+  [data-card] {
+    padding: var(--space-md);
+  }
+}
+
+/* Stat card - floating statistics */
+[data-knowledgebase-card-stat],
+[data-card="stat"] {
+  background: var(--color-tertiary);
+  border-color: var(--color-secondary);
+  padding: var(--space-md);
+}
+
+.dark [data-knowledgebase-card-stat],
+.dark [data-card="stat"] {
+  background: #1e4028;
+  border-color: #2E7D32;
+}
+
+/* Warning/Alert card */
+[data-knowledgebase-card-warning],
+[data-card="warning"] {
+  background: #FFF8E1;
+  border-color: #FFB74D;
+}
+
+.dark [data-knowledgebase-card-warning],
+.dark [data-card="warning"] {
+  background: #3d2e1a;
+  border-color: #FFA726;
+}
+
+/* Highlight card - nested info boxes */
+[data-knowledgebase-card-highlight],
+[data-card="highlight"] {
+  background: var(--color-tertiary);
+  border: none;
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+}
+
+.dark [data-knowledgebase-card-highlight],
+.dark [data-card="highlight"] {
+  background: #1e4028;
+}
+
+/* === CARD TEXT COLORS === */
+/* Headings in info cards */
+[data-knowledgebase-card-info] h2,
+[data-knowledgebase-card-info] h3,
+[data-knowledgebase-card-benefits] h2,
+[data-knowledgebase-card-benefits] h3,
+[data-knowledgebase-card-drawbacks] h2,
+[data-knowledgebase-card-drawbacks] h3 {
+  color: var(--color-primary-dark);
+}
+
+.dark [data-knowledgebase-card-info] h2,
+.dark [data-knowledgebase-card-info] h3,
+.dark [data-knowledgebase-card-benefits] h2,
+.dark [data-knowledgebase-card-benefits] h3,
+.dark [data-knowledgebase-card-drawbacks] h2,
+.dark [data-knowledgebase-card-drawbacks] h3 {
+  color: #E0CBA8;
+}
+
+/* Paragraphs in cards */
+[data-knowledgebase-card-info] p,
+[data-knowledgebase-card-benefits] p,
+[data-knowledgebase-card-drawbacks] p,
+[data-knowledgebase-card-highlight] p {
+  color: var(--color-text);
+}
+
+.dark [data-knowledgebase-card-info] p,
+.dark [data-knowledgebase-card-benefits] p,
+.dark [data-knowledgebase-card-drawbacks] p,
+.dark [data-knowledgebase-card-highlight] p {
+  color: #e5e5e5;
+}
+
+/* === CONTENT AREAS === */
+/* Text content wrapper - for consistent text spacing */
+[data-knowledgebase-content-text],
+[data-content="text"] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* List content - benefits, features, etc */
+[data-knowledgebase-content-list],
+[data-content="list"] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+/* Grid content - for multi-column layouts */
+[data-knowledgebase-content-grid],
+[data-content="grid"] {
+  display: grid;
+  gap: var(--space-md);
+}
+
+/* === KNOWLEDGE BASE COMPONENTS === */
+/* Stat display - numbers with labels */
+[data-knowledgebase-stat],
+[data-component="stat"] {
+  text-align: center;
+}
+
+[data-knowledgebase-stat] [data-knowledgebase-stat-value],
+[data-component="stat"] [data-label="value"] {
+  font-size: var(--fluid-h2);
+  font-family: var(--font-heading);
+  color: var(--color-primary-dark);
+  display: block;
+  margin-bottom: var(--space-3xs);
+}
+
+[data-knowledgebase-stat] [data-knowledgebase-stat-label],
+[data-component="stat"] [data-label="text"] {
+  font-size: var(--fluid-small);
+  color: var(--color-fourth);
+}
+
+/* Research Summary Section */
+[data-knowledgebase-research] {
+  /* No additional container styles - spacing handled by parent */
+}
+
+[data-knowledgebase-research-heading] {
+  /* Match the style of overview h2 headings - no custom spacing here */
+}
+
+[data-knowledgebase-research-grid] {
+  /* Grid spacing handled by gap utility classes in component */
+}
+
+/* What to Expect Section */
+/* Desktop column structure with consistent spacing */
+[data-what-to-expect-row] {
+  /* Row spacing handled by component */
+}
+
+[data-what-to-expect-column] {
+  /* All columns have equal width and consistent spacing */
+  min-width: 180px;
+  flex: 1;
+}
+
+[data-column-label] {
+  /* Column headers - fixed height and spacing for all columns */
+  height: 16px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: var(--color-muted-foreground);
+}
+
+[data-column-icon] {
+  /* Icon row - consistent height and spacing for all columns */
+  height: 36px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[data-column-description] {
+  /* Description row - consistent spacing */
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--color-muted-foreground);
+}
+
+/* Icon list item - icons with text */
+[data-knowledgebase-icon-list-item],
+[data-component="icon-list-item"] {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-xs);
+}
+
+[data-knowledgebase-icon-list-item] svg,
+[data-component="icon-list-item"] svg {
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+  color: var(--color-primary-dark);
+}
+
+/* === ICON-TEXT ALIGNMENT UTILITIES === */
+/* Use these classes for proper icon-text alignment */
+
+/* Icon with centered text - for when icon and text should be vertically centered */
+.icon-text-center {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-text-center > svg,
+.icon-text-center > [class*="lucide"] {
+  flex-shrink: 0;
+}
+
+/* Icon with top-aligned text - for when icon should align with first line of text */
+.icon-text-start {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.icon-text-start > svg,
+.icon-text-start > [class*="lucide"] {
+  flex-shrink: 0;
+  /* Subtle adjustment to align icon with text baseline */
+  margin-top: 0.25rem;
+}
+
+/* Grade badge - A, B, C, D ratings */
+[data-knowledgebase-grade-badge],
+[data-component="grade-badge"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+}
+
+[data-knowledgebase-grade-badge][data-grade="A"],
+[data-component="grade-badge"][data-grade="A"] {
+  background: #4CAF50;
+  color: white;
+}
+
+[data-knowledgebase-grade-badge][data-grade="B"],
+[data-component="grade-badge"][data-grade="B"] {
+  background: #8BC34A;
+  color: white;
+}
+
+[data-knowledgebase-grade-badge][data-grade="C"],
+[data-component="grade-badge"][data-grade="C"] {
+  background: #FFC107;
+  color: #2D2D2D;
+}
+
+[data-knowledgebase-grade-badge][data-grade="D"],
+[data-component="grade-badge"][data-grade="D"] {
+  background: #FF9800;
+  color: white;
+}
+
+/* === COMMON SECTION PATTERNS === */
+/* Predefined patterns that repeat across pages */
+
+/* Icon grid - for benefit/feature lists */
+[data-pattern="icon-grid"],
+[data-knowledgebase-pattern="icon-grid"] {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  [data-pattern="icon-grid"],
+  [data-knowledgebase-pattern="icon-grid"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Icon list - vertical list with icons */
+[data-pattern="icon-list"],
+[data-knowledgebase-pattern="icon-list"] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* Stat grid - for floating statistics */
+[data-pattern="stat-grid"],
+[data-knowledgebase-pattern="stat-grid"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-md);
+}
+
+/* Two-column split - side-by-side content on desktop */
+[data-pattern="split"],
+[data-knowledgebase-pattern="split"] {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  [data-pattern="split"],
+  [data-knowledgebase-pattern="split"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* === BUTTON HEIGHTS === */
+/* Consistent button heights across the site */
+[data-button-height="sm"],
+.btn-height-sm {
+  height: 2rem; /* 32px */
+}
+
+[data-button-height="md"],
+.btn-height-md {
+  height: 2.5rem; /* 40px */
+}
+
+[data-button-height="lg"],
+.btn-height-lg {
+  height: 3rem; /* 48px */
+}
+
+/* === PRODUCT COMPARISONS SECTION === */
+/* Product comparison cards - 3 column grid */
+[data-comparisons],
+[data-comparisons-ashwagandha],
+[data-comparisons-calcium],
+[data-comparisons-creatine],
+[data-comparisons-vitamind],
+[data-comparisons-vitaminc],
+[data-comparisons-omega3],
+[data-comparisons-iron],
+[data-comparisons-magnesium],
+[data-comparisons-multivitamin],
+[data-comparisons-sulforaphane],
+[data-comparisons-collagenpeptides],
+[data-comparisons-probiotics],
+[data-comparisons-prebiotics] {
+  background: var(--color-tertiary);
+  padding: var(--page-padding-block) var(--page-padding-inline);
+}
+
+[data-comparisons-grid],
+[data-comparisons] [data-grid="3col"] {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  [data-comparisons-grid],
+  [data-comparisons] [data-grid="3col"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  [data-comparisons-grid],
+  [data-comparisons] [data-grid="3col"] {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Product card styling */
+[data-product-card] {
+  background: var(--card);
+  border-radius: var(--radius-xl);
+  border: 2px solid var(--border);
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.dark [data-product-card] {
+  background: var(--card);
+  border-color: var(--border);
+}
+
+[data-product-card]:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+[data-product-card-image] {
+  background: var(--color-tertiary);
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+}
+
+[data-product-card-image] img {
+  max-height: 12rem;
+  object-fit: contain;
+}
+
+[data-product-card-content] {
+  padding: var(--space-md);
+}
+
+/* Product price display */
+[data-product-price] {
+  color: var(--muted-foreground);
+  margin-bottom: var(--space-sm);
+}
+
+[data-product-price-per-mg] {
+  font-weight: 600;
+}
+
+[data-product-price-per-bottle] {
+  font-weight: 400;
+}
+
+/* Product disclaimer (tax & shipping notice) */
+[data-product-disclaimer] {
+  font-size: 7px !important;
+  line-height: 1.1 !important;
+  color: var(--color-fourth) !important;
+  font-family: var(--font-body) !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+[data-product-disclaimer] p {
+  font-size: 7px !important;
+  line-height: 1.1 !important;
+  color: var(--color-fourth) !important;
+  font-family: var(--font-body) !important;
+}
+
+[data-product-card-badge] {
+  background: var(--color-primary-dark);
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  margin-bottom: var(--space-xs);
+}
+
+[data-product-card-footer] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--space-sm);
+}
+
+/* Hero split - 50/50 for hero sections */
+[data-pattern="hero-split"],
+[data-knowledgebase-pattern="hero-split"] {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 400px;
+}
+
+@media (min-width: 768px) {
+  [data-pattern="hero-split"],
+  [data-knowledgebase-pattern="hero-split"] {
+    flex-direction: row;
+    min-height: clamp(400px, 50vh, 600px);
+  }
+}
+
+/* Hero panel - left or right side of hero */
+[data-pattern="hero-panel"],
+[data-knowledgebase-pattern="hero-panel"] {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  [data-pattern="hero-panel"],
+  [data-knowledgebase-pattern="hero-panel"] {
+    padding: var(--space-xl);
+  }
+}
+
+/* === TABLES === */
+/* Responsive table wrapper */
+[data-knowledgebase-table-wrapper],
+[data-component="table-wrapper"] {
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: var(--border-width) solid var(--border-color);
+}
+
+/* Table styling */
+[data-knowledgebase-table],
+[data-component="table"] {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+[data-knowledgebase-table] thead,
+[data-component="table"] thead {
+  background: var(--color-primary-dark);
+  color: var(--color-tertiary);
+}
+
+[data-knowledgebase-table] th,
+[data-component="table"] th {
+  padding: var(--space-sm);
+  text-align: left;
+  font-family: var(--font-heading);
+}
+
+[data-knowledgebase-table] td,
+[data-component="table"] td {
+  padding: var(--space-sm);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+[data-knowledgebase-table] tbody tr:last-child td,
+[data-component="table"] tbody tr:last-child td {
+  border-bottom: none;
+}
+
+[data-knowledgebase-table] tbody tr:nth-child(even),
+[data-component="table"] tbody tr:nth-child(even) {
+  background: var(--color-tertiary);
+}
+
+/* ================================================
+   FLUID TYPOGRAPHY APPLICATION
+   Auto-applies responsive font sizes
+   ================================================ */
+
+/* Hero headings */
+[data-knowledgebase-hero] h1,
+[data-section="hero"] h1 {
+  font-size: var(--fluid-h1) !important;
+  line-height: 1.2 !important;
+}
+
+[data-knowledgebase-hero] p,
+[data-section="hero"] p {
+  font-size: var(--fluid-lead) !important;
+  line-height: 1.6 !important;
+}
+
+/* Section headings */
+[data-layout-section] h2,
+[data-section] h2,
+[data-knowledgebase-card-info] h2,
+[data-knowledgebase-card-benefits] h2,
+[data-knowledgebase-card-drawbacks] h2,
+[data-knowledgebase-card-content] h2,
+[data-knowledgebase-research] h2,
+[data-card] h2 {
+  font-size: var(--fluid-h2) !important;
+  line-height: 1.3 !important;
+  margin-bottom: var(--space-sm);
+}
+
+/* Subheadings */
+[data-layout-section] h3,
+[data-section] h3,
+[data-knowledgebase-card-info] h3,
+[data-knowledgebase-card-benefits] h3,
+[data-knowledgebase-card-drawbacks] h3,
+[data-knowledgebase-card-content] h3,
+[data-knowledgebase-card-highlight] h3,
+[data-card] h3 {
+  font-size: var(--fluid-h3) !important;
+  line-height: 1.4 !important;
+  margin-bottom: var(--space-xs);
+}
+
+/* Body text */
+[data-layout-section] p,
+[data-section] p,
+[data-knowledgebase-card-info] p,
+[data-knowledgebase-card-benefits] p,
+[data-knowledgebase-card-drawbacks] p,
+[data-knowledgebase-card-content] p,
+[data-knowledgebase-card-highlight] p,
+[data-card] p,
+[data-layout-section] li,
+[data-section] li,
+[data-knowledgebase-card] li,
+[data-card] li,
+[data-knowledgebase-table] td,
+[data-component="table"] td {
+  font-size: var(--fluid-body) !important;
+  line-height: 1.7 !important;
+}
+
+/* Small text */
+[data-layout-section] .text-sm,
+[data-section] .text-sm,
+[data-knowledgebase-card] .text-sm,
+[data-card] .text-sm,
+[data-layout-section] small,
+[data-section] small,
+[data-knowledgebase-card] small,
+[data-card] small {
+  font-size: var(--fluid-small) !important;
+  line-height: 1.5 !important;
+}
+
+/* Extra small text */
+[data-layout-section] .text-xs,
+[data-section] .text-xs,
+[data-knowledgebase-card] .text-xs,
+[data-card] .text-xs,
+[data-layout-section] .xs,
+[data-section] .xs,
+[data-knowledgebase-card] .xs,
+[data-card] .xs {
+  font-size: var(--fluid-xs) !important;
+  line-height: 1.5 !important;
+}
+
+/* ================================================
+   LAYOUT PATTERNS
+   Semantic data attributes for common layouts
+   Replace Tailwind utilities with these patterns
+   ================================================ */
+
+/* === STACK LAYOUTS (Vertical Spacing) === */
+/* Use instead of space-y-* utilities */
+
+/* Extra small stack spacing */
+[data-stack="xs"],
+[data-layout-stack="xs"] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+/* Small stack spacing */
+[data-stack="sm"],
+[data-layout-stack="sm"] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* Medium stack spacing (most common) */
+[data-stack="md"],
+[data-layout-stack="md"],
+[data-stack],
+[data-layout-stack] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+/* Large stack spacing */
+[data-stack="lg"],
+[data-layout-stack="lg"] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+/* Extra large stack spacing */
+[data-stack="xl"],
+[data-layout-stack="xl"] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+/* === GRID LAYOUTS === */
+/* Auto-responsive grids for cards, stats, etc. */
+
+/* 2-column grid (default) */
+[data-grid="2col"],
+[data-layout-grid="2col"] {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  [data-grid="2col"],
+  [data-layout-grid="2col"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3-column grid */
+[data-grid="3col"],
+[data-layout-grid="3col"] {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  [data-grid="3col"],
+  [data-layout-grid="3col"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  [data-grid="3col"],
+  [data-layout-grid="3col"] {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 4-column grid */
+[data-grid="4col"],
+[data-layout-grid="4col"] {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 640px) {
+  [data-grid="4col"],
+  [data-layout-grid="4col"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  [data-grid="4col"],
+  [data-layout-grid="4col"] {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Auto-fit grid (automatically fits columns based on min width) */
+[data-grid="auto"],
+[data-layout-grid="auto"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+/* === FLEX LAYOUTS === */
+/* Horizontal layouts with spacing */
+
+/* Flex row with gap */
+[data-flex="row"],
+[data-layout-flex="row"] {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+/* Flex row with space between */
+[data-flex="between"],
+[data-layout-flex="between"] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+/* Flex row centered */
+[data-flex="center"],
+[data-layout-flex="center"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+/* Flex wrap */
+[data-flex="wrap"],
+[data-layout-flex="wrap"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+/* ================================================
+   LEGACY UTILITY CLASSES
+   Kept for backward compatibility
+   Consider migrating to data attributes above
+   ================================================ */
+
+/* Spacing utilities */
+.space-y-xs > * + * {
+  margin-top: var(--space-xs);
+}
+
+.space-y-sm > * + * {
+  margin-top: var(--space-sm);
+}
+
+.space-y-md > * + * {
+  margin-top: var(--space-md);
+}
+
+.space-y-lg > * + * {
+  margin-top: var(--space-lg);
+}
+
+/* Gap utilities for flex/grid */
+.gap-xs {
+  gap: var(--space-xs);
+}
+
+.gap-sm {
+  gap: var(--space-sm);
+}
+
+.gap-md {
+  gap: var(--space-md);
+}
+
+.gap-lg {
+  gap: var(--space-lg);
+}
+
+/* ================================================
+   LEGACY SUPPORT
+   Keep old class names for backward compatibility
+   Will be phased out
+   ================================================ */
+
+.section-container {
+  padding-inline: var(--page-padding-inline);
+  padding-block: var(--page-padding-block);
+}
+
+.content-box {
+  background: var(--card);
+  border-radius: var(--radius-lg);
+  border: var(--border-width) solid var(--border);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 767px) {
+  .content-box {
+    padding: var(--space-md);
+  }
+}
+
+.page-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1280px) {
+  .page-container {
+    max-width: 1280px;
+  }
+}
+
+/* ================================================
+   COMPONENT-SPECIFIC DARK MODE STYLES
+   All dark mode styles centralized in one stylesheet
+   ================================================ */
+
+/* Dark Mode Toggle Button - subtle, no background */
+[data-component="dark-mode-toggle"] {
+  background: transparent;
+}
+
+/* Search Results - Viewport-aware positioning */
+[data-component="search-results"] {
+  /* Ensure dropdown never overflows viewport */
+  box-sizing: border-box;
+}
+
+/* On very small screens, use more padding */
+@media (max-width: 480px) {
+  [data-component="search-results"] {
+    left: 0.5rem !important;
+    right: 0.5rem !important;
+  }
+}
+
+.dark [data-component="search-results"] {
+  background: var(--card);
+  border-color: var(--secondary);
+}
+
+.dark [data-search-result-item]:hover {
+  background: var(--muted);
+}
+
+/* Footer in Dark Mode - use darker green */
+.dark [data-layout-footer] {
+  background: #0f1f13;
+}
+
+/* ================================================
+   KNOWLEDGEBASE UTILITY CLASSES
+   CSS Variable-based utilities for migration
+   ================================================ */
+
+/* Background colors */
+.bg-tertiary {
+  background-color: var(--tertiary);
+}
+
+.bg-benefit {
+  background-color: var(--benefit);
+}
+
+.bg-benefit-b {
+  background-color: var(--benefit-b);
+}
+
+.bg-warning {
+  background-color: var(--warning);
+}
+
+/* Border colors */
+.border-benefit-accent {
+  border-color: var(--benefit-accent);
+}
+
+.border-benefit-b-accent {
+  border-color: var(--benefit-b-accent);
+}
+
+.border-warning-accent {
+  border-color: var(--warning-accent);
+}
+
+/* Text colors */
+.text-benefit-accent {
+  color: var(--benefit-accent);
+}
+
+.text-benefit-b-accent {
+  color: var(--benefit-b-accent);
+}
+
+.text-warning-accent {
+  color: var(--warning-accent);
+}
+
+.text-tertiary-foreground {
+  color: var(--tertiary-foreground);
+}
+
+/* ================================================
+   DARK MODE BEST PRACTICES & UTILITIES
+   Comprehensive dark mode enhancements
+   ================================================ */
+
+/* High Contrast Text for Accessibility */
+.dark {
+  /* Ensure proper contrast ratios (WCAG AAA compliant) */
+  color-scheme: dark;
+}
+
+/* Reduce bright image intensity in dark mode (already done above) */
+
+/* Code blocks in dark mode */
+.dark pre,
+.dark code {
+  background: #1a2e1f;
+  border-color: rgba(212, 184, 150, 0.25);
+}
+
+/* Form inputs with proper dark mode styling */
+.dark input:not([type="checkbox"]):not([type="radio"]),
+.dark textarea,
+.dark select {
+  background: var(--input-background);
+  border-color: var(--border);
+  color: var(--foreground);
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: var(--muted-foreground);
+}
+
+/* Focus states optimized for dark mode */
+.dark *:focus-visible {
+  outline-color: var(--ring);
+  outline-width: 2px;
+  outline-offset: 2px;
+}
+
+/* Links in dark mode */
+.dark a:not([class]) {
+  color: var(--secondary);
+  text-decoration-color: rgba(212, 184, 150, 0.4);
+}
+
+.dark a:not([class]):hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+/* Selection highlight in dark mode */
+.dark ::selection {
+  background: rgba(61, 143, 67, 0.3);
+  color: var(--foreground);
+}
+
+/* Scrollbar styling for dark mode */
+.dark ::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: 6px;
+  border: 2px solid var(--background);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
+
+/* Modal/Dialog overlays in dark mode */
+.dark [data-component="dialog-overlay"],
+.dark [role="dialog"] ~ div {
+  background: rgba(15, 31, 20, 0.8);
+}
+
+/* Tooltips in dark mode */
+.dark [role="tooltip"],
+.dark [data-component="tooltip"] {
+  background: var(--popover);
+  border-color: var(--border);
+  color: var(--popover-foreground);
+}
+
+/* Cards with elevation in dark mode */
+.dark [data-layout-card],
+.dark [data-knowledgebase-card] {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Prevent FOUT (Flash of Unstyled Text) */
+html:not(.dark) {
+  color-scheme: light;
+}
+
+/* Smooth theme transitions for all themed elements */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+/* But don't transition transforms, opacity, or layout properties */
+*:not(button):not(a):not([role="button"]) {
+  transition-property: background-color, border-color, color;
+}
+
+/* Button states should be instant */
+button, a, [role="button"] {
+  transition-duration: 0.15s;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print styles - always use light mode */
+@media print {
+  * {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}
+
+/* ================================================
+   PRODUCT CARD DISCLAIMER - MUST BE AT END
+   Overrides all other styles with maximum specificity
+   ================================================ */
+[data-product-card] div.flex.items-start p,
+[data-product-card-content] div.flex.items-start p {
+  font-size: 7px !important;
+  line-height: 1.1 !important;
+  color: var(--color-fourth) !important;
+  font-family: var(--font-body) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+[data-product-card] div.flex.items-start,
+[data-product-card-content] div.flex.items-start {
+  font-size: 7px !important;
+  line-height: 1.1 !important;
+  color: var(--color-fourth) !important;
+  font-family: var(--font-body) !important;
+}
+
+/* ================================================
+   HEADER DROPDOWN HOVER STYLES - PERFORMANCE
+   Uses CSS-only hover for better performance
+   ================================================ */
+.dropdown-item {
+  background-color: rgba(224, 203, 168, 0.05);
+  transition: background-color 0.1s ease-out;
+  /* Force GPU acceleration */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  /* Improve paint performance */
+  contain: layout style paint;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(224, 203, 168, 0.15);
+}
+
+/* Optimize scrolling in dropdown */
+.scrollbar-thin {
+  -webkit-overflow-scrolling: touch;
+  /* Force GPU layer for scroll container */
+  will-change: scroll-position;
+}

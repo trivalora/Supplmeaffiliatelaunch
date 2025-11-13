@@ -1,0 +1,314 @@
+import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
+import { 
+  Heart, Brain, Shield, Activity, Pill, AlertCircle, 
+  Droplet, CheckCircle2, User, Zap, Eye, Baby
+} from 'lucide-react';
+
+import { PageKey } from '../routes.config';
+import { getSupplementImage } from '../utils/supplementImages';
+
+export function MultivitaminPageNewV2({ 
+  onNavigate
+}: { 
+  onNavigate?: (page: PageKey) => void;
+}) {
+  const pageProps: KnowledgebasePageProps = {
+    supplementName: "Multivitamin",
+    onNavigate,
+    currentPage: "multivitaminv2",
+    heroDescription: "Evidence-based overview of comprehensive vitamin and mineral supplements with population-specific efficacy ranging from no mortality benefit in healthy adults to reduced cataracts in older adults, improved pregnancy outcomes, and consistent safety profiles across all groups.",
+    heroImageUrl: getSupplementImage('multivitaminv2'),
+    
+    overviewTitle: "What is a Multivitamin?",
+    overviewContent: (
+      <p>
+        A multivitamin is a <span className="font-medium">combination supplement</span> containing a variety of vitamins and minerals, often with other beneficial nutrients. Formulations vary widely from basic "one-a-day" products covering recommended dietary allowances to comprehensive blends with dozens of ingredients at varying potency levels.
+      </p>
+    ),
+    dietarySources: [
+      {
+        icon: Pill,
+        title: "Standard multivitamins",
+        description: "Cover basic vitamin/mineral needs at or near RDA levels"
+      },
+      {
+        icon: User,
+        title: "Targeted formulas",
+        description: "Designed for specific groups (men, women, seniors, prenatal)"
+      },
+      {
+        icon: Activity,
+        title: "High-potency versions",
+        description: "Contain higher doses of certain nutrients; may not always be beneficial"
+      }
+    ],
+    additionalOverviewContent: (
+      <p>
+        Multivitamins are designed as "nutritional insurance" to prevent deficiencies, but they cannot replace a balanced diet rich in whole foods, which provide fiber, phytonutrients, and other beneficial compounds not found in supplements.
+      </p>
+    ),
+    
+    benefits: [
+      {
+        icon: Shield,
+        title: "Prevents Deficiencies",
+        description: "Fills common nutritional gaps, especially important for restricted diets or certain life stages"
+      },
+      {
+        icon: Eye,
+        title: "Eye Health",
+        description: "Strong evidence for reduced risk of age-related cataracts in adults over 40"
+      },
+      {
+        icon: Baby,
+        title: "Pregnancy Support",
+        description: "Prenatal formulas prevent neural tube defects and support healthy birth outcomes"
+      },
+      {
+        icon: Brain,
+        title: "Cognitive Support",
+        description: "Some evidence for cognitive benefits in older adults or those with marginal deficiencies"
+      },
+      {
+        icon: Heart,
+        title: "General Health",
+        description: "May support overall health and wellbeing when dietary intake is inadequate"
+      }
+    ],
+    
+    drawbacksIntro: "Generally safe, but consider:",
+    drawbacks: [
+      {
+        icon: AlertCircle,
+        title: "Not a Replacement",
+        description: "Cannot replace a healthy, varied diet; whole foods provide more than isolated nutrients"
+      },
+      {
+        icon: Pill,
+        title: "Nutrient Interactions",
+        description: "Some nutrients compete for absorption (e.g., calcium and iron, zinc and copper)"
+      },
+      {
+        icon: Droplet,
+        title: "Risk of Excess",
+        description: "High doses of fat-soluble vitamins (A, D, E, K) can accumulate and cause toxicity"
+      },
+      {
+        icon: Activity,
+        title: "Quality Varies",
+        description: "Many products contain unnecessary fillers, low-quality forms, or ineffective doses"
+      }
+    ],
+    
+    researchGrades: [
+      {
+        letter: 'A',
+        title: "Cataract Prevention",
+        description: "Strong evidence from meta-analysis (adults/elderly over 40) showing multivitamin use associated with lower risks of nuclear cataracts (RR 0.73), cortical cataracts (RR 0.81), and any cataracts (RR 0.66).[1][4] Long-term use (4.8-15 years, Centrum® 26 nutrients) showed consistent benefits across settings (United States, Sweden, Australia, China). No effect observed for posterior subcapsular cataracts."
+      },
+      {
+        letter: 'A',
+        title: "Pregnancy Outcomes",
+        description: "Strong evidence for prenatal multivitamins preventing adverse birth outcomes. High-income countries: reduced risks of small-for-gestational-age births (RR 0.77), neural tube defects (RR 0.67), and related congenital anomalies.[7][8] Low- and middle-income countries: lower risks for low birthweight (RR 0.85), stillbirths (RR 0.91), maternal anemia, and improvements in maternal and child health metrics.[8] Routine use recommended during pregnancy."
+      },
+      {
+        letter: 'B',
+        title: "Infection Reduction",
+        description: "Mixed evidence with benefits primarily in specific populations. Other adults showed weighted mean difference of -1.20 infection episodes.[1][2][6] Undernourished elderly (over 6 months) showed WMD -0.67.[1][2] General elderly population showed no significant effect (WMD 0.06).[1][2] Benefits most apparent in those with baseline nutritional inadequacy."
+      },
+      {
+        letter: 'C',
+        title: "Mortality & Chronic Disease",
+        description: "Limited evidence for mortality benefits in healthy populations. Independently living adults: all-cause mortality RR 0.98 (not significant).[1][2][3] Healthy adults: mortality RR 1.00 (not significant).[2][3] Primary prevention trend (RR 0.94) and secondary prevention showed no significant effects.[1] No increased mortality risk observed. Inconsistent evidence for preventing chronic diseases in well-nourished populations."
+      },
+      {
+        letter: 'C',
+        title: "Cognitive Function",
+        description: "Preliminary evidence with mixed results. Some studies suggest improvements in immediate free recall memory (significant) but no significant effects for delayed recall or verbal fluency.[5] Benefits most likely in those with marginal deficiencies or older adults. Small sample sizes and heterogeneity in study designs limit conclusions. More research needed for cognitive outcomes."
+      }
+    ],
+    
+    whatToExpectData: {
+      disclaimer: "Effects vary by individual. Consult healthcare provider before starting.",
+      outcomes: [
+        {
+          icon: Shield,
+          iconLabel: "Deficiency Prevention",
+          usage: "1 tablet",
+          bestTime: "Morning with food",
+          resultsWeeks: "4-12",
+          intensity: "Moderate" as const,
+          signsOfEffectiveness: "Normalized blood levels of vitamins and minerals in those with dietary insufficiencies. Reduced risk of frank deficiency states. Most noticeable in those with poor dietary intake or increased needs."
+        },
+        {
+          icon: Eye,
+          iconLabel: "Eye Health (40+)",
+          usage: "1 tablet",
+          bestTime: "Morning with food",
+          resultsWeeks: "52-260",
+          intensity: "High" as const,
+          signsOfEffectiveness: "Slowed progression of age-related macular degeneration (AMD) in those with intermediate AMD or advanced AMD in one eye (AREDS formula). Reduced risk of progression to advanced AMD by 25-28%. Long-term benefit requiring years of consistent use."
+        },
+        {
+          icon: Baby,
+          iconLabel: "Prenatal Support",
+          usage: "1 tablet",
+          bestTime: "Morning with food",
+          resultsWeeks: "Ongoing",
+          intensity: "High" as const,
+          signsOfEffectiveness: "Reduced risk of neural tube defects, anemia, and preterm birth. Adequate folate levels prevent birth defects. Supports maternal and fetal health throughout pregnancy. Most critical in first trimester but beneficial throughout."
+        },
+        {
+          icon: Brain,
+          iconLabel: "General Wellness",
+          usage: "1-2 tablets",
+          bestTime: "Morning with food",
+          resultsWeeks: "8-24",
+          intensity: "Low to Moderate" as const,
+          signsOfEffectiveness: "Subtle improvements in energy, immune function, and overall wellbeing, particularly if baseline diet is inadequate. Benefits most noticeable in those with restricted diets, older adults, or specific life stages (pregnancy, menopause). Cognitive benefits (memory, attention) may emerge in older adults or those with marginal deficiencies after 2-6 months."
+        }
+      ]
+    },
+    
+    buyingGuideIntro: "When selecting a multivitamin:",
+    buyingGuideItems: [
+      {
+        icon: User,
+        title: "Choose appropriate formula",
+        description: "Men's, women's, prenatal, or senior formulas address specific needs. Gender-specific or age-specific is often better than generic. Prenatal formulas should contain adequate folate (400-800 mcg as methylfolate), iron, and other key nutrients."
+      },
+      {
+        icon: Pill,
+        title: "Check nutrient forms",
+        description: "Look for bioavailable forms: methylfolate (not folic acid), methylcobalamin or adenosylcobalamin (B12), citrate or glycinate minerals (not oxide). Avoid synthetic vitamin E (dl-alpha-tocopherol); choose natural forms (d-alpha-tocopherol). Check for vitamin K2 (MK-7) rather than K1 for bone health."
+      },
+      {
+        icon: Shield,
+        title: "Third-party testing",
+        description: (
+          <>
+            Choose products verified by{' '}
+            <a 
+              href="https://www.usp.org/" 
+              target="_blank" 
+              rel="nofollow noreferrer"
+              className="text-primary hover:underline"
+            >
+              USP
+            </a>
+            {', '}
+            <a 
+              href="https://www.nsf.org/" 
+              target="_blank" 
+              rel="nofollow noreferrer"
+              className="text-primary hover:underline"
+            >
+              NSF
+            </a>
+            {', or '}
+            <a 
+              href="https://www.consumerlab.com/" 
+              target="_blank" 
+              rel="nofollow noreferrer"
+              className="text-primary hover:underline"
+            >
+              ConsumerLab
+            </a>
+            {' '}to ensure quality and label accuracy. These certifications verify that products contain what they claim and are free from contaminants.
+          </>
+        )
+      },
+      {
+        icon: CheckCircle2,
+        title: "Avoid mega-doses",
+        description: "Stick close to 100% Daily Value for most nutrients unless addressing a specific deficiency under medical guidance. Avoid products with 500%+ of fat-soluble vitamins (A, D, E, K). Excessive doses don't provide additional benefits and may increase toxicity risk."
+      }
+    ],
+    
+    references: [
+      {
+        authors: "Macpherson, H., Pipingas, A., Pase, M.P.",
+        year: "2013",
+        title: "Multivitamin-multimineral supplementation and mortality: a meta-analysis of randomized controlled trials",
+        journal: "American Journal of Clinical Nutrition",
+        link: "https://doi.org/10.3945/ajcn.112.049304"
+      },
+      {
+        authors: "Stephen, A.I., Avenell, A.",
+        year: "2006",
+        title: "A systematic review of multivitamin and multimineral supplementation for infection",
+        journal: "Journal of Human Nutrition and Dietetics",
+        link: "https://doi.org/10.1111/j.1365-277X.2006.00718.x"
+      },
+      {
+        authors: "Chang, S.M.",
+        year: "2013",
+        title: "Should meta-analyses trump observational studies?",
+        journal: "American Journal of Clinical Nutrition",
+        link: "https://doi.org/10.3945/ajcn.113.070391"
+      },
+      {
+        authors: "Zhao, L.Q., Li, L.M., Zhu, H., et al.",
+        year: "2014",
+        title: "The Effect of Multivitamin/Mineral Supplements on Age-Related Cataracts: A Systematic Review and Meta-Analysis",
+        journal: "Nutrients",
+        link: "https://doi.org/10.3390/nu6030931"
+      },
+      {
+        authors: "Grima, N.A., Pase, M.P., Macpherson, H., Pipingas, A.",
+        year: "2012",
+        title: "The Effects of Multivitamins on Cognitive Performance: A Systematic Review and Meta-Analysis",
+        journal: "Journal of Alzheimer's Disease",
+        link: "https://doi.org/10.3233/JAD-2012-111751"
+      },
+      {
+        authors: "El-Kadiki, A., Sutton, A.",
+        year: "2005",
+        title: "Role of multivitamins and mineral supplements in preventing infections in elderly people: systematic review and meta-analysis of randomised controlled trials",
+        journal: "BMJ",
+        link: "https://doi.org/10.1136/bmj.38377.580903.7C"
+      },
+      {
+        authors: "Wolf, H.T., Hegaard, H.K., Huusom, L.D., Pinborg, A.",
+        year: "2017",
+        title: "Multivitamin use and adverse birth outcomes in high-income countries: a systematic review and meta-analysis",
+        journal: "American Journal of Obstetrics and Gynecology",
+        link: "https://doi.org/10.1016/j.ajog.2017.03.029"
+      },
+      {
+        authors: "Oh, C., Keats, E.C., Bhutta, Z.A.",
+        year: "2020",
+        title: "Vitamin and Mineral Supplementation During Pregnancy on Maternal, Birth, Child Health and Development Outcomes in Low- and Middle-Income Countries: A Systematic Review and Meta-Analysis",
+        journal: "Nutrients",
+        link: "https://doi.org/10.3390/nu12020491"
+      },
+      {
+        authors: "Irlam, J.H., Visser, M.M.E., Rollins, N.N., Siegfried, N.",
+        year: "2010",
+        title: "Micronutrient supplementation in children and adults with HIV infection",
+        journal: "Cochrane Database of Systematic Reviews",
+        link: "https://doi.org/10.1002/14651858.CD003650.pub3"
+      }
+    ],
+    
+    furtherReading: [
+      {
+        title: "Multivitamin: Supplements Explained",
+        url: "https://examine.com/supplements/multivitamin/",
+        source: "Examine.com"
+      },
+      {
+        title: "Do You Need a Daily Supplement?",
+        url: "https://www.health.harvard.edu/staying-healthy/do-you-need-a-daily-supplement",
+        source: "Harvard Health"
+      },
+      {
+        title: "Multivitamin/mineral Supplements",
+        url: "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+        source: "NIH Office of Dietary Supplements"
+      }
+    ]
+  };
+
+  return <KnowledgebaseTemplate {...pageProps} />;
+}

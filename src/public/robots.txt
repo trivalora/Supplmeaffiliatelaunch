@@ -1,0 +1,16 @@
+# robots.txt for suppl.me
+# Health supplement information and affiliate website
+
+# Allow all search engines to crawl all content
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://suppl.me/sitemap.xml
+
+# Crawl delay (optional - be respectful to search engines)
+# Crawl-delay: 1
+
+# Block specific paths if needed (currently none)
+# Disallow: /admin/
+# Disallow: /test/

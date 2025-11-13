@@ -1,0 +1,35 @@
+import { GlossaryTemplate } from '../GlossaryTemplate';
+
+interface TACPageProps {
+  onNavigate?: (key: string) => void;
+}
+
+export function TACPage({ onNavigate }: TACPageProps) {
+  return (
+    <GlossaryTemplate
+      term="Total Antioxidant Capacity"
+      abbreviation="TAC"
+      onNavigate={onNavigate}
+      currentPage="tac"
+      definition="A measurement of the overall antioxidant power of blood or tissue, reflecting the combined contribution of all antioxidant compounds and enzymes that can neutralize free radicals and reactive oxygen species."
+      detailedExplanation="Total Antioxidant Capacity (TAC) provides a comprehensive assessment of antioxidant status by measuring the collective ability of all antioxidants present in a sample to prevent oxidation. Rather than measuring individual antioxidants (like vitamin C, vitamin E, or glutathione separately), TAC captures the synergistic effects of all antioxidant compounds working together, including vitamins, minerals, enzymes, polyphenols, and other molecules.
+
+TAC is measured using various laboratory assays (FRAP, ABTS, ORAC, DPPH), each with slightly different methodologies. Results are typically expressed in units like mmol/L Trolox equivalents or μmol/L, with higher values indicating greater antioxidant capacity. Reference ranges vary depending on the assay used, but generally healthy adults have TAC values between 1.0-2.5 mmol/L (by FRAP method).
+
+In supplement research, TAC is used as a biomarker to assess whether interventions increase overall antioxidant defenses and potentially reduce oxidative stress. Antioxidant-rich supplements like vitamin C, vitamin E, polyphenols, omega-3 fatty acids, and various plant extracts are studied for their effects on TAC. Increases in TAC suggest enhanced capacity to neutralize free radicals, which may translate to reduced oxidative damage and inflammation.
+
+However, TAC has limitations. Higher TAC doesn't automatically mean better health outcomes—clinical benefits depend on whether oxidative stress was actually a problem at baseline and whether increased antioxidant capacity translates to reduced oxidative damage markers (like MDA, oxidized LDL). Some studies show TAC improvements without corresponding clinical benefits. TAC is best interpreted alongside other oxidative stress markers and clinical outcomes."
+      examples={[
+        "A study might report that vitamin C supplementation increased TAC by 0.34 mmol/L (95% CI 0.21-0.47) compared to placebo",
+        "Baseline TAC of 1.2 mmol/L increasing to 1.8 mmol/L after polyphenol supplementation represents a 50% improvement in antioxidant capacity",
+        "Meta-analyses examining curcumin often show significant TAC increases (SMD = 0.62) in populations with chronic disease"
+      ]}
+      relatedTerms={[
+        { term: "Antioxidant", key: "antioxidant" },
+        { term: "Oxidative Stress", key: "oxidativestress" },
+        { term: "Biomarker", key: "biomarker" },
+        { term: "Inflammation", key: "inflammation" }
+      ]}
+    />
+  );
+}
