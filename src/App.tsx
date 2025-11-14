@@ -243,8 +243,65 @@ function PageLoadingFallback() {
   );
 }
 
-export default function App() {
-  const [currentPage, setCurrentPage] = useState<PageKey>('landing');
+interface AppProps {
+  navigate: (path: string) => void;
+  currentPath: string;
+}
+
+export default function App({ navigate, currentPath }: AppProps) {
+  // Map URL paths to page keys
+  const getPageKeyFromPath = (pathname: string): PageKey => {
+    // Safety check for undefined pathname
+    if (!pathname) return 'landing';
+    
+    const path = pathname.replace(/^\/|\/$/g, ''); // Remove leading/trailing slashes
+    
+    if (!path || path === '') return 'landing';
+    if (path === 'partner') return 'partner';
+    if (path === 'about') return 'about';
+    if (path === 'contact') return 'contact';
+    if (path === 'knowledgebase') return 'knowledgebase';
+    if (path === 'glossary') return 'glossary';
+    if (path === 'methodology') return 'methodology';
+    if (path === 'privacy') return 'privacy';
+    if (path === 'terms') return 'terms';
+    if (path === 'legal') return 'legal';
+    if (path === 'cookies') return 'cookies';
+    if (path === 'impressum') return 'impressum';
+    
+    // Supplement pages
+    if (path === 'ashwagandha') return 'ashwagandhav2';
+    if (path === 'calcium') return 'calciumv2';
+    if (path === 'collagen-peptides') return 'collagenpeptidesv2';
+    if (path === 'creatine') return 'creatinev2';
+    if (path === 'iron') return 'ironv2';
+    if (path === 'magnesium') return 'magnesiumv2';
+    if (path === 'omega-3') return 'omega3v2';
+    if (path === 'prebiotics') return 'prebioticsv2';
+    if (path === 'probiotics') return 'probioticsv2';
+    if (path === 'sulforaphane') return 'sulforaphanev2';
+    if (path === 'vitamin-c') return 'vitamincv2';
+    if (path === 'vitamin-d') return 'vitamindv2';
+    if (path === 'multivitamin') return 'multivitaminv2';
+    if (path === 'whey-protein') return 'wheyproteinv2';
+    if (path === 'casein-protein') return 'caseinproteinv2';
+    if (path === 'bcaas') return 'bcaasv2';
+    if (path === 'curcumin') return 'curcuminv2';
+    
+    // Glossary pages - try to match path to glossary key
+    // Convert path like "rct" to "rct", "meta-analysis" to "metaanalysis"
+    const glossaryKey = path.toLowerCase().replace(/-/g, '');
+    return glossaryKey as PageKey;
+  };
+  
+  // Initialize currentPage based on URL
+  const [currentPage, setCurrentPage] = useState<PageKey>(() => getPageKeyFromPath(currentPath));
+
+  // Update page when URL changes
+  useEffect(() => {
+    const newPage = getPageKeyFromPath(currentPath);
+    setCurrentPage(newPage);
+  }, [currentPath]);
 
   // Scroll to top whenever the page changes
   useEffect(() => {
@@ -276,7 +333,8 @@ export default function App() {
   // This ensures child components' useMemo dependencies remain stable
   const navigateTo = useCallback((page: PageKey) => {
     setCurrentPage(page);
-  }, []);
+    navigate(`/${page}`);
+  }, [navigate]);
 
   // Render the current page component
   const renderPage = () => {
