@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Routes, Route } from 'react-router-dom';
 import App from '../App';
 
 /**
@@ -18,5 +18,13 @@ export default function AppWrapper() {
     }));
   }, [location.pathname]);
 
-  return <App navigate={navigate} currentPath={location.pathname || '/'} />;
+  const handleNavigate = (path: string) => {
+    navigate(path);
+  };
+
+  return (
+    <Routes>
+      <Route path="*" element={<App navigate={handleNavigate} currentPath={location.pathname || '/'} />} />
+    </Routes>
+  );
 }
