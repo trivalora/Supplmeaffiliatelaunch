@@ -2,6 +2,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 import imgPhilipp from 'figma:asset/ba7f18652d239a86866cf8bd1f5919c913befa4b.png';
 import imgSebastian from 'figma:asset/4cc7cdc6ba408e920883098378ddf5612fda349e.png';
 import imgBrian from 'figma:asset/ba23c644c769aed69ee6d17f7866560f5794f544.png';
+import { SEOHead } from './SEOHead';
 
 interface FounderInfoProps {
   name: string;
@@ -82,59 +83,66 @@ export function AboutPage() {
   ];
 
   return (
-    <div className="bg-tertiary flex flex-col w-full min-h-screen" data-page-content>
-      {/* Our Mission Section */}
-      <div id="hero" className="bg-tertiary">
-        <div className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
-          <div className="bg-card rounded-[14px] border border-secondary p-6 md:p-10">
-            <h1 className="font-['Lora',_serif] leading-[48px] text-primary text-[32px] md:text-[36px] mb-4">
-              Our Mission
-            </h1>
-            <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[18px] md:text-[20px] mb-8">
-              Your evidence-backed supplement stack for less.<br />
-              In seconds.
-            </p>
-            <div className="space-y-6">
-              <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
-                suppl.me is the direct result of our own frustration. We experienced the time and mental tax of buying supplements firsthand.
+    <>
+      <SEOHead 
+        title="About Us - Evidence-Based Supplement Guide"
+        description="Meet the team behind the evidence-based supplement platform. Learn about our mission to provide transparent, science-backed supplement recommendations and price comparisons."
+        keywords="about suppl.me, supplement research team, evidence-based supplements, transparent supplement guide, science-backed recommendations"
+      />
+      <div className="bg-tertiary flex flex-col w-full min-h-screen" data-page-content>
+        {/* Our Mission Section */}
+        <div id="hero" className="bg-tertiary">
+          <div className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
+            <div className="bg-card rounded-[14px] border border-secondary p-6 md:p-10">
+              <h1 className="font-['Lora',_serif] leading-[48px] text-primary text-[32px] md:text-[36px] mb-4">
+                Our Mission
+              </h1>
+              <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[18px] md:text-[20px] mb-8">
+                Your evidence-backed supplement stack for less.<br />
+                In seconds.
               </p>
-              <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
-                Researching evidence-aligned options for longevity and peak performance used to take way too much time. Sifting through hype and misleading claims creates a heavy cognitive load and a deep trust deficit. Finding the best value was a separate, frustrating task and a total time-sink.
-              </p>
-              <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
-                Our mission is to be your Trusted Filter. We built this platform to reduce friction, synthesizing complex, peer-reviewed studies into actionable information. We then normalize value to a metric you can directly compare: price per active mg.
-              </p>
-              <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
-                We are actively developing this platform. Please leave us feedback while we learn the ropes of providing you with the best possible supplement experience we can imagine.
-              </p>
-              <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
-                Thank you for riding with us.
-              </p>
+              <div className="space-y-6">
+                <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
+                  suppl.me is the direct result of our own frustration. We experienced the time and mental tax of buying supplements firsthand.
+                </p>
+                <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
+                  Researching evidence-aligned options for longevity and peak performance used to take way too much time. Sifting through hype and misleading claims creates a heavy cognitive load and a deep trust deficit. Finding the best value was a separate, frustrating task and a total time-sink.
+                </p>
+                <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
+                  Our mission is to be your Trusted Filter. We built this platform to reduce friction, synthesizing complex, peer-reviewed studies into actionable information. We then normalize value to a metric you can directly compare: price per active mg.
+                </p>
+                <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
+                  We are actively developing this platform. Please leave us feedback while we learn the ropes of providing you with the best possible supplement experience we can imagine.
+                </p>
+                <p className="font-['Lato',_sans-serif] font-normal leading-[28px] text-foreground text-[16px] md:text-[18px]">
+                  Thank you for riding with us.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Meet Our Founders Section */}
+        <div id="meet-our-founders" className="bg-secondary w-full">
+          <div className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
+            <h2 className="font-['Lora',_serif] leading-[40px] text-primary text-[28px] md:text-[32px] mb-12">
+              Meet Our Founders
+            </h2>
+            <div className="flex flex-col gap-8">
+              {founders.map((founder) => (
+                <FounderInfo
+                  key={founder.name}
+                  name={founder.name}
+                  title={founder.title}
+                  imageUrl={founder.imageUrl}
+                  bio={founder.bio}
+                  isLocalImage={founder.isLocalImage}
+                />
+              ))}
             </div>
           </div>
         </div>
       </div>
-
-      {/* Meet Our Founders Section */}
-      <div id="meet-our-founders" className="bg-secondary w-full">
-        <div className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
-          <h2 className="font-['Lora',_serif] leading-[40px] text-primary text-[28px] md:text-[32px] mb-12">
-            Meet Our Founders
-          </h2>
-          <div className="flex flex-col gap-8">
-            {founders.map((founder) => (
-              <FounderInfo
-                key={founder.name}
-                name={founder.name}
-                title={founder.title}
-                imageUrl={founder.imageUrl}
-                bio={founder.bio}
-                isLocalImage={founder.isLocalImage}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 }

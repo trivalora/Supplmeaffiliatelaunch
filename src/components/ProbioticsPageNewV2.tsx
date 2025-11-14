@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function ProbioticsPageNewV2({ 
   onNavigate,
@@ -16,6 +17,8 @@ export function ProbioticsPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['digestive health', 'immune support', 'gut microbiome balance', 'IBS symptom relief', 'antibiotic recovery'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Probiotics",
     onNavigate,
@@ -341,5 +344,10 @@ export function ProbioticsPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Probiotics', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

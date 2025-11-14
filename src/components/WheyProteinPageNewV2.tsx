@@ -1,12 +1,11 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Zap, Dumbbell, Heart, Shield, AlertCircle, 
-  Pill, Activity, FlaskConical, TrendingUp, Droplet,
-  Clock, CheckCircle2, Users, FileText, Scale, Soup,
-  TrendingDown
+  Dumbbell, TrendingUp, Zap, Activity, Heart, Shield,
+  AlertCircle, Droplet, FlaskConical, Apple, Users
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function WheyProteinPageNewV2({ 
   onNavigate,
@@ -17,6 +16,8 @@ export function WheyProteinPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['muscle growth', 'recovery', 'protein synthesis', 'strength gains', 'satiety'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Whey Protein",
     onNavigate,
@@ -37,7 +38,7 @@ export function WheyProteinPageNewV2({
     ),
     dietarySources: [
       {
-        icon: Pill,
+        icon: Apple,
         title: "Whey Protein Concentrate",
         description: "70-80% protein; contains some lactose and fat; most cost-effective"
       },
@@ -52,7 +53,7 @@ export function WheyProteinPageNewV2({
         description: "Pre-digested for faster absorption; highest cost; similar efficacy to other forms"
       },
       {
-        icon: Soup,
+        icon: Dumbbell,
         title: "Dietary Sources",
         description: "Milk, yogurt, cheese, cottage cheese—whole food sources provide additional nutrients"
       }
@@ -65,7 +66,7 @@ export function WheyProteinPageNewV2({
     
     benefits: [
       {
-        icon: Scale,
+        icon: Dumbbell,
         title: "Body Composition in Overweight/Obese (Grade A)",
         description: "Meta-analyses of 35+ RCTs show increases in lean mass (0.77-2.24 kg), reductions in fat mass, and improvements in body weight when combined with exercise or calorie restriction"
       },
@@ -212,7 +213,7 @@ export function WheyProteinPageNewV2({
     buyingGuideIntro: "When shopping for whey protein (based on clinical evidence):",
     buyingGuideItems: [
       {
-        icon: Pill,
+        icon: Apple,
         title: "Form Selection",
         description: "Concentrate (70-80% protein) is cost-effective for most. Isolate (90%+ protein) for lactose intolerance. Hydrolysate offers faster absorption but no proven efficacy advantage in trials. Most meta-analyses used concentrate or isolate with equivalent outcomes."
       },
@@ -323,7 +324,12 @@ export function WheyProteinPageNewV2({
     onLegalClick: onLegalClick || (() => {})
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Whey Protein', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }
 
 export default WheyProteinPageNewV2;

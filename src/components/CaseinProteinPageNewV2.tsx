@@ -1,11 +1,11 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Dumbbell, Shield, AlertCircle, 
-  Pill, Activity, FlaskConical, TrendingDown, Moon,
-  Clock, CheckCircle2, Users, FileText, Scale, Droplet
+  Dumbbell, Moon, TrendingUp, Activity, Shield, Heart,
+  AlertCircle, Droplet, FlaskConical, Apple, Users
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function CaseinProteinPageNewV2({ 
   onNavigate,
@@ -16,6 +16,8 @@ export function CaseinProteinPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['sustained protein release', 'muscle preservation', 'overnight recovery', 'satiety', 'lean muscle growth'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Casein Protein",
     onNavigate,
@@ -36,7 +38,7 @@ export function CaseinProteinPageNewV2({
     ),
     dietarySources: [
       {
-        icon: Pill,
+        icon: Apple,
         title: "Casein Hydrolysate",
         description: "Pre-digested casein; fastest absorption; demonstrated blood pressure benefits in trials"
       },
@@ -93,7 +95,7 @@ export function CaseinProteinPageNewV2({
         description: "Most studies combined casein with whey or other dairy proteins, making it difficult to isolate casein-specific effects from general dairy protein benefits"
       },
       {
-        icon: Clock,
+        icon: Moon,
         title: "Short-Term Data Only",
         description: "Most interventions lasted less than 6 months; long-term safety and efficacy beyond 24 weeks are not well established"
       },
@@ -170,7 +172,7 @@ export function CaseinProteinPageNewV2({
         subtext: "Minor GI effects only"
       },
       {
-        icon: Clock,
+        icon: Moon,
         label: "Study Duration",
         value: "6-24",
         subtext: "weeks (typical range)"
@@ -285,7 +287,7 @@ export function CaseinProteinPageNewV2({
     buyingGuideIntro: "When selecting casein protein (based on clinical evidence):",
     buyingGuideItems: [
       {
-        icon: Pill,
+        icon: Apple,
         title: "Form & Type",
         description: "Casein Hydrolysate: pre-digested for faster absorption; demonstrated blood pressure benefits in clinical trials. Micellar Casein: undenatured, slowest-digesting form (6-8 hours); optimal for overnight muscle protein synthesis. Calcium Caseinate: moderately digesting; higher calcium content. Choose based on your goal: hydrolysate for blood pressure support; micellar for sustained amino acid delivery."
       },
@@ -425,5 +427,10 @@ export function CaseinProteinPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} onContactClick={onContactClick} onLegalClick={onLegalClick} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Casein Protein', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} onContactClick={onContactClick} onLegalClick={onLegalClick} />
+    </>
+  );
 }

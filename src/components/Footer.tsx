@@ -38,6 +38,12 @@ export function Footer({
         {/* Links */}
         <div className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4">
           <button 
+            onClick={() => onNavigate('partner')}
+            className="text-secondary hover:opacity-80 transition-opacity cursor-pointer"
+          >
+            Partner
+          </button>
+          <button 
             onClick={() => onNavigate('contact')}
             className="text-secondary hover:opacity-80 transition-opacity cursor-pointer"
           >

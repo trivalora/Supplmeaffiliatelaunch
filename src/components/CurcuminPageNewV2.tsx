@@ -1,15 +1,24 @@
-import { Activity, Shield, Pill, CheckCircle2, AlertCircle, Leaf, Droplet, Brain, Heart, TrendingUp, Zap, Smile, Users, Stethoscope, Flame } from 'lucide-react';
-import { KnowledgebaseTemplate, type KnowledgebasePageProps } from './KnowledgebaseTemplate';
+import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
+import { 
+  Flame, Shield, Heart, Brain, Activity, Bone,
+  AlertCircle, Droplet, FlaskConical, Leaf,
+  Clock, CheckCircle2, Users
+} from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
-interface CurcuminPageNewV2Props {
+export function CurcuminPageNewV2({ 
+  onNavigate,
+  onContactClick, 
+  onLegalClick 
+}: { 
   onNavigate?: (page: PageKey) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}
-
-export function CurcuminPageNewV2({ onNavigate, onContactClick, onLegalClick }: CurcuminPageNewV2Props) {
+  onContactClick?: () => void; 
+  onLegalClick?: () => void 
+}) {
+  const benefits = ['inflammation reduction', 'joint health', 'antioxidant support', 'brain health', 'pain relief'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Curcumin",
     onNavigate,
@@ -453,5 +462,10 @@ export function CurcuminPageNewV2({ onNavigate, onContactClick, onLegalClick }: 
     onLegalClick
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Curcumin', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

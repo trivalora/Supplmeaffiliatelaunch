@@ -1,10 +1,11 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Users, Shield, Activity, Droplet, AlertCircle,
-  Pill, Baby, Zap, FlaskConical
+  Heart, Activity, Droplet, Zap, AlertCircle, Shield,
+  Pill, FlaskConical, Apple, Users, Brain
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
-import ironHeroImage from 'figma:asset/4d2531edd86e143eba53b8d5876aeca2213a89ac.png';
+import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function IronPageNewV2({ 
   onNavigate,
@@ -15,12 +16,14 @@ export function IronPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['energy levels', 'oxygen transport', 'anemia prevention', 'cognitive function', 'immune support'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Iron",
     onNavigate,
     currentPage: "ironv2",
     heroDescription: "Evidence-based overview of an essential mineral with meta-analytic support for treating iron deficiency, anemia across all ages, and improving outcomes in heart failure and chronic kidney disease.",
-    heroImageUrl: ironHeroImage,
+    heroImageUrl: getSupplementImage("iron"),
     
     overviewTitle: "What is Iron?",
     overviewContent: (
@@ -59,7 +62,7 @@ export function IronPageNewV2({
     
     benefits: [
       {
-        icon: Baby,
+        icon: Apple,
         title: "Anemia Prevention in Children",
         description: "Meta-analyses show oral iron reduces anemia risk by 39% (RR 0.61), iron deficiency by 70% (RR 0.30), and iron deficiency anemia by 80-86% (RR 0.14) in children aged 4 months to 20 years"
       },
@@ -250,7 +253,7 @@ export function IronPageNewV2({
       signsOfEffectiveness: "For anemia: increased hemoglobin (6-7 g/L in children, 4-6.5 g/L in adults) and improved energy levels within 4-12 weeks. For heart failure: reduced symptoms and fewer hospitalizations over months. For fatigue in iron-deficient non-anemic adults: subjective improvement in tiredness (though objective physical capacity unchanged). Lab tests (hemoglobin, ferritin, transferrin saturation) confirm iron repletion. Dark stools are common with oral iron and not a safety concern.",
       outcomes: [
         {
-          icon: Baby,
+          icon: Apple,
           iconLabel: "Child Anemia",
           usage: "1-2mg/kg",
           bestTime: "Morning",
@@ -308,5 +311,10 @@ export function IronPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Iron', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

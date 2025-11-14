@@ -1,17 +1,23 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Brain, Shield, Activity, Pill, AlertCircle, 
-  Droplet, CheckCircle2, User, Zap, Eye, Baby
+  Shield, Heart, Brain, Activity, Zap, Eye,
+  AlertCircle, Pill, FlaskConical, Apple, Users
 } from 'lucide-react';
-
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function MultivitaminPageNewV2({ 
-  onNavigate
+  onNavigate,
+  onContactClick, 
+  onLegalClick 
 }: { 
   onNavigate?: (page: PageKey) => void;
+  onContactClick?: () => void; 
+  onLegalClick?: () => void 
 }) {
+  const benefits = ['nutrient insurance', 'immune support', 'energy metabolism', 'overall wellness', 'deficiency prevention'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Multivitamin",
     onNavigate,
@@ -32,7 +38,7 @@ export function MultivitaminPageNewV2({
         description: "Cover basic vitamin/mineral needs at or near RDA levels"
       },
       {
-        icon: User,
+        icon: Users,
         title: "Targeted formulas",
         description: "Designed for specific groups (men, women, seniors, prenatal)"
       },
@@ -60,7 +66,7 @@ export function MultivitaminPageNewV2({
         description: "Strong evidence for reduced risk of age-related cataracts in adults over 40"
       },
       {
-        icon: Baby,
+        icon: Apple,
         title: "Pregnancy Support",
         description: "Prenatal formulas prevent neural tube defects and support healthy birth outcomes"
       },
@@ -89,7 +95,7 @@ export function MultivitaminPageNewV2({
         description: "Some nutrients compete for absorption (e.g., calcium and iron, zinc and copper)"
       },
       {
-        icon: Droplet,
+        icon: FlaskConical,
         title: "Risk of Excess",
         description: "High doses of fat-soluble vitamins (A, D, E, K) can accumulate and cause toxicity"
       },
@@ -150,7 +156,7 @@ export function MultivitaminPageNewV2({
           signsOfEffectiveness: "Slowed progression of age-related macular degeneration (AMD) in those with intermediate AMD or advanced AMD in one eye (AREDS formula). Reduced risk of progression to advanced AMD by 25-28%. Long-term benefit requiring years of consistent use."
         },
         {
-          icon: Baby,
+          icon: Apple,
           iconLabel: "Prenatal Support",
           usage: "1 tablet",
           bestTime: "Morning with food",
@@ -173,7 +179,7 @@ export function MultivitaminPageNewV2({
     buyingGuideIntro: "When selecting a multivitamin:",
     buyingGuideItems: [
       {
-        icon: User,
+        icon: Users,
         title: "Choose appropriate formula",
         description: "Men's, women's, prenatal, or senior formulas address specific needs. Gender-specific or age-specific is often better than generic. Prenatal formulas should contain adequate folate (400-800 mcg as methylfolate), iron, and other key nutrients."
       },
@@ -310,5 +316,10 @@ export function MultivitaminPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Multivitamin', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

@@ -1,11 +1,11 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Shield, Activity, Droplet, AlertCircle, 
-  FlaskConical, Bone, Sparkles, Dumbbell, User,
-  Clock, Pill, CheckCircle2
+  Bone, Activity, Eye, Shield, Heart, Sparkles,
+  AlertCircle, Droplet, FlaskConical, Apple, Users
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function CollagenPeptidesPageNewV2({ 
   onNavigate,
@@ -16,6 +16,8 @@ export function CollagenPeptidesPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['skin elasticity', 'joint health', 'bone density', 'wound healing', 'hair and nail health'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Collagen Peptides",
     onNavigate,
@@ -69,7 +71,7 @@ export function CollagenPeptidesPageNewV2({
         description: "May support bone mineral density, particularly when combined with resistance training"
       },
       {
-        icon: Dumbbell,
+        icon: Activity,
         title: "Muscle Mass",
         description: "May help maintain or increase lean body mass, especially in older adults"
       },
@@ -98,7 +100,7 @@ export function CollagenPeptidesPageNewV2({
         description: "Can have a slight taste or texture that some find unpleasant"
       },
       {
-        icon: User,
+        icon: Users,
         title: "Incomplete Protein",
         description: "Lacks tryptophan and is not a complete protein source for general nutrition"
       }
@@ -300,7 +302,7 @@ export function CollagenPeptidesPageNewV2({
           intensity: "Moderate" as const
         },
         {
-          icon: Dumbbell,
+          icon: Activity,
           iconLabel: "Muscle Mass",
           usage: "15g",
           bestTime: "Anytime",
@@ -329,5 +331,10 @@ export function CollagenPeptidesPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Collagen Peptides', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

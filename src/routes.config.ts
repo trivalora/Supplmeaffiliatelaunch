@@ -2263,6 +2263,12 @@ export const STATIC_ROUTES: StaticRouteConfig[] = [
     title: 'Our Methodology',
     componentPath: './components/MethodologyPage',
     componentName: 'MethodologyPage'
+  },
+  {
+    key: 'partner',
+    title: 'Partner With Us',
+    componentPath: './components/PartnerPage',
+    componentName: 'PartnerPage'
   }
 ];
 

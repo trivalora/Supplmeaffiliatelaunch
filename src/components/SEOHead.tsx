@@ -48,6 +48,22 @@ export function SEOHead({
       element.content = content;
     };
 
+    // Helper function to set canonical URL
+    const setCanonicalUrl = (url: string) => {
+      let canonicalElement = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
+      
+      if (!canonicalElement) {
+        canonicalElement = document.createElement('link');
+        canonicalElement.rel = 'canonical';
+        document.head.appendChild(canonicalElement);
+      }
+      
+      canonicalElement.href = url;
+    };
+
+    // Set canonical URL (prevents duplicate content issues)
+    setCanonicalUrl(ogUrl);
+
     // Standard Meta Tags
     setMetaTag('description', description);
     setMetaTag('keywords', keywords);

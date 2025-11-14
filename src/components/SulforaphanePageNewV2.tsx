@@ -1,11 +1,11 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Brain, Shield, Activity, Leaf, AlertCircle,
-  FlaskConical, Pill, Zap, Sparkles,
-  Clock, CheckCircle2, Users
+  Shield, Brain, Heart, Activity, Flame, Leaf,
+  AlertCircle, Droplet, FlaskConical, Apple, Users
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function SulforaphanePageNewV2({ 
   onNavigate,
@@ -16,6 +16,8 @@ export function SulforaphanePageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['antioxidant support', 'detoxification', 'inflammation reduction', 'neuroprotection', 'cellular health'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Sulforaphane",
     onNavigate,
@@ -75,12 +77,12 @@ export function SulforaphanePageNewV2({
         description: "Activates Nrf2 pathway, boosting the body's own antioxidant and detox enzyme production"
       },
       {
-        icon: Zap,
+        icon: Flame,
         title: "Metabolic Health",
         description: "Promising effects on blood sugar control and inflammation markers in cardiometabolic conditions"
       },
       {
-        icon: Sparkles,
+        icon: Apple,
         title: "Neuroprotection",
         description: "Preclinical evidence suggests protective effects on brain cells from oxidative damage"
       }
@@ -99,7 +101,7 @@ export function SulforaphanePageNewV2({
         description: "Very high intake of raw cruciferous vegetables may affect thyroid function in susceptible individuals; typical supplement doses appear safe"
       },
       {
-        icon: Pill,
+        icon: Shield,
         title: "Age-Specific Data Limited",
         description: "Most ASD studies did not specify age ranges; cardiovascular studies focused on middle-aged adults (46-58 years)"
       },
@@ -162,7 +164,7 @@ export function SulforaphanePageNewV2({
           intensity: "Moderate" as const
         },
         {
-          icon: Zap,
+          icon: Flame,
           iconLabel: "Metabolic Markers",
           usage: "112-225 µmol",
           bestTime: "with food",
@@ -180,7 +182,7 @@ export function SulforaphanePageNewV2({
         description: "Look for stabilized sulforaphane or glucoraphanin + myrosinase combination. Meta-analyses used broccoli sprout preparations in various forms (powder, capsules, fresh/dried)."
       },
       {
-        icon: Pill,
+        icon: Shield,
         title: "Dosage clarity",
         description: "Check for actual sulforaphane content (mg) or sulforaphane yield (µmol), not just broccoli extract weight. Studies showing benefits used 112-225 µmol or equivalent to 5-10g broccoli sprouts daily."
       },
@@ -253,5 +255,10 @@ export function SulforaphanePageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Sulforaphane', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function Omega3PageNewV2({ 
   onNavigate,
@@ -16,6 +17,8 @@ export function Omega3PageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['heart health', 'brain function', 'inflammation reduction', 'eye health', 'triglyceride reduction'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Omega-3",
     onNavigate,
@@ -311,5 +314,10 @@ export function Omega3PageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Omega-3', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

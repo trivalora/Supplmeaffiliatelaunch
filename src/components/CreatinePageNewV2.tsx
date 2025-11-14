@@ -1,11 +1,12 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Zap, Dumbbell, Brain, Shield, AlertCircle, 
-  Pill, Activity, FlaskConical, TrendingUp, Droplet,
-  Clock, CheckCircle2, Users, FileText
+  Zap, Activity, Brain, TrendingUp, Dumbbell, Heart,
+  AlertCircle, Droplet, FlaskConical, Apple,
+  Clock, CheckCircle2, Users
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function CreatinePageNewV2({ 
   onNavigate,
@@ -16,6 +17,8 @@ export function CreatinePageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['muscle strength', 'exercise performance', 'muscle mass', 'cognitive function', 'power output'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Creatine",
     onNavigate,
@@ -36,7 +39,7 @@ export function CreatinePageNewV2({
     ),
     dietarySources: [
       {
-        icon: Pill,
+        icon: Apple,
         title: "Creatine monohydrate",
         description: "Most researched and cheapest form—gold standard across all meta-analyses"
       },
@@ -203,7 +206,7 @@ export function CreatinePageNewV2({
     buyingGuideIntro: "When shopping for creatine (based on clinical evidence):",
     buyingGuideItems: [
       {
-        icon: Pill,
+        icon: Apple,
         title: "Form",
         description: "Creatine monohydrate is the gold standard—all 10 meta-analyses used monohydrate. Micronized versions dissolve better but show no efficacy advantage in trials."
       },
@@ -362,5 +365,10 @@ export function CreatinePageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Creatine', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

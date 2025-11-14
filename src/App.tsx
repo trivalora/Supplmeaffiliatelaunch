@@ -39,6 +39,7 @@ const LegalDisclaimerPage = lazy(() => import('./components/LegalDisclaimerPage'
 const PrivacyPolicyPage = lazy(() => import('./components/PrivacyPolicyPage').then(m => ({ default: m.PrivacyPolicyPage })));
 const TermsOfServicePage = lazy(() => import('./components/TermsOfServicePage').then(m => ({ default: m.TermsOfServicePage })));
 const MethodologyPage = lazy(() => import('./components/MethodologyPage').then(m => ({ default: m.MethodologyPage })));
+const PartnerPage = lazy(() => import('./components/PartnerPage').then(m => ({ default: m.PartnerPage })));
 
 // Lazy load glossary term pages
 const RCTPage = lazy(() => import('./components/glossary/RCTPage').then(m => ({ default: m.RCTPage })));
@@ -313,6 +314,7 @@ export default function App() {
     if (currentPage === 'privacy') return <PrivacyPolicyPage />;
     if (currentPage === 'terms') return <TermsOfServicePage />;
     if (currentPage === 'methodology') return <MethodologyPage />;
+    if (currentPage === 'partner') return <PartnerPage onNavigate={navigateTo} />;
 
     // Glossary Pages
     if (currentPage === 'rct') return <RCTPage onNavigate={navigateTo} />;

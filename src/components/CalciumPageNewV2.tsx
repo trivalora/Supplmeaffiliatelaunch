@@ -1,36 +1,23 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, 
-  Brain, 
-  Shield, 
-  Activity, 
-  Droplet, 
-  AlertCircle, 
-  Bone, 
-  Pill, 
-  Users, 
-  Baby,
-  Clock,
-  CheckCircle2
+  Bone, Heart, Activity, Shield, Zap, AlertCircle,
+  Pill, FlaskConical, Apple, Users, Droplet
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function CalciumPageNewV2({ 
   onNavigate,
   onContactClick, 
-  onLegalClick,
-  onPrivacyClick,
-  onTermsClick,
-  onCookiesClick
+  onLegalClick 
 }: { 
   onNavigate?: (page: PageKey) => void;
   onContactClick?: () => void; 
-  onLegalClick?: () => void;
-  onPrivacyClick?: () => void;
-  onTermsClick?: () => void;
-  onCookiesClick?: () => void;
+  onLegalClick?: () => void 
 }) {
+  const benefits = ['bone health', 'muscle function', 'nerve transmission', 'blood clotting', 'osteoporosis prevention'];
+  
   const pageProps: KnowledgebasePageProps = {
     // Hero Section
     supplementName: "Calcium",
@@ -83,7 +70,7 @@ export function CalciumPageNewV2({
         description: "Essential for preventing bone loss, especially in elderly and postmenopausal populations"
       },
       {
-        icon: Baby,
+        icon: Apple,
         title: "Pre-eclampsia risk",
         description: "Strong evidence for reduced pre-eclampsia risk in pregnancy, particularly in at-risk groups"
       },
@@ -206,7 +193,7 @@ export function CalciumPageNewV2({
         description: "Calcium citrate (better absorbed, can take without food) vs. calcium carbonate (requires food, less expensive, higher elemental calcium)"
       },
       {
-        icon: CheckCircle2,
+        icon: Zap,
         title: "Elemental calcium content",
         description: "Check the label for 'elemental calcium' not just total compound weight. Aim for 500-600mg elemental calcium per dose."
       },
@@ -319,5 +306,10 @@ export function CalciumPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Calcium', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

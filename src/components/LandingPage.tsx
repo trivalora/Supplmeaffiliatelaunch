@@ -12,6 +12,7 @@ import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import imgForestAerial from "figma:asset/4bdf2cba5e05e7d70b9f1402336825a64b04e236.png";
 import imgCrystalBallWaterfall from "figma:asset/f69f346bde9ce1223aa8e8e9265be307b22261e4.png";
+import { SEOHead } from './SEOHead';
 
 import { PageKey } from '../routes.config';
 import { getProductsBySupplementName } from './KnowledgebaseTemplate';
@@ -762,6 +763,7 @@ export function LandingPage(props: LandingPageProps) {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead />
       <Header onNavigate={props.onNavigate} />
       
       <main data-page-content className="flex-1">

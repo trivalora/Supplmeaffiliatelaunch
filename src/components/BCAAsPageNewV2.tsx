@@ -1,15 +1,23 @@
-import { Activity, Shield, Pill, CheckCircle2, Calendar, TrendingUp, AlertCircle, Zap, Heart, Dumbbell, Moon } from 'lucide-react';
-import { KnowledgebaseTemplate, type KnowledgebasePageProps } from './KnowledgebaseTemplate';
+import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
+import { 
+  Dumbbell, Zap, Activity, TrendingUp, Shield, Heart,
+  AlertCircle, Droplet, FlaskConical, Apple, Users
+} from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
-interface BCAAsPageNewV2Props {
+export function BCAAsPageNewV2({ 
+  onNavigate,
+  onContactClick, 
+  onLegalClick 
+}: { 
   onNavigate?: (page: PageKey) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}
-
-export function BCAAsPageNewV2({ onNavigate, onContactClick, onLegalClick }: BCAAsPageNewV2Props) {
+  onContactClick?: () => void; 
+  onLegalClick?: () => void 
+}) {
+  const benefits = ['muscle recovery', 'exercise performance', 'muscle protein synthesis', 'fatigue reduction', 'muscle soreness'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "BCAAs",
     onNavigate,
@@ -248,5 +256,10 @@ export function BCAAsPageNewV2({ onNavigate, onContactClick, onLegalClick }: BCA
     ]
   };
   
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('BCAAs', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

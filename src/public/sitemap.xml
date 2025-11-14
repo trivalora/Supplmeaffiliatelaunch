@@ -37,10 +37,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://suppl.me/partner</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://suppl.me/contact</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
   
   <!-- Supplement Pages - V2 (17 supplements, 51 products) -->
   
-  <!-- Vitamins & Minerals (8 supplements, 19 products) -->
+  <!-- Vitamins & Minerals -->
   <url>
     <loc>https://suppl.me/vitamin-d</loc>
     <lastmod>2025-01-13</lastmod>
@@ -83,7 +97,7 @@
     <priority>0.8</priority>
   </url>
   
-  <!-- Performance & Fitness (5 supplements, 18 products) -->
+  <!-- Performance & Fitness -->
   <url>
     <loc>https://suppl.me/creatine</loc>
     <lastmod>2025-01-13</lastmod>
@@ -119,7 +133,7 @@
     <priority>0.8</priority>
   </url>
   
-  <!-- Specialized Health (4 supplements, 14 products) -->
+  <!-- Specialized Health -->
   <url>
     <loc>https://suppl.me/omega-3</loc>
     <lastmod>2025-01-13</lastmod>
@@ -161,7 +175,205 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
+  <!-- Glossary Pages (198 terms) -->
+  <url><loc>https://suppl.me/rct</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/metaanalysis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/empiricalevidence</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/anecdotalevidence</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/placebo</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/peerreviewed</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/statisticalsignificance</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/clinicalsignificance</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/subgroupanalysis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/efficacy</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/singleblinded</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/doubleblinded</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/bioavailability</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/inflammation</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/oxidativestress</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/antioxidant</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://suppl.me/insulinresistance</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/biomarker</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/absorption</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/metabolism</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/cardiovascular</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/dosedependent</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/homocysteine</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/bonedensity</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/glycemiccontrol</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/cognitivefunction</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/anemia</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/triglycerides</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/cortisol</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/thyroidfunction</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/gutmicrobiome</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/immunesystem</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/muscleproteinsynthesis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/neurotransmitter</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/electrolytes</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/jointhealth</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/epa</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/dha</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/omega3</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/ala</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/lactobacillus</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/bifidobacterium</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/scfa</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/butyrate</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/propionate</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/acetate</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/dysbiosis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/fos</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/gos</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/inulintypefructans</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/leucine</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/isoleucine</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/valine</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/essentialaminoacids</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/aminoacids</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/protein</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hydrolyzed</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/glycine</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/proline</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hydroxyproline</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hba1c</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/homair</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/insulin</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/glucagon</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/bloodglucose</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/glucosemetabolism</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/prediabetes</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/metabolicsyndrome</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/systolic</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/diastolic</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/bloodpressure</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hypertensive</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/normotensive</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/endothelium</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/nitricoxide</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/fmd</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/atherosclerosis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/ldlcholesterol</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hdlcholesterol</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/vldl</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/oxidizedldl</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/crp</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/il6</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/il1</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/tnfalpha</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/cytokines</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/nfkb</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/freeradicals</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/oxidativedamage</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/mda</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/eightohdig</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/lipidperoxidation</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/glutathione</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/superoxidedismutase</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/catalase</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/glutathioneperoxidase</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/tac</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/nrf2</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/polyphenols</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/flavonoids</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/carotenoids</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/betacarotene</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/lycopene</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/resveratrol</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/coenzymeq10</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/phosphocreatine</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/atp</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/mitochondria</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/creatinekinase</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/loadingphase</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/maintenancedose</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/saturation</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/doms</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/mtor</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/proteinsynthesis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/anabolicresistance</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hemeiron</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/nonhemeiron</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/ferrousiron</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/ferriciron</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hemoglobin</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/myoglobin</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/serum</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/plasma</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/serum25ohd</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/deficiency</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/vitamindeficiency</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/rickets</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/osteomalacia</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/osteoporosis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/calciumcarbonate</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/calciumcitrate</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/magnesiumoxide</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/magnesiumcitrate</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/chelated</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/mineral</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/macromineral</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/folicacid</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/methylfolate</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/methylcobalamin</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/micronized</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/sublingual</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/pharmacokinetics</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/halflife</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/therapeuticdose</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/tolerableupperintakelevel</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/adverseeffects</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/contraindications</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/druginteractions</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/systematicreview</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/cohortstudy</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/crosssectionalstudy</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/observationalstudy</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/effectsize</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hedgesg</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/smd</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/wmd</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/ci</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/rr</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/or</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/arr</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/grade</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/pedro</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/thirdpartytesting</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/standardizedextract</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/adaptogen</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/synergisticeffect</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/sleepquality</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/satiety</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/glp1</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/pyy</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/phytates</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/oxalates</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/enterocytes</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/colonocytes</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/chylomicrons</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/eicosanoids</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/resolvins</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/arachidonicacid</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/ibs</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/fodmap</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/sibo</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/inflammatoryboweldisease</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/ulcerativecolitis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hyperglycemia</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/preeclampsia</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/rheumatoidarthritis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/pms</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/fibrinogen</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/esr</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/bmi</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/faecalibacterium</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/akkermansia</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/bacteroides</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/pancreatitis</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://suppl.me/hepaticencephalopathy</loc><lastmod>2025-01-13</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
   <!-- Legal Pages -->
   <url>
     <loc>https://suppl.me/privacy</loc>
@@ -196,13 +408,6 @@
     <lastmod>2025-01-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-  </url>
-  
-  <url>
-    <loc>https://suppl.me/contact</loc>
-    <lastmod>2025-01-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
   </url>
 
 </urlset>

@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function VitaminDPageNewV2({ 
   onNavigate,
@@ -16,6 +17,8 @@ export function VitaminDPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['bone health', 'immune function', 'mood support', 'cardiovascular health', 'muscle function'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Vitamin D",
     onNavigate,
@@ -295,5 +298,10 @@ export function VitaminDPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Vitamin D', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

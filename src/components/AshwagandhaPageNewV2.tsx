@@ -1,17 +1,24 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
-import { getSupplementImage } from '../utils/supplementImages';
 import { 
-  Brain, Shield, Heart, AlertCircle, Pill, Activity, 
-  Moon, TrendingUp, Zap, Clock, CheckCircle2, Smile 
+  Brain, Shield, TrendingDown, Zap, Moon, Heart,
+  AlertCircle, Droplet, FlaskConical, Leaf,
+  Clock, CheckCircle2, Users
 } from 'lucide-react';
-
 import { PageKey } from '../routes.config';
+import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function AshwagandhaPageNewV2({ 
-  onNavigate
+  onNavigate,
+  onContactClick, 
+  onLegalClick 
 }: { 
   onNavigate?: (page: PageKey) => void;
+  onContactClick?: () => void; 
+  onLegalClick?: () => void 
 }) {
+  const benefits = ['stress reduction', 'anxiety relief', 'cortisol management', 'sleep quality', 'cognitive function'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Ashwagandha",
     onNavigate,
@@ -314,5 +321,10 @@ export function AshwagandhaPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Ashwagandha', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

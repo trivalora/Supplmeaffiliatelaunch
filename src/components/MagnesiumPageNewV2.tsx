@@ -4,6 +4,7 @@ import {
   Pill, Zap, Apple, FlaskConical, User, Users, BarChart3
 } from 'lucide-react';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function MagnesiumPageNewV2({ 
   onNavigate,
@@ -14,6 +15,8 @@ export function MagnesiumPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['blood pressure reduction', 'glucose metabolism', 'sleep quality', 'muscle function', 'bone health'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Magnesium",
     onNavigate,
@@ -297,5 +300,10 @@ export function MagnesiumPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Magnesium', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

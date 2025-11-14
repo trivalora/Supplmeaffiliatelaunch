@@ -1,11 +1,11 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Brain, Shield, Activity, Droplet, AlertCircle,
-  FlaskConical, Pill, Leaf, Users,
-  Clock, CheckCircle2, Bone, Flame
+  Heart, Shield, Activity, Droplet, Brain, TrendingDown,
+  AlertCircle, Pill, FlaskConical, Apple, Users
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function PrebioticsPageNewV2({ 
   onNavigate,
@@ -16,6 +16,8 @@ export function PrebioticsPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['gut microbiome health', 'digestive support', 'immune function', 'mineral absorption', 'metabolic health'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Prebiotics",
     onNavigate,
@@ -31,9 +33,9 @@ export function PrebioticsPageNewV2({
     ),
     dietarySources: [
       {
-        icon: Leaf,
-        title: "Vegetables",
-        description: "Garlic, onions, leeks, asparagus, Jerusalem artichokes"
+        icon: Apple,
+        title: "Fruits",
+        description: "Bananas (especially under-ripe), apples, berries"
       },
       {
         icon: Activity,
@@ -42,8 +44,8 @@ export function PrebioticsPageNewV2({
       },
       {
         icon: Droplet,
-        title: "Fruits",
-        description: "Bananas (especially under-ripe), apples, berries"
+        title: "Vegetables",
+        description: "Garlic, onions, leeks, asparagus, Jerusalem artichokes"
       }
     ],
     additionalOverviewContent: (
@@ -309,5 +311,10 @@ export function PrebioticsPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Prebiotics', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }

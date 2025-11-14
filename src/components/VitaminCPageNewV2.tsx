@@ -1,11 +1,12 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Brain, Shield, Activity, Droplet, AlertCircle,
-  FlaskConical, Pill, Zap, Thermometer,
-  Clock, CheckCircle2, Wind, TrendingDown
+  Heart, Shield, Activity, Zap, Brain, Sun,
+  AlertCircle, Droplet, FlaskConical, Apple,
+  Clock, CheckCircle2, Users
 } from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
+import { SEOHead, getSupplementSEO } from './SEOHead';
 
 export function VitaminCPageNewV2({ 
   onNavigate,
@@ -16,6 +17,8 @@ export function VitaminCPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const benefits = ['immune support', 'antioxidant protection', 'collagen synthesis', 'iron absorption', 'skin health'];
+  
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Vitamin C",
     onNavigate,
@@ -54,9 +57,9 @@ export function VitaminCPageNewV2({
     
     benefits: [
       {
-        icon: Wind,
-        title: "Common Cold Duration",
-        description: "Meta-analytic evidence shows 8% reduction in adults and 13-14% reduction in children, with strongest effects in physically active individuals"
+        icon: Zap,
+        title: "Immune Support",
+        description: "Enhances immune function and reduces common cold duration"
       },
       {
         icon: Heart,
@@ -74,9 +77,9 @@ export function VitaminCPageNewV2({
         description: "Modest improvements in glycemic control (HbA1c -0.54%) and lipid profiles in adults with type 2 diabetes"
       },
       {
-        icon: Thermometer,
-        title: "Community-Acquired Pneumonia",
-        description: "Significant reduction in hospital length of stay (SMD -0.59) with trending mortality benefits"
+        icon: Apple,
+        title: "Skin Health",
+        description: "Supports collagen synthesis and skin health"
       }
     ],
     
@@ -88,7 +91,7 @@ export function VitaminCPageNewV2({
         description: "High doses (>2000mg) may cause diarrhea, nausea, or abdominal cramps in some individuals"
       },
       {
-        icon: Pill,
+        icon: FlaskConical,
         title: "Limited Prevention Benefit",
         description: "Only 3-4% reduction in common cold incidence in general population; not recommended for routine cold prevention except in physically stressed individuals"
       },
@@ -252,7 +255,7 @@ export function VitaminCPageNewV2({
           intensity: "Moderate" as const
         },
         {
-          icon: TrendingDown,
+          icon: Zap,
           iconLabel: "Metabolic Health",
           usage: "500mg-2g",
           bestTime: "with food",
@@ -286,5 +289,10 @@ export function VitaminCPageNewV2({
     ]
   };
 
-  return <KnowledgebaseTemplate {...pageProps} />;
+  return (
+    <>
+      <SEOHead {...getSupplementSEO('Vitamin C', benefits)} />
+      <KnowledgebaseTemplate {...pageProps} />
+    </>
+  );
 }
