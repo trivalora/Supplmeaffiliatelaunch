@@ -7,6 +7,13 @@ import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import { autolinkGlossaryTerms } from '../utils/glossaryAutolink';
 import { getProductsBySupplementName, type ProductData } from '../utils/supplementProductsData';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
+import { 
+  trackAffiliateClick, 
+  trackProductClick, 
+  trackOutboundLink,
+  trackAccordionToggle 
+} from '../utils/analytics';
+import { useSupplementTracking, useProductTracking } from '../hooks/useAnalytics';
 import {
   Collapsible,
   CollapsibleContent,
@@ -600,7 +607,7 @@ function BuyingGuideSection({
 }: Pick<KnowledgebasePageProps, 'buyingGuideItems' | 'buyingGuideIntro'>) {
   if (!buyingGuideItems || buyingGuideItems.length === 0) return null;
 
-  // Helper function to parse description text and convert certification names to links
+  // Helper function to parse description text and convert certification names to links with tracking
   const renderDescriptionWithLinks = (description: string | ReactNode) => {
     // If description is not a string (already processed as ReactNode), return as-is
     if (typeof description !== 'string') {
@@ -628,6 +635,14 @@ function BuyingGuideSection({
                 target="_blank"
                 rel="nofollow noreferrer"
                 className="text-primary hover:underline"
+                onClick={() => {
+                  trackOutboundLink(
+                    certificationLinks[part],
+                    part,
+                    'certification',
+                    'buying_guide'
+                  );
+                }}
               >
                 {part}
               </a>
@@ -759,8 +774,30 @@ function FurtherReadingSection({ furtherReading }: Pick<KnowledgebasePageProps, 
 
 // NOTE: ProductData interface and getProductsBySupplementName() are imported from '../utils/supplementProductsData'
 
-function AffiliateButtons({ amazonLink, iherbLink, iherbUnavailable }: { amazonLink: string; iherbLink?: string; iherbUnavailable?: boolean }) {
+function AffiliateButtons({ 
+  amazonLink, 
+  iherbLink, 
+  iherbUnavailable,
+  supplementName,
+  productName,
+  brand
+}: { 
+  amazonLink: string; 
+  iherbLink?: string; 
+  iherbUnavailable?: boolean;
+  supplementName: string;
+  productName: string;
+  brand: string;
+}) {
   const tooltipHandlers = useAffiliateTooltip();
+  
+  const handleAmazonClick = () => {
+    trackAffiliateClick('Amazon', supplementName, 'product_card');
+  };
+  
+  const handleIHerbClick = () => {
+    trackAffiliateClick('iHerb', supplementName, 'product_card');
+  };
   
   return (
     <div className="flex gap-2">
@@ -771,6 +808,7 @@ function AffiliateButtons({ amazonLink, iherbLink, iherbUnavailable }: { amazonL
         data-button-height="md"
         className="flex-1 bg-black rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-3"
         {...tooltipHandlers}
+        onClick={handleAmazonClick}
       >
         <img 
           src={imgAmazonButton} 
@@ -798,6 +836,7 @@ function AffiliateButtons({ amazonLink, iherbLink, iherbUnavailable }: { amazonL
           data-button-height="md"
           className="flex-1 px-3 rounded-lg transition-opacity hover:opacity-90 flex items-center justify-center bg-tertiary border border-secondary"
           {...tooltipHandlers}
+          onClick={handleIHerbClick}
         >
           <div className="h-6 w-6">
             <IHerbBadgeLogoRgb />
@@ -820,6 +859,20 @@ function AffiliateButtons({ amazonLink, iherbLink, iherbUnavailable }: { amazonL
 
 function ProductComparisonSection({ supplementName }: { supplementName: string }) {
   const supplements = getProductsBySupplementName(supplementName);
+  const { handleProductImpression } = useProductTracking(supplementName);
+
+  // Track product impressions when component mounts
+  useMemo(() => {
+    if (supplements.length > 0) {
+      const productData = supplements.map((product, index) => ({
+        name: product.name,
+        brand: product.brand,
+        retailer: 'Multiple',
+        position: index + 1,
+      }));
+      handleProductImpression(productData, 'bottom');
+    }
+  }, [supplements, handleProductImpression]);
 
   // Build description from structured fields with type labels
   const getDescriptionLines = (product: ProductData): Array<{ text: string; type: 'content' | 'weight' | 'flavor' | 'dietary' | 'extraNotice' }> => {
@@ -906,6 +959,9 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
                     amazonLink={product.amazonLink}
                     iherbLink={product.iherbLink}
                     iherbUnavailable={product.iherbUnavailable}
+                    supplementName={supplementName}
+                    productName={product.name}
+                    brand={product.brand}
                   />
                 </div>
               </div>

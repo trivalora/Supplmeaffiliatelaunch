@@ -3,7 +3,7 @@
 // ========================================
 
 import { useEffect } from 'react';
-import { initializeDataLayer, trackSessionStart } from '../utils/analytics';
+import { initializeDataLayer, trackSessionStart, trackSessionEnd } from '../utils/analytics';
 
 interface AnalyticsProviderProps {
   children: React.ReactNode;
@@ -27,6 +27,12 @@ export function AnalyticsProvider({
 
     // Track session start immediately (lightweight)
     trackSessionStart();
+
+    // Track session end on page unload
+    const handleBeforeUnload = () => {
+      trackSessionEnd();
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
 
     // PERFORMANCE OPTIMIZATION: Defer heavy analytics scripts until page is interactive
     // This prevents blocking the initial render
@@ -59,8 +65,15 @@ export function AnalyticsProvider({
     } else {
       // Wait for load event
       window.addEventListener('load', loadAnalyticsScripts);
-      return () => window.removeEventListener('load', loadAnalyticsScripts);
+      return () => {
+        window.removeEventListener('load', loadAnalyticsScripts);
+        window.removeEventListener('beforeunload', handleBeforeUnload);
+      };
     }
+
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
   }, [googleTagManagerId, googleAnalyticsId, hotjarId, clarityId]);
 
   return <>{children}</>;

@@ -19,8 +19,17 @@ import {
   trackEngagement,
   trackAffiliateClick,
   trackCustomEvent,
+  trackOutboundLink,
+  trackProductClick,
+  trackProductImpression,
+  trackCTAClick,
+  trackCertificationClick,
+  trackGlossaryLinkClick,
+  trackTabInteraction,
+  track404,
 } from '../utils/analytics';
 import { scrollDepthTracker } from '../utils/scrollDepthTracker';
+import { timeTracker } from '../utils/timeTracker';
 
 export function useAnalytics() {
   return {
@@ -39,6 +48,14 @@ export function useAnalytics() {
     trackEngagement,
     trackAffiliateClick,
     trackCustomEvent,
+    trackOutboundLink,
+    trackProductClick,
+    trackProductImpression,
+    trackCTAClick,
+    trackCertificationClick,
+    trackGlossaryLinkClick,
+    trackTabInteraction,
+    track404,
   };
 }
 
@@ -54,9 +71,13 @@ export function usePageViewTracking(pageName: string, pageCategory: string = 'ge
     // Initialize scroll depth tracking
     scrollDepthTracker.initialize(pageName);
 
+    // Initialize time tracking
+    timeTracker.initialize(pageName);
+
     // Cleanup on unmount
     return () => {
       scrollDepthTracker.reset();
+      timeTracker.reset();
     };
   }, [pageName, pageCategory]);
 }
@@ -76,9 +97,13 @@ export function useSupplementTracking(supplementName: string) {
     // Initialize scroll depth tracking
     scrollDepthTracker.initialize(supplementName);
 
+    // Initialize time tracking
+    timeTracker.initialize(supplementName);
+
     // Cleanup on unmount
     return () => {
       scrollDepthTracker.reset();
+      timeTracker.reset();
     };
   }, [supplementName]);
 
@@ -105,6 +130,42 @@ export function useRetailerTracking(supplementName: string) {
   );
 
   return { handleRetailerClick };
+}
+
+// ========================================
+// PRODUCT TRACKING HOOK
+// ========================================
+
+export function useProductTracking(supplementName: string) {
+  const handleProductClick = useCallback(
+    (
+      productName: string,
+      brand: string,
+      retailer: string,
+      position: number,
+      location: 'hero' | 'bottom' | 'comparison'
+    ) => {
+      trackProductClick(productName, brand, retailer, supplementName, position, location);
+    },
+    [supplementName]
+  );
+
+  const handleProductImpression = useCallback(
+    (
+      products: Array<{
+        name: string;
+        brand: string;
+        retailer: string;
+        position: number;
+      }>,
+      location: 'hero' | 'bottom' | 'comparison'
+    ) => {
+      trackProductImpression(products, supplementName, location);
+    },
+    [supplementName]
+  );
+
+  return { handleProductClick, handleProductImpression };
 }
 
 // ========================================
