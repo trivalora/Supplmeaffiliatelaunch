@@ -256,6 +256,11 @@ export default function App({ navigate, currentPath }: AppProps) {
     
     const path = pathname.replace(/^\/|\/$/g, ''); // Remove leading/trailing slashes
     
+    // Debug logging in development
+    if (typeof import.meta !== 'undefined' && import.meta.env?.DEV) {
+      console.log('[Routing Debug] pathname:', pathname, '-> path:', path);
+    }
+    
     if (!path || path === '') return 'landing';
     if (path === 'partner') return 'partner';
     if (path === 'about') return 'about';
