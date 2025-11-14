@@ -20,6 +20,16 @@ export function Footer({
 }: { 
   onNavigate: (page: PageKey) => void;
 }) {
+  const handleNavigation = (page: PageKey) => {
+    console.log('[Footer] Navigating to:', page);
+    console.log('[Footer] onNavigate is:', typeof onNavigate, onNavigate);
+    if (typeof onNavigate === 'function') {
+      onNavigate(page);
+    } else {
+      console.error('[Footer] onNavigate is not a function!', onNavigate);
+    }
+  };
+
   return (
     <div className="bg-primary w-full relative" data-layout-footer style={{ position: 'relative', zIndex: 10, borderTop: '1px solid rgba(224, 203, 168, 0.25)' }}>
       <div data-layout-container className="mx-auto">
@@ -38,37 +48,37 @@ export function Footer({
         {/* Links */}
         <div className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4">
           <button 
-            onClick={() => onNavigate('partner')}
+            onClick={() => handleNavigation('partner')}
             className="text-secondary hover:opacity-80 transition-opacity cursor-pointer"
           >
             Partner
           </button>
           <button 
-            onClick={() => onNavigate('contact')}
+            onClick={() => handleNavigation('contact')}
             className="text-secondary hover:opacity-80 transition-opacity cursor-pointer"
           >
             Contact Us
           </button>
           <button 
-            onClick={() => onNavigate('legal')}
+            onClick={() => handleNavigation('legal')}
             className="text-secondary hover:opacity-80 transition-opacity cursor-pointer"
           >
             Legal Notice
           </button>
           <button 
-            onClick={() => onNavigate('privacy')}
+            onClick={() => handleNavigation('privacy')}
             className="text-secondary hover:opacity-80 transition-opacity cursor-pointer"
           >
             Privacy Policy
           </button>
           <button 
-            onClick={() => onNavigate('cookies')}
+            onClick={() => handleNavigation('cookies')}
             className="text-secondary hover:opacity-80 transition-opacity cursor-pointer"
           >
             Cookie Policy
           </button>
           <button 
-            onClick={() => onNavigate('terms')}
+            onClick={() => handleNavigation('terms')}
             className="text-secondary hover:opacity-80 transition-opacity cursor-pointer"
           >
             Terms of Service

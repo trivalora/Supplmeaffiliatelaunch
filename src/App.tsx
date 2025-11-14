@@ -332,6 +332,8 @@ export default function App({ navigate, currentPath }: AppProps) {
   // PERFORMANCE: Wrap navigation handler in useCallback to prevent re-creation on every render
   // This ensures child components' useMemo dependencies remain stable
   const navigateTo = useCallback((page: PageKey) => {
+    console.log('[navigateTo] Called with page:', page);
+    console.log('[navigateTo] Will navigate to path:', `/${page}`);
     setCurrentPage(page);
     navigate(`/${page}`);
   }, [navigate]);
