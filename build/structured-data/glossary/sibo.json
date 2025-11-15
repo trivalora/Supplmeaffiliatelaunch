@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Small Intestinal Bacterial Overgrowth",
+    "description": "Excessive bacterial colonization of small intestine causing malabsorption and gastrointestinal symptoms",
+    "url": "https://suppl.me/glossary/sibo",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "SIBO"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Small Intestinal Bacterial Overgrowth",
+    "description": "Excessive bacterial colonization of small intestine causing malabsorption and gastrointestinal symptoms",
+    "url": "https://suppl.me/glossary/sibo"
+  }
+]

@@ -1,0 +1,993 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Suppl.me Glossary",
+  "url": "https://suppl.me/glossary",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Randomized Controlled Trial",
+      "url": "https://suppl.me/glossary/rct"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Meta-Analysis",
+      "url": "https://suppl.me/glossary/metaanalysis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Empirical Evidence",
+      "url": "https://suppl.me/glossary/empiricalevidence"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Anecdotal Evidence",
+      "url": "https://suppl.me/glossary/anecdotalevidence"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Placebo",
+      "url": "https://suppl.me/glossary/placebo"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Peer-reviewed",
+      "url": "https://suppl.me/glossary/peerreviewed"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Statistical Significance",
+      "url": "https://suppl.me/glossary/statisticalsignificance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Clinical Significance",
+      "url": "https://suppl.me/glossary/clinicalsignificance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Subgroup Analysis",
+      "url": "https://suppl.me/glossary/subgroupanalysis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Efficacy",
+      "url": "https://suppl.me/glossary/efficacy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Single Blinded",
+      "url": "https://suppl.me/glossary/singleblinded"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Double Blinded",
+      "url": "https://suppl.me/glossary/doubleblinded"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Bioavailability",
+      "url": "https://suppl.me/glossary/bioavailability"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Inflammation",
+      "url": "https://suppl.me/glossary/inflammation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Oxidative Stress",
+      "url": "https://suppl.me/glossary/oxidativestress"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Antioxidant",
+      "url": "https://suppl.me/glossary/antioxidant"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Insulin Resistance",
+      "url": "https://suppl.me/glossary/insulinresistance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Biomarker",
+      "url": "https://suppl.me/glossary/biomarker"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Absorption",
+      "url": "https://suppl.me/glossary/absorption"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Metabolism",
+      "url": "https://suppl.me/glossary/metabolism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cardiovascular",
+      "url": "https://suppl.me/glossary/cardiovascular"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dose-Dependent",
+      "url": "https://suppl.me/glossary/dosedependent"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Homocysteine",
+      "url": "https://suppl.me/glossary/homocysteine"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Bone Density",
+      "url": "https://suppl.me/glossary/bonedensity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Glycemic Control",
+      "url": "https://suppl.me/glossary/glycemiccontrol"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cognitive Function",
+      "url": "https://suppl.me/glossary/cognitivefunction"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Anemia",
+      "url": "https://suppl.me/glossary/anemia"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Triglycerides",
+      "url": "https://suppl.me/glossary/triglycerides"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Collagen",
+      "url": "https://suppl.me/glossary/collagen"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cortisol",
+      "url": "https://suppl.me/glossary/cortisol"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Thyroid Function",
+      "url": "https://suppl.me/glossary/thyroidfunction"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Gut Microbiome",
+      "url": "https://suppl.me/glossary/gutmicrobiome"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Immune System",
+      "url": "https://suppl.me/glossary/immunesystem"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Muscle Protein Synthesis",
+      "url": "https://suppl.me/glossary/muscleproteinsynthesis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Neurotransmitter",
+      "url": "https://suppl.me/glossary/neurotransmitter"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Electrolytes",
+      "url": "https://suppl.me/glossary/electrolytes"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Joint Health",
+      "url": "https://suppl.me/glossary/jointhealth"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sleep Quality",
+      "url": "https://suppl.me/glossary/sleepquality"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mitochondria",
+      "url": "https://suppl.me/glossary/mitochondria"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Protein",
+      "url": "https://suppl.me/glossary/protein"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Vitamin Deficiency",
+      "url": "https://suppl.me/glossary/vitamindeficiency"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Adaptogen",
+      "url": "https://suppl.me/glossary/adaptogen"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Standardized Mean Difference",
+      "url": "https://suppl.me/glossary/smd"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "GRADE",
+      "url": "https://suppl.me/glossary/grade"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "EPA",
+      "url": "https://suppl.me/glossary/epa"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "DHA",
+      "url": "https://suppl.me/glossary/dha"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Omega-3 Fatty Acids",
+      "url": "https://suppl.me/glossary/omega-3"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Blood Glucose",
+      "url": "https://suppl.me/glossary/bloodglucose"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Blood Pressure",
+      "url": "https://suppl.me/glossary/bloodpressure"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Protein Synthesis",
+      "url": "https://suppl.me/glossary/proteinsynthesis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Glucose Metabolism",
+      "url": "https://suppl.me/glossary/glucosemetabolism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Systolic Blood Pressure",
+      "url": "https://suppl.me/glossary/systolic"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Diastolic Blood Pressure",
+      "url": "https://suppl.me/glossary/diastolic"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Normotensive",
+      "url": "https://suppl.me/glossary/normotensive"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hypertensive",
+      "url": "https://suppl.me/glossary/hypertensive"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Macromineral",
+      "url": "https://suppl.me/glossary/macromineral"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mineral",
+      "url": "https://suppl.me/glossary/mineral"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "PMS (Premenstrual Syndrome)",
+      "url": "https://suppl.me/glossary/pms"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pre-eclampsia",
+      "url": "https://suppl.me/glossary/preeclampsia"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Osteoporosis",
+      "url": "https://suppl.me/glossary/osteoporosis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hydrolyzed",
+      "url": "https://suppl.me/glossary/hydrolyzed"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Glycine",
+      "url": "https://suppl.me/glossary/glycine"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Proline",
+      "url": "https://suppl.me/glossary/proline"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hydroxyproline",
+      "url": "https://suppl.me/glossary/hydroxyproline"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "ATP (Adenosine Triphosphate)",
+      "url": "https://suppl.me/glossary/atp"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "PEDro Scale",
+      "url": "https://suppl.me/glossary/pedro"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hemoglobin",
+      "url": "https://suppl.me/glossary/hemoglobin"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Myoglobin",
+      "url": "https://suppl.me/glossary/myoglobin"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Risk Ratio",
+      "url": "https://suppl.me/glossary/rr"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Odds Ratio",
+      "url": "https://suppl.me/glossary/or"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Flow-Mediated Dilation",
+      "url": "https://suppl.me/glossary/fmd"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Weighted Mean Difference",
+      "url": "https://suppl.me/glossary/wmd"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Interleukin-6",
+      "url": "https://suppl.me/glossary/il6"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Total Antioxidant Capacity",
+      "url": "https://suppl.me/glossary/tac"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Fibrinogen",
+      "url": "https://suppl.me/glossary/fibrinogen"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Interleukin-1",
+      "url": "https://suppl.me/glossary/il1"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Tumor Necrosis Factor-Alpha",
+      "url": "https://suppl.me/glossary/tnfalpha"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Malondialdehyde",
+      "url": "https://suppl.me/glossary/mda"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Glutathione",
+      "url": "https://suppl.me/glossary/glutathione"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "FODMAP",
+      "url": "https://suppl.me/glossary/fodmap"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Irritable Bowel Syndrome",
+      "url": "https://suppl.me/glossary/ibs"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Small Intestinal Bacterial Overgrowth",
+      "url": "https://suppl.me/glossary/sibo"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Galacto-oligosaccharides",
+      "url": "https://suppl.me/glossary/gos"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Inulin-type Fructans",
+      "url": "https://suppl.me/glossary/inulintypefructans"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Glucagon-Like Peptide-1",
+      "url": "https://suppl.me/glossary/glp1"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Peptide YY",
+      "url": "https://suppl.me/glossary/pyy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Absolute Risk Reduction",
+      "url": "https://suppl.me/glossary/arr"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Confidence Interval",
+      "url": "https://suppl.me/glossary/ci"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "HbA1c (Hemoglobin A1c)",
+      "url": "https://suppl.me/glossary/hba1c"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "CRP (C-Reactive Protein)",
+      "url": "https://suppl.me/glossary/crp"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "LDL Cholesterol",
+      "url": "https://suppl.me/glossary/ldlcholesterol"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "HDL Cholesterol",
+      "url": "https://suppl.me/glossary/hdlcholesterol"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "SCFA (Short-Chain Fatty Acids)",
+      "url": "https://suppl.me/glossary/scfa"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Standardized Extract",
+      "url": "https://suppl.me/glossary/standardizedextract"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Third-Party Testing",
+      "url": "https://suppl.me/glossary/thirdpartytesting"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Chelated Minerals",
+      "url": "https://suppl.me/glossary/chelated"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Micronized",
+      "url": "https://suppl.me/glossary/micronized"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Therapeutic Dose",
+      "url": "https://suppl.me/glossary/therapeuticdose"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Adverse Effects",
+      "url": "https://suppl.me/glossary/adverseeffects"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Contraindications",
+      "url": "https://suppl.me/glossary/contraindications"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Drug Interactions",
+      "url": "https://suppl.me/glossary/druginteractions"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sublingual Administration",
+      "url": "https://suppl.me/glossary/sublingual"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Polyphenols",
+      "url": "https://suppl.me/glossary/polyphenols"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Flavonoids",
+      "url": "https://suppl.me/glossary/flavonoids"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Carotenoids",
+      "url": "https://suppl.me/glossary/carotenoids"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Catalase",
+      "url": "https://suppl.me/glossary/catalase"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Glutathione Peroxidase (GPx)",
+      "url": "https://suppl.me/glossary/glutathioneperoxidase"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Coenzyme Q10 (CoQ10)",
+      "url": "https://suppl.me/glossary/coenzymeq10"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Resveratrol",
+      "url": "https://suppl.me/glossary/resveratrol"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "mTOR (Mechanistic Target of Rapamycin)",
+      "url": "https://suppl.me/glossary/mtor"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Effect Size",
+      "url": "https://suppl.me/glossary/effectsize"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Superoxide Dismutase",
+      "url": "https://suppl.me/glossary/superoxidedismutase"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cytokines",
+      "url": "https://suppl.me/glossary/cytokines"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Metabolic Syndrome",
+      "url": "https://suppl.me/glossary/metabolicsyndrome"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Atherosclerosis",
+      "url": "https://suppl.me/glossary/atherosclerosis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Rheumatoid Arthritis",
+      "url": "https://suppl.me/glossary/rheumatoidarthritis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Inflammatory Bowel Disease",
+      "url": "https://suppl.me/glossary/inflammatoryboweldisease"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dysbiosis",
+      "url": "https://suppl.me/glossary/dysbiosis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "ALA (Alpha-Linolenic Acid)",
+      "url": "https://suppl.me/glossary/ala"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Butyrate",
+      "url": "https://suppl.me/glossary/butyrate"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Propionate",
+      "url": "https://suppl.me/glossary/propionate"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Acetate",
+      "url": "https://suppl.me/glossary/acetate"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Leucine",
+      "url": "https://suppl.me/glossary/leucine"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Isoleucine",
+      "url": "https://suppl.me/glossary/isoleucine"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Valine",
+      "url": "https://suppl.me/glossary/valine"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Creatine Kinase",
+      "url": "https://suppl.me/glossary/creatinekinase"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Phosphocreatine",
+      "url": "https://suppl.me/glossary/phosphocreatine"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Eicosanoids",
+      "url": "https://suppl.me/glossary/eicosanoids"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Resolvins",
+      "url": "https://suppl.me/glossary/resolvins"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Phytates",
+      "url": "https://suppl.me/glossary/phytates"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Oxalates",
+      "url": "https://suppl.me/glossary/oxalates"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Amino Acids",
+      "url": "https://suppl.me/glossary/aminoacids"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Essential Amino Acids",
+      "url": "https://suppl.me/glossary/essentialaminoacids"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "BMI (Body Mass Index)",
+      "url": "https://suppl.me/glossary/bmi"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Observational Study",
+      "url": "https://suppl.me/glossary/observationalstudy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cohort Study",
+      "url": "https://suppl.me/glossary/cohortstudy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cross-Sectional Study",
+      "url": "https://suppl.me/glossary/crosssectionalstudy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Systematic Review",
+      "url": "https://suppl.me/glossary/systematicreview"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pharmacokinetics",
+      "url": "https://suppl.me/glossary/pharmacokinetics"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "HOMA-IR",
+      "url": "https://suppl.me/glossary/homair"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "NF-κB",
+      "url": "https://suppl.me/glossary/nfkb"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nrf2",
+      "url": "https://suppl.me/glossary/nrf2"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "VLDL",
+      "url": "https://suppl.me/glossary/vldl"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ferrous Iron",
+      "url": "https://suppl.me/glossary/ferrousiron"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ferric Iron",
+      "url": "https://suppl.me/glossary/ferriciron"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "HOMA-IR",
+      "url": "https://suppl.me/glossary/homa-ir"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pancreatitis",
+      "url": "https://suppl.me/glossary/pancreatitis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ulcerative Colitis",
+      "url": "https://suppl.me/glossary/ulcerativecolitis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Prediabetes",
+      "url": "https://suppl.me/glossary/prediabetes"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hyperglycemia",
+      "url": "https://suppl.me/glossary/hyperglycemia"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Rickets",
+      "url": "https://suppl.me/glossary/rickets"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Osteomalacia",
+      "url": "https://suppl.me/glossary/osteomalacia"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Akkermansia muciniphila",
+      "url": "https://suppl.me/glossary/akkermansia"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Anabolic Resistance",
+      "url": "https://suppl.me/glossary/anabolicresistance"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Arachidonic Acid",
+      "url": "https://suppl.me/glossary/arachidonicacid"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Bacteroides",
+      "url": "https://suppl.me/glossary/bacteroides"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Beta-Carotene",
+      "url": "https://suppl.me/glossary/betacarotene"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Bifidobacterium",
+      "url": "https://suppl.me/glossary/bifidobacterium"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Calcium Carbonate",
+      "url": "https://suppl.me/glossary/calciumcarbonate"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Calcium Citrate",
+      "url": "https://suppl.me/glossary/calciumcitrate"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Chylomicrons",
+      "url": "https://suppl.me/glossary/chylomicrons"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Colonocytes",
+      "url": "https://suppl.me/glossary/colonocytes"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "DOMS (Delayed Onset Muscle Soreness)",
+      "url": "https://suppl.me/glossary/doms"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deficiency",
+      "url": "https://suppl.me/glossary/deficiency"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "ESR (Erythrocyte Sedimentation Rate)",
+      "url": "https://suppl.me/glossary/esr"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "8-OHdG",
+      "url": "https://suppl.me/glossary/8ohdg"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Endothelium",
+      "url": "https://suppl.me/glossary/endothelium"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Enterocytes",
+      "url": "https://suppl.me/glossary/enterocytes"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "FOS (Fructooligosaccharides)",
+      "url": "https://suppl.me/glossary/fos"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Faecalibacterium prausnitzii",
+      "url": "https://suppl.me/glossary/faecalibacterium"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Folic Acid",
+      "url": "https://suppl.me/glossary/folicacid"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Free Radicals",
+      "url": "https://suppl.me/glossary/freeradicals"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Glucagon",
+      "url": "https://suppl.me/glossary/glucagon"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Half-Life",
+      "url": "https://suppl.me/glossary/halflife"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Heme Iron",
+      "url": "https://suppl.me/glossary/hemeiron"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hepatic Encephalopathy",
+      "url": "https://suppl.me/glossary/hepaticencephalopathy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Insulin",
+      "url": "https://suppl.me/glossary/insulin"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Lactobacillus",
+      "url": "https://suppl.me/glossary/lactobacillus"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Lipid Peroxidation",
+      "url": "https://suppl.me/glossary/lipidperoxidation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Loading Phase",
+      "url": "https://suppl.me/glossary/loadingphase"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Lycopene",
+      "url": "https://suppl.me/glossary/lycopene"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Magnesium Citrate",
+      "url": "https://suppl.me/glossary/magnesiumcitrate"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Magnesium Oxide",
+      "url": "https://suppl.me/glossary/magnesiumoxide"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Maintenance Dose",
+      "url": "https://suppl.me/glossary/maintenancedose"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Methylcobalamin",
+      "url": "https://suppl.me/glossary/methylcobalamin"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Methylfolate",
+      "url": "https://suppl.me/glossary/methylfolate"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nitric Oxide",
+      "url": "https://suppl.me/glossary/nitricoxide"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Non-Heme Iron",
+      "url": "https://suppl.me/glossary/nonhemeiron"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Oxidative Damage",
+      "url": "https://suppl.me/glossary/oxidativedamage"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Oxidized LDL",
+      "url": "https://suppl.me/glossary/oxidizedldl"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Plasma",
+      "url": "https://suppl.me/glossary/plasma"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Satiety",
+      "url": "https://suppl.me/glossary/satiety"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Saturation",
+      "url": "https://suppl.me/glossary/saturation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Serum 25(OH)D",
+      "url": "https://suppl.me/glossary/serum25ohd"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Serum",
+      "url": "https://suppl.me/glossary/serum"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Synergistic Effect",
+      "url": "https://suppl.me/glossary/synergisticeffect"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Tolerable Upper Intake Level",
+      "url": "https://suppl.me/glossary/tolerableupperintakelevel"
+    }
+  ]
+}

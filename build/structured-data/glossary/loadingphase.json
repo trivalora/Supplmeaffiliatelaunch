@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Loading Phase",
+    "description": "Initial period of higher supplement doses to rapidly saturate body stores",
+    "url": "https://suppl.me/glossary/loadingphase",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Loading Phase",
+    "description": "Initial period of higher supplement doses to rapidly saturate body stores",
+    "url": "https://suppl.me/glossary/loadingphase"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Biomarker",
+    "description": "A measurable biological indicator of health status or disease processes",
+    "url": "https://suppl.me/glossary/biomarker",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Biomarker",
+    "description": "A measurable biological indicator of health status or disease processes",
+    "url": "https://suppl.me/glossary/biomarker"
+  }
+]

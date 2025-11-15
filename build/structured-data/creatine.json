@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Creatine (V1 - Archived)",
+    "description": "Performance supplement for strength, power, and muscle growth",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Creatine (V1 - Archived)",
+    "description": "Performance supplement for strength, power, and muscle growth",
+    "about": "Creatine (V1 - Archived)",
+    "url": "https://suppl.me/creatine"
+  }
+]

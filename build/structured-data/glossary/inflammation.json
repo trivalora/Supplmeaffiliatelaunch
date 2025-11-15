@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Inflammation",
+    "description": "The body\\",
+    "url": "https://suppl.me/glossary/inflammation",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Inflammation",
+    "description": "The body\\",
+    "url": "https://suppl.me/glossary/inflammation"
+  }
+]

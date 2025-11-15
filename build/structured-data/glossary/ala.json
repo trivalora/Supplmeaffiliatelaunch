@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "ALA (Alpha-Linolenic Acid)",
+    "description": "Plant-based omega-3 fatty acid that converts poorly to EPA and DHA",
+    "url": "https://suppl.me/glossary/ala",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "ALA"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "ALA (Alpha-Linolenic Acid)",
+    "description": "Plant-based omega-3 fatty acid that converts poorly to EPA and DHA",
+    "url": "https://suppl.me/glossary/ala"
+  }
+]

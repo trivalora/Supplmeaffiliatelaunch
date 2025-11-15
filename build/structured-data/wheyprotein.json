@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Whey Protein (V1 - Archived)",
+    "description": "High-quality dairy protein for muscle mass, strength, and metabolic health",
+    "category": "Protein Supplements"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Whey Protein (V1 - Archived)",
+    "description": "High-quality dairy protein for muscle mass, strength, and metabolic health",
+    "about": "Whey Protein (V1 - Archived)",
+    "url": "https://suppl.me/wheyprotein"
+  }
+]

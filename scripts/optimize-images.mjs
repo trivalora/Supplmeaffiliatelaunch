@@ -12,7 +12,8 @@ import sharp from 'sharp';
 const projectRoot = process.cwd();
 const sourceDir = path.join(projectRoot, 'src', 'assets');
 const outDir = path.join(projectRoot, 'public', 'optimized');
-const widths = [640, 1280, 1920];
+// Include small sizes for icons/logos/thumbnails to avoid over-downloading on mobile
+const widths = [48, 64, 96, 128, 256, 640, 1280, 1920];
 
 function ensureDir(p) {
     if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });

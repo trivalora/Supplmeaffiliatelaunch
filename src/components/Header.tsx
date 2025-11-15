@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo, memo } from 'react';
 import imgLogo from "figma:asset/7157caff66020adbe0e259d3e2f8312044fb4dd5.png";
+import { ResponsivePicture } from './ResponsivePicture';
 import { Search, Menu, ChevronDown, X } from 'lucide-react';
 import { Input } from './ui/input';
 import { motion, AnimatePresence } from 'motion/react';
@@ -49,6 +50,14 @@ function Container() {
 }
 
 function Logo({ onClick }: { onClick?: () => void }) {
+  // Derive the base filename (without vite hash) for our /public/optimized assets
+  let base = '7157caff66020adbe0e259d3e2f8312044fb4dd5';
+  try {
+    const last = imgLogo.split('?')[0].split('/').pop() || '';
+    const cleaned = last.replace(/-[A-Za-z0-9_~.-]+\.(png|jpe?g)$/i, '.$1');
+    base = cleaned.replace(/\.(png|jpe?g)$/i, '');
+  } catch { }
+
   return (
     <div
       className="absolute left-4 md:left-[var(--page-padding-inline)] cursor-pointer flex items-end"
@@ -59,14 +68,22 @@ function Logo({ onClick }: { onClick?: () => void }) {
         zIndex: 100,
       }}
     >
-      <img
-        src={imgLogo}
-        alt="suppl.me"
-        className="h-[53px] w-auto"
-        loading="eager"
-        decoding="async"
-        fetchpriority="high"
-      />
+      <div className="h-[53px] w-auto">
+        <ResponsivePicture
+          file={`${base}.png`}
+          alt="suppl.me"
+          widths={[64, 96, 128, 256]}
+          sizes="53px"
+          fallbackSrc={imgLogo}
+          imgProps={{
+            loading: 'eager',
+            decoding: 'async',
+            // @ts-ignore
+            fetchpriority: 'high',
+            style: { height: '53px', width: 'auto' }
+          }}
+        />
+      </div>
     </div>
   );
 }
@@ -108,18 +125,35 @@ const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROU
             willChange: 'auto'
           }}
         >
-          <img
-            src={imageUrl}
-            alt={route.title}
-            className="w-full h-full object-cover"
-            style={{
-              pointerEvents: 'none',
-              userSelect: 'none'
-            }}
-            draggable={false}
-            loading="lazy"
-            decoding="async"
-          />
+          {(() => {
+            try {
+              const last = imageUrl.split('?')[0].split('/').pop() || '';
+              const cleaned = last.replace(/-[A-Za-z0-9_~.-]+\.(png|jpe?g)$/i, '.$1');
+              const base = cleaned.replace(/\.(png|jpe?g)$/i, '');
+              return (
+                <ResponsivePicture
+                  file={`${base}.png`}
+                  alt={route.title}
+                  widths={[64, 96, 128, 256]}
+                  sizes="38px"
+                  fallbackSrc={imageUrl}
+                  imgProps={{ className: 'w-full h-full object-cover', draggable: false as any }}
+                />
+              );
+            } catch {
+              return (
+                <img
+                  src={imageUrl}
+                  alt={route.title}
+                  className="w-full h-full object-cover"
+                  style={{ pointerEvents: 'none', userSelect: 'none' }}
+                  draggable={false}
+                  loading="lazy"
+                  decoding="async"
+                />
+              );
+            }
+          })()}
         </div>
       )}
 
@@ -167,8 +201,8 @@ function Link3({ onNavigate, onKnowledgebaseClick }: { onNavigate: (page: PageKe
           link.id = id;
           link.rel = 'preload';
           link.as = 'image';
-          // 640 is plenty for a 38px thumb
-          link.setAttribute('imagesrcset', `/optimized/${base}-640.avif 640w`);
+          // Use a small avif to minimize overhead; 96px is sufficient for crisp 2x DPR @38px
+          link.setAttribute('imagesrcset', `/optimized/${base}-96.avif 96w`);
           link.setAttribute('imagesizes', '38px');
           document.head.appendChild(link);
           cleanupIds.push(id);

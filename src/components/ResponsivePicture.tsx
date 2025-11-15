@@ -32,7 +32,16 @@ export function ResponsivePicture({
         <picture className={className as any} style={style}>
             <source type="image/avif" srcSet={toSet('avif')} sizes={sizes} />
             <source type="image/webp" srcSet={toSet('webp')} sizes={sizes} />
-            <img src={fallback} alt={alt} loading={imgProps.loading || 'lazy'} decoding={imgProps.decoding || 'async'} style={imgProps.style} className={imgProps.className} />
+            {/* Spread remaining props for better control (e.g., width/height/referrerPolicy) */}
+            <img
+                src={fallback}
+                alt={alt}
+                loading={imgProps.loading || 'lazy'}
+                decoding={imgProps.decoding || 'async'}
+                style={imgProps.style}
+                className={imgProps.className}
+                {...imgProps}
+            />
         </picture>
     );
 }

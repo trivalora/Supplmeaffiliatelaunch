@@ -1,32 +1,24 @@
-// Glossary DefinedTerm JSON-LD endpoint
+// Glossary DefinedTerm JSON-LD endpoint (redirects to static JSON)
 // GET /api/structured-data/glossary?term=rct
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { GLOSSARY_ROUTES } from '../../src/routes.config';
-import { getPathForKey } from '../../src/utils/routePaths';
-import { sendError, sendSuccess } from '../_lib/respond';
-
-function findTerm(slug: string) {
-  return GLOSSARY_ROUTES.find(r => r.key.toLowerCase() === slug.toLowerCase());
-}
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
-  const term = String(req.query.term || '').trim();
-  if (!term) return sendError(res, 'Missing term parameter', 'MISSING_PARAM');
-  const route = findTerm(term);
-  if (!route) return sendError(res, `Unknown glossary term: ${term}`, 'NOT_FOUND', 404);
+  const termRaw = req.query.term;
+  const term = Array.isArray(termRaw) ? termRaw[0] : String(termRaw || '').trim();
+  if (!term) {
+    res.status(400).json({ ok: false, error: { message: 'Missing term parameter', code: 'MISSING_PARAM' } });
+    return;
+  }
 
-  const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : (process.env.VITE_CANONICAL_BASE_URL || 'https://suppl.me');
-  const path = getPathForKey(route.key as any);
-  const url = `${baseUrl.replace(/\/$/, '')}${path}`;
-  const jsonld = {
-    '@context': 'https://schema.org',
-    '@type': 'DefinedTerm',
-    name: route.title,
-    termCode: route.abbreviation || route.key,
-    description: route.description,
-    url,
-    inDefinedTermSet: `${baseUrl.replace(/\/$/, '')}/glossary`
-  };
+  // Allow only safe slugs: lowercase letters, numbers, hyphen
+  if (!/^[a-z0-9\-]+$/.test(term)) {
+    res.status(400).json({ ok: false, error: { message: 'Invalid term format', code: 'INVALID_PARAM' } });
+    return;
+  }
 
-  return sendSuccess(res, { term: route.key, jsonld }, { generatedAt: new Date().toISOString(), ttlSeconds: 86400 });
+  const location = `/structured-data/glossary/${term}.json`;
+  // 307 preserves method; cache redirect lightly
+  res.setHeader('Cache-Control', 'public, max-age=300');
+  res.setHeader('Location', location);
+  res.status(307).end();
 }
