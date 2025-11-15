@@ -1,11 +1,11 @@
-import { Shield, Building2, MapPin, Mail, FileText } from 'lucide-react';
+import { Shield, Building2, MapPin, Mail } from 'lucide-react';
 import { LegalContactSection } from './LegalContactSection';
 import { SEOHead } from './SEOHead';
 
 export function LegalDisclaimerPage() {
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Legal Disclaimer - Important Information"
         description="Read our legal disclaimer regarding supplement information, medical advice, and liability limitations. Understand the scope and limitations of our service."
         keywords="legal disclaimer, liability, medical disclaimer, supplement information, legal notice"
@@ -13,7 +13,7 @@ export function LegalDisclaimerPage() {
       <div className="bg-background flex flex-col w-full min-h-screen" data-page-content>
         {/* Anchor for "top" navigation */}
         <div id="top" className="absolute" style={{ top: 'var(--header-height)' }}></div>
-        
+
         {/* Hero Section */}
         <div id="hero">
           <div className="flex-1 flex items-center justify-center px-6 py-16 md:py-24" style={{ backgroundColor: '#162F1C' }}>
@@ -40,7 +40,7 @@ export function LegalDisclaimerPage() {
                 {/* Company Information */}
                 <div className="bg-card border border-border rounded-[14px] p-8">
                   <div className="flex items-start gap-4 mb-6">
-                    <Building2 className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <Building2 className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div>
                       <h2 className="text-primary mb-4">Company Information</h2>
                       <div className="space-y-3 text-foreground">
@@ -55,7 +55,7 @@ export function LegalDisclaimerPage() {
                 {/* Registered Address */}
                 <div className="bg-card border border-border rounded-[14px] p-8">
                   <div className="flex items-start gap-4 mb-6">
-                    <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <MapPin className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div>
                       <h2 className="text-primary mb-4">Registered Address</h2>
                       <div className="text-foreground space-y-1">
@@ -71,7 +71,7 @@ export function LegalDisclaimerPage() {
                 {/* Contact Information */}
                 <div className="bg-card border border-border rounded-[14px] p-8">
                   <div className="flex items-start gap-4 mb-6">
-                    <Mail className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                    <Mail className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div className="w-full">
                       <h2 className="text-primary mb-4">Contact Information</h2>
                       <div className="space-y-4 text-foreground">

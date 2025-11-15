@@ -2,6 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_CANONICAL_BASE_URL?: string;
+  readonly VITE_GTM_ID?: string;
   // Add other public env vars here as needed
   readonly VITE_API_BASE_URL?: string; // optional override for API base
 }

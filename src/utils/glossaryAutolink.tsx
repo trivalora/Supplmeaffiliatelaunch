@@ -1,4 +1,5 @@
 import { ReactNode, useMemo } from 'react';
+import { trackGlossaryLinkClick } from './analytics';
 import {
   HoverCard,
   HoverCardContent,
@@ -539,21 +540,21 @@ let cachedSortedTerms: string[] | null = null;
 let cachedGlossaryTermLookup: Map<string, GlossaryTerm> | null = null;
 let cachedExternalLinkLookup: Map<string, ExternalLink> | null = null;
 
-function getOrCreateCachedData(): { 
-  pattern: RegExp; 
+function getOrCreateCachedData(): {
+  pattern: RegExp;
   sortedTerms: string[];
   glossaryLookup: Map<string, GlossaryTerm>;
   externalLookup: Map<string, ExternalLink>;
 } {
   if (cachedPattern && cachedSortedTerms && cachedGlossaryTermLookup && cachedExternalLinkLookup) {
-    return { 
-      pattern: cachedPattern, 
+    return {
+      pattern: cachedPattern,
       sortedTerms: cachedSortedTerms,
       glossaryLookup: cachedGlossaryTermLookup,
       externalLookup: cachedExternalLinkLookup
     };
   }
-  
+
   // Build lookup maps for faster term matching
   const glossaryLookup = new Map<string, GlossaryTerm>();
   GLOSSARY_TERMS.forEach(gt => {
@@ -561,36 +562,36 @@ function getOrCreateCachedData(): {
       glossaryLookup.set(term.toLowerCase(), gt);
     });
   });
-  
+
   const externalLookup = new Map<string, ExternalLink>();
   EXTERNAL_LINKS.forEach(el => {
     el.terms.forEach(term => {
       externalLookup.set(term.toLowerCase(), el);
     });
   });
-  
+
   // Build a single regex pattern that matches all terms (glossary + external)
   const allGlossaryTerms = GLOSSARY_TERMS.flatMap(gt => gt.terms);
   const allExternalTerms = EXTERNAL_LINKS.flatMap(el => el.terms);
   const allTerms = [...allGlossaryTerms, ...allExternalTerms];
-  
+
   // Sort by length (longest first) to match longer phrases before shorter ones
   const sortedTerms = [...allTerms].sort((a, b) => b.length - a.length);
-  
+
   // Escape special regex characters and create pattern
-  const escapedTerms = sortedTerms.map(term => 
+  const escapedTerms = sortedTerms.map(term =>
     term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   );
-  
+
   // Create regex with word boundaries for whole word matching
   const pattern = new RegExp(`\\b(${escapedTerms.join('|')})\\b`, 'gi');
-  
+
   // Cache for future use
   cachedPattern = pattern;
   cachedSortedTerms = sortedTerms;
   cachedGlossaryTermLookup = glossaryLookup;
   cachedExternalLinkLookup = externalLookup;
-  
+
   return { pattern, sortedTerms, glossaryLookup, externalLookup };
 }
 
@@ -600,41 +601,41 @@ function getOrCreateCachedData(): {
  */
 function findAllMatches(text: string): Match[] {
   const matches: Match[] = [];
-  
+
   // Get cached data (pattern + lookup maps)
   const { pattern, glossaryLookup, externalLookup } = getOrCreateCachedData();
-  
+
   // Reset regex lastIndex to avoid issues with global flag
   pattern.lastIndex = 0;
-  
+
   let match;
   while ((match = pattern.exec(text)) !== null) {
     const matchedText = match[0];
     const lowerMatchedText = matchedText.toLowerCase();
-    
+
     // Fast lookup using Map instead of array.find()
     const glossaryTerm = glossaryLookup.get(lowerMatchedText);
-    
+
     if (glossaryTerm) {
       // Check if this glossary term has any all-caps abbreviation terms
-      const abbreviationTerms = glossaryTerm.terms.filter(term => 
-        term === term.toUpperCase() && 
-        term.length >= 2 && 
+      const abbreviationTerms = glossaryTerm.terms.filter(term =>
+        term === term.toUpperCase() &&
+        term.length >= 2 &&
         /[A-Z]/.test(term)
       );
-      
+
       // If this term has abbreviations, check if matched text is one of them (exact case)
       if (abbreviationTerms.length > 0) {
         // Check if matchedText exactly matches one of the abbreviation terms
         const isExactAbbreviationMatch = abbreviationTerms.some(abbr => abbr === matchedText);
-        
+
         if (!isExactAbbreviationMatch) {
           // This is a case-insensitive match of an abbreviation (e.g., "or" matching "OR")
           // Skip it - we only want exact case matches for abbreviations
           continue;
         }
       }
-      
+
       // Either not an abbreviation term, or exact case match of abbreviation - create the link
       matches.push({
         start: match.index,
@@ -645,10 +646,10 @@ function findAllMatches(text: string): Match[] {
       });
       continue;
     }
-    
+
     // Fast lookup for external links
     const externalLink = externalLookup.get(lowerMatchedText);
-    
+
     if (externalLink) {
       matches.push({
         start: match.index,
@@ -660,7 +661,7 @@ function findAllMatches(text: string): Match[] {
       });
     }
   }
-  
+
   return matches;
 }
 
@@ -669,16 +670,16 @@ function findAllMatches(text: string): Match[] {
  */
 function mergeAdjacentMatches(matches: Match[], text: string): Match[] {
   if (matches.length === 0) return matches;
-  
+
   // Sort matches by start position
   matches.sort((a, b) => a.start - b.start);
-  
+
   const merged: Match[] = [];
   let current = matches[0];
-  
+
   for (let i = 1; i < matches.length; i++) {
     const next = matches[i];
-    
+
     // Check if next match is within 3 characters and links to the same page
     const gap = next.start - current.end;
     if (gap <= 3 && gap >= 0 && current.key === next.key) {
@@ -695,10 +696,10 @@ function mergeAdjacentMatches(matches: Match[], text: string): Match[] {
       current = next;
     }
   }
-  
+
   // Push the last match
   merged.push(current);
-  
+
   return merged;
 }
 
@@ -708,7 +709,7 @@ function mergeAdjacentMatches(matches: Match[], text: string): Match[] {
 function removeOverlaps(matches: Match[]): Match[] {
   const result: Match[] = [];
   const usedPositions = new Set<number>();
-  
+
   for (const match of matches) {
     let hasOverlap = false;
     for (let i = match.start; i < match.end; i++) {
@@ -717,7 +718,7 @@ function removeOverlaps(matches: Match[]): Match[] {
         break;
       }
     }
-    
+
     if (!hasOverlap) {
       result.push(match);
       for (let i = match.start; i < match.end; i++) {
@@ -725,7 +726,7 @@ function removeOverlaps(matches: Match[]): Match[] {
       }
     }
   }
-  
+
   return result;
 }
 
@@ -748,33 +749,33 @@ export function autolinkGlossaryTerms(
 
   // Find all matches
   let matches = findAllMatches(text);
-  
+
   // Filter out matches that link to the current page (prevent self-linking)
   if (currentPage) {
     matches = matches.filter(match => match.key !== currentPage);
   }
-  
+
   // Merge adjacent matches that link to the same page
   matches = mergeAdjacentMatches(matches, text);
-  
+
   // Remove any overlaps
   matches = removeOverlaps(matches);
-  
+
   // Sort by start position
   matches.sort((a, b) => a.start - b.start);
-  
+
   // Build result
   const result: ReactNode[] = [];
   let lastIndex = 0;
-  
+
   for (let i = 0; i < matches.length; i++) {
     const match = matches[i];
-    
+
     // Add text before the match
     if (match.start > lastIndex) {
       result.push(text.substring(lastIndex, match.start));
     }
-    
+
     // Add the linked term (external or internal)
     if (match.isExternal && match.url) {
       // External link
@@ -793,7 +794,7 @@ export function autolinkGlossaryTerms(
     } else {
       // Internal glossary link with hover card
       const glossaryData = GLOSSARY_DATA[match.key];
-      
+
       if (glossaryData) {
         result.push(
           <HoverCard key={`glossary-link-${match.start}-${i}`} openDelay={200} closeDelay={100}>
@@ -802,6 +803,7 @@ export function autolinkGlossaryTerms(
                 href="#"
                 onClick={(e) => {
                   e.preventDefault();
+                  try { trackGlossaryLinkClick(match.key, window.location.pathname); } catch { }
                   onNavigate(match.key);
                 }}
                 className="text-primary underline decoration-1 underline-offset-2 hover:text-primary/80 transition-colors cursor-pointer"
@@ -810,14 +812,18 @@ export function autolinkGlossaryTerms(
               </a>
             </HoverCardTrigger>
             <HoverCardContent className="w-80 bg-card border-2 border-secondary shadow-lg" side="top" align="start">
-              <div 
-                className="space-y-2 cursor-pointer" 
-                onClick={() => onNavigate(match.key)}
+              <div
+                className="space-y-2 cursor-pointer"
+                onClick={() => {
+                  try { trackGlossaryLinkClick(match.key, window.location.pathname); } catch { }
+                  onNavigate(match.key);
+                }}
                 role="button"
                 tabIndex={0}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
+                    try { trackGlossaryLinkClick(match.key, window.location.pathname); } catch { }
                     onNavigate(match.key);
                   }
                 }}
@@ -852,15 +858,15 @@ export function autolinkGlossaryTerms(
         );
       }
     }
-    
+
     lastIndex = match.end;
   }
-  
+
   // Add any remaining text
   if (lastIndex < text.length) {
     result.push(text.substring(lastIndex));
   }
-  
+
   return result.length > 0 ? result : [text];
 }
 
@@ -875,9 +881,9 @@ export function autolinkGlossaryContent(
   if (!onNavigate) {
     return content;
   }
-  
+
   const lines = content.split('\n');
-  
+
   return lines.map((line, lineIndex) => (
     <span key={`line-${lineIndex}`}>
       {autolinkGlossaryTerms(line, onNavigate, currentPage)}

@@ -4,7 +4,7 @@ import { SEOHead } from './SEOHead';
 export function MethodologyPage() {
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Research Methodology - Evidence-Based Supplement Guide"
         description="Learn about our rigorous research methodology for evaluating supplements. We combine academic research precision with modern technology to deliver reliable, evidence-based supplement information."
         keywords="supplement research methodology, evidence-based research, clinical studies, supplement evaluation, scientific research process"
@@ -38,11 +38,11 @@ export function MethodologyPage() {
             <h2 className="font-['Lora',_serif] leading-[40px] text-primary text-[28px] md:text-[32px] mb-12">
               How We Build Our Knowledge Base
             </h2>
-            
+
             <div className="flex flex-col gap-8">
               {/* Systematic Review Methodology */}
               <div className="flex flex-col lg:flex-row gap-6 items-start">
-                <div className="flex-shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
+                <div className="shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
                   <FlaskConical className="w-16 h-16 text-primary" />
                 </div>
                 <div className="flex-1 w-full bg-card rounded-[14px] border border-secondary p-6">
@@ -60,7 +60,7 @@ export function MethodologyPage() {
 
               {/* Comprehensive Databases */}
               <div className="flex flex-col lg:flex-row gap-6 items-start">
-                <div className="flex-shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
+                <div className="shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
                   <Database className="w-16 h-16 text-primary" />
                 </div>
                 <div className="flex-1 w-full bg-card rounded-[14px] border border-secondary p-6">
@@ -71,18 +71,18 @@ export function MethodologyPage() {
                     Our research team systematically searches the world's leading medical research databases to ensure complete coverage of the scientific literature:
                   </p>
                   <div className="space-y-3">
-                    <a 
-                      href="https://pubmed.ncbi.nlm.nih.gov/" 
-                      target="_blank" 
+                    <a
+                      href="https://pubmed.ncbi.nlm.nih.gov/"
+                      target="_blank"
                       rel="nofollow noopener noreferrer"
                       className="flex items-center gap-2 font-['Lato',_sans-serif] font-normal leading-[24px] text-primary text-[14px] hover:underline"
                     >
                       <ExternalLink className="w-4 h-4" />
                       PubMed (National Institutes of Health)
                     </a>
-                    <a 
-                      href="https://clinicaltrials.gov/" 
-                      target="_blank" 
+                    <a
+                      href="https://clinicaltrials.gov/"
+                      target="_blank"
                       rel="nofollow noopener noreferrer"
                       className="flex items-center gap-2 font-['Lato',_sans-serif] font-normal leading-[24px] text-primary text-[14px] hover:underline"
                     >
@@ -95,7 +95,7 @@ export function MethodologyPage() {
 
               {/* ML and AI Extraction */}
               <div className="flex flex-col lg:flex-row gap-6 items-start">
-                <div className="flex-shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
+                <div className="shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
                   <Brain className="w-16 h-16 text-primary" />
                 </div>
                 <div className="flex-1 w-full bg-card rounded-[14px] border border-secondary p-6">
@@ -113,7 +113,7 @@ export function MethodologyPage() {
 
               {/* Human Verification */}
               <div className="flex flex-col lg:flex-row gap-6 items-start">
-                <div className="flex-shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
+                <div className="shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
                   <Users className="w-16 h-16 text-primary" />
                 </div>
                 <div className="flex-1 w-full bg-card rounded-[14px] border border-secondary p-6">
@@ -131,7 +131,7 @@ export function MethodologyPage() {
 
               {/* Quality Assurance */}
               <div className="flex flex-col lg:flex-row gap-6 items-start">
-                <div className="flex-shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
+                <div className="shrink-0 w-full lg:w-[120px] h-[120px] rounded-[14px] bg-primary/10 flex items-center justify-center">
                   <CheckCircle className="w-16 h-16 text-primary" />
                 </div>
                 <div className="flex-1 w-full bg-card rounded-[14px] border border-secondary p-6">

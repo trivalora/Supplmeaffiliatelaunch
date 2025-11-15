@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Calcium",
+    "description": "Enhanced meta-analysis review of calcium for bone health and cardiovascular effects",
+    "category": "Minerals"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Calcium",
+    "description": "Enhanced meta-analysis review of calcium for bone health and cardiovascular effects",
+    "about": "Calcium",
+    "url": "https://suppl.me/calciumv2"
+  }
+]

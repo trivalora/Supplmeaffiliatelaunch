@@ -1,5 +1,5 @@
-import { Suspense, useEffect } from 'react';
-import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
+import React, { Suspense, useEffect } from 'react';
+import { Routes, Route, useLocation, Navigate, useNavigate } from 'react-router-dom';
 import { pushPageView } from '../analytics/dataLayer';
 import { buildRoutes, RouteSEO } from './routeMap';
 import { ScrollToTop } from './ScrollToTop';
@@ -7,6 +7,11 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { AnalyticsProvider } from '../components/AnalyticsProvider';
+import { getPathForKey } from '../utils/routePaths';
+import { trackNavigation } from '../utils/analytics';
+import { scrollDepthTracker } from '../utils/scrollDepthTracker';
+import { timeTracker } from '../utils/timeTracker';
+import { NotFound } from '../components/NotFound';
 
 // Simple loading fallback
 function Loading() {
@@ -19,6 +24,7 @@ function Loading() {
 
 export function RouterLayout() {
   const location = useLocation();
+  const navigate = useNavigate();
   const routes = buildRoutes();
 
   // Non-canonical alias redirects (typos / singular forms)
@@ -48,26 +54,56 @@ export function RouterLayout() {
       pageUrl: window.location.href,
       pagePathname: location.pathname,
     });
+
+    // Initialize engagement/scroll trackers for this page
+    try {
+      scrollDepthTracker.initialize(pageName);
+      timeTracker.initialize(pageName);
+    } catch { }
   }, [location.pathname, currentRoute]);
+
+  const handleNavigateHeader = (pageKey: any) => {
+    try {
+      const path = getPathForKey(pageKey);
+      trackNavigation(String(pageKey), path, 'header');
+      navigate(path);
+    } catch {
+      try {
+        navigate(`/${String(pageKey)}`);
+      } catch { }
+    }
+  };
+
+  const handleNavigateFooter = (pageKey: any) => {
+    try {
+      const path = getPathForKey(pageKey);
+      trackNavigation(String(pageKey), path, 'footer');
+      navigate(path);
+    } catch {
+      try {
+        navigate(`/${String(pageKey)}`);
+      } catch { }
+    }
+  };
 
   return (
     <ErrorBoundary>
       <AnalyticsProvider googleTagManagerId={import.meta.env?.VITE_GTM_ID || 'GTM-NQWRNKFT'}>
-  {currentRoute && <RouteSEO route={currentRoute} />}
-  <ScrollToTop />
-        {!hideChrome && <Header onNavigate={() => { /* react-router handles links via onNavigate in components */ }} />}
-        <Suspense fallback={<Loading />}>  
+        {currentRoute && <RouteSEO route={currentRoute} />}
+        <ScrollToTop />
+        {!hideChrome && <Header onNavigate={handleNavigateHeader} />}
+        <Suspense fallback={<Loading />}>
           <Routes>
             {routes.map(r => (
-              <Route key={r.path} path={r.path} element={r.element} />
+              <Route path={r.path} element={r.element} />
             ))}
             {Object.entries(ALIAS_REDIRECTS).map(([from, to]) => (
-              <Route key={from} path={from} element={<Navigate to={to} replace />} />
+              <Route path={from} element={<Navigate to={to} replace />} />
             ))}
-            <Route path="*" element={<div className="p-8">Page not found</div>} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
-        {!hideChrome && <Footer onNavigate={() => {}} />}
+        {!hideChrome && <Footer onNavigate={handleNavigateFooter} />}
       </AnalyticsProvider>
     </ErrorBoundary>
   );

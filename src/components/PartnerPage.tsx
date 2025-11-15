@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ExternalLink, CheckCircle2, Calendar } from 'lucide-react';
 import imgForestAerial from "figma:asset/4bdf2cba5e05e7d70b9f1402336825a64b04e236.png";
+import { ResponsivePicture } from './ResponsivePicture';
 import { SEOHead } from './SEOHead';
 
 interface PartnerPageProps {
@@ -16,6 +17,25 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
     message: ''
   });
 
+  // Preload hero AVIF sources for this page's background image to help LCP
+  useEffect(() => {
+    const id = 'preload-partner-hero-4bdf2cba';
+    if (!document.getElementById(id)) {
+      const link = document.createElement('link');
+      link.id = id;
+      link.rel = 'preload';
+      link.as = 'image';
+      link.setAttribute('imagesrcset', '/optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-640.avif 640w, /optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-1280.avif 1280w, /optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-1920.avif 1920w');
+      link.setAttribute('imagesizes', '100vw');
+      (link as any).fetchpriority = 'high';
+      document.head.appendChild(link);
+    }
+    return () => {
+      const el = document.getElementById(id);
+      if (el) el.remove();
+    };
+  }, []);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission - could integrate with email service
@@ -25,14 +45,14 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Partner With Us - Affiliate & Retailer Opportunities"
         description="Join our supplement affiliate network. FTC/FDA compliant platform with evidence-based content, real-time pricing, and quality traffic. ShareASale, Amazon, and iHerb partnerships available."
         keywords="supplement affiliate program, retailer partnership, affiliate network, supplement marketing, price comparison partnership"
       />
       <div className="min-h-screen bg-tertiary">
         {/* Hero Section */}
-        <div 
+        <div
           className="relative flex items-center justify-center overflow-visible"
           style={{
             minHeight: '500px',
@@ -40,40 +60,36 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
             maxHeight: '60vh'
           }}
         >
-          {/* Background Image */}
+          {/* Background Image - optimized responsive */}
           <div className="absolute inset-0 w-full h-full">
-            <img 
-              src={imgForestAerial} 
-              alt="" 
-              className="w-full h-full object-cover object-center"
-              style={{
-                minWidth: '100%',
-                minHeight: '100%'
-              }}
-              loading="eager"
-              decoding="async"
-              fetchpriority="high"
+            <ResponsivePicture
+              file="4bdf2cba5e05e7d70b9f1402336825a64b04e236.png"
+              alt=""
+              fallbackSrc={imgForestAerial}
+              sizes="100vw"
+              imgProps={{ className: 'w-full h-full object-cover object-center', loading: 'eager', decoding: 'async', fetchpriority: 'high' as any }}
+              style={{ minWidth: '100%', minHeight: '100%' }}
             />
           </div>
-          
+
           {/* Gradient Overlays */}
-          <div 
+          <div
             className="absolute inset-0 pointer-events-none"
-            style={{ 
+            style={{
               background: 'linear-gradient(to bottom, rgba(42,38,34,0.65), rgba(58,54,50,0.6) 50%, rgba(58,54,50,0.7))'
             }}
           />
-          
-          <div 
+
+          <div
             className="absolute inset-0 pointer-events-none"
-            style={{ 
+            style={{
               background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(42,38,34,0.3) 100%)'
             }}
           />
-          
-          <div 
+
+          <div
             className="absolute inset-0 pointer-events-none"
-            style={{ 
+            style={{
               backgroundColor: '#162F1C',
               opacity: 0.35
             }}
@@ -84,19 +100,19 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
               <h1 className="mb-4 text-white text-4xl md:text-5xl">
                 We compare supplement prices with real-time accuracy for US shoppers. <span style={{ color: '#E0CBA8' }}>Partner-ready.</span>
               </h1>
-              
+
               <p className="mb-8 text-white/80 text-base md:text-lg max-w-2xl mx-auto">
                 We list only compliant retailers. FTC/FDA safe claims. Clean traffic. Fast integration.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
+                <a
                   href="#contact-form"
                   className="px-8 py-3 rounded-2xl transition-all shadow-xl bg-secondary text-foreground hover:bg-secondary/90 cursor-pointer"
                 >
                   Apply to Partner
                 </a>
-                <a 
+                <a
                   href="#contact-form"
                   className="px-8 py-3 rounded-2xl transition-all shadow-xl bg-white/10 text-white hover:bg-white/20 cursor-pointer backdrop-blur-sm"
                 >
@@ -109,12 +125,12 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
 
         {/* Main Content */}
         <div data-layout-container className="py-16">
-          
+
           {/* Section 1: What We Do */}
           <section className="mb-16">
             <div className="max-w-4xl mx-auto">
               <h2 className="mb-8 text-primary text-center">What We Do</h2>
-              
+
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-sm">
                   <div className="mb-2" style={{ color: '#162F1C' }}>
@@ -154,10 +170,10 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
             <div data-layout-container>
               <div className="max-w-4xl mx-auto">
                 <h2 className="mb-8 text-primary text-center">Compliance & Safety</h2>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="flex gap-4">
-                    <CheckCircle2 className="w-5 h-5 mt-1 flex-shrink-0" style={{ color: '#162F1C' }} />
+                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: '#162F1C' }} />
                     <div>
                       <h4 className="mb-1" style={{ color: '#162F1C' }}>FTC Compliance</h4>
                       <p className="text-foreground">Affiliate disclosures on every product listing and comparison page.</p>
@@ -165,7 +181,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                   </div>
 
                   <div className="flex gap-4">
-                    <CheckCircle2 className="w-5 h-5 mt-1 flex-shrink-0" style={{ color: '#162F1C' }} />
+                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: '#162F1C' }} />
                     <div>
                       <h4 className="mb-1" style={{ color: '#162F1C' }}>FDA Safe Claims</h4>
                       <p className="text-foreground">No disease claims; structure/function only. Medical disclaimer sitewide. <a href="https://www.fda.gov" target="_blank" rel="nofollow noreferrer" className="text-fourth underline">(fda.gov)</a></p>
@@ -173,7 +189,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                   </div>
 
                   <div className="flex gap-4">
-                    <CheckCircle2 className="w-5 h-5 mt-1 flex-shrink-0" style={{ color: '#162F1C' }} />
+                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: '#162F1C' }} />
                     <div>
                       <h4 className="mb-1" style={{ color: '#162F1C' }}>Legal Pages Live</h4>
                       <p className="text-foreground">Privacy Policy, Terms of Service, Cookie Policy, and Contact page with business address.</p>
@@ -181,7 +197,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                   </div>
 
                   <div className="flex gap-4">
-                    <CheckCircle2 className="w-5 h-5 mt-1 flex-shrink-0" style={{ color: '#162F1C' }} />
+                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: '#162F1C' }} />
                     <div>
                       <h4 className="mb-1" style={{ color: '#162F1C' }}>Network-Compliant</h4>
                       <p className="text-foreground">No coupons/incentives, no doorway pages, no paid search brand-bidding. <a href="https://www.cj.com" target="_blank" rel="nofollow noreferrer" className="text-fourth underline">(cj.com)</a></p>
@@ -199,12 +215,12 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
               <p className="mb-8 text-foreground text-center max-w-2xl mx-auto">
                 Visual proof beats claims. See how your brand can appear across our platform.
               </p>
-              
+
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-sm">
                   <h4 className="mb-3" style={{ color: '#162F1C' }}>Price Comparison Tables</h4>
                   <p className="mb-3 text-foreground">Featured placement in side-by-side product comparisons with real-time pricing updates.</p>
-                  <button 
+                  <button
                     onClick={() => onNavigate('vitamin-d')}
                     className="text-fourth hover:underline inline-flex items-center gap-1"
                   >
@@ -215,7 +231,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 <div className="bg-white p-6 rounded-xl shadow-sm">
                   <h4 className="mb-3" style={{ color: '#162F1C' }}>Retailer Badge Features</h4>
                   <p className="mb-3 text-foreground">Trusted retailer badges on knowledge base pages with prominent call-to-action placement.</p>
-                  <button 
+                  <button
                     onClick={() => onNavigate('omega-3')}
                     className="text-fourth hover:underline inline-flex items-center gap-1"
                   >
@@ -226,7 +242,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 <div className="bg-white p-6 rounded-xl shadow-sm">
                   <h4 className="mb-3" style={{ color: '#162F1C' }}>Category Top Picks</h4>
                   <p className="mb-3 text-foreground">Featured "Best Price" and "Editor's Choice" slots in category roundup pages.</p>
-                  <button 
+                  <button
                     onClick={() => onNavigate('knowledgebase')}
                     className="text-fourth hover:underline inline-flex items-center gap-1"
                   >
@@ -248,7 +264,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
             <div data-layout-container>
               <div className="max-w-4xl mx-auto">
                 <h2 className="mb-8 text-primary text-center">Data Quality & QA</h2>
-                
+
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="text-center">
                     <div className="text-4xl mb-2" style={{ color: '#162F1C' }}>12hr</div>
@@ -273,7 +289,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
           <section className="mb-16">
             <div className="max-w-4xl mx-auto">
               <h2 className="mb-8 text-primary text-center">Tech & Tracking</h2>
-              
+
               <div className="bg-white p-8 rounded-xl shadow-sm">
                 <h3 className="mb-4 text-primary">Networks We Support First</h3>
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -365,7 +381,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       id="name"
                       required
                       value={formData.name}
-                      onChange={(e) => setFormData({...formData, name: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       placeholder="Your full name"
                     />
@@ -378,7 +394,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       id="email"
                       required
                       value={formData.email}
-                      onChange={(e) => setFormData({...formData, email: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       placeholder="your@email.com"
                     />
@@ -390,7 +406,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       id="network"
                       required
                       value={formData.network}
-                      onChange={(e) => setFormData({...formData, network: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, network: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                     >
                       <option value="">Select network...</option>
@@ -412,7 +428,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       id="category"
                       required
                       value={formData.category}
-                      onChange={(e) => setFormData({...formData, category: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       placeholder="e.g., Omega-3, Probiotics, Protein"
                     />
@@ -424,7 +440,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       id="message"
                       rows={4}
                       value={formData.message}
-                      onChange={(e) => setFormData({...formData, message: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       placeholder="EPCs, special requirements, launch timeline, etc."
                     />
@@ -450,7 +466,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
           <section className="mb-16">
             <div className="max-w-4xl mx-auto">
               <h2 className="mb-8 text-primary text-center">Why Partner With Us?</h2>
-              
+
               <div className="bg-white p-8 rounded-xl shadow-sm">
                 <div className="space-y-6 text-foreground">
                   <div>

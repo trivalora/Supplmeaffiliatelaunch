@@ -1,18 +1,23 @@
-import { ReactNode, useState, Fragment, useMemo, useCallback } from 'react';
+import { ReactNode, useState, Fragment, useMemo, useCallback, useEffect } from 'react';
 import { LucideIcon, ChevronDown, ExternalLink } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ResponsivePicture } from './ResponsivePicture';
 import { WhatToExpectSection } from './WhatToExpectSection';
 import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb7.png";
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import { autolinkGlossaryTerms } from '../utils/glossaryAutolink';
 import { getProductsBySupplementName, type ProductData } from '../utils/supplementProductsData';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
-import { 
-  trackAffiliateClick, 
-  trackProductClick, 
+import {
+  trackAffiliateClick,
+  trackProductClick,
   trackOutboundLink,
-  trackAccordionToggle 
+  trackAccordionToggle,
+  trackSupplementView,
+  trackCertificationClick,
+  trackRetailerClick
 } from '../utils/analytics';
+import { trackSupplementSection } from '../utils/analytics';
 import { useSupplementTracking, useProductTracking } from '../hooks/useAnalytics';
 import {
   Collapsible,
@@ -51,7 +56,7 @@ function formatSupplementName(name: string): string {
     'bcaas': 'BCAA',
     'bcaa': 'BCAA'
   };
-  
+
   const normalized = name.toLowerCase();
   return specialCases[normalized] || name.charAt(0).toUpperCase() + name.slice(1);
 }
@@ -60,11 +65,11 @@ function formatSupplementName(name: string): string {
  * Component to display a single footnote with hover card
  * Supports both hover (desktop) and click/touch (mobile) interactions
  */
-function FootnotePopup({ 
-  refNumber, 
-  reference 
-}: { 
-  refNumber: string; 
+function FootnotePopup({
+  refNumber,
+  reference
+}: {
+  refNumber: string;
   reference?: Reference;
 }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -74,7 +79,7 @@ function FootnotePopup({
   }
 
   return (
-    <HoverCard 
+    <HoverCard
       openDelay={200}
       open={isOpen}
       onOpenChange={setIsOpen}
@@ -93,7 +98,7 @@ function FootnotePopup({
           [{refNumber}]
         </a>
       </HoverCardTrigger>
-      <HoverCardContent 
+      <HoverCardContent
         className="w-96 max-w-[90vw] bg-card border border-border p-4"
         side="top"
         align="start"
@@ -132,18 +137,18 @@ function FootnotePopup({
  * Example: "A 2021 meta-analysis [1][4][7]" becomes hoverable footnotes with reference details
  */
 function formatFootnotes(
-  content: ReactNode[] | string, 
+  content: ReactNode[] | string,
   references?: Reference[]
 ): ReactNode {
   // Helper function to convert a footnote string to hover cards
   const convertFootnoteToPopup = (footnoteStr: string, keyPrefix: string | number) => {
     // Extract individual footnote numbers: "[1][4][7]" -> ["1", "4", "7"]
     const numbers = footnoteStr.match(/\d+/g) || [];
-    
+
     return numbers.map((num, idx) => {
       const refIndex = parseInt(num) - 1;
       const reference = references?.[refIndex];
-      
+
       return (
         <Fragment key={`${keyPrefix}-${idx}`}>
           <FootnotePopup refNumber={num} reference={reference} />
@@ -151,7 +156,7 @@ function formatFootnotes(
       );
     });
   };
-  
+
   // If it's already an array (from autolinkGlossaryTerms), process each element
   if (Array.isArray(content)) {
     return content.map((node, index) => {
@@ -169,10 +174,10 @@ function formatFootnotes(
       return node;
     });
   }
-  
+
   // If it's a string, split by footnote references
   const parts = content.split(/(\[\d+\](?:\[\d+\])*)/g);
-  
+
   return parts.map((part, index) => {
     // Check if this part is a footnote reference
     if (/^\[\d+\](?:\[\d+\])*$/.test(part)) {
@@ -254,34 +259,34 @@ export interface KnowledgebasePageProps {
   heroDescription: string;
   heroImageUrl?: string;
   heroImageComponent?: ReactNode;
-  
+
   // Overview Section
   overviewTitle?: string;
   overviewContent: ReactNode;
   dietarySources?: DietarySource[];
   additionalOverviewContent?: ReactNode;
-  
+
   // Benefits & Drawbacks
   benefits: BenefitItem[];
   drawbacks: DrawbackItem[];
   drawbacksIntro?: string;
-  
+
   // Research Section
   researchGrades?: ResearchGrade[];
-  
+
   // What to Expect (visual section - V2 pages)
   whatToExpectData?: WhatToExpectData;
-  
+
   // Buying Guide
   buyingGuideItems?: BuyingGuideItem[];
   buyingGuideIntro?: string;
-  
+
   // References
   references?: Reference[];
-  
+
   // Further Reading
   furtherReading?: FurtherReadingLink[];
-  
+
   // Navigation
   onNavigate?: (page: string) => void;
   currentPage?: string; // To avoid self-linking on glossary pages
@@ -307,6 +312,32 @@ function HeroLeftPanel({ supplementName, heroDescription }: { supplementName: st
 }
 
 function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { heroImageUrl?: string; heroImageComponent?: ReactNode; supplementName: string }) {
+  // Preload hero AVIF sources for LCP if we can derive the base filename
+  useEffect(() => {
+    if (!heroImageUrl) return;
+    try {
+      const last = heroImageUrl.split('?')[0].split('/').pop() || '';
+      // Remove any Vite hash suffix (e.g., name-abc123.png)
+      const noSuffix = last.replace(/-[A-Za-z0-9_~.-]+\.(png|jpe?g)$/i, '.$1');
+      const base = noSuffix.replace(/\.(png|jpe?g)$/i, '');
+      if (!base) return;
+      const id = `preload-kb-hero-${base}`;
+      if (!document.getElementById(id)) {
+        const link = document.createElement('link');
+        link.id = id;
+        link.rel = 'preload';
+        link.as = 'image';
+        link.setAttribute('imagesrcset', `/optimized/${base}-640.avif 640w, /optimized/${base}-1280.avif 1280w, /optimized/${base}-1920.avif 1920w`);
+        link.setAttribute('imagesizes', '(min-width: 1024px) 50vw, 100vw');
+        (link as any).fetchpriority = 'high';
+        document.head.appendChild(link);
+      }
+      return () => {
+        const el = document.getElementById(id);
+        if (el) el.remove();
+      };
+    } catch { }
+  }, [heroImageUrl]);
   return (
     <div className="flex-1 relative overflow-hidden h-[40vh] md:h-full">
       {heroImageComponent ? (
@@ -314,11 +345,32 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
           {heroImageComponent}
         </div>
       ) : heroImageUrl ? (
-        <ImageWithFallback
-          src={heroImageUrl}
-          alt={supplementName}
-          className="w-full h-full object-cover"
-        />
+        // Prefer optimized responsive images when we can derive the asset filename
+        (() => {
+          try {
+            const baseFile = heroImageUrl.split('?')[0].split('/').pop();
+            if (baseFile && baseFile.includes('.')) {
+              return (
+                <ResponsivePicture
+                  file={baseFile}
+                  alt={supplementName}
+                  fallbackSrc={heroImageUrl}
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  imgProps={{ className: 'w-full h-full object-cover', loading: 'eager', decoding: 'async', fetchpriority: 'high' as any }}
+                  style={{ width: '100%', height: '100%' }}
+                />
+              );
+            }
+          } catch { }
+          // Fallback if we cannot compute an asset filename
+          return (
+            <ImageWithFallback
+              src={heroImageUrl}
+              alt={supplementName}
+              className="w-full h-full object-cover"
+            />
+          );
+        })()
       ) : null}
     </div>
   );
@@ -337,21 +389,21 @@ function HeroSection({ supplementName, heroDescription, heroImageUrl, heroImageC
 // OVERVIEW SECTION
 // ========================================
 
-function OverviewSection({ 
+function OverviewSection({
   overviewTitle = "What is this supplement?",
   overviewContent,
   dietarySources,
-  additionalOverviewContent 
+  additionalOverviewContent
 }: Pick<KnowledgebasePageProps, 'overviewTitle' | 'overviewContent' | 'dietarySources' | 'additionalOverviewContent'>) {
   return (
     <div data-knowledgebase-card-info className="bg-card rounded-[14px] border border-border p-8">
       <h2 className="text-primary mb-6">{overviewTitle}</h2>
-      
+
       <div data-knowledgebase-content-text className="space-y-4">
         <div className="text-foreground leading-[28px]">
           {overviewContent}
         </div>
-        
+
         {dietarySources && dietarySources.length > 0 && (
           <div className="bg-tertiary rounded-[8px] p-6 space-y-4">
             <div>
@@ -361,7 +413,7 @@ function OverviewSection({
                   const IconComponent = source.icon;
                   return (
                     <div key={index} className="flex items-start gap-3">
-                      <IconComponent className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <IconComponent className="w-5 h-5 text-primary mt-1 shrink-0" />
                       <div>
                         <p className="text-foreground mb-1">
                           <span className="font-medium">{source.title}</span>
@@ -392,8 +444,8 @@ function OverviewSection({
 // BENEFITS & DRAWBACKS SECTION
 // ========================================
 
-function BenefitsDrawbacksSection({ 
-  benefits, 
+function BenefitsDrawbacksSection({
+  benefits,
   drawbacks,
   drawbacksIntro,
   onNavigate,
@@ -411,7 +463,7 @@ function BenefitsDrawbacksSection({
   // PERFORMANCE FIX: Memoize autolinked content for benefits
   // Process all benefits at once, not in a loop with hooks
   const linkedBenefits = useMemo(() => {
-    return benefits.map(benefit => 
+    return benefits.map(benefit =>
       autolinkGlossaryTerms(benefit.description, shouldUseAutolink ? handleGlossaryNavigate : undefined, currentPage)
     );
   }, [benefits, shouldUseAutolink, handleGlossaryNavigate, currentPage]);
@@ -419,15 +471,15 @@ function BenefitsDrawbacksSection({
   // PERFORMANCE FIX: Memoize autolinked drawbacks intro
   const linkedDrawbacksIntro = useMemo(() => {
     return autolinkGlossaryTerms(
-      drawbacksIntro || '', 
-      shouldUseAutolink ? handleGlossaryNavigate : undefined, 
+      drawbacksIntro || '',
+      shouldUseAutolink ? handleGlossaryNavigate : undefined,
       currentPage
     );
   }, [drawbacksIntro, shouldUseAutolink, handleGlossaryNavigate, currentPage]);
 
   // PERFORMANCE FIX: Memoize autolinked content for drawbacks
   const linkedDrawbacks = useMemo(() => {
-    return drawbacks.map(drawback => 
+    return drawbacks.map(drawback =>
       autolinkGlossaryTerms(drawback.description, shouldUseAutolink ? handleGlossaryNavigate : undefined, currentPage)
     );
   }, [drawbacks, shouldUseAutolink, handleGlossaryNavigate, currentPage]);
@@ -442,7 +494,7 @@ function BenefitsDrawbacksSection({
             const IconComponent = benefit.icon;
             return (
               <div key={index} data-knowledgebase-icon-list-item className="flex items-start gap-3">
-                <IconComponent className="w-5 h-5 text-benefit-b-accent flex-shrink-0" />
+                <IconComponent className="w-5 h-5 text-benefit-b-accent shrink-0" />
                 <div>
                   <p className="text-foreground">
                     <span className="font-medium">{benefit.title}:</span>{' '}
@@ -468,7 +520,7 @@ function BenefitsDrawbacksSection({
             const IconComponent = drawback.icon;
             return (
               <div key={index} data-knowledgebase-icon-list-item className="flex items-start gap-3">
-                <IconComponent className="w-5 h-5 text-warning-accent flex-shrink-0" />
+                <IconComponent className="w-5 h-5 text-warning-accent shrink-0" />
                 <div>
                   <p className="text-foreground">
                     <span className="font-medium">{drawback.title}:</span>{' '}
@@ -488,7 +540,7 @@ function BenefitsDrawbacksSection({
 // RESEARCH SECTION (Optional)
 // ========================================
 
-function ResearchSection({ 
+function ResearchSection({
   researchGrades,
   onNavigate,
   currentPage,
@@ -508,7 +560,7 @@ function ResearchSection({
   // PERFORMANCE FIX: Memoize autolinked grade descriptions
   // Process all grades at once, not in a loop with hooks
   const linkedGradeDescriptions = useMemo(() => {
-    return researchGrades.map(grade => 
+    return researchGrades.map(grade =>
       autolinkGlossaryTerms(grade.description, shouldUseAutolink ? handleGlossaryNavigate : undefined, currentPage)
     );
   }, [researchGrades, shouldUseAutolink, handleGlossaryNavigate, currentPage]);
@@ -526,31 +578,31 @@ function ResearchSection({
     <div data-knowledgebase-research>
       {/* Heading - matches Main Drawbacks heading style */}
       <h2 className="text-primary mb-6" data-knowledgebase-research-heading>Research Summary</h2>
-      
+
       {/* Research Grade Cards */}
       {researchGrades && researchGrades.length > 0 && (
         <div data-knowledgebase-research-grid className="grid gap-4 md:grid-cols-2">
           {researchGrades.map((grade, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-card border border-border rounded-[14px] p-8 flex flex-col gap-3 overflow-hidden"
             >
               {/* Badge and Title Container */}
               <div className="flex items-start gap-4">
                 {/* Grade Badge - Large for all cards */}
-                <div 
-                  className={`w-[80px] h-[79px] rounded-[24px] flex items-center justify-center flex-shrink-0 ${getGradeColor(grade.letter)}`}
+                <div
+                  className={`w-[80px] h-[79px] rounded-[24px] flex items-center justify-center shrink-0 ${getGradeColor(grade.letter)}`}
                 >
                   <span>
                     {grade.letter}
                   </span>
                 </div>
-                
+
                 {/* Title - Aligned with badge, fixed height for consistency, LARGER font sizes */}
                 <div className="flex-1 break-words flex items-center" style={{ height: '79px' }}>
-                  <h3 
-                    className="text-primary leading-tight" 
-                    style={{ 
+                  <h3
+                    className="text-primary leading-tight"
+                    style={{
                       fontSize: grade.title.length > 50 ? '1.15rem' : grade.title.length > 35 ? '1.3rem' : '1.45rem'
                     }}
                   >
@@ -558,10 +610,10 @@ function ResearchSection({
                   </h3>
                 </div>
               </div>
-              
+
               {/* Subtitle - Fixed 12px for all, only decrease if doesn't fit */}
               {grade.subtitle && (
-                <p 
+                <p
                   className="text-muted-foreground"
                   style={{
                     fontSize: grade.subtitle.length > 55 ? '0.7rem' : '0.75rem', // 12px default, 11.2px if too long
@@ -573,15 +625,15 @@ function ResearchSection({
                   {grade.subtitle}
                 </p>
               )}
-              
+
               {/* Spacing placeholder when no subtitle - CORRECTED HEIGHT to match subtitle vertical space */}
               {!grade.subtitle && (
                 <div style={{ height: '0.8rem' }}></div>
               )}
-              
+
               {/* Description */}
               <p className="text-muted-foreground break-words">
-                {shouldUseAutolink 
+                {shouldUseAutolink
                   ? formatFootnotes(linkedGradeDescriptions[index], references)
                   : formatFootnotes(grade.description, references)
                 }
@@ -601,9 +653,9 @@ function ResearchSection({
 // BUYING GUIDE SECTION (Optional)
 // ========================================
 
-function BuyingGuideSection({ 
+function BuyingGuideSection({
   buyingGuideItems,
-  buyingGuideIntro 
+  buyingGuideIntro
 }: Pick<KnowledgebasePageProps, 'buyingGuideItems' | 'buyingGuideIntro'>) {
   if (!buyingGuideItems || buyingGuideItems.length === 0) return null;
 
@@ -623,7 +675,7 @@ function BuyingGuideSection({
 
     // Split by certification names while preserving the names
     const parts = description.split(/(\bUSP\b|\bConsumerLab\b|\bNSF\b)/g);
-    
+
     return (
       <>
         {parts.map((part, index) => {
@@ -642,6 +694,7 @@ function BuyingGuideSection({
                     'certification',
                     'buying_guide'
                   );
+                  try { trackCertificationClick(part as any, 'buying_guide'); } catch { }
                 }}
               >
                 {part}
@@ -667,7 +720,7 @@ function BuyingGuideSection({
           const IconComponent = item.icon;
           return (
             <div key={index} className="flex items-start gap-3">
-              <IconComponent className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+              <IconComponent className="w-5 h-5 text-primary mt-1 shrink-0" />
               <div>
                 <p className="text-foreground mb-1">
                   <span className="font-medium">{item.title}</span>
@@ -696,8 +749,8 @@ function ReferencesSection({ references }: Pick<KnowledgebasePageProps, 'referen
       <h2 className="text-primary mb-6">Key References</h2>
       <div className="space-y-4">
         {references.map((ref, index) => (
-          <div 
-            key={index} 
+          <div
+            key={index}
             id={`ref-${index + 1}`}
             className="pb-4 border-b border-border last:border-b-0 last:pb-0 transition-all duration-300"
           >
@@ -705,9 +758,9 @@ function ReferencesSection({ references }: Pick<KnowledgebasePageProps, 'referen
               <span className="font-medium">[{index + 1}]</span> {ref.authors} ({ref.year})
             </p>
             {ref.link ? (
-              <a 
-                href={ref.link} 
-                target="_blank" 
+              <a
+                href={ref.link}
+                target="_blank"
                 rel="nofollow noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
               >
@@ -732,7 +785,7 @@ function ReferencesSection({ references }: Pick<KnowledgebasePageProps, 'referen
 
 function FurtherReadingSection({ furtherReading }: Pick<KnowledgebasePageProps, 'furtherReading'>) {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   if (!furtherReading || furtherReading.length === 0) return null;
 
   return (
@@ -740,7 +793,7 @@ function FurtherReadingSection({ furtherReading }: Pick<KnowledgebasePageProps, 
       <Collapsible open={isOpen} onOpenChange={setIsOpen}>
         <CollapsibleTrigger className="w-full flex items-center justify-between hover:text-primary transition-colors">
           <h2 className="text-primary">Further Reading</h2>
-          <ChevronDown 
+          <ChevronDown
             className={`h-5 w-5 transition-transform ${isOpen ? 'rotate-180' : ''}`}
           />
         </CollapsibleTrigger>
@@ -748,9 +801,9 @@ function FurtherReadingSection({ furtherReading }: Pick<KnowledgebasePageProps, 
           <div className="space-y-3">
             {furtherReading.map((link, index) => (
               <div key={index} className="pb-3 border-b border-border last:border-b-0 last:pb-0">
-                <a 
-                  href={link.url} 
-                  target="_blank" 
+                <a
+                  href={link.url}
+                  target="_blank"
                   rel="nofollow noopener noreferrer"
                   className="text-foreground hover:text-primary transition-colors"
                 >
@@ -774,50 +827,54 @@ function FurtherReadingSection({ furtherReading }: Pick<KnowledgebasePageProps, 
 
 // NOTE: ProductData interface and getProductsBySupplementName() are imported from '../utils/supplementProductsData'
 
-function AffiliateButtons({ 
-  amazonLink, 
-  iherbLink, 
+function AffiliateButtons({
+  amazonLink,
+  iherbLink,
   iherbUnavailable,
   supplementName,
   productName,
   brand
-}: { 
-  amazonLink: string; 
-  iherbLink?: string; 
+}: {
+  amazonLink: string;
+  iherbLink?: string;
   iherbUnavailable?: boolean;
   supplementName: string;
   productName: string;
   brand: string;
 }) {
   const tooltipHandlers = useAffiliateTooltip();
-  
+
   const handleAmazonClick = () => {
     trackAffiliateClick('Amazon', supplementName, 'product_card');
+    trackRetailerClick('Amazon', supplementName, 'bottom');
+    trackProductClick(productName, brand, 'Amazon', supplementName, 0, 'comparison');
   };
-  
+
   const handleIHerbClick = () => {
     trackAffiliateClick('iHerb', supplementName, 'product_card');
+    trackRetailerClick('iHerb', supplementName, 'bottom');
+    trackProductClick(productName, brand, 'iHerb', supplementName, 0, 'comparison');
   };
-  
+
   return (
     <div className="flex gap-2">
-      <a 
+      <a
         href={amazonLink}
-        target="_blank" 
+        target="_blank"
         rel="nofollow noopener noreferrer"
         data-button-height="md"
         className="flex-1 bg-black rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-3"
         {...tooltipHandlers}
         onClick={handleAmazonClick}
       >
-        <img 
-          src={imgAmazonButton} 
-          alt="Amazon" 
+        <img
+          src={imgAmazonButton}
+          alt="Amazon"
           className="h-5 w-auto object-contain rounded-[14px]"
         />
       </a>
       {(iherbUnavailable || !iherbLink) ? (
-        <div 
+        <div
           data-button-height="md"
           className="flex-1 px-3 rounded-lg flex items-center justify-center bg-tertiary border border-secondary opacity-50 cursor-not-allowed relative group"
         >
@@ -829,9 +886,9 @@ function AffiliateButtons({
           </span>
         </div>
       ) : (
-        <a 
+        <a
           href={iherbLink}
-          target="_blank" 
+          target="_blank"
           rel="nofollow noopener noreferrer"
           data-button-height="md"
           className="flex-1 px-3 rounded-lg transition-opacity hover:opacity-90 flex items-center justify-center bg-tertiary border border-secondary"
@@ -843,7 +900,7 @@ function AffiliateButtons({
           </div>
         </a>
       )}
-      <button 
+      <button
         data-button-height="md"
         className="flex-1 px-3 rounded-lg cursor-not-allowed relative group text-center bg-tertiary text-muted-foreground border border-secondary opacity-70 text-sm flex items-center justify-center"
         disabled
@@ -877,32 +934,32 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
   // Build description from structured fields with type labels
   const getDescriptionLines = (product: ProductData): Array<{ text: string; type: 'content' | 'weight' | 'flavor' | 'dietary' | 'extraNotice' }> => {
     const lines: Array<{ text: string; type: 'content' | 'weight' | 'flavor' | 'dietary' | 'extraNotice' }> = [];
-    
+
     // Content (if available)
     if (product.content) {
       lines.push({ text: product.content, type: 'content' });
     }
-    
+
     // Weight (if separate from content)
     if (product.weight) {
       lines.push({ text: product.weight, type: 'weight' });
     }
-    
+
     // Flavor (if any)
     if (product.flavor) {
       lines.push({ text: `Flavor: ${product.flavor}`, type: 'flavor' });
     }
-    
+
     // Extra Notice (e.g., "USP Grade", "Micronized", "100% Chelated")
     if (product.extraNotice) {
       lines.push({ text: product.extraNotice, type: 'extraNotice' });
     }
-    
+
     // Dietary Info (if any)
     if (product.dietaryInfo) {
       lines.push({ text: product.dietaryInfo, type: 'dietary' });
     }
-    
+
     return lines;
   };
 
@@ -913,7 +970,7 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {supplements.map((product, index) => {
             const descriptionLines = getDescriptionLines(product);
-            
+
             return (
               <div key={index} className="bg-tertiary rounded-lg border border-secondary overflow-hidden flex flex-col p-4">
                 <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-3 relative" style={{ height: '25vh' }}>
@@ -930,45 +987,47 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
                       ))}
                     </div>
                   )}
-                  <img 
-                    src={product.image} 
+                  <img
+                    src={product.image}
                     alt={product.name}
                     className="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
-                
+
                 <div className="flex-1 flex flex-col">
                   <div className="mb-3">
                     <div className="text-xs uppercase tracking-wide text-fourth mb-1">{product.brand}</div>
                     <h3 className="text-primary" style={{ minHeight: '3.15rem' }}>{product.name}</h3>
                   </div>
-                  
+
                   <div className="text-sm text-foreground mb-3 flex-1">
                     {descriptionLines.map((line, idx) => (
-                      <div 
+                      <div
                         key={idx}
                         className={
                           line.type === 'content' ? 'mb-1' :
-                          line.type === 'weight' ? 'mb-1' :
-                          line.type === 'flavor' ? 'text-muted-foreground mb-1' :
-                          line.type === 'dietary' ? 'text-muted-foreground' :
-                          line.type === 'extraNotice' ? 'text-muted-foreground' :
-                          ''
+                            line.type === 'weight' ? 'mb-1' :
+                              line.type === 'flavor' ? 'text-muted-foreground mb-1' :
+                                line.type === 'dietary' ? 'text-muted-foreground' :
+                                  line.type === 'extraNotice' ? 'text-muted-foreground' :
+                                    ''
                         }
                       >
                         {line.text}
                       </div>
                     ))}
                   </div>
-                  
+
                   <div className="text-sm mb-4">
                     {product.pricePerUnit && (
                       <div className="text-muted-foreground">from {product.pricePerUnit}</div>
                     )}
                     <div className="font-medium">{product.pricePerBottle} per bottle</div>
                   </div>
-                  
-                  <AffiliateButtons 
+
+                  <AffiliateButtons
                     amazonLink={product.amazonLink}
                     iherbLink={product.iherbLink}
                     iherbUnavailable={product.iherbUnavailable}
@@ -981,7 +1040,7 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
             );
           })}
         </div>
-        
+
         <div className="mt-6 p-4 bg-background rounded-lg border border-secondary">
           <p className="text-sm text-muted-foreground">
             <strong>Affiliate Disclosure:</strong> We earn from qualifying purchases at no extra cost to you.
@@ -997,13 +1056,59 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
 // ========================================
 
 export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
+  // Fire supplement_view on mount
+  useEffect(() => {
+    try { trackSupplementView(props.supplementName); } catch { }
+  }, [props.supplementName]);
+
+  // Section view tracking (supplement_section_view)
+  useEffect(() => {
+    const supplement = props.supplementName;
+    if (!supplement) return;
+    const observedSections = new Set<string>();
+    const sectionSelectors = [
+      '[data-knowledgebase-card-info]',
+      '[data-knowledgebase-card-benefits]',
+      '[data-knowledgebase-card-drawbacks]',
+      '[data-knowledgebase-research]',
+      '#hero',
+      '[data-section]'
+    ];
+    const elements: Array<HTMLElement> = [];
+    sectionSelectors.forEach(sel => {
+      document.querySelectorAll(sel).forEach(el => {
+        if (el instanceof HTMLElement) elements.push(el);
+      });
+    });
+    if (!elements.length) return;
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target as HTMLElement;
+          const label = el.getAttribute('data-knowledgebase-research-heading') ? 'Research Summary' :
+            el.id === 'hero' ? 'Hero' :
+              el.getAttribute('data-knowledgebase-card-info') !== null ? 'Overview' :
+                el.getAttribute('data-knowledgebase-card-benefits') !== null ? 'Benefits' :
+                  el.getAttribute('data-knowledgebase-card-drawbacks') !== null ? 'Drawbacks' :
+                    el.getAttribute('data-section') ? 'Section' : 'Unknown';
+          if (!observedSections.has(label)) {
+            observedSections.add(label);
+            try { trackSupplementSection(supplement, label); } catch { }
+          }
+        }
+      });
+    }, { threshold: 0.35 });
+    elements.forEach(el => observer.observe(el));
+    return () => observer.disconnect();
+  }, [props.supplementName]);
+
   return (
     <div className="bg-background flex flex-col w-full min-h-screen" data-page-content>
       {/* Anchor for "top" navigation */}
       <div id="top" className="absolute" style={{ top: 'var(--header-height)' }}></div>
-      
+
       {/* Hero */}
-      <HeroSection 
+      <HeroSection
         supplementName={props.supplementName}
         heroDescription={props.heroDescription}
         heroImageUrl={props.heroImageUrl}
@@ -1012,10 +1117,10 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
 
       {/* Main Content Container */}
       <div className="px-6 py-8 max-w-7xl mx-auto w-full">
-        
+
         {/* Two-column layout on desktop, stacked on mobile */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-          
+
           {/* Left Column - Main Content (2/3 width on desktop) */}
           <div className="lg:col-span-2 space-y-8 order-1">
             {/* Overview */}
@@ -1025,7 +1130,7 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
               dietarySources={props.dietarySources}
               additionalOverviewContent={props.additionalOverviewContent}
             />
-            
+
             {/* Benefits & Drawbacks - Mobile Only (shown after Overview on mobile) */}
             <div className="lg:hidden">
               <BenefitsDrawbacksSection
@@ -1036,7 +1141,7 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
                 currentPage={props.currentPage}
               />
             </div>
-            
+
             {/* Research Summary - In left column */}
             {props.researchGrades && (
               <ResearchSection
@@ -1096,13 +1201,13 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
             <ReferencesSection references={props.references} />
           </div>
         )}
-        
+
         {/* Further Reading */}
         {props.furtherReading && (
           <FurtherReadingSection furtherReading={props.furtherReading} />
         )}
       </div>
-      
+
       {/* Global affiliate tooltip */}
       <AffiliateTooltip />
     </div>

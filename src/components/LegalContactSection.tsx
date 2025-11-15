@@ -4,10 +4,10 @@ export function LegalContactSection() {
   return (
     <div className="bg-primary text-primary-foreground rounded-[14px] p-8">
       <div className="flex items-start gap-3 mb-6">
-        <Mail className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
+        <Mail className="w-6 h-6 text-secondary shrink-0 mt-0.5" />
         <h2 className="text-secondary">Contact Us</h2>
       </div>
-      
+
       <p className="leading-relaxed mb-4 text-primary-foreground">
         If you have any questions, please contact us:
       </p>

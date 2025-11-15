@@ -12,34 +12,34 @@ import { prefetchRoute } from '../analytics/prefetch';
 
 function Container() {
   return (
-    <div 
-      className="absolute left-0 top-0 w-full" 
-      data-name="Container" 
-      style={{ 
+    <div
+      className="absolute left-0 top-0 w-full"
+      data-name="Container"
+      style={{
         height: 'var(--header-height)',
         boxShadow: '0 2px 16px rgba(22, 47, 28, 0.08), 0 4px 32px rgba(22, 47, 28, 0.04), 0 1px 0 rgba(224, 203, 168, 0.1)',
         borderBottom: '1px solid rgba(224, 203, 168, 0.25)'
       }}
     >
       {/* Base background */}
-      <div 
+      <div
         className="absolute inset-0"
         style={{ backgroundColor: 'var(--header-bg)' }}
       />
-      
+
       {/* Subtle luxurious gradient overlay */}
-      <div 
+      <div
         className="absolute inset-0"
-        style={{ 
+        style={{
           background: 'linear-gradient(180deg, rgba(224, 203, 168, 0.03) 0%, rgba(224, 203, 168, 0) 100%)',
           pointerEvents: 'none'
         }}
       />
-      
+
       {/* Subtle bottom border glow */}
-      <div 
+      <div
         className="absolute bottom-0 left-0 right-0 h-px"
-        style={{ 
+        style={{
           background: 'linear-gradient(90deg, transparent 0%, rgba(224, 203, 168, 0.15) 50%, transparent 100%)',
           boxShadow: '0 1px 3px rgba(224, 203, 168, 0.05)'
         }}
@@ -50,8 +50,8 @@ function Container() {
 
 function Logo({ onClick }: { onClick?: () => void }) {
   return (
-    <div 
-      className="absolute left-4 md:left-[var(--page-padding-inline)] cursor-pointer flex items-end" 
+    <div
+      className="absolute left-4 md:left-[var(--page-padding-inline)] cursor-pointer flex items-end"
       data-name="Logo"
       onClick={onClick}
       style={{
@@ -59,9 +59,9 @@ function Logo({ onClick }: { onClick?: () => void }) {
         zIndex: 100,
       }}
     >
-      <img 
-        src={imgLogo} 
-        alt="suppl.me" 
+      <img
+        src={imgLogo}
+        alt="suppl.me"
         className="h-[53px] w-auto"
         loading="eager"
         decoding="async"
@@ -73,8 +73,8 @@ function Logo({ onClick }: { onClick?: () => void }) {
 
 function Link1({ onClick }: { onClick?: () => void }) {
   return (
-    <div 
-      className="cursor-pointer" 
+    <div
+      className="cursor-pointer"
       data-name="Link1"
       onClick={onClick}
     >
@@ -91,7 +91,7 @@ import { SUPPLEMENT_IMAGES } from '../utils/supplementImages';
 // Memoized dropdown item component
 const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROUTES[0]; onClick: () => void }) => {
   const imageUrl = SUPPLEMENT_IMAGES[route.key as PageKey];
-  
+
   return (
     <div
       onClick={onClick}
@@ -99,7 +99,7 @@ const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROU
       className="dropdown-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer"
     >
       {imageUrl && (
-        <div 
+        <div
           className="shrink-0 rounded overflow-hidden"
           style={{
             width: '38px',
@@ -108,7 +108,7 @@ const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROU
             willChange: 'auto'
           }}
         >
-          <img 
+          <img
             src={imageUrl}
             alt={route.title}
             className="w-full h-full object-cover"
@@ -117,13 +117,13 @@ const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROU
               userSelect: 'none'
             }}
             draggable={false}
-            loading="eager"
+            loading="lazy"
             decoding="async"
           />
         </div>
       )}
-      
-      <p 
+
+      <p
         className="text-sm"
         style={{ color: 'var(--header-text)' }}
       >
@@ -138,28 +138,64 @@ DropdownItem.displayName = 'DropdownItem';
 function Link3({ onNavigate, onKnowledgebaseClick }: { onNavigate: (page: PageKey) => void; onKnowledgebaseClick?: () => void }) {
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
-  
+
   // Memoize sorted routes to prevent recalculation on every render
-  const navRoutes = useMemo(() => 
+  const navRoutes = useMemo(() =>
     KNOWLEDGEBASE_ROUTES
       .filter(route => route.showInNav)
       .sort((a, b) => a.title.localeCompare(b.title)),
     []
   );
-  
+
+  // Preload a few top nav thumbnails as AVIF to avoid layout jumps when opening the menu
+  useEffect(() => {
+    // Limit to first 6 to prevent excessive preloads
+    const toPreload = navRoutes.slice(0, 6);
+    const cleanupIds: string[] = [];
+    toPreload.forEach((route) => {
+      const src = SUPPLEMENT_IMAGES[route.key as PageKey];
+      if (!src) return;
+      try {
+        const last = src.split('?')[0].split('/').pop() || '';
+        // strip vite hash suffix and extension, keep original base hash
+        const cleaned = last.replace(/-[A-Za-z0-9_~.-]+\.(png|jpe?g)$/i, '.$1');
+        const base = cleaned.replace(/\.(png|jpe?g)$/i, '');
+        if (!base) return;
+        const id = `preload-nav-${base}`;
+        if (!document.getElementById(id)) {
+          const link = document.createElement('link');
+          link.id = id;
+          link.rel = 'preload';
+          link.as = 'image';
+          // 640 is plenty for a 38px thumb
+          link.setAttribute('imagesrcset', `/optimized/${base}-640.avif 640w`);
+          link.setAttribute('imagesizes', '38px');
+          document.head.appendChild(link);
+          cleanupIds.push(id);
+        }
+      } catch { }
+    });
+    return () => {
+      cleanupIds.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) el.remove();
+      });
+    };
+  }, [navRoutes]);
+
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     setIsOpen(!isOpen);
   };
-  
+
   const handleMouseEnter = () => {
     setIsOpen(true);
   };
-  
+
   const handleMouseLeave = () => {
     setIsOpen(false);
   };
-  
+
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -176,32 +212,32 @@ function Link3({ onNavigate, onKnowledgebaseClick }: { onNavigate: (page: PageKe
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isOpen]);
-  
+
   return (
-    <div 
+    <div
       ref={containerRef}
       className="relative"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div 
-        className="cursor-pointer flex items-center gap-1 group" 
+      <div
+        className="cursor-pointer flex items-center gap-1 group"
         data-name="Link3"
         onClick={handleClick}
       >
         <p className="text-nowrap group-hover:opacity-80 transition-opacity" style={{ color: 'var(--header-text)' }}>Knowledgebase</p>
         <ChevronDown className="h-4 w-4 group-hover:opacity-80 transition-opacity" style={{ color: 'var(--header-text)' }} />
       </div>
-      
+
       <AnimatePresence>
         {isOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.08, ease: 'linear' }}
             className="fixed"
-            style={{ 
+            style={{
               top: 'calc(var(--header-height) + 1vh)',
               right: '1vw',
               zIndex: 10000,
@@ -213,9 +249,9 @@ function Link3({ onNavigate, onKnowledgebaseClick }: { onNavigate: (page: PageKe
               marginBottom: '-3vh'
             }}
           >
-            <div 
+            <div
               className="rounded-2xl relative"
-              style={{ 
+              style={{
                 backgroundColor: 'var(--header-bg)',
                 borderColor: 'var(--header-secondary)',
                 border: '1px solid',
@@ -230,26 +266,26 @@ function Link3({ onNavigate, onKnowledgebaseClick }: { onNavigate: (page: PageKe
               }}
             >
               {/* Scroll indicator at bottom */}
-              <div 
+              <div
                 className="absolute bottom-0 left-0 right-0 h-16 pointer-events-none z-10"
                 style={{
                   background: 'linear-gradient(to top, var(--header-bg) 0%, transparent 100%)'
                 }}
               />
-              
+
               <div className="p-3 overflow-y-auto scrollbar-thin scrollbar-thumb-secondary/30 scrollbar-track-transparent" style={{ maxHeight: 'calc(80vh - 2vh)' }}>
-              <div className="flex flex-col gap-1 pb-4">
-                {navRoutes.map(route => (
-                  <DropdownItem
-                    key={route.key}
-                    route={route}
-                    onClick={() => {
-                      onNavigate(route.key as PageKey);
-                      setIsOpen(false);
-                    }}
-                  />
-                ))}
-              </div>
+                <div className="flex flex-col gap-1 pb-4">
+                  {navRoutes.map(route => (
+                    <DropdownItem
+                      key={route.key}
+                      route={route}
+                      onClick={() => {
+                        onNavigate(route.key as PageKey);
+                        setIsOpen(false);
+                      }}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           </motion.div>
@@ -259,8 +295,8 @@ function Link3({ onNavigate, onKnowledgebaseClick }: { onNavigate: (page: PageKe
   );
 }
 
-function SearchBar({ isExpanded, setIsExpanded, onNavigate }: { 
-  isExpanded: boolean; 
+function SearchBar({ isExpanded, setIsExpanded, onNavigate }: {
+  isExpanded: boolean;
   setIsExpanded: (expanded: boolean) => void;
   onNavigate: (page: PageKey) => void;
 }) {
@@ -339,9 +375,9 @@ function SearchBar({ isExpanded, setIsExpanded, onNavigate }: {
 
       {/* Search results dropdown */}
       {isExpanded && searchQuery && (
-        <div 
+        <div
           className="absolute top-full mt-2 w-[320px]"
-          style={{ 
+          style={{
             right: 0,
             zIndex: 10001
           }}
@@ -362,7 +398,7 @@ function MobileMenu({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
   };
 
   // Memoize sorted routes to prevent recalculation on every render
-  const navRoutes = useMemo(() => 
+  const navRoutes = useMemo(() =>
     KNOWLEDGEBASE_ROUTES
       .filter(route => route.showInNav)
       .sort((a, b) => a.title.localeCompare(b.title)),
@@ -372,12 +408,12 @@ function MobileMenu({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger asChild>
-        <Menu 
-          className="h-6 w-6 cursor-pointer hover:opacity-80 transition-opacity" 
+        <Menu
+          className="h-6 w-6 cursor-pointer hover:opacity-80 transition-opacity"
           style={{ color: 'var(--header-text)' }}
         />
       </SheetTrigger>
-      <SheetContent 
+      <SheetContent
         side="right"
         className="w-[300px] sm:w-[400px] overflow-y-auto"
         style={{
@@ -388,12 +424,12 @@ function MobileMenu({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
       >
         <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
         <SheetDescription className="sr-only">Access knowledgebase articles and site navigation</SheetDescription>
-        
+
         <div className="flex flex-col gap-6 mt-8 pb-8">
           {/* Knowledgebase Section */}
           <div className="flex flex-col gap-2">
             <h2 className="uppercase tracking-wide mb-2 pl-4" style={{ color: 'var(--header-secondary)' }}>Knowledgebase</h2>
-            
+
             <div className="flex flex-col gap-1">
               {navRoutes.map(route => (
                 <DropdownItem
@@ -409,7 +445,7 @@ function MobileMenu({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
           <div onClick={() => handleMenuClick('glossary')} className="cursor-pointer">
             <h2 className="uppercase tracking-wide pl-4 hover:opacity-80 transition-opacity" style={{ color: 'var(--header-secondary)' }}>Glossary</h2>
           </div>
-          
+
           <div onClick={() => handleMenuClick('about')} className="cursor-pointer">
             <h2 className="uppercase tracking-wide pl-4 hover:opacity-80 transition-opacity" style={{ color: 'var(--header-secondary)' }}>About us</h2>
           </div>
@@ -421,8 +457,8 @@ function MobileMenu({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
 
 function Link2({ onClick }: { onClick?: () => void }) {
   return (
-    <div 
-      className="cursor-pointer" 
+    <div
+      className="cursor-pointer"
       data-name="Link2"
       onClick={onClick}
     >
@@ -431,7 +467,7 @@ function Link2({ onClick }: { onClick?: () => void }) {
   );
 }
 
-function Navigation({ onNavigate, onKnowledgebaseClick }: { 
+function Navigation({ onNavigate, onKnowledgebaseClick }: {
   onNavigate: (page: PageKey) => void;
   onKnowledgebaseClick?: () => void;
 }) {
@@ -443,7 +479,7 @@ function Navigation({ onNavigate, onKnowledgebaseClick }: {
         <Link2 onClick={() => onNavigate('glossary')} />
         <Link1 onClick={() => onNavigate('about')} />
       </div>
-      
+
       {/* Mobile Navigation */}
       <div className="md:hidden">
         <MobileMenu onNavigate={onNavigate} />
@@ -452,7 +488,7 @@ function Navigation({ onNavigate, onKnowledgebaseClick }: {
   );
 }
 
-function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchExpanded }: { 
+function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchExpanded }: {
   onNavigate: (page: PageKey) => void;
   onLandingClick?: () => void;
   isSearchExpanded: boolean;
@@ -477,7 +513,7 @@ function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchE
           <Logo onClick={onLandingClick} />
         </motion.div>
       </div>
-      
+
       {/* Mobile: Right side container - expands leftward when search is active */}
       <div className="absolute md:hidden flex items-end gap-[var(--space-2xs)]" style={{ right: 'var(--page-padding-inline)', bottom: 'calc(var(--space-sm) - 0.5vh)' }}>
         {/* Burger menu - hidden when search expanded */}
@@ -497,7 +533,7 @@ function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchE
         >
           <Navigation onNavigate={onNavigate} />
         </motion.div>
-        
+
         {/* Dark mode toggle - hidden when search expanded */}
         <motion.div
           initial={false}
@@ -515,22 +551,22 @@ function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchE
         >
           <DarkModeToggle />
         </motion.div>
-        
+
         {/* Search bar - expands to fill available space */}
-  <div className="relative shrink-0 translate-y-px">
-          <SearchBar 
-            isExpanded={isSearchExpanded} 
+        <div className="relative shrink-0 translate-y-px">
+          <SearchBar
+            isExpanded={isSearchExpanded}
             setIsExpanded={setIsSearchExpanded}
             onNavigate={onNavigate}
           />
         </div>
       </div>
-      
+
       {/* Desktop: Navigation on right, search in center */}
       <div className="hidden md:block">
         {/* Right-aligned container with navigation and dark mode toggle - bottom aligned */}
-        <div 
-          className="absolute flex items-end gap-[var(--space-md)]" 
+        <div
+          className="absolute flex items-end gap-[var(--space-md)]"
           style={{ right: 'var(--page-padding-inline)', bottom: 'calc(12px + 0.5vh)' }}
         >
           <div className="flex items-end">
@@ -538,11 +574,11 @@ function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchE
           </div>
           <DarkModeToggle />
         </div>
-        
+
         {/* Search bar - centered and bottom aligned */}
         <div className="absolute flex items-end" style={{ left: '50%', transform: 'translateX(-50%)', bottom: 'calc(12px + 0.5vh)', zIndex: isSearchExpanded ? 50 : 1 }}>
-          <SearchBar 
-            isExpanded={isSearchExpanded} 
+          <SearchBar
+            isExpanded={isSearchExpanded}
             setIsExpanded={setIsSearchExpanded}
             onNavigate={onNavigate}
           />
@@ -554,7 +590,7 @@ function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchE
 
 export function Header({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
-  
+
   return (
     <>
       {/* Full-page overlay when search is expanded */}
@@ -577,12 +613,12 @@ export function Header({ onNavigate }: { onNavigate: (page: PageKey) => void }) 
         <div className={`absolute inset-0 transition-all duration-300 ${isSearchExpanded ? 'backdrop-blur-sm bg-[#162F1C]/80' : ''}`} style={{ zIndex: isSearchExpanded ? 45 : -1 }} />
         {/* Golden stroke line at bottom */}
         <div className="absolute bottom-0 left-0 right-0 h-[0.25px] bg-[#E0CBA8]" style={{ zIndex: 'var(--z-fixed)' }}></div>
-      <Container3 
-        onNavigate={onNavigate}
-        onLandingClick={() => onNavigate('landing')}
-        isSearchExpanded={isSearchExpanded}
-        setIsSearchExpanded={setIsSearchExpanded}
-      />
+        <Container3
+          onNavigate={onNavigate}
+          onLandingClick={() => onNavigate('landing')}
+          isSearchExpanded={isSearchExpanded}
+          setIsSearchExpanded={setIsSearchExpanded}
+        />
       </div>
     </>
   );

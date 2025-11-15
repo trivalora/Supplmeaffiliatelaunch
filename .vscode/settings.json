@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "css.validate": false,
+    "tailwindCSS.includeLanguages": {
+        "typescriptreact": "html",
+        "javascriptreact": "html"
+    },
+    "search.exclude": {
+        "build": true,
+        "dist": true,
+        "node_modules": true
+    }
+}

@@ -8,7 +8,7 @@ import { SEOHead } from './SEOHead';
 export function ContactPage() {
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Contact Us - Get in Touch"
         description="Have questions about supplements or our platform? Contact us for expert guidance on evidence-based supplement recommendations, pricing, and product information."
         keywords="contact us, supplement questions, customer support, supplement guidance, contact information"
@@ -31,11 +31,11 @@ export function ContactPage() {
                   <h2 className="font-['Lora',_serif] text-primary text-[24px] md:text-[28px] mb-8">
                     Write Us
                   </h2>
-                  
+
                   <div className="space-y-8">
                     {/* Address */}
                     <div className="flex gap-4 items-start">
-                      <div className="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                      <div className="shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                         <MapPin className="w-5 h-5 text-primary-foreground" />
                       </div>
                       <div>
@@ -53,15 +53,15 @@ export function ContactPage() {
 
                     {/* Email */}
                     <div className="flex gap-4 items-start">
-                      <div className="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                      <div className="shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                         <Mail className="w-5 h-5 text-primary-foreground" />
                       </div>
                       <div>
                         <h3 className="font-['Lato',_sans-serif] font-bold text-foreground text-[16px] mb-2">
                           Email Us
                         </h3>
-                        <a 
-                          href="mailto:hello@suppl.me" 
+                        <a
+                          href="mailto:hello@suppl.me"
                           className="font-['Lato',_sans-serif] text-primary text-[14px] hover:underline"
                         >
                           hello@suppl.me
@@ -71,15 +71,15 @@ export function ContactPage() {
 
                     {/* Phone */}
                     <div className="flex gap-4 items-start">
-                      <div className="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                      <div className="shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                         <Phone className="w-5 h-5 text-primary-foreground" />
                       </div>
                       <div>
                         <h3 className="font-['Lato',_sans-serif] font-bold text-foreground text-[16px] mb-2">
                           Call Us
                         </h3>
-                        <a 
-                          href="tel:+14152895055" 
+                        <a
+                          href="tel:+14152895055"
                           className="font-['Lato',_sans-serif] text-muted-foreground text-[14px]"
                         >
                           (415) 289-5055 / 800
@@ -95,15 +95,15 @@ export function ContactPage() {
                 <h2 className="font-['Lora',_serif] text-primary text-[24px] mb-6">
                   Send us a Message
                 </h2>
-                
+
                 <form className="space-y-6">
                   <div>
                     <Label htmlFor="name" className="font-['Lato',_sans-serif] text-foreground text-[14px] mb-2 block">
                       Your Name
                     </Label>
-                    <Input 
-                      id="name" 
-                      type="text" 
+                    <Input
+                      id="name"
+                      type="text"
                       placeholder="John Doe"
                       className="font-['Lato',_sans-serif]"
                     />
@@ -113,9 +113,9 @@ export function ContactPage() {
                     <Label htmlFor="email" className="font-['Lato',_sans-serif] text-foreground text-[14px] mb-2 block">
                       Email Address
                     </Label>
-                    <Input 
-                      id="email" 
-                      type="email" 
+                    <Input
+                      id="email"
+                      type="email"
                       placeholder="john@example.com"
                       className="font-['Lato',_sans-serif]"
                     />
@@ -125,9 +125,9 @@ export function ContactPage() {
                     <Label htmlFor="subject" className="font-['Lato',_sans-serif] text-foreground text-[14px] mb-2 block">
                       Subject
                     </Label>
-                    <Input 
-                      id="subject" 
-                      type="text" 
+                    <Input
+                      id="subject"
+                      type="text"
                       placeholder="How can we help?"
                       className="font-['Lato',_sans-serif]"
                     />
@@ -137,14 +137,14 @@ export function ContactPage() {
                     <Label htmlFor="message" className="font-['Lato',_sans-serif] text-foreground text-[14px] mb-2 block">
                       Message
                     </Label>
-                    <Textarea 
-                      id="message" 
+                    <Textarea
+                      id="message"
                       placeholder="Tell us more about your inquiry..."
                       className="min-h-[150px] font-['Lato',_sans-serif]"
                     />
                   </div>
 
-                  <Button 
+                  <Button
                     type="submit"
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-['Lato',_sans-serif] text-[16px] py-6 rounded-[14px]"
                   >

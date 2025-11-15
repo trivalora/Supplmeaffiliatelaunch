@@ -1,4 +1,5 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ResponsivePicture } from './ResponsivePicture';
 import imgPhilipp from 'figma:asset/ba7f18652d239a86866cf8bd1f5919c913befa4b.png';
 import imgSebastian from 'figma:asset/4cc7cdc6ba408e920883098378ddf5612fda349e.png';
 import imgBrian from 'figma:asset/ba23c644c769aed69ee6d17f7866560f5794f544.png';
@@ -15,20 +16,39 @@ interface FounderInfoProps {
 function FounderInfo({ name, title, imageUrl, bio, isLocalImage }: FounderInfoProps) {
   // Special cropping for Sebastian's image
   const isSebastian = name === 'Sebastian';
-  
+
   return (
     <div className="flex flex-col lg:flex-row gap-6 items-start">
       {/* Founder Image */}
-      <div className="flex-shrink-0 w-full lg:w-[240px] h-[280px] rounded-[14px] overflow-hidden bg-[rgba(0,0,0,0)]">
+      <div className="shrink-0 w-full lg:w-[240px] h-[280px] rounded-[14px] overflow-hidden bg-[rgba(0,0,0,0)]">
         {isLocalImage ? (
-          <img
-            src={imageUrl}
-            alt={`${name} - ${title}`}
-            className="w-full h-full object-cover rounded-[14px]"
-            style={isSebastian ? {
-              objectPosition: '50% 23%'
-            } : undefined}
-          />
+          (() => {
+            try {
+              const baseFile = imageUrl.split('?')[0].split('/').pop();
+              if (baseFile && baseFile.includes('.')) {
+                return (
+                  <ResponsivePicture
+                    file={baseFile}
+                    alt={`${name} - ${title}`}
+                    fallbackSrc={imageUrl}
+                    sizes="(min-width: 1024px) 240px, 90vw"
+                    imgProps={{ className: 'w-full h-full object-cover rounded-[14px]', loading: 'lazy', decoding: 'async' }}
+                    style={isSebastian ? { objectPosition: '50% 23%' } : undefined}
+                  />
+                );
+              }
+            } catch { }
+            return (
+              <img
+                src={imageUrl}
+                alt={`${name} - ${title}`}
+                className="w-full h-full object-cover rounded-[14px]"
+                style={isSebastian ? { objectPosition: '50% 23%' } : undefined}
+                loading="lazy"
+                decoding="async"
+              />
+            );
+          })()
         ) : (
           <ImageWithFallback
             src={imageUrl}
@@ -84,7 +104,7 @@ export function AboutPage() {
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="About Us - Evidence-Based Supplement Guide"
         description="Meet the team behind the evidence-based supplement platform. Learn about our mission to provide transparent, science-backed supplement recommendations and price comparisons."
         keywords="about suppl.me, supplement research team, evidence-based supplements, transparent supplement guide, science-backed recommendations"

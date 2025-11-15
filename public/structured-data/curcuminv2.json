@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Curcumin",
+    "description": "Enhanced meta-analysis review of curcumin with anti-inflammatory and metabolic effects",
+    "category": "Phytochemicals"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Curcumin",
+    "description": "Enhanced meta-analysis review of curcumin with anti-inflammatory and metabolic effects",
+    "about": "Curcumin",
+    "url": "https://suppl.me/curcuminv2"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Vitamin D",
+    "description": "Enhanced meta-analysis review of vitamin D with updated research data",
+    "category": "Vitamins"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Vitamin D",
+    "description": "Enhanced meta-analysis review of vitamin D with updated research data",
+    "about": "Vitamin D",
+    "url": "https://suppl.me/vitamindv2"
+  }
+]

@@ -1,4 +1,5 @@
 import { Component, ReactNode } from 'react';
+import { trackError } from '../utils/analytics';
 
 interface Props {
   children: ReactNode;
@@ -34,11 +35,15 @@ export class ErrorBoundary extends Component<Props, State> {
       console.error('Error caught by ErrorBoundary:', error);
       console.error('Error info:', errorInfo);
     }
-    
+
     // TODO: Log to error reporting service (Sentry, LogRocket, etc.)
     // Example: Sentry.captureException(error, { extra: errorInfo });
-    
+
     this.setState({ errorInfo });
+
+    try {
+      trackError(error.name || 'ReactError', error.message, errorInfo?.componentStack || 'unknown');
+    } catch { }
   }
 
   handleReset = () => {
@@ -54,12 +59,12 @@ export class ErrorBoundary extends Component<Props, State> {
 
       // Default fallback UI
       return (
-        <div 
-          className="min-h-screen flex items-center justify-center p-4" 
+        <div
+          className="min-h-screen flex items-center justify-center p-4"
           style={{ backgroundColor: 'var(--color-tertiary)' }}
         >
           <div className="text-center max-w-md">
-            <div 
+            <div
               className="mb-6 w-20 h-20 mx-auto rounded-full flex items-center justify-center"
               style={{ backgroundColor: 'var(--color-primary-dark)' }}
             >
@@ -79,17 +84,17 @@ export class ErrorBoundary extends Component<Props, State> {
               </svg>
             </div>
 
-            <h1 
+            <h1
               className="text-2xl mb-4"
-              style={{ 
+              style={{
                 fontFamily: 'var(--font-heading)',
-                color: 'var(--color-primary-dark)' 
+                color: 'var(--color-primary-dark)'
               }}
             >
               Something went wrong
             </h1>
-            
-            <p 
+
+            <p
               className="mb-6"
               style={{ color: 'var(--color-fourth)' }}
             >
@@ -101,11 +106,11 @@ export class ErrorBoundary extends Component<Props, State> {
                 <summary className="cursor-pointer text-sm mb-2" style={{ color: 'var(--color-fourth)' }}>
                   Error Details (Dev Only)
                 </summary>
-                <pre 
+                <pre
                   className="text-xs p-4 rounded overflow-auto max-h-40"
-                  style={{ 
+                  style={{
                     backgroundColor: 'rgba(22, 47, 28, 0.05)',
-                    color: 'var(--color-text)' 
+                    color: 'var(--color-text)'
                   }}
                 >
                   {this.state.error.toString()}
@@ -118,20 +123,20 @@ export class ErrorBoundary extends Component<Props, State> {
               <button
                 onClick={() => window.location.reload()}
                 className="px-6 py-3 rounded-lg transition-opacity hover:opacity-90"
-                style={{ 
-                  backgroundColor: 'var(--color-primary-dark)', 
+                style={{
+                  backgroundColor: 'var(--color-primary-dark)',
                   color: 'white',
                   fontFamily: 'var(--font-body)'
                 }}
               >
                 Refresh Page
               </button>
-              
+
               <button
                 onClick={() => window.location.href = '/'}
                 className="px-6 py-3 rounded-lg transition-opacity hover:opacity-90"
-                style={{ 
-                  backgroundColor: 'var(--color-secondary)', 
+                style={{
+                  backgroundColor: 'var(--color-secondary)',
                   color: 'var(--color-text)',
                   fontFamily: 'var(--font-body)'
                 }}

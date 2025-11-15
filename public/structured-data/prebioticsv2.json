@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Prebiotics",
+    "description": "Enhanced meta-analysis review of prebiotics for gut health and metabolic effects",
+    "category": "Probiotics"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Prebiotics",
+    "description": "Enhanced meta-analysis review of prebiotics for gut health and metabolic effects",
+    "about": "Prebiotics",
+    "url": "https://suppl.me/prebioticsv2"
+  }
+]
