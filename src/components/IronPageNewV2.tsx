@@ -2,7 +2,7 @@ import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTe
 import { 
   Heart, Activity, Droplet, Zap, AlertCircle, Shield,
   Pill, FlaskConical, Apple, Users, Brain
-} from 'lucide-react';
+} from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';

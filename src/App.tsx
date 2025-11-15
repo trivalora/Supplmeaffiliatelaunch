@@ -5,6 +5,7 @@ import { AnalyticsProvider } from './components/AnalyticsProvider';
 import { SEOHead, pageSEO, getSupplementSEO, getGlossarySEO } from './components/SEOHead';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { PageKey } from './routes.config';
+import { getPathForKey } from './utils/routePaths';
 
 // Eager load ONLY the initial landing page (needed for first render)
 import { LandingPage } from './components/LandingPage';
@@ -333,9 +334,10 @@ export default function App({ navigate, currentPath }: AppProps) {
   // This ensures child components' useMemo dependencies remain stable
   const navigateTo = useCallback((page: PageKey) => {
     console.log('[navigateTo] Called with page:', page);
-    console.log('[navigateTo] Will navigate to path:', `/${page}`);
+    const path = getPathForKey(page);
+    console.log('[navigateTo] Will navigate to path:', path);
     setCurrentPage(page);
-    navigate(`/${page}`);
+    navigate(path);
   }, [navigate]);
 
   // Render the current page component

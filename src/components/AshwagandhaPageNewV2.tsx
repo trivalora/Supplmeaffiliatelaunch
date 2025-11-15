@@ -2,8 +2,8 @@ import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTe
 import { 
   Brain, Shield, TrendingDown, Zap, Moon, Heart,
   AlertCircle, Droplet, FlaskConical, Leaf,
-  Clock, CheckCircle2, Users
-} from 'lucide-react';
+  Clock, CheckCircle2, Users, Pill, Activity, Smile, TrendingUp
+} from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';

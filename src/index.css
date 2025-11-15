@@ -3027,8 +3027,8 @@
   }
 
   @media (width >= 48rem) {
-    .md\:h-auto {
-      height: auto;
+    .md\:h-\[clamp\(400px\,50vh\,600px\)\] {
+      height: clamp(400px, 50vh, 600px);
     }
   }
 

@@ -8,6 +8,8 @@ function Logo() {
         alt="suppl.me" 
         className="h-[120px] md:h-[150px] w-auto"
         data-name="Logo"
+        loading="lazy"
+        decoding="async"
       />
     </div>
   );

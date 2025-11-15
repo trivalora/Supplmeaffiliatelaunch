@@ -2,7 +2,7 @@ import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTe
 import { 
   Heart, Activity, Droplet, TrendingDown, Flame, Shield,
   Pill, Zap, Apple, FlaskConical, User, Users, BarChart3
-} from 'lucide-react';
+} from './iconExports';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
 

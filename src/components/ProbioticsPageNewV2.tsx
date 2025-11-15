@@ -1,9 +1,9 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Brain, Shield, Activity, Droplet, AlertCircle,
+  Shield, Heart, Activity, Droplet, Brain, TrendingDown,
   FlaskConical, Pill, Users, Zap,
   Clock, CheckCircle2
-} from 'lucide-react';
+} from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
@@ -67,7 +67,7 @@ export function ProbioticsPageNewV2({
         description: "Modulates immune response and may reduce frequency of colds and infections"
       },
       {
-        icon: AlertCircle,
+        icon: TrendingDown,
         title: "IBS Symptom Relief",
         description: "Certain strains reduce bloating, pain, and irregular bowel movements in IBS patients"
       },
@@ -86,7 +86,7 @@ export function ProbioticsPageNewV2({
     drawbacksIntro: "Generally safe for most people, but note:",
     drawbacks: [
       {
-        icon: AlertCircle,
+        icon: TrendingDown,
         title: "Gas & Bloating",
         description: "Some users experience temporary digestive upset when starting probiotics"
       },

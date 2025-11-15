@@ -1,30 +1,22 @@
-import { useEffect } from 'react';
-import { useNavigate, useLocation, Routes, Route } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import App from '../App';
+import { getKeyForPath } from '../utils/routePaths';
 
 /**
  * AppWrapper - Bridges React Router with App's internal navigation
- * This component handles the routing hooks and passes navigation down to App
+ * Converts URL paths to PageKeys for the App component
  */
 export default function AppWrapper() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Pass location changes to App via a custom event
-  useEffect(() => {
-    // Trigger a custom event that App can listen to
-    window.dispatchEvent(new CustomEvent('routechange', { 
-      detail: { pathname: location.pathname } 
-    }));
-  }, [location.pathname]);
+  // Convert current path to PageKey
+  const currentPageKey = getKeyForPath(location.pathname) || 'landing';
 
+  // Navigate to a new path
   const handleNavigate = (path: string) => {
     navigate(path);
   };
 
-  return (
-    <Routes>
-      <Route path="*" element={<App navigate={handleNavigate} currentPath={location.pathname || '/'} />} />
-    </Routes>
-  );
+  return <App navigate={handleNavigate} currentPageKey={currentPageKey} currentPath={location.pathname} />;
 }

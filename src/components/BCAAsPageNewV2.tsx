@@ -1,8 +1,8 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
   Dumbbell, Zap, Activity, TrendingUp, Shield, Heart,
-  AlertCircle, Droplet, FlaskConical, Apple, Users
-} from 'lucide-react';
+  AlertCircle, Droplet, FlaskConical, Apple, Users, Pill, CheckCircle2
+} from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';

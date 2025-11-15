@@ -326,7 +326,7 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
 
 function HeroSection({ supplementName, heroDescription, heroImageUrl, heroImageComponent }: Pick<KnowledgebasePageProps, 'supplementName' | 'heroDescription' | 'heroImageUrl' | 'heroImageComponent'>) {
   return (
-    <div id="hero" data-knowledgebase-hero className="h-auto md:h-auto w-full flex flex-col-reverse md:flex-row">
+    <div id="hero" data-knowledgebase-hero className="h-auto md:h-[clamp(400px,50vh,600px)] w-full flex flex-col-reverse md:flex-row">
       <HeroLeftPanel supplementName={supplementName} heroDescription={heroDescription} />
       <HeroRightPanel heroImageUrl={heroImageUrl} heroImageComponent={heroImageComponent} supplementName={supplementName} />
     </div>

@@ -64,6 +64,9 @@ function Logo({ onClick }: { onClick?: () => void }) {
         src={imgLogo} 
         alt="suppl.me" 
         className="h-[53px] w-auto"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
       />
     </div>
   );
@@ -114,6 +117,8 @@ const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROU
               userSelect: 'none'
             }}
             draggable={false}
+            loading="eager"
+            decoding="async"
           />
         </div>
       )}

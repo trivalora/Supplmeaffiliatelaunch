@@ -1,0 +1,185 @@
+/**
+ * URL Path Mapping for SPA Routing
+ * Maps PageKey to URL paths and vice versa for proper navigation
+ */
+
+import { PageKey } from '../routes.config';
+
+// URL path mapping for proper SPA routing
+export const PAGE_PATHS: Record<string, string> = {
+  // Landing
+  'landing': '/',
+  
+  // Knowledgebase V2 pages
+  'ashwagandhav2': '/ashwagandha',
+  'calciumv2': '/calcium',
+  'collagenpeptidesv2': '/collagen-peptides',
+  'creatinev2': '/creatine',
+  'ironv2': '/iron',
+  'magnesiumv2': '/magnesium',
+  'omega3v2': '/omega-3',
+  'prebioticsv2': '/prebiotics',
+  'probioticsv2': '/probiotics',
+  'sulforaphanev2': '/sulforaphane',
+  'vitamincv2': '/vitamin-c',
+  'vitamindv2': '/vitamin-d',
+  'bcaasv2': '/bcaas',
+  'curcuminv2': '/curcumin',
+  'multivitaminv2': '/multivitamin',
+  'wheyproteinv2': '/whey-protein',
+  'caseinproteinv2': '/casein-protein',
+  
+  // Knowledgebase V1 pages (archived - still accessible by direct URL)
+  'ashwagandha': '/ashwagandha-v1',
+  'calcium': '/calcium-v1',
+  'collagenpeptides': '/collagen-peptides-v1',
+  'creatine': '/creatine-v1',
+  'iron': '/iron-v1',
+  'magnesium': '/magnesium-v1',
+  'omega3': '/omega-3-v1',
+  'prebiotics': '/prebiotics-v1',
+  'probiotics': '/probiotics-v1',
+  'sulforaphane': '/sulforaphane-v1',
+  'vitaminc': '/vitamin-c-v1',
+  'vitamind': '/vitamin-d-v1',
+  'bcaas': '/bcaas-v1',
+  'curcumin': '/curcumin-v1',
+  'multivitamin': '/multivitamin-v1',
+  'wheyprotein': '/whey-protein-v1',
+  
+  // Static pages
+  'knowledgebase': '/knowledgebase',
+  'about': '/about',
+  'contact': '/contact',
+  'glossary': '/glossary',
+  'cookies': '/cookies',
+  'legal': '/legal',
+  'privacy': '/privacy',
+  'terms': '/terms',
+  'methodology': '/methodology',
+  'partner': '/partner',
+  
+  // Glossary terms - using kebab-case for URLs
+  'rct': '/glossary/rct',
+  'metaanalysis': '/glossary/meta-analysis',
+  'empiricalevidence': '/glossary/empirical-evidence',
+  'anecdotalevidence': '/glossary/anecdotal-evidence',
+  'placebo': '/glossary/placebo',
+  'peerreviewed': '/glossary/peer-reviewed',
+  'statisticalsignificance': '/glossary/statistical-significance',
+  'clinicalsignificance': '/glossary/clinical-significance',
+  'subgroupanalysis': '/glossary/subgroup-analysis',
+  'efficacy': '/glossary/efficacy',
+  'singleblinded': '/glossary/single-blinded',
+  'doubleblinded': '/glossary/double-blinded',
+  'bioavailability': '/glossary/bioavailability',
+  'inflammation': '/glossary/inflammation',
+  'oxidativestress': '/glossary/oxidative-stress',
+  'antioxidant': '/glossary/antioxidant',
+  'insulinresistance': '/glossary/insulin-resistance',
+  'biomarker': '/glossary/biomarker',
+  'absorption': '/glossary/absorption',
+  'metabolism': '/glossary/metabolism',
+  'cardiovascular': '/glossary/cardiovascular',
+  'dosedependent': '/glossary/dose-dependent',
+  'homocysteine': '/glossary/homocysteine',
+  'bonedensity': '/glossary/bone-density',
+  'glycemiccontrol': '/glossary/glycemic-control',
+  'cognitivefunction': '/glossary/cognitive-function',
+  'anemia': '/glossary/anemia',
+  'triglycerides': '/glossary/triglycerides',
+  'collagen': '/glossary/collagen',
+  'cortisol': '/glossary/cortisol',
+  'thyroidfunction': '/glossary/thyroid-function',
+  'gutmicrobiome': '/glossary/gut-microbiome',
+  'immunesystem': '/glossary/immune-system',
+  'muscleproteinsynthesis': '/glossary/muscle-protein-synthesis',
+  'neurotransmitter': '/glossary/neurotransmitter',
+  'electrolytes': '/glossary/electrolytes',
+  'jointhealth': '/glossary/joint-health',
+  'sleepquality': '/glossary/sleep-quality',
+  'mitochondria': '/glossary/mitochondria',
+  'protein': '/glossary/protein',
+  'vitamindeficiency': '/glossary/vitamin-deficiency',
+  'adaptogen': '/glossary/adaptogen',
+  'smd': '/glossary/smd',
+  'grade': '/glossary/grade',
+  'epa': '/glossary/epa',
+  'dha': '/glossary/dha',
+  'omega-3': '/glossary/omega-3',
+  'bloodglucose': '/glossary/blood-glucose',
+  'bloodpressure': '/glossary/blood-pressure',
+  'proteinsynthesis': '/glossary/protein-synthesis',
+  'glucosemetabolism': '/glossary/glucose-metabolism',
+  'systolic': '/glossary/systolic',
+  'diastolic': '/glossary/diastolic',
+  'normotensive': '/glossary/normotensive',
+  'hypertensive': '/glossary/hypertensive',
+  'macromineral': '/glossary/macromineral',
+  'micromineral': '/glossary/micromineral',
+  'parathyroidhormone': '/glossary/parathyroid-hormone',
+  'calciumhomeostasis': '/glossary/calcium-homeostasis',
+  'osteoporosis': '/glossary/osteoporosis',
+  'hydrolyzed': '/glossary/hydrolyzed',
+  'glycine': '/glossary/glycine',
+  'proline': '/glossary/proline',
+  'hydroxyproline': '/glossary/hydroxyproline',
+  'atp': '/glossary/atp',
+  'pedro': '/glossary/pedro',
+  'hemoglobin': '/glossary/hemoglobin',
+  'myoglobin': '/glossary/myoglobin',
+  'rr': '/glossary/rr',
+  'or': '/glossary/or',
+  'fmd': '/glossary/fmd',
+  'ci': '/glossary/ci',
+  'heterogeneity': '/glossary/heterogeneity',
+  'i2': '/glossary/i2',
+  'md': '/glossary/md',
+  'hedgesg': '/glossary/hedgesg',
+  'wmd': '/glossary/wmd',
+  'vascularfunction': '/glossary/vascular-function',
+  'endothelialfunction': '/glossary/endothelial-function',
+  'ferritin': '/glossary/ferritin',
+  'transferrin': '/glossary/transferrin',
+  'serumferritin': '/glossary/serum-ferritin',
+  'crp': '/glossary/crp',
+  'il6': '/glossary/il6',
+  'tnfalpha': '/glossary/tnf-alpha',
+  'hba1c': '/glossary/hba1c',
+  'fastingglucose': '/glossary/fasting-glucose',
+  'homa-ir': '/glossary/homa-ir',
+  'ldl': '/glossary/ldl',
+  'hdl': '/glossary/hdl',
+  'totalcholesterol': '/glossary/total-cholesterol',
+  'nnt': '/glossary/nnt',
+  'ahr': '/glossary/ahr',
+  'nrf2': '/glossary/nrf2',
+  'phase2enzymes': '/glossary/phase2-enzymes',
+  'glutathione': '/glossary/glutathione',
+  'curcuminoid': '/glossary/curcuminoid',
+  'piperine': '/glossary/piperine',
+  'cfus': '/glossary/cfus',
+  'scfa': '/glossary/scfa',
+  'prebiotic': '/glossary/prebiotic',
+  'probiotic': '/glossary/probiotic',
+  'inulin': '/glossary/inulin',
+  'fos': '/glossary/fos',
+};
+
+// Reverse mapping: URL path to PageKey
+export const PATH_TO_KEY: Record<string, PageKey> = Object.entries(PAGE_PATHS).reduce(
+  (acc, [key, path]) => ({ ...acc, [path]: key as PageKey }),
+  {} as Record<string, PageKey>
+);
+
+// Helper to get path for a page key
+export const getPathForKey = (key: PageKey): string => {
+  return PAGE_PATHS[key] || '/';
+};
+
+// Helper to get key for a path
+export const getKeyForPath = (path: string): PageKey | null => {
+  // Remove trailing slash for matching (except for root)
+  const normalizedPath = path === '/' ? '/' : path.replace(/\/$/, '');
+  return PATH_TO_KEY[normalizedPath] || null;
+};

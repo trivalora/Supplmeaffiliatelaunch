@@ -1,9 +1,9 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Brain, Shield, Activity, Droplet, Eye, 
+  Heart, Brain, Eye, Activity, Droplet, Shield,
   AlertCircle, Pill, FlaskConical, Baby,
   Clock, CheckCircle2, Smile, Users
-} from 'lucide-react';
+} from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';

@@ -1,9 +1,9 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Zap, Activity, Brain, TrendingUp, Dumbbell, Heart,
+  Dumbbell, Brain, Zap, Activity, Shield, TrendingUp,
   AlertCircle, Droplet, FlaskConical, Apple,
   Clock, CheckCircle2, Users
-} from 'lucide-react';
+} from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
@@ -126,7 +126,7 @@ export function CreatinePageNewV2({
         description: "Safety meta-analysis of renal and hepatic function found no significant adverse effects in healthy individuals or diseased populations"
       },
       {
-        icon: Pill,
+        icon: Shield,
         title: "Hair Loss Concerns",
         description: "One older study suggested increased DHT; limited follow-up in meta-analyses, but remains a theoretical concern for some"
       }
@@ -231,7 +231,7 @@ export function CreatinePageNewV2({
         description: "Older adults (65+): evidence strongest for both cognitive and physical benefits. Younger adults: focus on muscle/strength outcomes. Muscle disorder patients: consult physician, but evidence supports use in dystrophies and inflammatory myopathies."
       },
       {
-        icon: FileText,
+        icon: Shield,
         title: "Evidence-Based Duration",
         description: "Most studies showing benefits used 3 weeks to 12 months of continuous supplementation. No evidence suggests cycling is necessary; consistent daily use appears safe and effective long-term."
       }

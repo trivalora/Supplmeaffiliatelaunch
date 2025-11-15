@@ -228,15 +228,16 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
                       <IconComponent className="size-[36px] text-primary" />
                     )}
                   </div>
-                  <p 
-                    className="font-['Inter'] font-normal leading-[14px] text-muted-foreground text-center px-2 whitespace-nowrap overflow-hidden"
-                    data-column-description
-                    style={{
-                      fontSize: outcome.iconLabel.length > 28 ? '9px' : outcome.iconLabel.length > 25 ? '10px' : outcome.iconLabel.length > 20 ? '11px' : outcome.iconLabel.length > 18 ? '12px' : '13px'
-                    }}
-                  >
-                    {outcome.iconLabel}
-                  </p>
+                  <div className="flex items-center justify-center w-full h-[18px]" data-column-description>
+                    <p 
+                      className="font-['Inter'] font-normal leading-[14px] text-muted-foreground text-center px-2 whitespace-nowrap overflow-hidden"
+                      style={{
+                        fontSize: outcome.iconLabel.length > 28 ? '9px' : outcome.iconLabel.length > 25 ? '10px' : outcome.iconLabel.length > 20 ? '11px' : outcome.iconLabel.length > 18 ? '12px' : '13px'
+                      }}
+                    >
+                      {outcome.iconLabel}
+                    </p>
+                  </div>
                 </div>
 
                 {/* Usage Column */}
@@ -257,9 +258,11 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
                       <span className="font-['Inter'] font-normal leading-[20px] text-primary text-[16px] whitespace-nowrap"> {outcome.usageDelivery}</span>
                     )}
                   </div>
-                  <p className="font-['Inter'] font-normal leading-[18px] text-muted-foreground text-[13px] text-center" data-column-description>
-                    per day
-                  </p>
+                  <div className="flex items-center justify-center w-full h-[18px]" data-column-description>
+                    <p className="font-['Inter'] font-normal leading-[18px] text-muted-foreground text-[13px] text-center">
+                      per day
+                    </p>
+                  </div>
                 </div>
 
                 {/* Best Time Column - ALWAYS show for consistent layout */}
@@ -340,15 +343,17 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
                       <p className="text-xs text-muted-foreground">—</p>
                     )}
                   </div>
-                  <p className="font-['Inter'] font-normal leading-[18px] text-muted-foreground text-[13px] text-center whitespace-nowrap" data-column-description>
-                    {outcome.bestTime && outcome.bestTime.includes('or') ? 'Morning or Evening'
-                      : outcome.bestTime === 'Anytime' ? 'Anytime'
-                      : (outcome.bestTime.includes('with food') || outcome.bestTime.includes('meal')) ? 'with food'
-                      : outcome.bestTime.includes('before bed') ? 'Before bed'
-                      : outcome.bestTime.includes('Morning') && !outcome.bestTime.includes('Evening') ? 'Morning'
-                      : outcome.bestTime.includes('Evening') && !outcome.bestTime.includes('Morning') ? 'Evening'
-                      : outcome.bestTime || '\u00A0'}
-                  </p>
+                  <div className="flex items-center justify-center w-full h-[18px]" data-column-description>
+                    <p className="font-['Inter'] font-normal leading-[18px] text-muted-foreground text-[13px] text-center whitespace-nowrap">
+                      {outcome.bestTime && outcome.bestTime.includes('or') ? 'Morning or Evening'
+                        : outcome.bestTime === 'Anytime' ? 'Anytime'
+                        : (outcome.bestTime.includes('with food') || outcome.bestTime.includes('meal')) ? 'with food'
+                        : outcome.bestTime.includes('before bed') ? 'Before bed'
+                        : outcome.bestTime.includes('Morning') && !outcome.bestTime.includes('Evening') ? 'Morning'
+                        : outcome.bestTime.includes('Evening') && !outcome.bestTime.includes('Morning') ? 'Evening'
+                        : outcome.bestTime || '\u00A0'}
+                    </p>
+                  </div>
                 </div>
 
                 {/* Results Column */}
