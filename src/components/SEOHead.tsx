@@ -133,10 +133,45 @@ export function SEOHead({
       }
     };
 
-    // Normalize structuredData into array; include default schema if none provided
-    const dataArray: Record<string, any>[] = structuredData
+    // Conditional BreadcrumbList for article pages
+    const breadcrumbSchema = pageType === 'article' ? {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: base },
+        { '@type': 'ListItem', position: 2, name: 'Knowledge Base', item: `${base}/knowledgebase` },
+        { '@type': 'ListItem', position: 3, name: title, item: resolvedOgUrl }
+      ]
+    } : null;
+
+    // Minimal Article schema when applicable
+    const articleSchema = pageType === 'article' ? {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description,
+      url: resolvedOgUrl,
+      mainEntityOfPage: resolvedOgUrl,
+      image: ogImage ? [ogImage] : undefined,
+      datePublished: publishedTime || undefined,
+      dateModified: modifiedTime || undefined,
+      author: { '@type': 'Organization', name: author },
+      publisher: { '@type': 'Organization', name: 'suppl.me' }
+    } : null;
+
+    // Base schemas always included
+    const baseSchemas: Record<string, any>[] = [
+      defaultWebsiteSchema,
+      ...(breadcrumbSchema ? [breadcrumbSchema] : []),
+      ...(articleSchema ? [articleSchema] : [])
+    ];
+
+    // Normalize user-provided structured data and append to base
+    const userSchemas: Record<string, any>[] = structuredData
       ? (Array.isArray(structuredData) ? structuredData : [structuredData])
-      : [defaultWebsiteSchema];
+      : [];
+
+    const dataArray: Record<string, any>[] = [...baseSchemas, ...userSchemas];
 
     // Remove any previous structured data scripts managed by this component
     document.querySelectorAll('script[data-seohead-structured]').forEach(el => el.remove());
