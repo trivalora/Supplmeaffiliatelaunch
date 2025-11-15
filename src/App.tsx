@@ -333,11 +333,18 @@ export default function App({ navigate, currentPath }: AppProps) {
   // PERFORMANCE: Wrap navigation handler in useCallback to prevent re-creation on every render
   // This ensures child components' useMemo dependencies remain stable
   const navigateTo = useCallback((page: PageKey) => {
-    console.log('[navigateTo] Called with page:', page);
+    console.log('[App.navigateTo] Called with page:', page);
     const path = getPathForKey(page);
-    console.log('[navigateTo] Will navigate to path:', path);
+    console.log('[App.navigateTo] Resolved path:', path);
+    console.log('[App.navigateTo] Before navigate - current URL:', window.location.pathname);
+    
+    // Update internal page state
     setCurrentPage(page);
+    
+    // Update browser URL via React Router
     navigate(path);
+    
+    console.log('[App.navigateTo] After navigate call - current URL:', window.location.pathname);
   }, [navigate]);
 
   // Render the current page component

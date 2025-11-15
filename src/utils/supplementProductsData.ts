@@ -53,7 +53,7 @@ export function getProductsBySupplementName(supplementName: string): ProductData
         amazonLink: 'https://www.amazon.com/Ashwagandha-Extract-Potency-Withanolides-Clinically/dp/B07S76M4D5?crid=14PE3VVQYJ5D0&dib=eyJ2IjoiMSJ9.TCi08GE8OP1W0wvzs0VKZUtcIASDoMBYS87muh3kMPkUyWuR7GwfqXORkXqSZOPom7hhXe5whzxZXU5PumPluwLhmYWxhUB6bRv7DgjX3MomIA7Jvard-XZ7IC5MBMzYrLxibBqCrQKCfVC4WW28Tor-I_4tQ1UwJsBhBmQKkRNN843rW8fkmOeC-yB1GaFRm6LvwtCrUuBeAM_Glb3SvwimSPJ0aKw1rLcrcLiWOf4V9RcjemocvcIqWgP2qyXp_40EjOTUBNgBUHcJOxBOEPyADHEewuWGVtn5LFnsNWc.wnMgHGjaTm1QmlvQNvyxloJ7UlMEubkhOFaW6xy6luU&dib_tag=se&keywords=Physician%27s+Choice+KSM-66+Ashwagandha+1000+mg%2C+60+Capsules&qid=1761900656&rdc=1&sprefix=physician%27s+choice+ksm-66+ashwagandha+1000+mg%2C+60+capsules%2Caps%2C196&sr=8-1',
         iherbLink: 'https://www.iherb.com/pr/physician-s-choice-ksm-66-ashwagandha-1000-mg-60-capsules/110507',
         iherbUnavailable: true,
-        badges: ['Independently Tested']
+        badges: ['iHerb Bestseller']
       },
       {
         name: 'Ashwagandha',
@@ -67,7 +67,7 @@ export function getProductsBySupplementName(supplementName: string): ProductData
         image: 'https://m.media-amazon.com/images/I/718TaPAvL+L._AC_SL1500_.jpg',
         amazonLink: 'https://www.amazon.com/NOW-Supplements-Ashwagandha-somnifera-Standardized/dp/B0013OQIJY?sr=8-5',
         iherbLink: 'https://www.iherb.com/pr/now-foods-ashwagandha-standardized-extract-450-mg-90-veg-capsules/310',
-        badges: ['iHerb Bestseller']
+        badges: ['Independently Tested']
       }
     ];
   }
@@ -101,7 +101,7 @@ export function getProductsBySupplementName(supplementName: string): ProductData
         image: 'https://m.media-amazon.com/images/I/61rHyZ0u-4L._AC_SX679_.jpg',
         amazonLink: 'https://www.amazon.com/Vitamin-Cholecalciferol-Supports-Function-Softgels/dp/B071LN9587?sr=8-5',
         iherbLink: 'https://www.iherb.com/pr/california-gold-nutrition-vitamin-d3-125-mcg-5-000-iu-90-fish-gelatin-softgels/70316',
-        badges: ['iHerb Bestseller', 'Independently Tested']
+        badges: ['iHerb Bestseller']
       },
       {
         name: 'Vitamin D3',
@@ -114,7 +114,8 @@ export function getProductsBySupplementName(supplementName: string): ProductData
         pricePerBottle: '$7.94',
         image: 'https://m.media-amazon.com/images/I/71xXJMcUcbL._AC_SX679_.jpg',
         amazonLink: 'https://www.amazon.com/Nature-Made-Vitamin-Strength-Softgels/dp/B0037LOLKY?rdc=1&sr=8-1',
-        iherbLink: 'https://www.iherb.com/pr/nature-made-d3-125-mcg-5-000-iu-90-softgels/76914'
+        iherbLink: 'https://www.iherb.com/pr/nature-made-d3-125-mcg-5-000-iu-90-softgels/76914',
+        badges: ['Independently Tested']
       }
     ];
   }
