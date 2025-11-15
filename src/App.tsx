@@ -252,47 +252,62 @@ interface AppProps {
 export default function App({ navigate, currentPath }: AppProps) {
   // Map URL paths to page keys
   const getPageKeyFromPath = (pathname: string): PageKey => {
-    // Safety check for undefined pathname
     if (!pathname) return 'landing';
-    
-    const path = pathname.replace(/^\/|\/$/g, ''); // Remove leading/trailing slashes
-    
-    if (!path || path === '') return 'landing';
-    if (path === 'partner') return 'partner';
-    if (path === 'about') return 'about';
-    if (path === 'contact') return 'contact';
-    if (path === 'knowledgebase') return 'knowledgebase';
-    if (path === 'glossary') return 'glossary';
-    if (path === 'methodology') return 'methodology';
-    if (path === 'privacy') return 'privacy';
-    if (path === 'terms') return 'terms';
-    if (path === 'legal') return 'legal';
-    if (path === 'cookies') return 'cookies';
-    if (path === 'impressum') return 'impressum';
-    
-    // Supplement pages
-    if (path === 'ashwagandha') return 'ashwagandhav2';
-    if (path === 'calcium') return 'calciumv2';
-    if (path === 'collagen-peptides') return 'collagenpeptidesv2';
-    if (path === 'creatine') return 'creatinev2';
-    if (path === 'iron') return 'ironv2';
-    if (path === 'magnesium') return 'magnesiumv2';
-    if (path === 'omega-3') return 'omega3v2';
-    if (path === 'prebiotics') return 'prebioticsv2';
-    if (path === 'probiotics') return 'probioticsv2';
-    if (path === 'sulforaphane') return 'sulforaphanev2';
-    if (path === 'vitamin-c') return 'vitamincv2';
-    if (path === 'vitamin-d') return 'vitamindv2';
-    if (path === 'multivitamin') return 'multivitaminv2';
-    if (path === 'whey-protein') return 'wheyproteinv2';
-    if (path === 'casein-protein') return 'caseinproteinv2';
-    if (path === 'bcaas') return 'bcaasv2';
-    if (path === 'curcumin') return 'curcuminv2';
-    
-    // Glossary pages - try to match path to glossary key
-    // Convert path like "rct" to "rct", "meta-analysis" to "metaanalysis"
-    const glossaryKey = path.toLowerCase().replace(/-/g, '');
-    return glossaryKey as PageKey;
+
+    // Strip leading/trailing slashes but keep internal hierarchy (e.g. glossary/meta-analysis)
+    const trimmed = pathname.replace(/^\/|\/$/g, '');
+    if (!trimmed) return 'landing';
+
+    // Static top-level pages
+    const staticMap: Record<string, PageKey> = {
+      partner: 'partner',
+      about: 'about',
+      contact: 'contact',
+      knowledgebase: 'knowledgebase',
+      glossary: 'glossary',
+      methodology: 'methodology',
+      privacy: 'privacy',
+      terms: 'terms',
+      legal: 'legal',
+      cookies: 'cookies',
+      impressum: 'impressum',
+    };
+    if (staticMap[trimmed]) return staticMap[trimmed];
+
+    // Supplement (v2) friendly URLs
+    const supplementMap: Record<string, PageKey> = {
+      'ashwagandha': 'ashwagandhav2',
+      'calcium': 'calciumv2',
+      'collagen-peptides': 'collagenpeptidesv2',
+      'creatine': 'creatinev2',
+      'iron': 'ironv2',
+      'magnesium': 'magnesiumv2',
+      'omega-3': 'omega3v2',
+      'prebiotics': 'prebioticsv2',
+      'probiotics': 'probioticsv2',
+      'sulforaphane': 'sulforaphanev2',
+      'vitamin-c': 'vitamincv2',
+      'vitamin-d': 'vitamindv2',
+      'multivitamin': 'multivitaminv2',
+      'whey-protein': 'wheyproteinv2',
+      'casein-protein': 'caseinproteinv2',
+      'bcaas': 'bcaasv2',
+      'curcumin': 'curcuminv2',
+    };
+    if (supplementMap[trimmed]) return supplementMap[trimmed];
+
+    // Glossary hierarchical URLs: glossary/<term>
+    if (trimmed.startsWith('glossary/')) {
+      const term = trimmed.split('/')[1] || '';
+      if (!term) return 'glossary';
+      // Normalize kebab-case to key format by removing hyphens.
+      const normalized = term.toLowerCase().replace(/-/g, '');
+      return normalized as PageKey;
+    }
+
+    // Fallback: treat the whole trimmed path as a key (handles archived v1 and direct glossary keys without prefix)
+    const normalized = trimmed.toLowerCase().replace(/-/g, '');
+    return normalized as PageKey;
   };
   
   // Initialize currentPage based on URL
