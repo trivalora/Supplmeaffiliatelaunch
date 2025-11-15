@@ -1,0 +1,9 @@
+User-agent: *
+# Allow core site
+Allow: /
+
+# Disallow archived v1 supplement pages (use canonical to v2)
+Disallow: /*-v1$
+
+# Sitemap location
+Sitemap: https://www.suppl.me/sitemap.xml

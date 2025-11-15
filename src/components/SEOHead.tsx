@@ -5,11 +5,13 @@ interface SEOHeadProps {
   description?: string;
   keywords?: string;
   ogImage?: string;
-  ogUrl?: string;
+  ogUrl?: string; // Full absolute URL if provided
   pageType?: 'website' | 'article';
   author?: string;
   publishedTime?: string;
   modifiedTime?: string;
+  canonicalPath?: string; // Path part (e.g. /creatine) used to build canonical
+  structuredData?: Record<string, any>; // Optional JSON-LD object
 }
 
 /**
@@ -23,11 +25,13 @@ export function SEOHead({
   description = 'Comprehensive, research-backed information on vitamins, minerals, and supplements. Evidence-graded reviews, dosing guides, and expert recommendations.',
   keywords = 'supplements, vitamins, minerals, research, evidence-based, meta-analysis, health, nutrition, omega-3, vitamin d, magnesium, probiotics',
   ogImage = 'https://placehold.co/1200x630/162F1C/E0CBA8?text=Evidence-Based+Supplements',
-  ogUrl = window.location.href,
+  ogUrl,
   pageType = 'website',
   author = 'Evidence-Based Supplement Research Team',
   publishedTime,
-  modifiedTime
+  modifiedTime,
+  canonicalPath,
+  structuredData
 }: SEOHeadProps) {
   
   useEffect(() => {
@@ -61,8 +65,9 @@ export function SEOHead({
       canonicalElement.href = url;
     };
 
-    // Set canonical URL (prevents duplicate content issues)
-    setCanonicalUrl(ogUrl);
+  const base = (import.meta.env?.VITE_CANONICAL_BASE_URL || 'https://www.suppl.me').replace(/\/$/, '');
+  const resolvedOgUrl = ogUrl || (canonicalPath ? `${base}${canonicalPath}` : window.location.href);
+  setCanonicalUrl(resolvedOgUrl);
 
     // Standard Meta Tags
     setMetaTag('description', description);
@@ -75,7 +80,7 @@ export function SEOHead({
     setMetaTag('og:title', title, true);
     setMetaTag('og:description', description, true);
     setMetaTag('og:image', ogImage, true);
-    setMetaTag('og:url', ogUrl, true);
+  setMetaTag('og:url', resolvedOgUrl, true);
     setMetaTag('og:site_name', 'Evidence-Based Supplement Guide', true);
     
     // Twitter Cards
@@ -108,7 +113,20 @@ export function SEOHead({
     const htmlElement = document.documentElement;
     htmlElement.lang = 'en';
     
-  }, [title, description, keywords, ogImage, ogUrl, pageType, author, publishedTime, modifiedTime]);
+    // Inject structured data (JSON-LD) if provided
+    if (structuredData) {
+      const scriptId = 'structured-data-jsonld';
+      let scriptEl = document.getElementById(scriptId) as HTMLScriptElement | null;
+      if (!scriptEl) {
+        scriptEl = document.createElement('script');
+        scriptEl.type = 'application/ld+json';
+        scriptEl.id = scriptId;
+        document.head.appendChild(scriptEl);
+      }
+      scriptEl.textContent = JSON.stringify(structuredData);
+    }
+
+  }, [title, description, keywords, ogImage, ogUrl, pageType, author, publishedTime, modifiedTime, canonicalPath, structuredData]);
 
   return null; // This component doesn't render anything
 }

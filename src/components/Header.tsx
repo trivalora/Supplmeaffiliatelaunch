@@ -10,6 +10,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './
 import { DarkModeToggle } from './DarkModeToggle';
 import { SearchResults } from './SearchResults';
 import { KNOWLEDGEBASE_ROUTES, PageKey, SubcategoryType } from '../routes.config';
+import { prefetchRoute } from '../analytics/prefetch';
 
 function Container() {
   return (
@@ -96,6 +97,7 @@ const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROU
   return (
     <div
       onClick={onClick}
+      onPointerEnter={() => prefetchRoute(route.key as PageKey)}
       className="dropdown-item flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer"
     >
       {imageUrl && (

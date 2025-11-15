@@ -78,6 +78,19 @@
     build: {
       target: 'esnext',
       outDir: 'build',
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            // Group all glossary components into a single chunk for fewer small requests
+            if (id.includes('/components/glossary/')) return 'glossary';
+            // Optionally group large vendor libraries
+            if (id.includes('node_modules')) {
+              if (id.includes('radix-ui')) return 'radix';
+              if (id.includes('lucide-react')) return 'icons';
+            }
+          }
+        }
+      }
     },
     server: {
       port: 3000,
