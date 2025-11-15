@@ -1,4 +1,5 @@
 import React from 'react';
+import { REMOTE_IMAGE_MANIFEST } from '../optimized/remoteManifest';
 
 /**
  * SmartImage: lightweight external image normalizer for mobile.
@@ -11,14 +12,15 @@ export function SmartImage({
     alt,
     className,
     style,
-    widthHint = 700,
-    widths = [400, 700, 1000, 1400],
-    sizes = '(min-width: 1024px) 33vw, 100vw',
+    widthHint = 360,
+    widths = [240, 360, 480, 640],
+    sizes = '(min-width:1280px) 22vw, (min-width:1024px) 30vw, 90vw',
     useSrcSet = true,
     loading = 'lazy',
     decoding = 'async',
     fetchPriority,
     draggable,
+    addIntrinsic = true,
 }: {
     src: string;
     alt: string;
@@ -32,6 +34,7 @@ export function SmartImage({
     decoding?: 'auto' | 'sync' | 'async';
     fetchPriority?: 'high' | 'low' | 'auto';
     draggable?: boolean;
+    addIntrinsic?: boolean;
 }) {
     const provider = React.useMemo<'amazon' | 'cloudinary' | 'generic'>(() => {
         if (/^https?:\/\/m\.media\.amazon\.com\/images\/I\//.test(src)) return 'amazon';
@@ -39,11 +42,33 @@ export function SmartImage({
         return 'generic';
     }, [src]);
 
+    // Check manifest for locally cached optimized versions
+    const manifestEntry = REMOTE_IMAGE_MANIFEST[src];
+
     const buildUrl = React.useCallback((w: number) => {
         if (provider === 'amazon') {
-            if (/_SX\d+_/.test(src)) return src.replace(/_SX\d+_/, `_SX${w}_`);
-            if (/_SL\d+_/.test(src)) return src.replace(/_SL\d+_/, `_SX${w}_`);
-            return src.replace(/(\.[a-zA-Z]{3,4})(\?.*)?$/, `_SX${w}_$1$2`);
+            // Amazon filenames contain sequences like: _AC_SX679_.jpg, _AC_SY300_SX300_QL70_FMwebp_.jpg, _AC_SL1500_.jpg
+            // Strategy:
+            // 1. Ensure there is a single _AC_SX{w}_ size token (remove existing SX/SY/SL combos).
+            // 2. Preserve or append quality tokens (_QL70_) and webp hint (_FMwebp_) to encourage modern formats.
+            // 3. Maintain original extension; Amazon may serve WebP automatically when _FMwebp_ present and client Accept allows.
+            const parts = src.split('/');
+            const file = parts.pop() || '';
+            const replaced = file
+                // Drop any existing size tokens after _AC_
+                .replace(/_AC_((SX|SY|SL)\d+_)+/g, '_AC_')
+                .replace(/_SX\d+_/g, '_')
+                .replace(/_SY\d+_/g, '_')
+                .replace(/_SL\d+_/g, '_')
+                // Ensure AC present
+                .replace(/(_AC_)?/, '_AC_')
+                // Inject new width token
+                .replace(/_AC_/, `_AC_SX${w}_`);
+            // Ensure quality + format tokens
+            let withQuality = replaced;
+            if (!/_QL\d+_/.test(withQuality)) withQuality = withQuality.replace(/(\.[a-zA-Z]{3,4})(\?.*)?$/, `_QL70_$1$2`);
+            if (!/_FMwebp_/.test(withQuality)) withQuality = withQuality.replace(/(\.[a-zA-Z]{3,4})(\?.*)?$/, `_FMwebp_$1$2`);
+            return [...parts, withQuality].join('/');
         }
         if (provider === 'cloudinary') {
             return src.replace(/(\/image\/upload\/)([^/]*)(\/)/, (_m, p1, p2, p3) => {
@@ -69,6 +94,33 @@ export function SmartImage({
 
     const normalized = React.useMemo(() => buildUrl(widthHint), [buildUrl, widthHint]);
 
+    // Provide intrinsic dimensions to reduce layout shift (approximate; external images vary).
+    const intrinsicWidth = addIntrinsic ? widthHint : undefined;
+    // Assume square-ish or 4:5 typical supplement bottle; use height heuristic.
+    const intrinsicHeight = addIntrinsic ? Math.round(widthHint * 1.2) : undefined;
+
+    if (manifestEntry) {
+        // Prefer AVIF variants; build srcset from local optimized files
+        const localSrcSet = manifestEntry.widths.map(w => `/optimized/remote/${manifestEntry.hash}-${w}.avif ${w}w`).join(', ');
+        const localSrc = `/optimized/remote/${manifestEntry.hash}-${manifestEntry.widths[0]}.avif`;
+        return (
+            <img
+                src={localSrc}
+                srcSet={localSrcSet}
+                sizes={sizes}
+                alt={alt}
+                className={className}
+                style={style}
+                loading={loading}
+                decoding={decoding}
+                fetchPriority={fetchPriority}
+                draggable={draggable}
+                width={intrinsicWidth}
+                height={intrinsicHeight}
+            />
+        );
+    }
+
     return (
         <img
             src={normalized}
@@ -81,6 +133,8 @@ export function SmartImage({
             decoding={decoding}
             fetchPriority={fetchPriority}
             draggable={draggable}
+            width={intrinsicWidth}
+            height={intrinsicHeight}
         />
     );
 }

@@ -994,8 +994,9 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
                     className="max-w-full max-h-full object-contain"
                     loading="lazy"
                     decoding="async"
-                    widthHint={700}
-                    sizes="(min-width: 1024px) 33vw, 100vw"
+                    widthHint={360}
+                    widths={[240, 360, 480, 640]}
+                    sizes="(min-width:1280px) 22vw, (min-width:1024px) 30vw, 90vw"
                   />
                 </div>
 

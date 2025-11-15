@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ExternalLink, CheckCircle2, Calendar } from 'lucide-react';
 import imgForestAerial from "figma:asset/4bdf2cba5e05e7d70b9f1402336825a64b04e236.png";
 import { ResponsivePicture } from './ResponsivePicture';
@@ -16,31 +16,50 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
     category: '',
     message: ''
   });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
 
-  // Preload hero AVIF sources for this page's background image to help LCP
-  useEffect(() => {
-    const id = 'preload-partner-hero-4bdf2cba';
-    if (!document.getElementById(id)) {
-      const link = document.createElement('link');
-      link.id = id;
-      link.rel = 'preload';
-      link.as = 'image';
-      link.setAttribute('imagesrcset', '/optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-640.avif 640w, /optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-1280.avif 1280w, /optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-1920.avif 1920w');
-      link.setAttribute('imagesizes', '100vw');
-      (link as any).fetchPriority = 'high';
-      document.head.appendChild(link);
-    }
-    return () => {
-      const el = document.getElementById(id);
-      if (el) el.remove();
-    };
-  }, []);
+  // Removed dedicated hero preload to avoid duplicate high-priority LCP contention (handled on landing page only)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission - could integrate with email service
-    console.log('Form submitted:', formData);
-    alert('Thank you for your interest! We will review your request and get back to you within 24-48 hours.');
+
+    // Basic validations
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!formData.name.trim()) {
+      setStatus('error');
+      setErrorMessage('Please enter your name');
+      return;
+    }
+    if (!emailRegex.test(formData.email.trim())) {
+      setStatus('error');
+      setErrorMessage('Please enter a valid email');
+      return;
+    }
+    if (!formData.network.trim() || !formData.category.trim()) {
+      setStatus('error');
+      setErrorMessage('Please fill all required fields');
+      return;
+    }
+
+    setStatus('loading');
+    setErrorMessage('');
+    try {
+      const resp = await fetch('/api/partner-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || data?.ok === false) {
+        throw new Error(data?.error || 'Submission failed');
+      }
+      setStatus('success');
+      setFormData({ name: '', email: '', network: '', category: '', message: '' });
+    } catch (err: any) {
+      setStatus('error');
+      setErrorMessage(err?.message || 'Something went wrong. Please try again.');
+    }
   };
 
   return (
@@ -67,7 +86,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
               alt=""
               fallbackSrc={imgForestAerial}
               sizes="100vw"
-              imgProps={{ className: 'w-full h-full object-cover object-center', loading: 'eager', decoding: 'async', fetchPriority: 'high' as any }}
+              imgProps={{ className: 'w-full h-full object-cover object-center', loading: 'eager', decoding: 'async' }}
               style={{ minWidth: '100%', minHeight: '100%' }}
             />
           </div>
@@ -384,6 +403,8 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       placeholder="Your full name"
+                      autoComplete="name"
+                      enterKeyHint="next"
                     />
                   </div>
 
@@ -397,6 +418,9 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       placeholder="your@email.com"
+                      autoComplete="email"
+                      inputMode="email"
+                      enterKeyHint="next"
                     />
                   </div>
 
@@ -408,6 +432,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       value={formData.network}
                       onChange={(e) => setFormData({ ...formData, network: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
+                      autoComplete="organization"
                     >
                       <option value="">Select network...</option>
                       <option value="shareasale">ShareASale</option>
@@ -431,6 +456,8 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       onChange={(e) => setFormData({ ...formData, category: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       placeholder="e.g., Omega-3, Probiotics, Protein"
+                      autoComplete="off"
+                      enterKeyHint="next"
                     />
                   </div>
 
@@ -443,16 +470,27 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       placeholder="EPCs, special requirements, launch timeline, etc."
+                      enterKeyHint="send"
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full px-8 py-4 rounded-2xl transition-all shadow-xl bg-primary text-white hover:bg-primary/90 cursor-pointer"
+                    className="w-full px-8 py-4 rounded-2xl transition-all shadow-xl bg-primary text-white hover:bg-primary/90 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
+                    disabled={status === 'loading' || status === 'success'}
                   >
-                    Submit Partner Application
+                    {status === 'loading' ? 'Submitting…' : status === 'success' ? 'Submitted!' : 'Submit Partner Application'}
                   </button>
                 </form>
+
+                <div aria-live="polite" aria-atomic="true">
+                  {status === 'error' && errorMessage && (
+                    <p className="mt-4 text-center text-red-600 text-sm">{errorMessage}</p>
+                  )}
+                  {status === 'success' && (
+                    <p className="mt-4 text-center text-green-700 text-sm">Thank you! We've received your application and will respond within 24-48 hours.</p>
+                  )}
+                </div>
 
                 <p className="mt-6 text-center text-foreground/60 text-sm">
                   We typically respond within 24-48 hours. For urgent requests, email us directly at{' '}

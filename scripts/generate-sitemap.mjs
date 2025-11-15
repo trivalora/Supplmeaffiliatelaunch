@@ -63,6 +63,10 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
 }
 
 (async () => {
+  if (process.env.SKIP_SITEMAP === 'true') {
+    console.log('[sitemap] SKIP_SITEMAP=true – skipping sitemap generation to preserve manual edits.');
+    return;
+  }
   const baseUrl = process.env.VITE_CANONICAL_BASE_URL || process.env.SITE_BASE_URL || 'https://www.suppl.me';
   const { routesConfig, pathMapping } = await loadConfigs();
   if (!routesConfig && !pathMapping) {

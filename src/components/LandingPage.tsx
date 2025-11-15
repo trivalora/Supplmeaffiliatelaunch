@@ -588,8 +588,9 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
                     className="max-w-full max-h-full object-contain"
                     loading="lazy"
                     decoding="async"
-                    widthHint={700}
-                    sizes="(min-width: 1024px) 33vw, 100vw"
+                    widthHint={360}
+                    widths={[240, 360, 480, 640]}
+                    sizes="(min-width:1280px) 22vw, (min-width:1024px) 30vw, 90vw"
                   />
                 </div>
                 <div className="flex-1 flex flex-col">
@@ -698,14 +699,15 @@ function NewsletterSection() {
     setStatus('loading');
     setErrorMessage('');
 
-    // Simulate API call - replace with actual newsletter service
     try {
-      // TODO: Replace with actual API endpoint
-      await new Promise(resolve => setTimeout(resolve, 1000));
-
-      // Mock success - log only in development
-      if (typeof import.meta !== 'undefined' && (import.meta as any)?.env?.DEV) {
-        console.log('Newsletter signup:', email);
+      const resp = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, source: 'landing_newsletter' })
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok || data?.ok === false) {
+        throw new Error(data?.error || 'Subscription failed');
       }
       setStatus('success');
       setEmail('');
@@ -714,9 +716,9 @@ function NewsletterSection() {
       setTimeout(() => {
         setStatus('idle');
       }, 5000);
-    } catch (error) {
+    } catch (error: any) {
       setStatus('error');
-      setErrorMessage('Something went wrong. Please try again.');
+      setErrorMessage(error?.message || 'Something went wrong. Please try again.');
     }
   };
 
@@ -751,6 +753,9 @@ function NewsletterSection() {
                   disabled={status === 'loading' || status === 'success'}
                   className="flex-1"
                   aria-label="Email address"
+                  autoComplete="email"
+                  inputMode="email"
+                  enterKeyHint="send"
                 />
                 <button
                   type="submit"
@@ -761,28 +766,30 @@ function NewsletterSection() {
                 </button>
               </div>
 
-              <AnimatePresence mode="wait">
-                {status === 'error' && errorMessage && (
-                  <motion.p
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    className="text-sm text-red-600"
-                  >
-                    {errorMessage}
-                  </motion.p>
-                )}
-                {status === 'success' && (
-                  <motion.p
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    className="text-sm text-green-700"
-                  >
-                    ✓ Thanks for subscribing! Check your inbox to confirm.
-                  </motion.p>
-                )}
-              </AnimatePresence>
+              <div aria-live="polite" aria-atomic="true">
+                <AnimatePresence mode="wait">
+                  {status === 'error' && errorMessage && (
+                    <motion.p
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      className="text-sm text-red-600"
+                    >
+                      {errorMessage}
+                    </motion.p>
+                  )}
+                  {status === 'success' && (
+                    <motion.p
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      className="text-sm text-green-700"
+                    >
+                      ✓ Thanks for subscribing! Check your inbox to confirm.
+                    </motion.p>
+                  )}
+                </AnimatePresence>
+              </div>
             </form>
           </div>
         </div>
