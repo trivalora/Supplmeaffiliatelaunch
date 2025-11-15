@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Sulforaphane (V1 - Archived)",
+    "description": "Bioactive compound from cruciferous vegetables",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Sulforaphane (V1 - Archived)",
+    "description": "Bioactive compound from cruciferous vegetables",
+    "about": "Sulforaphane (V1 - Archived)",
+    "url": "https://suppl.me/sulforaphane"
+  }
+]

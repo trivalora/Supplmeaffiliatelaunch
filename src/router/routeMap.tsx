@@ -15,7 +15,7 @@ export interface AppRoute {
     title?: string;
     description?: string;
     canonicalPath?: string;    // Path used for canonical
-    structuredData?: Record<string, any>;
+    structuredData?: Record<string, any> | Record<string, any>[];
   };
 }
 
@@ -90,18 +90,19 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     const Component = makeLazyComponent(route, pageKey);
 
     // Basic SEO inference (can be expanded later)
-    // Structured data for supplements (v2 only) inline minimal Product + MedicalWebPage
-    let structuredData: Record<string, any> | undefined;
+    // Structured data for supplements (v2 only): inject as separate JSON-LD objects
+    // Also add DefinedTerm for glossary entries
+    let structuredData: Record<string, any> | Record<string, any>[] | undefined;
     if (route.category === 'v2') {
-      structuredData = {
-        product: {
+      structuredData = [
+        {
           '@context': 'https://schema.org',
           '@type': 'Product',
           name: route.title,
           description: route.description,
           category: route.subcategory || 'Supplement'
         },
-        medicalWebPage: {
+        {
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
           name: route.title,
@@ -109,7 +110,25 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
           about: route.title,
           url: mappedPath
         }
-      };
+      ];
+    } else if (route.category === 'glossary') {
+      structuredData = [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'DefinedTerm',
+          name: route.title,
+          description: route.description,
+          alternateName: route.abbreviation || undefined,
+          inDefinedTermSet: '/glossary'
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: route.title,
+          description: route.description,
+          url: mappedPath
+        }
+      ];
     }
     const seo = {
       title: route.title + (route.category === 'v1' ? ' (Archived)' : ''),

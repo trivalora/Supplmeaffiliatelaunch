@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Irritable Bowel Syndrome",
+    "description": "Chronic functional gastrointestinal disorder with recurrent abdominal pain and altered bowel habits",
+    "url": "https://suppl.me/glossary/ibs",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "IBS"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Irritable Bowel Syndrome",
+    "description": "Chronic functional gastrointestinal disorder with recurrent abdominal pain and altered bowel habits",
+    "url": "https://suppl.me/glossary/ibs"
+  }
+]

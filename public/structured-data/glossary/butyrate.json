@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Butyrate",
+    "description": "Short-chain fatty acid produced by gut bacteria, critical for colonocyte health",
+    "url": "https://suppl.me/glossary/butyrate",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Butyrate",
+    "description": "Short-chain fatty acid produced by gut bacteria, critical for colonocyte health",
+    "url": "https://suppl.me/glossary/butyrate"
+  }
+]

@@ -66,9 +66,10 @@
     "scripts": {
         "dev": "vite",
         "images": "node scripts/optimize-images.mjs",
-        "build": "npm run images && vite build",
+        "build": "vite build",
+        "build:images": "npm run images && vite build",
         "postbuild": "node scripts/generate-sitemap.mjs && node scripts/build-structured-data.mjs",
         "migrate": "node scripts/run-migrations.mjs",
-        "analyze": "npm run images && vite build && node scripts/report-bundle.mjs"
+        "analyze": "npm run build:images && node scripts/report-bundle.mjs"
     }
 }

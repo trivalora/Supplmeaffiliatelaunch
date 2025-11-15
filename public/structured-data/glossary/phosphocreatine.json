@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Phosphocreatine",
+    "description": "High-energy phosphate compound critical for ATP regeneration in muscles",
+    "url": "https://suppl.me/glossary/phosphocreatine",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Phosphocreatine",
+    "description": "High-energy phosphate compound critical for ATP regeneration in muscles",
+    "url": "https://suppl.me/glossary/phosphocreatine"
+  }
+]

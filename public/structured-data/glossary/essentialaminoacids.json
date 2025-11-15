@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Essential Amino Acids",
+    "description": "Nine amino acids that must be obtained from diet",
+    "url": "https://suppl.me/glossary/essentialaminoacids",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "EAAs"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Essential Amino Acids",
+    "description": "Nine amino acids that must be obtained from diet",
+    "url": "https://suppl.me/glossary/essentialaminoacids"
+  }
+]

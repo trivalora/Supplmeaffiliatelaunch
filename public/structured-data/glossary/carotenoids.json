@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Carotenoids",
+    "description": "Fat-soluble pigments with antioxidant properties; some convert to vitamin A",
+    "url": "https://suppl.me/glossary/carotenoids",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Carotenoids",
+    "description": "Fat-soluble pigments with antioxidant properties; some convert to vitamin A",
+    "url": "https://suppl.me/glossary/carotenoids"
+  }
+]

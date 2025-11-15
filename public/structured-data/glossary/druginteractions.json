@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Drug Interactions",
+    "description": "How supplements affect medication effectiveness or create new health risks",
+    "url": "https://suppl.me/glossary/druginteractions",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Drug Interactions",
+    "description": "How supplements affect medication effectiveness or create new health risks",
+    "url": "https://suppl.me/glossary/druginteractions"
+  }
+]

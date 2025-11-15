@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Tumor Necrosis Factor-Alpha",
+    "description": "Potent pro-inflammatory cytokine regulating immune responses and inflammation",
+    "url": "https://suppl.me/glossary/tnfalpha",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "TNF-α"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Tumor Necrosis Factor-Alpha",
+    "description": "Potent pro-inflammatory cytokine regulating immune responses and inflammation",
+    "url": "https://suppl.me/glossary/tnfalpha"
+  }
+]

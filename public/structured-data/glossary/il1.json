@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Interleukin-1",
+    "description": "Pro-inflammatory cytokine initiating and amplifying inflammatory responses",
+    "url": "https://suppl.me/glossary/il1",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "IL-1"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Interleukin-1",
+    "description": "Pro-inflammatory cytokine initiating and amplifying inflammatory responses",
+    "url": "https://suppl.me/glossary/il1"
+  }
+]

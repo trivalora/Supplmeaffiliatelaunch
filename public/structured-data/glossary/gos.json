@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Galacto-oligosaccharides",
+    "description": "Prebiotic fibers selectively stimulating beneficial gut bacteria, particularly Bifidobacteria",
+    "url": "https://suppl.me/glossary/gos",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "GOS"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Galacto-oligosaccharides",
+    "description": "Prebiotic fibers selectively stimulating beneficial gut bacteria, particularly Bifidobacteria",
+    "url": "https://suppl.me/glossary/gos"
+  }
+]

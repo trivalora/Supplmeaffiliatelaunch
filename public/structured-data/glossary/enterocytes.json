@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Enterocytes",
+    "description": "Intestinal absorptive cells responsible for nutrient uptake from the gut lumen",
+    "url": "https://suppl.me/glossary/enterocytes",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Enterocytes",
+    "description": "Intestinal absorptive cells responsible for nutrient uptake from the gut lumen",
+    "url": "https://suppl.me/glossary/enterocytes"
+  }
+]
