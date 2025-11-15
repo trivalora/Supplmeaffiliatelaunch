@@ -916,7 +916,20 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
             
             return (
               <div key={index} className="bg-tertiary rounded-lg border border-secondary overflow-hidden flex flex-col p-4">
-                <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-3" style={{ height: '25vh' }}>
+                <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-3 relative" style={{ height: '25vh' }}>
+                  {/* Badges positioned at top of image container */}
+                  {product.badges && product.badges.length > 0 && (
+                    <div className="absolute top-2 left-2 flex flex-col gap-1 z-10">
+                      {product.badges.map((badge, badgeIdx) => (
+                        <span
+                          key={badgeIdx}
+                          className="inline-flex items-center justify-center px-2 py-0.5 rounded text-xs font-medium bg-primary text-white whitespace-nowrap"
+                        >
+                          {badge}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                   <img 
                     src={product.image} 
                     alt={product.name}

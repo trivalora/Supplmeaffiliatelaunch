@@ -34,5 +34,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ['react', 'react-dom', 'react-router-dom'],
   },
-  base: './', // important for GitHub Pages or custom domain
+  base: '/', // Absolute paths for Vercel deployment (not GitHub Pages)
 })
