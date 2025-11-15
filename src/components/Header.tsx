@@ -1,15 +1,13 @@
 import { useState, useEffect, useRef, useMemo, memo } from 'react';
-import svgPaths from "../imports/svg-0sxi0wwcok";
 import imgLogo from "figma:asset/7157caff66020adbe0e259d3e2f8312044fb4dd5.png";
-import { Search, Menu, ChevronDown, X, ChevronRight } from 'lucide-react';
+import { Search, Menu, ChevronDown, X } from 'lucide-react';
 import { Input } from './ui/input';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from './ui/sheet';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion';
+// Removed unused dropdown-menu & accordion component imports (custom dropdown implementation is used instead)
 import { DarkModeToggle } from './DarkModeToggle';
 import { SearchResults } from './SearchResults';
-import { KNOWLEDGEBASE_ROUTES, PageKey, SubcategoryType } from '../routes.config';
+import { KNOWLEDGEBASE_ROUTES, PageKey } from '../routes.config';
 import { prefetchRoute } from '../analytics/prefetch';
 
 function Container() {
@@ -102,7 +100,7 @@ const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROU
     >
       {imageUrl && (
         <div 
-          className="flex-shrink-0 rounded overflow-hidden"
+          className="shrink-0 rounded overflow-hidden"
           style={{
             width: '38px',
             height: '38px',
@@ -494,7 +492,7 @@ function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchE
             duration: 0.3,
             ease: [0.32, 0.72, 0, 1],
           }}
-          className="overflow-hidden flex-shrink-0"
+          className="overflow-hidden shrink-0"
           style={{ pointerEvents: isSearchExpanded ? 'none' : 'auto' }}
         >
           <Navigation onNavigate={onNavigate} />
@@ -512,14 +510,14 @@ function Container3({ onNavigate, onLandingClick, isSearchExpanded, setIsSearchE
             duration: 0.3,
             ease: [0.32, 0.72, 0, 1],
           }}
-          className="overflow-hidden flex-shrink-0 translate-y-[0.0625rem]"
+          className="overflow-hidden shrink-0 translate-y-px"
           style={{ pointerEvents: isSearchExpanded ? 'none' : 'auto' }}
         >
           <DarkModeToggle />
         </motion.div>
         
         {/* Search bar - expands to fill available space */}
-        <div className="relative flex-shrink-0 translate-y-[0.0625rem]">
+  <div className="relative shrink-0 translate-y-px">
           <SearchBar 
             isExpanded={isSearchExpanded} 
             setIsExpanded={setIsSearchExpanded}

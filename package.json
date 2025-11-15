@@ -64,6 +64,7 @@
           "dev": "vite",
           "build": "vite build",
           "postbuild": "node scripts/generate-sitemap.mjs && node scripts/build-structured-data.mjs",
-          "migrate": "node scripts/run-migrations.mjs"
+          "migrate": "node scripts/run-migrations.mjs",
+          "analyze": "vite build && node scripts/report-bundle.mjs"
       }
   }

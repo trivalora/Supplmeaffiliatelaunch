@@ -78,6 +78,7 @@
     build: {
       target: 'esnext',
       outDir: 'build',
+      manifest: true,
       rollupOptions: {
         output: {
           manualChunks(id) {

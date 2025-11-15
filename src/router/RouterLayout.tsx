@@ -1,5 +1,5 @@
 import { Suspense, useEffect } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { pushPageView } from '../analytics/dataLayer';
 import { buildRoutes, RouteSEO } from './routeMap';
 import { ScrollToTop } from './ScrollToTop';
@@ -20,6 +20,18 @@ function Loading() {
 export function RouterLayout() {
   const location = useLocation();
   const routes = buildRoutes();
+
+  // Non-canonical alias redirects (typos / singular forms)
+  // These are intentionally not included in buildRoutes() so they don't appear in SEO, analytics, or sitemap.
+  const ALIAS_REDIRECTS: Record<string, string> = {
+    '/ashwaghandha': '/ashwagandha', // common transposition typo
+    '/ashwaghand': '/ashwagandha',   // truncated misspelling
+    '/bcaa': '/bcaas',               // singular form redirected to plural canonical
+    // trailing slash variants
+    '/ashwaghandha/': '/ashwagandha',
+    '/ashwaghand/': '/ashwagandha',
+    '/bcaa/': '/bcaas'
+  };
 
   // Determine current route for SEO injection
   const currentRoute = routes.find(r => r.path === location.pathname);
@@ -48,6 +60,9 @@ export function RouterLayout() {
           <Routes>
             {routes.map(r => (
               <Route key={r.path} path={r.path} element={r.element} />
+            ))}
+            {Object.entries(ALIAS_REDIRECTS).map(([from, to]) => (
+              <Route key={from} path={from} element={<Navigate to={to} replace />} />
             ))}
             <Route path="*" element={<div className="p-8">Page not found</div>} />
           </Routes>
