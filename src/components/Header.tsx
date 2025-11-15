@@ -78,8 +78,7 @@ function Logo({ onClick }: { onClick?: () => void }) {
           imgProps={{
             loading: 'eager',
             decoding: 'async',
-            // @ts-ignore
-            fetchpriority: 'high',
+            fetchPriority: 'high',
             style: { height: '53px', width: 'auto' }
           }}
         />

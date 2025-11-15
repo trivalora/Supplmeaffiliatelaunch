@@ -7,6 +7,7 @@ import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import { autolinkGlossaryTerms } from '../utils/glossaryAutolink';
 import { getProductsBySupplementName, type ProductData } from '../utils/supplementProductsData';
+import { SmartImage } from './SmartImage';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
 import {
   trackAffiliateClick,
@@ -329,7 +330,7 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
         link.as = 'image';
         link.setAttribute('imagesrcset', `/optimized/${base}-640.avif 640w, /optimized/${base}-1280.avif 1280w, /optimized/${base}-1920.avif 1920w`);
         link.setAttribute('imagesizes', '(min-width: 1024px) 50vw, 100vw');
-        (link as any).fetchpriority = 'high';
+        (link as any).fetchPriority = 'high';
         document.head.appendChild(link);
       }
       return () => {
@@ -356,7 +357,7 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
                   alt={supplementName}
                   fallbackSrc={heroImageUrl}
                   sizes="(min-width: 1024px) 50vw, 100vw"
-                  imgProps={{ className: 'w-full h-full object-cover', loading: 'eager', decoding: 'async', fetchpriority: 'high' as any }}
+                  imgProps={{ className: 'w-full h-full object-cover', loading: 'eager', decoding: 'async', fetchPriority: 'high' as any }}
                   style={{ width: '100%', height: '100%' }}
                 />
               );
@@ -599,7 +600,7 @@ function ResearchSection({
                 </div>
 
                 {/* Title - Aligned with badge, fixed height for consistency, LARGER font sizes */}
-                <div className="flex-1 break-words flex items-center" style={{ height: '79px' }}>
+                <div className="flex-1 wrap-break-word flex items-center" style={{ height: '79px' }}>
                   <h3
                     className="text-primary leading-tight"
                     style={{
@@ -632,7 +633,7 @@ function ResearchSection({
               )}
 
               {/* Description */}
-              <p className="text-muted-foreground break-words">
+              <p className="text-muted-foreground wrap-break-word">
                 {shouldUseAutolink
                   ? formatFootnotes(linkedGradeDescriptions[index], references)
                   : formatFootnotes(grade.description, references)
@@ -987,12 +988,14 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
                       ))}
                     </div>
                   )}
-                  <img
+                  <SmartImage
                     src={product.image}
                     alt={product.name}
                     className="max-w-full max-h-full object-contain"
                     loading="lazy"
                     decoding="async"
+                    widthHint={700}
+                    sizes="(min-width: 1024px) 33vw, 100vw"
                   />
                 </div>
 

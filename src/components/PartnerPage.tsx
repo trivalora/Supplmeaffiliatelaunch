@@ -27,7 +27,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
       link.as = 'image';
       link.setAttribute('imagesrcset', '/optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-640.avif 640w, /optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-1280.avif 1280w, /optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-1920.avif 1920w');
       link.setAttribute('imagesizes', '100vw');
-      (link as any).fetchpriority = 'high';
+      (link as any).fetchPriority = 'high';
       document.head.appendChild(link);
     }
     return () => {
@@ -67,7 +67,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
               alt=""
               fallbackSrc={imgForestAerial}
               sizes="100vw"
-              imgProps={{ className: 'w-full h-full object-cover object-center', loading: 'eager', decoding: 'async', fetchpriority: 'high' as any }}
+              imgProps={{ className: 'w-full h-full object-cover object-center', loading: 'eager', decoding: 'async', fetchPriority: 'high' as any }}
               style={{ minWidth: '100%', minHeight: '100%' }}
             />
           </div>

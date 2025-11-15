@@ -14,6 +14,7 @@ import imgForestAerial from "figma:asset/4bdf2cba5e05e7d70b9f1402336825a64b04e23
 import imgCrystalBallWaterfall from "figma:asset/f69f346bde9ce1223aa8e8e9265be307b22261e4.png";
 import { ResponsivePicture } from './ResponsivePicture';
 import { SEOHead } from './SEOHead';
+import { SmartImage } from './SmartImage';
 
 import { PageKey } from '../routes.config';
 import { trackCTAClick, trackRetailerClick, trackAffiliateClick } from '../utils/analytics';
@@ -113,7 +114,7 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
       link.setAttribute('imagesrcset', '/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.avif 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.avif 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.avif 1920w');
       link.setAttribute('imagesizes', '100vw');
       // Hint high priority
-      (link as any).fetchpriority = 'high';
+      (link as any).fetchPriority = 'high';
       document.head.appendChild(link);
     }
     return () => {
@@ -141,7 +142,7 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
           className="w-full h-full"
           style={{ display: 'block', width: '100%', height: '100%' }}
           sizes="100vw"
-          imgProps={{ className: 'w-full h-full object-cover object-center', loading: 'eager', decoding: 'async', fetchpriority: 'high' as any }}
+          imgProps={{ className: 'w-full h-full object-cover object-center', loading: 'eager', decoding: 'async', fetchPriority: 'high' as any }}
         />
       </div>
 
@@ -581,12 +582,14 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
                 data-product-card
               >
                 <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-3" style={{ height: '25vh' }}>
-                  <img
+                  <SmartImage
                     src={supplement.image}
                     alt={supplement.name}
                     className="max-w-full max-h-full object-contain"
                     loading="lazy"
                     decoding="async"
+                    widthHint={700}
+                    sizes="(min-width: 1024px) 33vw, 100vw"
                   />
                 </div>
                 <div className="flex-1 flex flex-col">
@@ -701,7 +704,7 @@ function NewsletterSection() {
       await new Promise(resolve => setTimeout(resolve, 1000));
 
       // Mock success - log only in development
-      if (typeof import.meta !== 'undefined' && import.meta.env?.DEV) {
+      if (typeof import.meta !== 'undefined' && (import.meta as any)?.env?.DEV) {
         console.log('Newsletter signup:', email);
       }
       setStatus('success');

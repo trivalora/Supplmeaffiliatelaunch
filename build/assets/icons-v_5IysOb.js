@@ -61,4 +61,4 @@ function te(o,f){for(var y=0;y<f.length;y++){const p=f[y];if(typeof p!="string"&
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const _e=[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]],ge=k("x",_e);export{ke as C,Se as M,me as R,Ce as S,ge as X,v as a,be as b,we as c,ve as d,re as g,oe as r};
+ */const _e=[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]],ge=k("x",_e);export{ke as C,Se as M,me as R,Ce as S,ge as X,v as a,be as b,we as c,ue as d,ve as e,re as g,oe as r};

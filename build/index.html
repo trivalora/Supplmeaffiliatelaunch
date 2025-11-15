@@ -19,29 +19,50 @@
   <meta name="robots" content="index,follow" />
   <meta name="theme-color" content="#162F1C" />
 
-  <!-- Preload LCP hero image (AVIF/WebP) so it's discoverable in initial HTML -->
-  <link
-    rel="preload"
-    as="image"
-    imagesrcset="/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.avif 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.avif 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.avif 1920w"
-    imagesizes="100vw"
-    fetchpriority="high"
-  />
-  <link
-    rel="preload"
-    as="image"
-    imagesrcset="/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.webp 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.webp 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.webp 1920w"
-    imagesizes="100vw"
-    fetchpriority="high"
-  />
+  <!-- Minimal critical CSS for fast first paint (fonts + background + header slot) -->
+  <style>
+    :root {
+      --header-height: 78px;
+      --background: #f5f8f6;
+      --foreground: #2d2d2d;
+      --color-secondary: #e0cba8;
+    }
 
-  <!-- If Google Fonts are used in production, these preconnects help; consider self-hosting with font-display: swap -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script type="module" crossorigin src="/assets/index-sYqAoKk3.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/icons-BADxdNkg.js">
-  <link rel="modulepreload" crossorigin href="/assets/radix-ClRhQiTU.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-fEPMHlDi.css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--background);
+      color: var(--foreground);
+      font-family: var(--font-body, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    [data-layout-header] {
+      height: var(--header-height);
+    }
+  </style>
+
+  <!-- Preload LCP hero image (AVIF/WebP) so it's discoverable in initial HTML -->
+  <link rel="preload" as="image"
+    imagesrcset="/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.avif 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.avif 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.avif 1920w"
+    imagesizes="100vw" fetchpriority="high" />
+  <link rel="preload" as="image"
+    imagesrcset="/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.webp 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.webp 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.webp 1920w"
+    imagesizes="100vw" fetchpriority="high" />
+
+  <!-- Preload critical self-hosted fonts (TTF) -->
+  <link rel="preload" as="font" type="font/ttf" href="/fonts/Lato-Regular.ttf" crossorigin>
+  <link rel="preload" as="font" type="font/ttf" href="/fonts/Lato-Bold.ttf" crossorigin>
+  <script type="module" crossorigin src="/assets/index-Nm3yUjFB.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/icons-v_5IysOb.js">
+  <link rel="modulepreload" crossorigin href="/assets/radix-Bjn62G9e.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-CtIJjRMx.css">
 </head>
 
 <body>
