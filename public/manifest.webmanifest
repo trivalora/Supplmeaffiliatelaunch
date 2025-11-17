@@ -1,0 +1,17 @@
+{
+    "name": "suppl.me - Evidence-Based Supplement Guide",
+    "short_name": "suppl.me",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#162F1C",
+    "theme_color": "#162F1C",
+    "description": "Research-backed supplement information with evidence grades and buying guidance.",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ]
+}

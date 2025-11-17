@@ -1,0 +1,36 @@
+import { GlossaryTemplate } from '../GlossaryTemplate';
+
+interface GlutathionePageProps {
+  onNavigate?: (key: string) => void;
+}
+
+export function GlutathionePage({ onNavigate }: GlutathionePageProps) {
+  return (
+    <GlossaryTemplate
+      term="Glutathione"
+      abbreviation="GSH"
+      onNavigate={onNavigate}
+      currentPage="glutathione"
+      definition="A tripeptide antioxidant composed of glutamine, cysteine, and glycine that serves as the body's master antioxidant, playing critical roles in detoxification, immune function, and protection against oxidative stress."
+      detailedExplanation="Glutathione (GSH) is produced naturally in every cell of the body and is essential for maintaining cellular health. It exists in two forms: reduced glutathione (GSH, the active antioxidant form) and oxidized glutathione (GSSG, the inactive form produced after neutralizing free radicals). The ratio of GSH to GSSG is an important indicator of cellular oxidative stress—higher GSH:GSSG ratios indicate better antioxidant status and cellular health.
+
+Glutathione performs multiple critical functions: (1) directly neutralizing free radicals and reactive oxygen species, (2) recycling other antioxidants like vitamins C and E back to their active forms, (3) supporting detoxification by conjugating with toxins in the liver, (4) regulating immune cell function and inflammation, and (5) maintaining protein structure through redox regulation. It's particularly concentrated in the liver, lungs, and immune cells.
+
+Normal blood glutathione levels vary by measurement method and sample type (whole blood, red blood cells, plasma), but healthy adults typically have total glutathione levels around 800-1200 μmol/L in whole blood or 2-4 μmol/L in plasma. Glutathione levels decline with age, chronic disease, oxidative stress, poor nutrition, and certain medications. Low glutathione is associated with numerous health conditions including neurodegenerative diseases, diabetes, cardiovascular disease, liver disease, and immune dysfunction.
+
+In supplement research, glutathione is measured both as a biomarker of antioxidant status and as a supplement itself. Direct glutathione supplementation has variable bioavailability, leading to interest in precursors like N-acetylcysteine (NAC) and liposomal glutathione formulations. Other supplements like whey protein, vitamin C, selenium, and alpha-lipoic acid may support glutathione production. Increases in glutathione levels or improvements in the GSH:GSSG ratio suggest enhanced antioxidant defenses and reduced oxidative stress."
+      examples={[
+        "A study might report that NAC supplementation increased reduced glutathione (GSH) by 120 μmol/L compared to placebo",
+        "Baseline GSH:GSSG ratio of 10:1 improving to 25:1 after liposomal glutathione indicates significantly reduced oxidative stress",
+        "Meta-analyses examining antioxidant interventions often measure glutathione alongside MDA, TAC, and other oxidative stress markers"
+      ]}
+      relatedTerms={[
+        { term: "Antioxidant", key: "antioxidant" },
+        { term: "Oxidative Stress", key: "oxidativestress" },
+        { term: "MDA", key: "mda" },
+        { term: "Biomarker", key: "biomarker" },
+        { term: "Immune System", key: "immunesystem" }
+      ]}
+    />
+  );
+}

@@ -1,0 +1,666 @@
+{
+  "generated_at": "2025-11-17T12:15:16.044Z",
+  "count": 20,
+  "items": [
+    {
+      "site": "iherb",
+      "title": "NOW Foods, Ashwagandha, Standardized Extract, 450 mg, 90 Veg Capsules",
+      "url": "https://de.iherb.com/pr/now-foods-ashwagandha-standardized-extract-450-mg-90-veg-capsules/310",
+      "canonical": "de.iherb.com/pr/now-foods-ashwagandha-standardized-extract-450-mg-90-veg-capsules/310",
+      "asin": null,
+      "product_code": "310",
+      "upc": null,
+      "price_raw": 1068,
+      "price": 10.68,
+      "currency": "USD",
+      "price_clean": 1068,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "450 mg",
+      "package_weight": "450",
+      "images": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now04603/v/83.jpg",
+      "container": {
+        "id": "310"
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "NOW Foods, Ashwagandha, Standardized Extract, 450 mg, 90 Veg Capsules",
+        "price": 1068,
+        "url": "https://de.iherb.com/pr/now-foods-ashwagandha-standardized-extract-450-mg-90-veg-capsules/310",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now04603/v/83.jpg",
+        "container": {
+          "id": "310"
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Nutricost, KSM-66®, Ashwagandha Root Extract, 60 Capsules",
+      "url": "https://de.iherb.com/pr/nutricost-ksm-66-ashwagandha-root-extract-60-capsules/139433",
+      "canonical": "de.iherb.com/pr/nutricost-ksm-66-ashwagandha-root-extract-60-capsules/139433",
+      "asin": null,
+      "product_code": "139433",
+      "upc": null,
+      "price_raw": 1076,
+      "price": 10.76,
+      "currency": "USD",
+      "price_clean": 1076,
+      "price_parse_ambiguous": false,
+      "package_count": 60,
+      "package_unit": "count",
+      "package_raw": "60 Capsule",
+      "package_weight": null,
+      "images": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67927/v/24.jpg",
+      "container": {
+        "id": "139433"
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Nutricost, KSM-66®, Ashwagandha Root Extract, 60 Capsules",
+        "price": 1076,
+        "url": "https://de.iherb.com/pr/nutricost-ksm-66-ashwagandha-root-extract-60-capsules/139433",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67927/v/24.jpg",
+        "container": {
+          "id": "139433"
+        }
+      },
+      "price_per_item": 0.179333
+    },
+    {
+      "site": "iherb",
+      "title": "Planetary Herbals, Full Spectrum™ Ashwagandha, 120 Tablets",
+      "url": "https://de.iherb.com/pr/planetary-herbals-full-spectrum-ashwagandha-120-tablets/47962",
+      "canonical": "de.iherb.com/pr/planetary-herbals-full-spectrum-ashwagandha-120-tablets/47962",
+      "asin": null,
+      "product_code": "47962",
+      "upc": null,
+      "price_raw": 1261,
+      "price": 12.61,
+      "currency": "USD",
+      "price_clean": 1261,
+      "price_parse_ambiguous": false,
+      "package_count": 120,
+      "package_unit": "count",
+      "package_raw": "120 Tablet",
+      "package_weight": null,
+      "images": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ptf/ptf10535/v/80.jpg",
+      "container": {
+        "id": "47962"
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Planetary Herbals, Full Spectrum™ Ashwagandha, 120 Tablets",
+        "price": 1261,
+        "url": "https://de.iherb.com/pr/planetary-herbals-full-spectrum-ashwagandha-120-tablets/47962",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ptf/ptf10535/v/80.jpg",
+        "container": {
+          "id": "47962"
+        }
+      },
+      "price_per_item": 0.105083
+    },
+    {
+      "site": "iherb",
+      "title": "Nature's Truth, Ashwagandha, 90 Quick Release Capsules",
+      "url": "https://de.iherb.com/pr/nature-s-truth-ashwagandha-90-quick-release-capsules/113449",
+      "canonical": "de.iherb.com/pr/nature-s-truth-ashwagandha-90-quick-release-capsules/113449",
+      "asin": null,
+      "product_code": "113449",
+      "upc": null,
+      "price_raw": 1685,
+      "price": 16.85,
+      "currency": "USD",
+      "price_clean": 1685,
+      "price_parse_ambiguous": false,
+      "package_count": 90,
+      "package_unit": "count",
+      "package_raw": "90",
+      "package_weight": null,
+      "images": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth11664/v/56.jpg",
+      "container": {
+        "id": "113449"
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Nature's Truth, Ashwagandha, 90 Quick Release Capsules",
+        "price": 1685,
+        "url": "https://de.iherb.com/pr/nature-s-truth-ashwagandha-90-quick-release-capsules/113449",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth11664/v/56.jpg",
+        "container": {
+          "id": "113449"
+        }
+      },
+      "price_per_item": 0.187222
+    },
+    {
+      "site": "iherb",
+      "title": "Himalaya, Organic Ashwagandha, 90 Caplets",
+      "url": "https://de.iherb.com/pr/himalaya-organic-ashwagandha-90-caplets/83135",
+      "canonical": "de.iherb.com/pr/himalaya-organic-ashwagandha-90-caplets/83135",
+      "asin": null,
+      "product_code": "83135",
+      "upc": null,
+      "price_raw": 2744,
+      "price": 27.44,
+      "currency": "USD",
+      "price_clean": 2744,
+      "price_parse_ambiguous": false,
+      "package_count": 90,
+      "package_unit": "count",
+      "package_raw": "90",
+      "package_weight": null,
+      "images": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him06043/v/85.jpg",
+      "container": {
+        "id": "83135"
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Himalaya, Organic Ashwagandha, 90 Caplets",
+        "price": 2744,
+        "url": "https://de.iherb.com/pr/himalaya-organic-ashwagandha-90-caplets/83135",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him06043/v/85.jpg",
+        "container": {
+          "id": "83135"
+        }
+      },
+      "price_per_item": 0.304889
+    },
+    {
+      "site": "iherb",
+      "title": "Swanson, Ashwagandha Extract, Standardized, 450 mg, 60 Capsules",
+      "url": "https://de.iherb.com/pr/swanson-ashwagandha-extract-standardized-450-mg-60-capsules/116341",
+      "canonical": "de.iherb.com/pr/swanson-ashwagandha-extract-standardized-450-mg-60-capsules/116341",
+      "asin": null,
+      "product_code": "116341",
+      "upc": null,
+      "price_raw": 465,
+      "price": 465,
+      "currency": "USD",
+      "price_clean": 465,
+      "price_parse_ambiguous": false,
+      "package_count": 60,
+      "package_unit": "count",
+      "package_raw": "60 Capsule",
+      "package_weight": null,
+      "images": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv14287/v/24.jpg",
+      "container": {
+        "id": "116341"
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Swanson, Ashwagandha Extract, Standardized, 450 mg, 60 Capsules",
+        "price": 465,
+        "url": "https://de.iherb.com/pr/swanson-ashwagandha-extract-standardized-450-mg-60-capsules/116341",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv14287/v/24.jpg",
+        "container": {
+          "id": "116341"
+        }
+      },
+      "price_per_item": 7.75
+    },
+    {
+      "site": "iherb",
+      "title": "Swanson, Full Spectrum® Ashwagandha, 100 Vegan Capsules (450 mg per Capsule)",
+      "url": "https://de.iherb.com/pr/swanson-full-spectrum-ashwagandha-100-vegan-capsules-450-mg-per-capsule/109031",
+      "canonical": "de.iherb.com/pr/swanson-full-spectrum-ashwagandha-100-vegan-capsules-450-mg-per-capsule/109031",
+      "asin": null,
+      "product_code": "109031",
+      "upc": null,
+      "price_raw": 757,
+      "price": 757,
+      "currency": "USD",
+      "price_clean": 757,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "450 mg",
+      "package_weight": "450",
+      "images": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01957/v/72.jpg",
+      "container": {
+        "id": "109031"
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Swanson, Full Spectrum® Ashwagandha, 100 Vegan Capsules (450 mg per Capsule)",
+        "price": 757,
+        "url": "https://de.iherb.com/pr/swanson-full-spectrum-ashwagandha-100-vegan-capsules-450-mg-per-capsule/109031",
+        "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01957/v/72.jpg",
+        "container": {
+          "id": "109031"
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ashwagandha, 450 mg, 180 Veggie Capsules",
+      "url": "https://de.iherb.com/pr/california-gold-nutrition-ashwagandha-450-mg-180-veggie-capsules/89863",
+      "canonical": "de.iherb.com/pr/california-gold-nutrition-ashwagandha-450-mg-180-veggie-capsules/89863",
+      "asin": null,
+      "product_code": "89863",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "450 mg",
+      "package_weight": "450",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ashwagandha, 450 mg, 180 Veggie Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/california-gold-nutrition-ashwagandha-450-mg-180-veggie-capsules/89863",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ashwagandha, 500 mg, 120 Veggie Capsules",
+      "url": "https://de.iherb.com/pr/california-gold-nutrition-ashwagandha-500-mg-120-veggie-capsules/129688",
+      "canonical": "de.iherb.com/pr/california-gold-nutrition-ashwagandha-500-mg-120-veggie-capsules/129688",
+      "asin": null,
+      "product_code": "129688",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "500 mg",
+      "package_weight": "500",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ashwagandha, 500 mg, 120 Veggie Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/california-gold-nutrition-ashwagandha-500-mg-120-veggie-capsules/129688",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Optimized Ashwagandha, 60 Vegetarian Capsules (125 mg per Capsule)",
+      "url": "https://de.iherb.com/pr/life-extension-optimized-ashwagandha-60-vegetarian-capsules-125-mg-per-capsule/16416",
+      "canonical": "de.iherb.com/pr/life-extension-optimized-ashwagandha-60-vegetarian-capsules-125-mg-per-capsule/16416",
+      "asin": null,
+      "product_code": "16416",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "125 mg",
+      "package_weight": "125",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Optimized Ashwagandha, 60 Vegetarian Capsules (125 mg per Capsule)",
+        "price": null,
+        "url": "https://de.iherb.com/pr/life-extension-optimized-ashwagandha-60-vegetarian-capsules-125-mg-per-capsule/16416",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ashwagandha Stress Relief, 60 Veg Capsules",
+      "url": "https://de.iherb.com/pr/now-foods-ashwagandha-stress-relief-60-veg-capsules/114632",
+      "canonical": "de.iherb.com/pr/now-foods-ashwagandha-stress-relief-60-veg-capsules/114632",
+      "asin": null,
+      "product_code": "114632",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": 60,
+      "package_unit": "count",
+      "package_raw": "60",
+      "package_weight": null,
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ashwagandha Stress Relief, 60 Veg Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/now-foods-ashwagandha-stress-relief-60-veg-capsules/114632",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ultimate Ashwagandha, 250 mg , 60 Veggie Capsules",
+      "url": "https://de.iherb.com/pr/swanson-ultimate-ashwagandha-250-mg-60-veggie-capsules/110991",
+      "canonical": "de.iherb.com/pr/swanson-ultimate-ashwagandha-250-mg-60-veggie-capsules/110991",
+      "asin": null,
+      "product_code": "110991",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "250 mg",
+      "package_weight": "250",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ultimate Ashwagandha, 250 mg , 60 Veggie Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/swanson-ultimate-ashwagandha-250-mg-60-veggie-capsules/110991",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ashwagandha, 60 Vegetarian Capsules",
+      "url": "https://de.iherb.com/pr/youtheory-ashwagandha-60-vegetarian-capsules/90165",
+      "canonical": "de.iherb.com/pr/youtheory-ashwagandha-60-vegetarian-capsules/90165",
+      "asin": null,
+      "product_code": "90165",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": 60,
+      "package_unit": "count",
+      "package_raw": "60",
+      "package_weight": null,
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ashwagandha, 60 Vegetarian Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/youtheory-ashwagandha-60-vegetarian-capsules/90165",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Standardized Extract Ashwagandha, 450 mg, 180 Veg Capsules",
+      "url": "https://de.iherb.com/pr/now-foods-standardized-extract-ashwagandha-450-mg-180-veg-capsules/78203",
+      "canonical": "de.iherb.com/pr/now-foods-standardized-extract-ashwagandha-450-mg-180-veg-capsules/78203",
+      "asin": null,
+      "product_code": "78203",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "450 mg",
+      "package_weight": "450",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Standardized Extract Ashwagandha, 450 mg, 180 Veg Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/now-foods-standardized-extract-ashwagandha-450-mg-180-veg-capsules/78203",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ashwagandha, 300 mg, 120 Veggie Capsules",
+      "url": "https://de.iherb.com/pr/jarrow-formulas-ashwagandha-300-mg-120-veggie-capsules/3302",
+      "canonical": "de.iherb.com/pr/jarrow-formulas-ashwagandha-300-mg-120-veggie-capsules/3302",
+      "asin": null,
+      "product_code": "3302",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "300 mg",
+      "package_weight": "300",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ashwagandha, 300 mg, 120 Veggie Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/jarrow-formulas-ashwagandha-300-mg-120-veggie-capsules/3302",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ashwagandha , 600 mg , 60 Vegetable Capsules",
+      "url": "https://de.iherb.com/pr/force-factor-ashwagandha-600-mg-60-vegetable-capsules/135748",
+      "canonical": "de.iherb.com/pr/force-factor-ashwagandha-600-mg-60-vegetable-capsules/135748",
+      "asin": null,
+      "product_code": "135748",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "600 mg",
+      "package_weight": "600",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ashwagandha , 600 mg , 60 Vegetable Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/force-factor-ashwagandha-600-mg-60-vegetable-capsules/135748",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Super Concentrated Ashwagandha, 60 Quick Release Capsules (460 mg per Capsule)",
+      "url": "https://de.iherb.com/pr/sundance-vitamins-super-concentrated-ashwagandha-60-quick-release-capsules-460-mg-per-capsule/127139",
+      "canonical": "de.iherb.com/pr/sundance-vitamins-super-concentrated-ashwagandha-60-quick-release-capsules-460-mg-per-capsule/127139",
+      "asin": null,
+      "product_code": "127139",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "460 mg",
+      "package_weight": "460",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Super Concentrated Ashwagandha, 60 Quick Release Capsules (460 mg per Capsule)",
+        "price": null,
+        "url": "https://de.iherb.com/pr/sundance-vitamins-super-concentrated-ashwagandha-60-quick-release-capsules-460-mg-per-capsule/127139",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ashwagandha Root Extract, 600 mg, 120 Capsules",
+      "url": "https://de.iherb.com/pr/nutricost-ashwagandha-root-extract-600-mg-120-capsules/140223",
+      "canonical": "de.iherb.com/pr/nutricost-ashwagandha-root-extract-600-mg-120-capsules/140223",
+      "asin": null,
+      "product_code": "140223",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": 120,
+      "package_unit": "count",
+      "package_raw": "120 Capsule",
+      "package_weight": null,
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ashwagandha Root Extract, 600 mg, 120 Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/nutricost-ashwagandha-root-extract-600-mg-120-capsules/140223",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "Ashwagandha, 180 Vegetarian Caps (400 mg per Capsule)",
+      "url": "https://de.iherb.com/pr/organic-india-ashwagandha-180-vegetarian-caps-400-mg-per-capsule/90447",
+      "canonical": "de.iherb.com/pr/organic-india-ashwagandha-180-vegetarian-caps-400-mg-per-capsule/90447",
+      "asin": null,
+      "product_code": "90447",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": null,
+      "package_unit": "mg",
+      "package_raw": "400 mg",
+      "package_weight": "400",
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "Ashwagandha, 180 Vegetarian Caps (400 mg per Capsule)",
+        "price": null,
+        "url": "https://de.iherb.com/pr/organic-india-ashwagandha-180-vegetarian-caps-400-mg-per-capsule/90447",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    },
+    {
+      "site": "iherb",
+      "title": "KSM-66®, Ashwagandha , 90 Capsules",
+      "url": "https://de.iherb.com/pr/nutrabio-ksm-66-ashwagandha-90-capsules/95838",
+      "canonical": "de.iherb.com/pr/nutrabio-ksm-66-ashwagandha-90-capsules/95838",
+      "asin": null,
+      "product_code": "95838",
+      "upc": null,
+      "price_raw": null,
+      "price": null,
+      "currency": null,
+      "price_clean": null,
+      "price_parse_ambiguous": false,
+      "package_count": 90,
+      "package_unit": "count",
+      "package_raw": "90 Capsule",
+      "package_weight": null,
+      "images": null,
+      "container": {
+        "id": null
+      },
+      "source_raw": {
+        "retailer": "iHerb",
+        "productName": "KSM-66®, Ashwagandha , 90 Capsules",
+        "price": null,
+        "url": "https://de.iherb.com/pr/nutrabio-ksm-66-ashwagandha-90-capsules/95838",
+        "image": null,
+        "container": {
+          "id": null
+        }
+      },
+      "price_per_item": null
+    }
+  ]
+}

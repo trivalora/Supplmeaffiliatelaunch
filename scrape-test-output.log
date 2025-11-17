@@ -1,0 +1,9 @@
+Need to install the following packages:
+tsx@4.20.6
+Ok to proceed? (y) 
+Scraping Amazon for Ashwagandha...
+Amazon results: []
+Scraping iHerb for Ashwagandha...
+[iHerb] Found 0 product links
+iHerb results: []
+Results saved to ashwagandha-scrape-results.json

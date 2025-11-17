@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Calcium Citrate",
+    "description": "Highly bioavailable calcium supplement form that can be taken with or without food",
+    "url": "https://suppl.me/glossary/calciumcitrate",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Calcium Citrate",
+    "description": "Highly bioavailable calcium supplement form that can be taken with or without food",
+    "url": "https://suppl.me/glossary/calciumcitrate"
+  }
+]

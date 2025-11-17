@@ -1,0 +1,66 @@
+=== Testing iHerb Authenticated Scraper ===
+
+✅ Found credentials for: sebastian.wilck@icloud.com
+   Will attempt authenticated scraping
+
+Scraping iHerb for Ashwagandha...
+
+[iHerb] Logging in...
+[iHerb] ⚠️ Login failed, continuing without auth: Error: No element found for selector: input[name="email"], input[type="email"]
+    at assert (/Users/roxyjune/Downloads/suppl.me_Affiliate_Launch_v0.2/node_modules/puppeteer-core/src/util/assert.ts:19:11)
+    at CdpFrame.type (/Users/roxyjune/Downloads/suppl.me_Affiliate_Launch_v0.2/node_modules/puppeteer-core/src/api/Frame.ts:1163:11)
+    at async scrapeIherb (/Users/roxyjune/Downloads/suppl.me_Affiliate_Launch_v0.2/scripts/scrapers/scrape-iherb.ts:60:7)
+    at async main (/Users/roxyjune/Downloads/suppl.me_Affiliate_Launch_v0.2/scripts/test-iherb-auth.ts:23:19)
+[iHerb] Loading search page: https://www.iherb.com/search?kw=Ashwagandha&ccode=US
+[iHerb] Found 27 products, scraping first 20
+[iHerb] ✅ Ashwagandha, 450 mg, 180 Veggie Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Ashwagandha, 500 mg, 120 Veggie Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Standardized Extract Ashwagandha, 450 mg, 180 Veg Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Standardized Extract Ashwagandha, 450 mg, 180 Veg Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Ashwagandha, 90 Quick Release Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Swanson, Full Spectrum® Ashwagandha, 100 Vegan Capsules (450 mg per Capsule) - $586 | UPC: 087614019574 | Dietary: Vegan, Non Gmo, Gluten Free, Dairy Free, Halal | iTested: false
+[iHerb] ✅ Ashwagandha, Standardized Extract, 450 mg, 90 Veg Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Ashwagandha, Standardized Extract, 450 mg, 90 Veg Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ KSM-66®, Ashwagandha , 90 Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ KSM-66®, Ashwagandha , 90 Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Ashwagandha Root, 90 Quick Release Capsules (460 mg per Capsule) - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Life Extension, Optimized Ashwagandha, 60 Vegetarian Capsules (125 mg per Capsule) - $598 | UPC: 737870888062 | Dietary: Non Gmo, Gluten Free, Vegetarian | iTested: false
+[iHerb] ✅ Full Spectrum™ Ashwagandha, 120 Tablets - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Full Spectrum™ Ashwagandha, 120 Tablets - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Ashwagandha Extract, Standardized, 450 mg, 60 Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Sundance Vitamins, Super Concentrated Ashwagandha, 60 Quick Release Capsules (460 mg per Capsule) - $459 | UPC: 840093140494 | Dietary: Non Gmo, Gluten Free | iTested: false
+[iHerb] ✅ Organic Ashwagandha, 90 Caplets - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Organic Ashwagandha, 90 Caplets - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ Ashwagandha Stress Relief, 60 Veg Capsules - $null | UPC: N/A | Dietary: None | iTested: false
+[iHerb] ✅ KSM-66 Ashwagandha Plus L-Theanine, 60 Coated Caplets - $null | UPC: N/A | Dietary: None | iTested: false
+
+=== RESULTS ===
+Total products found: 20
+Products with price: 3/20 (15%)
+Products with UPC: 3/20 (15%)
+Products with dietary flags: 3/20 (15%)
+
+✅ Results saved to iherb-auth-test-results.json
+
+=== SAMPLE DATA (first 3 products) ===
+
+1. Ashwagandha, 450 mg, 180 Veggie Capsules
+   Price: $HIDDEN (see price in cart)
+   UPC: N/A
+   Dietary: None
+   iTested: false
+   URL: https://www.iherb.com/pr/california-gold-nutrition-ashwagandha-450-mg-180-veggie-capsules/89863
+
+2. Ashwagandha, 500 mg, 120 Veggie Capsules
+   Price: $HIDDEN (see price in cart)
+   UPC: N/A
+   Dietary: None
+   iTested: false
+   URL: https://www.iherb.com/pr/california-gold-nutrition-ashwagandha-500-mg-120-veggie-capsules/129688
+
+3. Standardized Extract Ashwagandha, 450 mg, 180 Veg Capsules
+   Price: $HIDDEN (see price in cart)
+   UPC: N/A
+   Dietary: None
+   iTested: false
+   URL: https://www.iherb.com/pr/now-foods-standardized-extract-ashwagandha-450-mg-180-veg-capsules/78203

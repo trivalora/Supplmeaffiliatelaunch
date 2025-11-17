@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>suppl.me Affiliate Launch v0.2</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#162F1C" />
+  <style>
+    :root {
+      --header-height: 78px;
+      --background: #f5f8f6;
+      --foreground: #2d2d2d;
+      --color-secondary: #e0cba8;
+    }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--background);
+      color: var(--foreground);
+      font-family: var(--font-body, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+    [data-layout-header] { height: var(--header-height); }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

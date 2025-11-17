@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Collagen Peptides (V1 - Archived)",
+    "description": "Structural protein for skin, joints, and connective tissue",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Collagen Peptides (V1 - Archived)",
+    "description": "Structural protein for skin, joints, and connective tissue",
+    "about": "Collagen Peptides (V1 - Archived)",
+    "url": "https://suppl.me/collagenpeptides"
+  }
+]

@@ -1,0 +1,25 @@
+## robots.txt for suppl.me
+# We provide evidence-based supplement content and price comparisons.
+# Ensure search engines can fully crawl; block only legacy/archived pages.
+
+User-agent: *
+Allow: /
+
+# Disallow archived v1 supplement pages (canonicalized to v2 versions)
+Disallow: /*-v1$
+
+# (Optional placeholders – currently not used)
+# Disallow: /admin/
+# Disallow: /preview/
+# Disallow: /test/
+
+# Primary sitemap
+Sitemap: https://www.suppl.me/sitemap.xml
+
+# If you introduce a separate sitemap for images or news later, list them here.
+# Sitemap: https://www.suppl.me/sitemap-images.xml
+
+# Notes:
+# 1. Avoid rendering HTML here; if you see a DOCTYPE in production your SPA rewrite is serving index.html.
+# 2. On Vercel, keep this file in /public so it’s copied verbatim to the build output root.
+# 3. Remove any rewrite for /robots.txt pointing to /index.html.

@@ -1,0 +1,48 @@
+import { GlossaryTemplate } from '../GlossaryTemplate';
+
+interface AcetatePageProps {
+  onNavigate?: (key: string) => void;
+}
+
+export function AcetatePage({ onNavigate }: AcetatePageProps) {
+  return (
+    <GlossaryTemplate
+      term="Acetate"
+      abbreviation="Acetic Acid, C2:0"
+      onNavigate={onNavigate}
+      currentPage="acetate"
+      definition="A two-carbon short-chain fatty acid and the most abundantly produced SCFA from bacterial fermentation of dietary fiber in the colon, with roles in energy metabolism, lipid synthesis, appetite regulation, and inflammation modulation."
+      detailedExplanation="Acetate (acetic acid) is a two-carbon saturated fatty acid (C2:0) that represents the most abundant short-chain fatty acid (SCFA) produced by gut bacterial fermentation of dietary fibers. It typically accounts for approximately 60-70% of total colonic SCFA production, with the remainder being propionate (~20-25%) and butyrate (~15-20%).
+
+Unlike butyrate, which is primarily used locally by colonocytes, and propionate, which is largely taken up by the liver, a significant portion of acetate enters systemic circulation. This widespread distribution allows acetate to exert metabolic effects in multiple tissues throughout the body, including adipose tissue, skeletal muscle, brain, and heart.
+
+**Key metabolic roles of acetate:**
+
+**Lipogenesis substrate:** Acetate serves as a building block for fatty acid and cholesterol synthesis. In the liver and adipose tissue, acetate is converted to acetyl-CoA, which then enters lipogenic pathways. While this might seem counterproductive, the relationship between acetate and fat metabolism is complex, with context-dependent effects on energy balance.
+
+**Energy substrate:** Acetate can be oxidized in mitochondria to generate ATP, providing energy to peripheral tissues. Approximately 10-20% of total daily energy expenditure in humans may be derived from SCFA oxidation, with acetate being the primary contributor due to its abundance.
+
+**Appetite and metabolism:** Acetate crosses the blood-brain barrier and may influence hypothalamic appetite regulation. Some research suggests acetate can activate hypothalamic neurons involved in appetite suppression, though evidence is mixed. Acetate also stimulates the release of satiety hormones GLP-1 and PYY from intestinal L-cells, similar to propionate.
+
+**Glucose homeostasis:** Acetate may influence glucose metabolism through multiple mechanisms, including improved insulin sensitivity in peripheral tissues and modulation of hepatic glucose production. The overall effect appears beneficial for glycemic control, though mechanisms are still being elucidated.
+
+**Anti-inflammatory effects:** Acetate, like other SCFAs, exhibits anti-inflammatory properties through multiple mechanisms including GPR43 receptor activation on immune cells, suppression of NF-κB signaling, and promotion of regulatory T cell differentiation.
+
+**Cardiovascular effects:** Emerging research suggests acetate may influence blood pressure regulation through GPR43-dependent mechanisms and effects on the renin-angiotensin system, though clinical significance requires further investigation.
+
+Acetate production is influenced by overall fiber intake and gut microbiome composition. Virtually all major bacterial phyla in the gut can produce acetate, making it the most consistently produced SCFA across diverse microbial communities. Diets rich in fermentable fibers, particularly from whole grains, fruits, vegetables, and legumes, enhance acetate production."
+      examples={[
+        "A person consuming 30-40 grams of dietary fiber daily may produce 100-200 mmol of acetate in the colon daily, representing the majority of total SCFA production.",
+        "Fecal acetate concentrations typically range from 50-100 mmol/kg in healthy individuals consuming adequate fiber, decreasing substantially on low-fiber diets.",
+        "Studies show that increased colonic acetate production from prebiotic supplementation correlates with improved markers of insulin sensitivity and reduced inflammatory markers."
+      ]}
+      relatedTerms={[
+        { term: "SCFA", key: "scfa" },
+        { term: "Gut Microbiome", key: "gutmicrobiome" },
+        { term: "Metabolism", key: "metabolism" },
+        { term: "GLP-1", key: "glp1" },
+        { term: "Inflammation", key: "inflammation" }
+      ]}
+    />
+  );
+}

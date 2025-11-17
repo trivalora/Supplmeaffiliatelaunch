@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Dev Server",
+            "type": "shell",
+            "command": "npm",
+            "args": [
+                "run",
+                "dev"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "npm",
+            "args": [
+                "run",
+                "build"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Analyze Bundle",
+            "type": "shell",
+            "command": "npm",
+            "args": [
+                "run",
+                "analyze"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

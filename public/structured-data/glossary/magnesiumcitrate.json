@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Magnesium Citrate",
+    "description": "Highly bioavailable magnesium supplement form with mild laxative effect",
+    "url": "https://suppl.me/glossary/magnesiumcitrate",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Magnesium Citrate",
+    "description": "Highly bioavailable magnesium supplement form with mild laxative effect",
+    "url": "https://suppl.me/glossary/magnesiumcitrate"
+  }
+]

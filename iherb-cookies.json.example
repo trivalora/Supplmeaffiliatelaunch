@@ -1,0 +1,12 @@
+[
+  {
+    "name": "cookie_name_here",
+    "value": "cookie_value_here",
+    "domain": ".iherb.com",
+    "path": "/",
+    "expires": 1234567890,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

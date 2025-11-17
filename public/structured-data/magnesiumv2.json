@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Magnesium",
+    "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation",
+    "category": "Minerals"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Magnesium",
+    "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation",
+    "about": "Magnesium",
+    "url": "https://suppl.me/magnesium"
+  }
+]
