@@ -63,6 +63,8 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
   // Group results by category
   const knowledgebaseResults = filteredResults.filter(r => r.category === 'v2' || !r.category);
   const glossaryResults = filteredResults.filter(r => r.category === 'glossary');
+  // If the user is searching for ashwagandha, surface a compare page as a top result.
+  const showCompareAshwagandha = /ashwagandha/i.test(query)
 
   return (
     <div
@@ -79,6 +81,29 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
           <div className="px-4 py-2 text-sm text-muted-foreground border-b border-secondary/30">
             {filteredResults.length} result{filteredResults.length !== 1 ? 's' : ''} found
           </div>
+
+          {/* Quick comparison shortcut for Ashwagandha */}
+          {showCompareAshwagandha && (
+            <div
+              key="compare-ashwagandha"
+              onClick={() => {
+                trackSearchResultClick(query, 'Compare Ashwagandha prices', 1)
+                // Open the static compare page we generate in public/
+                window.location.href = '/compare-ashwagandha.html'
+              }}
+              className="px-4 py-3 cursor-pointer transition-all duration-200 border-b border-secondary/10 last:border-b-0 group"
+              style={{ backgroundColor: 'transparent' }}
+              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(224, 203, 168, 0.08)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; }}
+            >
+              <div className="font-medium text-foreground mb-1 transition-opacity duration-200 group-hover:opacity-80">
+                Compare Ashwagandha prices
+              </div>
+              <div className="text-sm text-muted-foreground line-clamp-2">
+                View normalized price-per-active-unit comparisons across retailers.
+              </div>
+            </div>
+          )}
 
           {/* Knowledgebase results */}
           {knowledgebaseResults.length > 0 && (

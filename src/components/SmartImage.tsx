@@ -100,24 +100,26 @@ export function SmartImage({
     const intrinsicHeight = addIntrinsic ? Math.round(widthHint * 1.2) : undefined;
 
     if (manifestEntry) {
-        // Prefer AVIF variants; build srcset from local optimized files
-        const localSrcSet = manifestEntry.widths.map(w => `/optimized/remote/${manifestEntry.hash}-${w}.avif ${w}w`).join(', ');
-        const localSrc = `/optimized/remote/${manifestEntry.hash}-${manifestEntry.widths[0]}.avif`;
+        // Build AVIF and WebP srcsets from local optimized files
+        const avifSet = manifestEntry.widths.map(w => `/optimized/remote/${manifestEntry.hash}-${w}.avif ${w}w`).join(', ');
+        const webpSet = manifestEntry.widths.map(w => `/optimized/remote/${manifestEntry.hash}-${w}.webp ${w}w`).join(', ');
+        const fallbackSrc = `/optimized/remote/${manifestEntry.hash}-${manifestEntry.widths[0]}.webp`;
         return (
-            <img
-                src={localSrc}
-                srcSet={localSrcSet}
-                sizes={sizes}
-                alt={alt}
-                className={className}
-                style={style}
-                loading={loading}
-                decoding={decoding}
-                fetchPriority={fetchPriority}
-                draggable={draggable}
-                width={intrinsicWidth}
-                height={intrinsicHeight}
-            />
+            <picture className={className} style={style}>
+                <source type="image/avif" srcSet={avifSet} sizes={sizes} />
+                <source type="image/webp" srcSet={webpSet} sizes={sizes} />
+                <img
+                    src={fallbackSrc}
+                    alt={alt}
+                    loading={loading}
+                    decoding={decoding}
+                    fetchPriority={fetchPriority}
+                    draggable={draggable}
+                    width={intrinsicWidth}
+                    height={intrinsicHeight}
+                    style={{ width: '100%', height: 'auto' }}
+                />
+            </picture>
         );
     }
 

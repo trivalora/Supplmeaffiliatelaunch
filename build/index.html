@@ -53,21 +53,18 @@
     }
   </style>
 
-  <!-- Preload LCP hero image (AVIF/WebP) so it's discoverable in initial HTML -->
+  <!-- Preload single AVIF hero candidate for LCP (avoid duplicate high priority preloads) -->
   <link rel="preload" as="image"
     imagesrcset="/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.avif 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.avif 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.avif 1920w"
     imagesizes="100vw" fetchpriority="high" />
-  <link rel="preload" as="image"
-    imagesrcset="/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.webp 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.webp 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.webp 1920w"
-    imagesizes="100vw" fetchpriority="high" />
 
-  <!-- Preload critical self-hosted fonts (TTF) -->
-  <link rel="preload" as="font" type="font/ttf" href="/fonts/Lato-Regular.ttf" crossorigin>
-  <link rel="preload" as="font" type="font/ttf" href="/fonts/Lato-Bold.ttf" crossorigin>
-  <script type="module" crossorigin src="/assets/index-CNt2Srfz.js"></script>
+  <!-- Preload critical self-hosted subset fonts (WOFF2) -->
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/Lato-Regular-subset.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/Lato-Bold-subset.woff2" crossorigin>
+  <script type="module" crossorigin src="/assets/index-CiOFsQ0n.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/icons-v_5IysOb.js">
   <link rel="modulepreload" crossorigin href="/assets/radix-Bjn62G9e.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-CtIJjRMx.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-CGoj_ZBN.css">
 </head>
 
 <body>

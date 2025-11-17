@@ -16,7 +16,8 @@ const dataFile = path.join(projectRoot, 'src', 'utils', 'supplementProductsData.
 const outputDir = path.join(projectRoot, 'public', 'optimized', 'remote');
 const manifestTs = path.join(projectRoot, 'src', 'optimized', 'remoteManifest.ts');
 
-const widths = [240, 360, 480, 640];
+// Pruned widths (max expected rendered ~420px, keep one above) - can adjust via WIDTHS env
+const widths = process.env.WIDTHS ? process.env.WIDTHS.split(',').map(n => parseInt(n.trim(), 10)).filter(Boolean) : [240, 360, 480];
 
 async function main() {
     console.log('[cache-remote-images] Starting');
@@ -30,28 +31,70 @@ async function main() {
 
     const content = fs.readFileSync(dataFile, 'utf8');
 
-    // Regex to find remote image URLs
-    const urlRegex = /(https:\/\/(?:m\.media\.amazon\.com|cloudinary\.images-iherb\.com)[^'"\)]+\.(?:jpg|jpeg|png|webp))/g;
-    const urls = new Set();
-    let match;
-    while ((match = urlRegex.exec(content))) {
-        urls.add(match[1]);
-    }
-    // Fallback explicit scan for Amazon patterns if none found
-    if (![...urls].some(u => u.includes('m.media.amazon.com'))) {
-        const amazonRegex = /(https:\/\/m\.media\.amazon\.com\/images\/I\/[A-Za-z0-9+._%-]+\.(?:jpg|jpeg|png|webp))/g;
-        while ((match = amazonRegex.exec(content))) {
-            urls.add(match[1]);
+    // Load existing manifest (if present) to enable skip logic
+    let existingManifest = {};
+    if (fs.existsSync(manifestTs)) {
+        try {
+            const mfRaw = fs.readFileSync(manifestTs, 'utf8');
+            const jsonMatch = mfRaw.match(/export const REMOTE_IMAGE_MANIFEST[^=]*= (\{[\s\S]*\});/);
+            if (jsonMatch) {
+                existingManifest = JSON.parse(jsonMatch[1]);
+            }
+        } catch (e) {
+            console.warn('[cache-remote-images] Could not parse existing manifest:', e.message);
         }
     }
 
+    // Extract only the image property values to avoid matching non-image Amazon links
+    const imagePropRegex = /image\s*:\s*["'](https:\/\/(?:m\.media-amazon\.com|cloudinary\.images-iherb\.com)[^"']+\.(?:jpg|jpeg|png|webp))["']/g;
+    const urls = new Set();
+    let match;
+    while ((match = imagePropRegex.exec(content))) {
+        urls.add(match[1]);
+    }
+    console.log(`[cache-remote-images] Found URLs -> total: ${urls.size}, amazon: ${[...urls].filter(u => u.includes('m.media-amazon.com')).length}, cloudinary: ${[...urls].filter(u => u.includes('cloudinary.images-iherb.com')).length}`);
+
     const manifest = {};
+
+    // Basic fetch with headers suitable for CDN endpoints
+    const fetchWithHeaders = async (url, attempt = 1) => {
+        const res = await fetch(url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+                'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+                'Referer': 'https://suppl.me/'
+            }
+        });
+        if ((res.status === 429 || res.status === 403) && attempt < 3) {
+            const backoff = 300 * attempt;
+            await new Promise(r => setTimeout(r, backoff));
+            return fetchWithHeaders(url, attempt + 1);
+        }
+        return res;
+    };
 
     for (const url of urls) {
         const hash = crypto.createHash('sha1').update(url).digest('hex').slice(0, 12);
+        const already = existingManifest[url];
+        // Determine if we can skip: existing entry with same hash (recompute ensures deterministic), all width/format files exist
+        let canSkip = false;
+        if (already && already.hash === hash) {
+            const expectedFiles = [];
+            for (const w of widths) {
+                expectedFiles.push(path.join(outputDir, `${hash}-${w}.avif`));
+                expectedFiles.push(path.join(outputDir, `${hash}-${w}.webp`));
+            }
+            canSkip = expectedFiles.every(f => fs.existsSync(f));
+        }
+        if (canSkip) {
+            // Reuse existing manifest entry but update widths/formats if they changed
+            manifest[url] = { hash, widths, formats: ['avif', 'webp'] };
+            console.log(`  Skip (cached) ${url}`);
+            continue;
+        }
         console.log(`  Processing ${url} -> ${hash}`);
         try {
-            const res = await fetch(url);
+            const res = await fetchWithHeaders(url);
             if (!res.ok) {
                 console.warn('   ! Failed fetch', res.status, url);
                 continue;
@@ -81,7 +124,9 @@ async function main() {
 // Mapping of original remote URL to local optimized asset hash + widths
 export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: number[]; formats: string[] }> = ${JSON.stringify(manifest, null, 2)};\n`;
     fs.writeFileSync(manifestTs, ts, 'utf8');
-    console.log('[cache-remote-images] Done. Images:', Object.keys(manifest).length);
+    const total = Object.keys(manifest).length;
+    const skipped = Object.keys(existingManifest).filter(u => manifest[u]?.hash === existingManifest[u].hash).length;
+    console.log(`[cache-remote-images] Done. Images in manifest: ${total} (skipped: ${skipped})`);
 }
 
 main().catch(e => {
