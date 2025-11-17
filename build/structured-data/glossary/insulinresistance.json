@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Insulin Resistance",
+    "description": "A condition where cells don\\",
+    "url": "https://suppl.me/glossary/insulinresistance",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Insulin Resistance",
+    "description": "A condition where cells don\\",
+    "url": "https://suppl.me/glossary/insulinresistance"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Thyroid Function",
+    "description": "Activity of the thyroid gland in regulating metabolism",
+    "url": "https://suppl.me/glossary/thyroidfunction",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Thyroid Function",
+    "description": "Activity of the thyroid gland in regulating metabolism",
+    "url": "https://suppl.me/glossary/thyroidfunction"
+  }
+]

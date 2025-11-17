@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Calcium Carbonate",
+    "description": "Common calcium supplement form with 40% elemental calcium, requires stomach acid for absorption",
+    "url": "https://suppl.me/glossary/calciumcarbonate",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Calcium Carbonate",
+    "description": "Common calcium supplement form with 40% elemental calcium, requires stomach acid for absorption",
+    "url": "https://suppl.me/glossary/calciumcarbonate"
+  }
+]

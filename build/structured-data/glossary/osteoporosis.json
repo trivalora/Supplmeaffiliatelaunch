@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Osteoporosis",
+    "description": "Systemic skeletal disease with low bone mass and increased fracture risk",
+    "url": "https://suppl.me/glossary/osteoporosis",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Osteoporosis",
+    "description": "Systemic skeletal disease with low bone mass and increased fracture risk",
+    "url": "https://suppl.me/glossary/osteoporosis"
+  }
+]

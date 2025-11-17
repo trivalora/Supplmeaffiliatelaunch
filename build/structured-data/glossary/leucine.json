@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Leucine",
+    "description": "Essential branched-chain amino acid, primary driver of muscle protein synthesis",
+    "url": "https://suppl.me/glossary/leucine",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Leucine",
+    "description": "Essential branched-chain amino acid, primary driver of muscle protein synthesis",
+    "url": "https://suppl.me/glossary/leucine"
+  }
+]

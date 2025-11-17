@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Dysbiosis",
+    "description": "Imbalance in gut microbiome composition reducing beneficial bacteria",
+    "url": "https://suppl.me/glossary/dysbiosis",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Dysbiosis",
+    "description": "Imbalance in gut microbiome composition reducing beneficial bacteria",
+    "url": "https://suppl.me/glossary/dysbiosis"
+  }
+]

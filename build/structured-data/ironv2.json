@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Iron",
+    "description": "Enhanced meta-analysis review of iron for anemia, heart failure, and chronic kidney disease",
+    "category": "Minerals"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Iron",
+    "description": "Enhanced meta-analysis review of iron for anemia, heart failure, and chronic kidney disease",
+    "about": "Iron",
+    "url": "https://suppl.me/iron"
+  }
+]

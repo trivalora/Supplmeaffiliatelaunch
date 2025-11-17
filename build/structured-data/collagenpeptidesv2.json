@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Collagen Peptides",
+    "description": "Enhanced meta-analysis review of collagen peptides for skin, joints, and connective tissue",
+    "category": "Protein Supplements"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Collagen Peptides",
+    "description": "Enhanced meta-analysis review of collagen peptides for skin, joints, and connective tissue",
+    "about": "Collagen Peptides",
+    "url": "https://suppl.me/collagenpeptides"
+  }
+]

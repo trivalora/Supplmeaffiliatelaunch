@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Resolvins",
+    "description": "Anti-inflammatory compounds derived from omega-3 fatty acids",
+    "url": "https://suppl.me/glossary/resolvins",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Resolvins",
+    "description": "Anti-inflammatory compounds derived from omega-3 fatty acids",
+    "url": "https://suppl.me/glossary/resolvins"
+  }
+]

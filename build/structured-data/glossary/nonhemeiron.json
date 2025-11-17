@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Non-Heme Iron",
+    "description": "Plant-based iron form with lower bioavailability than heme iron",
+    "url": "https://suppl.me/glossary/nonhemeiron",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Non-Heme Iron",
+    "description": "Plant-based iron form with lower bioavailability than heme iron",
+    "url": "https://suppl.me/glossary/nonhemeiron"
+  }
+]
