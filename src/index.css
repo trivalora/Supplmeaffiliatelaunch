@@ -503,7 +503,12 @@
   }
 
   img {
-    max-width: 80%;
+    /* Images should be allowed to fill their container by default.
+       Previously this global rule limited images to 80% which
+       caused product/hero images to appear undersized compared
+       to the original site. Use 100% as the sensible default and
+       override per-component when a smaller size is needed. */
+    max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
