@@ -16,9 +16,9 @@ iherb-cookies.json
 *.sqlite3
 data/
 
-# Scraper Scripts & Tools
-scripts/
-scrapers/
+# Scraper-Specific Scripts (legacy - core build scripts like optimize-images, generate-sitemap, build-structured-data are kept)
+# scripts/
+# scrapers/
 
 # Scraper Results & Outputs
 scraper-results/

@@ -11,7 +11,7 @@
     ]
   },
   "index.html": {
-    "file": "assets/index-DAzBmElR.js",
+    "file": "assets/index-DbkMx4UZ.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -23,7 +23,7 @@
       "src/components/LandingPage.tsx"
     ],
     "css": [
-      "assets/index-CGoj_ZBN.css"
+      "assets/index-CFG9hHsW.css"
     ],
     "assets": [
       "assets/7157caff66020adbe0e259d3e2f8312044fb4dd5-B1Sh7v7y.png",
@@ -140,7 +140,7 @@
     "src": "src/assets/fa234369467197e9b56f625112dd7dc3646b9390.png"
   },
   "src/components/LandingPage.tsx": {
-    "file": "assets/LandingPage-Czl2AN1Q.js",
+    "file": "assets/LandingPage-B28HtkQH.js",
     "name": "LandingPage",
     "src": "src/components/LandingPage.tsx",
     "isDynamicEntry": true,
