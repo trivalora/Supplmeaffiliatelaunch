@@ -843,6 +843,7 @@ function AffiliateButtons({
   productName: string;
   brand: string;
 }) {
+  const supplementNameLower = supplementName.toLowerCase();
   const tooltipHandlers = useAffiliateTooltip();
 
   const handleAmazonClick = () => {
@@ -901,16 +902,15 @@ function AffiliateButtons({
           </div>
         </a>
       )}
-      <button
+      <a
+        href={`/compare-${supplementNameLower}.html`}
+        target="_blank"
+        rel="nofollow noopener noreferrer"
         data-button-height="md"
-        className="flex-1 px-3 rounded-lg cursor-not-allowed relative group text-center bg-tertiary text-muted-foreground border border-secondary opacity-70 text-sm flex items-center justify-center"
-        disabled
+        className="flex-1 px-3 rounded-lg text-center bg-tertiary text-primary border border-secondary hover:bg-secondary transition-colors text-sm flex items-center justify-center"
       >
         Compare All
-        <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-foreground text-background px-3 py-1 rounded text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-          Coming Soon
-        </span>
-      </button>
+      </a>
     </div>
   );
 }

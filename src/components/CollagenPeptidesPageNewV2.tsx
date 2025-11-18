@@ -1,8 +1,9 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
   Bone, Activity, Eye, Shield, Heart, Sparkles,
-  AlertCircle, Droplet, FlaskConical, Apple, Users
-} from './iconExports';
+  AlertCircle, Droplet, FlaskConical, Apple, Users,
+  Pill, CheckCircle2
+} from 'lucide-react';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
@@ -274,43 +275,6 @@ export function CollagenPeptidesPageNewV2({
       }
     ],
     
-    whatToExpectData: {
-      disclaimer: "Effects vary by individual. Consult healthcare provider before starting.",
-      outcomes: [
-        {
-          icon: Sparkles,
-          iconLabel: "Skin Health",
-          usage: "2.5-15g",
-          bestTime: "Anytime",
-          resultsWeeks: "4-12",
-          intensity: "High" as const
-        },
-        {
-          icon: Bone,
-          iconLabel: "Joint Pain & Mobility",
-          usage: "8-15g",
-          bestTime: "Anytime",
-          resultsWeeks: "12-24",
-          intensity: "Moderate" as const
-        },
-        {
-          icon: Shield,
-          iconLabel: "Bone Density",
-          usage: "5g",
-          bestTime: "Anytime",
-          resultsWeeks: "52+",
-          intensity: "Moderate" as const
-        },
-        {
-          icon: Activity,
-          iconLabel: "Muscle Mass",
-          usage: "15g",
-          bestTime: "Anytime",
-          resultsWeeks: "12-24",
-          intensity: "Moderate" as const
-        }
-      ]
-    },
     
     furtherReading: [
       {

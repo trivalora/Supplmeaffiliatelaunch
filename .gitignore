@@ -1,1 +1,65 @@
-node_modules
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+iherb-cookies.json
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# Scraper Scripts & Tools
+scripts/
+scrapers/
+
+# Scraper Results & Outputs
+scraper-results/
+normalized-results/
+*.cleaned.json
+*-scrape-results.json
+
+# Log Files
+*.log
+logs/
+
+# Temporary & Debug Files
+current-html.html
+scraperapi-sample-product.html
+*.tmp
+*.temp
+
+# Build & Distribution
+dist/
+build/
+.cache/
+
+# IDE & OS Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test HTML Files
+public/compare-*.html
+public/*-joined.json
+
+# Documentation (scraper-specific)
+SCRAPER-*.md
+BOT-PROTECTION*.md
+COOKIE-AUTH*.md
+RETAILER-*.md
+QUICK-START-GUIDE.md
+NORMALIZATION-*.md
+CURRENT-MATCHING*.md
+PRODUCT-FILTERING*.md
+WALMART-SCRAPER*.md

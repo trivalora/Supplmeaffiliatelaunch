@@ -89,7 +89,7 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
               onClick={() => {
                 trackSearchResultClick(query, 'Compare Ashwagandha prices', 1)
                 // Open the static compare page we generate in public/
-                window.location.href = '/compare-ashwagandha.html'
+                window.open('/compare-ashwagandha.html', '_blank')
               }}
               className="px-4 py-3 cursor-pointer transition-all duration-200 border-b border-secondary/10 last:border-b-0 group"
               style={{ backgroundColor: 'transparent' }}

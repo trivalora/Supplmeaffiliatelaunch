@@ -173,12 +173,11 @@ function Link3({ onNavigate, onKnowledgebaseClick }: { onNavigate: (page: PageKe
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Memoize sorted routes to prevent recalculation on every render
-  const navRoutes = useMemo(() =>
-    KNOWLEDGEBASE_ROUTES
-      .filter(route => route.showInNav)
-      .sort((a, b) => a.title.localeCompare(b.title)),
-    []
-  );
+  const navRoutes = useMemo(() => {
+    const filtered = KNOWLEDGEBASE_ROUTES.filter(route => route.showInNav);
+    console.log('Filtered nav routes:', filtered.map(r => r.key));
+    return filtered.sort((a, b) => a.title.localeCompare(b.title));
+  }, []);
 
   // Preload a few top nav thumbnails as AVIF to avoid layout jumps when opening the menu
   useEffect(() => {
@@ -246,6 +245,7 @@ function Link3({ onNavigate, onKnowledgebaseClick }: { onNavigate: (page: PageKe
     };
   }, [isOpen]);
 
+  console.log('Link3 rendered with navRoutes:', navRoutes.map(r => r.key));
   return (
     <div
       ref={containerRef}
