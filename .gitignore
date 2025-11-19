@@ -15,10 +15,12 @@ iherb-cookies.json
 *.sqlite
 *.sqlite3
 data/
-data-pipeline
 
-# Scraper Scripts & Tools
-scripts/
+# Data Pipeline (excluding web-build scripts needed for deployment)
+data-pipeline/
+!scripts/web-build/
+
+# Scraper Tools
 scrapers/
 
 # Scraper Results & Outputs
