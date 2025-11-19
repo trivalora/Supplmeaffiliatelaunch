@@ -2247,6 +2247,12 @@ export const STATIC_ROUTES: StaticRouteConfig[] = [
     componentName: 'ImpressumPage'
   },
   {
+    key: 'product-comparison',
+    title: 'Product Comparison',
+    componentPath: './components/ProductComparison',
+    componentName: 'ProductComparison'
+  },
+  {
     key: 'knowledgebase',
     title: 'Knowledgebase',
     componentPath: './components/KnowledgebasePage',

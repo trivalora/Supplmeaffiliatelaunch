@@ -58,6 +58,7 @@ export const PAGE_PATHS: Record<string, string> = {
   'terms': '/terms',
   'methodology': '/methodology',
   'partner': '/partner',
+  'product-comparison': '/product-comparison',
   
   // Glossary terms - using kebab-case for URLs
   'rct': '/glossary/rct',

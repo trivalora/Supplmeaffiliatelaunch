@@ -1,0 +1,64 @@
+{
+  "module_name": "SupplementComparisonWidget",
+  "api_endpoint": "/api/products/",
+  "supplements": [
+    "calcium",
+    "iron",
+    "whey",
+    "ashwagandha",
+    "collagen",
+    "creatine",
+    "omega-3",
+    "vitamin-c",
+    "multivitamin",
+    "zinc",
+    "magnesium",
+    "prebiotics",
+    "probiotics",
+    "vitamin-d",
+    "bcaa",
+    "curcumin",
+    "casein"
+  ],
+  "default_supplement": "vitamin-d",
+  "default_sort": "price_per_unit",
+  "default_limit": 20,
+  "features": {
+    "search": true,
+    "filters": true,
+    "sort": [
+      "price_per_unit",
+      "price",
+      "rating",
+      "brand"
+    ],
+    "pagination": true,
+    "export": true
+  },
+  "filter_categories": {
+    "dietary": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free",
+      "organic",
+      "kosher",
+      "non_gmo"
+    ],
+    "formulation": [
+      "micronized",
+      "buffered",
+      "chelated",
+      "liposomal",
+      "sustained_release",
+      "hydrolyzed",
+      "isolate"
+    ],
+    "free_from": [
+      "soy_free",
+      "wheat_free",
+      "sugar_free",
+      "alcohol_free"
+    ]
+  }
+}

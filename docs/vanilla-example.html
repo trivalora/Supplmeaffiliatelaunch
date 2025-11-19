@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supplement Price Comparison</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .supplement-selector {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .supplement-btn {
+      background: white;
+      border: 2px solid #e5e5e5;
+      padding: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: all 0.2s;
+    }
+
+    .supplement-btn:hover {
+      border-color: #4CAF50;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .supplement-btn.active {
+      border-color: #4CAF50;
+      background: #f8fdf9;
+    }
+
+    .controls {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .controls input {
+      flex: 1;
+      min-width: 250px;
+      padding: 10px;
+      border: 2px solid #e5e5e5;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .controls select {
+      padding: 10px;
+      border: 2px solid #e5e5e5;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .product-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .product-card {
+      background: white;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 20px;
+      transition: all 0.2s;
+    }
+
+    .product-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .product-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+
+    .product-info h3 {
+      font-size: 16px;
+      margin-bottom: 6px;
+      color: #1a1a1a;
+    }
+
+    .product-meta {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .product-meta .brand {
+      color: #4CAF50;
+      font-weight: 500;
+    }
+
+    .product-pricing {
+      text-align: right;
+    }
+
+    .price-per-unit {
+      font-size: 24px;
+      font-weight: 700;
+      color: #4CAF50;
+    }
+
+    .total-price {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .product-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 12px 0;
+    }
+
+    .tag {
+      background: #f0f0f0;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      color: #666;
+    }
+
+    .buy-btn {
+      background: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 12px;
+    }
+
+    .buy-btn:hover {
+      background: #45a049;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 60px;
+      color: #666;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 60px;
+      color: #999;
+      background: white;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .product-header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .product-pricing {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔬 Compare Supplement Prices</h1>
+
+    <div class="supplement-selector" id="supplementSelector"></div>
+
+    <div id="productSection" style="display: none;">
+      <div class="controls">
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Search products, brands, retailers..."
+        />
+        <select id="sortSelect">
+          <option value="price_per_unit">Sort by: Price per Unit</option>
+          <option value="price">Sort by: Total Price</option>
+          <option value="rating">Sort by: Rating</option>
+        </select>
+        <select id="limitSelect">
+          <option value="20">Show: 20</option>
+          <option value="50">Show: 50</option>
+          <option value="100">Show: 100</option>
+        </select>
+      </div>
+
+      <div id="productList" class="product-list"></div>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">
+      Loading products...
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = '../output/step9-embeddable-module';
+    
+    const SUPPLEMENTS = [
+      { value: 'vitamin-d', label: 'Vitamin D' },
+      { value: 'vitamin-c', label: 'Vitamin C' },
+      { value: 'magnesium', label: 'Magnesium' },
+      { value: 'omega-3', label: 'Omega-3' },
+      { value: 'zinc', label: 'Zinc' },
+      { value: 'calcium', label: 'Calcium' },
+      { value: 'iron', label: 'Iron' },
+      { value: 'probiotics', label: 'Probiotics' },
+      { value: 'collagen', label: 'Collagen' },
+      { value: 'creatine', label: 'Creatine' },
+      { value: 'ashwagandha', label: 'Ashwagandha' },
+      { value: 'curcumin', label: 'Turmeric' },
+      { value: 'multivitamin', label: 'Multivitamin' },
+      { value: 'whey', label: 'Protein Powder' },
+      { value: 'prebiotics', label: 'Prebiotics' },
+      { value: 'bcaa', label: 'BCAA' },
+      { value: 'casein', label: 'Casein' }
+    ];
+
+    let currentData = null;
+    let currentSupplement = null;
+
+    // Initialize
+    function init() {
+      renderSupplementSelector();
+      attachEventListeners();
+    }
+
+    // Render supplement selector
+    function renderSupplementSelector() {
+      const container = document.getElementById('supplementSelector');
+      container.innerHTML = SUPPLEMENTS.map(s => `
+        <button 
+          class="supplement-btn" 
+          data-supplement="${s.value}"
+        >
+          ${s.label}
+        </button>
+      `).join('');
+
+      // Add click handlers
+      container.querySelectorAll('.supplement-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          loadSupplement(btn.dataset.supplement);
+        });
+      });
+    }
+
+    // Load supplement data
+    async function loadSupplement(supplement) {
+      currentSupplement = supplement;
+      
+      // Show loading
+      document.getElementById('loading').style.display = 'block';
+      document.getElementById('productSection').style.display = 'none';
+
+      try {
+        const response = await fetch(`${API_BASE}/supplements/${supplement}.json`);
+        if (!response.ok) throw new Error('Failed to load data');
+        
+        currentData = await response.json();
+        renderProducts();
+
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('productSection').style.display = 'block';
+
+        // Update active button
+        document.querySelectorAll('.supplement-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.supplement === supplement);
+        });
+      } catch (error) {
+        console.error('Error loading supplement:', error);
+        document.getElementById('loading').innerHTML = 
+          `<div style="color: #d32f2f;">Error loading data. Please try again.</div>`;
+      }
+    }
+
+    // Render products
+    function renderProducts() {
+      if (!currentData) return;
+
+      const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+      const sortBy = document.getElementById('sortSelect').value;
+      const limit = parseInt(document.getElementById('limitSelect').value);
+
+      let products = [...currentData.products];
+
+      // Filter by search
+      if (searchTerm) {
+        products = products.filter(p =>
+          p.product_name.toLowerCase().includes(searchTerm) ||
+          p.brand.toLowerCase().includes(searchTerm) ||
+          p.retailer.toLowerCase().includes(searchTerm)
+        );
+      }
+
+      // Sort
+      products.sort((a, b) => {
+        switch (sortBy) {
+          case 'price_per_unit':
+            return a.price_per_unit - b.price_per_unit;
+          case 'price':
+            return a.price - b.price;
+          case 'rating':
+            return (b.rating || 0) - (a.rating || 0);
+          default:
+            return 0;
+        }
+      });
+
+      // Limit
+      products = products.slice(0, limit);
+
+      // Render
+      const container = document.getElementById('productList');
+      
+      if (products.length === 0) {
+        container.innerHTML = '<div class="no-results">No products found</div>';
+        return;
+      }
+
+      container.innerHTML = products.map(p => `
+        <div class="product-card">
+          <div class="product-header">
+            <div class="product-info">
+              <h3>${p.product_name}</h3>
+              <div class="product-meta">
+                <span class="brand">${p.brand}</span> • 
+                <span>${p.retailer}</span>
+              </div>
+            </div>
+            <div class="product-pricing">
+              <div class="price-per-unit">$${p.price_per_unit.toFixed(4)}</div>
+              <div class="total-price">Total: $${p.price.toFixed(2)}</div>
+            </div>
+          </div>
+          
+          ${p.filters.length > 0 ? `
+            <div class="product-tags">
+              ${p.filters.slice(0, 5).map(f => {
+                const filter = currentData.filters[f];
+                return `<span class="tag">${filter?.display_name || f}</span>`;
+              }).join('')}
+              ${p.filters.length > 5 ? `<span class="tag">+${p.filters.length - 5} more</span>` : ''}
+            </div>
+          ` : ''}
+          
+          <div style="font-size: 12px; color: #999; margin-top: 8px;">
+            ${p.amount_per_serving} ${p.unit} per serving
+          </div>
+          
+          <a href="${p.product_url}" target="_blank" class="buy-btn">
+            View Product →
+          </a>
+        </div>
+      `).join('');
+    }
+
+    // Attach event listeners
+    function attachEventListeners() {
+      document.getElementById('searchInput').addEventListener('input', renderProducts);
+      document.getElementById('sortSelect').addEventListener('change', renderProducts);
+      document.getElementById('limitSelect').addEventListener('change', renderProducts);
+    }
+
+    // Start
+    init();
+  </script>
+</body>
+</html>

@@ -84,14 +84,14 @@
     },
     "scripts": {
         "dev": "vite",
-        "images": "node scripts/optimize-images.mjs",
-        "cache:remote-images": "node scripts/cache-remote-images.mjs",
-        "subset:fonts": "node scripts/subset-fonts.mjs",
+        "images": "node scripts/web-build/optimize-images.mjs",
+        "cache:remote-images": "node scripts/web-build/cache-remote-images.mjs",
+        "subset:fonts": "node scripts/web-build/subset-fonts.mjs",
         "build": "vite build",
         "build:images": "npm run images && vite build",
         "build:full": "npm run cache:remote-images && npm run subset:fonts && npm run images && vite build",
-        "postbuild": "node scripts/generate-sitemap.mjs && node scripts/build-structured-data.mjs",
-        "migrate": "node scripts/run-migrations.mjs",
-        "analyze": "npm run build:images && node scripts/report-bundle.mjs"
+        "postbuild": "node scripts/web-build/generate-sitemap.mjs && node scripts/web-build/build-structured-data.mjs",
+        "migrate": "node scripts/web-build/run-migrations.mjs",
+        "analyze": "npm run build:images && node scripts/web-build/report-bundle.mjs"
     }
 }

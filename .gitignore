@@ -15,6 +15,7 @@ iherb-cookies.json
 *.sqlite
 *.sqlite3
 data/
+data-pipeline
 
 # Scraper Scripts & Tools
 scripts/
