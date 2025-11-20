@@ -24,39 +24,57 @@ function buildUrl(baseUrl, p) {
 }
 
 /**
- * Build canonical path list from route config instead of just PAGE_PATHS.
- * Ensures we only include current (v2) supplement pages and all glossary pages.
+ * Build canonical path list from route config and PAGE_PATHS.
+ * Ensures we only include current (v2) supplement pages with clean URLs and all glossary pages.
  */
 function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) {
   const paths = new Set();
   paths.add('/');
 
-  const staticPages = ['/knowledgebase', '/glossary', '/about', '/methodology', '/privacy', '/terms', '/legal', '/cookies', '/partner'];
+  const staticPages = ['/knowledgebase', '/glossary', '/about', '/methodology', '/privacy', '/terms', '/legal', '/cookies', '/partner', '/contact', '/product-comparison'];
   staticPages.forEach(p => paths.add(p));
 
   if (KNOWLEDGEBASE_ROUTES && KNOWLEDGEBASE_ROUTES.length && PAGE_PATHS) {
-    // Prefer v2 from route config when available
+    // CRITICAL FIX: Map v2 route keys to clean URLs from PAGE_PATHS
+    // This ensures /ashwagandha instead of /ashwagandhav2
     KNOWLEDGEBASE_ROUTES.filter(r => r.category === 'v2').forEach(r => {
-      paths.add(PAGE_PATHS[r.key] || `/${r.key}`);
+      const cleanPath = PAGE_PATHS[r.key];
+      if (cleanPath) {
+        paths.add(cleanPath);
+      }
     });
   } else if (PAGE_PATHS && Object.keys(PAGE_PATHS).length) {
-    // Fallback: include any non-v1 and non-archived paths + glossary
-    Object.values(PAGE_PATHS).forEach(p => {
-      if (typeof p === 'string') {
-        // Exclude archived v1 pages (convention: ends with -v1)
-        if (p.endsWith('-v1')) return;
-        paths.add(p);
+    // Fallback when TS import fails: include v2 supplement pages and glossary pages
+    Object.entries(PAGE_PATHS).forEach(([key, path]) => {
+      if (typeof path === 'string') {
+        // Include v2 supplements (keys ending with v2 → clean URLs like /ashwagandha)
+        if (key.endsWith('v2')) {
+          paths.add(path);
+        }
+        // Include glossary pages (paths starting with /glossary/)
+        else if (path.startsWith('/glossary/')) {
+          paths.add(path);
+        }
+        // Skip v1 archived pages (URLs ending with -v1)
+        // All other static pages already added above
       }
     });
   }
 
   if (GLOSSARY_ROUTES && GLOSSARY_ROUTES.length && PAGE_PATHS) {
     GLOSSARY_ROUTES.forEach(r => {
-      paths.add(PAGE_PATHS[r.key] || `/glossary/${r.key}`);
+      const cleanPath = PAGE_PATHS[r.key];
+      if (cleanPath) {
+        paths.add(cleanPath);
+      }
     });
-  } else {
-    // Fallback: ensure top-level glossary index is present (term pages likely covered by PAGE_PATHS above)
-    paths.add('/glossary');
+  } else if (PAGE_PATHS && Object.keys(PAGE_PATHS).length) {
+    // Fallback: add all glossary paths from PAGE_PATHS
+    Object.values(PAGE_PATHS).forEach(path => {
+      if (typeof path === 'string' && path.startsWith('/glossary/')) {
+        paths.add(path);
+      }
+    });
   }
 
   return Array.from(paths).sort();
@@ -69,12 +87,19 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
   }
   const baseUrl = process.env.VITE_CANONICAL_BASE_URL || process.env.SITE_BASE_URL || 'https://www.suppl.me';
   const { routesConfig, pathMapping } = await loadConfigs();
-  if (!routesConfig && !pathMapping) {
-    console.warn('[sitemap] Could not import TS configs; falling back to PAGE_PATHS inference and static pages.');
-  }
-
+  
   const { KNOWLEDGEBASE_ROUTES = [], GLOSSARY_ROUTES = [] } = routesConfig || {};
   const { PAGE_PATHS = {} } = pathMapping || {};
+
+  // If imports failed, log warning but continue with PAGE_PATHS
+  if (!routesConfig && !pathMapping) {
+    console.warn('[sitemap] Could not import TS configs; using PAGE_PATHS from fallback.');
+  }
+  
+  // Even if route config import failed, we should have PAGE_PATHS
+  if (Object.keys(PAGE_PATHS).length === 0) {
+    console.error('[sitemap] No PAGE_PATHS available - sitemap will be incomplete!');
+  }
 
   const urls = buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS);
   const now = new Date().toISOString();

@@ -39,16 +39,20 @@ function makeLazyComponent(route: RouteConfig, pageKey: PageKey) {
     default: (mod as any)[route.componentName]
   })));
 
-  // Wrapper adds onNavigate prop if the component expects it; if not, harmless.
-  const Wrapper = () => {
+  // Wrapper component (stable reference via function, not arrow in render)
+  function ComponentWrapper() {
     const navigateRR = useNavigate();
     const onNavigate = (target: PageKey) => {
       const path = getPathForKey(target);
       navigateRR(path);
     };
     return <LazyComp onNavigate={onNavigate} />;
-  };
-  return Wrapper;
+  }
+  
+  // Set display name for debugging
+  ComponentWrapper.displayName = `Wrapper(${route.componentName})`;
+  
+  return ComponentWrapper;
 }
 
 /**

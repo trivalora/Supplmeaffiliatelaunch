@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from 'react';
+import React, { Suspense, useEffect, useMemo } from 'react';
 import { Routes, Route, useLocation, Navigate, useNavigate } from 'react-router-dom';
 import { pushPageView } from '../analytics/dataLayer';
 import { buildRoutes, RouteSEO } from './routeMap';
@@ -25,7 +25,10 @@ function Loading() {
 export function RouterLayout() {
   const location = useLocation();
   const navigate = useNavigate();
-  const routes = buildRoutes();
+  
+  // Memoize routes to prevent re-creating component instances on every render
+  // This is CRITICAL - without this, React sees new components each render and doesn't update the page
+  const routes = useMemo(() => buildRoutes(), []);
 
   // Non-canonical alias redirects (typos / singular forms)
   // These are intentionally not included in buildRoutes() so they don't appear in SEO, analytics, or sitemap.
@@ -92,13 +95,13 @@ export function RouterLayout() {
         {currentRoute && <RouteSEO route={currentRoute} />}
         <ScrollToTop />
         {!hideChrome && <Header onNavigate={handleNavigateHeader} />}
-        <Suspense fallback={<Loading />}>
-          <Routes>
+        <Suspense fallback={<Loading />} key={location.pathname}>
+          <Routes location={location}>
             {routes.map(r => (
-              <Route path={r.path} element={r.element} />
+              <Route key={r.path} path={r.path} element={r.element} />
             ))}
             {Object.entries(ALIAS_REDIRECTS).map(([from, to]) => (
-              <Route path={from} element={<Navigate to={to} replace />} />
+              <Route key={from} path={from} element={<Navigate to={to} replace />} />
             ))}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -6,7 +6,8 @@ import { fileURLToPath } from 'url';
 // Pre-generate JSON-LD files for supplement and glossary pages for static inclusion / prefetch.
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectRoot = path.join(__dirname, '..');
+// CRITICAL FIX: Project root is two levels up from scripts/web-build/
+const projectRoot = path.join(__dirname, '..', '..');
 const outDir = path.join(projectRoot, 'public', 'structured-data');
 const glossaryOutDir = path.join(outDir, 'glossary');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
@@ -123,7 +124,8 @@ async function loadKnowledgebaseRoutes() {
   } catch { }
 
   // Fallback: parse the TS file as text
-  const tsPath = path.join(projectRoot, 'src', 'routes.config.ts');
+  // CRITICAL FIX: Use projectRoot instead of __dirname/../.. for correct path resolution
+  const tsPath = path.join(projectRoot, '..', 'src', 'routes.config.ts');
   const parsed = parseRoutesArrayFromTS(tsPath, 'KNOWLEDGEBASE_ROUTES');
   const filtered = parsed
     .filter(r => r && r.category === 'v2' && r.key && r.title)
@@ -144,6 +146,7 @@ async function loadKnowledgebaseRoutes() {
   console.log('[structured-data] Wrote', v2.length, 'files to public/structured-data');
 
   // Glossary
+  // Use the correct path to routes.config.ts
   const tsPath = path.join(projectRoot, 'src', 'routes.config.ts');
   const glossaryParsed = parseRoutesArrayFromTS(tsPath, 'GLOSSARY_ROUTES').filter(r => r.key && r.title);
   if (glossaryParsed.length) {

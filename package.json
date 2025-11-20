@@ -90,7 +90,7 @@
         "build": "vite build",
         "build:images": "npm run images && vite build",
         "build:full": "npm run cache:remote-images && npm run subset:fonts && npm run images && vite build",
-        "postbuild": "node scripts/web-build/generate-sitemap.mjs && node scripts/web-build/build-structured-data.mjs",
+        "postbuild": "npx tsx scripts/web-build/generate-sitemap.mjs && npx tsx scripts/web-build/build-structured-data.mjs",
         "migrate": "node scripts/web-build/run-migrations.mjs",
         "analyze": "npm run build:images && node scripts/web-build/report-bundle.mjs"
     }
