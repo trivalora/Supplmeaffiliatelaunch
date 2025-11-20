@@ -158,6 +158,135 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     pushRoute(r, key);
   });
 
+  // Static pages (manually defined)
+  const AboutPageLazy = lazy(() => import('../components/AboutPage').then(m => ({ default: m.AboutPage })));
+  routes.push({
+    path: '/about',
+    pageKey: 'about',
+    element: <AboutPageLazy />,
+    seo: { title: 'About Us', description: 'Learn about suppl.me', canonicalPath: '/about' }
+  });
+
+  const ContactPageLazy = lazy(() => import('../components/ContactPage').then(m => ({ default: m.ContactPage })));
+  routes.push({
+    path: '/contact',
+    pageKey: 'contact',
+    element: <ContactPageLazy />,
+    seo: { title: 'Contact', description: 'Get in touch with suppl.me', canonicalPath: '/contact' }
+  });
+
+  const CookiePolicyPageLazy = lazy(() => import('../components/CookiePolicyPage').then(m => ({ default: m.CookiePolicyPage })));
+  routes.push({
+    path: '/cookies',
+    pageKey: 'cookies',
+    element: <CookiePolicyPageLazy />,
+    seo: { title: 'Cookie Policy', description: 'Our cookie usage policy', canonicalPath: '/cookies' }
+  });
+
+  const ImpressumPageLazy = lazy(() => import('../components/ImpressumPage').then(m => ({ default: m.ImpressumPage })));
+  routes.push({
+    path: '/impressum',
+    pageKey: 'impressum',
+    element: <ImpressumPageLazy />,
+    seo: { title: 'Impressum', description: 'Legal information', canonicalPath: '/impressum' }
+  });
+
+  const KnowledgebasePageLazy = lazy(() => import('../components/KnowledgebasePage').then(m => ({ default: m.KnowledgebasePage })));
+  const KnowledgebaseWrapper = () => {
+    const navigateRR = useNavigate();
+    const onNavigate = (target: PageKey) => {
+      const path = getPathForKey(target);
+      navigateRR(path);
+    };
+    return <KnowledgebasePageLazy onNavigate={onNavigate} />;
+  };
+  routes.push({
+    path: '/knowledgebase',
+    pageKey: 'knowledgebase',
+    element: <KnowledgebaseWrapper />,
+    seo: { title: 'Knowledge Base', description: 'Browse all supplements', canonicalPath: '/knowledgebase' }
+  });
+
+  const GlossaryPageLazy = lazy(() => import('../components/GlossaryPage').then(m => ({ default: m.GlossaryPage })));
+  const GlossaryWrapper = () => {
+    const navigateRR = useNavigate();
+    const onNavigate = (target: PageKey) => {
+      const path = getPathForKey(target);
+      navigateRR(path);
+    };
+    return <GlossaryPageLazy onNavigate={onNavigate} />;
+  };
+  routes.push({
+    path: '/glossary',
+    pageKey: 'glossary',
+    element: <GlossaryWrapper />,
+    seo: { title: 'Glossary', description: 'Scientific terms explained', canonicalPath: '/glossary' }
+  });
+
+  const LegalDisclaimerPageLazy = lazy(() => import('../components/LegalDisclaimerPage').then(m => ({ default: m.LegalDisclaimerPage })));
+  routes.push({
+    path: '/legal',
+    pageKey: 'legal',
+    element: <LegalDisclaimerPageLazy />,
+    seo: { title: 'Legal Disclaimer', description: 'Legal disclaimer and terms', canonicalPath: '/legal' }
+  });
+
+  const PrivacyPolicyPageLazy = lazy(() => import('../components/PrivacyPolicyPage').then(m => ({ default: m.PrivacyPolicyPage })));
+  routes.push({
+    path: '/privacy',
+    pageKey: 'privacy',
+    element: <PrivacyPolicyPageLazy />,
+    seo: { title: 'Privacy Policy', description: 'How we handle your data', canonicalPath: '/privacy' }
+  });
+
+  const TermsOfServicePageLazy = lazy(() => import('../components/TermsOfServicePage').then(m => ({ default: m.TermsOfServicePage })));
+  routes.push({
+    path: '/terms',
+    pageKey: 'terms',
+    element: <TermsOfServicePageLazy />,
+    seo: { title: 'Terms of Service', description: 'Terms and conditions', canonicalPath: '/terms' }
+  });
+
+  const MethodologyPageLazy = lazy(() => import('../components/MethodologyPage').then(m => ({ default: m.MethodologyPage })));
+  routes.push({
+    path: '/methodology',
+    pageKey: 'methodology',
+    element: <MethodologyPageLazy />,
+    seo: { title: 'Methodology', description: 'Our research methodology', canonicalPath: '/methodology' }
+  });
+
+  const PartnerPageLazy = lazy(() => import('../components/PartnerPage').then(m => ({ default: m.PartnerPage })));
+  const PartnerWrapper = () => {
+    const navigateRR = useNavigate();
+    const onNavigate = (target: PageKey) => {
+      const path = getPathForKey(target);
+      navigateRR(path);
+    };
+    return <PartnerPageLazy onNavigate={onNavigate} />;
+  };
+  routes.push({
+    path: '/partner',
+    pageKey: 'partner',
+    element: <PartnerWrapper />,
+    seo: { title: 'Partner', description: 'Partner with suppl.me', canonicalPath: '/partner' }
+  });
+
+  const ProductComparisonLazy = lazy(() => import('../components/ProductComparison').then(m => ({ default: m.ProductComparison })));
+  const ProductComparisonWrapper = () => {
+    const navigateRR = useNavigate();
+    const onNavigate = (target: PageKey) => {
+      const path = getPathForKey(target);
+      navigateRR(path);
+    };
+    return <ProductComparisonLazy onNavigate={onNavigate} />;
+  };
+  routes.push({
+    path: '/product-comparison',
+    pageKey: 'product-comparison',
+    element: <ProductComparisonWrapper />,
+    seo: { title: 'Product Comparison', description: 'Compare supplement products', canonicalPath: '/product-comparison' }
+  });
+
   return routes;
 }
 
