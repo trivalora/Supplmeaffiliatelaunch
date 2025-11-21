@@ -1,0 +1,13 @@
+{
+  "name": "supplme-affiliate-launch-preview",
+  "version": "0.2.0",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "build": "echo 'Using pre-built files from v0.2' && exit 0",
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000"
+  }
+}
