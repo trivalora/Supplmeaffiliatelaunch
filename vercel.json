@@ -3,6 +3,13 @@
   "buildCommand": "npm run build:images",
   "installCommand": "npm ci",
   "outputDirectory": "build",
+
+  "functions": {
+    "api/**/*.{ts,js}": {
+      "runtime": "nodejs24.x"
+    }
+  },
+
   "rewrites": [
     {
       "source": "/sitemap.xml",
@@ -11,6 +18,10 @@
     {
       "source": "/robots.txt",
       "destination": "/robots.txt"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
     },
     {
       "source": "/(.*)",
