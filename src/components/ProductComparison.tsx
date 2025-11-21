@@ -55,12 +55,30 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Load supplement data
+  // Load supplement data from URL params or initialSupplement
   useEffect(() => {
-    if (initialSupplement) {
-      loadSupplement(initialSupplement);
+    const urlParams = new URLSearchParams(window.location.search);
+    const supplementFromUrl = urlParams.get('supplement');
+    const supplementToLoad = supplementFromUrl || initialSupplement;
+    
+    if (supplementToLoad && supplementToLoad !== currentSupplement) {
+      loadSupplement(supplementToLoad);
     }
-  }, [initialSupplement]);
+  }, [initialSupplement, currentSupplement]);
+
+  // Watch for URL changes (for browser back/forward and external URL changes)
+  useEffect(() => {
+    const handlePopState = () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const supplementFromUrl = urlParams.get('supplement');
+      if (supplementFromUrl && supplementFromUrl !== currentSupplement) {
+        loadSupplement(supplementFromUrl);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [currentSupplement]);
 
   async function loadSupplement(supplement: string) {
     setCurrentSupplement(supplement);
@@ -231,7 +249,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
       <div className="min-h-screen bg-background">
         <Header onNavigate={onNavigate} />
         
-        <main data-layout-main>
+        <main data-layout-main style={{ paddingTop: 'var(--header-height)' }}>
           <div data-layout-container className="py-8">
             {/* Supplement Selector */}
             {!currentSupplement && (
@@ -403,25 +421,46 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                       <table className="w-full">
                         <thead className="bg-tertiary border-b border-secondary/20">
                           <tr>
+                            <th className="text-left p-4 font-medium text-sm w-24">Image</th>
+                            <th className="text-left p-4 font-medium text-sm w-32">Best Price</th>
                             <th className="text-left p-4 font-medium text-sm">Product</th>
-                            <th className="text-left p-4 font-medium text-sm">Prices & Retailers</th>
-                            <th className="text-right p-4 font-medium text-sm">Best Price/Unit</th>
+                            <th className="text-left p-4 font-medium text-sm">All Retailers</th>
                           </tr>
                         </thead>
                         <tbody>
-                          {filteredProducts.map((product, idx) => (
-                            <tr key={idx} className="border-b border-secondary/10 hover:bg-tertiary/50 transition-colors">
-                              <td className="p-4">
-                                <div className="flex items-center gap-3">
-                                  <div className="w-20 h-20 bg-tertiary rounded-lg flex items-center justify-center text-2xl shrink-0">
-                                    {product.brand?.charAt(0) || '?'}
+                          {filteredProducts.map((product, idx) => {
+                            const lowestRetailerPrice = product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit)[0];
+                            return (
+                              <tr key={idx} className="border-b border-secondary/10 hover:bg-tertiary/50 transition-colors">
+                                <td className="p-4">
+                                  <div className="w-20 h-20 bg-tertiary rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
+                                    {(product.product_image_url || lowestRetailerPrice?.image_url) ? (
+                                      <img 
+                                        src={product.product_image_url || lowestRetailerPrice?.image_url}
+                                        alt={product.dsld_product_name || 'Product'}
+                                        className="w-full h-full object-cover"
+                                        onError={(e) => {
+                                          const target = e.target as HTMLImageElement;
+                                          target.style.display = 'none';
+                                          target.parentElement!.textContent = product.brand?.charAt(0) || '?';
+                                        }}
+                                      />
+                                    ) : (
+                                      product.brand?.charAt(0) || '?'
+                                    )}
                                   </div>
-                                  <div>
-                                    <div className="font-medium mb-1">{getNormalizedProductName(product)}</div>
-                                    <div className="text-sm text-muted-foreground">{product.brand}</div>
+                                </td>
+                                <td className="p-4">
+                                  <div className="text-xl font-bold text-green-600 mb-1">${lowestRetailerPrice?.price?.toFixed(2)}</div>
+                                  <div className="text-xs text-muted-foreground">
+                                    ${lowestRetailerPrice?.price_per_unit?.toFixed(4)} per {product.unit}
                                   </div>
-                                </div>
-                              </td>
+                                  <div className="text-xs text-muted-foreground mt-1">{lowestRetailerPrice?.retailer}</div>
+                                </td>
+                                <td className="p-4">
+                                  <div className="font-medium mb-1">{getNormalizedProductName(product)}</div>
+                                  <div className="text-sm text-muted-foreground">{product.brand}</div>
+                                </td>
                               <td className="p-4">
                                 <div className="flex flex-wrap gap-3">
                                   {product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit).map((r: any, rIdx: number) => {
@@ -455,6 +494,42 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             </div>
                                             <span className="text-sm font-medium">Buy Now</span>
                                           </a>
+                                        ) : r.retailer.toLowerCase() === 'gnc' ? (
+                                          <a
+                                            href={addUTMParameters(r.product_url)}
+                                            target="_blank"
+                                            rel="nofollow noopener noreferrer"
+                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                          >
+                                            <img src="/logos/gnc.svg" alt="GNC" className="h-5 w-auto" />
+                                          </a>
+                                        ) : r.retailer.toLowerCase() === 'walmart' ? (
+                                          <a
+                                            href={addUTMParameters(r.product_url)}
+                                            target="_blank"
+                                            rel="nofollow noopener noreferrer"
+                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                          >
+                                            <img src="/logos/walmart.svg" alt="Walmart" className="h-5 w-auto" />
+                                          </a>
+                                        ) : r.retailer.toLowerCase() === 'bodybuilding.com' ? (
+                                          <a
+                                            href={addUTMParameters(r.product_url)}
+                                            target="_blank"
+                                            rel="nofollow noopener noreferrer"
+                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                          >
+                                            <img src="/logos/bodybuilding.png" alt="Bodybuilding.com" className="h-5 w-auto" />
+                                          </a>
+                                        ) : r.retailer.toLowerCase() === 'vitacost' ? (
+                                          <a
+                                            href={addUTMParameters(r.product_url)}
+                                            target="_blank"
+                                            rel="nofollow noopener noreferrer"
+                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                          >
+                                            <span className="text-sm font-medium">Vitacost</span>
+                                          </a>
                                         ) : r.retailer.toLowerCase() === 'amazon' ? (
                                           <a
                                             href={addUTMParameters(r.product_url)}
@@ -479,16 +554,9 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                   })}
                                 </div>
                               </td>
-                              <td className="p-4 text-right">
-                                <div className="text-lg font-bold text-primary">
-                                  ${product.best_price_per_unit?.toFixed(4)}
-                                </div>
-                                <div className="text-xs text-muted-foreground">
-                                  per {product.unit}
-                                </div>
-                              </td>
                             </tr>
-                          ))}
+                          );
+                          })}
                         </tbody>
                       </table>
                     </div>

@@ -8,6 +8,27 @@ interface SearchResultsProps {
   context?: 'header' | 'landing';
 }
 
+// Available supplements for product comparison (IDs match JSON filenames)
+const AVAILABLE_SUPPLEMENTS = [
+  { id: 'ashwagandha', name: 'Ashwagandha', keywords: ['ashwagandha', 'withania'] },
+  { id: 'bcaa', name: 'BCAAs', keywords: ['bcaa', 'bcaas', 'branched chain', 'amino acid'] },
+  { id: 'calcium', name: 'Calcium', keywords: ['calcium'] },
+  { id: 'casein', name: 'Casein Protein', keywords: ['casein', 'casein protein'] },
+  { id: 'collagen', name: 'Collagen Peptides', keywords: ['collagen', 'collagen peptides', 'peptides'] },
+  { id: 'creatine', name: 'Creatine', keywords: ['creatine', 'creatine monohydrate'] },
+  { id: 'curcumin', name: 'Curcumin', keywords: ['curcumin', 'turmeric'] },
+  { id: 'iron', name: 'Iron', keywords: ['iron', 'ferrous'] },
+  { id: 'magnesium', name: 'Magnesium', keywords: ['magnesium', 'mag'] },
+  { id: 'multivitamin', name: 'Multivitamin', keywords: ['multivitamin', 'multi vitamin', 'multi-vitamin'] },
+  { id: 'omega-3', name: 'Omega-3', keywords: ['omega', 'omega 3', 'omega-3', 'fish oil', 'epa', 'dha'] },
+  { id: 'prebiotics', name: 'Prebiotics', keywords: ['prebiotic', 'prebiotics'] },
+  { id: 'probiotics', name: 'Probiotics', keywords: ['probiotic', 'probiotics'] },
+  { id: 'vitamin-c', name: 'Vitamin C', keywords: ['vitamin c', 'ascorbic', 'vit c'] },
+  { id: 'vitamin-d', name: 'Vitamin D', keywords: ['vitamin d', 'vit d', 'd3', 'cholecalciferol'] },
+  { id: 'whey', name: 'Whey Protein', keywords: ['whey', 'whey protein'] },
+  { id: 'zinc', name: 'Zinc', keywords: ['zinc'] },
+];
+
 export function SearchResults({ query, onNavigate, context: _context = 'header' }: SearchResultsProps) {
   if (!query) return null;
 
@@ -27,7 +48,15 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
   // Ensure dropdown never exceeds viewport height minus a 5vh buffer, and allow scrolling within.
   const maxHeight = 'calc(95vh - 5vh)'; // effectively 90vh
 
-  if (filteredResults.length === 0) {
+  // Check if query matches any supplement for product comparison
+  const matchedSupplements = AVAILABLE_SUPPLEMENTS.filter(supp => 
+    supp.keywords.some(keyword => keyword.includes(query.toLowerCase()))
+  );
+
+  // Calculate total results including product comparisons
+  const totalResults = filteredResults.length + matchedSupplements.length;
+
+  if (totalResults === 0) {
     return (
       <div
         className="bg-card border-2 border-secondary rounded-xl shadow-lg overflow-hidden"
@@ -63,8 +92,6 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
   // Group results by category
   const knowledgebaseResults = filteredResults.filter(r => r.category === 'v2' || !r.category);
   const glossaryResults = filteredResults.filter(r => r.category === 'glossary');
-  // If the user is searching for ashwagandha, surface a compare page as a top result.
-  const showCompareAshwagandha = /ashwagandha/i.test(query)
 
   return (
     <div
@@ -79,30 +106,39 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
       <div className="overflow-y-auto" style={{ maxHeight }}>
         <div className="py-2">
           <div className="px-4 py-2 text-sm text-muted-foreground border-b border-secondary/30">
-            {filteredResults.length} result{filteredResults.length !== 1 ? 's' : ''} found
+            {totalResults} result{totalResults !== 1 ? 's' : ''} found
           </div>
 
-          {/* Quick comparison shortcut for Ashwagandha */}
-          {showCompareAshwagandha && (
-            <div
-              key="compare-ashwagandha"
-              onClick={() => {
-                trackSearchResultClick(query, 'Compare Ashwagandha prices', 1)
-                // Open the static compare page we generate in public/
-                window.open('/compare-ashwagandha.html', '_blank')
-              }}
-              className="px-4 py-3 cursor-pointer transition-all duration-200 border-b border-secondary/10 last:border-b-0 group"
-              style={{ backgroundColor: 'transparent' }}
-              onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(224, 203, 168, 0.08)'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; }}
-            >
-              <div className="font-medium text-foreground mb-1 transition-opacity duration-200 group-hover:opacity-80">
-                Compare Ashwagandha prices
+          {/* Product Comparison Category - Show at top if supplements match */}
+          {matchedSupplements.length > 0 && (
+            <>
+              <div className="px-4 py-2 text-xs uppercase tracking-wide font-medium border-b border-secondary/20" style={{ color: 'var(--header-secondary)' }}>
+                Product Comparison
               </div>
-              <div className="text-sm text-muted-foreground line-clamp-2">
-                View normalized price-per-active-unit comparisons across retailers.
-              </div>
-            </div>
+              {matchedSupplements.map((supp, idx) => (
+                <div
+                  key={`compare-${supp.id}`}
+                  onClick={() => {
+                    trackSearchResultClick(query, `Compare ${supp.name} prices`, idx + 1);
+                    // We need to navigate and let the router handle the URL
+                    // The onNavigate callback should be from React Router's navigate function
+                    // For now, we'll use window.location to ensure the parameter is passed
+                    window.location.href = `/product-comparison?supplement=${supp.id}`;
+                  }}
+                  className="px-4 py-3 cursor-pointer transition-all duration-200 border-b border-secondary/10 last:border-b-0 group"
+                  style={{ backgroundColor: 'transparent' }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(224, 203, 168, 0.08)'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; }}
+                >
+                  <div className="font-medium text-foreground mb-1 transition-opacity duration-200 group-hover:opacity-80">
+                    💰 Compare {supp.name} prices
+                  </div>
+                  <div className="text-sm text-muted-foreground line-clamp-2">
+                    View normalized price-per-unit comparisons across retailers
+                  </div>
+                </div>
+              ))}
+            </>
           )}
 
           {/* Knowledgebase results */}

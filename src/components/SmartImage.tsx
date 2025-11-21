@@ -99,44 +99,38 @@ export function SmartImage({
     // Assume square-ish or 4:5 typical supplement bottle; use height heuristic.
     const intrinsicHeight = addIntrinsic ? Math.round(widthHint * 1.2) : undefined;
 
-    if (manifestEntry) {
-        // Build AVIF and WebP srcsets from local optimized files
-        const avifSet = manifestEntry.widths.map(w => `/optimized/remote/${manifestEntry.hash}-${w}.avif ${w}w`).join(', ');
-        const webpSet = manifestEntry.widths.map(w => `/optimized/remote/${manifestEntry.hash}-${w}.webp ${w}w`).join(', ');
-        const fallbackSrc = `/optimized/remote/${manifestEntry.hash}-${manifestEntry.widths[0]}.webp`;
-        return (
-            <picture className={className} style={style}>
-                <source type="image/avif" srcSet={avifSet} sizes={sizes} />
-                <source type="image/webp" srcSet={webpSet} sizes={sizes} />
-                <img
-                    src={fallbackSrc}
-                    alt={alt}
-                    loading={loading}
-                    decoding={decoding}
-                    fetchPriority={fetchPriority}
-                    draggable={draggable}
-                    width={intrinsicWidth}
-                    height={intrinsicHeight}
-                    style={{ width: '100%', height: 'auto' }}
-                />
-            </picture>
-        );
-    }
+    // UNIFIED RENDERING: Always use picture element for consistent DOM structure
+    // Prevents layout shifts when manifest updates (cached vs uncached)
+    
+    const useCachedImages = !!manifestEntry;
+    const avifSet = useCachedImages 
+        ? manifestEntry.widths.map(w => `/optimized/remote/${manifestEntry.hash}-${w}.avif ${w}w`).join(', ')
+        : undefined;
+    const webpSet = useCachedImages
+        ? manifestEntry.widths.map(w => `/optimized/remote/${manifestEntry.hash}-${w}.webp ${w}w`).join(', ')
+        : undefined;
+    const imgSrc = useCachedImages
+        ? `/optimized/remote/${manifestEntry.hash}-${manifestEntry.widths[0]}.webp`
+        : normalized;
+    const imgSrcSet = useCachedImages ? undefined : srcSet;
+    const imgSizes = useCachedImages ? sizes : (srcSet ? sizes : undefined);
 
     return (
-        <img
-            src={normalized}
-            srcSet={srcSet}
-            sizes={srcSet ? sizes : undefined}
-            alt={alt}
-            className={className}
-            style={style}
-            loading={loading}
-            decoding={decoding}
-            fetchPriority={fetchPriority}
-            draggable={draggable}
-            width={intrinsicWidth}
-            height={intrinsicHeight}
-        />
+        <picture style={{ display: 'block' }}>
+            {avifSet && <source type="image/avif" srcSet={avifSet} sizes={imgSizes} />}
+            {webpSet && <source type="image/webp" srcSet={webpSet} sizes={imgSizes} />}
+            <img
+                src={imgSrc}
+                srcSet={imgSrcSet}
+                sizes={imgSizes}
+                alt={alt}
+                loading={loading}
+                decoding={decoding}
+                fetchPriority={fetchPriority}
+                draggable={draggable}
+                style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', ...style }}
+                className={className}
+            />
+        </picture>
     );
 }

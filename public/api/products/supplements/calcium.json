@@ -3524,6 +3524,7 @@
       "brand": "vitafusion",
       "dsld_product_name": "Calcium 500 mg",
       "dsld_brand": "vitafusion",
+      "product_image_url": "",
       "best_price_per_unit": 0.002398,
       "best_total_price": 11.99,
       "unit": "mg",
@@ -3536,6 +3537,7 @@
           "price_per_unit": 0.002398,
           "product_url": "https://www.vitacost.com/vitafusion-calcium",
           "product_name": "Vitafusion Calcium Fruit & Cream -- 500 mg - 100 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3545,6 +3547,7 @@
           "price_per_unit": 0.002624,
           "product_url": "https://www.iherb.com/pr/vitafusion-calcium-gummies-fruit-cream-100-gummies/71433",
           "product_name": "VitaFusion, Calcium Gummies, Fruit & Cream, 100 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3565,6 +3568,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Calcium 500",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.00467,
       "best_total_price": 4.67,
       "unit": "mg",
@@ -3577,6 +3581,7 @@
           "price_per_unit": 0.00467,
           "product_url": "https://www.iherb.com/pr/21st-century-calcium-500-d3-15-mcg-600-iu-90-tablets/52827",
           "product_name": "21st Century, Calcium 500 + D3, 15 mcg (600 IU), 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3593,6 +3598,7 @@
       "brand": "Absolute Nutrition",
       "dsld_product_name": "Calcium D3 Gummies Grape Flavored",
       "dsld_brand": "Absolute Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.005045,
       "best_total_price": 20.18,
       "unit": "mg",
@@ -3605,6 +3611,7 @@
           "price_per_unit": 0.005045,
           "product_url": "https://www.iherb.com/pr/absolute-nutrition-calcium-d3-gummies-grape-60-gummies/130077",
           "product_name": "Absolute Nutrition, Calcium D3 Gummies, Grape, 60 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3621,6 +3628,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Calcium Magnesium Zinc + D3",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.00549,
       "best_total_price": 5.49,
       "unit": "mg",
@@ -3633,6 +3641,7 @@
           "price_per_unit": 0.00549,
           "product_url": "https://www.iherb.com/pr/21st-century-calcium-magnesium-zinc-d3-90-tablets/10695",
           "product_name": "21st Century, Calcium Magnesium Zinc + D3, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3651,6 +3660,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Chewable Calcium 500 mg Wafer",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.005645,
       "best_total_price": 11.29,
       "unit": "mg",
@@ -3663,6 +3673,7 @@
           "price_per_unit": 0.005645,
           "product_url": "https://www.vitacost.com/solgar-chewable-calcium-500-mg-120-wafers",
           "product_name": "Solgar Chewable Calcium -- 500 mg - 120 Wafers",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3684,6 +3695,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Calcium Supplement 600",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.007066666666666667,
       "best_total_price": 4.24,
       "unit": "mg",
@@ -3696,6 +3708,7 @@
           "price_per_unit": 0.007066666666666667,
           "product_url": "https://www.iherb.com/pr/21st-century-calcium-supplement-600-75-tablets-600-mg-per-tablet/59330",
           "product_name": "21st Century, Calcium Supplement 600, 75 Tablets (600 mg per Tablet)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3715,6 +3728,7 @@
       "brand": "21st Century",
       "dsld_product_name": "600+D3",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.007066666666666667,
       "best_total_price": 4.24,
       "unit": "mg",
@@ -3727,6 +3741,7 @@
           "price_per_unit": 0.007066666666666667,
           "product_url": "https://www.iherb.com/pr/21st-century-600-d3-calcium-vitamin-d3-supplement-75-tablets/55896",
           "product_name": "21st Century, 600+D3, Calcium & Vitamin D3 Supplement, 75 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3745,6 +3760,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Magnesium plus Zinc",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.00899,
       "best_total_price": 8.99,
       "unit": "mg",
@@ -3757,6 +3773,7 @@
           "price_per_unit": 0.00899,
           "product_url": "https://www.vitacost.com/solgar-calcium-magnesium-plus-zinc-100-tablets",
           "product_name": "Solgar Calcium Magnesium plus Zinc -- 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3766,6 +3783,7 @@
           "price_per_unit": 0.00974,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-magnesium-plus-zinc-100-tablets/126699",
           "product_name": "Solgar, Calcium Magnesium Plus Zinc, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3787,6 +3805,7 @@
       "brand": "Viactiv",
       "dsld_product_name": "Calcium plus D Milk Chocolate",
       "dsld_brand": "Viactiv",
+      "product_image_url": "",
       "best_price_per_unit": 0.00949,
       "best_total_price": 9.49,
       "unit": "mg",
@@ -3799,6 +3818,7 @@
           "price_per_unit": 0.00949,
           "product_url": "https://www.vitacost.com/viactiv-calcium-plus-d-milk-chocolate-60-soft-chews-1",
           "product_name": "Viactiv Calcium Plus D Milk Chocolate -- 60 Soft Chews",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3817,6 +3837,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Calcium 600 mg + Vitamin D3",
       "dsld_brand": "Mason Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.009766666666666667,
       "best_total_price": 5.86,
       "unit": "mg",
@@ -3829,6 +3850,7 @@
           "price_per_unit": 0.009766666666666667,
           "product_url": "https://www.iherb.com/pr/mason-natural-calcium-600-vitamin-d3-100-tablets/121818",
           "product_name": "Mason Natural, Calcium 600 + Vitamin D3, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3849,6 +3871,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Calcium Citrate with Vitamin D-3",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.009789999999999998,
       "best_total_price": 9.79,
       "unit": "mg",
@@ -3861,6 +3884,7 @@
           "price_per_unit": 0.009789999999999998,
           "product_url": "https://www.vitacost.com/solaray-calcium-citrate-with-vitamin-d-3-90-capsules",
           "product_name": "Solaray Calcium Citrate with Vitamin D-3 -- 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3870,6 +3894,7 @@
           "price_per_unit": 0.01849,
           "product_url": "https://www.iherb.com/pr/solaray-calcium-citrate-with-vitamin-d-3-180-capsules/70101",
           "product_name": "Solaray, Calcium Citrate with Vitamin D-3, 180 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3886,6 +3911,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Calcium Citrate 1000 mg with Vitamin D",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.009789999999999998,
       "best_total_price": 9.79,
       "unit": "mg",
@@ -3898,6 +3924,7 @@
           "price_per_unit": 0.009789999999999998,
           "product_url": "https://www.iherb.com/pr/solaray-calcium-citrate-with-vitamin-d-3-1-000-mg-90-capsules-250-mg-per-capsule/123842",
           "product_name": "Solaray, Calcium Citrate with Vitamin D-3, 1,000 mg, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3907,6 +3934,7 @@
           "price_per_unit": 0.022690000000000002,
           "product_url": "https://www.vitacost.com/solaray-calcium-citrate-with-vitamin-d-3-1000-mg-240-capsules",
           "product_name": "Solaray Calcium Citrate with Vitamin D-3 -- 1000 mg - 240...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3923,6 +3951,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Calcium Magnesium Zinc",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.01009,
       "best_total_price": 10.09,
       "unit": "mg",
@@ -3935,6 +3964,7 @@
           "price_per_unit": 0.01009,
           "product_url": "https://www.vitacost.com/solaray-calcium-magnesium-90-vegcaps",
           "product_name": "Solaray Calcium Magnesium -- 90 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3944,6 +3974,7 @@
           "price_per_unit": 0.02549,
           "product_url": "https://www.iherb.com/pr/solaray-calcium-magnesium-zinc-250-vegcaps/30063",
           "product_name": "Solaray, Calcium Magnesium Zinc, 250 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3960,6 +3991,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Bone Strength Take Care",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.010183333333333334,
       "best_total_price": 24.44,
       "unit": "mg",
@@ -3972,6 +4004,7 @@
           "price_per_unit": 0.010183333333333334,
           "product_url": "https://www.iherb.com/pr/new-chapter-plant-calcium-bone-strength-take-care-120-vegetarian-tiny-tablets/119890",
           "product_name": "New Chapter, Plant Calcium, Bone Strength Take Care, 120 Vegetarian Tiny Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3990,6 +4023,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Calcium Citrate +D3 Maximum",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.010301587301587301,
       "best_total_price": 6.49,
       "unit": "mg",
@@ -4002,6 +4036,7 @@
           "price_per_unit": 0.010301587301587301,
           "product_url": "https://www.iherb.com/pr/21st-century-calcium-citrate-d3-maximum-75-tablets/51901",
           "product_name": "21st Century, Calcium Citrate + D3 Maximum, 75 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4020,6 +4055,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Magnesium Citrate",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.01059,
       "best_total_price": 10.59,
       "unit": "mg",
@@ -4032,6 +4068,7 @@
           "price_per_unit": 0.01059,
           "product_url": "https://www.vitacost.com/solgar-calcium-magnesium-citrate-liquid-with-vitamin-d3",
           "product_name": "Solgar Calcium Magnesium Citrate Liquid with Vitamin D3 S...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4051,6 +4088,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Calcium 600 mg",
       "dsld_brand": "Nature Made",
+      "product_image_url": "",
       "best_price_per_unit": 0.010816666666666667,
       "best_total_price": 6.49,
       "unit": "mg",
@@ -4063,6 +4101,7 @@
           "price_per_unit": 0.010816666666666667,
           "product_url": "https://www.vitacost.com/nature-made-calcium-plus-vitamin-d3",
           "product_name": "Nature Made Calcium Plus Vitamin D3 -- 600 mg - 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4079,6 +4118,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Calcium 500",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.01099,
       "best_total_price": 10.99,
       "unit": "mg",
@@ -4091,6 +4131,7 @@
           "price_per_unit": 0.01099,
           "product_url": "https://www.iherb.com/pr/21st-century-calcium-500-d3-400-tablets/52829",
           "product_name": "21st Century, Calcium 500 + D3, 400 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4107,6 +4148,7 @@
       "brand": "KAL",
       "dsld_product_name": "Calcium Citrate 1000",
       "dsld_brand": "KAL",
+      "product_image_url": "",
       "best_price_per_unit": 0.01129,
       "best_total_price": 11.29,
       "unit": "mg",
@@ -4119,6 +4161,7 @@
           "price_per_unit": 0.01129,
           "product_url": "https://www.iherb.com/pr/kal-calcium-citrate-d-3-90-tablets/123545",
           "product_name": "KAL, Calcium Citrate D-3, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4137,6 +4180,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Citrate with Vitamin D3",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.01139,
       "best_total_price": 11.39,
       "unit": "mg",
@@ -4149,6 +4193,7 @@
           "price_per_unit": 0.01139,
           "product_url": "https://www.vitacost.com/solgar-calcium-citrate-with-vitamin-d3-120-tablets",
           "product_name": "Solgar Calcium Citrate with Vitamin D3 -- 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4158,6 +4203,7 @@
           "price_per_unit": 0.012289999999999999,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-citrate-with-vitamin-d3-120-tablets/126696",
           "product_name": "Solgar, Calcium Citrate with Vitamin D3, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4178,6 +4224,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Liquid Calcium Magnesium Citrate with Vitamin D3 Natural Blueberry Flavor",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.01142,
       "best_total_price": 11.42,
       "unit": "mg",
@@ -4190,6 +4237,7 @@
           "price_per_unit": 0.01142,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-magnesium-citrate-liquid-with-vitamin-d3-blueberry-16-fl-oz-473-ml/36212",
           "product_name": "Solgar, Calcium Magnesium Citrate Liquid with Vitamin D3, Blueberry, 16 fl oz (473 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4208,6 +4256,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Liquid Calcium Magnesium Citrate with Vitamin D3 Natural Strawberry Flavor",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.01142,
       "best_total_price": 11.42,
       "unit": "mg",
@@ -4220,6 +4269,7 @@
           "price_per_unit": 0.01142,
           "product_url": "https://www.iherb.com/pr/solgar-liquid-calcium-magnesium-citrate-with-vitamin-d3-strawberry-16-fl-oz-473-ml/36214",
           "product_name": "Solgar, Liquid Calcium Magnesium Citrate with Vitamin D3, Strawberry, 16 fl oz (473 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4238,6 +4288,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Liquid Calcium Magnesium Citrate with Vitamin D3 Natural Orange-Vanilla Flavor",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.01142,
       "best_total_price": 11.42,
       "unit": "mg",
@@ -4250,6 +4301,7 @@
           "price_per_unit": 0.01142,
           "product_url": "https://www.iherb.com/pr/solgar-liquid-calcium-magnesium-citrate-with-vitamin-d3-orange-vanilla-16-fl-oz-473-ml/36213",
           "product_name": "Solgar, Liquid Calcium Magnesium Citrate with Vitamin D3, Orange-Vanilla, 16 fl oz (473 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4268,6 +4320,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Calcium Magnesium",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 0.01158,
       "best_total_price": 5.79,
       "unit": "mg",
@@ -4280,6 +4333,7 @@
           "price_per_unit": 0.01158,
           "product_url": "https://www.vitacost.com/natures-bounty-calcium-magnesium-zinc",
           "product_name": "Nature's Bounty Calcium Magnesium Zinc -- 100 Caplets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4289,6 +4343,7 @@
           "price_per_unit": 0.01168,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-calcium-magnesium-zinc-with-vitamin-d3-100-coated-caplets/32229",
           "product_name": "Nature's Bounty, Calcium Magnesium Zinc with Vitamin D3, 100 Coated Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4316,6 +4371,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Magnesium Citrate",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.011789999999999998,
       "best_total_price": 11.79,
       "unit": "mg",
@@ -4328,6 +4384,7 @@
           "price_per_unit": 0.011789999999999998,
           "product_url": "https://www.vitacost.com/solgar-calcium-magnesium-citrate-100-tablets",
           "product_name": "Solgar Calcium Magnesium Citrate -- 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4337,6 +4394,7 @@
           "price_per_unit": 0.01184,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-magnesium-citrate-100-tablets/126698",
           "product_name": "Solgar, Calcium Magnesium Citrate, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4358,6 +4416,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Magnesium Citrate",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.01199,
       "best_total_price": 11.99,
       "unit": "mg",
@@ -4370,6 +4429,7 @@
           "price_per_unit": 0.01199,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-magnesium-citrate-250-tablets/9247",
           "product_name": "Solgar, Calcium Magnesium Citrate, 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4379,6 +4439,7 @@
           "price_per_unit": 0.02139,
           "product_url": "https://www.vitacost.com/solgar-calcium-magnesium-citrate",
           "product_name": "Solgar Calcium Magnesium Citrate -- 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4400,6 +4461,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "Children's Liquid Calcium with Magnesium Orange",
       "dsld_brand": "California Gold Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.01219,
       "best_total_price": 12.19,
       "unit": "mg",
@@ -4412,6 +4474,7 @@
           "price_per_unit": 0.01219,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-children-s-liquid-calcium-with-magnesium-vitamin-d-and-zinc-16-fl-oz-473-ml/108257",
           "product_name": "California Gold Nutrition, Children's Liquid Calcium with Magnesium, Vitamin D and Zinc, 16 fl oz (473 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4428,6 +4491,7 @@
       "brand": "Nature's Truth",
       "dsld_product_name": "Calcium 1200 mg plus D3 5000 IU",
       "dsld_brand": "Nature's Truth",
+      "product_image_url": "",
       "best_price_per_unit": 0.012491666666666667,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -4440,6 +4504,7 @@
           "price_per_unit": 0.012491666666666667,
           "product_url": "https://www.vitacost.com/natures-truth-absorbable-calcium-1200-mg-plus-d3-5000-iu",
           "product_name": "Nature's Truth Absorbable Calcium 1200 MG plus D3 5000 IU...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4458,6 +4523,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Calcium Magnesium Zinc",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.01269,
       "best_total_price": 12.69,
       "unit": "mg",
@@ -4470,6 +4536,7 @@
           "price_per_unit": 0.01269,
           "product_url": "https://www.vitacost.com/solaray-calcium-magnesium-zinc-100-vegcaps",
           "product_name": "Solaray Calcium Magnesium Zinc -- 100 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4479,6 +4546,7 @@
           "price_per_unit": 0.01269,
           "product_url": "https://www.iherb.com/pr/solaray-calcium-magnesium-zinc-100-vegcaps/105947",
           "product_name": "Solaray, Calcium Magnesium Zinc, 100 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4495,6 +4563,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Magnesium with Vitamin D3",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.01319,
       "best_total_price": 13.19,
       "unit": "mg",
@@ -4507,6 +4576,7 @@
           "price_per_unit": 0.01319,
           "product_url": "https://www.vitacost.com/solgar-calcium-magnesium-with-vitamin-d3",
           "product_name": "Solgar Calcium Magnesium with Vitamin D3 -- 150 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4526,6 +4596,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Calcium Citrate +D3 Maximum",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.013476190476190477,
       "best_total_price": 8.49,
       "unit": "mg",
@@ -4538,6 +4609,7 @@
           "price_per_unit": 0.013476190476190477,
           "product_url": "https://www.iherb.com/pr/21st-century-calcium-citrate-maximum-d3-120-tablets/52821",
           "product_name": "21st Century, Calcium Citrate Maximum + D3, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4556,6 +4628,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Calcium 1200 mg Plus 25 mcg (1000 IU) Vitamin D3",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 0.013633333333333332,
       "best_total_price": 16.36,
       "unit": "mg",
@@ -4568,6 +4641,7 @@
           "price_per_unit": 0.013633333333333332,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-calcium-plus-vitamin-d3-120-softgels/67789",
           "product_name": "Nature's Bounty, Calcium Plus Vitamin D3, 120 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4595,6 +4669,7 @@
       "brand": "The Vitamin shoppe",
       "dsld_product_name": "Calcium 1000 1000 mg",
       "dsld_brand": "The Vitamin Shoppe",
+      "product_image_url": "",
       "best_price_per_unit": 0.01399,
       "best_total_price": 13.99,
       "unit": "mg",
@@ -4607,6 +4682,7 @@
           "price_per_unit": 0.01399,
           "product_url": "https://www.iherb.com/pr/the-vitamin-shoppe-calcium-1000-100-softgels/139829",
           "product_name": "The Vitamin Shoppe, Calcium 1000, 100 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4627,6 +4703,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Target-Mins Calcium Magnesium Complex With Vitamin D3",
       "dsld_brand": "Country Life",
+      "product_image_url": "",
       "best_price_per_unit": 0.014240000000000001,
       "best_total_price": 14.24,
       "unit": "mg",
@@ -4639,6 +4716,7 @@
           "price_per_unit": 0.014240000000000001,
           "product_url": "https://www.vitacost.com/country-life-calcium-magnesium-complex-90-tablets",
           "product_name": "Country Life Calcium-Magnesium Complex -- 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4662,6 +4740,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Calcium Magnesium & Zinc",
       "dsld_brand": "Mason Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.014281437125748501,
       "best_total_price": 4.77,
       "unit": "mg",
@@ -4674,6 +4753,7 @@
           "price_per_unit": 0.014281437125748501,
           "product_url": "https://www.iherb.com/pr/mason-natural-calcium-magnesium-zinc-100-tablets/81385",
           "product_name": "Mason Natural, Calcium Magnesium & Zinc, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4683,6 +4763,7 @@
           "price_per_unit": 0.017335329341317367,
           "product_url": "https://www.vitacost.com/mason-natural-calcium-magnesium-zinc-supports-bone-health",
           "product_name": "Mason Natural Calcium Magnesium & Zinc Supports Bone Heal...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4701,6 +4782,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Coral Calcium Powder",
       "dsld_brand": "Source Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.014785714285714286,
       "best_total_price": 6.21,
       "unit": "mg",
@@ -4713,6 +4795,7 @@
           "price_per_unit": 0.014785714285714286,
           "product_url": "https://www.iherb.com/pr/source-naturals-coral-calcium-powder-2-oz-56-7-g/1158",
           "product_name": "Source Naturals, Coral Calcium Powder, 2 oz (56.7 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4722,6 +4805,7 @@
           "price_per_unit": 0.024976190476190478,
           "product_url": "https://www.vitacost.com/source-naturals-coral-calcium-powder-4-oz",
           "product_name": "Source Naturals Coral Calcium Powder -- 4 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4741,6 +4825,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Calcium Citrate 1000 mg",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.01479,
       "best_total_price": 14.79,
       "unit": "mg",
@@ -4753,6 +4838,7 @@
           "price_per_unit": 0.01479,
           "product_url": "https://www.vitacost.com/solaray-calcium-citrate",
           "product_name": "Solaray Calcium Citrate -- 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4769,6 +4855,7 @@
       "brand": "Christopher's Original Formulas",
       "dsld_product_name": "Herbal Calcium Formula",
       "dsld_brand": "Christopher's Original Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 0.0159,
       "best_total_price": 12.72,
       "unit": "mg",
@@ -4781,6 +4868,7 @@
           "price_per_unit": 0.0159,
           "product_url": "https://www.iherb.com/pr/christopher-s-original-formulas-herbal-calcium-formula-375-mg-100-vegetarian-caps/14227",
           "product_name": "Christopher's Original Formulas, Herbal Calcium Formula, 375 mg, 100 Vegetarian Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4797,6 +4885,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Coral Calcium 1000 mg",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.01599,
       "best_total_price": 15.99,
       "unit": "mg",
@@ -4809,6 +4898,7 @@
           "price_per_unit": 0.01599,
           "product_url": "https://www.iherb.com/pr/21st-century-coral-calcium-120-capsules/10041",
           "product_name": "21st Century, Coral Calcium, 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4825,6 +4915,7 @@
       "brand": "Best Naturals",
       "dsld_product_name": "Calcium Citrate",
       "dsld_brand": "Best Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.016128571428571426,
       "best_total_price": 11.29,
       "unit": "mg",
@@ -4837,6 +4928,7 @@
           "price_per_unit": 0.016128571428571426,
           "product_url": "https://www.vitacost.com/best-naturals-calcium-citrate-with-vitamin-d3",
           "product_name": "Best Naturals Calcium Citrate with Vitamin D3 -- 240 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4866,6 +4958,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Magnesium plus Zinc",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.0166,
       "best_total_price": 16.6,
       "unit": "mg",
@@ -4878,6 +4971,7 @@
           "price_per_unit": 0.0166,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-magnesium-plus-zinc-250-tablets/8693",
           "product_name": "Solgar, Calcium Magnesium Plus Zinc, 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4887,6 +4981,7 @@
           "price_per_unit": 0.01759,
           "product_url": "https://www.vitacost.com/solgar-calcium-magnesium-plus-zinc",
           "product_name": "Solgar Calcium Magnesium plus Zinc -- 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4908,6 +5003,7 @@
       "brand": "Best Naturals",
       "dsld_product_name": "Calcium Carbonate Pure Powder",
       "dsld_brand": "Best Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.01665,
       "best_total_price": 9.99,
       "unit": "mg",
@@ -4920,6 +5016,7 @@
           "price_per_unit": 0.01665,
           "product_url": "https://www.vitacost.com/best-naturals-calcium-carbonate-powder",
           "product_name": "Best Naturals Calcium Carbonate Powder -- 1 lb",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4948,6 +5045,7 @@
       "brand": "The Vitamin shoppe",
       "dsld_product_name": "Calcium 1200 With Vitamin D3",
       "dsld_brand": "The Vitamin Shoppe",
+      "product_image_url": "",
       "best_price_per_unit": 0.01665833333333333,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -4960,6 +5058,7 @@
           "price_per_unit": 0.01665833333333333,
           "product_url": "https://www.iherb.com/pr/the-vitamin-shoppe-calcium-1200-with-vitamin-d3-120-softgels/140937",
           "product_name": "The Vitamin Shoppe, Calcium 1200 with Vitamin D3, 120 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4980,6 +5079,7 @@
       "brand": "GNC",
       "dsld_product_name": "Calcium Plus 1000 mg",
       "dsld_brand": "GNC",
+      "product_image_url": "",
       "best_price_per_unit": 0.016989999999999998,
       "best_total_price": 16.99,
       "unit": "mg",
@@ -4992,6 +5092,7 @@
           "price_per_unit": 0.016989999999999998,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=066224&source=productlist",
           "product_name": "GNC\nCalcium Plus\u00ae Magnesium & Vitamin D-3 1000 mg - 180 Caplets (60 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5014,6 +5115,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Calcium 500 mg",
       "dsld_brand": "Nature Made",
+      "product_image_url": "",
       "best_price_per_unit": 0.01718,
       "best_total_price": 8.59,
       "unit": "mg",
@@ -5026,6 +5128,7 @@
           "price_per_unit": 0.01718,
           "product_url": "https://www.vitacost.com/nature-made-calcium-with-d3",
           "product_name": "Nature Made Calcium with D3 -- 500 mg - 130 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5035,6 +5138,7 @@
           "price_per_unit": 0.02158,
           "product_url": "https://www.iherb.com/pr/nature-made-calcium-with-d3-130-tablets/145559",
           "product_name": "Nature Made, Calcium with D3, 130 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5051,6 +5155,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Calcium Magnesium 2:1 Ratio",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.01729,
       "best_total_price": 17.29,
       "unit": "mg",
@@ -5063,6 +5168,7 @@
           "price_per_unit": 0.01729,
           "product_url": "https://www.vitacost.com/solaray-calcium-and-magnesium-2-1-ratio",
           "product_name": "Solaray Calcium and Magnesium 2:1 Ratio -- 180 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5072,6 +5178,7 @@
           "price_per_unit": 0.01729,
           "product_url": "https://www.iherb.com/pr/solaray-calcium-magnesium-2-1-ratio-180-vegcaps/70065",
           "product_name": "Solaray, Calcium Magnesium 2:1 Ratio, 180 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5088,6 +5195,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium Citrate",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.017333333333333333,
       "best_total_price": 10.4,
       "unit": "mg",
@@ -5100,6 +5208,7 @@
           "price_per_unit": 0.017333333333333333,
           "product_url": "https://www.iherb.com/pr/now-foods-calcium-citrate-pure-powder-8-oz-227-g/481",
           "product_name": "NOW Foods, Calcium Citrate, Pure Powder, 8 oz (227 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5120,6 +5229,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Calcium Citrate Chewables 1000 mg Natural Orange Flavor",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.01779,
       "best_total_price": 17.79,
       "unit": "mg",
@@ -5132,6 +5242,7 @@
           "price_per_unit": 0.01779,
           "product_url": "https://www.iherb.com/pr/solaray-calcium-citrate-chewables-natural-orange-60-chewables/105948",
           "product_name": "Solaray, Calcium Citrate Chewables, Natural Orange, 60 Chewable Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5148,6 +5259,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium Citrate",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.01798333333333333,
       "best_total_price": 10.79,
       "unit": "mg",
@@ -5160,6 +5272,7 @@
           "price_per_unit": 0.01798333333333333,
           "product_url": "https://www.vitacost.com/now-calcium-citrate-100-tablets",
           "product_name": "NOW Calcium Citrate -- 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5169,6 +5282,7 @@
           "price_per_unit": 0.019383333333333336,
           "product_url": "https://www.iherb.com/pr/now-foods-calcium-citrate-100-tablets/120064",
           "product_name": "NOW Foods, Calcium Citrate, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5189,6 +5303,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium '600' from Oyster Shell with Vitamin D3",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.018016666666666667,
       "best_total_price": 21.62,
       "unit": "mg",
@@ -5201,6 +5316,7 @@
           "price_per_unit": 0.018016666666666667,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-600-from-oyster-shell-with-vitamin-d3-240-tablets/10697",
           "product_name": "Solgar, Calcium \"600\" from Oyster Shell with Vitamin D3, 240 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5220,6 +5336,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Calcium Citrate Plus Vitamin D3",
       "dsld_brand": "Mason Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.01834920634920635,
       "best_total_price": 5.78,
       "unit": "mg",
@@ -5232,6 +5349,7 @@
           "price_per_unit": 0.01834920634920635,
           "product_url": "https://www.iherb.com/pr/mason-natural-calcium-citrate-plus-vitamin-d3-60-caplets/81368",
           "product_name": "Mason Natural, Calcium Citrate Plus Vitamin D3, 60 Caplets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5251,6 +5369,7 @@
       "brand": "NOW",
       "dsld_product_name": "Magnesium & Calcium",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.018475,
       "best_total_price": 7.39,
       "unit": "mg",
@@ -5263,6 +5382,7 @@
           "price_per_unit": 0.018475,
           "product_url": "https://www.vitacost.com/now-calcium-magnesium-100-tablets",
           "product_name": "NOW Calcium & Magnesium -- 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5272,6 +5392,7 @@
           "price_per_unit": 0.019875,
           "product_url": "https://www.iherb.com/pr/now-foods-calcium-magnesium-100-tablets/116702",
           "product_name": "NOW Foods, Calcium & Magnesium, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5290,6 +5411,7 @@
       "brand": "KAL",
       "dsld_product_name": "Calcium Citrate 1000",
       "dsld_brand": "KAL",
+      "product_image_url": "",
       "best_price_per_unit": 0.01849,
       "best_total_price": 18.49,
       "unit": "mg",
@@ -5302,6 +5424,7 @@
           "price_per_unit": 0.01849,
           "product_url": "https://www.vitacost.com/kal-calcium-citrate-1000-180-tablets",
           "product_name": "Kal Calcium Citrate 1000 -- 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5311,6 +5434,7 @@
           "price_per_unit": 0.01849,
           "product_url": "https://www.iherb.com/pr/kal-calcium-citrate-1000-180-tablets-333-mg-per-tablet/22555",
           "product_name": "KAL, Calcium Citrate 1000, 180 Tablets (333 mg per Tablet)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5329,6 +5453,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Calcium Magnesium Zinc",
       "dsld_brand": "Country Life",
+      "product_image_url": "",
       "best_price_per_unit": 0.019190000000000002,
       "best_total_price": 19.19,
       "unit": "mg",
@@ -5341,6 +5466,7 @@
           "price_per_unit": 0.019190000000000002,
           "product_url": "https://www.vitacost.com/country-life-calcium-magnesium-zinc-with-l-glutamic-acid",
           "product_name": "Country Life Calcium Magnesium Zinc with L-Glutamic Acid ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5350,6 +5476,7 @@
           "price_per_unit": 0.02009,
           "product_url": "https://www.iherb.com/pr/country-life-target-mins-calcium-magnesium-zinc-with-vitamin-d-180-tablets/15469",
           "product_name": "Country Life, Target-Mins, Calcium Magnesium Zinc with Vitamin D, 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5373,6 +5500,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Calcium 1000 mg Magnesium 500 mg Zinc 50 mg with L-Glutamic Acid",
       "dsld_brand": "Country Life",
+      "product_image_url": "",
       "best_price_per_unit": 0.019190000000000002,
       "best_total_price": 19.19,
       "unit": "mg",
@@ -5385,6 +5513,7 @@
           "price_per_unit": 0.019190000000000002,
           "product_url": "https://www.iherb.com/pr/country-life-calcium-magnesium-zinc-250-tablets/1625",
           "product_name": "Country Life, Calcium Magnesium Zinc, 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5403,6 +5532,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Citrate with Vitamin D3",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.019989999999999997,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -5415,6 +5545,7 @@
           "price_per_unit": 0.019989999999999997,
           "product_url": "https://www.vitacost.com/solgar-calcium-citrate-with-vitamin-d3",
           "product_name": "Solgar Calcium Citrate with Vitamin D3 -- 240 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5424,6 +5555,7 @@
           "price_per_unit": 0.02085,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-citrate-with-vitamin-d3-240-tablets/12146",
           "product_name": "Solgar, Calcium Citrate with Vitamin D3, 240 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5443,6 +5575,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium Citrate Caps",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.02153333333333333,
       "best_total_price": 9.69,
       "unit": "mg",
@@ -5455,6 +5588,7 @@
           "price_per_unit": 0.02153333333333333,
           "product_url": "https://www.vitacost.com/now-calcium-citrate",
           "product_name": "NOW Calcium Citrate -- 8 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5464,6 +5598,7 @@
           "price_per_unit": 0.05444444444444444,
           "product_url": "https://www.iherb.com/pr/now-foods-calcium-citrate-250-tablets/472",
           "product_name": "NOW Foods, Calcium Citrate, 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5473,6 +5608,7 @@
           "price_per_unit": 0.05922222222222222,
           "product_url": "https://supplementwarehouse.com/products/nf-calcium-citrate-250t/?expa_m=search&expa_st=calcium",
           "product_name": "Now Foods Calcium Citrate 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5493,6 +5629,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Calcium Citrate 1000 mg with Vitamin D",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.02159,
       "best_total_price": 21.59,
       "unit": "mg",
@@ -5505,6 +5642,7 @@
           "price_per_unit": 0.02159,
           "product_url": "https://www.vitacost.com/solaray-calcium-citrate-1000-mg-240-vegcaps",
           "product_name": "Solaray Calcium Citrate -- 1000 mg - 240 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5521,6 +5659,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Calcium 600 with Vitamin D3",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 0.02173333333333333,
       "best_total_price": 13.04,
       "unit": "mg",
@@ -5533,6 +5672,7 @@
           "price_per_unit": 0.02173333333333333,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-calcium-250-tablets/32096",
           "product_name": "Nature's Bounty, Calcium, 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5563,6 +5703,7 @@
       "brand": "ZHOU",
       "dsld_product_name": "Calcium Greens",
       "dsld_brand": "ZHOU",
+      "product_image_url": "",
       "best_price_per_unit": 0.022453846153846154,
       "best_total_price": 29.19,
       "unit": "mg",
@@ -5575,6 +5716,7 @@
           "price_per_unit": 0.022453846153846154,
           "product_url": "https://www.vitacost.com/zhou-calcium-greens",
           "product_name": "Zhou Calcium Greens -- 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5591,6 +5733,7 @@
       "brand": "NOW",
       "dsld_product_name": "Coral Calcium Plus",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.02278,
       "best_total_price": 11.39,
       "unit": "mg",
@@ -5603,6 +5746,7 @@
           "price_per_unit": 0.02278,
           "product_url": "https://www.vitacost.com/now-coral-calcium-plus",
           "product_name": "NOW Coral Calcium Plus -- 100 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5612,6 +5756,7 @@
           "price_per_unit": 0.024480000000000002,
           "product_url": "https://www.iherb.com/pr/now-foods-coral-calcium-plus-100-veg-capsules/302",
           "product_name": "NOW Foods, Coral Calcium Plus, 100 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5630,6 +5775,7 @@
       "brand": "Kirkman",
       "dsld_product_name": "Children's Chewable Calcium with Vitamin D-3 Natural Chocolate Flavor",
       "dsld_brand": "Kirkman",
+      "product_image_url": "",
       "best_price_per_unit": 0.023,
       "best_total_price": 23.0,
       "unit": "mg",
@@ -5642,6 +5788,7 @@
           "price_per_unit": 0.023,
           "product_url": "https://www.iherb.com/pr/kirkman-labs-children-s-chewable-calcium-with-vitamin-d3-natural-chocolate-120-tablets/127423",
           "product_name": "Kirkman Labs, Children's Chewable Calcium with Vitamin D3, Natural Chocolate, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5660,6 +5807,7 @@
       "brand": "21st Century",
       "dsld_product_name": "600+D3",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.023316666666666666,
       "best_total_price": 13.99,
       "unit": "mg",
@@ -5672,6 +5820,7 @@
           "price_per_unit": 0.023316666666666666,
           "product_url": "https://www.iherb.com/pr/21st-century-600-d3-calcium-vitamin-d3-supplement-400-tablets/55898",
           "product_name": "21st Century, 600+D3, Calcium & Vitamin D3 Supplement, 400 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5690,6 +5839,7 @@
       "brand": "LifeTime",
       "dsld_product_name": "Calcium Magnesium Citrate Plus Vitamin D-3 Blueberry",
       "dsld_brand": "LifeTIME",
+      "product_image_url": "",
       "best_price_per_unit": 0.02358666666666667,
       "best_total_price": 17.69,
       "unit": "mg",
@@ -5702,6 +5852,7 @@
           "price_per_unit": 0.02358666666666667,
           "product_url": "https://www.vitacost.com/lifetime-calcium-magnesium-citrate-plus-vitamin-d-3-liquid",
           "product_name": "Lifetime Calcium Magnesium Citrate plus Vitamin D-3 Liqui...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5720,6 +5871,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Magnesium with Vitamin D3",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.023690000000000003,
       "best_total_price": 23.69,
       "unit": "mg",
@@ -5732,6 +5884,7 @@
           "price_per_unit": 0.023690000000000003,
           "product_url": "https://www.vitacost.com/solgar-calcium-magnesium-with-vitamin-d3-300-tablets",
           "product_name": "Solgar Calcium Magnesium with Vitamin D3 -- 300 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5741,6 +5894,7 @@
           "price_per_unit": 0.02471,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-magnesium-with-vitamin-d3-300-tablets/8449",
           "product_name": "Solgar, Calcium Magnesium with Vitamin D3, 300 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5760,6 +5914,7 @@
       "brand": "Swanson",
       "dsld_product_name": "Calcium Citrate 200 mg",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.02395,
       "best_total_price": 4.79,
       "unit": "mg",
@@ -5772,6 +5927,7 @@
           "price_per_unit": 0.02395,
           "product_url": "https://www.iherb.com/pr/swanson-calcium-citrate-200-mg-60-vegan-capsules/117614",
           "product_name": "Swanson, Calcium Citrate, 200 mg, 60 Vegan Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5788,6 +5944,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Calcium 600 mg",
       "dsld_brand": "Nature Made",
+      "product_image_url": "",
       "best_price_per_unit": 0.023983333333333336,
       "best_total_price": 14.39,
       "unit": "mg",
@@ -5800,6 +5957,7 @@
           "price_per_unit": 0.023983333333333336,
           "product_url": "https://www.vitacost.com/nature-made-calcium-softgels-600mg",
           "product_name": "Nature Made Calcium Softgels -- 600 mg - 100 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5820,6 +5978,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Calcium 600 with Vitamin D3",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 0.024316666666666667,
       "best_total_price": 14.59,
       "unit": "mg",
@@ -5832,6 +5991,7 @@
           "price_per_unit": 0.024316666666666667,
           "product_url": "https://www.vitacost.com/natures-bounty-calcium-600-with-vitamin-d3-250-tablets",
           "product_name": "Nature's Bounty Calcium 600 with Vitamin D3 -- 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5862,6 +6022,7 @@
       "brand": "GNC",
       "dsld_product_name": "Calcium Citrate Plus 800 mg",
       "dsld_brand": "GNC",
+      "product_image_url": "",
       "best_price_per_unit": 0.0249875,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -5874,6 +6035,7 @@
           "price_per_unit": 0.0249875,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=119714&source=productlist",
           "product_name": "GNC\nCalcium Citrate Plus\u2122 800 mg - 180 Caplets (45 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5896,6 +6058,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium & Magnesium Citrate Powder with Vitamin D3",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.025474999999999998,
       "best_total_price": 10.19,
       "unit": "mg",
@@ -5908,6 +6071,7 @@
           "price_per_unit": 0.025474999999999998,
           "product_url": "https://www.vitacost.com/now-calcium-magnesium-120-softgels",
           "product_name": "NOW Calcium & Magnesium -- 120 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5917,6 +6081,7 @@
           "price_per_unit": 0.03365,
           "product_url": "https://www.iherb.com/pr/now-foods-calcium-magnesium-8-oz-227-g/455",
           "product_name": "NOW Foods, Calcium & Magnesium, 8 oz (227 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5935,6 +6100,7 @@
       "brand": "KAL",
       "dsld_product_name": "Calcium Citrate+ 500 mg Mixed Fruit",
       "dsld_brand": "KAL",
+      "product_image_url": "",
       "best_price_per_unit": 0.02578,
       "best_total_price": 12.89,
       "unit": "mg",
@@ -5947,6 +6113,7 @@
           "price_per_unit": 0.02578,
           "product_url": "https://www.iherb.com/pr/kal-calcium-citrate-mixed-fruit-60-chewables/73777",
           "product_name": "KAL, Calcium Citrate+, Mixed Fruit, 60 Chewables",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5963,6 +6130,7 @@
       "brand": "Swanson",
       "dsld_product_name": "Calcium Citrate Plus Magnesium",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.026633333333333335,
       "best_total_price": 7.99,
       "unit": "mg",
@@ -5975,6 +6143,7 @@
           "price_per_unit": 0.026633333333333335,
           "product_url": "https://www.iherb.com/pr/swanson-calcium-citrate-plus-magnesium-150-vegan-capsules/118395",
           "product_name": "Swanson, Calcium Citrate Plus Magnesium, 150 Vegan Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5991,6 +6160,7 @@
       "brand": "The Vitamin shoppe",
       "dsld_product_name": "Calcium Citrate Plus Vitamin D",
       "dsld_brand": "The Vitamin Shoppe",
+      "product_image_url": "",
       "best_price_per_unit": 0.02699,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -6003,6 +6173,7 @@
           "price_per_unit": 0.02699,
           "product_url": "https://www.iherb.com/pr/the-vitamin-shoppe-calcium-citrate-plus-vitamin-d-240-tablets/140933",
           "product_name": "The Vitamin Shoppe, Calcium Citrate Plus Vitamin D, 240 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6021,6 +6192,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Calcium Magnesium & Zinc with Vitamin D3 Raspberry Lemonade",
       "dsld_brand": "Nutricost",
+      "product_image_url": "",
       "best_price_per_unit": 0.02754,
       "best_total_price": 27.54,
       "unit": "mg",
@@ -6033,6 +6205,7 @@
           "price_per_unit": 0.02754,
           "product_url": "https://www.iherb.com/pr/nutricost-calcium-magnesium-zinc-with-vitamin-d3-24-4-oz-684-g/147230",
           "product_name": "Nutricost, Calcium Magnesium & Zinc with Vitamin D3, 24.4 oz (684 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6052,6 +6225,7 @@
       "brand": "The Vitamin shoppe",
       "dsld_product_name": "Calcium 1200 With Vitamin D3",
       "dsld_brand": "The Vitamin Shoppe",
+      "product_image_url": "",
       "best_price_per_unit": 0.027675,
       "best_total_price": 33.21,
       "unit": "mg",
@@ -6064,6 +6238,7 @@
           "price_per_unit": 0.027675,
           "product_url": "https://www.iherb.com/pr/the-vitamin-shoppe-calcium1200-with-vitamin-d3-240-softgels/143984",
           "product_name": "The Vitamin Shoppe, Calcium 1200 with Vitamin D3, 240 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6084,6 +6259,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Calcium Citrate 350 mg",
       "dsld_brand": "Natural Factors",
+      "product_image_url": "",
       "best_price_per_unit": 0.027914285714285714,
       "best_total_price": 9.77,
       "unit": "mg",
@@ -6096,6 +6272,7 @@
           "price_per_unit": 0.027914285714285714,
           "product_url": "https://www.vitacost.com/natural-factors-calcium-citrate",
           "product_name": "Natural Factors Calcium Citrate -- 350 mg - 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6105,6 +6282,7 @@
           "price_per_unit": 0.027914285714285714,
           "product_url": "https://www.iherb.com/pr/natural-factors-calcium-citrate-350-mg-90-tablets/2550",
           "product_name": "Natural Factors, Calcium Citrate, 350 mg, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6126,6 +6304,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Calcium Adult Gummies",
       "dsld_brand": "Nature Made",
+      "product_image_url": "",
       "best_price_per_unit": 0.028579999999999998,
       "best_total_price": 14.29,
       "unit": "mg",
@@ -6138,6 +6317,7 @@
           "price_per_unit": 0.028579999999999998,
           "product_url": "https://www.vitacost.com/nature-made-calcium-adult-gummies",
           "product_name": "Nature Made Calcium Adult Gummies -- 80 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6154,6 +6334,7 @@
       "brand": "Caltrate",
       "dsld_product_name": "600+D",
       "dsld_brand": "Caltrate",
+      "product_image_url": "",
       "best_price_per_unit": 0.028983333333333333,
       "best_total_price": 17.39,
       "unit": "mg",
@@ -6166,6 +6347,7 @@
           "price_per_unit": 0.028983333333333333,
           "product_url": "https://www.vitacost.com/caltrate-bone-health-calcium-600-d3-plus-minerals",
           "product_name": "Caltrate Bone Health Calcium 600+D3 Plus Minerals -- 150 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6182,6 +6364,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "Calcium",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.02916380297823597,
       "best_total_price": 25.46,
       "unit": "mg",
@@ -6194,6 +6377,7 @@
           "price_per_unit": 0.02916380297823597,
           "product_url": "https://www.vitacost.com/ancient-nutrition-ancient-nutrients-calcium",
           "product_name": "Ancient Nutrition Ancient Nutrients Calcium -- 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6203,6 +6387,7 @@
           "price_per_unit": 0.02916380297823597,
           "product_url": "https://www.iherb.com/pr/ancient-nutrition-calcium-90-capsules/107232",
           "product_name": "Ancient Nutrition, Calcium, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6219,6 +6404,7 @@
       "brand": "NOW",
       "dsld_product_name": "Magnesium & Calcium",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.029224999999999998,
       "best_total_price": 11.69,
       "unit": "mg",
@@ -6231,6 +6417,7 @@
           "price_per_unit": 0.029224999999999998,
           "product_url": "https://www.vitacost.com/now-magnesium-calcium",
           "product_name": "NOW Magnesium & Calcium -- 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6240,6 +6427,7 @@
           "price_per_unit": 0.030600000000000002,
           "product_url": "https://www.iherb.com/pr/now-foods-magnesium-calcium-100-tablets/39667",
           "product_name": "NOW Foods, Magnesium & Calcium, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6258,6 +6446,7 @@
       "brand": "LifeTime",
       "dsld_product_name": "Calcium Magnesium Citrate Plus Vitamin D-3 Grape",
       "dsld_brand": "LifeTIME",
+      "product_image_url": "",
       "best_price_per_unit": 0.029483333333333337,
       "best_total_price": 17.69,
       "unit": "mg",
@@ -6270,6 +6459,7 @@
           "price_per_unit": 0.029483333333333337,
           "product_url": "https://www.vitacost.com/lifetime-liquid-calcium-magnesium-citrate-plus-vitamin-d-3-strawberry",
           "product_name": "Lifetime Liquid Calcium Magnesium Citrate Plus Vitamin D-...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6288,6 +6478,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Calcium 500 mg with Vitamin D3",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 0.02978,
       "best_total_price": 14.89,
       "unit": "mg",
@@ -6300,6 +6491,7 @@
           "price_per_unit": 0.02978,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-calcium-with-vitamin-d3-500-mg-300-tablets/32226",
           "product_name": "Nature's Bounty, Calcium with Vitamin D3, 500 mg, 300 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6309,6 +6501,7 @@
           "price_per_unit": 0.03338,
           "product_url": "https://www.vitacost.com/natures-bounty-calcium",
           "product_name": "Nature's Bounty Calcium -- 500 mg - 300 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6338,6 +6531,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Calcium 600 mg With Vitamin D3",
       "dsld_brand": "Nature Made",
+      "product_image_url": "",
       "best_price_per_unit": 0.02981666666666667,
       "best_total_price": 17.89,
       "unit": "mg",
@@ -6350,6 +6544,7 @@
           "price_per_unit": 0.02981666666666667,
           "product_url": "https://www.vitacost.com/nature-made-calcium-600-mg-220-tablets",
           "product_name": "Nature Made Calcium -- 600 mg - 220 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6369,6 +6564,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Kid's Chewable Calcium 250 mg Natural Vanilla Flavor",
       "dsld_brand": "Carlson",
+      "product_image_url": "",
       "best_price_per_unit": 0.03137,
       "best_total_price": 31.37,
       "unit": "mg",
@@ -6381,6 +6577,7 @@
           "price_per_unit": 0.03137,
           "product_url": "https://www.iherb.com/pr/carlson-kid-s-chewable-calcium-natural-vanilla-250-mg-120-tablets/55858",
           "product_name": "Carlson, Kids' Chewable Calcium, Natural Vanilla, 250 mg, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6400,6 +6597,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Calcium Citrate with Vitamin D",
       "dsld_brand": "Country Life",
+      "product_image_url": "",
       "best_price_per_unit": 0.03178,
       "best_total_price": 15.89,
       "unit": "mg",
@@ -6412,6 +6610,7 @@
           "price_per_unit": 0.03178,
           "product_url": "https://www.vitacost.com/country-life-calcium-citrate-with-vitamin-d",
           "product_name": "Country Life Calcium Citrate with Vitamin D -- 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6430,6 +6629,7 @@
       "brand": "NOW",
       "dsld_product_name": "Coral Calcium 1000 mg",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.03225714285714285,
       "best_total_price": 11.29,
       "unit": "mg",
@@ -6442,6 +6642,7 @@
           "price_per_unit": 0.03225714285714285,
           "product_url": "https://www.vitacost.com/now-coral-calcium",
           "product_name": "NOW Coral Calcium -- 1000 mg - 100 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6460,6 +6661,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Calcium Magnesium Zinc",
       "dsld_brand": "Nature Made",
+      "product_image_url": "",
       "best_price_per_unit": 0.0327027027027027,
       "best_total_price": 10.89,
       "unit": "mg",
@@ -6472,6 +6674,7 @@
           "price_per_unit": 0.0327027027027027,
           "product_url": "https://www.vitacost.com/nature-made-calcium-magnesium-zinc-with-vitamin-d3",
           "product_name": "Nature Made Calcium Magnesium Zinc with Vitamin D3 -- 300...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6481,6 +6684,7 @@
           "price_per_unit": 0.038138138138138135,
           "product_url": "https://www.iherb.com/pr/nature-made-calcium-magnesium-zinc-with-vitamin-d3-300-tablets/70872",
           "product_name": "Nature Made, Calcium Magnesium Zinc with Vitamin D3, 300 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6500,6 +6704,7 @@
       "brand": "Citracal",
       "dsld_product_name": "Calcium Supplement Petites +D3 ",
       "dsld_brand": "Citracal",
+      "product_image_url": "",
       "best_price_per_unit": 0.032975,
       "best_total_price": 13.19,
       "unit": "mg",
@@ -6512,6 +6717,7 @@
           "price_per_unit": 0.032975,
           "product_url": "https://www.vitacost.com/citracal-petites-calcium-citrate-calcium-supplement-d3",
           "product_name": "Citracal Petites Calcium Citrate Calcium Supplement + D3 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6528,6 +6734,7 @@
       "brand": "Best Naturals",
       "dsld_product_name": "Calcium Pyruvate 750 mg",
       "dsld_brand": "Best Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.034958333333333334,
       "best_total_price": 8.39,
       "unit": "mg",
@@ -6540,6 +6747,7 @@
           "price_per_unit": 0.034958333333333334,
           "product_url": "https://www.vitacost.com/best-naturals-calcium-pyruvate",
           "product_name": "Best Naturals Calcium Pyruvate -- 750 mg - 120 Vegetarian...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6549,6 +6757,7 @@
           "price_per_unit": 0.049958333333333334,
           "product_url": "https://www.iherb.com/pr/best-naturals-calcium-pyruvate-750-mg-120-vegetarian-capsules/154924",
           "product_name": "Best Naturals, Calcium Pyruvate, 750 mg, 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6577,6 +6786,7 @@
       "brand": "Caltrate",
       "dsld_product_name": "600+D",
       "dsld_brand": "Caltrate",
+      "product_image_url": "",
       "best_price_per_unit": 0.03498333333333333,
       "best_total_price": 20.99,
       "unit": "mg",
@@ -6589,6 +6799,7 @@
           "price_per_unit": 0.03498333333333333,
           "product_url": "https://www.vitacost.com/caltrate-600-d3-calcium-and-vitamin-d",
           "product_name": "Caltrate 600+D3 Calcium and Vitamin D -- 200 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6605,6 +6816,7 @@
       "brand": "Best Naturals",
       "dsld_product_name": "Calcium Pyruvate Pure Powder",
       "dsld_brand": "Best Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.03590625,
       "best_total_price": 11.49,
       "unit": "mg",
@@ -6617,6 +6829,7 @@
           "price_per_unit": 0.03590625,
           "product_url": "https://www.vitacost.com/best-naturals-calcium-pyruvate-powder",
           "product_name": "Best Naturals Calcium Pyruvate Powder -- 8 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6646,6 +6859,7 @@
       "brand": "Swanson",
       "dsld_product_name": "Albion Calcium & Magnesium",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.03645,
       "best_total_price": 7.29,
       "unit": "mg",
@@ -6658,6 +6872,7 @@
           "price_per_unit": 0.03645,
           "product_url": "https://www.iherb.com/pr/swanson-albion-calcium-magnesium-60-capsules/118574",
           "product_name": "Swanson, Albion\u00ae Calcium & Magnesium, 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6676,6 +6891,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.038450000000000005,
       "best_total_price": 7.69,
       "unit": "mg",
@@ -6688,6 +6904,7 @@
           "price_per_unit": 0.038450000000000005,
           "product_url": "https://www.iherb.com/pr/swanson-coral-calcium-complex-90-capsules/155364",
           "product_name": "Swanson, Coral Calcium Complex, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6706,6 +6923,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Calcium 600 mg",
       "dsld_brand": "NaturesPlus",
+      "product_image_url": "",
       "best_price_per_unit": 0.0396,
       "best_total_price": 23.76,
       "unit": "mg",
@@ -6718,6 +6936,7 @@
           "price_per_unit": 0.0396,
           "product_url": "https://www.vitacost.com/naturesplus-pro-calcium-d-glucarate",
           "product_name": "NaturesPlus PRO Calcium D-Glucarate -- 600 mg - 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6734,6 +6953,7 @@
       "brand": "NOW",
       "dsld_product_name": "Magnesium & Calcium",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.039725,
       "best_total_price": 15.89,
       "unit": "mg",
@@ -6746,6 +6966,7 @@
           "price_per_unit": 0.039725,
           "product_url": "https://www.vitacost.com/now-calcium-magnesium-250-tablets",
           "product_name": "NOW Calcium & Magnesium -- 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6755,6 +6976,7 @@
           "price_per_unit": 0.042874999999999996,
           "product_url": "https://www.iherb.com/pr/now-foods-calcium-magnesium-250-tablets/453",
           "product_name": "NOW Foods, Calcium & Magnesium, 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6773,6 +6995,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium Citrate Caps",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.04197777777777778,
       "best_total_price": 18.89,
       "unit": "mg",
@@ -6785,6 +7008,7 @@
           "price_per_unit": 0.04197777777777778,
           "product_url": "https://www.vitacost.com/now-calcium-citrate-caps",
           "product_name": "NOW Calcium Citrate Caps -- 240 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6794,6 +7018,7 @@
           "price_per_unit": 0.04488888888888889,
           "product_url": "https://www.iherb.com/pr/now-foods-calcium-citrate-caps-240-veg-capsules/479",
           "product_name": "NOW Foods, Calcium Citrate Caps, 240 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6814,6 +7039,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Calcium & Magnesium 300 mg",
       "dsld_brand": "Source Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.042,
       "best_total_price": 8.4,
       "unit": "mg",
@@ -6826,6 +7052,7 @@
           "price_per_unit": 0.042,
           "product_url": "https://www.iherb.com/pr/source-naturals-calcium-magnesium-100-tablets/144149",
           "product_name": "Source Naturals, Calcium & Magnesium, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6846,6 +7073,7 @@
       "brand": "Noor Vitamins",
       "dsld_product_name": "Calcium with Vitamin D",
       "dsld_brand": "Noor Vitamins",
+      "product_image_url": "",
       "best_price_per_unit": 0.04215,
       "best_total_price": 25.29,
       "unit": "mg",
@@ -6858,6 +7086,7 @@
           "price_per_unit": 0.04215,
           "product_url": "https://www.iherb.com/pr/noor-vitamins-calcium-with-vitamin-d-120-tablets/138094",
           "product_name": "Noor Vitamins, Calcium with Vitamin D, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6876,6 +7105,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Organic Plant Calcium Women Under 40",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.04243781094527363,
       "best_total_price": 25.59,
       "unit": "mg",
@@ -6888,6 +7118,7 @@
           "price_per_unit": 0.04243781094527363,
           "product_url": "https://www.vitacost.com/new-chapter-organic-plant-calcium-women-under-40",
           "product_name": "New Chapter Organic Plant Calcium: Women Under 40 -- 60 V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6908,6 +7139,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Liposomal Calcium AKG",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 0.04284285714285714,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -6920,6 +7152,7 @@
           "price_per_unit": 0.04284285714285714,
           "product_url": "https://www.gnc.com/calcium/585157.html",
           "product_name": "Codeage\nLiposomal Calcium AKG - 60 Capsules (60 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6936,6 +7169,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Liposomal Calcium AKG",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 0.04284285714285714,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -6948,6 +7182,7 @@
           "price_per_unit": 0.04284285714285714,
           "product_url": "https://www.vitacost.com/codeage-liposomal-calcium-akg-pure-alpha-ketoglutarate-supplement-phospholipids",
           "product_name": "Codeage Liposomal Calcium AKG Pure Alpha Ketoglutarate Su...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6964,6 +7199,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.044950000000000004,
       "best_total_price": 8.99,
       "unit": "mg",
@@ -6976,6 +7212,7 @@
           "price_per_unit": 0.044950000000000004,
           "product_url": "https://www.iherb.com/pr/swanson-eggshell-calcium-with-vitamin-d3-120-capsules/149124",
           "product_name": "Swanson, Eggshell Calcium With Vitamin D3, 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6994,6 +7231,7 @@
       "brand": "NOW",
       "dsld_product_name": "Coral Calcium Plus",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.045380000000000004,
       "best_total_price": 22.69,
       "unit": "mg",
@@ -7006,6 +7244,7 @@
           "price_per_unit": 0.045380000000000004,
           "product_url": "https://www.vitacost.com/now-coral-calcium-plus-250-vegetarian-capsules",
           "product_name": "NOW Coral Calcium Plus -- 250 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7015,6 +7254,7 @@
           "price_per_unit": 0.048979999999999996,
           "product_url": "https://www.iherb.com/pr/now-foods-coral-calcium-plus-250-veg-capsules/4257",
           "product_name": "NOW Foods, Coral Calcium Plus, 250 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7033,6 +7273,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Advanced Triple Boron with Calcium",
       "dsld_brand": "Source Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.04793939393939394,
       "best_total_price": 7.91,
       "unit": "mg",
@@ -7045,6 +7286,7 @@
           "price_per_unit": 0.04793939393939394,
           "product_url": "https://www.vitacost.com/source-naturals-advanced-triple-boron-with-calcium-120-capsules",
           "product_name": "Source Naturals Advanced Triple Boron With Calcium\u2122 -- 12...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7064,6 +7306,7 @@
       "brand": "Swanson",
       "dsld_product_name": "Coral Calcium Complex",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.05196,
       "best_total_price": 12.99,
       "unit": "mg",
@@ -7076,6 +7319,7 @@
           "price_per_unit": 0.05196,
           "product_url": "https://www.iherb.com/pr/swanson-coral-calcium-complex-180-capsules/155365",
           "product_name": "Swanson, Coral Calcium Complex, 180 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7092,6 +7336,7 @@
       "brand": "NOW",
       "dsld_product_name": "Magnesium & Calcium",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.057475,
       "best_total_price": 22.99,
       "unit": "mg",
@@ -7104,6 +7349,7 @@
           "price_per_unit": 0.057475,
           "product_url": "https://www.vitacost.com/now-magnesium-calcium-250-tablets",
           "product_name": "NOW Magnesium & Calcium -- 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7113,6 +7359,7 @@
           "price_per_unit": 0.061224999999999995,
           "product_url": "https://www.iherb.com/pr/now-foods-magnesium-calcium-250-tablets/659",
           "product_name": "NOW Foods, Magnesium & Calcium, 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7131,6 +7378,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Teeth & Gums Vitamins",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 0.05831666666666667,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -7143,6 +7391,7 @@
           "price_per_unit": 0.05831666666666667,
           "product_url": "https://www.vitacost.com/codeage-teeth-gums-vitamins-oral-probiotics-calcium-collagen-potassium-zinc",
           "product_name": "Codeage Teeth & Gums Vitamins + Oral Probiotics - Calcium...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7159,6 +7408,7 @@
       "brand": "Harmonic Innerprizes",
       "dsld_product_name": "Calcium From The Sea",
       "dsld_brand": "Harmonic Innerprizes",
+      "product_image_url": "",
       "best_price_per_unit": 0.0627625,
       "best_total_price": 50.21,
       "unit": "mg",
@@ -7171,6 +7421,7 @@
           "price_per_unit": 0.0627625,
           "product_url": "https://www.vitacost.com/harmonic-innerprizes-calcium-from-the-sea",
           "product_name": "Harmonic Innerprizes Calcium from the Sea -- 180 Veggie Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7189,6 +7440,7 @@
       "brand": "NOW",
       "dsld_product_name": "Coral Calcium 1000 mg",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.0654,
       "best_total_price": 22.89,
       "unit": "mg",
@@ -7201,6 +7453,7 @@
           "price_per_unit": 0.0654,
           "product_url": "https://www.vitacost.com/now-coral-calcium-1000-mg-250-vegetarian-capsules",
           "product_name": "NOW Coral Calcium -- 1000 mg - 250 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7219,6 +7472,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium Ascorbate",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.0659,
       "best_total_price": 6.59,
       "unit": "mg",
@@ -7231,6 +7485,7 @@
           "price_per_unit": 0.0659,
           "product_url": "https://www.vitacost.com/now-c-500-calcium-ascorbate-c",
           "product_name": "NOW C-500 Calcium Ascorbate-C -- 100 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7252,6 +7507,7 @@
       "brand": "GNC",
       "dsld_product_name": "Coral Calcium 400 mg",
       "dsld_brand": "GNC",
+      "product_image_url": "",
       "best_price_per_unit": 0.067475,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -7264,6 +7520,7 @@
           "price_per_unit": 0.067475,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=553723&source=productlist",
           "product_name": "GNC\nCoral Calcium - 180 Capsules (90 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7286,6 +7543,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.06785000000000001,
       "best_total_price": 13.57,
       "unit": "mg",
@@ -7298,6 +7556,7 @@
           "price_per_unit": 0.06785000000000001,
           "product_url": "https://www.iherb.com/pr/swanson-liquid-calcium-magnesium-200-softgels/149126",
           "product_name": "Swanson, Liquid Calcium & Magnesium, 200 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7316,6 +7575,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Calcium & Magnesium",
       "dsld_brand": "Natural Factors",
+      "product_image_url": "",
       "best_price_per_unit": 0.0699142857142857,
       "best_total_price": 24.47,
       "unit": "mg",
@@ -7328,6 +7588,7 @@
           "price_per_unit": 0.0699142857142857,
           "product_url": "https://www.iherb.com/pr/natural-factors-whole-earth-sea-bone-structure-multivitamin-mineral-calcium-magnesium-60-tablets/66432",
           "product_name": "Natural Factors, Whole Earth & Sea, Bone Structure Multivitamin & Mineral, Calcium & Magnesium, 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7347,6 +7608,7 @@
       "brand": "NOW",
       "dsld_product_name": "Coral Calcium 1000 mg",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.06997142857142857,
       "best_total_price": 24.49,
       "unit": "mg",
@@ -7359,6 +7621,7 @@
           "price_per_unit": 0.06997142857142857,
           "product_url": "https://www.iherb.com/pr/now-foods-coral-calcium-1-000-mg-250-capsules/9889",
           "product_name": "NOW Foods, Coral Calcium, 1,000 mg, 250 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7377,6 +7640,7 @@
       "brand": "ChildLife Essentials",
       "dsld_product_name": "Liquid Calcium with Magnesium Natural Orange Flavor",
       "dsld_brand": "ChildLife Essentials",
+      "product_image_url": "",
       "best_price_per_unit": 0.07126984126984127,
       "best_total_price": 17.96,
       "unit": "mg",
@@ -7389,6 +7653,7 @@
           "price_per_unit": 0.07126984126984127,
           "product_url": "https://www.iherb.com/pr/childlife-essentials-essentials-liquid-calcium-with-magnesium-natural-orange-16-fl-oz-473-ml/9434",
           "product_name": "ChildLife Essentials, Essentials, Liquid Calcium with Magnesium, Natural Orange, 16 fl oz (473 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7410,6 +7675,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium Ascorbate",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.07339999999999999,
       "best_total_price": 7.34,
       "unit": "mg",
@@ -7422,6 +7688,7 @@
           "price_per_unit": 0.07339999999999999,
           "product_url": "https://www.iherb.com/pr/now-foods-c-500-calcium-ascorbate-c-100-veg-capsules/102342",
           "product_name": "NOW Foods, C-500, Calcium Ascorbate-C, 100 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7443,6 +7710,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.07495,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -7455,6 +7723,7 @@
           "price_per_unit": 0.07495,
           "product_url": "https://www.iherb.com/pr/swanson-ipriflavone-complex-with-vitamin-d-calcium-boron-120-tablets/117742",
           "product_name": "Swanson, Ipriflavone Complex with Vitamin D, Calcium & Boron, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7473,6 +7742,7 @@
       "brand": "CATALO",
       "dsld_product_name": "Vegetarian Calcium Formula",
       "dsld_brand": "CATALO",
+      "product_image_url": "",
       "best_price_per_unit": 0.09166666666666666,
       "best_total_price": 33.0,
       "unit": "mg",
@@ -7485,6 +7755,7 @@
           "price_per_unit": 0.09166666666666666,
           "product_url": "https://www.iherb.com/pr/catalo-vegetarian-calcium-formula-prenatal-algae-calcium-with-acerola-vitamin-c-60-vegetarian-tablets/104043",
           "product_name": "CATALO, Vegetarian Calcium Formula, Prenatal Algae Calcium with Acerola Vitamin C, 60 Vegetarian Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7501,6 +7772,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Calcium K/D",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 0.095,
       "best_total_price": 38.0,
       "unit": "mg",
@@ -7513,6 +7785,7 @@
           "price_per_unit": 0.095,
           "product_url": "https://www.vitacost.com/pure-encapsulations-calcium-k-d-180-capsules",
           "product_name": "Pure Encapsulations Calcium K-D -- 180 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7532,6 +7805,7 @@
       "brand": "Allergy Research Group",
       "dsld_product_name": "Buffered Vitamin C",
       "dsld_brand": "Allergy Research Group",
+      "product_image_url": "",
       "best_price_per_unit": 0.09678947368421052,
       "best_total_price": 18.39,
       "unit": "mg",
@@ -7544,6 +7818,7 @@
           "price_per_unit": 0.09678947368421052,
           "product_url": "https://www.iherb.com/pr/allergy-research-group-buffered-vitamin-c-with-calcium-and-magnesium-120-vegetarian-capsules/50653",
           "product_name": "Allergy Research Group, Buffered Vitamin C with Calcium and Magnesium, 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7562,6 +7837,7 @@
       "brand": "NutriCology",
       "dsld_product_name": "Buffered Vitamin C",
       "dsld_brand": "NutriCology",
+      "product_image_url": "",
       "best_price_per_unit": 0.09678947368421052,
       "best_total_price": 18.39,
       "unit": "mg",
@@ -7574,6 +7850,7 @@
           "price_per_unit": 0.09678947368421052,
           "product_url": "https://www.iherb.com/pr/nutricology-buffered-vitamin-c-with-calcium-and-magnesium-120-vegetarian-capsules/5471",
           "product_name": "Nutricology, Buffered Vitamin C with Calcium and Magnesium, 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7592,6 +7869,7 @@
       "brand": "NutriCology",
       "dsld_product_name": "Magnesium Citrate",
       "dsld_brand": "NutriCology",
+      "product_image_url": "",
       "best_price_per_unit": 0.1028235294117647,
       "best_total_price": 17.48,
       "unit": "mg",
@@ -7604,6 +7882,7 @@
           "price_per_unit": 0.1028235294117647,
           "product_url": "https://www.vitacost.com/nutricology-calcium-magnesium-citrate-100-vegetarian-capsules",
           "product_name": "NutriCology Calcium Magnesium Citrate -- 100 Vegetarian C...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7620,6 +7899,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Calcium (Citrate)",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 0.10333333333333333,
       "best_total_price": 31.0,
       "unit": "mg",
@@ -7632,6 +7912,7 @@
           "price_per_unit": 0.10333333333333333,
           "product_url": "https://www.vitacost.com/pure-encapsulations-calcium-citrate",
           "product_name": "Pure Encapsulations Calcium (Citrate) -- 180 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7641,6 +7922,7 @@
           "price_per_unit": 0.10333333333333333,
           "product_url": "https://www.iherb.com/pr/pure-encapsulations-calcium-citrate-180-capsules-150-mg-per-capsule/145660",
           "product_name": "Pure Encapsulations, Calcium (Citrate), 180 Capsules (150 mg per Capsule)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7660,6 +7942,7 @@
       "brand": "Allergy Research Group",
       "dsld_product_name": "Magnesium Citrate",
       "dsld_brand": "Allergy Research Group",
+      "product_image_url": "",
       "best_price_per_unit": 0.10347058823529412,
       "best_total_price": 17.59,
       "unit": "mg",
@@ -7672,6 +7955,7 @@
           "price_per_unit": 0.10347058823529412,
           "product_url": "https://www.vitacost.com/allergy-research-group-calcium-magnesium-citrate-100-vegetarian-capsules-1",
           "product_name": "Allergy Research Group Calcium Magnesium Citrate -- 100 V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7688,6 +7972,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Calcium",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.104,
       "best_total_price": 26.0,
       "unit": "mg",
@@ -7700,6 +7985,7 @@
           "price_per_unit": 0.104,
           "product_url": "https://www.vitacost.com/thorne-calcium",
           "product_name": "Thorne Calcium -- 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7709,6 +7995,7 @@
           "price_per_unit": 0.104,
           "product_url": "https://www.iherb.com/pr/thorne-calcium-120-capsules-250-mg-per-capsule/72885",
           "product_name": "Thorne, Calcium, 120 Capsules (250 mg Per capsule)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7725,6 +8012,7 @@
       "brand": "Life Extension",
       "dsld_product_name": "Calcium Citrate With Vitamin D",
       "dsld_brand": "Life Extension",
+      "product_image_url": "",
       "best_price_per_unit": 0.105,
       "best_total_price": 21.0,
       "unit": "mg",
@@ -7737,6 +8025,7 @@
           "price_per_unit": 0.105,
           "product_url": "https://www.vitacost.com/life-extension-calcium-citrate-with-vitamin-d-200-vegetarian-capsules",
           "product_name": "Life Extension Calcium Citrate with Vitamin D -- 200 Vege...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7753,6 +8042,7 @@
       "brand": "Life Extension",
       "dsld_product_name": "Calcium Citrate with Vitamin D",
       "dsld_brand": "Life Extension",
+      "product_image_url": "",
       "best_price_per_unit": 0.105,
       "best_total_price": 21.0,
       "unit": "mg",
@@ -7765,6 +8055,7 @@
           "price_per_unit": 0.105,
           "product_url": "https://www.iherb.com/pr/life-extension-calcium-citrate-with-vitamin-d-200-capsules/81499",
           "product_name": "Life Extension, Calcium Citrate with Vitamin D, 200 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7783,6 +8074,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium Ascorbate",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.11630000000000001,
       "best_total_price": 11.63,
       "unit": "mg",
@@ -7795,6 +8087,7 @@
           "price_per_unit": 0.11630000000000001,
           "product_url": "https://www.iherb.com/pr/now-foods-pure-buffered-calcium-ascorbate-vitamin-c-powder-8-oz-227-g/474",
           "product_name": "NOW Foods, Pure, Buffered Calcium Ascorbate, Vitamin C Powder, 8 oz (227 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7816,6 +8109,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "Magnesium Chelate",
       "dsld_brand": "California Gold Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.12402985074626867,
       "best_total_price": 8.31,
       "unit": "mg",
@@ -7828,6 +8122,7 @@
           "price_per_unit": 0.12402985074626867,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-magnesium-chelate-with-calcium-90-tablets/90714",
           "product_name": "California Gold Nutrition, Magnesium Chelate with Calcium, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7844,6 +8139,7 @@
       "brand": "Floradix",
       "dsld_product_name": "Calcium",
       "dsld_brand": "Floradix",
+      "product_image_url": "",
       "best_price_per_unit": 0.13745,
       "best_total_price": 27.49,
       "unit": "mg",
@@ -7856,6 +8152,7 @@
           "price_per_unit": 0.13745,
           "product_url": "https://www.vitacost.com/floradix-calcium-liquid",
           "product_name": "Floradix Calcium Liquid -- 8.5 fl oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7865,6 +8162,7 @@
           "price_per_unit": 0.2382,
           "product_url": "https://www.iherb.com/pr/floradix-calcium-magnesium-16-9-fl-oz-500-ml/106329",
           "product_name": "Floradix, Calcium Magnesium, 16.9 fl oz (500 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7884,6 +8182,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Calcium-D-Glucarate",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 0.142,
       "best_total_price": 142.0,
       "unit": "mg",
@@ -7896,6 +8195,7 @@
           "price_per_unit": 0.142,
           "product_url": "https://www.vitacost.com/pure-encapsulations-calcium-d-glucarate-120-capsules",
           "product_name": "Pure Encapsulations Calcium-d-Glucarate -- 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7915,6 +8215,7 @@
       "brand": "Rainbow Light",
       "dsld_product_name": "Magnesium Calcium+",
       "dsld_brand": "Rainbow Light",
+      "product_image_url": "",
       "best_price_per_unit": 0.1517741935483871,
       "best_total_price": 9.41,
       "unit": "mg",
@@ -7927,6 +8228,7 @@
           "price_per_unit": 0.1517741935483871,
           "product_url": "https://www.iherb.com/pr/rainbow-light-magnesium-calcium-90-caplets/17573",
           "product_name": "Rainbow Light, Magnesium Calcium+\u2122, 90 Caplets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7946,6 +8248,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Calcium D-Glucarate",
       "dsld_brand": "Source Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.15951612903225806,
       "best_total_price": 19.78,
       "unit": "mg",
@@ -7958,6 +8261,7 @@
           "price_per_unit": 0.15951612903225806,
           "product_url": "https://www.vitacost.com/source-naturals-calcium-d-glucarate-500-mg-60-tablets",
           "product_name": "Source Naturals Calcium D-Glucarate -- 500 mg - 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7974,6 +8278,7 @@
       "brand": "NutriCology",
       "dsld_product_name": "Calcium Magnesium Citrate",
       "dsld_brand": "NutriCology",
+      "product_image_url": "",
       "best_price_per_unit": 0.1759,
       "best_total_price": 17.59,
       "unit": "mg",
@@ -7986,6 +8291,7 @@
           "price_per_unit": 0.1759,
           "product_url": "https://www.iherb.com/pr/nutricology-calcium-magnesium-citrate-100-vegetarian-capsules/17594",
           "product_name": "Nutricology, Calcium Magnesium Citrate, 100 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8002,6 +8308,7 @@
       "brand": "NutriCology",
       "dsld_product_name": "Calcium Citrate",
       "dsld_brand": "NutriCology",
+      "product_image_url": "",
       "best_price_per_unit": 0.17993333333333333,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -8014,6 +8321,7 @@
           "price_per_unit": 0.17993333333333333,
           "product_url": "https://www.vitacost.com/nutricology-calcium-citrate",
           "product_name": "NutriCology Calcium Citrate -- 180 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8023,6 +8331,7 @@
           "price_per_unit": 0.17993333333333333,
           "product_url": "https://www.iherb.com/pr/nutricology-calcium-citrate-150-mg-180-vegetarian-capsules/3416",
           "product_name": "Nutricology, Calcium Citrate, 150 mg, 180 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8039,6 +8348,7 @@
       "brand": "Allergy Research Group",
       "dsld_product_name": "Calcium Citrate",
       "dsld_brand": "Allergy Research Group",
+      "product_image_url": "",
       "best_price_per_unit": 0.17993333333333333,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -8051,6 +8361,7 @@
           "price_per_unit": 0.17993333333333333,
           "product_url": "https://www.vitacost.com/allergy-research-group-calcium-citrate-180-vegetarian-capsules-1",
           "product_name": "Allergy Research Group Calcium Citrate -- 180 Vegetarian ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8067,6 +8378,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Vitamin K2 100 mcg",
       "dsld_brand": "Mason Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.1805,
       "best_total_price": 7.22,
       "unit": "mg",
@@ -8079,6 +8391,7 @@
           "price_per_unit": 0.1805,
           "product_url": "https://www.vitacost.com/mason-natural-vitamin-k2-100-mcg-with-calcium-supports-bone-health",
           "product_name": "Mason Natural Vitamin K2 100 mcg with Calcium Supports Bo...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8098,6 +8411,7 @@
       "brand": "Best Naturals",
       "dsld_product_name": "Calcium D-Glucarate 200 mg",
       "dsld_brand": "Best Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.23104166666666667,
       "best_total_price": 11.09,
       "unit": "mg",
@@ -8110,6 +8424,7 @@
           "price_per_unit": 0.23104166666666667,
           "product_url": "https://www.vitacost.com/best-naturals-calcium-d-glucarate",
           "product_name": "Best Naturals Calcium D-Glucarate -- 200 mg - 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8139,6 +8454,7 @@
       "brand": "Rainbow Light",
       "dsld_product_name": "Magnesium Calcium+",
       "dsld_brand": "Rainbow Light",
+      "product_image_url": "",
       "best_price_per_unit": 0.28225806451612906,
       "best_total_price": 17.5,
       "unit": "mg",
@@ -8151,6 +8467,7 @@
           "price_per_unit": 0.28225806451612906,
           "product_url": "https://www.iherb.com/pr/rainbow-light-magnesium-calcium-180-caplets/1767",
           "product_name": "Rainbow Light, Magnesium Calcium+\u2122, 180 Caplets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8170,6 +8487,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Calcium-Magnesium Malate",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.4,
       "best_total_price": 40.0,
       "unit": "mg",
@@ -8182,6 +8500,7 @@
           "price_per_unit": 0.4,
           "product_url": "https://www.vitacost.com/thorne-calcium-magnesium-malate",
           "product_name": "Thorne Calcium-Magnesium Malate -- 240 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8191,6 +8510,7 @@
           "price_per_unit": 0.4,
           "product_url": "https://www.iherb.com/pr/thorne-calcium-magnesium-malate-240-capsules/80811",
           "product_name": "Thorne, Calcium-Magnesium Malate, 240 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8209,6 +8529,7 @@
       "brand": "NOW",
       "dsld_product_name": "Calcium D-Glucarate 500 mg",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.41483333333333333,
       "best_total_price": 24.89,
       "unit": "mg",
@@ -8221,6 +8542,7 @@
           "price_per_unit": 0.41483333333333333,
           "product_url": "https://www.vitacost.com/now-calcium-d-glucarate",
           "product_name": "NOW Calcium D-Glucarate -- 500 mg - 90 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8241,6 +8563,7 @@
       "brand": "Garden of Life",
       "dsld_product_name": "Living Calcium Advanced",
       "dsld_brand": "Garden of Life",
+      "product_image_url": "",
       "best_price_per_unit": 0.4318,
       "best_total_price": 21.59,
       "unit": "mg",
@@ -8253,6 +8576,7 @@
           "price_per_unit": 0.4318,
           "product_url": "https://www.vitacost.com/garden-of-life-living-calcium-advanced",
           "product_name": "Garden of Life Living Calcium Advanced -- 120 Vegetarian ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8262,6 +8586,7 @@
           "price_per_unit": 0.4338,
           "product_url": "https://www.iherb.com/pr/garden-of-life-living-calcium-advanced-120-vegetarian-caplets/7073",
           "product_name": "Garden of Life, Living Calcium Advanced, 120 Vegetarian Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8278,6 +8603,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Calcium with Vitamins D3 & K2",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.5194444444444445,
       "best_total_price": 93.5,
       "unit": "mg",
@@ -8290,6 +8616,7 @@
           "price_per_unit": 0.5194444444444445,
           "product_url": "https://www.iherb.com/pr/dr-mercola-calcium-with-vitamins-d3-k2-90-capsules/80673",
           "product_name": "Dr. Mercola, Calcium with Vitamins D3 & K2, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8299,6 +8626,7 @@
           "price_per_unit": 0.5902777777777778,
           "product_url": "https://www.vitacost.com/dr-mercola-calcium-with-vitamins-d3-k2-90-capsules",
           "product_name": "Dr. Mercola Calcium with Vitamins D3 & K2 -- 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8317,6 +8645,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Calcium",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 0.5197999999999999,
       "best_total_price": 25.99,
       "unit": "mg",
@@ -8329,6 +8658,7 @@
           "price_per_unit": 0.5197999999999999,
           "product_url": "https://www.vitacost.com/megafood-calcium-magnesium-60-tablets",
           "product_name": "MegaFood Calcium & Magnesium -- 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8352,6 +8682,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Ma",
       "dsld_brand": "Liquid Labs",
+      "product_image_url": "",
       "best_price_per_unit": 0.5986666666666667,
       "best_total_price": 17.96,
       "unit": "mg",
@@ -8364,6 +8695,7 @@
           "price_per_unit": 0.5986666666666667,
           "product_url": "https://www.vitacost.com/childlife-liquid-calcium-with-magnesium-natural-orange-16-fl-oz-15",
           "product_name": "Childlife Liquid Calcium with Magnesium Natural Orange --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8380,6 +8712,7 @@
       "brand": "Rainbow Light",
       "dsld_product_name": "Calcium With Magnesium & Vitamin D3",
       "dsld_brand": "Rainbow Light",
+      "product_image_url": "",
       "best_price_per_unit": 0.599,
       "best_total_price": 11.98,
       "unit": "mg",
@@ -8392,6 +8725,7 @@
           "price_per_unit": 0.599,
           "product_url": "https://www.iherb.com/pr/rainbow-light-calcium-with-magnesium-vitamin-d3-90-tablets/40943",
           "product_name": "Rainbow Light, Calcium with Magnesium & Vitamin D3+, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8401,6 +8735,7 @@
           "price_per_unit": 0.6645,
           "product_url": "https://www.vitacost.com/rainbow-light-calcium-with-magnesium-vitamin-d3",
           "product_name": "Rainbow Light Calcium With Magnesium & Vitamin D3 -- 90 T...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8420,6 +8755,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Calcium",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 0.6598,
       "best_total_price": 32.99,
       "unit": "mg",
@@ -8432,6 +8768,7 @@
           "price_per_unit": 0.6598,
           "product_url": "https://www.vitacost.com/megafood-calcium-magnesium",
           "product_name": "MegaFood Calcium & Magnesium -- 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8441,6 +8778,7 @@
           "price_per_unit": 0.6598,
           "product_url": "https://www.iherb.com/pr/megafood-calcium-magnesium-90-tablets/3988",
           "product_name": "MegaFood, Calcium & Magnesium, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8464,6 +8802,7 @@
       "brand": "Protocol for Life Balance",
       "dsld_product_name": "Calcium D-Glucarate 500 mg",
       "dsld_brand": "Protocol For Life Balance",
+      "product_image_url": "",
       "best_price_per_unit": 0.7333333333333333,
       "best_total_price": 44.0,
       "unit": "mg",
@@ -8476,6 +8815,7 @@
           "price_per_unit": 0.7333333333333333,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-calcium-d-glucarate",
           "product_name": "Protocol For Life Balance Calcium D-Glucarate -- 500 mg -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8485,6 +8825,7 @@
           "price_per_unit": 0.7333333333333333,
           "product_url": "https://www.iherb.com/pr/protocol-for-life-balance-calcium-d-glucarate-500-mg-90-veg-capsules/116882",
           "product_name": "Protocol for Life Balance, Calcium D-Glucarate, 500 mg, 90 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8505,6 +8846,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Ma",
       "dsld_brand": "Liquid Labs",
+      "product_image_url": "",
       "best_price_per_unit": 0.9996666666666666,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -8517,6 +8859,7 @@
           "price_per_unit": 0.9996666666666666,
           "product_url": "https://www.iherb.com/pr/childlife-clinicals-liquid-calcium-magnesium-formula-with-vitamin-d3-vitamin-k2-natural-orange-16-fl-oz-473-ml/103379",
           "product_name": "ChildLife Clinicals, Liquid Calcium/Magnesium Formula with Vitamin D3 & Vitamin K2, Natural Orange, 16 fl oz (473 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8533,6 +8876,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "OsteoPrime",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 1.0225,
       "best_total_price": 20.45,
       "unit": "mg",
@@ -8545,6 +8889,7 @@
           "price_per_unit": 1.0225,
           "product_url": "https://www.iherb.com/pr/nature-s-way-osteoprime-plus-calcium-magnesium-120-tablets/6755",
           "product_name": "Nature's Way, OsteoPrime Plus Calcium & Magnesium, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8554,6 +8899,7 @@
           "price_per_unit": 1.2645,
           "product_url": "https://www.vitacost.com/natures-way-osteoprime-plus-calcium-magnesium-with-vitamin-d3",
           "product_name": "Nature's Way OsteoPrime Plus Calcium & Magnesium - with V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8572,6 +8918,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Calcium D-Glucarate",
       "dsld_brand": "Seeking Health",
+      "product_image_url": "",
       "best_price_per_unit": 1.0666666666666667,
       "best_total_price": 32.0,
       "unit": "mg",
@@ -8584,6 +8931,7 @@
           "price_per_unit": 1.0666666666666667,
           "product_url": "https://www.vitacost.com/seeking-health-calcium-d-glucarate",
           "product_name": "Seeking Health Calcium D-Glucarate -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8600,6 +8948,7 @@
       "brand": "Rainbow Light",
       "dsld_product_name": "Calcium with Magnesium & Vitamin D3",
       "dsld_brand": "Rainbow Light",
+      "product_image_url": "",
       "best_price_per_unit": 1.3395,
       "best_total_price": 26.79,
       "unit": "mg",
@@ -8612,6 +8961,7 @@
           "price_per_unit": 1.3395,
           "product_url": "https://www.iherb.com/pr/rainbow-light-calcium-with-magnesium-vegan-d3-180-tablets/1778",
           "product_name": "Rainbow Light, Calcium with Magnesium & Vegan D3+, 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8631,6 +8981,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "Bone Boost",
       "dsld_brand": "California Gold Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 1.4125,
       "best_total_price": 28.25,
       "unit": "mg",
@@ -8643,6 +8994,7 @@
           "price_per_unit": 1.4125,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-bone-boost-with-calcium-magnesium-vitamin-c-and-potassium-120-tablets/109120",
           "product_name": "California Gold Nutrition, Bone Boost with Calcium, Magnesium, Vitamin C and Potassium, 120 tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8659,6 +9011,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "Calcium D-Glucarate",
       "dsld_brand": "XYMOGEN",
+      "product_image_url": "",
       "best_price_per_unit": 1.4665,
       "best_total_price": 87.99,
       "unit": "mg",
@@ -8671,6 +9024,7 @@
           "price_per_unit": 1.4665,
           "product_url": "https://www.vitacost.com/xymogen-calcium-d-glucarate",
           "product_name": "XYMOGEN Calcium D-Glucarate -- 90 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8687,6 +9041,7 @@
       "brand": "Doctor's Best",
       "dsld_product_name": "Calcium Bone Maker Complex",
       "dsld_brand": "Doctor's Best",
+      "product_image_url": "",
       "best_price_per_unit": 4.1475,
       "best_total_price": 16.59,
       "unit": "mg",
@@ -8699,6 +9054,7 @@
           "price_per_unit": 4.1475,
           "product_url": "https://www.vitacost.com/doctors-best-calcium-bone-maker-complex-with-mch-cal",
           "product_name": "Doctor's Best Calcium Bone Maker Complex with MCH-Cal -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8717,6 +9073,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Calcium Magnesium plus Boron",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 4.863333333333333,
       "best_total_price": 14.59,
       "unit": "mg",
@@ -8729,6 +9086,7 @@
           "price_per_unit": 4.863333333333333,
           "product_url": "https://www.vitacost.com/solgar-calcium-magnesium-plus-boron",
           "product_name": "Solgar Calcium Magnesium Plus Boron -- 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8738,6 +9096,7 @@
           "price_per_unit": 5.276666666666666,
           "product_url": "https://www.iherb.com/pr/solgar-calcium-magnesium-plus-boron-250-tablets/48547",
           "product_name": "Solgar, Calcium Magnesium Plus Boron, 250 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8757,6 +9116,7 @@
       "brand": "BioSchwartz",
       "dsld_product_name": "Bone Strength",
       "dsld_brand": "BioSchwartz",
+      "product_image_url": "",
       "best_price_per_unit": 6.323333333333333,
       "best_total_price": 18.97,
       "unit": "mg",
@@ -8769,6 +9129,7 @@
           "price_per_unit": 6.323333333333333,
           "product_url": "https://www.iherb.com/pr/bioschwartz-premium-ultra-pure-bone-strength-calcium-d3-k2-magnesium-120-capsules/138502",
           "product_name": "BioSchwartz, Premium Ultra Pure Bone Strength, Calcium + D3, K2 & Magnesium, 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8787,6 +9148,7 @@
       "brand": "Garden of Life Vitamin Code ",
       "dsld_product_name": "Raw Calcium",
       "dsld_brand": "Garden of Life Vitamin Code",
+      "product_image_url": "",
       "best_price_per_unit": 7.263333333333333,
       "best_total_price": 21.79,
       "unit": "mg",
@@ -8799,6 +9161,7 @@
           "price_per_unit": 7.263333333333333,
           "product_url": "https://www.vitacost.com/garden-of-life-vitamin-code-raw-calcium",
           "product_name": "Garden of Life Vitamin Code RAW Calcium -- 60 Vegetarian ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8815,6 +9178,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Advanced Calcium Complex",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 8.88,
       "best_total_price": 17.76,
       "unit": "mg",
@@ -8827,6 +9191,7 @@
           "price_per_unit": 8.88,
           "product_url": "https://www.iherb.com/pr/solgar-advanced-calcium-complex-vitamins-d3-k2-zinc-boron-120-tablets/10010",
           "product_name": "Solgar, Advanced Calcium Complex + Vitamins D3, K2, Zinc, Boron, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8847,6 +9212,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Advanced Calcium Complex",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 9.345,
       "best_total_price": 18.69,
       "unit": "mg",
@@ -8859,6 +9225,7 @@
           "price_per_unit": 9.345,
           "product_url": "https://www.vitacost.com/solgar-advanced-calcium-complex",
           "product_name": "Solgar Advanced Calcium Complex -- 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8879,6 +9246,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Calcium Pro+",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 9.996666666666666,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -8891,6 +9259,7 @@
           "price_per_unit": 9.996666666666666,
           "product_url": "https://www.gnc.com/calcium/585135.html",
           "product_name": "Codeage\nCalcium Pro+ - 120 Capsules (120 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8907,6 +9276,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Calcium Pro+",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 9.996666666666666,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -8919,6 +9289,7 @@
           "price_per_unit": 9.996666666666666,
           "product_url": "https://www.vitacost.com/codeage-calcium-pro-calcium-magnesium-zinc-copper-boron-vitamin-d2-k2",
           "product_name": "Codeage Calcium Pro+ Calcium - Magnesium - Zinc - Copper ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8935,6 +9306,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Calcium Pro+",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 9.996666666666666,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -8947,6 +9319,7 @@
           "price_per_unit": 9.996666666666666,
           "product_url": "https://www.iherb.com/pr/codeage-calcium-pro-120-vegetable-capsules/121667",
           "product_name": "Codeage, Calcium Pro+, 120 Vegetable Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8963,6 +9336,7 @@
       "brand": "SMNutrition",
       "dsld_product_name": "Calcium D-Glucarate 500 mg",
       "dsld_brand": "SMNutrition",
+      "product_image_url": "",
       "best_price_per_unit": 11.98,
       "best_total_price": 29.95,
       "unit": "mg",
@@ -8975,6 +9349,7 @@
           "price_per_unit": 11.98,
           "product_url": "https://www.vitacost.com/smnutrition-calcium-d-glucarate",
           "product_name": "SMNutrition Calcium D-Glucarate -- 500 mg - 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -8984,6 +9359,7 @@
           "price_per_unit": 11.98,
           "product_url": "https://www.iherb.com/pr/smnutrition-calcium-d-glucarate-bioperine-90-capsules/114568",
           "product_name": "SMNutrition, Calcium D-Glucarate + BioPerine\u00ae, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9002,6 +9378,7 @@
       "brand": "Garden of Life Vitamin Code ",
       "dsld_product_name": "Raw Calcium",
       "dsld_brand": "Garden of Life Vitamin Code",
+      "product_image_url": "",
       "best_price_per_unit": 13.83,
       "best_total_price": 41.49,
       "unit": "mg",
@@ -9014,6 +9391,7 @@
           "price_per_unit": 13.83,
           "product_url": "https://www.vitacost.com/garden-of-life-vitamin-code-raw-calcium-120-vegetarian-capsules",
           "product_name": "Garden of Life Vitamin Code RAW Calcium -- 120 Vegetarian...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9030,6 +9408,7 @@
       "brand": "Roex",
       "dsld_product_name": "The Ultimate Calcium Mineral Formula",
       "dsld_brand": "Roex",
+      "product_image_url": "",
       "best_price_per_unit": 17.79,
       "best_total_price": 17.79,
       "unit": "mg",
@@ -9042,6 +9421,7 @@
           "price_per_unit": 17.79,
           "product_url": "https://www.vitacost.com/roex-the-ultimate-calcium-mineral-formula-180-tablets-3",
           "product_name": "Roex The Ultimate Calcium Mineral Formula -- 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9058,6 +9438,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Calcium Plus",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 19.98,
       "best_total_price": 9.99,
       "unit": "mg",
@@ -9070,6 +9451,7 @@
           "price_per_unit": 19.98,
           "product_url": "https://www.iherb.com/pr/21st-century-liquid-filled-calcium-plus-d3-90-rapid-release-softgels/11749",
           "product_name": "21st Century, Liquid Filled Calcium Plus D3, 90 Rapid Release Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9086,6 +9468,7 @@
       "brand": "Tropical Oasis",
       "dsld_product_name": "Premium Calcium Magnesium",
       "dsld_brand": "Tropical Oasis",
+      "product_image_url": "",
       "best_price_per_unit": 32.32,
       "best_total_price": 32.32,
       "unit": "mg",
@@ -9098,6 +9481,7 @@
           "price_per_unit": 32.32,
           "product_url": "https://www.iherb.com/pr/tropical-oasis-premium-calcium-magnesium-16-fl-oz-480-ml/9056",
           "product_name": "Tropical Oasis, Premium Calcium Magnesium, 16 fl oz (480 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9117,6 +9501,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Activated Coral Calcium",
       "dsld_brand": "NaturesPlus",
+      "product_image_url": "",
       "best_price_per_unit": 32.66315789473685,
       "best_total_price": 31.03,
       "unit": "mg",
@@ -9129,6 +9514,7 @@
           "price_per_unit": 32.66315789473685,
           "product_url": "https://www.iherb.com/pr/naturesplus-activated-coral-calcium-90-capsules/7624",
           "product_name": "NaturesPlus, Activated Coral Calcium\u00ae, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -9138,6 +9524,7 @@
           "price_per_unit": 38.43157894736842,
           "product_url": "https://www.vitacost.com/naturesplus-activated-coral-calcium",
           "product_name": "NaturesPlus Activated Coral Calcium -- 90 Vegetarian Caps...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9156,6 +9543,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Vitamin D3",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 251.6,
       "best_total_price": 6.29,
       "unit": "mg",
@@ -9168,6 +9556,7 @@
           "price_per_unit": 251.6,
           "product_url": "https://www.vitacost.com/natures-way-calcium-vitamin-d3-with-magnesium-liquid-supplement-citrus-flavored",
           "product_name": "Nature's Way Calcium & Vitamin D3 with Magnesium Liquid S...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9188,6 +9577,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Vitamin D3",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 272.4,
       "best_total_price": 6.81,
       "unit": "mg",
@@ -9200,6 +9590,7 @@
           "price_per_unit": 272.4,
           "product_url": "https://www.iherb.com/pr/nature-s-way-calcium-vitamin-d3-with-magnesium-citrus-16-fl-oz-480-ml/39209",
           "product_name": "Nature's Way, Calcium & Vitamin D3 with Magnesium, Citrus, 16 fl oz (480 ml)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9220,6 +9611,7 @@
       "brand": "PlantFusion",
       "dsld_product_name": "Vegan Plant-Based Calcium 1000 mg",
       "dsld_brand": "PlantFusion",
+      "product_image_url": "",
       "best_price_per_unit": 277.31182795698925,
       "best_total_price": 25.79,
       "unit": "mg",
@@ -9232,6 +9624,7 @@
           "price_per_unit": 277.31182795698925,
           "product_url": "https://www.vitacost.com/plantfusion-vegan-plant-based-calcium",
           "product_name": "PlantFusion Vegan Plant-Based Calcium -- 1000 mg - 90 Tab...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9252,6 +9645,7 @@
       "brand": "Nature's Way Alive!",
       "dsld_product_name": "Vitamin D3",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 467.59999999999997,
       "best_total_price": 11.69,
       "unit": "mg",
@@ -9264,6 +9658,7 @@
           "price_per_unit": 467.59999999999997,
           "product_url": "https://www.vitacost.com/natures-way-alive-calcium-vitamin-d3-gummies-bone-immune-support",
           "product_name": "Nature's Way Alive! Calcium & Vitamin D3 Gummies - Bone &...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -9284,6 +9679,7 @@
       "brand": "Fairhaven Health",
       "dsld_product_name": "Prenatal",
       "dsld_brand": "Fairhaven Health",
+      "product_image_url": "",
       "best_price_per_unit": 484.2857142857142,
       "best_total_price": 16.95,
       "unit": "mg",
@@ -9296,6 +9692,7 @@
           "price_per_unit": 484.2857142857142,
           "product_url": "https://www.iherb.com/pr/fairhaven-health-prenatal-calcium-magnesium-60-capsules/62651",
           "product_name": "Fairhaven Health, Prenatal, Calcium + Magnesium, 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }

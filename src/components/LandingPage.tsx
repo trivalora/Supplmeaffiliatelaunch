@@ -12,9 +12,8 @@ import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import imgForestAerial from "figma:asset/4bdf2cba5e05e7d70b9f1402336825a64b04e236.png";
 import imgCrystalBallWaterfall from "figma:asset/f69f346bde9ce1223aa8e8e9265be307b22261e4.png";
-import { ResponsivePicture } from './ResponsivePicture';
+import { HeroImage, SectionImage, ProductImage } from './images';
 import { SEOHead } from './SEOHead';
-import { SmartImage } from './SmartImage';
 
 import { PageKey } from '../routes.config';
 import { trackCTAClick, trackRetailerClick, trackAffiliateClick } from '../utils/analytics';
@@ -126,25 +125,21 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
   return (
     <div
       id="hero"
-      className="relative flex items-center justify-center overflow-visible"
+      className="relative flex items-center justify-center"
       style={{
         minHeight: '600px',
         height: '75vh',
-        maxHeight: '75vh'
+        maxHeight: '75vh',
+        marginTop: 'var(--header-height)'
       }}
     >
       {/* Background Image - Full Width - Optimized for performance */}
-      <div className="absolute inset-0 w-full h-full">
-        <ResponsivePicture
-          file="adaa5958638ef58a10a2b5b182d161d011abc01a.png"
-          alt=""
-          fallbackSrc={imgImageMistyMountainForest}
-          className="w-full h-full"
-          style={{ display: 'block', width: '100%', height: '100%' }}
-          sizes="100vw"
-          imgProps={{ className: 'w-full h-full object-cover object-center', loading: 'eager', decoding: 'async', fetchPriority: 'high' as any }}
-        />
-      </div>
+      <HeroImage
+        file="adaa5958638ef58a10a2b5b182d161d011abc01a.png"
+        alt=""
+        fallbackSrc={imgImageMistyMountainForest}
+        objectPosition="center"
+      />
 
       {/* Gradient Overlays - Multiple layers for rich depth */}
       {/* Layer 1: Base gradient from Figma */}
@@ -236,16 +231,16 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
   return (
     <section data-layout-section style={{ backgroundColor: 'var(--section-bg-tertiary)' }}>
       <div data-layout-container>
-        <div data-grid="2col" className="items-start gap-8">
+        <div data-grid="2col" className="items-stretch gap-8">
           {/* Image - Cropped at sides to match height of mission section */}
-          <div className="order-2 md:order-1 flex flex-col justify-end h-full overflow-hidden rounded-2xl shadow-lg">
-            <ResponsivePicture
+          <div className="order-2 md:order-1 overflow-hidden rounded-2xl shadow-lg">
+            <SectionImage
               file="f69f346bde9ce1223aa8e8e9265be307b22261e4.png"
               alt="Crystal ball with waterfall - clarity and vision"
               fallbackSrc={imgCrystalBallWaterfall}
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              imgProps={{ className: 'w-full h-full object-cover' }}
-              style={{ aspectRatio: '4/3', transform: 'scale(1.3)', objectPosition: 'center' as any }}
+              objectFit="cover"
+              objectPosition="center"
+              transform="scale(1.3)"
             />
           </div>
 
@@ -343,7 +338,7 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
   return (
     <section data-layout-section style={{ backgroundColor: 'var(--section-bg-secondary)' }}>
       <div data-layout-container>
-        <div data-grid="2col" className="items-start gap-8">
+        <div data-grid="2col" className="items-stretch gap-8">
           {/* Content */}
           <div className="flex flex-col">
             {/* Text content that aligns with image */}
@@ -424,14 +419,12 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
           </div>
 
           {/* Image */}
-          <div className="flex flex-col justify-end h-full overflow-hidden rounded-2xl shadow-lg">
-            <ResponsivePicture
+          <div className="overflow-hidden rounded-2xl shadow-lg">
+            <SectionImage
               file="4bdf2cba5e05e7d70b9f1402336825a64b04e236.png"
               alt="Aerial view of lush forest - natural mission"
               fallbackSrc={imgForestAerial}
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              imgProps={{ className: 'w-full h-full object-cover' }}
-              style={{ aspectRatio: '4/3' }}
+              objectFit="cover"
             />
           </div>
         </div>
@@ -581,16 +574,12 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
                 className="bg-tertiary rounded-lg border border-secondary overflow-hidden cursor-pointer transition-shadow flex flex-col p-4"
                 data-product-card
               >
-                <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-3" style={{ height: '25vh' }}>
-                  <SmartImage
+                <div className="bg-white rounded-lg p-4 mb-3" style={{ height: '25vh' }}>
+                  <ProductImage
                     src={supplement.image}
                     alt={supplement.name}
-                    className="max-w-full max-h-full object-contain"
-                    loading="lazy"
-                    decoding="async"
-                    widthHint={360}
                     widths={[240, 360, 480, 640]}
-                    sizes="(min-width:1280px) 22vw, (min-width:1024px) 30vw, 90vw"
+                    sizes="240px"
                   />
                 </div>
                 <div className="flex-1 flex flex-col">
@@ -824,8 +813,10 @@ export function LandingPage(props: LandingPageProps) {
       <SEOHead />
       <Header onNavigate={props.onNavigate} />
 
+      {/* Hero as direct child - ensures full viewport width */}
+      <HeroSection onNavigate={props.onNavigate} searchInputRef={searchInputRef} />
+
       <main data-page-content className="flex-1">
-        <HeroSection onNavigate={props.onNavigate} searchInputRef={searchInputRef} />
         <WhyTrustUsSection onNavigate={props.onNavigate} />
         <OurMissionSection onNavigate={props.onNavigate} />
         <PopularComparisonsSection onNavigate={props.onNavigate} />

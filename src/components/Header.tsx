@@ -69,18 +69,13 @@ function Logo({ onClick }: { onClick?: () => void }) {
       }}
     >
       <div className="h-[53px] w-auto">
-        <ResponsivePicture
-          file={`${base}.png`}
+        <img
+          src={imgLogo}
           alt="suppl.me"
-          widths={[64, 96, 128, 256]}
-          sizes="53px"
-          fallbackSrc={imgLogo}
-          imgProps={{
-            loading: 'eager',
-            decoding: 'async',
-            fetchPriority: 'high',
-            style: { height: '53px', width: 'auto' }
-          }}
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+          style={{ height: '53px', width: 'auto' }}
         />
       </div>
     </div>
@@ -131,7 +126,7 @@ const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROU
               const base = cleaned.replace(/\.(png|jpe?g)$/i, '');
               return (
                 <ResponsivePicture
-                  file={`${base}.png`}
+                  file={fileName}
                   alt={route.title}
                   widths={[64, 96, 128, 256]}
                   sizes="38px"

@@ -1,7 +1,7 @@
 import { ReactNode, useState, Fragment, useMemo, useCallback, useEffect } from 'react';
 import { LucideIcon, ChevronDown, ExternalLink } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { ResponsivePicture } from './ResponsivePicture';
+import { SectionImage, ProductImage } from './images';
 import { WhatToExpectSection } from './WhatToExpectSection';
 import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb7.png";
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
@@ -299,9 +299,9 @@ export interface KnowledgebasePageProps {
 
 function HeroLeftPanel({ supplementName, heroDescription }: { supplementName: string; heroDescription: string }) {
   return (
-    <div className="flex-1 flex items-center justify-center px-6 pt-8 pb-12 md:px-16 md:py-0 h-auto md:h-full" style={{ backgroundColor: '#162F1C' }}>
-      <div data-knowledgebase-hero-text className="max-w-[600px]">
-        <h1 className="mb-6" style={{ color: '#F7F7F3' }}>
+    <div className="flex-1 flex items-center justify-center h-auto md:h-full" style={{ backgroundColor: '#162F1C', padding: 'clamp(2rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem)' }}>
+      <div data-knowledgebase-hero-text>
+        <h1 style={{ color: '#F7F7F3' }}>
           {supplementName}
         </h1>
         <p style={{ color: '#F7F7F3' }}>
@@ -340,7 +340,7 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
     } catch { }
   }, [heroImageUrl]);
   return (
-    <div className="flex-1 relative overflow-hidden h-[40vh] md:h-full">
+    <div className="flex-1 relative h-[40vh] md:h-full">
       {heroImageComponent ? (
         <div className="w-full h-full flex items-center justify-center p-8 bg-[rgba(0,0,0,0)]">
           {heroImageComponent}
@@ -352,13 +352,11 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
             const baseFile = heroImageUrl.split('?')[0].split('/').pop();
             if (baseFile && baseFile.includes('.')) {
               return (
-                <ResponsivePicture
+                <SectionImage
                   file={baseFile}
                   alt={supplementName}
                   fallbackSrc={heroImageUrl}
-                  sizes="(min-width: 1024px) 50vw, 100vw"
-                  imgProps={{ className: 'w-full h-full object-cover', loading: 'eager', decoding: 'async', fetchPriority: 'high' as any }}
-                  style={{ width: '100%', height: '100%' }}
+                  objectFit="cover"
                 />
               );
             }
@@ -834,7 +832,8 @@ function AffiliateButtons({
   iherbUnavailable,
   supplementName,
   productName,
-  brand
+  brand,
+  onNavigate
 }: {
   amazonLink: string;
   iherbLink?: string;
@@ -842,6 +841,7 @@ function AffiliateButtons({
   supplementName: string;
   productName: string;
   brand: string;
+  onNavigate?: (page: string) => void;
 }) {
   const supplementNameLower = supplementName.toLowerCase();
   const tooltipHandlers = useAffiliateTooltip();
@@ -902,20 +902,33 @@ function AffiliateButtons({
           </div>
         </a>
       )}
-      <a
-        href={`/compare-${supplementNameLower}.html`}
-        target="_blank"
-        rel="nofollow noopener noreferrer"
+      <button
+        onClick={() => {
+          // Map supplement name to the ID used in product comparison JSON files
+          const supplementId = supplementNameLower.replace(/\s+/g, '-');
+          
+          // Map page supplement IDs to JSON file names
+          const supplementMapping: Record<string, string> = {
+            'collagen-peptides': 'collagen',
+            'whey-protein': 'whey',
+            'casein-protein': 'casein',
+            'bcaas': 'bcaa',
+          };
+          
+          const jsonFileName = supplementMapping[supplementId] || supplementId;
+          // Use window.location to ensure URL parameter is passed correctly
+          window.location.href = `/product-comparison?supplement=${jsonFileName}`;
+        }}
         data-button-height="md"
-        className="flex-1 px-3 rounded-lg text-center bg-tertiary text-primary border border-secondary hover:bg-secondary transition-colors text-sm flex items-center justify-center"
+        className="flex-1 px-3 rounded-lg text-center bg-tertiary text-primary border border-secondary hover:bg-secondary transition-colors text-sm flex items-center justify-center cursor-pointer"
       >
         Compare All
-      </a>
+      </button>
     </div>
   );
 }
 
-function ProductComparisonSection({ supplementName }: { supplementName: string }) {
+function ProductComparisonSection({ supplementName, onNavigate }: { supplementName: string; onNavigate?: (page: string) => void }) {
   const supplements = getProductsBySupplementName(supplementName);
   const { handleProductImpression } = useProductTracking(supplementName);
 
@@ -973,8 +986,8 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
             const descriptionLines = getDescriptionLines(product);
 
             return (
-              <div key={index} className="bg-tertiary rounded-lg border border-secondary overflow-hidden flex flex-col p-4">
-                <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-3 relative" style={{ height: '25vh' }}>
+              <div key={index} className="bg-tertiary rounded-lg border border-secondary overflow-hidden flex flex-col p-4" data-product-card>
+                <div className="bg-white rounded-lg p-4 mb-3" style={{ height: '25vh', position: 'relative' }}>
                   {/* Badges positioned at top of image container */}
                   {product.badges && product.badges.length > 0 && (
                     <div className="absolute top-2 left-2 flex flex-col gap-1 z-10">
@@ -988,15 +1001,11 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
                       ))}
                     </div>
                   )}
-                  <SmartImage
+                  <ProductImage
                     src={product.image}
                     alt={product.name}
-                    className="max-w-full max-h-full object-contain"
-                    loading="lazy"
-                    decoding="async"
-                    widthHint={360}
                     widths={[240, 360, 480, 640]}
-                    sizes="(min-width:1280px) 22vw, (min-width:1024px) 30vw, 90vw"
+                    sizes="240px"
                   />
                 </div>
 
@@ -1038,6 +1047,7 @@ function ProductComparisonSection({ supplementName }: { supplementName: string }
                     supplementName={supplementName}
                     productName={product.name}
                     brand={product.brand}
+                    onNavigate={onNavigate}
                   />
                 </div>
               </div>
@@ -1195,7 +1205,7 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
       )}
 
       {/* Product Comparison - Full Width */}
-      <ProductComparisonSection supplementName={props.supplementName} />
+      <ProductComparisonSection supplementName={props.supplementName} onNavigate={props.onNavigate} />
 
       {/* References and Further Reading - Consistent padding */}
       <div className="px-6 py-8 max-w-7xl mx-auto w-full">

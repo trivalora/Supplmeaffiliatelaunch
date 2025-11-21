@@ -3,7 +3,7 @@ import {
   Bone, Activity, Eye, Shield, Heart, Sparkles,
   AlertCircle, Droplet, FlaskConical, Apple, Users,
   Pill, CheckCircle2
-} from 'lucide-react';
+} from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';

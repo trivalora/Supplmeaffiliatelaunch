@@ -3524,6 +3524,7 @@
       "brand": "Emergen-C",
       "dsld_product_name": "Turmeric & Ginger Citrus-Ginger",
       "dsld_brand": "Emergen-C",
+      "product_image_url": "",
       "best_price_per_unit": 0.0017862499999999999,
       "best_total_price": 14.29,
       "unit": "mg",
@@ -3536,6 +3537,7 @@
           "price_per_unit": 0.0017862499999999999,
           "product_url": "https://www.vitacost.com/emergen-c-turmeric-ginger",
           "product_name": "Emergen-C Turmeric & Ginger Citrus-Ginger -- 36 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3556,6 +3558,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "Bone Broth Protein Turmeric",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.001956086956521739,
       "best_total_price": 44.99,
       "unit": "mg",
@@ -3568,6 +3571,7 @@
           "price_per_unit": 0.001956086956521739,
           "product_url": "https://www.vitacost.com/ancient-nutrition-bone-broth-protein-turmeric",
           "product_name": "Ancient Nutrition Bone Broth Protein Turmeric -- 16.2 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3577,6 +3581,7 @@
           "price_per_unit": 0.0019569565217391303,
           "product_url": "https://www.iherb.com/pr/ancient-nutrition-bone-broth-protein-turmeric-1-lb-460-g/71288",
           "product_name": "Ancient Nutrition, Bone Broth Protein, Turmeric, 1 lb (460 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3593,6 +3598,7 @@
       "brand": "Organic Traditions",
       "dsld_product_name": "Turmeric Powder",
       "dsld_brand": "Organic Traditions",
+      "product_image_url": "",
       "best_price_per_unit": 0.002098,
       "best_total_price": 10.49,
       "unit": "mg",
@@ -3605,6 +3611,7 @@
           "price_per_unit": 0.002098,
           "product_url": "https://www.vitacost.com/organic-traditions-turmeric-powder-16-oz",
           "product_name": "Organic Traditions Turmeric Powder -- 16 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3621,6 +3628,7 @@
       "brand": "Yogi",
       "dsld_product_name": "Ginger",
       "dsld_brand": "Yogi",
+      "product_image_url": "",
       "best_price_per_unit": 0.0022400000000000002,
       "best_total_price": 4.48,
       "unit": "mg",
@@ -3633,6 +3641,7 @@
           "price_per_unit": 0.0022400000000000002,
           "product_url": "https://www.iherb.com/pr/yogi-tea-sweet-ginger-citrus-turmeric-vitality-caffeine-free-16-tea-bags-1-12-oz-32-g/107001",
           "product_name": "Yogi Tea, Sweet Ginger Citrus Turmeric Vitality, Caffeine Free, 16 Tea Bags, 1.12 oz (32 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3653,6 +3662,7 @@
       "brand": "Nature's Truth",
       "dsld_product_name": "Turmeric Curcumin + Ginger Gummies Natural Peach Flavor",
       "dsld_brand": "Nature's Truth",
+      "product_image_url": "",
       "best_price_per_unit": 0.002715,
       "best_total_price": 16.29,
       "unit": "mg",
@@ -3665,6 +3675,7 @@
           "price_per_unit": 0.002715,
           "product_url": "https://www.vitacost.com/natures-truth-turmeric-curcumin-ginger-gummies",
           "product_name": "Nature's Truth Turmeric Curcumin & Ginger Gummies Natural...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3683,6 +3694,7 @@
       "brand": "Traditional Medicinals",
       "dsld_product_name": "Organic Turmeric",
       "dsld_brand": "Traditional Medicinals",
+      "product_image_url": "",
       "best_price_per_unit": 0.0055119999999999995,
       "best_total_price": 6.89,
       "unit": "mg",
@@ -3695,6 +3707,7 @@
           "price_per_unit": 0.0055119999999999995,
           "product_url": "https://www.vitacost.com/traditional-medicinals-herbal-tea-organic-turmeric-ginger",
           "product_name": "Traditional Medicinals Herbal Tea Organic Turmeric & Ging...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3715,6 +3728,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Ginger",
       "dsld_brand": "Organic India",
+      "product_image_url": "",
       "best_price_per_unit": 0.008557142857142857,
       "best_total_price": 5.99,
       "unit": "mg",
@@ -3727,6 +3741,7 @@
           "price_per_unit": 0.008557142857142857,
           "product_url": "https://www.vitacost.com/organic-india-tulsi-turmeric-ginger-herbal-tea",
           "product_name": "Organic India Tulsi Turmeric Ginger Herbal Tea -- 18 Tea ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3749,6 +3764,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Ginger",
       "dsld_brand": "Organic India",
+      "product_image_url": "",
       "best_price_per_unit": 0.008557142857142857,
       "best_total_price": 5.99,
       "unit": "mg",
@@ -3761,6 +3777,7 @@
           "price_per_unit": 0.008557142857142857,
           "product_url": "https://www.iherb.com/pr/organic-india-tulsi-turmeric-ginger-tea-caffeine-free-18-infusion-bags-1-2-oz-34-2-g/90440",
           "product_name": "Organic India, Tulsi Tea, Turmeric Ginger, Caffeine-Free, 18 Infusion Bags, 1.2 oz (34.2 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3783,6 +3800,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Turmeric Supreme Adult Daily Gummies",
       "dsld_brand": "Gaia Herbs",
+      "product_image_url": "",
       "best_price_per_unit": 0.010345,
       "best_total_price": 20.69,
       "unit": "mg",
@@ -3795,6 +3813,7 @@
           "price_per_unit": 0.010345,
           "product_url": "https://www.vitacost.com/gaia-herbs-turmeric-supreme-adult-daily-gummies",
           "product_name": "Gaia Herbs Turmeric Supreme Adult Daily Gummies -- 40 Veg...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3811,6 +3830,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Turmeric Extract",
       "dsld_brand": "Oregon's Wild Harvest",
+      "product_image_url": "",
       "best_price_per_unit": 0.01271,
       "best_total_price": 12.71,
       "unit": "mg",
@@ -3823,6 +3843,7 @@
           "price_per_unit": 0.01271,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-turmeric-1-fl-oz",
           "product_name": "Oregon's Wild Harvest Turmeric -- 1 fl oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3841,6 +3862,7 @@
       "brand": "Planetary Herbals",
       "dsld_product_name": "Turmeric Gold 500 mg",
       "dsld_brand": "Planetary Herbals",
+      "product_image_url": "",
       "best_price_per_unit": 0.0217,
       "best_total_price": 10.85,
       "unit": "mg",
@@ -3853,6 +3875,7 @@
           "price_per_unit": 0.0217,
           "product_url": "https://www.vitacost.com/planetary-herbals-turmeric-gold-500-mg-30-capsules",
           "product_name": "Planetary Herbals Turmeric Gold\u2122 -- 500 mg - 30 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3869,6 +3892,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "C 500 mg",
       "dsld_brand": "Nature Made",
+      "product_image_url": "",
       "best_price_per_unit": 0.02198,
       "best_total_price": 10.99,
       "unit": "mg",
@@ -3881,6 +3905,7 @@
           "price_per_unit": 0.02198,
           "product_url": "https://www.vitacost.com/nature-made-turmeric-500-mg-60-capsules-4",
           "product_name": "Nature Made Turmeric -- 500 mg - 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3897,6 +3922,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Mason Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.023379999999999998,
       "best_total_price": 11.69,
       "unit": "mg",
@@ -3909,6 +3935,7 @@
           "price_per_unit": 0.023379999999999998,
           "product_url": "https://www.vitacost.com/mason-natural-turmeric-with-bioperine-optimal-absorption-for-inflammation-response-joint-health",
           "product_name": "Mason Natural Turmeric with BioPerine Optimal Absorption ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3929,6 +3956,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Turmeric 450 mg",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 0.025977777777777777,
       "best_total_price": 11.69,
       "unit": "mg",
@@ -3941,6 +3969,7 @@
           "price_per_unit": 0.025977777777777777,
           "product_url": "https://www.vitacost.com/natures-bounty-turmeric-450-mg-60-capsules",
           "product_name": "Nature's Bounty Turmeric -- 450 mg - 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3972,6 +4001,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.02665,
       "best_total_price": 15.99,
       "unit": "mg",
@@ -3984,6 +4014,7 @@
           "price_per_unit": 0.02665,
           "product_url": "https://www.vitacost.com/solaray-turmeric-full-spectrum-extract",
           "product_name": "Solaray Turmeric Full Spectrum Extract -- 1 fl oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4000,6 +4031,7 @@
       "brand": "Vitacost",
       "dsld_product_name": "Turmeric Extract 800 mg",
       "dsld_brand": "Vitacost",
+      "product_image_url": "",
       "best_price_per_unit": 0.02705,
       "best_total_price": 21.64,
       "unit": "mg",
@@ -4012,6 +4044,7 @@
           "price_per_unit": 0.02705,
           "product_url": "https://www.vitacost.com/vitacost-turmeric-extract-800-mg-200-capsules",
           "product_name": "Vitacost Turmeric Extract -- 800 mg - 200 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4028,6 +4061,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Mason Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.027579999999999997,
       "best_total_price": 13.79,
       "unit": "mg",
@@ -4040,6 +4074,7 @@
           "price_per_unit": 0.027579999999999997,
           "product_url": "https://www.vitacost.com/mason-natural-tart-cherry-extract-with-turmeric",
           "product_name": "Mason Natural Tart Cherry Extract with Turmeric -- 1000 m...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4060,6 +4095,7 @@
       "brand": "Herb Pharm",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Herb Pharm",
+      "product_image_url": "",
       "best_price_per_unit": 0.02823051948051948,
       "best_total_price": 17.39,
       "unit": "mg",
@@ -4072,6 +4108,7 @@
           "price_per_unit": 0.02823051948051948,
           "product_url": "https://www.vitacost.com/herb-pharm-organic-turmeric-system-restoration",
           "product_name": "Herb Pharm Organic Turmeric System Restoration -- 1 fl oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4091,6 +4128,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.02965,
       "best_total_price": 17.79,
       "unit": "mg",
@@ -4103,6 +4141,7 @@
           "price_per_unit": 0.02965,
           "product_url": "https://supplementwarehouse.com/products/sol-turmeric-rt-ext-300mg-60c/?expa_m=search&expa_st=curcumin",
           "product_name": "Solaray Turmeric Root Extract 300mg 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4112,6 +4151,7 @@
           "price_per_unit": 0.04848333333333333,
           "product_url": "https://www.vitacost.com/solaray-turmeric",
           "product_name": "Solaray Turmeric -- 60 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4128,6 +4168,7 @@
       "brand": "Purity Products",
       "dsld_product_name": "Chris Kilham's Clinical Curcumin",
       "dsld_brand": "Purity Products",
+      "product_image_url": "",
       "best_price_per_unit": 0.03076153846153846,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -4140,6 +4181,7 @@
           "price_per_unit": 0.03076153846153846,
           "product_url": "https://www.gnc.com/joint-support/591123.html",
           "product_name": "Purity Products\u00ae\nChris Kilham's Clinical Curcumin\u2122 - 90 Capsules (30 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4160,6 +4202,7 @@
       "brand": "Qunol",
       "dsld_product_name": "Extra Strength Turmeric 1000 mg",
       "dsld_brand": "Qunol",
+      "product_image_url": "",
       "best_price_per_unit": 0.032990000000000005,
       "best_total_price": 32.99,
       "unit": "mg",
@@ -4172,6 +4215,7 @@
           "price_per_unit": 0.032990000000000005,
           "product_url": "https://www.vitacost.com/qunol-extra-strength-turmeric",
           "product_name": "Qunol Extra Strength Turmeric -- 1000 mg - 120 Vegetarian...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4188,6 +4232,7 @@
       "brand": "GNC",
       "dsld_product_name": "TriFlex",
       "dsld_brand": "GNC",
+      "product_image_url": "",
       "best_price_per_unit": 0.033325,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -4200,6 +4245,7 @@
           "price_per_unit": 0.033325,
           "product_url": "https://www.gnc.com/joint-support/306031.html",
           "product_name": "GNC\nTriFlex Joint Support Turmeric Formula - 60 Capsules (30 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4224,6 +4270,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Curcumin Phytosome 1000 mg",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.034,
       "best_total_price": 34.0,
       "unit": "mg",
@@ -4236,6 +4283,7 @@
           "price_per_unit": 0.034,
           "product_url": "https://www.vitacost.com/thorne-curcumin-phytosome-1000-mg-60-capsules",
           "product_name": "Thorne Curcumin Phytosome -- 1000 mg - 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4252,6 +4300,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.03448333333333334,
       "best_total_price": 20.69,
       "unit": "mg",
@@ -4264,6 +4313,7 @@
           "price_per_unit": 0.03448333333333334,
           "product_url": "https://www.vitacost.com/solaray-siliverin-with-dandelion-turmeric-milk-thistle",
           "product_name": "Solaray Siliverin\u2122 with Dandelion Turmeric & Milk Thistle...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4280,6 +4330,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.03495,
       "best_total_price": 27.96,
       "unit": "mg",
@@ -4292,6 +4343,7 @@
           "price_per_unit": 0.03495,
           "product_url": "https://www.vitacost.com/ancient-nutrition-organic-turmeric",
           "product_name": "Ancient Nutrition Organic Turmeric -- 30 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4310,6 +4362,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.03998333333333333,
       "best_total_price": 23.99,
       "unit": "mg",
@@ -4322,6 +4375,7 @@
           "price_per_unit": 0.03998333333333333,
           "product_url": "https://www.vitacost.com/solaray-prosorb-turmeric-29x",
           "product_name": "Solaray Prosorb Turmeric 29x -- 30 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4338,6 +4392,7 @@
       "brand": "Himalaya",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Himalaya",
+      "product_image_url": "",
       "best_price_per_unit": 0.040057142857142854,
       "best_total_price": 14.02,
       "unit": "mg",
@@ -4350,6 +4405,7 @@
           "price_per_unit": 0.040057142857142854,
           "product_url": "https://www.vitacost.com/himalaya-turmeric-soft-chews",
           "product_name": "Himalaya Turmeric Soft Chews -- 30 Soft Chews",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4368,6 +4424,7 @@
       "brand": "Planetary Herbals",
       "dsld_product_name": "Turmeric Gold 500 mg",
       "dsld_brand": "Planetary Herbals",
+      "product_image_url": "",
       "best_price_per_unit": 0.04158,
       "best_total_price": 20.79,
       "unit": "mg",
@@ -4380,6 +4437,7 @@
           "price_per_unit": 0.04158,
           "product_url": "https://www.vitacost.com/planetary-herbals-turmeric-gold-500-mg-60-capsules-1",
           "product_name": "Planetary Herbals Turmeric Gold\u2122 -- 500 mg - 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4396,6 +4454,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "CurcuminUP",
       "dsld_brand": "California Gold Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.04665,
       "best_total_price": 9.33,
       "unit": "mg",
@@ -4408,6 +4467,7 @@
           "price_per_unit": 0.04665,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-curcuminup-30-fish-gelatin-softgels/73598",
           "product_name": "California Gold Nutrition, CurcuminUP\u2122, 30 Fish Gelatin Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4424,6 +4484,7 @@
       "brand": "Life Extension",
       "dsld_product_name": "Black Cumin Seed Oil",
       "dsld_brand": "Life Extension",
+      "product_image_url": "",
       "best_price_per_unit": 0.048,
       "best_total_price": 24.0,
       "unit": "mg",
@@ -4436,6 +4497,7 @@
           "price_per_unit": 0.048,
           "product_url": "https://supplementwarehouse.com/products/le-black-cumin-seed-oil-w-curcumin-elite-turmeric-extract-60sg/?expa_m=search&expa_st=curcumin",
           "product_name": "Life Extension Black Cumin Seed Oil W/ Curcumin Elite Turmeric Extract 60 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4445,6 +4507,7 @@
           "price_per_unit": 0.048,
           "product_url": "https://www.vitacost.com/life-extension-black-cumin-seed-oil-and-curcumin-elite",
           "product_name": "Life Extension Black Cumin Seed Oil and Curcumin Elite --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4461,6 +4524,7 @@
       "brand": "Jarrow Formulas",
       "dsld_product_name": "Curcumin Phytosome 500 mg",
       "dsld_brand": "Jarrow Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 0.048979999999999996,
       "best_total_price": 24.49,
       "unit": "mg",
@@ -4473,6 +4537,7 @@
           "price_per_unit": 0.048979999999999996,
           "product_url": "https://www.vitacost.com/jarrow-formulas-curcumin-phytosome",
           "product_name": "Jarrow Formulas Curcumin Phytosome -- 500 mg - 60 Veggie ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4492,6 +4557,7 @@
       "brand": "Jarrow Formulas",
       "dsld_product_name": "Curcumin 95 500 mg",
       "dsld_brand": "Jarrow Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 0.051347368421052635,
       "best_total_price": 24.39,
       "unit": "mg",
@@ -4504,6 +4570,7 @@
           "price_per_unit": 0.051347368421052635,
           "product_url": "https://www.vitacost.com/jarrow-formulas-curcumin-95",
           "product_name": "Jarrow Formulas Curcumin 95 -- 500 mg - 60 Veggie Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4524,6 +4591,7 @@
       "brand": "Paradise",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Paradise",
+      "product_image_url": "",
       "best_price_per_unit": 0.05196,
       "best_total_price": 12.99,
       "unit": "mg",
@@ -4536,6 +4604,7 @@
           "price_per_unit": 0.05196,
           "product_url": "https://www.vitacost.com/paradise-herbs-turmeric-90-vegetarian-capsules-4",
           "product_name": "Paradise Herbs Turmeric -- 90 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4552,6 +4621,7 @@
       "brand": "NOW",
       "dsld_product_name": "Turmeric & Bromelain",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.05563333333333334,
       "best_total_price": 16.69,
       "unit": "mg",
@@ -4564,6 +4634,7 @@
           "price_per_unit": 0.05563333333333334,
           "product_url": "https://www.vitacost.com/now-turmeric-bromelain",
           "product_name": "NOW Turmeric & Bromelain -- 90 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4583,6 +4654,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Turmeric Force",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.059343749999999994,
       "best_total_price": 18.99,
       "unit": "mg",
@@ -4595,6 +4667,7 @@
           "price_per_unit": 0.059343749999999994,
           "product_url": "https://www.vitacost.com/new-chapter-turmeric-force-30-vegetarian-capsules",
           "product_name": "New Chapter Turmeric Force\u2122 -- 30 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4616,6 +4689,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Curcumin Phytosome 1000 mg",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.06,
       "best_total_price": 60.0,
       "unit": "mg",
@@ -4628,6 +4702,7 @@
           "price_per_unit": 0.06,
           "product_url": "https://www.vitacost.com/thorne-curcumin-phytosome",
           "product_name": "Thorne Curcumin Phytosome -- 1000 mg - 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4644,6 +4719,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Turmeric 300 mg",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.06242105263157895,
       "best_total_price": 17.79,
       "unit": "mg",
@@ -4656,6 +4732,7 @@
           "price_per_unit": 0.06242105263157895,
           "product_url": "https://www.vitacost.com/solaray-turmeric-300-mg-60-vegcaps",
           "product_name": "Solaray Turmeric -- 300 mg - 60 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4672,6 +4749,7 @@
       "brand": "Bio Nutrition",
       "dsld_product_name": "Curcumin 500",
       "dsld_brand": "Bio Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.06356,
       "best_total_price": 15.89,
       "unit": "mg",
@@ -4684,6 +4762,7 @@
           "price_per_unit": 0.06356,
           "product_url": "https://www.vitacost.com/bio-nutrition-curcumin-500-50-vegetarian-capsules",
           "product_name": "Bio Nutrition Curcumin 500 -- 50 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4704,6 +4783,7 @@
       "brand": "Terry Naturally",
       "dsld_product_name": "Curacel",
       "dsld_brand": "Terry Naturally",
+      "product_image_url": "",
       "best_price_per_unit": 0.06793689320388349,
       "best_total_price": 27.99,
       "unit": "mg",
@@ -4716,6 +4796,7 @@
           "price_per_unit": 0.06793689320388349,
           "product_url": "https://www.vitacost.com/terry-naturally-animal-health-dog-curacel-curcumin-healthy-aging",
           "product_name": "Terry Naturally Animal Health Dog Curacel Curcumin Health...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4735,6 +4816,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Turmeric With Meriva 500 mg",
       "dsld_brand": "Source Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.06918,
       "best_total_price": 34.59,
       "unit": "mg",
@@ -4747,6 +4829,7 @@
           "price_per_unit": 0.06918,
           "product_url": "https://www.vitacost.com/source-naturals-turmeric-with-meriva",
           "product_name": "Source Naturals Turmeric with Meriva\u00ae -- 500 mg - 120 Cap...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4766,6 +4849,7 @@
       "brand": "Planetary Herbals",
       "dsld_product_name": "Turmeric Gold 500 mg",
       "dsld_brand": "Planetary Herbals",
+      "product_image_url": "",
       "best_price_per_unit": 0.06918,
       "best_total_price": 34.59,
       "unit": "mg",
@@ -4778,6 +4862,7 @@
           "price_per_unit": 0.06918,
           "product_url": "https://www.vitacost.com/planetary-herbals-turmeric-gold-500-mg-120-capsules-1",
           "product_name": "Planetary Herbals Turmeric Gold\u2122 -- 500 mg - 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4794,6 +4879,7 @@
       "brand": "Nature's Plus Herbal Actives ",
       "dsld_product_name": "Turmeric 400 mg",
       "dsld_brand": "NaturesPlus Herbal Actives",
+      "product_image_url": "",
       "best_price_per_unit": 0.07257894736842105,
       "best_total_price": 27.58,
       "unit": "mg",
@@ -4806,6 +4892,7 @@
           "price_per_unit": 0.07257894736842105,
           "product_url": "https://www.vitacost.com/naturesplus-herbal-actives-turmeric",
           "product_name": "NaturesPlus Herbal Actives Turmeric -- 400 mg - 60 Vegeta...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4822,6 +4909,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Curcumin Advanced",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.07498,
       "best_total_price": 37.49,
       "unit": "mg",
@@ -4834,6 +4922,7 @@
           "price_per_unit": 0.07498,
           "product_url": "https://www.vitacost.com/dr-mercola-curcumin-advanced-500-mg-30-capsules",
           "product_name": "Dr. Mercola Curcumin Advanced -- 500 mg - 30 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4850,6 +4939,7 @@
       "brand": "Himalaya",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Himalaya",
+      "product_image_url": "",
       "best_price_per_unit": 0.07511428571428572,
       "best_total_price": 26.29,
       "unit": "mg",
@@ -4862,6 +4952,7 @@
           "price_per_unit": 0.07511428571428572,
           "product_url": "https://www.vitacost.com/himalaya-turmeric-95",
           "product_name": "Himalaya Turmeric 95\u2122 -- 60 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4880,6 +4971,7 @@
       "brand": "Further Food",
       "dsld_product_name": "Superfood Turmeric",
       "dsld_brand": "Further Food",
+      "product_image_url": "",
       "best_price_per_unit": 0.07854761904761905,
       "best_total_price": 32.99,
       "unit": "mg",
@@ -4892,6 +4984,7 @@
           "price_per_unit": 0.07854761904761905,
           "product_url": "https://www.vitacost.com/further-food-superfood-turmeric-powder-blend",
           "product_name": "Further Food Superfood Turmeric Powder Blend -- 6.35 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4908,6 +5001,7 @@
       "brand": "Jarrow Formulas",
       "dsld_product_name": "Curcumin 95 500 mg",
       "dsld_brand": "Jarrow Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 0.0804,
       "best_total_price": 38.19,
       "unit": "mg",
@@ -4920,6 +5014,7 @@
           "price_per_unit": 0.0804,
           "product_url": "https://www.vitacost.com/jarrow-formulas-curcumin-95-500-mg-120-veggie-caps",
           "product_name": "Jarrow Formulas Curcumin 95 -- 500 mg - 120 Veggie Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4939,6 +5034,7 @@
       "brand": "Irwin Naturals",
       "dsld_product_name": "Whole-Body Turmeric + Curcumin C3 Complex",
       "dsld_brand": "Irwin Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.082475,
       "best_total_price": 32.99,
       "unit": "mg",
@@ -4951,6 +5047,7 @@
           "price_per_unit": 0.082475,
           "product_url": "https://www.vitacost.com/irwin-naturals-whole-body-turmeric-curcumin-c3-complex-value-size",
           "product_name": "Irwin Naturals Whole-Body Turmeric + Curcumin C3 Complex ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4969,6 +5066,7 @@
       "brand": "Health Thru Nutrition",
       "dsld_product_name": "Curcu-Gel",
       "dsld_brand": "Health Thru Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.08304615384615384,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -4981,6 +5079,7 @@
           "price_per_unit": 0.08304615384615384,
           "product_url": "https://www.vitacost.com/health-thru-nutrition-curcu-gel-bcm-95-curcumin-non-gmo",
           "product_name": "Health Thru Nutrition Curcu-Gel BCM-95 Curcumin Non-GMO -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5001,6 +5100,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Turmeric Force",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.08590624999999999,
       "best_total_price": 27.49,
       "unit": "mg",
@@ -5013,6 +5113,7 @@
           "price_per_unit": 0.08590624999999999,
           "product_url": "https://www.vitacost.com/new-chapter-turmeric-force-60-vegetarian-capsule",
           "product_name": "New Chapter Turmeric Force\u2122 -- 60 Vegetarian Capsule",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5034,6 +5135,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Curcumin Phytosome 500 mg",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.094,
       "best_total_price": 47.0,
       "unit": "mg",
@@ -5046,6 +5148,7 @@
           "price_per_unit": 0.094,
           "product_url": "https://www.vitacost.com/thorne-curcumin-phytosome-sustained-release",
           "product_name": "Thorne Curcumin Phytosome - Sustained Release -- 500 mg -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5062,6 +5165,7 @@
       "brand": "GNC Herbal Plus",
       "dsld_product_name": "Turmeric Complex",
       "dsld_brand": "GNC Herbal Plus",
+      "product_image_url": "",
       "best_price_per_unit": 0.09996666666666666,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -5074,6 +5178,7 @@
           "price_per_unit": 0.09996666666666666,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=188802&source=productlist",
           "product_name": "GNC Herbal Plus\u00ae\nTurmeric Complex - 100 Capsules (100 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5100,6 +5205,7 @@
       "brand": "Paradise",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Paradise",
+      "product_image_url": "",
       "best_price_per_unit": 0.10556,
       "best_total_price": 26.39,
       "unit": "mg",
@@ -5112,6 +5218,7 @@
           "price_per_unit": 0.10556,
           "product_url": "https://www.vitacost.com/paradise-herbs-organics-turmeric",
           "product_name": "Paradise Herbs Organics Turmeric -- 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5128,6 +5235,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "CurcumaSorb",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 0.1328,
       "best_total_price": 66.4,
       "unit": "mg",
@@ -5140,6 +5248,7 @@
           "price_per_unit": 0.1328,
           "product_url": "https://www.vitacost.com/pure-encapsulations-curcumasorb",
           "product_name": "Pure Encapsulations CurcumaSorb -- 180 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5159,6 +5268,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Turmeric Force",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.13871875,
       "best_total_price": 44.39,
       "unit": "mg",
@@ -5171,6 +5281,7 @@
           "price_per_unit": 0.13871875,
           "product_url": "https://www.vitacost.com/new-chapter-turmeric-force-120-vegetarian-capsules",
           "product_name": "New Chapter Turmeric Force -- 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5192,6 +5303,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Berberine & Curcumin Root Extracts",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.14396666666666666,
       "best_total_price": 43.19,
       "unit": "mg",
@@ -5204,6 +5316,7 @@
           "price_per_unit": 0.14396666666666666,
           "product_url": "https://www.vitacost.com/solaray-berberine-curcumin-root-extracts",
           "product_name": "Solaray Berberine & Curcumin Root Extracts -- 60 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5224,6 +5337,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Turmeric & Bromelain 450 mg",
       "dsld_brand": "Natural Factors",
+      "product_image_url": "",
       "best_price_per_unit": 0.15846666666666667,
       "best_total_price": 23.77,
       "unit": "mg",
@@ -5236,6 +5350,7 @@
           "price_per_unit": 0.15846666666666667,
           "product_url": "https://www.vitacost.com/natural-factors-turmeric-bromelain",
           "product_name": "Natural Factors Turmeric & Bromelain -- 450 mg - 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5256,6 +5371,7 @@
       "brand": "Terry Naturally",
       "dsld_product_name": "Saffron Lift + Curcumin",
       "dsld_brand": "Terry Naturally",
+      "product_image_url": "",
       "best_price_per_unit": 0.17904,
       "best_total_price": 44.76,
       "unit": "mg",
@@ -5268,6 +5384,7 @@
           "price_per_unit": 0.17904,
           "product_url": "https://www.vitacost.com/terry-naturally-saffron-lift-curcumin",
           "product_name": "Terry Naturally Saffron Lift + Curcumin -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5284,6 +5401,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Curcumin Advanced",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.1825,
       "best_total_price": 91.25,
       "unit": "mg",
@@ -5296,6 +5414,7 @@
           "price_per_unit": 0.1825,
           "product_url": "https://www.vitacost.com/dr-mercola-curcumin-advanced-90-capsules-1",
           "product_name": "Dr. Mercola Curcumin Advanced -- 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5312,6 +5431,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "BCQ",
       "dsld_brand": "Vital Nutrients",
+      "product_image_url": "",
       "best_price_per_unit": 0.18316666666666667,
       "best_total_price": 109.9,
       "unit": "mg",
@@ -5324,6 +5444,7 @@
           "price_per_unit": 0.18316666666666667,
           "product_url": "https://www.vitacost.com/vital-nutrients-bcq-boswellia-bromelain-curcumin-quercetin-healthy-inflammatory-response",
           "product_name": "Vital Nutrients BCQ Boswellia Bromelain Curcumin & Querce...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5340,6 +5461,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "CurcuminUP",
       "dsld_brand": "California Gold Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.21350000000000002,
       "best_total_price": 42.7,
       "unit": "mg",
@@ -5352,6 +5474,7 @@
           "price_per_unit": 0.21350000000000002,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-curcuminup-with-omega-3-curcumin-complex-black-cumin-seed-oil-boswellia-and-ginger-90-fish-gelatin-softgels/97376",
           "product_name": "California Gold Nutrition, CurcuminUP\u2122 with Omega-3 Curcumin Complex, Black Cumin Seed Oil, Boswellia and Ginger, 90 Fish Gelatin Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5368,6 +5491,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "Silymarin Complex",
       "dsld_brand": "California Gold Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.2894,
       "best_total_price": 14.47,
       "unit": "mg",
@@ -5380,6 +5504,7 @@
           "price_per_unit": 0.2894,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-silymarin-complex-milk-thistle-extract-plus-dandelion-artichoke-curcumin-c3-complex-ginger-and-bioperine-120-veggie-capsules/62027",
           "product_name": "California Gold Nutrition, Silymarin Complex, Milk Thistle Extract Plus Dandelion, Artichoke, Curcumin C3 Complex\u00ae, Ginger and BioPerine\u00ae, 120 Veggie Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5396,6 +5521,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Organic Fermented Turmeric",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.2959210526315789,
       "best_total_price": 22.49,
       "unit": "mg",
@@ -5408,6 +5534,7 @@
           "price_per_unit": 0.2959210526315789,
           "product_url": "https://www.vitacost.com/dr-mercola-fermented-turmeric-60-capsules",
           "product_name": "Dr. Mercola Fermented Turmeric -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5424,6 +5551,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Turmeric & Bromelain 450 mg",
       "dsld_brand": "Natural Factors",
+      "product_image_url": "",
       "best_price_per_unit": 0.2984666666666667,
       "best_total_price": 44.77,
       "unit": "mg",
@@ -5436,6 +5564,7 @@
           "price_per_unit": 0.2984666666666667,
           "product_url": "https://www.vitacost.com/natural-factors-turmeric-bromelain-450-mg-180-capsules",
           "product_name": "Natural Factors Turmeric & Bromelain -- 450 mg - 180 Caps...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5456,6 +5585,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Fermented Turmeric",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 0.2999,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -5468,6 +5598,7 @@
           "price_per_unit": 0.2999,
           "product_url": "https://www.gnc.com/turmeric/585015.html",
           "product_name": "Codeage\nLiposomal Fermented Turmeric + Black Pepper - Curcumin & Ginger - 90 Capsules (30 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5487,6 +5618,7 @@
       "brand": "Organic Traditions",
       "dsld_product_name": "Probiotic Super Greens With Turmeric",
       "dsld_brand": "Organic Traditions",
+      "product_image_url": "",
       "best_price_per_unit": 0.3244705882352941,
       "best_total_price": 13.79,
       "unit": "mg",
@@ -5499,6 +5631,7 @@
           "price_per_unit": 0.3244705882352941,
           "product_url": "https://www.vitacost.com/organic-traditions-probiotic-super-greens-with-turmeric-3-5-oz",
           "product_name": "Organic Traditions Probiotic Super Greens with Turmeric -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5521,6 +5654,7 @@
       "brand": "BareOrganics",
       "dsld_product_name": "Turmeric Root",
       "dsld_brand": "BareOrganics",
+      "product_image_url": "",
       "best_price_per_unit": 0.3298,
       "best_total_price": 16.49,
       "unit": "mg",
@@ -5533,6 +5667,7 @@
           "price_per_unit": 0.3298,
           "product_url": "https://www.vitacost.com/bareorganics-turmeric-root-powder",
           "product_name": "BareOrganics Turmeric Root Powder -- 8 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5556,6 +5691,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.39056250000000003,
       "best_total_price": 62.49,
       "unit": "mg",
@@ -5568,6 +5704,7 @@
           "price_per_unit": 0.39056250000000003,
           "product_url": "https://www.vitacost.com/dr-mercola-fermented-turmeric-180-capsules-softgels",
           "product_name": "Dr. Mercola Fermented Turmeric -- 180 Capsules & Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5584,6 +5721,7 @@
       "brand": "Natural Factors CurcuminRich",
       "dsld_product_name": "Theracurmin",
       "dsld_brand": "Natural Factors CurcuminRich",
+      "product_image_url": "",
       "best_price_per_unit": 0.39566666666666667,
       "best_total_price": 11.87,
       "unit": "mg",
@@ -5596,6 +5734,7 @@
           "price_per_unit": 0.39566666666666667,
           "product_url": "https://www.vitacost.com/natural-factors-curcuminrich-theracurmin-30-vegetarian-capsules",
           "product_name": "Natural Factors CurcuminRich\u00ae Theracurmin\u00ae -- 30 Vegetari...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5617,6 +5756,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "Omega MonoPure Curcumin EC",
       "dsld_brand": "XYMOGEN",
+      "product_image_url": "",
       "best_price_per_unit": 0.39992,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -5629,6 +5769,7 @@
           "price_per_unit": 0.39992,
           "product_url": "https://www.vitacost.com/xymogen-omega-monopure-curcumin-ec",
           "product_name": "XYMOGEN Omega MonoPure Curcumin EC -- 30 Fish Gelatin Sof...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5645,6 +5786,7 @@
       "brand": "Revive",
       "dsld_product_name": "Cumin",
       "dsld_brand": "Revive",
+      "product_image_url": "",
       "best_price_per_unit": 0.5665,
       "best_total_price": 33.99,
       "unit": "mg",
@@ -5657,6 +5799,7 @@
           "price_per_unit": 0.5665,
           "product_url": "https://www.vitacost.com/revive-md-curcumin-c3-complex",
           "product_name": "Revive MD Curcumin C3 Complex -- 60 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5673,6 +5816,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Full Spectrum Curcumin",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.6172500000000001,
       "best_total_price": 24.69,
       "unit": "mg",
@@ -5685,6 +5829,7 @@
           "price_per_unit": 0.6172500000000001,
           "product_url": "https://www.vitacost.com/solgar-full-spectrum-curcumin-30-liquid-softgels",
           "product_name": "Solgar Full Spectrum Curcumin -- 30 Liquid Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5704,6 +5849,7 @@
       "brand": "Irwin Naturals",
       "dsld_product_name": "Mega D3 & K2 + Turmeric Extract",
       "dsld_brand": "Irwin Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.629020979020979,
       "best_total_price": 17.99,
       "unit": "mg",
@@ -5716,6 +5862,7 @@
           "price_per_unit": 0.629020979020979,
           "product_url": "https://www.iherb.com/pr/irwin-naturals-high-potency-mega-d3-k2-turmeric-extract-60-liquid-soft-gels/83353",
           "product_name": "Irwin Naturals, High Potency Mega D3 & K2 + Turmeric Extract, 60 Liquid Soft Gels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5732,6 +5879,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Curcumin Advanced",
       "dsld_brand": "NutraBio",
+      "product_image_url": "",
       "best_price_per_unit": 0.6998000000000001,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -5744,6 +5892,7 @@
           "price_per_unit": 0.6998000000000001,
           "product_url": "https://www.vitacost.com/nutrabio-curcumin-advanced",
           "product_name": "NutraBio Curcumin Advanced -- 60 Veggie Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5763,6 +5912,7 @@
       "brand": "NOW",
       "dsld_product_name": "CurcuFRESH Curcumin",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.7795,
       "best_total_price": 15.59,
       "unit": "mg",
@@ -5775,6 +5925,7 @@
           "price_per_unit": 0.7795,
           "product_url": "https://www.vitacost.com/now-curcufresh-curcumin",
           "product_name": "NOW CurcuFresh\u2122 Curcumin -- 60 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5795,6 +5946,7 @@
       "brand": "Planetary Herbals",
       "dsld_product_name": "Inflama-Care",
       "dsld_brand": "Planetary Herbals",
+      "product_image_url": "",
       "best_price_per_unit": 0.791578947368421,
       "best_total_price": 45.12,
       "unit": "mg",
@@ -5807,6 +5959,7 @@
           "price_per_unit": 0.791578947368421,
           "product_url": "https://www.iherb.com/pr/planetary-herbals-inflama-care-turmeric-boswellia-complex-120-tablets/144306",
           "product_name": "Planetary Herbals, Inflama-Care\u2122, Turmeric/Boswellia Complex, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5823,6 +5976,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "CurcumaSorb Mind",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 0.8023529411764706,
       "best_total_price": 68.2,
       "unit": "mg",
@@ -5835,6 +5989,7 @@
           "price_per_unit": 0.8023529411764706,
           "product_url": "https://www.vitacost.com/pure-encapsulations-curcumasorb-mind",
           "product_name": "Pure Encapsulations CurcumaSorb Mind -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5854,6 +6009,7 @@
       "brand": "Pure Synergy",
       "dsld_product_name": "SuperPure Turmeric",
       "dsld_brand": "Pure Synergy",
+      "product_image_url": "",
       "best_price_per_unit": 0.8334736842105264,
       "best_total_price": 39.59,
       "unit": "mg",
@@ -5866,6 +6022,7 @@
           "price_per_unit": 0.8334736842105264,
           "product_url": "https://www.vitacost.com/pure-synergy-superpure-turmeric-organic-extract",
           "product_name": "Pure Synergy SuperPure Turmeric Organic Extract -- 60 Cap...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5886,6 +6043,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Curica",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 0.8698,
       "best_total_price": 43.49,
       "unit": "mg",
@@ -5898,6 +6056,7 @@
           "price_per_unit": 0.8698,
           "product_url": "https://www.vitacost.com/natures-way-curica-turmeric-minor-pain-relief",
           "product_name": "Nature's Way Curica Turmeric - Minor Pain Relief -- 600 m...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5919,6 +6078,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Turmeric Formula",
       "dsld_brand": "Organic India",
+      "product_image_url": "",
       "best_price_per_unit": 0.8996666666666666,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -5931,6 +6091,7 @@
           "price_per_unit": 0.8996666666666666,
           "product_url": "https://www.vitacost.com/organic-india-turmeric-formula-90-vegetarian-caps",
           "product_name": "Organic India Turmeric Formula -- 90 Vegetarian Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5954,6 +6115,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Full Spectrum Curcumin",
       "dsld_brand": "Solgar",
+      "product_image_url": "",
       "best_price_per_unit": 0.9772500000000001,
       "best_total_price": 39.09,
       "unit": "mg",
@@ -5966,6 +6128,7 @@
           "price_per_unit": 0.9772500000000001,
           "product_url": "https://www.vitacost.com/solgar-full-spectrum-curcumin",
           "product_name": "Solgar Full Spectrum Curcumin -- 60 Liquid Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5985,6 +6148,7 @@
       "brand": "NOW",
       "dsld_product_name": "CurcuFRESH Curcumin",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 1.006,
       "best_total_price": 20.12,
       "unit": "mg",
@@ -5997,6 +6161,7 @@
           "price_per_unit": 1.006,
           "product_url": "https://www.vitacost.com/now-curcumin-60-softgels",
           "product_name": "NOW Curcumin -- 60 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6017,6 +6182,7 @@
       "brand": "NatureWise",
       "dsld_product_name": "Turmeric Curcumin",
       "dsld_brand": "NatureWise",
+      "product_image_url": "",
       "best_price_per_unit": 1.006,
       "best_total_price": 15.09,
       "unit": "mg",
@@ -6029,6 +6195,7 @@
           "price_per_unit": 1.006,
           "product_url": "https://www.vitacost.com/naturewise-curcumin-90-vegetarian-capsules",
           "product_name": "Naturewise Curcumin -- 90 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6049,6 +6216,7 @@
       "brand": "Premier Research Labs",
       "dsld_product_name": "Premier Fermented Turmeric Plus",
       "dsld_brand": "Premier Research Labs",
+      "product_image_url": "",
       "best_price_per_unit": 1.0185,
       "best_total_price": 40.74,
       "unit": "mg",
@@ -6061,6 +6229,7 @@
           "price_per_unit": 1.0185,
           "product_url": "https://www.vitacost.com/premier-research-labs-premier-fermented-turmeric-plus-ginger",
           "product_name": "Premier Research Labs Premier Fermented Turmeric Plus Gin...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6084,6 +6253,7 @@
       "brand": "Nature's Answer",
       "dsld_product_name": "Turmeric & Ginger",
       "dsld_brand": "Nature's Answer",
+      "product_image_url": "",
       "best_price_per_unit": 1.1048421052631578,
       "best_total_price": 26.24,
       "unit": "mg",
@@ -6096,6 +6266,7 @@
           "price_per_unit": 1.1048421052631578,
           "product_url": "https://www.vitacost.com/natures-answer-turmeric-ginger",
           "product_name": "Nature's Answer Turmeric & Ginger -- 90 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6114,6 +6285,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Turmeric 1000 1000 mg",
       "dsld_brand": "Source Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 1.189,
       "best_total_price": 11.89,
       "unit": "mg",
@@ -6126,6 +6298,7 @@
           "price_per_unit": 1.189,
           "product_url": "https://www.vitacost.com/source-naturals-turmeric-1000-1000-mg-30-tablets-1",
           "product_name": "Source Naturals Turmeric 1000\u2122 -- 1000 mg - 30 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6146,6 +6319,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Turmeric Formula Joint Mobility & Support",
       "dsld_brand": "Organic India",
+      "product_image_url": "",
       "best_price_per_unit": 1.233,
       "best_total_price": 36.99,
       "unit": "mg",
@@ -6158,6 +6332,7 @@
           "price_per_unit": 1.233,
           "product_url": "https://www.iherb.com/pr/organic-india-turmeric-formula-180-vegetarian-caps/90455",
           "product_name": "Organic India, Turmeric Formula, 180 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6167,6 +6342,7 @@
           "price_per_unit": 1.2996666666666667,
           "product_url": "https://www.vitacost.com/organic-india-turmeric-formula-180-vegetarian-caps",
           "product_name": "Organic India Turmeric Formula -- 180 Vegetarian Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6186,6 +6362,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "CurcuminRich Theracurmin",
       "dsld_brand": "Natural Factors",
+      "product_image_url": "",
       "best_price_per_unit": 1.2823333333333333,
       "best_total_price": 38.47,
       "unit": "mg",
@@ -6198,6 +6375,7 @@
           "price_per_unit": 1.2823333333333333,
           "product_url": "https://www.vitacost.com/natural-factors-curcuminrichtheracurmin",
           "product_name": "Natural Factors CurcuminRichTheracurmin -- 120 Vegetarian...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6219,6 +6397,7 @@
       "brand": "Best Naturals",
       "dsld_product_name": "Turmeric Curcumin 1500 mg",
       "dsld_brand": "Best Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 1.389,
       "best_total_price": 13.89,
       "unit": "mg",
@@ -6231,6 +6410,7 @@
           "price_per_unit": 1.389,
           "product_url": "https://www.vitacost.com/best-naturals-turmeric-curcumin-with-bioperine",
           "product_name": "Best Naturals Turmeric Curcumin with BioPerine -- 1500 mg...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6260,6 +6440,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Golden Milk",
       "dsld_brand": "Gaia Herbs",
+      "product_image_url": "",
       "best_price_per_unit": 1.5326666666666666,
       "best_total_price": 22.99,
       "unit": "calorie",
@@ -6272,6 +6453,7 @@
           "price_per_unit": 1.5326666666666666,
           "product_url": "https://www.vitacost.com/gaia-herbs-golden-milk-powdered-turmeric-blend-3-7-oz-1",
           "product_name": "Gaia Herbs Golden Milk Powdered Turmeric Blend -- 3.7 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6292,6 +6474,7 @@
       "brand": "NatureWise",
       "dsld_product_name": "Turmeric Curcumin",
       "dsld_brand": "NatureWise",
+      "product_image_url": "",
       "best_price_per_unit": 1.706,
       "best_total_price": 25.59,
       "unit": "mg",
@@ -6304,6 +6487,7 @@
           "price_per_unit": 1.706,
           "product_url": "https://www.vitacost.com/naturewise-turmeric-curcumin-plus-organic-ginger-bioperine",
           "product_name": "Naturewise Turmeric Curcumin Plus Organic Ginger & BioPer...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6324,6 +6508,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Omega Curcumin",
       "dsld_brand": "Nordic Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 1.7664,
       "best_total_price": 44.16,
       "unit": "calorie",
@@ -6336,6 +6521,7 @@
           "price_per_unit": 1.7664,
           "product_url": "https://www.vitacost.com/nordic-naturals-omega-curcumin-1250-mg-60-softgels",
           "product_name": "Nordic Naturals Omega Curcumin -- 1250 mg - 60 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6357,6 +6543,7 @@
       "brand": "Evlution Nutrition",
       "dsld_product_name": "Turmeric1500",
       "dsld_brand": "Evlution Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 1.799,
       "best_total_price": 17.99,
       "unit": "mg",
@@ -6369,6 +6556,7 @@
           "price_per_unit": 1.799,
           "product_url": "https://www.vitacost.com/evlution-nutrition-turmeric1500",
           "product_name": "Evlution Nutrition Turmeric1500 -- 90 Veggie Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6385,6 +6573,7 @@
       "brand": "Zint",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Zint",
+      "product_image_url": "",
       "best_price_per_unit": 1.963975155279503,
       "best_total_price": 15.81,
       "unit": "mg",
@@ -6397,6 +6586,7 @@
           "price_per_unit": 1.963975155279503,
           "product_url": "https://www.vitacost.com/zint-organic-turmeric-powder",
           "product_name": "Zint Organic Turmeric Powder -- 16 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6413,6 +6603,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Turmeric Supreme Sinus Support",
       "dsld_brand": "Gaia Herbs",
+      "product_image_url": "",
       "best_price_per_unit": 1.9793333333333334,
       "best_total_price": 29.69,
       "unit": "mg",
@@ -6425,6 +6616,7 @@
           "price_per_unit": 1.9793333333333334,
           "product_url": "https://www.vitacost.com/gaia-herbs-turmeric-supreme-sinus-support",
           "product_name": "Gaia Herbs Turmeric Supreme Sinus Support -- 60 Vegan Cap...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6441,6 +6633,7 @@
       "brand": "Further Food",
       "dsld_product_name": "Premium Curcumin Turmeric",
       "dsld_brand": "Further Food",
+      "product_image_url": "",
       "best_price_per_unit": 1.9989999999999999,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -6453,6 +6646,7 @@
           "price_per_unit": 1.9989999999999999,
           "product_url": "https://www.vitacost.com/further-food-premium-curcumin-turmeric-maximum-strength",
           "product_name": "Further Food Premium Curcumin Turmeric Maximum Strength -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6469,6 +6663,7 @@
       "brand": "ZHOU",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "ZHOU",
+      "product_image_url": "",
       "best_price_per_unit": 2.1390000000000002,
       "best_total_price": 21.39,
       "unit": "mg",
@@ -6481,6 +6676,7 @@
           "price_per_unit": 2.1390000000000002,
           "product_url": "https://www.vitacost.com/zhou-turmeric-curcumin-with-ginger-90-veggie-capsules",
           "product_name": "Zhou Turmeric Curcumin with Ginger -- 90 Veggie Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6499,6 +6695,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Turmeric Extract",
       "dsld_brand": "Source Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 2.1685714285714286,
       "best_total_price": 7.59,
       "unit": "mg",
@@ -6511,6 +6708,7 @@
           "price_per_unit": 2.1685714285714286,
           "product_url": "https://www.vitacost.com/source-naturals-turmeric-extract-50-tablets-1",
           "product_name": "Source Naturals Turmeric Extract -- 50 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6531,6 +6729,7 @@
       "brand": "New Nordic",
       "dsld_product_name": "Turmeric Vegan Gummies",
       "dsld_brand": "New Nordic",
+      "product_image_url": "",
       "best_price_per_unit": 2.169,
       "best_total_price": 21.69,
       "unit": "calorie",
@@ -6543,6 +6742,7 @@
           "price_per_unit": 2.169,
           "product_url": "https://www.vitacost.com/new-nordic-turmeric-vegan-gummies",
           "product_name": "New Nordic Turmeric Vegan Gummies Mango-Orange -- 60 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6563,6 +6763,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Turmeric Supreme Joint Health",
       "dsld_brand": "Gaia Herbs",
+      "product_image_url": "",
       "best_price_per_unit": 2.9690000000000003,
       "best_total_price": 29.69,
       "unit": "mg",
@@ -6575,6 +6776,7 @@
           "price_per_unit": 2.9690000000000003,
           "product_url": "https://www.vitacost.com/gaia-herbs-turmeric-supreme-joint-health",
           "product_name": "Gaia Herbs Turmeric Supreme Joint Health -- 60 Liquid Phy...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6591,6 +6793,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Oregon's Wild Harvest",
+      "product_image_url": "",
       "best_price_per_unit": 2.9955555555555557,
       "best_total_price": 26.96,
       "unit": "mg",
@@ -6603,6 +6806,7 @@
           "price_per_unit": 2.9955555555555557,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-turmeric",
           "product_name": "Oregon's Wild Harvest Turmeric -- 60 Vegan Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6621,6 +6825,7 @@
       "brand": "BioSchwartz",
       "dsld_product_name": "Turmeric + Ginger",
       "dsld_brand": "BioSchwartz",
+      "product_image_url": "",
       "best_price_per_unit": 2.997,
       "best_total_price": 29.97,
       "unit": "mg",
@@ -6633,6 +6838,7 @@
           "price_per_unit": 2.997,
           "product_url": "https://www.vitacost.com/bioschwartz-turmeric-ginger-160-veggie-caps",
           "product_name": "BioSchwartz Turmeric & Ginger -- 160 Veggie Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6651,6 +6857,7 @@
       "brand": "Garden of Life Organics",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Garden of Life Organics",
+      "product_image_url": "",
       "best_price_per_unit": 3.198571428571429,
       "best_total_price": 22.39,
       "unit": "mg",
@@ -6663,6 +6870,7 @@
           "price_per_unit": 3.198571428571429,
           "product_url": "https://www.vitacost.com/garden-of-life-organics-turmeric-pain-relief-herbal-supplement",
           "product_name": "Garden of Life Organics Turmeric Pain Relief Herbal Suppl...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6681,6 +6889,7 @@
       "brand": "youtheory",
       "dsld_product_name": "Turmeric 1000 mg",
       "dsld_brand": "youtheory",
+      "product_image_url": "",
       "best_price_per_unit": 3.199,
       "best_total_price": 31.99,
       "unit": "mg",
@@ -6693,6 +6902,7 @@
           "price_per_unit": 3.199,
           "product_url": "https://www.vitacost.com/youtheory-turmeric-extra-strength-formula",
           "product_name": "Youtheory Turmeric Extra Strength Formula -- 1000 mg - 60...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6709,6 +6919,7 @@
       "brand": "Dr. Tobias",
       "dsld_product_name": "Turmeric Curcumin 1500 mg",
       "dsld_brand": "Dr. Tobias",
+      "product_image_url": "",
       "best_price_per_unit": 3.6020000000000003,
       "best_total_price": 36.02,
       "unit": "mg",
@@ -6721,6 +6932,7 @@
           "price_per_unit": 3.6020000000000003,
           "product_url": "https://www.iherb.com/pr/dr-tobias-turmeric-curcumin-120-veggie-capsules/102237",
           "product_name": "Dr. Tobias, Turmeric Curcumin, 120 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6737,6 +6949,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Turmeric Supreme Extra Strength",
       "dsld_brand": "Gaia Herbs",
+      "product_image_url": "",
       "best_price_per_unit": 3.807142857142857,
       "best_total_price": 26.65,
       "unit": "mg",
@@ -6749,6 +6962,7 @@
           "price_per_unit": 3.807142857142857,
           "product_url": "https://www.vitacost.com/gaia-herbs-turmeric-supreme-extra-strength-gummies",
           "product_name": "Gaia Herbs Turmeric Supreme Extra Strength Gummies -- 60 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6765,6 +6979,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Turmeric Supreme Pain",
       "dsld_brand": "Gaia Herbs",
+      "product_image_url": "",
       "best_price_per_unit": 4.139,
       "best_total_price": 41.39,
       "unit": "mg",
@@ -6777,6 +6992,7 @@
           "price_per_unit": 4.139,
           "product_url": "https://www.vitacost.com/gaia-herbs-turmeric-supreme-pain-p-m",
           "product_name": "Gaia Herbs Turmeric Supreme Pain P.M. -- 60 Vegan Phyto-Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6793,6 +7009,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Turmeric",
       "dsld_brand": "Oregon's Wild Harvest",
+      "product_image_url": "",
       "best_price_per_unit": 4.495555555555556,
       "best_total_price": 40.46,
       "unit": "mg",
@@ -6805,6 +7022,7 @@
           "price_per_unit": 4.495555555555556,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-turmeric-120-vegan-capsules",
           "product_name": "Oregon's Wild Harvest Turmeric -- 120 Vegan Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6824,6 +7042,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Turmeric Supreme Extra Strength",
       "dsld_brand": "Gaia Herbs",
+      "product_image_url": "",
       "best_price_per_unit": 4.755714285714285,
       "best_total_price": 33.29,
       "unit": "mg",
@@ -6836,6 +7055,7 @@
           "price_per_unit": 4.755714285714285,
           "product_url": "https://www.vitacost.com/gaia-herbs-turmeric-supreme-extra-strength-gummies-120-vegan-gummies",
           "product_name": "Gaia Herbs Turmeric Supreme Extra Strength Gummies -- 120...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6852,6 +7072,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Turmeric Supreme Joint",
       "dsld_brand": "Gaia Herbs",
+      "product_image_url": "",
       "best_price_per_unit": 5.129,
       "best_total_price": 51.29,
       "unit": "mg",
@@ -6864,6 +7085,7 @@
           "price_per_unit": 5.129,
           "product_url": "https://www.vitacost.com/gaia-herbs-turmeric-supreme-joint-health-120-liquid-phyto-caps",
           "product_name": "Gaia Herbs Turmeric Supreme Joint Health -- 120 Liquid Ph...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6880,6 +7102,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Curcumin 500 with Bioperine",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 6.037735849056604,
       "best_total_price": 32.0,
       "unit": "mg",
@@ -6892,6 +7115,7 @@
           "price_per_unit": 6.037735849056604,
           "product_url": "https://www.vitacost.com/pure-encapsulations-curcumin-60-capsules-1",
           "product_name": "Pure Encapsulations Curcumin -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6911,6 +7135,7 @@
       "brand": "Doctor's Best",
       "dsld_product_name": "High Absorption Curcumin 1000 mg",
       "dsld_brand": "Doctor's Best",
+      "product_image_url": "",
       "best_price_per_unit": 7.218000000000001,
       "best_total_price": 36.09,
       "unit": "mg",
@@ -6923,6 +7148,7 @@
           "price_per_unit": 7.218000000000001,
           "product_url": "https://www.vitacost.com/doctors-best-high-absorption-curcumin",
           "product_name": "Doctor's Best High Absorption Curcumin -- 1000 mg - 120 V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6939,6 +7165,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Turmeric Curcumin Extra Strength",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 8.33,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -6951,6 +7178,7 @@
           "price_per_unit": 8.33,
           "product_url": "https://www.vitacost.com/megafood-turmeric-curcumin-extra-strength-whole-body-with-black-pepper-60-tablets",
           "product_name": "MegaFood Turmeric Curcumin Extra Strength Whole Body with...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6975,6 +7203,7 @@
       "brand": "Nature's Truth",
       "dsld_product_name": "Double Strength Glucosamine Chondroitin MSM & Turmeric Complex",
       "dsld_brand": "Nature's Truth",
+      "product_image_url": "",
       "best_price_per_unit": 9.026666666666666,
       "best_total_price": 13.54,
       "unit": "mg",
@@ -6987,6 +7216,7 @@
           "price_per_unit": 9.026666666666666,
           "product_url": "https://www.iherb.com/pr/nature-s-truth-glucosamine-chondroitin-msm-turmeric-complex-90-coated-caplets/122744",
           "product_name": "Nature's Truth, Double Strength Glucosamine Chondroitin MSM & Turmeric Complex, 90 Coated Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7005,6 +7235,7 @@
       "brand": "Planetary Herbals",
       "dsld_product_name": "Full Spectrum Turmeric",
       "dsld_brand": "Planetary Herbals",
+      "product_image_url": "",
       "best_price_per_unit": 9.29,
       "best_total_price": 9.29,
       "unit": "ml",
@@ -7017,6 +7248,7 @@
           "price_per_unit": 9.29,
           "product_url": "https://www.vitacost.com/planetary-herbals-turmeric-full-spectrum",
           "product_name": "Planetary Herbals Turmeric Full Spectrum -- 2 fl oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7033,6 +7265,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Daily Turmeric Nutrient Booster Powder",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 9.495,
       "best_total_price": 18.99,
       "unit": "mg",
@@ -7045,6 +7278,7 @@
           "price_per_unit": 9.495,
           "product_url": "https://www.vitacost.com/megafood-daily-turmeric-nutrient-booster-powder-with-black-pepper",
           "product_name": "MegaFood Daily Turmeric Nutrient Booster Powder with Blac...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7068,6 +7302,7 @@
       "brand": "Davinci Laboratories",
       "dsld_product_name": "Curcumin C3 Complex 500 mg",
       "dsld_brand": "DaVinci Laboratories",
+      "product_image_url": "",
       "best_price_per_unit": 9.916,
       "best_total_price": 49.58,
       "unit": "mg",
@@ -7080,6 +7315,7 @@
           "price_per_unit": 9.916,
           "product_url": "https://www.vitacost.com/davinci-laboratories-curcumin-c3-complex",
           "product_name": "DaVinci Laboratories Curcumin C3 Complex -- 500 mg - 60 C...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7099,6 +7335,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Curcumin 500 with Bioperine",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 11.056603773584905,
       "best_total_price": 58.6,
       "unit": "mg",
@@ -7111,6 +7348,7 @@
           "price_per_unit": 11.056603773584905,
           "product_url": "https://www.vitacost.com/pure-encapsulations-curcumin",
           "product_name": "Pure Encapsulations Curcumin -- 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7130,6 +7368,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Curcumin 500 with Bioperine",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 15.584905660377357,
       "best_total_price": 82.6,
       "unit": "mg",
@@ -7142,6 +7381,7 @@
           "price_per_unit": 15.584905660377357,
           "product_url": "https://www.vitacost.com/pure-encapsulations-curcumin-500-with-bioperine-120-capsules",
           "product_name": "Pure Encapsulations Curcumin 500 with Bioperine\u00ae -- 120 C...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7161,6 +7401,7 @@
       "brand": "Planetary Herbals",
       "dsld_product_name": "Full Spectrum Turmeric",
       "dsld_brand": "Planetary Herbals",
+      "product_image_url": "",
       "best_price_per_unit": 17.39,
       "best_total_price": 17.39,
       "unit": "ml",
@@ -7173,6 +7414,7 @@
           "price_per_unit": 17.39,
           "product_url": "https://www.vitacost.com/planetary-herbals-full-spectrum-turmeric-4-fl-oz",
           "product_name": "Planetary Herbals Full Spectrum\u2122 Turmeric -- 4 fl oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7189,6 +7431,7 @@
       "brand": "Eu Natural",
       "dsld_product_name": "Primal",
       "dsld_brand": "Eu Natural",
+      "product_image_url": "",
       "best_price_per_unit": 74.975,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -7201,6 +7444,7 @@
           "price_per_unit": 74.975,
           "product_url": "https://www.vitacost.com/eu-natural-primal-move-turmeric-boswellia-joint-mobility-support",
           "product_name": "Eu Natural Primal Move - Turmeric + Boswellia Joint & Mob...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }

@@ -3523,6 +3523,7 @@
       "brand": "OLLY",
       "dsld_product_name": "Extra Strength Probiotic Juicy Apple",
       "dsld_brand": "OLLY",
+      "product_image_url": "",
       "best_price_per_unit": 0.0056300000000000005,
       "best_total_price": 16.89,
       "unit": "mg",
@@ -3535,6 +3536,7 @@
           "price_per_unit": 0.0056300000000000005,
           "product_url": "https://www.vitacost.com/olly-probiotic-extra-strength",
           "product_name": "Olly Probiotic Extra Strength Juicy Apple -- 50 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3554,6 +3556,7 @@
       "brand": "OLLY",
       "dsld_product_name": "Kids Multi + Probiotic Yum Berry Punch",
       "dsld_brand": "OLLY",
+      "product_image_url": "",
       "best_price_per_unit": 0.006595,
       "best_total_price": 13.19,
       "unit": "mg",
@@ -3566,6 +3569,7 @@
           "price_per_unit": 0.006595,
           "product_url": "https://www.vitacost.com/olly-kids-multi-plus-probiotic",
           "product_name": "Olly Kids Multi plus Probiotic Yum Berry Punch -- 70 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3582,6 +3586,7 @@
       "brand": "NutraChamps",
       "dsld_product_name": "Super Greens",
       "dsld_brand": "NutraChamps",
+      "product_image_url": "",
       "best_price_per_unit": 0.0079875,
       "best_total_price": 31.95,
       "unit": "mg",
@@ -3594,6 +3599,7 @@
           "price_per_unit": 0.0079875,
           "product_url": "https://www.vitacost.com/nutrachamps-super-greens-powder-with-superfoods-probiotics-enzymes",
           "product_name": "NutraChamps Super Greens Powder with Superfoods Probiotic...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3616,6 +3622,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Cranberry",
       "dsld_brand": "Mason Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.009433333333333334,
       "best_total_price": 8.49,
       "unit": "mg",
@@ -3628,6 +3635,7 @@
           "price_per_unit": 0.009433333333333334,
           "product_url": "https://www.vitacost.com/mason-natural-cranberry-with-probiotic-highly-concentrated",
           "product_name": "Mason Natural Cranberry With Probiotic Highly Concentrate...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3644,6 +3652,7 @@
       "brand": "youtheory",
       "dsld_product_name": "Probiotic",
       "dsld_brand": "youtheory",
+      "product_image_url": "",
       "best_price_per_unit": 0.01499,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -3656,6 +3665,7 @@
           "price_per_unit": 0.01499,
           "product_url": "https://www.vitacost.com/youtheory-glp-1-support-probiotic-capsules",
           "product_name": "Youtheory GLP-1 Support Probiotic Capsules -- 30 Vegetari...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3672,6 +3682,7 @@
       "brand": "OLLY",
       "dsld_product_name": "Kids Multi + Probiotic Yum Berry Punch",
       "dsld_brand": "OLLY",
+      "product_image_url": "",
       "best_price_per_unit": 0.016989999999999998,
       "best_total_price": 16.99,
       "unit": "mg",
@@ -3684,6 +3695,7 @@
           "price_per_unit": 0.016989999999999998,
           "product_url": "https://www.vitacost.com/olly-kids-multi-plus-probiotic-yum-berry-punch",
           "product_name": "Olly Kids Multi Plus Probiotic Yum Berry Punch -- 100 Gum...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3700,6 +3712,7 @@
       "brand": "NOW",
       "dsld_product_name": "Probiotic-10 & Bifido Boost",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.01719,
       "best_total_price": 17.19,
       "unit": "mg",
@@ -3712,6 +3725,7 @@
           "price_per_unit": 0.01719,
           "product_url": "https://www.vitacost.com/now-probiotic-10-bifido-boost",
           "product_name": "NOW Probiotic-10 & Bifido Boost -- 90 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3732,6 +3746,7 @@
       "brand": "Nutrition Now",
       "dsld_product_name": "PB 8 Probiotic",
       "dsld_brand": "Nutrition Now",
+      "product_image_url": "",
       "best_price_per_unit": 0.01985430463576159,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -3744,6 +3759,7 @@
           "price_per_unit": 0.01985430463576159,
           "product_url": "https://www.vitacost.com/nutrition-now-pb-8-probiotic-120-vegetarian-capsules",
           "product_name": "Nutrition Now PB 8 Probiotic -- 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3763,6 +3779,7 @@
       "brand": "NOW",
       "dsld_product_name": "Probiotic-10 50 Billion Powder",
       "dsld_brand": "NOW",
+      "product_image_url": "",
       "best_price_per_unit": 0.02059,
       "best_total_price": 20.59,
       "unit": "mg",
@@ -3775,6 +3792,7 @@
           "price_per_unit": 0.02059,
           "product_url": "https://www.vitacost.com/now-probiotic-10-50-billion-powder",
           "product_name": "NOW Probiotic-10\u2122 50 Billion Powder -- 2 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3796,6 +3814,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Cinnamon",
       "dsld_brand": "Organic India",
+      "product_image_url": "",
       "best_price_per_unit": 0.027676923076923075,
       "best_total_price": 17.99,
       "unit": "mg",
@@ -3808,6 +3827,7 @@
           "price_per_unit": 0.027676923076923075,
           "product_url": "https://www.vitacost.com/organic-india-psyllium-pre-probiotic-fiber-cinnamon-spice",
           "product_name": "Organic India Psyllium Pre & Probiotic Fiber Cinnamon Spi...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3830,6 +3850,7 @@
       "brand": "Codeage",
       "dsld_product_name": "SBO Probiotic+ 100 Billion CFU",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 0.031537854889589906,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -3842,6 +3863,7 @@
           "price_per_unit": 0.031537854889589906,
           "product_url": "https://www.iherb.com/pr/codeage-sbo-probiotic-50-billion-cfu-90-capsules/104051",
           "product_name": "Codeage, SBO Probiotic+, 50 Billion CFU, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3858,6 +3880,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Complete Probiotics",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.0398936170212766,
       "best_total_price": 15.0,
       "unit": "mg",
@@ -3870,6 +3893,7 @@
           "price_per_unit": 0.0398936170212766,
           "product_url": "https://www.vitacost.com/dr-mercola-organic-complete-probiotics-gummies-for-kids",
           "product_name": "Dr. Mercola Organic Complete Probiotics Gummies for Kids ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3886,6 +3910,7 @@
       "brand": "Force Factor ",
       "dsld_product_name": "ProbioSlim",
       "dsld_brand": "Force Factor",
+      "product_image_url": "",
       "best_price_per_unit": 0.04617375231053605,
       "best_total_price": 24.98,
       "unit": "mg",
@@ -3898,6 +3923,7 @@
           "price_per_unit": 0.04617375231053605,
           "product_url": "https://www.vitacost.com/force-factor-probioslim-extra-strength-probiotics",
           "product_name": "Force Factor ProbioSlim\u00ae Extra Strength Probiotics -- 30 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3914,6 +3940,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "CranRx",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 0.04958,
       "best_total_price": 24.79,
       "unit": "mg",
@@ -3926,6 +3953,7 @@
           "price_per_unit": 0.04958,
           "product_url": "https://www.vitacost.com/natures-way-womens-care-cranrx-with-probiotics-with-vitamin-c-cranberry",
           "product_name": "Nature's Way Women's Care CranRx with Probiotics - with V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3946,6 +3974,7 @@
       "brand": "Zenwise Labs",
       "dsld_product_name": "Digestive Enzymes",
       "dsld_brand": "Zenwise",
+      "product_image_url": "",
       "best_price_per_unit": 0.049925,
       "best_total_price": 19.97,
       "unit": "mg",
@@ -3958,6 +3987,7 @@
           "price_per_unit": 0.049925,
           "product_url": "https://www.vitacost.com/zenwise-womens-probiotic-plus-10-digestive-enzymes",
           "product_name": "Zenwise Women's Probiotic Plus 10 Digestive Enzymes -- 60...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3974,6 +4004,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Acidophilus Probiotic Blend",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.05422857142857143,
       "best_total_price": 9.49,
       "unit": "mg",
@@ -3986,6 +4017,7 @@
           "price_per_unit": 0.05422857142857143,
           "product_url": "https://www.iherb.com/pr/21st-century-acidophilus-probiotic-blend-100-capsules/11193",
           "product_name": "21st Century, Acidophilus Probiotic Blend, 100 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4004,6 +4036,7 @@
       "brand": "Flora",
       "dsld_product_name": "Women's Care Probiotic 87 Billion Cells",
       "dsld_brand": "Flora",
+      "product_image_url": "",
       "best_price_per_unit": 0.056190476190476187,
       "best_total_price": 21.24,
       "unit": "mg",
@@ -4016,6 +4049,7 @@
           "price_per_unit": 0.056190476190476187,
           "product_url": "https://www.vitacost.com/flora-womens-care-probiotic",
           "product_name": "Flora Women's Care Probiotic -- 30 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4034,6 +4068,7 @@
       "brand": "Amen",
       "dsld_product_name": "SBO Probiotic 50 Billion CFU",
       "dsld_brand": "Amen",
+      "product_image_url": "",
       "best_price_per_unit": 0.061340909090909085,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -4046,6 +4081,7 @@
           "price_per_unit": 0.061340909090909085,
           "product_url": "https://www.vitacost.com/amen-sbo-probiotic-50-billion-cfu-vegan-multi-strain-soil-based-prebiotics",
           "product_name": "AMEN SBO Probiotic 50 Billion CFU Vegan Multi Strain Soil...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4064,6 +4100,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Acidophilus Probiotic Blend",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.06851428571428572,
       "best_total_price": 11.99,
       "unit": "mg",
@@ -4076,6 +4113,7 @@
           "price_per_unit": 0.06851428571428572,
           "product_url": "https://www.iherb.com/pr/21st-century-acidophilus-probiotic-blend-150-capsules/12535",
           "product_name": "21st Century, Acidophilus Probiotic Blend, 150 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4094,6 +4132,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Ultimate Probiotic Women's",
       "dsld_brand": "Natural Factors",
+      "product_image_url": "",
       "best_price_per_unit": 0.06989999999999999,
       "best_total_price": 20.97,
       "unit": "mg",
@@ -4106,6 +4145,7 @@
           "price_per_unit": 0.06989999999999999,
           "product_url": "https://www.vitacost.com/natural-factors-ultimate-probiotic-womens-formula-12-billion-60-vegetarian-capsules",
           "product_name": "Natural Factors Ultimate Probiotic Women's Formula -- 12 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4125,6 +4165,7 @@
       "brand": "Garden of Life Primal Defense ",
       "dsld_product_name": "Ultra Probiotic Formula",
       "dsld_brand": "Garden of Life Primal Defense",
+      "product_image_url": "",
       "best_price_per_unit": 0.08119512195121951,
       "best_total_price": 33.29,
       "unit": "mg",
@@ -4137,6 +4178,7 @@
           "price_per_unit": 0.08119512195121951,
           "product_url": "https://www.vitacost.com/garden-of-life-primal-defense-ultra-probiotic-formula-15-billion-cells-60-vegetarian-capsules",
           "product_name": "Garden of Life Primal Defense\u00ae Ultra Probiotic Formula --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4157,6 +4199,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "SBO Probiotics Men's Once Daily",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.08212903225806452,
       "best_total_price": 25.46,
       "unit": "mg",
@@ -4169,6 +4212,7 @@
           "price_per_unit": 0.08212903225806452,
           "product_url": "https://www.vitacost.com/ancient-nutrition-sbo-probiotics-mens-once-daily",
           "product_name": "Ancient Nutrition SBO Probiotics Men's Once Daily -- 25 b...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4185,6 +4229,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Probiotic GX",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 0.08282857142857142,
       "best_total_price": 28.99,
       "unit": "mg",
@@ -4197,6 +4242,7 @@
           "price_per_unit": 0.08282857142857142,
           "product_url": "https://www.vitacost.com/natures-bounty-probiotic-gx-capsules",
           "product_name": "Nature's Bounty Probiotic GX Capsules -- 25 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4224,6 +4270,7 @@
       "brand": "Sunbiotics",
       "dsld_product_name": "Potent Probiotics with Organic Yacon Root Prebiotics",
       "dsld_brand": "Sunbiotics",
+      "product_image_url": "",
       "best_price_per_unit": 0.08316,
       "best_total_price": 20.79,
       "unit": "mg",
@@ -4236,6 +4283,7 @@
           "price_per_unit": 0.08316,
           "product_url": "https://www.vitacost.com/sunbiotics-potent-probiotics-with-organic-yacon-root-prebiotics-18-billion-cells-30-vegetarian-tablets-1",
           "product_name": "Sunbiotics Potent Probiotics with Organic Yacon Root Preb...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4257,6 +4305,7 @@
       "brand": "Vitacost",
       "dsld_product_name": "Probiotic 10-20",
       "dsld_brand": "Vitacost",
+      "product_image_url": "",
       "best_price_per_unit": 0.08495,
       "best_total_price": 16.99,
       "unit": "mg",
@@ -4269,6 +4318,7 @@
           "price_per_unit": 0.08495,
           "product_url": "https://www.vitacost.com/vitacost-probiotic-10-20-10-strains",
           "product_name": "Vitacost Probiotic 10-20 10 Strains -- 20 billion CFU\u2020 pe...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4285,6 +4335,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "SBO Probiotics Men's 25 Billion CFU",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.08845833333333333,
       "best_total_price": 42.46,
       "unit": "mg",
@@ -4297,6 +4348,7 @@
           "price_per_unit": 0.08845833333333333,
           "product_url": "https://www.vitacost.com/ancient-nutrition-sbo-probiotics-womens-25-billion-cfu-60-capsules",
           "product_name": "Ancient Nutrition SBO Probiotics Womens -- 25 billion CFU...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4313,6 +4365,7 @@
       "brand": "Culturelle ",
       "dsld_product_name": "3-in-1 Complete Probiotic",
       "dsld_brand": "Culturelle",
+      "product_image_url": "",
       "best_price_per_unit": 0.08975,
       "best_total_price": 21.54,
       "unit": "mg",
@@ -4325,6 +4378,7 @@
           "price_per_unit": 0.08975,
           "product_url": "https://www.iherb.com/pr/culturelle-probiotics-3-in-1-complete-probiotic-with-omega-3s-30-once-daily-capsules/69811",
           "product_name": "Culturelle, Probiotics, 3-in-1 Complete Probiotic with Omega 3s, 30 Once Daily Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4343,6 +4397,7 @@
       "brand": "Vibrant Health",
       "dsld_product_name": "Green Vibrance",
       "dsld_brand": "Vibrant Health",
+      "product_image_url": "",
       "best_price_per_unit": 0.09480000000000001,
       "best_total_price": 56.88,
       "unit": "mg",
@@ -4355,6 +4410,7 @@
           "price_per_unit": 0.09480000000000001,
           "product_url": "https://www.iherb.com/pr/vibrant-health-green-vibrance-25-billion-probiotics-version-21-0-original-11-64-oz-330-g/4749",
           "product_name": "Vibrant Health, Green Vibrance\u00ae +25 Billion Probiotics, Version 21.0, Original, 11.64 oz (330 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4374,6 +4430,7 @@
       "brand": "Zenwise Labs",
       "dsld_product_name": "Digestive Enzymes",
       "dsld_brand": "Zenwise",
+      "product_image_url": "",
       "best_price_per_unit": 0.099925,
       "best_total_price": 39.97,
       "unit": "mg",
@@ -4386,6 +4443,7 @@
           "price_per_unit": 0.099925,
           "product_url": "https://www.vitacost.com/zenwise-digestive-enzymes-plus-fast-acting-probiotics",
           "product_name": "Zenwise Digestive Enzymes Plus Fast-Acting Probiotics -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4402,6 +4460,7 @@
       "brand": "Culturelle ",
       "dsld_product_name": "3-in-1 Complete Probiotic",
       "dsld_brand": "Culturelle",
+      "product_image_url": "",
       "best_price_per_unit": 0.10329166666666666,
       "best_total_price": 24.79,
       "unit": "mg",
@@ -4414,6 +4473,7 @@
           "price_per_unit": 0.10329166666666666,
           "product_url": "https://www.vitacost.com/culturelle-3-in-1-complete-probiotic",
           "product_name": "Culturelle 3-in-1 Complete Probiotic -- 30 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4432,6 +4492,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "SBO Probiotics Once Daily Immune",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.10608333333333334,
       "best_total_price": 25.46,
       "unit": "mg",
@@ -4444,6 +4505,7 @@
           "price_per_unit": 0.10608333333333334,
           "product_url": "https://www.vitacost.com/ancient-nutrition-sbo-probiotics-immune-once-daily",
           "product_name": "Ancient Nutrition SBO Probiotics Immune Once Daily -- 30 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4460,6 +4522,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Complete Probiotics",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.10970744680851063,
       "best_total_price": 41.25,
       "unit": "mg",
@@ -4472,6 +4535,7 @@
           "price_per_unit": 0.10970744680851063,
           "product_url": "https://www.vitacost.com/dr-mercola-complete-probiotics-for-women",
           "product_name": "Dr. Mercola Complete Probiotics for Women -- 70 billion C...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4488,6 +4552,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Nordic Flora Probiotic Women",
       "dsld_brand": "Nordic Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.1104,
       "best_total_price": 44.16,
       "unit": "mg",
@@ -4500,6 +4565,7 @@
           "price_per_unit": 0.1104,
           "product_url": "https://www.vitacost.com/nordic-naturals-nordic-flora-probiotic-womens-balance",
           "product_name": "Nordic Naturals Nordic Flora Probiotic Women's Balance --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4522,6 +4588,7 @@
       "brand": "Culturelle ",
       "dsld_product_name": "Digestive Daily Probiotic",
       "dsld_brand": "Culturelle",
+      "product_image_url": "",
       "best_price_per_unit": 0.11044999999999999,
       "best_total_price": 22.09,
       "unit": "mg",
@@ -4534,6 +4601,7 @@
           "price_per_unit": 0.11044999999999999,
           "product_url": "https://www.vitacost.com/culturelle-probiotics-digestive-daily-probiotic",
           "product_name": "Culturelle Probiotics Digestive Daily Probiotic -- 30 Veg...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4552,6 +4620,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Ultra Probiotics",
       "dsld_brand": "NaturesPlus",
+      "product_image_url": "",
       "best_price_per_unit": 0.11603333333333334,
       "best_total_price": 34.81,
       "unit": "mg",
@@ -4564,6 +4633,7 @@
           "price_per_unit": 0.11603333333333334,
           "product_url": "https://www.vitacost.com/naturesplus-ultra-probiotics-maximum-strength-40-billion-cells-30-vegetarian-capsules",
           "product_name": "NaturesPlus Ultra Probiotics Maximum Strength -- 40 billi...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4580,6 +4650,7 @@
       "brand": "Life Extension Florassist Probiotic",
       "dsld_product_name": "Women's Health",
       "dsld_brand": "Life Extension Florassist Probiotic",
+      "product_image_url": "",
       "best_price_per_unit": 0.11755485893416928,
       "best_total_price": 24.0,
       "unit": "mg",
@@ -4592,6 +4663,7 @@
           "price_per_unit": 0.11755485893416928,
           "product_url": "https://www.vitacost.com/life-extension-florassist-probiotic-womens-health",
           "product_name": "Life Extension Florassist Probiotic Women's Health -- 30 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4610,6 +4682,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Pr",
       "dsld_brand": "Liquid Labs",
+      "product_image_url": "",
       "best_price_per_unit": 0.11992,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -4622,6 +4695,7 @@
           "price_per_unit": 0.11992,
           "product_url": "https://www.vitacost.com/d-drops-kids-probiotic-liquid-drops-30-servings",
           "product_name": "D Drops Kids Probiotic Liquid Drops - 30 servings -- 0.23...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4638,6 +4712,7 @@
       "brand": "NatureWise",
       "dsld_product_name": "Time Release Probiotics Women's Care 90 Billion",
       "dsld_brand": "NatureWise",
+      "product_image_url": "",
       "best_price_per_unit": 0.11996,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -4650,6 +4725,7 @@
           "price_per_unit": 0.11996,
           "product_url": "https://www.vitacost.com/naturewise-time-release-probiotics-womens-care-6-billion-cfu-40-sustained-release-caplets",
           "product_name": "Naturewise Time Release Probiotics Women's Care -- 6 bill...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4669,6 +4745,7 @@
       "brand": "Probiogen",
       "dsld_product_name": "Daily Spore Probiotic",
       "dsld_brand": "Probiogen",
+      "product_image_url": "",
       "best_price_per_unit": 0.12205263157894737,
       "best_total_price": 23.19,
       "unit": "mg",
@@ -4681,6 +4758,7 @@
           "price_per_unit": 0.12205263157894737,
           "product_url": "https://www.vitacost.com/probiogen-daily-spore-probiotic-with-smart-spore-technology",
           "product_name": "Probiogen Daily Spore Probiotic with Smart Spore Technolo...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4697,6 +4775,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Complete Probiotics",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.12284574468085106,
       "best_total_price": 46.19,
       "unit": "mg",
@@ -4709,6 +4788,7 @@
           "price_per_unit": 0.12284574468085106,
           "product_url": "https://www.iherb.com/pr/dr-mercola-complete-probiotics-powder-packets-natural-raspberry-70-billion-cfu-30-packets-0-12-oz-3-5-g-each/69635",
           "product_name": "Dr. Mercola, Complete Probiotics Powder Packets, Natural Raspberry, 70 Billion CFU, 30 Packets, 3.5 g (0.12 oz) Each",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4725,6 +4805,7 @@
       "brand": "Culturelle ",
       "dsld_product_name": "Digestive Daily Probiotic",
       "dsld_brand": "Culturelle",
+      "product_image_url": "",
       "best_price_per_unit": 0.12445,
       "best_total_price": 24.89,
       "unit": "mg",
@@ -4737,6 +4818,7 @@
           "price_per_unit": 0.12445,
           "product_url": "https://www.vitacost.com/culturelle-probiotics-digestive-daily-probiotic-fresh-orange",
           "product_name": "Culturelle Probiotics Digestive Daily Probiotic Fresh Ora...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4755,6 +4837,7 @@
       "brand": "Flora",
       "dsld_product_name": "Complete Care Probiotic 34 Billion Cells",
       "dsld_brand": "Flora",
+      "product_image_url": "",
       "best_price_per_unit": 0.12872727272727272,
       "best_total_price": 21.24,
       "unit": "mg",
@@ -4767,6 +4850,7 @@
           "price_per_unit": 0.12872727272727272,
           "product_url": "https://www.vitacost.com/flora-complete-care-probiotic",
           "product_name": "Flora Complete Care Probiotic -- 30 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4786,6 +4870,7 @@
       "brand": "Culturelle ",
       "dsld_product_name": "Ultimate Strength Probiotic",
       "dsld_brand": "Culturelle",
+      "product_image_url": "",
       "best_price_per_unit": 0.13045,
       "best_total_price": 26.09,
       "unit": "mg",
@@ -4798,6 +4883,7 @@
           "price_per_unit": 0.13045,
           "product_url": "https://www.vitacost.com/culturelle-probiotics-ultimate-strength-probiotic",
           "product_name": "Culturelle Probiotics Ultimate Strength Probiotic -- 20 V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4816,6 +4902,7 @@
       "brand": "Renew Life ",
       "dsld_product_name": "Ultimate Flora Kids Probiotic Berry-Licious",
       "dsld_brand": "Renew Life",
+      "product_image_url": "",
       "best_price_per_unit": 0.13720338983050848,
       "best_total_price": 16.19,
       "unit": "mg",
@@ -4828,6 +4915,7 @@
           "price_per_unit": 0.13720338983050848,
           "product_url": "https://www.vitacost.com/renew-life-kids-ultimate-flora-probiotic",
           "product_name": "Renew Life Kids Ultimate Flora Probiotic Berry-licious --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4848,6 +4936,7 @@
       "brand": "Digestive Advantage",
       "dsld_product_name": "Daily Probiotic",
       "dsld_brand": "Digestive Advantage",
+      "product_image_url": "",
       "best_price_per_unit": 0.1485,
       "best_total_price": 20.79,
       "unit": "mg",
@@ -4860,6 +4949,7 @@
           "price_per_unit": 0.1485,
           "product_url": "https://www.vitacost.com/digestive-advantage-daily-probiotics",
           "product_name": "Digestive Advantage Daily Probiotics -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4878,6 +4968,7 @@
       "brand": "Probiogen",
       "dsld_product_name": "Men's Vitality Spore Probiotic",
       "dsld_brand": "Probiogen",
+      "product_image_url": "",
       "best_price_per_unit": 0.15593333333333334,
       "best_total_price": 23.39,
       "unit": "mg",
@@ -4890,6 +4981,7 @@
           "price_per_unit": 0.15593333333333334,
           "product_url": "https://www.vitacost.com/probiogen-mens-vitality-spore-probiotic-with-smart-spore-technology",
           "product_name": "Probiogen Men's Vitality Spore Probiotic with Smart Spore...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4906,6 +4998,7 @@
       "brand": "KAL",
       "dsld_product_name": "Acidophilus ProBiotic-4",
       "dsld_brand": "KAL",
+      "product_image_url": "",
       "best_price_per_unit": 0.15618181818181817,
       "best_total_price": 8.59,
       "unit": "mg",
@@ -4918,6 +5011,7 @@
           "price_per_unit": 0.15618181818181817,
           "product_url": "https://www.vitacost.com/kal-acidophilus-probiotic-4-500-million-viable-organisms-100-vegetarian-capsules",
           "product_name": "KAL Acidophilus ProBiotic-4 -- 500 million viable organis...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4934,6 +5028,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "LactoBif 30 Probiotics 30 Billion CFU",
       "dsld_brand": "California Gold Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.16433823529411765,
       "best_total_price": 22.35,
       "unit": "mg",
@@ -4946,6 +5041,7 @@
           "price_per_unit": 0.16433823529411765,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-30-billion-cfu-60-veggie-capsules/64009",
           "product_name": "California Gold Nutrition, LactoBif\u00ae 30 Probiotics, 30 Billion CFU, 60 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4962,6 +5058,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Sacro-B",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.172,
       "best_total_price": 43.0,
       "unit": "mg",
@@ -4974,6 +5071,7 @@
           "price_per_unit": 0.172,
           "product_url": "https://www.vitacost.com/thorne-sacro-b-probiotic",
           "product_name": "Thorne Sacro-B Probiotic -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4992,6 +5090,7 @@
       "brand": "Eu Natural",
       "dsld_product_name": "Momma",
       "dsld_brand": "Eu Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.17335260115606935,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -5004,6 +5103,7 @@
           "price_per_unit": 0.17335260115606935,
           "product_url": "https://www.vitacost.com/eu-natural-momma-pre-postnatal-probiotics",
           "product_name": "Eu Natural Momma Pre & Postnatal Probiotics -- 30 Vegetar...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5022,6 +5122,7 @@
       "brand": "Eu Natural",
       "dsld_product_name": "Flourish",
       "dsld_brand": "Eu Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.17335260115606935,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -5034,6 +5135,7 @@
           "price_per_unit": 0.17335260115606935,
           "product_url": "https://www.vitacost.com/eu-natural-flourish-probiotics-for-women-urinaty-tract-reduce-bloating-vaginal-health",
           "product_name": "Eu Natural Flourish Probiotics for Women - Urinaty Tract-...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5052,6 +5154,7 @@
       "brand": "Culturelle ",
       "dsld_product_name": "Digestive Daily Probiotic",
       "dsld_brand": "Culturelle",
+      "product_image_url": "",
       "best_price_per_unit": 0.17545000000000002,
       "best_total_price": 35.09,
       "unit": "mg",
@@ -5064,6 +5167,7 @@
           "price_per_unit": 0.17545000000000002,
           "product_url": "https://www.vitacost.com/culturelle-probiotics-digestive-daily-probiotic-50-vegetarian-capsules",
           "product_name": "Culturelle Probiotics Digestive Daily Probiotic -- 50 Veg...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5082,6 +5186,7 @@
       "brand": "OLLY",
       "dsld_product_name": "Happy Hoo-Ha",
       "dsld_brand": "OLLY",
+      "product_image_url": "",
       "best_price_per_unit": 0.17989999999999998,
       "best_total_price": 17.99,
       "unit": "mg",
@@ -5094,6 +5199,7 @@
           "price_per_unit": 0.17989999999999998,
           "product_url": "https://www.vitacost.com/olly-happy-hoo-ha-multi-strain-female-focused-probiotic",
           "product_name": "Olly Happy Hoo-Ha Multi-Strain Female-Focused Probiotic -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5114,6 +5220,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "All-Flora Probiotic",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.1816969696969697,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -5126,6 +5233,7 @@
           "price_per_unit": 0.1816969696969697,
           "product_url": "https://www.vitacost.com/new-chapter-all-flora-probiotic-flora-fortify",
           "product_name": "New Chapter All Flora Probiotic Flora Fortify -- 14 Vegan...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5149,6 +5257,7 @@
       "brand": "Klean Athlete",
       "dsld_product_name": "Klean Probiotic",
       "dsld_brand": "Klean Athlete",
+      "product_image_url": "",
       "best_price_per_unit": 0.20285714285714287,
       "best_total_price": 42.6,
       "unit": "mg",
@@ -5161,6 +5270,7 @@
           "price_per_unit": 0.20285714285714287,
           "product_url": "https://www.vitacost.com/klean-athlete-klean-probiotic-nsf-certified-for-sport",
           "product_name": "Klean Athlete Klean Probiotic - NSF Certified for Sport -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5180,6 +5290,7 @@
       "brand": "AZO",
       "dsld_product_name": "Dual Protection",
       "dsld_brand": "AZO",
+      "product_image_url": "",
       "best_price_per_unit": 0.21459999999999999,
       "best_total_price": 32.19,
       "unit": "mg",
@@ -5192,6 +5303,7 @@
           "price_per_unit": 0.21459999999999999,
           "product_url": "https://www.vitacost.com/azo-probiotic-dual-protection",
           "product_name": "AZO Probiotic Dual Protection -- 30 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5208,6 +5320,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Bacillus Coagulans",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.24812030075187969,
       "best_total_price": 33.0,
       "unit": "mg",
@@ -5220,6 +5333,7 @@
           "price_per_unit": 0.24812030075187969,
           "product_url": "https://www.vitacost.com/thorne-bacillus-coagulans-probiotic",
           "product_name": "Thorne Bacillus Coagulans Probiotic -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5238,6 +5352,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "SBO Probiotics Gut Restore 25 Billion CFU",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.24976470588235294,
       "best_total_price": 42.46,
       "unit": "mg",
@@ -5250,6 +5365,7 @@
           "price_per_unit": 0.24976470588235294,
           "product_url": "https://www.vitacost.com/ancient-nutrition-sbo-probiotics-gut-restore-25-billion-cfu-60-capsules",
           "product_name": "Ancient Nutrition SBO Probiotics Gut Restore -- 25 billio...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5266,6 +5382,7 @@
       "brand": "Terry Naturally",
       "dsld_product_name": "FloraSure Probiotic 20 Billion CFU",
       "dsld_brand": "Terry Naturally",
+      "product_image_url": "",
       "best_price_per_unit": 0.260990099009901,
       "best_total_price": 26.36,
       "unit": "mg",
@@ -5278,6 +5395,7 @@
           "price_per_unit": 0.260990099009901,
           "product_url": "https://www.vitacost.com/terry-naturally-florasure-probiotic",
           "product_name": "Terry Naturally FloraSure Probiotic -- 20 billion CFU - 3...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5294,6 +5412,7 @@
       "brand": "Master Supplements",
       "dsld_product_name": "Theralac",
       "dsld_brand": "Master Supplements",
+      "product_image_url": "",
       "best_price_per_unit": 0.26609022556390977,
       "best_total_price": 35.39,
       "unit": "mg",
@@ -5306,6 +5425,7 @@
           "price_per_unit": 0.26609022556390977,
           "product_url": "https://www.vitacost.com/master-supplements-theralac-truflora-probiotics-enzymes",
           "product_name": "Master Supplements Theralac TruFlora Probiotics & Enzymes...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5322,6 +5442,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "LactoBif 5 Probiotics 5 Billion CFU",
       "dsld_brand": "California Gold Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.2708333333333333,
       "best_total_price": 9.75,
       "unit": "mg",
@@ -5334,6 +5455,7 @@
           "price_per_unit": 0.2708333333333333,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-lactobif-5-probiotics-5-billion-cfu-60-veggie-capsules/64006",
           "product_name": "California Gold Nutrition, LactoBif\u00ae 5 Probiotics, 5 Billion CFU, 60 Veg Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5350,6 +5472,7 @@
       "brand": "Master Supplements",
       "dsld_product_name": "Theralac",
       "dsld_brand": "Master Supplements",
+      "product_image_url": "",
       "best_price_per_unit": 0.2816541353383459,
       "best_total_price": 37.46,
       "unit": "mg",
@@ -5362,6 +5485,7 @@
           "price_per_unit": 0.2816541353383459,
           "product_url": "https://www.iherb.com/pr/master-supplements-theralac-broad-spectrum-probiotic-30-capsules/19207",
           "product_name": "Master Supplements, Theralac, Broad Spectrum Probiotic, 30 Billion CFU, 30 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5378,6 +5502,7 @@
       "brand": "NutriCology",
       "dsld_product_name": "ProGreens with Advanced Probiotic Formula",
       "dsld_brand": "NutriCology",
+      "product_image_url": "",
       "best_price_per_unit": 0.33795000000000003,
       "best_total_price": 67.59,
       "unit": "mg",
@@ -5390,6 +5515,7 @@
           "price_per_unit": 0.33795000000000003,
           "product_url": "https://www.vitacost.com/nutricology-pro-greens-with-advanced-probiotic-formula-9-27-oz",
           "product_name": "NutriCology Pro Greens With Advanced Probiotic Formula --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5410,6 +5536,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "All-Flora Probiotic",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.3526060606060606,
       "best_total_price": 29.09,
       "unit": "mg",
@@ -5422,6 +5549,7 @@
           "price_per_unit": 0.3526060606060606,
           "product_url": "https://www.vitacost.com/new-chapter-all-flora-probiotic-menopause-balance",
           "product_name": "New Chapter All Flora Probiotic Menopause Balance -- 30 V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5445,6 +5573,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "All-Flora Probiotic",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.36327272727272725,
       "best_total_price": 29.97,
       "unit": "mg",
@@ -5457,6 +5586,7 @@
           "price_per_unit": 0.36327272727272725,
           "product_url": "https://www.vitacost.com/new-chapter-probiotic-all-flora-30-vegan-capsules",
           "product_name": "New Chapter Probiotic All-Flora\u2122 -- 30 Vegan Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5480,6 +5610,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Mycrobiome Probiotic Women's Formula",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 0.36354545454545456,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -5492,6 +5623,7 @@
           "price_per_unit": 0.36354545454545456,
           "product_url": "https://www.vitacost.com/solaray-mycrobiome-probiotic-womens-formula",
           "product_name": "Solaray Mycrobiome Probiotic Women's Formula -- 50 billio...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5508,6 +5640,7 @@
       "brand": "Protocol for Life Balance",
       "dsld_product_name": "Chewable Probiotic",
       "dsld_brand": "Protocol For Life Balance",
+      "product_image_url": "",
       "best_price_per_unit": 0.39285714285714285,
       "best_total_price": 22.0,
       "unit": "mg",
@@ -5520,6 +5653,7 @@
           "price_per_unit": 0.39285714285714285,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-chewable-probiotic",
           "product_name": "Protocol For Life Balance Chewable Probiotic -- 90 Chewables",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5540,6 +5674,7 @@
       "brand": "Physician's Choice",
       "dsld_product_name": "Women's Probiotic",
       "dsld_brand": "Physician's Choice",
+      "product_image_url": "",
       "best_price_per_unit": 0.3998333333333333,
       "best_total_price": 23.99,
       "unit": "mg",
@@ -5552,6 +5687,7 @@
           "price_per_unit": 0.3998333333333333,
           "product_url": "https://www.vitacost.com/physicians-choice-womens-probiotic",
           "product_name": "Physician's Choice Women's Probiotic -- 50 billion CFUs -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5571,6 +5707,7 @@
       "brand": "Probulin",
       "dsld_product_name": "Total Care Immune Probiotic ",
       "dsld_brand": "Probulin",
+      "product_image_url": "",
       "best_price_per_unit": 0.4069,
       "best_total_price": 40.69,
       "unit": "mg",
@@ -5583,6 +5720,7 @@
           "price_per_unit": 0.4069,
           "product_url": "https://www.vitacost.com/probulin-total-care-immune-probiotic",
           "product_name": "Probulin Total Care Immune Probiotic -- 20 billion CFU - ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5601,6 +5739,7 @@
       "brand": "Probulin",
       "dsld_product_name": "Total Care Soothe Probiotic 15 Billion CFU",
       "dsld_brand": "Probulin",
+      "product_image_url": "",
       "best_price_per_unit": 0.4139,
       "best_total_price": 41.39,
       "unit": "mg",
@@ -5613,6 +5752,7 @@
           "price_per_unit": 0.4139,
           "product_url": "https://www.vitacost.com/probulin-total-care-soothe-probiotic",
           "product_name": "Probulin Total Care Soothe Probiotic -- 15 billion CFU - ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5629,6 +5769,7 @@
       "brand": "Probulin",
       "dsld_product_name": "Daily Care Probiotic 10 Billion CFU",
       "dsld_brand": "Probulin",
+      "product_image_url": "",
       "best_price_per_unit": 0.5029,
       "best_total_price": 50.29,
       "unit": "mg",
@@ -5641,6 +5782,7 @@
           "price_per_unit": 0.5029,
           "product_url": "https://www.vitacost.com/probulin-daily-care-probiotic",
           "product_name": "Probulin Daily Care Probiotic -- 10 billion CFU - 60 Caps...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5657,6 +5799,7 @@
       "brand": "Flora",
       "dsld_product_name": "Toddler's Probiotic 3 Billion Cells",
       "dsld_brand": "Flora",
+      "product_image_url": "",
       "best_price_per_unit": 0.5396377322982828,
       "best_total_price": 22.94,
       "unit": "mg",
@@ -5669,6 +5812,7 @@
           "price_per_unit": 0.5396377322982828,
           "product_url": "https://www.vitacost.com/flora-toddlers-probiotic",
           "product_name": "Flora Toddler's Probiotic -- 3 billion cells - 2.64 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5687,6 +5831,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Women's Daily Probiotic 10 Billion CFU",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 0.5497,
       "best_total_price": 54.97,
       "unit": "mg",
@@ -5699,6 +5844,7 @@
           "price_per_unit": 0.5497,
           "product_url": "https://www.vitacost.com/new-chapter-womens-daily-probiotic",
           "product_name": "New Chapter Women's Daily Probiotic -- 60 Vegan Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5720,6 +5866,7 @@
       "brand": "Flora",
       "dsld_product_name": "Adult's Probiotic 17 Billion Cells",
       "dsld_brand": "Flora",
+      "product_image_url": "",
       "best_price_per_unit": 0.5588163662932294,
       "best_total_price": 45.89,
       "unit": "mg",
@@ -5732,6 +5879,7 @@
           "price_per_unit": 0.5588163662932294,
           "product_url": "https://www.vitacost.com/flora-flora-aldut-probiotic",
           "product_name": "Flora Flora Aldut Probiotic -- 17 billion cells - 120 Veg...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5750,6 +5898,7 @@
       "brand": "Flora",
       "dsld_product_name": "Children's Probiotic 5 Billion Cells",
       "dsld_brand": "Flora",
+      "product_image_url": "",
       "best_price_per_unit": 0.567638388470357,
       "best_total_price": 17.33,
       "unit": "mg",
@@ -5762,6 +5911,7 @@
           "price_per_unit": 0.567638388470357,
           "product_url": "https://www.vitacost.com/flora-childrens-probiotic",
           "product_name": "Flora Children's Probiotic -- 5 billion cells - 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5780,6 +5930,7 @@
       "brand": "Physician's Choice",
       "dsld_product_name": "Thin 30 Probiotic",
       "dsld_brand": "Physician's Choice",
+      "product_image_url": "",
       "best_price_per_unit": 0.6114,
       "best_total_price": 30.57,
       "unit": "mg",
@@ -5792,6 +5943,7 @@
           "price_per_unit": 0.6114,
           "product_url": "https://www.iherb.com/pr/physician-s-choice-thin-30-probiotic-30-capsules/102007",
           "product_name": "Physician's Choice, Thin 30 Probiotic, 30 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5801,6 +5953,7 @@
           "price_per_unit": 0.6158,
           "product_url": "https://www.vitacost.com/physicians-choice-thin-30-probiotic",
           "product_name": "Physician's Choice Thin 30 Probiotic -- 15 billion CFUs -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5820,6 +5973,7 @@
       "brand": "Probulin",
       "dsld_product_name": "Women's Health Probiotic 20 Billion CFU",
       "dsld_brand": "Probulin",
+      "product_image_url": "",
       "best_price_per_unit": 0.6299,
       "best_total_price": 62.99,
       "unit": "mg",
@@ -5832,6 +5986,7 @@
           "price_per_unit": 0.6299,
           "product_url": "https://www.vitacost.com/probulin-womens-health-probiotic",
           "product_name": "Probulin Women's Health Probiotic -- 20 billion CFU - 60 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5848,6 +6003,7 @@
       "brand": "Garden of Life Raw Probiotics",
       "dsld_product_name": "Colon Care",
       "dsld_brand": "Garden of Life Raw Probiotics",
+      "product_image_url": "",
       "best_price_per_unit": 0.6718000000000001,
       "best_total_price": 33.59,
       "unit": "mg",
@@ -5860,6 +6016,7 @@
           "price_per_unit": 0.6718000000000001,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-colon-care-50-billion-30-vegetarian-capsules-1",
           "product_name": "Garden of Life RAW Probiotics\u2122 Colon Care -- 50 billion -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5878,6 +6035,7 @@
       "brand": "Garden of Life Raw Probiotics",
       "dsld_product_name": "Vaginal Care",
       "dsld_brand": "Garden of Life Raw Probiotics",
+      "product_image_url": "",
       "best_price_per_unit": 0.7064444444444444,
       "best_total_price": 31.79,
       "unit": "mg",
@@ -5890,6 +6048,7 @@
           "price_per_unit": 0.7064444444444444,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-vaginal-care-50-billion-cfu-30-vegetarian-capsules",
           "product_name": "Garden of Life Raw Probiotics Vaginal Care -- 50 billion ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5908,6 +6067,7 @@
       "brand": "Garden of Life Raw Probiotics",
       "dsld_product_name": "Ultimate Care",
       "dsld_brand": "Garden of Life Raw Probiotics",
+      "product_image_url": "",
       "best_price_per_unit": 0.8886666666666667,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -5920,6 +6080,7 @@
           "price_per_unit": 0.8886666666666667,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-ultimate-care-100-billion-cfu-30-vegetarian-capsules-2",
           "product_name": "Garden of Life Raw Probiotics Ultimate Care -- 100 billio...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5936,6 +6097,7 @@
       "brand": "BodyHealth",
       "dsld_product_name": "Perfect Immune Defense Probiotic",
       "dsld_brand": "BodyHealth",
+      "product_image_url": "",
       "best_price_per_unit": 0.9375,
       "best_total_price": 37.5,
       "unit": "mg",
@@ -5948,6 +6110,7 @@
           "price_per_unit": 0.9375,
           "product_url": "https://www.vitacost.com/bodyhealth-probiotic",
           "product_name": "BodyHealth Probiotic -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5970,6 +6133,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Psyllium",
       "dsld_brand": "Organic India",
+      "product_image_url": "",
       "best_price_per_unit": 0.9994444444444444,
       "best_total_price": 17.99,
       "unit": "calorie",
@@ -5982,6 +6146,7 @@
           "price_per_unit": 0.9994444444444444,
           "product_url": "https://www.vitacost.com/organic-india-psyllium-pre-probiotic-fiber",
           "product_name": "Organic India Psyllium Pre & Probiotic Fiber Original -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6002,6 +6167,7 @@
       "brand": "Probulin",
       "dsld_product_name": "Total Care Probiotic 20 Billion CFU",
       "dsld_brand": "Probulin",
+      "product_image_url": "",
       "best_price_per_unit": 1.00225,
       "best_total_price": 40.09,
       "unit": "mg",
@@ -6014,6 +6180,7 @@
           "price_per_unit": 1.00225,
           "product_url": "https://www.vitacost.com/probulin-total-care-probiotic",
           "product_name": "Probulin Total Care Probiotic -- 20 billion CFU - 30 Caps...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6030,6 +6197,7 @@
       "brand": "Garden of Life Primal Defense ",
       "dsld_product_name": "HSO Probiotic Formula",
       "dsld_brand": "Garden of Life Primal Defense",
+      "product_image_url": "",
       "best_price_per_unit": 1.0207894736842105,
       "best_total_price": 38.79,
       "unit": "mg",
@@ -6042,6 +6210,7 @@
           "price_per_unit": 1.0207894736842105,
           "product_url": "https://www.vitacost.com/garden-of-life-primal-defense-hso-probiotic-formula-90-vegetable-caplets",
           "product_name": "Garden of Life Primal Defense\u00ae HSO\u2122 Probiotic Formula -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6062,6 +6231,7 @@
       "brand": "Natren",
       "dsld_product_name": "Life Start",
       "dsld_brand": "Natren",
+      "product_image_url": "",
       "best_price_per_unit": 1.0916,
       "best_total_price": 27.29,
       "unit": "mg",
@@ -6074,6 +6244,7 @@
           "price_per_unit": 1.0916,
           "product_url": "https://www.vitacost.com/natren-infant-life-start-probiotic-powder",
           "product_name": "Natren Infant Life Start Probiotic Powder -- 1 billion CF...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6090,6 +6261,7 @@
       "brand": "Garden of Life Raw Probiotics",
       "dsld_product_name": "Men 50 & Wiser",
       "dsld_brand": "Garden of Life Raw Probiotics",
+      "product_image_url": "",
       "best_price_per_unit": 1.1191666666666666,
       "best_total_price": 40.29,
       "unit": "mg",
@@ -6102,6 +6274,7 @@
           "price_per_unit": 1.1191666666666666,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-men-50-wiser",
           "product_name": "Garden of Life RAW Probiotics Men 50 & Wiser -- 85 billio...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6120,6 +6293,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "SBO Probiotics Gummies Berry",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 1.2730000000000001,
       "best_total_price": 25.46,
       "unit": "calorie",
@@ -6132,6 +6306,7 @@
           "price_per_unit": 1.2730000000000001,
           "product_url": "https://www.vitacost.com/ancient-nutrition-sbo-probiotics-gummies",
           "product_name": "Ancient Nutrition SBO Probiotics Gummies Berry -- 10 bill...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6148,6 +6323,7 @@
       "brand": "Culturelle Kids",
       "dsld_product_name": "Probiotic + Fiber Regularity Packets",
       "dsld_brand": "Culturelle Kids",
+      "product_image_url": "",
       "best_price_per_unit": 1.2795,
       "best_total_price": 25.59,
       "unit": "calorie",
@@ -6160,6 +6336,7 @@
           "price_per_unit": 1.2795,
           "product_url": "https://www.vitacost.com/culturelle-kids-probiotic-fiber-regularity-packets",
           "product_name": "Culturelle Kids Probiotic + Fiber Regularity Packets -- 2...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6178,6 +6355,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Nordic Flora Probiotic Daily",
       "dsld_brand": "Nordic Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 1.3155,
       "best_total_price": 26.31,
       "unit": "mg",
@@ -6190,6 +6368,7 @@
           "price_per_unit": 1.3155,
           "product_url": "https://www.vitacost.com/nordic-naturals-nordic-flora-probiotic-daily",
           "product_name": "Nordic Naturals Nordic Flora Probiotic Daily -- 12 billio...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6212,6 +6391,7 @@
       "brand": "Garden of Life Raw Probiotics",
       "dsld_product_name": "Women",
       "dsld_brand": "Garden of Life Raw Probiotics",
+      "product_image_url": "",
       "best_price_per_unit": 1.3396666666666666,
       "best_total_price": 40.19,
       "unit": "mg",
@@ -6224,6 +6404,7 @@
           "price_per_unit": 1.3396666666666666,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-women",
           "product_name": "Garden of Life RAW Probiotics Women -- 85 billion - 90 Ve...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6243,6 +6424,7 @@
       "brand": "Natren",
       "dsld_product_name": "Digesta-Lac",
       "dsld_brand": "Natren",
+      "product_image_url": "",
       "best_price_per_unit": 1.5295,
       "best_total_price": 30.59,
       "unit": "mg",
@@ -6255,6 +6437,7 @@
           "price_per_unit": 1.5295,
           "product_url": "https://www.vitacost.com/natren-digesta-lac-probiotic-dairy-powder-2-5-oz",
           "product_name": "Natren Digesta-Lac\u00ae Probiotic Dairy Powder -- 2.5 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6271,6 +6454,7 @@
       "brand": "Probiogen",
       "dsld_product_name": "Weight Support Spore Probiotic",
       "dsld_brand": "Probiogen",
+      "product_image_url": "",
       "best_price_per_unit": 1.6245,
       "best_total_price": 32.49,
       "unit": "mg",
@@ -6283,6 +6467,7 @@
           "price_per_unit": 1.6245,
           "product_url": "https://www.vitacost.com/probiogen-weight-support-spore-probiotic-with-smart-spore-technology",
           "product_name": "Probiogen Weight Support Spore Probiotic with Smart Spore...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6299,6 +6484,7 @@
       "brand": "Natren",
       "dsld_product_name": "Bifido Factor",
       "dsld_brand": "Natren",
+      "product_image_url": "",
       "best_price_per_unit": 1.685909090909091,
       "best_total_price": 37.09,
       "unit": "mg",
@@ -6311,6 +6497,7 @@
           "price_per_unit": 1.685909090909091,
           "product_url": "https://www.vitacost.com/natren-bifido-factor-2-probiotic-dairy-free-powder",
           "product_name": "Natren Bifido Factor 2 Probiotic Dairy Free Powder -- 3 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6327,6 +6514,7 @@
       "brand": "Align",
       "dsld_product_name": "Align Probiotic Extra Strength",
       "dsld_brand": "Align",
+      "product_image_url": "",
       "best_price_per_unit": 1.7365714285714287,
       "best_total_price": 30.39,
       "unit": "mg",
@@ -6339,6 +6527,7 @@
           "price_per_unit": 1.7365714285714287,
           "product_url": "https://www.vitacost.com/align-probiotic-5x-extra-strength",
           "product_name": "Align Probiotic 5X Extra Strength -- 21 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6357,6 +6546,7 @@
       "brand": "Garden of Life Raw Probiotics",
       "dsld_product_name": "5-Day Max Care",
       "dsld_brand": "Garden of Life Raw Probiotics",
+      "product_image_url": "",
       "best_price_per_unit": 2.1726666666666667,
       "best_total_price": 32.59,
       "unit": "calorie",
@@ -6369,6 +6559,7 @@
           "price_per_unit": 2.1726666666666667,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-5-day-max-care-400-billion-cfu-2-4-oz-1",
           "product_name": "Garden of Life RAW Probiotics\u2122 5-Day Max Care -- 400 bill...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6388,6 +6579,7 @@
       "brand": "Garden of Life Raw Probiotics",
       "dsld_product_name": "Men 85 Billion",
       "dsld_brand": "Garden of Life Raw Probiotics",
+      "product_image_url": "",
       "best_price_per_unit": 2.332777777777778,
       "best_total_price": 41.99,
       "unit": "mg",
@@ -6400,6 +6592,7 @@
           "price_per_unit": 2.332777777777778,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-men",
           "product_name": "Garden of Life RAW Probiotics Men -- 85 billion - 90 Vege...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6416,6 +6609,7 @@
       "brand": "Natren",
       "dsld_product_name": "Mega Dophilus",
       "dsld_brand": "Natren",
+      "product_image_url": "",
       "best_price_per_unit": 2.364117647058823,
       "best_total_price": 40.19,
       "unit": "mg",
@@ -6428,6 +6622,7 @@
           "price_per_unit": 2.364117647058823,
           "product_url": "https://www.vitacost.com/natren-mega-dophilus-dairy-probiotic-powder",
           "product_name": "Natren Mega Dophilus Dairy Probiotic Powder -- 4.5 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6444,6 +6639,7 @@
       "brand": "Natren",
       "dsld_product_name": "Life Start 2",
       "dsld_brand": "Natren",
+      "product_image_url": "",
       "best_price_per_unit": 2.5858823529411765,
       "best_total_price": 43.96,
       "unit": "mg",
@@ -6456,6 +6652,7 @@
           "price_per_unit": 2.5858823529411765,
           "product_url": "https://www.vitacost.com/natren-life-start-2-probiotics",
           "product_name": "Natren Life Start 2 Probiotics -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6472,6 +6669,7 @@
       "brand": "MenoLabs",
       "dsld_product_name": "Menofit",
       "dsld_brand": "MenoLabs",
+      "product_image_url": "",
       "best_price_per_unit": 2.666,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -6484,6 +6682,7 @@
           "price_per_unit": 2.666,
           "product_url": "https://www.vitacost.com/menolabs-menofit-menopause-probiotic-for-healthy-weight",
           "product_name": "MenoLabs MenoFit\u00ae Menopause Probiotic for Healthy Weight ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6510,6 +6709,7 @@
       "brand": "Sunwarrior",
       "dsld_product_name": "Probiotics",
       "dsld_brand": "Sunwarrior",
+      "product_image_url": "",
       "best_price_per_unit": 2.8646666666666665,
       "best_total_price": 42.97,
       "unit": "mg",
@@ -6522,6 +6722,7 @@
           "price_per_unit": 2.8646666666666665,
           "product_url": "https://www.vitacost.com/sunwarrior-probiotics",
           "product_name": "Sunwarrior Probiotics -- 10 billion CFU - 30 Vegan Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6538,6 +6739,7 @@
       "brand": "Triquetra",
       "dsld_product_name": "Flora Biome",
       "dsld_brand": "Triquetra",
+      "product_image_url": "",
       "best_price_per_unit": 3.1326666666666667,
       "best_total_price": 46.99,
       "unit": "ml",
@@ -6550,6 +6752,7 @@
           "price_per_unit": 3.1326666666666667,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=611900&source=productlist",
           "product_name": "Triquetra\nFlora Biome 3-in-1 Live Probiotic - 16 fl oz (32 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6566,6 +6769,7 @@
       "brand": "NatureWise",
       "dsld_product_name": "Max Care Probiotics",
       "dsld_brand": "NatureWise",
+      "product_image_url": "",
       "best_price_per_unit": 3.599,
       "best_total_price": 35.99,
       "unit": "mg",
@@ -6578,6 +6782,7 @@
           "price_per_unit": 3.599,
           "product_url": "https://www.vitacost.com/naturewise-maximum-care-probiotics",
           "product_name": "Naturewise Maximum Care Probiotics -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6597,6 +6802,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Super DigestAway",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 4.418,
       "best_total_price": 22.09,
       "unit": "mg",
@@ -6609,6 +6815,7 @@
           "price_per_unit": 4.418,
           "product_url": "https://www.vitacost.com/solaray-super-digestaway-probiotics",
           "product_name": "Solaray Super Digestaway & Probiotics -- 60 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6625,6 +6832,7 @@
       "brand": "Align",
       "dsld_product_name": "Align Probiotic",
       "dsld_brand": "Align",
+      "product_image_url": "",
       "best_price_per_unit": 5.2225,
       "best_total_price": 20.89,
       "unit": "mg",
@@ -6637,6 +6845,7 @@
           "price_per_unit": 5.2225,
           "product_url": "https://www.vitacost.com/align-probiotic-gut-health-immunity-support",
           "product_name": "Align Probiotic Gut Health & Immunity Support -- 28 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6655,6 +6864,7 @@
       "brand": "HealthForce Superfoods",
       "dsld_product_name": "Friendly Force",
       "dsld_brand": "HealthForce SuperFoods",
+      "product_image_url": "",
       "best_price_per_unit": 9.9875,
       "best_total_price": 39.95,
       "unit": "calorie",
@@ -6667,6 +6877,7 @@
           "price_per_unit": 9.9875,
           "product_url": "https://www.vitacost.com/healthforce-superfoods-friendly-force-probiotics-60-vegancaps",
           "product_name": "HealthForce Superfoods Friendly Force Probiotics -- 60 Ve...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6683,6 +6894,7 @@
       "brand": "Align",
       "dsld_product_name": "Align Probiotic Supplement",
       "dsld_brand": "Align",
+      "product_image_url": "",
       "best_price_per_unit": 11.9725,
       "best_total_price": 47.89,
       "unit": "mg",
@@ -6695,6 +6907,7 @@
           "price_per_unit": 11.9725,
           "product_url": "https://www.vitacost.com/align-probiotic-supplement-42-capsules",
           "product_name": "Align Probiotic Supplement -- 42 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6713,6 +6926,7 @@
       "brand": "Align",
       "dsld_product_name": "Align Probiotic Supplement",
       "dsld_brand": "Align",
+      "product_image_url": "",
       "best_price_per_unit": 14.6725,
       "best_total_price": 58.69,
       "unit": "mg",
@@ -6725,6 +6939,7 @@
           "price_per_unit": 14.6725,
           "product_url": "https://www.vitacost.com/align-probiotic-supplement-24-7-digestive-support",
           "product_name": "Align Probiotic Supplement 24-7 Digestive Support -- 56 C...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6743,6 +6958,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Akkermansia",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 14.99,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -6755,6 +6971,7 @@
           "price_per_unit": 14.99,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=585174&source=productlist",
           "product_name": "Codeage\nAkkermansia Probiotic - 90 Vegetable Capsule (90 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6771,6 +6988,7 @@
       "brand": "HealthForce Superfoods",
       "dsld_product_name": "Friendly Force",
       "dsld_brand": "HealthForce SuperFoods",
+      "product_image_url": "",
       "best_price_per_unit": 16.2375,
       "best_total_price": 64.95,
       "unit": "calorie",
@@ -6783,6 +7001,7 @@
           "price_per_unit": 16.2375,
           "product_url": "https://www.vitacost.com/healthforce-superfoods-friendly-force-probiotics",
           "product_name": "HealthForce Superfoods Friendly Force Probiotics -- 120 V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6802,6 +7021,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Akkermansia",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 24.99,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -6814,6 +7034,7 @@
           "price_per_unit": 24.99,
           "product_url": "https://www.vitacost.com/codeage-glp-1-probiotic-live-probiotics-akkermansia-chicory-inulin-prebiotics-postbiotics",
           "product_name": "Codeage GLP-1 Probiotic+ Live Probiotics Akkermansia Chic...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6830,6 +7051,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Acidophilus Probiotic",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 32.98,
       "best_total_price": 16.49,
       "unit": "mg",
@@ -6842,6 +7064,7 @@
           "price_per_unit": 32.98,
           "product_url": "https://www.vitacost.com/natures-bounty-acidophilus-probiotic-100-tablets-twin-pack",
           "product_name": "Nature's Bounty Acidophilus Probiotic 100 Tablets Twin Pa...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6851,6 +7074,7 @@
           "price_per_unit": 33.06,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-acidophilus-probiotic-twin-pack-100-tablets-each-0-5-mg-per-tablet/77543",
           "product_name": "Nature's Bounty, Acidophilus Probiotic, Twin Pack, 100 Tablets Each (0.5 mg per Tablet)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6880,6 +7104,7 @@
       "brand": "Enzymedica",
       "dsld_product_name": "Reduce",
       "dsld_brand": "Enzymedica",
+      "product_image_url": "",
       "best_price_per_unit": 135.16,
       "best_total_price": 33.79,
       "unit": "mg",
@@ -6892,6 +7117,7 @@
           "price_per_unit": 135.16,
           "product_url": "https://www.vitacost.com/enzymedica-subculture-probiotic-for-bloat-help-reduce-occasional-gas-and-bloating",
           "product_name": "Enzymedica Subculture Probiotic For Bloat Help Reduce Occ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }

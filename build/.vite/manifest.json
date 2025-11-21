@@ -1,29 +1,94 @@
 {
-  "_icons-v_5IysOb.js": {
-    "file": "assets/icons-v_5IysOb.js",
+  "_4bdf2cba5e05e7d70b9f1402336825a64b04e236-C_dfqpke.js": {
+    "file": "assets/4bdf2cba5e05e7d70b9f1402336825a64b04e236-C_dfqpke.js",
+    "name": "4bdf2cba5e05e7d70b9f1402336825a64b04e236",
+    "assets": [
+      "assets/4bdf2cba5e05e7d70b9f1402336825a64b04e236-CgrINXXg.png"
+    ]
+  },
+  "_IHerbBadgeLogoRgb1-106-1526-kSC6I5h3.js": {
+    "file": "assets/IHerbBadgeLogoRgb1-106-1526-kSC6I5h3.js",
+    "name": "IHerbBadgeLogoRgb1-106-1526",
+    "imports": [
+      "_radix-DXbKUXNJ.js"
+    ],
+    "assets": [
+      "assets/2f3309a930da536601e44619e42e44f89c102eb7-uevdkWog.png"
+    ]
+  },
+  "_LegalContactSection-CVbAfw_v.js": {
+    "file": "assets/LegalContactSection-CVbAfw_v.js",
+    "name": "LegalContactSection",
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "_icons-BMeO7mWN.js": {
+    "file": "assets/icons-BMeO7mWN.js",
     "name": "icons"
   },
-  "_radix-Bjn62G9e.js": {
-    "file": "assets/radix-Bjn62G9e.js",
+  "_radix-DXbKUXNJ.js": {
+    "file": "assets/radix-DXbKUXNJ.js",
     "name": "radix",
     "imports": [
-      "_icons-v_5IysOb.js"
+      "_icons-BMeO7mWN.js"
     ]
   },
   "index.html": {
-    "file": "assets/index-VdzemtkB.js",
+    "file": "assets/index-CDrWb0Tw.js",
+  "_4bdf2cba5e05e7d70b9f1402336825a64b04e236-C_dfqpke.js": {
+    "file": "assets/4bdf2cba5e05e7d70b9f1402336825a64b04e236-C_dfqpke.js",
+    "name": "4bdf2cba5e05e7d70b9f1402336825a64b04e236",
+    "assets": [
+      "assets/4bdf2cba5e05e7d70b9f1402336825a64b04e236-CgrINXXg.png"
+    ]
+  },
+  "_IHerbBadgeLogoRgb1-106-1526-kSC6I5h3.js": {
+    "file": "assets/IHerbBadgeLogoRgb1-106-1526-kSC6I5h3.js",
+    "name": "IHerbBadgeLogoRgb1-106-1526",
+    "imports": [
+      "_radix-DXbKUXNJ.js"
+    ],
+    "assets": [
+      "assets/2f3309a930da536601e44619e42e44f89c102eb7-uevdkWog.png"
+    ]
+  },
+  "_LegalContactSection-CVbAfw_v.js": {
+    "file": "assets/LegalContactSection-CVbAfw_v.js",
+    "name": "LegalContactSection",
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "_icons-BMeO7mWN.js": {
+    "file": "assets/icons-BMeO7mWN.js",
+    "name": "icons"
+  },
+  "_radix-DXbKUXNJ.js": {
+    "file": "assets/radix-DXbKUXNJ.js",
+    "name": "radix",
+    "imports": [
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-CDrWb0Tw.js",
+>>>>>>> Stashed changes
     "name": "index",
     "src": "index.html",
     "isEntry": true,
-    "imports": [
-      "_radix-Bjn62G9e.js",
-      "_icons-v_5IysOb.js"
+        "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js"
+        ],
     ],
     "dynamicImports": [
       "src/components/LandingPage.tsx"
     ],
     "css": [
-      "assets/index-CGoj_ZBN.css"
+      "assets/index-B6DfZ-xb.css"
     ],
     "assets": [
       "assets/7157caff66020adbe0e259d3e2f8312044fb4dd5-B1Sh7v7y.png",
@@ -139,15 +204,107 @@
     "file": "assets/fa234369467197e9b56f625112dd7dc3646b9390-cFuFLZxZ.png",
     "src": "src/assets/fa234369467197e9b56f625112dd7dc3646b9390.png"
   },
+  "src/components/AboutPage.tsx": {
+    "file": "assets/AboutPage-CZGbMh36.js",
+    "name": "AboutPage",
+    "src": "src/components/AboutPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js",
+      "index.html"
+    ],
+  "src/components/AboutPage.tsx": {
+    "file": "assets/AboutPage-CZGbMh36.js",
+    "name": "AboutPage",
+    "src": "src/components/AboutPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js",
+      "index.html"
+    ],
+    "assets": [
+      "assets/ba7f18652d239a86866cf8bd1f5919c913befa4b-82f9TIWM.png",
+      "assets/4cc7cdc6ba408e920883098378ddf5612fda349e-DNlf8c5L.png",
+      "assets/ba23c644c769aed69ee6d17f7866560f5794f544-t9IWATzg.png"
+    ]
+  },
+  "src/components/ContactPage.tsx": {
+    "file": "assets/ContactPage-CZnmBi09.js",
+    "name": "ContactPage",
+    "src": "src/components/ContactPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "index.html",
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "src/components/CookiePolicyPage.tsx": {
+    "file": "assets/CookiePolicyPage-DnyQW9aW.js",
+    "name": "CookiePolicyPage",
+    "src": "src/components/CookiePolicyPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_LegalContactSection-CVbAfw_v.js",
+      "index.html",
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "src/components/GlossaryPage.tsx": {
+    "file": "assets/GlossaryPage-C1RDvAeM.js",
+    "name": "GlossaryPage",
+    "src": "src/components/GlossaryPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js",
+      "index.html"
+    ]
+  },
+  "src/components/ImpressumPage.tsx": {
+    "file": "assets/ImpressumPage-v9obGLCj.js",
+    "name": "ImpressumPage",
+    "src": "src/components/ImpressumPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_LegalContactSection-CVbAfw_v.js",
+      "index.html",
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "src/components/KnowledgebasePage.tsx": {
+    "file": "assets/KnowledgebasePage-IPyuWQLf.js",
+    "name": "KnowledgebasePage",
+    "src": "src/components/KnowledgebasePage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js",
+      "index.html"
+    ]
+  },
   "src/components/LandingPage.tsx": {
-    "file": "assets/LandingPage-etXlI2vE.js",
+    "file": "assets/LandingPage-Cwxs8s6w.js",
+>>>>>>> Stashed changes
     "name": "LandingPage",
     "src": "src/components/LandingPage.tsx",
     "isDynamicEntry": true,
     "imports": [
+<<<<<<< Updated upstream
       "_radix-Bjn62G9e.js",
       "_icons-v_5IysOb.js",
       "index.html"
+=======
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js",
+      "index.html",
+      "_IHerbBadgeLogoRgb1-106-1526-kSC6I5h3.js",
+      "_4bdf2cba5e05e7d70b9f1402336825a64b04e236-C_dfqpke.js"
+>>>>>>> Stashed changes
     ],
     "assets": [
       "assets/adaa5958638ef58a10a2b5b182d161d011abc01a-2eBRAHbk.png",
@@ -155,5 +312,79 @@
       "assets/4bdf2cba5e05e7d70b9f1402336825a64b04e236-CgrINXXg.png",
       "assets/f69f346bde9ce1223aa8e8e9265be307b22261e4-Dvesoa-Q.png"
     ]
+<<<<<<< Updated upstream
+=======
+  },
+  "src/components/LegalDisclaimerPage.tsx": {
+    "file": "assets/LegalDisclaimerPage-DJniBDS3.js",
+    "name": "LegalDisclaimerPage",
+    "src": "src/components/LegalDisclaimerPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_LegalContactSection-CVbAfw_v.js",
+      "index.html",
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "src/components/MethodologyPage.tsx": {
+    "file": "assets/MethodologyPage-DB0kc71f.js",
+    "name": "MethodologyPage",
+    "src": "src/components/MethodologyPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "index.html",
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "src/components/PartnerPage.tsx": {
+    "file": "assets/PartnerPage-D5ciXQUY.js",
+    "name": "PartnerPage",
+    "src": "src/components/PartnerPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js",
+      "_4bdf2cba5e05e7d70b9f1402336825a64b04e236-C_dfqpke.js",
+      "index.html"
+    ]
+  },
+  "src/components/PrivacyPolicyPage.tsx": {
+    "file": "assets/PrivacyPolicyPage-DnSUFyZX.js",
+    "name": "PrivacyPolicyPage",
+    "src": "src/components/PrivacyPolicyPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_LegalContactSection-CVbAfw_v.js",
+      "index.html",
+      "_icons-BMeO7mWN.js"
+    ]
+  },
+  "src/components/ProductComparison.tsx": {
+    "file": "assets/ProductComparison-fzkJPTws.js",
+    "name": "ProductComparison",
+    "src": "src/components/ProductComparison.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_icons-BMeO7mWN.js",
+      "index.html",
+      "_IHerbBadgeLogoRgb1-106-1526-kSC6I5h3.js"
+    ]
+  },
+  "src/components/TermsOfServicePage.tsx": {
+    "file": "assets/TermsOfServicePage-BY3WajO5.js",
+    "name": "TermsOfServicePage",
+    "src": "src/components/TermsOfServicePage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_radix-DXbKUXNJ.js",
+      "_LegalContactSection-CVbAfw_v.js",
+      "index.html",
+      "_icons-BMeO7mWN.js"
+    ]
+>>>>>>> Stashed changes
   }
 }

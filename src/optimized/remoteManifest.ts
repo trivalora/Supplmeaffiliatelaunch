@@ -6,7 +6,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -18,7 +19,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -30,7 +32,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -42,7 +45,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -54,7 +58,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -66,7 +71,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -78,7 +84,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -90,7 +97,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -102,7 +110,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -114,7 +123,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -126,7 +136,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -138,7 +149,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -150,7 +162,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -162,7 +175,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -174,7 +188,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -186,7 +201,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -198,7 +214,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -210,7 +227,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -222,7 +240,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -234,7 +253,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -246,7 +266,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -258,7 +279,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -270,7 +292,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -282,7 +305,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -294,7 +318,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -306,7 +331,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -318,7 +344,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -330,7 +357,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -342,7 +370,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -354,7 +383,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -366,7 +396,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -378,7 +409,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -390,7 +422,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -402,7 +435,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -414,7 +448,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -426,7 +461,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -438,7 +474,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -450,7 +487,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -462,7 +500,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -474,7 +513,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -486,7 +526,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -498,7 +539,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -510,7 +552,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -522,7 +565,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -534,7 +578,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -546,7 +591,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -558,7 +604,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -570,7 +617,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -582,7 +630,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -594,7 +643,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",
@@ -606,7 +656,8 @@ export const REMOTE_IMAGE_MANIFEST: Record<string, { hash: string; widths: numbe
     "widths": [
       240,
       360,
-      480
+      480,
+      640
     ],
     "formats": [
       "avif",

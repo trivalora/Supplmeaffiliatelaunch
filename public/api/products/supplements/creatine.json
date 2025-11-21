@@ -3524,6 +3524,7 @@
       "brand": "Now Sports",
       "dsld_product_name": "Creatine Monohydrate",
       "dsld_brand": "NOW Sports",
+      "product_image_url": "",
       "best_price_per_unit": 0.001998,
       "best_total_price": 9.99,
       "unit": "mg",
@@ -3536,6 +3537,7 @@
           "price_per_unit": 0.001998,
           "product_url": "https://www.vitacost.com/now-sports-creatine-monohydrate-informed-sport-certified-8-oz",
           "product_name": "NOW Sports Creatine Monohydrate - Informed Sport Certifie...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3554,6 +3556,7 @@
       "brand": "Bodybuilding.com Signature",
       "dsld_product_name": "Creatine Monohydrate 5g Unflavored",
       "dsld_brand": "Bodybuilding.com Signature",
+      "product_image_url": "",
       "best_price_per_unit": 0.002098,
       "best_total_price": 10.49,
       "unit": "mg",
@@ -3566,6 +3569,7 @@
           "price_per_unit": 0.002098,
           "product_url": "https://shop.bodybuilding.com/products/bodybuilding-com-signature-creatine-monohydrate-v2",
           "product_name": "Bodybuilding.com Signature Creatine Monohydrate",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3582,6 +3586,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Creatine Monohydrate",
       "dsld_brand": "NutraBio",
+      "product_image_url": "",
       "best_price_per_unit": 0.002598,
       "best_total_price": 12.99,
       "unit": "mg",
@@ -3594,6 +3599,7 @@
           "price_per_unit": 0.002598,
           "product_url": "https://www.iherb.com/pr/nutrabio-performance-micronized-creatine-monohydrate-5-3-oz-150-g/123319",
           "product_name": "NutraBio, Performance, Micronised Creatine Monohydrate, 5.3 oz (150 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3613,6 +3619,7 @@
       "brand": "Evlution Nutrition",
       "dsld_product_name": "Creatine5000 Unflavored",
       "dsld_brand": "Evlution Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.002702,
       "best_total_price": 13.51,
       "unit": "mg",
@@ -3625,6 +3632,7 @@
           "price_per_unit": 0.002702,
           "product_url": "https://www.iherb.com/pr/evlution-nutrition-creatine5000-unflavored-10-58-oz-300-g/83389",
           "product_name": "EVLution Nutrition, Creatine5000\u00ae, Unflavoured, 10.58 oz (300 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3634,6 +3642,7 @@
           "price_per_unit": 0.006678,
           "product_url": "https://www.vitacost.com/evlution-nutrition-creatine5000",
           "product_name": "Evlution Nutrition Creatine5000 Unflavored -- 10.58 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3650,6 +3659,7 @@
       "brand": "Onnit",
       "dsld_product_name": "Creatine Monohydrate",
       "dsld_brand": "Onnit",
+      "product_image_url": "",
       "best_price_per_unit": 0.003286,
       "best_total_price": 16.43,
       "unit": "mg",
@@ -3662,6 +3672,7 @@
           "price_per_unit": 0.003286,
           "product_url": "https://www.iherb.com/pr/onnit-creatine-monohydrate-5-29-oz-150-g/122859",
           "product_name": "Onnit, Creatine Monohydrate, 5.29 oz (150 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3678,6 +3689,7 @@
       "brand": "Best Naturals",
       "dsld_product_name": "Creatine Monohydrate Pure Powder",
       "dsld_brand": "Best Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 0.0035979999999999996,
       "best_total_price": 17.99,
       "unit": "mg",
@@ -3690,6 +3702,7 @@
           "price_per_unit": 0.0035979999999999996,
           "product_url": "https://www.vitacost.com/best-naturals-creatine-monohydrate-powder",
           "product_name": "Best Naturals Creatine Monohydrate Powder -- 1 lb",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3718,6 +3731,7 @@
       "brand": "MRM Nutrition",
       "dsld_product_name": "Creatine Monohydrate 325",
       "dsld_brand": "MRM Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.0035979999999999996,
       "best_total_price": 17.99,
       "unit": "mg",
@@ -3730,6 +3744,7 @@
           "price_per_unit": 0.0035979999999999996,
           "product_url": "https://www.iherb.com/pr/mrm-nutrition-creatine-monohydrate-325-11-5-oz-325-g/149943",
           "product_name": "MRM Nutrition, Creatine Monohydrate 325, 11.5 oz (325 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3749,6 +3764,7 @@
       "brand": "Six Star",
       "dsld_product_name": "CreatineX3",
       "dsld_brand": "Six Star",
+      "product_image_url": "",
       "best_price_per_unit": 0.003856812933025404,
       "best_total_price": 11.69,
       "unit": "mg",
@@ -3761,6 +3777,7 @@
           "price_per_unit": 0.003856812933025404,
           "product_url": "https://www.vitacost.com/six-star-creatine-x3",
           "product_name": "Six Star Creatine X3 -- 60 Caplets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3770,6 +3787,7 @@
           "price_per_unit": 0.0042527218739689876,
           "product_url": "https://www.iherb.com/pr/sixstar-creatine-x3-60-caplets/54777",
           "product_name": "SIXSTAR, Creatine X3\u2122, 60 Caplets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3786,6 +3804,7 @@
       "brand": "Optimum Nutrition",
       "dsld_product_name": "Micronized Creatine Powder Unflavored",
       "dsld_brand": "Optimum Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.003988,
       "best_total_price": 19.94,
       "unit": "mg",
@@ -3798,6 +3817,7 @@
           "price_per_unit": 0.003988,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-micronized-creatine-powder-unflavored-10-58-oz-300-g/36132",
           "product_name": "Optimum Nutrition, Micronised Creatine Powder, Unflavoured, 10.58 oz (300 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3807,6 +3827,7 @@
           "price_per_unit": 0.004518,
           "product_url": "https://www.vitacost.com/optimum-nutrition-micronized-creatine-powder-unflavored",
           "product_name": "Optimum Nutrition Micronized Creatine Powder Unflavored -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3823,6 +3844,7 @@
       "brand": "PEScience",
       "dsld_product_name": "TruCreatine+",
       "dsld_brand": "PEScience",
+      "product_image_url": "",
       "best_price_per_unit": 0.003998,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -3835,6 +3857,7 @@
           "price_per_unit": 0.003998,
           "product_url": "https://www.iherb.com/pr/pescience-trucreatine-creatine-complex-5-67-oz-161-g/113760",
           "product_name": "PEScience, TruCreatine+, Creatine Complex, 5.67 oz (161 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3853,6 +3876,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Creatine Monohydrate 5 g Unflavored",
       "dsld_brand": "Nutricost",
+      "product_image_url": "",
       "best_price_per_unit": 0.0041979999999999995,
       "best_total_price": 20.99,
       "unit": "mg",
@@ -3865,6 +3889,7 @@
           "price_per_unit": 0.0041979999999999995,
           "product_url": "https://www.vitacost.com/nutricost-creatine-monohydrate-powder-unflavored",
           "product_name": "Nutricost Creatine Monohydrate Powder Unflavored -- 1 lb",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3884,6 +3909,7 @@
       "brand": "MuscleMeds",
       "dsld_product_name": "Creatine Decanate Unflavored",
       "dsld_brand": "MuscleMeds",
+      "product_image_url": "",
       "best_price_per_unit": 0.004548,
       "best_total_price": 22.74,
       "unit": "mg",
@@ -3896,6 +3922,7 @@
           "price_per_unit": 0.004548,
           "product_url": "https://www.iherb.com/pr/musclemeds-creatine-decanate-unflavored-10-58-oz-300-g/121788",
           "product_name": "MuscleMeds, Creatine Decanate, Unflavoured, 10.58 oz (300 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3912,6 +3939,7 @@
       "brand": "BSN",
       "dsld_product_name": "Creatine Unflavored",
       "dsld_brand": "BSN",
+      "product_image_url": "",
       "best_price_per_unit": 0.004598,
       "best_total_price": 22.99,
       "unit": "mg",
@@ -3924,6 +3952,7 @@
           "price_per_unit": 0.004598,
           "product_url": "https://www.iherb.com/pr/bsn-creatine-unflavored-10-9-oz-309-g/63046",
           "product_name": "BSN, Creatine, Unflavoured, 10.9 oz (309 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3940,6 +3969,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Creatine Monohydrate",
       "dsld_brand": "NutraBio",
+      "product_image_url": "",
       "best_price_per_unit": 0.004797999999999999,
       "best_total_price": 23.99,
       "unit": "mg",
@@ -3952,6 +3982,7 @@
           "price_per_unit": 0.004797999999999999,
           "product_url": "https://www.vitacost.com/nutrabio-creatine-monohydrate",
           "product_name": "NutraBio Creatine Monohydrate -- 60 Servings",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -3961,6 +3992,7 @@
           "price_per_unit": 0.004797999999999999,
           "product_url": "https://www.iherb.com/pr/nutrabio-micronized-creatine-monohydrate-10-6-oz-300-g/123320",
           "product_name": "NutraBio, Micronised Creatine Monohydrate, 10.6 oz (300 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3980,6 +4012,7 @@
       "brand": "Now Sports",
       "dsld_product_name": "Micronized Creatine Monohydrate",
       "dsld_brand": "NOW Sports",
+      "product_image_url": "",
       "best_price_per_unit": 0.004830952380952381,
       "best_total_price": 20.29,
       "unit": "mg",
@@ -3992,6 +4025,7 @@
           "price_per_unit": 0.004830952380952381,
           "product_url": "https://www.vitacost.com/now-sports-micronized-creatine-monohydrate-1-1-lbs",
           "product_name": "NOW Sports Micronized Creatine Monohydrate -- 1.1 lbs",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4014,6 +4048,7 @@
       "brand": "Six Star",
       "dsld_product_name": "Creatine X3 Fruit Punch",
       "dsld_brand": "Six Star",
+      "product_image_url": "",
       "best_price_per_unit": 0.004831666666666666,
       "best_total_price": 28.99,
       "unit": "mg",
@@ -4026,6 +4061,7 @@
           "price_per_unit": 0.004831666666666666,
           "product_url": "https://www.vitacost.com/six-star-creatine-x3-fruit-punch",
           "product_name": "Six Star Creatine X3 Fruit Punch -- 30 Servings",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4042,6 +4078,7 @@
       "brand": "Gaspari Nutrition",
       "dsld_product_name": "Creatine Unflavored",
       "dsld_brand": "Gaspari Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.004998,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -4054,6 +4091,7 @@
           "price_per_unit": 0.004998,
           "product_url": "https://www.iherb.com/pr/gaspari-nutrition-creatine-unflavored-300-g/46213",
           "product_name": "Gaspari Nutrition, Creatine, Unflavoured, 300 g",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4073,6 +4111,7 @@
       "brand": "Cellucor",
       "dsld_product_name": "COR-Performance Creatine Fruit Punch",
       "dsld_brand": "Cellucor",
+      "product_image_url": "",
       "best_price_per_unit": 0.004998,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -4085,6 +4124,7 @@
           "price_per_unit": 0.004998,
           "product_url": "https://www.iherb.com/pr/c4-cellucor-cor-performance-creatine-fruit-punch-11-5-oz-325-g/146986",
           "product_name": "C4 / Cellucor, Creatine COR-Performance\u00ae, Fruit Punch, 11.5 oz (325 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4103,6 +4143,7 @@
       "brand": "Premier Research Labs",
       "dsld_product_name": "Premier Creatine Monohydrate",
       "dsld_brand": "Premier Research Labs",
+      "product_image_url": "",
       "best_price_per_unit": 0.005028,
       "best_total_price": 25.14,
       "unit": "mg",
@@ -4115,6 +4156,7 @@
           "price_per_unit": 0.005028,
           "product_url": "https://www.vitacost.com/premier-research-labs-premier-creatine",
           "product_name": "Premier Research Labs Premier Creatine -- 7.8 oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4131,6 +4173,7 @@
       "brand": "APS",
       "dsld_product_name": "Creatine Monohydrate 500g",
       "dsld_brand": "APS",
+      "product_image_url": "",
       "best_price_per_unit": 0.00599,
       "best_total_price": 29.95,
       "unit": "mg",
@@ -4143,6 +4186,7 @@
           "price_per_unit": 0.00599,
           "product_url": "https://www.iherb.com/pr/aps-creatine-monohydrate-17-63-oz-500-g/130121",
           "product_name": "APS, Creatine Monohydrate, 17.63 oz (500 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4159,6 +4203,7 @@
       "brand": "MusclePharm",
       "dsld_product_name": "Creatine",
       "dsld_brand": "MusclePharm",
+      "product_image_url": "",
       "best_price_per_unit": 0.005998,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -4171,6 +4216,7 @@
           "price_per_unit": 0.005998,
           "product_url": "https://www.vitacost.com/musclepharm-select-creatine-informed-sport-certified-60-servings",
           "product_name": "MusclePharm Select Creatine - Informed Sport Certified - ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4180,6 +4226,7 @@
           "price_per_unit": 0.005998,
           "product_url": "https://www.iherb.com/pr/musclepharm-select-creatine-unflavored-10-6-oz-300-g/80648",
           "product_name": "MusclePharm, Select Creatine, Unflavoured, 10.6 oz (300 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4196,6 +4243,7 @@
       "brand": "MRM Nutrition",
       "dsld_product_name": "Creatine Monohydrate 500",
       "dsld_brand": "MRM Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.005998,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -4208,6 +4256,7 @@
           "price_per_unit": 0.005998,
           "product_url": "https://www.iherb.com/pr/mrm-nutrition-creatine-monohydrate-500-1-1-lbs-500-g/115906",
           "product_name": "MRM Nutrition, Creatine Monohydrate 500, 0.5 kg (500 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4224,6 +4273,7 @@
       "brand": "MusclePharm",
       "dsld_product_name": "Creatine",
       "dsld_brand": "MusclePharm",
+      "product_image_url": "",
       "best_price_per_unit": 0.006998000000000001,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -4236,6 +4286,7 @@
           "price_per_unit": 0.006998000000000001,
           "product_url": "https://www.vitacost.com/musclepharm-assault-preworkout-with-creatine-informed-sport-certified-30-servings-fruit-punch",
           "product_name": "MusclePharm Assault Preworkout with Creatine - Informed S...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4252,6 +4303,7 @@
       "brand": "MuscleTech Essential Series",
       "dsld_product_name": "Platinum 100% Creatine",
       "dsld_brand": "MuscleTech Essential Series",
+      "product_image_url": "",
       "best_price_per_unit": 0.006998000000000001,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -4264,6 +4316,7 @@
           "price_per_unit": 0.006998000000000001,
           "product_url": "https://www.vitacost.com/muscletech-essential-series-platinum-100-creatine",
           "product_name": "MuscleTech Essential Series Platinum 100% Creatine -- 80 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4283,6 +4336,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Creatine",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.007,
       "best_total_price": 35.0,
       "unit": "mg",
@@ -4295,6 +4349,7 @@
           "price_per_unit": 0.007,
           "product_url": "https://www.vitacost.com/thorne-creatine-nsf-certified-for-sport-30-stick-packs",
           "product_name": "Thorne Creatine - NSF Certified for Sport -- 30 Stick Packs",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4311,6 +4366,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Creatine",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.007,
       "best_total_price": 35.0,
       "unit": "mg",
@@ -4323,6 +4379,7 @@
           "price_per_unit": 0.007,
           "product_url": "https://www.iherb.com/pr/thorne-creatine-30-stick-packs-0-18-oz-5-15-g-each/150561",
           "product_name": "Thorne, Creatine, 30 Stick Packs, 0.18 oz (5.15 g) Each",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4339,6 +4396,7 @@
       "brand": "BPI Sports",
       "dsld_product_name": "Micronized Creatine Unflavored",
       "dsld_brand": "BPI Sports",
+      "product_image_url": "",
       "best_price_per_unit": 0.007204,
       "best_total_price": 36.02,
       "unit": "mg",
@@ -4351,6 +4409,7 @@
           "price_per_unit": 0.007204,
           "product_url": "https://www.iherb.com/pr/bpi-sports-micronized-creatine-unflavored-1-32-lbs-600-g/73490",
           "product_name": "BPI Sports, Micronised Creatine, Unflavoured, 1.32 lbs (600 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4369,6 +4428,7 @@
       "brand": "Momentous",
       "dsld_product_name": "Creatine",
       "dsld_brand": "Momentous",
+      "product_image_url": "",
       "best_price_per_unit": 0.00799,
       "best_total_price": 39.95,
       "unit": "mg",
@@ -4381,6 +4441,7 @@
           "price_per_unit": 0.00799,
           "product_url": "https://www.vitacost.com/momentous-creatine-creapure-nsf-certified-for-sport-informed-sport-certified-90-servings",
           "product_name": "Momentous Creatine - Creapure - NSF Certified for Sport -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4399,6 +4460,7 @@
       "brand": "Swolverine",
       "dsld_product_name": "Creatine Monohydrate Unflavored",
       "dsld_brand": "Swolverine",
+      "product_image_url": "",
       "best_price_per_unit": 0.007998,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -4411,6 +4473,7 @@
           "price_per_unit": 0.007998,
           "product_url": "https://www.iherb.com/pr/swolverine-creatine-monohydrate-unflavored-10-58-oz-300-g/134153",
           "product_name": "Swolverine, Creatine Monohydrate, Unflavoured, 10.58 oz (300 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4420,6 +4483,7 @@
           "price_per_unit": 0.009337999999999999,
           "product_url": "https://www.vitacost.com/swolverine-creatine-monohydrate-powder",
           "product_name": "Swolverine Creatine Monohydrate Powder Unflavored -- 60 S...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4438,6 +4502,7 @@
       "brand": "MuscleTech",
       "dsld_product_name": "Creatine Chews Citrus Burst",
       "dsld_brand": "MuscleTech",
+      "product_image_url": "",
       "best_price_per_unit": 0.0081975,
       "best_total_price": 32.79,
       "unit": "mg",
@@ -4450,6 +4515,7 @@
           "price_per_unit": 0.0081975,
           "product_url": "https://www.vitacost.com/muscletech-creatine-chews",
           "product_name": "MuscleTech Creatine Chews Citrus Burst -- 90 Chewable Tab...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4466,6 +4532,7 @@
       "brand": "Davinci Laboratories",
       "dsld_product_name": "Creatine Powder Unflavored",
       "dsld_brand": "DaVinci Laboratories",
+      "product_image_url": "",
       "best_price_per_unit": 0.008548,
       "best_total_price": 42.74,
       "unit": "mg",
@@ -4478,6 +4545,7 @@
           "price_per_unit": 0.008548,
           "product_url": "https://www.vitacost.com/davinci-laboratories-creatine-powder",
           "product_name": "DaVinci Laboratories Creatine Powder Unflavored -- 90 Ser...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4487,6 +4555,7 @@
           "price_per_unit": 0.008548,
           "product_url": "https://www.iherb.com/pr/davinci-laboratories-creatine-powder-unflavored-450-g/144922",
           "product_name": "DaVinci Laboratories, Creatine Powder, Unflavoured, 450 g",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4507,6 +4576,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Creatine",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.0086,
       "best_total_price": 43.0,
       "unit": "mg",
@@ -4519,6 +4589,7 @@
           "price_per_unit": 0.0086,
           "product_url": "https://www.iherb.com/pr/thorne-creatine-16-oz-450-g/70006",
           "product_name": "Thorne, Creatine, 450\u00a0g",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4535,6 +4606,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Creatine",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.0096,
       "best_total_price": 48.0,
       "unit": "mg",
@@ -4547,6 +4619,7 @@
           "price_per_unit": 0.0096,
           "product_url": "https://www.iherb.com/pr/thorne-creatine-strawberry-13-1-oz-372-g/155733",
           "product_name": "Thorne, Creatine, Strawberry, 13.1 oz (372 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4563,6 +4636,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Creatine",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 0.0096,
       "best_total_price": 48.0,
       "unit": "mg",
@@ -4575,6 +4649,7 @@
           "price_per_unit": 0.0096,
           "product_url": "https://www.iherb.com/pr/thorne-creatine-pineapple-orange-13-5-oz-384-g/155734",
           "product_name": "Thorne, Creatine, Pineapple Orange, 13.5 oz (384 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4591,6 +4666,7 @@
       "brand": "Sunwarrior Sport",
       "dsld_product_name": "Active Creatine Monohydrate Unflavored",
       "dsld_brand": "Sunwarrior Sport",
+      "product_image_url": "",
       "best_price_per_unit": 0.009994,
       "best_total_price": 49.97,
       "unit": "mg",
@@ -4603,6 +4679,7 @@
           "price_per_unit": 0.009994,
           "product_url": "https://www.vitacost.com/sunwarrior-sport-active-creatine-monohydrate-powder",
           "product_name": "Sunwarrior Sport Active Creatine Monohydrate Powder Unfla...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4622,6 +4699,7 @@
       "brand": "Optimum Nutrition",
       "dsld_product_name": "Micronized Creatine Capsules 2.5 g",
       "dsld_brand": "Optimum Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.009996,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -4634,6 +4712,7 @@
           "price_per_unit": 0.009996,
           "product_url": "https://www.vitacost.com/optimum-nutrition-micronized-creatine-capsules",
           "product_name": "Optimum Nutrition Micronized Creatine Capsules -- 100 Cap...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4650,6 +4729,7 @@
       "brand": "Evlution Nutrition",
       "dsld_product_name": "Creatine1000",
       "dsld_brand": "Evlution Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.01038,
       "best_total_price": 10.38,
       "unit": "mg",
@@ -4662,6 +4742,7 @@
           "price_per_unit": 0.01038,
           "product_url": "https://www.iherb.com/pr/evlution-nutrition-creatine1000-120-veggie-capsules-500-mg-per-capsule/102765",
           "product_name": "EVLution Nutrition, Creatine1000\u00ae, 120 Veggie Capsules (500 mg per Capsule)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4671,6 +4752,7 @@
           "price_per_unit": 0.02539,
           "product_url": "https://www.vitacost.com/evlution-nutrition-creatine1000",
           "product_name": "Evlution Nutrition Creatine1000 -- 120 Veggie Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4687,6 +4769,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Creatine Monohydrate 3 g",
       "dsld_brand": "Nutricost",
+      "product_image_url": "",
       "best_price_per_unit": 0.010983333333333335,
       "best_total_price": 32.95,
       "unit": "mg",
@@ -4699,6 +4782,7 @@
           "price_per_unit": 0.010983333333333335,
           "product_url": "https://www.vitacost.com/nutricost-creatine-monohydrate",
           "product_name": "Nutricost Creatine Monohydrate -- 500 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4718,6 +4802,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Liposomal Creatine",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 0.011996,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -4730,6 +4815,7 @@
           "price_per_unit": 0.011996,
           "product_url": "https://www.vitacost.com/codeage-liposomal-creatine-monohydrate-powder-supplement-1-month-supply",
           "product_name": "Codeage Liposomal Creatine Monohydrate Powder Supplement ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4748,6 +4834,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Liposomal Creatine",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 0.011996,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -4760,6 +4847,7 @@
           "price_per_unit": 0.011996,
           "product_url": "https://www.iherb.com/pr/codeage-sport-liposomal-creatine-powder-unflavored-5-29-oz-150-g/125843",
           "product_name": "Codeage, Sport, Liposomal Creatine Powder, Unflavoured, 5.29 oz (150 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4778,6 +4866,7 @@
       "brand": "EFX Sports",
       "dsld_product_name": "Kre-Alkalyn EFX Powder",
       "dsld_brand": "EFX Sports",
+      "product_image_url": "",
       "best_price_per_unit": 0.01466,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -4790,6 +4879,7 @@
           "price_per_unit": 0.01466,
           "product_url": "https://www.iherb.com/pr/efx-sports-ph-correct-creatine-monohydrate-kre-alkalyn-efx-powder-neutral-3-53-oz-100-g/48104",
           "product_name": "EFX Sports, pH-Correct\u00ae Creatine Monohydrate, Kre-Alkalyn EFX Powder, Neutral, 100 g (3.53 oz)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4806,6 +4896,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Creatine HCl",
       "dsld_brand": "NutraBio",
+      "product_image_url": "",
       "best_price_per_unit": 0.01732,
       "best_total_price": 12.99,
       "unit": "mg",
@@ -4818,6 +4909,7 @@
           "price_per_unit": 0.01732,
           "product_url": "https://supplementwarehouse.com/products/nutrabio-creatine-150g/?expa_m=search&expa_st=creatine",
           "product_name": "NutraBio Creatine 150g",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4838,6 +4930,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "Creatine Monohydrate",
       "dsld_brand": "BodyTech",
+      "product_image_url": "",
       "best_price_per_unit": 0.017773333333333335,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -4850,6 +4943,7 @@
           "price_per_unit": 0.017773333333333335,
           "product_url": "https://www.iherb.com/pr/bodytech-creatine-monohydrate-300-capsules-750-mg-per-capsule/139886",
           "product_name": "BodyTech, Creatine Monohydrate, 300 Capsules (750 mg per Capsule)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4866,6 +4960,7 @@
       "brand": "Cellucor",
       "dsld_product_name": "COR-Performance Creatine Unflavored",
       "dsld_brand": "Cellucor",
+      "product_image_url": "",
       "best_price_per_unit": 0.021032,
       "best_total_price": 26.29,
       "unit": "mg",
@@ -4878,6 +4973,7 @@
           "price_per_unit": 0.021032,
           "product_url": "https://www.vitacost.com/cellucor-cor-performance-creatine-unflavored-72-servings",
           "product_name": "Cellucor Cor Performance Creatine Unflavored -- 72 Servings",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4894,6 +4990,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "Creatine Monohydrate",
       "dsld_brand": "BodyTech",
+      "product_image_url": "",
       "best_price_per_unit": 0.02132888888888889,
       "best_total_price": 47.99,
       "unit": "mg",
@@ -4906,6 +5003,7 @@
           "price_per_unit": 0.02132888888888889,
           "product_url": "https://www.iherb.com/pr/bodytech-creatine-monohydrate-fruit-punch-16-5-oz-468-g/139904",
           "product_name": "BodyTech, Creatine Monohydrate, Fruit Punch, 16.5 oz (468 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4922,6 +5020,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "100% Pure Creatine Monohydrate",
       "dsld_brand": "BodyTech",
+      "product_image_url": "",
       "best_price_per_unit": 0.022217777777777777,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -4934,6 +5033,7 @@
           "price_per_unit": 0.022217777777777777,
           "product_url": "https://www.iherb.com/pr/bodytech-100-pure-creatine-monohydrate-unflavored-18-oz-510-g/139887",
           "product_name": "BodyTech, 100% Pure Creatine Monohydrate, Unflavoured, 18 oz (510 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4950,6 +5050,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "Creatine & Glutamine With Beta-Alanine Unflavored",
       "dsld_brand": "BodyTech",
+      "product_image_url": "",
       "best_price_per_unit": 0.024993750000000002,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -4962,6 +5063,7 @@
           "price_per_unit": 0.024993750000000002,
           "product_url": "https://www.iherb.com/pr/bodytech-creatine-glutamine-with-beta-alanine-unflavored-10-8-oz-306-g/139898",
           "product_name": "BodyTech, Creatine + Glutamine With Beta-Alanine, Unflavoured, 10.8 oz (306 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4978,6 +5080,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "Beta-Alanine",
       "dsld_brand": "BodyTech",
+      "product_image_url": "",
       "best_price_per_unit": 0.024993750000000002,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -4990,6 +5093,7 @@
           "price_per_unit": 0.024993750000000002,
           "product_url": "https://www.iherb.com/pr/bodytech-creatine-glutamine-with-beta-alanine-fruit-punch-12-6-oz-357-g/139895",
           "product_name": "BodyTech, Creatine + Glutamine with Beta-Alanine, Fruit Punch, 12.6 oz (357 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5006,6 +5110,7 @@
       "brand": "CON-CRET",
       "dsld_product_name": "Creatine HCl",
       "dsld_brand": "CON-CRET",
+      "product_image_url": "",
       "best_price_per_unit": 0.02932,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -5018,6 +5123,7 @@
           "price_per_unit": 0.02932,
           "product_url": "https://www.vitacost.com/con-cret-creatine-hcl-nsf-certified-for-sport",
           "product_name": "Con-Cret Creatine HCl - NSF Certified for Sport -- 48 Cap...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5034,6 +5140,7 @@
       "brand": "CON-CRET",
       "dsld_product_name": "Creatine HCl",
       "dsld_brand": "CON-CRET",
+      "product_image_url": "",
       "best_price_per_unit": 0.033319999999999995,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -5046,6 +5153,7 @@
           "price_per_unit": 0.033319999999999995,
           "product_url": "https://www.vitacost.com/con-cret-creatine-hcl-brain-health",
           "product_name": "Con-Cret Creatine HCl Brain Health -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5055,6 +5163,7 @@
           "price_per_unit": 0.033319999999999995,
           "product_url": "https://www.iherb.com/pr/con-cret-creatine-hcl-72-capsules-750-mg-per-capsule/87039",
           "product_name": "Con-Cret, Creatine HCl, 72 Capsules (750 mg per Capsule)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5071,6 +5180,7 @@
       "brand": "CON-CRET",
       "dsld_product_name": "Creatine HCl",
       "dsld_brand": "CON-CRET",
+      "product_image_url": "",
       "best_price_per_unit": 0.033319999999999995,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -5083,6 +5193,7 @@
           "price_per_unit": 0.033319999999999995,
           "product_url": "https://www.iherb.com/pr/con-cret-creatine-hcl-lemon-lime-2-2-oz-61-4-g/87041",
           "product_name": "Con-Cret, Patented Creatine HCl, Lemon-Lime, 62.4 g (2.2 oz)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5099,6 +5210,7 @@
       "brand": "Kaged",
       "dsld_product_name": "Creatine HCl",
       "dsld_brand": "Kaged",
+      "product_image_url": "",
       "best_price_per_unit": 0.033453333333333335,
       "best_total_price": 25.09,
       "unit": "mg",
@@ -5111,6 +5223,7 @@
           "price_per_unit": 0.033453333333333335,
           "product_url": "https://www.vitacost.com/kaged-creatine-hcl-powder-informed-sport-certified-lemon-lime",
           "product_name": "Kaged Creatine-HCl Powder - Informed Sport Certified Lemo...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5127,6 +5240,7 @@
       "brand": "Kaged",
       "dsld_product_name": "Creatine HCl",
       "dsld_brand": "Kaged",
+      "product_image_url": "",
       "best_price_per_unit": 0.03626666666666666,
       "best_total_price": 27.2,
       "unit": "mg",
@@ -5139,6 +5253,7 @@
           "price_per_unit": 0.03626666666666666,
           "product_url": "https://www.iherb.com/pr/kaged-creatine-hcl-unflavored-1-98-oz-56-25-g/126238",
           "product_name": "Kaged, Creatine HCl, Unflavoured, 1.98 oz (56.25 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5155,6 +5270,7 @@
       "brand": "Kaged",
       "dsld_product_name": "Creatine HCl",
       "dsld_brand": "Kaged",
+      "product_image_url": "",
       "best_price_per_unit": 0.03626666666666666,
       "best_total_price": 27.2,
       "unit": "mg",
@@ -5167,6 +5283,7 @@
           "price_per_unit": 0.03626666666666666,
           "product_url": "https://www.iherb.com/pr/kaged-creatine-hcl-75-veggie-capsules-750-mg-per-capsule/126654",
           "product_name": "Kaged, Creatine HCl, 75 Veggie Capsules (750 mg per Capsule)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5183,6 +5300,7 @@
       "brand": "Kaged",
       "dsld_product_name": "Creatine HCl",
       "dsld_brand": "Kaged",
+      "product_image_url": "",
       "best_price_per_unit": 0.03626666666666666,
       "best_total_price": 27.2,
       "unit": "mg",
@@ -5195,6 +5313,7 @@
           "price_per_unit": 0.03626666666666666,
           "product_url": "https://www.iherb.com/pr/kaged-creatine-hcl-fruit-punch-2-65-oz-75-23-g/128969",
           "product_name": "Kaged, Creatine HCl, Fruit Punch, 75.23 g (2.65 oz)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5211,6 +5330,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "HMB",
       "dsld_brand": "BodyTech",
+      "product_image_url": "",
       "best_price_per_unit": 0.04499,
       "best_total_price": 44.99,
       "unit": "mg",
@@ -5223,6 +5343,7 @@
           "price_per_unit": 0.04499,
           "product_url": "https://www.iherb.com/pr/bodytech-elite-creatine-hmb-unflavored-7-94-oz-225-g/146806",
           "product_name": "BodyTech, Elite, Creatine + HMB, Unflavored, 7.94 oz (225 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5239,6 +5360,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "Creatine HCl Unflavored",
       "dsld_brand": "BodyTech",
+      "product_image_url": "",
       "best_price_per_unit": 0.04665333333333334,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -5251,6 +5373,7 @@
           "price_per_unit": 0.04665333333333334,
           "product_url": "https://www.iherb.com/pr/bodytech-creatine-hcl-unflavored-1-58-oz-45-g/139906",
           "product_name": "BodyTech, Creatine HCl, Unflavoured, 1.58 oz (45 g)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5267,6 +5390,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
+      "product_image_url": "",
       "best_price_per_unit": 0.2942,
       "best_total_price": 58.84,
       "unit": "mg",
@@ -5279,6 +5403,7 @@
           "price_per_unit": 0.2942,
           "product_url": "https://www.iherb.com/pr/swanson-creatine-powder-2-lb-3-oz-1-kg/118371",
           "product_name": "Swanson, Creatine Powder, 2 lb 3 oz (1 kg)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5297,6 +5422,7 @@
       "brand": "Nature's Craft",
       "dsld_product_name": "Creatine Tri-Phase",
       "dsld_brand": "Nature's Craft",
+      "product_image_url": "",
       "best_price_per_unit": 0.39196078431372544,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -5309,6 +5435,7 @@
           "price_per_unit": 0.39196078431372544,
           "product_url": "https://www.vitacost.com/natures-craft-creatine-tri-phase",
           "product_name": "Nature's Craft Creatine Tri-Phase -- 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5318,6 +5445,7 @@
           "price_per_unit": 0.49,
           "product_url": "https://www.iherb.com/pr/nature-s-craft-creatine-tri-phase-90-tablets/141013",
           "product_name": "Nature's Craft, Creatine, Tri-Phase, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5334,6 +5462,7 @@
       "brand": "CON-CRET",
       "dsld_product_name": "Creatine HCL Gummies Berry Zing",
       "dsld_brand": "CON-CRET",
+      "product_image_url": "",
       "best_price_per_unit": 0.8842307692307692,
       "best_total_price": 22.99,
       "unit": "calorie",
@@ -5346,6 +5475,7 @@
           "price_per_unit": 0.8842307692307692,
           "product_url": "https://www.vitacost.com/con-cret-creatine-hcl-gummies",
           "product_name": "Con-Cret Creatine HCl Gummies Berry Zing -- 60 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5362,6 +5492,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Creatine 1000 mg",
       "dsld_brand": "Source Naturals",
+      "product_image_url": "",
       "best_price_per_unit": 1.199,
       "best_total_price": 11.99,
       "unit": "calorie",
@@ -5374,6 +5505,7 @@
           "price_per_unit": 1.199,
           "product_url": "https://www.vitacost.com/source-naturals-creatine",
           "product_name": "Source Naturals Creatine -- 1000 mg - 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5394,6 +5526,7 @@
       "brand": "Beverly International",
       "dsld_product_name": "Creatine Select Orange",
       "dsld_brand": "Beverly International",
+      "product_image_url": "",
       "best_price_per_unit": 3.0,
       "best_total_price": 45.0,
       "unit": "calorie",
@@ -5406,6 +5539,7 @@
           "price_per_unit": 3.0,
           "product_url": "https://supplementwarehouse.com/products/bev-creatine-select-480g/?expa_m=search&expa_st=creatine",
           "product_name": "Beverly International Creatine Select 480g",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }

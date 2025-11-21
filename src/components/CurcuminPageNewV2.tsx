@@ -1,8 +1,6 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Shield, Brain, Heart, TrendingDown, Zap, Activity,
-  AlertCircle, Droplet, FlaskConical, Leaf,
-  Clock, CheckCircle2, Users
+  Activity, AlertCircle, Brain, CheckCircle2, Clock, Droplet, Flame, FlaskConical, Heart, Leaf, Pill, Shield, Smile, Stethoscope, TrendingDown, TrendingUp, Users, Zap
 } from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';

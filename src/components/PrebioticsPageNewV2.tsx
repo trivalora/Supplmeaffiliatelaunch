@@ -1,7 +1,6 @@
 import { KnowledgebaseTemplate, KnowledgebasePageProps } from './KnowledgebaseTemplate';
 import { 
-  Heart, Shield, Activity, Droplet, Brain, TrendingDown,
-  AlertCircle, Pill, FlaskConical, Apple, Users
+  Activity, AlertCircle, Apple, Bone, Brain, CheckCircle2, Droplet, Flame, FlaskConical, Heart, Pill, Shield, TrendingDown, Users
 } from './iconExports';
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';

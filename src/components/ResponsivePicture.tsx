@@ -28,18 +28,21 @@ export function ResponsivePicture({
     const toSet = (fmt: 'webp' | 'avif') => widths.map(w => `/optimized/${base}-${w}.${fmt} ${w}w`).join(', ');
     const fallback = fallbackSrc || `/optimized/${base}-${widths[Math.floor(widths.length / 2)]}.webp`;
 
+    // BEST PRACTICE: Picture is ONLY for format selection, no layout responsibility
+    // All layout/positioning/sizing handled by parent container or img element
+    // Picture only gets display:block to prevent inline spacing issues
+    
     return (
-        <picture className={className as any} style={style}>
+        <picture style={{ display: 'block' }}>
             <source type="image/avif" srcSet={toSet('avif')} sizes={sizes} />
             <source type="image/webp" srcSet={toSet('webp')} sizes={sizes} />
-            {/* Spread remaining props for better control (e.g., width/height/referrerPolicy) */}
             <img
                 src={fallback}
                 alt={alt}
                 loading={imgProps.loading || 'lazy'}
                 decoding={imgProps.decoding || 'async'}
-                style={imgProps.style}
-                className={imgProps.className}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', ...imgProps.style }}
+                className={className || imgProps.className}
                 {...imgProps}
             />
         </picture>

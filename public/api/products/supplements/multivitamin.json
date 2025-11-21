@@ -3525,6 +3525,7 @@
       "brand": "vitafusion",
       "dsld_product_name": "MultiVites",
       "dsld_brand": "vitafusion",
+      "product_image_url": "",
       "best_price_per_unit": 0.0021966666666666666,
       "best_total_price": 6.59,
       "unit": "mg",
@@ -3537,6 +3538,7 @@
           "price_per_unit": 0.0021966666666666666,
           "product_url": "https://www.vitacost.com/vitafusion-multivites-adult-complete-multivitamin-gummy",
           "product_name": "Vitafusion MultiVites Adult Complete Multivitamin Gummy A...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3555,6 +3557,7 @@
       "brand": "vitafusion",
       "dsld_product_name": "Men's",
       "dsld_brand": "vitafusion",
+      "product_image_url": "",
       "best_price_per_unit": 0.004463333333333334,
       "best_total_price": 13.39,
       "unit": "mg",
@@ -3567,6 +3570,7 @@
           "price_per_unit": 0.004463333333333334,
           "product_url": "https://www.vitacost.com/vitafusion-mens-multi-daily-multivitamin",
           "product_name": "Vitafusion Men's Multi Daily Multivitamin Natural Berry -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3587,6 +3591,7 @@
       "brand": "Zarbee's",
       "dsld_product_name": "Children's Complete Multivitamin + Probiotic",
       "dsld_brand": "Zarbee's",
+      "product_image_url": "",
       "best_price_per_unit": 0.0048224999999999995,
       "best_total_price": 19.29,
       "unit": "mg",
@@ -3599,6 +3604,7 @@
           "price_per_unit": 0.0048224999999999995,
           "product_url": "https://www.vitacost.com/zarbees-childrens-complete-multivitamin-probiotic-2-years",
           "product_name": "Zarbee's Children's Complete Multivitamin + Probiotic 2+ ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3615,6 +3621,7 @@
       "brand": "Centrum ",
       "dsld_product_name": "PreNatal Multivitamin Gummy",
       "dsld_brand": "Centrum",
+      "product_image_url": "",
       "best_price_per_unit": 0.005676666666666667,
       "best_total_price": 17.03,
       "unit": "mg",
@@ -3627,6 +3634,7 @@
           "price_per_unit": 0.005676666666666667,
           "product_url": "https://www.iherb.com/pr/centrum-prenatal-multivitamin-gummy-mixed-berry-orange-60-gummies/145527",
           "product_name": "Centrum, PreNatal Multivitamin Gummy, Mixed Berry & Orange, 60 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3643,6 +3651,7 @@
       "brand": "TruHeight",
       "dsld_product_name": "Kids Appetite Booster",
       "dsld_brand": "TruHeight",
+      "product_image_url": "",
       "best_price_per_unit": 0.00765,
       "best_total_price": 22.95,
       "unit": "mg",
@@ -3655,6 +3664,7 @@
           "price_per_unit": 0.00765,
           "product_url": "https://www.vitacost.com/truheight-kids-appetite-booster-multivitamin",
           "product_name": "TruHeight Kids Appetite Booster Multivitamin -- 60 Gummies",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3671,6 +3681,7 @@
       "brand": "Nature's Plus Animal Parade",
       "dsld_product_name": "Multivitamin",
       "dsld_brand": "NaturesPlus Animal Parade",
+      "product_image_url": "",
       "best_price_per_unit": 0.008055,
       "best_total_price": 16.11,
       "unit": "mg",
@@ -3683,6 +3694,7 @@
           "price_per_unit": 0.008055,
           "product_url": "https://www.vitacost.com/naturesplus-animal-parade-childrens-multivitamin-orange",
           "product_name": "NaturesPlus Animal Parade Children's Multivitamin Orange ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3702,6 +3714,7 @@
       "brand": "Gaspari Nutrition",
       "dsld_product_name": "Anavite",
       "dsld_brand": "Gaspari Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.02311875,
       "best_total_price": 36.99,
       "unit": "mg",
@@ -3714,6 +3727,7 @@
           "price_per_unit": 0.02311875,
           "product_url": "https://www.iherb.com/pr/gaspari-nutrition-anavite-the-ultimate-performance-multi-vitamin-180-tablets/30537",
           "product_name": "Gaspari Nutrition, ANAVITE\u00ae, The Ultimate Performance Multi-Vitamin, 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3732,6 +3746,7 @@
       "brand": "TruHeight",
       "dsld_product_name": "Growth",
       "dsld_brand": "TruHeight",
+      "product_image_url": "",
       "best_price_per_unit": 0.06663333333333332,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -3744,6 +3759,7 @@
           "price_per_unit": 0.06663333333333332,
           "product_url": "https://www.vitacost.com/truheight-kids-brain-growth-multivitamin-ages-2",
           "product_name": "TruHeight Kids Brain Growth Multivitamin Ages 2+ Orange -...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3760,6 +3776,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Multivitamin Mini-Tabs",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 0.07270909090909092,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -3772,6 +3789,7 @@
           "price_per_unit": 0.07270909090909092,
           "product_url": "https://www.vitacost.com/dr-mercola-multivitamin-mini-tabs",
           "product_name": "Dr. Mercola Multivitamin Mini-Tabs -- 300 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3788,6 +3806,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Men's Multi",
       "dsld_brand": "Innate Response Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 0.07863295880149813,
       "best_total_price": 41.99,
       "unit": "mg",
@@ -3800,6 +3819,7 @@
           "price_per_unit": 0.07863295880149813,
           "product_url": "https://www.vitacost.com/innate-response-formulas-womens-multivitamin-including-methylated-folate-b12-60-tablets",
           "product_name": "Innate Response Formulas Women's Multivitamin Including M...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3818,6 +3838,7 @@
       "brand": "21st Century",
       "dsld_product_name": "PreNatal",
       "dsld_brand": "21st Century",
+      "product_image_url": "",
       "best_price_per_unit": 0.11470000000000001,
       "best_total_price": 22.94,
       "unit": "mg",
@@ -3830,6 +3851,7 @@
           "price_per_unit": 0.11470000000000001,
           "product_url": "https://www.iherb.com/pr/21st-century-prenatal-multivitamin-plus-dha-2-bottles-60-tablets-60-softgels/43838",
           "product_name": "21st Century, Prenatal Multivitamin Plus DHA, 2 Bottles, 60 Tablets / 60 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3848,6 +3870,7 @@
       "brand": "Futurebiotics",
       "dsld_product_name": "Pressur-Lo",
       "dsld_brand": "Futurebiotics",
+      "product_image_url": "",
       "best_price_per_unit": 0.12128571428571427,
       "best_total_price": 25.47,
       "unit": "mg",
@@ -3860,6 +3883,7 @@
           "price_per_unit": 0.12128571428571427,
           "product_url": "https://www.iherb.com/pr/futurebiotics-pressur-lo-multi-vitamin-mineral-herb-formula-270-tablets/4317",
           "product_name": "Futurebiotics, Pressur-Lo\u00ae, Multi Vitamin, Mineral & Herb Formula, 270 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3876,6 +3900,7 @@
       "brand": "Metagenics",
       "dsld_product_name": "Multigenics",
       "dsld_brand": "Metagenics",
+      "product_image_url": "",
       "best_price_per_unit": 0.18532307692307692,
       "best_total_price": 60.23,
       "unit": "mg",
@@ -3888,6 +3913,7 @@
           "price_per_unit": 0.18532307692307692,
           "product_url": "https://www.iherb.com/pr/metagenics-multigenics-multivitamin-180-tablets/20577",
           "product_name": "Metagenics, Multigenics\u00ae Multivitamin, 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3904,6 +3930,7 @@
       "brand": "Vitanica",
       "dsld_product_name": "Women's Symmetry",
       "dsld_brand": "Vitanica",
+      "product_image_url": "",
       "best_price_per_unit": 0.23495000000000002,
       "best_total_price": 46.99,
       "unit": "mg",
@@ -3916,6 +3943,7 @@
           "price_per_unit": 0.23495000000000002,
           "product_url": "https://www.vitacost.com/vitanica-womens-symmetry-multivitamin",
           "product_name": "Vitanica Women's Symmetry Multivitamin -- 180 Vegetarian ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3935,6 +3963,7 @@
       "brand": "Floradix",
       "dsld_product_name": "Kinder Love",
       "dsld_brand": "Floradix",
+      "product_image_url": "",
       "best_price_per_unit": 0.2609,
       "best_total_price": 26.09,
       "unit": "mg",
@@ -3947,6 +3976,7 @@
           "price_per_unit": 0.2609,
           "product_url": "https://www.vitacost.com/floradix-kinder-love-childrens-liquid-multivitamin-gluten-free",
           "product_name": "Floradix Kinder Love Children's Liquid Multivitamin Glute...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3967,6 +3997,7 @@
       "brand": "Vitacost",
       "dsld_product_name": "Men's Total Health",
       "dsld_brand": "Vitacost",
+      "product_image_url": "",
       "best_price_per_unit": 0.2698,
       "best_total_price": 13.49,
       "unit": "mg",
@@ -3979,6 +4010,7 @@
           "price_per_unit": 0.2698,
           "product_url": "https://www.vitacost.com/vitacost-mens-total-health-multivitamin-amino-acid-blend",
           "product_name": "Vitacost Men's Total Health Multivitamin Amino Acid Blend...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -3997,6 +4029,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Multivitamin",
       "dsld_brand": "Nutricost",
+      "product_image_url": "",
       "best_price_per_unit": 0.2798,
       "best_total_price": 13.99,
       "unit": "mg",
@@ -4009,6 +4042,7 @@
           "price_per_unit": 0.2798,
           "product_url": "https://www.vitacost.com/nutricost-multivitamin",
           "product_name": "Nutricost Multivitamin -- 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4018,6 +4052,7 @@
           "price_per_unit": 0.299,
           "product_url": "https://www.iherb.com/pr/nutricost-multivitamin-for-men-120-capsules/141680",
           "product_name": "Nutricost, Multivitamin for Men, 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4037,6 +4072,7 @@
       "brand": "Bayer One A Day",
       "dsld_product_name": "Men's",
       "dsld_brand": "Bayer One A Day",
+      "product_image_url": "",
       "best_price_per_unit": 0.3291176470588235,
       "best_total_price": 11.19,
       "unit": "mg",
@@ -4049,6 +4085,7 @@
           "price_per_unit": 0.3291176470588235,
           "product_url": "https://www.vitacost.com/one-a-day-womens-complete-multivitamin-60-tablets",
           "product_name": "One-A-Day Women's Complete Multivitamin -- 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4065,6 +4102,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Renal Multivitamin",
       "dsld_brand": "Mason Natural",
+      "product_image_url": "",
       "best_price_per_unit": 0.3398,
       "best_total_price": 16.99,
       "unit": "mg",
@@ -4077,6 +4115,7 @@
           "price_per_unit": 0.3398,
           "product_url": "https://www.vitacost.com/mason-natural-renal-multivitamin-supports-kidney-function",
           "product_name": "Mason Natural Renal Multivitamin Supports Kidney Function...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4093,6 +4132,7 @@
       "brand": "Kaged",
       "dsld_product_name": "Multivitamin",
       "dsld_brand": "Kaged",
+      "product_image_url": "",
       "best_price_per_unit": 0.34990000000000004,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -4105,6 +4145,7 @@
           "price_per_unit": 0.34990000000000004,
           "product_url": "https://shop.bodybuilding.com/products/kaged-multivitamin",
           "product_name": "KAGED Multivitamin KAGED Multivitamin",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4121,6 +4162,7 @@
       "brand": "Kaged",
       "dsld_product_name": "Multivitamin",
       "dsld_brand": "Kaged",
+      "product_image_url": "",
       "best_price_per_unit": 0.34990000000000004,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -4133,6 +4175,7 @@
           "price_per_unit": 0.34990000000000004,
           "product_url": "https://www.vitacost.com/kaged-plant-based-whole-food-multivitamin",
           "product_name": "Kaged Plant Based Whole Food Multivitamin -- 60 Veggie Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4149,6 +4192,7 @@
       "brand": "Pure Synergy",
       "dsld_product_name": "Vita Min Herb Men's Multivitamin",
       "dsld_brand": "Pure Synergy",
+      "product_image_url": "",
       "best_price_per_unit": 0.3691515151515151,
       "best_total_price": 60.91,
       "unit": "mg",
@@ -4161,6 +4205,7 @@
           "price_per_unit": 0.3691515151515151,
           "product_url": "https://www.iherb.com/pr/pure-synergy-vita-min-herb-men-s-multivitamin-120-tablets/63755",
           "product_name": "Pure Synergy, Vita-Min-Herb\u00ae, Men's Multivitamin, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4170,6 +4215,7 @@
           "price_per_unit": 0.4029696969696969,
           "product_url": "https://www.vitacost.com/pure-synergy-vita-min-herb-mens-multivitamin",
           "product_name": "Pure Synergy Vita-Min-Herb Men's Multivitamin -- 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4190,6 +4236,7 @@
       "brand": "Bodybuilding.com Signature",
       "dsld_product_name": "Multivitamin",
       "dsld_brand": "Bodybuilding.com Signature",
+      "product_image_url": "",
       "best_price_per_unit": 0.41979999999999995,
       "best_total_price": 20.99,
       "unit": "mg",
@@ -4202,6 +4249,7 @@
           "price_per_unit": 0.41979999999999995,
           "product_url": "https://shop.bodybuilding.com/products/bodybuilding-com-signature-multivitamin-v2",
           "product_name": "Bodybuilding.com Signature Multivitamin, 30 Servings",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4218,6 +4266,7 @@
       "brand": "Peach Perfect",
       "dsld_product_name": "Inositol Multivitamin",
       "dsld_brand": "Peach Perfect",
+      "product_image_url": "",
       "best_price_per_unit": 0.5998,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -4230,6 +4279,7 @@
           "price_per_unit": 0.5998,
           "product_url": "https://www.gnc.com/multivitamins-for-women/616802.html",
           "product_name": "Peach Perfect\nInositol Multivitamin Powder - Strawberry Acai (30 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4246,6 +4296,7 @@
       "brand": "Evlution Nutrition",
       "dsld_product_name": "Women's Multivitamin",
       "dsld_brand": "Evlution Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 0.7645,
       "best_total_price": 15.29,
       "unit": "mg",
@@ -4258,6 +4309,7 @@
           "price_per_unit": 0.7645,
           "product_url": "https://www.iherb.com/pr/evlution-nutrition-women-s-multivitamin-120-tablets/84667",
           "product_name": "EVLution Nutrition, Women's Multivitamin, 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4267,6 +4319,7 @@
           "price_per_unit": 1.1495,
           "product_url": "https://www.vitacost.com/evlution-nutrition-womens-multivitamin",
           "product_name": "Evlution Nutrition Women's MultiVitamin -- 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4283,6 +4336,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Ma",
       "dsld_brand": "Liquid Labs",
+      "product_image_url": "",
       "best_price_per_unit": 0.8316666666666667,
       "best_total_price": 24.95,
       "unit": "mg",
@@ -4295,6 +4349,7 @@
           "price_per_unit": 0.8316666666666667,
           "product_url": "https://www.vitacost.com/maryruths-kids-morning-multivitamin-liquid-with-lutein",
           "product_name": "MaryRuth's Kids Morning Multivitamin Liquid with Lutein A...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4311,6 +4366,7 @@
       "brand": "Davinci Laboratories",
       "dsld_product_name": "Daily Best Ultra",
       "dsld_brand": "DaVinci Laboratories",
+      "product_image_url": "",
       "best_price_per_unit": 0.8764,
       "best_total_price": 43.82,
       "unit": "mg",
@@ -4323,6 +4379,7 @@
           "price_per_unit": 0.8764,
           "product_url": "https://www.vitacost.com/davinci-laboratories-daily-best-ultra-multivitamin",
           "product_name": "DaVinci Laboratories Daily Best Ultra Multivitamin -- 60 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4342,6 +4399,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "O.N.E. Multivitamin",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 0.904,
       "best_total_price": 45.2,
       "unit": "mg",
@@ -4354,6 +4412,7 @@
           "price_per_unit": 0.904,
           "product_url": "https://www.vitacost.com/pure-encapsulations-o-n-e-multivitamin",
           "product_name": "Pure Encapsulations O.N.E. Multivitamin -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4372,6 +4431,7 @@
       "brand": "BioSchwartz",
       "dsld_product_name": "Men's Multivitamin",
       "dsld_brand": "BioSchwartz",
+      "product_image_url": "",
       "best_price_per_unit": 1.1313333333333333,
       "best_total_price": 16.97,
       "unit": "mg",
@@ -4384,6 +4444,7 @@
           "price_per_unit": 1.1313333333333333,
           "product_url": "https://www.vitacost.com/bioschwartz-womens-multivitamin",
           "product_name": "BioSchwartz Women's Multivitamin -- 60 Veggie Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4400,6 +4461,7 @@
       "brand": "BioSchwartz",
       "dsld_product_name": "Men's 50+ Multivitamin",
       "dsld_brand": "BioSchwartz",
+      "product_image_url": "",
       "best_price_per_unit": 1.198,
       "best_total_price": 17.97,
       "unit": "mg",
@@ -4412,6 +4474,7 @@
           "price_per_unit": 1.198,
           "product_url": "https://www.vitacost.com/bioschwartz-mens-50-multivitamin",
           "product_name": "BioSchwartz Men's 50+ Multivitamin -- 60 Veggie Caps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4428,6 +4491,7 @@
       "brand": "Country Farms ",
       "dsld_product_name": "Morning Liquid MultiVitamin",
       "dsld_brand": "Country Farms",
+      "product_image_url": "",
       "best_price_per_unit": 1.1996,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -4440,6 +4504,7 @@
           "price_per_unit": 1.1996,
           "product_url": "https://www.vitacost.com/country-farms-morning-liquid-multivitamins",
           "product_name": "Country Farms Morning Liquid Multivitamins -- 32 fl oz",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4456,6 +4521,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Whole-Food Multivitamin Plus Vital Minerals",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 1.1998,
       "best_total_price": 59.99,
       "unit": "mg",
@@ -4468,6 +4534,7 @@
           "price_per_unit": 1.1998,
           "product_url": "https://www.vitacost.com/dr-mercola-whole-food-multivitamin-plus",
           "product_name": "Dr. Mercola Whole Food Multivitamin Plus -- 240 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4488,6 +4555,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Ma",
       "dsld_brand": "Liquid Labs",
+      "product_image_url": "",
       "best_price_per_unit": 1.3316666666666668,
       "best_total_price": 39.95,
       "unit": "mg",
@@ -4500,6 +4568,7 @@
           "price_per_unit": 1.3316666666666668,
           "product_url": "https://www.vitacost.com/maryruths-morning-multivitamin-hair-growth-liquid-peach-mango",
           "product_name": "MaryRuth's Morning Multivitamin + Hair Growth Liquid Peac...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4516,6 +4585,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Once Daily Adult 50+ Multivitamin",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 1.3845,
       "best_total_price": 27.69,
       "unit": "mg",
@@ -4528,6 +4598,7 @@
           "price_per_unit": 1.3845,
           "product_url": "https://www.vitacost.com/solaray-once-daily-adult-50-multivitamin",
           "product_name": "Solaray Once Daily Adult 50+ Multivitamin -- 90 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4544,6 +4615,7 @@
       "brand": "GNC Mega Men",
       "dsld_product_name": "Sport Multivitamin",
       "dsld_brand": "GNC Mega Men",
+      "product_image_url": "",
       "best_price_per_unit": 1.3996000000000002,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -4556,6 +4628,7 @@
           "price_per_unit": 1.3996000000000002,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=206712&source=productlist",
           "product_name": "GNC Mega Men\u00ae\nSport Multivitamin - 90 Caplets (45 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4576,6 +4649,7 @@
       "brand": "GNC Mega Men",
       "dsld_product_name": "Energy & Metabolism",
       "dsld_brand": "GNC Mega Men",
+      "product_image_url": "",
       "best_price_per_unit": 1.3996000000000002,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -4588,6 +4662,7 @@
           "price_per_unit": 1.3996000000000002,
           "product_url": "https://www.gnc.com/multivitamins-for-men/206221.html",
           "product_name": "GNC Mega Men\u00ae\nEnergy & Metabolism Multivitamin - 90 Caplets (45 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4610,6 +4685,7 @@
       "brand": "Nature Made Kids First",
       "dsld_product_name": "Multivitamin with Omega-3",
       "dsld_brand": "Nature Made Kids First",
+      "product_image_url": "",
       "best_price_per_unit": 1.4689999999999999,
       "best_total_price": 14.69,
       "unit": "calorie",
@@ -4622,6 +4698,7 @@
           "price_per_unit": 1.4689999999999999,
           "product_url": "https://www.vitacost.com/nature-made-kids-first-multivitamin-with-omega-3-strawberry-lemon-orange",
           "product_name": "Nature Made Kids First Multivitamin with Omega-3 Strawber...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4641,6 +4718,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Ma",
       "dsld_brand": "Liquid Labs",
+      "product_image_url": "",
       "best_price_per_unit": 1.4983333333333335,
       "best_total_price": 44.95,
       "unit": "mg",
@@ -4653,6 +4731,7 @@
           "price_per_unit": 1.4983333333333335,
           "product_url": "https://www.vitacost.com/maryruths-prenatal-postnatal-liquid-multivitamin",
           "product_name": "MaryRuth's Prenatal & Postnatal Liquid Multivitamin Berry...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4669,6 +4748,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "O.N.E. Multivitamin",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 1.72,
       "best_total_price": 86.0,
       "unit": "mg",
@@ -4681,6 +4761,7 @@
           "price_per_unit": 1.72,
           "product_url": "https://www.vitacost.com/pure-encapsulations-o-n-e-multivitamin-120-capsules",
           "product_name": "Pure Encapsulations O.N.E. Multivitamin -- 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4699,6 +4780,7 @@
       "brand": "GNC Women's",
       "dsld_product_name": "Daily Multivitamin",
       "dsld_brand": "GNC Women's",
+      "product_image_url": "",
       "best_price_per_unit": 1.799,
       "best_total_price": 17.99,
       "unit": "mg",
@@ -4711,6 +4793,7 @@
           "price_per_unit": 1.799,
           "product_url": "https://www.gnc.com/multivitamins-for-women/207012.html",
           "product_name": "GNC Women's\nOne Daily Multivitamin Energy - 60 Caplets (60 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4732,6 +4815,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Max For Vegans",
       "dsld_brand": "Country Life",
+      "product_image_url": "",
       "best_price_per_unit": 1.825,
       "best_total_price": 27.74,
       "unit": "mg",
@@ -4744,6 +4828,7 @@
           "price_per_unit": 1.825,
           "product_url": "https://www.vitacost.com/country-life-max-for-vegans-multivitamin-mineral-complex",
           "product_name": "Country Life Max for Vegans Multivitamin & Mineral Comple...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4765,6 +4850,7 @@
       "brand": "Optimum Nutrition",
       "dsld_product_name": "Opti-Men",
       "dsld_brand": "Optimum Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 1.8796000000000002,
       "best_total_price": 46.99,
       "unit": "mg",
@@ -4777,6 +4863,7 @@
           "price_per_unit": 1.8796000000000002,
           "product_url": "https://www.vitacost.com/optimum-nutrition-opti-men-multivitamin-for-men",
           "product_name": "Optimum Nutrition Opti-Men Multivitamin for Men -- 150 Ta...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4793,6 +4880,7 @@
       "brand": "GNC Mega Men",
       "dsld_product_name": "Energy & Metabolism",
       "dsld_brand": "GNC Mega Men",
+      "product_image_url": "",
       "best_price_per_unit": 1.9196,
       "best_total_price": 47.99,
       "unit": "mg",
@@ -4805,6 +4893,7 @@
           "price_per_unit": 1.9196,
           "product_url": "https://www.gnc.com/multivitamins-for-men/206231.html",
           "product_name": "GNC Mega Men\u00ae\nEnergy & Metabolism Multivitamin - 180 Caplets (90 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4825,6 +4914,7 @@
       "brand": "GNC Women's",
       "dsld_product_name": "Multivitamin Ultra Mega Without Iron",
       "dsld_brand": "GNC Women's",
+      "product_image_url": "",
       "best_price_per_unit": 1.9196,
       "best_total_price": 47.99,
       "unit": "mg",
@@ -4837,6 +4927,7 @@
           "price_per_unit": 1.9196,
           "product_url": "https://www.gnc.com/multivitamins-for-women/202621.html",
           "product_name": "GNC Women's\nMultivitamin Ultra Mega Without Iron - 180 Caplets (90 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4858,6 +4949,7 @@
       "brand": "GNC Women's",
       "dsld_product_name": "Ultra Mega Multivitamin",
       "dsld_brand": "GNC Women's",
+      "product_image_url": "",
       "best_price_per_unit": 1.9196,
       "best_total_price": 47.99,
       "unit": "mg",
@@ -4870,6 +4962,7 @@
           "price_per_unit": 1.9196,
           "product_url": "https://www.gnc.com/multivitamins-for-women/202421.html",
           "product_name": "GNC Women's\nUltra Mega Multivitamin - 180 Caplets (90 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4886,6 +4979,7 @@
       "brand": "Thompson",
       "dsld_product_name": "Children's Chewable",
       "dsld_brand": "Thompson",
+      "product_image_url": "",
       "best_price_per_unit": 2.498,
       "best_total_price": 12.49,
       "unit": "calorie",
@@ -4898,6 +4992,7 @@
           "price_per_unit": 2.498,
           "product_url": "https://www.vitacost.com/thompson-childrens-chewable-multivitamin",
           "product_name": "Thompson Children's Chewable Multivitamin Punch -- 120 Ch...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4914,6 +5009,7 @@
       "brand": "Force Factor ",
       "dsld_product_name": "Men's Multivitamin Daily",
       "dsld_brand": "Force Factor",
+      "product_image_url": "",
       "best_price_per_unit": 2.598,
       "best_total_price": 12.99,
       "unit": "mg",
@@ -4926,6 +5022,7 @@
           "price_per_unit": 2.598,
           "product_url": "https://www.vitacost.com/force-factor-mens-multivitamin-60-tablets",
           "product_name": "Force Factor Men's Multivitamin -- 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -4935,6 +5032,7 @@
           "price_per_unit": 2.598,
           "product_url": "https://www.iherb.com/pr/force-factor-women-s-multivitamin-60-tablets/138241",
           "product_name": "Force Factor, Women's Multivitamin, 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4951,6 +5049,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Optimal Multivitamin",
       "dsld_brand": "Seeking Health",
+      "product_image_url": "",
       "best_price_per_unit": 3.04,
       "best_total_price": 76.0,
       "unit": "mg",
@@ -4963,6 +5062,7 @@
           "price_per_unit": 3.04,
           "product_url": "https://www.iherb.com/pr/seeking-health-optimal-multivitamin-240-capsules/122656",
           "product_name": "Seeking Health, Optimal Multivitamin, 240 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -4979,6 +5079,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Spectro Energy Multivitamin",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 3.399,
       "best_total_price": 33.99,
       "unit": "mg",
@@ -4991,6 +5092,7 @@
           "price_per_unit": 3.399,
           "product_url": "https://www.vitacost.com/solaray-spectro-woman-multivitamin",
           "product_name": "Solaray Spectro Woman Multivitamin -- 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5007,6 +5109,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Women's Golden Multivitamin",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 3.4579999999999997,
       "best_total_price": 17.29,
       "unit": "mg",
@@ -5019,6 +5122,7 @@
           "price_per_unit": 3.4579999999999997,
           "product_url": "https://www.vitacost.com/solaray-womens-golden-multivitamin",
           "product_name": "Solaray Women's Golden Multivitamin -- 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5028,6 +5132,7 @@
           "price_per_unit": 3.4579999999999997,
           "product_url": "https://www.iherb.com/pr/solaray-women-s-golden-multivitamin-90-capsules/85138",
           "product_name": "Solaray, Women's Golden Multivitamin, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5044,6 +5149,7 @@
       "brand": "Nugenix",
       "dsld_product_name": "Nugenix Testosterone Multivitamin",
       "dsld_brand": "Nugenix",
+      "product_image_url": "",
       "best_price_per_unit": 4.9990000000000006,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -5056,6 +5162,7 @@
           "price_per_unit": 4.9990000000000006,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=452393&source=productlist",
           "product_name": "Nugenix\u00ae\nMen's Testosterone Multivitamin - 60 Tablets (30 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5072,6 +5179,7 @@
       "brand": "Nature's Plus Source of Life",
       "dsld_product_name": "Green and Red",
       "dsld_brand": "NaturesPlus Source of Life",
+      "product_image_url": "",
       "best_price_per_unit": 9.001999999999999,
       "best_total_price": 45.01,
       "unit": "mg",
@@ -5084,6 +5192,7 @@
           "price_per_unit": 9.001999999999999,
           "product_url": "https://www.vitacost.com/naturesplus-source-of-life-green-and-red-multi-vitamin-minerals",
           "product_name": "NaturesPlus Source of Life Green and Red Multi-Vitamin & ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5103,6 +5212,7 @@
       "brand": "Davinci Laboratories",
       "dsld_product_name": "Spectra",
       "dsld_brand": "DaVinci Laboratories",
+      "product_image_url": "",
       "best_price_per_unit": 9.94,
       "best_total_price": 79.52,
       "unit": "mg",
@@ -5115,6 +5225,7 @@
           "price_per_unit": 9.94,
           "product_url": "https://www.vitacost.com/davinci-laboratories-spectra-multivitamins-for-adults-240-tablets-1",
           "product_name": "DaVinci Laboratories Spectra\u2122 Multivitamins for Adults --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5131,6 +5242,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "PureGenomics Multivitamin",
       "dsld_brand": "Pure Encapsulations",
+      "product_image_url": "",
       "best_price_per_unit": 14.266666666666666,
       "best_total_price": 42.8,
       "unit": "mg",
@@ -5143,6 +5255,7 @@
           "price_per_unit": 14.266666666666666,
           "product_url": "https://www.vitacost.com/pure-encapsulations-puregenomics-multivitamin",
           "product_name": "Pure Encapsulations PureGenomics Multivitamin -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5161,6 +5274,7 @@
       "brand": "DEVA",
       "dsld_product_name": "Vegan Prenatal Multivitamin & Mineral",
       "dsld_brand": "DEVA",
+      "product_image_url": "",
       "best_price_per_unit": 21.18,
       "best_total_price": 10.59,
       "unit": "mg",
@@ -5173,6 +5287,7 @@
           "price_per_unit": 21.18,
           "product_url": "https://www.vitacost.com/deva-vegan-prenatal-one-daily-multivitamin-and-mineral",
           "product_name": "Deva Vegan Prenatal One Daily Multivitamin and Mineral --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5192,6 +5307,7 @@
       "brand": "Futurebiotics",
       "dsld_product_name": "M.V. Teen",
       "dsld_brand": "Futurebiotics",
+      "product_image_url": "",
       "best_price_per_unit": 26.633333333333336,
       "best_total_price": 7.99,
       "unit": "mg",
@@ -5204,6 +5320,7 @@
           "price_per_unit": 26.633333333333336,
           "product_url": "https://www.vitacost.com/futurebiotics-m-v-teen-multivitamin",
           "product_name": "Futurebiotics M.V. Teen\u2122 Multivitamin -- 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5220,6 +5337,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Once Daily Woman Multivitamin",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 27.39,
       "best_total_price": 27.39,
       "unit": "mg",
@@ -5232,6 +5350,7 @@
           "price_per_unit": 27.39,
           "product_url": "https://www.vitacost.com/solaray-once-daily-prenatal-multivitamin",
           "product_name": "Solaray Once Daily Prenatal Multivitamin -- 90 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5248,6 +5367,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Regeneration",
       "dsld_brand": "NaturesPlus",
+      "product_image_url": "",
       "best_price_per_unit": 32.91538461538461,
       "best_total_price": 42.79,
       "unit": "mg",
@@ -5260,6 +5380,7 @@
           "price_per_unit": 32.91538461538461,
           "product_url": "https://www.vitacost.com/naturesplus-regeneration-multi-vitamin-and-mineral-supplement",
           "product_name": "NaturesPlus Regeneration Multi-Vitamin and Mineral Supple...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5278,6 +5399,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Adult Multivitamin Gummies",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 35.96666666666667,
       "best_total_price": 10.79,
       "unit": "mg",
@@ -5290,6 +5412,7 @@
           "price_per_unit": 35.96666666666667,
           "product_url": "https://www.vitacost.com/natures-bounty-adult-multivitamin-gummies",
           "product_name": "Nature's Bounty Adult Multivitamin Gummies Orange Cherry ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5315,6 +5438,7 @@
       "brand": "Nature's Way Alive!",
       "dsld_product_name": "Alive! Women's 50+",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 36.63333333333333,
       "best_total_price": 10.99,
       "unit": "mg",
@@ -5327,6 +5451,7 @@
           "price_per_unit": 36.63333333333333,
           "product_url": "https://www.vitacost.com/natures-way-alive-womens-50-complete-multivitamin-vitamins-c-d3-b12-magnesium",
           "product_name": "Nature's Way Alive! Women's 50+ Complete Multivitamin - V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5346,6 +5471,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Ultra Prenatal",
       "dsld_brand": "NaturesPlus",
+      "product_image_url": "",
       "best_price_per_unit": 40.300000000000004,
       "best_total_price": 24.18,
       "unit": "mg",
@@ -5358,6 +5484,7 @@
           "price_per_unit": 40.300000000000004,
           "product_url": "https://www.iherb.com/pr/naturesplus-ultra-prenatal-multivitamin-90-tablets/121155",
           "product_name": "NaturesPlus, Ultra Prenatal Multivitamin, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5374,6 +5501,7 @@
       "brand": "Klean Athlete",
       "dsld_product_name": "Klean Multivitamin",
       "dsld_brand": "Klean Athlete",
+      "product_image_url": "",
       "best_price_per_unit": 44.0,
       "best_total_price": 44.0,
       "unit": "mg",
@@ -5386,6 +5514,7 @@
           "price_per_unit": 44.0,
           "product_url": "https://www.vitacost.com/klean-athlete-klean-multivitamin-nsf-certified-for-sport",
           "product_name": "Klean Athlete Klean Multivitamin - NSF Certified for Spor...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5405,6 +5534,7 @@
       "brand": "Nature's Way Alive!",
       "dsld_product_name": "Alive! Men's 50+",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 50.96666666666667,
       "best_total_price": 15.29,
       "unit": "mg",
@@ -5417,6 +5547,7 @@
           "price_per_unit": 50.96666666666667,
           "product_url": "https://www.vitacost.com/natures-way-alive-mens-50-premium-gummy-multivitamins-vitamins-c-d3-b12-e",
           "product_name": "Nature's Way Alive! Men's 50+ Premium Gummy Multivitamins...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5436,6 +5567,7 @@
       "brand": "Ritual",
       "dsld_product_name": "Essential for Men",
       "dsld_brand": "Ritual",
+      "product_image_url": "",
       "best_price_per_unit": 52.84285714285715,
       "best_total_price": 36.99,
       "unit": "mg",
@@ -5448,6 +5580,7 @@
           "price_per_unit": 52.84285714285715,
           "product_url": "https://www.iherb.com/pr/ritual-essential-for-men-multivitamin-18-mint-60-vegan-capsules/153098",
           "product_name": "Ritual, Essential For Men, Multivitamin 18+, Mint, 60 Vegan Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5464,6 +5597,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "One Daily",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 53.300000000000004,
       "best_total_price": 15.99,
       "unit": "mg",
@@ -5476,6 +5610,7 @@
           "price_per_unit": 53.300000000000004,
           "product_url": "https://www.vitacost.com/megafood-kids-one-daily-multivitamin-bone-health-immune-support-30-mini-tablets",
           "product_name": "MegaFood Kids One Daily Multivitamin Bone Health Immune S...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5494,6 +5629,7 @@
       "brand": "Momentous",
       "dsld_product_name": "Multivitamin",
       "dsld_brand": "Momentous",
+      "product_image_url": "",
       "best_price_per_unit": 54.95,
       "best_total_price": 54.95,
       "unit": "mg",
@@ -5506,6 +5642,7 @@
           "price_per_unit": 54.95,
           "product_url": "https://www.vitacost.com/momentous-essential-multivitamin-nsf-certified-for-sport-30-servings",
           "product_name": "Momentous Essential Multivitamin - NSF Certified for Spor...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5522,6 +5659,7 @@
       "brand": "MH Michael's Health Naturopathic Programs",
       "dsld_product_name": "Teen Girls Multivitamin Tablets",
       "dsld_brand": "MH Michael's Health Naturopathic Programs",
+      "product_image_url": "",
       "best_price_per_unit": 58.175,
       "best_total_price": 23.27,
       "unit": "mg",
@@ -5534,6 +5672,7 @@
           "price_per_unit": 58.175,
           "product_url": "https://www.iherb.com/pr/michael-s-health-teen-girls-multivitamin-60-vegetarian-tablets/129647",
           "product_name": "Michael's Health, Teen Girls Multivitamin, 60 Vegetarian Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5552,6 +5691,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Multivitamin One",
       "dsld_brand": "Seeking Health",
+      "product_image_url": "",
       "best_price_per_unit": 70.0,
       "best_total_price": 35.0,
       "unit": "mg",
@@ -5564,6 +5704,7 @@
           "price_per_unit": 70.0,
           "product_url": "https://www.vitacost.com/seeking-health-multivitamin-one-sensitive",
           "product_name": "Seeking Health Multivitamin One Sensitive -- 45 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5580,6 +5721,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Chewable Multivitamin for Kids",
       "dsld_brand": "Dr. Mercola",
+      "product_image_url": "",
       "best_price_per_unit": 70.83333333333334,
       "best_total_price": 21.25,
       "unit": "mg",
@@ -5592,6 +5734,7 @@
           "price_per_unit": 70.83333333333334,
           "product_url": "https://www.vitacost.com/dr-mercola-kids-chewable-multivitamin",
           "product_name": "Dr. Mercola Kids Chewable Multivitamin Fruit -- 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5608,6 +5751,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Men's",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 73.3,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -5620,6 +5764,7 @@
           "price_per_unit": 73.3,
           "product_url": "https://www.iherb.com/pr/megafood-women-s-40-one-daily-multivitamin-30-tablets/42558",
           "product_name": "MegaFood, Women's 40+ One Daily Multivitamin, 30 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5641,6 +5786,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Ultra Prenatal Multivitamin",
       "dsld_brand": "NaturesPlus",
+      "product_image_url": "",
       "best_price_per_unit": 73.6,
       "best_total_price": 44.16,
       "unit": "mg",
@@ -5653,6 +5799,7 @@
           "price_per_unit": 73.6,
           "product_url": "https://www.iherb.com/pr/naturesplus-ultra-prenatal-multivitamin-180-tablets/7465",
           "product_name": "NaturesPlus, Ultra Prenatal Multivitamin, 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5672,6 +5819,7 @@
       "brand": "MH Michael's Health Naturopathic Programs",
       "dsld_product_name": "For Men Multivitamin Capsules",
       "dsld_brand": "MH Michael's Health Naturopathic Programs",
+      "product_image_url": "",
       "best_price_per_unit": 78.26666666666667,
       "best_total_price": 29.35,
       "unit": "mg",
@@ -5684,6 +5832,7 @@
           "price_per_unit": 78.26666666666667,
           "product_url": "https://www.iherb.com/pr/michael-s-health-for-men-multivitamin-capsules-90-vegetarian-capsules/129644",
           "product_name": "Michael's Health, For Men, Multivitamin Capsules, 90 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5703,6 +5852,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Women's",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 89.96666666666667,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -5715,6 +5865,7 @@
           "price_per_unit": 89.96666666666667,
           "product_url": "https://www.vitacost.com/megafood-womens-55-advanced-multivitamin-for-women-with-choline-60-tablets",
           "product_name": "MegaFood Women's 55+ Advanced Multivitamin for Women with...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5737,6 +5888,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Men's",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 89.96666666666667,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -5749,6 +5901,7 @@
           "price_per_unit": 89.96666666666667,
           "product_url": "https://www.vitacost.com/megafood-mens-55-advanced-multivitamin-for-men-60-tablets",
           "product_name": "MegaFood Men's 55+ Advanced Multivitamin For Men -- 60 Ta...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5770,6 +5923,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Men's",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 103.3,
       "best_total_price": 30.99,
       "unit": "mg",
@@ -5782,6 +5936,7 @@
           "price_per_unit": 103.3,
           "product_url": "https://www.iherb.com/pr/megafood-women-s-40-advanced-multivitamin-60-tablets/68436",
           "product_name": "MegaFood, Women's 40+, Advanced Multivitamin, 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -5791,6 +5946,7 @@
           "price_per_unit": 126.63333333333334,
           "product_url": "https://www.vitacost.com/megafood-mens-one-daily-multivitamin-for-men-60-tablets",
           "product_name": "MegaFood Men's One Daily Multivitamin for Men -- 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5813,6 +5969,7 @@
       "brand": "MH Michael's Health Naturopathic Programs",
       "dsld_product_name": "Pre-Teen Girls Multivitamin Tablets",
       "dsld_brand": "MH Michael's Health Naturopathic Programs",
+      "product_image_url": "",
       "best_price_per_unit": 109.14999999999999,
       "best_total_price": 21.83,
       "unit": "mg",
@@ -5825,6 +5982,7 @@
           "price_per_unit": 109.14999999999999,
           "product_url": "https://www.iherb.com/pr/michael-s-health-pre-teen-girls-multivitamin-60-vegetarian-tablets/129650",
           "product_name": "Michael's Health, Pre-Teen Girls Multivitamin, 60 Vegetarian Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5843,6 +6001,7 @@
       "brand": "youtheory",
       "dsld_product_name": "K2D3",
       "dsld_brand": "youtheory",
+      "product_image_url": "",
       "best_price_per_unit": 111.89999999999999,
       "best_total_price": 11.19,
       "unit": "mg",
@@ -5855,6 +6014,7 @@
           "price_per_unit": 111.89999999999999,
           "product_url": "https://www.iherb.com/pr/youtheory-k2d3-essential-daily-vitamins-60-vegetarian-capsules/115847",
           "product_name": "Youtheory, K2D3 Essential Daily Vitamins, 60 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5871,6 +6031,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Super 2 Daily",
       "dsld_brand": "Carlson",
+      "product_image_url": "",
       "best_price_per_unit": 113.06666666666668,
       "best_total_price": 33.92,
       "unit": "mg",
@@ -5883,6 +6044,7 @@
           "price_per_unit": 113.06666666666668,
           "product_url": "https://www.vitacost.com/carlson-super-2-daily-vitamins-and-minerals-60-softgels",
           "product_name": "Carlson Super 2 Daily Vitamins and Minerals -- 60 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5901,6 +6063,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Men's Fermented Multivitamin",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 116.63333333333334,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -5913,6 +6076,7 @@
           "price_per_unit": 116.63333333333334,
           "product_url": "https://www.iherb.com/pr/codeage-women-s-fermented-multivitamin-120-vegetable-capsules/104052",
           "product_name": "Codeage, Women's Fermented Multivitamin, 120 Vegetable Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5929,6 +6093,7 @@
       "brand": "Metabolic Maintenance",
       "dsld_product_name": "Little One",
       "dsld_brand": "Metabolic Maintenance",
+      "product_image_url": "",
       "best_price_per_unit": 118.33333333333334,
       "best_total_price": 35.5,
       "unit": "mg",
@@ -5941,6 +6106,7 @@
           "price_per_unit": 118.33333333333334,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-little-one-children-s-multivitamin-90-capsules/39158",
           "product_name": "Metabolic Maintenance, Little One, Children's Multivitamin, 90 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5959,6 +6125,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Men's Multi",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 127.86666666666667,
       "best_total_price": 9.59,
       "unit": "mg",
@@ -5971,6 +6138,7 @@
           "price_per_unit": 127.86666666666667,
           "product_url": "https://www.vitacost.com/natures-bounty-womens-multivitamin-gummies",
           "product_name": "Nature's Bounty Women's Multivitamin Gummies Raspberry --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -5987,6 +6155,7 @@
       "brand": "Controlled Labs",
       "dsld_product_name": "Orange Triad",
       "dsld_brand": "Controlled Labs",
+      "product_image_url": "",
       "best_price_per_unit": 129.73333333333335,
       "best_total_price": 38.92,
       "unit": "mg",
@@ -5999,6 +6168,7 @@
           "price_per_unit": 129.73333333333335,
           "product_url": "https://www.iherb.com/pr/controlled-labs-orange-triad-multi-vitamin-joint-digestion-immune-formula-270-tablets/24674",
           "product_name": "Controlled Labs, Orange Triad\u2122, Multi-Vitamin, Joint, Digestion & Immune Formula, 270 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6015,6 +6185,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "Men's Fermented Multi",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 129.79025950942054,
       "best_total_price": 36.51,
       "unit": "mg",
@@ -6027,6 +6198,7 @@
           "price_per_unit": 129.79025950942054,
           "product_url": "https://www.iherb.com/pr/ancient-nutrition-men-s-fermented-multivitamin-60-capsules/142218",
           "product_name": "Ancient Nutrition, Men's Fermented Multivitamin, 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6043,6 +6215,7 @@
       "brand": "Havasu Nutrition",
       "dsld_product_name": "Premium Multivitamin Gummies",
       "dsld_brand": "Havasu Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 129.93333333333334,
       "best_total_price": 19.49,
       "unit": "mg",
@@ -6055,6 +6228,7 @@
           "price_per_unit": 129.93333333333334,
           "product_url": "https://www.vitacost.com/havasu-nutrition-premium-multivitamin-gummies",
           "product_name": "Havasu Nutrition Premium Multivitamin Gummies Natural Fru...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6071,6 +6245,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Mini-Multi",
       "dsld_brand": "Carlson",
+      "product_image_url": "",
       "best_price_per_unit": 138.86666666666667,
       "best_total_price": 20.83,
       "unit": "mg",
@@ -6083,6 +6258,7 @@
           "price_per_unit": 138.86666666666667,
           "product_url": "https://www.vitacost.com/carlson-mini-multi-vitamins-minerals",
           "product_name": "Carlson Mini-Multi Vitamins & Minerals -- 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6101,6 +6277,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Baby & Me Multivitamin",
       "dsld_brand": "Innate Response Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 139.96666666666667,
       "best_total_price": 41.99,
       "unit": "mg",
@@ -6113,6 +6290,7 @@
           "price_per_unit": 139.96666666666667,
           "product_url": "https://www.vitacost.com/innate-response-formulas-baby-me-multivitamin-60-tablets",
           "product_name": "Innate Response Formulas Baby & Me Multivitamin -- 60 Tab...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6136,6 +6314,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Baby & Me",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 149.95,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -6148,6 +6327,7 @@
           "price_per_unit": 149.95,
           "product_url": "https://www.vitacost.com/megafood-baby-me-2-pre-post-natal-vitamin-tablets",
           "product_name": "MegaFood Baby & Me 2 Prenatal Multivitamin -- with Folate...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6170,6 +6350,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Men's",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 156.63333333333335,
       "best_total_price": 46.99,
       "unit": "mg",
@@ -6182,6 +6363,7 @@
           "price_per_unit": 156.63333333333335,
           "product_url": "https://www.vitacost.com/megafood-mens-one-daily-multivitamin-for-men-90-tablets",
           "product_name": "MegaFood Men's One Daily Multivitamin for Men -- 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6191,6 +6373,7 @@
           "price_per_unit": 156.63333333333335,
           "product_url": "https://www.iherb.com/pr/megafood-men-s-40-one-daily-multivitamin-90-tablets/16685",
           "product_name": "MegaFood, Men's 40+ One Daily Multivitamin, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6213,6 +6396,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Women's",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 156.63333333333335,
       "best_total_price": 46.99,
       "unit": "mg",
@@ -6225,6 +6409,7 @@
           "price_per_unit": 156.63333333333335,
           "product_url": "https://www.iherb.com/pr/megafood-women-s-40-one-daily-multivitamin-90-tablets/16683",
           "product_name": "MegaFood, Women's 40+ One Daily Multivitamin, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6247,6 +6432,7 @@
       "brand": "Rainbow Light",
       "dsld_product_name": "Men\u2019s Multivitamin for Performance Energy",
       "dsld_brand": "Rainbow Light",
+      "product_image_url": "",
       "best_price_per_unit": 161.45,
       "best_total_price": 32.29,
       "unit": "mg",
@@ -6259,6 +6445,7 @@
           "price_per_unit": 161.45,
           "product_url": "https://www.vitacost.com/rainbow-light-performance-energy-multivitamin-for-men-90-tablets",
           "product_name": "Rainbow Light Performance Energy\u2122 Multivitamin for Men --...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6275,6 +6462,7 @@
       "brand": "Legion",
       "dsld_product_name": "Triumph Men's Sport Multivitamin",
       "dsld_brand": "Legion",
+      "product_image_url": "",
       "best_price_per_unit": 166.63333333333335,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -6287,6 +6475,7 @@
           "price_per_unit": 166.63333333333335,
           "product_url": "https://www.iherb.com/pr/legion-athletics-triumph-men-s-sport-multivitamin-240-vegetarian-capsules/147649",
           "product_name": "Legion Athletics, Triumph, Men's Sport Multivitamin, 240 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6303,6 +6492,7 @@
       "brand": "Thorne",
       "dsld_product_name": "A.M.",
       "dsld_brand": "Thorne",
+      "product_image_url": "",
       "best_price_per_unit": 171.11111111111111,
       "best_total_price": 77.0,
       "unit": "mg",
@@ -6315,6 +6505,7 @@
           "price_per_unit": 171.11111111111111,
           "product_url": "https://www.iherb.com/pr/thorne-multi-vitamin-elite-a-m-p-m-2-bottles-90-capsules-each/71156",
           "product_name": "Thorne, Multi-Vitamin Elite, A.M. & P.M., 2 Bottles, 90 Capsules Each",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6331,6 +6522,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Men's Advanced Multivitamin",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 186.63333333333335,
       "best_total_price": 55.99,
       "unit": "mg",
@@ -6343,6 +6535,7 @@
           "price_per_unit": 186.63333333333335,
           "product_url": "https://www.vitacost.com/megafood-mens-advanced-multivitamin-for-men",
           "product_name": "MegaFood Men's Advanced Multivitamin For Men -- 120 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6359,6 +6552,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Perfect Energy Multivitamin",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 186.9666666666667,
       "best_total_price": 56.09,
       "unit": "mg",
@@ -6371,6 +6565,7 @@
           "price_per_unit": 186.9666666666667,
           "product_url": "https://www.vitacost.com/new-chapter-perfect-energy-multivitamin-96-vegetarian-tablets",
           "product_name": "New Chapter Perfect Energy Multivitamin -- 96 Vegetarian ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6393,6 +6588,7 @@
       "brand": "DEVA",
       "dsld_product_name": "Vegan Multivitamin & Mineral Supplement",
       "dsld_brand": "DEVA",
+      "product_image_url": "",
       "best_price_per_unit": 196.33333333333334,
       "best_total_price": 5.89,
       "unit": "mg",
@@ -6405,6 +6601,7 @@
           "price_per_unit": 196.33333333333334,
           "product_url": "https://www.vitacost.com/deva-vegan-multivitamin-mineral-tiny-tablets",
           "product_name": "Deva Vegan Multivitamin & Mineral Tiny Tablets -- 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6414,6 +6611,7 @@
           "price_per_unit": 446.6666666666667,
           "product_url": "https://www.iherb.com/pr/deva-vegan-multivitamin-mineral-supplement-one-daily-90-coated-tablets/12664",
           "product_name": "Deva, Vegan Multivitamin & Mineral Supplement, One Daily, 90 Coated Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6433,6 +6631,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Minimal and Essential",
       "dsld_brand": "Vital Nutrients",
+      "product_image_url": "",
       "best_price_per_unit": 199.49999999999997,
       "best_total_price": 39.9,
       "unit": "mg",
@@ -6445,6 +6644,7 @@
           "price_per_unit": 199.49999999999997,
           "product_url": "https://www.vitacost.com/vital-nutrients-minimal-and-essential-multivitamin",
           "product_name": "Vital Nutrients Minimal and Essential Multivitamin -- 90 ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6461,6 +6661,7 @@
       "brand": "Rainbow Light",
       "dsld_product_name": "Men's One ",
       "dsld_brand": "Rainbow Light",
+      "product_image_url": "",
       "best_price_per_unit": 203.79999999999998,
       "best_total_price": 10.19,
       "unit": "mg",
@@ -6473,6 +6674,7 @@
           "price_per_unit": 203.79999999999998,
           "product_url": "https://www.vitacost.com/rainbow-light-high-potency-womens-one-daily-multivitamin",
           "product_name": "Rainbow Light High Potency Women's One Daily Multivitamin...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6482,6 +6684,7 @@
           "price_per_unit": 359.79999999999995,
           "product_url": "https://www.iherb.com/pr/rainbow-light-women-s-one-daily-multivitamin-high-potency-60-vegetarian-tablets/107923",
           "product_name": "Rainbow Light, Women's One\u2122 Daily Multivitamin, High Potency, 60 Vegetarian Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6498,6 +6701,7 @@
       "brand": "Nature's Truth",
       "dsld_product_name": "ABC Complete",
       "dsld_brand": "Nature's Truth",
+      "product_image_url": "",
       "best_price_per_unit": 215.0,
       "best_total_price": 6.45,
       "unit": "mg",
@@ -6510,6 +6714,7 @@
           "price_per_unit": 215.0,
           "product_url": "https://www.iherb.com/pr/nature-s-truth-abc-complete-multivitamin-100-coated-caplets/141913",
           "product_name": "Nature's Truth, ABC Complete Multivitamin, 100 Coated Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6526,6 +6731,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Super 2 Daily",
       "dsld_brand": "Carlson",
+      "product_image_url": "",
       "best_price_per_unit": 215.33333333333331,
       "best_total_price": 64.6,
       "unit": "mg",
@@ -6538,6 +6744,7 @@
           "price_per_unit": 215.33333333333331,
           "product_url": "https://www.vitacost.com/carlson-super-2-daily-vitamins-and-minerals",
           "product_name": "Carlson Super 2 Daily Vitamins and Minerals -- 120 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6556,6 +6763,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Women's 40+ Multivitamin",
       "dsld_brand": "Innate Response Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 249.96666666666667,
       "best_total_price": 74.99,
       "unit": "mg",
@@ -6568,6 +6776,7 @@
           "price_per_unit": 249.96666666666667,
           "product_url": "https://www.vitacost.com/innate-response-formulas-womens-40-plus-multivitamin",
           "product_name": "Innate Response Formulas Women's 40 plus Multivitamin -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6590,6 +6799,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Women's 55+ Multivitamin",
       "dsld_brand": "Innate Response Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 249.96666666666667,
       "best_total_price": 74.99,
       "unit": "mg",
@@ -6602,6 +6812,7 @@
           "price_per_unit": 249.96666666666667,
           "product_url": "https://www.vitacost.com/innate-response-formulas-womens-55-plus-multivitamin",
           "product_name": "Innate Response Formulas Women's 55 plus Multivitamin -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6624,6 +6835,7 @@
       "brand": "NATURELO",
       "dsld_product_name": "Whole Food Multivitamin for Men",
       "dsld_brand": "NATURELO",
+      "product_image_url": "",
       "best_price_per_unit": 313.00000000000006,
       "best_total_price": 46.95,
       "unit": "mg",
@@ -6636,6 +6848,7 @@
           "price_per_unit": 313.00000000000006,
           "product_url": "https://www.iherb.com/pr/naturelo-whole-food-complete-multivitamin-for-men-50-120-vegetarian-capsules/97678",
           "product_name": "NATURELO, Whole Food Complete Multivitamin, For Men 50+, 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -6645,6 +6858,7 @@
           "price_per_unit": 317.2666666666667,
           "product_url": "https://www.vitacost.com/naturelo-whole-food-multivitamin-for-men-50-plus",
           "product_name": "NATURELO Whole Food Multivitamin For Men 50 Plus -- 120 V...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6666,6 +6880,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Super 2 Daily",
       "dsld_brand": "Carlson",
+      "product_image_url": "",
       "best_price_per_unit": 317.33333333333337,
       "best_total_price": 95.2,
       "unit": "mg",
@@ -6678,6 +6893,7 @@
           "price_per_unit": 317.33333333333337,
           "product_url": "https://www.vitacost.com/carlson-super-2-daily-vitamins-and-minerals-180-softgels-1",
           "product_name": "Carlson Super 2 Daily Vitamins and Minerals -- 180 Softgels",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6696,6 +6912,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Men's Multi",
       "dsld_brand": "Nature's Bounty",
+      "product_image_url": "",
       "best_price_per_unit": 323.2,
       "best_total_price": 24.24,
       "unit": "mg",
@@ -6708,6 +6925,7 @@
           "price_per_unit": 323.2,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-men-s-multi-complete-multivitamin-high-potency-100-caplets/151035",
           "product_name": "Nature's Bounty, Men's Multi, Complete Multivitamin, High Potency, 100 Caplets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6724,6 +6942,7 @@
       "brand": "Swolverine",
       "dsld_product_name": "Multivitamin",
       "dsld_brand": "Swolverine",
+      "product_image_url": "",
       "best_price_per_unit": 328.6666666666667,
       "best_total_price": 14.79,
       "unit": "mg",
@@ -6736,6 +6955,7 @@
           "price_per_unit": 328.6666666666667,
           "product_url": "https://www.vitacost.com/swolverine-multivitamin",
           "product_name": "Swolverine Multivitamin -- 60 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6756,6 +6976,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Women's Multivitamin Berry Citrus Flavored Gummies",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 343.1666666666667,
       "best_total_price": 20.59,
       "unit": "mg",
@@ -6768,6 +6989,7 @@
           "price_per_unit": 343.1666666666667,
           "product_url": "https://www.vitacost.com/new-chapter-womens-multivitamin-gummies",
           "product_name": "New Chapter Women's Multivitamin Gummies Berry Citrus -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6789,6 +7011,7 @@
       "brand": "KAL",
       "dsld_product_name": "Enhanced Energy Whole Food Multivitamin Mango Pineapple Flavor",
       "dsld_brand": "KAL",
+      "product_image_url": "",
       "best_price_per_unit": 346.9,
       "best_total_price": 34.69,
       "unit": "mg",
@@ -6801,6 +7024,7 @@
           "price_per_unit": 346.9,
           "product_url": "https://www.vitacost.com/kal-enhanced-energy-whole-food-multivitamin",
           "product_name": "Kal Enhanced Energy\u00ae Whole Food Multivitamin Mango Pineap...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6819,6 +7043,7 @@
       "brand": "MH Michael's Health Naturopathic Programs",
       "dsld_product_name": "For Women Multivitamin Capsules",
       "dsld_brand": "MH Michael's Health Naturopathic Programs",
+      "product_image_url": "",
       "best_price_per_unit": 347.6,
       "best_total_price": 26.07,
       "unit": "mg",
@@ -6831,6 +7056,7 @@
           "price_per_unit": 347.6,
           "product_url": "https://www.iherb.com/pr/michael-s-health-for-women-multivitamin-90-vegetarian-capsules/129648",
           "product_name": "Michael's Health, For Women Multivitamin, 90 vegetarian capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6850,6 +7076,7 @@
       "brand": "Bayer One A Day",
       "dsld_product_name": "Proactive 65+ for Men & Women",
       "dsld_brand": "Bayer One A Day",
+      "product_image_url": "",
       "best_price_per_unit": 399.00000000000006,
       "best_total_price": 11.97,
       "unit": "mg",
@@ -6862,6 +7089,7 @@
           "price_per_unit": 399.00000000000006,
           "product_url": "https://www.iherb.com/pr/one-a-day-proactive-65-for-men-women-multivitamin-multimineral-supplement-150-tablets/108825",
           "product_name": "One-A-Day, Proactive 65+ For Men & Women, Multivitamin/Multimineral Supplement, 150 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6880,6 +7108,7 @@
       "brand": "Bayer One A Day",
       "dsld_product_name": "Men's 50+ Complete Multivitamin",
       "dsld_brand": "Bayer One A Day",
+      "product_image_url": "",
       "best_price_per_unit": 413.00000000000006,
       "best_total_price": 12.39,
       "unit": "mg",
@@ -6892,6 +7121,7 @@
           "price_per_unit": 413.00000000000006,
           "product_url": "https://www.vitacost.com/one-a-day-womens-50-plus-complete-multivitamin",
           "product_name": "One-A-Day Women's 50 Plus Complete Multivitamin -- 65 Tab...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6910,6 +7140,7 @@
       "brand": "Bayer One A Day",
       "dsld_product_name": "Men's 50+ Complete Multivitamin",
       "dsld_brand": "Bayer One A Day",
+      "product_image_url": "",
       "best_price_per_unit": 428.6666666666667,
       "best_total_price": 12.86,
       "unit": "mg",
@@ -6922,6 +7153,7 @@
           "price_per_unit": 428.6666666666667,
           "product_url": "https://www.iherb.com/pr/one-a-day-men-s-complete-multivitamin-100-tablets/127280",
           "product_name": "One-A-Day, Men's Complete Multivitamin, 100 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6938,6 +7170,7 @@
       "brand": "Bayer One A Day",
       "dsld_product_name": "Women's Petites",
       "dsld_brand": "Bayer One A Day",
+      "product_image_url": "",
       "best_price_per_unit": 431.6666666666667,
       "best_total_price": 12.95,
       "unit": "mg",
@@ -6950,6 +7183,7 @@
           "price_per_unit": 431.6666666666667,
           "product_url": "https://www.iherb.com/pr/one-a-day-women-s-petites-complete-multivitamin-160-tablets/108824",
           "product_name": "One-A-Day, Women's Petites Complete Multivitamin, 160 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6968,6 +7202,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Alive! Max3 Potency Multivitamin",
       "dsld_brand": "Nature's Way",
+      "product_image_url": "",
       "best_price_per_unit": 436.06060606060606,
       "best_total_price": 14.39,
       "unit": "mg",
@@ -6980,6 +7215,7 @@
           "price_per_unit": 436.06060606060606,
           "product_url": "https://www.vitacost.com/natures-way-way-alive-max6-potency-multivitamin-vitamins-b12-c-d-e-no-added-iron",
           "product_name": "Nature's Way Way Alive! Max6 Potency Multivitamin - Vitam...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -6996,6 +7232,7 @@
       "brand": "Vitanica",
       "dsld_product_name": "Maternal Symmetry",
       "dsld_brand": "Vitanica",
+      "product_image_url": "",
       "best_price_per_unit": 469.5,
       "best_total_price": 46.95,
       "unit": "mg",
@@ -7008,6 +7245,7 @@
           "price_per_unit": 469.5,
           "product_url": "https://www.vitacost.com/vitanica-maternal-symmetry-ob-multivitamin-180-vegetarian-capsules-1",
           "product_name": "Vitanica Maternal Symmetry\u2122 OB Multivitamin -- 180 Vegeta...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7027,6 +7265,7 @@
       "brand": "AN Amazing Nutrition Amazing Formulas",
       "dsld_product_name": "Daily Multivitamin",
       "dsld_brand": "AN Amazing Nutrition Amazing Formulas",
+      "product_image_url": "",
       "best_price_per_unit": 499.6666666666667,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -7039,6 +7278,7 @@
           "price_per_unit": 499.6666666666667,
           "product_url": "https://www.vitacost.com/amazing-nutrition-amazing-formulas-daily-multivitamin",
           "product_name": "Amazing Nutrition Amazing Formulas\u00a0Daily Multivitamin -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7055,6 +7295,7 @@
       "brand": "Rainbow Light",
       "dsld_product_name": "Prenatal One",
       "dsld_brand": "Rainbow Light",
+      "product_image_url": "",
       "best_price_per_unit": 511.1428571428571,
       "best_total_price": 17.89,
       "unit": "mg",
@@ -7067,6 +7308,7 @@
           "price_per_unit": 511.1428571428571,
           "product_url": "https://www.vitacost.com/rainbow-light-prenatal-one-multivitamin-60-vegan-tablets",
           "product_name": "Rainbow Light Prenatal One Multivitamin -- 60 Vegan Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7076,6 +7318,7 @@
           "price_per_unit": 1165.4285714285713,
           "product_url": "https://www.iherb.com/pr/rainbow-light-prenatal-one-daily-multivitamin-high-potency-150-vegan-tablets/14369",
           "product_name": "Rainbow Light, Prenatal One\u2122 Daily Multivitamin, High Potency, 150 Vegan Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7092,6 +7335,7 @@
       "brand": "NATURELO",
       "dsld_product_name": "One Daily Multivitamin for Women 50+",
       "dsld_brand": "NATURELO",
+      "product_image_url": "",
       "best_price_per_unit": 533.1111111111111,
       "best_total_price": 23.99,
       "unit": "mg",
@@ -7104,6 +7348,7 @@
           "price_per_unit": 533.1111111111111,
           "product_url": "https://www.vitacost.com/naturelo-one-daily-multivitamin-for-men-50-plus",
           "product_name": "NATURELO One Daily Multivitamin for Men 50 Plus -- 60 Veg...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7120,6 +7365,7 @@
       "brand": "Bayer One A Day",
       "dsld_product_name": "Men's Complete Multivitamin",
       "dsld_brand": "Bayer One A Day",
+      "product_image_url": "",
       "best_price_per_unit": 536.9767441860465,
       "best_total_price": 23.09,
       "unit": "mg",
@@ -7132,6 +7378,7 @@
           "price_per_unit": 536.9767441860465,
           "product_url": "https://www.vitacost.com/one-a-day-mens-complete-multivitamin",
           "product_name": "One-A-Day Men's Complete Multivitamin -- 200 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7150,6 +7397,7 @@
       "brand": "MH Michael's Health Naturopathic Programs",
       "dsld_product_name": "Teen Boys Multivitamin Tablets",
       "dsld_brand": "MH Michael's Health Naturopathic Programs",
+      "product_image_url": "",
       "best_price_per_unit": 581.75,
       "best_total_price": 23.27,
       "unit": "mg",
@@ -7162,6 +7410,7 @@
           "price_per_unit": 581.75,
           "product_url": "https://www.iherb.com/pr/michael-s-health-teen-boys-multivitamin-60-vegetarian-capsules/16996",
           "product_name": "Michael's Health, Teen Boys Multivitamin, 60 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7180,6 +7429,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "One Daily Prenatal Multivitamin",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 582.5714285714286,
       "best_total_price": 20.39,
       "unit": "mg",
@@ -7192,6 +7442,7 @@
           "price_per_unit": 582.5714285714286,
           "product_url": "https://www.vitacost.com/new-chapter-one-daily-prenatal-multivitamin",
           "product_name": "New Chapter One Daily Prenatal Multivitamin -- 30 Vegetar...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7201,6 +7452,7 @@
           "price_per_unit": 1827.7142857142856,
           "product_url": "https://www.iherb.com/pr/new-chapter-one-daily-prenatal-multivitamin-35-90-vegetarian-tablets/119893",
           "product_name": "New Chapter, One Daily Prenatal Multivitamin 35+, 90 Vegetarian Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7223,6 +7475,7 @@
       "brand": "Centrum ",
       "dsld_product_name": "Centrum Men",
       "dsld_brand": "Centrum",
+      "product_image_url": "",
       "best_price_per_unit": 634.75,
       "best_total_price": 25.39,
       "unit": "mg",
@@ -7235,6 +7488,7 @@
           "price_per_unit": 634.75,
           "product_url": "https://www.vitacost.com/centrum-men-multi-vitamin-tablets",
           "product_name": "Centrum Men Multi-Vitamin Tablets -- 200 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7254,6 +7508,7 @@
       "brand": "GNC Mega Men",
       "dsld_product_name": "Mega Men Gummy Multivitamin Mixed Berry",
       "dsld_brand": "GNC Mega Men",
+      "product_image_url": "",
       "best_price_per_unit": 666.3333333333333,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -7266,6 +7521,7 @@
           "price_per_unit": 666.3333333333333,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=571103&source=productlist",
           "product_name": "GNC Mega Men\u00ae\nMega Men\u00ae Gummy Multivitamin - Mixed Berry - 120 Gummies (60 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7288,6 +7544,7 @@
       "brand": "GNC Mega Men",
       "dsld_product_name": "50 Plus",
       "dsld_brand": "GNC Mega Men",
+      "product_image_url": "",
       "best_price_per_unit": 699.8,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -7300,6 +7557,7 @@
           "price_per_unit": 699.8,
           "product_url": "https://www.gnc.com/multivitamins-for-men/206312.html",
           "product_name": "GNC Mega Men\u00ae\n50 Plus Multivitamin - 60 Caplets (30 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7322,6 +7580,7 @@
       "brand": "NATURELO",
       "dsld_product_name": "One Daily Multivitamin for Men",
       "dsld_brand": "NATURELO",
+      "product_image_url": "",
       "best_price_per_unit": 726.9696969696969,
       "best_total_price": 23.99,
       "unit": "mg",
@@ -7334,6 +7593,7 @@
           "price_per_unit": 726.9696969696969,
           "product_url": "https://www.vitacost.com/naturelo-one-daily-multivitamin-for-men-60-vegetarian-capsules",
           "product_name": "NATURELO One Daily Multivitamin for Men -- 60 Vegetarian ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7343,6 +7603,7 @@
           "price_per_unit": 1119.6969696969697,
           "product_url": "https://www.iherb.com/pr/naturelo-one-daily-multivitamin-for-men-120-vegetarian-capsules/92972",
           "product_name": "NATURELO, One Daily Multivitamin, For Men, 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7359,6 +7620,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "One Daily",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 733.0,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -7371,6 +7633,7 @@
           "price_per_unit": 733.0,
           "product_url": "https://www.iherb.com/pr/megafood-women-s-one-daily-multivitamin-30-tablets/42536",
           "product_name": "MegaFood, Women\u2019s One Daily Multivitamin, 30 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7394,6 +7657,7 @@
       "brand": "Rainbow Light",
       "dsld_product_name": "Men's One ",
       "dsld_brand": "Rainbow Light",
+      "product_image_url": "",
       "best_price_per_unit": 775.8,
       "best_total_price": 38.79,
       "unit": "mg",
@@ -7406,6 +7670,7 @@
           "price_per_unit": 775.8,
           "product_url": "https://www.vitacost.com/rainbow-light-mens-one-multivitamin",
           "product_name": "Rainbow Light Men's One\u2122 Multivitamin -- 150 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7422,6 +7687,7 @@
       "brand": "NATURELO",
       "dsld_product_name": "One Daily Multivitamin for Women",
       "dsld_brand": "NATURELO",
+      "product_image_url": "",
       "best_price_per_unit": 799.6666666666666,
       "best_total_price": 23.99,
       "unit": "mg",
@@ -7434,6 +7700,7 @@
           "price_per_unit": 799.6666666666666,
           "product_url": "https://www.vitacost.com/naturelo-one-daily-multivitamin-for-women-50",
           "product_name": "NATURELO One Daily Multivitamin for Women 50+ -- 60 Veget...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7450,6 +7717,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Multivitamin Recovery Elite Max",
       "dsld_brand": "Codeage",
+      "product_image_url": "",
       "best_price_per_unit": 899.8,
       "best_total_price": 44.99,
       "unit": "mg",
@@ -7462,6 +7730,7 @@
           "price_per_unit": 899.8,
           "product_url": "https://www.vitacost.com/codeage-multivitamin-recovery-elite-max-essential-vitamins-minerals-sports-recovery",
           "product_name": "Codeage Multivitamin Recovery Elite Max - Essential Vitam...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7478,6 +7747,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Perfect Postnatal Multivitamin",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 922.5714285714284,
       "best_total_price": 32.29,
       "unit": "mg",
@@ -7490,6 +7760,7 @@
           "price_per_unit": 922.5714285714284,
           "product_url": "https://www.vitacost.com/new-chapter-perfect-postnatal-multivitamin-96-vegetarian-tablets",
           "product_name": "New Chapter Perfect Postnatal Multivitamin -- 96 Vegetari...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7512,6 +7783,7 @@
       "brand": "GNC Mega Men",
       "dsld_product_name": "50 Plus",
       "dsld_brand": "GNC Mega Men",
+      "product_image_url": "",
       "best_price_per_unit": 959.8,
       "best_total_price": 47.99,
       "unit": "mg",
@@ -7524,6 +7796,7 @@
           "price_per_unit": 959.8,
           "product_url": "https://www.gnc.com/multivitamins-for-men/206322.html",
           "product_name": "GNC Mega Men\u00ae\n50 Plus Multivitamin - 120 Caplets (60 Servings)",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7546,6 +7819,7 @@
       "brand": "MH Michael's Health Naturopathic Programs",
       "dsld_product_name": "Teen Boys Multivitamin Capsules",
       "dsld_brand": "MH Michael's Health Naturopathic Programs",
+      "product_image_url": "",
       "best_price_per_unit": 969.75,
       "best_total_price": 38.79,
       "unit": "mg",
@@ -7558,6 +7832,7 @@
           "price_per_unit": 969.75,
           "product_url": "https://www.iherb.com/pr/michael-s-health-teen-boys-multivitamin-120-vegetarian-capsules/129646",
           "product_name": "Michael's Health, Teen Boys Multivitamin, 120 Vegetarian Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7577,6 +7852,7 @@
       "brand": "Fairhaven Health",
       "dsld_product_name": "Prenatal",
       "dsld_brand": "Fairhaven Health",
+      "product_image_url": "",
       "best_price_per_unit": 998.5714285714286,
       "best_total_price": 34.95,
       "unit": "mg",
@@ -7589,6 +7865,7 @@
           "price_per_unit": 998.5714285714286,
           "product_url": "https://www.vitacost.com/fairhaven-health-prenatal-multivitamin-essentials-with-dha-choline-to-support-growth-and-development",
           "product_name": "Fairhaven Health PreNatal Multivitamin Essentials with DH...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7608,6 +7885,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "One Daily",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 999.6666666666666,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -7620,6 +7898,7 @@
           "price_per_unit": 999.6666666666666,
           "product_url": "https://www.vitacost.com/megafood-women-over-55-one-daily-multivitamin-60-tablets",
           "product_name": "MegaFood Women Over 55+ One Daily Multivitamin -- 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7629,6 +7908,7 @@
           "price_per_unit": 1266.3333333333335,
           "product_url": "https://www.iherb.com/pr/megafood-women-s-one-daily-multivitamins-60-tablets/42537",
           "product_name": "MegaFood, Women\u2019s One Daily Multivitamins, 60 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7652,6 +7932,7 @@
       "brand": "NATURELO",
       "dsld_product_name": "Whole Food Multivitamin for Teens",
       "dsld_brand": "NATURELO",
+      "product_image_url": "",
       "best_price_per_unit": 1083.6,
       "best_total_price": 27.09,
       "unit": "mg",
@@ -7664,6 +7945,7 @@
           "price_per_unit": 1083.6,
           "product_url": "https://www.vitacost.com/naturelo-whole-food-multivitamin-for-teens",
           "product_name": "NATURELO Whole Food Multivitamin for Teens -- 60 Vegetari...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7680,6 +7962,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "One Daily Every Man's Multivitamin 40+",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 1198.0,
       "best_total_price": 17.97,
       "unit": "mg",
@@ -7692,6 +7975,7 @@
           "price_per_unit": 1198.0,
           "product_url": "https://www.vitacost.com/new-chapter-every-mans-one-daily-40-mens-multivitamin-40-plus",
           "product_name": "New Chapter Every Man's One Daily 40+ Men's Multivitamin ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7712,6 +7996,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "One Daily",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 1466.3333333333335,
       "best_total_price": 43.99,
       "unit": "mg",
@@ -7724,6 +8009,7 @@
           "price_per_unit": 1466.3333333333335,
           "product_url": "https://www.vitacost.com/megafood-women-over-55-one-daily-multivitamin-90-tablets",
           "product_name": "MegaFood Women Over 55+ One Daily Multivitamin -- 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7733,6 +8019,7 @@
           "price_per_unit": 1566.3333333333335,
           "product_url": "https://www.iherb.com/pr/megafood-one-daily-multivitamin-90-tablets/4033",
           "product_name": "MegaFood, One Daily Multivitamin, 90 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7756,6 +8043,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Perfect Prenatal Multivitamin",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 1493.9999999999998,
       "best_total_price": 52.29,
       "unit": "mg",
@@ -7768,6 +8056,7 @@
           "price_per_unit": 1493.9999999999998,
           "product_url": "https://supplementwarehouse.com/products/nch-perfect-postnatal-multivitamin-192t-1/?expa_m=search&expa_st=multivitamin",
           "product_name": "New Chapter Perfect Postnatal Multivitamin 192 Tabs",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7788,6 +8077,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Women's Advanced Multivitamin",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 1639.0000000000002,
       "best_total_price": 49.17,
       "unit": "mg",
@@ -7800,6 +8090,7 @@
           "price_per_unit": 1639.0000000000002,
           "product_url": "https://supplementwarehouse.com/products/nch-every-man-120t/?expa_m=search&expa_st=multivitamin",
           "product_name": "New Chapter Men's Advanced Multivitamin 120 Tabs",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7820,6 +8111,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Perfect Calm Multivitamin",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 1866.3333333333335,
       "best_total_price": 55.99,
       "unit": "mg",
@@ -7832,6 +8124,7 @@
           "price_per_unit": 1866.3333333333335,
           "product_url": "https://www.vitacost.com/new-chapter-perfect-calm-multivitamin",
           "product_name": "New Chapter Perfect Calm Multivitamin -- 144 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7854,6 +8147,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Tiny Tabs Multivitamin",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 2072.6666666666665,
       "best_total_price": 31.09,
       "unit": "mg",
@@ -7866,6 +8160,7 @@
           "price_per_unit": 2072.6666666666665,
           "product_url": "https://www.vitacost.com/new-chapter-tiny-tabs-multivitamin",
           "product_name": "New Chapter Tiny Tabs Multivitamin -- 192 Vegan Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7888,6 +8183,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "One Daily",
       "dsld_brand": "MegaFood",
+      "product_image_url": "",
       "best_price_per_unit": 2766.3333333333335,
       "best_total_price": 82.99,
       "unit": "mg",
@@ -7900,6 +8196,7 @@
           "price_per_unit": 2766.3333333333335,
           "product_url": "https://www.vitacost.com/megafood-one-daily-multivitamin-180-tablets",
           "product_name": "MegaFood One Daily Multivitamin -- 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         },
@@ -7909,6 +8206,7 @@
           "price_per_unit": 2766.3333333333335,
           "product_url": "https://www.iherb.com/pr/megafood-one-daily-multivitamin-180-tablets/15061",
           "product_name": "MegaFood, One Daily Multivitamin, 180 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7932,6 +8230,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Once Daily High Energy Multivitamin",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 3179.0,
       "best_total_price": 31.79,
       "unit": "mg",
@@ -7944,6 +8243,7 @@
           "price_per_unit": 3179.0,
           "product_url": "https://www.iherb.com/pr/solaray-twice-daily-multi-energy-multivitamin-120-capsules/24667",
           "product_name": "Solaray, Twice Daily, Multi Energy Multivitamin, 120 Capsules",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7960,6 +8260,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Once Daily High Energy Multivitamin",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 3729.0,
       "best_total_price": 37.29,
       "unit": "mg",
@@ -7972,6 +8273,7 @@
           "price_per_unit": 3729.0,
           "product_url": "https://www.vitacost.com/solaray-high-energy-once-daily-multivitamin",
           "product_name": "Solaray High Energy Once Daily Multivitamin -- 120 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -7988,6 +8290,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Every Man's One Daily Multivitamin",
       "dsld_brand": "New Chapter",
+      "product_image_url": "",
       "best_price_per_unit": 3999.3333333333335,
       "best_total_price": 59.99,
       "unit": "mg",
@@ -8000,6 +8303,7 @@
           "price_per_unit": 3999.3333333333335,
           "product_url": "https://supplementwarehouse.com/products/nch-every-mans-one-daily-multivitamin-55-72t/?expa_m=search&expa_st=multivitamin",
           "product_name": "New Chapter Every Man's One Daily Multivitamin 55+ 72 Tablets",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8020,6 +8324,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Once Daily High Energy Multivitamin",
       "dsld_brand": "Solaray",
+      "product_image_url": "",
       "best_price_per_unit": 4659.0,
       "best_total_price": 46.59,
       "unit": "mg",
@@ -8032,6 +8337,7 @@
           "price_per_unit": 4659.0,
           "product_url": "https://www.iherb.com/pr/solaray-once-daily-high-energy-multivitamin-180-vegcaps/70104",
           "product_name": "Solaray, Once Daily High Energy Multivitamin, 180 VegCaps",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }
@@ -8048,6 +8354,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "Organic Super Greens + Multivitamin",
       "dsld_brand": "Ancient Nutrition",
+      "product_image_url": "",
       "best_price_per_unit": 16986.666666666668,
       "best_total_price": 50.96,
       "unit": "mg",
@@ -8060,6 +8367,7 @@
           "price_per_unit": 16986.666666666668,
           "product_url": "https://www.vitacost.com/ancient-nutrition-organic-supergreens-multivitamins",
           "product_name": "Ancient Nutrition Organic SuperGreens + Multivitamins -- ...",
+          "image_url": "",
           "rating": null,
           "reviews": null
         }

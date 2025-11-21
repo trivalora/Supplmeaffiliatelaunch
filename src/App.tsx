@@ -613,7 +613,7 @@ export default function App({ navigate, currentPath }: AppProps) {
         <div 
           className="bg-background text-foreground flex flex-col min-h-screen" 
           data-name="Knowledgebase//Content Page v0.3" 
-          style={{ position: 'relative', width: '100%', overflowX: 'hidden' }}
+          style={{ position: 'relative', width: '100%' }}
         >
           {/* Header - persistent across pages, doesn't reload on navigation */}
           {currentPage !== 'landing' && <Header onNavigate={navigateTo} />}

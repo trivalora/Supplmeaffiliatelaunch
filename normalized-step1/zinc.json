@@ -1,0 +1,649 @@
+[
+  {
+    "product_name": "Nature's Life Cal Mag Zinc Complex -- 1000 mg - 100 Capsules",
+    "price_usd": 12.59,
+    "url": "https://www.vitacost.com/natures-life-cal-mag-zinc-complex-1000-mg-100-capsules",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Life/Natures-Life-Cal-Mag-Zinc-Complex-040647004306.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Life Cal Mag Zinc Complex -- 1000 mg - 250 Tablets",
+    "price_usd": 24.59,
+    "url": "https://www.vitacost.com/natures-life-cal-mag-zinc-complex",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Life/Natures-Life-Cal-Mag-Zinc-Complex-040647001930.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "KAL Cal/Mag/Zinc High Potency -- 100 Tablets",
+    "price_usd": 11.79,
+    "url": "https://www.vitacost.com/kal-cal-mag-zinc-high-potency-100-tablets",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/KAL/KAL-Cal-Mag-Zinc-High-Potency-021245577102.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Trace Liquid Cal-Mag-Zinc Piña Colada -- 16 fl oz",
+    "price_usd": 22.99,
+    "url": "https://www.vitacost.com/trace-liquid-cal-mag-zinc",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Trace/Trace-Liquid-Cal-Mag-Zinc-Pi-a-Colada-878941000430.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Trace Liquid Cal-Mag-Zinc Piña Colada -- 32 fl oz",
+    "price_usd": 37.99,
+    "url": "https://www.vitacost.com/trace-liquid-cal-mag-zinc-pi-a-colada",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Trace/Trace-Liquid-Cal-Mag-Zinc-Pi-a-Colada-878941000447.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "KAL Cal Mag Zinc High Potency -- 250 Tablets",
+    "price_usd": 19.69,
+    "url": "https://www.vitacost.com/kal-cal-mag-zinc-high-potency",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/KAL/KAL-Cal-Mag-Zinc-High-Potency-021245577256.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Life Cal Mag Zinc Complex -- 1000 mg - 250 Capsules",
+    "price_usd": 24.09,
+    "url": "https://www.vitacost.com/natures-life-cal-mag-zinc-complex-1000-mg-250-capsules",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Life/Natures-Life-Cal-Mag-Zinc-Complex-040647004313.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Trace Liquid Cal-Mag-Zinc Natural Strawberry -- 32 fl oz",
+    "price_usd": 37.99,
+    "url": "https://www.vitacost.com/trace-liquid-cal-mag-zinc-natural-strawberry",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Trace/Trace-Liquid-Cal-Mag-Zinc-Natural-Strawberry-878941002304.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Best Naturals Cal-Mag Zinc -- 180 Tablets",
+    "price_usd": 9.99,
+    "url": "https://www.vitacost.com/best-naturals-cal-mag-zinc",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Best-Naturals/Best-Naturals-Cal-Mag-Zinc-817716013442.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "World Organic Cal-Mag Zinc Liquid Supplement -- 16 fl oz",
+    "price_usd": 11.19,
+    "url": "https://www.vitacost.com/world-organic-cal-mag-zinc-liquid-supplement",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/World-Organic/World-Organic-Cal-Mag-Zinc-Liquid-Supplement-726899553532.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Viteyes Areds 2 Based Formula Zinc Free -- 60 Capsules",
+    "price_usd": 15.49,
+    "url": "https://www.vitacost.com/viteyes-areds-2-based-formula-zinc-free",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Viteyes/Viteyes-Areds-2-Based-Formula-Zinc-Free-882966008852.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "KAL Zinc + C - ActivMelt Tablets -- 9 MicroTablets",
+    "price_usd": 14.09,
+    "url": "https://www.vitacost.com/kal-zinc-c-activmelt-tablets",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/KAL/KAL-Zinc-C-ActivMelt-Tablets-021245560999.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Zahler Chapter One Kids Immunity Elderberry Zinc Vitamin ...",
+    "price_usd": 16.79,
+    "url": "https://www.vitacost.com/zahler-chapter-one-kids-immunity-elderberry-zinc-vitamin-c",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Chapter-One-Kids-Immunity-Elderberry-Zinc-Vitamin-C-848998041038.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW C-1000 Zinc & D-3 -- 100 Veg Capsules",
+    "price_usd": 11.39,
+    "url": "https://www.vitacost.com/now-c-1000-zinc-d-3",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-C-1000-Zinc-And-D-3-733739006967.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Mt Angel Vitamins Quercetin Zinc -- 300 Vegetarian Capsules",
+    "price_usd": 79.99,
+    "url": "https://www.vitacost.com/mt-angel-vitamins-quercetin-zinc",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Mt-Angel-Vitamins/Mt-Angel-Vitamins-Quercetin-Zinc-768305010284.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW C-1000 Zinc Immune -- 90 Veg Capsules",
+    "price_usd": 8.69,
+    "url": "https://www.vitacost.com/now-c-1000-zinc-immune",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-C-1000-Zinc-Immune-733739006943.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Supplements C-1000 Zinc Immune -- 180 Veg Capsules",
+    "price_usd": 15.69,
+    "url": "https://www.vitacost.com/now-supplements-c-1000-zinc-immune",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Supplements-C-1000-Zinc-Immune-733739006950.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "The Smurfs Kids Gummy Immune Defense Elderberry Zinc Vita...",
+    "price_usd": 9.98,
+    "url": "https://www.vitacost.com/the-smurfs-kids-gummy-immune-defense-elderberry-zinc-vitamin-c-d",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/The-Smurfs/The-Smurfs-Kids-Gummy-Immune-Defense-Elderberry-Zinc-Vitamin-C-D-850019556964.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "The Smurfs Kids Gummy Immune Defense Elderberry Zinc Vita...",
+    "price_usd": 15.98,
+    "url": "https://www.vitacost.com/the-smurfs-kids-gummy-immune-defense-elderberry-zinc-vitamin-c-d-80-gummies",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/The-Smurfs/The-Smurfs-Kids-Gummy-Immune-Defense-Elderberry-Zinc-Vitamin-C-D-850045641016.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Zahler Chapter One Kids Immunity Elderberry Zinc Vitaminc...",
+    "price_usd": 29.09,
+    "url": "https://www.vitacost.com/zahler-chapter-one-kids-immunity-elderberry-zinc-vitaminc-c",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Chapter-One-Kids-Immunity-Elderberry-Zinc-Vitaminc-C-848998041168.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Emerald Labs Elderberry + Zinc + PureWay-C -- 60 Vegetabl...",
+    "price_usd": 17.96,
+    "url": "https://www.vitacost.com/emerald-labs-elderberry-zinc-pureway-c",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Emerald-Labs/Emerald-Labs-Elderberry-Zinc-PureWay-C-743650003600.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Way Sambucus Immune Lozenges - Elderberry-Zinc-V...",
+    "price_usd": 4.89,
+    "url": "https://www.vitacost.com/natures-way-sambucus-immune-lozenges-elderberry-zinc-vitamin-c-usda-organic",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Sambucus-Immune-Lozenges-Elderberry-Zinc-Vitamin-C-USDA-Organic-033674102206.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Way Sambucus Immune Lozenges - Elderberry - Zinc...",
+    "price_usd": 5.09,
+    "url": "https://www.vitacost.com/natures-way-sambucus-immune-lozenges-elderberry-zinc-vitamin-c",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Sambucus-Immune-Lozenges-Elderberry-Zinc-Vitamin-C-Honey-Lemon-033674120897.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Dr. Goodpet Dog & Cat Eye-C All Natural Eye Drops Zinc & ...",
+    "price_usd": 12.95,
+    "url": "https://www.vitacost.com/dr-goodpet-dog-cat-eye-c-all-natural-eye-drops-zinc-vitamin-c",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Goodpet/Dr-Goodpet-Dog-And-Cat-Eye-C-All-Natural-Eye-Drops-Zinc-And-Vitamin-C-031697101053.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Protocol For Life Balance C-1000 + Zinc-15 -- 120 Veg Cap...",
+    "price_usd": 22,
+    "url": "https://www.vitacost.com/protocol-for-life-balance-c-1000-zinc-15",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-C-1000-Zinc-15-707359111202.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Zand Elderberry Zinc Immunity Gummies -- 60 Gummies",
+    "price_usd": 14.29,
+    "url": "https://www.vitacost.com/zand-elderberry-zinc-immunity-gummies",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Zand/Zand-Elderberry-Zinc-Immunity-Gummies-041954667437.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NutraChamps Ionic Zinc Drops Unflavored -- 4 fl oz",
+    "price_usd": 19.95,
+    "url": "https://www.vitacost.com/nutrachamps-ionic-zinc-drops",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NutraChamps/NutraChamps-Ionic-Zinc-Drops-Unflavored-621983990340.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Superior Source MicroLingual Zinc Plus Immune Support Loz...",
+    "price_usd": 13.99,
+    "url": "https://www.vitacost.com/superior-source-microlingual-zinc-plus-immune-support-lozenges",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-MicroLingual-Zinc-Plus-Immune-Support-Lozenges-076635900718.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Way Biotin Forte - 3000 mcg Biotin - With Zinc-V...",
+    "price_usd": 10.89,
+    "url": "https://www.vitacost.com/natures-way-biotin-forte-3000-mcg-biotin-with-zinc-vitamins-c-b12-b6-folate-60-tablets",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Biotin-Forte-3000-mcg-Biotin-With-Zinc-Vitamins-C-B12-B6-Folate-354022109815.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Sambucus Zinc C Elderberry -- 60 Lozenges",
+    "price_usd": 7.39,
+    "url": "https://www.vitacost.com/now-sambucus-zinc-c",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Sambucus-Zinc-C-Elderberry-733739033840.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Vitafusion Power Zinc Strawberry Tangerine -- 90 Gummies",
+    "price_usd": 12.69,
+    "url": "https://www.vitacost.com/vitafusion-power-zinc",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Vitafusion/Vitafusion-Power-Zinc-Strawberry-Tangerine-027917003863.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Kal LoZINCges™ Cherry -- 12.5 mg - 75 Lozenges",
+    "price_usd": 11.59,
+    "url": "https://www.vitacost.com/kal-lozincges-cherry-12-5-mg-75-lozenges",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/KAL/Kal-LoZINCges-Cherry-021245963301.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Paradise Herbs Earth's Blend Zinc Picolinate -- 30 mg - 9...",
+    "price_usd": 10.29,
+    "url": "https://www.vitacost.com/paradise-herbs-earths-blend-zinc-picolinate",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Paradise-Herbs/Paradise-Herbs-Earths-Blend-Zinc-Picolinate-601944778910.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Childlife Liquid Zinc Plus Natural Mango Strawberry -- 4 ...",
+    "price_usd": 9.96,
+    "url": "https://www.vitacost.com/childlife-liquid-zinc-plus",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Childlife/Childlife-Liquid-Zinc-Plus-Natural-Mango-Strawberry-608274103504.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Derma E Sun Defense Clear Zinc Oil-Free Sunscreen SPF 30 ...",
+    "price_usd": 15.8,
+    "url": "https://www.vitacost.com/derma-e-sun-defense-clear-zinc-oil-free-sunscreen-spf-30-face",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Derma-E/Derma-E-Sun-Defense-Clear-Zinc-Oil-Free-Sunscreen-SPF-30-Face-030985004199.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Superior Source Microlingual Advanced Zinc Instant Dissol...",
+    "price_usd": 16.59,
+    "url": "https://www.vitacost.com/superior-source-microlingual-advanced-zinc-instant-dissolve-tablets",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Microlingual-Advanced-Zinc-Instant-Dissolve-Tablets-076635921201.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Codeage Gut HealthFormula - Zinc L-Glutamine Prebioitcs &...",
+    "price_usd": 39.99,
+    "url": "https://www.vitacost.com/codeage-gut-healthformula-zinc-l-glutamine-prebioitcs-probiotics-supplement",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Codeage/Codeage-Gut-HealthFormula-Zinc-L-Glutamine-Prebioitcs-And-Probiotics-Supplement-853919008250.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "AMEN Leaky Gut + L-Glutamine Zinc Turmeric Marshmallow Ro...",
+    "price_usd": 26.99,
+    "url": "https://www.vitacost.com/amen-leaky-gut-l-glutamine-zinc-turmeric-marshmallow-root-probiotic-prebiotic-vegan-supplement",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/AMEN/AMEN-Leaky-Gut-L-Glutamine-Zinc-Turmeric-Marshmallow-Root-Probiotic-And-Prebiotic-Vegan-Supplement-853919008465.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Codeage Men's Daily Probiotic 50B CFU - Zinc-Saw Palmetto...",
+    "price_usd": 29.99,
+    "url": "https://www.vitacost.com/codeage-mens-daily-probiotic-50b-cfu-zinc-saw-palmetto-organic-chicory-root-inulin",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Codeage/Codeage-Mens-Daily-Probiotic-50B-CFU-Zinc-Saw-Palmetto-Organic-Chicory-Root-Inulin-810196120037.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Bounty Zinc -- 50 mg - 200 Caplets",
+    "price_usd": 11.49,
+    "url": "https://www.vitacost.com/natures-bounty-zinc-50-mg-200-caplets",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Zinc-074312009952.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Bounty Zinc Gummies Mixed Berry -- 30 mg - 70 Gu...",
+    "price_usd": 18.89,
+    "url": "https://www.vitacost.com/natures-bounty-zinc-gummies",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Zinc-Gummies-Mixed-Berry-074312008221.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Bounty Zinc -- 50 mg - 100 Caplets",
+    "price_usd": 6.49,
+    "url": "https://www.vitacost.com/natures-bounty-zinc",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Zinc-074312020605.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Emerald Labs Quercetin Phytosome + Zinc -- 60 Vegetable Caps",
+    "price_usd": 35.96,
+    "url": "https://www.vitacost.com/emerald-labs-quercetin-phytosome-zinc",
+    "retailer": "Vitacost",
+    "search_term": "zinc",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Emerald-Labs/Emerald-Labs-Quercetin-Phytosome-Zinc-743650003662.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Paradise Herbs, Earth's Blend, Zinc Picolinate, 30 mg, 90 Vegetarian Capsules",
+    "price_usd": 9.99,
+    "url": "https://www.iherb.com/pr/paradise-herbs-earth-s-blend-zinc-picolinate-30-mg-90-vegetarian-capsules/100105",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/par/par77891/u/30.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Paradise Herbs, Earth's Blend, Cal-Mag Zinc + D3, 90 Vegetarian Capsules",
+    "price_usd": 16.99,
+    "url": "https://www.iherb.com/pr/paradise-herbs-earth-s-blend-cal-mag-zinc-d3-90-vegetarian-capsules/137981",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/par/par77912/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Paradise Herbs, Earth's Blend, Cal-Mag Zinc + D3, 180 Vegetarian Capsules",
+    "price_usd": 29.74,
+    "url": "https://www.iherb.com/pr/paradise-herbs-earth-s-blend-cal-mag-zinc-d3-180-vegetarian-capsules/137982",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/par/par77897/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Dr. Mercola, Zinc Plus Selenium, 90 Capsules",
+    "price_usd": 21.99,
+    "url": "https://www.iherb.com/pr/dr-mercola-zinc-plus-selenium-90-capsules/86509",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl03152/u/34.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Truth, Zinc, Chelated, 50 mg, 100 Tablets",
+    "price_usd": 5.71,
+    "url": "https://www.iherb.com/pr/nature-s-truth-zinc-chelated-50-mg-100-tablets/108646",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth10153/u/40.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "KAL, Cal/Mag/Zinc, High Potency, 250 Tablets",
+    "price_usd": 19.69,
+    "url": "https://www.iherb.com/pr/kal-cal-mag-zinc-high-potency-250-tablets/121468",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Life, Cal/Mag/Zinc Complex, 100 Capsules",
+    "price_usd": 12.59,
+    "url": "https://www.iherb.com/pr/nature-s-life-cal-mag-zinc-complex-100-capsules/130899",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Life, Cal/Mag/Zinc Complex, 250 Capsules",
+    "price_usd": 24.09,
+    "url": "https://www.iherb.com/pr/nature-s-life-cal-mag-zinc-complex-250-capsules/130884",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "KAL, Cal/Mag/Zinc, High Potency, 100 Tablets",
+    "price_usd": 11.79,
+    "url": "https://www.iherb.com/pr/kal-cal-mag-zinc-high-potency-100-tablets/121469",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cal/cal57710/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Source Naturals, Zinc, 50 mg, 100 Tablets",
+    "price_usd": 6.54,
+    "url": "https://www.iherb.com/pr/source-naturals-zinc-50-mg-100-tablets/144230",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sns/sns00329/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Source Naturals, Zinc, 50 mg, 250 Tablets",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/source-naturals-zinc-50-mg-250-tablets/1475",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sns/sns00330/u/30.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "21st Century, Chelated Zinc, 50 mg, 60 Tablets",
+    "price_usd": 3,
+    "url": "https://www.iherb.com/pr/21st-century-chelated-zinc-50-mg-60-tablets/100067",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen28024/u/104.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "21st Century, Stress B with Zinc, 66 Tablets",
+    "price_usd": 6.49,
+    "url": "https://www.iherb.com/pr/21st-century-stress-b-with-zinc-66-tablets/43848",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22331/u/23.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Solaray, Zinc Citrate with Pumpkin Seed, 60 VegCaps",
+    "price_usd": 7.69,
+    "url": "https://www.iherb.com/pr/solaray-zinc-citrate-with-pumpkin-seed-60-vegcaps/106014",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor47102/u/40.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ChildLife Essentials, Zinc Plus™, Natural Mango Strawberry, 4 fl oz (118 ml)",
+    "price_usd": 9.96,
+    "url": "https://www.iherb.com/pr/childlife-essentials-zinc-plus-natural-mango-strawberry-4-fl-oz-118-ml/102445",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cdl/cdl10350/u/58.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Kirkman Labs, Zinc Liquid, Natural Raspberry, 16 oz (473 ml) (20 mg per Serving)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/kirkman-labs-zinc-liquid-natural-raspberry-16-oz-473-ml-20-mg-per-serving/127432",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/kim/kim02200/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Foods, Zinc Picolinate, 50 mg, 120 Veg Capsules",
+    "price_usd": 11.01,
+    "url": "https://www.iherb.com/pr/now-foods-zinc-picolinate-50-mg-120-veg-capsules/878",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now01552/u/57.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Life Extension, Zinc Caps, High Potency, 50 mg, 90 Vegetarian Capsules",
+    "price_usd": 6.75,
+    "url": "https://www.iherb.com/pr/life-extension-zinc-caps-high-potency-50-mg-90-vegetarian-capsules/57009",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/lex/lex18139/u/125.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Thorne, Zinc Picolinate, 15 mg, 60 Capsules",
+    "price_usd": 14,
+    "url": "https://www.iherb.com/pr/thorne-zinc-picolinate-15-mg-60-capsules/18476",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/thr/thr21002/u/37.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Way, Zinc Lozenges, Wild Berry, 60 Vegan Lozenges",
+    "price_usd": 4.72,
+    "url": "https://www.iherb.com/pr/nature-s-way-zinc-lozenges-wild-berry-60-vegan-lozenges/2085",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nwy/nwy41092/u/78.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NaturesPlus, Animal Parade®, Kid Zinc®, Tangerine, 90 Animal-Shaped Lozenges",
+    "price_usd": 18.66,
+    "url": "https://www.iherb.com/pr/naturesplus-animal-parade-kid-zinc-tangerine-90-animal-shaped-lozenges/16944",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap29964/u/69.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Foods, Zinc, 50 mg, 250 Tablets",
+    "price_usd": 9.79,
+    "url": "https://www.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
+    "retailer": "iHerb",
+    "search_term": "zinc",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now01522/u/72.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  }
+]

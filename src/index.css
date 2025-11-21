@@ -493,7 +493,6 @@
     min-height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
   }
 
   *,
@@ -503,29 +502,13 @@
   }
 
   img {
-    max-width: 80%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  [data-layout-header] img,
-  [data-layout-footer] img,
-  [data-name="Logo"] img,
-  [data-button-height] img,
-  button img,
-  a img,
-  [data-knowledgebase-hero] img,
-  [data-grid] img {
     max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    height: auto;
+    display: block;
   }
 
   #root {
     width: 100%;
-    overflow-x: hidden;
   }
 
   h1,
@@ -3641,6 +3624,13 @@
   }
 }
 
+/* Hero container - full viewport width as direct child of body wrapper */
+#hero {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
 [data-layout="footer"],
 [data-layout-footer] {
   padding-inline: var(--page-padding-inline);
@@ -3671,12 +3661,6 @@
 [data-page-content],
 .bg-\[#F7F7F3\] {
   padding-top: var(--header-height);
-}
-
-@media (width <=767px) {
-  .bg-\[#F7F7F3\] {
-    padding-top: var(--header-height);
-  }
 }
 
 .dark .glossary-hero {
@@ -3716,15 +3700,19 @@
 
 [data-knowledgebase-hero] [data-knowledgebase-hero-text],
 [data-section="hero"] [data-content="hero-text"] {
-  padding: var(--page-padding-inline);
+  width: 100%;
+  max-width: min(90%, 600px);
+  padding: 0;
 }
 
 [data-knowledgebase-hero] h1 {
   color: #f7f7f3;
+  margin-bottom: clamp(1rem, 3vw, 1.5rem);
 }
 
 [data-knowledgebase-hero] p {
   color: #e0cba8;
+  max-width: min(100%, 540px);
 }
 
 [data-knowledgebase-hero] img,
@@ -4160,17 +4148,21 @@
 }
 
 [data-product-card-image] {
-  background: var(--color-tertiary);
+  /* Background set via className (bg-white) - don't override */
   height: 16rem;
   padding: var(--space-lg);
   justify-content: center;
   align-items: center;
   display: flex;
+  position: relative;
 }
 
 [data-product-card-image] img {
   object-fit: contain;
-  max-height: 12rem;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 [data-product-card-content] {

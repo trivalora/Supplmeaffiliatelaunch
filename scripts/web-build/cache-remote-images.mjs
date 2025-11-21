@@ -16,8 +16,8 @@ const dataFile = path.join(projectRoot, 'src', 'utils', 'supplementProductsData.
 const outputDir = path.join(projectRoot, 'public', 'optimized', 'remote');
 const manifestTs = path.join(projectRoot, 'src', 'optimized', 'remoteManifest.ts');
 
-// Pruned widths (max expected rendered ~420px, keep one above) - can adjust via WIDTHS env
-const widths = process.env.WIDTHS ? process.env.WIDTHS.split(',').map(n => parseInt(n.trim(), 10)).filter(Boolean) : [240, 360, 480];
+// Match SmartImage default widths: [240, 360, 480, 640]
+const widths = process.env.WIDTHS ? process.env.WIDTHS.split(',').map(n => parseInt(n.trim(), 10)).filter(Boolean) : [240, 360, 480, 640];
 
 async function main() {
     console.log('[cache-remote-images] Starting');
@@ -107,10 +107,10 @@ async function main() {
                 const avifOut = path.join(outputDir, `${base}.avif`);
                 const webpOut = path.join(outputDir, `${base}.webp`);
                 if (!fs.existsSync(avifOut)) {
-                    await sharp(buffer).resize({ width: w }).avif({ quality: 50 }).toFile(avifOut);
+                    await sharp(buffer).resize({ width: w }).avif({ quality: 45 }).toFile(avifOut);
                 }
                 if (!fs.existsSync(webpOut)) {
-                    await sharp(buffer).resize({ width: w }).webp({ quality: 55 }).toFile(webpOut);
+                    await sharp(buffer).resize({ width: w }).webp({ quality: 50 }).toFile(webpOut);
                 }
             }
 

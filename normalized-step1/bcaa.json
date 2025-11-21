@@ -1,0 +1,2440 @@
+[
+  {
+    "product_name": "Anthem Shuffle BCAA + EAA Intra-Workout Juicy Orange -- 3...",
+    "price_usd": 44.99,
+    "url": "https://www.vitacost.com/anthem-shuffle-bcaa-eaa-intra-workout",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/New-Item/Anthem-Shuffle-BCAA-EAA-Intra-Workout-Juicy-Orange-850064588231.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost Women BCAA with Vitamin D3 Folate Biotin & Calc...",
+    "price_usd": 18.95,
+    "url": "https://www.vitacost.com/nutricost-women-bcaa-with-vitamin-d3-folate-biotin-calcium",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Women-BCAA-with-Vitamin-D3-Folate-Biotin-And-Calcium-Peach-Mango-857077008633.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost Women BCAA with Vitamin D3 Folate Biotin & Calc...",
+    "price_usd": 18.95,
+    "url": "https://www.vitacost.com/nutricost-women-bcaa-with-vitamin-d3-folate-biotin-calcium-strawberry-lemonade",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Women-BCAA-with-Vitamin-D3-Folate-Biotin-And-Calcium-Strawberry-Lemonade-857077008640.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition Creatine5000+Collagen+BCAA For Women U...",
+    "price_usd": 19.99,
+    "url": "https://www.vitacost.com/evlution-nutrition-creatine5000-collagen-bcaa-for-women",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-Creatine5000-Collagen-BCAA-For-Women-Unflavored-810167100761.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA Energy Fruit Punch -- 10.16 oz",
+    "price_usd": 21.69,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa-energy-fruit-punch",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA-Energy-Fruit-Punch-818901020023.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA Energy Watermelon -- 30 Servings",
+    "price_usd": 21.29,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa-energy-watermelon",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA-Energy-Watermelon-818901020177.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "RYSE BCAA Focus Country Time Lemonade -- 30 Servings",
+    "price_usd": 25.99,
+    "url": "https://www.vitacost.com/ryse-bcaa-focus",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/RYSE/RYSE-BCAA-Focus-Country-Time-Lemonade-850041914626.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "RYSE BCAA Focus Kool-Aid Topical Punch -- 30 Servings",
+    "price_usd": 24.99,
+    "url": "https://www.vitacost.com/ryse-bcaa-focus-kool-aid-topical-punch",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/RYSE/RYSE-BCAA-Focus-Kool-Aid-Topical-Punch-854050008994.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA Energy Blue Raz -- 30 Servings",
+    "price_usd": 21.99,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa-energy",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA-Energy-Blue-Raz-818901020030.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Sports Branched Chain Amino Acids - Informed Sport Ce...",
+    "price_usd": 14.69,
+    "url": "https://www.vitacost.com/now-sports-branched-chain-amino-acids-informed-sport-certified-120-capsules",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Sports-Branched-Chain-Amino-Acids-Informed-Sport-Certified-733739000538.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NOW Sports Branched Chain Amino Acids - Informed Sport Ce...",
+    "price_usd": 26.39,
+    "url": "https://www.vitacost.com/now-sports-branched-chain-amino-acids-informed-sport-certified",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Sports-Branched-Chain-Amino-Acids-Informed-Sport-Certified-733739000545.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NutraBio BCAA 5000 Fermented Branch Chain Amino Acids Wat...",
+    "price_usd": 32.99,
+    "url": "https://www.vitacost.com/nutrabio-bcaa-5000-fermented-branch-chain-amino-acids",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-BCAA-5000-Fermented-Branch-Chain-Amino-Acids-Watermelon-649908523701.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Bluebonnet Nutrition BCAAs -- 120 Vegetable Capsules",
+    "price_usd": 34,
+    "url": "https://www.vitacost.com/bluebonnet-nutrition-bcaas",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Bluebonnet-Nutrition/Bluebonnet-Nutrition-BCAAs-743715015906.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Sports Branched Chain Amino Acid Powder - Informed Sp...",
+    "price_usd": 27.09,
+    "url": "https://www.vitacost.com/now-sports-branched-chain-amino-acid-powder-informed-sport-certified",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Sports-Branched-Chain-Amino-Acid-Powder-Informed-Sport-Certified-733739002136.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "Life Extension Branched Chain Amino Acids Free Form -- 60...",
+    "price_usd": 15,
+    "url": "https://www.vitacost.com/life-extension-branched-chain-amino-acids-free-form",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Branched-Chain-Amino-Acids-Free-Form-737870125396.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "Gnarly Nutrition BCAAs - NSF Certified for Sport Berry Le...",
+    "price_usd": 36.51,
+    "url": "https://www.vitacost.com/gnarly-nutrition-bcaas-nsf-certified-for-sport",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Gnarly-Nutrition/Gnarly-Nutrition-BCAAs-NSF-Certified-for-Sport-Berry-Lemonade-856285004512.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nature's Craft BCAA -- 120 Tablets",
+    "price_usd": 21.99,
+    "url": "https://www.vitacost.com/natures-craft-bcaa",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Craft/Natures-Craft-BCAA-850034386676.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Cybergenics BCAA Powder Drink Mix Berry -- 30 Servings",
+    "price_usd": 21.99,
+    "url": "https://www.vitacost.com/cybergenics-bcaa-powder-drink-mix",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Cybergenics/Cybergenics-BCAA-Powder-Drink-Mix-Berry-035046137731.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Force Factor BCAA Powder Orange Mango -- 5 g - 7.1 oz",
+    "price_usd": 14.99,
+    "url": "https://www.vitacost.com/force-factor-bcaa-powder-orange-mango",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Force-Factor/Force-Factor-BCAA-Powder-Orange-Mango-810126660695.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Force Factor BCAA Powder Cherry Limeade -- 5 g - 7.1 oz",
+    "price_usd": 14.99,
+    "url": "https://www.vitacost.com/force-factor-bcaa-powder",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Force-Factor/Force-Factor-BCAA-Powder-Cherry-Limeade-810126660688.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Reebok ReeCOVER BCAA - Informed Sport Certified Rocket Mo...",
+    "price_usd": 37.69,
+    "url": "https://www.vitacost.com/reebok-reecover-bcaa-informed-sport-certified",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Reebok/Reebok-ReeCOVER-BCAA-Informed-Sport-Certified-Rocket-Moon-Pop-850064869071.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Reebok ReeCOVER BCAA - Informed Sport Certified Strawberr...",
+    "price_usd": 37.89,
+    "url": "https://www.vitacost.com/reebok-reecover-bcaa-informed-sport-certified-strawberry-lemonade",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Reebok/Reebok-ReeCOVER-BCAA-Informed-Sport-Certified-Strawberry-Lemonade-850064869064.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost BCAA Powder Unflavored -- 90 Servings",
+    "price_usd": 23.99,
+    "url": "https://www.vitacost.com/nutricost-bcaa-powder",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-BCAA-Powder-Unflavored-810014679143.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NutraBio BCAA 5000 Natural Powder Strawberry Lemonade -- ...",
+    "price_usd": 37.99,
+    "url": "https://www.vitacost.com/nutrabio-bcaa-5000-natural-powder",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-BCAA-5000-Natural-Powder-Strawberry-Lemonade-649908211004.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NutraBio BCAA 5000 Natural Powder Raw Unflavored -- 60 Se...",
+    "price_usd": 32.99,
+    "url": "https://www.vitacost.com/nutrabio-bcaa-5000-natural-powder-raw-unflavored",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-BCAA-5000-Natural-Powder-Raw-Unflavored-649908240202.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Klean Athlete Klean BCAA + Peak ATP - NSF Certified for S...",
+    "price_usd": 57.3,
+    "url": "https://www.vitacost.com/klean-athlete-klean-bcaa-peak-atp-nsf-certified-for-sport",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Klean-Athlete/Klean-Athlete-Klean-BCAA-Peak-ATP-NSF-Certified-for-Sport-Natural-Orange-310539977460.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Optimum Nutrition Instantized BCAA 5000 Powder For Muscle...",
+    "price_usd": 39.99,
+    "url": "https://www.vitacost.com/optimum-nutrition-instantized-bcaa-5000-powder-for-muscle-endurance-and-recovery",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Optimum-Nutrition/Optimum-Nutrition-Instantized-BCAA-5000-Powder-For-Muscle-Endurance-and-Recovery-Unflavored-748927025224.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Optimum Nutrition BCAA 1000 Versatile Amino Acids Support...",
+    "price_usd": 43.29,
+    "url": "https://www.vitacost.com/optimum-nutrition-bcaa-1000-versatile-amino-acids-support-400-capsules",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Optimum-Nutrition/Optimum-Nutrition-BCAA-1000-Versatile-Amino-Acids-Support-748927020366.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Optimum Nutrition BCAA 1000 Versatile Amino Acids Support...",
+    "price_usd": 22.99,
+    "url": "https://www.vitacost.com/optimum-nutrition-bcaa-1000-versatile-amino-acids-support",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Optimum-Nutrition/Optimum-Nutrition-BCAA-1000-Versatile-Amino-Acids-Support-748927020373.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Vitacost BCAAs L-Leucine, L-Valine, L-Isoleucine -- 2,400...",
+    "price_usd": 15.99,
+    "url": "https://www.vitacost.com/vitacost-bcaas-l-leucine-l-valine-l-isoleucine",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Vitacost/Vitacost-BCAAs-L-Leucine-L-Valine-L-Isoleucine-835003003143.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Bucked Up Original BCAAs 2:1:1 Strawberry Mojito -- 30 Se...",
+    "price_usd": 32.19,
+    "url": "https://www.vitacost.com/bucked-up-original-bcaas-2-1-1-strawberry-mojito",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Bucked-Up/Bucked-Up-Original-BCAAs-2-1-1-Strawberry-Mojito-811374032340.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Bucked Up Original BCAAs 2:1:1 Apple Jacked -- 30 Servings",
+    "price_usd": 34.99,
+    "url": "https://www.vitacost.com/bucked-up-original-bcaas-2-1-1",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Bucked-Up/Bucked-Up-Original-BCAAs-2-1-1-Apple-Jacked-811374032326.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA Energy Rocket Pop -- 30 Servings",
+    "price_usd": 23.09,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa-energy-rocket-pop",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA-Energy-Rocket-Pop-818901026995.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Sports BCAA Blast - Informed Sport Certified Tropical...",
+    "price_usd": 32.19,
+    "url": "https://www.vitacost.com/now-sports-bcaa-blast-informed-sport-certified",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Sports-BCAA-Blast-Informed-Sport-Certified-Tropical-Punch-733739002167.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Sports BCAA Big 6 Powder - Informed Sports Certified ...",
+    "price_usd": 33.89,
+    "url": "https://www.vitacost.com/now-sports-bcaa-big-6-powder-informed-sports-certified",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Sports-BCAA-Big-6-Powder-Informed-Sports-Certified-Natural-Watermelon-733739002129.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MusclePharm Select BCAA Powder - Informed Sport Certified...",
+    "price_usd": 24.99,
+    "url": "https://www.vitacost.com/musclepharm-select-bcaa-powder-informed-sport-certified-30-servings",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/MusclePharm/MusclePharm-Select-BCAA-Powder-Informed-Sport-Certified-30-Servings-Blue-Raspberry-856737003834.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Snap Supplements BCAAs Muscle Strength & Recovery Peach M...",
+    "price_usd": 22.46,
+    "url": "https://www.vitacost.com/snap-supplements-bcaas-muscle-strength-recovery",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Snap-Supplements/Snap-Supplements-BCAAs-Muscle-Strength-And-Recovery-Peach-Mango-850039253058.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Snap Supplements BCAAs Muscle Strength & Recovery Pomegra...",
+    "price_usd": 22.46,
+    "url": "https://www.vitacost.com/snap-supplements-bcaas-muscle-strength-recovery-pomegranate-watermelon",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Snap-Supplements/Snap-Supplements-BCAAs-Muscle-Strength-And-Recovery-Pomegranate-Watermelon-850039253065.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MusclePharm Select BCAA Powder - Informed Sport Certified...",
+    "price_usd": 24.99,
+    "url": "https://www.vitacost.com/musclepharm-select-bcaa-powder-informed-sport-certified-30-servings-fruit-punch",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/MusclePharm/MusclePharm-Select-BCAA-Powder-Informed-Sport-Certified-30-Servings-Fruit-Punch-856737003827.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Kaged BCAA 2:1:1 - Informed Sport Certified Unflavored --...",
+    "price_usd": 29.99,
+    "url": "https://www.vitacost.com/kaged-bcaa-2-1-1-informed-sport-certified",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Kaged/Kaged-BCAA-2-1-1-Informed-Sport-Certified-Unflavored-850045966416.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ARO-Vitacost Black Series B-Chained - BCAA - L-Leucine, L...",
+    "price_usd": 10.99,
+    "url": "https://www.vitacost.com/aro-vitacost-black-series-b-chained-bcaa-l-leucine-l-isoleucine-l-valine",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/ARO-Vitacost/ARO-Vitacost-Black-Series-B-Chained-BCAA-L-Leucine-L-Isoleucine-L-Valine-844197018604.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Type Zero Clean BCAA Peach Mango -- 11.9 oz",
+    "price_usd": 19.89,
+    "url": "https://www.vitacost.com/type-zero-clean-bcaa",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Type-Zero/Type-Zero-Clean-BCAA-Peach-Mango-850047321015.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Sports BCAA Big 6 - Informed Sport Certified Natural ...",
+    "price_usd": 33.89,
+    "url": "https://www.vitacost.com/now-sports-bcaa-big-6-informed-sport-certified",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Sports-BCAA-Big-6-Informed-Sport-Certified-Natural-Grape-733739001191.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MRM BCAA+G Reload Watermelon -- 11.6 oz",
+    "price_usd": 19.79,
+    "url": "https://www.vitacost.com/mrm-bcaa-g-reload",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/MRM/MRM-BCAA-G-Reload-Watermelon-609492710437.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MRM BCAA+G Reload Island Fusion -- 11.6 oz",
+    "price_usd": 19.79,
+    "url": "https://www.vitacost.com/mrm-bcaa-g-reload-island-fusion",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/MRM/MRM-BCAA-G-Reload-Island-Fusion-609492710451.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MRM BCAA + G Lemonade -- 180 g",
+    "price_usd": 16.47,
+    "url": "https://www.vitacost.com/mrm-bcaa-g",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/MRM/MRM-BCAA-G-Lemonade-609492710260.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Fitcode BCAA Blue Raz -- 30 Servings - 8.5 oz",
+    "price_usd": 20.29,
+    "url": "https://www.vitacost.com/fitcode-bcaa-blue-raz",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Fitcode/Fitcode-BCAA-Blue-Raz-818901028791.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA Lean Energy Cherry Limeade -- 10....",
+    "price_usd": 31.79,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa-lean-energy-cherry-limeade",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA-Lean-Energy-Cherry-Limeade-710051864246.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX Nutrition Aminocore BCAA Blue Raspberry -- 0.69 lbs",
+    "price_usd": 24.99,
+    "url": "https://www.vitacost.com/allmax-nutrition-aminocore-bcaa",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/ALLMAX-Nutrition/ALLMAX-Nutrition-Aminocore-BCAA-Blue-Raspberry-665553228600.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX Nutrition Aminocore BCAA Fruit Punch -- 0.69 lbs",
+    "price_usd": 24.99,
+    "url": "https://www.vitacost.com/allmax-nutrition-aminocore-bcaa-fruit-punch",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/ALLMAX-Nutrition/ALLMAX-Nutrition-Aminocore-BCAA-Fruit-Punch-665553228624.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA Energy + Electrolytes Grape Splas...",
+    "price_usd": 27.99,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa-energy-electrolytes",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA-Energy-Electrolytes-Grape-Splash-818901028845.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Biochem Sports BCAA Peach Mango -- 6.9 oz",
+    "price_usd": 25.94,
+    "url": "https://www.vitacost.com/biochem-sports-bcaa",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Biochem-Sports/Biochem-Sports-BCAA-Peach-Mango-015794022268.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA Energy + Electrolytes Orange Mang...",
+    "price_usd": 27.99,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa-energy-electrolytes-orange-mango",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA-Energy-Electrolytes-Orange-Mango-818901028852.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Pure Power EAA + BCAA - NSF Certified for Sport Orange --...",
+    "price_usd": 50.59,
+    "url": "https://www.vitacost.com/pure-power-eaa-bcaa-nsf-certified-for-sport",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Power/Pure-Power-EAA-BCAA-NSF-Certified-for-Sport-Orange-810094213411.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "VMI Sports Aminogex Ultra BCAA-EAA PEZ - 30 Servings Oran...",
+    "price_usd": 39.99,
+    "url": "https://www.vitacost.com/vmi-sports-aminogex-ultra-bcaa-eaa-pez-30-servings",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/VMI-Sports/VMI-Sports-Aminogex-Ultra-BCAA-EAA-PEZ-30-Servings-Orange-850056537667.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX Nutrition Aminocore BCAA Pineapple Mango -- 30 Ser...",
+    "price_usd": 24.99,
+    "url": "https://www.vitacost.com/allmax-nutrition-aminocore-bcaa-pineapple-mango",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/ALLMAX-Nutrition/ALLMAX-Nutrition-Aminocore-BCAA-Pineapple-Mango-665553228631.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "VMI Sports Aminogex Ultra BCAA-EAA PEZ - 30 Servings Sour...",
+    "price_usd": 39.99,
+    "url": "https://www.vitacost.com/vmi-sports-aminogex-ultra-bcaa-eaa-pez-30-servings-sour-apple",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/VMI-Sports/VMI-Sports-Aminogex-Ultra-BCAA-EAA-PEZ-30-Servings-Sour-Apple-850056537650.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Best Naturals BCAA -- 800 mg - 400 Capsules",
+    "price_usd": 19.99,
+    "url": "https://www.vitacost.com/best-naturals-bcaa-800-mg-400-capsules",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Best-Naturals/Best-Naturals-BCAA-817716011486.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Zhou Muscle BCAA Tropical Punch -- 30 Servings",
+    "price_usd": 24.49,
+    "url": "https://www.vitacost.com/zhou-muscle-bcaa-tropical-punch",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Zhou/Zhou-Muscle-BCAA-Tropical-Punch-669191503631.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Best Naturals BCAA -- 800 mg - 200 Capsules",
+    "price_usd": 14.69,
+    "url": "https://www.vitacost.com/best-naturals-bcaa",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Best-Naturals/Best-Naturals-BCAA-817716015156.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX Nutrition BCAA Unflavored -- 14.1 oz",
+    "price_usd": 24.99,
+    "url": "https://www.vitacost.com/allmax-nutrition-bcaa-unflavored",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/ALLMAX-Nutrition/ALLMAX-Nutrition-BCAA-Unflavored-665553202563.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Xtend The Original BCAA Watermelon Explosion -- 7 g - 30 ...",
+    "price_usd": 27.99,
+    "url": "https://www.vitacost.com/xtend-the-original-bcaa-watermelon-explosion-7-g-30-servings",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Xtend/Xtend-The-Original-BCAA-Watermelon-Explosion-181030000236.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Xtend The Original BCAA Blue Raspberry Ice -- 7 g - 30 Se...",
+    "price_usd": 27.99,
+    "url": "https://www.vitacost.com/xtend-the-original-bcaa-blue-raspberry-ice-7-g-30-servings",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Xtend/Xtend-The-Original-BCAA-Blue-Raspberry-Ice-181030000151.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Pro Supps HydroBCAA + Essentials Blackberry Lemonade -- 3...",
+    "price_usd": 29.99,
+    "url": "https://www.vitacost.com/pro-supps-hydrobcaa-essentials",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Pro-Supps/Pro-Supps-HydroBCAA-Essentials-Blackberry-Lemonade-818253026353.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA5000 Cherry Limeade -- 8.78 oz",
+    "price_usd": 21.19,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa5000",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA5000-Cherry-Limeade-710051864352.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA5000 Unflavored -- 10.58 oz",
+    "price_usd": 27.29,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa5000-unflavored",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA5000-Unflavored-685450087513.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA5000 -- 240 Capsules",
+    "price_usd": 19.15,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa5000-240-capsules",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA5000-852687909141.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition BCAA5000 Blue Raz -- 30 Servings",
+    "price_usd": 19.99,
+    "url": "https://www.vitacost.com/evlution-nutrition-bcaa5000-blue-raz",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-BCAA5000-Blue-Raz-710051864376.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Evlution Nutrition LeanBCAA Fruit Punch -- 30 Servings",
+    "price_usd": 24.59,
+    "url": "https://www.vitacost.com/evlution-nutrition-leanbcaa",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Evlution-Nutrition/Evlution-Nutrition-LeanBCAA-Fruit-Punch-818901029354.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Codeage Liposomal Multi Amino+ BCAA & EAA Sport Supplemen...",
+    "price_usd": 44.99,
+    "url": "https://www.vitacost.com/codeage-liposomal-multi-amino-bcaa-eaa-sport-supplement",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Codeage/Codeage-Liposomal-Multi-Amino-BCAA-And-EAA-Sport-Supplement-850043333876.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Sunwarrior Sport Active Aminos - Essential Amino Acids Po...",
+    "price_usd": 54.97,
+    "url": "https://www.vitacost.com/sunwarrior-sport-active-aminos-essential-amino-acids-powder",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Sunwarrior/Sunwarrior-Sport-Active-Aminos-Essential-Amino-Acids-Powder-Mango-810100920166.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "Bluebonnet Nutrition Amino Acids -- 1000 mg - 90 Caplets",
+    "price_usd": 28.76,
+    "url": "https://www.vitacost.com/bluebonnet-nutrition-amino-acids-1000-mg-90-caplets",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Bluebonnet-Nutrition/Bluebonnet-Nutrition-Amino-Acids-743715015807.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "Swolverine BCAA 2:1:1 + Electrolytes Lemon Lime -- 50 Ser...",
+    "price_usd": 33.99,
+    "url": "https://www.vitacost.com/swolverine-bcaa-2-1-1-electrolytes",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Swolverine/Swolverine-BCAA-2-1-1-Electrolytes-Lemon-Lime-850037327027.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Bluebonnet Nutrition Xtreme Edge BCAA plus Glutamine Powd...",
+    "price_usd": 31.96,
+    "url": "https://www.vitacost.com/bluebonnet-nutrition-xtreme-edge-bcaa-plus-glutamine-powder",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Bluebonnet-Nutrition/Bluebonnet-Nutrition-Xtreme-Edge-BCAA-plus-Glutamine-Powder-Strawberry-Kiwi-743715018709.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Pure Power BCAA + Beta Alanine NSF Certified for Sport Tr...",
+    "price_usd": 49.99,
+    "url": "https://www.vitacost.com/pure-power-bcaa-beta-alanine-nsf-certified-for-sport",
+    "retailer": "Vitacost",
+    "search_term": "bcaa",
+    "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Power/Pure-Power-BCAA-Beta-Alanine-NSF-Certified-for-Sport-Tropical-Punch-810094211875.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Women, BCAA With Hyaluronic Acid, Folate, Biotin, & Calcium, Watermelon, 10.2 oz (288 g)",
+    "price_usd": 18.95,
+    "url": "https://www.iherb.com/pr/nutricost-women-bcaa-with-hyaluronic-acid-folate-biotin-calcium-watermelon-10-2-oz-288-g/135561",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00865/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Women, BCAA With Vitamin D3, Folate, Biotin, & Calcium, Peach Mango, 10.7 oz (300 g)",
+    "price_usd": 18.95,
+    "url": "https://www.iherb.com/pr/nutricost-women-bcaa-with-vitamin-d3-folate-biotin-calcium-peach-mango-10-7-oz-300-g/135554",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00863/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "TransformHQ, BCAA, Raspberry Lemonade, 13.9 oz (389.2 g)",
+    "price_usd": 27.99,
+    "url": "https://www.iherb.com/pr/transformhq-bcaa-raspberry-lemonade-13-9-oz-389-2-g/132138",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/tfm/tfm45184/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA +, Variety Pack, 20 Packets, 0.5 oz (13-14 g) Each",
+    "price_usd": 23.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-variety-pack-20-packets-0-5-oz-13-14-g-each/144498",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57197/u/9.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "RYSE, BCAA / EAA, Tropical Snocone, 13.3 oz (378 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/ryse-bcaa-eaa-tropical-snocone-13-3-oz-378-g/123563",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rys/rys00063/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "RYSE, BCAA / EAA, Strawberry Pineapple, 13 oz (369 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/ryse-bcaa-eaa-strawberry-pineapple-13-oz-369-g/123564",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rys/rys00812/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Women, BCAA, Strawberry Lemonade, 11.6 oz (330 g)",
+    "price_usd": 18.95,
+    "url": "https://www.iherb.com/pr/nutricost-women-bcaa-strawberry-lemonade-12-2-oz-342-g/124158",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00864/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Raspberry Lemonade, 20 Packets, 0.5 oz (14 g) Each",
+    "price_usd": 23.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-raspberry-lemonade-20-packets-0-5-oz-14-g-each/144495",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57196/u/9.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Raspberry Lemonade, 15.4 oz (432 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-raspberry-lemonade-15-4-oz-432-g/141845",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "EVLution Nutrition, Creatine5000® Plus Collagen + BCAA, For Women, Unflavoured, 8.8 oz (249 g)",
+    "price_usd": 12.16,
+    "url": "https://www.iherb.com/pr/evlution-nutrition-creatine5000-plus-collagen-bcaa-for-women-unflavored-8-8-oz-249-g/150741",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/evl/evl10076/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "APLB, Amino Acid Peptide Ampoule Serum, 1.35 fl oz (40 ml)",
+    "price_usd": 5.88,
+    "url": "https://www.iherb.com/pr/aplb-amino-acid-peptide-ampoule-serum-1-35-fl-oz-40-ml/150107",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/apb/apb68414/u/22.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "APLB, Amino Acid Peptide Facial Cream, 1.86 fl oz (55 ml)",
+    "price_usd": 9.8,
+    "url": "https://www.iherb.com/pr/aplb-amino-acid-peptide-facial-cream-1-86-fl-oz-55-ml/150108",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/apb/apb68430/u/18.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NOW Foods, Sports, Amino Complete, Amino Acids, 120 Veg Capsules",
+    "price_usd": 12.24,
+    "url": "https://www.iherb.com/pr/now-foods-sports-amino-complete-amino-acids-120-veg-capsules/102334",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now00011/u/0.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "Bluebonnet Nutrition, Amino Acid, 750 mg, 180 Vegetable Capsules",
+    "price_usd": 48.76,
+    "url": "https://www.iherb.com/pr/bluebonnet-nutrition-amino-acid-750-mg-180-vegetable-capsules/11418",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/blb/blb00014/u/39.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "Carlson, Glycine Powder, Free Form Amino Acid, 3.53 oz (100 g)",
+    "price_usd": 10.63,
+    "url": "https://www.iherb.com/pr/carlson-glycine-powder-free-form-amino-acid-3-53-oz-100-g/14817",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car06835/u/50.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "California Gold Nutrition, BCAA, AjiPure® Branched Chain Amino Acids 2:1:1 with L-Leucine, L-Isoleucine, and L-Valine, 500 mg, 60 Veggie Capsules",
+    "price_usd": 6.15,
+    "url": "https://www.iherb.com/pr/california-gold-nutrition-bcaa-ajipure-branched-chain-amino-acids-2-1-1-with-l-leucine-l-isoleucine-and-l-valine-500-mg-60-veggie-capsules/72314",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01127/u/115.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "JYM Supplement Science, Post JYM, BCAAs + Recovery Matrix, Rainbow Sherbet, 1.3 lbs (600 g)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/jym-supplement-science-post-jym-bcaas-recovery-matrix-rainbow-sherbet-1-3-lbs-600-g/130263",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jym/jym02017/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "JYM Supplement Science, Post JYM, BCAAs + Recovery Matrix, Watermelon, 1.4 lbs (630 g)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/jym-supplement-science-post-jym-bcaas-recovery-matrix-watermelon-1-4-lbs-630-g/130264",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jym/jym02090/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "JYM Supplement Science, Post JYM®, BCAAs + Recovery Matrix, Blue Arctic Freeze, 1.4 lbs (630 g)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/jym-supplement-science-post-jym-bcaas-recovery-matrix-blue-artic-freeze-1-4-lbs-630-g/102279",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jym/jym02141/u/32.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Cutler Nutrition, Generate, Superior BCAA & EAA Infusion, Sour Rainbow Candy, 12.95 oz (367 g)",
+    "price_usd": 29.99,
+    "url": "https://www.iherb.com/pr/cutler-nutrition-generate-superior-bcaa-eaa-infusion-sour-rainbow-candy-12-95-oz-367-g/125673",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cut/cut85924/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "BodyTech, Elite, Ultimate BCAA, Grape, 16.5 oz (468 g)",
+    "price_usd": 32.99,
+    "url": "https://www.iherb.com/pr/bodytech-elite-ultimate-bcaa-grape-16-5-oz-468-g/139916",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdt/bdt02233/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "RYSE, Element Series, BCAA Focus, Kool-Aid, Tropical Punch, 333 g (11.7 oz)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/ryse-element-series-bcaa-focus-kool-aid-tropical-punch-11-7-oz-333-g/123580",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rys/rys00899/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, BCAA, Orange, 8.99 oz (255 g)",
+    "price_usd": 13.77,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-bcaa-orange-8-99-oz-255-g/143335",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul04741/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "EVLution Nutrition, BCAA5000®, Cherry Limeade, 8.78 oz (249 g)",
+    "price_usd": 16.99,
+    "url": "https://www.iherb.com/pr/evlution-nutrition-bcaa5000-cherry-limeade-8-78-oz-249-g/73451",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/evl/evl86435/u/48.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MusclePharm, Select BCAA, Fruit Punch, 9.5 oz (270 g)",
+    "price_usd": 24.99,
+    "url": "https://www.iherb.com/pr/musclepharm-select-bcaa-fruit-punch-9-5-oz-270-g/80649",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msf/msf00382/u/58.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Grape, 2 lb (900 g)",
+    "price_usd": 39.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-grape-2-lb-900-g/135556",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00854/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Green Apple, 13.5 oz (378 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-green-apple-13-5-oz-378-g/141847",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57198/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, Active BCAA, Grape, 13.76 oz (390 g)",
+    "price_usd": 15.8,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-active-bcaa-grape-13-76-oz-390-g/140577",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul00760/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, Active BCAA, Orange, 13.23 oz (375 g)",
+    "price_usd": 21.51,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-active-bcaa-orange-13-23-oz-375-g/140574",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul00756/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Grape, 2.5 lb (1,164 g)",
+    "price_usd": 47.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-grape-2-5-lb-1-164-g/135682",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67110/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Tropical Punch, 13.8 oz (387 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-tropical-punch-13-8-oz-387-g/144493",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57286/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Blackberry Plum, 15.1 oz (423 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-blackberry-plum-15-1-oz-423-g/144491",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57285/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "EVLution Nutrition, BCAA5000®, Unflavoured, 10.58 oz (300 g)",
+    "price_usd": 12.76,
+    "url": "https://www.iherb.com/pr/evlution-nutrition-bcaa5000-unflavored-10-58-oz-300-g/72001",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/evl/evl08751/u/69.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "BodyTech, BCAA + Glutamine, Unflavoured, 7.3 oz (208 g)",
+    "price_usd": 22.99,
+    "url": "https://www.iherb.com/pr/bodytech-bcaa-glutamine-unflavored-7-3-oz-208-g/139894",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdt/bdt02045/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "EVLution Nutrition, BCAA Energy®, Rocket Pop, 9.9 oz (282 g)",
+    "price_usd": 22.33,
+    "url": "https://www.iherb.com/pr/evlution-nutrition-bcaa-energy-rocket-pop-9-9-oz-282-g/116001",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/evl/evl02699/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Fruit Punch, 14 oz (393 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-fruit-punch-14-oz-393-g/141846",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57199/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Raspberry Lemonade, 15.4 oz (432 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-raspberry-lemonade-15-4-oz-432-g/141845",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57201/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, Active BCAA, Fruit Punch, 14.29 oz (405 g)",
+    "price_usd": 21.51,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-active-bcaa-fruit-punch-14-29-oz-405-g/140575",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul00757/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Bucked Up, Racked BCAA, Watermelon, 11 oz (312 g)",
+    "price_usd": 39.99,
+    "url": "https://www.iherb.com/pr/bucked-up-racked-bcaa-watermelon-11-oz-312-g/80626",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bup/bup00715/u/16.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "BodyTech, BCAA + Glutamine, Unflavoured, 14.4 oz (409 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/bodytech-bcaa-glutamine-unflavored-14-4-oz-409-g/139896",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdt/bdt02082/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MuscleSport, BCAA, Revolution, Blueberry Lemonade, 15.9 oz (450 g)",
+    "price_usd": 39.99,
+    "url": "https://www.iherb.com/pr/musclesport-bcaa-revolution-blueberry-lemonade-15-9-oz-450-g/127047",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msl/msl66405/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "RYSE, Element Series, BCAA Focus, Country Time®, Lemonade, 12.7 oz (360 g)",
+    "price_usd": 26.99,
+    "url": "https://www.iherb.com/pr/ryse-element-series-bcaa-focus-country-time-lemonade-12-7-oz-360-g/144092",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rys/rys91462/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MuscleSport, BCAA, Revolution, Strawberry Lemonade, 15.9 oz (450 g)",
+    "price_usd": 39.99,
+    "url": "https://www.iherb.com/pr/musclesport-bcaa-revolution-strawberry-lemonade-15-9-oz-450-g/127049",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msl/msl66173/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, BCAA, Fruit Punch, 8.47 oz (240 g)",
+    "price_usd": 13.77,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-bcaa-fruit-punch-8-47-oz-240-g/140572",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul00732/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Foods, Sports, BCAA Big 6, Natural Grape, 21.16 oz (600 g)",
+    "price_usd": 36.75,
+    "url": "https://www.iherb.com/pr/now-foods-sports-bcaa-big-6-natural-grape-21-16-oz-600-g/74456",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now00119/u/12.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Bucked Up, Racked BCAA, Blood Raz, 11.1 oz (315 g)",
+    "price_usd": 39.99,
+    "url": "https://www.iherb.com/pr/bucked-up-racked-bcaa-blood-raz-11-1-oz-315-g/80617",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bup/bup00716/u/16.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MusclePharm, Select BCAA, Blue Raspberry, 7.9 oz (225 g)",
+    "price_usd": 24.99,
+    "url": "https://www.iherb.com/pr/musclepharm-select-bcaa-blue-raspberry-7-9-oz-225-g/80645",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msf/msf00383/u/44.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Swolverine, BCAA 2:1:1, Pomegranate Acai, 13.76 oz (390 g)",
+    "price_usd": 39.99,
+    "url": "https://www.iherb.com/pr/swolverine-bcaa-2-1-1-pomegranate-acai-13-76-oz-390-g/134147",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/wvl/wvl32773/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Grape, 1.3 lb (600 g)",
+    "price_usd": 27.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-grape-1-3-lb-600-g/135543",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00853/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Peach Rings, 13.5 oz (378 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-peach-rings-13-5-oz-378-g/144492",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57284/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "BodyTech, Instantised BCAA, Fruit Punch, 11.6 oz (328.5 g)",
+    "price_usd": 24.99,
+    "url": "https://www.iherb.com/pr/bodytech-instantized-bcaa-fruit-punch-11-6-oz-328-5-g/139899",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdt/bdt02039/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Zhou Nutrition, Muscle BCAA, Maximum Muscle Formula, Tropical Punch, 11.6 oz (330 g)",
+    "price_usd": 24.49,
+    "url": "https://www.iherb.com/pr/zhou-nutrition-muscle-bcaa-maximum-muscle-formula-tropical-punch-11-6-oz-330-g/111770",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/zho/zho50363/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "California Gold Nutrition, Sport, BCAA Powder, AjiPure®, Branched Chain Amino Acids with L-Leucine, L-Isoleucine and L-Valine, 1 lb (454 g)",
+    "price_usd": 29.63,
+    "url": "https://www.iherb.com/pr/california-gold-nutrition-sport-bcaa-powder-ajipure-branched-chain-amino-acids-with-l-leucine-l-isoleucine-and-l-valine-1-lb-454-g/71025",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01058/u/87.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "RYSE, BCAA/EAA, Cherry Limeade, 13.1 oz (372 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/ryse-bcaa-eaa-cherry-limeade-13-1-oz-372-g/124303",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rys/rys00062/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Peach Mango, 14 oz (393 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-peach-mango-14-oz-393-g/141844",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57200/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, Active BCAA, Peach Mango, 13.76 oz (390 g)",
+    "price_usd": 21.51,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-active-bcaa-peach-mango-13-76-oz-390-g/140578",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul00761/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, Sport®, 7G BCAA, Strawberry Kiwi Splash, 12.2 oz (345 g)",
+    "price_usd": 21.99,
+    "url": "https://www.iherb.com/pr/xtend-sport-7g-bcaa-strawberry-kiwi-splash-12-2-oz-345-g/98547",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci11335/u/44.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "EVLution Nutrition, BCAA Energy Plus Electrolytes, Grape Splash, 12.2 oz (345 g)",
+    "price_usd": 18.23,
+    "url": "https://www.iherb.com/pr/evlution-nutrition-bcaa-energy-plus-electrolytes-grape-splash-12-2-oz-345-g/124013",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/evl/evl02884/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, Active BCAA, Golden Gummy, 13.23 oz (375 g)",
+    "price_usd": 21.51,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-active-bcaa-golden-gummy-13-23-oz-375-g/140579",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul00762/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Metabolic Nutrition, BCAA, Unflavoured, 3.52 oz (100 g)",
+    "price_usd": 14.99,
+    "url": "https://www.iherb.com/pr/metabolic-nutrition-bcaa-unflavored-3-52-oz-100-g/129714",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mtb/mtb11601/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Orange Mango, 17.1 oz (480 g)",
+    "price_usd": 27.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-orange-mango-17-1-oz-480-g/136765",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67600/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Metabolic Nutrition, BCAA, Unflavoured, 10.58 oz (300 g)",
+    "price_usd": 25.99,
+    "url": "https://www.iherb.com/pr/metabolic-nutrition-bcaa-unflavored-10-58-oz-300-g/129928",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mtb/mtb13601/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutrex Research, BCAA 6000™ Recovery, Green Apple, 8.36 oz (237 g)",
+    "price_usd": 20.65,
+    "url": "https://www.iherb.com/pr/nutrex-research-bcaa-6000-recovery-green-apple-8-36-oz-237-g/120781",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrx/nrx75580/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, Active BCAA, Watermelon, 14.29 oz (405 g)",
+    "price_usd": 15.89,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-active-bcaa-watermelon-14-29-oz-405-g/140576",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul00759/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MRM Nutrition, Reload BCAA+G, Post-Workout Recovery, Island Fusion, 11.6 oz (330 g)",
+    "price_usd": 19.79,
+    "url": "https://www.iherb.com/pr/mrm-nutrition-reload-bcaa-g-post-workout-recovery-island-fusion-11-6-oz-330-g/58729",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mrm/mrm71045/u/53.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Strawberry Kiwi, 9.6 oz (270 g)",
+    "price_usd": 17.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-strawberry-kiwi-9-6-oz-270-g/135545",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00858/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Raspberry Lemonade, 2.2 lb (990 g)",
+    "price_usd": 39.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-raspberry-lemonade-2-2-lb-990-g/131995",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00801/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Ronnie Coleman, Vital Edition, BCAA XS, Cotton Candy, 6.67 oz (189 g)",
+    "price_usd": 13.75,
+    "url": "https://www.iherb.com/pr/ronnie-coleman-vital-edition-bcaa-xs-cotton-candy-6-67-oz-189-g/131132",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rcb/rcb00712/u/16.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MusclePharm, EAA, Recovery + BCAA, Watermelon Crush, 12.9 oz (366 g)",
+    "price_usd": 29.99,
+    "url": "https://www.iherb.com/pr/musclepharm-eaa-recovery-bcaa-watermelon-crush-12-9-oz-366-g/84717",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msf/msf00871/u/20.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Rule One Proteins, Active BCAA, Blue Raspberry, 13.76 oz (390 g)",
+    "price_usd": 15.83,
+    "url": "https://www.iherb.com/pr/rule-one-proteins-active-bcaa-blue-raspberry-13-76-oz-390-g/140573",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rul/rul00755/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Bucked Up, Original BCAA 2:1:1, Blue Pineapple, 11.1 oz (315 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/bucked-up-original-bcaa-2-1-1-blue-pineapple-11-1-oz-315-g/140650",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bup/bup03715/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Pineapple, 1.1 lb (492 g)",
+    "price_usd": 27.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-pineapple-1-1-lb-492-g/135567",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00856/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutrex Research, BCAA 6000, Recovery, Fruit Punch, 8.15 oz (231 g)",
+    "price_usd": 20.65,
+    "url": "https://www.iherb.com/pr/nutrex-research-bcaa-6000-recovery-fruit-punch-8-15-oz-231-g/120780",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrx/nrx00772/u/30.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Unflavoured, 6.3 oz (180 g)",
+    "price_usd": 13.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-unflavored-6-3-oz-180-g/131993",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00819/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NutraBio, L-Citrulline, Free Form Amino Acid, 5.3 oz (150 g)",
+    "price_usd": 21.99,
+    "url": "https://www.iherb.com/pr/nutrabio-l-citrulline-free-form-amino-acid-5-3-oz-150-g/123377",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb23600/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Watermelon, 2.5 lb (1,116 g)",
+    "price_usd": 47.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-watermelon-2-5-lb-1-116-g/135642",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67111/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Raspberry Lemonade, 11.8 oz (330 g)",
+    "price_usd": 17.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-raspberry-lemonade-11-8-oz-330-g/135536",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00824/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, White Grape, 2.28 lbs (1,035 g)",
+    "price_usd": 55.51,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-white-grape-2-28-lbs-1-035-g/119971",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22875/u/26.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, Sport®, 7G BCAA, Blue Raspberry Ice, 12.2 oz (345 g)",
+    "price_usd": 21.99,
+    "url": "https://www.iherb.com/pr/xtend-sport-7g-bcaa-blue-raspberry-ice-12-2-oz-345-g/98546",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci11336/u/44.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "DaVinci Laboratories, Maxi-BCAA, Powdered Drink Mix, Raspberry Lemonade, 13.23 oz (375 g)",
+    "price_usd": 58.82,
+    "url": "https://www.iherb.com/pr/davinci-laboratories-maxi-bcaa-powdered-drink-mix-raspberry-lemonade-13-23-oz-375-g/128074",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/dvi/dvi01372/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Foods, Sports, BCAA Big 6, Watermelon, 21.16 oz (600 g)",
+    "price_usd": 31.24,
+    "url": "https://www.iherb.com/pr/now-foods-sports-bcaa-big-6-watermelon-21-16-oz-600-g/73262",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now00212/u/12.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "BPI Sports, Best EAA, Essential Amino Acids, Lemon Berry, 13.6 oz (387 g)",
+    "price_usd": 32.99,
+    "url": "https://www.iherb.com/pr/bpi-sports-best-eaa-essential-amino-acids-lemon-berry-13-6-oz-387-g/142882",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bpi/bpi03691/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NutraBio, BCAA 5000, Dragonfruit Sweets, 1.03 lb (465 g)",
+    "price_usd": 32.99,
+    "url": "https://www.iherb.com/pr/nutrabio-bcaa-5000-dragonfruit-candy-1-03-lb-465-g/123371",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26950/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Ronnie Coleman, Vital Edition, BCAA XS, Guava Nectarine, 6.67 oz (189 g)",
+    "price_usd": 13.75,
+    "url": "https://www.iherb.com/pr/ronnie-coleman-vital-edition-bcaa-xs-guava-nectarine-6-67-oz-189-g/129735",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rcb/rcb00846/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Force Factor, BCAA Powder, Orange Mango, 7.1 oz (201 g)",
+    "price_usd": 12.99,
+    "url": "https://www.iherb.com/pr/force-factor-bcaa-powder-orange-mango-7-1-oz-201-g/139721",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/foa/foa66069/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Bucked Up, Original BCAA 2:1:1, Strawberry Mojito, 10.99 oz (311.57 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/bucked-up-original-bcaa-2-1-1-strawberry-mojito-10-99-oz-311-57-g/140649",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bup/bup03234/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MRM Nutrition, BCAA+G, Muscle Recovery, Lemonade, 6.35 oz (180 g)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/mrm-nutrition-bcaa-g-muscle-recovery-lemonade-6-35-oz-180-g/4653",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mrm/mrm71026/u/57.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, White Grape, 0.31 kg (315 g)",
+    "price_usd": 27.74,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-white-grape-0-76-lbs-345-g/97206",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Pineapple, 8.8 oz (246 g)",
+    "price_usd": 17.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-pineapple-8-8-oz-246-g/135518",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Unflavoured, 12.9 oz (360 g)",
+    "price_usd": 19.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-unflavored-12-9-oz-360-g/135521",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Strawberry Kiwi Splash, 2.58 lb (1.17 kg)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-strawberry-kiwi-splash-2-58-lb-1-17-kg/59425",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00032/u/42.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Ronnie Coleman, Vital Edition, BCAA XS, Lemonade, 6.67 oz (189 g)",
+    "price_usd": 13.75,
+    "url": "https://www.iherb.com/pr/ronnie-coleman-vital-edition-bcaa-xs-lemonade-6-67-oz-189-g/129738",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rcb/rcb00844/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Pineapple, 1.6 lb (738 g)",
+    "price_usd": 39.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-pineapple-1-6-lb-738-g/135581",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs00857/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "VMI Sports, Aminogex, EAAs/BCAAs, Patriot Pop, 18.52 oz (525 g)",
+    "price_usd": 39.99,
+    "url": "https://www.iherb.com/pr/vmi-sports-aminogex-eaas-bcaas-patriot-pop-18-52-oz-525-g/126996",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vmi/vmi72873/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Ronnie Coleman, Vital Edition, BCAA XS, Tropical Punch, 6.67 oz (189 g)",
+    "price_usd": 13.75,
+    "url": "https://www.iherb.com/pr/ronnie-coleman-vital-edition-bcaa-xs-tropical-punch-6-67-oz-189-g/129737",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rcb/rcb00710/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ProSupps, Hydro BCAA + Essentials, Blackberry Lemonade, 13.75 oz (390 g)",
+    "price_usd": 29.99,
+    "url": "https://www.iherb.com/pr/prosupps-hydro-bcaa-essentials-blackberry-lemonade-13-75-oz-390-g/79608",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pss/pss02635/u/53.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Snap Supplements, BCAAs, Pomegranate Watermelon, 9.77 oz (277 g)",
+    "price_usd": 25.46,
+    "url": "https://www.iherb.com/pr/snap-supplements-bcaas-pomegranate-watermelon-9-77-oz-277-g/131104",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/npp/npp25306/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Knockout Fruit Punch, 2.58 lb (1.17 kg)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-knockout-fruit-punch-2-58-lb-1-17-kg/59794",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci02029/u/60.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, Essentials, BCAA, Unflavoured, 14.11 oz (400 g)",
+    "price_usd": 24.99,
+    "url": "https://www.iherb.com/pr/allmax-essentials-bcaa-14-11-oz-400-g/67663",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx20256/u/65.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, Watermelon, 1.2 lb (540 g)",
+    "price_usd": 24.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-watermelon-1-2-lb-540-g/139394",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57150/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "fitcode, BCAA, Blue Raspberry, 8.5 oz (240 g)",
+    "price_usd": 11.41,
+    "url": "https://www.iherb.com/pr/fitcode-bcaa-blue-raz-8-5-oz-240-g/120950",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/fcd/fcd02879/u/29.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Ronnie Coleman, Vital Edition, BCAA XS, Green Apple, 6.67 oz (189 g)",
+    "price_usd": 9.79,
+    "url": "https://www.iherb.com/pr/ronnie-coleman-vital-edition-bcaa-xs-green-apple-6-67-oz-189-g/129739",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rcb/rcb00845/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Gaspari Nutrition, Aminolast®, Recovery & Endurance BCAA Superfuel, Fruit Punch, 14.8 oz (420 g)",
+    "price_usd": 26.99,
+    "url": "https://www.iherb.com/pr/gaspari-nutrition-aminolast-recovery-endurance-bcaa-superfuel-fruit-punch-14-8-oz-420-g/66889",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gsn/gsn02033/u/43.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutrex Research, BCAA 6000, Recovery, Watermelon, 7.94 oz (225 g)",
+    "price_usd": 20.65,
+    "url": "https://www.iherb.com/pr/nutrex-research-bcaa-6000-recovery-watermelon-7-94-oz-225-g/120782",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrx/nrx00771/u/30.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Tropic Thunder, 2.68 lbs (1.22 kg)",
+    "price_usd": 64.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-tropic-thunder-2-68-lbs-1-22-kg/85395",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci02068/u/54.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "fitcode, BCAA 1,000, 60 Capsules",
+    "price_usd": 4.88,
+    "url": "https://www.iherb.com/pr/fitcode-bcaa-1-000-60-capsules/128629",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA, 60 Capsules (500 mg per Capsule)",
+    "price_usd": 7.5,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-60-capsules-500-mg-per-capsule/145430",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57209/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Blue Raspberry, 0.34 kg (345 g)",
+    "price_usd": 27.76,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-blue-raspberry-0-76-lbs-345-g/98036",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22860/u/36.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Swolverine, BCAA 2:1:1, Pineapple Passionfruit, 10.05 oz (285 g)",
+    "price_usd": 39.99,
+    "url": "https://www.iherb.com/pr/swolverine-bcaa-2-1-1-pineapple-passionfruit-10-05-oz-285-g/134145",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/wvl/wvl32774/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Green Apple, 20 Packets, 0.5 oz (13 g) Each",
+    "price_usd": 23.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-green-apple-20-packets-0-5-oz-13-g-each/144497",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57193/u/9.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Primaforce, BCAA, Pineapple Mango, 16.1 oz (450 g)",
+    "price_usd": 26.99,
+    "url": "https://www.iherb.com/pr/primaforce-bcaa-pineapple-mango-16-1-oz-450-g/136374",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pmf/pmf02120/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Fruit Punch, 0.31 kg (315 g)",
+    "price_usd": 19.61,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-fruit-punch-0-76-lbs-345-g/97203",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22862/u/50.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Knockout Fruit Punch, 13.8 oz (390 g)",
+    "price_usd": 27.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-knockout-fruit-punch-13-8-oz-390-g/59795",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci02028/u/43.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Fruit Punch, 2.1 lbs (945 g)",
+    "price_usd": 55.51,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-fruit-punch-2-1-lbs-945-g/119973",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22873/u/26.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Pineapple Mango, 0.76 lbs (345 g)",
+    "price_usd": 23.6,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-pineapple-mango-0-76-lbs-345-g/97204",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22863/u/57.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NutraBio, BCAA 5000, Strawberry Lemonade Bomb, 1.05 lb (477 g)",
+    "price_usd": 32.99,
+    "url": "https://www.iherb.com/pr/nutrabio-bcaa-5000-strawberry-lemon-bomb-1-05-lb-477-g/123369",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb27040/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MRM Nutrition, BCAA+G 6000, 150 Capsules",
+    "price_usd": 23.07,
+    "url": "https://www.iherb.com/pr/mrm-nutrition-bcaa-g-6000-150-capsules/12581",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mrm/mrm71028/u/46.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Snap Supplements, BCAAs, Peach Mango, 9.77 oz (277 g)",
+    "price_usd": 25.46,
+    "url": "https://www.iherb.com/pr/snap-supplements-bcaas-peach-mango-9-77-oz-277-g/131103",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/npp/npp25305/u/16.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Nutricost, Performance, BCAA+, Fruit Punch, 20 Packets, 0.5 oz (13 g) Each",
+    "price_usd": 23.95,
+    "url": "https://www.iherb.com/pr/nutricost-performance-bcaa-fruit-punch-20-packets-0-5-oz-13-g-each/144496",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57194/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NutraBio, BCAA 5000, Strawberry Lemonade, 1 lb (452 g)",
+    "price_usd": 37.99,
+    "url": "https://www.iherb.com/pr/nutrabio-bcaa-5000-strawberry-lemonade-1-lb-452-g/123374",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb21100/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Watermelon, 0.76 lbs (345 g)",
+    "price_usd": 27.75,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-watermelon-0-76-lbs-345-g/97208",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22866/u/48.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Pink Lemonade, 0.31 kg (315 g)",
+    "price_usd": 27.74,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-pink-lemonade-0-76-lbs-345-g/119969",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22865/u/28.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Optimum Nutrition, Instantised BCAA 5000 Powder, Unflavoured, 12.16 oz (345 g)",
+    "price_usd": 41.13,
+    "url": "https://www.iherb.com/pr/optimum-nutrition-instantized-bcaa-5000-powder-unflavored-12-16-oz-345-g/35513",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02522/u/40.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Primaforce, BCAA, Watermelon, 16.5 oz (462 g)",
+    "price_usd": 26.99,
+    "url": "https://www.iherb.com/pr/primaforce-bcaa-watermelon-16-5-oz-462-g/136372",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pmf/pmf02045/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Lemon-Lime Squeeze, 2.68 lbs (1.22 kg)",
+    "price_usd": 64.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-lemon-lime-squeeze-2-68-lbs-1-22-kg/59367",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00022/u/43.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NutraBio, BCAA 5000, Kiwi Strawberry, 0.88 lb (401 g)",
+    "price_usd": 32.99,
+    "url": "https://www.iherb.com/pr/nutrabio-bcaa-5000-kiwi-strawberry-0-88-lb-401-g/123372",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb52660/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Glacial Grape, 13.8 oz (390 g)",
+    "price_usd": 27.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-glacial-grape-13-8-oz-390-g/71625",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00017/u/29.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "EVLution Nutrition, BCAA5000®, 240 Capsules",
+    "price_usd": 15.75,
+    "url": "https://www.iherb.com/pr/evlution-nutrition-bcaa5000-240-capsules/72060",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/evl/evl90914/u/61.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Pink Lemonade, 2.1 lbs (945 g)",
+    "price_usd": 55.51,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-pink-lemonade-2-1-lbs-945-g/119975",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22876/u/11.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ProSupps, Hydro BCAA +Essentials, Watermelon, 14.6 oz (414 g)",
+    "price_usd": 29.99,
+    "url": "https://www.iherb.com/pr/prosupps-hydro-bcaa-essentials-watermelon-14-6-oz-414-g/104966",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Sweet Tea, 345 g (0.76 lbs)",
+    "price_usd": 27.76,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-sweet-tea-0-76-lbs-345-g/97209",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22868/u/56.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Glacial Grape, 2.58 lbs (1.17 kg)",
+    "price_usd": 64.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-glacial-grape-2-58-lbs-1-17-kg/85412",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00180/u/52.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Metabolic Nutrition, Tri-Pep, Branched Chain Amino Acid, Grape, 14.1 oz, (400 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/metabolic-nutrition-tri-pep-branch-chain-amino-acid-grape-14-1-oz-400-g/75338",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NutraBio, BCAA 5000, Watermelon, 0.38 kg (380 g)",
+    "price_usd": 32.99,
+    "url": "https://www.iherb.com/pr/nutrabio-bcaa-5000-watermelon-0-84-lb-380-g/123373",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb52370/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Strawberry Kiwi Splash, 13.8 oz (390 g)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-strawberry-kiwi-splash-13-8-oz-390-g/25414",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00031/u/29.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Pineapple Mango, 2.28 lbs (1,035 g)",
+    "price_usd": 55.51,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-pineapple-mango-2-28-lbs-1-035-g/119970",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22874/u/26.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Blue Raspberry Ice, 2.68 lb (1.22 kg)",
+    "price_usd": 64.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-blue-raspberry-ice-2-68-lb-1-22-kg/71624",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00016/u/61.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Blue Raspberry, 2.1 lbs (945 g)",
+    "price_usd": 55.51,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-blue-raspberry-2-1-lbs-945-g/119972",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22871/u/28.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Metabolic Maintenance, Amino Acid Base Powder, 7 oz (200 g)",
+    "price_usd": 56,
+    "url": "https://www.iherb.com/pr/metabolic-maintenance-amino-acid-base-powder-7-oz-200-g/137736",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00110/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NutraBio, BCAA 5000, Blue Raspberry, 0.98 lb (444 g)",
+    "price_usd": 32.99,
+    "url": "https://www.iherb.com/pr/nutrabio-bcaa-5000-blue-raspberry-0-98-lb-444-g/123370",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26840/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Watermelon Explosion, 2.48 lb (1.13 kg)",
+    "price_usd": 64.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-watermelon-explosion-2-48-lb-1-13-kg/58324",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00024/u/45.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "21st Century, Daily Amino Acid, 120 Tablets",
+    "price_usd": 9.99,
+    "url": "https://www.iherb.com/pr/21st-century-daily-amino-acid-120-tablets/43874",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22557/u/39.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Sweet Tea, 2.1 lbs (945 g)",
+    "price_usd": 55.51,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-sweet-tea-2-28-lbs-1035-g/119974",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amx/amx22879/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Lemon-Lime Squeeze, 14.3 oz (405 g)",
+    "price_usd": 27.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-lemon-lime-squeeze-14-3-oz-405-g/57502",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00021/u/51.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Havasu Nutrition, L-Arginine + Citrulline Amino Acid, 120 Capsules",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/havasu-nutrition-l-arginine-citrulline-amino-acid-120-capsules/137138",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "ALLMAX, AMINOCORE™ BCAA, Watermelon, 2.1 lbs (945 g)",
+    "price_usd": 55.51,
+    "url": "https://www.iherb.com/pr/allmax-aminocore-bcaa-watermelon-2-28-lbs-1035-g/119976",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "ProSupps, Hydro BCAA +Essentials, Blue Raspberry, 14.6 oz (414 g)",
+    "price_usd": 29.99,
+    "url": "https://www.iherb.com/pr/prosupps-hydro-bcaa-essentials-blue-raspberry-14-6-oz-414-g/104965",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pss/pss81108/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Metabolic Nutrition, Tri-Pep, Branched Chain Amino Acid, Green Apple, 14.1 oz (400 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/metabolic-nutrition-tri-pep-branch-chain-amino-acid-green-apple-14-1-oz-400-g/129944",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mtb/mtb71997/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NOW Foods, Sports, Branched-Chain Amino Acid Powder, 12 oz (340 g)",
+    "price_usd": 24.98,
+    "url": "https://www.iherb.com/pr/now-foods-sports-branched-chain-amino-acid-powder-12-oz-340-g/3321",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now00213/u/50.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Mango Madness, 2.68 lb (1.22 kg)",
+    "price_usd": 64.99,
+    "url": "https://www.iherb.com/pr/xtend-the-original-7g-bcaa-mango-madness-2-68-lb-1-22-kg/33632",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00029/u/48.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "EVLution Nutrition, BCAA1000, 60 Veggie Capsules",
+    "price_usd": 4.46,
+    "url": "https://www.iherb.com/pr/evlution-nutrition-bcaa1000-60-veggie-capsules/117387",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/evl/evl02800/u/8.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "MRM Nutrition, Reload BCAA+G, Post-Workout Recovery, Watermelon, 11.6 oz (330 g)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/mrm-nutrition-reload-bcaa-g-post-workout-recovery-watermelon-11-6-oz-330-g/36571",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mrm/mrm71043/u/83.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Metabolic Nutrition, Tri-Pep, Branched Chain Amino Acid, Lemonade, 14.1 oz (400 g)",
+    "price_usd": 34.99,
+    "url": "https://www.iherb.com/pr/metabolic-nutrition-tri-pep-branch-chain-amino-acid-lemonade-14-1-oz-400-g/75336",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Watermelon Explosion, 13.2 oz (375 g)",
+    "price_usd": 27.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-watermelon-explosion-13-2-oz-375-g/58648",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00023/u/60.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Italian Blood Orange, 2.82 lb (1.28 kg)",
+    "price_usd": 64.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-italian-blood-orange-2-82-lb-1-28-kg/75075",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci02166/u/51.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Italian Blood Orange, 15 oz (426 g)",
+    "price_usd": 27.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-italian-blood-orange-15-oz-426-g/72421",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci02165/u/69.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Mango Madness, 14.3 oz (405 g)",
+    "price_usd": 27.99,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-mango-madness-14-3-oz-405-g/57800",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci00028/u/69.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "XTEND, 7G BCAA, Air Heads Cherry, 14 oz (399 g)",
+    "price_usd": null,
+    "url": "https://www.iherb.com/pr/xtend-7g-bcaa-air-heads-cherry-14-oz-399-g/117337",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sci/sci12847/u/24.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Super Nutrition, Perfect Plant Protein with Pea Protein Isolate, BCAAs, Cranberry Seed, Chia Seed, and Sacha Inchi Seed, Chocolate, 2.2 lbs (1,020 g)",
+    "price_usd": 56.23,
+    "url": "https://www.iherb.com/pr/super-nutrition-perfect-plant-protein-with-pea-protein-isolate-bcaas-cranberry-seed-chia-seed-and-sacha-inchi-seed-chocolate-2-2-lbs-1-020-g/129582",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/spn/spn02343/u/9.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "California Gold Nutrition, Total Amino with Vitamin B-6, and 20 Amino Acid Blend, 240 Veggie Capsules",
+    "price_usd": 18.62,
+    "url": "https://www.iherb.com/pr/california-gold-nutrition-total-amino-with-vitamin-b-6-and-20-amino-acid-blend-240-veggie-capsules/97001",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NOW Foods, Sports, Amino Complete, Amino Acids, 120 Veg Capsules",
+    "price_usd": 12.24,
+    "url": "https://www.iherb.com/pr/now-foods-sports-amino-complete-amino-acids-120-veg-capsules/102334",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "NOW Foods, Sports, Egg White Protein with BCAAs, Protein Powder, Unflavoured, 1.2 lbs (544 g)",
+    "price_usd": 33.07,
+    "url": "https://www.iherb.com/pr/now-foods-sports-egg-white-protein-with-bcaas-protein-powder-unflavored-1-2-lbs-544-g/547",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now02040/u/72.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Foods, Sports, Egg White Protein With BCAAs, Creamy Chocolate, 1.5 lbs (680 g)",
+    "price_usd": 44.1,
+    "url": "https://www.iherb.com/pr/now-foods-sports-egg-white-protein-with-bcaas-creamy-chocolate-1-5-lbs-680-g/37068",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now02044/u/37.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Foods, Sports, Egg White Protein Powder With BCAAs, Unflavoured, 5 lbs (2,268 g)",
+    "price_usd": 102.94,
+    "url": "https://www.iherb.com/pr/now-foods-sports-egg-white-protein-powder-with-bcaas-unflavored-5-lbs-2-268-g/84450",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now02043/u/50.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "KAL, Amino Acid Complex 1000, 100 Tablets",
+    "price_usd": 26.99,
+    "url": "https://www.iherb.com/pr/kal-amino-acid-complex-1000-100-tablets/19522",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cal/cal51610/u/115.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "California Gold Nutrition, Instantised BCAA Powder with L-Leucine, L-Isoleucine, and L-Valine, Unflavoured, 2 lb (907 g)",
+    "price_usd": 26.84,
+    "url": "https://www.iherb.com/pr/california-gold-nutrition-instantized-bcaa-powder-with-l-leucine-l-isoleucine-and-l-valine-unflavored-2-lb-907-g/104993",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/lkn/lkn01968/u/59.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "NOW Foods, Sports, Branched-Chain Amino Acids, 120 Veg Capsules",
+    "price_usd": 15.91,
+    "url": "https://www.iherb.com/pr/now-foods-sports-branched-chain-amino-acids-120-veg-capsules/4453",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now00053/u/26.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  },
+  {
+    "product_name": "Kaged, BCAA 2:1:1, Unflavoured, 14.2 oz (403.2 g)",
+    "price_usd": 29.99,
+    "url": "https://www.iherb.com/pr/kaged-bcaa-2-1-1-unflavored-14-2-oz-403-2-g/126650",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/kgd/kgd96641/u/18.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "Super Nutrition, Perfect Plant Protein with Pea Protein Isolate, BCAAs, Cranberry Seed, Chia Seed, and Sacha Inchi Seed, Vanilla, 2.2 lbs (1,020 g)",
+    "price_usd": 31.22,
+    "url": "https://www.iherb.com/pr/super-nutrition-perfect-plant-protein-with-pea-protein-isolate-bcaas-cranberry-seed-chia-seed-and-sacha-inchi-seed-vanilla-2-2-lbs-1-020-g/129580",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/spn/spn02342/u/9.jpg",
+    "original_source": "input",
+    "inference_score": 100
+  },
+  {
+    "product_name": "GAT, L-Carnitine, Amino Acid, Mixed Berry, 3,000 mg, 16 oz (473 ml)",
+    "price_usd": 19.99,
+    "url": "https://www.iherb.com/pr/gat-l-carnitine-amino-acid-mixed-berry-3-000-mg-16-oz-473-ml/90274",
+    "retailer": "iHerb",
+    "search_term": "bcaa",
+    "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gat/gat02284/u/22.jpg",
+    "original_source": "input",
+    "inference_score": 80
+  }
+]
