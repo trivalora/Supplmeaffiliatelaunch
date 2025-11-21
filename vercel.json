@@ -5,8 +5,8 @@
   "outputDirectory": "build",
 
   "functions": {
-  "api/**/*.ts": { "runtime": "nodejs22.2.1" },
-  "api/**/*.js": { "runtime": "nodejs22.2.1" }
+  "api/**/*.ts": { "runtime": "nodejs20.19.25" },
+  "api/**/*.js": { "runtime": "nodejs20.19.25" }
 },
 
   "rewrites": [
