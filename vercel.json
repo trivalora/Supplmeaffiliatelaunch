@@ -5,9 +5,10 @@
   "outputDirectory": "build",
 
   "functions": {
-  "api/**/*.ts": { "runtime": "nodejs20.19.25" },
-  "api/**/*.js": { "runtime": "nodejs20.19.25" }
-},
+    "api/**/*.{ts,js}": {
+      "runtime": "nodejs20.x"
+    }
+  },
 
   "rewrites": [
     {
