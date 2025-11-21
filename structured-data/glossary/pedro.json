@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "PEDro Scale",
+    "description": "Quality assessment tool rating methodological quality of RCTs in physiotherapy",
+    "url": "https://suppl.me/glossary/pedro",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "PEDro Scale",
+    "description": "Quality assessment tool rating methodological quality of RCTs in physiotherapy",
+    "url": "https://suppl.me/glossary/pedro"
+  }
+]

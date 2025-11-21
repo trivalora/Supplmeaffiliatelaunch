@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Micronized",
+    "description": "Process reducing particles to microscopic size to improve dissolution and absorption",
+    "url": "https://suppl.me/glossary/micronized",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Micronized",
+    "description": "Process reducing particles to microscopic size to improve dissolution and absorption",
+    "url": "https://suppl.me/glossary/micronized"
+  }
+]

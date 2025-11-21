@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "HbA1c (Hemoglobin A1c)",
+    "description": "Blood test measuring average blood glucose levels over the past 2-3 months",
+    "url": "https://suppl.me/glossary/hba1c",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "HbA1c"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "HbA1c (Hemoglobin A1c)",
+    "description": "Blood test measuring average blood glucose levels over the past 2-3 months",
+    "url": "https://suppl.me/glossary/hba1c"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Sulforaphane",
+    "description": "Enhanced meta-analysis review of sulforaphane with updated research data",
+    "category": "Phytochemicals"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Sulforaphane",
+    "description": "Enhanced meta-analysis review of sulforaphane with updated research data",
+    "about": "Sulforaphane",
+    "url": "https://suppl.me/sulforaphane"
+  }
+]

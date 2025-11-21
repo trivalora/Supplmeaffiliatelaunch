@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Collagen",
+    "description": "Most abundant protein providing structural support to tissues",
+    "url": "https://suppl.me/glossary/collagen",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Collagen",
+    "description": "Most abundant protein providing structural support to tissues",
+    "url": "https://suppl.me/glossary/collagen"
+  }
+]

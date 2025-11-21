@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Glycine",
+    "description": "Simplest amino acid, major component of collagen and inhibitory neurotransmitter",
+    "url": "https://suppl.me/glossary/glycine",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Glycine",
+    "description": "Simplest amino acid, major component of collagen and inhibitory neurotransmitter",
+    "url": "https://suppl.me/glossary/glycine"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Pre-eclampsia",
+    "description": "Serious pregnancy complication with high blood pressure and organ damage",
+    "url": "https://suppl.me/glossary/preeclampsia",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Pre-eclampsia",
+    "description": "Serious pregnancy complication with high blood pressure and organ damage",
+    "url": "https://suppl.me/glossary/preeclampsia"
+  }
+]

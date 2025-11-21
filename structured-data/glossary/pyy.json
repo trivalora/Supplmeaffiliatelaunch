@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Peptide YY",
+    "description": "Satiety hormone that reduces appetite and food consumption",
+    "url": "https://suppl.me/glossary/pyy",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "PYY"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Peptide YY",
+    "description": "Satiety hormone that reduces appetite and food consumption",
+    "url": "https://suppl.me/glossary/pyy"
+  }
+]

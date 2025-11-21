@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Omega-3",
+    "description": "Enhanced meta-analysis review of omega-3 with updated research data",
+    "category": "Omega-3 Fatty Acids"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Omega-3",
+    "description": "Enhanced meta-analysis review of omega-3 with updated research data",
+    "about": "Omega-3",
+    "url": "https://suppl.me/omega3"
+  }
+]

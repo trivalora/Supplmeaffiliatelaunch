@@ -1,0 +1,18 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Ulcerative Colitis",
+    "description": "A chronic inflammatory bowel disease causing inflammation and ulcers in the colon and rectum",
+    "url": "https://suppl.me/glossary/ulcerativecolitis",
+    "inDefinedTermSet": "https://suppl.me/glossary",
+    "alternateName": "UC"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Ulcerative Colitis",
+    "description": "A chronic inflammatory bowel disease causing inflammation and ulcers in the colon and rectum",
+    "url": "https://suppl.me/glossary/ulcerativecolitis"
+  }
+]

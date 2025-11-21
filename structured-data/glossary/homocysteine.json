@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Homocysteine",
+    "description": "An amino acid associated with cardiovascular disease risk when elevated",
+    "url": "https://suppl.me/glossary/homocysteine",
+    "inDefinedTermSet": "https://suppl.me/glossary"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Homocysteine",
+    "description": "An amino acid associated with cardiovascular disease risk when elevated",
+    "url": "https://suppl.me/glossary/homocysteine"
+  }
+]

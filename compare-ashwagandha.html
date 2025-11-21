@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ashwagandha Comparison</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Arial, sans-serif; padding: 20px }
+      table { border-collapse: collapse; width: 100% }
+      th, td { padding: 8px 10px; border: 1px solid #ddd }
+      th { cursor: pointer; background: #f7f7f7 }
+      img { max-width: 60px; height: auto }
+      .controls { margin-bottom: 12px }
+    </style>
+  </head>
+  <body>
+    <h1>Ashwagandha — Comparison</h1>
+    <div class="controls">
+      <label>Filter: <input id="filter" placeholder="brand or title" /></label>
+      <label>Min price: <input id="minPrice" type="number" step="0.01" /></label>
+      <label>Max price: <input id="maxPrice" type="number" step="0.01" /></label>
+    </div>
+
+    <table id="tbl">
+      <thead>
+        <tr>
+          <th data-key="site">Site</th>
+          <th data-key="title">Title</th>
+          <th data-key="price">Price</th>
+          <th data-key="price_per_item">Price / item</th>
+          <th data-key="price_per_mg">Price / mg</th>
+          <th data-key="package_raw">Package</th>
+          <th>Image</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script>
+      async function load() {
+        const resp = await fetch('/ashwagandha-joined.json')
+        const j = await resp.json()
+        return j.items || []
+      }
+
+      function render(items) {
+        const tb = document.querySelector('#tbl tbody')
+        tb.innerHTML = ''
+        for (const it of items) {
+          const tr = document.createElement('tr')
+          tr.innerHTML = `
+            <td>${it.site}</td>
+            <td>${(it.title||'').replace(/\n/g,' ').trim()}</td>
+              <td>${it.price!=null?(new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(it.price)):''}</td>
+              <td>${it.price_per_item!=null?(new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(it.price_per_item)):''}</td>
+              <td>${it.price_per_unit!=null? ( (it.price_per_unit_label? it.price_per_unit_label + ' ' : '') + new Intl.NumberFormat('en-US',{style:'decimal',maximumFractionDigits:6}).format(it.price_per_unit) ) : (it.price_per_mg!=null? ('$/'+ 'mg ' + it.price_per_mg) : '')}</td>
+            <td>${it.package_raw||''}</td>
+            <td>${it.images?'<img src="'+it.images+'" />':''}</td>
+            <td>${it.url?'<a href="'+it.url+'" target="_blank">link</a>':''}</td>
+          `
+          tb.appendChild(tr)
+        }
+      }
+
+      (async ()=>{
+        let items = await load()
+        // Ensure numeric fields are numbers and format-ready
+        items = items.map(it=>{
+          const copy = {...it}
+          // price and price_per_item and price_per_serving are already dollars in the pipeline
+          return copy
+        })
+
+        render(items)
+
+        // Filtering
+        document.getElementById('filter').addEventListener('input', (e)=>{
+          const q = e.target.value.toLowerCase()
+          render(items.filter(it=> (it.title||'').toLowerCase().includes(q) || (it.site||'').toLowerCase().includes(q) || (it.package_raw||'').toLowerCase().includes(q)))
+        })
+
+        document.getElementById('minPrice').addEventListener('input',(e)=>{
+          const v = parseFloat(e.target.value)
+          const maxV = parseFloat(document.getElementById('maxPrice').value)
+          render(items.filter(it=>{ if (isNaN(v) && isNaN(maxV)) return true; const p = it.price!=null? (it.price/100): null; if (isNaN(p)) return false; if (!isNaN(v) && p < v) return false; if (!isNaN(maxV) && p > maxV) return false; return true }))
+        })
+        document.getElementById('maxPrice').addEventListener('input',(e)=>{ document.getElementById('minPrice').dispatchEvent(new Event('input')) })
+
+        // Sorting
+        document.querySelectorAll('#tbl thead th[data-key]').forEach(th=>{
+          th.addEventListener('click', ()=>{
+            const key = th.getAttribute('data-key')
+            items.sort((a,b)=>{
+              const av = a[key]==null?Infinity:a[key]
+              const bv = b[key]==null?Infinity:b[key]
+              if (typeof av === 'string') return av.localeCompare(bv)
+              return (av - bv)
+            })
+            render(items)
+          })
+        })
+      })()
+    </script>
+  </body>
+</html>
