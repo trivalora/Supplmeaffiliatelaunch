@@ -4,27 +4,15 @@
   "installCommand": "npm ci",
   "outputDirectory": "build",
 
-"functions": {
-  "api/**/*.ts": { "runtime": "vercel/node@22.x" },
-  "api/**/*.js": { "runtime": "vercel/node@22.x" }
-},
+  "functions": {
+    "api/**/*.ts": { "runtime": "vercel/node@22.x" },
+    "api/**/*.js": { "runtime": "vercel/node@22.x" }
+  },
 
   "rewrites": [
-    {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
-    },
-    {
-      "source": "/robots.txt",
-      "destination": "/robots.txt"
-    },
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
