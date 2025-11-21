@@ -6,7 +6,7 @@
 
   "functions": {
     "api/**/*.{ts,js}": {
-      "runtime": "nodejs24.1.0"
+      "runtime": "nodejs22.x"
     }
   },
 
