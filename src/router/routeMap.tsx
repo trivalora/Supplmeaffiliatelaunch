@@ -1,5 +1,5 @@
 import { lazy, ReactElement } from 'react';
-import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, STATIC_ROUTES, RouteConfig, PageKey } from '../routes.config';
+import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, RouteConfig, PageKey } from '../routes.config';
 import { PAGE_PATHS, getPathForKey } from '../utils/routePaths';
 import { SEOHead, pageSEO } from '../components/SEOHead';
 import { useNavigate } from 'react-router-dom';
@@ -83,6 +83,27 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     }
   });
 
+  // Product Comparison page (manually defined like landing)
+  const ProductComparisonLazy = lazy(() => import('../components/ProductComparison').then(m => ({ default: m.ProductComparison })));
+  const ProductComparisonWrapper = () => {
+    const navigateRR = useNavigate();
+    const onNavigate = (target: PageKey) => {
+      const path = getPathForKey(target);
+      navigateRR(path);
+    };
+    return <ProductComparisonLazy onNavigate={onNavigate} />;
+  };
+  routes.push({
+    path: '/product-comparison',
+    pageKey: 'product-comparison',
+    element: <ProductComparisonWrapper />,
+    seo: {
+      title: 'Compare Supplement Prices',
+      description: 'Compare supplement prices across multiple retailers to find the best deals',
+      canonicalPath: '/product-comparison',
+    }
+  });
+
   // Helper to push route entries
   const pushRoute = (route: RouteConfig, pageKey: PageKey, pathOverride?: string) => {
     // Determine path: prefer PAGE_PATHS mapping else fallback to derived
@@ -157,9 +178,6 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     const key = r.key as PageKey;
     pushRoute(r, key);
   });
-
-  // Static routes (about, contact, product-comparison, etc.)
-  STATIC_ROUTES.forEach(r => pushRoute(r, r.key as PageKey));
 
   return routes;
 }
