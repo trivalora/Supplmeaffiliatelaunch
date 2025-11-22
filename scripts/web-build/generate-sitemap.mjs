@@ -20,7 +20,14 @@ async function loadConfigs() {
 
 function buildUrl(baseUrl, p) {
   if (!p || p === '/') return baseUrl;
-  return `${baseUrl}${p.startsWith('/') ? p : '/' + p}`;
+  const url = `${baseUrl}${p.startsWith('/') ? p : '/' + p}`;
+  // XML-escape special characters in URLs
+  return url
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
 
 /**
