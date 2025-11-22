@@ -5,6 +5,7 @@ import { Footer } from './Footer';
 import { PageKey } from '../routes.config';
 import { SEOHead } from './SEOHead';
 import { SearchResults } from './SearchResults';
+import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb7.png";
 
@@ -58,6 +59,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
   const [error, setError] = useState<string | null>(null);
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
+  const tooltipHandlers = useAffiliateTooltip();
 
   // Load supplement data on mount or when initialSupplement changes
   useEffect(() => {
@@ -494,20 +496,27 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                               <tr key={idx} className={`border-b-2 border-secondary/30 hover:bg-tertiary/70 transition-colors ${idx % 2 === 0 ? 'bg-background' : 'bg-tertiary/20'}`}>
                                 <td className="p-4">
                                   <div className="w-20 h-20 bg-tertiary rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
-                                    {(product.product_image_url || lowestRetailerPrice?.image_url) ? (
-                                      <img 
-                                        src={product.product_image_url || lowestRetailerPrice?.image_url}
-                                        alt={product.dsld_product_name || 'Product'}
-                                        className="w-full h-full object-cover"
-                                        onError={(e) => {
-                                          const target = e.target as HTMLImageElement;
-                                          target.style.display = 'none';
-                                          target.parentElement!.textContent = product.brand?.charAt(0) || '?';
-                                        }}
-                                      />
-                                    ) : (
-                                      product.brand?.charAt(0) || '?'
-                                    )}
+                                    {(() => {
+                                      // Try multiple image sources in priority order
+                                      const imageUrl = product.product_image_url || 
+                                                      lowestRetailerPrice?.image_url || 
+                                                      product.retailer_prices?.find((r: any) => r.image_url)?.image_url;
+                                      
+                                      return imageUrl ? (
+                                        <img 
+                                          key={`${product.id}-${imageUrl}`}
+                                          src={imageUrl}
+                                          alt={product.dsld_product_name || 'Product'}
+                                          className="w-full h-full object-contain p-1"
+                                          onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.src = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2248%22 fill=%22%23888%22%3E' + encodeURIComponent(product.brand?.charAt(0) || '?') + '%3C/text%3E%3C/svg%3E';
+                                          }}
+                                        />
+                                      ) : (
+                                        product.brand?.charAt(0) || '?'
+                                      );
+                                    })()}
                                   </div>
                                 </td>
                                 <td className="p-4">
@@ -522,17 +531,30 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                   <div className="text-sm text-muted-foreground">{product.brand}</div>
                                 </td>
                                 <td className="p-4">
-                                  <div className="space-y-1">
-                                    {product.dosage && (
-                                      <div className="text-sm">
-                                        <span className="font-medium">Dosage:</span> {product.dosage}
+                                  <div className="space-y-1 text-sm text-muted-foreground">
+                                    {product.amount_per_serving && product.unit ? (
+                                      <div>
+                                        <span className="font-medium text-foreground">Dosage:</span> {product.amount_per_serving} {product.unit}
                                       </div>
-                                    )}
-                                    {product.net_contents && (
-                                      <div className="text-sm">
-                                        <span className="font-medium">Contents:</span> {product.net_contents}
+                                    ) : null}
+                                    {product.net_contents ? (
+                                      <div>
+                                        <span className="font-medium text-foreground">Contents:</span> {product.net_contents}
                                       </div>
-                                    )}
+                                    ) : null}
+                                    {product.multipack && Array.isArray(product.multipack) && product.multipack.length > 0 ? (
+                                      <div>
+                                        <span className="font-medium text-foreground">Pack:</span> {product.multipack.join(', ')}
+                                      </div>
+                                    ) : null}
+                                    {product.flavor && Array.isArray(product.flavor) && product.flavor.length > 0 ? (
+                                      <div>
+                                        <span className="font-medium text-foreground">Flavor:</span> {product.flavor.join(', ')}
+                                      </div>
+                                    ) : null}
+                                    {!product.amount_per_serving && !product.net_contents && (!product.multipack || product.multipack.length === 0) && (!product.flavor || product.flavor.length === 0) ? (
+                                      <div className="text-xs italic">Details not available</div>
+                                    ) : null}
                                   </div>
                                 </td>
                               <td className="p-4">
@@ -562,6 +584,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            {...tooltipHandlers}
                                           >
                                             <div className="h-5 w-5">
                                               <IHerbBadgeLogoRgb />
@@ -573,27 +596,33 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
-                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            {...tooltipHandlers}
                                           >
                                             <img src="/logos/gnc.svg" alt="GNC" className="h-5 w-auto" />
+                                            <span className="text-sm font-medium">Buy Now</span>
                                           </a>
                                         ) : r.retailer.toLowerCase() === 'walmart' ? (
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
-                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            {...tooltipHandlers}
                                           >
                                             <img src="/logos/walmart.svg" alt="Walmart" className="h-5 w-auto" />
+                                            <span className="text-sm font-medium">Buy Now</span>
                                           </a>
                                         ) : r.retailer.toLowerCase() === 'bodybuilding.com' ? (
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
-                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            {...tooltipHandlers}
                                           >
                                             <img src="/logos/bodybuilding.png" alt="Bodybuilding.com" className="h-5 w-auto" />
+                                            <span className="text-sm font-medium">Buy Now</span>
                                           </a>
                                         ) : r.retailer.toLowerCase() === 'vitacost' ? (
                                           <a
@@ -601,8 +630,10 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            {...tooltipHandlers}
                                           >
-                                            <span className="text-sm font-medium">Vitacost</span>
+                                            <img src="/logos/vitacost.svg" alt="Vitacost" className="h-5 w-auto" />
+                                            <span className="text-sm font-medium">Buy Now</span>
                                           </a>
                                         ) : r.retailer.toLowerCase() === 'amazon' ? (
                                           <a
@@ -610,8 +641,20 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-black hover:opacity-90 transition-opacity"
+                                            {...tooltipHandlers}
                                           >
                                             <img src={imgAmazonButton} alt="Amazon" className="h-4 w-auto" />
+                                          </a>
+                                        ) : r.retailer.toLowerCase() === 'supplement warehouse' ? (
+                                          <a
+                                            href={addUTMParameters(r.product_url)}
+                                            target="_blank"
+                                            rel="nofollow noopener noreferrer"
+                                            className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                            {...tooltipHandlers}
+                                          >
+                                            <img src="/logos/supplement-warehouse.png" alt="Supplement Warehouse" className="h-5 w-auto object-contain" />
+                                            <span className="text-sm font-medium">Buy Now</span>
                                           </a>
                                         ) : (
                                           <a
@@ -619,6 +662,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-center w-full px-3 py-2 rounded-lg bg-primary text-white hover:opacity-90 transition-opacity text-sm font-medium"
+                                            {...tooltipHandlers}
                                           >
                                             Buy Now
                                           </a>
@@ -655,7 +699,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
           </div>
         </main>
 
-        <Footer onNavigate={onNavigate} />
+        <AffiliateTooltip />
       </div>
     </>
   );
