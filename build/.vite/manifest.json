@@ -11,7 +11,7 @@
     ]
   },
   "index.html": {
-    "file": "assets/index-C0KfpapO.js",
+    "file": "assets/index-C2rx42CF.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -140,7 +140,7 @@
     "src": "src/assets/fa234369467197e9b56f625112dd7dc3646b9390.png"
   },
   "src/components/LandingPage.tsx": {
-    "file": "assets/LandingPage-BwQX0m9X.js",
+    "file": "assets/LandingPage-BlbIb3Gx.js",
     "name": "LandingPage",
     "src": "src/components/LandingPage.tsx",
     "isDynamicEntry": true,

@@ -253,9 +253,6 @@ export function RouterLayout() {
     '/glossary/high-blood-sugar': '/glossary/hyperglycemia',
     '/glossary/elevated-glucose': '/glossary/hyperglycemia',
     
-    // hypertensive
-    '/glossary/hypertension': '/glossary/hypertensive',
-    
     // ibs
     '/glossary/irritable-bowel-syndrome': '/glossary/ibs',
     '/glossary/ibs-d': '/glossary/ibs',
@@ -542,9 +539,7 @@ export function RouterLayout() {
     // Special character edge cases (malformed slugs from glossaryAutolink parsing)
     // These are artifacts and should redirect to their proper pages
     '/glossary/tnf-': '/glossary/tnfalpha',
-    '/glossary/-carotene': '/glossary/betacarotene',
-    '/glossary/8-ohdg': '/glossary/8ohdg',
-    '/glossary/8-hydroxy-2': '/glossary/8ohdg'
+    '/glossary/-carotene': '/glossary/betacarotene'
   };
 
   // Determine current route for SEO injection

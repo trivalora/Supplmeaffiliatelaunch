@@ -229,6 +229,25 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
     setActiveDietaryFilters(newFilters);
   }
 
+  // Calculate filter counts based on current supplement's products (not global counts)
+  const calculateFilterCounts = () => {
+    if (!currentData) return {};
+    
+    const counts: Record<string, number> = {};
+    
+    // Count how many products in the current supplement have each filter
+    for (const product of currentData) {
+      const productFilters = product.filters || [];
+      for (const filterKey of productFilters) {
+        counts[filterKey] = (counts[filterKey] || 0) + 1;
+      }
+    }
+    
+    return counts;
+  };
+  
+  const currentFilterCounts = calculateFilterCounts();
+  
   // Priority filters to show first
   const priorityFilters = ['vegan', 'vegetarian', 'gluten_free', 'dairy_free', 'non_gmo', 'organic'];
   const otherFilterKeys = Object.keys(filters).filter(key => !priorityFilters.includes(key));
@@ -361,10 +380,11 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                       </label>
                       <div className="flex flex-wrap gap-2">
                         {orderedFilterKeys
-                          .filter(key => filters[key] && filters[key].count > 0)
+                          .filter(key => currentFilterCounts[key] && currentFilterCounts[key] > 0)
                           .map(key => {
                             const filter = filters[key];
-                            const displayName = filter.display_name || key.replace(/_/g, ' ');
+                            const displayName = filter?.display_name || key.replace(/_/g, ' ');
+                            const count = currentFilterCounts[key];
                             const isActive = activeDietaryFilters.has(key);
                             
                             return (
@@ -382,7 +402,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                   onChange={() => toggleDietaryFilter(key)}
                                   className="sr-only"
                                 />
-                                {displayName} ({filter.count})
+                                {displayName} ({count})
                               </label>
                             );
                           })}
@@ -429,7 +449,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                           {filteredProducts.map((product, idx) => {
                             const lowestRetailerPrice = product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit)[0];
                             return (
-                              <tr key={idx} className="border-b border-secondary/10 hover:bg-tertiary/50 transition-colors">
+                              <tr key={idx} className={`border-b-2 border-secondary/30 hover:bg-tertiary/70 transition-colors ${idx % 2 === 0 ? 'bg-background' : 'bg-tertiary/20'}`}>
                                 <td className="p-4">
                                   <div className="w-20 h-20 bg-tertiary rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
                                     {(product.product_image_url || lowestRetailerPrice?.image_url) ? (
