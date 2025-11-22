@@ -73,7 +73,9 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
         const data = JSON.parse(fs.readFileSync(path.join(supplementsDir, file), 'utf-8'));
         if (data.products && Array.isArray(data.products)) {
           data.products.forEach(product => {
-            paths.add(`/${supplementName}/product/${product.id}`);
+            // URL-encode product IDs to handle spaces and special characters
+            const encodedId = encodeURIComponent(product.id);
+            paths.add(`/${supplementName}/product/${encodedId}`);
           });
         }
       } catch (err) {
