@@ -5,8 +5,7 @@
   "outputDirectory": "build",
 
   "functions": {
-    "api/**/*.ts": { "runtime": "vercel/node@22.2.1" },
-    "api/**/*.js": { "runtime": "vercel/node@22.2.1" }
+    "api/**/*.ts": { "runtime": "vercel/node@22.2.1" }
   },
 
   "rewrites": [
