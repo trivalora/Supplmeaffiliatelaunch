@@ -4,11 +4,28 @@
   "installCommand": "npm ci",
   "outputDirectory": "build",
 
+  "headers": [
+    {
+      "source": "/manifest.webmanifest",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/manifest+json"
+        }
+      ]
+    }
+  ],
+
   "rewrites": [
-    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/robots.txt", "destination": "/robots.txt" },
-    { "source": "/manifest.webmanifest", "destination": "/manifest.webmanifest" },
-    { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ],
+
+  "routes": [
+    { "src": "/sitemap.xml" },
+    { "src": "/robots.txt" },
+    { "src": "/manifest.webmanifest" },
+    { "src": "/favicon.svg" },
+    { "src": "/assets/(.*)" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
