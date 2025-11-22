@@ -17,15 +17,7 @@
   ],
 
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" }
-  ],
-
-  "routes": [
-    { "src": "/sitemap.xml" },
-    { "src": "/robots.txt" },
-    { "src": "/manifest.webmanifest" },
-    { "src": "/favicon.svg" },
-    { "src": "/assets/(.*)" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
