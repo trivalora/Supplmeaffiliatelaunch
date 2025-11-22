@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { PageKey } from '../routes.config';
 import { SEOHead } from './SEOHead';
+import { SearchResults } from './SearchResults';
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb7.png";
 
@@ -55,6 +56,8 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
   const [displayedCount, setDisplayedCount] = useState(25);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [showSearchDropdown, setShowSearchDropdown] = useState(false);
+  const searchContainerRef = useRef<HTMLDivElement>(null);
 
   // Load supplement data on mount or when initialSupplement changes
   useEffect(() => {
@@ -67,6 +70,23 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
   useEffect(() => {
     setDisplayedCount(25);
   }, [searchQuery, sortBy]);
+
+  // Close search dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (searchContainerRef.current && !searchContainerRef.current.contains(event.target as Node)) {
+        setShowSearchDropdown(false);
+      }
+    };
+
+    if (showSearchDropdown) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showSearchDropdown]);
 
   // Also watch for URL param changes (for legacy /product-comparison?supplement= support)
   useEffect(() => {
@@ -194,10 +214,6 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
         return (b.best_price_per_unit || 0) - (a.best_price_per_unit || 0);
       case 'retailers_desc':
         return (b.retailer_prices?.length || 0) - (a.retailer_prices?.length || 0);
-      case 'savings_desc':
-        const aSavings = calculateSavings(a);
-        const bSavings = calculateSavings(b);
-        return bSavings - aSavings;
       default:
         return 0;
     }
@@ -330,15 +346,31 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                     Compare All {currentSupplement.replace(/-/g, ' ')} Products
                   </h1>
 
-                  {/* Search Bar */}
-                  <div className="mb-4">
+                  {/* Search Bar with Dropdown */}
+                  <div className="mb-4 relative" ref={searchContainerRef}>
                     <input
                       type="text"
                       value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      placeholder="Search products..."
+                      onChange={(e) => {
+                        setSearchQuery(e.target.value);
+                        setShowSearchDropdown(true);
+                      }}
+                      onFocus={() => setShowSearchDropdown(true)}
+                      placeholder="Search products or browse other comparisons..."
                       className="w-full px-4 py-3 border border-secondary/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-base"
                     />
+                    {showSearchDropdown && searchQuery && (
+                      <div className="absolute top-full left-0 right-0 mt-2 z-50">
+                        <SearchResults
+                          query={searchQuery}
+                          onNavigate={(page) => {
+                            onNavigate(page);
+                            setShowSearchDropdown(false);
+                            setSearchQuery('');
+                          }}
+                        />
+                      </div>
+                    )}
                   </div>
 
                   {/* Dietary Filters */}
@@ -415,7 +447,6 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                       <option value="price_asc">Price: Low to High</option>
                       <option value="price_desc">Price: High to Low</option>
                       <option value="retailers_desc">Most Retailers</option>
-                      <option value="savings_desc">Highest Savings</option>
                     </select>
                   </div>
                 </div>

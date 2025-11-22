@@ -95,7 +95,7 @@
     ]
   },
   "index.html": {
-    "file": "assets/index-pAsz74jB.js",
+    "file": "assets/index-Bxfuhk9l.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -793,7 +793,7 @@
     ]
   },
   "src/components/ProductComparison.tsx": {
-    "file": "assets/ProductComparison-DxyJ_seb.js",
+    "file": "assets/ProductComparison-DvaHlup_.js",
     "name": "ProductComparison",
     "src": "src/components/ProductComparison.tsx",
     "isDynamicEntry": true,
@@ -806,7 +806,7 @@
     ]
   },
   "src/components/ProductComparisonWrapper.tsx": {
-    "file": "assets/ProductComparisonWrapper-DuBslOJN.js",
+    "file": "assets/ProductComparisonWrapper-CflTmQYm.js",
     "name": "ProductComparisonWrapper",
     "src": "src/components/ProductComparisonWrapper.tsx",
     "isDynamicEntry": true,
