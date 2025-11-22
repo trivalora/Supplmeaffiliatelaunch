@@ -479,14 +479,10 @@ function AffiliateButtonsLP({ amazonLink, iherbLink }: { amazonLink: string; ihe
       </a>
       <button
         data-button-height="md"
-        className="flex-1 px-4 rounded-lg cursor-not-allowed relative group text-center bg-tertiary text-muted-foreground border border-secondary opacity-70 text-sm flex items-center justify-center whitespace-nowrap"
-        onClick={(e) => e.stopPropagation()}
-        disabled
+        className="flex-1 px-4 rounded-lg transition-opacity hover:opacity-90 text-center bg-tertiary border border-secondary text-sm flex items-center justify-center whitespace-nowrap font-medium"
+        onClick={() => onNavigate('productComparison' as PageKey)}
       >
         Compare All
-        <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-foreground text-background px-3 py-1 rounded text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-          Coming Soon
-        </span>
       </button>
     </div>
   );

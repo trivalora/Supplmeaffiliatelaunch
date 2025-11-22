@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Header } from './Header';
-import { Footer } from './Footer';
 import { PageKey } from '../routes.config';
 import { SEOHead } from './SEOHead';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
@@ -209,17 +208,18 @@ export function ProductPage({ onNavigate }: ProductPageProps) {
 
             {/* Product Header */}
             <div className="bg-card rounded-xl shadow-sm border border-secondary/20 overflow-hidden mb-6">
-              <div className="grid md:grid-cols-[120px_1fr] gap-6 p-8">
-                {/* Product Image - Reduced to 1/3 size */}
-                <div className="flex items-center justify-center bg-tertiary rounded-lg p-3">
+              <div className="flex gap-6 p-8">
+                {/* Product Image - Small thumbnail on left */}
+                <div className="flex-shrink-0 w-[120px] h-[120px] bg-tertiary rounded-lg p-2 flex items-center justify-center">
                   {productImage ? (
                     <img
                       src={productImage}
                       alt={product.dsld_product_name}
-                      className="w-full h-auto max-h-[120px] object-contain"
+                      className="w-full h-full object-contain"
+                      loading="eager"
                     />
                   ) : (
-                    <div className="w-full h-[120px] flex items-center justify-center text-4xl text-muted-foreground">
+                    <div className="text-4xl text-muted-foreground">
                       {product.brand.charAt(0)}
                     </div>
                   )}

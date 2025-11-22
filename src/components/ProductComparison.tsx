@@ -375,14 +375,14 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                     )}
                   </div>
 
-                  {/* Dietary Filters */}
+                  {/* Filters Section */}
                   {Object.keys(filters).length > 0 && (
-                    <div className="pt-4 border-t border-secondary/20">
+                    <div className="pt-4 border-t border-secondary/20 space-y-4">
                       <div className="flex items-center justify-between mb-3">
-                        <label className="block text-sm font-medium text-muted-foreground">
-                          Dietary & Attributes
+                        <label className="block text-sm font-medium text-foreground">
+                          Product Filters
                           {activeDietaryFilters.size > 0 && (
-                            <span className="ml-2 text-xs text-primary">
+                            <span className="ml-2 text-xs text-primary font-normal">
                               ({activeDietaryFilters.size} active)
                             </span>
                           )}
@@ -396,41 +396,92 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                           </button>
                         )}
                       </div>
-                      <div className="flex flex-wrap gap-2">
-                        {orderedFilterKeys
-                          .map(key => {
-                            const filter = filters[key];
-                            const displayName = filter?.display_name || key.replace(/_/g, ' ');
-                            const count = currentFilterCounts[key] || 0;
-                            const isActive = activeDietaryFilters.has(key);
-                            
-                            // Hide filters with 0 count unless they're currently active
-                            if (count === 0 && !isActive) return null;
-                            
-                            return (
-                              <label
-                                key={key}
-                                className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full cursor-pointer transition-all text-sm
-                                  ${isActive 
-                                    ? 'bg-primary text-white' 
-                                    : count > 0 
-                                      ? 'bg-tertiary border border-secondary/30 hover:border-primary hover:bg-secondary'
-                                      : 'bg-gray-100 border border-gray-300 opacity-50 cursor-not-allowed'
-                                  }`}
-                              >
-                                <input
-                                  type="checkbox"
-                                  checked={isActive}
-                                  onChange={() => toggleDietaryFilter(key)}
-                                  className="sr-only"
-                                  disabled={count === 0 && !isActive}
-                                />
-                                {displayName} ({count})
-                              </label>
-                            );
-                          })
-                          .filter(Boolean)}
-                      </div>
+
+                      {/* Dietary Preferences */}
+                      {(() => {
+                        const dietaryKeys = orderedFilterKeys.filter(key => 
+                          ['vegan', 'vegetarian', 'gluten_free', 'non_gmo', 'organic', 'kosher', 'halal', 'dairy_free', 'soy_free', 'sugar_free'].includes(key)
+                        );
+                        if (dietaryKeys.length === 0) return null;
+                        return (
+                          <div>
+                            <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">Dietary Preferences</h4>
+                            <div className="flex flex-wrap gap-2">
+                              {dietaryKeys.map(key => {
+                                const filter = filters[key];
+                                const displayName = filter?.display_name || key.replace(/_/g, ' ');
+                                const count = currentFilterCounts[key] || 0;
+                                const isActive = activeDietaryFilters.has(key);
+                                if (count === 0 && !isActive) return null;
+                                return (
+                                  <label
+                                    key={key}
+                                    className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full cursor-pointer transition-all text-sm
+                                      ${isActive 
+                                        ? 'bg-green-600 text-white shadow-md' 
+                                        : count > 0 
+                                          ? 'bg-green-50 border border-green-300 text-green-700 hover:border-green-500 hover:bg-green-100'
+                                          : 'bg-gray-100 border border-gray-300 opacity-50 cursor-not-allowed'
+                                      }`}
+                                  >
+                                    <input
+                                      type="checkbox"
+                                      checked={isActive}
+                                      onChange={() => toggleDietaryFilter(key)}
+                                      className="sr-only"
+                                      disabled={count === 0 && !isActive}
+                                    />
+                                    {displayName} ({count})
+                                  </label>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        );
+                      })()}
+
+                      {/* Formulation & Other Attributes */}
+                      {(() => {
+                        const otherKeys = orderedFilterKeys.filter(key => 
+                          !['vegan', 'vegetarian', 'gluten_free', 'non_gmo', 'organic', 'kosher', 'halal', 'dairy_free', 'soy_free', 'sugar_free'].includes(key)
+                        );
+                        if (otherKeys.length === 0) return null;
+                        return (
+                          <div>
+                            <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">Formulation & Attributes</h4>
+                            <div className="flex flex-wrap gap-2">
+                              {otherKeys.map(key => {
+                                const filter = filters[key];
+                                const displayName = filter?.display_name || key.replace(/_/g, ' ');
+                                const count = currentFilterCounts[key] || 0;
+                                const isActive = activeDietaryFilters.has(key);
+                                if (count === 0 && !isActive) return null;
+                                return (
+                                  <label
+                                    key={key}
+                                    className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full cursor-pointer transition-all text-sm
+                                      ${isActive 
+                                        ? 'bg-primary text-white shadow-md' 
+                                        : count > 0 
+                                          ? 'bg-tertiary border border-secondary/30 hover:border-primary hover:bg-secondary'
+                                          : 'bg-gray-100 border border-gray-300 opacity-50 cursor-not-allowed'
+                                      }`}
+                                  >
+                                    <input
+                                      type="checkbox"
+                                      checked={isActive}
+                                      onChange={() => toggleDietaryFilter(key)}
+                                      className="sr-only"
+                                      disabled={count === 0 && !isActive}
+                                    />
+                                    {displayName} ({count})
+                                  </label>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        );
+                      })()}
                     </div>
                   )}
                 </div>
@@ -506,12 +557,26 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                                       lowestRetailerPrice?.image_url || 
                                                       product.retailer_prices?.find((r: any) => r.image_url)?.image_url;
                                       
+                                      // Build optimized srcset for product images
+                                      const buildSrcSet = (url: string) => {
+                                        if (url.includes('m.media.amazon.com')) {
+                                          // Amazon images with multiple sizes
+                                          const base = url.split('._')[0];
+                                          return `${base}._AC_SX240_QL70_FMwebp_.jpg 240w, ${base}._AC_SX360_QL70_FMwebp_.jpg 360w, ${base}._AC_SX480_QL70_FMwebp_.jpg 480w`;
+                                        }
+                                        return undefined;
+                                      };
+                                      
                                       return imageUrl ? (
                                         <img 
                                           key={`${product.id}-${imageUrl}`}
                                           src={imageUrl}
+                                          srcSet={buildSrcSet(imageUrl)}
+                                          sizes="80px"
                                           alt={product.dsld_product_name || 'Product'}
                                           className="w-full h-full object-contain p-1"
+                                          loading="lazy"
+                                          decoding="async"
                                           onError={(e) => {
                                             const target = e.target as HTMLImageElement;
                                             target.src = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2248%22 fill=%22%23888%22%3E' + encodeURIComponent(product.brand?.charAt(0) || '?') + '%3C/text%3E%3C/svg%3E';
