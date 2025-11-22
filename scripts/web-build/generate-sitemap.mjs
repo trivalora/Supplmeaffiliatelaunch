@@ -34,6 +34,28 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
   const staticPages = ['/knowledgebase', '/glossary', '/about', '/methodology', '/privacy', '/terms', '/legal', '/cookies', '/partner', '/contact', '/product-comparison'];
   staticPages.forEach(p => paths.add(p));
 
+  // Add all 17 supplement comparison pages
+  const comparisonPages = [
+    '/ashwagandha-comparison',
+    '/calcium-comparison',
+    '/collagen-comparison',
+    '/creatine-comparison',
+    '/iron-comparison',
+    '/magnesium-comparison',
+    '/omega-3-comparison',
+    '/prebiotics-comparison',
+    '/probiotics-comparison',
+    '/vitamin-c-comparison',
+    '/vitamin-d-comparison',
+    '/bcaa-comparison',
+    '/curcumin-comparison',
+    '/multivitamin-comparison',
+    '/whey-protein-comparison',
+    '/casein-protein-comparison',
+    '/zinc-comparison'
+  ];
+  comparisonPages.forEach(p => paths.add(p));
+
   if (KNOWLEDGEBASE_ROUTES && KNOWLEDGEBASE_ROUTES.length && PAGE_PATHS) {
     // CRITICAL FIX: Map v2 route keys to clean URLs from PAGE_PATHS
     // This ensures /ashwagandha instead of /ashwagandhav2
