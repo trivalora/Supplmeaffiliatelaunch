@@ -60,6 +60,25 @@ export const PAGE_PATHS: Record<string, string> = {
   'partner': '/partner',
   'product-comparison': '/product-comparison',
   
+  // Product comparison pages
+  'ashwagandha-comparison': '/ashwagandha-comparison',
+  'calcium-comparison': '/calcium-comparison',
+  'collagen-comparison': '/collagen-comparison',
+  'creatine-comparison': '/creatine-comparison',
+  'iron-comparison': '/iron-comparison',
+  'magnesium-comparison': '/magnesium-comparison',
+  'omega-3-comparison': '/omega-3-comparison',
+  'prebiotics-comparison': '/prebiotics-comparison',
+  'probiotics-comparison': '/probiotics-comparison',
+  'vitamin-c-comparison': '/vitamin-c-comparison',
+  'vitamin-d-comparison': '/vitamin-d-comparison',
+  'bcaa-comparison': '/bcaa-comparison',
+  'curcumin-comparison': '/curcumin-comparison',
+  'multivitamin-comparison': '/multivitamin-comparison',
+  'whey-protein-comparison': '/whey-protein-comparison',
+  'casein-protein-comparison': '/casein-protein-comparison',
+  'zinc-comparison': '/zinc-comparison',
+  
   // Glossary terms - using kebab-case for URLs
   'rct': '/glossary/rct',
   'metaanalysis': '/glossary/meta-analysis',

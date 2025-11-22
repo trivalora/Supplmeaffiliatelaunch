@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Casein Protein Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Casein Protein supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Casein Protein Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Casein Protein supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "about": "Casein Protein Price Comparison | Best Deals at iHerb & Amazon",
+    "url": "https://suppl.me/casein-protein-comparison"
+  }
+]

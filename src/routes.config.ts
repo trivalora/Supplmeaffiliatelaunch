@@ -354,6 +354,159 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     componentName: 'VitaminDPageNew',
     showInNav: false,
     category: 'v1'
+  },
+  {
+    key: 'ashwagandha-comparison',
+    title: 'Ashwagandha Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Ashwagandha supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'AshwagandhaComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'calcium-comparison',
+    title: 'Calcium Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Calcium supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'CalciumComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'collagen-comparison',
+    title: 'Collagen Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Collagen supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'CollagenComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'creatine-comparison',
+    title: 'Creatine Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Creatine supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'CreatineComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'iron-comparison',
+    title: 'Iron Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Iron supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'IronComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'magnesium-comparison',
+    title: 'Magnesium Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Magnesium supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'MagnesiumComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'omega-3-comparison',
+    title: 'Omega-3 Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Omega-3 supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'Omega3Comparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'prebiotics-comparison',
+    title: 'Prebiotics Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Prebiotics supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'PrebioticsComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'probiotics-comparison',
+    title: 'Probiotics Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Probiotics supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'ProbioticsComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'vitamin-c-comparison',
+    title: 'Vitamin C Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Vitamin C supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'VitaminCComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'vitamin-d-comparison',
+    title: 'Vitamin D Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Vitamin D supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'VitaminDComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'bcaa-comparison',
+    title: 'BCAA Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for BCAA supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'BCAAsComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'curcumin-comparison',
+    title: 'Curcumin Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Curcumin supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'CurcuminComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'multivitamin-comparison',
+    title: 'Multivitamin Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Multivitamin supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'MultivitaminComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'whey-protein-comparison',
+    title: 'Whey Protein Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Whey Protein supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'WheyProteinComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'casein-protein-comparison',
+    title: 'Casein Protein Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Casein Protein supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'CaseinProteinComparison',
+    showInNav: false,
+    category: 'comparison'
+  },
+  {
+    key: 'zinc-comparison',
+    title: 'Zinc Price Comparison | Best Deals at iHerb & Amazon',
+    description: 'Compare prices for Zinc supplements across top retailers. Find the best deals, certifications, and quality products.',
+    componentPath: './components/ProductComparisonWrapper',
+    componentName: 'ZincComparison',
+    showInNav: false,
+    category: 'comparison'
   }
 ];
 

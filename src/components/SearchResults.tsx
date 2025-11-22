@@ -8,25 +8,25 @@ interface SearchResultsProps {
   context?: 'header' | 'landing';
 }
 
-// Available supplements for product comparison (IDs match JSON filenames)
+// Available supplements for product comparison (IDs match our route keys)
 const AVAILABLE_SUPPLEMENTS = [
-  { id: 'ashwagandha', name: 'Ashwagandha', keywords: ['ashwagandha', 'withania'] },
-  { id: 'bcaa', name: 'BCAAs', keywords: ['bcaa', 'bcaas', 'branched chain', 'amino acid'] },
-  { id: 'calcium', name: 'Calcium', keywords: ['calcium'] },
-  { id: 'casein', name: 'Casein Protein', keywords: ['casein', 'casein protein'] },
-  { id: 'collagen', name: 'Collagen Peptides', keywords: ['collagen', 'collagen peptides', 'peptides'] },
-  { id: 'creatine', name: 'Creatine', keywords: ['creatine', 'creatine monohydrate'] },
-  { id: 'curcumin', name: 'Curcumin', keywords: ['curcumin', 'turmeric'] },
-  { id: 'iron', name: 'Iron', keywords: ['iron', 'ferrous'] },
-  { id: 'magnesium', name: 'Magnesium', keywords: ['magnesium', 'mag'] },
-  { id: 'multivitamin', name: 'Multivitamin', keywords: ['multivitamin', 'multi vitamin', 'multi-vitamin'] },
-  { id: 'omega-3', name: 'Omega-3', keywords: ['omega', 'omega 3', 'omega-3', 'fish oil', 'epa', 'dha'] },
-  { id: 'prebiotics', name: 'Prebiotics', keywords: ['prebiotic', 'prebiotics'] },
-  { id: 'probiotics', name: 'Probiotics', keywords: ['probiotic', 'probiotics'] },
-  { id: 'vitamin-c', name: 'Vitamin C', keywords: ['vitamin c', 'ascorbic', 'vit c'] },
-  { id: 'vitamin-d', name: 'Vitamin D', keywords: ['vitamin d', 'vit d', 'd3', 'cholecalciferol'] },
-  { id: 'whey', name: 'Whey Protein', keywords: ['whey', 'whey protein'] },
-  { id: 'zinc', name: 'Zinc', keywords: ['zinc'] },
+  { id: 'ashwagandha-comparison', name: 'Ashwagandha', keywords: ['ashwagandha', 'withania'] },
+  { id: 'bcaa-comparison', name: 'BCAAs', keywords: ['bcaa', 'bcaas', 'branched chain', 'amino acid'] },
+  { id: 'calcium-comparison', name: 'Calcium', keywords: ['calcium'] },
+  { id: 'casein-protein-comparison', name: 'Casein Protein', keywords: ['casein', 'casein protein'] },
+  { id: 'collagen-comparison', name: 'Collagen', keywords: ['collagen', 'collagen peptides', 'peptides'] },
+  { id: 'creatine-comparison', name: 'Creatine', keywords: ['creatine', 'creatine monohydrate'] },
+  { id: 'curcumin-comparison', name: 'Curcumin', keywords: ['curcumin', 'turmeric'] },
+  { id: 'iron-comparison', name: 'Iron', keywords: ['iron', 'ferrous'] },
+  { id: 'magnesium-comparison', name: 'Magnesium', keywords: ['magnesium', 'mag'] },
+  { id: 'multivitamin-comparison', name: 'Multivitamin', keywords: ['multivitamin', 'multi vitamin', 'multi-vitamin'] },
+  { id: 'omega-3-comparison', name: 'Omega-3', keywords: ['omega', 'omega 3', 'omega-3', 'fish oil', 'epa', 'dha'] },
+  { id: 'prebiotics-comparison', name: 'Prebiotics', keywords: ['prebiotic', 'prebiotics'] },
+  { id: 'probiotics-comparison', name: 'Probiotics', keywords: ['probiotic', 'probiotics'] },
+  { id: 'vitamin-c-comparison', name: 'Vitamin C', keywords: ['vitamin c', 'ascorbic', 'vit c'] },
+  { id: 'vitamin-d-comparison', name: 'Vitamin D', keywords: ['vitamin d', 'vit d', 'd3', 'cholecalciferol'] },
+  { id: 'whey-protein-comparison', name: 'Whey Protein', keywords: ['whey', 'whey protein'] },
+  { id: 'zinc-comparison', name: 'Zinc', keywords: ['zinc'] },
 ];
 
 export function SearchResults({ query, onNavigate, context: _context = 'header' }: SearchResultsProps) {
@@ -120,8 +120,8 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
                   key={`compare-${supp.id}`}
                   onClick={() => {
                     trackSearchResultClick(query, `Compare ${supp.name} prices`, idx + 1);
-                    // Navigate to product comparison page with supplement query parameter
-                    window.location.href = `/product-comparison?supplement=${supp.id}`;
+                    // Use the route key directly (already ends in -comparison)
+                    onNavigate(supp.id as any);
                   }}
                   className="px-4 py-3 cursor-pointer transition-all duration-200 border-b border-secondary/10 last:border-b-0 group"
                   style={{ backgroundColor: 'transparent' }}

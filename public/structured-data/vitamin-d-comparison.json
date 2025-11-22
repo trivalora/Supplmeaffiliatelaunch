@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Vitamin D Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Vitamin D supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Vitamin D Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Vitamin D supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "about": "Vitamin D Price Comparison | Best Deals at iHerb & Amazon",
+    "url": "https://suppl.me/vitamin-d-comparison"
+  }
+]

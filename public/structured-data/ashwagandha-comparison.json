@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Ashwagandha Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Ashwagandha supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Ashwagandha Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Ashwagandha supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "about": "Ashwagandha Price Comparison | Best Deals at iHerb & Amazon",
+    "url": "https://suppl.me/ashwagandha-comparison"
+  }
+]

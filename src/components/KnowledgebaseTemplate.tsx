@@ -907,17 +907,20 @@ function AffiliateButtons({
           // Map supplement name to the ID used in product comparison JSON files
           const supplementId = supplementNameLower.replace(/\s+/g, '-');
           
-          // Map page supplement IDs to JSON file names
-          const supplementMapping: Record<string, string> = {
-            'collagen-peptides': 'collagen',
-            'whey-protein': 'whey',
-            'casein-protein': 'casein',
-            'bcaas': 'bcaa',
+          // Map page supplement IDs to comparison route keys
+          const comparisonRouteMapping: Record<string, string> = {
+            'collagen-peptides': 'collagen-comparison',
+            'whey-protein': 'whey-protein-comparison',
+            'casein-protein': 'casein-protein-comparison',
+            'bcaas': 'bcaa-comparison',
+            'omega-3': 'omega-3-comparison',
+            'vitamin-c': 'vitamin-c-comparison',
+            'vitamin-d': 'vitamin-d-comparison',
           };
           
-          const jsonFileName = supplementMapping[supplementId] || supplementId;
-          // Navigate to product comparison page with supplement query parameter
-          window.location.href = `/product-comparison?supplement=${jsonFileName}`;
+          const routeKey = comparisonRouteMapping[supplementId] || `${supplementId}-comparison`;
+          // Navigate to dedicated comparison page
+          onNavigate?.(routeKey as any);
         }}
         data-button-height="md"
         className="flex-1 px-3 rounded-lg text-center bg-tertiary text-primary border border-secondary hover:bg-secondary transition-colors text-sm flex items-center justify-center cursor-pointer"

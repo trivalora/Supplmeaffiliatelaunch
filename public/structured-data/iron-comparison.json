@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Iron Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Iron supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Iron Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Iron supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "about": "Iron Price Comparison | Best Deals at iHerb & Amazon",
+    "url": "https://suppl.me/iron-comparison"
+  }
+]

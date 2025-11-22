@@ -58,24 +58,27 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Load supplement data from URL params - watch for location changes
+  // Load supplement data on mount or when initialSupplement changes
+  useEffect(() => {
+    if (initialSupplement) {
+      loadSupplement(initialSupplement);
+    }
+  }, [initialSupplement]);
+
+  // Also watch for URL param changes (for legacy /product-comparison?supplement= support)
   useEffect(() => {
     const urlParams = new URLSearchParams(location.search);
     const supplementFromUrl = urlParams.get('supplement');
-    const supplementToLoad = supplementFromUrl || initialSupplement;
     
-    if (supplementToLoad && supplementToLoad !== currentSupplement) {
-      loadSupplement(supplementToLoad);
+    if (supplementFromUrl && supplementFromUrl !== currentSupplement) {
+      loadSupplement(supplementFromUrl);
     }
-  }, [location.search, initialSupplement, currentSupplement]);
+  }, [location.search]);
 
   async function loadSupplement(supplement: string) {
     setCurrentSupplement(supplement);
     setLoading(true);
     setError(null);
-    
-    // Update URL with the supplement parameter using React Router
-    reactNavigate(`/product-comparison?supplement=${supplement}`, { replace: false });
     
     try {
       const response = await fetch(`/api/products/supplements/${supplement}.json`);
@@ -404,6 +407,9 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                 {!loading && !error && filteredProducts.length === 0 && (
                   <div className="text-center py-12">
                     <p className="text-muted-foreground">No products found matching your filters</p>
+                    {currentData && currentData.length > 0 && (
+                      <p className="text-sm text-muted-foreground mt-2">Try clearing some filters to see more results</p>
+                    )}
                   </div>
                 )}
 

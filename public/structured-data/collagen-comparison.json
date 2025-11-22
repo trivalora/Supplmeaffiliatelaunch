@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Collagen Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Collagen supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Collagen Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Collagen supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "about": "Collagen Price Comparison | Best Deals at iHerb & Amazon",
+    "url": "https://suppl.me/collagen-comparison"
+  }
+]

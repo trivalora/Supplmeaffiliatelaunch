@@ -1,0 +1,17 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Omega-3 Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Omega-3 supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "category": "Supplement"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Omega-3 Price Comparison | Best Deals at iHerb & Amazon",
+    "description": "Compare prices for Omega-3 supplements across top retailers. Find the best deals, certifications, and quality products.",
+    "about": "Omega-3 Price Comparison | Best Deals at iHerb & Amazon",
+    "url": "https://suppl.me/omega-3-comparison"
+  }
+]
