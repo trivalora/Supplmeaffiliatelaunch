@@ -38,6 +38,25 @@ export function loadComponent(componentName: string): ComponentType<any> | null 
   if (componentName === 'PartnerPage') return lazy(() => import('../components/PartnerPage').then(m => ({ default: m.PartnerPage })));
   if (componentName === 'ProductComparison') return lazy(() => import('../components/ProductComparison').then(m => ({ default: m.ProductComparison })));
 
+  // Product Comparison pages
+  if (componentName === 'AshwagandhaComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.AshwagandhaComparison })));
+  if (componentName === 'BCAAsComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.BCAAsComparison })));
+  if (componentName === 'CalciumComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CalciumComparison })));
+  if (componentName === 'CaseinProteinComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CaseinProteinComparison })));
+  if (componentName === 'CollagenPeptidesComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CollagenPeptidesComparison })));
+  if (componentName === 'CreatineComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CreatineComparison })));
+  if (componentName === 'CurcuminComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CurcuminComparison })));
+  if (componentName === 'IronComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.IronComparison })));
+  if (componentName === 'MagnesiumComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.MagnesiumComparison })));
+  if (componentName === 'MultivitaminComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.MultivitaminComparison })));
+  if (componentName === 'Omega3Comparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.Omega3Comparison })));
+  if (componentName === 'PrebioticsComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.PrebioticsComparison })));
+  if (componentName === 'ProbioticsComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.ProbioticsComparison })));
+  if (componentName === 'SulforaphaneComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.SulforaphaneComparison })));
+  if (componentName === 'VitaminCComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.VitaminCComparison })));
+  if (componentName === 'VitaminDComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.VitaminDComparison })));
+  if (componentName === 'WheyProteinComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.WheyProteinComparison })));
+
   // Glossary pages - use a loader function for the 197 glossary components
   return loadGlossaryComponent(componentName);
 }

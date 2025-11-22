@@ -172,37 +172,6 @@ export function CreatinePageNewV2({
       }
     ],
     
-    whatToExpectData: {
-      disclaimer: "Effects vary by individual. Consult healthcare provider before starting.",
-      signsOfEffectiveness: "Increased muscle strength and mass, improved high-intensity exercise performance, faster recovery between sets. Older adults (66-76): expect significant memory improvements and muscle/strength gains. Younger adults: expect muscle and strength benefits but minimal to no cognitive effects. Expect 1.24-1.37 kg weight gain (mostly water/muscle). Performance benefits appear within 1-2 weeks with loading, 3-4 weeks without. Memory benefits in older adults observed with dosing from 5 days to 24 weeks. Minimal adverse events overall—low risk of GI discomfort. Renal and hepatic function remain normal in healthy individuals.",
-      outcomes: [
-        {
-          icon: Activity,
-          iconLabel: "Muscle Strength",
-          usage: "3-5g or 15-30g loading",
-          bestTime: "Anytime",
-          resultsWeeks: "1-4",
-          intensity: "High" as const
-        },
-        {
-          icon: Brain,
-          iconLabel: "Memory (Older Adults)",
-          usage: "5-20g",
-          bestTime: "Anytime",
-          resultsWeeks: "1-24",
-          intensity: "Moderate" as const
-        },
-        {
-          icon: Zap,
-          iconLabel: "High-Intensity Performance",
-          usage: "3-5g",
-          bestTime: "Pre/Post workout",
-          resultsWeeks: "1-4",
-          intensity: "High" as const
-        }
-      ]
-    },
-    
     buyingGuideIntro: "When shopping for creatine (based on clinical evidence):",
     buyingGuideItems: [
       {

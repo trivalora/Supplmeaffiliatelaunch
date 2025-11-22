@@ -3523,7 +3523,7 @@
       "brand": "Best Naturals",
       "dsld_product_name": "Cal-Mag Zinc",
       "dsld_brand": "Best Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Best-Naturals/Best-Naturals-Cal-Mag-Zinc-817716013442.jpg",
       "best_price_per_unit": 0.00999,
       "best_total_price": 9.99,
       "unit": "mg",
@@ -3536,7 +3536,7 @@
           "price_per_unit": 0.00999,
           "product_url": "https://www.vitacost.com/best-naturals-cal-mag-zinc",
           "product_name": "Best Naturals Cal-Mag Zinc -- 180 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Best-Naturals/Best-Naturals-Cal-Mag-Zinc-817716013442.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3565,7 +3565,7 @@
       "brand": "KAL",
       "dsld_product_name": "Cal/Mag/Zinc",
       "dsld_brand": "KAL",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/KAL/KAL-Cal-Mag-Zinc-High-Potency-021245577102.jpg",
       "best_price_per_unit": 0.011789999999999998,
       "best_total_price": 11.79,
       "unit": "mg",
@@ -3578,7 +3578,7 @@
           "price_per_unit": 0.011789999999999998,
           "product_url": "https://www.vitacost.com/kal-cal-mag-zinc-high-potency-100-tablets",
           "product_name": "KAL Cal/Mag/Zinc High Potency -- 100 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/KAL/KAL-Cal-Mag-Zinc-High-Potency-021245577102.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3588,7 +3588,7 @@
           "price_per_unit": 0.011789999999999998,
           "product_url": "https://www.iherb.com/pr/kal-cal-mag-zinc-high-potency-100-tablets/121469",
           "product_name": "KAL, Cal/Mag/Zinc, High Potency, 100 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cal/cal57710/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3607,7 +3607,7 @@
       "brand": "Protocol for Life Balance",
       "dsld_product_name": "C-1000 + Zinc-15",
       "dsld_brand": "Protocol For Life Balance",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-C-1000-Zinc-15-707359111202.jpg",
       "best_price_per_unit": 0.022,
       "best_total_price": 22.0,
       "unit": "mg",
@@ -3620,7 +3620,7 @@
           "price_per_unit": 0.022,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-c-1000-zinc-15",
           "product_name": "Protocol For Life Balance C-1000 + Zinc-15 -- 120 Veg Cap...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-C-1000-Zinc-15-707359111202.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3637,7 +3637,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Chelated Zinc 50 mg",
       "dsld_brand": "21st Century",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen28024/u/104.jpg",
       "best_price_per_unit": 0.024,
       "best_total_price": 3.0,
       "unit": "mg",
@@ -3650,7 +3650,7 @@
           "price_per_unit": 0.024,
           "product_url": "https://www.iherb.com/pr/21st-century-chelated-zinc-50-mg-60-tablets/100067",
           "product_name": "21st Century, Chelated Zinc, 50 mg, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen28024/u/104.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3669,7 +3669,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Zinc 50 mg",
       "dsld_brand": "Nature's Bounty",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Zinc-074312020605.jpg",
       "best_price_per_unit": 0.1298,
       "best_total_price": 6.49,
       "unit": "mg",
@@ -3682,7 +3682,7 @@
           "price_per_unit": 0.1298,
           "product_url": "https://www.vitacost.com/natures-bounty-zinc",
           "product_name": "Nature's Bounty Zinc -- 50 mg - 100 Caplets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Zinc-074312020605.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3714,7 +3714,7 @@
       "brand": "Life Extension",
       "dsld_product_name": "Zinc Caps 50 mg",
       "dsld_brand": "Life Extension",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/lex/lex18139/u/125.jpg",
       "best_price_per_unit": 0.135,
       "best_total_price": 6.75,
       "unit": "mg",
@@ -3727,7 +3727,7 @@
           "price_per_unit": 0.135,
           "product_url": "https://www.iherb.com/pr/life-extension-zinc-caps-high-potency-50-mg-90-vegetarian-capsules/57009",
           "product_name": "Life Extension, Zinc Caps, High Potency, 50 mg, 90 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/lex/lex18139/u/125.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3744,7 +3744,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Zinc Citrate 50 mg",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor47102/u/40.jpg",
       "best_price_per_unit": 0.15380000000000002,
       "best_total_price": 7.69,
       "unit": "mg",
@@ -3757,7 +3757,7 @@
           "price_per_unit": 0.15380000000000002,
           "product_url": "https://www.iherb.com/pr/solaray-zinc-citrate-with-pumpkin-seed-60-vegcaps/106014",
           "product_name": "Solaray, Zinc Citrate with Pumpkin Seed, 60 VegCaps",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor47102/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3778,7 +3778,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Zinc 50 mg",
       "dsld_brand": "Nature's Bounty",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Zinc-074312009952.jpg",
       "best_price_per_unit": 0.2298,
       "best_total_price": 11.49,
       "unit": "mg",
@@ -3791,7 +3791,7 @@
           "price_per_unit": 0.2298,
           "product_url": "https://www.vitacost.com/natures-bounty-zinc-50-mg-200-caplets",
           "product_name": "Nature's Bounty Zinc -- 50 mg - 200 Caplets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Zinc-074312009952.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3848,7 +3848,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Ma",
       "dsld_brand": "Liquid Labs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Childlife/Childlife-Liquid-Zinc-Plus-Natural-Mango-Strawberry-608274103504.jpg",
       "best_price_per_unit": 0.332,
       "best_total_price": 9.96,
       "unit": "mg",
@@ -3861,7 +3861,7 @@
           "price_per_unit": 0.332,
           "product_url": "https://www.vitacost.com/childlife-liquid-zinc-plus",
           "product_name": "Childlife Liquid Zinc Plus Natural Mango Strawberry -- 4 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Childlife/Childlife-Liquid-Zinc-Plus-Natural-Mango-Strawberry-608274103504.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3982,7 +3982,7 @@
       "brand": "Nature's Life",
       "dsld_product_name": "Cal/Mag/Zinc Complex",
       "dsld_brand": "Nature's Life",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nli/nli00430/u/8.jpg",
       "best_price_per_unit": 0.4196666666666667,
       "best_total_price": 12.59,
       "unit": "mg",
@@ -3995,7 +3995,7 @@
           "price_per_unit": 0.4196666666666667,
           "product_url": "https://www.iherb.com/pr/nature-s-life-cal-mag-zinc-complex-100-capsules/130899",
           "product_name": "Nature's Life, Cal/Mag/Zinc Complex, 100 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nli/nli00430/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4012,7 +4012,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Ma",
       "dsld_brand": "Liquid Labs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Trace/Trace-Liquid-Cal-Mag-Zinc-Pi-a-Colada-878941000430.jpg",
       "best_price_per_unit": 0.7663333333333333,
       "best_total_price": 22.99,
       "unit": "mg",
@@ -4025,7 +4025,7 @@
           "price_per_unit": 0.7663333333333333,
           "product_url": "https://www.vitacost.com/trace-liquid-cal-mag-zinc",
           "product_name": "Trace Liquid Cal-Mag-Zinc Pi\u00f1a Colada -- 16 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Trace/Trace-Liquid-Cal-Mag-Zinc-Pi-a-Colada-878941000430.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4042,7 +4042,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Zinc Picolinate 15 mg",
       "dsld_brand": "Thorne",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/thr/thr21002/u/37.jpg",
       "best_price_per_unit": 0.9333333333333333,
       "best_total_price": 14.0,
       "unit": "mg",
@@ -4055,7 +4055,7 @@
           "price_per_unit": 0.9333333333333333,
           "product_url": "https://www.iherb.com/pr/thorne-zinc-picolinate-15-mg-60-capsules/18476",
           "product_name": "Thorne, Zinc Picolinate, 15 mg, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/thr/thr21002/u/37.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4072,7 +4072,7 @@
       "brand": "vitafusion",
       "dsld_product_name": "Power Zinc Natural Strawberry Tangerine Flavor",
       "dsld_brand": "vitafusion",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Vitafusion/Vitafusion-Power-Zinc-Strawberry-Tangerine-027917003863.jpg",
       "best_price_per_unit": 1.41,
       "best_total_price": 12.69,
       "unit": "gram powder",
@@ -4085,7 +4085,7 @@
           "price_per_unit": 1.41,
           "product_url": "https://www.vitacost.com/vitafusion-power-zinc",
           "product_name": "Vitafusion Power Zinc Strawberry Tangerine -- 90 Gummies",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Vitafusion/Vitafusion-Power-Zinc-Strawberry-Tangerine-027917003863.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4168,7 +4168,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Zinc plus Selenium",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl03152/u/34.jpg",
       "best_price_per_unit": 87.96,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -4181,7 +4181,7 @@
           "price_per_unit": 87.96,
           "product_url": "https://www.iherb.com/pr/dr-mercola-zinc-plus-selenium-90-capsules/86509",
           "product_name": "Dr. Mercola, Zinc Plus Selenium, 90 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl03152/u/34.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4198,7 +4198,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Stress B",
       "dsld_brand": "21st Century",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22331/u/23.jpg",
       "best_price_per_unit": 144.22222222222223,
       "best_total_price": 6.49,
       "unit": "mg",
@@ -4211,7 +4211,7 @@
           "price_per_unit": 144.22222222222223,
           "product_url": "https://www.iherb.com/pr/21st-century-stress-b-with-zinc-66-tablets/43848",
           "product_name": "21st Century, Stress B with Zinc, 66 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22331/u/23.jpg",
           "rating": null,
           "reviews": null
         }

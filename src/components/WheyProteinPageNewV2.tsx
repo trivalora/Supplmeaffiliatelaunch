@@ -316,11 +316,7 @@ export function WheyProteinPageNewV2({
         journal: "Lipids in Health and Disease",
         link: "https://doi.org/10.1186/s12944-020-01207-x"
       }
-    ],
-    
-    onNavigate: onNavigate || (() => {}),
-    onContactClick: onContactClick || (() => {}),
-    onLegalClick: onLegalClick || (() => {})
+    ]
   };
 
   return (

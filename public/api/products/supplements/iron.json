@@ -3558,7 +3558,7 @@
       "brand": "Chapter Six",
       "dsld_product_name": "Iron",
       "dsld_brand": "Chapter Six",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Chapter-Six-Adult-Iron-848998041328.jpg",
       "best_price_per_unit": 0.007995,
       "best_total_price": 15.99,
       "unit": "mg",
@@ -3571,7 +3571,7 @@
           "price_per_unit": 0.007995,
           "product_url": "https://www.vitacost.com/zahler-chapter-six-adult-iron",
           "product_name": "Zahler Chapter Six Adult Iron -- 5 mg - 60 Gummies",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Chapter-Six-Adult-Iron-848998041328.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3590,7 +3590,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Gentle Iron 28 mg",
       "dsld_brand": "Nature's Bounty",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Gentle-Iron-074312016035.jpg",
       "best_price_per_unit": 0.013478260869565217,
       "best_total_price": 8.99,
       "unit": "mcg dfe",
@@ -3603,7 +3603,7 @@
           "price_per_unit": 0.013478260869565217,
           "product_url": "https://www.vitacost.com/natures-bounty-gentle-iron-28-mg-90-capsules-1",
           "product_name": "Nature's Bounty Gentle Iron\u00ae -- 28 mg - 90 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Gentle-Iron-074312016035.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3613,7 +3613,7 @@
           "price_per_unit": 0.013493253373313344,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-gentle-iron-90-capsules/32307",
           "product_name": "Nature's Bounty, Gentle Iron\u00ae, 90 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrt/nrt01603/u/58.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3644,7 +3644,7 @@
       "brand": "Christopher's Original Formulas",
       "dsld_product_name": "Herbal Iron Formula",
       "dsld_brand": "Christopher's Original Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cro/cro89125/u/11.jpg",
       "best_price_per_unit": 0.015519999999999999,
       "best_total_price": 15.52,
       "unit": "mg",
@@ -3657,7 +3657,7 @@
           "price_per_unit": 0.015519999999999999,
           "product_url": "https://www.iherb.com/pr/christopher-s-original-formulas-herbal-iron-formula-460-mg-100-vegetarian-caps/14978",
           "product_name": "Christopher's Original Formulas, Herbal Iron Formula, 460 mg, 100 Vegetarian Caps",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cro/cro89125/u/11.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3674,7 +3674,7 @@
       "brand": "Nature's Truth",
       "dsld_product_name": "Iron 65 mg",
       "dsld_brand": "Nature's Truth",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth10134/u/24.jpg",
       "best_price_per_unit": 0.03297560975609756,
       "best_total_price": 6.76,
       "unit": "mg",
@@ -3687,7 +3687,7 @@
           "price_per_unit": 0.03297560975609756,
           "product_url": "https://www.iherb.com/pr/nature-s-truth-iron-65-mg-120-coated-tablets/108657",
           "product_name": "Nature's Truth, Iron, 65 mg, 120 Coated Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth10134/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3704,7 +3704,7 @@
       "brand": "Garden of Life Vitamin Code ",
       "dsld_product_name": "Raw Iron",
       "dsld_brand": "Garden of Life Vitamin Code",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Vitamin-Code-Raw-Iron-658010113762.jpg",
       "best_price_per_unit": 0.033225,
       "best_total_price": 13.29,
       "unit": "mcg dfe",
@@ -3717,7 +3717,7 @@
           "price_per_unit": 0.033225,
           "product_url": "https://www.vitacost.com/garden-of-life-vitamin-code-raw-iron",
           "product_name": "Garden of Life Vitamin Code Raw Iron -- 22 mg - 30 Vegan ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Vitamin-Code-Raw-Iron-658010113762.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3734,7 +3734,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01250/u/24.jpg",
       "best_price_per_unit": 0.03695,
       "best_total_price": 7.39,
       "unit": "mg",
@@ -3747,7 +3747,7 @@
           "price_per_unit": 0.03695,
           "product_url": "https://www.iherb.com/pr/swanson-just-one-complete-multi-with-iron-130-tablets/121493",
           "product_name": "Swanson, Just One Complete Multi with Iron, 130 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01250/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3766,7 +3766,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01882/u/73.jpg",
       "best_price_per_unit": 0.06895,
       "best_total_price": 13.79,
       "unit": "mg",
@@ -3779,7 +3779,7 @@
           "price_per_unit": 0.06895,
           "product_url": "https://www.iherb.com/pr/swanson-multi-without-iron-immune-support-high-potency-120-softgels/116250",
           "product_name": "Swanson, Multi without Iron + Immune Support, High Potency, 120 Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01882/u/73.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3798,7 +3798,7 @@
       "brand": "Davinci Laboratories",
       "dsld_product_name": "Iron Bis-Glycinate",
       "dsld_brand": "DaVinci Laboratories",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/DaVinci-Laboratories/DaVinci-Laboratories-Iron-Bis-Glycinate-026664223869.jpg",
       "best_price_per_unit": 0.0713,
       "best_total_price": 28.52,
       "unit": "mcg dfe",
@@ -3811,7 +3811,7 @@
           "price_per_unit": 0.0713,
           "product_url": "https://www.vitacost.com/davinci-laboratories-iron-bis-glycinate",
           "product_name": "DaVinci Laboratories Iron Bis-Glycinate -- 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/DaVinci-Laboratories/DaVinci-Laboratories-Iron-Bis-Glycinate-026664223869.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3821,7 +3821,7 @@
           "price_per_unit": 0.0713,
           "product_url": "https://www.iherb.com/pr/davinci-laboratories-iron-bis-glycinate-60-capsules/128062",
           "product_name": "DaVinci Laboratories, Iron Bis-Glycinate, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/dvi/dvi22386/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3841,7 +3841,7 @@
       "brand": "NOW",
       "dsld_product_name": "Iron Complex",
       "dsld_brand": "NOW",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Iron-Complex-733739014405.jpg",
       "best_price_per_unit": 0.0789,
       "best_total_price": 7.89,
       "unit": "mg",
@@ -3854,7 +3854,7 @@
           "price_per_unit": 0.0789,
           "product_url": "https://www.vitacost.com/now-iron-complex",
           "product_name": "NOW Iron Complex -- 100 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Iron-Complex-733739014405.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3864,7 +3864,7 @@
           "price_per_unit": 0.08560000000000001,
           "product_url": "https://www.iherb.com/pr/now-foods-iron-complex-100-tablets/120067",
           "product_name": "NOW Foods, Iron Complex, 100 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now01440/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3883,7 +3883,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Iron 65 mg",
       "dsld_brand": "Nature's Bounty",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Iron-074312413834.jpg",
       "best_price_per_unit": 0.08292307692307692,
       "best_total_price": 5.39,
       "unit": "mg",
@@ -3896,7 +3896,7 @@
           "price_per_unit": 0.08292307692307692,
           "product_url": "https://www.vitacost.com/natures-bounty-iron",
           "product_name": "Nature's Bounty Iron -- 65 mg - 100 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Iron-074312413834.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3906,7 +3906,7 @@
           "price_per_unit": 0.08384615384615385,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-iron-65-mg-100-tablets/32329",
           "product_name": "Nature's Bounty, Iron, 65 mg, 100 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrt/nrt41383/u/28.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3939,7 +3939,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Iron 65 mg",
       "dsld_brand": "21st Century",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22670/u/41.jpg",
       "best_price_per_unit": 0.08446153846153846,
       "best_total_price": 5.49,
       "unit": "mg",
@@ -3952,7 +3952,7 @@
           "price_per_unit": 0.08446153846153846,
           "product_url": "https://www.iherb.com/pr/21st-century-iron-65-mg-120-tablets/12232",
           "product_name": "21st Century, Iron, 65 mg, 120 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22670/u/41.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3971,7 +3971,7 @@
       "brand": "NOW",
       "dsld_product_name": "Iron Complex",
       "dsld_brand": "NOW",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Iron-Complex-Caps-733739014412.jpg",
       "best_price_per_unit": 0.0859,
       "best_total_price": 8.59,
       "unit": "mg",
@@ -3984,7 +3984,7 @@
           "price_per_unit": 0.0859,
           "product_url": "https://www.vitacost.com/now-iron-complex-caps",
           "product_name": "NOW Iron Complex Caps -- 100 Vegg Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Iron-Complex-Caps-733739014412.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3994,7 +3994,7 @@
           "price_per_unit": 0.0917,
           "product_url": "https://www.iherb.com/pr/now-foods-iron-complex-caps-100-veg-capsules/96627",
           "product_name": "NOW Foods, Iron Complex Capsules, 100 Veg Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now01441/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4013,7 +4013,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Blood Builder",
       "dsld_brand": "MegaFood",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/MegaFood/MegaFood-Blood-Builder-Iron-Supplement-with-Vitamin-C-051494101704.jpg",
       "best_price_per_unit": 0.11992,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -4026,7 +4026,7 @@
           "price_per_unit": 0.11992,
           "product_url": "https://www.vitacost.com/megafood-blood-builder-iron-supplement-with-vitamin-c-30-tablets",
           "product_name": "MegaFood Blood Builder Iron Supplement with Vitamin C -- ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/MegaFood/MegaFood-Blood-Builder-Iron-Supplement-with-Vitamin-C-051494101704.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4048,7 +4048,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Blood Builder",
       "dsld_brand": "MegaFood",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10170/u/79.jpg",
       "best_price_per_unit": 0.11992,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -4061,7 +4061,7 @@
           "price_per_unit": 0.11992,
           "product_url": "https://www.iherb.com/pr/megafood-iron-blood-builder-30-tablets/50645",
           "product_name": "MegaFood, Iron Blood Builder, 30 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10170/u/79.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4083,7 +4083,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Iron 65 mg",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Iron-031604026127.jpg",
       "best_price_per_unit": 0.12446153846153846,
       "best_total_price": 8.09,
       "unit": "mg",
@@ -4096,7 +4096,7 @@
           "price_per_unit": 0.12446153846153846,
           "product_url": "https://www.vitacost.com/nature-made-iron-65-mg-180-tablets",
           "product_name": "Nature Made Iron -- 65 mg - 180 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Iron-031604026127.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4106,7 +4106,7 @@
           "price_per_unit": 0.14523076923076922,
           "product_url": "https://www.iherb.com/pr/nature-made-iron-65-mg-180-tablets/70863",
           "product_name": "Nature Made, Iron, 65 mg, 180 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ndm/ndm02612/u/35.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4126,7 +4126,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Blood Builder",
       "dsld_brand": "MegaFood",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10337/u/66.jpg",
       "best_price_per_unit": 0.12792,
       "best_total_price": 15.99,
       "unit": "mg",
@@ -4139,7 +4139,7 @@
           "price_per_unit": 0.12792,
           "product_url": "https://www.iherb.com/pr/megafood-blood-builder-minis-iron-60-tablets/78814",
           "product_name": "MegaFood, Blood Builder Minis, Iron, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10337/u/66.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4161,7 +4161,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Slow Release Iron",
       "dsld_brand": "21st Century",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen27343/u/55.jpg",
       "best_price_per_unit": 0.1367741935483871,
       "best_total_price": 4.24,
       "unit": "mg",
@@ -4174,7 +4174,7 @@
           "price_per_unit": 0.1367741935483871,
           "product_url": "https://www.iherb.com/pr/21st-century-slow-release-iron-high-potency-45-mg-60-tablets/41313",
           "product_name": "21st Century, Slow Release Iron, High Potency, 45 mg, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen27343/u/55.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4193,7 +4193,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Iron 40 mg",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap99662/u/38.jpg",
       "best_price_per_unit": 0.14375,
       "best_total_price": 5.75,
       "unit": "mg",
@@ -4206,7 +4206,7 @@
           "price_per_unit": 0.14375,
           "product_url": "https://www.iherb.com/pr/naturesplus-hema-plex-iron-with-essential-nutrients-for-healthy-red-blood-cells-10-slow-release-tablets/106616",
           "product_name": "NaturesPlus, Hema-Plex, Iron with Essential Nutrients for Healthy Red Blood Cells, 10 Slow Release Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap99662/u/38.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4226,7 +4226,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Te",
       "dsld_brand": "Liquid Labs",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/eid/eid00037/u/27.jpg",
       "best_price_per_unit": 0.15991999999999998,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -4239,7 +4239,7 @@
           "price_per_unit": 0.15991999999999998,
           "product_url": "https://www.iherb.com/pr/eidon-ionic-minerals-iron-liquid-concentrate-2-oz-60-ml/26003",
           "product_name": "Eidon Ionic Minerals, Iron, Liquid Concentrate, 2 oz (60 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/eid/eid00037/u/27.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4256,7 +4256,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "One Daily",
       "dsld_brand": "Innate Response Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Innate/Innate-Response-Formulas-Mens-One-Daily-Iron-Free-051494400548.jpg",
       "best_price_per_unit": 0.1641970802919708,
       "best_total_price": 44.99,
       "unit": "mg",
@@ -4269,7 +4269,7 @@
           "price_per_unit": 0.1641970802919708,
           "product_url": "https://www.vitacost.com/innate-response-formulas-mens-one-daily-iron-free-60-tablets",
           "product_name": "Innate Response Formulas Men's One Daily Iron Free -- 60 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Innate/Innate-Response-Formulas-Mens-One-Daily-Iron-Free-051494400548.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4288,7 +4288,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Iron Response",
       "dsld_brand": "Innate Response Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/inn/inn40010/u/39.jpg",
       "best_price_per_unit": 0.18231999999999998,
       "best_total_price": 22.79,
       "unit": "mg",
@@ -4301,7 +4301,7 @@
           "price_per_unit": 0.18231999999999998,
           "product_url": "https://www.iherb.com/pr/innate-response-formulas-iron-response-90-tablets/30894",
           "product_name": "Innate Response Formulas, Iron Response\u2122, 90 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/inn/inn40010/u/39.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4311,7 +4311,7 @@
           "price_per_unit": 0.30392,
           "product_url": "https://www.vitacost.com/innate-response-formulas-iron-response",
           "product_name": "Innate Response Formulas Iron Response -- 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Innate/Innate-Response-Formulas-Iron-Response-051494400104.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4336,7 +4336,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Iron 27 mg",
       "dsld_brand": "21st Century",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22690/u/32.jpg",
       "best_price_per_unit": 0.18481481481481482,
       "best_total_price": 4.99,
       "unit": "mg",
@@ -4349,7 +4349,7 @@
           "price_per_unit": 0.18481481481481482,
           "product_url": "https://www.iherb.com/pr/21st-century-high-potency-iron-27-mg-110-easy-to-swallow-tablets/37347",
           "product_name": "21st Century, High-Potency Iron, 27 mg, 110 Easy to Swallow Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22690/u/32.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4368,7 +4368,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Iron Chelate 25 mg",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Iron-Chelate-068958016405.jpg",
       "best_price_per_unit": 0.18599999999999997,
       "best_total_price": 8.37,
       "unit": "mg",
@@ -4381,7 +4381,7 @@
           "price_per_unit": 0.18599999999999997,
           "product_url": "https://www.vitacost.com/natural-factors-iron-chelate",
           "product_name": "Natural Factors Iron Chelate -- 25 mg - 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Iron-Chelate-068958016405.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4413,7 +4413,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Blood Builder",
       "dsld_brand": "MegaFood",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10367/u/39.jpg",
       "best_price_per_unit": 0.19992,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -4426,7 +4426,7 @@
           "price_per_unit": 0.19992,
           "product_url": "https://www.iherb.com/pr/megafood-blood-builder-liquid-iron-once-daily-orchard-fruit-7-7-fl-oz-230-ml/114326",
           "product_name": "MegaFood, Blood Builder Liquid Iron, Once Daily, Orchard Fruit, 7.7 fl oz (230 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10367/u/39.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4478,7 +4478,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Iron 50 mg",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Iron-076280461053.jpg",
       "best_price_per_unit": 0.2078,
       "best_total_price": 10.39,
       "unit": "mg",
@@ -4491,7 +4491,7 @@
           "price_per_unit": 0.2078,
           "product_url": "https://www.vitacost.com/solaray-iron",
           "product_name": "Solaray Iron -- 50 mg - 60 VegCaps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Iron-076280461053.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4501,7 +4501,7 @@
           "price_per_unit": 0.2078,
           "product_url": "https://www.iherb.com/pr/solaray-iron-50-mg-60-vegcaps/27320",
           "product_name": "Solaray, Iron, 50 mg, 60 VegCaps",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor46105/u/37.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4518,7 +4518,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Iron 65 mg",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67270/u/8.jpg",
       "best_price_per_unit": 0.2146153846153846,
       "best_total_price": 13.95,
       "unit": "mg",
@@ -4531,7 +4531,7 @@
           "price_per_unit": 0.2146153846153846,
           "product_url": "https://www.iherb.com/pr/nutricost-iron-65-mg-240-tablets/131982",
           "product_name": "Nutricost, Iron, 65 mg, 240 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67270/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4583,7 +4583,7 @@
       "brand": "DEVA",
       "dsld_product_name": "Vegan Chelated Iron 29 mg",
       "dsld_brand": "DEVA",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Chelated-Iron-895634000379.jpg",
       "best_price_per_unit": 0.2410344827586207,
       "best_total_price": 6.99,
       "unit": "mg",
@@ -4596,7 +4596,7 @@
           "price_per_unit": 0.2410344827586207,
           "product_url": "https://www.vitacost.com/deva-vegan-chelated-iron-29-mg-90-tablets-1",
           "product_name": "Deva Vegan Chelated Iron -- 29 mg - 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Chelated-Iron-895634000379.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4615,7 +4615,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Optimal Iron 29 mg with Cofactors",
       "dsld_brand": "Seeking Health",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52054/u/40.jpg",
       "best_price_per_unit": 0.26666666666666666,
       "best_total_price": 20.0,
       "unit": "mg",
@@ -4628,7 +4628,7 @@
           "price_per_unit": 0.26666666666666666,
           "product_url": "https://www.iherb.com/pr/seeking-health-iron-with-cofactors-90-capsules/122650",
           "product_name": "Seeking Health, Iron with Cofactors, 90 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52054/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4677,7 +4677,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Iron 40 mg",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap03770/u/186.jpg",
       "best_price_per_unit": 0.3135,
       "best_total_price": 12.54,
       "unit": "mg",
@@ -4690,7 +4690,7 @@
           "price_per_unit": 0.3135,
           "product_url": "https://www.iherb.com/pr/naturesplus-hema-plex-iron-30-slow-release-tablets/7662",
           "product_name": "NaturesPlus, Hema-Plex\u00ae Iron, 30 Slow-Release Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap03770/u/186.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4710,7 +4710,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Chelated Iron",
       "dsld_brand": "Solgar",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Chelated-Iron-033984006805.jpg",
       "best_price_per_unit": 0.3156,
       "best_total_price": 7.89,
       "unit": "mg",
@@ -4723,7 +4723,7 @@
           "price_per_unit": 0.3156,
           "product_url": "https://www.vitacost.com/solgar-chelated-iron",
           "product_name": "Solgar Chelated Iron -- 100 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Chelated-Iron-033984006805.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4733,7 +4733,7 @@
           "price_per_unit": 0.3396,
           "product_url": "https://www.iherb.com/pr/solgar-chelated-iron-100-tablets-25-mg-per-tablet/48553",
           "product_name": "Solgar, Chelated Iron, 100 Tablets (25 mg per Tablet)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sol/sol00680/u/73.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4756,7 +4756,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Ferrous Gluconate",
       "dsld_brand": "Mason Natural",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Mason-Natural/Mason-Natural-Ferrous-Gluconate-Iron-Supplement-Supports-Red-Blood-Cell-Formation-311845137517.jpg",
       "best_price_per_unit": 0.33296296296296296,
       "best_total_price": 8.99,
       "unit": "mg",
@@ -4769,7 +4769,7 @@
           "price_per_unit": 0.33296296296296296,
           "product_url": "https://www.vitacost.com/mason-natural-ferrous-gluconate-iron-supplement-supports-red-blood-cell-formation",
           "product_name": "Mason Natural Ferrous Gluconate Iron Supplement Supports ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Mason-Natural/Mason-Natural-Ferrous-Gluconate-Iron-Supplement-Supports-Red-Blood-Cell-Formation-311845137517.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4788,7 +4788,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Fermented Iron Complex",
       "dsld_brand": "New Chapter",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Fermented-Iron-Complex-727783006363.jpg",
       "best_price_per_unit": 0.3492,
       "best_total_price": 26.19,
       "unit": "mg",
@@ -4801,7 +4801,7 @@
           "price_per_unit": 0.3492,
           "product_url": "https://www.vitacost.com/new-chapter-fermented-iron-complex",
           "product_name": "New Chapter Fermented Iron Complex -- 60 Vegetarian Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Fermented-Iron-Complex-727783006363.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4811,7 +4811,7 @@
           "price_per_unit": 0.4396,
           "product_url": "https://www.iherb.com/pr/new-chapter-fermented-iron-complex-90-vegetarian-tablets/119894",
           "product_name": "New Chapter, Fermented Iron Complex, 90 Vegetarian Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncr/ncr90357/u/44.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4834,7 +4834,7 @@
       "brand": "Superior Source",
       "dsld_product_name": "Just Women Iron 25 mg",
       "dsld_brand": "Superior Source",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Just-Women-Iron-076635920808.jpg",
       "best_price_per_unit": 0.35159999999999997,
       "best_total_price": 8.79,
       "unit": "mg",
@@ -4847,7 +4847,7 @@
           "price_per_unit": 0.35159999999999997,
           "product_url": "https://www.vitacost.com/superior-source-just-women-iron",
           "product_name": "Superior Source Just Women Iron -- 25 mg - 90 MicroLingua...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Just-Women-Iron-076635920808.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4864,7 +4864,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Gentle Iron 25 mg",
       "dsld_brand": "Solgar",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Gentle-Iron-033984012493.jpg",
       "best_price_per_unit": 0.3556,
       "best_total_price": 8.89,
       "unit": "mg",
@@ -4877,7 +4877,7 @@
           "price_per_unit": 0.3556,
           "product_url": "https://www.vitacost.com/solgar-gentle-iron-25-mg-90-vegetable-capsules-1",
           "product_name": "Solgar Gentle Iron\u00ae -- 25 mg - 90 Vegetable Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Gentle-Iron-033984012493.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4887,7 +4887,7 @@
           "price_per_unit": 0.386,
           "product_url": "https://www.iherb.com/pr/solgar-gentle-iron-25-mg-90-vegetable-capsules/69609",
           "product_name": "Solgar, Gentle Iron\u00ae, 25 mg, 90 Vegetable Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sol/sol01249/u/91.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4910,7 +4910,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Iron 50 mg",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Once-Daily-High-Energy-Multi-Vita-Min-Iron-Free-076280473056.jpg",
       "best_price_per_unit": 0.37579999999999997,
       "best_total_price": 18.79,
       "unit": "mg",
@@ -4923,7 +4923,7 @@
           "price_per_unit": 0.37579999999999997,
           "product_url": "https://www.vitacost.com/solaray-once-daily-high-energy-multi-vita-min-iron-free-60-capsules",
           "product_name": "Solaray Once Daily High Energy Multi-Vita-Min Iron Free -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Once-Daily-High-Energy-Multi-Vita-Min-Iron-Free-076280473056.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4940,7 +4940,7 @@
       "brand": "NutraChamps",
       "dsld_product_name": "Vitamin C",
       "dsld_brand": "NutraChamps",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nhp/nhp50060/u/8.jpg",
       "best_price_per_unit": 0.39899999999999997,
       "best_total_price": 19.95,
       "unit": "mg",
@@ -4953,7 +4953,7 @@
           "price_per_unit": 0.39899999999999997,
           "product_url": "https://www.iherb.com/pr/nutrachamps-iron-gummies-enhanced-with-vitamin-c-natural-berry-60-vegan-gummies/138605",
           "product_name": "NutraChamps, Iron Gummies, Enhanced with Vitamin C, Natural Berry, 60 Vegan Gummies",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nhp/nhp50060/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4974,7 +4974,7 @@
       "brand": "Vitanica",
       "dsld_product_name": "Iron Extra",
       "dsld_brand": "Vitanica",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Vitanica/Vitanica-Iron-Extra-RBC-Support-708118021152.jpg",
       "best_price_per_unit": 0.4033333333333333,
       "best_total_price": 22.99,
       "unit": "mg",
@@ -4987,7 +4987,7 @@
           "price_per_unit": 0.4033333333333333,
           "product_url": "https://www.vitacost.com/vitanica-iron-extra-rbc-support",
           "product_name": "Vitanica Iron Extra RBC Support -- 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Vitanica/Vitanica-Iron-Extra-RBC-Support-708118021152.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5007,7 +5007,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Iron 40 mg",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Chewable-Iron-with-Vitamin-C-and-Herbs-Cherry-097467034211.jpg",
       "best_price_per_unit": 0.41325,
       "best_total_price": 16.53,
       "unit": "mg",
@@ -5020,7 +5020,7 @@
           "price_per_unit": 0.41325,
           "product_url": "https://www.vitacost.com/naturesplus-chewable-iron-with-vitamin-c-and-herbs",
           "product_name": "NaturesPlus Chewable Iron with Vitamin C and Herbs Cherry...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Chewable-Iron-with-Vitamin-C-and-Herbs-Cherry-097467034211.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5040,7 +5040,7 @@
       "brand": "Healthy Origins",
       "dsld_product_name": "Iron Ease 45 mg",
       "dsld_brand": "Healthy Origins",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Healthy-Origins/Healthy-Origins-Iron-Ease-with-Ferrochel-603573781033.jpg",
       "best_price_per_unit": 0.422,
       "best_total_price": 18.99,
       "unit": "mg",
@@ -5053,7 +5053,7 @@
           "price_per_unit": 0.422,
           "product_url": "https://www.vitacost.com/healthy-origins-iron-ease-with-ferrochel",
           "product_name": "Healthy Origins Iron Ease with Ferrochel -- 45 mg - 180 V...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Healthy-Origins/Healthy-Origins-Iron-Ease-with-Ferrochel-603573781033.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5072,7 +5072,7 @@
       "brand": "NOW",
       "dsld_product_name": "EcoGreen Multi Iron-Free",
       "dsld_brand": "NOW",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now03788/u/32.jpg",
       "best_price_per_unit": 0.45799999999999996,
       "best_total_price": 22.9,
       "unit": "mg",
@@ -5085,7 +5085,7 @@
           "price_per_unit": 0.45799999999999996,
           "product_url": "https://www.iherb.com/pr/now-foods-ecogreen-multi-iron-free-180-veg-capsules/559",
           "product_name": "NOW Foods, EcoGreen Multi, Iron-Free, 180 Veg Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/now/now03788/u/32.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5095,7 +5095,7 @@
           "price_per_unit": 0.4918,
           "product_url": "https://www.vitacost.com/now-ecogreen-multi-iron-free",
           "product_name": "NOW EcoGreen Multi Iron-Free -- 180 Veg Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-EcoGreen-Multi-Iron-Free-733739037886.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5116,7 +5116,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "Iron",
       "dsld_brand": "California Gold Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn02116/u/40.jpg",
       "best_price_per_unit": 0.47533333333333333,
       "best_total_price": 7.13,
       "unit": "calorie",
@@ -5129,7 +5129,7 @@
           "price_per_unit": 0.47533333333333333,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-iron-as-ferrous-bisglycinate-chelate-and-yellow-dock-root-4-fl-oz-118-ml/110462",
           "product_name": "California Gold Nutrition, Iron, as Ferrous Bisglycinate Chelate and Yellow Dock Root, 4 fl oz (118 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn02116/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5146,7 +5146,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Life Force Multiple",
       "dsld_brand": "Source Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Life-Force-Multiple-No-Iron-021078009658.jpg",
       "best_price_per_unit": 0.48975,
       "best_total_price": 19.59,
       "unit": "mg",
@@ -5159,7 +5159,7 @@
           "price_per_unit": 0.48975,
           "product_url": "https://www.vitacost.com/source-naturals-life-force-multiple-no-iron-60-tablets",
           "product_name": "Source Naturals Life Force Multiple No Iron -- 60 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Life-Force-Multiple-No-Iron-021078009658.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5169,7 +5169,7 @@
           "price_per_unit": 0.94475,
           "product_url": "https://www.iherb.com/pr/source-naturals-life-force-multiple-no-iron-120-tablets/1259",
           "product_name": "Source Naturals, Life Force Multiple\u00ae, No Iron, 120 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sns/sns00966/u/51.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5186,7 +5186,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Easy Iron 25 mg",
       "dsld_brand": "Country Life",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Easy-Iron-015794026594.jpg",
       "best_price_per_unit": 0.5247999999999999,
       "best_total_price": 13.12,
       "unit": "mg",
@@ -5199,7 +5199,7 @@
           "price_per_unit": 0.5247999999999999,
           "product_url": "https://www.vitacost.com/country-life-easy-iron",
           "product_name": "Country Life Easy Iron -- 25 mg - 90 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Easy-Iron-015794026594.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5228,7 +5228,7 @@
       "brand": "Nature's Truth",
       "dsld_product_name": "Essential Iron + B-Vitamins Zinc Gummies Natural Grape Flavor",
       "dsld_brand": "Nature's Truth",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth11661/u/48.jpg",
       "best_price_per_unit": 0.5424,
       "best_total_price": 13.56,
       "unit": "calorie",
@@ -5241,7 +5241,7 @@
           "price_per_unit": 0.5424,
           "product_url": "https://www.iherb.com/pr/nature-s-truth-essential-iron-b-vitamins-zinc-gummies-natural-grape-60-gummies/113475",
           "product_name": "Nature's Truth, Essential Iron + B Vitamins, Zinc Gummies, Natural Grape, 60 Gummies",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth11661/u/48.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5260,7 +5260,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Iron Bisglycinate",
       "dsld_brand": "Thorne",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Iron-Bisglycinate-NSF-Certified-for-Sport-693749003458.jpg",
       "best_price_per_unit": 0.6,
       "best_total_price": 15.0,
       "unit": "mg",
@@ -5273,7 +5273,7 @@
           "price_per_unit": 0.6,
           "product_url": "https://www.vitacost.com/thorne-iron-bisglycinate-nsf-certified-for-sport",
           "product_name": "Thorne Iron Bisglycinate - NSF Certified for Sport -- 25 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Iron-Bisglycinate-NSF-Certified-for-Sport-693749003458.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5290,7 +5290,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Iron Bisglycinate",
       "dsld_brand": "Thorne",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/thr/thr00345/u/38.jpg",
       "best_price_per_unit": 0.6,
       "best_total_price": 15.0,
       "unit": "mg",
@@ -5303,7 +5303,7 @@
           "price_per_unit": 0.6,
           "product_url": "https://www.iherb.com/pr/thorne-iron-bisglycinate-60-capsules-25-mg-per-capsule/52838",
           "product_name": "Thorne, Iron Bisglycinate, 60 Capsules (25 mg per Capsule)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/thr/thr00345/u/38.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5320,7 +5320,7 @@
       "brand": "Klean Athlete",
       "dsld_product_name": "Klean Iron",
       "dsld_brand": "Klean Athlete",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Klean-Athlete/Klean-Athlete-Klean-Iron-NSF-Certified-for-Sport-310539980200.jpg",
       "best_price_per_unit": 0.6111111111111112,
       "best_total_price": 16.5,
       "unit": "mg",
@@ -5333,7 +5333,7 @@
           "price_per_unit": 0.6111111111111112,
           "product_url": "https://www.vitacost.com/klean-athlete-klean-iron-nsf-certified-for-sport",
           "product_name": "Klean Athlete Klean Iron - NSF Certified for Sport -- 90 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Klean-Athlete/Klean-Athlete-Klean-Iron-NSF-Certified-for-Sport-310539980200.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5353,7 +5353,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Kid's Chewable Iron 15 mg Natural Strawberry Flavor",
       "dsld_brand": "Carlson",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Kids-Chewable-Iron-Natural-Strawberry-088395559402.jpg",
       "best_price_per_unit": 0.618,
       "best_total_price": 9.27,
       "unit": "mg",
@@ -5366,7 +5366,7 @@
           "price_per_unit": 0.618,
           "product_url": "https://www.vitacost.com/carlson-kids-chewable-iron",
           "product_name": "Carlson Kid's Chewable Iron Natural Strawberry -- 15 mg -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Kids-Chewable-Iron-Natural-Strawberry-088395559402.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5386,7 +5386,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Chelated Iron 27 mg",
       "dsld_brand": "Carlson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car05572/u/45.jpg",
       "best_price_per_unit": 0.6266666666666667,
       "best_total_price": 16.92,
       "unit": "mg",
@@ -5399,7 +5399,7 @@
           "price_per_unit": 0.6266666666666667,
           "product_url": "https://www.iherb.com/pr/carlson-chelated-iron-27-mg-250-tablets/12940",
           "product_name": "Carlson, Chelated Iron, 27 mg, 250 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car05572/u/45.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5419,7 +5419,7 @@
       "brand": "Advanced Nutrition by Zahler",
       "dsld_product_name": "Iron Complex",
       "dsld_brand": "Advanced Nutrition by Zahler",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/zah/zah08078/u/47.jpg",
       "best_price_per_unit": 0.6487999999999999,
       "best_total_price": 16.22,
       "unit": "mg",
@@ -5432,7 +5432,7 @@
           "price_per_unit": 0.6487999999999999,
           "product_url": "https://www.iherb.com/pr/zahler-iron-complex-100-capsules/76631",
           "product_name": "Zahler, Iron Complex, 100 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/zah/zah08078/u/47.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5466,7 +5466,7 @@
       "brand": "Advanced Nutrition by Zahler",
       "dsld_product_name": "Iron Complex",
       "dsld_brand": "Advanced Nutrition by Zahler",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Iron-Complex-Gentle-And-Non-Constipating-Formula-848998080785.jpg",
       "best_price_per_unit": 0.6796,
       "best_total_price": 16.99,
       "unit": "mg",
@@ -5479,7 +5479,7 @@
           "price_per_unit": 0.6796,
           "product_url": "https://www.vitacost.com/zahler-iron-complex-gentle-non-constipating-formula",
           "product_name": "Zahler Iron Complex Gentle & Non-Constipating Formula -- ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Iron-Complex-Gentle-And-Non-Constipating-Formula-848998080785.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5503,7 +5503,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Blood Boost with Iron 7.5 mg",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Blood-Boost-with-Iron-810094213930.jpg",
       "best_price_per_unit": 0.7498,
       "best_total_price": 37.49,
       "unit": "mg",
@@ -5516,7 +5516,7 @@
           "price_per_unit": 0.7498,
           "product_url": "https://www.vitacost.com/dr-mercola-blood-boost-with-iron",
           "product_name": "Dr. Mercola Blood Boost with Iron -- 7.5 mg - 30 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Blood-Boost-with-Iron-810094213930.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5533,7 +5533,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Iron 40 mg",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap30745/u/49.jpg",
       "best_price_per_unit": 0.78525,
       "best_total_price": 31.41,
       "unit": "mg",
@@ -5546,7 +5546,7 @@
           "price_per_unit": 0.78525,
           "product_url": "https://www.iherb.com/pr/naturesplus-source-of-life-garden-organic-men-s-once-daily-multi-iron-free-30-vegan-tablets/79236",
           "product_name": "NaturesPlus, Source of Life Garden\u00ae, Organic Men's Once Daily Multi, Iron Free, 30 Vegan Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap30745/u/49.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5566,7 +5566,7 @@
       "brand": "The Vitamin shoppe",
       "dsld_product_name": "One Daily Women's",
       "dsld_brand": "The Vitamin Shoppe",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vsi/vsi03123/u/8.jpg",
       "best_price_per_unit": 0.7996,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -5579,7 +5579,7 @@
           "price_per_unit": 0.7996,
           "product_url": "https://www.iherb.com/pr/the-vitamin-shoppe-one-daily-women-s-50-no-iron-60-tablets/140981",
           "product_name": "The Vitamin Shoppe, One Daily Women's 50+, No Iron, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vsi/vsi03123/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5633,7 +5633,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "Iron Glycinate",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-Iron-Glycinate-871149001223.jpg",
       "best_price_per_unit": 0.896206896551724,
       "best_total_price": 25.99,
       "unit": "mg",
@@ -5646,7 +5646,7 @@
           "price_per_unit": 0.896206896551724,
           "product_url": "https://www.vitacost.com/xymogen-iron-glycinate",
           "product_name": "XYMOGEN Iron Glycinate -- 120 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-Iron-Glycinate-871149001223.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5665,7 +5665,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Plant Force Liquid Iron",
       "dsld_brand": "Gaia Herbs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-PlantForce-Liquid-Iron-751063146265.jpg",
       "best_price_per_unit": 0.89975,
       "best_total_price": 35.99,
       "unit": "mg",
@@ -5678,7 +5678,7 @@
           "price_per_unit": 0.89975,
           "product_url": "https://www.vitacost.com/gaia-herbs-plantforce-liquid-iron-8-5-fl-oz",
           "product_name": "Gaia Herbs PlantForce\u2122 Liquid Iron -- 8.5 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-PlantForce-Liquid-Iron-751063146265.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5708,7 +5708,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Iron-Free Formula VM-75",
       "dsld_brand": "Solgar",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Formula-VM-75-Iron-Free-033984011748.jpg",
       "best_price_per_unit": 0.9276000000000001,
       "best_total_price": 23.19,
       "unit": "mg",
@@ -5721,7 +5721,7 @@
           "price_per_unit": 0.9276000000000001,
           "product_url": "https://www.vitacost.com/solgar-formula-vm-75-iron-free-90-tablets",
           "product_name": "Solgar Formula VM-75 Iron-Free -- 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Formula-VM-75-Iron-Free-033984011748.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5743,7 +5743,7 @@
       "brand": "ChildLife Essentials",
       "dsld_product_name": "Liquid Iron Natural Berry flavor",
       "dsld_brand": "ChildLife Essentials",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cdl/cdl12100/u/40.jpg",
       "best_price_per_unit": 0.9306666666666668,
       "best_total_price": 13.96,
       "unit": "calorie",
@@ -5756,7 +5756,7 @@
           "price_per_unit": 0.9306666666666668,
           "product_url": "https://www.iherb.com/pr/childlife-essentials-liquid-iron-natural-berry-4-fl-oz-118-ml/104106",
           "product_name": "ChildLife Essentials, Liquid Iron, Natural Berry, 4 fl oz (118 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cdl/cdl12100/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5814,7 +5814,7 @@
       "brand": "Enfamil",
       "dsld_product_name": "Fer-In-Sol",
       "dsld_brand": "Enfamil",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/enm/enm74002/u/50.jpg",
       "best_price_per_unit": 1.0206666666666666,
       "best_total_price": 15.31,
       "unit": "mg",
@@ -5827,7 +5827,7 @@
           "price_per_unit": 1.0206666666666666,
           "product_url": "https://www.iherb.com/pr/enfamil-fer-in-sol-iron-drops-active-minds-0-24-months-1-2-3-fl-oz-50-ml/143919",
           "product_name": "Enfamil, Fer-In-Sol\u00ae, Iron Drops, Active Minds, 0-24 Months, 1 2/3 fl oz (50 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/enm/enm74002/u/50.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5848,7 +5848,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Iron 50 mg",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Spectro-Multi-Vita-Min-Iron-Free-Original-Formula-076280478556.jpg",
       "best_price_per_unit": 1.0278,
       "best_total_price": 51.39,
       "unit": "mg",
@@ -5861,7 +5861,7 @@
           "price_per_unit": 1.0278,
           "product_url": "https://www.vitacost.com/solaray-spectro-multi-vita-min-iron-free-original-formula",
           "product_name": "Solaray Spectro\u2122 Multi-Vita-Min\u2122 Iron Free Original Formu...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Spectro-Multi-Vita-Min-Iron-Free-Original-Formula-076280478556.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5878,7 +5878,7 @@
       "brand": "Nature's Plus Source of Life Garden",
       "dsld_product_name": "Iron",
       "dsld_brand": "NaturesPlus Source of Life Garden",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Source-of-Life-Garden-Iron-097467307360.jpg",
       "best_price_per_unit": 1.0605555555555555,
       "best_total_price": 19.09,
       "unit": "mg",
@@ -5891,7 +5891,7 @@
           "price_per_unit": 1.0605555555555555,
           "product_url": "https://www.vitacost.com/naturesplus-source-of-life-garden-iron",
           "product_name": "NaturesPlus Source of Life Garden Iron -- 30 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Source-of-Life-Garden-Iron-097467307360.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5911,7 +5911,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Iron Plus C",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu31511/u/8.jpg",
       "best_price_per_unit": 1.095,
       "best_total_price": 21.9,
       "unit": "mg",
@@ -5924,7 +5924,7 @@
           "price_per_unit": 1.095,
           "product_url": "https://www.iherb.com/pr/vital-nutrients-iron-plus-c-100-vegan-capsules/136337",
           "product_name": "Vital Nutrients, Iron Plus C, 100 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu31511/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5943,7 +5943,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Energizing Iron",
       "dsld_brand": "Nature's Way",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Energizing-Iron-8-mg-Iron-And-200-mcg-Vitamin-B12-per-2-Softgel-Serving-763948052196.jpg",
       "best_price_per_unit": 1.1460000000000001,
       "best_total_price": 17.19,
       "unit": "calorie",
@@ -5956,7 +5956,7 @@
           "price_per_unit": 1.1460000000000001,
           "product_url": "https://www.vitacost.com/natures-way-energizing-iron-8-mg-iron-200-mcg-vitamin-b12-per-2-softgel-serving",
           "product_name": "Nature's Way Energizing Iron - 8 mg Iron & 200 mcg Vitami...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Energizing-Iron-8-mg-Iron-And-200-mcg-Vitamin-B12-per-2-Softgel-Serving-763948052196.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5966,7 +5966,7 @@
           "price_per_unit": 1.4326666666666665,
           "product_url": "https://www.iherb.com/pr/nature-s-way-energizing-iron-90-softgels/2126",
           "product_name": "Nature's Way, Energizing Iron\u2122, 90 Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/emt/emt05219/u/72.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5985,7 +5985,7 @@
       "brand": "Liquid Labs",
       "dsld_product_name": "Ma",
       "dsld_brand": "Liquid Labs",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mro/mro47137/u/12.jpg",
       "best_price_per_unit": 1.3316666666666668,
       "best_total_price": 39.95,
       "unit": "mg",
@@ -5998,7 +5998,7 @@
           "price_per_unit": 1.3316666666666668,
           "product_url": "https://www.iherb.com/pr/maryruth-s-vegan-liquid-iron-prenatal-postnatal-berry-15-22-fl-oz-450-ml/119370",
           "product_name": "MaryRuth's, Vegan Liquid Iron Prenatal & Postnatal, Berry, 15.22 fl oz (450 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mro/mro47137/u/12.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6015,7 +6015,7 @@
       "brand": "Floradix",
       "dsld_product_name": "Iron + Herbs",
       "dsld_brand": "Floradix",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Floradix/Floradix-Iron-Herbs-Iron-and-Vitamin-Tablets-Gluten-free-Yeast-free-Support-Healthy-Iron-Levels-850026260298.jpg",
       "best_price_per_unit": 1.372,
       "best_total_price": 27.44,
       "unit": "calorie",
@@ -6028,7 +6028,7 @@
           "price_per_unit": 1.372,
           "product_url": "https://www.vitacost.com/floradix-iron-herbs-iron-and-vitamin-tablets-gluten-free-yeast-free-support-healthy-iron-levels",
           "product_name": "Floradix Iron + Herbs - Iron and Vitamin Tablets Gluten-f...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Floradix/Floradix-Iron-Herbs-Iron-and-Vitamin-Tablets-Gluten-free-Yeast-free-Support-Healthy-Iron-Levels-850026260298.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6048,7 +6048,7 @@
       "brand": "Floradix",
       "dsld_product_name": "Iron + Herbs",
       "dsld_brand": "Floradix",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Floradix/Floradix-Iron-And-Herbs-850026260090.jpg",
       "best_price_per_unit": 1.3795,
       "best_total_price": 27.59,
       "unit": "calorie",
@@ -6071,7 +6071,7 @@
           "price_per_unit": 1.3845,
           "product_url": "https://www.vitacost.com/floradix-iron-herbs-8-5-fl-oz",
           "product_name": "Floradix Iron & Herbs -- 8.5 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Floradix/Floradix-Iron-And-Herbs-850026260090.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6091,7 +6091,7 @@
       "brand": "Floradix",
       "dsld_product_name": "Iron + Herbs",
       "dsld_brand": "Floradix",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai26012/u/82.jpg",
       "best_price_per_unit": 1.3795,
       "best_total_price": 27.59,
       "unit": "calorie",
@@ -6104,7 +6104,7 @@
           "price_per_unit": 1.3795,
           "product_url": "https://www.iherb.com/pr/floradix-floravital-iron-herbs-8-5-fl-oz-250-ml/106326",
           "product_name": "Floradix, Floravital\u00ae Iron + Herbs, 8.5 fl oz (250 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai26012/u/82.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6124,7 +6124,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Iron-Free Formula VM-75",
       "dsld_brand": "Solgar",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Iron-Free-Formula-VM-75-033984011533.jpg",
       "best_price_per_unit": 1.5675999999999999,
       "best_total_price": 39.19,
       "unit": "mg",
@@ -6137,7 +6137,7 @@
           "price_per_unit": 1.5675999999999999,
           "product_url": "https://www.vitacost.com/solgar-formula-vm-75-iron-free",
           "product_name": "Solgar Formula VM-75\u00ae Iron-Free -- 180 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Iron-Free-Formula-VM-75-033984011533.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6159,7 +6159,7 @@
       "brand": "Floradix",
       "dsld_product_name": "Iron + Herbs",
       "dsld_brand": "Floradix",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Floradix/Floradix-Iron-Herbs-Ferrochel-Ferrous-Bisglycinate-Chelate-850026260335.jpg",
       "best_price_per_unit": 1.5745,
       "best_total_price": 31.49,
       "unit": "calorie",
@@ -6172,7 +6172,7 @@
           "price_per_unit": 1.5745,
           "product_url": "https://www.vitacost.com/floradix-iron-herbs-ferrochel-ferrous-bisglycinate-chelate",
           "product_name": "Floradix Iron + Herbs - Ferrochel Ferrous Bisglycinate Ch...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Floradix/Floradix-Iron-Herbs-Ferrochel-Ferrous-Bisglycinate-Chelate-850026260335.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6192,7 +6192,7 @@
       "brand": "Metabolic Maintenance",
       "dsld_product_name": "The Big One without Iron",
       "dsld_brand": "Metabolic Maintenance",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00520/u/64.jpg",
       "best_price_per_unit": 1.92,
       "best_total_price": 48.0,
       "unit": "mg",
@@ -6205,7 +6205,7 @@
           "price_per_unit": 1.92,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-the-big-one-without-iron-90-capsules/37551",
           "product_name": "Metabolic Maintenance, The Big One\u00ae without Iron, 90 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00520/u/64.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6224,7 +6224,7 @@
       "brand": "Flora",
       "dsld_product_name": "Flora Iron",
       "dsld_brand": "Flora",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Flora/Flora-Iron-Herb-with-B-Vitamin-Complex-061998647417.jpg",
       "best_price_per_unit": 1.954,
       "best_total_price": 19.54,
       "unit": "calorie",
@@ -6237,7 +6237,7 @@
           "price_per_unit": 1.954,
           "product_url": "https://www.vitacost.com/flora-iron-herb-with-b-vitamin-complex",
           "product_name": "Flora Iron + Herb with B-Vitamin Complex -- 7.7 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Flora/Flora-Iron-Herb-with-B-Vitamin-Complex-061998647417.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6269,7 +6269,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Optimal Iron Chewable",
       "dsld_brand": "Seeking Health",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Optimal-Iron-810007520544.jpg",
       "best_price_per_unit": 2.0,
       "best_total_price": 20.0,
       "unit": "mg",
@@ -6282,7 +6282,7 @@
           "price_per_unit": 2.0,
           "product_url": "https://www.vitacost.com/seeking-health-optimal-iron",
           "product_name": "Seeking Health Optimal Iron -- 90 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Optimal-Iron-810007520544.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6299,7 +6299,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Iron Chewable 10 mg",
       "dsld_brand": "Seeking Health",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Iron-Chewable-810007520537.jpg",
       "best_price_per_unit": 2.0,
       "best_total_price": 20.0,
       "unit": "mg",
@@ -6312,7 +6312,7 @@
           "price_per_unit": 2.0,
           "product_url": "https://www.vitacost.com/seeking-health-iron-chewable",
           "product_name": "Seeking Health Iron Chewable -- 10 mg - 60 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Iron-Chewable-810007520537.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6329,7 +6329,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Chewable Iron 27 mg Natural Grape Flavor",
       "dsld_brand": "Carlson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car55810/u/8.jpg",
       "best_price_per_unit": 2.2960000000000003,
       "best_total_price": 11.48,
       "unit": "calorie",
@@ -6342,7 +6342,7 @@
           "price_per_unit": 2.2960000000000003,
           "product_url": "https://www.iherb.com/pr/carlson-chewable-iron-natural-grape-27-mg-60-tablets/125591",
           "product_name": "Carlson, Chewable Iron, Natural Grape, 27 mg, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car55810/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6362,7 +6362,7 @@
       "brand": "Floradix",
       "dsld_product_name": "Iron + Herbs",
       "dsld_brand": "Floradix",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Floradix/Floradix-Iron-And-Herbs-850026260106.jpg",
       "best_price_per_unit": 2.3845,
       "best_total_price": 47.69,
       "unit": "calorie",
@@ -6375,7 +6375,7 @@
           "price_per_unit": 2.3845,
           "product_url": "https://www.vitacost.com/floradix-iron-herbs",
           "product_name": "Floradix Iron & Herbs -- 17 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Floradix/Floradix-Iron-And-Herbs-850026260106.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6395,7 +6395,7 @@
       "brand": "Flora",
       "dsld_product_name": "Flora Iron",
       "dsld_brand": "Flora",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Flora/Flora-Ferritin-Delayed-Release-Iron-Supplement-061998647189.jpg",
       "best_price_per_unit": 2.549,
       "best_total_price": 25.49,
       "unit": "calorie",
@@ -6408,7 +6408,7 @@
           "price_per_unit": 2.549,
           "product_url": "https://www.vitacost.com/flora-ferritin-delayed-release-iron-supplement",
           "product_name": "Flora Ferritin+ Delayed-Release Iron Supplement -- 30 Del...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Flora/Flora-Ferritin-Delayed-Release-Iron-Supplement-061998647189.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6430,7 +6430,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Easy Iron 20 mg",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Easy-Iron-068958016474.jpg",
       "best_price_per_unit": 2.654,
       "best_total_price": 13.27,
       "unit": "calorie",
@@ -6443,7 +6443,7 @@
           "price_per_unit": 2.654,
           "product_url": "https://www.vitacost.com/natural-factors-easy-iron-20-mg-60-chewable-tablets-2",
           "product_name": "Natural Factors Easy Iron -- 20 mg - 60 Chewable Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Easy-Iron-068958016474.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6465,7 +6465,7 @@
       "brand": "Swanson",
       "dsld_product_name": "Albion Multi-Mineral with Iron",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02062/u/24.jpg",
       "best_price_per_unit": 2.8283132530120483,
       "best_total_price": 9.39,
       "unit": "mg",
@@ -6478,7 +6478,7 @@
           "price_per_unit": 2.8283132530120483,
           "product_url": "https://www.iherb.com/pr/swanson-albion-multi-mineral-with-iron-120-capsules/118049",
           "product_name": "Swanson, Albion\u00ae Multi-Mineral with Iron, 120 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02062/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6529,7 +6529,7 @@
       "brand": "Irwin Naturals",
       "dsld_product_name": "Only One Liquid-Gel Multi",
       "dsld_brand": "Irwin Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Irwin-Naturals/Irwin-Naturals-Only-One-Liquid-Gel-Multi-With-Iron-710363577384.jpg",
       "best_price_per_unit": 3.6649999999999996,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -6542,7 +6542,7 @@
           "price_per_unit": 3.6649999999999996,
           "product_url": "https://www.vitacost.com/irwin-naturals-only-one-liquid-gel-multi-with-iron",
           "product_name": "Irwin Naturals Only One Liquid-Gel Multi With Iron -- 60 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Irwin-Naturals/Irwin-Naturals-Only-One-Liquid-Gel-Multi-With-Iron-710363577384.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6561,7 +6561,7 @@
       "brand": "Irwin Naturals",
       "dsld_product_name": "Only One Liquid-Gel Multi Without Iron",
       "dsld_brand": "Irwin Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/irw/irw57739/u/45.jpg",
       "best_price_per_unit": 3.6649999999999996,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -6574,7 +6574,7 @@
           "price_per_unit": 3.6649999999999996,
           "product_url": "https://www.iherb.com/pr/irwin-naturals-only-one-liquid-gel-multi-without-iron-60-liquid-soft-gels/36693",
           "product_name": "Irwin Naturals, Only One, Liquid-Gel Multi, Without Iron, 60 Liquid Soft-Gels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/irw/irw57739/u/45.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6593,7 +6593,7 @@
       "brand": "Bariatric Advantage",
       "dsld_product_name": "Chewable Iron 29 with Vitamin C Passion Fruit",
       "dsld_brand": "Bariatric Advantage",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdv/bdv00025/u/8.jpg",
       "best_price_per_unit": 4.388,
       "best_total_price": 43.88,
       "unit": "mg",
@@ -6606,7 +6606,7 @@
           "price_per_unit": 4.388,
           "product_url": "https://www.iherb.com/pr/bariatric-advantage-chewable-iron-with-vitamin-c-passion-fruit-90-tablets/141781",
           "product_name": "Bariatric Advantage, Chewable Iron with Vitamin C, Passion Fruit, 90 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdv/bdv00025/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6626,7 +6626,7 @@
       "brand": "Protocol for Life Balance",
       "dsld_product_name": "Ortho Multi",
       "dsld_brand": "Protocol For Life Balance",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Ortho-Multi-Greens-Iron-Free-Multivitamin-707359137882.jpg",
       "best_price_per_unit": 4.4,
       "best_total_price": 44.0,
       "unit": "mg",
@@ -6639,7 +6639,7 @@
           "price_per_unit": 4.4,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-ortho-multi-greens-iron-free-multivitamin",
           "product_name": "Protocol For Life Balance Ortho Multi\u00ae Greens Iron-Free M...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Ortho-Multi-Greens-Iron-Free-Multivitamin-707359137882.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6656,7 +6656,7 @@
       "brand": "ZHOU",
       "dsld_product_name": "Iron Beard",
       "dsld_brand": "ZHOU",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Zhou/Zhou-Iron-Beard-859805006171.jpg",
       "best_price_per_unit": 4.678,
       "best_total_price": 23.39,
       "unit": "mg",
@@ -6669,7 +6669,7 @@
           "price_per_unit": 4.678,
           "product_url": "https://www.vitacost.com/zhou-iron-beard",
           "product_name": "Zhou Iron Beard\u2122 -- 60 Veggie Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Zhou/Zhou-Iron-Beard-859805006171.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6689,7 +6689,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Women's Iron Restore",
       "dsld_brand": "Carlson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car43510/u/26.jpg",
       "best_price_per_unit": 7.44,
       "best_total_price": 14.88,
       "unit": "mg",
@@ -6702,7 +6702,7 @@
           "price_per_unit": 7.44,
           "product_url": "https://www.iherb.com/pr/carlson-women-s-iron-restore-60-capsules/80730",
           "product_name": "Carlson, Women's Iron Restore, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car43510/u/26.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6719,7 +6719,7 @@
       "brand": "Amen",
       "dsld_product_name": "Iron Ultra",
       "dsld_brand": "Amen",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/AMEN/AMEN-Iron-Ultra-Supplement-Copper-Folate-Vitamin-C-And-B12-Ferrous-Sulfate-850049609012.jpg",
       "best_price_per_unit": 12.495,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -6732,7 +6732,7 @@
           "price_per_unit": 12.495,
           "product_url": "https://www.vitacost.com/amen-iron-ultra-supplement-copper-folate-vitamin-c-b12-ferrous-sulfate",
           "product_name": "AMEN Iron Ultra Supplement + Copper Folate Vitamin C & B1...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/AMEN/AMEN-Iron-Ultra-Supplement-Copper-Folate-Vitamin-C-And-B12-Ferrous-Sulfate-850049609012.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6749,7 +6749,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Mega Multi Mineral Iron-Free",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Mega-Multi-Mineral-Iron-Free-076280045130.jpg",
       "best_price_per_unit": 12.89,
       "best_total_price": 12.89,
       "unit": "mg",
@@ -6762,7 +6762,7 @@
           "price_per_unit": 12.89,
           "product_url": "https://www.vitacost.com/solaray-mega-multi-mineral-iron-free-100-capsules-1",
           "product_name": "Solaray Mega Multi Mineral\u2122 Iron Free -- 100 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Mega-Multi-Mineral-Iron-Free-076280045130.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6772,7 +6772,7 @@
           "price_per_unit": 12.89,
           "product_url": "https://www.iherb.com/pr/solaray-mega-multi-mineral-iron-free-100-capsules/22733",
           "product_name": "Solaray, Mega Multi Mineral, Iron Free, 100 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor04513/u/47.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6789,7 +6789,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Multi-Minerals (no Copper or Iron)",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu30711/u/8.jpg",
       "best_price_per_unit": 16.599999999999998,
       "best_total_price": 24.9,
       "unit": "mg",
@@ -6802,7 +6802,7 @@
           "price_per_unit": 16.599999999999998,
           "product_url": "https://www.iherb.com/pr/vital-nutrients-multi-minerals-without-copper-iron-120-vegan-capsules/132073",
           "product_name": "Vital Nutrients, Multi-Minerals (without Copper & Iron), 120 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu30711/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6819,7 +6819,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Iron-Free Mega Multi Mineral",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Mega-Multi-Mineral-Iron-Free-076280045147.jpg",
       "best_price_per_unit": 20.79,
       "best_total_price": 20.79,
       "unit": "mg",
@@ -6832,7 +6832,7 @@
           "price_per_unit": 20.79,
           "product_url": "https://www.vitacost.com/solaray-mega-multi-mineral-iron-free",
           "product_name": "Solaray Mega Multi Mineral Iron Free -- 200 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Mega-Multi-Mineral-Iron-Free-076280045147.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6842,7 +6842,7 @@
           "price_per_unit": 20.79,
           "product_url": "https://www.iherb.com/pr/solaray-mega-multi-mineral-iron-free-200-capsules/70064",
           "product_name": "Solaray, Mega Multi Mineral\u2122, Iron Free, 200 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor04514/u/37.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6861,7 +6861,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Trace Minerals Complex",
       "dsld_brand": "Seeking Health",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52126/u/50.jpg",
       "best_price_per_unit": 40.0,
       "best_total_price": 20.0,
       "unit": "mg",
@@ -6874,7 +6874,7 @@
           "price_per_unit": 40.0,
           "product_url": "https://www.iherb.com/pr/seeking-health-trace-minerals-complex-iron-free-30-capsules/115175",
           "product_name": "Seeking Health, Trace Minerals Complex, Iron-Free, 30 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52126/u/50.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6891,7 +6891,7 @@
       "brand": "Bariatric Advantage",
       "dsld_product_name": "Chewable Ultra Solo without Iron Citrus",
       "dsld_brand": "Bariatric Advantage",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdv/bdv95275/u/8.jpg",
       "best_price_per_unit": 48.75,
       "best_total_price": 29.25,
       "unit": "mg",
@@ -6904,7 +6904,7 @@
           "price_per_unit": 48.75,
           "product_url": "https://www.iherb.com/pr/bariatric-advantage-ultra-solo-without-iron-30-capsules/141798",
           "product_name": "Bariatric Advantage, Ultra Solo without Iron, 30 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdv/bdv95275/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6923,7 +6923,7 @@
       "brand": "Bariatric Advantage",
       "dsld_product_name": "Chewable Ultra Solo with Iron Citrus",
       "dsld_brand": "Bariatric Advantage",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdv/bdv95763/u/8.jpg",
       "best_price_per_unit": 51.88333333333333,
       "best_total_price": 31.13,
       "unit": "mg",
@@ -6936,7 +6936,7 @@
           "price_per_unit": 51.88333333333333,
           "product_url": "https://www.iherb.com/pr/bariatric-advantage-chewable-ultra-solo-with-iron-citrus-30-tablets/141810",
           "product_name": "Bariatric Advantage, Chewable Ultra Solo with Iron, Citrus, 30 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdv/bdv95763/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6955,7 +6955,7 @@
       "brand": "Nutra BioGenesis ",
       "dsld_product_name": "UltraGenesis",
       "dsld_brand": "Nutra BioGenesis",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nbg/nbg10244/u/8.jpg",
       "best_price_per_unit": 53.1125,
       "best_total_price": 42.49,
       "unit": "mg",
@@ -6968,7 +6968,7 @@
           "price_per_unit": 53.1125,
           "product_url": "https://www.iherb.com/pr/nutra-biogenesis-ultragenesis-without-iron-180-capsules/130941",
           "product_name": "Nutra BioGenesis, UltraGenesis without Iron, 180 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nbg/nbg10244/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6989,7 +6989,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "ActivNutrients",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-ActivNutrients-Without-Iron-871149001292.jpg",
       "best_price_per_unit": 55.98,
       "best_total_price": 27.99,
       "unit": "mg",
@@ -7002,7 +7002,7 @@
           "price_per_unit": 55.98,
           "product_url": "https://www.vitacost.com/xymogen-activnutrients-without-iron-60-vegetarian-capsules",
           "product_name": "XYMOGEN ActivNutrients Without Iron -- 60 Vegetarian Caps...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-ActivNutrients-Without-Iron-871149001292.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7022,7 +7022,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Nutrient 950",
       "dsld_brand": "Pure Encapsulations",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Nutrient-950-without-Copper-And-Iron-766298002057.jpg",
       "best_price_per_unit": 86.99999999999999,
       "best_total_price": 34.8,
       "unit": "mg",
@@ -7035,7 +7035,7 @@
           "price_per_unit": 86.99999999999999,
           "product_url": "https://www.vitacost.com/pure-encapsulations-nutrient-950-without-copper-iron-90-capsules",
           "product_name": "Pure Encapsulations Nutrient 950 without Copper & Iron --...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Nutrient-950-without-Copper-And-Iron-766298002057.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7055,7 +7055,7 @@
       "brand": "Terry Naturally",
       "dsld_product_name": "Liver Fractions",
       "dsld_brand": "Terry Naturally",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Liver-Fractions-with-Natural-Heme-Iron-367703200893.jpg",
       "best_price_per_unit": 91.89999999999999,
       "best_total_price": 36.76,
       "unit": "mg",
@@ -7068,7 +7068,7 @@
           "price_per_unit": 91.89999999999999,
           "product_url": "https://www.vitacost.com/terry-naturally-liver-fractions-with-natural-heme-iron",
           "product_name": "Terry Naturally Liver Fractions\u2122 with Natural Heme Iron -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Liver-Fractions-with-Natural-Heme-Iron-367703200893.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7087,7 +7087,7 @@
       "brand": "Bariatric Advantage",
       "dsld_product_name": "Chewable High ADEK with Iron Tropical Fruit",
       "dsld_brand": "Bariatric Advantage",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdv/bdv95555/u/8.jpg",
       "best_price_per_unit": 102.5,
       "best_total_price": 30.75,
       "unit": "mg",
@@ -7100,7 +7100,7 @@
           "price_per_unit": 102.5,
           "product_url": "https://www.iherb.com/pr/bariatric-advantage-chewable-high-adek-multi-with-iron-tropical-fruit-60-tablets/141800",
           "product_name": "Bariatric Advantage, Chewable High ADEK Multi with Iron, Tropical Fruit, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdv/bdv95555/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7119,7 +7119,7 @@
       "brand": "Twinlab",
       "dsld_product_name": "Daily One Caps without Iron",
       "dsld_brand": "Twinlab",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Twinlab/Twinlab-Daily-One-Caps-without-Iron-027434003551.jpg",
       "best_price_per_unit": 118.66666666666667,
       "best_total_price": 35.6,
       "unit": "mg",
@@ -7132,7 +7132,7 @@
           "price_per_unit": 118.66666666666667,
           "product_url": "https://www.vitacost.com/twinlab-daily-one-caps-without-iron-180-capsules",
           "product_name": "Twinlab Daily One Caps without Iron -- 180 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Twinlab/Twinlab-Daily-One-Caps-without-Iron-027434003551.jpg",
           "rating": null,
           "reviews": null
         },
@@ -7142,7 +7142,7 @@
           "price_per_unit": 118.66666666666667,
           "product_url": "https://www.iherb.com/pr/twinlab-daily-one-caps-without-iron-180-capsules/2366",
           "product_name": "Twinlab, Daily One Caps, Without Iron, 180 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/twl/twl00355/u/19.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7161,7 +7161,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Ultra One Daily",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Ultra-One-Daily-Iron-Free-097467300910.jpg",
       "best_price_per_unit": 131.6,
       "best_total_price": 39.48,
       "unit": "mg",
@@ -7174,7 +7174,7 @@
           "price_per_unit": 131.6,
           "product_url": "https://www.vitacost.com/naturesplus-ultra-one-daily-iron-free",
           "product_name": "NaturesPlus Ultra One Daily Iron Free -- 90 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Ultra-One-Daily-Iron-Free-097467300910.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7195,7 +7195,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Mini-Multi",
       "dsld_brand": "Carlson",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Mini-Multi-Iron-Free-088395041327.jpg",
       "best_price_per_unit": 195.53333333333333,
       "best_total_price": 29.33,
       "unit": "mg",
@@ -7208,7 +7208,7 @@
           "price_per_unit": 195.53333333333333,
           "product_url": "https://www.vitacost.com/carlson-mini-multi-iron-free-180-tablets",
           "product_name": "Carlson Mini-Multi Iron-Free -- 180 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Mini-Multi-Iron-Free-088395041327.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7225,7 +7225,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Multi-Nutrients with Iron & Iodine",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Vital-Nutrients/Vital-Nutrients-Multi-Nutrients-Without-Iron-And-Iodine-693465503119.jpg",
       "best_price_per_unit": 224.49999999999997,
       "best_total_price": 44.9,
       "unit": "mg",
@@ -7238,7 +7238,7 @@
           "price_per_unit": 224.49999999999997,
           "product_url": "https://www.vitacost.com/vital-nutrients-multi-nutrients-without-iron-iodine-",
           "product_name": "Vital Nutrients Multi-Nutrients -Without Iron & Iodine- -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Vital-Nutrients/Vital-Nutrients-Multi-Nutrients-Without-Iron-And-Iodine-693465503119.jpg",
           "rating": null,
           "reviews": null
         },
@@ -7248,7 +7248,7 @@
           "price_per_unit": 224.49999999999997,
           "product_url": "https://www.iherb.com/pr/vital-nutrients-multi-nutrients-without-iron-iodine-180-vegetarian-capsules/136341",
           "product_name": "Vital Nutrients, Multi-Nutrients (Without Iron & Iodine), 180 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu50311/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7265,7 +7265,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Multi-Nutrients 4 (with Copper & Iron)",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu53011/u/8.jpg",
       "best_price_per_unit": 224.49999999999997,
       "best_total_price": 44.9,
       "unit": "mg",
@@ -7278,7 +7278,7 @@
           "price_per_unit": 224.49999999999997,
           "product_url": "https://www.iherb.com/pr/vital-nutrients-multi-nutrients-with-copper-iron-180-vegetarian-capsules/132058",
           "product_name": "Vital Nutrients, Multi-Nutrients (with Copper & Iron), 180 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu53011/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7295,7 +7295,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Multi-Nutrients 3 (without Copper & without Iron)",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu52511/u/8.jpg",
       "best_price_per_unit": 224.49999999999997,
       "best_total_price": 44.9,
       "unit": "mg",
@@ -7308,7 +7308,7 @@
           "price_per_unit": 224.49999999999997,
           "product_url": "https://www.iherb.com/pr/vital-nutrients-multi-nutrients-citrate-malate-without-copper-without-iron-180-vegetarian-capsules/136340",
           "product_name": "Vital Nutrients, Multi-Nutrients Citrate/Malate (Without Copper & Without Iron), 180 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu52511/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7325,7 +7325,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Nutrient 950",
       "dsld_brand": "Pure Encapsulations",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Nutrient-950-Without-Iron-766298004211.jpg",
       "best_price_per_unit": 261.49999999999994,
       "best_total_price": 104.6,
       "unit": "mg",
@@ -7338,7 +7338,7 @@
           "price_per_unit": 261.49999999999994,
           "product_url": "https://www.vitacost.com/pure-encapsulations-nutrient-950-without-iron-360-capsules",
           "product_name": "Pure Encapsulations Nutrient 950\u00ae Without Iron -- 360 Cap...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Nutrient-950-Without-Iron-766298004211.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7358,7 +7358,7 @@
       "brand": "NutriCology",
       "dsld_product_name": "Multi-Vi-Min",
       "dsld_brand": "NutriCology",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutriCology/NutriCology-Multi-Vi-Min-without-Copper-and-Iron-713947502000.jpg",
       "best_price_per_unit": 288.19819819819816,
       "best_total_price": 31.99,
       "unit": "mg",
@@ -7371,7 +7371,7 @@
           "price_per_unit": 288.19819819819816,
           "product_url": "https://www.vitacost.com/nutricology-multi-vi-min-without-copper-and-iron",
           "product_name": "NutriCology Multi-Vi-Min without Copper and Iron -- 150 V...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutriCology/NutriCology-Multi-Vi-Min-without-Copper-and-Iron-713947502000.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7388,7 +7388,7 @@
       "brand": "Allergy Research Group",
       "dsld_product_name": "Multi-Vi-Min",
       "dsld_brand": "Allergy Research Group",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Allergy-Research-Group/Allergy-Research-Group-Multi-Vi-Min-without-Copper-And-Iron-713947702004.jpg",
       "best_price_per_unit": 288.19819819819816,
       "best_total_price": 31.99,
       "unit": "mg",
@@ -7401,7 +7401,7 @@
           "price_per_unit": 288.19819819819816,
           "product_url": "https://www.vitacost.com/allergy-research-group-multi-vi-min-without-copper-iron",
           "product_name": "Allergy Research Group Multi-Vi-Min without Copper & Iron...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Allergy-Research-Group/Allergy-Research-Group-Multi-Vi-Min-without-Copper-And-Iron-713947702004.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7418,7 +7418,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Vitrum 50+ Adult-Multi Iron Free",
       "dsld_brand": "Mason Natural",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mav/mav18151/u/8.jpg",
       "best_price_per_unit": 333.0,
       "best_total_price": 9.99,
       "unit": "mg",
@@ -7431,7 +7431,7 @@
           "price_per_unit": 333.0,
           "product_url": "https://www.iherb.com/pr/mason-natural-vitrum-50-adult-multi-iron-free-100-caplets/151893",
           "product_name": "Mason Natural, Vitrum 50+ Adult-Multi, Iron Free, 100 Caplets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mav/mav18151/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7451,7 +7451,7 @@
       "brand": "Swanson",
       "dsld_product_name": "Multi without Iron",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01918/u/24.jpg",
       "best_price_per_unit": 351.59999999999997,
       "best_total_price": 8.79,
       "unit": "mg",
@@ -7464,7 +7464,7 @@
           "price_per_unit": 351.59999999999997,
           "product_url": "https://www.iherb.com/pr/swanson-adults-50-multi-without-iron-100-tablets/118367",
           "product_name": "Swanson, Adults 50+ Multi Without Iron, 100 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv01918/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7481,7 +7481,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Multi For Him",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Multi-For-Him-No-Iron-031604017897.jpg",
       "best_price_per_unit": 359.66666666666663,
       "best_total_price": 10.79,
       "unit": "mg",
@@ -7494,7 +7494,7 @@
           "price_per_unit": 359.66666666666663,
           "product_url": "https://www.vitacost.com/nature-made-multi-for-him-no-iron",
           "product_name": "Nature Made Multi For Him No Iron -- 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Multi-For-Him-No-Iron-031604017897.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7516,7 +7516,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Multi Complete",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Multi-Complete-with-Iron-031604025182.jpg",
       "best_price_per_unit": 369.6666666666667,
       "best_total_price": 11.09,
       "unit": "mg",
@@ -7529,7 +7529,7 @@
           "price_per_unit": 369.6666666666667,
           "product_url": "https://www.vitacost.com/nature-made-multi-complete-with-iron",
           "product_name": "Nature Made Multi Complete with Iron -- 130 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Multi-Complete-with-Iron-031604025182.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7549,7 +7549,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Men Over 40 One Daily Iron Free",
       "dsld_brand": "Innate Response Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/inn/inn40125/u/36.jpg",
       "best_price_per_unit": 374.875,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -7562,7 +7562,7 @@
           "price_per_unit": 374.875,
           "product_url": "https://www.iherb.com/pr/innate-response-formulas-men-over-40-one-daily-iron-free-60-tablets/64717",
           "product_name": "Innate Response Formulas, Men Over 40\u2122 One Daily, Iron Free, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/inn/inn40125/u/36.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7586,7 +7586,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Super Multi Iron Free",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Super-Multi-Iron-Free-068958015088.jpg",
       "best_price_per_unit": 474.79999999999995,
       "best_total_price": 11.87,
       "unit": "mg",
@@ -7599,7 +7599,7 @@
           "price_per_unit": 474.79999999999995,
           "product_url": "https://www.vitacost.com/natural-factors-super-multi-iron-free",
           "product_name": "Natural Factors Super Multi Iron Free -- 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Super-Multi-Iron-Free-068958015088.jpg",
           "rating": null,
           "reviews": null
         },
@@ -7609,7 +7609,7 @@
           "price_per_unit": 474.79999999999995,
           "product_url": "https://www.iherb.com/pr/natural-factors-super-multi-iron-free-90-tablets/2691",
           "product_name": "Natural Factors, Super Multi, Iron Free, 90 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nfs/nfs01508/u/20.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7631,7 +7631,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Vitrum 50+ Adult-Multi Iron Free",
       "dsld_brand": "Mason Natural",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mav/mav18157/u/8.jpg",
       "best_price_per_unit": 566.3333333333333,
       "best_total_price": 16.99,
       "unit": "mg",
@@ -7644,7 +7644,7 @@
           "price_per_unit": 566.3333333333333,
           "product_url": "https://www.iherb.com/pr/mason-natural-vitrum-50-adult-multi-iron-free-180-caplets/151889",
           "product_name": "Mason Natural, Vitrum 50+ Adult-Multi, Iron Free, 180 Caplets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mav/mav18157/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7664,7 +7664,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Men's One Daily Iron Free",
       "dsld_brand": "Innate Response Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/inn/inn40054/u/36.jpg",
       "best_price_per_unit": 899.6666666666666,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -7677,7 +7677,7 @@
           "price_per_unit": 899.6666666666666,
           "product_url": "https://www.iherb.com/pr/innate-response-formulas-men-s-one-daily-iron-free-60-tablets/36254",
           "product_name": "Innate Response Formulas, Men's One Daily, Iron Free, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/inn/inn40054/u/36.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7701,7 +7701,7 @@
       "brand": "Bayer One A Day",
       "dsld_product_name": "Prenatal 1",
       "dsld_brand": "Bayer One A Day",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/oad/oad56010/u/12.jpg",
       "best_price_per_unit": 992.5714285714286,
       "best_total_price": 34.74,
       "unit": "mg",
@@ -7714,7 +7714,7 @@
           "price_per_unit": 992.5714285714286,
           "product_url": "https://www.iherb.com/pr/one-a-day-prenatal-1-with-folic-acid-dha-iron-60-softgels/127278",
           "product_name": "One-A-Day, Prenatal 1 with Folic Acid, DHA & Iron, 60 Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/oad/oad56010/u/12.jpg",
           "rating": null,
           "reviews": null
         }

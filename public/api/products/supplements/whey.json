@@ -3525,7 +3525,7 @@
       "brand": "Garden of Life",
       "dsld_product_name": "Organic Whey Protein Grass Fed",
       "dsld_brand": "Garden of Life",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Organic-Whey-Protein-Grass-Fed-Vanilla-658010121262.jpg",
       "best_price_per_unit": 0.003343333333333333,
       "best_total_price": 30.09,
       "unit": "mg",
@@ -3538,7 +3538,7 @@
           "price_per_unit": 0.003343333333333333,
           "product_url": "https://www.vitacost.com/garden-of-life-organic-whey-protein-grass-fed-vanilla",
           "product_name": "Garden of Life Organic Whey Protein Grass Fed Vanilla -- ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Organic-Whey-Protein-Grass-Fed-Vanilla-658010121262.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3559,7 +3559,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Isolate 30 g Cookies N Cream",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67496/u/8.jpg",
       "best_price_per_unit": 0.02401,
       "best_total_price": 48.02,
       "unit": "mg",
@@ -3572,7 +3572,7 @@
           "price_per_unit": 0.02401,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-cookies-n-cream-2-lb-907-g/135601",
           "product_name": "Nutricost, Whey Protein Isolate, Cookies and Cream, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67496/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3591,7 +3591,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Grass-Fed Whey Protein Concentrate 25 g Milk Chocolate",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Grass-Fed-Whey-Protein-Concentrate-Milk-Chocolate-810014675572.jpg",
       "best_price_per_unit": 0.04195,
       "best_total_price": 41.95,
       "unit": "mg",
@@ -3604,7 +3604,7 @@
           "price_per_unit": 0.04195,
           "product_url": "https://www.vitacost.com/nutricost-grass-fed-whey-protein-concentrate",
           "product_name": "Nutricost Grass-Fed Whey Protein Concentrate Milk Chocola...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Grass-Fed-Whey-Protein-Concentrate-Milk-Chocolate-810014675572.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3623,7 +3623,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Grass-Fed Whey Protein Isolate 30 g Milk Chocolate",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67561/u/8.jpg",
       "best_price_per_unit": 0.044950000000000004,
       "best_total_price": 44.95,
       "unit": "mg",
@@ -3636,7 +3636,7 @@
           "price_per_unit": 0.044950000000000004,
           "product_url": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-milk-chocolate-2-lb-907-g/141677",
           "product_name": "Nutricost, Grass-Fed Whey Protein Isolate, Milk Chocolate, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67561/u/8.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3646,7 +3646,7 @@
           "price_per_unit": 0.04579,
           "product_url": "https://www.vitacost.com/nutricost-grass-fed-whey-protein-isolate-milk-chocolate",
           "product_name": "Nutricost Grass-Fed Whey Protein Isolate Milk Chocolate -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Grass-Fed-Whey-Protein-Isolate-Milk-Chocolate-810014675619.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3665,7 +3665,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Grass-Fed Whey Protein Isolate 30 g Vanilla",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67562/u/8.jpg",
       "best_price_per_unit": 0.044950000000000004,
       "best_total_price": 44.95,
       "unit": "mg",
@@ -3678,7 +3678,7 @@
           "price_per_unit": 0.044950000000000004,
           "product_url": "https://www.iherb.com/pr/nutricost-grass-fed-whey-protein-isolate-vanilla-2-lb-907-g/140226",
           "product_name": "Nutricost, Grass-Fed Whey Protein Isolate, Vanilla, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67562/u/8.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3688,7 +3688,7 @@
           "price_per_unit": 0.04919,
           "product_url": "https://www.vitacost.com/nutricost-grass-fed-whey-protein-isolate-vanilla",
           "product_name": "Nutricost Grass-Fed Whey Protein Isolate Vanilla -- 2 lbs",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Grass-Fed-Whey-Protein-Isolate-Vanilla-810014675626.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3707,7 +3707,7 @@
       "brand": "Mt. Capra",
       "dsld_product_name": "Capra Mineral Whey",
       "dsld_brand": "Mt. Capra",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Mt-Capra-Products/Mt-Capra-Products-Capra-Mineral-Whey-Powder-633924003606.jpg",
       "best_price_per_unit": 0.06611538461538462,
       "best_total_price": 17.19,
       "unit": "mg",
@@ -3720,7 +3720,7 @@
           "price_per_unit": 0.06611538461538462,
           "product_url": "https://www.vitacost.com/mt-capra-products-capra-mineral-whey-powder",
           "product_name": "Mt. Capra Products Capra Mineral Whey Powder -- 12.7 oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Mt-Capra-Products/Mt-Capra-Products-Capra-Mineral-Whey-Powder-633924003606.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3730,7 +3730,7 @@
           "price_per_unit": 0.2526923076923077,
           "product_url": "https://www.iherb.com/pr/mt-capra-capra-mineral-whey-50-8-oz-1-440-g/3105",
           "product_name": "Mt. Capra, Capra Mineral Whey, 50.8 oz (1,440 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mtc/mtc01440/u/37.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3747,7 +3747,7 @@
       "brand": "iSatori",
       "dsld_product_name": "100% Bio-Active Whey Vanilla Swirl",
       "dsld_brand": "iSatori",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/isa/isa00477/u/8.jpg",
       "best_price_per_unit": 0.06998,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -3760,7 +3760,7 @@
           "price_per_unit": 0.06998,
           "product_url": "https://www.iherb.com/pr/isatori-100-bio-active-whey-vanilla-swirl-1-9-lbs-864-g/139500",
           "product_name": "Isatori, 100% Bio Active Whey, Vanilla Swirl, 1.9 lbs (864 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/isa/isa00477/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3781,7 +3781,7 @@
       "brand": "iSatori",
       "dsld_product_name": "100% Bio-Active Whey Chocolate Sensation",
       "dsld_brand": "iSatori",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/isa/isa00478/u/8.jpg",
       "best_price_per_unit": 0.06998,
       "best_total_price": 34.99,
       "unit": "mg",
@@ -3794,7 +3794,7 @@
           "price_per_unit": 0.06998,
           "product_url": "https://www.iherb.com/pr/isatori-100-bio-active-whey-chocolate-sensation-2-lbs-928-g/139501",
           "product_name": "Isatori, 100% Bio Active Whey, Chocolate Sensation, 2 lbs (928 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/isa/isa00478/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3815,7 +3815,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Acai",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67487/u/8.jpg",
       "best_price_per_unit": 0.07627272727272728,
       "best_total_price": 41.95,
       "unit": "mg",
@@ -3828,7 +3828,7 @@
           "price_per_unit": 0.07627272727272728,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-strawberry-acai-2-lb-907-g/135629",
           "product_name": "Nutricost, Whey Protein Isolate, Strawberry Acai, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67487/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3847,7 +3847,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02891/u/24.jpg",
       "best_price_per_unit": 0.14055,
       "best_total_price": 28.11,
       "unit": "mg",
@@ -3860,7 +3860,7 @@
           "price_per_unit": 0.14055,
           "product_url": "https://www.iherb.com/pr/swanson-goat-whey-protein-concentrate-powder-unsweetened-14-oz-397-g/118624",
           "product_name": "Swanson, Goat Whey Protein Concentrate Powder, Unsweetened, 14 oz (397 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02891/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3879,7 +3879,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Concentrate 25 g Vanilla",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Whey-Protein-Concentrate-Vanilla-810139572237.jpg",
       "best_price_per_unit": 0.16736526946107785,
       "best_total_price": 27.95,
       "unit": "mg",
@@ -3892,7 +3892,7 @@
           "price_per_unit": 0.16736526946107785,
           "product_url": "https://www.vitacost.com/nutricost-whey-protein-concentrate",
           "product_name": "Nutricost Whey Protein Concentrate Vanilla -- 1.5 lbs",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Whey-Protein-Concentrate-Vanilla-810139572237.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3902,7 +3902,7 @@
           "price_per_unit": 0.17077844311377247,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-concentrate-vanilla-1-5-lb-680-g/145356",
           "product_name": "Nutricost, Whey Protein Concentrate, Vanilla, 1.5 lb (680 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57223/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3921,7 +3921,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Concentrate 25 g Milk Chocolate",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Whey-Protein-Concentrate-Milk-Chocolate-810139572794.jpg",
       "best_price_per_unit": 0.17916666666666667,
       "best_total_price": 27.95,
       "unit": "mg",
@@ -3934,7 +3934,7 @@
           "price_per_unit": 0.17916666666666667,
           "product_url": "https://www.vitacost.com/nutricost-whey-protein-concentrate-milk-chocolate",
           "product_name": "Nutricost Whey Protein Concentrate Milk Chocolate -- 1.5 lbs",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Whey-Protein-Concentrate-Milk-Chocolate-810139572794.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3944,7 +3944,7 @@
           "price_per_unit": 0.18282051282051281,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-concentrate-milk-chocolate-1-5-lb-680-g/145355",
           "product_name": "Nutricost, Whey Protein Concentrate, Milk Chocolate, 1.5 lb (680 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57279/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3963,7 +3963,7 @@
       "brand": "Body Fortress",
       "dsld_product_name": "Super Advanced Whey Protein Cookies N' Creme",
       "dsld_brand": "Body Fortress",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft30010/u/23.jpg",
       "best_price_per_unit": 0.1797752808988764,
       "best_total_price": 32.0,
       "unit": "mg",
@@ -3976,7 +3976,7 @@
           "price_per_unit": 0.1797752808988764,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-cookies-n-creme-1-78-lb-810-g/136361",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Cookies and Cream, 1.78 lb (810 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft30010/u/23.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3993,7 +3993,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Concentrate 25 g Unflavored",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57222/u/8.jpg",
       "best_price_per_unit": 0.18282051282051281,
       "best_total_price": 28.52,
       "unit": "mg",
@@ -4006,7 +4006,7 @@
           "price_per_unit": 0.18282051282051281,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-concentrate-unflavored-1-5-lb-680-g/145454",
           "product_name": "Nutricost, Whey Protein Concentrate, Unflavoured, 1.5 lb (680 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57222/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4025,7 +4025,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv21053/u/8.jpg",
       "best_price_per_unit": 0.18345,
       "best_total_price": 36.69,
       "unit": "mg",
@@ -4038,7 +4038,7 @@
           "price_per_unit": 0.18345,
           "product_url": "https://www.iherb.com/pr/swanson-real-food-whey-protein-vanilla-ice-cream-1-95-lb-885-g/118542",
           "product_name": "Swanson, Real Food Whey Protein, Vanilla Ice Cream, 1.95 lb (885 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv21053/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4057,7 +4057,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Concentrate 25 g Strawberry Milkshake",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67414/u/8.jpg",
       "best_price_per_unit": 0.1924698795180723,
       "best_total_price": 31.95,
       "unit": "mg",
@@ -4070,7 +4070,7 @@
           "price_per_unit": 0.1924698795180723,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-concentrate-strawberry-milkshake-2-lb-907-g/136874",
           "product_name": "Nutricost, Whey Protein Concentrate, Strawberry Milkshake, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67414/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4089,7 +4089,7 @@
       "brand": "Body Fortress",
       "dsld_product_name": "Super Advanced Whey Protein Vanilla",
       "dsld_brand": "Body Fortress",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft32458/u/8.jpg",
       "best_price_per_unit": 0.19322580645161289,
       "best_total_price": 29.95,
       "unit": "mg",
@@ -4102,7 +4102,7 @@
           "price_per_unit": 0.19322580645161289,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-vanilla-1-74-lb-792-g/138821",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Vanilla, 1.74 lb (792 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft32458/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4121,7 +4121,7 @@
       "brand": "MRM",
       "dsld_product_name": "Natural Whey Protein Rich Vanilla",
       "dsld_brand": "MRM",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/MRM/MRM-Natural-Whey-Protein-Powder-Rich-Vanilla-609492720061.jpg",
       "best_price_per_unit": 0.1979,
       "best_total_price": 19.79,
       "unit": "calorie",
@@ -4134,7 +4134,7 @@
           "price_per_unit": 0.1979,
           "product_url": "https://www.vitacost.com/mrm-natural-whey-protein-powder-rich-vanilla",
           "product_name": "MRM Natural Whey Protein Powder Rich Vanilla -- 1.01 lb",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/MRM/MRM-Natural-Whey-Protein-Powder-Rich-Vanilla-609492720061.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4154,7 +4154,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv11893/u/24.jpg",
       "best_price_per_unit": 0.22995000000000002,
       "best_total_price": 45.99,
       "unit": "mg",
@@ -4167,7 +4167,7 @@
           "price_per_unit": 0.22995000000000002,
           "product_url": "https://www.iherb.com/pr/swanson-whey-protein-chocolate-2-5-lbs-1-125-g/123610",
           "product_name": "Swanson, Whey Protein, Chocolate, 2.5 lbs (1,125 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv11893/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4186,7 +4186,7 @@
       "brand": "MuscleTech",
       "dsld_product_name": "Grass-Fed 100% Whey Protein Deluxe Vanilla",
       "dsld_brand": "MuscleTech",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msc/msc71597/u/24.jpg",
       "best_price_per_unit": 0.23926666666666668,
       "best_total_price": 35.89,
       "unit": "mg",
@@ -4199,7 +4199,7 @@
           "price_per_unit": 0.23926666666666668,
           "product_url": "https://www.iherb.com/pr/muscletech-100-grass-fed-whey-protein-deluxe-vanilla-1-8-lbs-816-g/107699",
           "product_name": "MuscleTech, 100% Grass-Fed Whey Protein, Deluxe Vanilla, 1.8 lbs (816 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msc/msc71597/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4222,7 +4222,7 @@
       "brand": "Life Extension Wellness Code",
       "dsld_product_name": "Whey Protein Concentrate Vanilla Flavor",
       "dsld_brand": "Life Extension Wellness Code",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Wellness-Code-Whey-Protein-Concentrate-Vanilla-737870226017.jpg",
       "best_price_per_unit": 0.25,
       "best_total_price": 27.75,
       "unit": "mg",
@@ -4235,7 +4235,7 @@
           "price_per_unit": 0.25,
           "product_url": "https://www.vitacost.com/life-extension-wellness-code-whey-protein-concentrate",
           "product_name": "Life Extension Wellness Code Whey Protein Concentrate Van...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Wellness-Code-Whey-Protein-Concentrate-Vanilla-737870226017.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4255,7 +4255,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Isolate 30 g Salted Caramel",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57334/u/8.jpg",
       "best_price_per_unit": 0.29131944444444446,
       "best_total_price": 41.95,
       "unit": "mg",
@@ -4268,7 +4268,7 @@
           "price_per_unit": 0.29131944444444446,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-salted-caramel-2-lb-907-g/145296",
           "product_name": "Nutricost, Whey Protein Isolate, Salted Caramel, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57334/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4287,7 +4287,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Isolate 30 g Milk Chocolate",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67539/u/8.jpg",
       "best_price_per_unit": 0.30179856115107917,
       "best_total_price": 41.95,
       "unit": "mg",
@@ -4300,7 +4300,7 @@
           "price_per_unit": 0.30179856115107917,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-milk-chocolate-2-lb-907-g/145295",
           "product_name": "Nutricost, Whey Protein Isolate, Milk Chocolate, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67539/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4319,7 +4319,7 @@
       "brand": "Biochem",
       "dsld_product_name": "100% Whey Isolate Protein Sugar-Free Chocolate Flavor",
       "dsld_brand": "Biochem",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/clf/clf02073/u/46.jpg",
       "best_price_per_unit": 0.318625,
       "best_total_price": 25.49,
       "unit": "mg",
@@ -4332,7 +4332,7 @@
           "price_per_unit": 0.318625,
           "product_url": "https://www.iherb.com/pr/biochem-100-whey-isolate-protein-sugar-free-chocolate-12-5-oz-355-g/47314",
           "product_name": "Biochem, 100% Whey Isolate Protein, Sugar Free, Chocolate, 12.5 oz (355 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/clf/clf02073/u/46.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4358,7 +4358,7 @@
       "brand": "Redcon1",
       "dsld_product_name": "Isotope",
       "dsld_brand": "Redcon1",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Redcon1/Redcon1-ISOTOPE-100-Whey-Isolate-Chocolate-850004759592.jpg",
       "best_price_per_unit": 0.31992000000000004,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -4371,7 +4371,7 @@
           "price_per_unit": 0.31992000000000004,
           "product_url": "https://www.vitacost.com/redcon1-isotope-100-whey-isolate-chocolate-2-07-lbs",
           "product_name": "Redcon1 ISOTOPE 100% Whey Isolate Chocolate -- 2.07 lbs",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Redcon1/Redcon1-ISOTOPE-100-Whey-Isolate-Chocolate-850004759592.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4381,7 +4381,7 @@
           "price_per_unit": 0.35992,
           "product_url": "https://www.iherb.com/pr/redcon1-isotope-100-whey-isolate-peanut-butter-chocolate-2-26-lb-1-023-g/132950",
           "product_name": "Redcon1, Isotope, 100% Whey Isolate, Peanut Butter Chocolate, 1.03 kg (2.26 lb)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rdc/rdc75960/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4398,7 +4398,7 @@
       "brand": "Life Extension Wellness Code",
       "dsld_product_name": "Whey Protein Isolate Chocolate Flavor",
       "dsld_brand": "Life Extension Wellness Code",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Wellness-Code-Whey-Protein-Isolate-Chocolate-737870224303.jpg",
       "best_price_per_unit": 0.33238636363636365,
       "best_total_price": 29.25,
       "unit": "mg",
@@ -4411,7 +4411,7 @@
           "price_per_unit": 0.33238636363636365,
           "product_url": "https://www.vitacost.com/life-extension-wellness-code-whey-protein-isolate-chocolate",
           "product_name": "Life Extension Wellness Code Whey Protein Isolate Chocola...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Wellness-Code-Whey-Protein-Isolate-Chocolate-737870224303.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4431,7 +4431,7 @@
       "brand": "Life Extension Wellness Code",
       "dsld_product_name": "Whey Protein Isolate Vanilla Flavor",
       "dsld_brand": "Life Extension Wellness Code",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Wellness-Code-Whey-Protein-Isolate-Vanilla-737870224211.jpg",
       "best_price_per_unit": 0.3352941176470588,
       "best_total_price": 28.5,
       "unit": "mg",
@@ -4444,7 +4444,7 @@
           "price_per_unit": 0.3352941176470588,
           "product_url": "https://www.vitacost.com/life-extension-wellness-code-whey-protein-isolate-vanilla",
           "product_name": "Life Extension Wellness Code Whey Protein Isolate Vanilla...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Wellness-Code-Whey-Protein-Isolate-Vanilla-737870224211.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4494,7 +4494,7 @@
       "brand": "Body Fortress",
       "dsld_product_name": "Super Advanced Whey Protein Chocolate Peanut Butter",
       "dsld_brand": "Body Fortress",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft32460/u/5.jpg",
       "best_price_per_unit": 0.3404255319148936,
       "best_total_price": 32.0,
       "unit": "mg",
@@ -4507,7 +4507,7 @@
           "price_per_unit": 0.3404255319148936,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-chocolate-peanut-butter-1-78-lb-810-g/136360",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Chocolate Peanut Butter, 1.78 lb (810 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft32460/u/5.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4526,7 +4526,7 @@
       "brand": "GHOST",
       "dsld_product_name": "Whey Protein Peanut Butter Cereal Milk",
       "dsld_brand": "GHOST",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00642/u/8.jpg",
       "best_price_per_unit": 0.3648905109489051,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -4539,7 +4539,7 @@
           "price_per_unit": 0.3648905109489051,
           "product_url": "https://www.iherb.com/pr/ghost-whey-protein-peanut-butter-cereal-milk-2-lb-924-g/147719",
           "product_name": "Ghost, Whey Protein, Peanut Butter Cereal Milk\u00ae, 2 lb (924 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00642/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4561,7 +4561,7 @@
       "brand": "GHOST",
       "dsld_product_name": "Whey Protein Milk Chocolate",
       "dsld_brand": "GHOST",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00617/u/8.jpg",
       "best_price_per_unit": 0.3702962962962963,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -4574,7 +4574,7 @@
           "price_per_unit": 0.3702962962962963,
           "product_url": "https://www.iherb.com/pr/ghost-whey-protein-milk-chocolate-2-lb-924-g/147717",
           "product_name": "Ghost, Whey Protein, Milk Chocolate, 2 lb (924 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00617/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4626,7 +4626,7 @@
       "brand": "GHOST",
       "dsld_product_name": "Whey Protein Cereal Milk",
       "dsld_brand": "GHOST",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00615/u/8.jpg",
       "best_price_per_unit": 0.3730597014925373,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -4639,7 +4639,7 @@
           "price_per_unit": 0.3730597014925373,
           "product_url": "https://www.iherb.com/pr/ghost-whey-protein-cereal-milk-2-lb-924-g/147715",
           "product_name": "Ghost, Whey Protein, Cereal Milk\u00ae, 2 lb (924 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00615/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4661,7 +4661,7 @@
       "brand": "GHOST",
       "dsld_product_name": "Whey Protein Fruity Cereal Milk",
       "dsld_brand": "GHOST",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00641/u/8.jpg",
       "best_price_per_unit": 0.37586466165413535,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -4674,7 +4674,7 @@
           "price_per_unit": 0.37586466165413535,
           "product_url": "https://www.iherb.com/pr/ghost-whey-protein-fruity-cereal-milk-2lb-924-g/147716",
           "product_name": "Ghost, Whey Protein, Fruity Cereal Milk\u00ae, 2lb (924 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00641/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4691,7 +4691,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Isolate 30 g Chocolate PB",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67135/u/8.jpg",
       "best_price_per_unit": 0.3813636363636364,
       "best_total_price": 41.95,
       "unit": "mg",
@@ -4704,7 +4704,7 @@
           "price_per_unit": 0.3813636363636364,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-chocolate-pb-2-lb-907-g/136880",
           "product_name": "Nutricost, Whey Protein Isolate, Chocolate PB, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67135/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4723,7 +4723,7 @@
       "brand": "Davinci Laboratories",
       "dsld_product_name": "Right Whey Creamy Vanilla",
       "dsld_brand": "DaVinci Laboratories",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/dvi/dvi01117/u/8.jpg",
       "best_price_per_unit": 0.3825263157894737,
       "best_total_price": 72.68,
       "unit": "mg",
@@ -4736,7 +4736,7 @@
           "price_per_unit": 0.3825263157894737,
           "product_url": "https://www.iherb.com/pr/davinci-laboratories-right-whey-creamy-vanilla-2-2-lbs-996-g/128115",
           "product_name": "DaVinci Laboratories, Right Whey, Creamy Vanilla, 2.2 lbs (996 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/dvi/dvi01117/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4753,7 +4753,7 @@
       "brand": "Optimum Nutrition",
       "dsld_product_name": "Gold Standard 100% Whey Vanilla Ice Cream",
       "dsld_brand": "Optimum Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02865/u/57.jpg",
       "best_price_per_unit": 0.38453846153846155,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -4766,7 +4766,7 @@
           "price_per_unit": 0.38453846153846155,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-vanilla-ice-cream-1-98-lb-899-g/27501",
           "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Whey, Vanilla Ice Cream, 1.98 lb (899 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02865/u/57.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4796,7 +4796,7 @@
       "brand": "Optimum Nutrition",
       "dsld_product_name": "Gold Standard 100% Whey Double Rich Chocolate",
       "dsld_brand": "Optimum Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02861/u/69.jpg",
       "best_price_per_unit": 0.38453846153846155,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -4809,7 +4809,7 @@
           "price_per_unit": 0.38453846153846155,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-1-98-lb-899-g/27497",
           "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Whey Protein, Double Rich Chocolate, 1.98 lb (899 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02861/u/69.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4836,7 +4836,7 @@
       "brand": "Optimum Nutrition",
       "dsld_product_name": "Gold Standard 100% Whey Chocolate",
       "dsld_brand": "Optimum Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02232/u/50.jpg",
       "best_price_per_unit": 0.38453846153846155,
       "best_total_price": 49.99,
       "unit": "calorie",
@@ -4849,7 +4849,7 @@
           "price_per_unit": 0.38453846153846155,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-chocolate-malt-2-lb-907-g/85070",
           "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Whey, Chocolate Malt, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02232/u/50.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4866,7 +4866,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Isolate 30 g Cake Batter",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67499/u/8.jpg",
       "best_price_per_unit": 0.38486238532110095,
       "best_total_price": 41.95,
       "unit": "mg",
@@ -4879,7 +4879,7 @@
           "price_per_unit": 0.38486238532110095,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-cake-batter-2-lb-907-g/135606",
           "product_name": "Nutricost, Whey Protein Isolate, Cake Batter, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67499/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4898,7 +4898,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "100% Whey Protein Isolate Alpine Vanilla",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb50031/u/16.jpg",
       "best_price_per_unit": 0.3984782608695652,
       "best_total_price": 54.99,
       "unit": "mg",
@@ -4911,7 +4911,7 @@
           "price_per_unit": 0.3984782608695652,
           "product_url": "https://www.iherb.com/pr/nutrabio-whey-protein-isolate-alpine-vanilla-2-lb-907-g/80789",
           "product_name": "NutraBio, Whey Protein Isolate, Alpine Vanilla, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb50031/u/16.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4935,7 +4935,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "100% Whey Protein Isolate Blueberry Muffin",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26981/u/34.jpg",
       "best_price_per_unit": 0.3984782608695652,
       "best_total_price": 54.99,
       "unit": "mg",
@@ -4948,7 +4948,7 @@
           "price_per_unit": 0.3984782608695652,
           "product_url": "https://www.iherb.com/pr/nutrabio-whey-protein-isolate-blueberry-muffin-2-lb-907-g/95847",
           "product_name": "NutraBio, Whey Protein Isolate, Blueberry Muffin, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26981/u/34.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4970,7 +4970,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Whey Protein Isolate 30 g Vanilla",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67540/u/8.jpg",
       "best_price_per_unit": 0.39952380952380956,
       "best_total_price": 41.95,
       "unit": "mg",
@@ -4983,7 +4983,7 @@
           "price_per_unit": 0.39952380952380956,
           "product_url": "https://www.iherb.com/pr/nutricost-whey-protein-isolate-vanilla-2-lb-907-g/139406",
           "product_name": "Nutricost, Whey Protein Isolate, Vanilla, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs67540/u/8.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4993,7 +4993,7 @@
           "price_per_unit": 0.39990476190476193,
           "product_url": "https://www.vitacost.com/nutricost-whey-protein-isolate-vanilla",
           "product_name": "Nutricost Whey Protein Isolate Vanilla -- 2 lbs",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Whey-Protein-Isolate-Vanilla-810014675404.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5044,7 +5044,7 @@
       "brand": "Body Fortress",
       "dsld_product_name": "Super Advanced Whey Protein Strawberry",
       "dsld_brand": "Body Fortress",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft32459/u/8.jpg",
       "best_price_per_unit": 0.4,
       "best_total_price": 32.0,
       "unit": "mg",
@@ -5057,7 +5057,7 @@
           "price_per_unit": 0.4,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-strawberry-1-78-lb-810-g/136359",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Strawberry, 1.78 lb (810 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft32459/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5076,7 +5076,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Whey Protein Isolate Dutch Chocolate",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb50011/u/32.jpg",
       "best_price_per_unit": 0.40433823529411766,
       "best_total_price": 54.99,
       "unit": "mg",
@@ -5089,7 +5089,7 @@
           "price_per_unit": 0.40433823529411766,
           "product_url": "https://www.iherb.com/pr/nutrabio-whey-protein-isolate-dutch-chocolate-2-lb-907-g/80788",
           "product_name": "NutraBio, Whey Protein Isolate, Dutch Chocolate, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb50011/u/32.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5143,7 +5143,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "100% Whey Protein Isolate Alpine Vanilla",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Whey-Protein-Isolate-Alpine-Vanilla-649908500313.jpg",
       "best_price_per_unit": 0.4073333333333333,
       "best_total_price": 54.99,
       "unit": "mg",
@@ -5156,7 +5156,7 @@
           "price_per_unit": 0.4073333333333333,
           "product_url": "https://www.vitacost.com/nutrabio-whey-protein-isolate-alpine-vanilla-32-oz",
           "product_name": "NutraBio Whey Protein Isolate Alpine Vanilla -- 32 oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Whey-Protein-Isolate-Alpine-Vanilla-649908500313.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5248,7 +5248,7 @@
       "brand": "Body Fortress",
       "dsld_product_name": "Super Advanced Whey Protein Chocolate",
       "dsld_brand": "Body Fortress",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft30000/u/24.jpg",
       "best_price_per_unit": 0.4444444444444444,
       "best_total_price": 32.0,
       "unit": "mg",
@@ -5261,7 +5261,7 @@
           "price_per_unit": 0.4444444444444444,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-chocolate-1-78-lb-810-g/136358",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Chocolate, 1.78 lb (810 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft30000/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5280,7 +5280,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Classic Whey Chocolate Peanut Butter Bliss",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Classic-Whey-Protein-Chocolate-Peanut-Butter-Bliss-649908211714.jpg",
       "best_price_per_unit": 0.6249305555555555,
       "best_total_price": 89.99,
       "unit": "mg",
@@ -5293,7 +5293,7 @@
           "price_per_unit": 0.6249305555555555,
           "product_url": "https://www.vitacost.com/nutrabio-classic-whey-protein-chocolate-peanut-butter-bliss",
           "product_name": "NutraBio Classic Whey Protein Chocolate Peanut Butter Bli...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Classic-Whey-Protein-Chocolate-Peanut-Butter-Bliss-649908211714.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5319,7 +5319,7 @@
       "brand": "Redcon1",
       "dsld_product_name": "Isotope",
       "dsld_brand": "Redcon1",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Redcon1/Redcon1-ISOTOPE-100-Whey-Isolate-Vanilla-850004759622.jpg",
       "best_price_per_unit": 0.6399199999999999,
       "best_total_price": 79.99,
       "unit": "mg",
@@ -5332,7 +5332,7 @@
           "price_per_unit": 0.6399199999999999,
           "product_url": "https://www.vitacost.com/redcon1-isotope-100-whey-isolate",
           "product_name": "Redcon1 ISOTOPE 100% Whey Isolate Vanilla -- 4.71 lbs",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Redcon1/Redcon1-ISOTOPE-100-Whey-Isolate-Vanilla-850004759622.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5342,7 +5342,7 @@
           "price_per_unit": 0.71992,
           "product_url": "https://www.iherb.com/pr/redcon1-isotope-100-whey-isolate-vanilla-4-71-lb-2-137-g/132948",
           "product_name": "Redcon1, Isotope, 100% Whey Isolate, Vanilla, 4.71 lb (2,137 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rdc/rdc75962/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5359,7 +5359,7 @@
       "brand": "Optimum Nutrition",
       "dsld_product_name": "Gold Standard 100% Whey Chocolate Coconut",
       "dsld_brand": "Optimum Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02706/u/56.jpg",
       "best_price_per_unit": 0.6427857142857143,
       "best_total_price": 89.99,
       "unit": "mg",
@@ -5372,7 +5372,7 @@
           "price_per_unit": 0.6427857142857143,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-chocolate-coconut-5-lb-2-27-kg/69590",
           "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Whey, Chocolate Coconut, 5 lb (2.27 kg)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02706/u/56.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5389,7 +5389,7 @@
       "brand": "MuscleTech",
       "dsld_product_name": "Nitro Tech 100% Whey Gold Strawberry Shortcake",
       "dsld_brand": "MuscleTech",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msc/msc71050/u/70.jpg",
       "best_price_per_unit": 0.6527272727272727,
       "best_total_price": 71.8,
       "unit": "mg",
@@ -5402,7 +5402,7 @@
           "price_per_unit": 0.6527272727272727,
           "product_url": "https://www.iherb.com/pr/muscletech-nitro-tech-100-whey-gold-strawberry-shortcake-5-03-lbs-2-28-kg/74283",
           "product_name": "MuscleTech, Nitro-Tech\u00ae 100% Whey Gold, Strawberry Shortcake, 5.03 lbs (2.28 kg)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msc/msc71050/u/70.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5419,7 +5419,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Whey Factors Unflavored",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Whey-Factors-Unflavored-068958029290.jpg",
       "best_price_per_unit": 0.7239285714285714,
       "best_total_price": 20.27,
       "unit": "mg",
@@ -5432,7 +5432,7 @@
           "price_per_unit": 0.7239285714285714,
           "product_url": "https://www.vitacost.com/natural-factors-whey-factors-unflavored",
           "product_name": "Natural Factors Whey Factors Unflavored -- 12 oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Whey-Factors-Unflavored-068958029290.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5455,7 +5455,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Whey Factors Natural French Vanilla Flavor",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Whey-Factors-Natural-French-Vanilla-068958029269.jpg",
       "best_price_per_unit": 0.7239285714285714,
       "best_total_price": 20.27,
       "unit": "mg",
@@ -5468,7 +5468,7 @@
           "price_per_unit": 0.7239285714285714,
           "product_url": "https://www.vitacost.com/natural-factors-whey-factors-natural-french-vanilla",
           "product_name": "Natural Factors Whey Factors Natural French Vanilla -- 12 oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Whey-Factors-Natural-French-Vanilla-068958029269.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5492,7 +5492,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "100% Whey Protein Isolate Dutch Chocolate",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Whey-Protein-Isolate-5lb-Dutch-Chocolate-649908500122.jpg",
       "best_price_per_unit": 0.7856428571428571,
       "best_total_price": 109.99,
       "unit": "mg",
@@ -5505,7 +5505,7 @@
           "price_per_unit": 0.7856428571428571,
           "product_url": "https://www.vitacost.com/nutrabio-whey-protein-isolate-5lb",
           "product_name": "NutraBio Whey Protein Isolate 5lb Dutch Chocolate -- 75 S...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Whey-Protein-Isolate-5lb-Dutch-Chocolate-649908500122.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5529,7 +5529,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "100% Whey Protein Isolate Alpine Vanilla",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Whey-Protein-Isolate-5lb-Alpine-Vanilla-649908500320.jpg",
       "best_price_per_unit": 0.7970289855072463,
       "best_total_price": 109.99,
       "unit": "mg",
@@ -5542,7 +5542,7 @@
           "price_per_unit": 0.7970289855072463,
           "product_url": "https://www.vitacost.com/nutrabio-whey-protein-isolate-5lb-alpine-vanilla",
           "product_name": "NutraBio Whey Protein Isolate 5lb Alpine Vanilla -- 75 Se...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Whey-Protein-Isolate-5lb-Alpine-Vanilla-649908500320.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5665,7 +5665,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Whey Factors Natural Double Chocolate Flavor",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Whey-Factors-Natural-Double-Chocolate-068958029344.jpg",
       "best_price_per_unit": 1.5489285714285714,
       "best_total_price": 43.37,
       "unit": "mg",
@@ -5678,7 +5678,7 @@
           "price_per_unit": 1.5489285714285714,
           "product_url": "https://www.vitacost.com/natural-factors-whey-factors-natural-double-chocolate-2-lbs",
           "product_name": "Natural Factors Whey Factors Natural Double Chocolate -- ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Whey-Factors-Natural-Double-Chocolate-068958029344.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5701,7 +5701,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Whey Factors Natural French Vanilla Flavor",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Whey-Factors-Natural-French-Vanilla-068958029320.jpg",
       "best_price_per_unit": 1.5489285714285714,
       "best_total_price": 43.37,
       "unit": "mg",
@@ -5714,7 +5714,7 @@
           "price_per_unit": 1.5489285714285714,
           "product_url": "https://www.vitacost.com/natural-factors-whey-factors-natural-french-vanilla-2-lbs",
           "product_name": "Natural Factors Whey Factors Natural French Vanilla -- 2 lbs",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Whey-Factors-Natural-French-Vanilla-068958029320.jpg",
           "rating": null,
           "reviews": null
         }

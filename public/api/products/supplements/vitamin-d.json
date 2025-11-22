@@ -3523,7 +3523,7 @@
       "brand": "Metabolic Maintenance",
       "dsld_product_name": "Vitamin D-3 with Vitamin K-2 MenaQ7",
       "dsld_brand": "Metabolic Maintenance",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00511/u/44.jpg",
       "best_price_per_unit": 0.00104,
       "best_total_price": 26.0,
       "unit": "iu",
@@ -3536,7 +3536,7 @@
           "price_per_unit": 0.00104,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-vitamin-d-3-with-vitamin-k2-mk-7-60-capsules/37556",
           "product_name": "Metabolic Maintenance, Vitamin D3 with Vitamin K2 MK-7, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00511/u/44.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3586,7 +3586,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Vitamin D-3 5000 IU",
       "dsld_brand": "Source Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-021078023371.jpg",
       "best_price_per_unit": 0.001576,
       "best_total_price": 7.88,
       "unit": "iu",
@@ -3599,7 +3599,7 @@
           "price_per_unit": 0.001576,
           "product_url": "https://www.vitacost.com/source-naturals-vitamin-d-3-5000-iu-120-capsules",
           "product_name": "Source Naturals Vitamin D-3 -- 5000 IU - 120 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-021078023371.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3619,7 +3619,7 @@
       "brand": "Superior Source",
       "dsld_product_name": "D3 10000 IU",
       "dsld_brand": "Superior Source",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Extra-Strength-Vitamin-D3-076635908707.jpg",
       "best_price_per_unit": 0.0017420000000000003,
       "best_total_price": 17.42,
       "unit": "iu",
@@ -3632,7 +3632,7 @@
           "price_per_unit": 0.0017420000000000003,
           "product_url": "https://www.vitacost.com/superior-source-extra-strength-vitamin-d3",
           "product_name": "Superior Source Extra Strength Vitamin D3 -- 10000 IU - 1...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Extra-Strength-Vitamin-D3-076635908707.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3649,7 +3649,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Vitamin D-3 1000 IU",
       "dsld_brand": "Source Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-021078023814.jpg",
       "best_price_per_unit": 0.0019950000000000002,
       "best_total_price": 3.99,
       "unit": "iu",
@@ -3662,7 +3662,7 @@
           "price_per_unit": 0.0019950000000000002,
           "product_url": "https://www.vitacost.com/source-naturals-vitamin-d-3-1000-iu-100-softgels-2",
           "product_name": "Source Naturals Vitamin D-3 -- 1000 IU - 100 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-021078023814.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3682,7 +3682,7 @@
       "brand": "Life Extension",
       "dsld_product_name": "Vitamin D3 5000 IU",
       "dsld_brand": "Life Extension",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Vitamin-D3-with-Sea-Iodine-737870175865.jpg",
       "best_price_per_unit": 0.0021,
       "best_total_price": 10.5,
       "unit": "iu",
@@ -3695,7 +3695,7 @@
           "price_per_unit": 0.0021,
           "product_url": "https://www.vitacost.com/life-extension-vitamin-d3-with-sea-iodine-5000-iu-60-capsules-2",
           "product_name": "Life Extension Vitamin D3 with Sea Iodine -- 5000 IU - 60...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Vitamin-D3-with-Sea-Iodine-737870175865.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3715,7 +3715,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Vitamin D-3 1000 IU",
       "dsld_brand": "Source Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-021078017912.jpg",
       "best_price_per_unit": 0.0022949999999999997,
       "best_total_price": 4.59,
       "unit": "iu",
@@ -3728,7 +3728,7 @@
           "price_per_unit": 0.0022949999999999997,
           "product_url": "https://www.vitacost.com/source-naturals-vitamin-d-3-1000-iu-100-tablets",
           "product_name": "Source Naturals Vitamin D-3 -- 1000 IU - 100 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-021078017912.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3748,7 +3748,7 @@
       "brand": "Advanced Nutrition by Zahler",
       "dsld_product_name": "Vitamin D3 10000 IU",
       "dsld_brand": "Zahler",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Vitamin-D3-848998000448.jpg",
       "best_price_per_unit": 0.002419,
       "best_total_price": 24.19,
       "unit": "iu",
@@ -3761,7 +3761,7 @@
           "price_per_unit": 0.002419,
           "product_url": "https://www.vitacost.com/zahler-vitamin-d3-10000-iu-120-softgels",
           "product_name": "Zahler Vitamin D3 -- 10000 IU - 120 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Vitamin-D3-848998000448.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3780,7 +3780,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Vitamin D-3",
       "dsld_brand": "Source Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-Liquid-021078022749.jpg",
       "best_price_per_unit": 0.002745,
       "best_total_price": 5.49,
       "unit": "iu",
@@ -3793,7 +3793,7 @@
           "price_per_unit": 0.002745,
           "product_url": "https://www.vitacost.com/source-naturals-vitamin-d-3-liquid-1-fl-oz",
           "product_name": "Source Naturals Vitamin D-3 Liquid -- 1 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-Liquid-021078022749.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3803,7 +3803,7 @@
           "price_per_unit": 0.009975,
           "product_url": "https://www.iherb.com/pr/source-naturals-vitamin-d-3-400-capsules/65301",
           "product_name": "Source Naturals, Vitamin D-3, 400 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sns/sns02681/u/29.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3820,7 +3820,7 @@
       "brand": "vitafusion",
       "dsld_product_name": "Vitamin D3",
       "dsld_brand": "vitafusion",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Vitafusion/Vitafusion-Vitamin-D3-Gummies-Natural-Peach-And-Berry-027917021348.jpg",
       "best_price_per_unit": 0.0036633333333333335,
       "best_total_price": 10.99,
       "unit": "mg",
@@ -3833,7 +3833,7 @@
           "price_per_unit": 0.0036633333333333335,
           "product_url": "https://www.vitacost.com/vitafusion-vitamin-d3-gummies",
           "product_name": "Vitafusion Vitamin D3 Gummies Natural Peach & Berry -- 20...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Vitafusion/Vitafusion-Vitamin-D3-Gummies-Natural-Peach-And-Berry-027917021348.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3854,7 +3854,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Vitamin-D3-068958010533.jpg",
       "best_price_per_unit": 0.003835,
       "best_total_price": 7.67,
       "unit": "iu",
@@ -3867,7 +3867,7 @@
           "price_per_unit": 0.003835,
           "product_url": "https://www.vitacost.com/natural-factors-vitamin-d3-2000-iu-120-softgels",
           "product_name": "Natural Factors Vitamin D3 -- 2000 IU - 120 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Vitamin-D3-068958010533.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3889,7 +3889,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Vitamin D3 1000 IU Gummies Mixed Berry",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap10404/u/25.jpg",
       "best_price_per_unit": 0.003945,
       "best_total_price": 7.89,
       "unit": "mg",
@@ -3902,7 +3902,7 @@
           "price_per_unit": 0.003945,
           "product_url": "https://www.iherb.com/pr/naturesplus-vitamin-d3-gummies-mixed-berry-1-000-iu-60-gummies/115748",
           "product_name": "NaturesPlus, Vitamin D3 Gummies, Mixed Berry, 1,000 IU, 60 Gummies",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap10404/u/25.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3922,7 +3922,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-031604025854.jpg",
       "best_price_per_unit": 0.004095,
       "best_total_price": 8.19,
       "unit": "iu",
@@ -3935,7 +3935,7 @@
           "price_per_unit": 0.004095,
           "product_url": "https://www.vitacost.com/nature-made-vitamin-d3-2000-iu-90-softgels",
           "product_name": "Nature Made Vitamin D3 -- 2000 IU - 90 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-031604025854.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3957,7 +3957,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "D3 5000 IU",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-D3-High-Potency-031604027780.jpg",
       "best_price_per_unit": 0.0045780000000000005,
       "best_total_price": 22.89,
       "unit": "iu",
@@ -3970,7 +3970,7 @@
           "price_per_unit": 0.0045780000000000005,
           "product_url": "https://www.vitacost.com/nature-made-d3-high-potency",
           "product_name": "Nature Made D3 High Potency -- 5000 IU - 180 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-D3-High-Potency-031604027780.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3987,7 +3987,7 @@
       "brand": "NOW",
       "dsld_product_name": "Vitamin D-3 1000 IU",
       "dsld_brand": "NOW",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Vitamin-D-3-733739003652.jpg",
       "best_price_per_unit": 0.00509,
       "best_total_price": 5.09,
       "unit": "iu",
@@ -4000,7 +4000,7 @@
           "price_per_unit": 0.00509,
           "product_url": "https://www.vitacost.com/now-vitamin-d-3-1000-iu-180-softgels",
           "product_name": "NOW Vitamin D-3 -- 1000 IU - 180 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Vitamin-D-3-733739003652.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4019,7 +4019,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "D3 1000 IU",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-031604026752.jpg",
       "best_price_per_unit": 0.00609,
       "best_total_price": 6.09,
       "unit": "iu",
@@ -4032,7 +4032,7 @@
           "price_per_unit": 0.00609,
           "product_url": "https://www.vitacost.com/nature-made-vitamin-d3-1000-iu-100-softgels",
           "product_name": "Nature Made Vitamin D3 -- 1000 IU - 100 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-031604026752.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4054,7 +4054,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Vitamin D3 1000 IU Gummies Wild Berry",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Vitamin-D3-Gummies-Wild-Berry-768990311406.jpg",
       "best_price_per_unit": 0.006355,
       "best_total_price": 12.71,
       "unit": "mg",
@@ -4067,7 +4067,7 @@
           "price_per_unit": 0.006355,
           "product_url": "https://www.vitacost.com/nordic-naturals-vitamin-d3-gummies-wild-berry-1000-iu-60-gummies-1",
           "product_name": "Nordic Naturals Vitamin D3 Gummies Wild Berry -- 1000 IU ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Vitamin-D3-Gummies-Wild-Berry-768990311406.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4087,7 +4087,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Vitamin D3 5000 IU Gummies Strawberry",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Vitamin-D3-097467010475.jpg",
       "best_price_per_unit": 0.006355,
       "best_total_price": 12.71,
       "unit": "mg",
@@ -4100,7 +4100,7 @@
           "price_per_unit": 0.006355,
           "product_url": "https://www.vitacost.com/naturesplus-vitamin-d3",
           "product_name": "NaturesPlus Vitamin D3 -- 5000 IU - 60 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Vitamin-D3-097467010475.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4120,7 +4120,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "Nature's Way",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Vitamin-D3-Extra-Strength-2000-IU-033674156049.jpg",
       "best_price_per_unit": 0.007545,
       "best_total_price": 15.09,
       "unit": "iu",
@@ -4133,7 +4133,7 @@
           "price_per_unit": 0.007545,
           "product_url": "https://www.vitacost.com/natures-way-vitamin-d3-extra-strength-2000-iu",
           "product_name": "Nature's Way Vitamin D3 Extra Strength - 2000 IU -- 50 mc...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Vitamin-D3-Extra-Strength-2000-IU-033674156049.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4153,7 +4153,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Vitamin D3 1000 IU",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Vitamin-D3-068958010540.jpg",
       "best_price_per_unit": 0.00767,
       "best_total_price": 7.67,
       "unit": "iu",
@@ -4166,7 +4166,7 @@
           "price_per_unit": 0.00767,
           "product_url": "https://www.vitacost.com/natural-factors-vitamin-d3-1000-iu-180-softgels",
           "product_name": "Natural Factors Vitamin D3 -- 1000 IU - 180 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Vitamin-D3-068958010540.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4188,7 +4188,7 @@
       "brand": "Superior Source",
       "dsld_product_name": "D3 1000 IU",
       "dsld_brand": "Superior Source",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Vitamin-D3-076635908509.jpg",
       "best_price_per_unit": 0.00779,
       "best_total_price": 7.79,
       "unit": "iu",
@@ -4201,7 +4201,7 @@
           "price_per_unit": 0.00779,
           "product_url": "https://www.vitacost.com/superior-source-vitamin-d3",
           "product_name": "Superior Source Vitamin D3 -- 1000 IU - 100 Instant Disso...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Vitamin-D3-076635908509.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4218,7 +4218,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "Nature's Way",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Vitamin-D3-Gummies-Mixed-Fruit-033674136089.jpg",
       "best_price_per_unit": 0.007795,
       "best_total_price": 15.59,
       "unit": "iu",
@@ -4231,7 +4231,7 @@
           "price_per_unit": 0.007795,
           "product_url": "https://www.vitacost.com/natures-way-vitamin-d3-gummies",
           "product_name": "Nature's Way Vitamin D3 Gummies - Mixed Fruit -- 2000 IU ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Vitamin-D3-Gummies-Mixed-Fruit-033674136089.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4251,7 +4251,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Vitamin D3 1000 IU",
       "dsld_brand": "Country Life",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Vitamin-D3-015794058045.jpg",
       "best_price_per_unit": 0.00802,
       "best_total_price": 8.02,
       "unit": "iu",
@@ -4264,7 +4264,7 @@
           "price_per_unit": 0.00802,
           "product_url": "https://www.vitacost.com/country-life-vitamin-d3-1000-iu-100-softgels",
           "product_name": "Country Life Vitamin D3 -- 1000 IU - 100 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Vitamin-D3-015794058045.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4287,7 +4287,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Vitamin D3 1000 IU Gummies Mixed Berry",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Vitamin-D3-097467010420.jpg",
       "best_price_per_unit": 0.008905,
       "best_total_price": 17.81,
       "unit": "mg",
@@ -4300,7 +4300,7 @@
           "price_per_unit": 0.008905,
           "product_url": "https://www.vitacost.com/naturesplus-vitamin-d3-1000-iu-180-softgels",
           "product_name": "NaturesPlus Vitamin D3 -- 1000 IU - 180 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Vitamin-D3-097467010420.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4320,7 +4320,7 @@
       "brand": "Allergy Research Group",
       "dsld_product_name": "Super D3",
       "dsld_brand": "Allergy Research Group",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Allergy-Research-Group/Allergy-Research-Group-Super-D3-713947748408.jpg",
       "best_price_per_unit": 0.008995,
       "best_total_price": 17.99,
       "unit": "iu",
@@ -4333,7 +4333,7 @@
           "price_per_unit": 0.008995,
           "product_url": "https://www.vitacost.com/allergy-research-group-super-d3-60-vegetarian-capsules",
           "product_name": "Allergy Research Group Super D3 -- 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Allergy-Research-Group/Allergy-Research-Group-Super-D3-713947748408.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4382,7 +4382,7 @@
       "brand": "Life Extension",
       "dsld_product_name": "Liquid Vitamin D3 2000 IU",
       "dsld_brand": "Life Extension",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Liquid-Vitamin-D3-737870224419.jpg",
       "best_price_per_unit": 0.0105,
       "best_total_price": 21.0,
       "unit": "iu",
@@ -4395,7 +4395,7 @@
           "price_per_unit": 0.0105,
           "product_url": "https://www.vitacost.com/life-extension-liquid-vitamin-d3-2000-iu-1-fl-oz",
           "product_name": "Life Extension Liquid Vitamin D3 -- 2000 IU - 1 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Liquid-Vitamin-D3-737870224419.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4414,7 +4414,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Vitamin D3 + K2 Gummies Pomegranate Flavor",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Vitamin-D3-plus-K2-Gummies-Pomegranate-768990311604.jpg",
       "best_price_per_unit": 0.010605,
       "best_total_price": 21.21,
       "unit": "mg",
@@ -4427,7 +4427,7 @@
           "price_per_unit": 0.010605,
           "product_url": "https://www.vitacost.com/nordic-naturals-vitamin-d3-plus-k2-gummies",
           "product_name": "Nordic Naturals Vitamin D3 plus K2 Gummies Pomegranate --...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Vitamin-D3-plus-K2-Gummies-Pomegranate-768990311604.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4447,7 +4447,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Cal-Mag Citrate",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor04523/u/24.jpg",
       "best_price_per_unit": 0.01159,
       "best_total_price": 11.59,
       "unit": "mg",
@@ -4460,7 +4460,7 @@
           "price_per_unit": 0.01159,
           "product_url": "https://www.iherb.com/pr/solaray-cal-mag-citrate-with-vitamin-d-2-90-vegcaps/123912",
           "product_name": "Solaray, Cal-Mag Citrate with Vitamin D-2, 90 VegCaps",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor04523/u/24.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4470,7 +4470,7 @@
           "price_per_unit": 0.01279,
           "product_url": "https://www.vitacost.com/solaray-cal-mag-citrate-with-vitamin-d-90-vegetarian-capsules-1",
           "product_name": "Solaray Cal-Mag Citrate with Vitamin D -- 90 Vegetarian C...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Cal-Mag-Citrate-with-Vitamin-D-076280045260.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4489,7 +4489,7 @@
       "brand": "L'il Critters",
       "dsld_product_name": "Vitamin D3",
       "dsld_brand": "L'il Critters",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Lil-Critters/Lil-Critters-Kids-Immune-And-Bone-Support-Vitamin-D3-Fruit-027917015873.jpg",
       "best_price_per_unit": 0.014289999999999999,
       "best_total_price": 14.29,
       "unit": "mg",
@@ -4502,7 +4502,7 @@
           "price_per_unit": 0.014289999999999999,
           "product_url": "https://www.vitacost.com/lil-critters-kids-immune-bone-support-vitamin-d3",
           "product_name": "L'il Critters Kids Immune & Bone Support Vitamin D3 Fruit...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Lil-Critters/Lil-Critters-Kids-Immune-And-Bone-Support-Vitamin-D3-Fruit-027917015873.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4519,7 +4519,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Vitamin D3 1000 IU",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-D3-031604026776.jpg",
       "best_price_per_unit": 0.01499,
       "best_total_price": 14.99,
       "unit": "iu",
@@ -4532,7 +4532,7 @@
           "price_per_unit": 0.01499,
           "product_url": "https://www.vitacost.com/nature-made-d3-1000-iu-300-softgels",
           "product_name": "Nature Made D3 -- 1000 IU - 300 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-D3-031604026776.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4554,7 +4554,7 @@
       "brand": "Superior Source",
       "dsld_product_name": "Children's D3 400 IU",
       "dsld_brand": "Superior Source",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Childrens-D3-076635910502.jpg",
       "best_price_per_unit": 0.017475,
       "best_total_price": 6.99,
       "unit": "iu",
@@ -4567,7 +4567,7 @@
           "price_per_unit": 0.017475,
           "product_url": "https://www.vitacost.com/superior-source-childrens-d3-400-iu-105-microlingual-tablets",
           "product_name": "Superior Source Children's D3 -- 400 IU - 105 MicroLingua...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Superior-Source/Superior-Source-Childrens-D3-076635910502.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4584,7 +4584,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Vitamin D3 Vegan",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Vitamin-D3-Vegan-768990016806.jpg",
       "best_price_per_unit": 0.01866,
       "best_total_price": 18.66,
       "unit": "iu",
@@ -4597,7 +4597,7 @@
           "price_per_unit": 0.01866,
           "product_url": "https://www.vitacost.com/nordic-naturals-vitamin-d3-vegan-1000-iu-1-fl-oz",
           "product_name": "Nordic Naturals Vitamin D3 Vegan -- 1000 IU - 1 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Vitamin-D3-Vegan-768990016806.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4619,7 +4619,7 @@
       "brand": "Designs for Health",
       "dsld_product_name": "Vitamin D Supreme with Vitamin K1 and K2",
       "dsld_brand": "Designs for Health",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/dfh/dfh00299/u/40.jpg",
       "best_price_per_unit": 0.021888,
       "best_total_price": 109.44,
       "unit": "iu",
@@ -4632,7 +4632,7 @@
           "price_per_unit": 0.021888,
           "product_url": "https://www.iherb.com/pr/designs-for-health-vitamin-d-supreme-with-vitamin-k1-k2-180-vegetarian-capsules/142855",
           "product_name": "Designs For Health, Vitamin D Supreme with Vitamin K1, K2, 180 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/dfh/dfh00299/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4649,7 +4649,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "MegaFood",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/MegaFood/MegaFood-Vitamin-D3-Gummies-Mixed-Fruit-051494104125.jpg",
       "best_price_per_unit": 0.02312396694214876,
       "best_total_price": 13.99,
       "unit": "mg",
@@ -4662,7 +4662,7 @@
           "price_per_unit": 0.02312396694214876,
           "product_url": "https://www.vitacost.com/megafood-vitamin-d3-gummies",
           "product_name": "MegaFood Vitamin D3 Gummies Mixed Fruit -- 2000 IU - 70 G...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/MegaFood/MegaFood-Vitamin-D3-Gummies-Mixed-Fruit-051494104125.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4686,7 +4686,7 @@
       "brand": "Onnit",
       "dsld_product_name": "Vitamin D3 Spray",
       "dsld_brand": "Onnit",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Onnit/Onnit-Vitamin-D3-Spray-Grapefruit-819444015163.jpg",
       "best_price_per_unit": 0.02495,
       "best_total_price": 24.95,
       "unit": "iu",
@@ -4699,7 +4699,7 @@
           "price_per_unit": 0.02495,
           "product_url": "https://www.vitacost.com/onnit-vitamin-d3-spray",
           "product_name": "Onnit Vitamin D3 Spray Grapefruit -- 0.8 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Onnit/Onnit-Vitamin-D3-Spray-Grapefruit-819444015163.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4716,7 +4716,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "MegaFood",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/MegaFood/MegaFood-Vitamin-D3-Immune-Support-051494102206.jpg",
       "best_price_per_unit": 0.025603305785123966,
       "best_total_price": 15.49,
       "unit": "mg",
@@ -4729,7 +4729,7 @@
           "price_per_unit": 0.025603305785123966,
           "product_url": "https://www.vitacost.com/megafood-vitamin-d3-immune-support-2000-iu-50-mcg-30-tablets",
           "product_name": "MegaFood Vitamin D3 Immune Support -- 2000 IU (50 mcg) - ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/MegaFood/MegaFood-Vitamin-D3-Immune-Support-051494102206.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4753,7 +4753,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Calcium 500 mg With Vitamin D3 400 IU",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ndm/ndm02683/u/8.jpg",
       "best_price_per_unit": 0.03156,
       "best_total_price": 15.78,
       "unit": "mg",
@@ -4766,7 +4766,7 @@
           "price_per_unit": 0.03156,
           "product_url": "https://www.iherb.com/pr/nature-made-vitamin-d3-300-tablets/145563",
           "product_name": "Nature Made, Vitamin D3, 300 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ndm/ndm02683/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4788,7 +4788,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Vitamin D3 1000 IU",
       "dsld_brand": "MegaFood",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/MegaFood/MegaFood-Vitamin-D3-Immune-Support-051494101148.jpg",
       "best_price_per_unit": 0.03229230769230769,
       "best_total_price": 20.99,
       "unit": "mg",
@@ -4801,7 +4801,7 @@
           "price_per_unit": 0.03229230769230769,
           "product_url": "https://www.vitacost.com/megafood-vitamin-d3-immune-support",
           "product_name": "MegaFood Vitamin D3 Immune Support -- 1000 IU (125 mcg) -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/MegaFood/MegaFood-Vitamin-D3-Immune-Support-051494101148.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4824,7 +4824,7 @@
       "brand": "Mommy's Bliss",
       "dsld_product_name": "Vitamin D Organic Drops",
       "dsld_brand": "Mommy's Bliss",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Mommys-Bliss/Mommys-Bliss-Baby-Vitamin-D-Organic-Drops-Newborn-679234056024.jpg",
       "best_price_per_unit": 0.032475000000000004,
       "best_total_price": 12.99,
       "unit": "iu",
@@ -4837,7 +4837,7 @@
           "price_per_unit": 0.032475000000000004,
           "product_url": "https://www.vitacost.com/mommys-bliss-baby-vitamin-d-organic-drops-newborn",
           "product_name": "Mommy's Bliss Baby Vitamin D Organic Drops Newborn+ -- 40...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Mommys-Bliss/Mommys-Bliss-Baby-Vitamin-D-Organic-Drops-Newborn-679234056024.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4857,7 +4857,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "Vitamin D 5000 IU",
       "dsld_brand": "Ancient Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Ancient-Nutrition/Ancient-Nutrition-Vitamin-D-Ancient-Superfoods-816401023278.jpg",
       "best_price_per_unit": 0.04028481012658228,
       "best_total_price": 25.46,
       "unit": "mg",
@@ -4870,7 +4870,7 @@
           "price_per_unit": 0.04028481012658228,
           "product_url": "https://www.vitacost.com/ancient-nutrition-vitamin-d-ancient-superfoods",
           "product_name": "Ancient Nutrition Vitamin D Ancient Superfoods -- 5000 IU...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Ancient-Nutrition/Ancient-Nutrition-Vitamin-D-Ancient-Superfoods-816401023278.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4887,7 +4887,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "HMB",
       "dsld_brand": "BodyTech",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdt/bdt06805/u/8.jpg",
       "best_price_per_unit": 0.04499,
       "best_total_price": 44.99,
       "unit": "mg",
@@ -4900,7 +4900,7 @@
           "price_per_unit": 0.04499,
           "product_url": "https://www.iherb.com/pr/bodytech-hmb-vitamin-d3-unflavored-3-26-oz-92-4-g/146857",
           "product_name": "BodyTech, HMB + Vitamin D3, Unflavoured, 3.26 oz (92.4 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdt/bdt06805/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4917,7 +4917,7 @@
       "brand": "MegaFood",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "MegaFood",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10222/u/63.jpg",
       "best_price_per_unit": 0.05618181818181819,
       "best_total_price": 33.99,
       "unit": "mg",
@@ -4930,7 +4930,7 @@
           "price_per_unit": 0.05618181818181819,
           "product_url": "https://www.iherb.com/pr/megafood-vitamin-d3-2-000-iu-50-mcg-90-tablets/19118",
           "product_name": "MegaFood, Vitamin D3, 2,000 IU (50 mcg), 90 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10222/u/63.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4954,7 +4954,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "D3 1000 IU",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-031604018702.jpg",
       "best_price_per_unit": 0.05641304347826087,
       "best_total_price": 5.19,
       "unit": "mg",
@@ -4967,7 +4967,7 @@
           "price_per_unit": 0.05641304347826087,
           "product_url": "https://www.vitacost.com/nature-made-vitamin-d3-1000-iu-100-tablets",
           "product_name": "Nature Made Vitamin D3 -- 1000 IU - 100 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-031604018702.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4989,7 +4989,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Quercetin 500 mg + D3",
       "dsld_brand": "Country Life",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Quercetin-D3-015794016243.jpg",
       "best_price_per_unit": 0.05886,
       "best_total_price": 29.43,
       "unit": "mg",
@@ -5002,7 +5002,7 @@
           "price_per_unit": 0.05886,
           "product_url": "https://www.vitacost.com/country-life-quercetin-d3",
           "product_name": "Country Life Quercetin + D3 -- 500 mg - 60 Vegetarian Cap...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Quercetin-D3-015794016243.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5024,7 +5024,7 @@
       "brand": "Bodytech",
       "dsld_product_name": "HMB",
       "dsld_brand": "BodyTech",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdt/bdt03909/u/8.jpg",
       "best_price_per_unit": 0.06498999999999999,
       "best_total_price": 64.99,
       "unit": "mg",
@@ -5037,7 +5037,7 @@
           "price_per_unit": 0.06498999999999999,
           "product_url": "https://www.iherb.com/pr/bodytech-hmb-vitamin-d3-360-capsules/146807",
           "product_name": "BodyTech, HMB + Vitamin D3, 360 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bdt/bdt03909/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5054,7 +5054,7 @@
       "brand": "Mommy's Bliss",
       "dsld_product_name": "Probiotic Drops + Vitamin D",
       "dsld_brand": "Mommy's Bliss",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Mommys-Bliss/Mommys-Bliss-Baby-Probiotic-Drops-Vitamin-D-679234055638.jpg",
       "best_price_per_unit": 0.069975,
       "best_total_price": 27.99,
       "unit": "iu",
@@ -5067,7 +5067,7 @@
           "price_per_unit": 0.069975,
           "product_url": "https://www.vitacost.com/mommys-bliss-baby-probiotic-drops-vitamin-d-0-34-fl-oz",
           "product_name": "Mommy's Bliss Baby Probiotic Drops + Vitamin D -- 0.34 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Mommys-Bliss/Mommys-Bliss-Baby-Probiotic-Drops-Vitamin-D-679234055638.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5087,7 +5087,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "SeaRich Omega-3 With Vitamin D3 1000 IU Delicious Lemon Meringue",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Vitamin-D3-068958010502.jpg",
       "best_price_per_unit": 0.10425,
       "best_total_price": 4.17,
       "unit": "calorie",
@@ -5100,7 +5100,7 @@
           "price_per_unit": 0.10425,
           "product_url": "https://www.vitacost.com/natural-factors-vitamin-d3-1000-iu-90-tablets",
           "product_name": "Natural Factors Vitamin D3 -- 1000 IU - 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Vitamin-D3-068958010502.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5121,7 +5121,7 @@
       "brand": "Source Naturals",
       "dsld_product_name": "Vitamin D-3 2000 IU",
       "dsld_brand": "Source Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-021078021445.jpg",
       "best_price_per_unit": 0.11666666666666667,
       "best_total_price": 5.95,
       "unit": "mg",
@@ -5134,7 +5134,7 @@
           "price_per_unit": 0.11666666666666667,
           "product_url": "https://www.vitacost.com/source-naturals-vitamin-d-3-2000-iu-100-capsules",
           "product_name": "Source Naturals Vitamin D-3 -- 2000 IU - 100 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vitamin-D-3-021078021445.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5154,7 +5154,7 @@
       "brand": "American Health",
       "dsld_product_name": "Ester-C With D3",
       "dsld_brand": "American Health",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amh/amh34710/u/59.jpg",
       "best_price_per_unit": 0.12414414414414414,
       "best_total_price": 13.78,
       "unit": "mg",
@@ -5167,7 +5167,7 @@
           "price_per_unit": 0.12414414414414414,
           "product_url": "https://www.iherb.com/pr/american-health-ester-c-with-d3-60-vegetarian-tablets/54357",
           "product_name": "American Health, Ester-C with D3, 60 Vegetarian Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/amh/amh34710/u/59.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5198,7 +5198,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "D3 1000 IU",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-031604026837.jpg",
       "best_price_per_unit": 0.14445652173913043,
       "best_total_price": 13.29,
       "unit": "mg",
@@ -5211,7 +5211,7 @@
           "price_per_unit": 0.14445652173913043,
           "product_url": "https://www.vitacost.com/nature-made-vitamin-d3-1000-iu-300-tablets",
           "product_name": "Nature Made Vitamin D3 -- 1000 IU - 300 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-031604026837.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5233,7 +5233,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Vitamin D3 + K2 125 mcg",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Vitamin-D3-K2-076280385847.jpg",
       "best_price_per_unit": 0.16718181818181818,
       "best_total_price": 18.39,
       "unit": "mg",
@@ -5246,7 +5246,7 @@
           "price_per_unit": 0.16718181818181818,
           "product_url": "https://www.vitacost.com/solaray-vitamin-d3-k2",
           "product_name": "Solaray Vitamin D3 + K2 -- 60 VegCaps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Vitamin-D3-K2-076280385847.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5263,7 +5263,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Calcium with Vitamins D3 & K2",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl01994/u/42.jpg",
       "best_price_per_unit": 0.1953888888888889,
       "best_total_price": 35.17,
       "unit": "mg",
@@ -5276,7 +5276,7 @@
           "price_per_unit": 0.1953888888888889,
           "product_url": "https://www.iherb.com/pr/dr-mercola-calcium-with-vitamins-d3-k2-30-capsules/80672",
           "product_name": "Dr. Mercola, Calcium with Vitamins D3 & K2, 30 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl01994/u/42.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5286,7 +5286,7 @@
           "price_per_unit": 0.20827777777777778,
           "product_url": "https://www.vitacost.com/dr-mercola-vitamins-d3-k2",
           "product_name": "Dr. Mercola Vitamins D3 & K2 -- 30 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Vitamins-D3-And-K2-813006016919.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5305,7 +5305,7 @@
       "brand": "Metabolic Maintenance",
       "dsld_product_name": "Cal/Mag Plus with Vitamin D and Vitamin K-2 MenaQ7",
       "dsld_brand": "Metabolic Maintenance",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00409/u/56.jpg",
       "best_price_per_unit": 0.2634730538922156,
       "best_total_price": 44.0,
       "unit": "mg",
@@ -5318,7 +5318,7 @@
           "price_per_unit": 0.2634730538922156,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-cal-mag-plus-with-vitamin-d-and-vitamin-k2-mk-7-180-vegetarian-capsules/106743",
           "product_name": "Metabolic Maintenance, Cal/Mag Plus with Vitamin D and Vitamin K2 MK-7, 180 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00409/u/56.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5337,7 +5337,7 @@
       "brand": "Amen",
       "dsld_product_name": "Vitamin D K2 & Zinc",
       "dsld_brand": "Amen",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/AMEN/AMEN-Vitamin-D-K2-And-Zinc-D3-with-K2-MK7-And-Chelated-Zinc-Supplement-853919008854.jpg",
       "best_price_per_unit": 0.2699,
       "best_total_price": 26.99,
       "unit": "mg",
@@ -5350,7 +5350,7 @@
           "price_per_unit": 0.2699,
           "product_url": "https://www.vitacost.com/amen-vitamin-d-k2-zinc-d3-with-k2-mk7-chelated-zinc-supplement",
           "product_name": "AMEN Vitamin D K2 & Zinc - D3 with K2 MK7 & Chelated Zinc...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/AMEN/AMEN-Vitamin-D-K2-And-Zinc-D3-with-K2-MK7-And-Chelated-Zinc-Supplement-853919008854.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5371,7 +5371,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Vitamin D3 + K2",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Vitamin-D3-plus-K2-076280574456.jpg",
       "best_price_per_unit": 0.2908181818181818,
       "best_total_price": 31.99,
       "unit": "mg",
@@ -5384,7 +5384,7 @@
           "price_per_unit": 0.2908181818181818,
           "product_url": "https://www.vitacost.com/solaray-vitamin-d3-plus-k2",
           "product_name": "Solaray Vitamin D3 plus K2 -- 120 VegCaps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Vitamin-D3-plus-K2-076280574456.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5401,7 +5401,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "Innate Response Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Innate/Innate-Response-Formulas-Vitamin-D3-051494401316.jpg",
       "best_price_per_unit": 0.335503355704698,
       "best_total_price": 49.99,
       "unit": "mg",
@@ -5414,7 +5414,7 @@
           "price_per_unit": 0.335503355704698,
           "product_url": "https://www.vitacost.com/innate-response-formulas-vitamin-d3",
           "product_name": "Innate Response Formulas Vitamin D3 -- 2000 IU (50 mcg) -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Innate/Innate-Response-Formulas-Vitamin-D3-051494401316.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5431,7 +5431,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Baby's DHA",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Babys-DHA-with-Vitamin-D3-Liquid-Fish-Oil-768990537875.jpg",
       "best_price_per_unit": 0.40275,
       "best_total_price": 16.11,
       "unit": "calorie",
@@ -5444,7 +5444,7 @@
           "price_per_unit": 0.40275,
           "product_url": "https://www.vitacost.com/nordic-naturals-babys-dha-with-vitamin-d3-liquid-fish-oil",
           "product_name": "Nordic Naturals Baby's DHA with Vitamin D3 Liquid Fish Oi...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Babys-DHA-with-Vitamin-D3-Liquid-Fish-Oil-768990537875.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5465,7 +5465,7 @@
       "brand": "Country Life",
       "dsld_product_name": "Vitamin D3 5000 IU Cherry Flavor",
       "dsld_brand": "Country Life",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Vitamin-D3-015794058076.jpg",
       "best_price_per_unit": 0.41960000000000003,
       "best_total_price": 10.49,
       "unit": "calorie",
@@ -5478,7 +5478,7 @@
           "price_per_unit": 0.41960000000000003,
           "product_url": "https://www.vitacost.com/country-life-vitamin-d3-5000-iu-60-softgels",
           "product_name": "Country Life Vitamin D3 -- 5000 IU - 60 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Vitamin-D3-015794058076.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5503,7 +5503,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "Vitamin D3 Adult Gummies",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-Adult-Gummies-Assorted-Fruit-031604028442.jpg",
       "best_price_per_unit": 0.6193333333333333,
       "best_total_price": 9.29,
       "unit": "calorie",
@@ -5516,7 +5516,7 @@
           "price_per_unit": 0.6193333333333333,
           "product_url": "https://www.vitacost.com/nature-made-vitamin-d3-adult-gummies",
           "product_name": "Nature Made Vitamin D3 Adult Gummies Assorted Fruit -- 90...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-Vitamin-D3-Adult-Gummies-Assorted-Fruit-031604028442.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5536,7 +5536,7 @@
       "brand": "L'il Critters",
       "dsld_product_name": "Immune C plus Zinc & Vitamin D",
       "dsld_brand": "L'il Critters",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Lil-Critters/Lil-Critters-Kids-Immune-C-Plus-Zinc-And-Vitamin-D-Fruit-027917006031.jpg",
       "best_price_per_unit": 0.629,
       "best_total_price": 6.29,
       "unit": "calorie",
@@ -5549,7 +5549,7 @@
           "price_per_unit": 0.629,
           "product_url": "https://www.vitacost.com/lil-critters-kids-immune-c-plus-zinc-vitamin-d",
           "product_name": "L'il Critters Kids Immune C Plus Zinc & Vitamin D Fruit -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Lil-Critters/Lil-Critters-Kids-Immune-C-Plus-Zinc-And-Vitamin-D-Fruit-027917006031.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5569,7 +5569,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Ultimate Omega-D3 Sport",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Ultimate-Omega-D3-Sport-NSF-Certified-for-Sport-768990018084.jpg",
       "best_price_per_unit": 0.6413333333333333,
       "best_total_price": 28.86,
       "unit": "calorie",
@@ -5582,7 +5582,7 @@
           "price_per_unit": 0.6413333333333333,
           "product_url": "https://www.vitacost.com/nordic-naturals-ultimate-omega-d3-sport-nsf-certified-for-sport",
           "product_name": "Nordic Naturals Ultimate Omega-D3 Sport - NSF Certified f...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nordic-Naturals/Nordic-Naturals-Ultimate-Omega-D3-Sport-NSF-Certified-for-Sport-768990018084.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5602,7 +5602,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Wild Norwegian Cod Liver Oil",
       "dsld_brand": "Carlson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car13630/u/39.jpg",
       "best_price_per_unit": 0.78425,
       "best_total_price": 31.37,
       "unit": "calorie",
@@ -5615,7 +5615,7 @@
           "price_per_unit": 0.78425,
           "product_url": "https://www.iherb.com/pr/carlson-kid-s-wild-norwegian-cod-liver-oil-vitamins-a-d3-bubble-gum-8-4-fl-oz-250-ml/45704",
           "product_name": "Carlson, Kid's Wild Norwegian Cod Liver Oil + Vitamins A & D3, Bubblegum, 8.4 fl oz (250 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car13630/u/39.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5635,7 +5635,7 @@
       "brand": "Nature's Bounty",
       "dsld_product_name": "Immune 24 Hour +",
       "dsld_brand": "Nature's Bounty",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Immune-24-Hour-Vitamin-D-And-Zinc-074312008092.jpg",
       "best_price_per_unit": 0.86,
       "best_total_price": 14.19,
       "unit": "mg",
@@ -5648,7 +5648,7 @@
           "price_per_unit": 0.86,
           "product_url": "https://www.vitacost.com/natures-bounty-immune-24-hour",
           "product_name": "Nature's Bounty Immune 24 Hour + +Vitamin D & Zinc -- 100...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Immune-24-Hour-Vitamin-D-And-Zinc-074312008092.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5665,7 +5665,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Ultimate Omega-D3 2X Lemon",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor01794/u/65.jpg",
       "best_price_per_unit": 1.0524,
       "best_total_price": 26.31,
       "unit": "calorie",
@@ -5678,7 +5678,7 @@
           "price_per_unit": 1.0524,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-ultimate-omega-d3-lemon-60-soft-gels/10906",
           "product_name": "Nordic Naturals, Ultimate Omega-D3, Lemon, 60 Soft Gels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor01794/u/65.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5695,7 +5695,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Ultimate Omega-D3 Sport",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor01808/u/51.jpg",
       "best_price_per_unit": 1.443,
       "best_total_price": 28.86,
       "unit": "calorie",
@@ -5708,7 +5708,7 @@
           "price_per_unit": 1.443,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-ultimate-omega-d3-sport-60-soft-gels/43596",
           "product_name": "Nordic Naturals, Ultimate Omega\u00ae-D3, Sport, 60 Soft Gels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor01808/u/51.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5730,7 +5730,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Complete Omega-D3 Lemon",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor02778/u/120.jpg",
       "best_price_per_unit": 1.613,
       "best_total_price": 32.26,
       "unit": "calorie",
@@ -5743,7 +5743,7 @@
           "price_per_unit": 1.613,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-complete-omega-d3-lemon-120-soft-gels/17834",
           "product_name": "Nordic Naturals, Complete Omega\u2122-D3, Lemon, 120 Soft Gels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor02778/u/120.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5763,7 +5763,7 @@
       "brand": "Spectrum",
       "dsld_product_name": "Fish Oil with Vitamin D",
       "dsld_brand": "Spectrum Essentials",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Spectrum/Spectrum-Fish-Oil-With-Vitamin-D-022506129030.jpg",
       "best_price_per_unit": 1.6695,
       "best_total_price": 33.39,
       "unit": "calorie",
@@ -5776,7 +5776,7 @@
           "price_per_unit": 1.6695,
           "product_url": "https://www.vitacost.com/spectrum-fish-oil-with-vitamin-d",
           "product_name": "Spectrum Fish Oil With Vitamin D -- 250 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Spectrum/Spectrum-Fish-Oil-With-Vitamin-D-022506129030.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5793,7 +5793,7 @@
       "brand": "Sports Research",
       "dsld_product_name": "Vegan Omega + D3",
       "dsld_brand": "Sports Research",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sre/sre09158/u/24.jpg",
       "best_price_per_unit": 2.2646666666666664,
       "best_total_price": 33.97,
       "unit": "calorie",
@@ -5806,7 +5806,7 @@
           "price_per_unit": 2.2646666666666664,
           "product_url": "https://www.iherb.com/pr/sports-research-vegan-omega-d3-60-veggie-softgels/117180",
           "product_name": "Sports Research, Vegan Omega + D3, 60 Veggie Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sre/sre09158/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5823,7 +5823,7 @@
       "brand": "Nordic Naturals",
       "dsld_product_name": "Ultimate Omega-D3 Lemon",
       "dsld_brand": "Nordic Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor02794/u/92.jpg",
       "best_price_per_unit": 2.378,
       "best_total_price": 47.56,
       "unit": "calorie",
@@ -5836,7 +5836,7 @@
           "price_per_unit": 2.378,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-ultimate-omega-d3-lemon-120-soft-gels/16898",
           "product_name": "Nordic Naturals, Ultimate Omega\u00ae-D3, Lemon, 120 Soft Gels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor02794/u/92.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5853,7 +5853,7 @@
       "brand": "Country Life",
       "dsld_product_name": "D3 Gummies 1000 IU",
       "dsld_brand": "Country Life",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-D3-Gummies-Strawberry-And-Orange-015794058106.jpg",
       "best_price_per_unit": 2.6239999999999997,
       "best_total_price": 13.12,
       "unit": "calorie",
@@ -5866,7 +5866,7 @@
           "price_per_unit": 2.6239999999999997,
           "product_url": "https://www.vitacost.com/country-life-d3-gummies-strawberry-orange-1000-iu-60-gummies-1",
           "product_name": "Country Life D3 Gummies Strawberry & Orange -- 1000 IU - ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-D3-Gummies-Strawberry-And-Orange-015794058106.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5888,7 +5888,7 @@
       "brand": "Garden of Life Dr. Formulated",
       "dsld_product_name": "Vitamin D3 5000 IU & Zinc",
       "dsld_brand": "Garden of Life Dr. Formulated",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Dr-Formulated-Vitamin-D3-5000-IU-And-Zinc-658010130530.jpg",
       "best_price_per_unit": 2.878,
       "best_total_price": 14.39,
       "unit": "mg",
@@ -5901,7 +5901,7 @@
           "price_per_unit": 2.878,
           "product_url": "https://www.vitacost.com/garden-of-life-dr-formulated-vitamin-d3-5000-iu-zinc",
           "product_name": "Garden of Life Dr. Formulated Vitamin D3 5000 IU & Zinc -...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Dr-Formulated-Vitamin-D3-5000-IU-And-Zinc-658010130530.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5921,7 +5921,7 @@
       "brand": "Nobi Nutrition",
       "dsld_product_name": "Premium Vitamin K2 + D3",
       "dsld_brand": "Nobi Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nob/nob27416/u/8.jpg",
       "best_price_per_unit": 3.778,
       "best_total_price": 18.89,
       "unit": "mg",
@@ -5934,7 +5934,7 @@
           "price_per_unit": 3.778,
           "product_url": "https://www.iherb.com/pr/nobi-nutrition-vitamin-k2-d3-60-capsules/145164",
           "product_name": "Nobi Nutrition, Vitamin K2 + D3, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nob/nob27416/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5951,7 +5951,7 @@
       "brand": "Aurora Nutrascience",
       "dsld_product_name": "Mega-Liposomal Vitamin D3/K2+ Organic Fruit Flavor",
       "dsld_brand": "Aurora NutraScience",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Aurora-NutraScience/Aurora-NutraScience-Mega-Liposomal-Vitamin-D3-Organic-Fruit-628504648056.jpg",
       "best_price_per_unit": 6.1979999999999995,
       "best_total_price": 30.99,
       "unit": "calorie",
@@ -5964,7 +5964,7 @@
           "price_per_unit": 6.1979999999999995,
           "product_url": "https://www.vitacost.com/aurora-nutrascience-mega-liposomal-vitamin-d3",
           "product_name": "Aurora NutraScience Mega-Liposomal Vitamin D3+ Organic Fr...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Aurora-NutraScience/Aurora-NutraScience-Mega-Liposomal-Vitamin-D3-Organic-Fruit-628504648056.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5984,7 +5984,7 @@
       "brand": "Vitamatic",
       "dsld_product_name": "Vitamin D3 50000 IU",
       "dsld_brand": "Vitamatic",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Vitamatic/Vitamatic-Vitamin-D3-50-000-IU-Weekly-Dose-602343800301.jpg",
       "best_price_per_unit": 7.992,
       "best_total_price": 9.99,
       "unit": "mg",
@@ -5997,7 +5997,7 @@
           "price_per_unit": 7.992,
           "product_url": "https://www.vitacost.com/vitamatic-vitamin-d3-50-000-iu-weekly-dose",
           "product_name": "Vitamatic Vitamin D3 - 50,000 IU Weekly Dose -- 60 Vegeta...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Vitamatic/Vitamatic-Vitamin-D3-50-000-IU-Weekly-Dose-602343800301.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6016,7 +6016,7 @@
       "brand": "Vitamatic",
       "dsld_product_name": "Vitamin D3 50000 IU",
       "dsld_brand": "Vitamatic",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Vitamatic/Vitamatic-Sugar-Free-Vitamin-D3-Pectin-Based-810078475057.jpg",
       "best_price_per_unit": 10.392,
       "best_total_price": 12.99,
       "unit": "mg",
@@ -6029,7 +6029,7 @@
           "price_per_unit": 10.392,
           "product_url": "https://www.vitacost.com/vitamatic-sugar-free-vitamin-d3-pectin-based",
           "product_name": "Vitamatic Sugar Free Vitamin D3 Pectin Based -- 50000 IU ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Vitamatic/Vitamatic-Sugar-Free-Vitamin-D3-Pectin-Based-810078475057.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6048,7 +6048,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "D3 50000",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-D3-50-000-722537512541.jpg",
       "best_price_per_unit": 11.992,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -6061,7 +6061,7 @@
           "price_per_unit": 11.992,
           "product_url": "https://www.vitacost.com/xymogen-d3-50-000",
           "product_name": "XYMOGEN D3 50,000 -- 30 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-D3-50-000-722537512541.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6080,7 +6080,7 @@
       "brand": "Davinci Laboratories",
       "dsld_product_name": "Multi-Mineral Complex with D3",
       "dsld_brand": "DaVinci Laboratories",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/dvi/dvi01351/u/8.jpg",
       "best_price_per_unit": 12.33,
       "best_total_price": 24.66,
       "unit": "mg",
@@ -6093,7 +6093,7 @@
           "price_per_unit": 12.33,
           "product_url": "https://www.iherb.com/pr/davinci-laboratories-multi-mineral-complex-with-d3-120-capsules/128086",
           "product_name": "DaVinci Laboratories, Multi-Mineral Complex with D3, 120 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/dvi/dvi01351/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6113,7 +6113,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Pure Infant Vitamin D3 Liquid",
       "dsld_brand": "Pure Encapsulations",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Vitamin-D3-Liquid-766298010694.jpg",
       "best_price_per_unit": 31.6,
       "best_total_price": 31.6,
       "unit": "kj",
@@ -6126,7 +6126,7 @@
           "price_per_unit": 31.6,
           "product_url": "https://www.vitacost.com/pure-encapsulations-vitamin-d3-liquid",
           "product_name": "Pure Encapsulations Vitamin D3 Liquid -- 0.75 oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Vitamin-D3-Liquid-766298010694.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6146,7 +6146,7 @@
       "brand": "21st Century",
       "dsld_product_name": "600 + D3 plus Minerals",
       "dsld_brand": "21st Century",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen27287/u/31.jpg",
       "best_price_per_unit": 39.96,
       "best_total_price": 9.99,
       "unit": "mg",
@@ -6159,7 +6159,7 @@
           "price_per_unit": 39.96,
           "product_url": "https://www.iherb.com/pr/21st-century-600-d3-plus-minerals-fruit-punch-75-chewable-tablets/41312",
           "product_name": "21st Century, 600 + D3 Plus Minerals, Fruit Punch, 75 Chewable Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen27287/u/31.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6178,7 +6178,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Arthri-Flex Advantage + Vitamin D3",
       "dsld_brand": "21st Century",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22623/u/69.jpg",
       "best_price_per_unit": 45.98,
       "best_total_price": 22.99,
       "unit": "mg",
@@ -6191,7 +6191,7 @@
           "price_per_unit": 45.98,
           "product_url": "https://www.iherb.com/pr/21st-century-arthri-flex-advantage-vitamin-d3-120-coated-tablets/37348",
           "product_name": "21st Century, Arthri-Flex Advantage + Vitamin D3, 120 Coated Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen22623/u/69.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6210,7 +6210,7 @@
       "brand": "NOW",
       "dsld_product_name": "High Potency Vitamin D-3 5000 IU",
       "dsld_brand": "NOW",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Vitamin-D-3-733739003720.jpg",
       "best_price_per_unit": 53.52,
       "best_total_price": 6.69,
       "unit": "mg",
@@ -6223,7 +6223,7 @@
           "price_per_unit": 53.52,
           "product_url": "https://www.vitacost.com/now-vitamin-d-3-5000-iu-120-softgels",
           "product_name": "NOW Vitamin D-3 -- 5000 IU - 120 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Vitamin-D-3-733739003720.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6252,7 +6252,7 @@
       "brand": "Futurebiotics",
       "dsld_product_name": "Vitamin D3 5000 IU",
       "dsld_brand": "Futurebiotics",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Futurebiotics/Futurebiotics-Vitamin-D3-049479006311.jpg",
       "best_price_per_unit": 55.76,
       "best_total_price": 6.97,
       "unit": "mg",
@@ -6265,7 +6265,7 @@
           "price_per_unit": 55.76,
           "product_url": "https://www.vitacost.com/futurebiotics-vitamin-d3",
           "product_name": "Futurebiotics Vitamin D3 -- 5000 IU - 90 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Futurebiotics/Futurebiotics-Vitamin-D3-049479006311.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6282,7 +6282,7 @@
       "brand": "Natrol",
       "dsld_product_name": "Vitamin D3 5000 IU Fast Dissolve Strawberry",
       "dsld_brand": "Natrol",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natrol/Natrol-Vitamin-D3-Fast-Dissolve-Strawberry-047469058913.jpg",
       "best_price_per_unit": 99.12,
       "best_total_price": 12.39,
       "unit": "mg",
@@ -6295,7 +6295,7 @@
           "price_per_unit": 99.12,
           "product_url": "https://www.vitacost.com/natrol-vitamin-d3-fast-dissolve-strawberry",
           "product_name": "Natrol Vitamin D3 Fast Dissolve Strawberry -- 5000 IU - 9...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natrol/Natrol-Vitamin-D3-Fast-Dissolve-Strawberry-047469058913.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6312,7 +6312,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Liposomal Vitamin D3 10000 IU",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-810487031486.jpg",
       "best_price_per_unit": 99.96,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -6325,7 +6325,7 @@
           "price_per_unit": 99.96,
           "product_url": "https://www.vitacost.com/dr-mercola-liposomal-vitamin-d3-10000-iu-30-capsules",
           "product_name": "Dr. Mercola Liposomal Vitamin D3 -- 10000 IU - 30 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-810487031486.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6344,7 +6344,7 @@
       "brand": "DEVA",
       "dsld_product_name": "Vegan Vitamin D 800 IU",
       "dsld_brand": "DEVA",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Vitamin-D-895634000270.jpg",
       "best_price_per_unit": 100.0,
       "best_total_price": 6.0,
       "unit": "mg",
@@ -6357,7 +6357,7 @@
           "price_per_unit": 100.0,
           "product_url": "https://www.vitacost.com/deva-vegan-vitamin-d-800-iu-90-tablets-1",
           "product_name": "Deva Vegan Vitamin D -- 800 IU - 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Vitamin-D-895634000270.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6377,7 +6377,7 @@
       "brand": "Metabolic Maintenance",
       "dsld_product_name": "Cal/Mag/Zinc Complex",
       "dsld_brand": "Metabolic Maintenance",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00407/u/12.jpg",
       "best_price_per_unit": 100.0,
       "best_total_price": 50.0,
       "unit": "mg",
@@ -6390,7 +6390,7 @@
           "price_per_unit": 100.0,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-cal-mag-zinc-complex-with-vitamin-d-240-capsules/37559",
           "product_name": "Metabolic Maintenance, Cal/Mag/Zinc Complex with Vitamin D, 240 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00407/u/12.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6409,7 +6409,7 @@
       "brand": "Absolute Nutrition",
       "dsld_product_name": "Vitamin D3 Drops",
       "dsld_brand": "Absolute Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/abn/abn09022/u/8.jpg",
       "best_price_per_unit": 102.0,
       "best_total_price": 12.75,
       "unit": "mg",
@@ -6422,7 +6422,7 @@
           "price_per_unit": 102.0,
           "product_url": "https://www.iherb.com/pr/absolute-nutrition-vitamin-d3-drops-5-000-iu-2-fl-oz-60-ml/130075",
           "product_name": "Absolute Nutrition, Vitamin D3 Drops, 5,000 IU, 2 fl oz (60 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/abn/abn09022/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6439,7 +6439,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Vitamin D3 5000 IU",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Vitamin-D3-810139573234.jpg",
       "best_price_per_unit": 103.6,
       "best_total_price": 12.95,
       "unit": "mg",
@@ -6452,7 +6452,7 @@
           "price_per_unit": 103.6,
           "product_url": "https://www.vitacost.com/nutricost-vitamin-d3",
           "product_name": "Nutricost Vitamin D3 -- 5000 IU - 240 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Vitamin-D3-810139573234.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6472,7 +6472,7 @@
       "brand": "Jarrow Formulas",
       "dsld_product_name": "Vitamin D3 125 mcg 5000 IU",
       "dsld_brand": "Jarrow Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw30005/u/59.jpg",
       "best_price_per_unit": 110.0,
       "best_total_price": 13.75,
       "unit": "mg",
@@ -6485,7 +6485,7 @@
           "price_per_unit": 110.0,
           "product_url": "https://www.iherb.com/pr/jarrow-formulas-vitamin-d3-125-mcg-5-000-iu-100-softgels/22926",
           "product_name": "Jarrow Formulas, Vitamin D3, 125 mcg (5,000 IU), 100 Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw30005/u/59.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6504,7 +6504,7 @@
       "brand": "BioSchwartz",
       "dsld_product_name": "Vitamin D3 5000 IU",
       "dsld_brand": "BioSchwartz",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/BioSchwartz/BioSchwartz-Vitamin-D3-737212751191.jpg",
       "best_price_per_unit": 117.52,
       "best_total_price": 14.69,
       "unit": "mg",
@@ -6517,7 +6517,7 @@
           "price_per_unit": 117.52,
           "product_url": "https://www.vitacost.com/bioschwartz-vitamin-d3",
           "product_name": "BioSchwartz Vitamin D3 -- 5000 IU - 360 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/BioSchwartz/BioSchwartz-Vitamin-D3-737212751191.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6534,7 +6534,7 @@
       "brand": "Doctor's Best",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "Doctor's Best",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Doctors-Best/Doctors-Best-Vitamin-D3-753950002104.jpg",
       "best_price_per_unit": 117.79999999999998,
       "best_total_price": 5.89,
       "unit": "mg",
@@ -6547,7 +6547,7 @@
           "price_per_unit": 117.79999999999998,
           "product_url": "https://www.vitacost.com/doctors-best-vitamin-d3-2000-iu-180-softgels",
           "product_name": "Doctor's Best Vitamin D3 -- 2000 IU - 180 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Doctors-Best/Doctors-Best-Vitamin-D3-753950002104.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6568,7 +6568,7 @@
       "brand": "Nature Made",
       "dsld_product_name": "D3 125 mcg 5000 IU",
       "dsld_brand": "Nature Made",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-125-mcg-Vitamin-D3-Liquid-Softgels-031604026219.jpg",
       "best_price_per_unit": 122.32,
       "best_total_price": 15.29,
       "unit": "mg",
@@ -6581,7 +6581,7 @@
           "price_per_unit": 122.32,
           "product_url": "https://www.vitacost.com/nature-made-125mcg-vitamin-d3-liquid-softgels",
           "product_name": "Nature Made 125 mcg Vitamin D3 Liquid Softgels -- 5000 IU...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nature-Made/Nature-Made-125-mcg-Vitamin-D3-Liquid-Softgels-031604026219.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6601,7 +6601,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Vitamin D3 10000 IU",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu54911/u/40.jpg",
       "best_price_per_unit": 127.6,
       "best_total_price": 31.9,
       "unit": "mg",
@@ -6614,7 +6614,7 @@
           "price_per_unit": 127.6,
           "product_url": "https://www.iherb.com/pr/vital-nutrients-vitamin-d3-k2-60-vegetarian-capsules/108152",
           "product_name": "Vital Nutrients, Vitamin D3 + K2, 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu54911/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6631,7 +6631,7 @@
       "brand": "North American Herb & Spice",
       "dsld_product_name": "PolarPower",
       "dsld_brand": "North American Herb & Spice",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/North-American-Herb-And-Spice/North-American-Herb-And-Spice-PolarPower-Real-Vitamin-D-Plus-635824002802.jpg",
       "best_price_per_unit": 148.70833333333334,
       "best_total_price": 35.69,
       "unit": "mg",
@@ -6644,7 +6644,7 @@
           "price_per_unit": 148.70833333333334,
           "product_url": "https://www.vitacost.com/north-american-herb-spice-polarpower-real-vitamin-d-plus",
           "product_name": "North American Herb & Spice PolarPower Real Vitamin D-Plu...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/North-American-Herb-And-Spice/North-American-Herb-And-Spice-PolarPower-Real-Vitamin-D-Plus-635824002802.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6661,7 +6661,7 @@
       "brand": "MRM Nutrition",
       "dsld_product_name": "Vegan Vitamin D3 & K2",
       "dsld_brand": "MRM Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/MRM/MRM-Nutrition-Vegan-Vitamin-D3-And-K2-609492231079.jpg",
       "best_price_per_unit": 158.24,
       "best_total_price": 9.89,
       "unit": "mg",
@@ -6674,7 +6674,7 @@
           "price_per_unit": 158.24,
           "product_url": "https://www.vitacost.com/mrm-nutrition-vegan-vitamin-d3-k2",
           "product_name": "MRM Nutrition Vegan Vitamin D3 & K2 -- 60 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/MRM/MRM-Nutrition-Vegan-Vitamin-D3-And-K2-609492231079.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6684,7 +6684,7 @@
           "price_per_unit": 158.24,
           "product_url": "https://www.iherb.com/pr/mrm-nutrition-vegan-vitamin-d3-k2-60-vegan-capsules/77415",
           "product_name": "MRM Nutrition, Vegan Vitamin D3 & K2, 60 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mrm/mrm23107/u/31.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6706,7 +6706,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "K2-D3 10000",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-K2-D3-10000-871149003180.jpg",
       "best_price_per_unit": 167.96,
       "best_total_price": 41.99,
       "unit": "mg",
@@ -6719,7 +6719,7 @@
           "price_per_unit": 167.96,
           "product_url": "https://www.vitacost.com/xymogen-k2-d3-10000-60-vegetarian-capsules",
           "product_name": "XYMOGEN K2-D3 10000 -- 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-K2-D3-10000-871149003180.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6738,7 +6738,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Vitamin K2 100 mcg",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Vitamin-K2-100-MCG-Vitamin-D3-Softgels-5000-IU-857077008664.jpg",
       "best_price_per_unit": 169.49999999999997,
       "best_total_price": 16.95,
       "unit": "mg",
@@ -6751,7 +6751,7 @@
           "price_per_unit": 169.49999999999997,
           "product_url": "https://www.vitacost.com/nutricost-vitamin-k2-100-mcg-vitamin-d3-softgels-5000-iu",
           "product_name": "Nutricost Vitamin K2 -100 MCG + Vitamin D3 Softgels - 500...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-Vitamin-K2-100-MCG-Vitamin-D3-Softgels-5000-IU-857077008664.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6770,7 +6770,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Liposomal Vitamin D3 5000 IU",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-813006016995.jpg",
       "best_price_per_unit": 170.0,
       "best_total_price": 21.25,
       "unit": "mg",
@@ -6783,7 +6783,7 @@
           "price_per_unit": 170.0,
           "product_url": "https://www.vitacost.com/dr-mercola-liposomal-vitamin-d3-5000-iu-30-capsules",
           "product_name": "Dr. Mercola Liposomal Vitamin D3 -- 5000 IU - 30 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-813006016995.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6802,7 +6802,7 @@
       "brand": "Premier Research Labs",
       "dsld_product_name": "D3 Serum 5000 IU",
       "dsld_brand": "Premier Research Labs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Premier-Research-Labs/Premier-Research-Labs-D3-Serum-807735013356.jpg",
       "best_price_per_unit": 172.32,
       "best_total_price": 21.54,
       "unit": "mg",
@@ -6815,7 +6815,7 @@
           "price_per_unit": 172.32,
           "product_url": "https://www.vitacost.com/premier-research-labs-d3-serum",
           "product_name": "Premier Research Labs D3 Serum -- 5000 IU - 0.43 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Premier-Research-Labs/Premier-Research-Labs-D3-Serum-807735013356.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6834,7 +6834,7 @@
       "brand": "Doctor's Best",
       "dsld_product_name": "Vegan D3 2500 IU with Vitashine D3",
       "dsld_brand": "Doctor's Best",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Doctors-Best/Doctors-Best-Vegan-D3-753950003026.jpg",
       "best_price_per_unit": 174.24,
       "best_total_price": 10.89,
       "unit": "mg",
@@ -6847,7 +6847,7 @@
           "price_per_unit": 174.24,
           "product_url": "https://www.vitacost.com/doctors-best-vegan-d3",
           "product_name": "Doctor's Best Vegan D3 -- 2500 IU - 60 Veggie Caps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Doctors-Best/Doctors-Best-Vegan-D3-753950003026.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6870,7 +6870,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "D3 5000",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-D3-5000-871149004057.jpg",
       "best_price_per_unit": 175.92,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -6883,7 +6883,7 @@
           "price_per_unit": 175.92,
           "product_url": "https://www.vitacost.com/xymogen-d3-5000-60-softgels",
           "product_name": "XYMOGEN D3 5000 -- 60 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-D3-5000-871149004057.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6900,7 +6900,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Vitamin D3 5000 IU",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Vital-Nutrients/Vital-Nutrients-Vitamin-D3-693465539118.jpg",
       "best_price_per_unit": 191.2,
       "best_total_price": 23.9,
       "unit": "mg",
@@ -6913,7 +6913,7 @@
           "price_per_unit": 191.2,
           "product_url": "https://www.vitacost.com/vital-nutrients-vitamin-d3",
           "product_name": "Vital Nutrients Vitamin D3 -- 5000 IU - 90 Vegetarian Cap...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Vital-Nutrients/Vital-Nutrients-Vitamin-D3-693465539118.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6923,7 +6923,7 @@
           "price_per_unit": 191.2,
           "product_url": "https://www.iherb.com/pr/vital-nutrients-vitamin-d3-5-000-iu-90-vegetarian-capsules/108153",
           "product_name": "Vital Nutrients, Vitamin D3, 5,000 IU, 90 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu53911/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6940,7 +6940,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Vitamin D3 + K2",
       "dsld_brand": "Seeking Health",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Vitamin-D3-K2-810007521367.jpg",
       "best_price_per_unit": 200.0,
       "best_total_price": 25.0,
       "unit": "mg",
@@ -6953,7 +6953,7 @@
           "price_per_unit": 200.0,
           "product_url": "https://www.vitacost.com/seeking-health-vitamin-d3-k2",
           "product_name": "Seeking Health Vitamin D3 + K2 -- 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Vitamin-D3-K2-810007521367.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6970,7 +6970,7 @@
       "brand": "Jarrow Formulas",
       "dsld_product_name": "Vitamin D3 62.5 mcg 2500 IU",
       "dsld_brand": "Jarrow Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw29042/u/61.jpg",
       "best_price_per_unit": 205.28,
       "best_total_price": 12.83,
       "unit": "mg",
@@ -6983,7 +6983,7 @@
           "price_per_unit": 205.28,
           "product_url": "https://www.iherb.com/pr/jarrow-formulas-vitamin-d3-ultra-strength-62-5-mcg-2-500-iu-100-softgels/15009",
           "product_name": "Jarrow Formulas, Vitamin D3, Ultra Strength, 62.5 mcg (2,500 IU), 100 Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw29042/u/61.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7000,7 +7000,7 @@
       "brand": "Sports Research",
       "dsld_product_name": "D3 125 mcg + K2 100 mcg",
       "dsld_brand": "Sports Research",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sre/sre01134/u/86.jpg",
       "best_price_per_unit": 207.76,
       "best_total_price": 25.97,
       "unit": "mg",
@@ -7013,7 +7013,7 @@
           "price_per_unit": 207.76,
           "product_url": "https://www.iherb.com/pr/sports-research-d3-k2-plant-based-125-mcg-100-mcg-60-veggie-softgels/79975",
           "product_name": "Sports Research, D3 + K2, Plant Based, 125\u00a0mcg/100\u00a0mcg, 60 Veggie Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sre/sre01134/u/86.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7030,7 +7030,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "D3 5000 IU K2 180 mcg",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb21566/u/24.jpg",
       "best_price_per_unit": 223.92,
       "best_total_price": 27.99,
       "unit": "mg",
@@ -7043,7 +7043,7 @@
           "price_per_unit": 223.92,
           "product_url": "https://www.iherb.com/pr/nutrabio-d3-k2-60-capsules/114334",
           "product_name": "NutraBio, D3 K2, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb21566/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7060,7 +7060,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Liposomal Vitamin D3 10000 IU",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-810487032018.jpg",
       "best_price_per_unit": 239.96,
       "best_total_price": 59.99,
       "unit": "mg",
@@ -7073,7 +7073,7 @@
           "price_per_unit": 239.96,
           "product_url": "https://www.vitacost.com/dr-mercola-liposomal-vitamin-d3-10000-iu-90-capsules",
           "product_name": "Dr. Mercola Liposomal Vitamin D3 -- 10000 IU - 90 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-810487032018.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7092,7 +7092,7 @@
       "brand": "Davinci Laboratories",
       "dsld_product_name": "Vitamin D3 5000 IU",
       "dsld_brand": "DaVinci Laboratories",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/DaVinci-Laboratories/DaVinci-Laboratories-Vitamin-D3-026664243812.jpg",
       "best_price_per_unit": 252.48,
       "best_total_price": 31.56,
       "unit": "mg",
@@ -7105,7 +7105,7 @@
           "price_per_unit": 252.48,
           "product_url": "https://www.vitacost.com/davinci-laboratories-vitamin-d3",
           "product_name": "DaVinci Laboratories Vitamin D3 -- 5000 IU - 120 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/DaVinci-Laboratories/DaVinci-Laboratories-Vitamin-D3-026664243812.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7124,7 +7124,7 @@
       "brand": "Protocol for Life Balance",
       "dsld_product_name": "Extra Strength Liquid Vitamin D3",
       "dsld_brand": "Protocol For Life Balance",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Extra-Strength-Liquid-Vitamin-D3-707359103719.jpg",
       "best_price_per_unit": 284.8,
       "best_total_price": 14.24,
       "unit": "mg",
@@ -7137,7 +7137,7 @@
           "price_per_unit": 284.8,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-extra-strength-liquid-vitamin-d3",
           "product_name": "Protocol For Life Balance Extra Strength Liquid Vitamin D...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Extra-Strength-Liquid-Vitamin-D3-707359103719.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7154,7 +7154,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Super D3 125 mcg (5000 IU) +K2 90 mcg",
       "dsld_brand": "Carlson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car10920/u/8.jpg",
       "best_price_per_unit": 285.6,
       "best_total_price": 35.7,
       "unit": "mg",
@@ -7167,7 +7167,7 @@
           "price_per_unit": 285.6,
           "product_url": "https://www.iherb.com/pr/carlson-super-d3-k2-90-vegetarian-capsules/125535",
           "product_name": "Carlson, Super D3 + K2, 90 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car10920/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7184,7 +7184,7 @@
       "brand": "Innate Response Formulas",
       "dsld_product_name": "Vitamin D3 5000 IU",
       "dsld_brand": "Innate Response Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Innate/Innate-Response-Formulas-Vitamin-D3-051494430026.jpg",
       "best_price_per_unit": 303.92,
       "best_total_price": 37.99,
       "unit": "mg",
@@ -7197,7 +7197,7 @@
           "price_per_unit": 303.92,
           "product_url": "https://www.vitacost.com/innate-response-formulas-vitamin-d3-5000-iu-125-mcg-60-capsules",
           "product_name": "Innate Response Formulas Vitamin D3 -- 5000 IU (125 mcg) ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Innate/Innate-Response-Formulas-Vitamin-D3-051494430026.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7219,7 +7219,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "D3 5000",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-K2-D3-5000-871149004095.jpg",
       "best_price_per_unit": 319.92,
       "best_total_price": 39.99,
       "unit": "mg",
@@ -7232,7 +7232,7 @@
           "price_per_unit": 319.92,
           "product_url": "https://www.vitacost.com/xymogen-k2-d3-5000-60-vegetarian-capsules",
           "product_name": "XYMOGEN K2-D3 5000 -- 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-K2-D3-5000-871149004095.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7249,7 +7249,7 @@
       "brand": "Protocol for Life Balance",
       "dsld_product_name": "Vitamin D3 1000 IU",
       "dsld_brand": "Protocol For Life Balance",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Vitamin-D3-707359103658.jpg",
       "best_price_per_unit": 335.2,
       "best_total_price": 8.38,
       "unit": "mg",
@@ -7262,7 +7262,7 @@
           "price_per_unit": 335.2,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-vitamin-d3",
           "product_name": "Protocol For Life Balance Vitamin D3 -- 1000 IU - 120 Sof...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Vitamin-D3-707359103658.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7279,7 +7279,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "K2-D3 Max",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-K2-D3-Max-722537512268.jpg",
       "best_price_per_unit": 343.92,
       "best_total_price": 42.99,
       "unit": "mg",
@@ -7292,7 +7292,7 @@
           "price_per_unit": 343.92,
           "product_url": "https://www.vitacost.com/xymogen-k2-d3-max",
           "product_name": "XYMOGEN K2-D3 Max -- 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-K2-D3-Max-722537512268.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7311,7 +7311,7 @@
       "brand": "California Gold Nutrition",
       "dsld_product_name": "Liposomal Vitamin D3 + K2",
       "dsld_brand": "California Gold Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn02332/u/78.jpg",
       "best_price_per_unit": 368.8,
       "best_total_price": 9.22,
       "unit": "mg",
@@ -7324,7 +7324,7 @@
           "price_per_unit": 368.8,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-vitamin-d3-k2-as-mk-7-60-veggie-capsules/124743",
           "product_name": "California Gold Nutrition, Vitamin D3 + K2, 60 Veg Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn02332/u/78.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7341,7 +7341,7 @@
       "brand": "DEVA",
       "dsld_product_name": "Vegan Vitamin D 2400 IU",
       "dsld_brand": "DEVA",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Vitamin-D-895634000331.jpg",
       "best_price_per_unit": 399.5,
       "best_total_price": 7.99,
       "unit": "mg",
@@ -7354,7 +7354,7 @@
           "price_per_unit": 399.5,
           "product_url": "https://www.vitacost.com/deva-vegan-vitamin-d-2400-iu-90-tablets",
           "product_name": "Deva Vegan Vitamin D -- 2400 IU - 90 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Vitamin-D-895634000331.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7374,7 +7374,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Vital-Nutrients/Vital-Nutrients-Vitamin-D3-693465537114.jpg",
       "best_price_per_unit": 417.99999999999994,
       "best_total_price": 20.9,
       "unit": "mg",
@@ -7387,7 +7387,7 @@
           "price_per_unit": 417.99999999999994,
           "product_url": "https://www.vitacost.com/vital-nutrients-vitamin-d3-2000-iu-90-capsules-1",
           "product_name": "Vital Nutrients Vitamin D3 -- 2000 IU - 90 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Vital-Nutrients/Vital-Nutrients-Vitamin-D3-693465537114.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7404,7 +7404,7 @@
       "brand": "Vital Nutrients",
       "dsld_product_name": "Vitamin D3 2000 IU",
       "dsld_brand": "Vital Nutrients",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu53711/u/8.jpg",
       "best_price_per_unit": 417.99999999999994,
       "best_total_price": 20.9,
       "unit": "mg",
@@ -7417,7 +7417,7 @@
           "price_per_unit": 417.99999999999994,
           "product_url": "https://www.iherb.com/pr/vital-nutrients-vitamin-d3-2-000-iu-90-vegetarian-capsules/132067",
           "product_name": "Vital Nutrients, Vitamin D3, 2,000 IU, 90 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vnu/vnu53711/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7434,7 +7434,7 @@
       "brand": "natural Factors",
       "dsld_product_name": "Vitamin D3",
       "dsld_brand": "Natural Factors",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Vitamin-D3-And-K2-068958012926.jpg",
       "best_price_per_unit": 419.4,
       "best_total_price": 20.97,
       "unit": "mg",
@@ -7447,7 +7447,7 @@
           "price_per_unit": 419.4,
           "product_url": "https://www.vitacost.com/natural-factors-vitamin-d3-k2",
           "product_name": "Natural Factors Vitamin D3 & K2 -- 60 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-Vitamin-D3-And-K2-068958012926.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7468,7 +7468,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Liposomal Vitamin D3 5000 IU",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-810487032001.jpg",
       "best_price_per_unit": 419.92,
       "best_total_price": 52.49,
       "unit": "mg",
@@ -7481,7 +7481,7 @@
           "price_per_unit": 419.92,
           "product_url": "https://www.vitacost.com/dr-mercola-liposomal-vitamin-d3-5000-iu-90-capsules",
           "product_name": "Dr. Mercola Liposomal Vitamin D3 -- 5000 IU - 90 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-810487032001.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7500,7 +7500,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "D3 2000",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-D3-2000-871149001650.jpg",
       "best_price_per_unit": 439.79999999999995,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -7513,7 +7513,7 @@
           "price_per_unit": 439.79999999999995,
           "product_url": "https://www.vitacost.com/xymogen-d3-2000",
           "product_name": "XYMOGEN D3 2000 -- 120 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-D3-2000-871149001650.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7530,7 +7530,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Liposomal Vitamin D3 1000 IU",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-813006017329.jpg",
       "best_price_per_unit": 499.59999999999997,
       "best_total_price": 12.49,
       "unit": "mg",
@@ -7543,7 +7543,7 @@
           "price_per_unit": 499.59999999999997,
           "product_url": "https://www.vitacost.com/dr-mercola-liposomal-vitamin-d3",
           "product_name": "Dr. Mercola Liposomal Vitamin D3 -- 1000 IU - 30 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-813006017329.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7562,7 +7562,7 @@
       "brand": "Carlson Laboratories",
       "dsld_product_name": "Vitamin D3 + K2 50 mcg & 90 mcg",
       "dsld_brand": "Carlson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car10620/u/8.jpg",
       "best_price_per_unit": 552.5999999999999,
       "best_total_price": 27.63,
       "unit": "mg",
@@ -7575,7 +7575,7 @@
           "price_per_unit": 552.5999999999999,
           "product_url": "https://www.iherb.com/pr/carlson-vitamin-d3-k2-120-vegetarian-capsules/116233",
           "product_name": "Carlson, Vitamin D3 + K2, 120 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car10620/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7594,7 +7594,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Vitamin D3",
       "dsld_brand": "Nature's Way",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Vitamin-Vitamin-D3-Max-High-Potency-Vitamin-D3-033674158364.jpg",
       "best_price_per_unit": 719.5999999999999,
       "best_total_price": 17.99,
       "unit": "mg",
@@ -7607,7 +7607,7 @@
           "price_per_unit": 719.5999999999999,
           "product_url": "https://www.vitacost.com/natures-way-vitamin-vitamin-d3-max-high-potency-vitamin-d3",
           "product_name": "Nature's Way Vitamin Vitamin D3 Max - High Potency Vitami...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Vitamin-Vitamin-D3-Max-High-Potency-Vitamin-D3-033674158364.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7628,7 +7628,7 @@
       "brand": "Nature's Answer",
       "dsld_product_name": "Vitamin D3 & K2",
       "dsld_brand": "Nature's Answer",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Answer/Natures-Answer-Vitamin-D3-And-K2-Drops-083000261398.jpg",
       "best_price_per_unit": 749.5999999999999,
       "best_total_price": 18.74,
       "unit": "mg",
@@ -7641,7 +7641,7 @@
           "price_per_unit": 749.5999999999999,
           "product_url": "https://www.vitacost.com/natures-answer-vitamin-d3-k2-drops",
           "product_name": "Nature's Answer Vitamin D3 & K2 Drops -- 0.5 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Answer/Natures-Answer-Vitamin-D3-And-K2-Drops-083000261398.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7660,7 +7660,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Vitamins D3 1000 IU & K2 45 mcg Low Dose",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Vitamins-D3-And-K2-Low-Dose-810094210991.jpg",
       "best_price_per_unit": 750.0,
       "best_total_price": 18.75,
       "unit": "mg",
@@ -7673,7 +7673,7 @@
           "price_per_unit": 750.0,
           "product_url": "https://www.vitacost.com/dr-mercola-vitamins-d3-k2-low-dose",
           "product_name": "Dr. Mercola Vitamins D3 & K2 Low Dose -- 30 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Vitamins-D3-And-K2-Low-Dose-810094210991.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7690,7 +7690,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Vitamin D",
       "dsld_brand": "Thorne",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-Liquid-693749168010.jpg",
       "best_price_per_unit": 760.0,
       "best_total_price": 19.0,
       "unit": "mg",
@@ -7703,7 +7703,7 @@
           "price_per_unit": 760.0,
           "product_url": "https://www.vitacost.com/thorne-vitamin-d-liquid",
           "product_name": "Thorne Vitamin D Liquid -- 1 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-Liquid-693749168010.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7720,7 +7720,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "D3 2000",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-D3-2000-871149004347.jpg",
       "best_price_per_unit": 779.8,
       "best_total_price": 38.99,
       "unit": "mg",
@@ -7733,7 +7733,7 @@
           "price_per_unit": 779.8,
           "product_url": "https://www.vitacost.com/xymogen-d3-2000-240-softgels",
           "product_name": "XYMOGEN D3 2000 -- 240 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-D3-2000-871149004347.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7750,7 +7750,7 @@
       "brand": "Healthy Origins",
       "dsld_product_name": "Vitamin D3 1000 IU 25 mcg",
       "dsld_brand": "Healthy Origins",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Healthy-Origins/Healthy-Origins-Vitamin-D3-603573153564.jpg",
       "best_price_per_unit": 799.5999999999999,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -7763,7 +7763,7 @@
           "price_per_unit": 799.5999999999999,
           "product_url": "https://www.vitacost.com/healthy-origins-vitamin-d3-360-softgels",
           "product_name": "Healthy Origins Vitamin D3 -- 360 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Healthy-Origins/Healthy-Origins-Vitamin-D3-603573153564.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7783,7 +7783,7 @@
       "brand": "Nature's Plus",
       "dsld_product_name": "Vitamins D3 1000 IU (25 mcg) & K2 100 mcg",
       "dsld_brand": "NaturesPlus",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Vitamins-D3-And-K2-097467010437.jpg",
       "best_price_per_unit": 1001.2,
       "best_total_price": 25.03,
       "unit": "mg",
@@ -7796,7 +7796,7 @@
           "price_per_unit": 1001.2,
           "product_url": "https://www.vitacost.com/naturesplus-vitamins-d3-k2",
           "product_name": "NaturesPlus Vitamins D3 & K2 -- 90 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NaturesPlus/NaturesPlus-Vitamins-D3-And-K2-097467010437.jpg",
           "rating": null,
           "reviews": null
         },
@@ -7806,7 +7806,7 @@
           "price_per_unit": 1001.2,
           "product_url": "https://www.iherb.com/pr/naturesplus-vitamin-d3-k2-90-capsules/40843",
           "product_name": "NaturesPlus, Vitamin D3 & K2, 90 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap01043/u/97.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7826,7 +7826,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Vitamin D",
       "dsld_brand": "Thorne",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-1000-693749015741.jpg",
       "best_price_per_unit": 1080.0,
       "best_total_price": 27.0,
       "unit": "mg",
@@ -7839,7 +7839,7 @@
           "price_per_unit": 1080.0,
           "product_url": "https://www.vitacost.com/thorne-vitamin-d-1000",
           "product_name": "Thorne Vitamin D-1000 -- 180 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-1000-693749015741.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7856,7 +7856,7 @@
       "brand": "Codeage",
       "dsld_product_name": "Teen Clearface",
       "dsld_brand": "Codeage",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Codeage/Codeage-Teen-Clearface-Vitamins-A-C-D3-E-Pantothenic-Acid-Niacin-Zinc-Probiotics-Omega-3-853919008779.jpg",
       "best_price_per_unit": 1119.6,
       "best_total_price": 27.99,
       "unit": "mg",
@@ -7869,7 +7869,7 @@
           "price_per_unit": 1119.6,
           "product_url": "https://www.vitacost.com/codeage-teen-clearface-vitamins-a-c-d3-e-pantothenic-acid-niacin-zinc-probiotics-omega-3-60-capsules",
           "product_name": "Codeage Teen Clearface - Vitamins A C D3 E Pantothenic Ac...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Codeage/Codeage-Teen-Clearface-Vitamins-A-C-D3-E-Pantothenic-Acid-Niacin-Zinc-Probiotics-Omega-3-853919008779.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7886,7 +7886,7 @@
       "brand": "Thorne",
       "dsld_product_name": "Vitamin D + K2",
       "dsld_brand": "Thorne",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-K2-Liquid-693749500018.jpg",
       "best_price_per_unit": 1280.0,
       "best_total_price": 32.0,
       "unit": "mg",
@@ -7899,7 +7899,7 @@
           "price_per_unit": 1280.0,
           "product_url": "https://www.vitacost.com/thorne-vitamin-d-k2-liquid",
           "product_name": "Thorne Vitamin D + K2 Liquid -- 1 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-K2-Liquid-693749500018.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7916,7 +7916,7 @@
       "brand": "Healthy Origins",
       "dsld_product_name": "Vitamin D3 1000 IU 25 mcg",
       "dsld_brand": "Healthy Origins",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Healthy-Origins/Healthy-Origins-Vitamin-D3-And-K2-603573274535.jpg",
       "best_price_per_unit": 1423.6000000000001,
       "best_total_price": 35.59,
       "unit": "mg",
@@ -7929,7 +7929,7 @@
           "price_per_unit": 1423.6000000000001,
           "product_url": "https://www.vitacost.com/healthy-origins-vitamin-d3-k2",
           "product_name": "Healthy Origins Vitamin D3 & K2 -- 180 Softgels",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Healthy-Origins/Healthy-Origins-Vitamin-D3-And-K2-603573274535.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7949,7 +7949,7 @@
       "brand": "Nature's Way",
       "dsld_product_name": "Vitamin D3",
       "dsld_brand": "Nature's Way",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Protective-Breast-Formula-with-Vitamin-D3-Calcium-Turmeric-BR-DIM-763948058860.jpg",
       "best_price_per_unit": 2235.6,
       "best_total_price": 55.89,
       "unit": "mg",
@@ -7962,7 +7962,7 @@
           "price_per_unit": 2235.6,
           "product_url": "https://www.vitacost.com/natures-way-protective-breast-formula-with-vitamin-d3-calcium-turmeric-br-dim",
           "product_name": "Nature's Way Protective Breast Formula - with Vitamin D3 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Way/Natures-Way-Protective-Breast-Formula-with-Vitamin-D3-Calcium-Turmeric-BR-DIM-763948058860.jpg",
           "rating": null,
           "reviews": null
         }
@@ -7983,7 +7983,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Vitamin D3 + K2 Drops",
       "dsld_brand": "Seeking Health",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52135/u/69.jpg",
       "best_price_per_unit": 2240.0,
       "best_total_price": 28.0,
       "unit": "mg",
@@ -7996,7 +7996,7 @@
           "price_per_unit": 2240.0,
           "product_url": "https://www.iherb.com/pr/seeking-health-vitamin-d3-k2-drops-1-fl-oz-30-ml/109875",
           "product_name": "Seeking Health, Vitamin D3 + K2 Drops, 1 fl oz (30 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52135/u/69.jpg",
           "rating": null,
           "reviews": null
         }

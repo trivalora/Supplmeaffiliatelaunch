@@ -3522,7 +3522,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Micellar Casein Strawberry Ice Cream",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Micellar-Casein-Strawberry-Ice-Cream-649908280901.jpg",
       "best_price_per_unit": 0.06179945054945055,
       "best_total_price": 44.99,
       "unit": "mg",
@@ -3535,7 +3535,7 @@
           "price_per_unit": 0.06179945054945055,
           "product_url": "https://www.vitacost.com/nutrabio-micellar-casein-strawberry-ice-cream",
           "product_name": "NutraBio Micellar Casein Strawberry Ice Cream -- 27 Servings",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Micellar-Casein-Strawberry-Ice-Cream-649908280901.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3554,7 +3554,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Micellar Casein Alpine Vanilla",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Micellar-Casein-Alpine-Vanilla-649908249908.jpg",
       "best_price_per_unit": 0.06179945054945055,
       "best_total_price": 44.99,
       "unit": "mg",
@@ -3567,7 +3567,7 @@
           "price_per_unit": 0.06179945054945055,
           "product_url": "https://www.vitacost.com/nutrabio-micellar-casein",
           "product_name": "NutraBio Micellar Casein Alpine Vanilla -- 27 Servings",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Micellar-Casein-Alpine-Vanilla-649908249908.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3594,7 +3594,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "100% Micellar Casein Alpine Vanilla",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb24990/u/24.jpg",
       "best_price_per_unit": 0.06336619718309859,
       "best_total_price": 44.99,
       "unit": "mg",
@@ -3607,7 +3607,7 @@
           "price_per_unit": 0.06336619718309859,
           "product_url": "https://www.iherb.com/pr/nutrabio-micellar-casein-alpine-vanilla-2-lb-907-g/123357",
           "product_name": "NutraBio, Micellar Casein, Alpine Vanilla, 2 lb (907 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb24990/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3629,7 +3629,7 @@
       "brand": "Optimum Nutrition",
       "dsld_product_name": "Gold Standard 100% Casein Chocolate Peanut Butter",
       "dsld_brand": "Optimum Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02628/u/25.jpg",
       "best_price_per_unit": 0.8723333333333334,
       "best_total_price": 104.68,
       "unit": "calorie",
@@ -3642,7 +3642,7 @@
           "price_per_unit": 0.8723333333333334,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-casein-chocolate-peanut-butter-3-97-lb-1-8-kg/27529",
           "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Casein, Chocolate Peanut Butter, 3.97 lb (1.8 kg)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02628/u/25.jpg",
           "rating": null,
           "reviews": null
         }

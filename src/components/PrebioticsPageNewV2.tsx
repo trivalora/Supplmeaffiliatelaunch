@@ -133,37 +133,6 @@ export function PrebioticsPageNewV2({
       }
     ],
     
-    whatToExpectData: {
-      disclaimer: "Effects vary by individual. Consult healthcare provider before starting.",
-      signsOfEffectiveness: "Improved bowel regularity (more frequent and easier-to-pass stools), reduced bloating over time after initial adjustment period, better overall digestive comfort, and potentially increased energy levels. Some individuals notice improved satiety and reduced sugar cravings. Microbiome testing would show increased beneficial bacteria (Bifidobacteria, Lactobacilli) but this is not necessary for most users. Individual responses vary based on baseline microbiome composition and diet. Digestive changes may appear within 1-2 weeks. Initial gas and bloating typically peak in the first week and improve with continued use. Full microbiome shifts typically occur within 2-4 weeks. Metabolic benefits may take 4-8 weeks or longer.",
-      outcomes: [
-        {
-          icon: Droplet,
-          iconLabel: "Digestive Health",
-          usage: "5-15g",
-          bestTime: "with food",
-          resultsWeeks: "1-4",
-          intensity: "Moderate" as const
-        },
-        {
-          icon: Users,
-          iconLabel: "Microbiome Support",
-          usage: "5-10g",
-          bestTime: "with food",
-          resultsWeeks: "2-4",
-          intensity: "Moderate" as const
-        },
-        {
-          icon: Flame,
-          iconLabel: "Metabolic Benefits",
-          usage: "10-15g",
-          bestTime: "with food",
-          resultsWeeks: "4-8",
-          intensity: "Low to Moderate" as const
-        }
-      ]
-    },
-    
     buyingGuideIntro: "When selecting prebiotic supplements:",
     buyingGuideItems: [
       {

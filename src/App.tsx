@@ -43,6 +43,25 @@ const MethodologyPage = lazy(() => import('./components/MethodologyPage').then(m
 const PartnerPage = lazy(() => import('./components/PartnerPage').then(m => ({ default: m.PartnerPage })));
 const ProductComparison = lazy(() => import('./components/ProductComparison').then(m => ({ default: m.ProductComparison })));
 
+// Lazy load comparison pages
+const AshwagandhaComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.AshwagandhaComparison })));
+const CalciumComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.CalciumComparison })));
+const CollagenComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.CollagenComparison })));
+const CreatineComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.CreatineComparison })));
+const IronComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.IronComparison })));
+const MagnesiumComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.MagnesiumComparison })));
+const Omega3Comparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.Omega3Comparison })));
+const PrebioticsComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.PrebioticsComparison })));
+const ProbioticsComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.ProbioticsComparison })));
+const VitaminCComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.VitaminCComparison })));
+const VitaminDComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.VitaminDComparison })));
+const BCAAsComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.BCAAsComparison })));
+const CurcuminComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.CurcuminComparison })));
+const MultivitaminComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.MultivitaminComparison })));
+const WheyProteinComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.WheyProteinComparison })));
+const CaseinProteinComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.CaseinProteinComparison })));
+const ZincComparison = lazy(() => import('./components/ProductComparisonWrapper').then(m => ({ default: m.ZincComparison })));
+
 // Lazy load glossary term pages
 const RCTPage = lazy(() => import('./components/glossary/RCTPage').then(m => ({ default: m.RCTPage })));
 const MetaAnalysisPage = lazy(() => import('./components/glossary/MetaAnalysisPage').then(m => ({ default: m.MetaAnalysisPage })));
@@ -298,6 +317,28 @@ export default function App({ navigate, currentPath }: AppProps) {
     };
     if (supplementMap[trimmed]) return supplementMap[trimmed];
 
+    // Comparison page URLs: <supplement>-comparison
+    const comparisonMap: Record<string, PageKey> = {
+      'ashwagandha-comparison': 'ashwagandha-comparison',
+      'calcium-comparison': 'calcium-comparison',
+      'collagen-comparison': 'collagen-comparison',
+      'creatine-comparison': 'creatine-comparison',
+      'iron-comparison': 'iron-comparison',
+      'magnesium-comparison': 'magnesium-comparison',
+      'omega-3-comparison': 'omega-3-comparison',
+      'prebiotics-comparison': 'prebiotics-comparison',
+      'probiotics-comparison': 'probiotics-comparison',
+      'vitamin-c-comparison': 'vitamin-c-comparison',
+      'vitamin-d-comparison': 'vitamin-d-comparison',
+      'bcaas-comparison': 'bcaas-comparison',
+      'curcumin-comparison': 'curcumin-comparison',
+      'multivitamin-comparison': 'multivitamin-comparison',
+      'whey-protein-comparison': 'whey-protein-comparison',
+      'casein-protein-comparison': 'casein-protein-comparison',
+      'zinc-comparison': 'zinc-comparison',
+    };
+    if (comparisonMap[trimmed]) return comparisonMap[trimmed];
+
     // Glossary hierarchical URLs: glossary/<term>
     if (trimmed.startsWith('glossary/')) {
       const term = trimmed.split('/')[1] || '';
@@ -366,6 +407,7 @@ export default function App({ navigate, currentPath }: AppProps) {
 
   // Render the current page component
   const renderPage = () => {
+    console.log('[App.renderPage] Current page:', currentPage);
     if (currentPage === 'landing') {
       return <LandingPage onNavigate={navigateTo} />;
     }
@@ -402,6 +444,25 @@ export default function App({ navigate, currentPath }: AppProps) {
     if (currentPage === 'methodology') return <MethodologyPage />;
     if (currentPage === 'partner') return <PartnerPage onNavigate={navigateTo} />;
     if (currentPage === 'product-comparison') return <ProductComparison onNavigate={navigateTo} />;
+
+    // Comparison Pages
+    if (currentPage === 'ashwagandha-comparison') return <AshwagandhaComparison onNavigate={navigateTo} />;
+    if (currentPage === 'calcium-comparison') return <CalciumComparison onNavigate={navigateTo} />;
+    if (currentPage === 'collagen-comparison') return <CollagenComparison onNavigate={navigateTo} />;
+    if (currentPage === 'creatine-comparison') return <CreatineComparison onNavigate={navigateTo} />;
+    if (currentPage === 'iron-comparison') return <IronComparison onNavigate={navigateTo} />;
+    if (currentPage === 'magnesium-comparison') return <MagnesiumComparison onNavigate={navigateTo} />;
+    if (currentPage === 'omega-3-comparison') return <Omega3Comparison onNavigate={navigateTo} />;
+    if (currentPage === 'prebiotics-comparison') return <PrebioticsComparison onNavigate={navigateTo} />;
+    if (currentPage === 'probiotics-comparison') return <ProbioticsComparison onNavigate={navigateTo} />;
+    if (currentPage === 'vitamin-c-comparison') return <VitaminCComparison onNavigate={navigateTo} />;
+    if (currentPage === 'vitamin-d-comparison') return <VitaminDComparison onNavigate={navigateTo} />;
+    if (currentPage === 'bcaas-comparison') return <BCAAsComparison onNavigate={navigateTo} />;
+    if (currentPage === 'curcumin-comparison') return <CurcuminComparison onNavigate={navigateTo} />;
+    if (currentPage === 'multivitamin-comparison') return <MultivitaminComparison onNavigate={navigateTo} />;
+    if (currentPage === 'whey-protein-comparison') return <WheyProteinComparison onNavigate={navigateTo} />;
+    if (currentPage === 'casein-protein-comparison') return <CaseinProteinComparison onNavigate={navigateTo} />;
+    if (currentPage === 'zinc-comparison') return <ZincComparison onNavigate={navigateTo} />;
 
     // Glossary Pages
     if (currentPage === 'rct') return <RCTPage onNavigate={navigateTo} />;

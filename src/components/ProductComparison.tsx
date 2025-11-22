@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
@@ -229,24 +229,71 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
     setActiveDietaryFilters(newFilters);
   }
 
-  // Calculate filter counts based on current supplement's products (not global counts)
-  const calculateFilterCounts = () => {
+  // Calculate reactive filter counts based on currently filtered products
+  // Each filter shows how many products would remain if ONLY that filter were toggled
+  const calculateReactiveFilterCounts = () => {
     if (!currentData) return {};
     
     const counts: Record<string, number> = {};
     
-    // Count how many products in the current supplement have each filter
-    for (const product of currentData) {
-      const productFilters = product.filters || [];
-      for (const filterKey of productFilters) {
-        counts[filterKey] = (counts[filterKey] || 0) + 1;
+    // Get all available filter keys
+    const allFilterKeys = Object.keys(filters);
+    
+    // For each filter option, calculate how many products would match
+    // if we apply all OTHER active filters plus potentially this one
+    for (const filterKey of allFilterKeys) {
+      let matchingCount = 0;
+      
+      for (const product of currentData) {
+        // Apply search filter
+        if (searchQuery) {
+          const searchText = (
+            (product.retailer_prices && product.retailer_prices[0]?.product_name || '') + ' ' +
+            (product.brand || '') + ' ' +
+            (product.retailer_prices?.map((r: any) => r.retailer).join(' ') || '')
+          ).toLowerCase();
+          if (!searchText.includes(searchQuery.toLowerCase())) continue;
+        }
+        
+        // Apply retailer filter
+        if (retailerFilter && product.retailer_prices && !product.retailer_prices.some((r: any) => r.retailer === retailerFilter)) {
+          continue;
+        }
+        
+        // Apply multi-retailer filter
+        if (multiOnly === 'multi' && (!product.retailer_prices || product.retailer_prices.length === 1)) {
+          continue;
+        }
+        
+        const productFilters = product.filters || [];
+        
+        // Check if this product has the current filter we're counting
+        if (!productFilters.includes(filterKey)) continue;
+        
+        // Check if product matches all OTHER active dietary filters
+        let matchesOtherFilters = true;
+        for (const activeFilter of activeDietaryFilters) {
+          // Skip the filter we're currently counting
+          if (activeFilter === filterKey) continue;
+          
+          if (!productFilters.includes(activeFilter)) {
+            matchesOtherFilters = false;
+            break;
+          }
+        }
+        
+        if (matchesOtherFilters) {
+          matchingCount++;
+        }
       }
+      
+      counts[filterKey] = matchingCount;
     }
     
     return counts;
   };
   
-  const currentFilterCounts = calculateFilterCounts();
+  const currentFilterCounts = calculateReactiveFilterCounts();
   
   // Priority filters to show first
   const priorityFilters = ['vegan', 'vegetarian', 'gluten_free', 'dairy_free', 'non_gmo', 'organic'];
@@ -375,17 +422,34 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                   {/* Dietary Filters */}
                   {Object.keys(filters).length > 0 && (
                     <div className="pt-4 border-t border-secondary/20">
-                      <label className="block text-sm font-medium text-muted-foreground mb-3">
-                        Dietary & Attributes
-                      </label>
+                      <div className="flex items-center justify-between mb-3">
+                        <label className="block text-sm font-medium text-muted-foreground">
+                          Dietary & Attributes
+                          {activeDietaryFilters.size > 0 && (
+                            <span className="ml-2 text-xs text-primary">
+                              ({activeDietaryFilters.size} active)
+                            </span>
+                          )}
+                        </label>
+                        {activeDietaryFilters.size > 0 && (
+                          <button
+                            onClick={() => setActiveDietaryFilters(new Set())}
+                            className="text-xs text-primary hover:text-primary/80 underline transition-colors"
+                          >
+                            Clear all filters
+                          </button>
+                        )}
+                      </div>
                       <div className="flex flex-wrap gap-2">
                         {orderedFilterKeys
-                          .filter(key => currentFilterCounts[key] && currentFilterCounts[key] > 0)
                           .map(key => {
                             const filter = filters[key];
                             const displayName = filter?.display_name || key.replace(/_/g, ' ');
-                            const count = currentFilterCounts[key];
+                            const count = currentFilterCounts[key] || 0;
                             const isActive = activeDietaryFilters.has(key);
+                            
+                            // Hide filters with 0 count unless they're currently active
+                            if (count === 0 && !isActive) return null;
                             
                             return (
                               <label
@@ -393,7 +457,9 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                 className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full cursor-pointer transition-all text-sm
                                   ${isActive 
                                     ? 'bg-primary text-white' 
-                                    : 'bg-tertiary border border-secondary/30 hover:border-primary hover:bg-secondary'
+                                    : count > 0 
+                                      ? 'bg-tertiary border border-secondary/30 hover:border-primary hover:bg-secondary'
+                                      : 'bg-gray-100 border border-gray-300 opacity-50 cursor-not-allowed'
                                   }`}
                               >
                                 <input
@@ -401,11 +467,13 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                   checked={isActive}
                                   onChange={() => toggleDietaryFilter(key)}
                                   className="sr-only"
+                                  disabled={count === 0 && !isActive}
                                 />
                                 {displayName} ({count})
                               </label>
                             );
-                          })}
+                          })
+                          .filter(Boolean)}
                       </div>
                     </div>
                   )}

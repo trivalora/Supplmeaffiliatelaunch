@@ -3523,7 +3523,7 @@
       "brand": "Organic Traditions",
       "dsld_product_name": "Ashwagandha Root Powder",
       "dsld_brand": "Organic Traditions",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ogt/ogt00391/u/10.jpg",
       "best_price_per_unit": 0.001466,
       "best_total_price": 7.33,
       "unit": "mg",
@@ -3536,7 +3536,7 @@
           "price_per_unit": 0.001466,
           "product_url": "https://www.iherb.com/pr/organic-traditions-ashwagandha-root-powder-7-oz-200-g/106054",
           "product_name": "Organic Traditions, Ashwagandha Root Powder, 7 oz (200 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ogt/ogt00391/u/10.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3546,7 +3546,7 @@
           "price_per_unit": 0.001678,
           "product_url": "https://www.vitacost.com/organic-traditions-ashwagandha-root-powder-7-oz",
           "product_name": "Organic Traditions Ashwagandha Root Powder -- 7 oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Organic-Traditions/Organic-Traditions-Ashwagandha-Root-Powder-627733003919.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3563,7 +3563,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Tulsi Ashwagandha",
       "dsld_brand": "Organic India",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Organic-India/Organic-India-Organic-Herbal-Tea-Tulsi-Ashwagandha-801541514861.jpg",
       "best_price_per_unit": 0.0029950000000000003,
       "best_total_price": 5.99,
       "unit": "mg",
@@ -3576,7 +3576,7 @@
           "price_per_unit": 0.0029950000000000003,
           "product_url": "https://www.vitacost.com/organic-india-organic-herbal-tea-tulsi-ashwagandha",
           "product_name": "Organic India Organic Herbal Tea Tulsi Ashwagandha -- 18 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Organic-India/Organic-India-Organic-Herbal-Tea-Tulsi-Ashwagandha-801541514861.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3599,7 +3599,7 @@
       "brand": "Pure Indian Foods",
       "dsld_product_name": "Ashwagandha Ghee",
       "dsld_brand": "Pure Indian Foods",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pif/pif61952/u/8.jpg",
       "best_price_per_unit": 0.0033640000000000002,
       "best_total_price": 16.82,
       "unit": "mg",
@@ -3612,7 +3612,7 @@
           "price_per_unit": 0.0033640000000000002,
           "product_url": "https://www.iherb.com/pr/pure-indian-foods-ashwagandha-ghee-5-3-oz-150-g/127467",
           "product_name": "Pure Indian Foods, Ashwagandha Ghee, 5.3 oz (150 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pif/pif61952/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3631,7 +3631,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Gaia Herbs",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai15209/u/24.jpg",
       "best_price_per_unit": 0.0037099999999999998,
       "best_total_price": 14.84,
       "unit": "mg",
@@ -3644,7 +3644,7 @@
           "price_per_unit": 0.0037099999999999998,
           "product_url": "https://www.iherb.com/pr/gaia-herbs-ashwagandha-gummies-apple-cinnamon-45-gummies/139347",
           "product_name": "Gaia Herbs, Ashwagandha Gummies, Apple Cinnamon, 45 Gummies",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai15209/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3663,7 +3663,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Gaia Herbs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Gummies-Certified-Organic-751063152099.jpg",
       "best_price_per_unit": 0.0037099999999999998,
       "best_total_price": 14.84,
       "unit": "mg",
@@ -3676,7 +3676,7 @@
           "price_per_unit": 0.0037099999999999998,
           "product_url": "https://www.vitacost.com/gaia-herbs-ashwagandha-gummies-certified-organic",
           "product_name": "Gaia Herbs Ashwagandha Gummies - Certified Organic -- 45 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Gummies-Certified-Organic-751063152099.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3695,7 +3695,7 @@
       "brand": "Goli Nutrition",
       "dsld_product_name": "Ashwagandha Gummies",
       "dsld_brand": "Goli Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/goi/goi35740/u/56.jpg",
       "best_price_per_unit": 0.003745,
       "best_total_price": 14.98,
       "unit": "mg",
@@ -3708,7 +3708,7 @@
           "price_per_unit": 0.003745,
           "product_url": "https://www.iherb.com/pr/goli-nutrition-ashwagandha-gummies-60-gummies/104633",
           "product_name": "Goli Nutrition, Ashwagandha Gummies, 60 Gummies",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/goi/goi35740/u/56.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3759,7 +3759,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Gaia Herbs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Gummies-751063152105.jpg",
       "best_price_per_unit": 0.0065225,
       "best_total_price": 26.09,
       "unit": "mg",
@@ -3772,7 +3772,7 @@
           "price_per_unit": 0.0065225,
           "product_url": "https://www.vitacost.com/gaia-herbs-ashwagandha-gummies",
           "product_name": "Gaia Herbs Ashwagandha Gummies -- 81 Gummies",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Gummies-751063152105.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3791,7 +3791,7 @@
       "brand": "Happy Healthy Hippie",
       "dsld_product_name": "Ashwagandha Extra Strength 2100 mg",
       "dsld_brand": "Happy Healthy Hippie",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hhh/hhh05903/u/15.jpg",
       "best_price_per_unit": 0.007119047619047619,
       "best_total_price": 14.95,
       "unit": "mg",
@@ -3804,7 +3804,7 @@
           "price_per_unit": 0.007119047619047619,
           "product_url": "https://www.iherb.com/pr/happy-healthy-hippie-ashwagandha-2-100-mg-90-vegetarian-capsules/121391",
           "product_name": "Happy Healthy Hippie, Ashwagandha, Extra Strength, 2,100 mg, 90 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hhh/hhh05903/u/15.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3826,7 +3826,7 @@
       "brand": "BareOrganics",
       "dsld_product_name": "Ashwagandha Root Powder",
       "dsld_brand": "BareOrganics",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bog/bog02857/u/24.jpg",
       "best_price_per_unit": 0.007996666666666666,
       "best_total_price": 23.99,
       "unit": "mg",
@@ -3839,7 +3839,7 @@
           "price_per_unit": 0.007996666666666666,
           "product_url": "https://www.iherb.com/pr/bareorganics-organic-ashwagandha-root-powder-8-oz-227-g/131816",
           "product_name": "BareOrganics, Organic Ashwagandha Root Powder, 8 oz (227 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bog/bog02857/u/24.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3849,7 +3849,7 @@
           "price_per_unit": 0.008796666666666666,
           "product_url": "https://www.vitacost.com/bareorganics-ashwagandha-root-powder",
           "product_name": "BareOrganics Ashwagandha Root Powder -- 8 oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/BareOrganics/BareOrganics-Ashwagandha-Root-Powder-818423028576.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3874,7 +3874,7 @@
       "brand": "Swolverine",
       "dsld_product_name": "Ashwagandha Cherry",
       "dsld_brand": "Swolverine",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Swolverine/Swolverine-Ashwagandha-Gummies-Cherry-860007637308.jpg",
       "best_price_per_unit": 0.008295,
       "best_total_price": 16.59,
       "unit": "mg",
@@ -3887,7 +3887,7 @@
           "price_per_unit": 0.008295,
           "product_url": "https://www.vitacost.com/swolverine-ashwagandha-gummies",
           "product_name": "Swolverine Ashwagandha Gummies Cherry -- 60 Gummies",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Swolverine/Swolverine-Ashwagandha-Gummies-Cherry-860007637308.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3939,7 +3939,7 @@
       "brand": "Nutricost",
       "dsld_product_name": "Ashwagandha Root 600 mg",
       "dsld_brand": "Nutricost",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57420/u/8.jpg",
       "best_price_per_unit": 0.0095,
       "best_total_price": 5.7,
       "unit": "mg",
@@ -3952,7 +3952,7 @@
           "price_per_unit": 0.0095,
           "product_url": "https://www.iherb.com/pr/nutricost-ashwagandha-root-extract-600-mg-30-capsules/145429",
           "product_name": "Nutricost, Ashwagandha Root Extract, 600 mg, 30 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncs/ncs57420/u/8.jpg",
           "rating": null,
           "reviews": null
         },
@@ -3962,7 +3962,7 @@
           "price_per_unit": 0.024916666666666667,
           "product_url": "https://www.vitacost.com/nutricost-ksm-66-ashwagandha-root-extract",
           "product_name": "Nutricost KSM-66 Ashwagandha Root Extract -- 600 mg - 60 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Nutricost/Nutricost-KSM-66-Ashwagandha-Root-Extract-810014679273.jpg",
           "rating": null,
           "reviews": null
         }
@@ -3982,7 +3982,7 @@
       "brand": "Micro Ingredients",
       "dsld_product_name": "Organic Ashwagandha Powder",
       "dsld_brand": "Micro Ingredients",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mii/mii02315/u/6.jpg",
       "best_price_per_unit": 0.01062,
       "best_total_price": 21.24,
       "unit": "mg",
@@ -3995,7 +3995,7 @@
           "price_per_unit": 0.01062,
           "product_url": "https://www.iherb.com/pr/micro-ingredients-ashwagandha-300-softgels/152157",
           "product_name": "Micro Ingredients, Ashwagandha, 300 Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mii/mii02315/u/6.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4016,7 +4016,7 @@
       "brand": "Micro Ingredients",
       "dsld_product_name": "Organic Ashwagandha Powder",
       "dsld_brand": "Micro Ingredients",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mii/mii02315/u/6.jpg",
       "best_price_per_unit": 0.01062,
       "best_total_price": 21.24,
       "unit": "mg",
@@ -4029,7 +4029,7 @@
           "price_per_unit": 0.01062,
           "product_url": "https://www.iherb.com/pr/micro-ingredients-ashwagandha-300-softgels/152157",
           "product_name": "Micro Ingredients, Ashwagandha, 300 Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mii/mii02315/u/6.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4050,7 +4050,7 @@
       "brand": "Pure",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Pure",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/kor/kor72119/u/13.jpg",
       "best_price_per_unit": 0.012744444444444445,
       "best_total_price": 22.94,
       "unit": "mg",
@@ -4063,7 +4063,7 @@
           "price_per_unit": 0.012744444444444445,
           "product_url": "https://www.iherb.com/pr/kori-pure-antarctic-krill-oil-stress-body-omega-3-with-ashwagandha-80-softgels/129621",
           "product_name": "Kori, Pure Antarctic Krill Oil, Stress & Body Omega-3 with Ashwagandha, 80 Softgels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/kor/kor72119/u/13.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4080,7 +4080,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Ashwagandha Root Powder",
       "dsld_brand": "Organic India",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ori/ori00005/u/8.jpg",
       "best_price_per_unit": 0.012935294117647059,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -4093,7 +4093,7 @@
           "price_per_unit": 0.012935294117647059,
           "product_url": "https://www.iherb.com/pr/organic-india-ashwagandha-root-powder-16-oz-454-g/100670",
           "product_name": "Organic India, Ashwagandha Root Powder, 16 oz (454 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ori/ori00005/u/8.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4103,7 +4103,7 @@
           "price_per_unit": 0.013523529411764705,
           "product_url": "https://www.vitacost.com/organic-india-ashwagandha-root-powder",
           "product_name": "Organic India Ashwagandha Root Powder -- 1 lb",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Organic-India/Organic-India-Ashwagandha-Root-Powder-851469000052.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4123,7 +4123,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Oregon's Wild Harvest",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-Herbal-Supplement-706195001265.jpg",
       "best_price_per_unit": 0.013460000000000001,
       "best_total_price": 13.46,
       "unit": "mg",
@@ -4136,7 +4136,7 @@
           "price_per_unit": 0.013460000000000001,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-ashwagandha-herbal-supplement",
           "product_name": "Oregon's Wild Harvest Ashwagandha Herbal Supplement -- 1 ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-Herbal-Supplement-706195001265.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4157,7 +4157,7 @@
       "brand": "Swanson",
       "dsld_product_name": "Ashwagandha Extract 450 mg",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv14287/u/24.jpg",
       "best_price_per_unit": 0.014199999999999999,
       "best_total_price": 6.39,
       "unit": "mg",
@@ -4170,7 +4170,7 @@
           "price_per_unit": 0.014199999999999999,
           "product_url": "https://www.iherb.com/pr/swanson-ashwagandha-extract-standardized-450-mg-60-capsules/116341",
           "product_name": "Swanson, Ashwagandha Extract, Standardised, 450 mg, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv14287/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4187,7 +4187,7 @@
       "brand": "Amazing India",
       "dsld_product_name": "Ashwagandha Extract 500 mg",
       "dsld_brand": "Amazing India",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/azi/azi02516/u/24.jpg",
       "best_price_per_unit": 0.014240000000000001,
       "best_total_price": 7.12,
       "unit": "mg",
@@ -4200,7 +4200,7 @@
           "price_per_unit": 0.014240000000000001,
           "product_url": "https://www.iherb.com/pr/amazing-india-ashwagandha-extract-500-mg-120-veggie-capsules/123083",
           "product_name": "Amazing India, Ashwagandha Extract, 500 mg, 120 Veg Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/azi/azi02516/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4222,7 +4222,7 @@
       "brand": "Planetary Herbals",
       "dsld_product_name": "Full Spectrum Ashwagandha 570 mg",
       "dsld_brand": "Planetary Herbals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Planetary-Herbals/Planetary-Herbals-Full-Spectrum-Ashwagandha-021078105343.jpg",
       "best_price_per_unit": 0.01436,
       "best_total_price": 7.18,
       "unit": "mg",
@@ -4235,7 +4235,7 @@
           "price_per_unit": 0.01436,
           "product_url": "https://www.vitacost.com/planetary-herbals-full-spectrum-ashwagandha-570-mg-60-tablets-1",
           "product_name": "Planetary Herbals Full Spectrum\u2122 Ashwagandha -- 570 mg - ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Planetary-Herbals/Planetary-Herbals-Full-Spectrum-Ashwagandha-021078105343.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4245,7 +4245,7 @@
           "price_per_unit": 0.02518,
           "product_url": "https://www.iherb.com/pr/planetary-herbals-full-spectrum-ashwagandha-120-tablets/47962",
           "product_name": "Planetary Herbals, Full Spectrum\u2122 Ashwagandha, 120 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ptf/ptf10535/u/80.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4262,7 +4262,7 @@
       "brand": "Planetary Herbals",
       "dsld_product_name": "Full Spectrum Ashwagandha 570 mg",
       "dsld_brand": "Planetary Herbals",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ptf/ptf10534/u/28.jpg",
       "best_price_per_unit": 0.01436,
       "best_total_price": 7.18,
       "unit": "mg",
@@ -4275,7 +4275,7 @@
           "price_per_unit": 0.01436,
           "product_url": "https://www.iherb.com/pr/planetary-herbals-full-spectrum-ashwagandha-60-tablets/1510",
           "product_name": "Planetary Herbals, Full Spectrum\u2122 Ashwagandha, 60 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ptf/ptf10534/u/28.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4292,7 +4292,7 @@
       "brand": "Herb Pharm",
       "dsld_product_name": "Ashwagandha Alcohol-Free",
       "dsld_brand": "Herb Pharm",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hbp/hbp03226/u/34.jpg",
       "best_price_per_unit": 0.014669867947178873,
       "best_total_price": 12.22,
       "unit": "mg",
@@ -4305,7 +4305,7 @@
           "price_per_unit": 0.014669867947178873,
           "product_url": "https://www.iherb.com/pr/herb-pharm-ashwagandha-alcohol-free-1-fl-oz-30-ml/85536",
           "product_name": "Herb Pharm, Ashwagandha, Alcohol-free, 1 fl oz (30 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hbp/hbp03226/u/34.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4324,7 +4324,7 @@
       "brand": "ZHOU",
       "dsld_product_name": "Ashwagandha 1200 mg",
       "dsld_brand": "ZHOU",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Zhou/Zhou-Ashwagandha-669191918282.jpg",
       "best_price_per_unit": 0.015575,
       "best_total_price": 18.69,
       "unit": "mg",
@@ -4337,7 +4337,7 @@
           "price_per_unit": 0.015575,
           "product_url": "https://www.vitacost.com/zhou-ashwagandha",
           "product_name": "Zhou Ashwagandha -- 1200 mg - 60 Veggie Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Zhou/Zhou-Ashwagandha-669191918282.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4358,7 +4358,7 @@
       "brand": "21st Century",
       "dsld_product_name": "Ashwagandha Extract",
       "dsld_brand": "21st Century",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen28071/u/9.jpg",
       "best_price_per_unit": 0.01558,
       "best_total_price": 7.79,
       "unit": "mg",
@@ -4371,7 +4371,7 @@
           "price_per_unit": 0.01558,
           "product_url": "https://www.iherb.com/pr/21st-century-standardized-ashwagandha-extract-60-vegetarian-capsules-500-mg-per-capsule/115013",
           "product_name": "21st Century, Standardised Ashwagandha Extract, 60 Vegetarian Capsules (500 mg per Capsule)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cen/cen28071/u/9.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4388,7 +4388,7 @@
       "brand": "Healths Harmony",
       "dsld_product_name": "Organic Ashwagandha 1350 mg",
       "dsld_brand": "Healths Harmony",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Healths-Harmony/Healths-Harmony-Organic-Ashwagandha-Tablets-850006500093.jpg",
       "best_price_per_unit": 0.016288888888888887,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -4401,7 +4401,7 @@
           "price_per_unit": 0.016288888888888887,
           "product_url": "https://www.vitacost.com/healths-harmony-organic-ashwagandha-tablets",
           "product_name": "Healths Harmony Organic Ashwagandha Tablets -- 120 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Healths-Harmony/Healths-Harmony-Organic-Ashwagandha-Tablets-850006500093.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4411,7 +4411,7 @@
           "price_per_unit": 0.016288888888888887,
           "product_url": "https://www.iherb.com/pr/healths-harmony-organic-ashwagandha-120-tablets/122287",
           "product_name": "Healths Harmony, Organic Ashwagandha, 120 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hrm/hrm50009/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4428,7 +4428,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Organic Ashwagandha",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl01848/u/26.jpg",
       "best_price_per_unit": 0.0164875,
       "best_total_price": 13.19,
       "unit": "mg",
@@ -4441,7 +4441,7 @@
           "price_per_unit": 0.0164875,
           "product_url": "https://www.iherb.com/pr/dr-mercola-organic-ashwagandha-60-capsules-400-mg-per-capsule/84151",
           "product_name": "Dr. Mercola, Organic Ashwagandha, 60 Capsules (400 mg per Capsule)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl01848/u/26.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4458,7 +4458,7 @@
       "brand": "Mason Natural",
       "dsld_product_name": "Standardized Extract Ashwagandha 500 mg",
       "dsld_brand": "Mason Natural",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mav/mav17875/u/36.jpg",
       "best_price_per_unit": 0.0185,
       "best_total_price": 9.25,
       "unit": "mg",
@@ -4471,7 +4471,7 @@
           "price_per_unit": 0.0185,
           "product_url": "https://www.iherb.com/pr/mason-natural-standardized-extract-ashwagandha-60-capsules/83915",
           "product_name": "Mason Natural, Standardised Extract Ashwagandha, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mav/mav17875/u/36.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4481,7 +4481,7 @@
           "price_per_unit": 0.01998,
           "product_url": "https://www.vitacost.com/mason-natural-ashwagandha",
           "product_name": "Mason Natural Ashwagandha -- 500 mg - 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Mason-Natural/Mason-Natural-Ashwagandha-311845178756.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4500,7 +4500,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Ashwagandha Ginkgo",
       "dsld_brand": "Oregon's Wild Harvest",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-706195000909.jpg",
       "best_price_per_unit": 0.018716666666666666,
       "best_total_price": 22.46,
       "unit": "mg",
@@ -4513,7 +4513,7 @@
           "price_per_unit": 0.018716666666666666,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-ashwagandha",
           "product_name": "Oregon's Wild Harvest Ashwagandha -- 90 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-706195000909.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4533,7 +4533,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Oregon's Wild Harvest",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-706195000909.jpg",
       "best_price_per_unit": 0.018716666666666666,
       "best_total_price": 22.46,
       "unit": "mg",
@@ -4546,7 +4546,7 @@
           "price_per_unit": 0.018716666666666666,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-ashwagandha",
           "product_name": "Oregon's Wild Harvest Ashwagandha -- 90 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-706195000909.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4565,7 +4565,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Organic Ashwagandha",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Ashwagandha-813006018487.jpg",
       "best_price_per_unit": 0.0187375,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -4578,7 +4578,7 @@
           "price_per_unit": 0.0187375,
           "product_url": "https://www.vitacost.com/dr-mercola-ashwagandha",
           "product_name": "Dr. Mercola Ashwagandha -- 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Ashwagandha-813006018487.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4595,7 +4595,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Ashwagandha-813006018487.jpg",
       "best_price_per_unit": 0.0187375,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -4608,7 +4608,7 @@
           "price_per_unit": 0.0187375,
           "product_url": "https://www.vitacost.com/dr-mercola-ashwagandha",
           "product_name": "Dr. Mercola Ashwagandha -- 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Ashwagandha-813006018487.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4625,7 +4625,7 @@
       "brand": "Herb Pharm",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Herb Pharm",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hbp/hbp03226/u/34.jpg",
       "best_price_per_unit": 0.019520766773162942,
       "best_total_price": 12.22,
       "unit": "mg",
@@ -4638,7 +4638,7 @@
           "price_per_unit": 0.019520766773162942,
           "product_url": "https://www.iherb.com/pr/herb-pharm-ashwagandha-alcohol-free-1-fl-oz-30-ml/85536",
           "product_name": "Herb Pharm, Ashwagandha, Alcohol-free, 1 fl oz (30 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hbp/hbp03226/u/34.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4657,7 +4657,7 @@
       "brand": "Bragg",
       "dsld_product_name": "Apple Cider Vinegar",
       "dsld_brand": "Bragg",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Bragg/Bragg-Daily-Balance-Apple-Cider-Vinegar-Ashwagandha-074305090080.jpg",
       "best_price_per_unit": 0.023719999999999998,
       "best_total_price": 17.79,
       "unit": "mg",
@@ -4670,7 +4670,7 @@
           "price_per_unit": 0.023719999999999998,
           "product_url": "https://www.vitacost.com/bragg-daily-balance-apple-cider-vinegar-ashwagandha",
           "product_name": "Bragg Daily Balance Apple Cider Vinegar + Ashwagandha -- ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Bragg/Bragg-Daily-Balance-Apple-Cider-Vinegar-Ashwagandha-074305090080.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4680,7 +4680,7 @@
           "price_per_unit": 0.026520000000000002,
           "product_url": "https://www.iherb.com/pr/bragg-apple-cider-vinegar-ashwagandha-90-capsules/139604",
           "product_name": "Bragg, Apple Cider Vinegar + Ashwagandha, 90 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bra/bra09008/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4697,7 +4697,7 @@
       "brand": "Herb Pharm",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Herb Pharm",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hbp/hbp00005/u/55.jpg",
       "best_price_per_unit": 0.02538338658146965,
       "best_total_price": 15.89,
       "unit": "mg",
@@ -4710,7 +4710,7 @@
           "price_per_unit": 0.02538338658146965,
           "product_url": "https://www.iherb.com/pr/herb-pharm-ashwagandha-1-fl-oz-30-ml/10008",
           "product_name": "Herb Pharm, Ashwagandha, 1 fl oz (30 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/hbp/hbp00005/u/55.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4720,7 +4720,7 @@
           "price_per_unit": 0.02746006389776358,
           "product_url": "https://www.vitacost.com/herb-pharm-ashwagandha-energy-vitality",
           "product_name": "Herb Pharm Ashwagandha Energy & Vitality -- 1 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Herb-Pharm/Herb-Pharm-Ashwagandha-Energy-And-Vitality-090700000059.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4739,7 +4739,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Organic India",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ori/ori00016/u/43.jpg",
       "best_price_per_unit": 0.027487499999999998,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -4752,7 +4752,7 @@
           "price_per_unit": 0.027487499999999998,
           "product_url": "https://www.iherb.com/pr/organic-india-ashwagandha-90-vegetarian-caps-400-mg-per-capsule/24627",
           "product_name": "Organic India, Ashwagandha, 90 Vegetarian Caps (400 mg per Capsule)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ori/ori00016/u/43.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4762,7 +4762,7 @@
           "price_per_unit": 0.0287375,
           "product_url": "https://www.vitacost.com/organic-india-ashwagandha-90-vegetarian-capsules-4",
           "product_name": "Organic India Ashwagandha -- 90 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Organic-India/Organic-India-Ashwagandha-851469000168.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4782,7 +4782,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Organic India",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ori/ori00005/u/8.jpg",
       "best_price_per_unit": 0.027487499999999998,
       "best_total_price": 21.99,
       "unit": "mg",
@@ -4795,7 +4795,7 @@
           "price_per_unit": 0.027487499999999998,
           "product_url": "https://www.iherb.com/pr/organic-india-ashwagandha-root-powder-16-oz-454-g/100670",
           "product_name": "Organic India, Ashwagandha Root Powder, 16 oz (454 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ori/ori00005/u/8.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4805,7 +4805,7 @@
           "price_per_unit": 0.0287375,
           "product_url": "https://www.vitacost.com/organic-india-ashwagandha-root-powder",
           "product_name": "Organic India Ashwagandha Root Powder -- 1 lb",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Organic-India/Organic-India-Ashwagandha-Root-Powder-851469000052.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4825,7 +4825,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Oregon's Wild Harvest",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-706195106076.jpg",
       "best_price_per_unit": 0.028091666666666668,
       "best_total_price": 33.71,
       "unit": "mg",
@@ -4838,7 +4838,7 @@
           "price_per_unit": 0.028091666666666668,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-ashwagandha-180-vegan-capsules",
           "product_name": "Oregon's Wild Harvest Ashwagandha -- 180 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-706195106076.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4857,7 +4857,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Oregon's Wild Harvest",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-706195106076.jpg",
       "best_price_per_unit": 0.028091666666666668,
       "best_total_price": 33.71,
       "unit": "mg",
@@ -4870,7 +4870,7 @@
           "price_per_unit": 0.028091666666666668,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-ashwagandha-180-vegan-capsules",
           "product_name": "Oregon's Wild Harvest Ashwagandha -- 180 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Ashwagandha-706195106076.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4889,7 +4889,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Ancient Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Ancient-Nutrition/Ancient-Nutrition-Organic-Ashwagandha-816401025456.jpg",
       "best_price_per_unit": 0.031825,
       "best_total_price": 25.46,
       "unit": "mg",
@@ -4902,7 +4902,7 @@
           "price_per_unit": 0.031825,
           "product_url": "https://www.vitacost.com/ancient-nutrition-organic-ashwagandha",
           "product_name": "Ancient Nutrition Organic Ashwagandha -- 30 Tablets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Ancient-Nutrition/Ancient-Nutrition-Organic-Ashwagandha-816401025456.jpg",
           "rating": null,
           "reviews": null
         },
@@ -4912,7 +4912,7 @@
           "price_per_unit": 0.031825,
           "product_url": "https://www.iherb.com/pr/ancient-nutrition-ashwagandha-30-tablets/107221",
           "product_name": "Ancient Nutrition, Ashwagandha, 30 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/atn/atn02545/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4931,7 +4931,7 @@
       "brand": "Ancient Nutrition",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Ancient Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/atn/atn02545/u/40.jpg",
       "best_price_per_unit": 0.031825,
       "best_total_price": 25.46,
       "unit": "mg",
@@ -4944,7 +4944,7 @@
           "price_per_unit": 0.031825,
           "product_url": "https://www.iherb.com/pr/ancient-nutrition-ashwagandha-30-tablets/107221",
           "product_name": "Ancient Nutrition, Ashwagandha, 30 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/atn/atn02545/u/40.jpg",
           "rating": null,
           "reviews": null
         }
@@ -4996,7 +4996,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Oregon's Wild Harvest",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Biodynamic-Ashwagandha-706195173214.jpg",
       "best_price_per_unit": 0.03402597402597403,
       "best_total_price": 20.96,
       "unit": "mg",
@@ -5009,7 +5009,7 @@
           "price_per_unit": 0.03402597402597403,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-biodynamic-ashwagandha",
           "product_name": "Oregon's Wild Harvest Biodynamic\u00ae Ashwagandha -- 2 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Biodynamic-Ashwagandha-706195173214.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5019,7 +5019,7 @@
           "price_per_unit": 0.03402597402597403,
           "product_url": "https://www.iherb.com/pr/oregon-s-wild-harvest-biodynamic-ashwagandha-extract-2-fl-oz-59-ml/126435",
           "product_name": "Oregon's Wild Harvest, Biodynamic, Ashwagandha Extract, 2 fl oz (59 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/owh/owh17321/u/20.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5039,7 +5039,7 @@
       "brand": "Oregon's Wild Harvest",
       "dsld_product_name": "Biodynamic Ashwagandha Extract",
       "dsld_brand": "Oregon's Wild Harvest",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/owh/owh17321/u/20.jpg",
       "best_price_per_unit": 0.03402597402597403,
       "best_total_price": 20.96,
       "unit": "mg",
@@ -5052,7 +5052,7 @@
           "price_per_unit": 0.03402597402597403,
           "product_url": "https://www.iherb.com/pr/oregon-s-wild-harvest-biodynamic-ashwagandha-extract-2-fl-oz-59-ml/126435",
           "product_name": "Oregon's Wild Harvest, Biodynamic, Ashwagandha Extract, 2 fl oz (59 ml)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/owh/owh17321/u/20.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5071,7 +5071,7 @@
       "brand": "Protocol for Life Balance",
       "dsld_product_name": "Ashwagandha Extract 450 mg",
       "dsld_brand": "Protocol For Life Balance",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/prt/prt14603/u/24.jpg",
       "best_price_per_unit": 0.03777777777777778,
       "best_total_price": 17.0,
       "unit": "mg",
@@ -5084,7 +5084,7 @@
           "price_per_unit": 0.03777777777777778,
           "product_url": "https://www.iherb.com/pr/protocol-for-life-balance-ashwagandha-extract-450-mg-90-veg-capsules/120284",
           "product_name": "Protocol for Life Balance, Ashwagandha Extract, 450 mg, 90 Veg Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/prt/prt14603/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5101,7 +5101,7 @@
       "brand": "Nature's Craft",
       "dsld_product_name": "Magnesium",
       "dsld_brand": "Nature's Craft",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nca/nca63911/u/24.jpg",
       "best_price_per_unit": 0.0391,
       "best_total_price": 19.55,
       "unit": "mg",
@@ -5114,7 +5114,7 @@
           "price_per_unit": 0.0391,
           "product_url": "https://www.iherb.com/pr/nature-s-craft-magnesium-ashwagandha-90-tablets/148871",
           "product_name": "Nature's Craft, Magnesium + Ashwagandha, 90 Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nca/nca63911/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5131,7 +5131,7 @@
       "brand": "Organic India",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Organic India",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ori/ori51246/u/45.jpg",
       "best_price_per_unit": 0.0412375,
       "best_total_price": 32.99,
       "unit": "mg",
@@ -5144,7 +5144,7 @@
           "price_per_unit": 0.0412375,
           "product_url": "https://www.iherb.com/pr/organic-india-ashwagandha-180-vegetarian-caps-400-mg-per-capsule/90447",
           "product_name": "Organic India, Ashwagandha, 180 Vegetarian Caps (400 mg per Capsule)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ori/ori51246/u/45.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5154,7 +5154,7 @@
           "price_per_unit": 0.043737500000000006,
           "product_url": "https://www.vitacost.com/organic-india-ashwagandha-180-vegetarian-caps",
           "product_name": "Organic India Ashwagandha -- 180 Vegetarian Caps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Organic-India/Organic-India-Ashwagandha-801541512461.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5174,7 +5174,7 @@
       "brand": "Swanson",
       "dsld_product_name": "C",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv11095/u/24.jpg",
       "best_price_per_unit": 0.04245,
       "best_total_price": 8.49,
       "unit": "mg",
@@ -5187,7 +5187,7 @@
           "price_per_unit": 0.04245,
           "product_url": "https://www.iherb.com/pr/swanson-adaptogenic-herbal-complex-with-rhodiola-ashwagandha-ginseng-60-vegan-capsules/117583",
           "product_name": "Swanson, Adaptogenic Herbal Complex with Rhodiola, Ashwagandha & Ginseng, 60 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv11095/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5206,7 +5206,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Magnesium + Ashwagandha",
       "dsld_brand": "New Chapter",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Magnesium-Ashwagandha-727783902405.jpg",
       "best_price_per_unit": 0.04273846153846154,
       "best_total_price": 13.89,
       "unit": "mg",
@@ -5219,7 +5219,7 @@
           "price_per_unit": 0.04273846153846154,
           "product_url": "https://www.vitacost.com/new-chapter-magnesium-ashwagandha-325-mg-30-vegan-tablets",
           "product_name": "New Chapter Magnesium + Ashwagandha -- 325 mg - 30 Vegan ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Magnesium-Ashwagandha-727783902405.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5239,7 +5239,7 @@
           "price_per_unit": 0.07375384615384616,
           "product_url": "https://www.iherb.com/pr/new-chapter-magnesium-ashwagandha-60-vegan-tablets/114126",
           "product_name": "New Chapter, Magnesium + Ashwagandha, 60 Vegan Tablets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncr/ncr90243/u/44.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5264,7 +5264,7 @@
       "brand": "Dr. Mercola",
       "dsld_product_name": "Organic Ashwagandha",
       "dsld_brand": "Dr. Mercola",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl03307/u/24.jpg",
       "best_price_per_unit": 0.0439875,
       "best_total_price": 35.19,
       "unit": "mg",
@@ -5277,7 +5277,7 @@
           "price_per_unit": 0.0439875,
           "product_url": "https://www.iherb.com/pr/dr-mercola-organic-ashwagandha-180-capsules-400-mg-per-capsule/123127",
           "product_name": "Dr. Mercola, Organic Ashwagandha, 180 Capsules (400 mg per Capsule)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mcl/mcl03307/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5294,7 +5294,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Ashwagandha KSM-66 600 mg",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Ashwagandha-KSM-66-649908268763.jpg",
       "best_price_per_unit": 0.04998333333333333,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -5307,7 +5307,7 @@
           "price_per_unit": 0.04998333333333333,
           "product_url": "https://www.vitacost.com/nutrabio-ashwagandha-ksm-66",
           "product_name": "NutraBio Ashwagandha KSM-66\u00ae -- 600 mg - 90 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Ashwagandha-KSM-66-649908268763.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5338,7 +5338,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "Ashwagandha KSM-66 600 mg",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26876/u/48.jpg",
       "best_price_per_unit": 0.04998333333333333,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -5351,7 +5351,7 @@
           "price_per_unit": 0.04998333333333333,
           "product_url": "https://www.iherb.com/pr/nutrabio-ksm-66-ashwagandha-90-capsules/95838",
           "product_name": "NutraBio, KSM-66\u00ae, Ashwagandha, 90 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26876/u/48.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5382,7 +5382,7 @@
       "brand": "NutraBio",
       "dsld_product_name": "KSM-66 Ashwagandha",
       "dsld_brand": "NutraBio",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26876/u/48.jpg",
       "best_price_per_unit": 0.04998333333333333,
       "best_total_price": 29.99,
       "unit": "mg",
@@ -5395,7 +5395,7 @@
           "price_per_unit": 0.04998333333333333,
           "product_url": "https://www.iherb.com/pr/nutrabio-ksm-66-ashwagandha-90-capsules/95838",
           "product_name": "NutraBio, KSM-66\u00ae, Ashwagandha, 90 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26876/u/48.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5412,7 +5412,7 @@
       "brand": "Solaray",
       "dsld_product_name": "Ashwagandha 470 mg",
       "dsld_brand": "Solaray",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Ashwagandha-076280399028.jpg",
       "best_price_per_unit": 0.050617021276595744,
       "best_total_price": 23.79,
       "unit": "mg",
@@ -5425,7 +5425,7 @@
           "price_per_unit": 0.050617021276595744,
           "product_url": "https://www.vitacost.com/solaray-ashwagandha",
           "product_name": "Solaray Ashwagandha -- 470 mg - 60 VegCaps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Ashwagandha-076280399028.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5442,7 +5442,7 @@
       "brand": "Swanson",
       "dsld_product_name": "Ultimate Ashwagandha 250 mg KSM-66",
       "dsld_brand": "Swanson",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv21003/u/24.jpg",
       "best_price_per_unit": 0.05116,
       "best_total_price": 12.79,
       "unit": "mg",
@@ -5455,7 +5455,7 @@
           "price_per_unit": 0.05116,
           "product_url": "https://www.iherb.com/pr/swanson-ultimate-ashwagandha-250-mg-60-veggie-capsules/110991",
           "product_name": "Swanson, Ultimate Ashwagandha, 250 mg, 60 Veggie Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv21003/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5472,7 +5472,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Pure Encapsulations",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pes/pes00613/u/8.jpg",
       "best_price_per_unit": 0.052399999999999995,
       "best_total_price": 26.2,
       "unit": "mg",
@@ -5485,7 +5485,7 @@
           "price_per_unit": 0.052399999999999995,
           "product_url": "https://www.iherb.com/pr/pure-encapsulations-ashwagandha-60-capsules-500-mg-per-capsule/145656",
           "product_name": "Pure Encapsulations, Ashwagandha, 60 Capsules (500 mg per Capsule)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pes/pes00613/u/8.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5495,7 +5495,7 @@
           "price_per_unit": 0.09440000000000001,
           "product_url": "https://www.vitacost.com/pure-encapsulations-ashwagandha",
           "product_name": "Pure Encapsulations Ashwagandha -- 120 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Ashwagandha-766298006123.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5514,7 +5514,7 @@
       "brand": "Himalaya",
       "dsld_product_name": "Organic Ashwagandha",
       "dsld_brand": "Himalaya",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Organic-Ashwagandha-Root-Powder-Jar-605069066525.jpg",
       "best_price_per_unit": 0.05614285714285715,
       "best_total_price": 15.72,
       "unit": "mg",
@@ -5527,7 +5527,7 @@
           "price_per_unit": 0.05614285714285715,
           "product_url": "https://www.vitacost.com/himalaya-organic-ashwagandha-root-powder-jar",
           "product_name": "Himalaya Organic Ashwagandha Root Powder Jar -- 4 oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Organic-Ashwagandha-Root-Powder-Jar-605069066525.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5546,7 +5546,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Ashwagandha Extract",
       "dsld_brand": "Seeking Health",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Ashwagandha-810007520148.jpg",
       "best_price_per_unit": 0.05952380952380952,
       "best_total_price": 25.0,
       "unit": "mg",
@@ -5559,7 +5559,7 @@
           "price_per_unit": 0.05952380952380952,
           "product_url": "https://www.vitacost.com/seeking-health-ashwagandha",
           "product_name": "Seeking Health Ashwagandha -- 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Ashwagandha-810007520148.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5576,7 +5576,7 @@
       "brand": "Seeking Health",
       "dsld_product_name": "Ashwagandha Extract",
       "dsld_brand": "Seeking Health",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Ashwagandha-810007520148.jpg",
       "best_price_per_unit": 0.05952380952380952,
       "best_total_price": 25.0,
       "unit": "mg",
@@ -5589,7 +5589,7 @@
           "price_per_unit": 0.05952380952380952,
           "product_url": "https://www.vitacost.com/seeking-health-ashwagandha",
           "product_name": "Seeking Health Ashwagandha -- 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Ashwagandha-810007520148.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5606,7 +5606,7 @@
       "brand": "Paradise",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Paradise",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Paradise-Herbs/Paradise-Herbs-Organics-Ashwagandha-601944777357.jpg",
       "best_price_per_unit": 0.05996,
       "best_total_price": 14.99,
       "unit": "mg",
@@ -5629,7 +5629,7 @@
           "price_per_unit": 0.06276,
           "product_url": "https://www.vitacost.com/paradise-herbs-organics-ashwagandha-60-vegetarian-capsules",
           "product_name": "Paradise Herbs Organics Ashwagandha -- 60 Vegetarian Caps...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Paradise-Herbs/Paradise-Herbs-Organics-Ashwagandha-601944777357.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5646,7 +5646,7 @@
       "brand": "Herb Pharm",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Herb Pharm",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Herb-Pharm/Herb-Pharm-Ashwagandha-Extract-090700001049.jpg",
       "best_price_per_unit": 0.06452076677316294,
       "best_total_price": 40.39,
       "unit": "mg",
@@ -5659,7 +5659,7 @@
           "price_per_unit": 0.06452076677316294,
           "product_url": "https://www.vitacost.com/herb-pharm-ashwagandha-extract",
           "product_name": "Herb Pharm Ashwagandha Extract -- 4 fl oz",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Herb-Pharm/Herb-Pharm-Ashwagandha-Extract-090700001049.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5676,7 +5676,7 @@
       "brand": "Futurebiotics",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Futurebiotics",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/fbs/fbs50201/u/8.jpg",
       "best_price_per_unit": 0.0666,
       "best_total_price": 9.99,
       "unit": "mg",
@@ -5689,7 +5689,7 @@
           "price_per_unit": 0.0666,
           "product_url": "https://www.iherb.com/pr/futurebiotics-ashwagandha-100-vegetarian-capsules/149206",
           "product_name": "Futurebiotics, Ashwagandha, 100 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/fbs/fbs50201/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5706,7 +5706,7 @@
       "brand": "Nature's Answer",
       "dsld_product_name": "Holy Basil",
       "dsld_brand": "Nature's Answer",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Natures-Answer/Natures-Answer-Ashwagandha-And-Holy-Basil-083000163586.jpg",
       "best_price_per_unit": 0.06996666666666666,
       "best_total_price": 20.99,
       "unit": "mg",
@@ -5719,7 +5719,7 @@
           "price_per_unit": 0.06996666666666666,
           "product_url": "https://www.vitacost.com/natures-answer-ashwagandha-holy-basil",
           "product_name": "Nature's Answer Ashwagandha & Holy Basil -- 60 Veggie Cap...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Answer/Natures-Answer-Ashwagandha-And-Holy-Basil-083000163586.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5773,7 +5773,7 @@
       "brand": "Jarrow Formulas",
       "dsld_product_name": "Ashwagandha 300 mg",
       "dsld_brand": "Jarrow Formulas",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Jarrow-Formulas/Jarrow-Formulas-Ashwagandha-790011220145.jpg",
       "best_price_per_unit": 0.0703,
       "best_total_price": 21.09,
       "unit": "mg",
@@ -5786,7 +5786,7 @@
           "price_per_unit": 0.0703,
           "product_url": "https://www.vitacost.com/jarrow-formulas-ashwagandha",
           "product_name": "Jarrow Formulas Ashwagandha -- 300 mg - 120 Veggie Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Jarrow-Formulas/Jarrow-Formulas-Ashwagandha-790011220145.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5796,7 +5796,7 @@
           "price_per_unit": 0.07643333333333334,
           "product_url": "https://www.iherb.com/pr/jarrow-formulas-ashwagandha-300-mg-120-veggie-capsules/3302",
           "product_name": "Jarrow Formulas, Ashwagandha, 300 mg, 120 Veg Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw22014/u/53.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5816,7 +5816,7 @@
       "brand": "Terry Naturally",
       "dsld_product_name": "Adaptra",
       "dsld_brand": "Terry Naturally",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Adaptra-Ashwagandha-and-Rhodiola-367703200169.jpg",
       "best_price_per_unit": 0.07032,
       "best_total_price": 35.16,
       "unit": "mg",
@@ -5829,7 +5829,7 @@
           "price_per_unit": 0.07032,
           "product_url": "https://www.vitacost.com/terry-naturally-adaptra-ashwagandha-and-rhodiola",
           "product_name": "Terry Naturally Adaptra\u00ae Ashwagandha and Rhodiola -- 60 C...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Adaptra-Ashwagandha-and-Rhodiola-367703200169.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5849,7 +5849,7 @@
       "brand": "Himalaya",
       "dsld_product_name": "Hello Energy",
       "dsld_brand": "Himalaya",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him06534/u/44.jpg",
       "best_price_per_unit": 0.07163333333333333,
       "best_total_price": 21.49,
       "unit": "mg",
@@ -5862,7 +5862,7 @@
           "price_per_unit": 0.07163333333333333,
           "product_url": "https://www.iherb.com/pr/himalaya-hello-energy-adrenal-support-with-ashwagandha-60-vegetarian-capsules/105172",
           "product_name": "Himalaya, Hello Energy, Adrenal Support with Ashwagandha, 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him06534/u/44.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5884,7 +5884,7 @@
       "brand": "Himalaya",
       "dsld_product_name": "Hello Joy",
       "dsld_brand": "Himalaya",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him06533/u/44.jpg",
       "best_price_per_unit": 0.07163333333333333,
       "best_total_price": 21.49,
       "unit": "mg",
@@ -5897,7 +5897,7 @@
           "price_per_unit": 0.07163333333333333,
           "product_url": "https://www.iherb.com/pr/himalaya-hello-joy-mood-support-with-ashwagandha-60-vegetarian-capsules/105173",
           "product_name": "Himalaya, Hello Joy, Mood Support with Ashwagandha, 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him06533/u/44.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5919,7 +5919,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Ashwagandha Root",
       "dsld_brand": "Gaia Herbs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Root-751063997522.jpg",
       "best_price_per_unit": 0.07197142857142858,
       "best_total_price": 25.19,
       "unit": "mg",
@@ -5932,7 +5932,7 @@
           "price_per_unit": 0.07197142857142858,
           "product_url": "https://www.vitacost.com/gaia-herbs-ashwagandha-root",
           "product_name": "Gaia Herbs Ashwagandha Root -- 60 Liquid Phyto-Caps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Root-751063997522.jpg",
           "rating": null,
           "reviews": null
         },
@@ -5942,7 +5942,7 @@
           "price_per_unit": 0.07197142857142858,
           "product_url": "https://www.iherb.com/pr/gaia-herbs-ashwagandha-root-60-liquid-phyto-caps/23832",
           "product_name": "Gaia Herbs, Ashwagandha Root, 60 Liquid Phyto-Caps\u00ae",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai99752/u/70.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5959,7 +5959,7 @@
       "brand": "New Nordic",
       "dsld_product_name": "Ashwagandha Vegan Gummies",
       "dsld_brand": "New Nordic",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/New-Nordic/New-Nordic-Ashwagandha-Vegan-Gummies-Mango-Peach-741805001471.jpg",
       "best_price_per_unit": 0.07263333333333333,
       "best_total_price": 21.79,
       "unit": "mg",
@@ -5972,7 +5972,7 @@
           "price_per_unit": 0.07263333333333333,
           "product_url": "https://www.vitacost.com/new-nordic-ashwagandha-vegan-gummies",
           "product_name": "New Nordic Ashwagandha Vegan Gummies Mango Peach -- 60 Gu...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/New-Nordic/New-Nordic-Ashwagandha-Vegan-Gummies-Mango-Peach-741805001471.jpg",
           "rating": null,
           "reviews": null
         }
@@ -5994,7 +5994,7 @@
       "brand": "Himalaya",
       "dsld_product_name": "Organic Ashwagandha",
       "dsld_brand": "Himalaya",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Organic-Ashwagandha-605069401012.jpg",
       "best_price_per_unit": 0.07317857142857143,
       "best_total_price": 20.49,
       "unit": "mg",
@@ -6007,7 +6007,7 @@
           "price_per_unit": 0.07317857142857143,
           "product_url": "https://www.vitacost.com/himalaya-organic-ashwagandha",
           "product_name": "Himalaya Organic Ashwagandha -- 60 Caplets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Organic-Ashwagandha-605069401012.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6017,7 +6017,7 @@
           "price_per_unit": 0.07317857142857143,
           "product_url": "https://www.iherb.com/pr/himalaya-organic-ashwagandha-60-caplets/3691",
           "product_name": "Himalaya, Organic Ashwagandha, 60 Caplets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him40101/u/60.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6036,7 +6036,7 @@
       "brand": "Himalaya",
       "dsld_product_name": "Organic Ashwagandha",
       "dsld_brand": "Himalaya",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Organic-Ashwagandha-605069401012.jpg",
       "best_price_per_unit": 0.07317857142857143,
       "best_total_price": 20.49,
       "unit": "mg",
@@ -6049,7 +6049,7 @@
           "price_per_unit": 0.07317857142857143,
           "product_url": "https://www.vitacost.com/himalaya-organic-ashwagandha",
           "product_name": "Himalaya Organic Ashwagandha -- 60 Caplets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Organic-Ashwagandha-605069401012.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6059,7 +6059,7 @@
           "price_per_unit": 0.07317857142857143,
           "product_url": "https://www.iherb.com/pr/himalaya-organic-ashwagandha-60-caplets/3691",
           "product_name": "Himalaya, Organic Ashwagandha, 60 Caplets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him40101/u/60.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6120,7 +6120,7 @@
       "brand": "Paradise",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Paradise",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/par/par77889/u/24.jpg",
       "best_price_per_unit": 0.09004000000000001,
       "best_total_price": 22.51,
       "unit": "mg",
@@ -6133,7 +6133,7 @@
           "price_per_unit": 0.09004000000000001,
           "product_url": "https://www.iherb.com/pr/paradise-herbs-ashwagandha-250-mg-180-vegetarian-capsules/106230",
           "product_name": "Paradise Herbs, Ashwagandha, 250 mg, 180 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/par/par77889/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6150,7 +6150,7 @@
       "brand": "Pure Encapsulations",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Pure Encapsulations",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Ashwagandha-766298006123.jpg",
       "best_price_per_unit": 0.09440000000000001,
       "best_total_price": 47.2,
       "unit": "mg",
@@ -6163,7 +6163,7 @@
           "price_per_unit": 0.09440000000000001,
           "product_url": "https://www.vitacost.com/pure-encapsulations-ashwagandha",
           "product_name": "Pure Encapsulations Ashwagandha -- 120 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Ashwagandha-766298006123.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6183,7 +6183,7 @@
       "brand": "Himalaya",
       "dsld_product_name": "Organic Ashwagandha",
       "dsld_brand": "Himalaya",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Organic-Ashwagandha-605069060431.jpg",
       "best_price_per_unit": 0.10471428571428572,
       "best_total_price": 29.32,
       "unit": "mg",
@@ -6196,7 +6196,7 @@
           "price_per_unit": 0.10471428571428572,
           "product_url": "https://www.vitacost.com/himalaya-organic-ashwagandha-90-caplets",
           "product_name": "Himalaya Organic Ashwagandha -- 90 Caplets",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Organic-Ashwagandha-605069060431.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6206,7 +6206,7 @@
           "price_per_unit": 0.10471428571428572,
           "product_url": "https://www.iherb.com/pr/himalaya-organic-ashwagandha-90-caplets/83135",
           "product_name": "Himalaya, Organic Ashwagandha, 90 Caplets",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/him/him06043/u/85.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6225,7 +6225,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Ashwagandha Root",
       "dsld_brand": "Gaia Herbs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Root-751063150286.jpg",
       "best_price_per_unit": 0.12082857142857142,
       "best_total_price": 42.29,
       "unit": "mg",
@@ -6238,7 +6238,7 @@
           "price_per_unit": 0.12082857142857142,
           "product_url": "https://www.vitacost.com/gaia-herbs-ashwagandha-root-120-liquid-phyto-caps",
           "product_name": "Gaia Herbs Ashwagandha Root -- 120 Liquid Phyto-Caps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Root-751063150286.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6248,7 +6248,7 @@
           "price_per_unit": 0.12082857142857142,
           "product_url": "https://www.iherb.com/pr/gaia-herbs-ashwagandha-root-120-liquid-phyto-caps-350-mg-per-cap/76244",
           "product_name": "Gaia Herbs, Ashwagandha Root, 120 Liquid Phyto-Caps\u00ae (350 mg Per cap)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai15028/u/54.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6269,7 +6269,7 @@
       "brand": "Gaia Herbs",
       "dsld_product_name": "Ashwagandha Root",
       "dsld_brand": "Gaia Herbs",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Root-751063150286.jpg",
       "best_price_per_unit": 0.12082857142857142,
       "best_total_price": 42.29,
       "unit": "mg",
@@ -6282,7 +6282,7 @@
           "price_per_unit": 0.12082857142857142,
           "product_url": "https://www.vitacost.com/gaia-herbs-ashwagandha-root-120-liquid-phyto-caps",
           "product_name": "Gaia Herbs Ashwagandha Root -- 120 Liquid Phyto-Caps",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-Ashwagandha-Root-751063150286.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6303,7 +6303,7 @@
       "brand": "Solgar",
       "dsld_product_name": "Ashwagandha Root Extract",
       "dsld_brand": "Solgar",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sol/sol04104/u/31.jpg",
       "best_price_per_unit": 0.1374,
       "best_total_price": 13.74,
       "unit": "mg",
@@ -6316,7 +6316,7 @@
           "price_per_unit": 0.1374,
           "product_url": "https://www.iherb.com/pr/solgar-ashwagandha-root-extract-60-vegetable-capsules/10429",
           "product_name": "Solgar, Ashwagandha Root Extract, 60 Vegetable Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sol/sol04104/u/31.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6326,7 +6326,7 @@
           "price_per_unit": 0.1449,
           "product_url": "https://www.vitacost.com/solgar-ashwagandha-root-extract-60-vegetable-capsules",
           "product_name": "Solgar Ashwagandha Root Extract -- 60 Vegetable Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-SFP-Ashwagandha-Root-Extract-033984041042.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6348,7 +6348,7 @@
       "brand": "XYMOGEN",
       "dsld_product_name": "Ashwagandha 35",
       "dsld_brand": "XYMOGEN",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-Ashwagandha-35-722537511766.jpg",
       "best_price_per_unit": 0.14995833333333333,
       "best_total_price": 35.99,
       "unit": "mg",
@@ -6361,7 +6361,7 @@
           "price_per_unit": 0.14995833333333333,
           "product_url": "https://www.vitacost.com/xymogen-ashwagandha-35",
           "product_name": "XYMOGEN Ashwagandha 35 -- 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/XYMOGEN/XYMOGEN-Ashwagandha-35-722537511766.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6378,7 +6378,7 @@
       "brand": "Terry Naturally",
       "dsld_product_name": "Ashwagandha EP35 Extra Strength",
       "dsld_brand": "Terry Naturally",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Ashwagandha-EP-35-Extra-Stength-367703318062.jpg",
       "best_price_per_unit": 0.16506666666666667,
       "best_total_price": 24.76,
       "unit": "mg",
@@ -6391,7 +6391,7 @@
           "price_per_unit": 0.16506666666666667,
           "product_url": "https://www.vitacost.com/terry-naturally-ashwagandha-ep-35-extra-stength",
           "product_name": "Terry Naturally Ashwagandha EP 35 Extra Stength -- 60 Cap...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Ashwagandha-EP-35-Extra-Stength-367703318062.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6408,7 +6408,7 @@
       "brand": "New Chapter",
       "dsld_product_name": "Ashwagandha Force",
       "dsld_brand": "New Chapter",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Ashwagandha-Force-727783903549.jpg",
       "best_price_per_unit": 0.17112,
       "best_total_price": 21.39,
       "unit": "mg",
@@ -6421,7 +6421,7 @@
           "price_per_unit": 0.17112,
           "product_url": "https://www.vitacost.com/new-chapter-ashwagandha-force",
           "product_name": "New Chapter Ashwagandha Force -- 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Ashwagandha-Force-727783903549.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6444,7 +6444,7 @@
       "brand": "Havasu Nutrition",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Havasu Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Havasu-Nutrition/Havasu-Nutrition-Ashwagandha-850008464058.jpg",
       "best_price_per_unit": 0.1999,
       "best_total_price": 19.99,
       "unit": "mg",
@@ -6457,7 +6457,7 @@
           "price_per_unit": 0.1999,
           "product_url": "https://www.vitacost.com/havasu-nutrition-ashwagandha",
           "product_name": "Havasu Nutrition Ashwagandha -- 90 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Havasu-Nutrition/Havasu-Nutrition-Ashwagandha-850008464058.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6476,7 +6476,7 @@
       "brand": "Metabolic Maintenance",
       "dsld_product_name": "L-Theanine",
       "dsld_brand": "Metabolic Maintenance",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00714/u/8.jpg",
       "best_price_per_unit": 0.2,
       "best_total_price": 40.0,
       "unit": "mg",
@@ -6489,7 +6489,7 @@
           "price_per_unit": 0.2,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-ashwagandha-plus-l-theanine-magnesium-blend-60-capsules/134928",
           "product_name": "Metabolic Maintenance, Ashwagandha Plus, L-Theanine & Magnesium Blend, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00714/u/8.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6506,7 +6506,7 @@
       "brand": "Terry Naturally",
       "dsld_product_name": "Andrographis and Ashwagandha",
       "dsld_brand": "Terry Naturally",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Andrographis-and-Ashwagandha-367703338060.jpg",
       "best_price_per_unit": 0.22906666666666667,
       "best_total_price": 34.36,
       "unit": "mg",
@@ -6519,7 +6519,7 @@
           "price_per_unit": 0.22906666666666667,
           "product_url": "https://www.vitacost.com/terry-naturally-andrographis-and-ashwagandha",
           "product_name": "Terry Naturally Andrographis and Ashwagandha -- 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Andrographis-and-Ashwagandha-367703338060.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6529,7 +6529,7 @@
           "price_per_unit": 0.22906666666666667,
           "product_url": "https://www.iherb.com/pr/terry-naturally-andrographis-and-ashwagandha-60-capsules/122419",
           "product_name": "Terry Naturally, Andrographis and Ashwagandha, 60 Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/eur/eur33806/u/44.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6546,7 +6546,7 @@
       "brand": "Irwin Naturals",
       "dsld_product_name": "Concentrated Maca Root and Ashwagandha",
       "dsld_brand": "Irwin Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Irwin-Naturals/Irwin-Naturals-Concentrated-Maca-Root-and-Ashwagandha-710363592059.jpg",
       "best_price_per_unit": 0.24989999999999998,
       "best_total_price": 24.99,
       "unit": "mg",
@@ -6559,7 +6559,7 @@
           "price_per_unit": 0.24989999999999998,
           "product_url": "https://www.vitacost.com/irwin-naturals-concentrated-maca-root-and-ashwagandha",
           "product_name": "Irwin Naturals Concentrated Maca Root and Ashwagandha -- ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Irwin-Naturals/Irwin-Naturals-Concentrated-Maca-Root-and-Ashwagandha-710363592059.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6569,7 +6569,7 @@
           "price_per_unit": 0.24989999999999998,
           "product_url": "https://www.iherb.com/pr/irwin-naturals-concentrated-maca-root-and-ashwagandha-75-liquid-soft-gels/79837",
           "product_name": "Irwin Naturals, Concentrated Maca Root and Ashwagandha, 75 Liquid Soft Gels",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/irw/irw59205/u/46.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6586,7 +6586,7 @@
       "brand": "youtheory",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "youtheory",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/you/you00758/u/42.jpg",
       "best_price_per_unit": 0.8380000000000001,
       "best_total_price": 16.76,
       "unit": "mg",
@@ -6599,7 +6599,7 @@
           "price_per_unit": 0.8380000000000001,
           "product_url": "https://www.iherb.com/pr/youtheory-ashwagandha-60-vegetarian-capsules/90165",
           "product_name": "Youtheory, Ashwagandha, 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/you/you00758/u/42.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6609,7 +6609,7 @@
           "price_per_unit": 1.0494999999999999,
           "product_url": "https://www.vitacost.com/youtheory-ashwagandha-gaba",
           "product_name": "Youtheory Ashwagandha GABA -- 60 Vegetarian Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Youtheory/Youtheory-Ashwagandha-GABA-850021920654.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6626,7 +6626,7 @@
       "brand": "youtheory",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "youtheory",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Youtheory/Youtheory-Ashwagandha-850502007584.jpg",
       "best_price_per_unit": 0.8380000000000001,
       "best_total_price": 16.76,
       "unit": "mg",
@@ -6639,7 +6639,7 @@
           "price_per_unit": 0.8380000000000001,
           "product_url": "https://www.vitacost.com/youtheory-ashwagandha",
           "product_name": "Youtheory Ashwagandha -- 1000 mg - 60 Capsules",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Youtheory/Youtheory-Ashwagandha-850502007584.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6656,7 +6656,7 @@
       "brand": "youtheory",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "youtheory",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Youtheory/Youtheory-Ashwagandha-Liquid-Blueberry-850021920265.jpg",
       "best_price_per_unit": 0.8394999999999999,
       "best_total_price": 16.79,
       "unit": "mg",
@@ -6669,7 +6669,7 @@
           "price_per_unit": 0.8394999999999999,
           "product_url": "https://www.vitacost.com/youtheory-ashwagandha-liquid",
           "product_name": "Youtheory Ashwagandha Liquid Blueberry -- 1 fl oz Each / ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Youtheory/Youtheory-Ashwagandha-Liquid-Blueberry-850021920265.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6686,7 +6686,7 @@
       "brand": "Goli Nutrition",
       "dsld_product_name": "Ashwagandha Gummies Mixed Berry",
       "dsld_brand": "Goli Nutrition",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/goi/goi35740/u/56.jpg",
       "best_price_per_unit": 1.498,
       "best_total_price": 14.98,
       "unit": "calorie",
@@ -6699,7 +6699,7 @@
           "price_per_unit": 1.498,
           "product_url": "https://www.iherb.com/pr/goli-nutrition-ashwagandha-gummies-60-gummies/104633",
           "product_name": "Goli Nutrition, Ashwagandha Gummies, 60 Gummies",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/goi/goi35740/u/56.jpg",
           "rating": null,
           "reviews": null
         },
@@ -6709,7 +6709,7 @@
           "price_per_unit": 1.499,
           "product_url": "https://www.vitacost.com/goli-nutrition-ashwagandha-gummies",
           "product_name": "Goli Nutrition Ashwagandha Gummies Mixed Berry -- 60 Gummies",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Goli-Nutrition/Goli-Nutrition-Ashwagandha-Gummies-Mixed-Berry-628176357409.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6731,7 +6731,7 @@
       "brand": "NutraChamps",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "NutraChamps",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nhp/nhp99960/u/24.jpg",
       "best_price_per_unit": 1.895,
       "best_total_price": 18.95,
       "unit": "mg",
@@ -6744,7 +6744,7 @@
           "price_per_unit": 1.895,
           "product_url": "https://www.iherb.com/pr/nutrachamps-ashwagandha-90-vegan-capsules/119948",
           "product_name": "NutraChamps, Ashwagandha, 90 Vegan Capsules",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nhp/nhp99960/u/24.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6766,7 +6766,7 @@
       "brand": "NutraChamps",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "NutraChamps",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/NutraChamps/NutraChamps-Ashwagandha-Root-Extra-Strength-Formula-621983999602.jpg",
       "best_price_per_unit": 1.895,
       "best_total_price": 18.95,
       "unit": "mg",
@@ -6779,7 +6779,7 @@
           "price_per_unit": 1.895,
           "product_url": "https://www.vitacost.com/nutrachamps-ashwagandha-root-extra-strength-formula",
           "product_name": "NutraChamps Ashwagandha Root Extra Strength Formula -- 20...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/NutraChamps/NutraChamps-Ashwagandha-Root-Extra-Strength-Formula-621983999602.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6801,7 +6801,7 @@
       "brand": "Irwin Naturals",
       "dsld_product_name": "Magnesium + Ashwagandha",
       "dsld_brand": "Irwin Naturals",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Irwin-Naturals/Irwin-Naturals-Triple-Source-Magnesium-Ashwagandha-840081404324.jpg",
       "best_price_per_unit": 6.763333333333333,
       "best_total_price": 20.29,
       "unit": "mg",
@@ -6814,7 +6814,7 @@
           "price_per_unit": 6.763333333333333,
           "product_url": "https://www.vitacost.com/irwin-naturals-triple-source-magnesium-ashwagandha",
           "product_name": "Irwin Naturals Triple-Source Magnesium + Ashwagandha -- 6...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Irwin-Naturals/Irwin-Naturals-Triple-Source-Magnesium-Ashwagandha-840081404324.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6831,7 +6831,7 @@
       "brand": "Pure Indian Foods",
       "dsld_product_name": "Organic Ashwagandha Root Powder",
       "dsld_brand": "Pure Indian Foods",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pif/pif61984/u/6.jpg",
       "best_price_per_unit": 25.18,
       "best_total_price": 12.59,
       "unit": "teaspoon",
@@ -6844,7 +6844,7 @@
           "price_per_unit": 25.18,
           "product_url": "https://www.iherb.com/pr/pure-indian-foods-organic-ashwagandha-root-powder-8-oz-227-g/121254",
           "product_name": "Pure Indian Foods, Organic Ashwagandha Root Powder, 8 oz (227 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/pif/pif61984/u/6.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6861,7 +6861,7 @@
       "brand": "Banyan Botanicals",
       "dsld_product_name": "Ashwagandha",
       "dsld_brand": "Banyan Botanicals",
-      "product_image_url": "",
+      "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/byn/byn06082/u/6.jpg",
       "best_price_per_unit": 31.98,
       "best_total_price": 15.99,
       "unit": "tsp",
@@ -6874,7 +6874,7 @@
           "price_per_unit": 31.98,
           "product_url": "https://www.iherb.com/pr/banyan-botanicals-ashwagandha-powder-1-2-lb-227-g/123115",
           "product_name": "Banyan Botanicals, Ashwagandha Powder, 1/2 lb (227 g)",
-          "image_url": "",
+          "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/byn/byn06082/u/6.jpg",
           "rating": null,
           "reviews": null
         }
@@ -6891,7 +6891,7 @@
       "brand": "Flora",
       "dsld_product_name": "Stressveda",
       "dsld_brand": "Flora",
-      "product_image_url": "",
+      "product_image_url": "https://www.vitacost.com/Images/Products/200/Flora/Flora-Stressveda-with-KSM-66-Ashwagandha-Plant-Sourced-B-Complex-061998615348.jpg",
       "best_price_per_unit": 3256.6666666666665,
       "best_total_price": 19.54,
       "unit": "mg",
@@ -6904,7 +6904,7 @@
           "price_per_unit": 3256.6666666666665,
           "product_url": "https://www.vitacost.com/flora-stressveda-with-ksm-66-ashwagandha-plant-sourced-b-complex",
           "product_name": "Flora Stressveda with KSM-66 Ashwagandha + Plant-Sourced ...",
-          "image_url": "",
+          "image_url": "https://www.vitacost.com/Images/Products/200/Flora/Flora-Stressveda-with-KSM-66-Ashwagandha-Plant-Sourced-B-Complex-061998615348.jpg",
           "rating": null,
           "reviews": null
         }

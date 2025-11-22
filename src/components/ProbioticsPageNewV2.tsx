@@ -140,37 +140,6 @@ export function ProbioticsPageNewV2({
       }
     ],
     
-    whatToExpectData: {
-      disclaimer: "Effects vary by individual. Consult healthcare provider before starting.",
-      signsOfEffectiveness: "Improved digestion and bowel regularity, reduced bloating and gas (after initial adjustment period), less frequent diarrhea or constipation, fewer upper respiratory infections or shorter cold duration, better overall gut comfort and reduced IBS flare-ups. Individual responses vary significantly by strain, dose, baseline microbiome composition, and health condition. Not everyone will experience dramatic changes, and some may need to trial different strains. Digestive improvements may appear within 1-2 weeks. Immune benefits typically emerge after 3-4 weeks. IBS symptom relief often requires 4-8 weeks or longer. Mood benefits may take 8-12 weeks.",
-      outcomes: [
-        {
-          icon: Activity,
-          iconLabel: "Digestive Health",
-          usage: "1-10 billion CFU",
-          bestTime: "with food",
-          resultsWeeks: "1-2",
-          intensity: "Moderate" as const
-        },
-        {
-          icon: Shield,
-          iconLabel: "Immune Support",
-          usage: "1-10 billion CFU",
-          bestTime: "with food",
-          resultsWeeks: "3-4",
-          intensity: "Moderate" as const
-        },
-        {
-          icon: Heart,
-          iconLabel: "IBS Relief",
-          usage: "10-50 billion CFU",
-          bestTime: "with food",
-          resultsWeeks: "4-8",
-          intensity: "Moderate" as const
-        }
-      ]
-    },
-    
     buyingGuideIntro: "When selecting probiotic supplements:",
     buyingGuideItems: [
       {
