@@ -91,7 +91,7 @@
     "name": "vendor"
   },
   "index.html": {
-    "file": "assets/index-J_AT8rCE.js",
+    "file": "assets/index-Cv72BPNZ.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -792,7 +792,7 @@
     ]
   },
   "src/components/ProductComparison.tsx": {
-    "file": "assets/ProductComparison-DMo3E1rY.js",
+    "file": "assets/ProductComparison-CONSpzU8.js",
     "name": "ProductComparison",
     "src": "src/components/ProductComparison.tsx",
     "isDynamicEntry": true,
@@ -804,7 +804,7 @@
     ]
   },
   "src/components/ProductComparisonWrapper.tsx": {
-    "file": "assets/ProductComparisonWrapper-C7yAxonT.js",
+    "file": "assets/ProductComparisonWrapper-Da_M1OLq.js",
     "name": "ProductComparisonWrapper",
     "src": "src/components/ProductComparisonWrapper.tsx",
     "isDynamicEntry": true,
