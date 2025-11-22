@@ -3548,7 +3548,121 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 87
+      "match_score": 87,
+      "dsld_label_info": {
+        "serving_size": "2 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "5",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "11",
+            "category": "sugar"
+          },
+          {
+            "name": "Sodium",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Baker's Yeast Beta-Glucan extract",
+            "amount": "70",
+            "unit": "mg",
+            "category": "fiber"
+          },
+          {
+            "name": "Baker's Yeast Beta-Glucan extract",
+            "amount": "70",
+            "unit": "mg",
+            "category": "fiber"
+          },
+          {
+            "name": "SmartyPants Probiotic Blend",
+            "amount": "40",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "SmartyPants Probiotic Blend",
+            "amount": "40",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Bacillus subtilis DE111",
+            "amount": "30",
+            "unit": "mg",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bacillus subtilis DE111",
+            "amount": "30",
+            "unit": "mg",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bacillus coagulans",
+            "amount": "10",
+            "unit": "mg",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bacillus coagulans",
+            "amount": "10",
+            "unit": "mg",
+            "category": "bacteria"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286240_zint_added sugars_2000.0_mg_standard",
@@ -3579,7 +3693,62 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "8 fl. oz."
+      "dsld_content": "8 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "4.9 mL",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Sodium",
+            "amount": "",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "protein"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "259582_dietworks_added sugars_1000.0_mg_standard",
@@ -3616,7 +3785,64 @@
         "shellfish_free",
         "peanut_free"
       ],
-      "match_score": 87
+      "match_score": 87,
+      "dsld_label_info": {
+        "serving_size": "2 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fiber"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Sodium",
+            "amount": "",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "253068_youtheory_organic triphala blend_1000.0_mg_standard",
@@ -3647,7 +3873,61 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "3.4 oz."
+      "dsld_content": "3.4 oz.",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Organic Triphala Blend",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Amla",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Bibhitaki",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Haritaki",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Proprietary Probiotic Blend",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Bacillus clausii (MTCC 5980)",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bacillus subtilis (MTCC 5981)",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bacillus coagulans (MTCC 5856)",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298409_codeage_fermented organic botanical blend_1268.0_mg_standard",
@@ -3678,7 +3958,151 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Fermented Organic Botanical Blend",
+            "amount": "1268",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "sprouted Flax",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Astragalus",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "sprouted Canihua",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Hemp; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Pumpkin; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Green Pea; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Holy Basil",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "sprouted Broccoli",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Milk Thistle; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Mung Bean; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Chia Seed; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turkey Tail Mushroom",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Probiotic Blend",
+            "amount": "200",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "L. plantarum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. paracasei",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. subtilis",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. clausii",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. coagulans",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "S. boulardii",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "335403_codeage_fermented organic botanical blend_1268.0_mg_standard",
@@ -3709,7 +4133,151 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Fermented Organic Botanical Blend",
+            "amount": "1268",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Flaxseed; Fermented; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Astragalus; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Canihua; Fermented; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Hemp; Fermented; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Pumpkin; Fermented; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Green Pea; Fermented; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Holy Basil; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Broccoli; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Milk Thistle; Fermented; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Mung Bean; Fermented; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Chia; Fermented; Sprouted",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turkey Tail Mushroom; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Probiotic Blend",
+            "amount": "250",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "L. plantarum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. paracasei",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. subtilis",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. clausii",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. coagulans",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "S. boulardii",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "272257_dr. emil nutrition_corebiome_1000.0_mg_standard",
@@ -3744,7 +4312,49 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "CoreBiome",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Shiitake Mushroom extract",
+            "amount": "170",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Lactospore Bacillus Coagulans",
+            "amount": "134",
+            "unit": "mg",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lion's Mane Mushroom Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Maitake Mushroom Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Reishi Mushroom extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "other"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "216905_mason natural_inulin_250.0_mg_standard",
@@ -3777,7 +4387,25 @@
         "vegetarian"
       ],
       "match_score": 100,
-      "dsld_content": "40 Veggie Capsule(s)"
+      "dsld_content": "40 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Bacillus coagulans",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Inulin",
+            "amount": "250",
+            "unit": "mg",
+            "category": "fiber"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "241596_yerba prima_calcium_100.0_mg_standard",
@@ -3824,7 +4452,139 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "12 oz."
+      "dsld_content": "12 oz.",
+      "dsld_label_info": {
+        "serving_size": "7.1 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "5.5",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "daily_value": "20",
+            "category": "fiber"
+          },
+          {
+            "name": "Soluble Fiber",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Insoluble Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Sugar",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Calcium",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "10",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          },
+          {
+            "name": "Selenium",
+            "amount": "17",
+            "unit": "mcg",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "<2",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "39",
+            "unit": "mg",
+            "daily_value": "<2",
+            "category": "mineral"
+          },
+          {
+            "name": "Concentrated Fiber Blend",
+            "amount": "6.6",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Psyllium",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "gluten free Oat Bran",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "non-GMO Soy Fiber",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Acacia Gum",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Apple Fiber",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "FOS",
+            "amount": "100",
+            "unit": "mg",
+            "category": "fiber"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "253108_new chapter all-flora_digestive support blend_82.5_mg_standard",
@@ -3870,7 +4630,73 @@
         "no_artificial_flavors"
       ],
       "match_score": 85,
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Probiotic Blend",
+            "amount": "300",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Saccharomyces boulardii",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus plantarum LP01; Bifidobacterium breve BR03",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Digestive Support Blend",
+            "amount": "82.5",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Aloe",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Peppermint",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Coriander",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Cardamom",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Artichoke",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Turmeric",
+            "amount": "31.4",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "333190_megafood_fructooligosaccharides_100.0_mg_standard",
@@ -3901,7 +4727,32 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "1500",
+            "category": "vitamin"
+          },
+          {
+            "name": "Lactobacillus rhamnosus LGG",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Fructooligosaccharides",
+            "amount": "100",
+            "unit": "mg",
+            "category": "fiber"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "333196_megafood_fructooligosaccharides_100.0_mg_standard",
@@ -3932,7 +4783,49 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Astarte Probiotic Blend",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Lactobacillus crispatus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus rhamnosus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus gasseri",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus jensenii",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Fructooligosaccharides",
+            "amount": "100",
+            "unit": "mg",
+            "category": "fiber"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "241584_yerba prima_calcium_40.0_mg_standard",
@@ -3979,7 +4872,139 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "8",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<2",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "8",
+            "category": "fiber"
+          },
+          {
+            "name": "Soluble Fiber",
+            "amount": "1.6",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Insoluble Fiber",
+            "amount": "0.4",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Sugar",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Calcium",
+            "amount": "40",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "20",
+            "unit": "mg",
+            "daily_value": "5",
+            "category": "mineral"
+          },
+          {
+            "name": "Selenium",
+            "amount": "17",
+            "unit": "mcg",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "<2",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "22",
+            "unit": "mg",
+            "daily_value": "<2",
+            "category": "mineral"
+          },
+          {
+            "name": "Proprietary Fiber Blend",
+            "amount": "2.3",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Psyllium",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Acacia Gum",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "non-GMO Soy Fiber",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "gluten free Oat Bran",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Apple Fiber",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "FOS",
+            "amount": "40",
+            "unit": "mg",
+            "category": "fiber"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "230251_olly_bacillus coagulans mtcc 5856_33.0_mg_standard",
@@ -4013,7 +5038,76 @@
         "no_artificial_flavors"
       ],
       "match_score": 95.8,
-      "dsld_content": "30 Gummie(s)"
+      "dsld_content": "30 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "fiber"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Bacillus coagulans MTCC 5856",
+            "amount": "33",
+            "unit": "mg",
+            "category": "bacteria"
+          },
+          {
+            "name": "Prebiotic Blend",
+            "amount": "1.5",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Fructooligosaccharides",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Inulin",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Xylitol",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "292795_physician's choice_acacia senegal_50.0_mg_standard",
@@ -4045,7 +5139,103 @@
       "filters": [
         "soy_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Probiotic Blend",
+            "amount": "220",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Lactobacillus casei",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus acidophilus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus paracasei",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus salivarius",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus plantarum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bifidobacterium animalis lactis",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bifidobacterium bifidum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bifidobacterium longum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Bifidobacterium breve",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus bulgaricus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Prebiotic Blend",
+            "amount": "150",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Jerusalem Artichoke",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Acacia senegal",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Chicory",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "317866_benefiber_calories_30.0_calorie_standard",
@@ -4076,7 +5266,77 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "84 Caplet(s)"
+      "dsld_content": "84 Caplet(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "30",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "11",
+            "category": "fiber"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fiber"
+          },
+          {
+            "name": "Fiber; Soluble",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Fiber; Soluble",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "317866_benefiber_calories_30.0_calorie_standard",
@@ -4106,7 +5366,77 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "30",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "11",
+            "category": "fiber"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fiber"
+          },
+          {
+            "name": "Fiber; Soluble",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Fiber; Soluble",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "336306_thorne_calories_45.0_calorie_standard",
@@ -4137,7 +5467,76 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "11.6 oz."
+      "dsld_content": "11.6 oz.",
+      "dsld_label_info": {
+        "serving_size": "11 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "45",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "9",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "7",
+            "unit": "Gram(s)",
+            "daily_value": "25",
+            "category": "fiber"
+          },
+          {
+            "name": "Soluble Fiber",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Sunfiber AG",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "category": "complex carbohydrate"
+          },
+          {
+            "name": "Rice Bran",
+            "amount": "2.5",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "ResistAid",
+            "amount": "300",
+            "unit": "mg",
+            "category": "fiber"
+          },
+          {
+            "name": "Pectin",
+            "amount": "150",
+            "unit": "mg",
+            "category": "fiber"
+          },
+          {
+            "name": "GreenSelect",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326076_solaray_calories_25.0_calorie_standard",
@@ -4168,7 +5567,123 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "5.64 oz."
+      "dsld_content": "5.64 oz.",
+      "dsld_label_info": {
+        "serving_size": "8 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "fiber"
+          },
+          {
+            "name": "Fiber; Soluble",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Potatodaat",
+            "amount": "5000",
+            "unit": "mg",
+            "category": "fiber"
+          },
+          {
+            "name": "FIBRISS",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "MyceliaGI Mushroom Blend",
+            "amount": "500",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Maitake",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Oyster",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Reishi",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "MicrobiomeX",
+            "amount": "250",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Orange and Grapefruit Prebiotic Blend",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Orange Fruit Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Grapefruit Fruit Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Hesperidin",
+            "amount": "200",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Naringin",
+            "amount": "12.5",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Starmeric",
+            "amount": "50",
+            "unit": "mg",
+            "category": "fiber"
+          },
+          {
+            "name": "Ginger; Fermented",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "335406_codeage_phytoceramides_30.0_mg_standard",
@@ -4199,7 +5714,230 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "45",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "vitamin"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "755",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Indian Frankincense Resin Extract; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Camu Camu; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Triphala Extract; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Holy Basil Leaf Extract; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Elecampane Root Extract; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Fenugreek Seed Extract; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Asparagus; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Mangosteen; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Acai; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Astragalus propinquus Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "White Peony Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Rose Hip Fruit Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Probiotic Blend",
+            "amount": "581",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "S. boulardii",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "B. coagulans",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. plantarum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. paracasei",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. rhamnosus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. casei",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. animalis lactis",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. breve",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. bifidum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. acidophilus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. fermentum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. gasseri",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. helveticus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. longum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. johnsonii",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. crispatus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. bulgaricus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. subtilis",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. clausii",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Phytoceramides",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "249837_bioschwartz_preforpro_15.0_mg_standard",
@@ -4233,7 +5971,62 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "5",
+            "category": "vitamin"
+          },
+          {
+            "name": "Xylooligosaccharides",
+            "amount": "1",
+            "unit": "mg",
+            "category": "complex carbohydrate"
+          },
+          {
+            "name": "organic Oryza sativa",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "PreforPro",
+            "amount": "15",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "LH01 - Myoviridae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "LL5 - Siphoviridae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "T4D - Myoviridae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "LL12 - Myoviridae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "263103_tomorrow's nutrition_calories_15.0_calorie_standard",
@@ -4270,7 +6063,45 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "6.4 oz."
+      "dsld_content": "6.4 oz.",
+      "dsld_label_info": {
+        "serving_size": "7 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "7",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "21",
+            "category": "fiber"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Sunfiber Guar Fiber",
+            "amount": "7",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "250931_renew life_calories_5.0_calorie_standard",
@@ -4304,7 +6135,63 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "5 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fiber"
+          },
+          {
+            "name": "Soluble Fiber",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Insoluble Fiber",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "organic Flax Seed",
+            "amount": "1250",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Oat Fiber",
+            "amount": "1225",
+            "unit": "mg",
+            "category": "fiber"
+          },
+          {
+            "name": "organic Fennel",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "285755_health plus_calories_5.0_calorie_standard",
@@ -4337,7 +6224,115 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Proprietary Prebiotic Blend",
+            "amount": "1005",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Inulin",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Fructooligosaccharides",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Burdock",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Arabinogalactin",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Proprietary Probiotic Blend",
+            "amount": "315",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "L. acidophilus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "B. lactis/longum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. plantarum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Proprietary Digestive Support Blend",
+            "amount": "180",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Slippery Elm",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Hemicellulase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Phytase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Glucanase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Xylanase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Pectinase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "278084_align_bifidobacterium longum longum 35624_4.0_mg_standard",
@@ -4370,7 +6365,19 @@
         "gluten_free"
       ],
       "match_score": 85,
-      "dsld_content": "6 Capsule(s)"
+      "dsld_content": "6 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Bifidobacterium longum longum 35624",
+            "amount": "4",
+            "unit": "mg",
+            "category": "bacteria"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "62068_megafood_biotin_0.3_mg_standard",
@@ -4406,7 +6413,457 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "FoodState Nutrients",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "Vitamin A",
+            "amount": "5000",
+            "unit": "IU",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Carrot",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "200",
+            "category": "vitamin"
+          },
+          {
+            "name": "organic Orange",
+            "amount": "480",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "20",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Vitamin E",
+            "amount": "30",
+            "unit": "IU",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "organic Brown Rice",
+            "amount": "120",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Vitamin K",
+            "amount": "80",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Cabbage",
+            "amount": "8",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Thiamine",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "667",
+            "category": "vitamin"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "40",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Riboflavin",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "588",
+            "category": "vitamin"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "100",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Niacinamide",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "150",
+            "category": "vitamin"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "120",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "500",
+            "category": "vitamin"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "50",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Folate",
+            "amount": "800",
+            "unit": "mcg",
+            "daily_value": "200",
+            "category": "vitamin"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "80",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Vitamin B12",
+            "amount": "20",
+            "unit": "mcg",
+            "daily_value": "333",
+            "category": "vitamin"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "4",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Biotin",
+            "amount": "300",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "organic Brown Rice",
+            "amount": "60",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Pantothenic Acid",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "100",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Calcium",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "600",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Iron",
+            "amount": "18",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "360",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Iodine",
+            "amount": "150",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "10",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "8",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "600",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Zinc",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "300",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Selenium",
+            "amount": "70",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "70",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Copper",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "5",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "10",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Manganese",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "40",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Chromium",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "60",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Molybdenum",
+            "amount": "30",
+            "unit": "mcg",
+            "daily_value": "40",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "15",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Potassium",
+            "amount": "12",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "2629",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Boron",
+            "amount": "500",
+            "unit": "mcg",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "50",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Body in Balance Blend",
+            "amount": "200",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Ashwagandha",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Chaste Tree",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Eleuthero",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Radiant Health Blend",
+            "amount": "130",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Nettle",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Red Raspberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Spring Horsetail",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ginger",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Yellowdock",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Dandelion",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Rosemary",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Immune Health Blend",
+            "amount": "152",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic whole Orange",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Blueberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Cranberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Schisandra",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Astragalus",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Shiitake Mushroom",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          }
+        ],
+        "other_ingredients": []
+      }
     }
   ]
 }

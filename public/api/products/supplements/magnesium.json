@@ -3546,7 +3546,46 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "30 mL",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "30",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "7",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "12",
+            "category": "sugar"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "64250_applied nutrition_peak performance blend_3360.0_mg_standard",
@@ -3576,7 +3615,79 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 88.9
+      "match_score": 88.9,
+      "dsld_label_info": {
+        "serving_size": "4 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Peak Performance Blend",
+            "amount": "3360",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "L-Citrulline",
+            "amount": "",
+            "unit": "",
+            "category": "amino acid"
+          },
+          {
+            "name": "Epimedium (Epimedium sagittatum) (Horny Goat Weed) powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Muira Puama extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Maca extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Catuaba extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginkgo Leaf Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "L-Theanine",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Theobromine",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Asian Ginseng extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cayenne powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "202691_swanson_magnesium_400.0_mg_standard",
@@ -3610,7 +3721,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "30 Vegan Capsule(s)"
+      "dsld_content": "30 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "49483_nature's bounty_magnesium_500.0_mg_standard",
@@ -3658,7 +3782,20 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "125",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "219453_solgar_magnesium_420.0_mg_standard",
@@ -3697,7 +3834,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "420",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269874_best naturals_magnesium_500.0_mg_standard",
@@ -3742,7 +3892,20 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "180 Tablet(s)"
+      "dsld_content": "180 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "218430_solgar_magnesium_400.0_mg_standard",
@@ -3778,7 +3941,27 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "1471",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "254598_kal_added sugars_1000.0_mg_standard",
@@ -3817,7 +4000,79 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "83",
+            "unit": "mg",
+            "daily_value": "20",
+            "category": "mineral"
+          },
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "8",
+            "category": "sugar"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "330",
+            "unit": "mg",
+            "daily_value": "79",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "180442_nature made_magnesium_250.0_mg_standard",
@@ -3856,7 +4111,20 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "63",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "13397_solaray_magnesium_400.0_mg_chelated",
@@ -3892,7 +4160,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "240269_nature's life_magnesium_500.0_mg_standard",
@@ -3925,7 +4206,27 @@
       "match_score": 92.5,
       "dosage": [
         "500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "125",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "244918_mason natural_tumeric_500.0_mg_standard",
@@ -3970,7 +4271,19 @@
         "soy_free"
       ],
       "match_score": 92.5,
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "null Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Tumeric",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "236914_nature's bounty_magnesium_500.0_mg_standard",
@@ -4016,7 +4329,20 @@
       "match_score": 92.5,
       "dosage": [
         "500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "217578_solgar_magnesium_400.0_mg_chelated",
@@ -4056,7 +4382,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "268471_twinlab_magnesium_420.0_mg_standard",
@@ -4092,7 +4431,20 @@
       "dosage": [
         "420 mg"
       ],
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "420",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "242510_nature's bounty_magnesium_500.0_mg_standard",
@@ -4139,7 +4491,20 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "200 Tablet(s)"
+      "dsld_content": "200 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296679_nature's craft_magnesium_500.0_mg_standard",
@@ -4169,7 +4534,20 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "204955_now_calcium_400.0_mg_standard",
@@ -4212,7 +4590,34 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1.5 tsp",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "5",
+            "unit": "mcg",
+            "daily_value": "25",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "31",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "72119_now_magnesium_290.0_mg_standard",
@@ -4260,7 +4665,20 @@
       "dosage": [
         "290 mg"
       ],
-      "dsld_content": "8 oz."
+      "dsld_content": "8 oz.",
+      "dsld_label_info": {
+        "serving_size": "0.25 tsp",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "290",
+            "unit": "mg",
+            "daily_value": "69",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "299274_alta health products_magnesium chloride_520.0_mg_standard",
@@ -4291,7 +4709,39 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium Chloride",
+            "amount": "520",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Chloride",
+            "amount": "1560",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "elemental Magnesium",
+            "amount": "62.17",
+            "unit": "mg",
+            "daily_value": "15.54",
+            "category": "mineral"
+          },
+          {
+            "name": "elemental Magnesium",
+            "amount": "186.51",
+            "unit": "mg",
+            "daily_value": "46.62",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296053_solaray_magnesium_400.0_mg_standard",
@@ -4325,7 +4775,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "90 Veg Capsule(s)"
+      "dsld_content": "90 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296679_nature's craft_magnesium_500.0_mg_standard",
@@ -4359,7 +4822,20 @@
       "dosage": [
         "170 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "219466_solgar_magnesium_420.0_mg_standard",
@@ -4398,7 +4874,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "420",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "302128_evlution nutrition_magnesium_400.0_mg_standard",
@@ -4431,7 +4920,20 @@
       "match_score": 92.5,
       "dosage": [
         "400 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "218431_solgar_magnesium_400.0_mg_standard",
@@ -4467,7 +4969,27 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "250 Tablet(s)"
+      "dsld_content": "250 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "1471",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "223424_nutricost_magnesium_420.0_mg_standard",
@@ -4504,7 +5026,20 @@
       "dosage": [
         "750 mg"
       ],
-      "dsld_content": "240 Capsule(s)"
+      "dsld_content": "240 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "420",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296051_solaray_magnesium_400.0_mg_standard",
@@ -4538,7 +5073,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "277203_country life_magnesium_250.0_mg_standard",
@@ -4578,7 +5126,20 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179534_nature made_magnesium_250.0_mg_standard",
@@ -4617,7 +5178,20 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "200 Tablet(s)"
+      "dsld_content": "200 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "63",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "268472_twinlab_magnesium_420.0_mg_standard",
@@ -4653,7 +5227,20 @@
       "dosage": [
         "420 mg"
       ],
-      "dsld_content": "200 Capsule(s)"
+      "dsld_content": "200 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "420",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "333256_country life_magnesium_400.0_mg_chelated",
@@ -4693,7 +5280,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286789_kal_magnesium_400.0_mg_standard",
@@ -4726,7 +5326,34 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fiber"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "306334_nutricost_magnesium_420.0_mg_standard",
@@ -4762,7 +5389,20 @@
       "dosage": [
         "420 mg"
       ],
-      "dsld_content": "240 Capsule(s)"
+      "dsld_content": "240 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "420",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "284047_bioptimizers_elemental magnesium_500.0_mg_standard",
@@ -4792,7 +5432,88 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "118",
+            "category": "vitamin"
+          },
+          {
+            "name": "Elemental Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "120",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Chelate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Bisglycinate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Sucrosomial Magnesium",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Malate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Orotate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Taurate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Citrate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Fulvic & Humic Acid Blend",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Magnesium Proprietary Blend",
+            "amount": "1711",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Manganese",
+            "amount": "1",
+            "unit": "mg",
+            "daily_value": "43",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "74054_life extension_magnesium_250.0_mg_standard",
@@ -4824,7 +5545,20 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "63",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "204986_now_magnesium_250.0_mg_standard",
@@ -4859,7 +5593,33 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Veg Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "99",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Taurine",
+            "amount": "100",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269689_doctor's best_magnesium_400.0_mg_chelated",
@@ -4896,7 +5656,26 @@
         "chelated"
       ],
       "match_score": 85,
-      "dsld_content": "7.1 oz.; 200 g"
+      "dsld_content": "7.1 oz.; 200 g",
+      "dsld_label_info": {
+        "serving_size": "2 Scoop(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Lysinate Glycinate Chelate",
+            "amount": "4000",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "73011_protocol for life balance_magnesium_400.0_mg_standard",
@@ -4931,7 +5710,20 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "289165_optimum nutrition_magnesium_435.0_mg_standard",
@@ -4961,7 +5753,34 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "588",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "435",
+            "unit": "mg",
+            "daily_value": "104",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "28",
+            "unit": "mg",
+            "daily_value": "255",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296052_solaray_magnesium asporotate complex_400.0_mg_standard",
@@ -4995,7 +5814,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium Asporotate Complex",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "217587_solgar_magnesium_400.0_mg_chelated",
@@ -5035,7 +5867,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "250 Tablet(s)"
+      "dsld_content": "250 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326041_solaray_magnesium_400.0_mg_standard",
@@ -5069,7 +5914,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "180 Veg Capsule(s)"
+      "dsld_content": "180 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "327567_megafood_magnesium_300.0_mg_standard",
@@ -5102,7 +5960,26 @@
       "match_score": 92.5,
       "dosage": [
         "300 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "300",
+            "unit": "mg",
+            "daily_value": "71",
+            "category": "mineral"
+          },
+          {
+            "name": "Spinach",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "260165_advanced nutrition by zahler_magnesium_200.0_mg_standard",
@@ -5143,7 +6020,20 @@
       "dosage": [
         "200 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296550_enzymedica_motion magnesium blend_350.0_mg_standard",
@@ -5174,7 +6064,38 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Motion Magnesium Blend",
+            "amount": "350",
+            "unit": "mg",
+            "daily_value": "83.3",
+            "category": "blend"
+          },
+          {
+            "name": "ATA Mg",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Malate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Glycinate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309186_ancient nutrition_ancient nutrients tcm blend_450.0_mg_standard",
@@ -5208,7 +6129,99 @@
       "dosage": [
         "300 mg"
       ],
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "300",
+            "unit": "mg",
+            "daily_value": "71",
+            "category": "mineral"
+          },
+          {
+            "name": "Ancient Nutrients TCM Blend",
+            "amount": "450",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Beef Bone Broth",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Bovine Liver",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Rhodiola root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Stinging Nettle root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Chicken Bone Broth",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Cinnamon bark extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Lion's Mane Mushroom Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Licorice root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Skullcap root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Wild Hake Roe",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "2954_source naturals_magnesium_133.0_mg_standard",
@@ -5245,7 +6258,20 @@
       "dosage": [
         "133 mg"
       ],
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "133",
+            "unit": "mg",
+            "daily_value": "35",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "302618_emerald labs_magnesium_400.0_mg_chelated",
@@ -5281,7 +6307,20 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "319200_nature's plus_magnesium_200.0_mg_standard",
@@ -5315,7 +6354,20 @@
       "dosage": [
         "200 mg"
       ],
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326040_solaray_magnesium_200.0_mg_chelated",
@@ -5351,7 +6403,20 @@
       "dosage": [
         "200 mg"
       ],
-      "dsld_content": "100 Veg Capsule(s)"
+      "dsld_content": "100 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "270719_nutricost_magnesium_210.0_mg_standard",
@@ -5385,7 +6450,27 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "240 Capsule(s)"
+      "dsld_content": "240 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "210",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "99",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "329200_country life_magnesium_250.0_mg_standard",
@@ -5421,7 +6506,20 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "180 Tablet(s)"
+      "dsld_content": "180 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "220684_natural factors_magnesium_150.0_mg_standard",
@@ -5458,7 +6556,20 @@
       "dosage": [
         "150 mg"
       ],
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "150",
+            "unit": "mg",
+            "daily_value": "36",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "265992_integrative therapeutics_magnesium_300.0_mg_standard",
@@ -5493,7 +6604,20 @@
         "wheat_free"
       ],
       "match_score": 100,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "300",
+            "unit": "mg",
+            "daily_value": "71",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296679_nature's craft_magnesium_500.0_mg_standard",
@@ -5523,7 +6647,20 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296195_solaray_bromelain_140.0_mg_standard",
@@ -5553,7 +6690,33 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "300",
+            "unit": "mg",
+            "daily_value": "71",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "40",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "140",
+            "unit": "mg",
+            "category": "enzyme"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "220361_natural factors_magnesium_150.0_mg_standard",
@@ -5593,7 +6756,20 @@
       "dosage": [
         "150 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "150",
+            "unit": "mg",
+            "daily_value": "36",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "258459_21st century_calcium_65.0_mg_standard",
@@ -5629,7 +6805,27 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "110 Tablet(s)"
+      "dsld_content": "110 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "65",
+            "unit": "mg",
+            "daily_value": "5",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322919_kal_magnesium_200.0_mg_standard",
@@ -5665,7 +6861,20 @@
       "dosage": [
         "200 mg"
       ],
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "276221_green foods_algae_180.0_mg_standard",
@@ -5696,7 +6905,526 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "5.3 oz."
+      "dsld_content": "5.3 oz.",
+      "dsld_label_info": {
+        "serving_size": "9 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "36",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Sodium",
+            "amount": "27",
+            "unit": "mg",
+            "daily_value": "1",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "7",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "12",
+            "category": "fiber"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "protein"
+          },
+          {
+            "name": "Vitamin A",
+            "amount": "9500",
+            "unit": "IU",
+            "daily_value": "190",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "70",
+            "unit": "mg",
+            "daily_value": "117",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin E",
+            "amount": "90",
+            "unit": "IU",
+            "daily_value": "300",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K",
+            "amount": "15",
+            "unit": "mcg",
+            "daily_value": "19",
+            "category": "vitamin"
+          },
+          {
+            "name": "Thiamine",
+            "amount": "600",
+            "unit": "mcg",
+            "daily_value": "40",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "300",
+            "unit": "mcg",
+            "daily_value": "15",
+            "category": "vitamin"
+          },
+          {
+            "name": "Pantothenic Acid",
+            "amount": "3",
+            "unit": "mg",
+            "daily_value": "30",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "mineral"
+          },
+          {
+            "name": "Iron",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "28",
+            "category": "mineral"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "110",
+            "unit": "mg",
+            "daily_value": "11",
+            "category": "mineral"
+          },
+          {
+            "name": "Chlorophyll",
+            "amount": "15",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Green Magma",
+            "amount": "1800",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Mixed Vegetable Powders",
+            "amount": "1.575",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Carrot; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Wheat Grass powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Alfalfa; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Lettuce; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cabbage powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Red Beet; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Daikon Radish; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Bean Sprout; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Celery powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Tomato powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Spinach; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Kale powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Select Whole Food Extracts",
+            "amount": "1404",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Chicory Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Wheat Germ Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Coix Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Acerola extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Brown Rice Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Vegetable-Derived Nutrients",
+            "amount": "995",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Maltodextrin",
+            "amount": "",
+            "unit": "",
+            "category": "complex carbohydrate"
+          },
+          {
+            "name": "Glucomannan",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Lecithin",
+            "amount": "810",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Blend",
+            "amount": "720",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Honey",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Bee Pollen",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Royal Jelly",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Mixed Fruit Powders",
+            "amount": "648",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Papaya powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Mango powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Apple powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Banana powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Pineapple; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Raspberry powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Herbal Extract",
+            "amount": "508",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Licorice Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Milk Thistle extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Echinacea purpurea Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Eleutherococcus senticosus",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "American Ginseng extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Astragalus root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Green Tea extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Stevia extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Reishi Mushroom extract",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "Ginkgo biloba extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Yucca Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cat's Claw Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Garcinia cambogia extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Garlic Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cayenne Pepper Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Bilberry extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Grape Seed Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Algae",
+            "amount": "180",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Probiotic Blend",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "B. bifidum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. acidophilus",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "L. plantarum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Digestive Enzymes",
+            "amount": "600",
+            "unit": "mcg",
+            "category": "blend"
+          },
+          {
+            "name": "Amylase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Lactase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Lipase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Protease",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326811_country life_calcium_190.0_mg_standard",
@@ -5732,7 +7460,34 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "190",
+            "unit": "mg",
+            "daily_value": "15",
+            "category": "mineral"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "148",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322210_davinci laboratories_magnesium_300.0_mg_standard",
@@ -5763,7 +7518,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "300",
+            "unit": "mg",
+            "daily_value": "71",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "313741_advanced nutrition by zahler_magnesium_200.0_mg_standard",
@@ -5797,7 +7565,20 @@
       "dosage": [
         "200 mg"
       ],
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296551_enzymedica_motion magnesium blend_350.0_mg_standard",
@@ -5828,7 +7609,38 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Motion Magnesium Blend",
+            "amount": "350",
+            "unit": "mg",
+            "daily_value": "83.3",
+            "category": "blend"
+          },
+          {
+            "name": "ATA Mg",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Malate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Glycinate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269391_healthy origins_magnesium_200.0_mg_chelated",
@@ -5863,7 +7675,20 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "241839_double wood supplements_magnesium_225.0_mg_standard",
@@ -5900,7 +7725,26 @@
       "dosage": [
         "1500 mg"
       ],
-      "dsld_content": "420 Capsule(s)"
+      "dsld_content": "420 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium Malate",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "225",
+            "unit": "mg",
+            "daily_value": "54",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "220688_natural factors_magnesium_150.0_mg_standard",
@@ -5937,7 +7781,20 @@
       "dosage": [
         "150 mg"
       ],
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "150",
+            "unit": "mg",
+            "daily_value": "36",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "203385_doctor's best_coenzyme q10_200.0_mg_buffered_chelated",
@@ -5977,7 +7834,44 @@
         "chelated"
       ],
       "match_score": 100,
-      "dsld_content": "90 Veggie Capsule(s)"
+      "dsld_content": "90 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Bisglycinate Chelate buffered",
+            "amount": "1112",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "L-Carnitine Fumarate",
+            "amount": "855",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "L-Carnitine",
+            "amount": "500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Coenzyme Q10",
+            "amount": "200",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "319199_nature's plus_magnesium_200.0_mg_standard",
@@ -6021,7 +7915,20 @@
       "dosage": [
         "200 mg"
       ],
-      "dsld_content": "180 Tablet(s)"
+      "dsld_content": "180 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296549_enzymedica_ata mg_350.0_mg_standard",
@@ -6052,7 +7959,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "ATA Mg",
+            "amount": "350",
+            "unit": "mg",
+            "daily_value": "83.3",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "201495_pure encapsulations_magnesium_150.0_mg_standard",
@@ -6086,7 +8006,20 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "150",
+            "unit": "mg",
+            "daily_value": "36",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "334980_jigsaw health_folate_200.0_mcg dfe_sustained_release",
@@ -6119,7 +8052,47 @@
         "sustained_release"
       ],
       "match_score": 100,
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "294",
+            "category": "vitamin"
+          },
+          {
+            "name": "Folate",
+            "amount": "200",
+            "unit": "mcg DFE",
+            "daily_value": "50",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B12",
+            "amount": "6",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          },
+          {
+            "name": "Malic Acid",
+            "amount": "1436",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "183985_pure encapsulations_calcium_240.0_mg_standard",
@@ -6153,7 +8126,27 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "240",
+            "unit": "mg",
+            "daily_value": "18",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "240",
+            "unit": "mg",
+            "daily_value": "57",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "244824_mason natural_chamomile flower extract_50.0_mg_standard",
@@ -6187,7 +8180,26 @@
         "sodium_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "null Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          },
+          {
+            "name": "Chamomile flower extract",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "303980_davinci laboratories_magnesium_140.0_mg_standard",
@@ -6218,7 +8230,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 96,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "140",
+            "unit": "mg",
+            "daily_value": "33",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "335527_xymogen_magnesium_250.0_mg_chelated",
@@ -6252,7 +8277,20 @@
         "chelated"
       ],
       "match_score": 100,
-      "dsld_content": "120 Vegetarian Capsule(s)"
+      "dsld_content": "120 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "241825_double wood supplements_magnesium_120.0_mg_standard",
@@ -6289,7 +8327,26 @@
       "dosage": [
         "1000 mg"
       ],
-      "dsld_content": "1 Capsule(s)"
+      "dsld_content": "1 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "29",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Chloride",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "241846_double wood supplements_magnesium_120.0_mg_standard",
@@ -6323,7 +8380,26 @@
       "dosage": [
         "1500 mg"
       ],
-      "dsld_content": "21 Capsule(s)"
+      "dsld_content": "21 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium Taurate",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "28.57",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "315677_double wood supplements_magnesium_112.0_mg_standard",
@@ -6359,7 +8435,26 @@
       "dosage": [
         "800 mg"
       ],
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium Citrate",
+            "amount": "800",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "112",
+            "unit": "mg",
+            "daily_value": "28",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "244820_mason natural_magnesium_30.0_mg_standard",
@@ -6397,7 +8492,26 @@
       "dosage": [
         "550 mg"
       ],
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "null Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "8",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Gluconate",
+            "amount": "550",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "228062_bioschwartz_magnesium_72.0_mg_buffered_chelated",
@@ -6431,7 +8545,38 @@
         "chelated"
       ],
       "match_score": 85,
-      "dsld_content": "90 Veggie Capsule(s)"
+      "dsld_content": "90 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "72",
+            "unit": "mg",
+            "daily_value": "17",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Bisglycinate Chelate",
+            "amount": "400",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Magnesium Bisglycinate Chelate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Magnesium Oxide",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "313742_advanced nutrition by zahler_magnesium_200.0_mg_standard",
@@ -6467,7 +8612,20 @@
       "dosage": [
         "200 mg"
       ],
-      "dsld_content": "250 Capsule(s)"
+      "dsld_content": "250 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "282198_natural factors_magnesium_150.0_mg_standard",
@@ -6501,7 +8659,20 @@
       "dosage": [
         "150 mg"
       ],
-      "dsld_content": "360 Capsule(s)"
+      "dsld_content": "360 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "150",
+            "unit": "mg",
+            "daily_value": "36",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "177247_megafood_calcium_100.0_mg_standard",
@@ -6539,7 +8710,58 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "8",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "22",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Organic Trace Mineral Blend",
+            "amount": "60",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Nettle",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Dandelion",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Parsley",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "315679_double wood supplements_magnesium_144.0_mg_standard",
@@ -6574,7 +8796,26 @@
       "match_score": 92.5,
       "dosage": [
         "2000 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magtein",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "144",
+            "unit": "mg",
+            "daily_value": "34.29",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "333424_codeage_magnesium_144.0_mg_standard",
@@ -6604,7 +8845,44 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "144",
+            "unit": "mg",
+            "daily_value": "34",
+            "category": "mineral"
+          },
+          {
+            "name": "Magtein",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Phospholipid Complex",
+            "amount": "100",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Sunflower Oil",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          },
+          {
+            "name": "Sunflower Lecithin",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "219667_pure encapsulations_magnesium_120.0_mg_standard",
@@ -6638,7 +8916,20 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "29",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "182038_life extension_magnesium_144.0_mg_standard",
@@ -6670,7 +8961,26 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "144",
+            "unit": "mg",
+            "daily_value": "36",
+            "category": "mineral"
+          },
+          {
+            "name": "Magtein Magnesium L-Threonate",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322664_seeking health_magnesium_100.0_mg_standard",
@@ -6704,7 +9014,20 @@
       "dosage": [
         "100 mg"
       ],
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Chewable Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "24",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "177143_terry naturally_magnesium_100.0_mg_chelated",
@@ -6742,7 +9065,34 @@
         "chelated"
       ],
       "match_score": 100,
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "588",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "24",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "45",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322665_seeking health_magnesium_125.0_mg_standard",
@@ -6773,7 +9123,27 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin B6",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "1765",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "125",
+            "unit": "mg",
+            "daily_value": "30",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "284252_thorne_gamma-aminobutyric acid_250.0_mg_standard",
@@ -6806,7 +9176,19 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Gamma-Aminobutyric Acid",
+            "amount": "250",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298074_thorne_magnesium_200.0_mg_standard",
@@ -6838,7 +9220,20 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3.11 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "48",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269848_best naturals_magnesium_62.17_mg_standard",
@@ -6883,7 +9278,26 @@
       "dosage": [
         "520 mg"
       ],
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "62.17",
+            "unit": "mg",
+            "daily_value": "15",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Chloride",
+            "amount": "520",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "249895_bioschwartz_magnesium_72.0_mg_buffered_chelated",
@@ -6918,7 +9332,20 @@
         "chelated"
       ],
       "match_score": 100,
-      "dsld_content": "180 Veggie Capsule(s)"
+      "dsld_content": "180 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "72",
+            "unit": "mg",
+            "daily_value": "17",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "235240_nutricology_magnesium_124.0_mg_standard",
@@ -6949,7 +9376,33 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Riboflavin",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "769",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "124",
+            "unit": "mg",
+            "daily_value": "30",
+            "category": "mineral"
+          },
+          {
+            "name": "Malic Acid",
+            "amount": "500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307646_jarrow formulas_magnesium_144.0_mg_standard",
@@ -6983,7 +9436,26 @@
         "vegetarian"
       ],
       "match_score": 85,
-      "dsld_content": "60 Veggie Capsule(s)"
+      "dsld_content": "60 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "144",
+            "unit": "mg",
+            "daily_value": "34",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium L-Threonate",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "62665_megafood_calcium_100.0_mg_standard",
@@ -7020,7 +9492,82 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "FoodState Nutrients",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "Calcium",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "10",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "13",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "22",
+            "unit": "mg",
+            "daily_value": "1",
+            "category": "mineral"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "3200",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Organic Trace Mineral Blend",
+            "amount": "60",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Nettle",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Dandelion",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Parsley",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286893_kal_magnesium_144.0_mg_standard",
@@ -7063,7 +9610,26 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "144",
+            "unit": "mg",
+            "daily_value": "34",
+            "category": "mineral"
+          },
+          {
+            "name": "Magtein Magnesium L-Threonate",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "328832_thorne_albion dimagnesium malate_80.0_mg_standard",
@@ -7096,7 +9662,32 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "135",
+            "unit": "mg",
+            "daily_value": "32",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Citrate",
+            "amount": "55",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Albion Dimagnesium Malate",
+            "amount": "80",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "327131_dr. mercola_magnesium_145.0_mg_standard",
@@ -7126,7 +9717,26 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "145",
+            "unit": "mg",
+            "daily_value": "35",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium L-Threonate",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -7156,7 +9766,19 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 mL",
+        "ingredients": [
+          {
+            "name": "3b-Hydroxy-androstane-3b-ol;17-one",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "177958_megafood_magnesium_50.0_mg_standard",
@@ -7193,7 +9815,26 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          },
+          {
+            "name": "organic Spinach",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "234789_nutricology_magnesium_66.5_mg_standard",
@@ -7224,7 +9865,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "8 fl. oz."
+      "dsld_content": "8 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "2.5 mL",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "66.5",
+            "unit": "mg",
+            "daily_value": "16",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "304276_allergy research group_magnesium_66.5_mg_standard",
@@ -7255,7 +9909,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "8 fl. oz."
+      "dsld_content": "8 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "2.5 mL",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "66.5",
+            "unit": "mg",
+            "daily_value": "16",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "315678_double wood supplements_magnesium_60.0_mg_standard",
@@ -7291,7 +9958,26 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "1 Capsule(s)"
+      "dsld_content": "1 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "60",
+            "unit": "mg",
+            "daily_value": "14.29",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium Glycinate",
+            "amount": "400",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "334975_jigsaw health_magnesium_100.0_mg_standard",
@@ -7325,7 +10011,20 @@
       "dosage": [
         "100 mg"
       ],
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "24",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "284251_thorne_gamma-aminobutyric acid_100.0_mg_standard",
@@ -7368,7 +10067,19 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Gamma-Aminobutyric Acid",
+            "amount": "100",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "6139_xymogen_magnesium_100.0_mg_standard",
@@ -7399,7 +10110,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Vegetarian Capsule(s)"
+      "dsld_content": "120 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "25",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "205309_pure encapsulations_magnesium_120.0_mg_standard",
@@ -7433,7 +10157,20 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "29",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326454_protocol for life balance_magnesium_144.0_mg_standard",
@@ -7463,7 +10200,26 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Veg Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "144",
+            "unit": "mg",
+            "daily_value": "34",
+            "category": "mineral"
+          },
+          {
+            "name": "Magtein",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "234753_nutricology_magnesium_70.0_mg_buffered",
@@ -7496,7 +10252,27 @@
         "buffered"
       ],
       "match_score": 100,
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "1111",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "70",
+            "unit": "mg",
+            "daily_value": "17",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "233055_allergy research group_magnesium_70.0_mg_buffered",
@@ -7529,7 +10305,27 @@
         "buffered"
       ],
       "match_score": 100,
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "1111",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "70",
+            "unit": "mg",
+            "daily_value": "17",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "177958_megafood_magnesium_50.0_mg_standard",
@@ -7566,7 +10362,26 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          },
+          {
+            "name": "organic Spinach",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -7596,7 +10411,19 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 mL",
+        "ingredients": [
+          {
+            "name": "3b-Hydroxy-androstane-3b-ol;17-one",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "334974_jigsaw health_magnesium_50.0_mg_chelated",
@@ -7632,7 +10459,20 @@
       "dosage": [
         "50 mg"
       ],
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -7663,7 +10503,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "2 fl. oz."
+      "dsld_content": "2 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "2 mL",
+        "ingredients": [
+          {
+            "name": "3b-Hydroxy-androstane-3b-ol;17-one",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "239418_nature's answer_calcium_25.0_mg_standard",
@@ -7711,7 +10563,34 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "90 Veg Capsule(s)"
+      "dsld_content": "90 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "125",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "1",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "177958_megafood_magnesium_50.0_mg_standard",
@@ -7749,7 +10628,26 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          },
+          {
+            "name": "organic Spinach",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179948_nature made_calories_15.0_calorie_standard",
@@ -7788,7 +10686,59 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "63",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -7819,7 +10769,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "8 fl. oz."
+      "dsld_content": "8 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "2 mL",
+        "ingredients": [
+          {
+            "name": "3b-Hydroxy-androstane-3b-ol;17-one",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "78681_source naturals_calories_10.0_calorie_standard",
@@ -7854,7 +10816,47 @@
         "sugar_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "1500",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "208431_source naturals_calories_10.0_calorie_standard",
@@ -7892,7 +10894,53 @@
       "dosage": [
         "625 mg"
       ],
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "6 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "fiber"
+          },
+          {
+            "name": "Protein",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "protein"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "425",
+            "unit": "mg",
+            "daily_value": "106",
+            "category": "mineral"
+          },
+          {
+            "name": "Malic Acid",
+            "amount": "2.5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "267822_floradix_calories_30.0_calorie_standard",
@@ -7926,7 +10974,82 @@
         "alcohol_free"
       ],
       "match_score": 100,
-      "dsld_content": "8.5 fl. oz."
+      "dsld_content": "8.5 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "20 mL",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "30",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "added Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "sugar"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Chamomile flowers extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Fennel Fruit Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Bitter Orange Peel extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Carrot Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Spinach leaf extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322911_kal_calories_25.0_calorie_standard",
@@ -7967,7 +11090,45 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "90 Softgel(s)"
+      "dsld_content": "90 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Protein",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "315",
+            "unit": "mg",
+            "daily_value": "75",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286787_kal_actisorb base_10.0_mg_standard",
@@ -8002,7 +11163,68 @@
       "match_score": 92.5,
       "dosage": [
         "500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          },
+          {
+            "name": "L-Arginine Hydrochloride",
+            "amount": "100",
+            "unit": "mg",
+            "category": "amino acid"
+          },
+          {
+            "name": "L-Glutamine",
+            "amount": "100",
+            "unit": "mg",
+            "category": "amino acid"
+          },
+          {
+            "name": "ActiSorb Base",
+            "amount": "10",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cayenne extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Rosemary extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "209639_metagenics_calcium_25.0_mg_standard",
@@ -8037,7 +11259,81 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Thiamine",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "333",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Folate",
+            "amount": "600",
+            "unit": "mcg",
+            "daily_value": "150",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B12",
+            "amount": "350",
+            "unit": "mcg",
+            "daily_value": "5883",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "mineral"
+          },
+          {
+            "name": "Iron",
+            "amount": "29",
+            "unit": "mg",
+            "daily_value": "161",
+            "category": "mineral"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "19",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Copper",
+            "amount": "1",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "mineral"
+          },
+          {
+            "name": "Succinic Acid",
+            "amount": "100",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Glycine",
+            "amount": "100",
+            "unit": "mg",
+            "category": "amino acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "271641_nature made_calories_10.0_calorie_standard",
@@ -8075,7 +11371,40 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "0.5",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "0.5",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179947_nature made_calories_15.0_calorie_standard",
@@ -8110,7 +11439,59 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "63",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179947_nature made_calories_15.0_calorie_standard",
@@ -8149,7 +11530,59 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "120 Softgel(s)"
+      "dsld_content": "120 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "63",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286787_kal_actisorb base_10.0_mg_standard",
@@ -8184,7 +11617,68 @@
       "match_score": 92.5,
       "dosage": [
         "500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          },
+          {
+            "name": "L-Arginine Hydrochloride",
+            "amount": "100",
+            "unit": "mg",
+            "category": "amino acid"
+          },
+          {
+            "name": "L-Glutamine",
+            "amount": "100",
+            "unit": "mg",
+            "category": "amino acid"
+          },
+          {
+            "name": "ActiSorb Base",
+            "amount": "10",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cayenne extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Rosemary extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "72987_source naturals_calories_10.0_calorie_standard",
@@ -8219,7 +11713,47 @@
         "sugar_free"
       ],
       "match_score": 85,
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "1500",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322922_kal_actisorb base_10.0_mg_standard",
@@ -8252,7 +11786,97 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fiber"
+          },
+          {
+            "name": "Thiamine",
+            "amount": "7.5",
+            "unit": "mg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "588",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          },
+          {
+            "name": "Manganese",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "435",
+            "category": "mineral"
+          },
+          {
+            "name": "Malic Acid",
+            "amount": "1.5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "ActiSorb Base",
+            "amount": "10",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cayenne",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Rosemary Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "267781_floradix_calories_30.0_calorie_standard",
@@ -8286,7 +11910,82 @@
         "alcohol_free"
       ],
       "match_score": 100,
-      "dsld_content": "17 fl. oz."
+      "dsld_content": "17 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "20 mL",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "30",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "added Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "sugar"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Chamomile aqueous extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Fennel Fruit Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Bitter Orange Peel extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Carrot aqueous extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Spinach aqueous extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323385_kal_calories_25.0_calorie_standard",
@@ -8317,7 +12016,45 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "180 Softgel(s)"
+      "dsld_content": "180 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Protein",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "315",
+            "unit": "mg",
+            "daily_value": "75",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322902_kal_calories_10.0_calorie_standard",
@@ -8348,7 +12085,47 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "180 Tablet(s)"
+      "dsld_content": "180 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fiber"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "315",
+            "unit": "mg",
+            "daily_value": "75",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "20",
+            "unit": "mg",
+            "daily_value": "1",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "292266_protocol for life balance_calories_20.0_calorie_standard",
@@ -8379,7 +12156,33 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "180 Softgel(s)"
+      "dsld_content": "180 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "400",
+            "unit": "mg",
+            "daily_value": "95",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179715_nature made_calories_5.0_calorie_standard",
@@ -8418,7 +12221,26 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "90 Softgel(s)"
+      "dsld_content": "90 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "63",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323386_kal_calories_10.0_calorie_standard",
@@ -8449,7 +12271,47 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "270 Tablet(s)"
+      "dsld_content": "270 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fiber"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "315",
+            "unit": "mg",
+            "daily_value": "75",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "20",
+            "unit": "mg",
+            "daily_value": "1",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "214799_maca magic_calories_5.0_calorie_standard",
@@ -8482,7 +12344,32 @@
         "gluten_free"
       ],
       "match_score": 87.5,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Maca powder",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "216538_metagenics_calcium_25.0_mg_standard",
@@ -8517,7 +12404,81 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "180 Tablet(s)"
+      "dsld_content": "180 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Thiamine",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "417",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "294",
+            "category": "vitamin"
+          },
+          {
+            "name": "Folate",
+            "amount": "1000",
+            "unit": "mcg DFE",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B12",
+            "amount": "350",
+            "unit": "mcg",
+            "daily_value": "14583",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Iron",
+            "amount": "29",
+            "unit": "mg",
+            "daily_value": "161",
+            "category": "mineral"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "19",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Copper",
+            "amount": "1",
+            "unit": "mg",
+            "daily_value": "111",
+            "category": "mineral"
+          },
+          {
+            "name": "Succinic Acid",
+            "amount": "100",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Glycine",
+            "amount": "100",
+            "unit": "mg",
+            "category": "amino acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296318_solaray_bioperine_5.0_mg_standard",
@@ -8551,7 +12512,32 @@
       "dosage": [
         "350mg"
       ],
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "350",
+            "unit": "mg",
+            "daily_value": "83",
+            "category": "mineral"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286219_zhou_bioperine_5.0_mg_standard",
@@ -8585,7 +12571,32 @@
       "dosage": [
         "350 mg"
       ],
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Veg Cap(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "350",
+            "unit": "mg",
+            "daily_value": "83",
+            "category": "mineral"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322912_kal_bioperine_5.0_mg_standard",
@@ -8616,7 +12627,32 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "160 Veg Capsule(s)"
+      "dsld_content": "160 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "350",
+            "unit": "mg",
+            "daily_value": "83",
+            "category": "mineral"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "331444_bucklebury_bioperine_5.0_mg_standard",
@@ -8652,7 +12688,32 @@
       "match_score": 92.5,
       "dosage": [
         "350 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "350",
+            "unit": "mg",
+            "daily_value": "83",
+            "category": "mineral"
+          },
+          {
+            "name": "L-Theanine",
+            "amount": "200",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "325991_solaray_bioperine_5.0_mg_standard",
@@ -8686,7 +12747,32 @@
       "dosage": [
         "350mg"
       ],
-      "dsld_content": "240 Veg Capsule(s)"
+      "dsld_content": "240 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "350",
+            "unit": "mg",
+            "daily_value": "83",
+            "category": "mineral"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "240869_jigsaw health_calories_5.0_calorie_chelated_fast_acting",
@@ -8725,7 +12811,71 @@
         "fast_acting"
       ],
       "match_score": 85,
-      "dsld_content": "13.8 oz."
+      "dsld_content": "13.8 oz.",
+      "dsld_label_info": {
+        "serving_size": "6.5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Erythritol",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Other Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "160",
+            "unit": "mg",
+            "daily_value": "7",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "180",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "260753_sunwarrior_boron_1.6_mg_standard",
@@ -8763,7 +12913,39 @@
         "soy_free"
       ],
       "match_score": 100,
-      "dsld_content": "4 fl. oz."
+      "dsld_content": "4 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "4.2 mL",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "428",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "Chloride",
+            "amount": "1178",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "mineral"
+          },
+          {
+            "name": "Sulfate",
+            "amount": "75",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Boron",
+            "amount": "1.6",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     }
   ]
 }

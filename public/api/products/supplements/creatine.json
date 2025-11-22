@@ -3546,7 +3546,19 @@
       "filters": [
         "halal"
       ],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "282408_bodybuilding.com signature_creatine monohydrate_5000.0_mg_standard",
@@ -3576,7 +3588,19 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "278236_nutrabio_pharmapure creatine monohydrate_5000.0_mg_standard",
@@ -3610,7 +3634,19 @@
         "gluten_free"
       ],
       "match_score": 90,
-      "dsld_content": "5.3 oz.; 150 g"
+      "dsld_content": "5.3 oz.; 150 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "PharmaPure Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "302094_evlution nutrition_creatine monohydrate_5000.0_mg_standard",
@@ -3651,7 +3687,19 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "300 g; 10.58 oz."
+      "dsld_content": "300 g; 10.58 oz.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "321547_onnit_creatine monohydrate; micronized_5000.0_mg_standard",
@@ -3682,7 +3730,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "5.29 oz.; 150 g"
+      "dsld_content": "5.29 oz.; 150 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate; Micronized",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "270453_best naturals_creatine monohydrate_5000.0_mg_standard",
@@ -3725,7 +3785,19 @@
         "no_preservatives"
       ],
       "match_score": 90,
-      "dsld_content": "1 lbs."
+      "dsld_content": "1 lbs.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "305112_mrm nutrition_creatine monohydrate_5000.0_mg_micronized",
@@ -3759,7 +3831,19 @@
         "micronized"
       ],
       "match_score": 90,
-      "dsld_content": "325 g; 11.5 oz."
+      "dsld_content": "325 g; 11.5 oz.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "316993_six star_creatinex3 blend_3031.0_mg_standard",
@@ -3800,7 +3884,75 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Caplet(s)"
+      "dsld_content": "60 Caplet(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Caplet(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sodium",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "1",
+            "category": "mineral"
+          },
+          {
+            "name": "CreatineX3 Blend",
+            "amount": "3031",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Muscle Building Matrix:",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine Phosphate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine Pyruvate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Alpha Amino 1",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Alpha-Lipoic Acid",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "L-Carnosine",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "270345_optimum nutrition_creatine monohydrate_5000.0_mg_standard",
@@ -3841,7 +3993,19 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 95,
-      "dsld_content": "300 g; 10.58 oz."
+      "dsld_content": "300 g; 10.58 oz.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "297634_pescience_creatine monohydrate_5000.0_mg_micronized",
@@ -3874,7 +4038,25 @@
         "micronized"
       ],
       "match_score": 90,
-      "dsld_content": "161 g; 5.67 oz."
+      "dsld_content": "161 g; 5.67 oz.",
+      "dsld_label_info": {
+        "serving_size": "5.35 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "ElevATP",
+            "amount": "150",
+            "unit": "mg",
+            "category": "blend"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "77130_nutricost_creapure_5000.0_mg_standard",
@@ -3908,7 +4090,19 @@
         "non_gmo"
       ],
       "match_score": 88.5,
-      "dsld_content": "1 lbs."
+      "dsld_content": "1 lbs.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creapure",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "3716_musclemeds_creatine decanate_5000.0_mg_standard",
@@ -3939,7 +4133,43 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "300 g; 10.58 oz."
+      "dsld_content": "300 g; 10.58 oz.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Decanate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "PEG 8000",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "PEG 3350",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "Decanoic Acid",
+            "amount": "",
+            "unit": "",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "328536_bsn_micronized creatine monohydrate_5000.0_mg_standard",
@@ -3970,7 +4200,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "309 g; 10.9 oz."
+      "dsld_content": "309 g; 10.9 oz.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "micronized Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "278236_nutrabio_pharmapure creatine monohydrate_5000.0_mg_standard",
@@ -4013,7 +4255,19 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "PharmaPure Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "245315_now sports_creatine monohydrate_4200.0_mg_micronized",
@@ -4050,7 +4304,19 @@
         "micronized"
       ],
       "match_score": 90,
-      "dsld_content": "1.1 lbs."
+      "dsld_content": "1.1 lbs.",
+      "dsld_label_info": {
+        "serving_size": "null Level Teaspoon(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "4.2",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "314952_six star_added sugars_6000.0_mg_standard",
@@ -4080,7 +4346,112 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "33 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "70",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "18",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "12",
+            "category": "sugar"
+          },
+          {
+            "name": "Sodium",
+            "amount": "65",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "mineral"
+          },
+          {
+            "name": "Muscle Building Creatine",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "8000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "BCAA-Amino Blend",
+            "amount": "2500",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Taurine",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "L-Leucine",
+            "amount": "",
+            "unit": "",
+            "category": "amino acid"
+          },
+          {
+            "name": "L-Isoleucine",
+            "amount": "",
+            "unit": "",
+            "category": "amino acid"
+          },
+          {
+            "name": "L-Valine",
+            "amount": "",
+            "unit": "",
+            "category": "amino acid"
+          },
+          {
+            "name": "Creatine Synthesis Amino Matrix",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Glycine",
+            "amount": "",
+            "unit": "",
+            "category": "amino acid"
+          },
+          {
+            "name": "L-Arginine",
+            "amount": "",
+            "unit": "",
+            "category": "amino acid"
+          },
+          {
+            "name": "L-Methionine",
+            "amount": "",
+            "unit": "",
+            "category": "amino acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "228157_gaspari nutrition_creatine monohydrate micronized_5000.0_mg_ultra_pure",
@@ -4114,7 +4485,19 @@
         "ultra_pure"
       ],
       "match_score": 90,
-      "dsld_content": "300 g"
+      "dsld_content": "300 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate Micronized",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "82937_cellucor_micronized creatine monohydrate_5000.0_mg_micronized",
@@ -4147,7 +4530,19 @@
         "micronized"
       ],
       "match_score": 85.7,
-      "dsld_content": "325 g; 11.5 oz."
+      "dsld_content": "325 g; 11.5 oz.",
+      "dsld_label_info": {
+        "serving_size": "7 Gram(s)",
+        "ingredients": [
+          {
+            "name": "micronized Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "219995_premier research labs_creatine monohydrate_5000.0_mg_standard",
@@ -4178,7 +4573,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "7.8 oz."
+      "dsld_content": "7.8 oz.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "255842_aps_creatine monohydrate_5000.0_mg_standard",
@@ -4209,7 +4616,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "17.63 oz.; 500 g"
+      "dsld_content": "17.63 oz.; 500 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "3714_musclepharm_creatine blend_5000.0_mg_standard",
@@ -4249,7 +4668,55 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Blend",
+            "amount": "5000",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Creapure",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine AAB",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "DiCreatine Malate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine Nitrate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Con-Cret",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Cinnulin PF",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "319075_mrm nutrition_creatine monohydrate_5000.0_mg_standard",
@@ -4280,7 +4747,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "500 g"
+      "dsld_content": "500 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "3714_musclepharm_creatine blend_5000.0_mg_standard",
@@ -4310,7 +4789,55 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Blend",
+            "amount": "5000",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Creapure",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine AAB",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "DiCreatine Malate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine Nitrate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Con-Cret",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Cinnulin PF",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "58835_muscletech essential series_creatine monohydrate_5000.0_mg_micronized_ultra_pure",
@@ -4344,7 +4871,19 @@
         "ultra_pure"
       ],
       "match_score": 90,
-      "dsld_content": "80 Capsule(s)"
+      "dsld_content": "80 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298066_thorne_creatine monohydrate_5000.0_mg_standard",
@@ -4374,7 +4913,19 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298066_thorne_creatine monohydrate_5000.0_mg_standard",
@@ -4405,7 +4956,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "0.18 oz.; 5.15 g"
+      "dsld_content": "0.18 oz.; 5.15 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326521_bpi sports_creatine monohydrate_5000.0_mg_standard",
@@ -4438,7 +5001,19 @@
         "no_artificial_colors"
       ],
       "match_score": 90,
-      "dsld_content": "1.32 lbs.; 600 g"
+      "dsld_content": "1.32 lbs.; 600 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "321458_momentous_creatine monohydrate_5000.0_mg_standard",
@@ -4470,7 +5045,19 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "321072_swolverine_creatine monohydrate_5000.0_mg_micronized",
@@ -4513,7 +5100,19 @@
         "micronized"
       ],
       "match_score": 88.8,
-      "dsld_content": "300 g; 10.58 oz."
+      "dsld_content": "300 g; 10.58 oz.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "332310_muscletech_added sugars_4000.0_mg_standard",
@@ -4544,7 +5143,52 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "90 Chewable(s)"
+      "dsld_content": "90 Chewable(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Chewable Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "8",
+            "category": "sugar"
+          },
+          {
+            "name": "Sodium",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Creapure",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322135_davinci laboratories_creatine monohydrate_5000.0_mg_standard",
@@ -4588,7 +5232,19 @@
         "gluten_free",
         "soy_free"
       ],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298066_thorne_creatine monohydrate_5000.0_mg_standard",
@@ -4619,7 +5275,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "450 g"
+      "dsld_content": "450 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298066_thorne_creatine monohydrate_5000.0_mg_standard",
@@ -4650,7 +5318,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "13.1 oz.; 372 g"
+      "dsld_content": "13.1 oz.; 372 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298066_thorne_creatine monohydrate_5000.0_mg_standard",
@@ -4681,7 +5361,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "13.5 oz.; 384 g"
+      "dsld_content": "13.5 oz.; 384 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "317855_sunwarrior sport_creatine monohydrate; powder_5000.0_mg_standard",
@@ -4714,7 +5406,37 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 89.5
+      "match_score": 89.5,
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrate",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Creatine Monohydrate; Powder",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "276660_optimum nutrition_creatine monohydrate_2500.0_mg_standard",
@@ -4745,7 +5467,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "2.5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "302093_evlution nutrition_creatine monohydrate_1000.0_mg_standard",
@@ -4789,7 +5523,19 @@
       "dosage": [
         "500 mg per Capsule; 500 mg"
       ],
-      "dsld_content": "120 Veggie Capsule(s)"
+      "dsld_content": "120 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269425_nutricost_creatine monohydrate_3000.0_mg_standard",
@@ -4823,7 +5569,19 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "500 Capsule(s)"
+      "dsld_content": "500 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "333418_codeage_creatine monohydrate_2500.0_mg_micronized",
@@ -4855,7 +5613,19 @@
       "filters": [
         "micronized"
       ],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "2500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "333418_codeage_creatine monohydrate_2500.0_mg_micronized",
@@ -4888,7 +5658,19 @@
         "micronized"
       ],
       "match_score": 90,
-      "dsld_content": "5.29 oz.; 150 g"
+      "dsld_content": "5.29 oz.; 150 g",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "2500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "71276_efx sports_kre-alkalyn_1500.0_mg_standard",
@@ -4919,7 +5701,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "3.53 oz.; 100 g"
+      "dsld_content": "3.53 oz.; 100 g",
+      "dsld_label_info": {
+        "serving_size": "1.5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Kre-Alkalyn",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "51165_nutrabio_creatine hcl_750.0_mg_standard",
@@ -4954,7 +5748,19 @@
         "non_gmo"
       ],
       "match_score": 90,
-      "dsld_content": "150 g"
+      "dsld_content": "150 g",
+      "dsld_label_info": {
+        "serving_size": "0.75 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine HCl",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "183686_bodytech_creatine monohydrate_2250.0_mg_standard",
@@ -4988,7 +5794,19 @@
       "dosage": [
         "750 mg per Capsule; 750 mg"
       ],
-      "dsld_content": "300 Capsule(s)"
+      "dsld_content": "300 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "2250",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "18930_cellucor_betaine anhydrous_1250.0_mg_standard",
@@ -5018,7 +5836,70 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "8.2 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Phosphorus",
+            "amount": "315",
+            "unit": "mg",
+            "daily_value": "31",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "290",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "320",
+            "unit": "mg",
+            "daily_value": "9",
+            "category": "mineral"
+          },
+          {
+            "name": "Creapure(R)",
+            "amount": "5",
+            "unit": "g",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creasorb(TM)",
+            "amount": "1.77",
+            "unit": "g",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Disodium Phosphate",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "Dipotassium Phosphate",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Betaine Anhydrous",
+            "amount": "1.25",
+            "unit": "g",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Cinnulin PF(R)",
+            "amount": "125",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "183678_bodytech_creatine monohydrate_2250.0_mg_standard",
@@ -5049,7 +5930,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "468 g; 16.5 oz."
+      "dsld_content": "468 g; 16.5 oz.",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "2250",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "64731_bodytech_creatine monohydrate_2250.0_mg_standard",
@@ -5080,7 +5973,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "18 oz.; 510 g"
+      "dsld_content": "18 oz.; 510 g",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "2250",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "183806_bodytech_carnosyn_1600.0_mg_standard",
@@ -5111,7 +6016,31 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "10.8 oz.; 306 g"
+      "dsld_content": "10.8 oz.; 306 g",
+      "dsld_label_info": {
+        "serving_size": "10.2 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "L-Glutamine",
+            "amount": "3000",
+            "unit": "mg",
+            "category": "amino acid"
+          },
+          {
+            "name": "CarnoSyn",
+            "amount": "1600",
+            "unit": "mg",
+            "category": "amino acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "64695_bodytech_carnosyn_1600.0_mg_standard",
@@ -5142,7 +6071,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "357 g; 12.6 oz."
+      "dsld_content": "357 g; 12.6 oz.",
+      "dsld_label_info": {
+        "serving_size": "1.6 Gram(s)",
+        "ingredients": [
+          {
+            "name": "CarnoSyn",
+            "amount": "1600",
+            "unit": "mg",
+            "category": "amino acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "319640_con-cret_con-cret_750.0_mg_standard",
@@ -5173,7 +6114,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "48 Capsule(s)"
+      "dsld_content": "48 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1",
+        "ingredients": [
+          {
+            "name": "Con-Cret",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "319640_con-cret_con-cret_750.0_mg_standard",
@@ -5214,7 +6167,19 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1",
+        "ingredients": [
+          {
+            "name": "Con-Cret",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "319640_con-cret_con-cret_750.0_mg_standard",
@@ -5245,7 +6210,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "62.4 g; 2.2 oz."
+      "dsld_content": "62.4 g; 2.2 oz.",
+      "dsld_label_info": {
+        "serving_size": "1",
+        "ingredients": [
+          {
+            "name": "Con-Cret",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323460_kaged_patented c-hcl_750.0_mg_standard",
@@ -5275,7 +6252,19 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95
+      "match_score": 95,
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Patented C-HCl",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323460_kaged_patented c-hcl_750.0_mg_standard",
@@ -5306,7 +6295,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "1.98 oz.; 56.25 g"
+      "dsld_content": "1.98 oz.; 56.25 g",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Patented C-HCl",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323460_kaged_patented c-hcl_750.0_mg_standard",
@@ -5340,7 +6341,19 @@
       "dosage": [
         "750 mg per Capsule; 750 mg"
       ],
-      "dsld_content": "75 Veggie Capsule(s)"
+      "dsld_content": "75 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Patented C-HCl",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323460_kaged_patented c-hcl_750.0_mg_standard",
@@ -5371,7 +6384,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "75.23 g; 2.65 oz."
+      "dsld_content": "75.23 g; 2.65 oz.",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Patented C-HCl",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "203977_bodytech_calcium hmb_1000.0_mg_standard",
@@ -5402,7 +6427,26 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "225 g; 7.94 oz."
+      "dsld_content": "225 g; 7.94 oz.",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Potassium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Calcium HMB",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "183872_bodytech_creatine hcl_750.0_mg_standard",
@@ -5433,7 +6477,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 90,
-      "dsld_content": "1.58 oz.; 45 g"
+      "dsld_content": "1.58 oz.; 45 g",
+      "dsld_label_info": {
+        "serving_size": "0.777 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Creatine HCl",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -5466,7 +6522,33 @@
         "buffered"
       ],
       "match_score": 90,
-      "dsld_content": "2 lbs."
+      "dsld_content": "2 lbs.",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "1000",
+            "unit": "mg",
+            "daily_value": "1111",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "9",
+            "category": "mineral"
+          },
+          {
+            "name": "Bioflavonoids",
+            "amount": "200",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296647_nature's craft_creatine alpha-ketoglutarate_51.0_mg_standard",
@@ -5507,7 +6589,31 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Creatine Monohydrate; Powder",
+            "amount": "4.8",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine Alpha-Ketoglutarate",
+            "amount": "51",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Creatine Hydrochloride",
+            "amount": "150",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "325586_con-cret_calories_26.0_calorie_standard",
@@ -5538,7 +6644,51 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "26",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Saturated Fat",
+            "amount": "",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "9",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "sugar"
+          },
+          {
+            "name": "Con-Cret",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "211616_source naturals_calories_10.0_calorie_standard",
@@ -5576,7 +6726,32 @@
       "dosage": [
         "1000 mg"
       ],
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "5 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "332817_beverly international_calories_15.0_calorie_fast_acting",
@@ -5609,7 +6784,64 @@
         "fast_acting"
       ],
       "match_score": 90,
-      "dsld_content": "480 g"
+      "dsld_content": "480 g",
+      "dsld_label_info": {
+        "serving_size": "12 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sodium",
+            "amount": "60",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "310",
+            "unit": "mg",
+            "daily_value": "7",
+            "category": "mineral"
+          },
+          {
+            "name": "Creatine Monohydrate",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "CarnoSyn",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "amino acid"
+          },
+          {
+            "name": "Potassium Phosphate",
+            "amount": "700",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium Phosphate",
+            "amount": "300",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     }
   ]
 }

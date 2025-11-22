@@ -3555,7 +3555,19 @@
       "filters": [],
       "match_score": 100,
       "net_contents": "7 oz.; 200 g",
-      "dsld_content": "7 oz.; 200 g"
+      "dsld_content": "7 oz.; 200 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha (Withania somnifera) root powder",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "222784_organic india_proprietary organic blend_2000.0_mg_standard",
@@ -3592,7 +3604,43 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "18 Capsule(s)"
+      "dsld_content": "18 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Infusion Bag(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Organic Blend",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "organic Ashwagandha",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Tulsi (Holy Basil) Blend",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Holy Basil",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "East Indian Basil",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "312776_pure indian foods_ashwagandha root extract_5000.0_mg_standard",
@@ -3626,7 +3674,46 @@
       ],
       "match_score": 85,
       "net_contents": "5.3 oz.; 150 g",
-      "dsld_content": "5.3 oz.; 150 g"
+      "dsld_content": "5.3 oz.; 150 g",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "45",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "daily_value": "8",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "15",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "8",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309548_gaia herbs_added sugars_4000.0_mg_standard",
@@ -3659,7 +3746,63 @@
         "organic"
       ],
       "match_score": 100,
-      "dsld_content": "45 Gummie(s)"
+      "dsld_content": "45 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "sugar"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "62",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Cinnamon",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger root Supercritical CO2 Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309548_gaia herbs_added sugars_4000.0_mg_standard",
@@ -3692,7 +3835,63 @@
         "organic"
       ],
       "match_score": 85,
-      "dsld_content": "45 Capsule(s)"
+      "dsld_content": "45 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "sugar"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "62",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Cinnamon",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger root Supercritical CO2 Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "333642_goli nutrition_added sugars_4000.0_mg_standard",
@@ -3726,7 +3925,59 @@
       ],
       "match_score": 100,
       "net_contents": "60 Gummie(s)",
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Sodium",
+            "amount": "20",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "8",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D2",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "KSM-66",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "277151_phytoral_added sugars_2000.0_mg_standard",
@@ -3759,7 +4010,60 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "1",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "500",
+            "category": "vitamin"
+          },
+          {
+            "name": "Zinc",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "18",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "",
+            "unit": "mg",
+            "daily_value": "<2",
+            "category": "mineral"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309549_gaia herbs_added sugars_4000.0_mg_standard",
@@ -3792,7 +4096,63 @@
         "organic"
       ],
       "match_score": 100,
-      "dsld_content": "81 Gummie(s)"
+      "dsld_content": "81 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "sugar"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "62",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Cinnamon",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Supercritical Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "228879_happy healthy hippie_organic ashwagandha_2100.0_mg_standard",
@@ -3831,7 +4191,25 @@
       "dosage": [
         "2,100 mg"
       ],
-      "dsld_content": "90 Vegetarian Capsule(s)"
+      "dsld_content": "90 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha",
+            "amount": "2100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Black Pepper",
+            "amount": "15",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "254804_bareorganics_organic ashwagandha root powder_3000.0_mg_standard",
@@ -3881,7 +4259,19 @@
       ],
       "match_score": 85,
       "net_contents": "8 oz.",
-      "dsld_content": "8 oz.; 227 g"
+      "dsld_content": "8 oz.; 227 g",
+      "dsld_label_info": {
+        "serving_size": "1 Scoop(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha root powder",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "321067_swolverine_added sugars_2000.0_mg_standard",
@@ -3917,7 +4307,59 @@
         "non_gmo"
       ],
       "match_score": 95.1,
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "500",
+            "category": "vitamin"
+          },
+          {
+            "name": "Zinc",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "18",
+            "category": "mineral"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307919_metabolic nutrition_ashwamax_2205.0_mg_standard",
@@ -3949,7 +4391,37 @@
       "filters": [],
       "match_score": 100,
       "net_contents": "90 Capsule(s)",
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "AshwaMAX",
+            "amount": "2205",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Ashwagandha; Powder",
+            "amount": "1100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "KSM-66",
+            "amount": "1100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper Extract",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "221676_nutricost_ashwagandha_600.0_mg_standard",
@@ -3996,7 +4468,19 @@
       "dosage": [
         "600 mg"
       ],
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "256695_micro ingredients_organic ashwagandha powder_2000.0_mg_standard",
@@ -4031,7 +4515,19 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "300 Softgel(s)"
+      "dsld_content": "300 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gram(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha powder",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "231295_micro ingredients_organic ashwagandha powder_2000.0_mg_standard",
@@ -4066,7 +4562,19 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "300 Softgel(s)"
+      "dsld_content": "300 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gram(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha powder",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "248616_pure_ashwagandha extract_1800.0_mg_standard",
@@ -4097,7 +4605,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "80 Softgel(s)"
+      "dsld_content": "80 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha extract",
+            "amount": "1800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "300135_organic india_ashwagandha_1700.0_mg_standard",
@@ -4142,7 +4662,19 @@
       ],
       "match_score": 85,
       "net_contents": "16 oz.; 454 g",
-      "dsld_content": "16 oz.; 454 g"
+      "dsld_content": "16 oz.; 454 g",
+      "dsld_label_info": {
+        "serving_size": "1.7 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "1.7",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "175505_oregon's wild harvest_fresh organic ashwagandha_1000.0_mg_standard",
@@ -4177,7 +4709,19 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "1 Capsule(s)"
+      "dsld_content": "1 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 mL",
+        "ingredients": [
+          {
+            "name": "fresh organic Ashwagandha",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "265002_swanson_ashwagandha root extract_450.0_mg_standard",
@@ -4211,7 +4755,19 @@
       "dosage": [
         "450 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "450",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "251014_amazing india_ashwagandha extract_500.0_mg_standard",
@@ -4250,7 +4806,19 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "271954_planetary herbals_ashwagandha_500.0_mg_standard",
@@ -4293,7 +4861,32 @@
       "match_score": 86.9,
       "dosage": [
         "570 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "56",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Ashwagandha",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha root extract",
+            "amount": "70",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322753_planetary herbals_ashwagandha_500.0_mg_standard",
@@ -4324,7 +4917,32 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 87.5,
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "56",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Ashwagandha",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "70",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307430_herb pharm_ashwagandha root (withania somnifera) extract_833.0_mg_standard",
@@ -4357,7 +4975,26 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "1 fl. oz.; 30 mL"
+      "dsld_content": "1 fl. oz.; 30 mL",
+      "dsld_label_info": {
+        "serving_size": "0.7 mL",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrate",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Ashwagandha root (Withania somnifera) extract",
+            "amount": "833",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "249949_zhou_ashwagandha root extract_1200.0_mg_standard",
@@ -4395,7 +5032,67 @@
       "dosage": [
         "1200 mg"
       ],
-      "dsld_content": "60 Veggie Capsule(s)"
+      "dsld_content": "60 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Proprietary Adaptogen Blend",
+            "amount": "250",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Rhodiola root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cordyceps Mushroom",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Reishi Mushroom",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "Holy Basil extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Eleuthero root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Schisandra extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper fruit extract",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286870_21st century_ashwagandha extract_500.0_mg_standard",
@@ -4429,7 +5126,19 @@
       "dosage": [
         "500 mg per Capsule; 500 mg"
       ],
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "318366_healths harmony_ashwagandha root powder_1350.0_mg_standard",
@@ -4470,7 +5179,25 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 87.5,
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha root powder",
+            "amount": "1350",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper fruit powder",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287211_dr. mercola_ashwagandha; powder_800.0_mg_standard",
@@ -4504,7 +5231,19 @@
       "dosage": [
         "400 mg per Capsule; 400 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha; Powder",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "202061_mason natural_ashwagandha extract_500.0_mg_standard",
@@ -4547,7 +5286,32 @@
         "soy_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "21",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Ashwagandha extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Withanolides",
+            "amount": ">5",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307231_oregon's wild harvest_ashwagandha_1200.0_mg_standard",
@@ -4581,7 +5345,25 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "90 Vegan Capsule(s)"
+      "dsld_content": "90 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginkgo leaf powder extract",
+            "amount": "120",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307230_oregon's wild harvest_organic ashwagandha_1200.0_mg_standard",
@@ -4615,7 +5397,19 @@
       ],
       "match_score": 100,
       "net_contents": "90 Vegan Capsule(s)",
-      "dsld_content": "90 Vegan Capsule(s)"
+      "dsld_content": "90 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287211_dr. mercola_ashwagandha; powder_800.0_mg_standard",
@@ -4646,7 +5440,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha; Powder",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "231423_dr. mercola_organic ashwagandha (withania somnifera) root powder_800.0_mg_standard",
@@ -4678,7 +5484,19 @@
       "filters": [],
       "match_score": 100,
       "net_contents": "60 Capsule(s)",
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha (Withania somnifera) root powder",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307428_herb pharm_ashwagandha root (withania somnifera) extract_626.0_mg_standard",
@@ -4711,7 +5529,19 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "1 fl. oz.; 30 mL"
+      "dsld_content": "1 fl. oz.; 30 mL",
+      "dsld_label_info": {
+        "serving_size": "0.7 mL",
+        "ingredients": [
+          {
+            "name": "Ashwagandha root (Withania somnifera) extract",
+            "amount": "626",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "273912_bragg_acetic acid_750.0_mg_standard",
@@ -4751,7 +5581,52 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Vegan Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "30",
+            "unit": "mcg",
+            "daily_value": "150",
+            "category": "vitamin"
+          },
+          {
+            "name": "Zinc",
+            "amount": "13",
+            "unit": "mg",
+            "daily_value": "118",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "150",
+            "unit": "mg",
+            "daily_value": "7",
+            "category": "mineral"
+          },
+          {
+            "name": "Proprietary Apple Cider Vinegar Blend",
+            "amount": "1877",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Bragg",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Acetic Acid",
+            "amount": "750",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307428_herb pharm_ashwagandha root (withania somnifera) extract_626.0_mg_standard",
@@ -4795,7 +5670,19 @@
       ],
       "match_score": 100,
       "net_contents": "1 fl. oz.; 30 mL",
-      "dsld_content": "1 fl. oz.; 30 mL"
+      "dsld_content": "1 fl. oz.; 30 mL",
+      "dsld_label_info": {
+        "serving_size": "0.7 mL",
+        "ingredients": [
+          {
+            "name": "Ashwagandha root (Withania somnifera) extract",
+            "amount": "626",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "300133_organic india_ashwagandha_800.0_mg_standard",
@@ -4843,7 +5730,19 @@
       "dsld_content": "90 Vegetarian Capsule(s)",
       "dosage": [
         "400 mg per Capsule; 400 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "300133_organic india_ashwagandha_800.0_mg_standard",
@@ -4888,7 +5787,19 @@
       ],
       "match_score": 85,
       "net_contents": "90 Vegetarian Capsule(s)",
-      "dsld_content": "16 oz.; 454 g"
+      "dsld_content": "16 oz.; 454 g",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323201_oregon's wild harvest_ashwagandha_1200.0_mg_standard",
@@ -4922,7 +5833,19 @@
       ],
       "match_score": 100,
       "net_contents": "180 Vegan Capsule(s)",
-      "dsld_content": "180 Vegan Capsule(s)"
+      "dsld_content": "180 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307440_oregon's wild harvest_organic ashwagandha_1200.0_mg_standard",
@@ -4956,7 +5879,19 @@
       ],
       "match_score": 100,
       "net_contents": "180 Vegan Capsule(s)",
-      "dsld_content": "180 Vegan Capsule(s)"
+      "dsld_content": "180 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287154_ancient nutrition_organic fermented botanical blend_800.0_mg_standard",
@@ -5000,7 +5935,37 @@
       ],
       "match_score": 100,
       "net_contents": "30 Tablet(s)",
-      "dsld_content": "30 Tablet(s)"
+      "dsld_content": "30 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Organic Fermented Botanical Blend",
+            "amount": "800",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Ashwagandha; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha Leaf; Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "258873_ancient nutrition_organic fermented botanical blend_800.0_mg_standard",
@@ -5034,7 +5999,37 @@
       ],
       "match_score": 100,
       "net_contents": "30 Tablet(s)",
-      "dsld_content": "30 Tablet(s)"
+      "dsld_content": "30 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Organic Fermented Botanical Blend",
+            "amount": "800",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Ashwagandha",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha root and leaf extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "327742_naturewise_evolutionary stress support blend_700.0_mg_standard",
@@ -5069,7 +6064,49 @@
       ],
       "match_score": 100,
       "net_contents": "60 Vegan Capsule(s)",
-      "dsld_content": "60 Vegan Capsule(s)"
+      "dsld_content": "60 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Vegan Capsule(s)",
+        "ingredients": [
+          {
+            "name": "KSM-66",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Evolutionary Stress Support Blend",
+            "amount": "700",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Rhodiola rosea Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "L-Theanine",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "GABA",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Baikal Skullcap",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "270412_oregon's wild harvest_biodynamic & organic ashwagandha_616.0_mg_standard",
@@ -5113,7 +6150,19 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "2 fl. oz."
+      "dsld_content": "2 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "2.5 mL",
+        "ingredients": [
+          {
+            "name": "Biodynamic & organic Ashwagandha",
+            "amount": "616",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307139_oregon's wild harvest_ashwagandha_616.0_mg_standard",
@@ -5146,7 +6195,19 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "2 fl. oz.; 59 mL"
+      "dsld_content": "2 fl. oz.; 59 mL",
+      "dsld_label_info": {
+        "serving_size": "2.5 mL",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "616",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326422_protocol for life balance_ashwagandha root extract_450.0_mg_standard",
@@ -5180,7 +6241,25 @@
       "dosage": [
         "450 mg"
       ],
-      "dsld_content": "90 Veg Capsule(s)"
+      "dsld_content": "90 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Veg Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "450",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Total Withanolides",
+            "amount": "11",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296679_nature's craft_magnesium_500.0_mg_standard",
@@ -5211,7 +6290,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "119",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "300134_organic india_ashwagandha_800.0_mg_standard",
@@ -5259,7 +6351,19 @@
       "dsld_content": "180 Vegetarian Capsule(s)",
       "dosage": [
         "400 mg per Capsule; 400 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -5292,7 +6396,33 @@
         "buffered"
       ],
       "match_score": 85,
-      "dsld_content": "60 Vegan Capsule(s)"
+      "dsld_content": "60 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "1000",
+            "unit": "mg",
+            "daily_value": "1111",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "9",
+            "category": "mineral"
+          },
+          {
+            "name": "Bioflavonoids",
+            "amount": "200",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "253241_new chapter_magnesium_325.0_mg_buffered",
@@ -5355,7 +6485,38 @@
       "dsld_content": "30 Vegan Capsule(s)",
       "dosage": [
         "325 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "325",
+            "unit": "mg",
+            "daily_value": "77",
+            "category": "mineral"
+          },
+          {
+            "name": "Seawater",
+            "amount": "175",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "TRAACS Magnesium Bisglycinate Chelate",
+            "amount": "150",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Sensoril organic Ashwagandha (Withania somnifera) (root and aerial parts) aqueous extract",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287210_dr. mercola_organic ashwagandha (withania somnifera) root powder_800.0_mg_standard",
@@ -5389,7 +6550,19 @@
       "dosage": [
         "400 mg per Capsule; 400 mg"
       ],
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha (Withania somnifera) root powder",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "248190_nutrabio_ksm-66 ashwagandha root extract_600.0_mg_standard",
@@ -5437,7 +6610,19 @@
       "dosage": [
         "600 mg"
       ],
-      "dsld_content": "90 Vegan Capsule(s)"
+      "dsld_content": "90 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "KSM-66 Ashwagandha root extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "248190_nutrabio_ksm-66 ashwagandha root extract_600.0_mg_standard",
@@ -5482,7 +6667,19 @@
         "non_gmo"
       ],
       "match_score": 87.5,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "KSM-66 Ashwagandha root extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "329337_nutrabio_ksm-66_600.0_mg_standard",
@@ -5513,7 +6710,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "KSM-66",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "254505_solaray_ashwagandha root extract_470.0_mg_standard",
@@ -5547,7 +6756,19 @@
       "dosage": [
         "470 mg"
       ],
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha root extract",
+            "amount": "470",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "191089_swanson_ksm-66 ashwagandha extract_250.0_mg_standard",
@@ -5581,7 +6802,19 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "60 Veggie Capsule(s)"
+      "dsld_content": "60 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "KSM-66 Ashwagandha extract",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "293891_pure encapsulations_ashwagandha root extract_500.0_mg_standard",
@@ -5628,7 +6861,19 @@
       "dsld_content": "60 Capsule(s)",
       "dosage": [
         "500 mg per Capsule; 500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "282964_himalaya_organic ashwagandha extract_280.0_mg_standard",
@@ -5661,7 +6906,31 @@
         "wheat_free"
       ],
       "match_score": 85,
-      "dsld_content": "4 oz."
+      "dsld_content": "4 oz.",
+      "dsld_label_info": {
+        "serving_size": "1 Caplet(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha powder",
+            "amount": "380",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha extract",
+            "amount": "280",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha supercritical CO2 extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "210829_seeking health_ashwagandha extract_420.0_mg_standard",
@@ -5692,7 +6961,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha extract",
+            "amount": "420",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "174353_seeking health_ashwagandha extract_420.0_mg_standard",
@@ -5723,7 +7004,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha extract",
+            "amount": "420",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "288816_paradise_organic ashwagandha root extract_250.0_mg_standard",
@@ -5767,7 +7060,19 @@
       "dosage": [
         "250 mg per Capsule; 250 mg"
       ],
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha root extract",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307429_herb pharm_ashwagandha root (withania somnifera) extract_626.0_mg_standard",
@@ -5798,7 +7103,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "4 fl. oz."
+      "dsld_content": "4 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "0.7 mL",
+        "ingredients": [
+          {
+            "name": "Ashwagandha root (Withania somnifera) extract",
+            "amount": "626",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "316786_futurebiotics_ashwagandha herb extract_150.0_mg_standard",
@@ -5830,7 +7147,25 @@
       "filters": [],
       "match_score": 100,
       "net_contents": "100 Vegetarian Capsule(s)",
-      "dsld_content": "100 Vegetarian Capsule(s)"
+      "dsld_content": "100 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Herb Extract",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "188889_nature's answer_holy basil (ocimum santum) leaf extract_300.0_mg_standard",
@@ -5864,7 +7199,19 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Holy Basil (Ocimum santum) leaf extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "181269_herb pharm_ashwagandha root (withania somnifera) extract_626.0_mg_standard",
@@ -5899,7 +7246,19 @@
       ],
       "match_score": 85,
       "net_contents": "120 mL; 4 fl. oz.",
-      "dsld_content": "120 mL; 4 fl. oz."
+      "dsld_content": "120 mL; 4 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "0.7 Not Present",
+        "ingredients": [
+          {
+            "name": "Ashwagandha root (Withania somnifera) extract",
+            "amount": "626",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307555_jarrow formulas_ashwagandha root extract_300.0_mg_standard",
@@ -5946,7 +7305,19 @@
       "dosage": [
         "300 mg"
       ],
-      "dsld_content": "120 Veggie Capsule(s)"
+      "dsld_content": "120 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "202293_terry naturally_proprietary complex_500.0_mg_standard",
@@ -5979,7 +7350,31 @@
         "sugar_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Ashwagandha (Withania somnifera) root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Rhodiola (Rhodiola rosea) root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "256061_himalaya_proprietary herbal blend_300.0_mg_standard",
@@ -6015,7 +7410,49 @@
         "wheat_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Herbal Blend",
+            "amount": "300",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Amla extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Chebulic Myrobalan extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Licorice extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Boerhavia extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "256062_himalaya_proprietary herbal blend_300.0_mg_standard",
@@ -6051,7 +7488,49 @@
         "wheat_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Herbal Blend",
+            "amount": "300",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Amla extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Convolvulus pluricaulis Choisy extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Bacopa extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Holy Basil extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309550_gaia herbs_proprietary extract blend_350.0_mg_standard",
@@ -6093,7 +7572,44 @@
       "filters": [],
       "match_score": 100,
       "net_contents": "60 Liquid Phyto-Capsule(s)",
-      "dsld_content": "60 Liquid"
+      "dsld_content": "60 Liquid",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "350",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Ashwagandha",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Withanolides",
+            "amount": "2.5",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "293163_new nordic_ashwagandha root extract_300.0_mg_standard",
@@ -6129,7 +7645,58 @@
         "sugar_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "12",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Sodium",
+            "amount": "14",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar Alcohols",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Vitamin E",
+            "amount": "3",
+            "unit": "mg a-tocopherol",
+            "daily_value": "20",
+            "category": "vitamin"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "282966_himalaya_organic ashwagandha extract_280.0_mg_standard",
@@ -6173,7 +7740,31 @@
       ],
       "match_score": 100,
       "net_contents": "60 Caplet(s)",
-      "dsld_content": "60 Caplet(s)"
+      "dsld_content": "60 Caplet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Caplet(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha powder",
+            "amount": "380",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha extract",
+            "amount": "280",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha supercritical CO2 extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "240622_himalaya_organic ashwagandha extract_280.0_mg_standard",
@@ -6222,7 +7813,31 @@
       ],
       "match_score": 100,
       "net_contents": "60 Caplet(s)",
-      "dsld_content": "60 Caplet(s)"
+      "dsld_content": "60 Caplet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Caplet(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha powder",
+            "amount": "380",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha extract",
+            "amount": "280",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha supercritical CO2 extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "288207_new chapter_magnesium_325.0_mg_buffered",
@@ -6261,7 +7876,38 @@
       ],
       "match_score": 100,
       "net_contents": "60 Tablet(s)",
-      "dsld_content": "60 Tablet(s)"
+      "dsld_content": "60 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Magnesium",
+            "amount": "325",
+            "unit": "mg",
+            "daily_value": "77",
+            "category": "mineral"
+          },
+          {
+            "name": "Seawater",
+            "amount": "175",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Magnesium Bisglycinate Chelate; Buffered",
+            "amount": "150",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Sensoril",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296184_paradise_ashwagandha root extract_250.0_mg_standard",
@@ -6295,7 +7941,19 @@
       "dosage": [
         "250 mg"
       ],
-      "dsld_content": "180 Vegetarian Capsule(s)"
+      "dsld_content": "180 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "183744_pure encapsulations_ashwagandha (withania somnifera) extract_500.0_mg_standard",
@@ -6330,7 +7988,19 @@
       ],
       "match_score": 100,
       "net_contents": "120 Capsule(s)",
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha (Withania somnifera) extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "282967_himalaya_ashwagandha root extract_280.0_mg_standard",
@@ -6374,7 +8044,31 @@
       ],
       "match_score": 100,
       "net_contents": "90 Caplet(s)",
-      "dsld_content": "90 Caplet(s)"
+      "dsld_content": "90 Caplet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Caplet(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha; Powder",
+            "amount": "380",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "280",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha supercritical CO2 extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "270470_gaia herbs_proprietary extract blend_350.0_mg_standard",
@@ -6420,7 +8114,44 @@
       ],
       "match_score": 100,
       "net_contents": "120 Liquid Phyto-Capsule(s)",
-      "dsld_content": "120 Liquid"
+      "dsld_content": "120 Liquid",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "350",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Ashwagandha",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Withanolides",
+            "amount": "2.5",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "209515_gaia herbs_proprietary extract blend_350.0_mg_standard",
@@ -6456,7 +8187,44 @@
       ],
       "match_score": 100,
       "net_contents": "120 Liquid Phyto-Capsule(s)",
-      "dsld_content": "120 Liquid"
+      "dsld_content": "120 Liquid",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "350",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Ashwagandha (Withania somnifera) root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha (Withania somnifera) root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Withanolides",
+            "amount": "2.5",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "201708_solgar_ashwagandha powder_100.0_mg_standard",
@@ -6501,7 +8269,25 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "standardized Ashwagandha extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha powder",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "303639_xymogen_shoden_240.0_mg_standard",
@@ -6533,7 +8319,19 @@
       "filters": [],
       "match_score": 100,
       "net_contents": "60 Vegetarian Capsule(s)",
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Shoden",
+            "amount": "240",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "325719_terry naturally_ep35_150.0_mg_standard",
@@ -6564,7 +8362,25 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "EP35",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Withanolides",
+            "amount": ">52.5",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "274049_new chapter_sensoril organic ashwagandha (withania somnifera) (root and aerial parts) aqueous extract_125.0_mg_standard",
@@ -6602,7 +8418,19 @@
       ],
       "match_score": 100,
       "net_contents": "60 Capsule(s)",
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Sensoril organic Ashwagandha (Withania somnifera) (root and aerial parts) aqueous extract",
+            "amount": "125",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326576_havasu nutrition_artichoke leaf extract_100.0_mg_standard",
@@ -6636,7 +8464,25 @@
       ],
       "match_score": 100,
       "net_contents": "90 Capsule(s)",
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha; Powder",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Artichoke Leaf Extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "24917_metabolic maintenance_l-theanine_200.0_mg_standard",
@@ -6667,7 +8513,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "L-Theanine",
+            "amount": "200",
+            "unit": "mg",
+            "category": "amino acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "325715_terry naturally_ep35_150.0_mg_standard",
@@ -6709,7 +8567,25 @@
       "filters": [],
       "match_score": 100,
       "net_contents": "60 Capsule(s)",
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "EP80",
+            "amount": "200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "EP35",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323280_irwin naturals_ashwagandha; powder_100.0_mg_standard",
@@ -6751,7 +8627,119 @@
       "filters": [],
       "match_score": 92.5,
       "net_contents": "75 Liquid Soft Gels",
-      "dsld_content": "75 Liquid Soft-Gel(s)"
+      "dsld_content": "75 Liquid Soft-Gel(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Liquid Soft-Gel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "45",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Sodium",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Flaxseed Oil",
+            "amount": "1600",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Maca; Powder",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Medium Chain Triglyceride Oil",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Beet; Powder",
+            "amount": "200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Epimedium Aerial Parts Extract",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha; Powder",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Cayenne; Powder",
+            "amount": "60",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Damiana Leaf Extract",
+            "amount": "40",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Red Ginseng Root Extract",
+            "amount": "20",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "BioPerine Complex",
+            "amount": "6",
+            "unit": "mg",
+            "category": "blend"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "272034_youtheory_gingever_20.0_mg_standard",
@@ -6793,7 +8781,37 @@
       "filters": [],
       "match_score": 100,
       "net_contents": "60 Vegetarian Capsule(s)",
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "full spectrum Ashwagandha blend",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Ashwagandha (root) extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha (root) powder",
+            "amount": "400",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Gingever",
+            "amount": "20",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "272034_youtheory_gingever_20.0_mg_standard",
@@ -6827,7 +8845,37 @@
       "dosage": [
         "1000 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "full spectrum Ashwagandha blend",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Ashwagandha (root) extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha (root) powder",
+            "amount": "400",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Gingever",
+            "amount": "20",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "272034_youtheory_gingever_20.0_mg_standard",
@@ -6858,7 +8906,37 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "1 fl. oz."
+      "dsld_content": "1 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "full spectrum Ashwagandha blend",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Ashwagandha (root) extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ashwagandha (root) powder",
+            "amount": "400",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Gingever",
+            "amount": "20",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "245156_goli nutrition_calories_10.0_calorie_standard",
@@ -6909,7 +8987,43 @@
         "Berry"
       ],
       "net_contents": "60 Gummie(s)",
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "3.5",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "KSM-66 Ashwagandha root extract",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Vitamin D2",
+            "amount": "12.5",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "228365_nutrachamps_black pepper extract_10.0_mg_standard",
@@ -6946,7 +9060,25 @@
       ],
       "match_score": 85,
       "net_contents": "90 Vegan Capsule(s)",
-      "dsld_content": "90 Vegan Capsule(s)"
+      "dsld_content": "90 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha root powder",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "228365_nutrachamps_black pepper extract_10.0_mg_standard",
@@ -6982,7 +9114,25 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "20 Capsule(s)"
+      "dsld_content": "20 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ashwagandha root powder",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "323288_irwin naturals_bioperine complex_3.0_mg_standard",
@@ -7013,7 +9163,103 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "6 Capsule(s)"
+      "dsld_content": "6 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Liquid Soft-Gel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "30",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1.5",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Protein",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "588",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "150",
+            "unit": "mg",
+            "daily_value": "36",
+            "category": "mineral"
+          },
+          {
+            "name": "OptiZinc",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "136",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Copper",
+            "amount": "1",
+            "unit": "mg",
+            "daily_value": "111",
+            "category": "mineral"
+          },
+          {
+            "name": "Flaxseed Oil",
+            "amount": "1650",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Sensoril",
+            "amount": "125",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "60",
+            "unit": "mcg",
+            "category": "vitamin"
+          },
+          {
+            "name": "BioPerine Complex",
+            "amount": "3",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Rhizome Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "312777_pure indian foods_ashwagandha root extract_0.5_teaspoon_standard",
@@ -7045,7 +9291,19 @@
       "filters": [],
       "match_score": 85,
       "net_contents": "8 oz.; 227 g",
-      "dsld_content": "8 oz.; 227 g"
+      "dsld_content": "8 oz.; 227 g",
+      "dsld_label_info": {
+        "serving_size": "0.5 Teaspoon(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha Root Extract",
+            "amount": "0.5",
+            "unit": "Teaspoon(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "305577_banyan botanicals_ashwagandha_0.5_tsp_standard",
@@ -7076,7 +9334,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "2 lbs.; 227 g"
+      "dsld_content": "2 lbs.; 227 g",
+      "dsld_label_info": {
+        "serving_size": "0.5 Teaspoon(s)",
+        "ingredients": [
+          {
+            "name": "Ashwagandha",
+            "amount": "0.5",
+            "unit": "Tsp(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "265532_flora_biotin_0.006_mg_standard",
@@ -7110,7 +9380,169 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin A",
+            "amount": "200",
+            "unit": "mcg RAE",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "20",
+            "unit": "mg",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "4",
+            "unit": "mcg",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin E",
+            "amount": "3",
+            "unit": "mg",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K",
+            "amount": "26",
+            "unit": "mcg",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "Thiamine",
+            "amount": "0.3",
+            "unit": "mg",
+            "daily_value": "25",
+            "category": "vitamin"
+          },
+          {
+            "name": "Riboflavin",
+            "amount": "0.3",
+            "unit": "mg",
+            "daily_value": "23",
+            "category": "vitamin"
+          },
+          {
+            "name": "Niacin",
+            "amount": "3",
+            "unit": "mg",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "0.4",
+            "unit": "mg",
+            "daily_value": "23",
+            "category": "vitamin"
+          },
+          {
+            "name": "Folate",
+            "amount": "88",
+            "unit": "mcg DFE",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "Biotin",
+            "amount": "6",
+            "unit": "mcg",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "Pantothenic Acid",
+            "amount": "1",
+            "unit": "mg",
+            "daily_value": "22",
+            "category": "vitamin"
+          },
+          {
+            "name": "KSM-66 Ashwagandha root extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "100",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Spinach",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Broccoli",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Carrot",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Sweet Potato",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Orange",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Apple",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Strawberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Sunflower",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Shiitake",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Maitake Mushroom",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     }
   ]
 }

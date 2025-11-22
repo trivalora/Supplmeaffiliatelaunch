@@ -3544,7 +3544,87 @@
       "filters": [
         "sustained_release"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "33.14 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "120",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugars",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "25",
+            "unit": "Gram(s)",
+            "daily_value": "50",
+            "category": "protein"
+          },
+          {
+            "name": "Calcium",
+            "amount": "728",
+            "unit": "mg",
+            "daily_value": "70",
+            "category": "mineral"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "316",
+            "unit": "mg",
+            "daily_value": "30",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "110",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "80",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Micellar Casein; Instantized",
+            "amount": "31.65",
+            "unit": "Gram(s)",
+            "category": "protein"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "248258_nutrabio_calcium_728.0_mg_sustained_release",
@@ -3584,7 +3664,93 @@
         "non_gmo",
         "sustained_release"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "32.5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "120",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "0.5",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "25",
+            "unit": "Gram(s)",
+            "daily_value": "50",
+            "category": "protein"
+          },
+          {
+            "name": "Calcium",
+            "amount": "728",
+            "unit": "mg",
+            "daily_value": "70",
+            "category": "mineral"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "317",
+            "unit": "mg",
+            "daily_value": "30",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "60",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "80",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Micellar Casein",
+            "amount": "31.65",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Complete Protein",
+            "amount": "25",
+            "unit": "Gram(s)",
+            "category": "blend"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "79894_nutrabio_calcium_710.0_mg_standard",
@@ -3620,7 +3786,116 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "2 lbs.; 907 g"
+      "dsld_content": "2 lbs.; 907 g",
+      "dsld_label_info": {
+        "serving_size": "31.5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "110",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "0.5",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "25",
+            "unit": "Gram(s)",
+            "daily_value": "50",
+            "category": "protein"
+          },
+          {
+            "name": "Calcium",
+            "amount": "710",
+            "unit": "mg",
+            "daily_value": "70",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "60",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "80",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Micellar Casein",
+            "amount": "31.65",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Flavoring",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "other"
+          },
+          {
+            "name": "natural Vanilla flavor",
+            "amount": "610",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Xanthan Gum",
+            "amount": "100",
+            "unit": "mg",
+            "category": "complex carbohydrate"
+          },
+          {
+            "name": "Sucralose",
+            "amount": "75",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Salt",
+            "amount": "65",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "308424_optimum nutrition_calories_120.0_calorie_standard",
@@ -3650,7 +3925,112 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 88.3
+      "match_score": 88.3,
+      "dsld_label_info": {
+        "serving_size": "34 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "120",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "0.5",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Sodium",
+            "amount": "240",
+            "unit": "mg",
+            "daily_value": "10",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "fiber"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "24",
+            "unit": "Gram(s)",
+            "daily_value": "48",
+            "category": "protein"
+          },
+          {
+            "name": "Vitamin A",
+            "amount": "",
+            "unit": "",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "",
+            "unit": "",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "",
+            "unit": "",
+            "daily_value": "50",
+            "category": "mineral"
+          },
+          {
+            "name": "Iron",
+            "amount": "",
+            "unit": "",
+            "daily_value": "4",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     }
   ]
 }

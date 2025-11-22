@@ -3544,7 +3544,27 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 98.7,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25000",
+            "unit": "IU",
+            "daily_value": "6250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K-2",
+            "amount": "45",
+            "unit": "mcg",
+            "daily_value": "56",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "2534_life extension_vitamin d3_5000.0_iu_standard",
@@ -3581,7 +3601,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "5000",
+            "unit": "IU",
+            "daily_value": "1250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "80657_source naturals_vitamin d3_5000.0_iu_standard",
@@ -3618,7 +3651,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "5000",
+            "unit": "IU",
+            "daily_value": "1250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "56657_superior source_vitamin d_10000.0_iu_standard",
@@ -3652,7 +3698,20 @@
       "dosage": [
         "10000 IU"
       ],
-      "dsld_content": "1 Capsule(s)"
+      "dsld_content": "1 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 MicroLingual(R) Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "10000",
+            "unit": "IU",
+            "daily_value": "2500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "79091_source naturals_vitamin d3_2000.0_iu_standard",
@@ -3689,7 +3748,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "100 Softgel(s)"
+      "dsld_content": "100 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "2534_life extension_vitamin d3_5000.0_iu_standard",
@@ -3726,7 +3798,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "5000",
+            "unit": "IU",
+            "daily_value": "1250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "78927_source naturals_vitamin d3_2000.0_iu_standard",
@@ -3763,7 +3848,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "33348_advanced nutrition by zahler_vitamin d3_10000.0_iu_standard",
@@ -3799,7 +3897,20 @@
       "dosage": [
         "10000 IU"
       ],
-      "dsld_content": "120 Softgel(s)"
+      "dsld_content": "120 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "10000",
+            "unit": "IU",
+            "daily_value": "2500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "78969_source naturals_vitamin d3_2000.0_iu_standard",
@@ -3840,7 +3951,20 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "3 Liquid"
+      "dsld_content": "3 Liquid",
+      "dsld_label_info": {
+        "serving_size": "0.17 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "267556_vitafusion_added sugars_3000.0_mg_standard",
@@ -3875,7 +3999,46 @@
         "no_artificial_flavors"
       ],
       "match_score": 85,
-      "dsld_content": "20 Capsule(s)"
+      "dsld_content": "20 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gummy Vitamin(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "6",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "74816_natural factors_vitamin d3_2000.0_iu_standard",
@@ -3914,7 +4077,26 @@
       "dosage": [
         "2000 IU"
       ],
-      "dsld_content": "120 Softgel(s)"
+      "dsld_content": "120 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          },
+          {
+            "name": "organic Flaxseed Oil",
+            "amount": "200",
+            "unit": "mg",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "318946_nature's plus_added sugars_2000.0_mg_standard",
@@ -3951,7 +4133,46 @@
       "dosage": [
         "1,000 IU"
       ],
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179704_nature made_vitamin d3_2000.0_iu_standard",
@@ -3990,7 +4211,20 @@
       "dosage": [
         "2000 IU"
       ],
-      "dsld_content": "90 Softgel(s)"
+      "dsld_content": "90 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "71376_nature made_vitamin d3_5000.0_iu_standard",
@@ -4024,7 +4258,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "180 Softgel(s)"
+      "dsld_content": "180 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "5000",
+            "unit": "IU",
+            "daily_value": "1250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "13838_now_vitamin d3_1000.0_iu_standard",
@@ -4060,7 +4307,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "180 Softgel(s)"
+      "dsld_content": "180 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "26696_nature made_vitamin d3_1000.0_iu_standard",
@@ -4099,7 +4359,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "100 Softgel(s)"
+      "dsld_content": "100 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "223337_nordic naturals_added sugars_2000.0_mg_standard",
@@ -4135,7 +4408,46 @@
       "match_score": 92.5,
       "dosage": [
         "1000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322628_nature's plus_added sugars_2000.0_mg_standard",
@@ -4172,7 +4484,46 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "78384_nature's way_vitamin d3_2000.0_iu_standard",
@@ -4208,7 +4559,20 @@
       "match_score": 92.5,
       "dosage": [
         "2000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "74763_natural factors_vitamin d3_1000.0_iu_standard",
@@ -4247,7 +4611,26 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "180 Softgel(s)"
+      "dsld_content": "180 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "organic Flaxseed Oil",
+            "amount": "200",
+            "unit": "mg",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "56663_superior source_vitamin d_1000.0_iu_standard",
@@ -4280,7 +4663,20 @@
       "match_score": 92.5,
       "dosage": [
         "1000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 MicroLingual(R) Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "78384_nature's way_vitamin d3_2000.0_iu_standard",
@@ -4316,7 +4712,20 @@
       "match_score": 92.5,
       "dosage": [
         "2000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "59605_country life_vitamin d_1000.0_iu_standard",
@@ -4356,7 +4765,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "100 Softgel(s)"
+      "dsld_content": "100 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "318946_nature's plus_added sugars_2000.0_mg_standard",
@@ -4393,7 +4815,46 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "180 Softgel(s)"
+      "dsld_content": "180 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "304279_allergy research group_cholecalciferol_2000.0_iu_standard",
@@ -4424,7 +4885,46 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Cholecalciferol",
+            "amount": "2000",
+            "unit": "IU",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin E",
+            "amount": "4.25",
+            "unit": "mg",
+            "daily_value": "28",
+            "category": "vitamin"
+          },
+          {
+            "name": "Tocotrienols",
+            "amount": "0.5",
+            "unit": "mg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "62163_life extension_vitamin d3_1000.0_iu_standard",
@@ -4460,7 +4960,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "250 Softgel(s)"
+      "dsld_content": "250 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "64702_life extension_vitamin d3_2000.0_iu_standard",
@@ -4496,7 +5009,20 @@
       "dosage": [
         "2000 IU"
       ],
-      "dsld_content": "1 fl. oz."
+      "dsld_content": "1 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "1 Drop(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "223310_nordic naturals_added sugars_2000.0_mg_standard",
@@ -4529,7 +5055,52 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 88.5
+      "match_score": 88.5,
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "45",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "273527_solaray_calcium_1000.0_mg_chelated",
@@ -4572,7 +5143,48 @@
         "chelated"
       ],
       "match_score": 92.5,
-      "dsld_content": "90 Veg Capsule(s)"
+      "dsld_content": "90 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "6 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "fiber"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "400",
+            "unit": "IU",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "1000",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "125",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286727_l'il critters_added sugars_1000.0_mg_standard",
@@ -4602,7 +5214,73 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Gummy Vitamin(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "167",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179702_nature made_vitamin d3_1000.0_iu_standard",
@@ -4641,7 +5319,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "300 Softgel(s)"
+      "dsld_content": "300 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "70876_superior source_vitamin d_400.0_iu_standard",
@@ -4674,7 +5365,20 @@
       "match_score": 92.5,
       "dosage": [
         "400 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 MicroLingual(R) Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "400",
+            "unit": "IU",
+            "daily_value": "100",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "74088_nordic naturals_vitamin d3_1000.0_iu_standard",
@@ -4713,7 +5417,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "1 fl. oz."
+      "dsld_content": "1 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "0.5 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "23407_designs for health_vitamin d_5000.0_iu_standard",
@@ -4744,7 +5461,39 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "180 Vegetarian Capsule(s)"
+      "dsld_content": "180 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "5000",
+            "unit": "IU",
+            "daily_value": "1250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K",
+            "amount": "550",
+            "unit": "mcg",
+            "daily_value": "690",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K1",
+            "amount": "500",
+            "unit": "mcg",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2 Menaquinone-7",
+            "amount": "50",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "265282_megafood_nourishing food & herb blend_605.0_mg_standard",
@@ -4785,7 +5534,62 @@
       "dosage": [
         "2000 IU"
       ],
-      "dsld_content": "70 g"
+      "dsld_content": "70 g",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Nourishing Food & Herb Blend",
+            "amount": "605",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "organic Brown Rice",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Broccoli",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Parsley",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Carrot",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Beet",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "64485_onnit_vitamin d3_1000.0_iu_standard",
@@ -4816,7 +5620,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "0.8 fl. oz."
+      "dsld_content": "0.8 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "5 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "265282_megafood_nourishing food & herb blend_605.0_mg_standard",
@@ -4856,7 +5673,62 @@
       "match_score": 92.5,
       "dosage": [
         "2000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Nourishing Food & Herb Blend",
+            "amount": "605",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "organic Brown Rice",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Broccoli",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Parsley",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Carrot",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Beet",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179572_nature made_calcium_500.0_mg_standard",
@@ -4892,7 +5764,27 @@
         "no_preservatives"
       ],
       "match_score": 87.5,
-      "dsld_content": "300 Tablet(s)"
+      "dsld_content": "300 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "400",
+            "unit": "IU",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "177518_megafood_nourishing food & herb blend_650.0_mg_standard",
@@ -4931,7 +5823,62 @@
       "match_score": 92.5,
       "dosage": [
         "1000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Nourishing Food & Herb Blend",
+            "amount": "650",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Brown Rice",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "organic Parsley",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Broccoli",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Carrot",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Beet",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "240025_mommy's bliss_vitamin d3_400.0_iu_standard",
@@ -4965,7 +5912,20 @@
         "no_artificial_flavors"
       ],
       "match_score": 85,
-      "dsld_content": "40 Capsule(s)"
+      "dsld_content": "40 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "0.036 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "400",
+            "unit": "IU",
+            "daily_value": "100",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "305772_ancient nutrition_ancient nutrients tcm blend_632.0_mg_standard",
@@ -4998,7 +5958,81 @@
       "match_score": 92.5,
       "dosage": [
         "5000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "90",
+            "unit": "mg",
+            "daily_value": "75",
+            "category": "vitamin"
+          },
+          {
+            "name": "Ancient Nutrients TCM Blend",
+            "amount": "632",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Bovine Liver",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Astragalus Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Beef Bone Broth",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Chicken Bone Broth",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          },
+          {
+            "name": "Schisandra Berry Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Lion's Mane Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Reishi Mushroom Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Hake; Wild",
+            "amount": "",
+            "unit": "",
+            "category": "animal part or source"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "203977_bodytech_calcium hmb_1000.0_mg_standard",
@@ -5029,7 +6063,26 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "3.26 oz.; 92.4 g"
+      "dsld_content": "3.26 oz.; 92.4 g",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Potassium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Calcium HMB",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "265283_megafood_nourishing food & herb blend_605.0_mg_standard",
@@ -5070,7 +6123,62 @@
       "dosage": [
         "2,000 IU"
       ],
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Nourishing Food & Herb Blend",
+            "amount": "605",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "organic Brown Rice",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Broccoli",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Parsley",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Carrot",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Beet",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179566_nature made_calcium_92.0_mg_standard",
@@ -5109,7 +6217,27 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "100 Tablet(s)"
+      "dsld_content": "100 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "92",
+            "unit": "mg",
+            "daily_value": "9",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "277201_country life_quercetin_500.0_mg_standard",
@@ -5147,7 +6275,26 @@
       "match_score": 92.5,
       "dosage": [
         "500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "20",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Quercetin",
+            "amount": "500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "204008_bodytech_calcium hmb_1000.0_mg_standard",
@@ -5178,7 +6325,26 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "360 Capsule(s)"
+      "dsld_content": "360 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Potassium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Calcium HMB",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "240028_mommy's bliss_vitamin d3_400.0_iu_standard",
@@ -5212,7 +6378,26 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "0.34 fl. oz."
+      "dsld_content": "0.34 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "0.25 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "400",
+            "unit": "IU",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Lactobacillus rhamnosus (GG)",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "62593_natural factors_calories_40.0_calorie_standard",
@@ -5250,7 +6435,83 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 tsp",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "40",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "40",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "4.5",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "1.5",
+            "unit": "Gram(s)",
+            "daily_value": "7",
+            "category": "fat"
+          },
+          {
+            "name": "Polyunsaturated Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "8",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Fish Oil",
+            "amount": "4370",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Omega-3 Fatty Acids",
+            "amount": "1390",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "750",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "500",
+            "unit": "mg",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "2953_source naturals_calcium_51.0_mg_standard",
@@ -5287,7 +6548,27 @@
       "dosage": [
         "2000 IU"
       ],
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "51",
+            "unit": "mg",
+            "daily_value": "6",
+            "category": "mineral"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "248955_american health_calcium_111.0_mg_standard",
@@ -5331,7 +6612,34 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "1000",
+            "unit": "mg",
+            "daily_value": "1111",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "9",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "111",
+            "unit": "mg",
+            "daily_value": "9",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179711_nature made_calcium_92.0_mg_standard",
@@ -5370,7 +6678,27 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "300 Tablet(s)"
+      "dsld_content": "300 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "92",
+            "unit": "mg",
+            "daily_value": "9",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296254_solaray_calcium_110.0_mg_standard",
@@ -5401,7 +6729,40 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 87.5,
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "110",
+            "unit": "mg",
+            "daily_value": "8",
+            "category": "mineral"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "85",
+            "unit": "mg",
+            "daily_value": "7",
+            "category": "mineral"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "50",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "327152_dr. mercola_calcium_180.0_mg_standard",
@@ -5444,7 +6805,33 @@
         "soy_free"
       ],
       "match_score": 100,
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "180",
+            "unit": "mg",
+            "daily_value": "14",
+            "category": "mineral"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "180",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "24777_metabolic maintenance_calcium_167.0_mg_standard",
@@ -5477,7 +6864,41 @@
         "vegetarian"
       ],
       "match_score": 100,
-      "dsld_content": "180 Vegetarian Capsule(s)"
+      "dsld_content": "180 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 {Capsule(s)}",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "333",
+            "unit": "IU",
+            "daily_value": "83",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K-2",
+            "amount": "7.5",
+            "unit": "mcg",
+            "daily_value": "9",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "167",
+            "unit": "mg",
+            "daily_value": "17",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "83",
+            "unit": "mg",
+            "daily_value": "21",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298422_amen_organic whole food blend_100.0_mg_standard",
@@ -5511,7 +6932,63 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Zinc",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "273",
+            "category": "mineral"
+          },
+          {
+            "name": "Organic Whole Food Blend",
+            "amount": "100",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Blueberry; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cranberry; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Elderberry; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Apple; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "90",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296304_solaray_calcium_110.0_mg_standard",
@@ -5542,7 +7019,40 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 96.9,
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "110",
+            "unit": "mg",
+            "daily_value": "8",
+            "category": "mineral"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "85",
+            "unit": "mg",
+            "daily_value": "7",
+            "category": "mineral"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "50",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "178099_innate response formulas_bioactive enzymes & proteins_149.0_mg_standard",
@@ -5575,7 +7085,152 @@
       "match_score": 92.5,
       "dosage": [
         "2000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "40",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "Organic Whole Food Blend",
+            "amount": "69",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Parsley",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Carrot",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Beet",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Immune Blend",
+            "amount": "406",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "S. cerevisiae",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "organic Broccoli",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Polysaccharides",
+            "amount": "",
+            "unit": "",
+            "category": "complex carbohydrate"
+          },
+          {
+            "name": "CoQ10",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Superoxide Dismutase",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Glutathione",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Beta Glucans",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Lipoic Acid",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Trace Minerals",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Probiotics",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Bioactive Enzymes & Proteins",
+            "amount": "149",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Enzymes",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Peptides",
+            "amount": "",
+            "unit": "",
+            "category": "protein"
+          },
+          {
+            "name": "RNA/DNA",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Amino Acids",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Branch Chain Amino Acids",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "224640_nordic naturals_calories_40.0_calorie_standard",
@@ -5609,7 +7264,70 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "5 mL",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "40",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "4.5",
+            "unit": "Gram(s)",
+            "daily_value": "15",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "0.5",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin A",
+            "amount": "40",
+            "unit": "mcg RAE",
+            "daily_value": "8",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "7.5",
+            "unit": "mcg",
+            "daily_value": "75",
+            "category": "vitamin"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "1050",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "350",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "485",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Other Omega-3 Fatty Acids",
+            "amount": "215",
+            "unit": "mg",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "43305_country life_calories_25.0_calorie_standard",
@@ -5651,7 +7369,39 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tbsp",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "{Calories}",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "5000",
+            "unit": "IU",
+            "daily_value": "1250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179955_nature made_calories_15.0_calorie_standard",
@@ -5685,7 +7435,39 @@
         "yeast_free"
       ],
       "match_score": 85,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gummie(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "2000",
+            "unit": "IU",
+            "daily_value": "500",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "267323_l'il critters_calories_10.0_calorie_standard",
@@ -5718,7 +7500,121 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "8",
+            "category": "sugar"
+          },
+          {
+            "name": "added Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "6",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "60",
+            "unit": "mg",
+            "daily_value": "400",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "133",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "10",
+            "unit": "mcg",
+            "daily_value": "50",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "5",
+            "unit": "mcg",
+            "daily_value": "33",
+            "category": "vitamin"
+          },
+          {
+            "name": "Zinc",
+            "amount": "1.2",
+            "unit": "mg",
+            "daily_value": "40",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "2.3",
+            "unit": "mg",
+            "daily_value": "21",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "59360_nordic naturals_calories_45.0_calorie_standard",
@@ -5751,7 +7647,83 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 tsp",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "45",
+            "unit": "{Calories}",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "45",
+            "unit": "{Calories}",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "daily_value": "8",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "0.2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "2900",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "1450",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "1060",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Other Omega-3 Fatty Acids",
+            "amount": "390",
+            "unit": "mg",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "265795_carlson laboratories_calories_40.0_calorie_standard",
@@ -5785,7 +7757,91 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "250 mL; 8.4 fl. oz."
+      "dsld_content": "250 mL; 8.4 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "5 mL",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "40",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "4.5",
+            "unit": "Gram(s)",
+            "daily_value": "6",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "0.5",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "5",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin A",
+            "amount": "255",
+            "unit": "mcg RAE",
+            "daily_value": "28",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "10",
+            "unit": "mcg",
+            "daily_value": "50",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin E",
+            "amount": "6.7",
+            "unit": "mg",
+            "daily_value": "45",
+            "category": "vitamin"
+          },
+          {
+            "name": "Norwegian Cod Liver Oil",
+            "amount": "4.6",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "1100",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "DHA",
+            "amount": "500",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "EPA",
+            "amount": "370",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosapentaenoic Acid",
+            "amount": "50",
+            "unit": "mg",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "296182_nature's bounty_astragalus_16.5_mg_standard",
@@ -5816,7 +7872,127 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin A",
+            "amount": "750",
+            "unit": "mcg",
+            "daily_value": "83",
+            "category": "vitamin"
+          },
+          {
+            "name": "Ester-C",
+            "amount": "1000",
+            "unit": "mg",
+            "daily_value": "1111",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "15",
+            "unit": "mcg",
+            "daily_value": "75",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "118",
+            "category": "vitamin"
+          },
+          {
+            "name": "Folate",
+            "amount": "666",
+            "unit": "mcg DFE",
+            "daily_value": "167",
+            "category": "vitamin"
+          },
+          {
+            "name": "Folic Acid",
+            "amount": "400",
+            "unit": "mcg",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B12",
+            "amount": "6",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Biotin",
+            "amount": "300",
+            "unit": "mcg",
+            "daily_value": "1000",
+            "category": "vitamin"
+          },
+          {
+            "name": "Pantothenic Acid",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "200",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "25",
+            "unit": "mg",
+            "daily_value": "6",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "136",
+            "category": "mineral"
+          },
+          {
+            "name": "Elderberry",
+            "amount": "17",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Echinacea",
+            "amount": "16.5",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Astragalus",
+            "amount": "16.5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "288743_nordic naturals_calories_25.0_calorie_standard",
@@ -5847,7 +8023,69 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2.5",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "2150",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "1125",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "875",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "<5",
+            "unit": "mg",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "223242_nordic naturals_calories_20.0_calorie_standard",
@@ -5883,7 +8121,69 @@
         "wild_caught"
       ],
       "match_score": 100,
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "1480",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "850",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "425",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Other Omega-3 Fatty Acids",
+            "amount": "205",
+            "unit": "mg",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "214304_nordic naturals_calories_20.0_calorie_standard",
@@ -5917,7 +8217,93 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "120 Softgel(s)"
+      "dsld_content": "120 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "565",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "270",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "180",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Other Omega-3 Fatty Acids",
+            "amount": "115",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Omega-6 Fatty Acids",
+            "amount": "240",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Gamma-Linolenic Acid",
+            "amount": "70",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Omega-9 Fatty Acids",
+            "amount": "225",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Oleic Acid",
+            "amount": "180",
+            "unit": "mg",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "12191_spectrum_calories_20.0_calorie_standard",
@@ -5948,7 +8334,65 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "250 Softgel(s)"
+      "dsld_content": "250 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "{Calories}",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "20",
+            "unit": "{Calories}",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "g",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "0.5",
+            "unit": "g",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Omega-3 Fatty Acids",
+            "amount": "600",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "DHA; EPA",
+            "amount": "520",
+            "unit": "mg",
+            "category": "blend"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326301_sports research_calories_15.0_calorie_standard",
@@ -5978,7 +8422,63 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Veggie Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1.5",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "VEGADELIGHT",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "TBD"
+          },
+          {
+            "name": "life's OMEGA",
+            "amount": "1400",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "770",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "420",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "210",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Other Omega-3 Fatty Acids",
+            "amount": "140",
+            "unit": "mg",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "288757_nordic naturals_calories_20.0_calorie_standard",
@@ -6009,7 +8509,69 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Softgel(s)"
+      "dsld_content": "120 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "1280",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "650",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "450",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "<5",
+            "unit": "mg",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "82072_country life_calories_5.0_calorie_standard",
@@ -6047,7 +8609,39 @@
       "match_score": 92.5,
       "dosage": [
         "1000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Gummie(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "267346_garden of life dr. formulated_bacillus subtilis de111_5.0_mg_standard",
@@ -6083,7 +8677,75 @@
       "match_score": 92.5,
       "dosage": [
         "5000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tab(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Zinc",
+            "amount": "22",
+            "unit": "mg",
+            "daily_value": "200",
+            "category": "mineral"
+          },
+          {
+            "name": "Organic Fruit Blend",
+            "amount": "25",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Apple",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Strawberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Cherry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Blackberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Blueberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Raspberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Bacillus subtilis DE111",
+            "amount": "5",
+            "unit": "mg",
+            "category": "bacteria"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "246749_nobi nutrition_bioperine_5.0_mg_standard",
@@ -6114,7 +8776,40 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "5000",
+            "unit": "IU",
+            "daily_value": "1250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "80",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "210",
+            "unit": "mg",
+            "daily_value": "15",
+            "category": "mineral"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "276658_aurora nutrascience_calories_5.0_calorie_liposomal",
@@ -6147,7 +8842,54 @@
         "gluten_free",
         "liposomal"
       ],
-      "match_score": 87.8
+      "match_score": 87.8,
+      "dsld_label_info": {
+        "serving_size": "15 mL",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "0.5",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Sodium",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "120",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "180",
+            "unit": "mg",
+            "daily_value": "200",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "283093_vitamatic_vitamin d3_1.25_mg_standard",
@@ -6183,7 +8925,20 @@
       "dosage": [
         "50,000 IU"
       ],
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1250",
+            "unit": "mcg",
+            "daily_value": "6250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "283093_vitamatic_vitamin d3_1.25_mg_standard",
@@ -6218,7 +8973,20 @@
       "match_score": 92.5,
       "dosage": [
         "50000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1250",
+            "unit": "mcg",
+            "daily_value": "6250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "335448_xymogen_vitamin d3_1.25_mg_standard",
@@ -6251,7 +9019,20 @@
         "vegetarian"
       ],
       "match_score": 100,
-      "dsld_content": "30 Vegetarian Capsule(s)"
+      "dsld_content": "30 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "1250",
+            "unit": "mcg",
+            "daily_value": "6250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "304017_davinci laboratories_boron_2.0_mg_standard",
@@ -6285,7 +9066,102 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "4 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "5",
+            "unit": "mcg",
+            "daily_value": "25",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "300",
+            "unit": "mg",
+            "daily_value": "23",
+            "category": "mineral"
+          },
+          {
+            "name": "Iodine",
+            "amount": "150",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "300",
+            "unit": "mg",
+            "daily_value": "71",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "136",
+            "category": "mineral"
+          },
+          {
+            "name": "Selenium",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "182",
+            "category": "mineral"
+          },
+          {
+            "name": "Copper",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "222",
+            "category": "mineral"
+          },
+          {
+            "name": "Manganese",
+            "amount": "2000",
+            "unit": "mcg",
+            "daily_value": "87",
+            "category": "mineral"
+          },
+          {
+            "name": "Chromium",
+            "amount": "200",
+            "unit": "mcg",
+            "daily_value": "571",
+            "category": "mineral"
+          },
+          {
+            "name": "Molybdenum",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "222",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "99",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Boron",
+            "amount": "2",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Vanadium",
+            "amount": "100",
+            "unit": "mcg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "205006_pure encapsulations_energy_1.0_kj_standard",
@@ -6319,7 +9195,74 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "0.75 oz."
+      "dsld_content": "0.75 oz.",
+      "dsld_label_info": {
+        "serving_size": "0.03 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "400",
+            "unit": "IU",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Energy",
+            "amount": "1",
+            "unit": "kJ",
+            "category": "other"
+          },
+          {
+            "name": "Protein",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fiber"
+          },
+          {
+            "name": "Sodium",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326304_21st century_boron_0.25_mg_standard",
@@ -6352,7 +9295,61 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "75 Chewable(s)"
+      "dsld_content": "75 Chewable(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "20",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "600",
+            "unit": "mg",
+            "daily_value": "46",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "12",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "7.5",
+            "unit": "mg",
+            "daily_value": "68",
+            "category": "mineral"
+          },
+          {
+            "name": "Copper",
+            "amount": "1",
+            "unit": "mg",
+            "daily_value": "111",
+            "category": "mineral"
+          },
+          {
+            "name": "Manganese",
+            "amount": "1.8",
+            "unit": "mg",
+            "daily_value": "78",
+            "category": "mineral"
+          },
+          {
+            "name": "Boron",
+            "amount": "250",
+            "unit": "mcg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "207404_21st century_copper_0.5_mg_standard",
@@ -6384,7 +9381,129 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "4 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "110",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "200",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "140",
+            "category": "mineral"
+          },
+          {
+            "name": "Copper",
+            "amount": "0.5",
+            "unit": "mg",
+            "daily_value": "60",
+            "category": "mineral"
+          },
+          {
+            "name": "Manganese",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "220",
+            "category": "mineral"
+          },
+          {
+            "name": "Molybdenum",
+            "amount": "220",
+            "unit": "mcg",
+            "daily_value": "490",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "195",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Glucosamine Sulfate",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "MSM",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Hyaluronic Acid",
+            "amount": "80",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "1045",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "premium Chicken Sternum Type II Collagen",
+            "amount": "",
+            "unit": "",
+            "category": "protein"
+          },
+          {
+            "name": "Hyaluronic Acid",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Boron Glycinate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Boswellia serrata extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Grape seed extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "White Willow bark extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "70194_now_vitamin d3_0.125_mg_standard",
@@ -6430,7 +9549,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "120 Softgel(s)"
+      "dsld_content": "120 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "259205_futurebiotics_vitamin d3_0.125_mg_standard",
@@ -6464,7 +9596,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "90 Softgel(s)"
+      "dsld_content": "90 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "333491_natrol_vitamin d3_0.125_mg_standard",
@@ -6498,7 +9643,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "9 Capsule(s)"
+      "dsld_content": "9 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "232986_dr. mercola_vitamin d3_0.25_mg_liposomal",
@@ -6534,7 +9692,20 @@
       "dosage": [
         "10000 IU"
       ],
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "250",
+            "unit": "mcg",
+            "daily_value": "1250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "276383_deva_vitamin d2_0.06_mg_standard",
@@ -6571,7 +9742,20 @@
       "dosage": [
         "800 IU"
       ],
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D2",
+            "amount": "60",
+            "unit": "mcg",
+            "daily_value": "300",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "24780_metabolic maintenance_boron_0.5_mg_standard",
@@ -6604,7 +9788,47 @@
         "vegetarian"
       ],
       "match_score": 100,
-      "dsld_content": "240 Capsule(s)"
+      "dsld_content": "240 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 {Capsule(s)}",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "17",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "25",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "125",
+            "unit": "mg",
+            "daily_value": "31",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "6",
+            "unit": "mg",
+            "daily_value": "40",
+            "category": "mineral"
+          },
+          {
+            "name": "Boron",
+            "amount": "0.5",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "328940_absolute nutrition_vitamin d3_0.125_mg_standard",
@@ -6638,7 +9862,20 @@
       "dosage": [
         "5,000 IU"
       ],
-      "dsld_content": "2 fl. oz.; 60 mL"
+      "dsld_content": "2 fl. oz.; 60 mL",
+      "dsld_label_info": {
+        "serving_size": "1 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "306410_nutricost_vitamin d3_0.125_mg_standard",
@@ -6675,7 +9912,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "240 Softgel(s)"
+      "dsld_content": "240 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "630",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307749_jarrow formulas_vitamin d3_0.125_mg_maximum_strength",
@@ -6711,7 +9961,20 @@
       "dosage": [
         "125 mcg; 5,000 IU"
       ],
-      "dsld_content": "100 Softgel(s)"
+      "dsld_content": "100 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "249918_bioschwartz_vitamin d3_0.125_mg_standard",
@@ -6745,7 +10008,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "360 Softgel(s)"
+      "dsld_content": "360 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269529_doctor's best_vitamin d3_0.05_mg_standard",
@@ -6783,7 +10059,20 @@
       "dosage": [
         "2000 IU"
       ],
-      "dsld_content": "180 Softgel(s)"
+      "dsld_content": "180 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "271464_nature made_vitamin d3_0.125_mg_standard",
@@ -6819,7 +10108,20 @@
       "match_score": 92.5,
       "dosage": [
         "125 mcg; 5000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "305192_vital nutrients_vitamin d3_0.25_mg_standard",
@@ -6850,7 +10152,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 87.5,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "250",
+            "unit": "mcg",
+            "daily_value": "1250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269987_north american herb & spice_astaxanthin_0.24_mg_standard",
@@ -6880,7 +10195,126 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Calories from Fat",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "0.3",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "20",
+            "unit": "mg",
+            "daily_value": "6",
+            "category": "fat"
+          },
+          {
+            "name": "Sodium",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "amount": "",
+            "unit": "",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "",
+            "unit": "",
+            "category": "fiber"
+          },
+          {
+            "name": "Sugars",
+            "amount": "",
+            "unit": "",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "",
+            "unit": "",
+            "category": "protein"
+          },
+          {
+            "name": "Omega-3s",
+            "amount": "400",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "EPA",
+            "amount": "160",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "DHA",
+            "amount": "146",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Omega-6s",
+            "amount": "47",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Omega-9s",
+            "amount": "447",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Astaxanthin",
+            "amount": "240",
+            "unit": "mcg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Vitamin A",
+            "amount": "674",
+            "unit": "IU",
+            "daily_value": "14",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "200",
+            "unit": "IU",
+            "daily_value": "50",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "262725_mrm nutrition_vitamin d3_0.0625_mg_standard",
@@ -6926,7 +10360,26 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Vegan Capsule(s)"
+      "dsld_content": "60 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegan Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "62.5",
+            "unit": "mcg",
+            "daily_value": "310",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "80",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "335488_xymogen_vitamin d3_0.25_mg_standard",
@@ -6959,7 +10412,26 @@
         "vegetarian"
       ],
       "match_score": 85,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "250",
+            "unit": "mcg",
+            "daily_value": "1250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "45",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "306413_nutricost_vitamin k2_0.1_mg_standard",
@@ -6995,7 +10467,20 @@
       "dosage": [
         "100 MCG"
       ],
-      "dsld_content": "500 Capsule(s)"
+      "dsld_content": "500 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin K2",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "80",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287237_dr. mercola_vitamin d3_0.125_mg_liposomal",
@@ -7031,7 +10516,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "268936_premier research labs_vitamin d3_0.125_mg_standard",
@@ -7067,7 +10565,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "0.43 fl. oz."
+      "dsld_content": "0.43 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "0.11 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "203341_doctor's best_vitamin d3_0.0625_mg_standard",
@@ -7107,7 +10618,20 @@
       "dosage": [
         "2500 IU"
       ],
-      "dsld_content": "60 Veggie Capsule(s)"
+      "dsld_content": "60 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "62.5",
+            "unit": "mcg",
+            "daily_value": "310",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "335446_xymogen_vitamin d3_0.125_mg_standard",
@@ -7138,7 +10662,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "305195_vital nutrients_vitamin d3_0.125_mg_standard",
@@ -7181,7 +10718,20 @@
       "match_score": 92.5,
       "dosage": [
         "5000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "211109_seeking health_vitamin d3_0.125_mg_standard",
@@ -7212,7 +10762,27 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "83",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307746_jarrow formulas_vitamin d3_0.0625_mg_standard",
@@ -7246,7 +10816,20 @@
       "dosage": [
         "62.5 mcg; 2,500 IU"
       ],
-      "dsld_content": "100 Softgel(s)"
+      "dsld_content": "100 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "62.5",
+            "unit": "mcg",
+            "daily_value": "313",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309609_sports research_vegadelight_0.125_mg_standard",
@@ -7279,7 +10862,26 @@
       "match_score": 92.5,
       "dosage": [
         "125 mcg; 100 mcg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Veggie Softgel(s)",
+        "ingredients": [
+          {
+            "name": "VEGADELIGHT",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "TBD"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "100",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "318072_nutrabio_vitamin d3_0.125_mg_standard",
@@ -7310,7 +10912,27 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 87.5,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "650",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "180",
+            "unit": "mcg",
+            "daily_value": "150",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "327179_dr. mercola_vitamin d3_0.25_mg_liposomal",
@@ -7346,7 +10968,20 @@
       "dosage": [
         "10000 IU"
       ],
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "250",
+            "unit": "mcg",
+            "daily_value": "1250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322220_davinci laboratories_vitamin d3_0.125_mg_standard",
@@ -7382,7 +11017,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326434_protocol for life balance_vitamin d3_0.05_mg_standard",
@@ -7412,7 +11060,20 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "0.08 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "304892_carlson laboratories_vitamin d_0.125_mg_standard",
@@ -7443,7 +11104,26 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 87.5,
-      "dsld_content": "90 Vegetarian Capsule(s)"
+      "dsld_content": "90 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "90",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "268033_innate response formulas_vitamin d3_0.125_mg_standard",
@@ -7481,7 +11161,33 @@
       "match_score": 92.5,
       "dosage": [
         "5000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K",
+            "amount": "120",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "80",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "335446_xymogen_vitamin d3_0.125_mg_standard",
@@ -7512,7 +11218,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326494_protocol for life balance_vitamin d3_0.025_mg_standard",
@@ -7545,7 +11264,20 @@
       "match_score": 92.5,
       "dosage": [
         "1000 IU"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "303732_xymogen_vitamin d3_0.125_mg_standard",
@@ -7578,7 +11310,26 @@
         "vegetarian"
       ],
       "match_score": 100,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "180",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "299649_california gold nutrition_vitamin d_0.025_mg_standard",
@@ -7609,7 +11360,26 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "45",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "276490_deva_vitamin d2_0.02_mg_standard",
@@ -7646,7 +11416,20 @@
       "dosage": [
         "2400 IU"
       ],
-      "dsld_content": "90 Tablet(s)"
+      "dsld_content": "90 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D2",
+            "amount": "20",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "305193_vital nutrients_vitamin d3_0.05_mg_standard",
@@ -7680,7 +11463,20 @@
       "dosage": [
         "2000 IU"
       ],
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "305193_vital nutrients_vitamin d3_0.05_mg_standard",
@@ -7714,7 +11510,20 @@
       "dosage": [
         "2,000 IU"
       ],
-      "dsld_content": "90 Vegetarian Capsule(s)"
+      "dsld_content": "90 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "247529_natural factors_vitamin d3_0.05_mg_standard",
@@ -7749,7 +11558,26 @@
         "no_artificial_colors"
       ],
       "match_score": 85,
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "organic Flaxseed Oil",
+            "amount": "200",
+            "unit": "mg",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287236_dr. mercola_vitamin d3_0.125_mg_liposomal",
@@ -7785,7 +11613,20 @@
       "dosage": [
         "5000 IU"
       ],
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "125",
+            "unit": "mcg",
+            "daily_value": "625",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "303673_xymogen_vitamin d3_0.05_mg_standard",
@@ -7816,7 +11657,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Softgel(s)"
+      "dsld_content": "120 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "232984_dr. mercola_vitamin d3_0.025_mg_liposomal",
@@ -7852,7 +11706,20 @@
       "dosage": [
         "1000 IU"
       ],
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "209074_carlson laboratories_vitamin d3_0.05_mg_standard",
@@ -7885,7 +11752,26 @@
         "gluten_free"
       ],
       "match_score": 87.5,
-      "dsld_content": "120 Vegetarian Capsule(s)"
+      "dsld_content": "120 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "90",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "242816_nature's way_vitamin d3_0.025_mg_standard",
@@ -7919,7 +11805,20 @@
         "gluten_free",
         "wheat_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "264143_nature's answer_vitamin d3_0.025_mg_standard",
@@ -7952,7 +11851,27 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "0.5 fl. oz."
+      "dsld_content": "0.5 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "0.06 mL",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "126",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "120",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "327138_dr. mercola_vitamin d3_0.025_mg_standard",
@@ -7983,7 +11902,26 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 87.5,
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "45",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298102_thorne_vitamin d_0.025_mg_standard",
@@ -8014,7 +11952,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "1 fl. oz."
+      "dsld_content": "1 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "2 Drop(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "303674_xymogen_vitamin d3_0.05_mg_standard",
@@ -8045,7 +11996,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "240 Softgel(s)"
+      "dsld_content": "240 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "250",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269179_healthy origins_vitamin d3_0.025_mg_standard",
@@ -8079,7 +12043,20 @@
         "non_gmo"
       ],
       "match_score": 87.5,
-      "dsld_content": "360 Softgel(s)"
+      "dsld_content": "360 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298780_nature's plus_vitamin d3_0.025_mg_standard",
@@ -8123,7 +12100,27 @@
         "gluten_free"
       ],
       "match_score": 87.5,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "83",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298102_thorne_vitamin d_0.025_mg_standard",
@@ -8154,7 +12151,20 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Drop(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298413_codeage_chromium_0.025_mg_standard",
@@ -8184,7 +12194,204 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin A",
+            "amount": "750",
+            "unit": "mcg RAE",
+            "daily_value": "83",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "80",
+            "unit": "mg",
+            "daily_value": "112",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin E",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Niacin",
+            "amount": "12",
+            "unit": "mg",
+            "daily_value": "75",
+            "category": "vitamin"
+          },
+          {
+            "name": "Pantothenic Acid",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Iodine",
+            "amount": "120",
+            "unit": "mcg",
+            "daily_value": "80",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "8",
+            "unit": "mg",
+            "daily_value": "117",
+            "category": "mineral"
+          },
+          {
+            "name": "Selenium",
+            "amount": "40",
+            "unit": "mcg",
+            "daily_value": "73",
+            "category": "mineral"
+          },
+          {
+            "name": "Copper",
+            "amount": "50",
+            "unit": "mcg",
+            "daily_value": "5",
+            "category": "mineral"
+          },
+          {
+            "name": "Chromium",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "72",
+            "category": "mineral"
+          },
+          {
+            "name": "Omega-3 Fatty Acids",
+            "amount": "60",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "L-Lysine Hydrochloride",
+            "amount": "400",
+            "unit": "mg",
+            "category": "amino acid"
+          },
+          {
+            "name": "Skin Probiotic Blend",
+            "amount": "100",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "FloraFit",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "L. rhamnosus GG",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "FloraFit",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "FloraFit",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "B. bifidum",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Skin Cleanse and Detox Blend",
+            "amount": "100",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "L-Proline",
+            "amount": "",
+            "unit": "",
+            "category": "amino acid"
+          },
+          {
+            "name": "Chlorella Algae",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Spirulina; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Dandelion leaf extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Beet; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Oregon Grape; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Apple; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cranberry; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Elderberry; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Blueberry; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298052_thorne_vitamin d_0.025_mg_standard",
@@ -8215,7 +12422,27 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "1 fl. oz."
+      "dsld_content": "1 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "2 Drop(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K",
+            "amount": "200",
+            "unit": "mcg",
+            "daily_value": "167",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269178_healthy origins_vitamin d3_0.025_mg_standard",
@@ -8249,7 +12476,20 @@
         "non_gmo"
       ],
       "match_score": 87.5,
-      "dsld_content": "180 Softgel(s)"
+      "dsld_content": "180 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "242816_nature's way_vitamin d3_0.025_mg_standard",
@@ -8283,7 +12523,20 @@
         "gluten_free",
         "wheat_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D3",
+            "amount": "25",
+            "unit": "mcg",
+            "daily_value": "125",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322720_seeking health_vitamin d_0.0125_mg_standard",
@@ -8314,7 +12567,71 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "1 fl. oz.; 30 mL"
+      "dsld_content": "1 fl. oz.; 30 mL",
+      "dsld_label_info": {
+        "serving_size": "1 Drop(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "fat"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "12.5",
+            "unit": "mcg",
+            "daily_value": "63",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "12.5",
+            "unit": "mcg",
+            "daily_value": "83",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "50",
+            "unit": "mcg",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "50",
+            "unit": "mcg",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     }
   ]
 }

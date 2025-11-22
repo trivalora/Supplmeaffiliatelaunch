@@ -3549,7 +3549,100 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "36 Gummie(s)"
+      "dsld_content": "36 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "45",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "12",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "8",
+            "unit": "Gram(s)",
+            "daily_value": "16",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "250",
+            "unit": "mg",
+            "daily_value": "278",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "1.5",
+            "unit": "mg",
+            "daily_value": "88",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B12",
+            "amount": "4",
+            "unit": "mcg",
+            "daily_value": "167",
+            "category": "vitamin"
+          },
+          {
+            "name": "Biotin",
+            "amount": "36",
+            "unit": "mcg",
+            "daily_value": "120",
+            "category": "vitamin"
+          },
+          {
+            "name": "Zinc",
+            "amount": "1.5",
+            "unit": "mg",
+            "daily_value": "14",
+            "category": "mineral"
+          },
+          {
+            "name": "Manganese",
+            "amount": "0.38",
+            "unit": "mg",
+            "daily_value": "17",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "organic Turmeric",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ginger",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287162_ancient nutrition_bone broth protein turmeric blend_23000.0_mg_standard",
@@ -3590,7 +3683,71 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "16.2 oz."
+      "dsld_content": "16.2 oz.",
+      "dsld_label_info": {
+        "serving_size": "23 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "90",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "amount": "<1",
+            "unit": "Grain(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "20",
+            "unit": "Gram(s)",
+            "daily_value": "18",
+            "category": "protein"
+          },
+          {
+            "name": "Sodium",
+            "amount": "163",
+            "unit": "mg",
+            "daily_value": "7",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "191",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Bone Broth Protein Turmeric Blend",
+            "amount": "23",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Chicken Bone Broth Protein concentrate",
+            "amount": "",
+            "unit": "",
+            "category": "protein"
+          },
+          {
+            "name": "Beef Bone Broth Protein Concentrate",
+            "amount": "",
+            "unit": "",
+            "category": "protein"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "57189_organic traditions_organic turmeric (curcuma longa) powder_5000.0_mg_standard",
@@ -3621,7 +3778,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "16 oz."
+      "dsld_content": "16 oz.",
+      "dsld_label_info": {
+        "serving_size": "5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "organic Turmeric (Curcuma longa) powder",
+            "amount": "5",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "200439_yogi_proprietary blend of herbs_2000.0_mg_standard",
@@ -3656,7 +3825,49 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "32 g; 1.12 oz.; 16 Tea Bag(s)"
+      "dsld_content": "32 g; 1.12 oz.; 16 Tea Bag(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tea Bag(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Blend of Herbs",
+            "amount": "2000",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Ginger",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Lemongrass",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Licorice",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Peppermint",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Black Pepper",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "306854_nature's truth_added sugars_6000.0_mg_standard",
@@ -3688,7 +3899,63 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.7
+      "match_score": 87.7,
+      "dsld_label_info": {
+        "serving_size": "3 Vegan Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "30",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "7",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "daily_value": "12",
+            "category": "sugar"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "1350",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "450",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "750",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Extract",
+            "amount": "75",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307013_traditional medicinals_proprietary blend_1250.0_mg_standard",
@@ -3722,7 +3989,49 @@
         "organic",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Tea Bag(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "All Herbal Ingredients",
+            "amount": "",
+            "unit": "",
+            "category": "other"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "750",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "1250",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Meadowsweet",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "65734_organic india_organic ginger_700.0_mg_standard",
@@ -3758,7 +4067,19 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ginger",
+            "amount": "700",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "65734_organic india_organic ginger_700.0_mg_standard",
@@ -3795,7 +4116,19 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "34.2 g; 18 Infusion Bag(s); 1.2 oz."
+      "dsld_content": "34.2 g; 18 Infusion Bag(s); 1.2 oz.",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Ginger",
+            "amount": "700",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309587_gaia herbs_added sugars_2000.0_mg_standard",
@@ -3826,7 +4159,75 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "40 Veg Capsule(s)"
+      "dsld_content": "40 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gummy(ies)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "sugar"
+          },
+          {
+            "name": "Full Spectrum Turmeric Blend",
+            "amount": "286",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "60",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Lemon Peel Essential Oil",
+            "amount": "16",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Supercritical Extract",
+            "amount": "2",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307226_oregon's wild harvest_fresh organic turmeric_1000.0_mg_standard",
@@ -3859,7 +4260,19 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "1 fl. oz."
+      "dsld_content": "1 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "1 mL",
+        "ingredients": [
+          {
+            "name": "fresh organic Turmeric",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "77636_planetary herbals_meriva turmeric complex_500.0_mg_standard",
@@ -3893,7 +4306,31 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Meriva Turmeric Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric rhizome extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Phosphatidylcholine",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "271368_nature made_vitamin c_500.0_mg_standard",
@@ -3927,7 +4364,20 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Caplet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "500",
+            "unit": "mg",
+            "daily_value": "556",
+            "category": "vitamin"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "244918_mason natural_tumeric_500.0_mg_standard",
@@ -3961,7 +4411,19 @@
         "gluten_free",
         "soy_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "null Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Tumeric",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "242577_nature's bounty_turmeric_450.0_mg_standard",
@@ -4010,7 +4472,25 @@
       "dosage": [
         "450 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric",
+            "amount": "450",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric (Curcuma longa) extract",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "207672_solaray_turmeric root extract_600.0_mg_standard",
@@ -4041,7 +4521,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "1 fl. oz."
+      "dsld_content": "1 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric root extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "207749_vitacost_turmeric extract_800.0_mg_standard",
@@ -4075,7 +4567,19 @@
       "dosage": [
         "800 mg"
       ],
-      "dsld_content": "200 Capsule(s)"
+      "dsld_content": "200 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric extract",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "244918_mason natural_tumeric_500.0_mg_standard",
@@ -4109,7 +4613,19 @@
         "gluten_free",
         "soy_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "null Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Tumeric",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "204350_herb pharm_turmeric rhizome (curcuma longa) extract_616.0_mg_standard",
@@ -4143,7 +4659,19 @@
         "gluten_free"
       ],
       "match_score": 85,
-      "dsld_content": "1 fl. oz."
+      "dsld_content": "1 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "0.7 mL",
+        "ingredients": [
+          {
+            "name": "Turmeric rhizome (Curcuma longa) extract",
+            "amount": "616",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "207672_solaray_turmeric root extract_600.0_mg_standard",
@@ -4187,7 +4715,19 @@
       "dosage": [
         "300mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric root extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "243384_purity products_meriva enovita & green tea phytosome blend_1300.0_mg_standard",
@@ -4222,7 +4762,37 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Meriva Enovita & Green Tea Phytosome Blend",
+            "amount": "1300",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Meriva Bioavailable Curcumin",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Enovita Grapeseed extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Greenselect Phytosome extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "205412_qunol_bioenhanced turmeric complex_1000.0_mg_standard",
@@ -4256,7 +4826,19 @@
       "dosage": [
         "1000 mg"
       ],
-      "dsld_content": "120 Vegetarian Capsule(s)"
+      "dsld_content": "120 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "bioenhanced Turmeric Complex",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "243611_gnc_chondroitin sulfate; sodium_1200.0_mg_standard",
@@ -4295,7 +4877,44 @@
         "no_preservatives"
       ],
       "match_score": 85,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Caplet(s)",
+        "ingredients": [
+          {
+            "name": "Sodium",
+            "amount": "130",
+            "unit": "mg",
+            "daily_value": "6",
+            "category": "mineral"
+          },
+          {
+            "name": "Glucosamine Hydrochloride",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Chondroitin Sulfate; Sodium",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "MSM",
+            "amount": "900",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Hyaluronic Acid",
+            "amount": "5",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "284239_thorne_curcumin phytosome_1000.0_mg_standard",
@@ -4329,7 +4948,19 @@
       "dosage": [
         "1000 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin Phytosome",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "207672_solaray_turmeric root extract_600.0_mg_standard",
@@ -4359,7 +4990,19 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric root extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287271_ancient nutrition_organic fermented botanical blend_800.0_mg_standard",
@@ -4392,7 +5035,37 @@
         "fermented"
       ],
       "match_score": 100,
-      "dsld_content": "30 Tablet(s)"
+      "dsld_content": "30 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Organic Fermented Botanical Blend",
+            "amount": "800",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "207672_solaray_turmeric root extract_600.0_mg_standard",
@@ -4423,7 +5096,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "30 Veg Capsule(s)"
+      "dsld_content": "30 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric root extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "40405_himalaya_organic turmeric powder_350.0_mg_standard",
@@ -4455,7 +5140,25 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Turmeric standardized extract",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Turmeric powder",
+            "amount": "350",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "322776_planetary herbals_meriva turmeric complex_500.0_mg_standard",
@@ -4489,7 +5192,19 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Meriva Turmeric Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "blend"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "273508_california gold nutrition_black cumin seed oil_200.0_mg_standard",
@@ -4519,7 +5234,80 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Fish Oil concentrate",
+            "amount": "571",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "428",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "263",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "137",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Other Omega-3 Fatty Acids",
+            "amount": "28",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Cumin seed Oil",
+            "amount": "200",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Boswellia extracts",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Oil",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "47814_life extension_thymocid(tm) organic black cumin seed oil_500.0_mg_standard",
@@ -4560,7 +5348,19 @@
       "available_retailers": 2,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Thymocid(TM) organic Black Cumin seed Oil",
+            "amount": "500",
+            "unit": "mg",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307579_jarrow formulas_curcumin phytosome_500.0_mg_standard",
@@ -4596,7 +5396,25 @@
       "match_score": 92.5,
       "dosage": [
         "500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin Phytosome",
+            "amount": "500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "90",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307577_jarrow formulas_total curcuminoids_475.0_mg_standard",
@@ -4634,7 +5452,25 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "60 Veggie Capsule(s)"
+      "dsld_content": "60 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Total Curcuminoids",
+            "amount": "475",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "289067_paradise_turmeric rhizome extract_250.0_mg_standard",
@@ -4665,7 +5501,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "90 Vegetarian Capsule(s)"
+      "dsld_content": "90 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "59895_now_bromelain_300.0_mg_standard",
@@ -4699,7 +5547,25 @@
         "vegetarian"
       ],
       "match_score": 100,
-      "dsld_content": "90 Veg Capsule(s)"
+      "dsld_content": "90 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Veg Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric root extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "300",
+            "unit": "mg",
+            "category": "enzyme"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "181450_new chapter_turmeric (rhizome) aqueous extract_320.0_mg_standard",
@@ -4735,7 +5601,25 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "30 Vegetarian Capsule(s)"
+      "dsld_content": "30 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric (rhizome) aqueous extract",
+            "amount": "320",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Turmeric (rhizome) supercritical extract",
+            "amount": "80",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298078_thorne_meriva_1000.0_mg_standard",
@@ -4769,7 +5653,19 @@
       "dosage": [
         "1000 mg"
       ],
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Meriva",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "326140_solaray_curcumin_285.0_mg_standard",
@@ -4803,7 +5699,25 @@
       "dosage": [
         "300 mg"
       ],
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcumin",
+            "amount": "285",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "200648_bio nutrition_curcumin_250.0_mg_isolate",
@@ -4838,7 +5752,25 @@
         "isolate"
       ],
       "match_score": 100,
-      "dsld_content": "50 Vegetarian Capsule(s)"
+      "dsld_content": "50 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetable Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin",
+            "amount": "250",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Turmeric extract",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "39609_terry naturally_proprietary blend_412.0_mg_standard",
@@ -4871,7 +5803,49 @@
         "sugar_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Blend",
+            "amount": "412",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Curcumin (BVM-95(R)) micronized (Curcuma longa) rhizome extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Phospholipids",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          },
+          {
+            "name": "Turmeric essential Oil",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Green Tea",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Resveratrol",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "73852_source naturals_meriva turmeric complex_500.0_mg_standard",
@@ -4908,7 +5882,31 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Meriva Turmeric Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric rhizome extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Phosphatidylcholine",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "77641_planetary herbals_meriva turmeric complex_500.0_mg_standard",
@@ -4942,7 +5940,31 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Meriva Turmeric Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric rhizome ext.",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Phosphatidylcholine",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "298725_nature's plus herbal actives_curcumin_380.0_mg_standard",
@@ -4976,7 +5998,25 @@
       "dosage": [
         "400 mg"
       ],
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric",
+            "amount": "400",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcumin",
+            "amount": "380",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "250157_dr. mercola_curcumin complex_500.0_mg_standard",
@@ -5010,7 +6050,19 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "30 Capsule(s)"
+      "dsld_content": "30 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "40405_himalaya_organic turmeric powder_350.0_mg_standard",
@@ -5043,7 +6095,25 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Turmeric standardized extract",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Turmeric powder",
+            "amount": "350",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286851_further food_superfood & adaptogen blend_420.0_mg_standard",
@@ -5074,7 +6144,73 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "6.35 oz."
+      "dsld_content": "6.35 oz.",
+      "dsld_label_info": {
+        "serving_size": "1 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric & Black Pepper Blend",
+            "amount": "1580",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Superfood & Adaptogen Blend",
+            "amount": "420",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Cardamom",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Clove",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cassia",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Indian Frankincence",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Schisandra",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "307578_jarrow formulas_total curcuminoids_475.0_mg_standard",
@@ -5111,7 +6247,25 @@
       "dosage": [
         "500 mg"
       ],
-      "dsld_content": "120 Veggie Capsule(s)"
+      "dsld_content": "120 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Total Curcuminoids",
+            "amount": "475",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "256643_irwin naturals_avocado oil_400.0_mg_standard",
@@ -5143,7 +6297,117 @@
       "filters": [
         "no_preservatives"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Liquid Soft-Gel",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Flaxseed Oil",
+            "amount": "600",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Avocado Oil",
+            "amount": "400",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Turmeric powder",
+            "amount": "200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcumin C3 Complex Turmeric extract",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Indian Frankincense extract",
+            "amount": "80",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Devil's Claw extract",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Maritime Pine extract",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Methylsulfonylmethane",
+            "amount": "40",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Rugose Rose (Rose Hip) extract",
+            "amount": "30",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Stinging Nettle extract",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "BioPerine Complex",
+            "amount": "3",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Bioperine Black Pepper extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "304836_health thru nutrition_bcm-95 curcugreen curcumin-essential oil complex_325.0_mg_standard",
@@ -5177,7 +6441,25 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "BCM-95 Curcugreen Curcumin-Essential Oil Complex",
+            "amount": "325",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Essential oils of Turmeric",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "181451_new chapter_turmeric (rhizome) aqueous extract_320.0_mg_standard",
@@ -5213,7 +6495,25 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric (rhizome) aqueous extract",
+            "amount": "320",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Turmeric (rhizome) supercritical extract",
+            "amount": "80",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "284240_thorne_curcumin phytosome complex_500.0_mg_standard",
@@ -5246,7 +6546,19 @@
       "match_score": 92.5,
       "dosage": [
         "500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin Phytosome Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "74555_gnc herbal plus_turmeric root extract_300.0_mg_standard",
@@ -5287,7 +6599,25 @@
         "no_artificial_flavors"
       ],
       "match_score": 100,
-      "dsld_content": "100 Capsule(s)"
+      "dsld_content": "100 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric root extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric root powder",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "289068_paradise_turmeric rhizome extract_250.0_mg_standard",
@@ -5318,7 +6648,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Vegetarian Capsule(s)"
+      "dsld_content": "120 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric rhizome extract",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "185123_pure encapsulations_meriva turmeric phytosome_500.0_mg_standard",
@@ -5352,7 +6694,19 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Meriva Turmeric Phytosome",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "294171_new chapter_turmeric (rhizome) aqueous extract_320.0_mg_standard",
@@ -5388,7 +6742,25 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "120 Vegetarian Capsule(s)"
+      "dsld_content": "120 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric (rhizome) aqueous extract",
+            "amount": "320",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Turmeric (rhizome) supercritical extract",
+            "amount": "80",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "295998_solaray_berberine hydrochloride_300.0_mg_micronized",
@@ -5423,7 +6795,31 @@
         "micronized"
       ],
       "match_score": 100,
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 VegCap(s)",
+        "ingredients": [
+          {
+            "name": "Berberine Hydrochloride",
+            "amount": "300",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Turmeric Root Extract; Micronized",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcumin",
+            "amount": "27",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "220395_natural factors_bromelain_150.0_mg_isolate",
@@ -5461,7 +6857,38 @@
       "dosage": [
         "450 mg"
       ],
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "23",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Turmeric (Curcuma longa) extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcumin",
+            "amount": "285",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "150",
+            "unit": "mg",
+            "category": "enzyme"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "325765_terry naturally_bcm-95 curcugreen_250.0_mg_standard",
@@ -5492,7 +6919,31 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "BCM-95 Curcugreen",
+            "amount": "250",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Curcuminoids; Pure",
+            "amount": "215",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "EP15",
+            "amount": "15",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "250159_dr. mercola_curcumin complex_500.0_mg_standard",
@@ -5523,7 +6974,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "208251_vital nutrients_boswellia serrata gum extract_600.0_mg_standard",
@@ -5553,7 +7016,37 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Boswellia serrata gum extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "300",
+            "unit": "mg",
+            "category": "enzyme"
+          },
+          {
+            "name": "Curcuma longa rhizome extract",
+            "amount": "600",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Quercetin Dihydrate",
+            "amount": "300",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "273508_california gold nutrition_black cumin seed oil_200.0_mg_standard",
@@ -5583,7 +7076,80 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Fish Oil concentrate",
+            "amount": "571",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "428",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "263",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "137",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Other Omega-3 Fatty Acids",
+            "amount": "28",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Cumin seed Oil",
+            "amount": "200",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Boswellia extracts",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Oil",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "275217_california gold nutrition_artichoke leaf extract_50.0_mg_standard",
@@ -5614,7 +7180,49 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Veggie Capsule(s)"
+      "dsld_content": "120 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Milk Thistle Extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Dandelion Root Extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Artichoke Leaf Extract",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric extract",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger; Powder",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper extract",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "287227_dr. mercola_curcuminoids_76.0_mg_standard",
@@ -5645,7 +7253,49 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric; Fermented; Powder",
+            "amount": "370",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric; Fermented; Powder",
+            "amount": "740",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "80",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "160",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "76",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "152",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "220142_natural factors_bromelain_150.0_mg_isolate",
@@ -5683,7 +7333,38 @@
       "dosage": [
         "450 mg"
       ],
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calcium",
+            "amount": "23",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Turmeric extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcumin",
+            "amount": "285",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "150",
+            "unit": "mg",
+            "category": "enzyme"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "269096_codeage_ashwagandha extract_100.0_mg_liposomal",
@@ -5717,7 +7398,145 @@
         "liposomal"
       ],
       "match_score": 100,
-      "dsld_content": "90 Capsule(s)"
+      "dsld_content": "90 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Organic Full Spectrum Turmeric Blend",
+            "amount": "1350",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "fermented Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric CO2 extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Organic Fermented Botanical Blend",
+            "amount": "300",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "fermented Black Pepper fruit powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "fermented Ginger",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "fermented Long Pepper",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "sprouted fermented Cumin",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "fermented Black Pepper fruit Oil",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "fermented Ginger root CO2 extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Stephania root extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Indian Frankincense",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Organic Fermented Bitter Botanical Blend",
+            "amount": "50",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "fermented Milk Thistle",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "fermented Dandelion",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "fermented Peppermint",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "fermented Peppermint leaf Oil",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "fermented Reishi Mushroom",
+            "amount": "50",
+            "unit": "mg",
+            "category": "other"
+          },
+          {
+            "name": "fermented Apple Cider Vinegar",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "65328_organic traditions_calcium_42.5_mg_standard",
@@ -5753,7 +7572,158 @@
         "organic",
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "7 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Sodium",
+            "amount": "60",
+            "unit": "mg",
+            "daily_value": "3",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "1",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Vitamin A",
+            "amount": "6068",
+            "unit": "IU",
+            "daily_value": "120",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "1.06",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "42.5",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Iron",
+            "amount": "1.5",
+            "unit": "mg",
+            "daily_value": "8",
+            "category": "mineral"
+          },
+          {
+            "name": "Vitamin E",
+            "amount": "0.61",
+            "unit": "IU",
+            "daily_value": "2",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin K",
+            "amount": "122",
+            "unit": "mcg",
+            "daily_value": "150",
+            "category": "vitamin"
+          },
+          {
+            "name": "Thiamine",
+            "amount": "0.1",
+            "unit": "mg",
+            "daily_value": "6",
+            "category": "vitamin"
+          },
+          {
+            "name": "Riboflavin",
+            "amount": "0.28",
+            "unit": "mg",
+            "daily_value": "15",
+            "category": "vitamin"
+          },
+          {
+            "name": "Niacin",
+            "amount": "0.28",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "0.11",
+            "unit": "mg",
+            "daily_value": "6",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B12",
+            "amount": "1.55",
+            "unit": "mcg",
+            "daily_value": "25",
+            "category": "vitamin"
+          },
+          {
+            "name": "Phosphorus",
+            "amount": "18.09",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "23.08",
+            "unit": "mg",
+            "daily_value": "6",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "0.72",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Selenium",
+            "amount": "0.97",
+            "unit": "mcg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Manganese",
+            "amount": "0.095",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "214927_bareorganics_potassium_50.0_mg_standard",
@@ -5791,7 +7761,26 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "8 oz."
+      "dsld_content": "8 oz.",
+      "dsld_label_info": {
+        "serving_size": "30 mL",
+        "ingredients": [
+          {
+            "name": "Potassium",
+            "amount": "50",
+            "unit": "mg",
+            "daily_value": "1",
+            "category": "mineral"
+          },
+          {
+            "name": "organic Turmeric",
+            "amount": "9",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "74075_dr. mercola_turmeric (curcuma longa) rhizome extract powder_160.0_mg_standard",
@@ -5822,7 +7811,31 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "180 Capsule(s)"
+      "dsld_content": "180 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Turmeric (Curcuma longa) root powder",
+            "amount": "740",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric (Curcuma longa) rhizome extract powder",
+            "amount": "160",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ginger (Zingiber officinale) root powder",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "52847_natural factors curcuminrich_theracurmin curcumin extract_30.0_mg_standard",
@@ -5857,7 +7870,19 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Theracurmin Curcumin extract",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "303781_xymogen_bcm-95_125.0_mg_standard",
@@ -5887,7 +7912,55 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "600",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "MaxSimil",
+            "amount": "600",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "417",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "276",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "120",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "BCM-95",
+            "amount": "125",
+            "unit": "mg",
+            "category": "blend"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "331389_revive_cumin_60.0_mg_standard",
@@ -5918,7 +7991,19 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "60 Vegetarian Capsule(s)"
+      "dsld_content": "60 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Drop(s)",
+        "ingredients": [
+          {
+            "name": "Cumin",
+            "amount": "60",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "204502_solgar_curcumin_40.0_mg_standard",
@@ -5952,7 +8037,31 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "30 Liquid"
+      "dsld_content": "30 Liquid",
+      "dsld_label_info": {
+        "serving_size": "1 Liquid Extract Softgel(s)",
+        "ingredients": [
+          {
+            "name": "full spectrum Curcumin liquid extract",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Total Curcuminoids",
+            "amount": "48",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Curcumin",
+            "amount": "40",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "292076_irwin naturals_bamboo extract_28.6_mg_standard",
@@ -5983,7 +8092,120 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Liquid"
+      "dsld_content": "60 Liquid",
+      "dsld_label_info": {
+        "serving_size": "2 Liquid Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "20",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "2",
+            "category": "fat"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "protein"
+          },
+          {
+            "name": "Vitamin D3",
+            "amount": "100",
+            "unit": "mcg",
+            "daily_value": "500",
+            "category": "vitamin"
+          },
+          {
+            "name": "Magnesium",
+            "amount": "100",
+            "unit": "mg",
+            "daily_value": "24",
+            "category": "mineral"
+          },
+          {
+            "name": "Zinc",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "136",
+            "category": "mineral"
+          },
+          {
+            "name": "Flaxseed Oil",
+            "amount": "1100",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Eleuthero root extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bamboo Extract",
+            "amount": "28.6",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Silica",
+            "amount": "20",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Turmeric root extract",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "23.75",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Vitamin K2",
+            "amount": "120",
+            "unit": "mcg",
+            "category": "vitamin"
+          },
+          {
+            "name": "BioPerine Complex",
+            "amount": "6",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Rhizome Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309357_nutrabio_astragin_50.0_mg_standard",
@@ -6017,7 +8239,43 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Veggie Capsule(s)"
+      "dsld_content": "60 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin C3 Reduct",
+            "amount": "400",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "175",
+            "unit": "mg",
+            "category": "enzyme"
+          },
+          {
+            "name": "Ginger Root Extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "AstraGin",
+            "amount": "50",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "206181_now_total curcuminoids_20.0_mg_standard",
@@ -6052,7 +8310,25 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Veg Capsule(s)"
+      "dsld_content": "60 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Veg Capsule(s)",
+        "ingredients": [
+          {
+            "name": "standardized Turmeric juice powder",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Total Curcuminoids",
+            "amount": "20",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "76728_planetary herbals_calcium_57.0_mg_standard",
@@ -6083,7 +8359,148 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Tablet(s)"
+      "dsld_content": "120 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "daily_value": "4",
+            "category": "fiber"
+          },
+          {
+            "name": "Calcium",
+            "amount": "57",
+            "unit": "mg",
+            "daily_value": "6",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Proprietary Blend",
+            "amount": "2.33",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric rhizome extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Boswellia serrata gum resin extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "",
+            "unit": "",
+            "category": "enzyme"
+          },
+          {
+            "name": "Willow bark extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Chinese Skullcap root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Hops flower extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Corydalis yanhusuo",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Holy Basil Leaf Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Quercetin",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Rosemary leaf extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Trans-Resveratrol",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Masson Pine bark extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Grape seed extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "EGCG",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Lecithin",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          },
+          {
+            "name": "Black Pepper fruit ext.",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "202134_pure encapsulations_flavonoids_85.0_mg_standard",
@@ -6117,7 +8534,55 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Meriva Turmeric Phytosome",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Neurophenol Proprietary Blend",
+            "amount": "300",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Flavonoids",
+            "amount": "85",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Grape (Vitis vinifera) extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "wild Blueberry (Vaccinium angustifolium) extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Monterey Pine (Pinus radiata) extract",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Green Tea (Camellia sinensis) extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "246602_pure synergy_organic; superpure co2; vacuum distilled turmeric extract_47.5_mg_standard",
@@ -6152,7 +8617,37 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic; SuperPure Turmeric Triple Extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic; SuperPure Ethanol Turmeric extract",
+            "amount": "325",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic; SuperPure CO2; vacuum distilled Turmeric extract",
+            "amount": "47.5",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic; SuperPure Triple; distilled H20 Turmeric extract",
+            "amount": "40",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "213170_nature's way_apresflex boswellia serrata gum extract_50.0_mg_standard",
@@ -6187,7 +8682,45 @@
         "gluten_free",
         "yeast_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Sodium",
+            "amount": "20",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Willow bark extract",
+            "amount": "800",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Meriva",
+            "amount": "555",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "ApresFlex Boswellia serrata gum extract",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "213264_organic india_organic black pepper_30.0_mg_standard",
@@ -6225,7 +8758,49 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "90 Vegetarian Capsule(s)"
+      "dsld_content": "90 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Turmeric",
+            "amount": "740",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Turmeric extract",
+            "amount": "170",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Trikatu",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "organic Black Pepper",
+            "amount": "30",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ginger",
+            "amount": "30",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Long Pepper",
+            "amount": "30",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "219376_solgar_curcumin_40.0_mg_standard",
@@ -6259,7 +8834,31 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Liquid"
+      "dsld_content": "60 Liquid",
+      "dsld_label_info": {
+        "serving_size": "1 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "full spectrum Curcumin liquid extract",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Total Curcuminoids",
+            "amount": "48",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Curcumin",
+            "amount": "40",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "206181_now_total curcuminoids_20.0_mg_standard",
@@ -6294,7 +8893,25 @@
         "non_gmo"
       ],
       "match_score": 85,
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Veg Capsule(s)",
+        "ingredients": [
+          {
+            "name": "standardized Turmeric juice powder",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Total Curcuminoids",
+            "amount": "20",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "317003_naturewise_bioperine_15.0_mg_standard",
@@ -6329,7 +8946,43 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "90 Vegetarian Capsule(s)"
+      "dsld_content": "90 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Vegan Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin Complex",
+            "amount": "2250",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Tumeric",
+            "amount": "1750",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "550",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "105",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "15",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "297531_premier research labs_calcium_40.0_mg_standard",
@@ -6366,7 +9019,58 @@
         "non_gmo",
         "fermented"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "4.5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "4",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Calcium",
+            "amount": "40",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Iron",
+            "amount": "0.4",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "organic Fermented Blend",
+            "amount": "1.125",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "295454_nature's answer_curcuminoids_23.75_mg_standard",
@@ -6399,7 +9103,37 @@
         "gluten_free"
       ],
       "match_score": 100,
-      "dsld_content": "90 Vegetarian Capsule(s)"
+      "dsld_content": "90 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Ginger root extract",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Gingerols",
+            "amount": "2.5",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "25",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "23.75",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "78243_source naturals_black pepper fruit extract_10.0_mg_standard",
@@ -6437,7 +9171,37 @@
       "dosage": [
         "1000 mg"
       ],
-      "dsld_content": "30 Tablet(s)"
+      "dsld_content": "30 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Curcuminoids",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Turmeric rhizome extract",
+            "amount": "1052",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "150",
+            "unit": "mg",
+            "category": "enzyme"
+          },
+          {
+            "name": "Black Pepper fruit extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "327603_organic india_black pepper_30.0_mg_standard",
@@ -6481,7 +9245,49 @@
         "vegetarian"
       ],
       "match_score": 100,
-      "dsld_content": "180 Vegetarian Capsule(s)"
+      "dsld_content": "180 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric",
+            "amount": "740",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Extract",
+            "amount": "170",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Trikatu",
+            "amount": "",
+            "unit": "",
+            "category": "blend"
+          },
+          {
+            "name": "Black Pepper",
+            "amount": "30",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "30",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Long Pepper",
+            "amount": "30",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "180084_natural factors_theracurmin curcumin extract_30.0_mg_standard",
@@ -6517,7 +9323,19 @@
         "no_artificial_colors"
       ],
       "match_score": 85,
-      "dsld_content": "120 Vegetarian Capsule(s)"
+      "dsld_content": "120 Vegetarian Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Theracurmin Curcumin extract",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "270853_best naturals_bioperine black pepper fruit extract_10.0_mg_standard",
@@ -6563,7 +9381,31 @@
       "match_score": 92.5,
       "dosage": [
         "1500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "2 Vcap(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric powder",
+            "amount": "1400",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine Black Pepper Fruit Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309562_gaia herbs_calories_15.0_calorie_standard",
@@ -6598,7 +9440,74 @@
         "gluten_free"
       ],
       "match_score": 85,
-      "dsld_content": "3.7 oz."
+      "dsld_content": "3.7 oz.",
+      "dsld_label_info": {
+        "serving_size": "3.5 Gram(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Golden Milk Vegan Blend",
+            "amount": "2219",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Date Palm",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Cardamom",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ashwagandha",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Vanilla",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "317003_naturewise_bioperine_15.0_mg_standard",
@@ -6632,7 +9541,43 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Vegan Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin Complex",
+            "amount": "2250",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Tumeric",
+            "amount": "1750",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "550",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "105",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "15",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "221657_nordic naturals_calories_25.0_calorie_standard",
@@ -6671,7 +9616,80 @@
       "dosage": [
         "1250 mg"
       ],
-      "dsld_content": "60 Softgel(s)"
+      "dsld_content": "60 Softgel(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Softgel(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "25",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Longvida Optimized Curcumin extract",
+            "amount": "400",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "N-Acetyl-L-Cysteine",
+            "amount": "200",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "reduced L-Glutathione",
+            "amount": "150",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Total Omega-3 Fatty Acids",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Eicosapentaenoic Acid",
+            "amount": "490",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Docosahexaenoic Acid",
+            "amount": "350",
+            "unit": "mg",
+            "category": "fatty acid"
+          },
+          {
+            "name": "Other Omega-3 Fatty Acids",
+            "amount": "160",
+            "unit": "mg",
+            "category": "fatty acid"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "302149_evlution nutrition_bioperine_10.0_mg_standard",
@@ -6702,7 +9720,31 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "90 Veggie Capsule(s)"
+      "dsld_content": "90 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric; Powder",
+            "amount": "1350",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286239_zint_calcium_8.05_mg_standard",
@@ -6733,7 +9775,123 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 85,
-      "dsld_content": "16 oz."
+      "dsld_content": "16 oz.",
+      "dsld_label_info": {
+        "serving_size": "2 Tsp(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "15",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "fat"
+          },
+          {
+            "name": "Saturated Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Trans Fat",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "fat"
+          },
+          {
+            "name": "Cholesterol",
+            "amount": "",
+            "unit": "mg",
+            "category": "fat"
+          },
+          {
+            "name": "Sodium",
+            "amount": "",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "3",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Dietary Fiber",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "3",
+            "category": "fiber"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Added Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Protein",
+            "amount": "",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "protein"
+          },
+          {
+            "name": "Vitamin D",
+            "amount": "",
+            "unit": "mcg",
+            "category": "vitamin"
+          },
+          {
+            "name": "Calcium",
+            "amount": "8.05",
+            "unit": "mg",
+            "category": "mineral"
+          },
+          {
+            "name": "Iron",
+            "amount": "1.82",
+            "unit": "mg",
+            "daily_value": "10",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "111",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "mineral"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "1.14",
+            "unit": "mg",
+            "daily_value": "2",
+            "category": "vitamin"
+          },
+          {
+            "name": "Manganese",
+            "amount": "0.34",
+            "unit": "mg",
+            "daily_value": "15",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309599_gaia herbs_black pepper fruit supercritical extract_15.0_mg_standard",
@@ -6763,7 +9921,86 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "48",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "45",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "966",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Stinging Nettle Leaf Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Feverfew Aerial Parts Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Quercetin",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Goldenseal Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper Fruit Supercritical Extract",
+            "amount": "15",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Supercritical Extract",
+            "amount": "15",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "286847_further food_ginger_10.0_mg_standard",
@@ -6793,7 +10030,62 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Total Carbohydrates",
+            "amount": "<1",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "110",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ultra Absorption Blend",
+            "amount": "20",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Avocado Oil",
+            "amount": "",
+            "unit": "",
+            "category": "fat"
+          },
+          {
+            "name": "Black Pepper",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Indian Frankincense",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "71371_zhou_bioperine black pepper extract_10.0_mg_standard",
@@ -6826,7 +10118,31 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "90 Veggie Capsule(s)"
+      "dsld_content": "90 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric root powder",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric root extract",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "BioPerine Black Pepper extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "77965_source naturals_black pepper fruit extract_3.5_mg_standard",
@@ -6861,7 +10177,37 @@
         "sugar_free"
       ],
       "match_score": 100,
-      "dsld_content": "50 Tablet(s)"
+      "dsld_content": "50 Tablet(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric rhizome ext.",
+            "amount": "350",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "333",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Bromelain",
+            "amount": "50",
+            "unit": "mg",
+            "category": "enzyme"
+          },
+          {
+            "name": "Black Pepper fruit extract",
+            "amount": "3.5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "293166_new nordic_calories_10.0_calorie_standard",
@@ -6896,7 +10242,51 @@
         "dairy_free"
       ],
       "match_score": 100,
-      "dsld_content": "60 Gummie(s)"
+      "dsld_content": "60 Gummie(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Gummie(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Sodium",
+            "amount": "10",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "1",
+            "category": "sugar"
+          },
+          {
+            "name": "Total Sugars",
+            "amount": "",
+            "unit": "Gram(s)",
+            "category": "sugar"
+          },
+          {
+            "name": "Sugar Alcohols",
+            "amount": "6",
+            "unit": "Gram(s)",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "300",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309593_gaia herbs_black pepper fruit supercritical extract_10.0_mg_standard",
@@ -6927,7 +10317,80 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Liquid"
+      "dsld_content": "60 Liquid",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "32",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "954",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Devil's Claw",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Quercetin",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Indian Frankincense Gum Resin Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper Fruit Supercritical Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Supercritical Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "270992_oregon's wild harvest_bioperine_9.0_mg_standard",
@@ -6960,7 +10423,31 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Vegan Capsule(s)"
+      "dsld_content": "60 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric rhizome (Curcuma longa) powdered extract",
+            "amount": "825",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "525",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "9",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "249911_bioschwartz_black pepper fruit extract_10.0_mg_standard",
@@ -6993,7 +10480,37 @@
         "organic"
       ],
       "match_score": 85,
-      "dsld_content": "160 Veggie Capsule(s)"
+      "dsld_content": "160 Veggie Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "organic Turmeric root powder",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric root extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Ginger root extract",
+            "amount": "300",
+            "unit": "Gram(s)",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper fruit extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "327412_garden of life organics_black pepper fruit extract_7.0_mg_standard",
@@ -7025,7 +10542,79 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Organic Paractin 14-Neo-Andro Blend",
+            "amount": "300",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Andrographis paniculata Leaf; Stem Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Organic Turmeric Blend",
+            "amount": "253",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric; Fermented",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "50",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Ginger; Fermented",
+            "amount": "50",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper Fruit Extract",
+            "amount": "7",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Probiotic Blend",
+            "amount": "4",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Bifidobacterium animalis lactis BL-04",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          },
+          {
+            "name": "Lactobacillus acidophilus LA-14",
+            "amount": "",
+            "unit": "",
+            "category": "bacteria"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "238709_youtheory_black pepper (fruit) extract_10.0_mg_standard",
@@ -7059,7 +10648,25 @@
       "dosage": [
         "1000 mg"
       ],
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric (rhizome) (Curcuma longa) extract",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper (fruit) extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "319434_dr. tobias_bioperine_10.0_mg_standard",
@@ -7090,7 +10697,31 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 87.5,
-      "dsld_content": "120 Veg Capsule(s)"
+      "dsld_content": "120 Veg Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "2 Veggie Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric Rhizome Extract",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "1425",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309588_gaia herbs_black pepper fruit supercritical extract_7.0_mg_standard",
@@ -7121,7 +10752,43 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "482",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Supercritical Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "36",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Black Pepper Fruit Supercritical Extract",
+            "amount": "7",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309595_gaia herbs_black pepper fruit supercritical extract_10.0_mg_standard",
@@ -7151,7 +10818,92 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "32",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Rosemary Leaf Supercritical Extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "875",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Wild Lettuce aerial parts extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Jamaican Dogwood Bark Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Feverfew Aerial Parts Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Devil's Claw root extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper Fruit Supercritical Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Supercritical Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "270995_oregon's wild harvest_bioperine_9.0_mg_standard",
@@ -7185,7 +10937,31 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "120 Vegan Capsule(s)"
+      "dsld_content": "120 Vegan Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "3 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric rhizome (Curcuma longa) powdered extract",
+            "amount": "825",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Turmeric",
+            "amount": "525",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "9",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309589_gaia herbs_black pepper fruit supercritical extract_7.0_mg_standard",
@@ -7216,7 +10992,49 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "482",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Supercritical Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "36",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Black Pepper Fruit Supercritical Extract",
+            "amount": "7",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "309594_gaia herbs_black pepper fruit supercritical extract_10.0_mg_standard",
@@ -7247,7 +11065,80 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "120 Liquid"
+      "dsld_content": "120 Liquid",
+      "dsld_label_info": {
+        "serving_size": "2 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "5",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "32",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "30",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "954",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Devil's Claw",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Quercetin",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Indian Frankincense gum resin extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper Fruit Supercritical Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Supercritical Extract",
+            "amount": "10",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "182824_pure encapsulations_bioperine black pepper (piper nigrum) extract_5.3_mg_standard",
@@ -7281,7 +11172,25 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "60 Capsule(s)"
+      "dsld_content": "60 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric (Curcuma longa) extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine Black Pepper (Piper nigrum) extract",
+            "amount": "5.3",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "302672_doctor's best_bioperine_5.0_mg_standard",
@@ -7314,7 +11223,31 @@
       "match_score": 92.5,
       "dosage": [
         "1000 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin C3 Complex",
+            "amount": "1000",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "257070_megafood_bioperine black pepper fruit extract_3.0_mg_standard",
@@ -7352,7 +11285,110 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Tablet(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin C",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "133",
+            "category": "vitamin"
+          },
+          {
+            "name": "Turmeric Strength Blend",
+            "amount": "700",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Curcumin",
+            "amount": "475",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Turmeric root extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Garden Harvest Fruit Blend",
+            "amount": "350",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Tart Cherry",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Raspberry extract",
+            "amount": "75",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Cranberry extract",
+            "amount": "75",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Wild Blueberry",
+            "amount": "75",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Fruit Phenolic Blend",
+            "amount": "25",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic whole Orange",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Cranberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Blueberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Holy Basil leaf extract",
+            "amount": "200",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "BioPerine Black Pepper fruit extract",
+            "amount": "3",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "306679_nature's truth_boron_1.5_mg_standard",
@@ -7384,7 +11420,114 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "3 Coated Caplet(s)",
+        "ingredients": [
+          {
+            "name": "Calories",
+            "amount": "10",
+            "unit": "Calorie(s)",
+            "category": "other"
+          },
+          {
+            "name": "Total Carbohydrates",
+            "amount": "2",
+            "unit": "Gram(s)",
+            "daily_value": "<1",
+            "category": "sugar"
+          },
+          {
+            "name": "Vitamin C",
+            "amount": "30",
+            "unit": "mg",
+            "daily_value": "33",
+            "category": "vitamin"
+          },
+          {
+            "name": "Manganese",
+            "amount": "1",
+            "unit": "mg",
+            "daily_value": "43",
+            "category": "mineral"
+          },
+          {
+            "name": "Sodium",
+            "amount": "15",
+            "unit": "mg",
+            "daily_value": "<1",
+            "category": "mineral"
+          },
+          {
+            "name": "Potassium",
+            "amount": "177",
+            "unit": "mg",
+            "daily_value": "4",
+            "category": "mineral"
+          },
+          {
+            "name": "Glucosamine Sulfate Potassium Chloride",
+            "amount": "1500",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Double Strength Proprietary Blend",
+            "amount": "1200",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Methylsulfonylmethane",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Chondroitin Sulfate",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Boswellia serrata Resin Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Collagen",
+            "amount": "",
+            "unit": "",
+            "category": "protein"
+          },
+          {
+            "name": "Citrus Bioflavonoid extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Hyaluronic Acid",
+            "amount": "",
+            "unit": "",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "Boron",
+            "amount": "1.5",
+            "unit": "mg",
+            "category": "mineral"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "76156_planetary herbals_proprietary extract blend_1.0_ml_standard",
@@ -7415,7 +11558,37 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "2 fl. oz."
+      "dsld_content": "2 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "1 mL",
+        "ingredients": [
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "1",
+            "unit": "mL",
+            "category": "blend"
+          },
+          {
+            "name": "organic Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Stevia leaf extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper fruit extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "63466_megafood_bioperine black pepper extract_2.0_mg_standard",
@@ -7452,7 +11625,98 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1.97 Gram(s)",
+        "ingredients": [
+          {
+            "name": "FoodState Orange Vitamin C",
+            "amount": "120",
+            "unit": "mg",
+            "daily_value": "200",
+            "category": "vitamin"
+          },
+          {
+            "name": "Whole Body Recovery Blend",
+            "amount": "752",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "organic Turmeric",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Holy Basil",
+            "amount": "250",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine Black Pepper extract",
+            "amount": "2",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Protective Harvest Fruit Blend",
+            "amount": "420",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Black Cherry fruit extract",
+            "amount": "150",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Raspberry extract",
+            "amount": "100",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Wild Blueberry",
+            "amount": "95",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Cranberry extract",
+            "amount": "75",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "FoodState Farm Fresh Fruit Phenolic Blend",
+            "amount": "320",
+            "unit": "mg",
+            "category": "blend"
+          },
+          {
+            "name": "Uncle Matt's organic whole Oranges",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Blueberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "organic Cranberry",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "303870_davinci laboratories_bioperine_5.0_mg_standard",
@@ -7488,7 +11752,31 @@
       "match_score": 92.5,
       "dosage": [
         "500 mg"
-      ]
+      ],
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Curcumin C3 Complex",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Curcuminoids",
+            "amount": "475",
+            "unit": "mg",
+            "category": "non-nutrient/non-botanical"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "5",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "184133_pure encapsulations_bioperine black pepper (piper nigrum) extract_5.3_mg_standard",
@@ -7522,7 +11810,25 @@
         "non_gmo"
       ],
       "match_score": 100,
-      "dsld_content": "120 Capsule(s)"
+      "dsld_content": "120 Capsule(s)",
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric (Curcuma longa) extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine Black Pepper (Piper nigrum) extract",
+            "amount": "5.3",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "182824_pure encapsulations_bioperine black pepper (piper nigrum) extract_5.3_mg_standard",
@@ -7555,7 +11861,25 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "1 Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Turmeric (Curcuma longa) extract",
+            "amount": "500",
+            "unit": "mg",
+            "category": "botanical"
+          },
+          {
+            "name": "Bioperine Black Pepper (Piper nigrum) extract",
+            "amount": "5.3",
+            "unit": "mg",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "179433_planetary herbals_proprietary extract blend_1.0_ml_standard",
@@ -7586,7 +11910,37 @@
       "available_retailers": 1,
       "filters": [],
       "match_score": 100,
-      "dsld_content": "4 fl. oz."
+      "dsld_content": "4 fl. oz.",
+      "dsld_label_info": {
+        "serving_size": "1 mL",
+        "ingredients": [
+          {
+            "name": "Proprietary Extract Blend",
+            "amount": "1",
+            "unit": "mL",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Stevia leaf extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Black Pepper fruit extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     },
     {
       "id": "321858_eu natural_folate_0.4_mg_standard",
@@ -7616,7 +11970,132 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_label_info": {
+        "serving_size": "2 Vegetarian Capsule(s)",
+        "ingredients": [
+          {
+            "name": "Vitamin D",
+            "amount": "1000",
+            "unit": "IU",
+            "daily_value": "250",
+            "category": "vitamin"
+          },
+          {
+            "name": "Thiamine",
+            "amount": "12",
+            "unit": "mg",
+            "daily_value": "1000",
+            "category": "vitamin"
+          },
+          {
+            "name": "Riboflavin",
+            "amount": "13",
+            "unit": "mg",
+            "daily_value": "1000",
+            "category": "vitamin"
+          },
+          {
+            "name": "Niacin",
+            "amount": "8",
+            "unit": "mg",
+            "daily_value": "50",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B6",
+            "amount": "9",
+            "unit": "mg",
+            "daily_value": "500",
+            "category": "vitamin"
+          },
+          {
+            "name": "Folate",
+            "amount": "400",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Vitamin B12",
+            "amount": "12",
+            "unit": "mcg",
+            "daily_value": "500",
+            "category": "vitamin"
+          },
+          {
+            "name": "Pantothenic Acid",
+            "amount": "5",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "vitamin"
+          },
+          {
+            "name": "Zinc",
+            "amount": "11",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "Selenium",
+            "amount": "55",
+            "unit": "mcg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "Manganese",
+            "amount": "2",
+            "unit": "mg",
+            "daily_value": "100",
+            "category": "mineral"
+          },
+          {
+            "name": "Primal Joint Support Complex",
+            "amount": "1",
+            "unit": "Gram(s)",
+            "category": "blend"
+          },
+          {
+            "name": "Turmeric; Powder",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Turmeric Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Boswellia Gum Resin Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Ginger Root Extract",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          },
+          {
+            "name": "Boron",
+            "amount": "",
+            "unit": "",
+            "category": "mineral"
+          },
+          {
+            "name": "BioPerine",
+            "amount": "",
+            "unit": "",
+            "category": "botanical"
+          }
+        ],
+        "other_ingredients": []
+      }
     }
   ]
 }
