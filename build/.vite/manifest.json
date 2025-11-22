@@ -6,23 +6,30 @@
       "assets/4bdf2cba5e05e7d70b9f1402336825a64b04e236-CgrINXXg.png"
     ]
   },
-  "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js": {
-    "file": "assets/IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
+  "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js": {
+    "file": "assets/IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
     "name": "IHerbBadgeLogoRgb1-106-1526",
     "imports": [
-      "_glossary-v5D13tJy.js"
+      "_glossary-CCccBCne.js"
     ],
     "assets": [
       "assets/2f3309a930da536601e44619e42e44f89c102eb7-uevdkWog.png"
     ]
   },
-  "_glossary-v5D13tJy.js": {
-    "file": "assets/glossary-v5D13tJy.js",
+  "_ImageWithFallback-B5lZAGzu.js": {
+    "file": "assets/ImageWithFallback-B5lZAGzu.js",
+    "name": "ImageWithFallback",
+    "imports": [
+      "_glossary-CCccBCne.js"
+    ]
+  },
+  "_glossary-CCccBCne.js": {
+    "file": "assets/glossary-CCccBCne.js",
     "name": "glossary",
     "isDynamicEntry": true,
     "imports": [
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ],
     "assets": [
       "assets/7157caff66020adbe0e259d3e2f8312044fb4dd5-B1Sh7v7y.png",
@@ -46,46 +53,240 @@
       "assets/4cb875168c21f5f722f61eb6916e6c1483a46c66-Dv26TkEc.png"
     ]
   },
-  "_icons-qhhM7VlH.js": {
-    "file": "assets/icons-qhhM7VlH.js",
+  "_icons-CFGF9MOD.js": {
+    "file": "assets/icons-CFGF9MOD.js",
     "name": "icons",
     "imports": [
-      "_glossary-v5D13tJy.js"
+      "_glossary-CCccBCne.js"
     ]
   },
-  "_index-_MMP3fwF.js": {
-    "file": "assets/index-_MMP3fwF.js",
-    "name": "index",
-    "imports": [
-      "_glossary-v5D13tJy.js"
-    ]
-  },
-  "_radix-BvTHRP3Q.js": {
-    "file": "assets/radix-BvTHRP3Q.js",
+  "_radix-D16UFuOl.js": {
+    "file": "assets/radix-D16UFuOl.js",
     "name": "radix",
     "imports": [
-      "_glossary-v5D13tJy.js"
+      "_glossary-CCccBCne.js"
     ]
   },
   "_remoteManifest-BXlf73Yx.js": {
     "file": "assets/remoteManifest-BXlf73Yx.js",
     "name": "remoteManifest"
   },
-  "_supplementProductsData-C85v3g5n.js": {
-    "file": "assets/supplementProductsData-C85v3g5n.js",
-    "name": "supplementProductsData"
+  "_supplementProductsData-DftDcS5_.js": {
+    "file": "assets/supplementProductsData-DftDcS5_.js",
+    "name": "supplementProductsData",
+    "imports": [
+      "_glossary-CCccBCne.js",
+      "_remoteManifest-BXlf73Yx.js"
+    ]
   },
   "index.html": {
-    "file": "assets/index-BYxrrkAJ.js",
+    "file": "assets/index-AqxnIzed.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
+      "_glossary-CCccBCne.js",
+      "_radix-D16UFuOl.js",
+      "_icons-CFGF9MOD.js"
     ],
     "dynamicImports": [
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
       "src/components/AboutPage.tsx",
       "src/components/AffiliateTooltip.tsx",
       "src/components/AshwagandhaPageNewV2.tsx",
@@ -97,11 +298,11 @@
       "src/components/CookiePolicyPage.tsx",
       "src/components/CreatinePageNewV2.tsx",
       "src/components/CurcuminPageNewV2.tsx",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
       "src/components/GlossaryPage.tsx",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
       "src/components/ImpressumPage.tsx",
       "src/components/IronPageNewV2.tsx",
       "src/components/KnowledgebaseLayout.tsx",
@@ -120,9 +321,9 @@
       "src/components/ProbioticsPageNewV2.tsx",
       "src/components/ProductComparison.tsx",
       "src/components/ProductComparisonWrapper.tsx",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
+      "_glossary-CCccBCne.js",
       "src/components/SmartImage.tsx",
       "src/components/SulforaphanePageNewV2.tsx",
       "src/components/SupplementComparisonWidget.tsx",
@@ -133,253 +334,6 @@
       "src/components/VitaminDPageNewV2.tsx",
       "src/components/WhatToExpectSection.tsx",
       "src/components/WheyProteinPageNewV2.tsx",
-      "src/components/figma/ImageWithFallback.tsx",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "_glossary-v5D13tJy.js",
-      "src/components/images/HeroImage.tsx",
-      "src/components/images/ProductImage.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/ui/accordion.tsx",
-      "src/components/ui/alert-dialog.tsx",
-      "src/components/ui/alert.tsx",
-      "src/components/ui/aspect-ratio.tsx",
-      "src/components/ui/avatar.tsx",
-      "src/components/ui/badge.tsx",
-      "src/components/ui/breadcrumb.tsx",
-      "src/components/ui/button.tsx",
-      "src/components/ui/calendar.tsx",
-      "src/components/ui/card.tsx",
-      "src/components/ui/carousel.tsx",
-      "src/components/ui/chart.tsx",
-      "src/components/ui/checkbox.tsx",
-      "src/components/ui/collapsible.tsx",
-      "src/components/ui/command.tsx",
-      "src/components/ui/context-menu.tsx",
-      "src/components/ui/dialog.tsx",
-      "src/components/ui/drawer.tsx",
-      "src/components/ui/dropdown-menu.tsx",
-      "src/components/ui/form.tsx",
-      "_glossary-v5D13tJy.js",
-      "src/components/ui/input-otp.tsx",
-      "_glossary-v5D13tJy.js",
-      "src/components/ui/label.tsx",
-      "src/components/ui/menubar.tsx",
-      "src/components/ui/navigation-menu.tsx",
-      "src/components/ui/pagination.tsx",
-      "src/components/ui/popover.tsx",
-      "src/components/ui/progress.tsx",
-      "src/components/ui/radio-group.tsx",
-      "src/components/ui/resizable.tsx",
-      "src/components/ui/scroll-area.tsx",
-      "src/components/ui/select.tsx",
-      "src/components/ui/separator.tsx",
-      "_glossary-v5D13tJy.js",
-      "src/components/ui/sidebar.tsx",
-      "src/components/ui/skeleton.tsx",
-      "src/components/ui/slider.tsx",
-      "src/components/ui/sonner.tsx",
-      "src/components/ui/switch.tsx",
-      "src/components/ui/table.tsx",
-      "src/components/ui/tabs.tsx",
-      "src/components/ui/textarea.tsx",
-      "src/components/ui/toggle-group.tsx",
-      "src/components/ui/toggle.tsx",
-      "src/components/ui/tooltip.tsx",
       "src/components/LandingPage.tsx"
     ],
     "css": [
@@ -491,15 +445,15 @@
     "src": "src/assets/fa234369467197e9b56f625112dd7dc3646b9390.png"
   },
   "src/components/AboutPage.tsx": {
-    "file": "assets/AboutPage-BnnxtL02.js",
+    "file": "assets/AboutPage-Bp6I1QLz.js",
     "name": "AboutPage",
     "src": "src/components/AboutPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ],
     "assets": [
       "assets/ba7f18652d239a86866cf8bd1f5919c913befa4b-82f9TIWM.png",
@@ -508,292 +462,258 @@
     ]
   },
   "src/components/AffiliateTooltip.tsx": {
-    "file": "assets/AffiliateTooltip-GSfd-yBP.js",
+    "file": "assets/AffiliateTooltip-B-zE-W5q.js",
     "name": "AffiliateTooltip",
     "src": "src/components/AffiliateTooltip.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/AshwagandhaPageNewV2.tsx": {
-    "file": "assets/AshwagandhaPageNewV2-DoJbKZxU.js",
+    "file": "assets/AshwagandhaPageNewV2-CKN9QLIO.js",
     "name": "AshwagandhaPageNewV2",
     "src": "src/components/AshwagandhaPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/BCAAsPageNewV2.tsx": {
-    "file": "assets/BCAAsPageNewV2-GQMBzqX-.js",
+    "file": "assets/BCAAsPageNewV2-pSS-GzT3.js",
     "name": "BCAAsPageNewV2",
     "src": "src/components/BCAAsPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/CalciumPageNewV2.tsx": {
-    "file": "assets/CalciumPageNewV2-BRV1oilM.js",
+    "file": "assets/CalciumPageNewV2-C8SzojDb.js",
     "name": "CalciumPageNewV2",
     "src": "src/components/CalciumPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/CaseinProteinPageNewV2.tsx": {
-    "file": "assets/CaseinProteinPageNewV2-2X3dtTDj.js",
+    "file": "assets/CaseinProteinPageNewV2-e0KCpSAE.js",
     "name": "CaseinProteinPageNewV2",
     "src": "src/components/CaseinProteinPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/CollagenPeptidesPageNewV2.tsx": {
-    "file": "assets/CollagenPeptidesPageNewV2-BmLNpEha.js",
+    "file": "assets/CollagenPeptidesPageNewV2-DDYtu3Sd.js",
     "name": "CollagenPeptidesPageNewV2",
     "src": "src/components/CollagenPeptidesPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/ContactPage.tsx": {
-    "file": "assets/ContactPage-Dj9-zWZ9.js",
+    "file": "assets/ContactPage-BZmwKNU7.js",
     "name": "ContactPage",
     "src": "src/components/ContactPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "src/components/ui/textarea.tsx",
-      "src/components/ui/button.tsx",
-      "src/components/ui/label.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js"
+      "_glossary-CCccBCne.js",
+      "_radix-D16UFuOl.js",
+      "_icons-CFGF9MOD.js"
     ]
   },
   "src/components/CookiePolicyPage.tsx": {
-    "file": "assets/CookiePolicyPage-DC5f2rd4.js",
+    "file": "assets/CookiePolicyPage-Dq1txHYA.js",
     "name": "CookiePolicyPage",
     "src": "src/components/CookiePolicyPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/LegalContactSection.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/CreatinePageNewV2.tsx": {
-    "file": "assets/CreatinePageNewV2-B9p-GHW_.js",
+    "file": "assets/CreatinePageNewV2-BA4wPxaI.js",
     "name": "CreatinePageNewV2",
     "src": "src/components/CreatinePageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/CurcuminPageNewV2.tsx": {
-    "file": "assets/CurcuminPageNewV2-CFWBlDOG.js",
+    "file": "assets/CurcuminPageNewV2-bVz8-wd6.js",
     "name": "CurcuminPageNewV2",
     "src": "src/components/CurcuminPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/GlossaryPage.tsx": {
-    "file": "assets/GlossaryPage-FhJ1xLEm.js",
+    "file": "assets/GlossaryPage-T4xzYQDj.js",
     "name": "GlossaryPage",
     "src": "src/components/GlossaryPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/ImpressumPage.tsx": {
-    "file": "assets/ImpressumPage-D8vVlT9K.js",
+    "file": "assets/ImpressumPage-MyBKrlTg.js",
     "name": "ImpressumPage",
     "src": "src/components/ImpressumPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/LegalContactSection.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/IronPageNewV2.tsx": {
-    "file": "assets/IronPageNewV2-Bezyr5MC.js",
+    "file": "assets/IronPageNewV2-BmdpCNoI.js",
     "name": "IronPageNewV2",
     "src": "src/components/IronPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/KnowledgebaseLayout.tsx": {
-    "file": "assets/KnowledgebaseLayout-njSUGqcY.js",
+    "file": "assets/KnowledgebaseLayout-BldDyTXV.js",
     "name": "KnowledgebaseLayout",
     "src": "src/components/KnowledgebaseLayout.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/KnowledgebasePage.tsx": {
-    "file": "assets/KnowledgebasePage-BxguF8E8.js",
+    "file": "assets/KnowledgebasePage-DFBofPkh.js",
     "name": "KnowledgebasePage",
     "src": "src/components/KnowledgebasePage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/KnowledgebaseTemplate.tsx": {
-    "file": "assets/KnowledgebaseTemplate-DjAlTdam.js",
+    "file": "assets/KnowledgebaseTemplate-CrsLN0Bs.js",
     "name": "KnowledgebaseTemplate",
     "src": "src/components/KnowledgebaseTemplate.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_glossary-CCccBCne.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
       "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
+      "_radix-D16UFuOl.js",
+      "_icons-CFGF9MOD.js",
       "_remoteManifest-BXlf73Yx.js"
     ]
   },
   "src/components/LandingPage.tsx": {
-    "file": "assets/LandingPage-CvNTGiSu.js",
+    "file": "assets/LandingPage-DNIgan6Q.js",
     "name": "LandingPage",
     "src": "src/components/LandingPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/AffiliateTooltip.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
       "_4bdf2cba5e05e7d70b9f1402336825a64b04e236-C_dfqpke.js",
-      "src/components/images/HeroImage.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
-      "_supplementProductsData-C85v3g5n.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
+      "_supplementProductsData-DftDcS5_.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
       "_remoteManifest-BXlf73Yx.js"
     ],
     "assets": [
@@ -802,888 +722,321 @@
     ]
   },
   "src/components/LegalContactSection.tsx": {
-    "file": "assets/LegalContactSection-DybPbaYR.js",
+    "file": "assets/LegalContactSection-BlNOU8h_.js",
     "name": "LegalContactSection",
     "src": "src/components/LegalContactSection.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/LegalDisclaimerPage.tsx": {
-    "file": "assets/LegalDisclaimerPage-CgqTudKl.js",
+    "file": "assets/LegalDisclaimerPage-DOapirYh.js",
     "name": "LegalDisclaimerPage",
     "src": "src/components/LegalDisclaimerPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/LegalContactSection.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/MagnesiumPageNewV2.tsx": {
-    "file": "assets/MagnesiumPageNewV2-onn7Ogxh.js",
+    "file": "assets/MagnesiumPageNewV2-Bb2XZK31.js",
     "name": "MagnesiumPageNewV2",
     "src": "src/components/MagnesiumPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/MethodologyPage.tsx": {
-    "file": "assets/MethodologyPage-YugRgWHh.js",
+    "file": "assets/MethodologyPage-BP8TpUYH.js",
     "name": "MethodologyPage",
     "src": "src/components/MethodologyPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/MultivitaminPageNewV2.tsx": {
-    "file": "assets/MultivitaminPageNewV2-CzXdTD1L.js",
+    "file": "assets/MultivitaminPageNewV2-4MVmDLqJ.js",
     "name": "MultivitaminPageNewV2",
     "src": "src/components/MultivitaminPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/Omega3PageNewV2.tsx": {
-    "file": "assets/Omega3PageNewV2-Ds8hm1zG.js",
+    "file": "assets/Omega3PageNewV2-CpwxeKHo.js",
     "name": "Omega3PageNewV2",
     "src": "src/components/Omega3PageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/PartnerPage.tsx": {
-    "file": "assets/PartnerPage-Cqw8zp-e.js",
+    "file": "assets/PartnerPage-CoB11f-3.js",
     "name": "PartnerPage",
     "src": "src/components/PartnerPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "_4bdf2cba5e05e7d70b9f1402336825a64b04e236-C_dfqpke.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/PrebioticsPageNewV2.tsx": {
-    "file": "assets/PrebioticsPageNewV2-DvmE-MjO.js",
+    "file": "assets/PrebioticsPageNewV2-CkEUOzcQ.js",
     "name": "PrebioticsPageNewV2",
     "src": "src/components/PrebioticsPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/PrivacyPolicyPage.tsx": {
-    "file": "assets/PrivacyPolicyPage-7dugnnBH.js",
+    "file": "assets/PrivacyPolicyPage-DvG-aE7N.js",
     "name": "PrivacyPolicyPage",
     "src": "src/components/PrivacyPolicyPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/LegalContactSection.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/ProbioticsPageNewV2.tsx": {
-    "file": "assets/ProbioticsPageNewV2-DC2uX4nc.js",
+    "file": "assets/ProbioticsPageNewV2-BIkTZiVx.js",
     "name": "ProbioticsPageNewV2",
     "src": "src/components/ProbioticsPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/ProductComparison.tsx": {
-    "file": "assets/ProductComparison-DHybsqy9.js",
+    "file": "assets/ProductComparison-D7uOiWML.js",
     "name": "ProductComparison",
     "src": "src/components/ProductComparison.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
+      "_glossary-CCccBCne.js",
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
       "index.html",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/ProductComparisonWrapper.tsx": {
-    "file": "assets/ProductComparisonWrapper-Bk3hxy34.js",
+    "file": "assets/ProductComparisonWrapper-r6mk_LdW.js",
     "name": "ProductComparisonWrapper",
     "src": "src/components/ProductComparisonWrapper.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/ProductComparison.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
       "index.html"
     ]
   },
   "src/components/SmartImage.tsx": {
-    "file": "assets/SmartImage-BTpn3roc.js",
+    "file": "assets/SmartImage-DsqSxUk4.js",
     "name": "SmartImage",
     "src": "src/components/SmartImage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "_remoteManifest-BXlf73Yx.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/SulforaphanePageNewV2.tsx": {
-    "file": "assets/SulforaphanePageNewV2-BW16ShRL.js",
+    "file": "assets/SulforaphanePageNewV2-CjHZ7-0s.js",
     "name": "SulforaphanePageNewV2",
     "src": "src/components/SulforaphanePageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/SupplementComparisonWidget.tsx": {
-    "file": "assets/SupplementComparisonWidget-Di4OqTjm.js",
+    "file": "assets/SupplementComparisonWidget-5ihdAROn.js",
     "name": "SupplementComparisonWidget",
     "src": "src/components/SupplementComparisonWidget.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ],
     "css": [
       "assets/SupplementComparisonWidget-DSdqX0-U.css"
     ]
   },
   "src/components/TermsOfServicePage.tsx": {
-    "file": "assets/TermsOfServicePage-C53W1fBx.js",
+    "file": "assets/TermsOfServicePage-C_CsuM_M.js",
     "name": "TermsOfServicePage",
     "src": "src/components/TermsOfServicePage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/LegalContactSection.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/TrackedLink.tsx": {
-    "file": "assets/TrackedLink-BJ3w46SK.js",
+    "file": "assets/TrackedLink-DqVu2v4a.js",
     "name": "TrackedLink",
     "src": "src/components/TrackedLink.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/VitaminCHeroIllustration.tsx": {
-    "file": "assets/VitaminCHeroIllustration-BHU9oRa7.js",
+    "file": "assets/VitaminCHeroIllustration--Hkzbdic.js",
     "name": "VitaminCHeroIllustration",
     "src": "src/components/VitaminCHeroIllustration.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/VitaminCPageNewV2.tsx": {
-    "file": "assets/VitaminCPageNewV2-DsKCn2qL.js",
+    "file": "assets/VitaminCPageNewV2-CWwgj3rG.js",
     "name": "VitaminCPageNewV2",
     "src": "src/components/VitaminCPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/VitaminDPageNewV2.tsx": {
-    "file": "assets/VitaminDPageNewV2-BUe3IAtl.js",
+    "file": "assets/VitaminDPageNewV2-BouyYKx0.js",
     "name": "VitaminDPageNewV2",
     "src": "src/components/VitaminDPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   },
   "src/components/WhatToExpectSection.tsx": {
-    "file": "assets/WhatToExpectSection-CPqri2Cx.js",
+    "file": "assets/WhatToExpectSection-BFRTdMMX.js",
     "name": "WhatToExpectSection",
     "src": "src/components/WhatToExpectSection.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
+      "_glossary-CCccBCne.js",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js"
     ]
   },
   "src/components/WheyProteinPageNewV2.tsx": {
-    "file": "assets/WheyProteinPageNewV2-CBv9gt0F.js",
+    "file": "assets/WheyProteinPageNewV2-IqV8Eiah.js",
     "name": "WheyProteinPageNewV2",
     "src": "src/components/WheyProteinPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_glossary-v5D13tJy.js",
+      "_glossary-CCccBCne.js",
       "src/components/KnowledgebaseTemplate.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/figma/ImageWithFallback.tsx",
-      "src/components/images/SectionImage.tsx",
-      "src/components/images/ProductImage.tsx",
+      "_icons-CFGF9MOD.js",
+      "_radix-D16UFuOl.js",
+      "_ImageWithFallback-B5lZAGzu.js",
+      "_supplementProductsData-DftDcS5_.js",
       "_remoteManifest-BXlf73Yx.js",
       "src/components/WhatToExpectSection.tsx",
-      "_IHerbBadgeLogoRgb1-106-1526-DokLj72A.js",
-      "_supplementProductsData-C85v3g5n.js",
-      "src/components/AffiliateTooltip.tsx",
-      "src/components/ui/collapsible.tsx"
-    ]
-  },
-  "src/components/figma/ImageWithFallback.tsx": {
-    "file": "assets/ImageWithFallback-BlYc-X6H.js",
-    "name": "ImageWithFallback",
-    "src": "src/components/figma/ImageWithFallback.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/images/HeroImage.tsx": {
-    "file": "assets/HeroImage-B_1QqJOM.js",
-    "name": "HeroImage",
-    "src": "src/components/images/HeroImage.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/images/ProductImage.tsx": {
-    "file": "assets/ProductImage-QdJuQW57.js",
-    "name": "ProductImage",
-    "src": "src/components/images/ProductImage.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_remoteManifest-BXlf73Yx.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/images/SectionImage.tsx": {
-    "file": "assets/SectionImage-DBSczu-n.js",
-    "name": "SectionImage",
-    "src": "src/components/images/SectionImage.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/accordion.tsx": {
-    "file": "assets/accordion-DYy98nTr.js",
-    "name": "accordion",
-    "src": "src/components/ui/accordion.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/alert-dialog.tsx": {
-    "file": "assets/alert-dialog-CVQs7bOI.js",
-    "name": "alert-dialog",
-    "src": "src/components/ui/alert-dialog.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/ui/button.tsx",
-      "_icons-qhhM7VlH.js",
-      "_index-_MMP3fwF.js"
-    ]
-  },
-  "src/components/ui/alert.tsx": {
-    "file": "assets/alert-YG1wzK2f.js",
-    "name": "alert",
-    "src": "src/components/ui/alert.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_index-_MMP3fwF.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/aspect-ratio.tsx": {
-    "file": "assets/aspect-ratio-CF5x3izB.js",
-    "name": "aspect-ratio",
-    "src": "src/components/ui/aspect-ratio.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/avatar.tsx": {
-    "file": "assets/avatar-POExOJKW.js",
-    "name": "avatar",
-    "src": "src/components/ui/avatar.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/badge.tsx": {
-    "file": "assets/badge-BvTVFniH.js",
-    "name": "badge",
-    "src": "src/components/ui/badge.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/breadcrumb.tsx": {
-    "file": "assets/breadcrumb-CnaBO5Gw.js",
-    "name": "breadcrumb",
-    "src": "src/components/ui/breadcrumb.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/button.tsx": {
-    "file": "assets/button-BD21kJB5.js",
-    "name": "button",
-    "src": "src/components/ui/button.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/calendar.tsx": {
-    "file": "assets/calendar-oyQLpTPu.js",
-    "name": "calendar",
-    "src": "src/components/ui/calendar.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "src/components/ui/button.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js"
-    ]
-  },
-  "src/components/ui/card.tsx": {
-    "file": "assets/card-aCp1l-IT.js",
-    "name": "card",
-    "src": "src/components/ui/card.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/carousel.tsx": {
-    "file": "assets/carousel-CT6tNQAq.js",
-    "name": "carousel",
-    "src": "src/components/ui/carousel.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "src/components/ui/button.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js"
-    ]
-  },
-  "src/components/ui/chart.tsx": {
-    "file": "assets/chart-CRpPQE-r.js",
-    "name": "chart",
-    "src": "src/components/ui/chart.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/checkbox.tsx": {
-    "file": "assets/checkbox-DWYcz76o.js",
-    "name": "checkbox",
-    "src": "src/components/ui/checkbox.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/collapsible.tsx": {
-    "file": "assets/collapsible-OdPc4on6.js",
-    "name": "collapsible",
-    "src": "src/components/ui/collapsible.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/command.tsx": {
-    "file": "assets/command-M7GBRL20.js",
-    "name": "command",
-    "src": "src/components/ui/command.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/ui/dialog.tsx",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/context-menu.tsx": {
-    "file": "assets/context-menu-CB-Altas.js",
-    "name": "context-menu",
-    "src": "src/components/ui/context-menu.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/dialog.tsx": {
-    "file": "assets/dialog-CvhomAc3.js",
-    "name": "dialog",
-    "src": "src/components/ui/dialog.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/drawer.tsx": {
-    "file": "assets/drawer-COWiCxkf.js",
-    "name": "drawer",
-    "src": "src/components/ui/drawer.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/dropdown-menu.tsx": {
-    "file": "assets/dropdown-menu-CdjxPaUV.js",
-    "name": "dropdown-menu",
-    "src": "src/components/ui/dropdown-menu.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/form.tsx": {
-    "file": "assets/form-eZ_IL7TC.js",
-    "name": "form",
-    "src": "src/components/ui/form.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/ui/label.tsx",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/input-otp.tsx": {
-    "file": "assets/input-otp-BfoCv6Vq.js",
-    "name": "input-otp",
-    "src": "src/components/ui/input-otp.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/label.tsx": {
-    "file": "assets/label-BWc0nxZJ.js",
-    "name": "label",
-    "src": "src/components/ui/label.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/menubar.tsx": {
-    "file": "assets/menubar-F7F7imK-.js",
-    "name": "menubar",
-    "src": "src/components/ui/menubar.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/navigation-menu.tsx": {
-    "file": "assets/navigation-menu-BerIUDl2.js",
-    "name": "navigation-menu",
-    "src": "src/components/ui/navigation-menu.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/pagination.tsx": {
-    "file": "assets/pagination-CEkh0QSB.js",
-    "name": "pagination",
-    "src": "src/components/ui/pagination.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "src/components/ui/button.tsx",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js"
-    ]
-  },
-  "src/components/ui/popover.tsx": {
-    "file": "assets/popover-CmzWIffN.js",
-    "name": "popover",
-    "src": "src/components/ui/popover.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/progress.tsx": {
-    "file": "assets/progress-CjKUlZZ9.js",
-    "name": "progress",
-    "src": "src/components/ui/progress.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/radio-group.tsx": {
-    "file": "assets/radio-group-2CjTpmbx.js",
-    "name": "radio-group",
-    "src": "src/components/ui/radio-group.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/resizable.tsx": {
-    "file": "assets/resizable-CPdK4OBk.js",
-    "name": "resizable",
-    "src": "src/components/ui/resizable.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/scroll-area.tsx": {
-    "file": "assets/scroll-area-B353U268.js",
-    "name": "scroll-area",
-    "src": "src/components/ui/scroll-area.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/select.tsx": {
-    "file": "assets/select-BEbMc22w.js",
-    "name": "select",
-    "src": "src/components/ui/select.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/separator.tsx": {
-    "file": "assets/separator-C_A4YYq0.js",
-    "name": "separator",
-    "src": "src/components/ui/separator.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/sidebar.tsx": {
-    "file": "assets/sidebar-DQZ5EPYA.js",
-    "name": "sidebar",
-    "src": "src/components/ui/sidebar.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js",
-      "src/components/ui/button.tsx",
-      "src/components/ui/separator.tsx",
-      "src/components/ui/skeleton.tsx",
-      "src/components/ui/tooltip.tsx",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/skeleton.tsx": {
-    "file": "assets/skeleton-DcsD8qQv.js",
-    "name": "skeleton",
-    "src": "src/components/ui/skeleton.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/slider.tsx": {
-    "file": "assets/slider-KQac9NJg.js",
-    "name": "slider",
-    "src": "src/components/ui/slider.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/sonner.tsx": {
-    "file": "assets/sonner-BuH6j7_o.js",
-    "name": "sonner",
-    "src": "src/components/ui/sonner.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/switch.tsx": {
-    "file": "assets/switch-SisU_nW_.js",
-    "name": "switch",
-    "src": "src/components/ui/switch.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/table.tsx": {
-    "file": "assets/table-GjvVgKQy.js",
-    "name": "table",
-    "src": "src/components/ui/table.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/tabs.tsx": {
-    "file": "assets/tabs-Daf9jnS1.js",
-    "name": "tabs",
-    "src": "src/components/ui/tabs.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/textarea.tsx": {
-    "file": "assets/textarea-BcksVQzV.js",
-    "name": "textarea",
-    "src": "src/components/ui/textarea.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_icons-qhhM7VlH.js",
-      "_radix-BvTHRP3Q.js"
-    ]
-  },
-  "src/components/ui/toggle-group.tsx": {
-    "file": "assets/toggle-group-CtVctbgQ.js",
-    "name": "toggle-group",
-    "src": "src/components/ui/toggle-group.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "src/components/ui/toggle.tsx",
-      "_icons-qhhM7VlH.js",
-      "_index-_MMP3fwF.js"
-    ]
-  },
-  "src/components/ui/toggle.tsx": {
-    "file": "assets/toggle-CMsGVglu.js",
-    "name": "toggle",
-    "src": "src/components/ui/toggle.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_index-_MMP3fwF.js",
-      "_icons-qhhM7VlH.js"
-    ]
-  },
-  "src/components/ui/tooltip.tsx": {
-    "file": "assets/tooltip-DRzuavE4.js",
-    "name": "tooltip",
-    "src": "src/components/ui/tooltip.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_glossary-v5D13tJy.js",
-      "_radix-BvTHRP3Q.js",
-      "_icons-qhhM7VlH.js"
+      "_IHerbBadgeLogoRgb1-106-1526-Bsglxk8A.js",
+      "src/components/AffiliateTooltip.tsx"
     ]
   }
 }

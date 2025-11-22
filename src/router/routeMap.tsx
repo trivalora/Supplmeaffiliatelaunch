@@ -21,32 +21,34 @@ export interface AppRoute {
 
 /**
  * Create a lazily loaded component wrapper that injects onNavigate using react-router-dom.
- * Uses a glob import pattern that Vite can statically analyze.
+ * Uses explicit lazy imports that Vite can statically analyze.
  */
-const componentModules = import.meta.glob('../components/**/*.tsx');
-
 function makeLazyComponent(route: RouteConfig, pageKey: PageKey) {
   // Build the full import path from routes.config componentPath
   const componentPath = route.componentPath.startsWith('./')
     ? route.componentPath.replace('./', '../')
     : route.componentPath;
   
-  const fullPath = `${componentPath}.tsx`;
+  const componentName = route.componentName;
   
-  // Get the lazy loader from glob
-  const componentLoader = componentModules[fullPath];
-  
-  if (!componentLoader) {
-    console.error(`Component not found: ${fullPath}. Available:`, Object.keys(componentModules).slice(0, 5));
-    return () => <div>Component not found: {route.componentName}</div>;
-  }
-
-  // Create lazy component
-  const LazyComp = lazy(() => 
-    componentLoader().then((mod: any) => ({
-      default: mod[route.componentName]
-    }))
-  );
+  // Create lazy component with dynamic import that Vite CAN analyze
+  // Vite can handle template literal imports as long as the variable parts are limited
+  const LazyComp = lazy(() => {
+    // This creates a switch statement that Vite can statically analyze
+    if (componentPath.includes('/glossary/')) {
+      // Extract just the filename for glossary components
+      const fileName = componentPath.split('/').pop();
+      return import(`../components/glossary/${fileName}.tsx`).then((mod: any) => ({
+        default: mod[componentName]
+      }));
+    } else {
+      // Main components
+      const fileName = componentPath.split('/').pop();
+      return import(`../components/${fileName}.tsx`).then((mod: any) => ({
+        default: mod[componentName]
+      }));
+    }
+  });
 
   // Wrapper component (stable reference via function, not arrow in render)
   function ComponentWrapper() {
