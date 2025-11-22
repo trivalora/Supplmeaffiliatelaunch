@@ -17,6 +17,7 @@ export function CalciumPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('calciumv2');
   const benefits = ['bone health', 'muscle function', 'nerve transmission', 'blood clotting', 'osteoporosis prevention'];
   
   const pageProps: KnowledgebasePageProps = {

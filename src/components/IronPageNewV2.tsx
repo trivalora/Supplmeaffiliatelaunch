@@ -17,6 +17,7 @@ export function IronPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('ironv2');
   const benefits = ['energy levels', 'oxygen transport', 'anemia prevention', 'cognitive function', 'immune support'];
   
   const pageProps: KnowledgebasePageProps = {

@@ -17,6 +17,7 @@ export function MultivitaminPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('multivitaminv2');
   const benefits = ['nutrient insurance', 'immune support', 'energy metabolism', 'overall wellness', 'deficiency prevention'];
   
   const pageProps: KnowledgebasePageProps = {

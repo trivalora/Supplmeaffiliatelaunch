@@ -16,6 +16,7 @@ export function WheyProteinPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('wheyproteinv2');
   const benefits = ['muscle growth', 'recovery', 'protein synthesis', 'strength gains', 'satiety'];
   
   const pageProps: KnowledgebasePageProps = {

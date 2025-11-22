@@ -16,6 +16,7 @@ export function VitaminCPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('vitamincv2');
   const benefits = ['immune support', 'antioxidant protection', 'collagen synthesis', 'iron absorption', 'skin health'];
   
   const pageProps: KnowledgebasePageProps = {

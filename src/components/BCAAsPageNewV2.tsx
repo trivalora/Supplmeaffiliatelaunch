@@ -17,6 +17,7 @@ export function BCAAsPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('bcaasv2');
   const benefits = ['muscle recovery', 'exercise performance', 'muscle protein synthesis', 'fatigue reduction', 'muscle soreness'];
   
   const pageProps: KnowledgebasePageProps = {

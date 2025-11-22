@@ -16,6 +16,7 @@ export function PrebioticsPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('prebioticsv2');
   const benefits = ['gut microbiome health', 'digestive support', 'immune function', 'mineral absorption', 'metabolic health'];
   
   const pageProps: KnowledgebasePageProps = {

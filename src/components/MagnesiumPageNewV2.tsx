@@ -16,6 +16,7 @@ export function MagnesiumPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('magnesiumv2');
   const benefits = ['blood pressure reduction', 'glucose metabolism', 'sleep quality', 'muscle function', 'bone health'];
   
   const pageProps: KnowledgebasePageProps = {

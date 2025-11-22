@@ -16,6 +16,7 @@ export function SulforaphanePageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('sulforaphanev2');
   const benefits = ['antioxidant support', 'detoxification', 'inflammation reduction', 'neuroprotection', 'cellular health'];
   
   const pageProps: KnowledgebasePageProps = {

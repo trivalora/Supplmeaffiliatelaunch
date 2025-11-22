@@ -18,6 +18,7 @@ export function VitaminDPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('vitamindv2');
   const benefits = ['bone health', 'immune function', 'mood support', 'cardiovascular health', 'muscle function'];
   
   const pageProps: KnowledgebasePageProps = {

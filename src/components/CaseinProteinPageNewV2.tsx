@@ -18,6 +18,7 @@ export function CaseinProteinPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('caseinproteinv2');
   const benefits = ['sustained protein release', 'muscle preservation', 'overnight recovery', 'satiety', 'lean muscle growth'];
   
   const pageProps: KnowledgebasePageProps = {

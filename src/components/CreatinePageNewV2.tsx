@@ -18,6 +18,7 @@ export function CreatinePageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('creatinev2');
   const benefits = ['muscle strength', 'exercise performance', 'muscle mass', 'cognitive function', 'power output'];
   
   const pageProps: KnowledgebasePageProps = {

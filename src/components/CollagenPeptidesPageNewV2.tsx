@@ -18,6 +18,7 @@ export function CollagenPeptidesPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('collagenpeptidesv2');
   const benefits = ['skin elasticity', 'joint health', 'bone density', 'wound healing', 'hair and nail health'];
   
   const pageProps: KnowledgebasePageProps = {

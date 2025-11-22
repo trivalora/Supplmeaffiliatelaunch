@@ -18,6 +18,7 @@ export function AshwagandhaPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('ashwagandhav2');
   const benefits = ['stress reduction', 'anxiety relief', 'cortisol management', 'sleep quality', 'cognitive function'];
   
   const pageProps: KnowledgebasePageProps = {

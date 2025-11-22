@@ -23,18 +23,6 @@
       "_vendor-R3aKYYGL.js"
     ]
   },
-  "_KnowledgebaseTemplate-Dqp71O6Z.js": {
-    "file": "assets/KnowledgebaseTemplate-Dqp71O6Z.js",
-    "name": "KnowledgebaseTemplate",
-    "imports": [
-      "_vendor-R3aKYYGL.js",
-      "_ImageWithFallback-B9wkFjIC.js",
-      "_supplementProductsData-DZRcvlhu.js",
-      "_AffiliateTooltip-B3ToMu7a.js",
-      "_glossary-ChPuq_Wo.js",
-      "_radix-Dqh-VUx5.js"
-    ]
-  },
   "_LegalContactSection-vIceehNj.js": {
     "file": "assets/LegalContactSection-vIceehNj.js",
     "name": "LegalContactSection",
@@ -86,12 +74,24 @@
       "_vendor-R3aKYYGL.js"
     ]
   },
+  "_useStructuredData-Yviakoqb.js": {
+    "file": "assets/useStructuredData-Yviakoqb.js",
+    "name": "useStructuredData",
+    "imports": [
+      "_vendor-R3aKYYGL.js",
+      "_ImageWithFallback-B9wkFjIC.js",
+      "_supplementProductsData-DZRcvlhu.js",
+      "_AffiliateTooltip-B3ToMu7a.js",
+      "_glossary-ChPuq_Wo.js",
+      "_radix-Dqh-VUx5.js"
+    ]
+  },
   "_vendor-R3aKYYGL.js": {
     "file": "assets/vendor-R3aKYYGL.js",
     "name": "vendor"
   },
   "index.html": {
-    "file": "assets/index-OeAK9wbV.js",
+    "file": "assets/index-J_AT8rCE.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -475,13 +475,13 @@
     ]
   },
   "src/components/AshwagandhaPageNewV2.tsx": {
-    "file": "assets/AshwagandhaPageNewV2-D3jkAs2S.js",
+    "file": "assets/AshwagandhaPageNewV2-BkAjt4NU.js",
     "name": "AshwagandhaPageNewV2",
     "src": "src/components/AshwagandhaPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -490,13 +490,13 @@
     ]
   },
   "src/components/BCAAsPageNewV2.tsx": {
-    "file": "assets/BCAAsPageNewV2-oER5mn9X.js",
+    "file": "assets/BCAAsPageNewV2-BSjVw92m.js",
     "name": "BCAAsPageNewV2",
     "src": "src/components/BCAAsPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -505,13 +505,13 @@
     ]
   },
   "src/components/CalciumPageNewV2.tsx": {
-    "file": "assets/CalciumPageNewV2-BKCfYmdJ.js",
+    "file": "assets/CalciumPageNewV2-th03cMqg.js",
     "name": "CalciumPageNewV2",
     "src": "src/components/CalciumPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -520,13 +520,13 @@
     ]
   },
   "src/components/CaseinProteinPageNewV2.tsx": {
-    "file": "assets/CaseinProteinPageNewV2-D0SCfSll.js",
+    "file": "assets/CaseinProteinPageNewV2-CatUoEbI.js",
     "name": "CaseinProteinPageNewV2",
     "src": "src/components/CaseinProteinPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -535,13 +535,13 @@
     ]
   },
   "src/components/CollagenPeptidesPageNewV2.tsx": {
-    "file": "assets/CollagenPeptidesPageNewV2-gwjnJlb8.js",
+    "file": "assets/CollagenPeptidesPageNewV2-ScEEPHcV.js",
     "name": "CollagenPeptidesPageNewV2",
     "src": "src/components/CollagenPeptidesPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -573,13 +573,13 @@
     ]
   },
   "src/components/CreatinePageNewV2.tsx": {
-    "file": "assets/CreatinePageNewV2-Bgp0vQxq.js",
+    "file": "assets/CreatinePageNewV2-SBvhduGv.js",
     "name": "CreatinePageNewV2",
     "src": "src/components/CreatinePageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -588,13 +588,13 @@
     ]
   },
   "src/components/CurcuminPageNewV2.tsx": {
-    "file": "assets/CurcuminPageNewV2-C5Qj1eNn.js",
+    "file": "assets/CurcuminPageNewV2-DNeAN1m_.js",
     "name": "CurcuminPageNewV2",
     "src": "src/components/CurcuminPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -626,13 +626,13 @@
     ]
   },
   "src/components/IronPageNewV2.tsx": {
-    "file": "assets/IronPageNewV2-DGHsdBec.js",
+    "file": "assets/IronPageNewV2-CXa-IN_7.js",
     "name": "IronPageNewV2",
     "src": "src/components/IronPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -682,13 +682,13 @@
     ]
   },
   "src/components/MagnesiumPageNewV2.tsx": {
-    "file": "assets/MagnesiumPageNewV2-B-pqjvgv.js",
+    "file": "assets/MagnesiumPageNewV2-D6tTqwHJ.js",
     "name": "MagnesiumPageNewV2",
     "src": "src/components/MagnesiumPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -708,13 +708,13 @@
     ]
   },
   "src/components/MultivitaminPageNewV2.tsx": {
-    "file": "assets/MultivitaminPageNewV2-CTf1R7VT.js",
+    "file": "assets/MultivitaminPageNewV2-Bkepd7LP.js",
     "name": "MultivitaminPageNewV2",
     "src": "src/components/MultivitaminPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -723,13 +723,13 @@
     ]
   },
   "src/components/Omega3PageNewV2.tsx": {
-    "file": "assets/Omega3PageNewV2-2BQCOExG.js",
+    "file": "assets/Omega3PageNewV2-BGOSmVW9.js",
     "name": "Omega3PageNewV2",
     "src": "src/components/Omega3PageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -750,13 +750,13 @@
     ]
   },
   "src/components/PrebioticsPageNewV2.tsx": {
-    "file": "assets/PrebioticsPageNewV2-u4hkm2Dp.js",
+    "file": "assets/PrebioticsPageNewV2-BtmQLMeo.js",
     "name": "PrebioticsPageNewV2",
     "src": "src/components/PrebioticsPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -777,13 +777,13 @@
     ]
   },
   "src/components/ProbioticsPageNewV2.tsx": {
-    "file": "assets/ProbioticsPageNewV2-CmK-k6RR.js",
+    "file": "assets/ProbioticsPageNewV2-CUcstAsv.js",
     "name": "ProbioticsPageNewV2",
     "src": "src/components/ProbioticsPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -829,13 +829,13 @@
     ]
   },
   "src/components/SulforaphanePageNewV2.tsx": {
-    "file": "assets/SulforaphanePageNewV2-CjOtmbv2.js",
+    "file": "assets/SulforaphanePageNewV2-CfHq4MIn.js",
     "name": "SulforaphanePageNewV2",
     "src": "src/components/SulforaphanePageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -856,13 +856,13 @@
     ]
   },
   "src/components/VitaminCPageNewV2.tsx": {
-    "file": "assets/VitaminCPageNewV2-Ci6iCn_M.js",
+    "file": "assets/VitaminCPageNewV2-DLCwywAw.js",
     "name": "VitaminCPageNewV2",
     "src": "src/components/VitaminCPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -871,13 +871,13 @@
     ]
   },
   "src/components/VitaminDPageNewV2.tsx": {
-    "file": "assets/VitaminDPageNewV2-B885ZhK9.js",
+    "file": "assets/VitaminDPageNewV2-DxbECwSU.js",
     "name": "VitaminDPageNewV2",
     "src": "src/components/VitaminDPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",
@@ -886,13 +886,13 @@
     ]
   },
   "src/components/WheyProteinPageNewV2.tsx": {
-    "file": "assets/WheyProteinPageNewV2-ymilghTc.js",
+    "file": "assets/WheyProteinPageNewV2-BC2TMIP4.js",
     "name": "WheyProteinPageNewV2",
     "src": "src/components/WheyProteinPageNewV2.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-R3aKYYGL.js",
-      "_KnowledgebaseTemplate-Dqp71O6Z.js",
+      "_useStructuredData-Yviakoqb.js",
       "_glossary-ChPuq_Wo.js",
       "_ImageWithFallback-B9wkFjIC.js",
       "_supplementProductsData-DZRcvlhu.js",

@@ -16,6 +16,7 @@ export function CurcuminPageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('curcuminv2');
   const benefits = ['inflammation reduction', 'joint health', 'antioxidant support', 'brain health', 'pain relief'];
   
   const pageProps: KnowledgebasePageProps = {

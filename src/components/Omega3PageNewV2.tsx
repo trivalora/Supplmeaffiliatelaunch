@@ -18,6 +18,7 @@ export function Omega3PageNewV2({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
+  const structuredData = useStructuredData('omega3v2');
   const benefits = ['heart health', 'brain function', 'inflammation reduction', 'eye health', 'triglyceride reduction'];
   
   const pageProps: KnowledgebasePageProps = {
