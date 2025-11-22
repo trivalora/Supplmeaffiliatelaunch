@@ -436,8 +436,42 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
 // ========================================
 // POPULAR COMPARISONS SECTION
 // ========================================
-function AffiliateButtonsLP({ amazonLink, iherbLink }: { amazonLink: string; iherbLink: string }) {
+function AffiliateButtonsLP({ 
+  amazonLink, 
+  iherbLink, 
+  supplementName, 
+  onNavigate 
+}: { 
+  amazonLink: string; 
+  iherbLink: string; 
+  supplementName: string;
+  onNavigate: (page: PageKey) => void;
+}) {
   const tooltipHandlers = useAffiliateTooltip();
+
+  // Map supplement names to comparison page keys
+  const getComparisonPageKey = (name: string): PageKey => {
+    const mapping: Record<string, string> = {
+      'multivitamin': 'multivitamin-comparison',
+      'vitamin d': 'vitamin-d-comparison',
+      'omega-3': 'omega-3-comparison',
+      'creatine': 'creatine-comparison',
+      'magnesium': 'magnesium-comparison',
+      'vitamin c': 'vitamin-c-comparison',
+      'calcium': 'calcium-comparison',
+      'iron': 'iron-comparison',
+      'probiotics': 'probiotics-comparison',
+      'whey': 'whey-comparison',
+      'casein': 'casein-comparison',
+      'collagen': 'collagen-comparison',
+      'ashwagandha': 'ashwagandha-comparison',
+      'curcumin': 'curcumin-comparison',
+      'bcaas': 'bcaas-comparison',
+      'prebiotics': 'prebiotics-comparison',
+      'sulforaphane': 'sulforaphane-comparison'
+    };
+    return (mapping[name.toLowerCase()] || 'multivitamin-comparison') as PageKey;
+  };
 
   return (
     <div className="flex gap-2 w-full">
@@ -480,7 +514,10 @@ function AffiliateButtonsLP({ amazonLink, iherbLink }: { amazonLink: string; ihe
       <button
         data-button-height="md"
         className="flex-1 px-4 rounded-lg transition-opacity hover:opacity-90 text-center bg-tertiary border border-secondary text-sm flex items-center justify-center whitespace-nowrap font-medium"
-        onClick={() => onNavigate('productComparison' as PageKey)}
+        onClick={(e) => {
+          e.stopPropagation();
+          onNavigate(getComparisonPageKey(supplementName));
+        }}
       >
         Compare All
       </button>
@@ -493,26 +530,32 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
   const supplements = [
     {
       ...getProductsBySupplementName('multivitamin')[1], // Life Extension Two-Per-Day
+      supplementName: 'multivitamin',
       onClick: () => onNavigate('multivitaminv2' as PageKey)
     },
     {
       ...getProductsBySupplementName('vitamin d')[1], // California Gold Nutrition Vitamin D3
+      supplementName: 'vitamin d',
       onClick: () => onNavigate('vitamindv2' as PageKey)
     },
     {
       ...getProductsBySupplementName('omega-3')[1], // California Gold Nutrition Omega-3
+      supplementName: 'omega-3',
       onClick: () => onNavigate('omega3v2' as PageKey)
     },
     {
       ...getProductsBySupplementName('creatine')[1], // California Gold Nutrition Creatine
+      supplementName: 'creatine',
       onClick: () => onNavigate('creatinev2' as PageKey)
     },
     {
       ...getProductsBySupplementName('magnesium')[1], // Doctor's Best Magnesium
+      supplementName: 'magnesium',
       onClick: () => onNavigate('magnesiumv2' as PageKey)
     },
     {
       ...getProductsBySupplementName('vitamin c')[1], // California Gold Nutrition Vitamin C
+      supplementName: 'vitamin c',
       onClick: () => onNavigate('vitamincv2' as PageKey)
     }
   ];
@@ -612,6 +655,8 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
                   <AffiliateButtonsLP
                     amazonLink={supplement.amazonLink}
                     iherbLink={supplement.iherbLink}
+                    supplementName={supplement.supplementName}
+                    onNavigate={onNavigate}
                   />
                 </div>
               </div>

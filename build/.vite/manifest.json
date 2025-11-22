@@ -91,7 +91,7 @@
     "name": "vendor"
   },
   "index.html": {
-    "file": "assets/index-BIOQmxgZ.js",
+    "file": "assets/index-DVroQDTb.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -652,7 +652,7 @@
     ]
   },
   "src/components/LandingPage.tsx": {
-    "file": "assets/LandingPage-m6rM7oMU.js",
+    "file": "assets/LandingPage-BmYIj8Ao.js",
     "name": "LandingPage",
     "src": "src/components/LandingPage.tsx",
     "isDynamicEntry": true,
