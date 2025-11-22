@@ -916,7 +916,7 @@ function AffiliateButtons({
           };
           
           const jsonFileName = supplementMapping[supplementId] || supplementId;
-          // Use window.location to ensure URL parameter is passed correctly
+          // Navigate to product comparison page with supplement query parameter
           window.location.href = `/product-comparison?supplement=${jsonFileName}`;
         }}
         data-button-height="md"

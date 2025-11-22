@@ -120,9 +120,7 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
                   key={`compare-${supp.id}`}
                   onClick={() => {
                     trackSearchResultClick(query, `Compare ${supp.name} prices`, idx + 1);
-                    // We need to navigate and let the router handle the URL
-                    // The onNavigate callback should be from React Router's navigate function
-                    // For now, we'll use window.location to ensure the parameter is passed
+                    // Navigate to product comparison page with supplement query parameter
                     window.location.href = `/product-comparison?supplement=${supp.id}`;
                   }}
                   className="px-4 py-3 cursor-pointer transition-all duration-200 border-b border-secondary/10 last:border-b-0 group"

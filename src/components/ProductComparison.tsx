@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { PageKey } from '../routes.config';
@@ -43,6 +44,8 @@ interface ProductData {
 }
 
 export function ProductComparison({ onNavigate, initialSupplement }: ProductComparisonProps) {
+  const location = useLocation();
+  const reactNavigate = useNavigate();
   const [currentData, setCurrentData] = useState<any[] | null>(null);
   const [currentSupplement, setCurrentSupplement] = useState<string | null>(initialSupplement || null);
   const [filters, setFilters] = useState<Record<string, any>>({});
@@ -55,35 +58,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Load supplement data from URL params or initialSupplement
+  // Load supplement data from URL params - watch for location changes
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
+    const urlParams = new URLSearchParams(location.search);
     const supplementFromUrl = urlParams.get('supplement');
     const supplementToLoad = supplementFromUrl || initialSupplement;
     
     if (supplementToLoad && supplementToLoad !== currentSupplement) {
       loadSupplement(supplementToLoad);
     }
-  }, [initialSupplement, currentSupplement]);
-
-  // Watch for URL changes (for browser back/forward and external URL changes)
-  useEffect(() => {
-    const handlePopState = () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const supplementFromUrl = urlParams.get('supplement');
-      if (supplementFromUrl && supplementFromUrl !== currentSupplement) {
-        loadSupplement(supplementFromUrl);
-      }
-    };
-
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, [currentSupplement]);
+  }, [location.search, initialSupplement, currentSupplement]);
 
   async function loadSupplement(supplement: string) {
     setCurrentSupplement(supplement);
     setLoading(true);
     setError(null);
+    
+    // Update URL with the supplement parameter using React Router
+    reactNavigate(`/product-comparison?supplement=${supplement}`, { replace: false });
     
     try {
       const response = await fetch(`/api/products/supplements/${supplement}.json`);
