@@ -166,8 +166,8 @@ const AdverseEffectsPage = lazy(() => import('./components/glossary/AdverseEffec
 const ContraindicationsPage = lazy(() => import('./components/glossary/ContraindicationsPage').then(m => ({ default: m.ContraindicationsPage })));
 const DrugInteractionsPage = lazy(() => import('./components/glossary/DrugInteractionsPage').then(m => ({ default: m.DrugInteractionsPage })));
 const SublingualPage = lazy(() => import('./components/glossary/SublingualPage').then(m => ({ default: m.SublingualPage })));
-const MetabolicSyndromePage = lazy(() => import('./components/glossary/MetabolicSyndromePage').then(m => ({ default: m.default })));
-const HOMAIRPage = lazy(() => import('./components/glossary/HOMAIRPage').then(m => ({ default: m.default })));
+const MetabolicSyndromePage = lazy(() => import('./components/glossary/MetabolicSyndromePage').then(m => ({ default: m.MetabolicSyndromePage })));
+const HOMAIRPage = lazy(() => import('./components/glossary/HOMAIRPage').then(m => ({ default: m.HOMAIRPage })));
 const AtherosclerosisPage = lazy(() => import('./components/glossary/AtherosclerosisPage').then(m => ({ default: m.AtherosclerosisPage })));
 const PancreatitisPage = lazy(() => import('./components/glossary/PancreatitisPage').then(m => ({ default: m.PancreatitisPage })));
 const RheumatoidArthritisPage = lazy(() => import('./components/glossary/RheumatoidArthritisPage').then(m => ({ default: m.RheumatoidArthritisPage })));
