@@ -325,18 +325,10 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
               <>
                 {/* Controls */}
                 <div className="bg-card rounded-xl p-6 shadow-sm border border-secondary/20 mb-6">
-                  <div className="flex items-center justify-between mb-6">
-                    <button
-                      onClick={() => {
-                        setCurrentSupplement(null);
-                        setCurrentData(null);
-                      }}
-                      className="text-primary hover:opacity-80 transition-opacity"
-                    >
-                      ← Back to Supplements
-                    </button>
-                    <h2 className="text-2xl font-serif text-primary capitalize">{currentSupplement.replace(/-/g, ' ')}</h2>
-                  </div>
+                  {/* Heading */}
+                  <h1 className="text-4xl font-serif text-primary mb-6 capitalize">
+                    Compare All {currentSupplement.replace(/-/g, ' ')} Products
+                  </h1>
 
                   {/* Search Bar */}
                   <div className="mb-4">
@@ -460,6 +452,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                               <th className="text-left p-4 font-medium text-sm w-24">Image</th>
                               <th className="text-left p-4 font-medium text-sm w-32">Best Price</th>
                               <th className="text-left p-4 font-medium text-sm">Product</th>
+                              <th className="text-left p-4 font-medium text-sm w-40">Details</th>
                               <th className="text-left p-4 font-medium text-sm">All Retailers</th>
                             </tr>
                           </thead>
@@ -496,6 +489,20 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                 <td className="p-4">
                                   <div className="font-medium mb-1">{getNormalizedProductName(product)}</div>
                                   <div className="text-sm text-muted-foreground">{product.brand}</div>
+                                </td>
+                                <td className="p-4">
+                                  <div className="space-y-1">
+                                    {product.dosage && (
+                                      <div className="text-sm">
+                                        <span className="font-medium">Dosage:</span> {product.dosage}
+                                      </div>
+                                    )}
+                                    {product.net_contents && (
+                                      <div className="text-sm">
+                                        <span className="font-medium">Contents:</span> {product.net_contents}
+                                      </div>
+                                    )}
+                                  </div>
                                 </td>
                               <td className="p-4">
                                 <div className="flex flex-wrap gap-3">
