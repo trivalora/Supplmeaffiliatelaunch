@@ -157,7 +157,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                   </div>
                   <h3 className="mb-2 text-primary">Product Catalog</h3>
                   <p className="text-foreground">
-                    <strong>51 SKUs live</strong> across 17 supplement categories. Update cadence: <strong>2x/day</strong> (increased during Black Friday and major retail events).
+                    <strong>1,867 SKUs live</strong> across 17 supplement categories. Update cadence: <strong>2x/day</strong> (increased during Black Friday and major retail events).
                   </p>
                 </div>
 
@@ -167,7 +167,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                   </div>
                   <h3 className="mb-2 text-primary">Traffic Plan (0-90 Days)</h3>
                   <p className="text-foreground">
-                    SEO articles: <strong>17+ guides</strong>, Review comparisons: <strong>51 product pages</strong>, Paid testing: <strong>$500/day</strong> budget for targeted campaigns.
+                    SEO articles: <strong>17+ guides</strong>, Review comparisons: <strong>1,867 product pages</strong>, Paid testing: <strong>$500/day</strong> budget for targeted campaigns.
                   </p>
                 </div>
 
