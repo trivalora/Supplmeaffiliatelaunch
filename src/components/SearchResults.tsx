@@ -22,7 +22,7 @@ const AVAILABLE_SUPPLEMENTS = [
   { id: 'multivitamin-comparison', name: 'Multivitamin', keywords: ['multivitamin', 'multi vitamin', 'multi-vitamin'] },
   { id: 'omega-3-comparison', name: 'Omega-3', keywords: ['omega', 'omega 3', 'omega-3', 'fish oil', 'epa', 'dha'] },
   { id: 'prebiotics-comparison', name: 'Prebiotics', keywords: ['prebiotic', 'prebiotics'] },
-  { id: 'probiotics-comparison', name: 'Probiotics', keywords: ['probiotic', 'probiotics'] },
+  // { id: 'probiotics-comparison', name: 'Probiotics', keywords: ['probiotic', 'probiotics'] }, // Temporarily disabled - no pricing data
   { id: 'vitamin-c-comparison', name: 'Vitamin C', keywords: ['vitamin c', 'ascorbic', 'vit c'] },
   { id: 'vitamin-d-comparison', name: 'Vitamin D', keywords: ['vitamin d', 'vit d', 'd3', 'cholecalciferol'] },
   { id: 'whey-protein-comparison', name: 'Whey Protein', keywords: ['whey', 'whey protein'] },
