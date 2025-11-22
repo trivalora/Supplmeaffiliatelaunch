@@ -51,10 +51,8 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
   const [filters, setFilters] = useState<Record<string, any>>({});
   const [activeDietaryFilters, setActiveDietaryFilters] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState('');
-  const [retailerFilter, setRetailerFilter] = useState('');
-  const [multiOnly, setMultiOnly] = useState('all');
   const [sortBy, setSortBy] = useState('price_asc');
-  const [limit, setLimit] = useState(20);
+  const [displayedCount, setDisplayedCount] = useState(25);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -64,6 +62,11 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
       loadSupplement(initialSupplement);
     }
   }, [initialSupplement]);
+
+  // Reset displayed count when search or sort changes
+  useEffect(() => {
+    setDisplayedCount(25);
+  }, [searchQuery, sortBy]);
 
   // Also watch for URL param changes (for legacy /product-comparison?supplement= support)
   useEffect(() => {
@@ -160,8 +163,8 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
     return `buy-button buy-button-${retailerKey}`;
   }
 
-  // Filter and sort products
-  const filteredProducts = currentData ? currentData.filter(product => {
+  // Filter and sort products (don't slice yet - we need full list for filter counts)
+  const allFilteredProducts = currentData ? currentData.filter(product => {
     // Search filter
     if (searchQuery) {
       const searchText = (
@@ -170,16 +173,6 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
         (product.retailer_prices?.map((r: any) => r.retailer).join(' ') || '')
       ).toLowerCase();
       if (!searchText.includes(searchQuery.toLowerCase())) return false;
-    }
-    
-    // Retailer filter
-    if (retailerFilter && product.retailer_prices && !product.retailer_prices.some((r: any) => r.retailer === retailerFilter)) {
-      return false;
-    }
-    
-    // Multi-retailer filter
-    if (multiOnly === 'multi' && (!product.retailer_prices || product.retailer_prices.length === 1)) {
-      return false;
     }
     
     // Dietary filters - product must match ALL active filters
@@ -208,7 +201,10 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
       default:
         return 0;
     }
-  }).slice(0, limit) : [];
+  }) : [];
+
+  // Slice for display
+  const filteredProducts = allFilteredProducts.slice(0, displayedCount);
 
   function calculateSavings(product: any) {
     if (!product.retailer_prices || product.retailer_prices.length < 2) return 0;
@@ -227,10 +223,11 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
       newFilters.add(filterKey);
     }
     setActiveDietaryFilters(newFilters);
+    setDisplayedCount(25); // Reset to initial display count when filters change
   }
 
-  // Calculate reactive filter counts based on currently filtered products
-  // Each filter shows how many products would remain if ONLY that filter were toggled
+  // Calculate reactive filter counts based on ALL products (not just displayed)
+  // Each filter shows how many products would match across the entire dataset
   const calculateReactiveFilterCounts = () => {
     if (!currentData) return {};
     
@@ -253,16 +250,6 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
             (product.retailer_prices?.map((r: any) => r.retailer).join(' ') || '')
           ).toLowerCase();
           if (!searchText.includes(searchQuery.toLowerCase())) continue;
-        }
-        
-        // Apply retailer filter
-        if (retailerFilter && product.retailer_prices && !product.retailer_prices.some((r: any) => r.retailer === retailerFilter)) {
-          continue;
-        }
-        
-        // Apply multi-retailer filter
-        if (multiOnly === 'multi' && (!product.retailer_prices || product.retailer_prices.length === 1)) {
-          continue;
         }
         
         const productFilters = product.filters || [];
@@ -351,72 +338,15 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                     <h2 className="text-2xl font-serif text-primary capitalize">{currentSupplement.replace(/-/g, ' ')}</h2>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
-                    <div>
-                      <label className="block text-sm font-medium text-muted-foreground mb-2">Search</label>
-                      <input
-                        type="text"
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                        placeholder="Search products..."
-                        className="w-full px-3 py-2 border border-secondary/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background"
-                      />
-                    </div>
-                    
-                    <div>
-                      <label className="block text-sm font-medium text-muted-foreground mb-2">Retailer</label>
-                      <select
-                        value={retailerFilter}
-                        onChange={(e) => setRetailerFilter(e.target.value)}
-                        className="w-full px-3 py-2 border border-secondary/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background"
-                      >
-                        <option value="">All Retailers</option>
-                        {currentData && Array.from(new Set(currentData.flatMap(p => 
-                          p.retailer_prices?.map((r: any) => r.retailer) || []
-                        ))).sort().map(retailer => (
-                          <option key={retailer} value={retailer}>{retailer}</option>
-                        ))}
-                      </select>
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-muted-foreground mb-2">Filter</label>
-                      <select
-                        value={multiOnly}
-                        onChange={(e) => setMultiOnly(e.target.value)}
-                        className="w-full px-3 py-2 border border-secondary/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background"
-                      >
-                        <option value="all">All Products</option>
-                        <option value="multi">Multi-Retailer Only</option>
-                      </select>
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-muted-foreground mb-2">Sort By</label>
-                      <select
-                        value={sortBy}
-                        onChange={(e) => setSortBy(e.target.value)}
-                        className="w-full px-3 py-2 border border-secondary/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background"
-                      >
-                        <option value="price_asc">Price: Low to High</option>
-                        <option value="price_desc">Price: High to Low</option>
-                        <option value="retailers_desc">Most Retailers</option>
-                        <option value="savings_desc">Highest Savings</option>
-                      </select>
-                    </div>
-
-                    <div>
-                      <label className="block text-sm font-medium text-muted-foreground mb-2">Show</label>
-                      <select
-                        value={limit}
-                        onChange={(e) => setLimit(parseInt(e.target.value))}
-                        className="w-full px-3 py-2 border border-secondary/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background"
-                      >
-                        <option value={20}>20 Products</option>
-                        <option value={50}>50 Products</option>
-                        <option value={100}>100 Products</option>
-                      </select>
-                    </div>
+                  {/* Search Bar */}
+                  <div className="mb-4">
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder="Search products..."
+                      className="w-full px-4 py-3 border border-secondary/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-base"
+                    />
                   </div>
 
                   {/* Dietary Filters */}
@@ -479,6 +409,25 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                   )}
                 </div>
 
+                {/* Sort Button */}
+                <div className="mb-4 flex justify-end">
+                  <div className="inline-flex items-center gap-2 bg-card rounded-lg px-3 py-2 shadow-sm border border-secondary/20">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-muted-foreground" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M3 3a1 1 0 000 2h11a1 1 0 100-2H3zM3 7a1 1 0 000 2h7a1 1 0 100-2H3zM3 11a1 1 0 100 2h4a1 1 0 100-2H3zM15 8a1 1 0 10-2 0v5.586l-1.293-1.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L15 13.586V8z" />
+                    </svg>
+                    <select
+                      value={sortBy}
+                      onChange={(e) => setSortBy(e.target.value)}
+                      className="border-0 focus:outline-none focus:ring-0 bg-transparent text-sm font-medium cursor-pointer"
+                    >
+                      <option value="price_asc">Price: Low to High</option>
+                      <option value="price_desc">Price: High to Low</option>
+                      <option value="retailers_desc">Most Retailers</option>
+                      <option value="savings_desc">Highest Savings</option>
+                    </select>
+                  </div>
+                </div>
+
                 {/* Products Table */}
                 {loading && (
                   <div className="text-center py-12">
@@ -502,17 +451,18 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                 )}
 
                 {!loading && !error && filteredProducts.length > 0 && (
-                  <div className="bg-card rounded-xl shadow-sm border border-secondary/20 overflow-hidden">
-                    <div className="overflow-x-auto">
-                      <table className="w-full">
-                        <thead className="bg-tertiary border-b border-secondary/20">
-                          <tr>
-                            <th className="text-left p-4 font-medium text-sm w-24">Image</th>
-                            <th className="text-left p-4 font-medium text-sm w-32">Best Price</th>
-                            <th className="text-left p-4 font-medium text-sm">Product</th>
-                            <th className="text-left p-4 font-medium text-sm">All Retailers</th>
-                          </tr>
-                        </thead>
+                  <>
+                    <div className="bg-card rounded-xl shadow-sm border border-secondary/20 overflow-hidden">
+                      <div className="overflow-x-auto">
+                        <table className="w-full">
+                          <thead className="bg-tertiary border-b border-secondary/20">
+                            <tr>
+                              <th className="text-left p-4 font-medium text-sm w-24">Image</th>
+                              <th className="text-left p-4 font-medium text-sm w-32">Best Price</th>
+                              <th className="text-left p-4 font-medium text-sm">Product</th>
+                              <th className="text-left p-4 font-medium text-sm">All Retailers</th>
+                            </tr>
+                          </thead>
                         <tbody>
                           {filteredProducts.map((product, idx) => {
                             const lowestRetailerPrice = product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit)[0];
@@ -647,6 +597,20 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                       </table>
                     </div>
                   </div>
+
+                  {/* Load More Button */}
+                  {displayedCount < allFilteredProducts.length && (
+                    <div className="mt-6 text-center">
+                      <button
+                        onClick={() => setDisplayedCount(prev => prev + 25)}
+                        className="px-6 py-3 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity font-medium inline-flex items-center gap-2"
+                      >
+                        <span>Load More Products</span>
+                        <span className="text-sm opacity-80">({allFilteredProducts.length - displayedCount} remaining)</span>
+                      </button>
+                    </div>
+                  )}
+                </>
                 )}
               </>
             )}
