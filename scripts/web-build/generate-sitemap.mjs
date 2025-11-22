@@ -56,6 +56,25 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
   ];
   comparisonPages.forEach(p => paths.add(p));
 
+  // Add product pages by reading JSON files
+  const supplementsDir = path.join(projectRoot, 'public', 'api', 'products', 'supplements');
+  if (fs.existsSync(supplementsDir)) {
+    const files = fs.readdirSync(supplementsDir).filter(f => f.endsWith('.json'));
+    files.forEach(file => {
+      try {
+        const supplementName = file.replace('.json', '');
+        const data = JSON.parse(fs.readFileSync(path.join(supplementsDir, file), 'utf-8'));
+        if (data.products && Array.isArray(data.products)) {
+          data.products.forEach(product => {
+            paths.add(`/${supplementName}/product/${product.id}`);
+          });
+        }
+      } catch (err) {
+        console.warn(`[sitemap] Could not read ${file}:`, err.message);
+      }
+    });
+  }
+
   if (KNOWLEDGEBASE_ROUTES && KNOWLEDGEBASE_ROUTES.length && PAGE_PATHS) {
     // CRITICAL FIX: Map v2 route keys to clean URLs from PAGE_PATHS
     // This ensures /ashwagandha instead of /ashwagandhav2

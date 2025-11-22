@@ -51,6 +51,16 @@ interface ProductDetails {
     }>;
     other_ingredients?: string[];
     supplement_facts?: string;
+    label_statements?: {
+      branding?: string[];
+      formulation?: string[];
+      precautions?: string[];
+      suggested_use?: string[];
+      product_specific?: string[];
+      statement_of_identity?: string[];
+      seals_symbols?: string[];
+      other?: string[];
+    };
   };
 }
 
@@ -199,17 +209,17 @@ export function ProductPage({ onNavigate }: ProductPageProps) {
 
             {/* Product Header */}
             <div className="bg-card rounded-xl shadow-sm border border-secondary/20 overflow-hidden mb-6">
-              <div className="grid md:grid-cols-[300px_1fr] gap-8 p-8">
-                {/* Product Image */}
-                <div className="flex items-center justify-center bg-tertiary rounded-lg p-6">
+              <div className="grid md:grid-cols-[120px_1fr] gap-6 p-8">
+                {/* Product Image - Reduced to 1/3 size */}
+                <div className="flex items-center justify-center bg-tertiary rounded-lg p-3">
                   {productImage ? (
                     <img
                       src={productImage}
                       alt={product.dsld_product_name}
-                      className="w-full h-auto max-h-[300px] object-contain"
+                      className="w-full h-auto max-h-[120px] object-contain"
                     />
                   ) : (
-                    <div className="w-full h-[300px] flex items-center justify-center text-6xl text-muted-foreground">
+                    <div className="w-full h-[120px] flex items-center justify-center text-4xl text-muted-foreground">
                       {product.brand.charAt(0)}
                     </div>
                   )}
@@ -331,6 +341,101 @@ export function ProductPage({ onNavigate }: ProductPageProps) {
                   <div>
                     <h3 className="text-lg font-medium mb-2">Other Ingredients</h3>
                     <p className="text-muted-foreground">{product.dsld_label_info.other_ingredients.join(', ')}</p>
+                  </div>
+                )}
+
+                {/* Label Statements */}
+                {product.dsld_label_info.label_statements && (
+                  <div className="mt-6 pt-6 border-t border-secondary/20 space-y-4">
+                    <h3 className="text-xl font-medium mb-4">Label Information</h3>
+                    
+                    {product.dsld_label_info.label_statements.suggested_use && product.dsld_label_info.label_statements.suggested_use.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-primary mb-2">Suggested Use</h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {product.dsld_label_info.label_statements.suggested_use.map((stmt, idx) => (
+                            <li key={idx} className="text-sm text-muted-foreground">{stmt}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {product.dsld_label_info.label_statements.precautions && product.dsld_label_info.label_statements.precautions.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-amber-600 mb-2">Precautions & Warnings</h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {product.dsld_label_info.label_statements.precautions.map((stmt, idx) => (
+                            <li key={idx} className="text-sm text-muted-foreground">{stmt}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {product.dsld_label_info.label_statements.statement_of_identity && product.dsld_label_info.label_statements.statement_of_identity.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-primary mb-2">Product Identity</h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {product.dsld_label_info.label_statements.statement_of_identity.map((stmt, idx) => (
+                            <li key={idx} className="text-sm text-muted-foreground">{stmt}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {product.dsld_label_info.label_statements.formulation && product.dsld_label_info.label_statements.formulation.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-primary mb-2">Formulation Details</h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {product.dsld_label_info.label_statements.formulation.map((stmt, idx) => (
+                            <li key={idx} className="text-sm text-muted-foreground">{stmt}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {product.dsld_label_info.label_statements.seals_symbols && product.dsld_label_info.label_statements.seals_symbols.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-primary mb-2">Certifications & Seals</h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {product.dsld_label_info.label_statements.seals_symbols.map((stmt, idx) => (
+                            <li key={idx} className="text-sm text-muted-foreground">{stmt}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {product.dsld_label_info.label_statements.product_specific && product.dsld_label_info.label_statements.product_specific.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-primary mb-2">Product-Specific Information</h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {product.dsld_label_info.label_statements.product_specific.map((stmt, idx) => (
+                            <li key={idx} className="text-sm text-muted-foreground">{stmt}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {product.dsld_label_info.label_statements.branding && product.dsld_label_info.label_statements.branding.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-primary mb-2">Brand Information</h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {product.dsld_label_info.label_statements.branding.map((stmt, idx) => (
+                            <li key={idx} className="text-sm text-muted-foreground">{stmt}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {product.dsld_label_info.label_statements.other && product.dsld_label_info.label_statements.other.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-semibold text-primary mb-2">Additional Information</h4>
+                        <ul className="list-disc list-inside space-y-1">
+                          {product.dsld_label_info.label_statements.other.map((stmt, idx) => (
+                            <li key={idx} className="text-sm text-muted-foreground">{stmt}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>

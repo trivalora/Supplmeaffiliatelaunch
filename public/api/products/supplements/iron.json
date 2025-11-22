@@ -3601,7 +3601,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Use: As a dietary supplement take 2 gummies daily or as directed by your healthcare provider."
+          ],
+          "precautions": [
+            "Do not exceed the recommended dose. Caution: Not intended for use by pregnant or nursing women. If you are taking any medications or have any medical conditions consult your doctor before use. If any adverse reaction occurs immediately stop using this product and consult your doctor.  Not intended for use by persons under the age of 18. Do not use if safety seal is broken or missing. Keep out of reach of children."
+          ],
+          "formulation": [
+            "Gluten free no preservatives soy free no artificial colors flavors or sweeteners Gluten free"
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the food and Drug Administration. This product s not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "GMP Certified"
+          ]
+        }
       }
     },
     {
@@ -3690,7 +3710,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "An advanced chapter in a lifelong commitment to nutrition."
+          ],
+          "suggested_use": [
+            "Directions: Take one gummy daily or as directed by a healthcare practitioner. Gummy should be chewed before swallowing."
+          ],
+          "seals_symbols": [
+            "This product was manufactured in a GMP Certified Facility"
+          ],
+          "formulation": [
+            "Kosher Pareve"
+          ],
+          "precautions": [
+            "Keep out of reach of children. Do not use if safety seal is damaged or missing. If pregnant nursing or on medication consult with your healthcare practitioner. Warning: Accidental overdose of iron containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "product_specific": [
+            "Store in a cool dry place away from direct sunlight."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food & Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -3788,7 +3831,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Nearly 50 years of trusted qualityAt Nature’s Bounty we are committed to your health. For nearly 50 years we have been making trusted products backed by science and made with only the purest ingredients...guaranteed. So you can get the most out of life every day.Guaranteed quality Made in the USA with select ingredients from around the worldNutrition questions or comments? Call 1-800-433-2990 Mon.; Sat. 9 AM; 7 PM ETJoin our Loyalty Program at NaturesBountyRewards.com"
+          ],
+          "formulation": [
+            "Gentle on your stomach With Folic acid Vitamin B-12 & Vitamin C Laboratory tested Non-GMO no artificial color no artificial flavor no preservatives no sugar no starch no milk no lactose no soy no gluten no wheat no yeast no fish. Sodium free. Iron Glycinate Supports red blood cell production"
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Mineral Supplement"
+          ],
+          "suggested_use": [
+            "Directions: For adults take one (1) capsule daily preferably with a meal."
+          ],
+          "precautions": [
+            "Warning: If you are pregnant nursing taking any medications or have any medical condition consult your doctor before use. Discontinue use and consult your doctor if any adverse reactions occur. Do not use if seal under cap is broken or missing. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or Poison Control Center immediately."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ]
+        }
       }
     },
     {
@@ -3864,7 +3927,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: As a dietary supplement take 2 capsules twice daily before a meal with 12 oz of water or as prescribed by your health care professional."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "precautions": [
+            "Warning: Do not use during pregnancy or while nursing except as directed by your health care professional."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent disease."
+          ],
+          "other": [
+            "500 mg each"
+          ],
+          "formulation": [
+            "No added fillers or chemicals"
+          ]
+        }
       }
     },
     {
@@ -3916,7 +3999,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "100% Quality"
+          ],
+          "formulation": [
+            "Ferrous Sulfate"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: For adults take one (1) coated tablet daily preferably with a meal and drink plenty of fluids."
+          ],
+          "precautions": [
+            "Warning: If you are pregnant nursing taking any medications or have any medical condition consult your doctor before use. If any adverse reactions occur immediately stop using this product and consult your doctor. If seal under cap is damaged or missing do not use.  Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under the age of 6. Keep this product out of reach of children. In the event of accidental overdose call a doctor or Poison Control Center immediately."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "other": [
+            "Vitamins"
+          ]
+        }
       }
     },
     {
@@ -4218,7 +4324,31 @@
             "category": "bacteria"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "22mg Gentle whole food iron",
+            "23 organically grown fruits and vegetables add supporting antioxidants vitamins and nutrient cofactors"
+          ],
+          "seals_symbols": [
+            "Non GMO Project Verified nongmoproject.org"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "other": [
+            "Vitamin Angels"
+          ],
+          "suggested_use": [
+            "Suggested use: Adults take 1 capsule daily. May be taken with or without food. Capsule may be opened and contents may be added to water or juice."
+          ],
+          "precautions": [
+            "Not intended for children."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -4277,7 +4407,27 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Boosts immune system function and antioxidant reserveBuffered with minerals to prevent potential stomach upsetHelps combat free radical damageScience-Backed Quality Since 1969 Immune HealthGentle on the stomach"
+          ],
+          "suggested_use": [
+            "Suggested use: As a dietary supplement take one tablet per day with water or as recommended by your healthcare provider."
+          ],
+          "precautions": [
+            "Warning: For adults only. Consult your physician before using this or any product if you are pregnant or nursing taking medication or have a medical condition. Keep out of reach of children. Do not use if seal is broken."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Vitamin Supplement"
+          ],
+          "formulation": [
+            "Buffered Vitamin C with Bioflavonoids"
+          ]
+        }
       }
     },
     {
@@ -4336,7 +4486,27 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Boosts immune system function and antioxidant reserveBuffered with minerals to prevent potential stomach upsetHelps combat free radical damageScience-Backed Quality Since 1969 Immune HealthGentle on the stomach"
+          ],
+          "suggested_use": [
+            "Suggested use: As a dietary supplement take one tablet per day with water or as recommended by your healthcare provider."
+          ],
+          "precautions": [
+            "Warning: For adults only. Consult your physician before using this or any product if you are pregnant or nursing taking medication or have a medical condition. Keep out of reach of children. Do not use if seal is broken."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Vitamin Supplement"
+          ],
+          "formulation": [
+            "Buffered Vitamin C with Bioflavonoids"
+          ]
+        }
       }
     },
     {
@@ -4414,7 +4584,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Truth"
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under the age of 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Warning: If pregnant or nursing consult your healthcare practitioner before taking this product. Caution: Children under 18 years should not take this product unless recommended by a physician."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. An Iron Dietary Supplement Containing Vitamin C Vitamin B12 and Folate"
+          ],
+          "formulation": [
+            "Vegetarian Gluten Free An Iron Dietary Supplement Containing Vitamin C Vitamin B12 and Folate"
+          ],
+          "suggested_use": [
+            "Suggested Use for Adults (18 years and older): As a dietary supplement take 1 capsule daily with meals. Do not exceed more than 1 capsule daily unless directed by your healthcare practitioner."
+          ]
+        }
       }
     },
     {
@@ -4509,7 +4699,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "SUGGESTED USAGE: As a dietary supplement take one tablet daily preferably with meals."
+          ],
+          "precautions": [
+            "Caution: Persons with diagnosed iron-deficiency anemia should consult their physician regarding higher intake of iron supplements. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or Poison Control Center immediately. Do Not Eat Freshness Packet. Keep in Bottle."
+          ],
+          "other": [
+            "Natural color variations may occur in this product. Made in the U.S.A. ESSENTIAL MINERAL • Highly Bioavailable • Non-Constipating • With Vitamins & Herbs"
+          ],
+          "statement_of_identity": [
+            "A Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "GMP QUALITY ASSURED"
+          ],
+          "formulation": [
+            "Contains no sugar starch yeast wheat gluten soy milk egg or preservatives."
+          ]
+        }
       }
     },
     {
@@ -4582,7 +4792,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Nearly 50 years of trusted qualityAt Nature’s Bounty we are committed to your health. For nearly 50 years we have been making trusted products backed by science and made with only the purest ingredients...guaranteed. So you can get the most out of life every day. Helps maintain energy utilizationGuaranteed qualityLaboratory tested Made in the USA with select ingredients from around the world Nutrition questions or comments?Call 1-800-433-2990 Mon.; Sat. 9 AM; 7 PM ETJoin our Loyalty Program at NaturesBountyRewards.com New! Supports red blood cell production Label No. 10224"
+          ],
+          "formulation": [
+            "Non-GMO no artificial color no artificial flavor no artificial sweetener no preservatives no sugar no starch no milk no lactose no soy no gluten no wheat no yeast no fish. Sodium free. Suitable for vegetarians. No added colors (325 mg ferrous sulfate) Please Note: Dried ferrous sulfate 205 mg is equivalent to 325 mg liquid ferrous sulfate which provides 65 mg elemental iron per tablet."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Mineral Supplement"
+          ],
+          "suggested_use": [
+            "Directions: For adults take one (1) tablet daily preferably with a meal and drink plenty of fluids."
+          ],
+          "precautions": [
+            "Warning: If you are pregnant nursing taking any medications or have any medical condition consult your doctor before use. Discontinue use and consult your doctor if any adverse reactions occur. Do not use if seal under cap is broken or missing. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of the reach of children. In case of accidental overdose call a doctor or Poison Control Center immediately."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ]
+        }
       }
     },
     {
@@ -4631,7 +4861,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: As a mineral supplement adults take one (1) tablet daily with any meal or as directed by a healthcare provider. Do not exceed recommended dosage. Individuals results may vary."
+          ],
+          "precautions": [
+            "Do not exceed recommended dosage. Warning: Iron may interfere with absorption of certain antibiotics; these products shouldn't be taken within two hours of each other. Iron-containing products may occasionally cause constipation of diarrhea. Consult a healthcare provider prior to use if pregnant nursing on medications have a medical condition or are planning a medical procedure. Stop use and contact a physician if adverse reactions occur. Keep out of reach of children. Do not use if product appears to be tampered with or seal is broken. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Contains a bioengineered food ingredient."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ],
+          "formulation": [
+            "High-Potency Ferrous Sulfate 325 mg Gluten Free Guaranteed Quality"
+          ],
+          "other": [
+            "Compare Vs. Feosol"
+          ],
+          "statement_of_identity": [
+            "Mineral Supplement"
+          ],
+          "seals_symbols": [
+            "Trusted Quality For Over 30 Years"
+          ]
+        }
       }
     },
     {
@@ -4725,7 +4978,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "SUGGESTED USAGE: As a dietary supplement take one tablet daily preferably with meals."
+          ],
+          "precautions": [
+            "Caution: Persons with diagnosed iron-deficiency anemia should consult their physician regarding higher intake of iron supplements. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or Poison Control Center immediately. Do Not Eat Freshness Packet. Keep in Bottle."
+          ],
+          "other": [
+            "Natural color variations may occur in this product. Made in the U.S.A. ESSENTIAL MINERAL • Highly Bioavailable • Non-Constipating • With Vitamins & Herbs"
+          ],
+          "statement_of_identity": [
+            "A Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "GMP QUALITY ASSURED"
+          ],
+          "formulation": [
+            "Contains no sugar starch yeast wheat gluten soy milk egg or preservatives."
+          ]
+        }
       }
     },
     {
@@ -4806,7 +5079,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Fresh From Farm To Tablet Satisfaction guaranteed or your money back.Meet Our FarmersWe believe that the most nutritious food comes from healthy soils and valued farmers. Our goal is to work with farmers who share our commitment to organic and regenerative agriculture. megafood.com/farmers Please Recycle"
+          ],
+          "seals_symbols": [
+            "Certified B CorporationNon GMO project verified nongmoproject.orgGlyphosate Residue free detoxproject.orgTested 125+ Pesticides & herbicidesNSF Certified Gluten-freeCertified vegan Vegan.orgOK Orthodox KosherTo learn about our seals please visit megafood.com/standards."
+          ],
+          "formulation": [
+            "Glyphosate Residue free detoxproject.orgTested 125+ Pesticides & herbicidesGluten-freeDairy freeSoy free Proven in a Clinical Study to Increase Iron Levels Without Side Effects with Beets Oranges & Broccoli Shown in an 8 week clinical study to increase iron levels in individuals with low iron without causing nausea or constipation.Study details at bloodbuilder.com MegaFood Blood Builder is made with nourishing whole foods like beets and organic oranges plus folate iron and B12 for healthy red blood cell production and vitamin C to support iron absorption.This MegaFood product is made with real food wholesome nutritional yeast and added nutrients. Each vitamin or mineral is paired with an ideal whole food using our unique process to deliver guaranteed potency and the benefit of health-promoting compounds present in the whole food itself. See how they're made at megafood.com/showme."
+          ],
+          "statement_of_identity": [
+            "Iron & Multivitamin Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested Use: 1 tablet daily. May be taken anytime throughout the day even on an empty stomach."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -4888,7 +5181,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Fresh From Farm To Tablet Satisfaction guaranteed or your money back.Meet Our FarmersWe believe that the most nutritious food comes from healthy soils and valued farmers. Our goal is to work with farmers who share our commitment to organic and regenerative agriculture. megafood.com/farmers Please Recycle"
+          ],
+          "seals_symbols": [
+            "Certified B CorporationNon GMO project verified nongmoproject.orgGlyphosate Residue free detoxproject.orgTested 125+ Pesticides & herbicidesNSF Certified Gluten-freeCertified vegan Vegan.orgOK Orthodox KosherTo learn about our seals please visit megafood.com/standards."
+          ],
+          "formulation": [
+            "Glyphosate Residue free detoxproject.orgTested 125+ Pesticides & herbicidesGluten-freeDairy freeSoy free Proven in a Clinical Study to Increase Iron Levels Without Side Effects with Beets Oranges & Broccoli Shown in an 8 week clinical study to increase iron levels in individuals with low iron without causing nausea or constipation.Study details at bloodbuilder.com MegaFood Blood Builder is made with nourishing whole foods like beets and organic oranges plus folate iron and B12 for healthy red blood cell production and vitamin C to support iron absorption.This MegaFood product is made with real food wholesome nutritional yeast and added nutrients. Each vitamin or mineral is paired with an ideal whole food using our unique process to deliver guaranteed potency and the benefit of health-promoting compounds present in the whole food itself. See how they're made at megafood.com/showme."
+          ],
+          "statement_of_identity": [
+            "Iron & Multivitamin Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested Use: 1 tablet daily. May be taken anytime throughout the day even on an empty stomach."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -4948,7 +5261,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "USP Dietary Supplement Verified"
+          ],
+          "formulation": [
+            "Equivalent to 325 mg Ferrous Sulfate Vital for red blood cell formation No synthetic dyes; Color derived from natural source.No artificial flavorsGluten free USP has tested and verified ingredients potency and manufacturing process."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "other": [
+            "1 in 10 adult premenopausal women (ages 15-49) are deficient in iron."
+          ],
+          "suggested_use": [
+            "Suggested use: Adults for iron deficiency take 1 tablet daily with water and a meal."
+          ],
+          "product_specific": [
+            "Store tightly closed in a cool dry place out of reach of children."
+          ],
+          "precautions": [
+            "Store tightly closed in a cool dry place out of reach of children. Do not use if imprinted seal under cap is broken or missing. Caution: If you are pregnant nursing or taking medication consult your physician before use. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -5030,7 +5366,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Fresh From Farm To Tablet Satisfaction guaranteed or your money back.Meet Our FarmersWe believe that the most nutritious food comes from healthy soils and valued farmers. Our goal is to work with farmers who share our commitment to organic and regenerative agriculture. megafood.com/farmers Please Recycle"
+          ],
+          "seals_symbols": [
+            "Certified B CorporationNon GMO project verifiednongmoproject.orgGlyphosate Residue freedetoxproject.orgTested 125+Pesticides & herbicidesNSF Certified Gluten-freeCertified veganVegan.orgOKTo learn about our seals please visit megafood.com/standards."
+          ],
+          "formulation": [
+            "Gluten-freeDairy freeSoy free Proven in a Clinical Study to Increase Iron Levels Without Side Effects with Beets Oranges & Broccoli Shown in an 8 week clinical study to increase iron levels in individuals with low iron without causing nausea or constipation.Study details at bloddbuilder.com MegaFood Blood Builder is made with nourishing whole foods like beets and organic oranges plus folate iron and B12 for healthy red blood cell production and vitamin C to support iron absorption.This MegaFood product is made with real food wholesome nutritional yeast and added nutrients. Each vitamin or mineral is paired with an ideal whole food using our unique process to deliver guaranteed potency and the benefit of health-promoting compounds present in the whole food itself. See how they're made at megafood.com/showme."
+          ],
+          "statement_of_identity": [
+            "Iron & Multivitamin Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested Use: 1 tablet daily. May be taken anytime throughout the day even on an empty stomach."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under sic. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -5086,7 +5442,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: As a mineral supplement adults take one (1) tablet daily with any meal or as directed by a healthcare provider. Do not exceed recommended dosage."
+          ],
+          "precautions": [
+            "Do not exceed recommended dosage. Warning: Consult a healthcare provider prior to use if pregnant nursing on medications have a medical condition or are planning a medical procedure. Stop use and contact a physician if adverse reactions occur. Keep out of reach of children. Do not use if product appears to be tampered with or seal is broken. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or Poison Control Center immediately."
+          ],
+          "other": [
+            "Individual results may vary. Compare vs. Slow FE"
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ],
+          "formulation": [
+            "No added yeast or artificial flavors. Gluten free Slow Release Iron is a high-potency iron supplement designed to be gentle to your system."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Mineral Supplement"
+          ],
+          "seals_symbols": [
+            "Guaranteed qualityLaboratory tested"
+          ]
+        }
       }
     },
     {
@@ -5132,7 +5511,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Free from artificial colors and artificial preservatives. Vegetarian Gluten Free Energy Support Manufactured with the Biotron Process of amino acid chelation."
+          ],
+          "product_specific": [
+            "Keep tightly closed in a cool dry place."
+          ],
+          "precautions": [
+            "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a physician or poison control center immediately."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "suggested_use": [
+            "Directions: Two tablets once daily."
+          ]
+        }
       }
     },
     {
@@ -5175,7 +5571,21 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Use: Snap down the insert prior to using. Shake well. Dispense 2ml under the tongue. Hold the contents under the tongue for 60 seconds then swish the contents around mouth and swallow completely. Use 2 doses per day. Example: 2ml upon waking and 2ml before bed. Wait at least 10 minutes in between doses when stacking with other products."
+          ],
+          "precautions": [
+            "Warning: Keep out of reach of children. Not for use by individuals under the age of 21. Consult a licensed physician or healthcare professional before using this product. Do not exceed recommended serving. Discontinue use and contact a physician or healthcare professional immediately if you experience rapid heartbeat dizziness blurred vision or other similar symptoms. Do not use if governed by any body that prohibits hormone use."
+          ],
+          "other": [
+            "All claims are dependent on proper diet and exercise and are theories based on preliminary studies."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -5562,7 +5972,27 @@
             "category": "blend"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Clinical Strength; Professional Use Only"
+          ],
+          "other": [
+            "Made in USA vis medicatrix naturae 100% WHOLE FOOD Derived From Raw FoodsTested & Assayed for Potency & Purity EXCEPTIONALLY PURE 100% WHOLE FOOD NUTRIENTS 603-216-0899 Naturally occurring; GMP Compliant"
+          ],
+          "seals_symbols": [
+            "Please Recycle Broad Spectrum Multi-Component Finished Good Tested organically grown foods & herbs"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "formulation": [
+            "Free of Herbicides Pesticides & Corn; Nothing Artificial or SyntheticTested Free of Gluten Dairy and Soy; Suitable for Vegetarians"
+          ],
+          "suggested_use": [
+            "Suggested Use: 1 tablet daily or as directed by your healthcare practitioner."
+          ]
+        }
       }
     },
     {
@@ -5657,7 +6087,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Please RecycleVis medicatrix naturae To learn more about our seals please visit innateresponse.com/standards. Shown in an 8 week clinical study to increase iron levels in individuals with low iron without causing nausea or constipation. Study details at innateresponse.com/ironAt INNATE Response we share your belief that nothing is more important than supporting your body's innate ability to heal. To that end we develop nutrient-rich supplements. See how they're made at innateresponse.com/showme.Satisfaction guaranteed or your money back.Learn more at: www.innateresponse.com"
+          ],
+          "formulation": [
+            "Clinically shown to increase iron levels Non GMO Project Verifiednongmoproject.orgGlyphosate Residue Freedetoxproject.orgTested Gluten FreeDairy FreeSoy free Vegan Kosher In this INNATE Response product each vitamin or mineral is paired with an ideal whole food using our unique process to deliver guaranteed potency and the benefit of health-promoting compounds present in the whole food itself."
+          ],
+          "statement_of_identity": [
+            "Iron & Multivitamin Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested Use: 1 tablet daily or as directed by your healthcare practitioner. May be taken anytime throughout the day even on an empty stomach."
+          ],
+          "seals_symbols": [
+            "Certified B CorporationNon GMO Project Verifiednongmoproject.orgGlyphosate Residue Freedetoxproject.orgTested 125+ pesticides & herbicidesTested Gluten FreeCertified VeganVegan.orgOK (Kosher)"
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -5705,7 +6155,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: As a mineral supplement adults take one (1) tablet daily with any meal or as directed by a healthcare provider. Do not exceed recommended dosage. Individuals results may vary."
+          ],
+          "precautions": [
+            "Do not exceed recommended dosage. Warning: Consult a healthcare provider prior to use if pregnant nursing on medications have a medical condition or are planning a medical procedure. Stop use and contact a physician if adverse reactions occur. Keep out of reach of children. Do not use if product appears to be tampered with or seal is broken. Contains a bioengineered food ingredient. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ],
+          "formulation": [
+            "High-potency Ferrous Gluconate Gluten free Guaranteed quality"
+          ],
+          "statement_of_identity": [
+            "Mineral Supplement"
+          ],
+          "seals_symbols": [
+            "Trusted Quality for Over 30 years"
+          ]
+        }
       }
     },
     {
@@ -5774,7 +6244,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "isura"
+          ],
+          "suggested_use": [
+            "Suggested usage:1 tablet per day or as directed by a health professional."
+          ],
+          "precautions": [
+            "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of the reach of children. In case of accidental overdose call a doctor or poison control center immediately. Cautions: As with any supplement consult your health professional before use if you are pregnant breastfeeding or trying to conceive or if you are taking medication have a medical condition or anticipate a surgery. Iron deficiency is the most common cause of anemia. The symptoms of anemia such as fatigue reflect a lack of oxygen being delivered to tissues. Sealed for your protection. Do not use if seal is broken."
+          ],
+          "formulation": [
+            "TRUE ELEMENTAL CONTENT Fe Manufactured by Natural Factors to ensure safety and potency in accordance with Good Manufacturing Practices (GMP) of the FDA and Health Canada. Contains no artificial colors preservatives or sweeteners; no dairy sugar wheat gluten yeast soy corn egg fish shellfish animal products salt tree nuts or GMOs. Suitable for vegetarians/vegans. Product of Canada Supports Energy"
+          ],
+          "product_specific": [
+            "For freshness store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "Recyclable container and label."
+          ]
+        }
       }
     },
     {
@@ -5856,7 +6349,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Fresh From Farm To Tablet Satisfaction guaranteed or your money back.Meet Our FarmersWe believe that the most nutritious food comes from healthy soils and valued farmers. Our goal is to work with farmers who share our commitment to organic and regenerative agriculture. megafood.com/farmers Please Recycle"
+          ],
+          "seals_symbols": [
+            "Certified B CorporationNon GMO project verified nongmoproject.orgGlyphosate Residue free detoxproject.orgTested 125+ Pesticides & herbicidesNSF Certified Gluten-freeCertified vegan Vegan.orgOK Orthodox KosherTo learn about our seals please visit megafood.com/standards."
+          ],
+          "formulation": [
+            "Glyphosate Residue free detoxproject.orgTested 125+ Pesticides & herbicidesGluten-freeDairy freeSoy free Proven in a Clinical Study to Increase Iron Levels Without Side Effects with Beets Oranges & Broccoli Shown in an 8 week clinical study to increase iron levels in individuals with low iron without causing nausea or constipation.Study details at bloodbuilder.com MegaFood Blood Builder is made with nourishing whole foods like beets and organic oranges plus folate iron and B12 for healthy red blood cell production and vitamin C to support iron absorption.This MegaFood product is made with real food wholesome nutritional yeast and added nutrients. Each vitamin or mineral is paired with an ideal whole food using our unique process to deliver guaranteed potency and the benefit of health-promoting compounds present in the whole food itself. See how they're made at megafood.com/showme."
+          ],
+          "statement_of_identity": [
+            "Iron & Multivitamin Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested Use: 1 tablet daily. May be taken anytime throughout the day even on an empty stomach."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -5941,7 +6454,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "precautions": [
+            "Keep out of reach of children. Contains: Milk."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "other": [
+            "For more information:"
+          ],
+          "formulation": [
+            "High-potency formula 30 mg of iron"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: As a dietary supplement take one caplet daily."
+          ]
+        }
       }
     },
     {
@@ -5998,7 +6531,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Circulatory support"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "seals_symbols": [
+            "Lab verified"
+          ],
+          "other": [
+            "Since 1973 we've scoured the globe for the highest quality ingredients connecting you with the most efficacious supplements that help you live brighter & embrace the moments that matter most. 100% PCR bottles"
+          ],
+          "precautions": [
+            "Warning: do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed health care practitioner informed when using this product especially if pregnant or nursing. Not for use by persons under the age of 18. Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "suggested_use": [
+            "Directions: use only as directed. Take 1 vegcap daily with a meal or glass of water."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -6048,7 +6604,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Recommended Use: As a dietary supplement take 1 tablet daily with 8-12 oz of water or as directed by your healthcare professional."
+          ],
+          "precautions": [
+            "Warning: For healthy individuals 18 years and older. Consult a healthcare professional prior to use if you are pregnant or nursing taking medication or have a medical condition. Keep out of reach of children. Do not use if safety seal is broken or missing."
+          ],
+          "product_specific": [
+            "Notice: Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "formulation": [
+            "Iron as Ferrous Sulfate65 mg iron per serving Third Party Tested Non GMOGluten Free Product"
+          ],
+          "seals_symbols": [
+            "Quality Guaranteed Nutricost"
+          ]
+        }
       }
     },
     {
@@ -6096,7 +6672,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "100% Quality"
+          ],
+          "other": [
+            "Vitamins"
+          ],
+          "formulation": [
+            "Gentle on your stomach Gluten free"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: for adults take one (1) quick release capsule daily preferably with a meal."
+          ],
+          "precautions": [
+            "Warning: if you are pregnant nursing taking any medications or have any medical condition consult your doctor before use. If any adverse reactions occur immediately stop using this product and consult your doctor. If seal under cap is damaged or missing do not use. Warning: accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under the age of 6. Keep out of reach of children. In the event of an accidental overdose call a doctor or poison control center immediately."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -6152,7 +6751,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Amino Acid Chelated Iron is the only type of iron used in this high quality product. Food Sensitivity: Free of soy wheat yeast gluten dairy egg sugar salt animal products byproducts or derivatives. Iron with added B12"
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "precautions": [
+            "Tamper evident: Do not use if imprinted seal under cap is broken. Warning: Always consult your doctor before taking dietary supplements. Warning: Accidental overdose of iron containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "suggested_use": [
+            "Directions: For adults take one (1) tablet daily with food or as directed by a doctor."
+          ],
+          "seals_symbols": [
+            "Vegan"
+          ]
+        }
       }
     },
     {
@@ -6243,7 +6862,30 @@
             "category": "enzyme"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: Take 1 capsule in the morning with breakfast or use as directed by your healthcare professional."
+          ],
+          "precautions": [
+            "Children and pregnant or lactating women should consult their healthcare professional prior to use. Children and pregnant or lactating women should consult their healthcare professional prior to use. Do not use if tamper seal is damaged. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach by children. In case of accidental overdose call a doctor or poison control center immediately. Storage: Keep closed in a cool dry place out of reach by children."
+          ],
+          "product_specific": [
+            "Storage: Keep closed in a cool dry place out of reach by children."
+          ],
+          "formulation": [
+            "Does not contain: milk eggs fish shellfish tree nuts peanuts wheat soy gluten GMO artificial colors or artificial flavors. Albion Minerals"
+          ],
+          "other": [
+            "This package is completely recyclable Find other effective health products at www.seekinghealth.com"
+          ],
+          "seals_symbols": [
+            "Manufactured in the USA from globally sourced ingredients third-party independently tested"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -6291,7 +6933,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "Mason Guarantee Laboratory TestedcGMP Certified Good Manufacturing PracticeCertified"
+          ],
+          "other": [
+            "Mason Natural Est. 1967"
+          ],
+          "formulation": [
+            "Iron supplement May support red blood cell formation Guaranteed no added: Sugar Sodium starch yeast soy corn wheat dairy gluten egg fragrance artificial flavors and preservatives. Soy free"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Adults; Take one tablet daily with a full glass of water preferably with food as a dietary supplement."
+          ],
+          "precautions": [
+            "Warning: The treatment of any anemic condition should be under the advice and supervision of a physician. Do not exceed recommended dosage. Iron-containing medication may occasionally cause constipation or diarrhea. Since oral iron products interfere with absorption of oral tetracycline antibiotics these products should not be taken within two hours of each other. If you are pregnant or nursing a baby seek the advice of a health professional before using this product. Keep out of reach of children.Warning: Accidental overdose of iron containing products is a leading cause of fatal poisoning in children under 6. In case of accidental overdose call a doctor or poison control center immediately. Poison control center: 1-800-222-1222 Tamper-Evident Seal: Do not use product if seal appears tampered."
+          ],
+          "product_specific": [
+            "Store in a dry place under controlled room temperature: 20 degrees; 25 degrees C (68 degrees; 77 degrees F)."
+          ]
+        }
       }
     },
     {
@@ -6337,7 +7002,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Free from artificial colors and artificial preservatives. Vegetarian Gluten Free Energy Support Manufactured with the Biotron Process of amino acid chelation."
+          ],
+          "product_specific": [
+            "Keep tightly closed in a cool dry place."
+          ],
+          "precautions": [
+            "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a physician or poison control center immediately."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "suggested_use": [
+            "Directions: Two tablets once daily."
+          ]
+        }
       }
     },
     {
@@ -6397,7 +7079,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Iron is an important component of hemoglobin the protein that carries oxygen from the lungs to all tissues of the body and promotes iron rich blood. Iron promotes normal red blood cell production and supports energy utilization. This formulation provides an advanced patented form of iron that is gentle on the stomach. Some iron supplements cause gastrointestinal irritation and constipating effects. This unique form of chelated iron (iron bisglycinate) is formulated for enhanced absorption and is gentle on your system. Gentle on your stomach Non-GMOGluten wheat & dairy free Suitable for vegans Free of: Gluten wheat dairy soy yeast sugar sodium artificial flavor sweetener preservatives and color. Solgar’s KOF-K certification #K-1250"
+          ],
+          "precautions": [
+            "Some iron supplements cause gastrointestinal irritation and constipating effects. If you are pregnant nursing taking any medications or have any medical condition please consult your healthcare practitioner before taking any dietary supplement. Discontinue use and consult your healthcare practitioner if any adverse reactions occur. Do not use if outer bottle seal is missing or damaged. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or Poison Control Center immediately."
+          ],
+          "other": [
+            "Solgar since 1947 DV = Daily Value"
+          ],
+          "seals_symbols": [
+            "GF Certified Gluten-freeK Parve (Kosher)"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested Use: As a dietary supplement for adults take one (1) tablet daily preferably with a meal or as directed by a healthcare practitioner."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ]
+        }
       }
     },
     {
@@ -6442,7 +7147,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "Mason Guarantee Laboratory TestedcGMP Certified Good Manufacturing PracticeCertified"
+          ],
+          "other": [
+            "Mason Natural Est. 1967"
+          ],
+          "formulation": [
+            "Iron supplement May support red blood cell formation Guaranteed no added: Sugar Sodium starch yeast soy corn wheat dairy gluten egg fragrance artificial flavors and preservatives. Soy free"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Adults; Take one tablet daily with a full glass of water preferably with food as a dietary supplement."
+          ],
+          "precautions": [
+            "Warning: The treatment of any anemic condition should be under the advice and supervision of a physician. Do not exceed recommended dosage. Iron-containing medication may occasionally cause constipation or diarrhea. Since oral iron products interfere with absorption of oral tetracycline antibiotics these products should not be taken within two hours of each other. If you are pregnant or nursing a baby seek the advice of a health professional before using this product. Keep out of reach of children.Warning: Accidental overdose of iron containing products is a leading cause of fatal poisoning in children under 6. In case of accidental overdose call a doctor or poison control center immediately. Poison control center: 1-800-222-1222 Tamper-Evident Seal: Do not use product if seal appears tampered."
+          ],
+          "product_specific": [
+            "Store in a dry place under controlled room temperature: 20 degrees; 25 degrees C (68 degrees; 77 degrees F)."
+          ]
+        }
       }
     },
     {
@@ -6632,7 +7360,28 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Use: One tablet daily. Can be taken anytime even on an empty stomach."
+          ],
+          "formulation": [
+            "Certified Gluten-free by NSF; 100% Vegetarian; No artificial flavors or colors. Certified Gluten-free by NSF; 100% Vegetarian; No artificial flavors or colors. Formulated for absorptionBlood health Non GMO Project Verified nongmoproject.orgCertified NSF Gluten-free OU (Kosher)",
+            "Made with organic vegetables & herbs ICS Certified Organic Certified Organic by International Certification Services Inc. Medina ND USA"
+          ],
+          "other": [
+            "Please refer to newchapter.com for more information about this product and its benefits. The New Chapter Money-Back Guarantee We proudly stand behind every product we make. However if you are not satisfied please visit www.newchapter.com/guarantee for refund details. Please recycle this bottle after use."
+          ],
+          "precautions": [
+            "Caution: As with any dietary or herbal supplement you should advise your healthcare practitioner of the use of this product if you have a medical condition or are taking medication. If you are nursing pregnant or considering pregnancy you should consult your healthcare professional prior to using this product. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Contains: Fermented soy."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "ICS Certified Organic Non GMO Project Verified nongmoproject.org Certified NSF Gluten-free OU (Kosher)"
+          ]
+        }
       }
     },
     {
@@ -6684,7 +7433,21 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: As a dietary supplement dissolve one MicroLingual tablet under the tongue daily. This product may also be swallowed."
+          ],
+          "seals_symbols": [
+            "MicroLingual GMO FREE"
+          ],
+          "statement_of_identity": [
+            "DIETARY SUPPLEMENT"
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -6746,7 +7509,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Use: As a dietary supplement for adults take one (1) vegetable capsule daily preferably with a meal or as directed by a healthcare practitioner."
+          ],
+          "precautions": [
+            "If you are pregnant nursing taking any medications or have any medical condition please consult your healthcare practitioner before taking any dietary supplement. Discontinue use and consult your healthcare practitioner if any adverse reactions occur. Do not use if outer bottle seal is missing torn or damaged in any way. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Some iron supplements cause gastrointestinal irritation and constipating effects."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ],
+          "formulation": [
+            "Solgar’s KOF-K certification #K-1250 This unique form of chelated iron (iron bisglycinate) is formulated for enhanced absorption and is gentle on your system. (Iron Bisglycinate) Non-GMO Gluten Wheat & Dairy free Suitable for vegans Free Of: Gluten Wheat Dairy Soy Yeast Sugar Sodium Artificial Flavor Sweetener Preservatives and Color."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "Iron is an essential trace mineral found in most human cells. It is an important component of hemoglobin the protein that carries oxygen from the lungs to all tissues of the body and promotes iron rich blood. It plays a role in normal red blood cell production and supports energy utilization. Iron requirements increase during growth pregnancy and menstruation. Iron nutritionally supports women’s health and is a cofactor required for the synthesis of brain neurotransmitters including dopamine norepinephrine and serotonin. Prod # 71249 Since 1947 Non-constipating gentle on your stomach 90 + 18 bonus vegetable capsules"
+          ],
+          "seals_symbols": [
+            "M Halal GF Gluten-free K Parve"
+          ]
+        }
       }
     },
     {
@@ -6789,7 +7575,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Circulatory support"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "seals_symbols": [
+            "Lab verified"
+          ],
+          "other": [
+            "Since 1973 we've scoured the globe for the highest quality ingredients connecting you with the most efficacious supplements that help you live brighter & embrace the moments that matter most. 100% PCR bottles"
+          ],
+          "precautions": [
+            "Warning: do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed health care practitioner informed when using this product especially if pregnant or nursing. Not for use by persons under the age of 18. Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "suggested_use": [
+            "Directions: use only as directed. Take 1 vegcap daily with a meal or glass of water."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -6854,7 +7663,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "precautions": [
+            "Keep out of the reach of children. Do not use if safety seal is damaged or missing. Caution: Pregnant or nursing mothers children under the age of 18 or individuals with known medical condition should consult a physician before using this or any dietary supplement. Caution: Pregnant or nursing mothers children under the age of 18 or individuals with known medical condition should consult a physician before using this or any dietary supplement."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "C the Difference This bottle supports a child or mother in need.Every product you purchase from us makes a difference by providing life-changing vitamins to those in need.Vitamin Angels proud supporter Made with love"
+          ],
+          "formulation": [
+            "Premium elderberry immunity blendEnhanced with rosehips & citrus bioflavonoids Premium immune support Enhanced with elderberry citrus & rosehipsPremium l-ascorbic acid formulaRich source of antioxidants Non GMO Vegan Zero gluten soy eggs dairy nuts preservatives or animal products"
+          ],
+          "suggested_use": [
+            "Suggested Use: Take 2 capsules with food daily or as directed by your healthcare professional."
+          ],
+          "seals_symbols": [
+            "GMP Certified FacilityThird Party Tested Made in the USA"
+          ]
+        }
       }
     },
     {
@@ -6947,7 +7779,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Formulated by Dr. Tori Hudson a Naturopathic Physician specializing in women's natural health. RBC supportFormulated by Dr. Tori Hudson"
+          ],
+          "formulation": [
+            "Iron Extra promotes healthy iron stores and absorption with gentler forms of iron Vitamin C and several key herbs. The inclusion of folate and Vitamin B-12 offer additional support. Also suitable for men. This product contains no: Preservatives binders artificial colorings or flavorings sugars lactose salt wheat gluten soybeans milk derivatives eggs peanuts tree nuts fish or shellfish. Iron Extra is suitable for vegetarians and vegans."
+          ],
+          "suggested_use": [
+            "Suggested use: One (1) capsule daily. Iron products should be taken under the supervision of a physician."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Monitor blood glucose if using blood sugar lowering agents. Tamper resistant: Please do not use if safety seal is broken or missing. Keep in a cool dry place out of reach of children."
+          ],
+          "product_specific": [
+            "Keep in a cool dry place out of reach of children."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ]
+        }
       }
     },
     {
@@ -6993,7 +7845,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Free from artificial colors and artificial preservatives. Vegetarian Gluten Free Energy Support Manufactured with the Biotron Process of amino acid chelation."
+          ],
+          "product_specific": [
+            "Keep tightly closed in a cool dry place."
+          ],
+          "precautions": [
+            "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a physician or poison control center immediately."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "suggested_use": [
+            "Directions: Two tablets once daily."
+          ]
+        }
       }
     },
     {
@@ -7041,7 +7910,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: As a dietary supplement for adults take one (1) vegetarian capsule daily or as recommended by a physician."
+          ],
+          "formulation": [
+            "Healthy Origins Iron Ease featuring Ferrochel is produced using chelaton technology from Albion Laboratories the world leader in amino acid chelate nutrition. The scientists at Albion have found a way to substantially increase the bioavailability of elemental iron by bonding it with the amino acid glycine. Amino acids are easily identified and assimilated by the body. Glycine is the ligand that supports the transport of iron into the intestinal cell maximizing the bioavailability of the iron."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "New look"
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "seals_symbols": [
+            "3rd party tested"
+          ]
+        }
       }
     },
     {
@@ -7336,7 +8225,30 @@
             "category": "enzyme"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Usage: Take 1 tablet daily with a meal."
+          ],
+          "precautions": [
+            "Caution: For adults only. Consult physician if pregnant/nursing taking medication or have a medical condition. Keep out of reach of children. Do Not Eat Freshness Packet. Keep in Bottle. Not manufactured with wheat gluten milk egg fish shellfish or tree nut ingredients. Produced in a GMP facility that processes other ingredients containing these allergens. Vitamin E from non-GMO soy."
+          ],
+          "other": [
+            "Natural color variation may occur in this product. Please Recycle. CAPSULE SIZE Vitamins Family owned since 1968."
+          ],
+          "product_specific": [
+            "Store in a cool dry place after opening."
+          ],
+          "formulation": [
+            "With Green Superfoods Vegetarian/Vegan Vitamin E from non-GMO soy. Not manufactured with wheat gluten milk egg fish shellfish or tree nut ingredients."
+          ],
+          "statement_of_identity": [
+            "A Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "GMP Quality Assured"
+          ]
+        }
       }
     },
     {
@@ -7399,7 +8311,24 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: Take 1 teaspoon daily with or without food. Best when taken as a directed by a qualified healthcare professional."
+          ],
+          "precautions": [
+            "Warnings: keep out of reach of children. Pregnant or lactating women the chronically ill elderly individuals under the age of 18 those taking prescription medications (e.g. blood thinners) as well as those with a physician-diagnosed medical condition should with a physician pharmacist naturopath or other qualified healthcare professional prior to taking dietary supplements. Pregnant or lactating women the chronically ill elderly individuals under the age of 18 those taking prescription medications (e.g. blood thinners) as well as those with a physician-diagnosed medical condition should with a physician pharmacist naturopath or other qualified healthcare professional prior to taking dietary supplements.  Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Sealed for your protection. Do not use if seal is missing or broken. Not manufactured with milk eggs fish crustacean shellfish tree nuts peanuts wheat soy sesame or gluten. Produced in an FDA-registered third party audited and cGMP compliant facility that may process other products that contain these allergens or ingredients."
+          ],
+          "product_specific": [
+            "Store in a cool dry place. Protect from heat light and moisture."
+          ],
+          "formulation": [
+            "Formulated without:"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -7808,7 +8737,21 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "formulation": [
+            "Contains soy."
+          ],
+          "precautions": [
+            "Contains soy. Do not exceed suggested use. Warning: Do not use if you are pregnant may become pregnant breastfeeding or taking any form of prescription nitrate such as nitroglycerin. If you are diabetic have any blood coagulation disorder or are taking any prescription drug consult your physician before using this product. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Do not use if either tamper-evident seal is broken or missing. Keep out of the reach of children."
+          ],
+          "suggested_use": [
+            "Directions: 2 tablets 1 to 2 times daily with meals."
+          ]
+        }
       }
     },
     {
@@ -7867,7 +8810,30 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Yes certified gluten-free by gfco.org"
+          ],
+          "other": [
+            "Yes recyclable packaging"
+          ],
+          "seals_symbols": [
+            "Certified B Corporation"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Adults take one (1) capsule daily. For best utilization take with food."
+          ],
+          "precautions": [
+            "Do not exceed recommended dose. As a reminder discuss the supplements and medications that you take with your health care provider. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a poison control center immediately. Caution: If you are pregnant nursing taking medication have a medical condition or planning surgery consult a doctor before using this product. Stop using and consult a doctor if any adverse reactions occur. Do not accept if seal is broken. Keep out of the reach of children."
+          ],
+          "product_specific": [
+            "Store in a dry place between 59 degrees; 86 degrees F."
+          ]
+        }
       }
     },
     {
@@ -7987,7 +8953,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "New look"
+          ],
+          "suggested_use": [
+            "Directions: For adults take three (3) vegan gummies daily preferably with a meal. Do not exceed recommended dosage."
+          ],
+          "precautions": [
+            "Warning: If you are pregnant nursing taking any medications or have any medical condition consult your doctor before use. If any adverse reactions occur immediately stop using this product and consult your doctor. If seal under cap is damaged or missing do not use. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or Poison Control Center immediately."
+          ],
+          "product_specific": [
+            "Store in a cool dry place. Avoid excessive heat."
+          ],
+          "formulation": [
+            "To ensure quality through expiration this product was manufactured with higher ingredient levels than the indicated amount per serving. No gluten wheat yeast milk lactose soy artificial flavor artificial sweetener."
+          ],
+          "seals_symbols": [
+            "Our Non-GMO Pledge"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -8031,7 +9020,30 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Foundational"
+          ],
+          "suggested_use": [
+            "Suggested use: Take 1 capsule daily or as recommended by your health-care practitioner."
+          ],
+          "precautions": [
+            "Tamper evident: Use only if bottle is sealed. If pregnant consult your health-care practitioner before using this product. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or a poison control center immediately."
+          ],
+          "product_specific": [
+            "Store tightly sealed in a cool dry place."
+          ],
+          "seals_symbols": [
+            "NSF"
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "Certification of Conformity of the child-proof closure with the Poison Prevention Packaging Act is available at www.thorne.com iron_certification.html"
+          ]
+        }
       }
     },
     {
@@ -8078,7 +9090,30 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Foundational"
+          ],
+          "suggested_use": [
+            "Suggested use: Take 1 capsule daily or as recommended by your health-care practitioner."
+          ],
+          "precautions": [
+            "Tamper evident: Use only if bottle is sealed. If pregnant consult your health-care practitioner before using this product. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. Keep this product out of reach of children. In case of accidental overdose call a doctor or a poison control center immediately."
+          ],
+          "product_specific": [
+            "Store tightly sealed in a cool dry place."
+          ],
+          "seals_symbols": [
+            "NSF"
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "Certification of Conformity of the child-proof closure with the Poison Prevention Packaging Act is available at www.thorne.com iron_certification.html"
+          ]
+        }
       }
     },
     {
@@ -8125,7 +9160,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "NSF Certified Sport"
+          ],
+          "formulation": [
+            "Gluten-free non-GMO"
+          ],
+          "suggested_use": [
+            "Suggested usage: As a dietary supplement adults take 1 tablet daily without food or as directed by a coach trainer or health professional."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Warning: If you are pregnant nursing have any health condition or taking any medication consult your health professional before using this product. Use only if safety seal is intact."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "other": [
+            "Contents may not fill package in order to accommodate required labeling. Please rely on stated quantity. Scan to learn about our klean manufacturing and certifications"
+          ]
+        }
       }
     },
     {
@@ -8194,7 +9252,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "10 tablets free"
+          ],
+          "formulation": [
+            "Superior absorption Blood healthEnergy productionOptimal wellness Iron is an essential mineral found within red blood cells that is necessary for delivery of oxygen to every cell of our children's bodies. Kid's Chewable Iron comes in delicious strawberry flavor and contains iron chelated to the amino acid glycine for superior absorption. Gluten-freeNo artificial preservatives Potency & quality guaranteedAn FDA regulated facility Tablet color may vary and change over time."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement\t These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Children 4 years or older: chew one tablets daily at mealtime."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -8244,7 +9319,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Superior absorption Blood healthEnergy utilizationOptimal wellness Iron helps deliver oxygen to every cell in our body through red blood cell production. Chelated Iron is bound with glycine for optimal absorption and is specially formulated to be gentle on the stomach. Gluten-freeNo artificial preservatives Tablet color variations naturally occur. This formula is prepared to disintegrate over a period of up to 1 hour. Potency & quality guaranteedAn FDA regulated facility"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Adults: Take one tablet daily at mealtime."
+          ],
+          "product_specific": [
+            "Keep bottle tightly closed. Store away from heat and moisture."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -8332,7 +9424,30 @@
             "category": "amino acid"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Gentle & non-constipating IronZahler's Advanced Iron Complex is a highly bioavailable non-constipating formula using the finest iron available. The mineral iron is essential for red blood formation and many other bodily functions. Kosher PareveUnder the strict supervision of Rabbi SH. Stern & the orthodox union Non-GMOGluten freeDairy freeSoy free Vegetarian friendly Advanced Iron complexGentle & Non-Constipating Iron Formula General Health"
+          ],
+          "other": [
+            "You may need additional supplements to support a healthy diet; consult your nutritionist for a formula that is right for you or contact us at 877-ASK-ZAHLER (877-275-9245) or ask@zahlers.com."
+          ],
+          "precautions": [
+            "Keep out of reach of children. Do not use if safety seal is damaged or missing. If pregnant nursing or on medication consult with your healthcare practitioner. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "Dairy (Kosher)OU (Kosher)This product was manufactured in a GMP certified Facility Made in the USA"
+          ],
+          "product_specific": [
+            "Store tightly closed in a cool dry place."
+          ],
+          "suggested_use": [
+            "Directions: Take 1 capsule daily with food or as directed by a healthcare practitioner."
+          ]
+        }
       }
     },
     {
@@ -8409,7 +9524,30 @@
             "category": "amino acid"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Gentle & non-constipating IronZahler's Advanced Iron Complex is a highly bioavailable non-constipating formula using the finest iron available. The mineral iron is essential for red blood formation and many other bodily functions. Kosher PareveUnder the strict supervision of Rabbi SH. Stern & the orthodox union Non-GMOGluten freeDairy freeSoy free Vegetarian friendly Advanced Iron complexGentle & Non-Constipating Iron Formula General Health"
+          ],
+          "other": [
+            "You may need additional supplements to support a healthy diet; consult your nutritionist for a formula that is right for you or contact us at 877-ASK-ZAHLER (877-275-9245) or ask@zahlers.com."
+          ],
+          "precautions": [
+            "Keep out of reach of children. Do not use if safety seal is damaged or missing. If pregnant nursing or on medication consult with your healthcare practitioner. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "Dairy (Kosher)OU (Kosher)This product was manufactured in a GMP certified Facility Made in the USA"
+          ],
+          "product_specific": [
+            "Store tightly closed in a cool dry place."
+          ],
+          "suggested_use": [
+            "Directions: Take 1 capsule daily with food or as directed by a healthcare practitioner."
+          ]
+        }
       }
     },
     {
@@ -8515,7 +9653,24 @@
             "category": "bacteria"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: Adults as a dietary supplement take one (1) capsule daily."
+          ],
+          "formulation": [
+            "For blood support 7.5 mg iron per serving"
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Do not use if safety seal is broken. If you are nursing pregnant taking medication or have a medical condition consult your physician before taking this product."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "Providing quality products since 2001."
+          ]
+        }
       }
     },
     {
@@ -8561,7 +9716,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Free from artificial colors and artificial preservatives. Vegetarian Gluten Free Energy Support Manufactured with the Biotron Process of amino acid chelation."
+          ],
+          "product_specific": [
+            "Keep tightly closed in a cool dry place."
+          ],
+          "precautions": [
+            "WARNING: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a physician or poison control center immediately."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "suggested_use": [
+            "Directions: Two tablets once daily."
+          ]
+        }
       }
     },
     {
@@ -8842,7 +10014,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Bonus size 20% moreMultivitamin; Multimineral Immune; Energy productionCardiovascular Actual size Visit www.vitaminshoppe.com or call 1-800-223-1216 for more information and to reorder."
+          ],
+          "formulation": [
+            "2000 IU vitamin D3 Gluten freeDairy freeNut free Does not contain: Yeast Wheat Gluten Salt Dairy Fish Preservatives Artificial Colors or Flavors. Contains: Soy."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "precautions": [
+            "Keep out of reach of children. Tamper evidentDo not use if outer seal is broken or missing. Contains: Soy. Warning: Consult your healthcare provider prior to use if you are pregnant nursing taking any medication or have any medical conditions. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "suggested_use": [
+            "Directions: As a dietary supplement take one (1) tablet daily preferably with a meal."
+          ]
+        }
       }
     },
     {
@@ -8912,7 +10104,24 @@
             "category": "fiber"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: Chew one tablet daily or as directed by your healthcare practitioner. Chew or crush tablets completely before swallowing. Do not swallow tablets whole."
+          ],
+          "formulation": [
+            "This product is gluten-free and vegetarian. This product is gluten-free and vegetarian. Lemon & lime"
+          ],
+          "precautions": [
+            "Caution: If you have had gastric surgery and experience persistent nausea vomiting diarrhea or other symptoms contact your healthcare practitioner."
+          ],
+          "product_specific": [
+            "Storage: Keep tightly closed in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -8958,7 +10167,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: Take one capsule daily or as directed by your healthcare practitioner."
+          ],
+          "precautions": [
+            "Consult your healthcare practitioner prior to use. Individuals taking medication should discuss potential interactions with their healthcare practitioner. Do not use if tamper seal is damaged. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "formulation": [
+            "Iron bis-glycinate is a well-studied 100% fully-reacted patented form of iron exclusively from Albion Laboratories. The Amino Acid glycine is actually one of the two starting materials the body uses to synthesize hemoglobin. Therefore Iron Glycinate contributes two key factors. This form of iron has higher bioavailability lower toxicity less food reactivity less food interactions and has a longer shelf life than any other common form of iron. Does Not Contain: Wheat Gluten yeast soy animal or dairy products fish shellfish peanuts tree nuts egg ingredients derived from genetically modified organisms (GMOs) artificial colors artificial sweeteners or artificial preservatives. Gentle and Highly Absorbable Iron Formula Albion Minerals Vegetarian Caps"
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "product_specific": [
+            "Storage: Keep closed in a cool dry place out of reach of children."
+          ],
+          "seals_symbols": [
+            "Albion Minerals"
+          ],
+          "other": [
+            "Scan to Learn More!"
+          ]
+        }
       }
     },
     {
@@ -9119,7 +10351,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "New look same formula Vegetarian formula supports healthy iron & energy levels Vegetarian formula supports healthy iron & energy levels Made with Sea Buckthorn Beet root Dandelion & Gaia-grown Nettle leafMade with honey Each 10 mL dose contains 10 mg of elemental iron. Discoloration which does not impact product quality may occur. Dairy-freeGluten-freeYeast-free Plant Force Liquid Iron"
+          ],
+          "statement_of_identity": [
+            "Herbal Supplement These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested UseAdults: 10 mL 2 times daily.Children 6-12: 10 mL daily. Best taken within 30 minutes before meals.Shake well before using.Use contents within 4 months of opening."
+          ],
+          "product_specific": [
+            "Refrigerate upon opening."
+          ],
+          "precautions": [
+            "If you are pregnant have a medical condition or take medications please consult with your doctor before use. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning of children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "other": [
+            "This carton is made from 100% recycled paperboard and is one example of how Gaia Herbs makes conscious choices to keep our planet healthy. To learn more about our sustainability efforts please visit gaiaherbs.com/sustainability. Gaia Herbs delivers unprecedented traceability by screening every product and sharing the results online. See for yourself and learn more about your herbs by entering the unique ID # below at meetyourherbs.com Purity; Keep it clean"
+          ],
+          "seals_symbols": [
+            "Integrity Purity PotencyEST 1987 USA Certified B Corporation"
+          ]
+        }
       }
     },
     {
@@ -9436,7 +10691,30 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Free of: Gluten wheat dairy yeast sugar sodium and artificial flavor. Solgar’s KOF-K certification #K-1250 Rich in antioxidant Vitamin C & E Multiple vitamins with chelated minerals Suitable for vegans Gluten wheat & dairy free"
+          ],
+          "suggested_use": [
+            "Suggested Use: As a dietary supplement for adults take one (1) tablet daily preferably with a meal or as directed by a healthcare practitioner."
+          ],
+          "precautions": [
+            "If you are pregnant nursing taking any medications have any medical condition planning any medical or surgical procedureor are planning to undergo any clinical lab testing consult your doctor before your use. Some supplements may interact with certain medications and/or interfere with certain lab tests. Discontinue use and consult your healthcare practitioner if any adverse reactions occur. Keep out of reach of children. Do not use if outer bottle seal is missing or damaged."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ],
+          "other": [
+            "Solgar since 1947"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "GF Certified Gluten-freeK Parve (Kosher)"
+          ]
+        }
       }
     },
     {
@@ -9536,7 +10814,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use:"
+          ],
+          "product_specific": [
+            "Store in a cool dry place away from sunlight."
+          ],
+          "formulation": [
+            "ChildLife uses only the highest quality ingredients. Gluten free alcohol free casein free."
+          ],
+          "precautions": [
+            "Tamper resistant: do not use if outer safety seal is broken or missing. K Parve (Kosher)"
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "Formulated by Dr. Murray C. Clarke D. Hom. L. Ac. Great taste Servings per container: 47; 24"
+          ]
+        }
       }
     },
     {
@@ -9591,7 +10889,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "precautions": [
+            "Keep out of reach of children. Contains: Soybeans Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "formulation": [
+            "Highly absorbableClinically proven to be gentle on the stomachEssential for healthy red blood cell formation No sugar no starch no artificial colors no artificial flavors sodium free no wheat gluten free no corn no dairy."
+          ],
+          "other": [
+            "90-day supply"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: As a dietary supplement take one capsule daily."
+          ]
+        }
       }
     },
     {
@@ -9646,7 +10964,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "#1 Pediatrician recommended brandEasy-to-use dropper Temporary discoloration of the teeth due to liquid iron supplements can be minimized through brushing. Fer-In-Sol varies in color from colorless to bluish-green to amber. Any color within the range is normal and does not affect the potency of the product."
+          ],
+          "statement_of_identity": [
+            "Liquid Iron Supplement"
+          ],
+          "formulation": [
+            "Essential Iron for infants & toddlers No artificial colorsNo artificial flavorsGluten free Warning: Accidental overdose or iron-containing product is a leading cause of fatal poisoning in children under 6."
+          ],
+          "suggested_use": [
+            "Dispense gently into mouth towards inner cheek; or mix with formula cereal or other foods."
+          ],
+          "product_specific": [
+            "Refrigeration not required."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose or iron-containing product is a leading cause of fatal poisoning in children under 6. Keep this product out of the reach of children. In case of accidental overdose call a doctor or poison control center immediately. Do not use if printed bottle neckband is missing or broken."
+          ]
+        }
       }
     },
     {
@@ -9689,7 +11027,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Circulatory support"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "seals_symbols": [
+            "Lab verified"
+          ],
+          "other": [
+            "Since 1973 we've scoured the globe for the highest quality ingredients connecting you with the most efficacious supplements that help you live brighter & embrace the moments that matter most. 100% PCR bottles"
+          ],
+          "precautions": [
+            "Warning: do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed health care practitioner informed when using this product especially if pregnant or nursing. Not for use by persons under the age of 18. Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under six. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "suggested_use": [
+            "Directions: use only as directed. Take 1 vegcap daily with a meal or glass of water."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -9736,7 +11097,28 @@
             "category": "TBD"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Nutritional support for healthy blood. Nature's Plus Source of Life Garden Iron Caps promote circulatory and cardiovascular health utilizing the dramatic power of certified organic iron naturally concentrate from curry. Formulated in a base of more than 20 organic whole fruits vegetables mushrooms algae and herbs for synergized assimilation and maximum results. Yeast free",
+            "For those seeking an organic naturally available plant-based iron source you can now experience the difference with Nature's Plus Source of Life Garden Iron Caps. Certified Organic Certified Organic by Ecocert ICO"
+          ],
+          "suggested_use": [
+            "Directions: As a dietary supplement take one capsule daily."
+          ],
+          "product_specific": [
+            "Keep tightly closed in a cool dry place."
+          ],
+          "precautions": [
+            "Keep out of reach of children."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "Certified Non-GMO USDA Organic"
+          ]
+        }
       }
     },
     {
@@ -9789,7 +11171,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "product_specific": [
+            "Store sealed in a cool dry place"
+          ],
+          "precautions": [
+            "Keep out of reach of children Use only if safety seal is intact Warning"
+          ],
+          "suggested_use": [
+            "Recommendations"
+          ],
+          "formulation": [
+            "Excludes coatings binders gluten (wheat rye barley) milk/dairy (casein whey) soy protein egg protein sugar. Verified by independent testing Iron Plus C 20 mg/200mg Raw materials and finished products are independently tested by U.S. labs. Learn more at vitalnutrients.net"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -9873,7 +11272,27 @@
             "category": "animal part or source"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Red blood cell support blend Gluten free. No salt yeast-derived ingredients wheat or dairy products."
+          ],
+          "other": [
+            "At Nature’s Way we believe nature knows best. That’s why our mission is to seek out the best products the earth has to give. Any material we source is rigorously tested for adulterants and potency so we can deliver quality without compromise and help you live healthier. It’s not just our way it’s Nature’s Way. Nature’s Way Since 1969 Bottles made from 97% post-consumer recycled plastic"
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food & Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary supplement"
+          ],
+          "suggested_use": [
+            "Recommendation: Take 2 softgels once or twice daily or as recommended by a healthcare professional."
+          ],
+          "precautions": [
+            "If you are pregnant nursing or taking any medications consult a healthcare professional before use. Contains soy. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of the reach of children. In case of accidental overdose call your physician or a Poison Control Center immediately.Keep out of reach of children. Safety sealed with printed inner seal. Do not use if seal is broken or missing."
+          ],
+          "seals_symbols": [
+            "Quality Global SourcingBottled & Tested in the USA"
+          ]
+        }
       }
     },
     {
@@ -9916,7 +11335,21 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "precautions": [
+            "Keep out of reach of children. Warning: Not for use by individuals under the age of 21 years. Consult a physician or licensed qualified health care professional before using this product if you have or have a family history of prostate cancer prostate enlargement heart disease low 'good' cholesterol (HDL) or if you are using any other dietary supplement prescription drug or over-the-counter drug. Do not exceed recommended serving. Exceeding recommended serving may cause serious adverse health effects. Possible side effects include acne hair loss hair growth on the face (in women) aggressiveness irritability and increased levels of estrogen. Discontinue use and call a physician or licensed qualified health care professional immediately if you experience rapid heartbeat dizziness blurred vision or other similar symptoms. Made in a facility that may process dairy peanuts tree nuts wheat fish berley and shellfish. Report an event 419-921-2609 Men over 21 only! Do not use if governed by any body that prohibits hormone use."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the FDA. Not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Shake well. Snap down the insert. Dispense 2 mL under the tongue. Hold the contents under your tongue for 60 seconds then swish the contents around your mouth and swallow completely. Use 3 doses per day. Example: 2 mL upon waking and 2 mL before bed or before your workout."
+          ],
+          "other": [
+            "All claims are dependent on proper diet and exercise and are only theories based on preliminary scientific studies."
+          ]
+        }
       }
     },
     {
@@ -10075,7 +11508,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Product is vacuum sealed for your protection. See insert for more information Easily absorbed Non-constipating Salus Liquid extract formula"
+          ],
+          "product_specific": [
+            "Important: Must be refrigerated after opening. Store unopened bottle in a cool dry place (59-77(0)F). To preserve the product and prevent its fermentation keep refrigerated at all times after opening and consume within 4 weeks. Store upright!"
+          ],
+          "seals_symbols": [
+            "Made in Germany Nature productKLQuality productsRabbi B.Frauwirth Jerusalem USA"
+          ],
+          "formulation": [
+            "Vegetarian liquid formula Nature productKLQuality productsRabbi B.Frauwirth Jerusalem Rich in iron and B-vitamins Important: This product contains no alcohol artificial colors or flavors parabens sorbate or other antimicrobial agents."
+          ],
+          "statement_of_identity": [
+            "Iron + Herbs Supplement"
+          ],
+          "precautions": [
+            "Do not contaminate the formula by drinking directly from the bottle. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Liquid iron may in some instances cause surface staining to teeth."
+          ],
+          "suggested_use": [
+            "Rinse mouth with water or brush teeth immediately after consuming. Directions:Adults (12 and over): 1 cap 10 mL mark twice daily.Children (4-11 years old):1 cap 10 mL mark once daily.Shake bottle before using.Take approx. 30 min. before meals."
+          ]
+        }
       }
     },
     {
@@ -10245,7 +11701,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Product is vacuum sealed for your protection. See insert for more information Easily absorbed Non-constipating Salus Liquid extract formula"
+          ],
+          "product_specific": [
+            "Important: Must be refrigerated after opening. Store unopened bottle in a cool dry place (59-77(0)F). To preserve the product and prevent its fermentation keep refrigerated at all times after opening and consume within 4 weeks. Store upright!"
+          ],
+          "seals_symbols": [
+            "Made in Germany Nature productKLQuality productsRabbi B.Frauwirth Jerusalem USA"
+          ],
+          "formulation": [
+            "Vegetarian liquid formula Nature productKLQuality productsRabbi B.Frauwirth Jerusalem Rich in iron and B-vitamins Important: This product contains no alcohol artificial colors or flavors parabens sorbate or other antimicrobial agents."
+          ],
+          "statement_of_identity": [
+            "Iron + Herbs Supplement"
+          ],
+          "precautions": [
+            "Do not contaminate the formula by drinking directly from the bottle. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Liquid iron may in some instances cause surface staining to teeth."
+          ],
+          "suggested_use": [
+            "Rinse mouth with water or brush teeth immediately after consuming. Directions:Adults (12 and over): 1 cap 10 mL mark twice daily.Children (4-11 years old):1 cap 10 mL mark once daily.Shake bottle before using.Take approx. 30 min. before meals."
+          ]
+        }
       }
     },
     {
@@ -10405,7 +11884,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Product is vacuum sealed for your protection. See insert for more information Easily absorbed Non-constipating Salus Liquid extract formula"
+          ],
+          "product_specific": [
+            "Important: Must be refrigerated after opening. Store unopened bottle in a cool dry place (59-77(0)F). To preserve the product and prevent its fermentation keep refrigerated at all times after opening and consume within 4 weeks. Store upright!"
+          ],
+          "seals_symbols": [
+            "Made in Germany Nature productKLQuality productsRabbi B.Frauwirth Jerusalem USA"
+          ],
+          "formulation": [
+            "Vegetarian liquid formula Nature productKLQuality productsRabbi B.Frauwirth Jerusalem Rich in iron and B-vitamins Important: This product contains no alcohol artificial colors or flavors parabens sorbate or other antimicrobial agents."
+          ],
+          "statement_of_identity": [
+            "Iron + Herbs Supplement"
+          ],
+          "precautions": [
+            "Do not contaminate the formula by drinking directly from the bottle. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Liquid iron may in some instances cause surface staining to teeth."
+          ],
+          "suggested_use": [
+            "Rinse mouth with water or brush teeth immediately after consuming. Directions:Adults (12 and over): 1 cap 10 mL mark twice daily.Children (4-11 years old):1 cap 10 mL mark once daily.Shake bottle before using.Take approx. 30 min. before meals."
+          ]
+        }
       }
     },
     {
@@ -10722,7 +12224,30 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: As a dietary supplement for adults take one (1) tablet daily preferably with a meal or as directed by a healthcare practitioner."
+          ],
+          "precautions": [
+            "If you are pregnant nursing taking any medications have any medical condition planning any medical or surgical procedure or are planning to undergo any clinical lab testing consult your doctor before use. Some supplements may interact with certain medications and/or interfere with certain lab tests. Discontinue use and consult your healthcare practitioner if any adverse reactions occur. Keep out of reach of children. Do not use if outer bottle seal is missing or damaged."
+          ],
+          "product_specific": [
+            "Store at room temperature."
+          ],
+          "formulation": [
+            "Solgar’s KOF-K certification #K-1250 Rich in antioxidant Vitamins C & E Multiple vitamins with chelated minerals Suitable for vegans Gluten wheat & dairy free Free of: Gluten wheat dairy yeast sugar sodium and artificial flavor."
+          ],
+          "other": [
+            "Solgar since 1947"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "GF Certified Gluten-freeK Parve (Kosher)"
+          ]
+        }
       }
     },
     {
@@ -10881,7 +12406,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Product is vacuum sealed for your protection. See insert for more information Easily absorbed Non-constipating Salus Liquid extract formula"
+          ],
+          "product_specific": [
+            "Important: Must be refrigerated after opening. Store unopened bottle in a cool dry place (59-77(0)F). To preserve the product and prevent its fermentation keep refrigerated at all times after opening and consume within 4 weeks. Store upright!"
+          ],
+          "seals_symbols": [
+            "Made in Germany Nature productKLQuality productsRabbi B.Frauwirth Jerusalem USA"
+          ],
+          "formulation": [
+            "Vegetarian liquid formula Nature productKLQuality productsRabbi B.Frauwirth Jerusalem Rich in iron and B-vitamins Important: This product contains no alcohol artificial colors or flavors parabens sorbate or other antimicrobial agents."
+          ],
+          "statement_of_identity": [
+            "Iron + Herbs Supplement"
+          ],
+          "precautions": [
+            "Do not contaminate the formula by drinking directly from the bottle. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Liquid iron may in some instances cause surface staining to teeth."
+          ],
+          "suggested_use": [
+            "Rinse mouth with water or brush teeth immediately after consuming. Directions:Adults (12 and over): 1 cap 10 mL mark twice daily.Children (4-11 years old):1 cap 10 mL mark once daily.Shake bottle before using.Take approx. 30 min. before meals."
+          ]
+        }
       }
     },
     {
@@ -11084,7 +12632,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: One (1) capsule daily with a meal or as directed by a healthcare professional. Best consumed within 120 days after opening."
+          ],
+          "product_specific": [
+            "Keep tightly closed in a cool dry place out of the reach of children. Moisture sensitive formula."
+          ],
+          "precautions": [
+            "Keep tightly closed in a cool dry place out of the reach of children. Vitamin E is derived from soy oil."
+          ],
+          "formulation": [
+            "Egg free"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -11266,7 +12831,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Use: Shake bottle gently before use. A measuring cup is provided. Take with food a few hours before or after taking other medications or supplements.Adults (including pregnant and lactating women) and adolescents age 14+: Take 2 teaspoons (10 mL) twice daily. Adolescents and children (age 4-13): Take 2 teaspoons (10 mL) once daily."
+          ],
+          "product_specific": [
+            "Store unopened bottle at room temperature.Keep refrigerated at all times after opening and consume within 4 weeks. To preserve the product return the bottle to the refrigerator after use. After initial opening replace with child resistant cap."
+          ],
+          "formulation": [
+            "This product contains neither alcohol nor preservatives. With B-Vitamin complex Supports healthy iron and energy levelsSupports healthy red blood cell productionEasily absorbed + non-constipating + Vegan + yeast & gluten-free Easily absorbed + non-constipating + Vegan + yeast & gluten-free Easily absorbed + non-constipating + Vegan + yeast & gluten-free Liquid formula Kosher Check"
+          ],
+          "precautions": [
+            "Keep out of reach of children. Liquid iron may in some instances cause surface staining to teeth. Rinse mouth with water or brush teeth immediately after consuming.Cautions: Stop use if hypersensitivity occurs. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Security sealed for your protection. Do not use if seal is missing or damaged."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "Kosher Check"
+          ]
+        }
       }
     },
     {
@@ -11317,7 +12902,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Use: Chew 1 tablet daily in the morning before breakfast or as directed by your healthcare professional."
+          ],
+          "precautions": [
+            "Children and pregnant or lactating women should consult their healthcare professional prior to use. Children and pregnant or lactating women should consult their healthcare professional prior to use. Do not use if tamper seal is damaged. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "product_specific": [
+            "Storage: Keep closed in a cool dry place."
+          ],
+          "formulation": [
+            "Does Not Contain: Milk eggs fish shellfish tree nuts peanuts wheat artificial colors or artificial flavors."
+          ],
+          "other": [
+            "Optimal Iron Chewable Meets or Exceeds cGMP Quality Standards.This package is completely recyclablePhysician Formulated"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "Albion Minerals"
+          ]
+        }
       }
     },
     {
@@ -11371,7 +12979,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: Chew 1 tablet daily in the morning with breakfast or use as directed by your healthcare professional."
+          ],
+          "precautions": [
+            "Children and pregnant or lactating women should consult their healthcare professional prior to use. Children and pregnant or lactating women should consult their healthcare professional prior to use. Do not use if tamper seal is damaged. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach by children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "product_specific": [
+            "Storage: Keep closed in a cool dry place."
+          ],
+          "formulation": [
+            "Iron Chewable supports healthy iron levels utilizing taste-free iron ferric glycinate along with added vitamin C for enhanced absorption."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "other": [
+            "Find other effective health products at www.seekinghealth.com"
+          ]
+        }
       }
     },
     {
@@ -11447,7 +13075,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Superior Absorption Blood HealthEnergy ProductionOptimal Wellness Tablet color may vary and change over time. Iron is an essential mineral found within red blood cells that is necessary for the delivery of oxygen to every cell of our body. Chewable Iron comes in delicious grape flavor and contains iron chelated to the amino acid glycine for optimal for optimal absorption. Gluten-freeNo Artificial Preservatives Potency & Quality Guaranteed An FDA Regulated Facility"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Adults and children 4 years or older: chew one tablet daily at mealtime."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "other": [
+            "Carlson Providing the highest quality nutritional supplements since 1965."
+          ]
+        }
       }
     },
     {
@@ -11607,7 +13252,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Product is vacuum sealed for your protection. See insert for more information Easily absorbed Non-constipating Salus Liquid extract formula"
+          ],
+          "product_specific": [
+            "Important: Must be refrigerated after opening. Store unopened bottle in a cool dry place (59-77(0)F). To preserve the product and prevent its fermentation keep refrigerated at all times after opening and consume within 4 weeks. Store upright!"
+          ],
+          "seals_symbols": [
+            "Made in Germany Nature productKLQuality productsRabbi B.Frauwirth Jerusalem USA"
+          ],
+          "formulation": [
+            "Vegetarian liquid formula Nature productKLQuality productsRabbi B.Frauwirth Jerusalem Rich in iron and B-vitamins Important: This product contains no alcohol artificial colors or flavors parabens sorbate or other antimicrobial agents."
+          ],
+          "statement_of_identity": [
+            "Iron + Herbs Supplement"
+          ],
+          "precautions": [
+            "Do not contaminate the formula by drinking directly from the bottle. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Liquid iron may in some instances cause surface staining to teeth."
+          ],
+          "suggested_use": [
+            "Rinse mouth with water or brush teeth immediately after consuming. Directions:Adults (12 and over): 1 cap 10 mL mark twice daily.Children (4-11 years old):1 cap 10 mL mark once daily.Shake bottle before using.Take approx. 30 min. before meals."
+          ]
+        }
       }
     },
     {
@@ -11778,7 +13446,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Use: Shake bottle gently before use. A measuring cup is provided. Take with food a few hours before or after taking other medications or supplements.Adults (including pregnant and lactating women) and adolescents age 14+: Take 2 teaspoons (10 mL) twice daily. Adolescents and children (age 4-13): Take 2 teaspoons (10 mL) once daily."
+          ],
+          "product_specific": [
+            "Store unopened bottle at room temperature.Keep refrigerated at all times after opening and consume within 4 weeks. To preserve the product return the bottle to the refrigerator after use. After initial opening replace with child resistant cap."
+          ],
+          "formulation": [
+            "This product contains neither alcohol nor preservatives. With B-Vitamin complex Supports healthy iron and energy levelsSupports healthy red blood cell productionEasily absorbed + non-constipating + Vegan + yeast & gluten-free Easily absorbed + non-constipating + Vegan + yeast & gluten-free Easily absorbed + non-constipating + Vegan + yeast & gluten-free Liquid formula Kosher Check"
+          ],
+          "precautions": [
+            "Keep out of reach of children. Liquid iron may in some instances cause surface staining to teeth. Rinse mouth with water or brush teeth immediately after consuming.Cautions: Stop use if hypersensitivity occurs. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Security sealed for your protection. Do not use if seal is missing or damaged."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "seals_symbols": [
+            "Kosher Check"
+          ]
+        }
       }
     },
     {
@@ -11856,7 +13544,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "isuraNon-GMO; Mass SpecDocumentationLab tested Purity & Potency Guaranteed"
+          ],
+          "suggested_use": [
+            "Suggested Usage: Chew 1 tablet per day or as directed by a health professional."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal  poisoning in children under 6. Keep this product out of the reach of children. In case of accidental overdose call a doctor or poison control center immediately. Cautions: As with any supplement consult your health professional before use if you are pregnant breastfeeding or trying to conceive or if you are taking medication have a medical condition or anticipate a surgery. Iron deficiency anemia is uncommon in the US. Take only as advised by your health professional. Keep out of the reach of children.\t Sealed for your protection. Do not use if seal is broken."
+          ],
+          "formulation": [
+            "Easy Iron is a highly bio-available form of elemental iron manufactured using a unique “super dispersion technology”. Most forms of iron can cause constipation but SunActive iron is known to be gentle on the stomach.  Easy Iron has no iron taste and is offered in a convenient ‘one-per-day’ tasty fruit flavored chewable tablet to enhance absorption. Iron plays an essential role in the transportation of oxygen in the blood for the release of energy from food. Fe True Elemental Content Contains no artificial colors preservatives or sweeteners; no dairy sugar wheat gluten yeast soy egg fish shellfish animal products salt tree nuts or GMOs. Suitable for vegetarians/vegans. High bio-availability Easy on the stomach Easy to absorb"
+          ],
+          "other": [
+            "Manufactured by Natural Factors to ensure safety and potency in accordance with Good Manufacturing Practices (GMP) of the FDA and Health Canada. Product of CanadaRecyclable container and label."
+          ],
+          "product_specific": [
+            "For freshness store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -12019,7 +13730,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Comprehensive mineral formula for whole body nutrition"
+          ],
+          "other": [
+            "Science-Backed Quality Since 1969"
+          ],
+          "suggested_use": [
+            "Suggested use: As a dietary supplement take two capsules one to two times per day with food and water."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -12150,7 +13881,30 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Product is vacuum sealed for your protection. See insert for more information Easily absorbedNon-constipating Salus Liquid extract formula"
+          ],
+          "product_specific": [
+            "Important: Must be refrigerated after opening. Store unopened bottle in a cool dry place (15-25(0)C). To preserve the product and prevent its fermentation keep refrigerated at all times after opening and consume within 4 weeks. Store upright!"
+          ],
+          "seals_symbols": [
+            "Made in Germany Nature productKLQuality productsRabbi B.Frauwirth Jerusalem USA"
+          ],
+          "formulation": [
+            "Vegetarian liquid formula Nature productKLQuality productsRabbi B.Frauwirth Jerusalem Rich in iron and B-vitamins Yeast + gluten-free Important: This product contains no alcohol artificial colors or flavors parabens sorbate or other antimicrobial agents."
+          ],
+          "statement_of_identity": [
+            "Iron + Herbs Supplement"
+          ],
+          "precautions": [
+            "Do not contaminate the formula by drinking directly from the bottle. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Liquid iron may in some instances cause surface staining to teeth."
+          ],
+          "suggested_use": [
+            "Rinse mouth with water or brush teeth immediately after consuming. Directions:Adults (12 and over):1 cap 10 mL mark twice daily.Children (4-11 years old):1 cap 10 mL mark once daily.Shake bottle before using. Take approx. 30 min. before meals."
+          ]
+        }
       }
     },
     {
@@ -12389,7 +14143,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "1000 IU Vitamin D-3 one-per-day WITH IRONDaily Essential Vitamins & Minerals with: Omega-3 Oils ~ Antioxidants Green Super Foods Contains: Fish (anchovy sardine) Soy No preservatives added. Essential Vitamins & Minerals: This broad spectrum formula conveniently supplies 100% of the recommended daily allowances for most vitamins and minerals including 1000 IU of Vitamin D3. With Iron: This one-per-day Multi is designed specifically for individuals who require iron supplementation on a daily basis including pre-menopausal women. It supplies a highly absorbable form of iron AND it includes high levels of Vitamin C (which enhances iron absorption) and excludes calcium (which strongly inhibits iron absorption). It supplies a highly absorbable form of iron AND it includes high levels of Vitamin C (which enhances iron absorption) and excludes calcium (which strongly inhibits iron absorption). Omega-3: Fish oil is the foundation of our Liquid Soft-Gel delivery system and a source of Omega-3 essential fatty acids.Green Super Foods: For added benefit we've included a blend of nutrient-dense super foods to enhance the nutritional value of the formula overall.BioPerine Complex: All Irwin Naturals products are infused with a patented and clinically-researched Black Pepper extract that has been shown to increase the absorption of many nutrients."
+          ],
+          "statement_of_identity": [
+            "DIETARY SUPPLEMENT *These statements have not been evaluated by the Food & Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "other": [
+            "60 DAY SUPPLY QUESTIONS: Call Consumer Affairs 1-800-297-3273 / Weekdays 8:00 AM to 5:00 PM (PST) This high potency Multi is packed with vitamins minerals and trace nutrients to help you meet or exceed your daily nutritional requirements. Iron is an essential part of red blood cells and helps to transport oxygen throughout the body."
+          ],
+          "suggested_use": [
+            "Directions (Adult): Take one (1) Liquid Soft-Gel daily with a meal."
+          ],
+          "precautions": [
+            "Contains: Fish (anchovy sardine) Soy WARNING: (State of California Prop 65) This product contains a chemical known to the State of California to cause birth defects or other reproductive harm. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Usage Warnings: Do not use if safety seal is broken. Check with your doctor before using this product if you are using medication or have any medical conditions. Do not use if you may become pregnant are pregnant or nursing. Do not exceed recommended daily intake. Not intended for use by persons under 18. KEEP OUT OF REACH OF CHILDREN."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -12628,7 +14402,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "1000 IU Vitamin D-3 Daily Essential Vitamins & Minerals with: Omega-3 Oils ~ AntioxidantsGreen Super Foods Contains: Fish (anchovy sardine) Soy No preservatives added. It features powerful antioxidants high-energy B vitamins and a balanced blend of trace-minerals to help fill the nutritional gap in your diet.* Plus it provides 1000 IU of Vitamin D3; which is emerging as one of th emost important nutrients for whole body health.* WITHOUT IRON Without Iron: This one-per-day Multi is designed specifically for individuals who do not require iron supplementation including most men and post-menopausal women. Without Iron: This one-per-day Multi is designed specifically for individuals who do not require iron supplementation including most men and post-menopausal women. Omega-3: Fish oil is the foundation of our Liquid Soft-Gel delivery system and a source of Omega-3 essential fatty acids. Green Super Foods: For added benefit we've included a blend of nutrient-dense super foods to enhance the nutritional value of the formula overall.* BioPerine Complex: All Irwin Naturals(R) products are infused with a patented and clinically-researched Black Pepper extract that has been shown to increase the absorption of many nutrients."
+          ],
+          "statement_of_identity": [
+            "DIETARY SUPPLEMENT *These statements have not been evaluated by the Food & Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "other": [
+            "60 DAY SUPPLY QUESTIONS: Call Consumer Affairs 1-800-297-3273 / Weekdays 8:00 AM to 5:00 PM (PST) This high potency Multi is packed with vitamins minerals and trace nutrients to help you meet or exceed your daily nutritional requirements.Essential Vitamins & Minerals: This broad spectrum formula conveniently supplies 100% of the recommended daily allowances for most vitamins and minerals."
+          ],
+          "suggested_use": [
+            "Directions (Adult): Take one (1) Liquid Soft-Gel daily with a meal. one-per-day"
+          ],
+          "precautions": [
+            "Contains: Fish (anchovy sardine) Soy Do not exceed recommended daily intake. \t Not intended for use by persons under 18. KEEP OUT OF REACH OF CHILDREN. WARNING: (State of California Prop 65) This product contains a chemical known to the State of California to cause birth defects or other reproductive harm. Usage Warnings: Do not use if safety seal is broken. \t Check with your doctor before using this product if you are using medication or have any medical conditions. Do not use if you may become pregnant are pregnant or nursing."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -12688,7 +14482,24 @@
             "category": "fiber"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: Take one tablet daily or as directed by your healthcare practitioner. Chew or crush tablets completely before swallowing. Do not swallow tablets whole."
+          ],
+          "formulation": [
+            "This product is gluten-free and vegetarian. This product is gluten-free and vegetarian. Passion fruit"
+          ],
+          "precautions": [
+            "Caution: If you have had gastric surgery and experience persistent nausea vomiting diarrhea or other symptoms contact your healthcare practitioner."
+          ],
+          "product_specific": [
+            "Storage: Keep tightly closed in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -12952,7 +14763,21 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested Usage: Take 2 softgels daily with food or as directed by your healthcare practitioner."
+          ],
+          "formulation": [
+            "How It Works: Protocol For Life Balance Ortho Multi is a complete vitamin and mineral complex fortified with lutein lycopene and flax seed oil. It features all the daily required vitamins and minerals in bioavailable forms to support general health and well-being. Natural color variation may occur in this product. Ortho Multi"
+          ],
+          "statement_of_identity": [
+            "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. A Dietary Supplement"
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. This product contains biotin which may interfere with some blood test results. Go to protocolforlife.com/biotinlab for details. Not manufactured with wheat gluten milk egg fish or shellfish ingredients. Produced in a GMP facility that processes other ingredients containing these allergens."
+          ]
+        }
       }
     },
     {
@@ -13118,7 +14943,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Greatness by Nature #howizhouFacebookInstagram"
+          ],
+          "formulation": [
+            "Formulated for fuller thicker manlier hair GMPGood Manufacturing PracticeSourced from a certified facilityLab verifiedMade with non-GMO ingredients Made with non-GMO ingredients Premium beard & hair growth formula No gluten soy milk eggs fish shellfish tree nuts peanuts wheat or preservatives."
+          ],
+          "suggested_use": [
+            "Suggested Use: Adults take two (2) capsules once daily or as directed by a healthcare professional. For maximum effect take daily for at least 30 days."
+          ],
+          "precautions": [
+            "Caution: Do not exceed recommended dose. Pregnant or nursing mothers children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement. Pregnant or nursing mothers children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement. Keep out of reach of children. Do not use if safety seal is damaged or missing."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -13264,7 +15109,24 @@
             "category": "animal part or source"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "28mg Iron + B vitamins Menstrual support"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Adult women: take one capsule daily at mealtime."
+          ],
+          "product_specific": [
+            "Keep bottle tightly closed. Store away from heat and moisture."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -13335,7 +15197,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Iron"
+          ],
+          "other": [
+            "2-Month supply Feel different."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "suggested_use": [
+            "Suggested use: Take 1 capsule daily with 8 ounces of water or your favorite beverage. May be taken with or without food."
+          ],
+          "precautions": [
+            "Caution: Do not exceed recommended dose. Pregnant or nursing mothers children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement. Pregnant or nursing mothers children under 18 and individuals with a known medical condition should consult a physician before using this or any dietary supplement. Please use caution if you have allergies or sensitivities to any of the listed ingredients. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Do not use if product has been opened or tampered with in any way. Keep out of reach of children and pets."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -13483,7 +15365,30 @@
             "category": "amino acid"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Daily mineral complex Overall health Fe Iron Free Discussion: Mega Multi Mineral is a complex comprised of essential minerals that support overall health. A special base of herbs has been included for additional nutritive support."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "seals_symbols": [
+            "Lab Verified"
+          ],
+          "other": [
+            "Since 1973 we've scoured the globe for the highest quality ingredients connecting you with the most efficacious supplements that help you live brighter & embrace the moments that matter most. 100% PCR Bottles"
+          ],
+          "precautions": [
+            "Warning: Do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed health care practitioner informed when using this product."
+          ],
+          "suggested_use": [
+            "Directions: Use only as directed. Take 4 capsules daily with a meal or glass of water."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -13595,7 +15500,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "product_specific": [
+            "Store in a cool dry place"
+          ],
+          "precautions": [
+            "Keep out of reach of children Use only if safety seal is intact Warning: If pregnant consult your physician before taking."
+          ],
+          "suggested_use": [
+            "Recommendations"
+          ],
+          "formulation": [
+            "Excludes: Coating binders gluten (Wheat rye barley) milk/dairy (casein/whey) soy protein egg protein sugar."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplements"
+          ]
+        }
       }
     },
     {
@@ -13739,7 +15661,24 @@
             "category": "amino acid"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "formulation": [
+            "Lab verified Discussion: Mega Multi Mineral is a complete multi-mineral complex comprised of essential minerals that help support overall health. The minerals in this product are reacted with aspartic acid whole rice concentrate citric acid and glycine to create a more absorbable chelated complex. A special base of herbs has been included for additional nutritive support. Daily mineral complex"
+          ],
+          "precautions": [
+            "Warning: Do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed health care practitioner informed when using this product."
+          ],
+          "suggested_use": [
+            "Directions: Use only as directed. Take four capsules daily with a meal or glass of water."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -13850,7 +15789,27 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: Take 1 capsule daily with food or use as directed by your healthcare professional."
+          ],
+          "precautions": [
+            "Do not take within 5 hours of bedtime as it may interfere with sleep."
+          ],
+          "product_specific": [
+            "Storage: Keep closed in a cool dry place out of reach of children."
+          ],
+          "formulation": [
+            "Does not contain: Milk eggs fish shellfish tree nuts peanuts wheat artificial colors or artificial flavors. Trace Minerals Complex meets or exceeds cGMP Quality Standards. Iron free"
+          ],
+          "other": [
+            "This package is completely recyclable Find other Effective Health Products at www.seekinghealth.com"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -14073,7 +16032,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: Chew one tablet daily with food or as directed by your healthcare practitioner. Chew or crush tablets completely before swallowing. Do not swallow tablets whole."
+          ],
+          "formulation": [
+            "This product is gluten-free. Once per day Multivitamin Citrus"
+          ],
+          "precautions": [
+            "Caution: If you have had gastric surgery and experience persistent nausea vomiting diarrhea or other symptoms contact your healthcare practitioner."
+          ],
+          "product_specific": [
+            "Storage: Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -14303,7 +16279,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Directions: Chew one tablet daily with food or as directed by your healthcare practitioner. Chew or crush tablets completely before swallowing. Do not swallow tablets whole."
+          ],
+          "formulation": [
+            "This product is gluten-free. New Flavor Once per day Multivitamin Citrus"
+          ],
+          "precautions": [
+            "Caution: If pregnant or nursing consult your healthcare practitioner before use. Caution: If you have had gastric surgery and experience persistent nausea vomiting diarrhea or other symptoms contact your healthcare practitioner."
+          ],
+          "product_specific": [
+            "Storage: Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -14535,7 +16528,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Vegan Non GMO"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "other": [
+            "Innovative ingredients."
+          ],
+          "precautions": [
+            "Warning: Do not use if safety seal is broken or missing. Keep out of reach of children. Keep your licensed healthcare practitioner informed when using this product especially if pregnant or nursing."
+          ],
+          "suggested_use": [
+            "Directions: Use only as directed. Take 6 capsules daily with meals (dose may be divided) or as directed by your healthcare practitioner."
+          ],
+          "product_specific": [
+            "Keep tightly capped and store in a cool dry place."
+          ]
+        }
       }
     },
     {
@@ -14761,7 +16774,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "This high-quality hypoallergenic multivitamin/mineral blend includes activated vitamins; folate as a Quatrefolic (5-MTHF) for optimal utilization; and patented Albion TRAACS chelated mineral complexes in vegetarian capsules. The comprehensive nutrient profile in ActivNutrients supports foundational wellness; antioxidant activity with vitamins C and E selenium and beta-carotene; and phase I detoxification. Does Not Contain: Wheat gluten yeast soy protein dairy products fish shellfish peanuts tree nuts egg artificial colors artificial sweeteners or artificial preservatives. Hypoallergenic Multivitamin/Mineral Formula for Wellness Support"
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Storage: Keep closed in a cool dry place out of reach of children. Individuals taking medication should discuss potential interactions with their healthcare practitioner. Consult your healthcare practitioner prior to use."
+          ],
+          "product_specific": [
+            "Storage: Keep closed in a cool dry place out of reach of children."
+          ],
+          "other": [
+            "ePV: Exclusive professional formulas This package is completely recyclable Scan to learn more! Do not use if tamper seal is damaged. Professional use onlyNot for resale on third-party websites including but not limited to Amazon and eBay."
+          ],
+          "seals_symbols": [
+            "ePV Vegetarian caps Third Party GMP Compliant Verified"
+          ],
+          "suggested_use": [
+            "Directions: Take two capsules twice daily or as directed by your healthcare practitioner."
+          ]
+        }
       }
     },
     {
@@ -15003,7 +17039,30 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "suggested_use": [
+            "Recommendations: As a dietary supplement take 3 capsules 1-2 times daily with meals."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of the reach of children. In case of accidental overdose call a doctor or poison control center immediately. Warning: If you are pregnant or lactating have any health condition or are taking any medication consult your health professional before use. Keep out of the reach of children. Use only if safety seal is intact."
+          ],
+          "other": [
+            "Scan to learn about our hypoallergenic supplementsContents may not fill package in order to accommodate required labeling. Please rely on stated quantity."
+          ],
+          "seals_symbols": [
+            "GFCO.org"
+          ],
+          "formulation": [
+            "Multivitamin/mineral formula for daily wellness Gluten-free non-GMO & hypoallergenic Gluten-free non-GMO & hypoallergenic"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ]
+        }
       }
     },
     {
@@ -15073,7 +17132,27 @@
             "category": "animal part or source"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "UNCONDITIONALLY GUARANTEED Studies have suggested that liver contains many of the necessary nutrients to maintain a healthy and vigorous life. Further studies have shown that it significantly increases energy and stamina. It takes 20 lbs. of liver to make 1 lb. of high-potency extract. Unique liver fraction is non-toxic and non-constipating.* 20 Times Concentrated For Energy and Stamina*For Your Good Health {signature} Terry"
+          ],
+          "formulation": [
+            "Liver Fractions(TM) is a superior source of heme iron and other blood building nutrients. Liver contains a source of iron bound to hemoglobin (heme iron) of which up to 33% is absorbed compared to non-heme iron which can have as little as 2% absorption. Liver Fractions(TM) contains predigested and concentrated beef liver fractions from animals raised in Argentina without the use of chemical sprays pesticides or antibiotics. Liver Fractions(TM) contains predigested and concentrated beef liver fractions from animals raised in Argentina without the use of chemical sprays pesticides or antibiotics. Free of fat and cholesterol. Heme Iron No sugar salt yeast wheat gluten corn soy artificial coloring artificial flavoring or artificial preservatives."
+          ],
+          "seals_symbols": [
+            "Terry Naturally(R) Terry NaturallyEuroPharma(R)"
+          ],
+          "statement_of_identity": [
+            "DIETARY SUPPLEMENT * THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE TREAT CURE OR PREVENT ANY DISEASE."
+          ],
+          "suggested_use": [
+            "Recommendations: 2 capsules twice daily."
+          ],
+          "precautions": [
+            "If pregnant or nursing consult a healthcare practitioner before using."
+          ]
+        }
       }
     },
     {
@@ -15285,7 +17364,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "suggested_use": [
+            "Suggested use: Chew one tablet two times daily or as recommended by your healthcare practitioner. Chew or crush tablets completely before swallowing. Do not swallow tablets whole."
+          ],
+          "formulation": [
+            "This product is gluten-free. New Formula Tropical Fruit"
+          ],
+          "precautions": [
+            "Warning: Do not use if pregnant or nursing. Excess vitamin A intake may increase the risk of birth defects. Pregnant women or women who may become pregnant should not exceed 3000 mcg of preformed vitamin A (retinyl acetate) per day. Caution: If you have had gastric surgery and experience persistent nausea vomiting diarrhea or other symptoms contact your healthcare practitioner."
+          ],
+          "product_specific": [
+            "Storage: Keep tightly closed in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -15506,7 +17602,27 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Great formulaNew look same great formula"
+          ],
+          "formulation": [
+            "Bottled and packaged in the USA Twinlab Daily One Caps without Iron contains 25 vitamins and minerals to support overall wellness. Vitamin A is necessary for healthy vision while the key B vitamins support cognitive function. No artificial colors flavors or preservatives added. High potency stress & energy formulaMemory and eye support Without Iron"
+          ],
+          "product_specific": [
+            "Keep tightly closed in a cool dry place."
+          ],
+          "precautions": [
+            "Warning: If you are pregnant or nursing taking any medication or have any medical condition consult a health care professional before use. Keep out of reach of children. Contains soy."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Multivitamin Supplement"
+          ],
+          "suggested_use": [
+            "Directions: Take one capsule daily after a meal."
+          ]
+        }
       }
     },
     {
@@ -15726,7 +17842,24 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Multivitamin and mineral with beta carotene Overall wellness Free from artificial colors and artificial preservatives. Free from allergens milk egg fish crustacean shellfish tree nuts peanuts and wheat. Vegan Gluten free"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: One capsule daily with a meal."
+          ],
+          "product_specific": [
+            "Keep tightly closed in a cool dry place."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a physician or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -15909,7 +18042,18 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Vitamins & minerals Optimal wellness"
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the FDA. This product is not intended to diagnose treat cure or prevent any disease. Dietary Supplement"
+          ],
+          "suggested_use": [
+            "Directions: adults: take one tablet daily at mealtime."
+          ]
+        }
       }
     },
     {
@@ -16148,7 +18292,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "product_specific": [
+            "Store sealed in a cool dry place"
+          ],
+          "precautions": [
+            "Keep out of reach of children Use only if safety seal is intact Warning"
+          ],
+          "suggested_use": [
+            "Recommendations"
+          ],
+          "formulation": [
+            "Excludes coatings binders gluten (wheat rye barley) milk/dairy (casein whey) soy protein egg protein sugar."
+          ],
+          "other": [
+            "Learn more at vitalnutrients.net"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -16358,7 +18522,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "product_specific": [
+            "Store sealed in a cool dry place"
+          ],
+          "precautions": [
+            "Keep out of reach of children Use only if safety seal is intact Warning"
+          ],
+          "suggested_use": [
+            "Recommendations"
+          ],
+          "formulation": [
+            "Excludes coatings binders gluten (wheat rye barley) milk/dairy (casein whey) soy protein egg protein sugar."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -16580,7 +18761,24 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "product_specific": [
+            "Store sealed in a cool dry place"
+          ],
+          "precautions": [
+            "Keep out of reach of children Use only if safety seal is intact Warning"
+          ],
+          "suggested_use": [
+            "Recommendations"
+          ],
+          "formulation": [
+            "Excludes coatings binders gluten (wheat rye barley) milk/dairy (casein whey) soy protein egg protein sugar."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -16823,7 +19021,27 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "suggested_use": [
+            "Recommendations: As a dietary supplement take 3 capsules 1-2 times daily with meals."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately. Warning: If you are pregnant or lactating have any health condition or are taking any medication consult your health professional before use. Keep out of the reach of children. Use only if safety seal is intact."
+          ],
+          "other": [
+            "Scan to learn about our hypoallergenic supplementsContents may not fill package in order to accommodate required labeling. Please rely on stated quantity."
+          ],
+          "formulation": [
+            "Certified Gluten-Free by the Gluten-Free Certification Organization www.gluten.org Multivitamin/mineral formula for daily wellness Gluten-free non-GMO & hypoallergenic Gluten-free non-GMO & hypoallergenic"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ]
+        }
       }
     },
     {
@@ -17081,7 +19299,24 @@
             "category": "amino acid"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Formulated to have low allergen potential. Now with riboflavin-5-phosphate pyridoxal-5-phosphate 5-MTHF methylcobalamin vitamin C two forms of K (non-soy) sunflower E iodine and vanadium. Variations in product color may occur. Updated Classic Formula"
+          ],
+          "suggested_use": [
+            "Suggested UseAs a dietary supplement 1 capsule one or two times daily with meals or as directed by a healthcare practitioner."
+          ],
+          "precautions": [
+            "Warning: Accidental overdose of iron containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or a poison control center immediately. Taking more than 400 mg of selenium per day from all sources should only be done under the guidance of a healthcare professional."
+          ],
+          "product_specific": [
+            "Keep in a cool dry place tightly capped."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -17333,7 +19568,24 @@
             "category": "amino acid"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Formulated to have low allergen potential. Now with riboflavin-5-phosphate pyridoxal-5-phosphate 5-MTHF methylcobalamin vitamin C two forms of K (non-soy) sunflower E and iodine. Variations in product color may occur. Updated Classic Formula"
+          ],
+          "suggested_use": [
+            "Suggested Use"
+          ],
+          "precautions": [
+            "Taking more than 400 mcg of selenium per day from all sources should only be done under the guidance of a healthcare professional. Warning: Accidental overdose of iron containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or a poison control center immediately."
+          ],
+          "product_specific": [
+            "Keep in a cool dry place tightly capped."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -17566,7 +19818,30 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "Mason guarantee Laboratory TestedcGMP Certified Good Manufacturing Practice"
+          ],
+          "other": [
+            "CertifiedNMason natural Est. 1967New Smaller pill Please recycle"
+          ],
+          "formulation": [
+            "May Support general wellness Guaranteed no added: Yeast soy wheat dairy fish tree nuts peanuts egg fragrance artificial flavors crustacean shellfish animal products. Sodium free. Soy free Manufactured in the USA for: Mason Vitamins Inc."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Adults; Take one caplet daily preferably with food as a dietary supplement."
+          ],
+          "precautions": [
+            "Caution: If you are pregnant nursing taking any medications or have any medical condition consult your physician before use. Some supplements may interact with certain medications and/or interfere with certain lab tests. Discontinue use and consult your physician if any adverse reactions occur. Keep out of reach of children. Tamper-Evident Seal: Do not use product if seal appears tampered."
+          ],
+          "product_specific": [
+            "Store in a dry place under controlled room temperature: 20 degrees; 25 degrees C (68 degrees; 77 degrees F)."
+          ]
+        }
       }
     },
     {
@@ -17770,7 +20045,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Provides a full day's supply of 15 essential vitamins and minerals Protects against stress-induced nutrient depletion Comprehensive formula for overall health"
+          ],
+          "other": [
+            "Science-Backed Quality Since 1969"
+          ],
+          "suggested_use": [
+            "Suggested use: As a dietary supplement take one tablet per day with food and water. Women who are pregnant or likely to become pregnant should not exceed recommended dose."
+          ],
+          "precautions": [
+            "Women who are pregnant or likely to become pregnant should not exceed recommended dose."
+          ],
+          "product_specific": [
+            "Store in a cool dry place."
+          ],
+          "statement_of_identity": [
+            "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease. Vitamin & Mineral Supplement"
+          ]
+        }
       }
     },
     {
@@ -17966,7 +20261,30 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Made with D3 No iron No color addedNo artificial flavorsNo preservativesNo yeastGluten free"
+          ],
+          "seals_symbols": [
+            "USP Dietary Supplement Verified"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "other": [
+            "22 key nutrients for daily nutritional support USP has tested and verified ingredients potency and manufacturing process. USP sets official standards for dietary supplements. www.uspverified.org"
+          ],
+          "suggested_use": [
+            "Suggested use: Take one tablet daily with a meal. For easier swallowing take with water before and during ingestion."
+          ],
+          "product_specific": [
+            "Keep bottle tightly closed. Store in a cool dry place out of reach of children."
+          ],
+          "precautions": [
+            "Store in a cool dry place out of reach of children. Do not use if imprinted seal under cap is broken or missing."
+          ]
+        }
       }
     },
     {
@@ -18173,7 +20491,27 @@
             "category": "mineral"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "USP Verified Dietary Supplement"
+          ],
+          "formulation": [
+            "23 key nutrients for daily nutritional supportMade with vitamin D3 and iron USP has tested and verified ingredients potency and manufacturing process.USP sets official standards for dietary supplements. www.uspverified.org No color addedNo artificial flavorsGluten free"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ],
+          "suggested_use": [
+            "Suggested Use: Adults take 1 tablet daily with water and a meal."
+          ],
+          "product_specific": [
+            "Store tightly closed in a cool dry place out of reach of children."
+          ],
+          "precautions": [
+            "Store tightly closed in a cool dry place out of reach of children. Do not use if imprinted seal under cap is broken or missing. Caution: If you are taking medication or have blood clotting issues consult your physician before use. Warning: Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately."
+          ]
+        }
       }
     },
     {
@@ -18477,7 +20815,24 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Please RecycleVis medicatrix naturae To learn more about our seals please visit innateresponse.com/standards. At INNATE Response we share your belief that nothing is more important than supporting your body's innate ability to heal. To that end we develop nutrient-rich supplements. See how they're made at innateresponse.com/showme.Satisfaction guaranteed or your money back.Learn more at: www.innateresponse.com"
+          ],
+          "formulation": [
+            "Supports optimal health & well-being Non GMO Project Verifiednongmoproject.orgGlyphosate Residue Freedetoxproject.orgTested Gluten FreeDairy FreeSoy free Vegetarian Kosher In this INNATE Response product each vitamin or mineral is paired with an ideal whole food using our unique process to deliver guaranteed potency and the benefit of health-promoting compounds present in the whole food itself."
+          ],
+          "statement_of_identity": [
+            "Multivitamin & Mineral Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested Use: 1 tablet daily or as directed by your healthcare practitioner. May be taken anytime throughout the day even on an empty stomach."
+          ],
+          "seals_symbols": [
+            "Certified B CorporationNon GMO Project Verifiednongmoproject.orgGlyphosate Residue Freedetoxproject.orgTested 125+ pesticides & herbicidesTested Gluten FreeOK (Kosher)"
+          ]
+        }
       }
     },
     {
@@ -18693,7 +21048,30 @@
             "category": "amino acid"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "Non-GMO Contains no artificial colors preservatives or sweeteners; no dairy sugar wheat gluten yeast soy egg fish shellfish salt tree nuts or GMOs. Suitable for vegetarians."
+          ],
+          "other": [
+            "Mass specDocumentation Lab tested Manufactured by Natural Factors to ensure safety and potency in accordance with Good Manufacturing Practices (GMP) of the FDA and Health Canada.\t Product of CanadaRecyclable container and label. Actual size Multi vitamin & mineral complex for everyone"
+          ],
+          "suggested_use": [
+            "Suggested Usage: 1 tablet per day or as directed by a health professional."
+          ],
+          "precautions": [
+            "Cautions: As with any supplement consult your health professional before use if you are pregnant breastfeeding or trying to conceive or if you are taking medication have a medical condition or anticipate a surgery. Keep out of the reach of children. Sealed for your protection. Do not use if seal is broken."
+          ],
+          "product_specific": [
+            "For freshness store in a cool dry place."
+          ],
+          "seals_symbols": [
+            "Purity & potency guaranteed"
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement"
+          ]
+        }
       }
     },
     {
@@ -18919,7 +21297,30 @@
             "category": "non-nutrient/non-botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "seals_symbols": [
+            "Mason guarantee Laboratory TestedcGMP Certified Good Manufacturing Practice"
+          ],
+          "other": [
+            "CertifiedNMason natural Est. 1967New Smaller pill Please recycle"
+          ],
+          "formulation": [
+            "May Support general wellness Guaranteed no added: Yeast soy wheat dairy fish tree nuts peanuts egg fragrance artificial flavors crustacean shellfish animal products. Sodium free. Soy free Manufactured in the USA for: Mason Vitamins Inc."
+          ],
+          "statement_of_identity": [
+            "Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Directions: Adults; Take one caplet daily preferably with food as a dietary supplement."
+          ],
+          "precautions": [
+            "Caution: If you are pregnant nursing taking any medications or have any medical condition consult your physician before use. Some supplements may interact with certain medications and/or interfere with certain lab tests. Discontinue use and consult your physician if any adverse reactions occur. Keep out of reach of children. Tamper-Evident Seal: Do not use product if seal appears tampered."
+          ],
+          "product_specific": [
+            "Store in a dry place under controlled room temperature: 20 degrees; 25 degrees C (68 degrees; 77 degrees F)."
+          ]
+        }
       }
     },
     {
@@ -19199,7 +21600,24 @@
             "category": "botanical"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "other": [
+            "Please RecycleVis medicatrix naturae To learn more about our seals please visit innateresponse.com/standards. At INNATE Response we share your belief that nothing is more important than supporting your body's innate ability to heal. To that end we develop nutrient-rich supplements. See how they're made at innateresponse.com/showme.Satisfaction guaranteed or your money back.Learn more at: www.innateresponse.com"
+          ],
+          "formulation": [
+            "Supports optimal health & well-being Non GMO Project Verifiednongmoproject.orgGlyphosate Residue Freedetoxproject.orgTested Gluten FreeDairy FreeSoy free Vegetarian Kosher In this INNATE Response product each vitamin or mineral is paired with an ideal whole food using our unique process to deliver guaranteed potency and the benefit of health-promoting compounds present in the whole food itself."
+          ],
+          "statement_of_identity": [
+            "Multivitamin & Mineral Dietary Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "suggested_use": [
+            "Suggested Use: 1 tablet daily or as directed by your healthcare practitioner. May be taken anytime throughout the day even on an empty stomach."
+          ],
+          "seals_symbols": [
+            "Certified B CorporationNon GMO Project Verifiednongmoproject.orgGlyphosate Residue Freedetoxproject.orgTested 125+ pesticides & herbicidesTested Gluten FreeOK (Kosher)"
+          ]
+        }
       }
     },
     {
@@ -19412,7 +21830,27 @@
             "category": "fatty acid"
           }
         ],
-        "other_ingredients": []
+        "other_ingredients": [],
+        "label_statements": {
+          "formulation": [
+            "1 complete softgel with DHA OB/GYN recommended Complete multivitamin for Before During After Pregnancy With folic acid DHA & ironColors from natural sources No artificial flavors or sweeteners Due to the use of colors derived from natural sources some dark spots may appear on the softgel over time. This does not impact product quality or safety.Product of Spain A complete multivitamin with more of what matters to mom and babyOne A Day Women's Prenatal 1 supports your nutritional needs at three key stages:1 while you're trying to conceive2 during pregnancy3 and while breastfeeding One A Day Women's Prenatal 1 is a multivitamin with at least 100% daily value for key nutrients such as folic acid and iron.One A Day Women's Prenatal 1 also has DHA an Omega-3 fatty acid that helps support healthy fetal brain and eye development during pregnancy and is also recommended by experts for breastfeeding mothers. No synthetic colorsNo high fructose corn syrupNo glutenNo wheat allergenNo dairy (milk) allergenNo egg allergen"
+          ],
+          "statement_of_identity": [
+            "Multivitamin/Multimineral Supplement This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose treat cure or prevent any disease."
+          ],
+          "precautions": [
+            "Contains: Fish (anchovy sardine tuna) and soy. Warning: Accidental overdose of iron-containing products is a leading case of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose call a doctor or poison control center immediately.Keep out of reach of childrenChild resistant capNot for children If pregnant breast-feeding taking medication or have any medical condition ask a health professional before use. Do not exceed recommended intake.Do not use if printed safety seal bearing 'Bayer HealthCare' under cap is torn or missing. For adult use only"
+          ],
+          "product_specific": [
+            "Store at room temperature. Avoid temperatures above 25 degrees C (77 degrees F)."
+          ],
+          "other": [
+            "Questions or comments?Please text or call 1-800-800-4793 (Mon-Fri 9AM; 5PM EST)"
+          ],
+          "suggested_use": [
+            "Directions: Adults take one softgel daily with food."
+          ]
+        }
       }
     }
   ]
