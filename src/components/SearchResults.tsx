@@ -129,7 +129,7 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
                   onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; }}
                 >
                   <div className="font-medium text-foreground mb-1 transition-opacity duration-200 group-hover:opacity-80">
-                    💰 Compare {supp.name} prices
+                    Compare {supp.name} prices
                   </div>
                   <div className="text-sm text-muted-foreground line-clamp-2">
                     View normalized price-per-unit comparisons across retailers

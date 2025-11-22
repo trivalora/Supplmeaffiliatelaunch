@@ -157,8 +157,16 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
     urls.map(p => `  <url>\n    <loc>${buildUrl(baseUrl, p)}</loc>\n    <lastmod>${now}</lastmod>\n    <changefreq>${p === '/' ? 'daily' : 'weekly'}</changefreq>\n    <priority>${p === '/' ? '1.0' : p.split('/').length === 2 ? '0.8' : '0.6'}</priority>\n  </url>`).join('\n') +
     `\n</urlset>`;
 
+  // Write to both public/ (for dev) and build/ (for production)
   const publicDir = path.join(projectRoot, 'public');
+  const buildDir = path.join(projectRoot, 'build');
+  
   if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir);
   fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), xml, 'utf8');
   console.log(`[sitemap] Generated ${urls.length} URLs to public/sitemap.xml`);
+  
+  if (fs.existsSync(buildDir)) {
+    fs.writeFileSync(path.join(buildDir, 'sitemap.xml'), xml, 'utf8');
+    console.log(`[sitemap] Copied sitemap to build/sitemap.xml`);
+  }
 })();
