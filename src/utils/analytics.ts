@@ -186,6 +186,107 @@ export const trackProductImpression = (
   });
 };
 
+// Enhanced product impression for comparison page with full product details
+export const trackComparisonProductImpression = (
+  products: Array<{
+    id: string;
+    name: string;
+    brand: string;
+    price: number;
+    pricePerUnit: number;
+    unit: string;
+    retailer: string;
+    productUrl: string;
+    imageUrl?: string;
+    position: number;
+    dosage?: string;
+    netContents?: string;
+    availableRetailers: number;
+  }>,
+  supplementName: string,
+  filters?: {
+    search?: string;
+    dietary?: string[];
+    sortBy?: string;
+  }
+) => {
+  pushToDataLayer({
+    event: 'comparison_product_impressions',
+    ecommerce: {
+      currencyCode: 'USD',
+      impressions: products.map(product => ({
+        id: product.id,
+        name: product.name,
+        brand: product.brand,
+        category: supplementName,
+        variant: product.retailer,
+        position: product.position,
+        price: product.price.toFixed(2),
+        dimension1: product.pricePerUnit.toFixed(4), // Price per unit
+        dimension2: product.unit, // Unit (mg, capsules, etc)
+        dimension3: product.dosage || 'N/A', // Dosage
+        dimension4: product.netContents || 'N/A', // Net contents
+        dimension5: product.availableRetailers.toString(), // Number of retailers
+        list: 'Product Comparison',
+      })),
+    },
+    products, // Keep full product data for custom reporting
+    supplementName,
+    totalProducts: products.length,
+    appliedFilters: filters,
+    pageUrl: window.location.href,
+    timestamp: new Date().toISOString(),
+  });
+};
+
+// Enhanced product click for comparison page
+export const trackComparisonProductClick = (
+  product: {
+    id: string;
+    name: string;
+    brand: string;
+    price: number;
+    pricePerUnit: number;
+    unit: string;
+    retailer: string;
+    productUrl: string;
+    position: number;
+  },
+  supplementName: string,
+  action: 'view_details' | 'buy_now'
+) => {
+  pushToDataLayer({
+    event: 'comparison_product_click',
+    ecommerce: {
+      currencyCode: 'USD',
+      click: {
+        actionField: { list: 'Product Comparison', action: action },
+        products: [{
+          id: product.id,
+          name: product.name,
+          brand: product.brand,
+          category: supplementName,
+          variant: product.retailer,
+          position: product.position,
+          price: product.price.toFixed(2),
+        }],
+      },
+    },
+    productId: product.id,
+    productName: product.name,
+    productBrand: product.brand,
+    productPrice: product.price,
+    productPricePerUnit: product.pricePerUnit,
+    productUnit: product.unit,
+    productRetailer: product.retailer,
+    productUrl: product.productUrl,
+    productPosition: product.position,
+    supplementName,
+    clickAction: action,
+    timestamp: new Date().toISOString(),
+  });
+};
+
 // ========================================
 // RETAILER BUTTON TRACKING
 // ========================================

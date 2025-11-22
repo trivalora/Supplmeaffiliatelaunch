@@ -7,6 +7,7 @@ import { SearchResults } from './SearchResults';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb7.png";
+import { trackComparisonProductImpression, trackComparisonProductClick } from '../utils/analytics';
 
 interface ProductComparisonProps {
   onNavigate: (page: PageKey) => void;
@@ -184,6 +185,42 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
 
   // Slice for display
   const filteredProducts = allFilteredProducts.slice(0, displayedCount);
+
+  // Track product impressions when filteredProducts changes
+  useEffect(() => {
+    if (!filteredProducts || filteredProducts.length === 0 || !currentSupplement) return;
+
+    // Prepare products for tracking
+    const productsForTracking = filteredProducts.map((product, idx) => {
+      const lowestRetailerPrice = product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit)[0];
+      return {
+        id: product.id || `${product.brand}-${idx}`,
+        name: product.dsld_product_name || product.brand || 'Unknown Product',
+        brand: product.brand || 'Unknown Brand',
+        price: lowestRetailerPrice?.price || 0,
+        pricePerUnit: lowestRetailerPrice?.price_per_unit || 0,
+        unit: product.unit || 'unit',
+        retailer: lowestRetailerPrice?.retailer || 'Unknown',
+        productUrl: lowestRetailerPrice?.product_url || '',
+        imageUrl: product.product_image_url || lowestRetailerPrice?.image_url,
+        position: idx + 1,
+        dosage: product.amount_per_serving ? `${product.amount_per_serving} ${product.unit}` : undefined,
+        netContents: product.net_contents,
+        availableRetailers: product.retailer_prices?.length || 0,
+      };
+    });
+
+    // Track impressions
+    trackComparisonProductImpression(
+      productsForTracking,
+      currentSupplement,
+      {
+        search: searchQuery || undefined,
+        dietary: activeDietaryFilters.size > 0 ? Array.from(activeDietaryFilters) : undefined,
+        sortBy,
+      }
+    );
+  }, [filteredProducts, currentSupplement, searchQuery, activeDietaryFilters, sortBy]);
 
   function toggleDietaryFilter(filterKey: string) {
     const newFilters = new Set(activeDietaryFilters);
@@ -517,7 +554,25 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                               <tr 
                                 key={idx} 
                                 className={`border-b-2 border-secondary/30 hover:bg-tertiary/70 transition-colors cursor-pointer ${idx % 2 === 0 ? 'bg-background' : 'bg-tertiary/20'}`}
-                                onClick={() => reactNavigate(`/${currentSupplement}/product/${product.id}`)}
+                                onClick={() => {
+                                  // Track product click
+                                  trackComparisonProductClick(
+                                    {
+                                      id: product.id || `${product.brand}-${idx}`,
+                                      name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                      brand: product.brand || 'Unknown Brand',
+                                      price: lowestRetailerPrice?.price || 0,
+                                      pricePerUnit: lowestRetailerPrice?.price_per_unit || 0,
+                                      unit: product.unit || 'unit',
+                                      retailer: lowestRetailerPrice?.retailer || 'Unknown',
+                                      productUrl: lowestRetailerPrice?.product_url || '',
+                                      position: idx + 1,
+                                    },
+                                    currentSupplement,
+                                    'view_details'
+                                  );
+                                  reactNavigate(`/${currentSupplement}/product/${product.id}`);
+                                }}
                               >
                                 <td className="p-4">
                                   <div className="w-20 h-20 bg-tertiary rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
@@ -624,6 +679,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              trackComparisonProductClick(
+                                                {
+                                                  id: product.id || `${product.brand}-${idx}`,
+                                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                  brand: product.brand || 'Unknown Brand',
+                                                  price: r.price,
+                                                  pricePerUnit: r.price_per_unit,
+                                                  unit: product.unit || 'unit',
+                                                  retailer: r.retailer,
+                                                  productUrl: r.product_url,
+                                                  position: idx + 1,
+                                                },
+                                                currentSupplement,
+                                                'buy_now'
+                                              );
+                                            }}
                                           >
                                             <div className="h-5 w-5">
                                               <IHerbBadgeLogoRgb />
@@ -637,6 +710,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              trackComparisonProductClick(
+                                                {
+                                                  id: product.id || `${product.brand}-${idx}`,
+                                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                  brand: product.brand || 'Unknown Brand',
+                                                  price: r.price,
+                                                  pricePerUnit: r.price_per_unit,
+                                                  unit: product.unit || 'unit',
+                                                  retailer: r.retailer,
+                                                  productUrl: r.product_url,
+                                                  position: idx + 1,
+                                                },
+                                                currentSupplement,
+                                                'buy_now'
+                                              );
+                                            }}
                                           >
                                             <img src="/logos/gnc.svg" alt="GNC" className="h-5 w-auto" />
                                             <span className="text-sm font-medium">Buy Now</span>
@@ -648,6 +739,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              trackComparisonProductClick(
+                                                {
+                                                  id: product.id || `${product.brand}-${idx}`,
+                                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                  brand: product.brand || 'Unknown Brand',
+                                                  price: r.price,
+                                                  pricePerUnit: r.price_per_unit,
+                                                  unit: product.unit || 'unit',
+                                                  retailer: r.retailer,
+                                                  productUrl: r.product_url,
+                                                  position: idx + 1,
+                                                },
+                                                currentSupplement,
+                                                'buy_now'
+                                              );
+                                            }}
                                           >
                                             <img src="/logos/walmart.svg" alt="Walmart" className="h-5 w-auto" />
                                             <span className="text-sm font-medium">Buy Now</span>
@@ -659,6 +768,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              trackComparisonProductClick(
+                                                {
+                                                  id: product.id || `${product.brand}-${idx}`,
+                                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                  brand: product.brand || 'Unknown Brand',
+                                                  price: r.price,
+                                                  pricePerUnit: r.price_per_unit,
+                                                  unit: product.unit || 'unit',
+                                                  retailer: r.retailer,
+                                                  productUrl: r.product_url,
+                                                  position: idx + 1,
+                                                },
+                                                currentSupplement,
+                                                'buy_now'
+                                              );
+                                            }}
                                           >
                                             <img src="/logos/bodybuilding.png" alt="Bodybuilding.com" className="h-5 w-auto" />
                                             <span className="text-sm font-medium">Buy Now</span>
@@ -670,6 +797,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              trackComparisonProductClick(
+                                                {
+                                                  id: product.id || `${product.brand}-${idx}`,
+                                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                  brand: product.brand || 'Unknown Brand',
+                                                  price: r.price,
+                                                  pricePerUnit: r.price_per_unit,
+                                                  unit: product.unit || 'unit',
+                                                  retailer: r.retailer,
+                                                  productUrl: r.product_url,
+                                                  position: idx + 1,
+                                                },
+                                                currentSupplement,
+                                                'buy_now'
+                                              );
+                                            }}
                                           >
                                             <img src="/logos/vitacost.svg" alt="Vitacost" className="h-5 w-auto" />
                                             <span className="text-sm font-medium">Buy Now</span>
@@ -681,6 +826,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-black hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              trackComparisonProductClick(
+                                                {
+                                                  id: product.id || `${product.brand}-${idx}`,
+                                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                  brand: product.brand || 'Unknown Brand',
+                                                  price: r.price,
+                                                  pricePerUnit: r.price_per_unit,
+                                                  unit: product.unit || 'unit',
+                                                  retailer: r.retailer,
+                                                  productUrl: r.product_url,
+                                                  position: idx + 1,
+                                                },
+                                                currentSupplement,
+                                                'buy_now'
+                                              );
+                                            }}
                                           >
                                             <img src={imgAmazonButton} alt="Amazon" className="h-4 w-auto" />
                                           </a>
@@ -691,6 +854,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              trackComparisonProductClick(
+                                                {
+                                                  id: product.id || `${product.brand}-${idx}`,
+                                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                  brand: product.brand || 'Unknown Brand',
+                                                  price: r.price,
+                                                  pricePerUnit: r.price_per_unit,
+                                                  unit: product.unit || 'unit',
+                                                  retailer: r.retailer,
+                                                  productUrl: r.product_url,
+                                                  position: idx + 1,
+                                                },
+                                                currentSupplement,
+                                                'buy_now'
+                                              );
+                                            }}
                                           >
                                             <img src="/logos/supplement-warehouse.png" alt="Supplement Warehouse" className="h-5 w-auto object-contain" />
                                             <span className="text-sm font-medium">Buy Now</span>
@@ -702,6 +883,24 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                             rel="nofollow noopener noreferrer"
                                             className="inline-flex items-center justify-center w-full px-3 py-2 rounded-lg bg-primary text-white hover:opacity-90 transition-opacity text-sm font-medium"
                                             {...tooltipHandlers}
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              trackComparisonProductClick(
+                                                {
+                                                  id: product.id || `${product.brand}-${idx}`,
+                                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                  brand: product.brand || 'Unknown Brand',
+                                                  price: r.price,
+                                                  pricePerUnit: r.price_per_unit,
+                                                  unit: product.unit || 'unit',
+                                                  retailer: r.retailer,
+                                                  productUrl: r.product_url,
+                                                  position: idx + 1,
+                                                },
+                                                currentSupplement,
+                                                'buy_now'
+                                              );
+                                            }}
                                           >
                                             Buy Now
                                           </a>
@@ -727,7 +926,26 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                         return (
                           <div 
                             key={idx}
-                            className="bg-card rounded-xl shadow-sm border border-secondary/20 overflow-hidden"
+                            className="bg-card rounded-xl shadow-sm border border-secondary/20 overflow-hidden cursor-pointer"
+                            onClick={() => {
+                              // Track product click on mobile
+                              trackComparisonProductClick(
+                                {
+                                  id: product.id || `${product.brand}-${idx}`,
+                                  name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                  brand: product.brand || 'Unknown Brand',
+                                  price: lowestRetailerPrice?.price || 0,
+                                  pricePerUnit: lowestRetailerPrice?.price_per_unit || 0,
+                                  unit: product.unit || 'unit',
+                                  retailer: lowestRetailerPrice?.retailer || 'Unknown',
+                                  productUrl: lowestRetailerPrice?.product_url || '',
+                                  position: idx + 1,
+                                },
+                                currentSupplement,
+                                'view_details'
+                              );
+                              reactNavigate(`/${currentSupplement}/product/${product.id}`);
+                            }}
                           >
                             <div className="p-4 space-y-3">
                               <div className="flex gap-3">
@@ -782,15 +1000,87 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                         {isLowestPrice && <span className="text-xs bg-green-600 text-white px-2 py-0.5 rounded-full shrink-0">Best</span>}
                                       </div>
                                       {r.retailer.toLowerCase() === 'iherb' ? (
-                                        <a href={addUTMParameters(r.product_url)} target="_blank" rel="nofollow noopener noreferrer" className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity" {...tooltipHandlers}>
+                                        <a 
+                                          href={addUTMParameters(r.product_url)} 
+                                          target="_blank" 
+                                          rel="nofollow noopener noreferrer" 
+                                          className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity" 
+                                          {...tooltipHandlers}
+                                          onClick={(e) => {
+                                            e.stopPropagation();
+                                            trackComparisonProductClick(
+                                              {
+                                                id: product.id || `${product.brand}-${idx}`,
+                                                name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                brand: product.brand || 'Unknown Brand',
+                                                price: r.price,
+                                                pricePerUnit: r.price_per_unit,
+                                                unit: product.unit || 'unit',
+                                                retailer: r.retailer,
+                                                productUrl: r.product_url,
+                                                position: idx + 1,
+                                              },
+                                              currentSupplement,
+                                              'buy_now'
+                                            );
+                                          }}
+                                        >
                                           <div className="h-4 w-4"><IHerbBadgeLogoRgb /></div><span className="text-sm font-medium">Buy Now</span>
                                         </a>
                                       ) : r.retailer.toLowerCase() === 'amazon' ? (
-                                        <a href={addUTMParameters(r.product_url)} target="_blank" rel="nofollow noopener noreferrer" className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-black hover:opacity-90 transition-opacity" {...tooltipHandlers}>
+                                        <a 
+                                          href={addUTMParameters(r.product_url)} 
+                                          target="_blank" 
+                                          rel="nofollow noopener noreferrer" 
+                                          className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-black hover:opacity-90 transition-opacity" 
+                                          {...tooltipHandlers}
+                                          onClick={(e) => {
+                                            e.stopPropagation();
+                                            trackComparisonProductClick(
+                                              {
+                                                id: product.id || `${product.brand}-${idx}`,
+                                                name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                brand: product.brand || 'Unknown Brand',
+                                                price: r.price,
+                                                pricePerUnit: r.price_per_unit,
+                                                unit: product.unit || 'unit',
+                                                retailer: r.retailer,
+                                                productUrl: r.product_url,
+                                                position: idx + 1,
+                                              },
+                                              currentSupplement,
+                                              'buy_now'
+                                            );
+                                          }}
+                                        >
                                           <img src={imgAmazonButton} alt="Amazon" className="h-3.5 w-auto" />
                                         </a>
                                       ) : (
-                                        <a href={addUTMParameters(r.product_url)} target="_blank" rel="nofollow noopener noreferrer" className="flex items-center justify-center w-full px-3 py-2 rounded-lg bg-primary text-white hover:opacity-90 transition-opacity text-sm font-medium" {...tooltipHandlers}>
+                                        <a 
+                                          href={addUTMParameters(r.product_url)} 
+                                          target="_blank" 
+                                          rel="nofollow noopener noreferrer" 
+                                          className="flex items-center justify-center w-full px-3 py-2 rounded-lg bg-primary text-white hover:opacity-90 transition-opacity text-sm font-medium" 
+                                          {...tooltipHandlers}
+                                          onClick={(e) => {
+                                            e.stopPropagation();
+                                            trackComparisonProductClick(
+                                              {
+                                                id: product.id || `${product.brand}-${idx}`,
+                                                name: product.dsld_product_name || product.brand || 'Unknown Product',
+                                                brand: product.brand || 'Unknown Brand',
+                                                price: r.price,
+                                                pricePerUnit: r.price_per_unit,
+                                                unit: product.unit || 'unit',
+                                                retailer: r.retailer,
+                                                productUrl: r.product_url,
+                                                position: idx + 1,
+                                              },
+                                              currentSupplement,
+                                              'buy_now'
+                                            );
+                                          }}
+                                        >
                                           Buy Now at {r.retailer}
                                         </a>
                                       )}
