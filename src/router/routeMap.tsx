@@ -1,4 +1,4 @@
-import { lazy, ReactElement } from 'react';
+import { lazy, ReactElement, ComponentType } from 'react';
 import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, RouteConfig, PageKey } from '../routes.config';
 import { PAGE_PATHS, getPathForKey } from '../utils/routePaths';
 import { SEOHead, pageSEO } from '../components/SEOHead';
@@ -20,24 +20,33 @@ export interface AppRoute {
 }
 
 /**
- * Adjust componentPath for location of this file (src/router/** vs src/**)
- */
-function normalizeComponentPath(componentPath: string) {
-  // Original entries start with ./components/...
-  if (componentPath.startsWith('./')) {
-    return componentPath.replace('./', '../');
-  }
-  return componentPath;
-}
-
-/**
  * Create a lazily loaded component wrapper that injects onNavigate using react-router-dom.
+ * Uses a glob import pattern that Vite can statically analyze.
  */
+const componentModules = import.meta.glob('../components/**/*.tsx');
+
 function makeLazyComponent(route: RouteConfig, pageKey: PageKey) {
-  const adjustedPath = normalizeComponentPath(route.componentPath);
-  const LazyComp = lazy(() => import(/* @vite-ignore */ adjustedPath).then(mod => ({
-    default: (mod as any)[route.componentName]
-  })));
+  // Build the full import path from routes.config componentPath
+  const componentPath = route.componentPath.startsWith('./')
+    ? route.componentPath.replace('./', '../')
+    : route.componentPath;
+  
+  const fullPath = `${componentPath}.tsx`;
+  
+  // Get the lazy loader from glob
+  const componentLoader = componentModules[fullPath];
+  
+  if (!componentLoader) {
+    console.error(`Component not found: ${fullPath}. Available:`, Object.keys(componentModules).slice(0, 5));
+    return () => <div>Component not found: {route.componentName}</div>;
+  }
+
+  // Create lazy component
+  const LazyComp = lazy(() => 
+    componentLoader().then((mod: any) => ({
+      default: mod[route.componentName]
+    }))
+  );
 
   // Wrapper component (stable reference via function, not arrow in render)
   function ComponentWrapper() {
