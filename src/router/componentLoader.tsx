@@ -44,7 +44,8 @@ export function loadComponent(componentName: string): ComponentType<any> | null 
   if (componentName === 'BCAAsComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.BCAAsComparison })));
   if (componentName === 'CalciumComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CalciumComparison })));
   if (componentName === 'CaseinProteinComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CaseinProteinComparison })));
-  if (componentName === 'CollagenPeptidesComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CollagenPeptidesComparison })));
+  if (componentName === 'CollagenComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CollagenComparison })));
+  if (componentName === 'CollagenPeptidesComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CollagenComparison })));
   if (componentName === 'CreatineComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CreatineComparison })));
   if (componentName === 'CurcuminComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.CurcuminComparison })));
   if (componentName === 'IronComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.IronComparison })));
@@ -57,6 +58,7 @@ export function loadComponent(componentName: string): ComponentType<any> | null 
   if (componentName === 'VitaminCComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.VitaminCComparison })));
   if (componentName === 'VitaminDComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.VitaminDComparison })));
   if (componentName === 'WheyProteinComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.WheyProteinComparison })));
+  if (componentName === 'ZincComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.ZincComparison })));
 
   // Glossary pages - use a loader function for the 197 glossary components
   return loadGlossaryComponent(componentName);

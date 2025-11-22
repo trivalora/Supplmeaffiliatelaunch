@@ -138,7 +138,6 @@ export function ProductPage({ onNavigate }: ProductPageProps) {
               </div>
             </div>
           </main>
-          <Footer onNavigate={onNavigate} />
         </div>
       </>
     );
@@ -164,7 +163,6 @@ export function ProductPage({ onNavigate }: ProductPageProps) {
               </div>
             </div>
           </main>
-          <Footer onNavigate={onNavigate} />
         </div>
       </>
     );
@@ -553,8 +551,6 @@ export function ProductPage({ onNavigate }: ProductPageProps) {
             </div>
           </div>
         </main>
-
-        <Footer onNavigate={onNavigate} />
         <AffiliateTooltip />
       </div>
     </>
