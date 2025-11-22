@@ -11,7 +11,7 @@
     },
     "total_price_range": {
       "min": 4.24,
-      "max": 142.0,
+      "max": 142,
       "avg": 19.020344827586207
     },
     "retailers": {
@@ -3529,7 +3529,7 @@
       "best_total_price": 11.99,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3558,7 +3558,11 @@
         "dairy_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "100 Gummie(s)"
     },
     {
       "id": "11104_21st century_calcium_1000.0_mg_standard",
@@ -3573,7 +3577,7 @@
       "best_total_price": 4.67,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3588,7 +3592,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "15 mcg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "328933_absolute nutrition_added sugars_4000.0_mg_standard",
@@ -3603,7 +3611,7 @@
       "best_total_price": 20.18,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3618,7 +3626,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95.7
+      "match_score": 95.7,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "258371_21st century_calcium_1000.0_mg_standard",
@@ -3633,7 +3642,7 @@
       "best_total_price": 5.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3650,7 +3659,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "73573_solgar_added sugars_2000.0_mg_standard",
@@ -3665,7 +3675,7 @@
       "best_total_price": 11.29,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3685,7 +3695,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Wafer(s)"
     },
     {
       "id": "334869_21st century_calcium_600.0_mg_standard",
@@ -3700,7 +3714,7 @@
       "best_total_price": 4.24,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3718,7 +3732,11 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "600 mg per Tablet; 600 mg"
+      ],
+      "dsld_content": "75 Tablet(s)"
     },
     {
       "id": "207513_21st century_calcium_600.0_mg_standard",
@@ -3733,7 +3751,7 @@
       "best_total_price": 4.24,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3750,7 +3768,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "75 Tablet(s)"
     },
     {
       "id": "217542_solgar_calcium_1000.0_mg_standard",
@@ -3765,7 +3784,7 @@
       "best_total_price": 8.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3795,7 +3814,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "214800_viactiv_added sugars_1000.0_mg_standard",
@@ -3810,7 +3830,7 @@
       "best_total_price": 9.49,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3842,7 +3862,7 @@
       "best_total_price": 5.86,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3861,7 +3881,8 @@
         "soy_free",
         "sodium_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "296011_solaray_calcium_1000.0_mg_standard",
@@ -3876,7 +3897,7 @@
       "best_total_price": 9.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3901,7 +3922,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "254667_solaray_calcium_1000.0_mg_standard",
@@ -3916,7 +3938,7 @@
       "best_total_price": 9.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3941,7 +3963,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "254676_solaray_calcium_1000.0_mg_standard",
@@ -3956,7 +3982,7 @@
       "best_total_price": 10.09,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3981,7 +4007,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "2395_new chapter_algaecal(r) powder_2400.0_mg_standard",
@@ -3996,7 +4023,7 @@
       "best_total_price": 24.44,
       "unit": "mg",
       "primary_ingredient": "AlgaeCal(R) Powder",
-      "amount_per_serving": 2400.0,
+      "amount_per_serving": 2400,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4028,7 +4055,7 @@
       "best_total_price": 6.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 630.0,
+      "amount_per_serving": 630,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4045,7 +4072,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "75 Tablet(s)"
     },
     {
       "id": "217508_solgar_calcium_1000.0_mg_standard",
@@ -4060,7 +4088,7 @@
       "best_total_price": 10.59,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4093,7 +4121,7 @@
       "best_total_price": 6.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4108,7 +4136,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "600 mg"
+      ],
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "11102_21st century_calcium_1000.0_mg_standard",
@@ -4123,7 +4155,7 @@
       "best_total_price": 10.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4138,7 +4170,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "400 Tablet(s)"
     },
     {
       "id": "322899_kal_calcium_1000.0_mg_standard",
@@ -4153,7 +4186,7 @@
       "best_total_price": 11.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4170,7 +4203,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 95.2
+      "match_score": 95.2,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "217447_solgar_calcium_1000.0_mg_standard",
@@ -4185,7 +4219,7 @@
       "best_total_price": 11.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4214,7 +4248,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "219206_solgar_added sugars_1000.0_mg_standard",
@@ -4229,7 +4264,7 @@
       "best_total_price": 11.42,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4246,7 +4281,8 @@
       "filters": [
         "dairy_free"
       ],
-      "match_score": 94.0
+      "match_score": 94,
+      "dsld_content": "16 fl. oz.; 473 mL"
     },
     {
       "id": "219350_solgar_added sugars_1000.0_mg_standard",
@@ -4261,7 +4297,7 @@
       "best_total_price": 11.42,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4278,7 +4314,8 @@
       "filters": [
         "dairy_free"
       ],
-      "match_score": 98.8
+      "match_score": 98.8,
+      "dsld_content": "16 fl. oz.; 473 mL"
     },
     {
       "id": "219329_solgar_added sugars_1000.0_mg_standard",
@@ -4293,7 +4330,7 @@
       "best_total_price": 11.42,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4310,7 +4347,8 @@
       "filters": [
         "dairy_free"
       ],
-      "match_score": 99.2
+      "match_score": 99.2,
+      "dsld_content": "16 fl. oz.; 473 mL"
     },
     {
       "id": "4221_nature's bounty_calcium_500.0_mg_standard",
@@ -4325,7 +4363,7 @@
       "best_total_price": 5.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4361,7 +4399,8 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Caplet(s)"
     },
     {
       "id": "217510_solgar_calcium_1000.0_mg_standard",
@@ -4376,7 +4415,7 @@
       "best_total_price": 11.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4406,7 +4445,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "217514_solgar_calcium_1000.0_mg_standard",
@@ -4421,7 +4461,7 @@
       "best_total_price": 11.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4451,7 +4491,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "299601_california gold nutrition_added sugars_1000.0_mg_standard",
@@ -4466,7 +4507,7 @@
       "best_total_price": 12.19,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4481,7 +4522,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 94.2
+      "match_score": 94.2,
+      "dsld_content": "16 fl. oz.; 473 mL"
     },
     {
       "id": "306651_nature's truth_calcium_1200.0_mg_standard",
@@ -4496,7 +4538,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4513,7 +4555,10 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1200 MG; 5000 IU"
+      ]
     },
     {
       "id": "325929_solaray_calcium_1000.0_mg_standard",
@@ -4528,7 +4573,7 @@
       "best_total_price": 12.69,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4553,7 +4598,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Veg Capsule(s)"
     },
     {
       "id": "217536_solgar_calcium_1000.0_mg_standard",
@@ -4568,7 +4614,7 @@
       "best_total_price": 13.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4586,7 +4632,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "150 Tablet(s)"
     },
     {
       "id": "258369_21st century_calcium_630.0_mg_standard",
@@ -4601,7 +4648,7 @@
       "best_total_price": 8.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 630.0,
+      "amount_per_serving": 630,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4618,7 +4665,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "72975_nature's bounty_calcium_1200.0_mg_standard",
@@ -4633,7 +4681,7 @@
       "best_total_price": 16.36,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4659,7 +4707,8 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "32257_the vitamin shoppe_calcium_1000.0_mg_standard",
@@ -4674,7 +4723,7 @@
       "best_total_price": 13.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4693,7 +4742,8 @@
         "dairy_free",
         "nut_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "258982_country life_calcium_1000.0_mg_standard",
@@ -4708,7 +4758,7 @@
       "best_total_price": 14.24,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4730,7 +4780,8 @@
         "yeast_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "318742_mason natural_calcium_334.0_mg_standard",
@@ -4745,7 +4796,7 @@
       "best_total_price": 4.77,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 334.0,
+      "amount_per_serving": 334,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4772,7 +4823,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "75519_source naturals_calcium_420.0_mg_standard",
@@ -4787,7 +4839,7 @@
       "best_total_price": 6.21,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4815,7 +4867,8 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "56.7 g; 2 oz."
     },
     {
       "id": "296010_solaray_calcium_1000.0_mg_standard",
@@ -4830,7 +4883,7 @@
       "best_total_price": 14.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4845,7 +4898,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "200318_christopher's original formulas_proprietary blend_800.0_mg_standard",
@@ -4860,7 +4914,7 @@
       "best_total_price": 12.72,
       "unit": "mg",
       "primary_ingredient": "Proprietary Blend",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4875,7 +4929,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "375 mg"
+      ],
+      "dsld_content": "100 Vegetarian Capsule(s)"
     },
     {
       "id": "304097_21st century_calcium_1000.0_mg_standard",
@@ -4890,7 +4948,7 @@
       "best_total_price": 15.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4905,7 +4963,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "270358_best naturals_calcium_700.0_mg_standard",
@@ -4920,7 +4979,7 @@
       "best_total_price": 11.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 700.0,
+      "amount_per_serving": 700,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4948,7 +5007,8 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Tablet(s)"
     },
     {
       "id": "217558_solgar_calcium_1000.0_mg_standard",
@@ -4963,7 +5023,7 @@
       "best_total_price": 16.6,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4993,7 +5053,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "269384_best naturals_calcium_600.0_mg_standard",
@@ -5008,7 +5069,7 @@
       "best_total_price": 9.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5035,7 +5096,8 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1 lbs."
     },
     {
       "id": "55763_the vitamin shoppe_calcium_1200.0_mg_standard",
@@ -5050,7 +5112,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5069,7 +5131,8 @@
         "dairy_free",
         "nut_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "243001_gnc_calcium_1000.0_mg_standard",
@@ -5084,14 +5147,14 @@
       "best_total_price": 16.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 16.99,
           "price_per_unit": 0.016989999999999998,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=066224&source=productlist",
-          "product_name": "GNC\nCalcium Plus\u00ae Magnesium & Vitamin D-3 1000 mg - 180 Caplets (60 Servings)",
+          "product_name": "GNC\nCalcium Plus® Magnesium & Vitamin D-3 1000 mg - 180 Caplets (60 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -5105,7 +5168,11 @@
         "sodium_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "180 Caplet(s)"
     },
     {
       "id": "71241_nature made_calcium_500.0_mg_standard",
@@ -5120,7 +5187,7 @@
       "best_total_price": 8.59,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5145,7 +5212,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "130 Tablet(s)"
     },
     {
       "id": "325928_solaray_calcium_1000.0_mg_standard",
@@ -5160,7 +5231,7 @@
       "best_total_price": 17.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5185,7 +5256,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Veg Capsule(s)"
     },
     {
       "id": "210410_now_calcium_600.0_mg_standard",
@@ -5200,7 +5272,7 @@
       "best_total_price": 10.4,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5219,7 +5291,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 oz.; 227 g"
     },
     {
       "id": "325927_solaray_calcium_1000.0_mg_standard",
@@ -5234,7 +5307,7 @@
       "best_total_price": 17.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5249,7 +5322,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.5
+      "match_score": 85.5,
+      "dsld_content": "60 Chewable(s)"
     },
     {
       "id": "210410_now_calcium_600.0_mg_standard",
@@ -5264,7 +5338,7 @@
       "best_total_price": 10.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5293,7 +5367,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "217436_solgar_calcium_1200.0_mg_standard",
@@ -5308,7 +5383,7 @@
       "best_total_price": 21.62,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5326,7 +5401,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Tablet(s)"
     },
     {
       "id": "214006_mason natural_calcium_315.0_mg_standard",
@@ -5341,7 +5417,7 @@
       "best_total_price": 5.78,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 315.0,
+      "amount_per_serving": 315,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5359,7 +5435,8 @@
         "soy_free",
         "sodium_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Caplet(s)"
     },
     {
       "id": "210415_now_calcium_400.0_mg_standard",
@@ -5374,7 +5451,7 @@
       "best_total_price": 7.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5401,7 +5478,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "322900_kal_calcium_1000.0_mg_standard",
@@ -5416,7 +5494,7 @@
       "best_total_price": 18.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5443,7 +5521,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "51358_country life_calcium_1000.0_mg_standard",
@@ -5458,7 +5537,7 @@
       "best_total_price": 19.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5505,7 +5584,7 @@
       "best_total_price": 19.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5522,7 +5601,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "217450_solgar_calcium_1000.0_mg_standard",
@@ -5537,7 +5617,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5565,7 +5645,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Tablet(s)"
     },
     {
       "id": "70399_now_calcium_450.0_mg_standard",
@@ -5580,7 +5661,7 @@
       "best_total_price": 9.69,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 450.0,
+      "amount_per_serving": 450,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5619,7 +5700,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 oz."
     },
     {
       "id": "254667_solaray_calcium_1000.0_mg_standard",
@@ -5634,7 +5716,7 @@
       "best_total_price": 21.59,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5649,7 +5731,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "240 Veg Capsule(s)"
     },
     {
       "id": "74330_nature's bounty_calcium_600.0_mg_standard",
@@ -5664,7 +5750,7 @@
       "best_total_price": 13.04,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5693,7 +5779,8 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "335776_zhou_calcium_1300.0_mg_standard",
@@ -5708,7 +5795,7 @@
       "best_total_price": 29.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1300.0,
+      "amount_per_serving": 1300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5723,7 +5810,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "70553_now_calcium_500.0_mg_standard",
@@ -5738,7 +5826,7 @@
       "best_total_price": 11.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5765,7 +5853,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Veg Capsule(s)"
     },
     {
       "id": "296970_kirkman_added sugars_1000.0_mg_standard",
@@ -5777,14 +5866,14 @@
       "dsld_brand": "Kirkman",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/kim/kim02408/u/8.jpg",
       "best_price_per_unit": 0.023,
-      "best_total_price": 23.0,
+      "best_total_price": 23,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 23.0,
+          "price": 23,
           "price_per_unit": 0.023,
           "product_url": "https://www.iherb.com/pr/kirkman-labs-children-s-chewable-calcium-with-vitamin-d3-natural-chocolate-120-tablets/127423",
           "product_name": "Kirkman Labs, Children's Chewable Calcium with Vitamin D3, Natural Chocolate, 120 Tablets",
@@ -5797,7 +5886,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 99.4
+      "match_score": 99.4,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "326305_21st century_calcium_600.0_mg_standard",
@@ -5812,7 +5902,7 @@
       "best_total_price": 13.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5829,7 +5919,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "400 Tablet(s)"
     },
     {
       "id": "268401_lifetime_calcium_750.0_mg_standard",
@@ -5844,7 +5935,7 @@
       "best_total_price": 17.69,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 750.0,
+      "amount_per_serving": 750,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5876,7 +5967,7 @@
       "best_total_price": 23.69,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5904,7 +5995,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "300 Tablet(s)"
     },
     {
       "id": "203011_swanson_calcium_200.0_mg_standard",
@@ -5919,7 +6011,7 @@
       "best_total_price": 4.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5934,7 +6026,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "60 Vegan Capsule(s)"
     },
     {
       "id": "271432_nature made_calcium_600.0_mg_standard",
@@ -5949,7 +6045,7 @@
       "best_total_price": 14.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5968,7 +6064,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "600 mg"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "74330_nature's bounty_calcium_600.0_mg_standard",
@@ -5983,7 +6083,7 @@
       "best_total_price": 14.59,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6012,7 +6112,8 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "243015_gnc_calcium_800.0_mg_standard",
@@ -6027,14 +6128,14 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 19.99,
           "price_per_unit": 0.0249875,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=119714&source=productlist",
-          "product_name": "GNC\nCalcium Citrate Plus\u2122 800 mg - 180 Caplets (45 Servings)",
+          "product_name": "GNC\nCalcium Citrate Plus™ 800 mg - 180 Caplets (45 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -6048,7 +6149,11 @@
         "sodium_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "800 mg"
+      ],
+      "dsld_content": "180 Caplet(s)"
     },
     {
       "id": "204955_now_calcium_400.0_mg_standard",
@@ -6063,7 +6168,7 @@
       "best_total_price": 10.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6090,7 +6195,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "322898_kal_calcium_500.0_mg_standard",
@@ -6105,7 +6211,7 @@
       "best_total_price": 12.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6120,7 +6226,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Chewable(s)"
     },
     {
       "id": "202392_swanson_calcium_300.0_mg_standard",
@@ -6135,7 +6242,7 @@
       "best_total_price": 7.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6150,7 +6257,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "150 Vegan Capsule(s)"
     },
     {
       "id": "73768_the vitamin shoppe_calcium_1000.0_mg_standard",
@@ -6165,7 +6273,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6182,7 +6290,8 @@
       "filters": [
         "yeast_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "240 Tablet(s)"
     },
     {
       "id": "270293_nutricost_calcium_1000.0_mg_standard",
@@ -6197,7 +6306,7 @@
       "best_total_price": 27.54,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6215,7 +6324,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "684 g; 24.4 oz."
     },
     {
       "id": "55764_the vitamin shoppe_calcium_1200.0_mg_standard",
@@ -6230,7 +6340,7 @@
       "best_total_price": 33.21,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6249,7 +6359,8 @@
         "dairy_free",
         "nut_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "220352_natural factors_calcium_350.0_mg_standard",
@@ -6264,7 +6375,7 @@
       "best_total_price": 9.77,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6294,7 +6405,11 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "350 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "71289_nature made_calcium_500.0_mg_standard",
@@ -6309,7 +6424,7 @@
       "best_total_price": 14.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6324,7 +6439,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "80 Gummie(s)"
     },
     {
       "id": "12245_caltrate_calcium_600.0_mg_standard",
@@ -6339,7 +6455,7 @@
       "best_total_price": 17.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6354,7 +6470,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "150 Capsule(s)"
     },
     {
       "id": "305780_ancient nutrition_ancient nutrients tcm blend_873.0_mg_standard",
@@ -6369,7 +6486,7 @@
       "best_total_price": 25.46,
       "unit": "mg",
       "primary_ingredient": "Ancient Nutrients TCM Blend",
-      "amount_per_serving": 873.0,
+      "amount_per_serving": 873,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6394,7 +6511,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "210415_now_calcium_400.0_mg_standard",
@@ -6409,7 +6527,7 @@
       "best_total_price": 11.69,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6436,7 +6554,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "268404_lifetime_calcium_600.0_mg_standard",
@@ -6451,7 +6570,7 @@
       "best_total_price": 17.69,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6483,7 +6602,7 @@
       "best_total_price": 14.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6521,7 +6640,11 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "300 Tablet(s)"
     },
     {
       "id": "271313_nature made_calcium_600.0_mg_standard",
@@ -6536,7 +6659,7 @@
       "best_total_price": 17.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6554,7 +6677,11 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "600 mg"
+      ],
+      "dsld_content": "220 Tablet(s)"
     },
     {
       "id": "265542_carlson laboratories_added sugars_1000.0_mg_standard",
@@ -6569,7 +6696,7 @@
       "best_total_price": 31.37,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6587,7 +6714,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 95.6
+      "match_score": 95.6,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "333171_country life_calcium_500.0_mg_standard",
@@ -6602,7 +6733,7 @@
       "best_total_price": 15.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6619,7 +6750,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "70550_now_calcium_350.0_mg_standard",
@@ -6634,7 +6766,7 @@
       "best_total_price": 11.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6651,7 +6783,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Vegetarian Capsule(s)"
     },
     {
       "id": "271419_nature made_calcium_333.0_mg_standard",
@@ -6666,7 +6802,7 @@
       "best_total_price": 10.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 333.0,
+      "amount_per_serving": 333,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6694,7 +6830,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "300 Capsule(s)"
     },
     {
       "id": "272465_citracal_calcium_400.0_mg_standard",
@@ -6709,7 +6846,7 @@
       "best_total_price": 13.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6739,7 +6876,7 @@
       "best_total_price": 8.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 240.0,
+      "amount_per_serving": 240,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6776,7 +6913,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "750 mg"
+      ],
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "12245_caltrate_calcium_600.0_mg_standard",
@@ -6791,7 +6932,7 @@
       "best_total_price": 20.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6806,7 +6947,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "200 Tablet(s)"
     },
     {
       "id": "270362_best naturals_calcium_320.0_mg_standard",
@@ -6821,7 +6963,7 @@
       "best_total_price": 11.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 320.0,
+      "amount_per_serving": 320,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6849,7 +6991,8 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 oz."
     },
     {
       "id": "273538_swanson_calcium_200.0_mg_chelated",
@@ -6864,14 +7007,14 @@
       "best_total_price": 7.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 7.29,
           "price_per_unit": 0.03645,
           "product_url": "https://www.iherb.com/pr/swanson-albion-calcium-magnesium-60-capsules/118574",
-          "product_name": "Swanson, Albion\u00ae Calcium & Magnesium, 60 Capsules",
+          "product_name": "Swanson, Albion® Calcium & Magnesium, 60 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02464/u/24.jpg",
           "rating": null,
           "reviews": null
@@ -6881,7 +7024,8 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -6896,7 +7040,7 @@
       "best_total_price": 7.69,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6913,7 +7057,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "298292_nature's plus_calcium_600.0_mg_standard",
@@ -6928,7 +7073,7 @@
       "best_total_price": 23.76,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6943,7 +7088,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "600 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "210416_now_calcium_400.0_mg_standard",
@@ -6958,7 +7107,7 @@
       "best_total_price": 15.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6985,7 +7134,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "70400_now_calcium_450.0_mg_standard",
@@ -7000,7 +7150,7 @@
       "best_total_price": 18.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 450.0,
+      "amount_per_serving": 450,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7029,7 +7179,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Veg Capsule(s)"
     },
     {
       "id": "211728_source naturals_calcium_200.0_mg_chelated",
@@ -7044,7 +7195,7 @@
       "best_total_price": 8.4,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7063,7 +7214,8 @@
         "no_artificial_colors",
         "chelated"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "183236_noor vitamins_calcium_600.0_mg_standard",
@@ -7078,7 +7230,7 @@
       "best_total_price": 25.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7095,7 +7247,8 @@
       "filters": [
         "halal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "326599_new chapter_calcium_603.0_mg_standard",
@@ -7110,7 +7263,7 @@
       "best_total_price": 25.59,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 603.0,
+      "amount_per_serving": 603,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7144,7 +7297,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Calcium Alpha-Ketoglutarate",
-      "amount_per_serving": 700.0,
+      "amount_per_serving": 700,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -7159,7 +7312,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "333415_codeage_calcium alpha-ketoglutarate_700.0_mg_standard",
@@ -7174,7 +7328,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Calcium Alpha-Ketoglutarate",
-      "amount_per_serving": 700.0,
+      "amount_per_serving": 700,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7204,7 +7358,7 @@
       "best_total_price": 8.99,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7221,7 +7375,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "70556_now_calcium_500.0_mg_standard",
@@ -7236,7 +7391,7 @@
       "best_total_price": 22.69,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7263,7 +7418,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Vegetarian Capsule(s)"
     },
     {
       "id": "181724_source naturals_betaine hydrochloride_165.0_mg_standard",
@@ -7278,14 +7434,14 @@
       "best_total_price": 7.91,
       "unit": "mg",
       "primary_ingredient": "Betaine Hydrochloride",
-      "amount_per_serving": 165.0,
+      "amount_per_serving": 165,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 7.91,
           "price_per_unit": 0.04793939393939394,
           "product_url": "https://www.vitacost.com/source-naturals-advanced-triple-boron-with-calcium-120-capsules",
-          "product_name": "Source Naturals Advanced Triple Boron With Calcium\u2122 -- 12...",
+          "product_name": "Source Naturals Advanced Triple Boron With Calcium™ -- 12...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Advanced-Triple-Boron-With-Calcium-021078020370.jpg",
           "rating": null,
           "reviews": null
@@ -7296,7 +7452,8 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "12 Capsule(s)"
     },
     {
       "id": "265064_swanson_calcium_250.0_mg_standard",
@@ -7311,7 +7468,7 @@
       "best_total_price": 12.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7326,7 +7483,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "210416_now_calcium_400.0_mg_standard",
@@ -7341,7 +7499,7 @@
       "best_total_price": 22.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7368,7 +7526,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "335408_codeage_calcium_600.0_mg_standard",
@@ -7383,7 +7542,7 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7413,7 +7572,7 @@
       "best_total_price": 50.21,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7430,7 +7589,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Veggie Capsule(s)"
     },
     {
       "id": "72112_now_calcium_350.0_mg_standard",
@@ -7445,7 +7605,7 @@
       "best_total_price": 22.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7462,7 +7622,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "250 Vegetarian Capsule(s)"
     },
     {
       "id": "14472_now_calcium_100.0_mg_buffered",
@@ -7477,7 +7641,7 @@
       "best_total_price": 6.59,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7497,7 +7661,8 @@
         "sugar_free",
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "223571_gnc_calcium_400.0_mg_standard",
@@ -7512,7 +7677,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -7533,7 +7698,8 @@
         "sodium_free",
         "no_artificial_flavors"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -7548,7 +7714,7 @@
       "best_total_price": 13.57,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7565,7 +7731,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "200 Softgel(s)"
     },
     {
       "id": "8376_natural factors_calcium_350.0_mg_standard",
@@ -7580,7 +7747,7 @@
       "best_total_price": 24.47,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7598,7 +7765,8 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "72112_now_calcium_350.0_mg_standard",
@@ -7613,7 +7781,7 @@
       "best_total_price": 24.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7630,7 +7798,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "250 Capsule(s)"
     },
     {
       "id": "241326_childlife essentials_calcium_252.0_mg_standard",
@@ -7645,7 +7817,7 @@
       "best_total_price": 17.96,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 252.0,
+      "amount_per_serving": 252,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7665,7 +7837,8 @@
         "alcohol_free",
         "no_artificial_colors"
       ],
-      "match_score": 94.9
+      "match_score": 94.9,
+      "dsld_content": "16 fl. oz.; 473 mL"
     },
     {
       "id": "14472_now_calcium_100.0_mg_buffered",
@@ -7680,7 +7853,7 @@
       "best_total_price": 7.34,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7700,7 +7873,8 @@
         "sugar_free",
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "100 Veg Capsule(s)"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -7715,7 +7889,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7732,7 +7906,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "303144_catalo_acerola cherry extract; natural_360.0_mg_standard",
@@ -7744,14 +7919,14 @@
       "dsld_brand": "CATALO",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cat/cat02554/u/44.jpg",
       "best_price_per_unit": 0.09166666666666666,
-      "best_total_price": 33.0,
+      "best_total_price": 33,
       "unit": "mg",
       "primary_ingredient": "Acerola Cherry Extract; Natural",
-      "amount_per_serving": 360.0,
+      "amount_per_serving": 360,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 33.0,
+          "price": 33,
           "price_per_unit": 0.09166666666666666,
           "product_url": "https://www.iherb.com/pr/catalo-vegetarian-calcium-formula-prenatal-algae-calcium-with-acerola-vitamin-c-60-vegetarian-tablets/104043",
           "product_name": "CATALO, Vegetarian Calcium Formula, Prenatal Algae Calcium with Acerola Vitamin C, 60 Vegetarian Tablets",
@@ -7774,14 +7949,14 @@
       "dsld_brand": "Pure Encapsulations",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Calcium-K-D-766298015699.jpg",
       "best_price_per_unit": 0.095,
-      "best_total_price": 38.0,
+      "best_total_price": 38,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 38.0,
+          "price": 38,
           "price_per_unit": 0.095,
           "product_url": "https://www.vitacost.com/pure-encapsulations-calcium-k-d-180-capsules",
           "product_name": "Pure Encapsulations Calcium K-D -- 180 Capsules",
@@ -7795,7 +7970,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "54371_allergy research group_calcium_190.0_mg_buffered",
@@ -7810,7 +7986,7 @@
       "best_total_price": 18.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 190.0,
+      "amount_per_serving": 190,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7827,7 +8003,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "234689_nutricology_calcium_190.0_mg_buffered",
@@ -7842,7 +8019,7 @@
       "best_total_price": 18.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 190.0,
+      "amount_per_serving": 190,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7859,7 +8036,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "234782_nutricology_magnesium_170.0_mg_standard",
@@ -7874,7 +8052,7 @@
       "best_total_price": 17.48,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 170.0,
+      "amount_per_serving": 170,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7901,14 +8079,14 @@
       "dsld_brand": "Pure Encapsulations",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Calcium-Citrate-766298000459.jpg",
       "best_price_per_unit": 0.10333333333333333,
-      "best_total_price": 31.0,
+      "best_total_price": 31,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 31.0,
+          "price": 31,
           "price_per_unit": 0.10333333333333333,
           "product_url": "https://www.vitacost.com/pure-encapsulations-calcium-citrate",
           "product_name": "Pure Encapsulations Calcium (Citrate) -- 180 Capsules",
@@ -7918,7 +8096,7 @@
         },
         {
           "retailer": "iHerb",
-          "price": 31.0,
+          "price": 31,
           "price_per_unit": 0.10333333333333333,
           "product_url": "https://www.iherb.com/pr/pure-encapsulations-calcium-citrate-180-capsules-150-mg-per-capsule/145660",
           "product_name": "Pure Encapsulations, Calcium (Citrate), 180 Capsules (150 mg per Capsule)",
@@ -7932,7 +8110,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "233067_allergy research group_magnesium_170.0_mg_standard",
@@ -7947,7 +8126,7 @@
       "best_total_price": 17.59,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 170.0,
+      "amount_per_serving": 170,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7974,14 +8153,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Calcium-693749006503.jpg",
       "best_price_per_unit": 0.104,
-      "best_total_price": 26.0,
+      "best_total_price": 26,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 26.0,
+          "price": 26,
           "price_per_unit": 0.104,
           "product_url": "https://www.vitacost.com/thorne-calcium",
           "product_name": "Thorne Calcium -- 120 Capsules",
@@ -7991,7 +8170,7 @@
         },
         {
           "retailer": "iHerb",
-          "price": 26.0,
+          "price": 26,
           "price_per_unit": 0.104,
           "product_url": "https://www.iherb.com/pr/thorne-calcium-120-capsules-250-mg-per-capsule/72885",
           "product_name": "Thorne, Calcium, 120 Capsules (250 mg Per capsule)",
@@ -8002,7 +8181,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "59280_life extension_calcium_200.0_mg_standard",
@@ -8014,14 +8194,14 @@
       "dsld_brand": "Life Extension",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Calcium-Citrate-with-Vitamin-D-737870196327.jpg",
       "best_price_per_unit": 0.105,
-      "best_total_price": 21.0,
+      "best_total_price": 21,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 21.0,
+          "price": 21,
           "price_per_unit": 0.105,
           "product_url": "https://www.vitacost.com/life-extension-calcium-citrate-with-vitamin-d-200-vegetarian-capsules",
           "product_name": "Life Extension Calcium Citrate with Vitamin D -- 200 Vege...",
@@ -8044,14 +8224,14 @@
       "dsld_brand": "Life Extension",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/lex/lex19632/u/88.jpg",
       "best_price_per_unit": 0.105,
-      "best_total_price": 21.0,
+      "best_total_price": 21,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 21.0,
+          "price": 21,
           "price_per_unit": 0.105,
           "product_url": "https://www.iherb.com/pr/life-extension-calcium-citrate-with-vitamin-d-200-capsules/81499",
           "product_name": "Life Extension, Calcium Citrate with Vitamin D, 200 Capsules",
@@ -8064,7 +8244,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "200 Capsule(s)"
     },
     {
       "id": "14472_now_calcium_100.0_mg_buffered",
@@ -8079,7 +8260,7 @@
       "best_total_price": 11.63,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8099,7 +8280,8 @@
         "sugar_free",
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 oz.; 227 g"
     },
     {
       "id": "274499_california gold nutrition_calcium_67.0_mg_standard",
@@ -8114,7 +8296,7 @@
       "best_total_price": 8.31,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 67.0,
+      "amount_per_serving": 67,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8129,7 +8311,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "73391_floradix_calcium_200.0_mg_standard",
@@ -8144,7 +8327,7 @@
       "best_total_price": 27.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8172,7 +8355,8 @@
         "vegetarian",
         "alcohol_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "8.5 fl. oz."
     },
     {
       "id": "183962_pure encapsulations_calcium-d-glucarate_1000.0_mg_standard",
@@ -8184,14 +8368,14 @@
       "dsld_brand": "Pure Encapsulations",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Calcium-d-Glucarate-766298003566.jpg",
       "best_price_per_unit": 0.142,
-      "best_total_price": 142.0,
+      "best_total_price": 142,
       "unit": "mg",
       "primary_ingredient": "Calcium-D-Glucarate",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 142.0,
+          "price": 142,
           "price_per_unit": 0.142,
           "product_url": "https://www.vitacost.com/pure-encapsulations-calcium-d-glucarate-120-capsules",
           "product_name": "Pure Encapsulations Calcium-d-Glucarate -- 120 Capsules",
@@ -8205,7 +8389,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "245930_rainbow light_4:1 herbal muscular support blend_62.0_mg_standard",
@@ -8220,14 +8405,14 @@
       "best_total_price": 9.41,
       "unit": "mg",
       "primary_ingredient": "4:1 Herbal Muscular Support Blend",
-      "amount_per_serving": 62.0,
+      "amount_per_serving": 62,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 9.41,
           "price_per_unit": 0.1517741935483871,
           "product_url": "https://www.iherb.com/pr/rainbow-light-magnesium-calcium-90-caplets/17573",
-          "product_name": "Rainbow Light, Magnesium Calcium+\u2122, 90 Caplets",
+          "product_name": "Rainbow Light, Magnesium Calcium+™, 90 Caplets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rlt/rlt10101/u/49.jpg",
           "rating": null,
           "reviews": null
@@ -8238,7 +8423,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Caplet(s)"
     },
     {
       "id": "73720_source naturals_calcium_124.0_mg_standard",
@@ -8253,7 +8439,7 @@
       "best_total_price": 19.78,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 124.0,
+      "amount_per_serving": 124,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8268,7 +8454,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "235298_nutricology_calcium_100.0_mg_standard",
@@ -8283,7 +8473,7 @@
       "best_total_price": 17.59,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8298,7 +8488,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Vegetarian Capsule(s)"
     },
     {
       "id": "234781_nutricology_calcium_150.0_mg_standard",
@@ -8313,7 +8504,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8338,7 +8529,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Vegetarian Capsule(s)"
     },
     {
       "id": "233066_allergy research group_calcium_150.0_mg_standard",
@@ -8353,7 +8545,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8383,7 +8575,7 @@
       "best_total_price": 7.22,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8401,7 +8593,10 @@
         "soy_free",
         "sodium_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "100 mcg"
+      ]
     },
     {
       "id": "269393_best naturals_calcium_48.0_mg_standard",
@@ -8416,7 +8611,7 @@
       "best_total_price": 11.09,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 48.0,
+      "amount_per_serving": 48,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8444,7 +8639,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "245948_rainbow light_4:1 herbal muscular support blend_62.0_mg_standard",
@@ -8459,14 +8658,14 @@
       "best_total_price": 17.5,
       "unit": "mg",
       "primary_ingredient": "4:1 Herbal Muscular Support Blend",
-      "amount_per_serving": 62.0,
+      "amount_per_serving": 62,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 17.5,
           "price_per_unit": 0.28225806451612906,
           "product_url": "https://www.iherb.com/pr/rainbow-light-magnesium-calcium-180-caplets/1767",
-          "product_name": "Rainbow Light, Magnesium Calcium+\u2122, 180 Caplets",
+          "product_name": "Rainbow Light, Magnesium Calcium+™, 180 Caplets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rlt/rlt10102/u/39.jpg",
           "rating": null,
           "reviews": null
@@ -8477,7 +8676,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Caplet(s)"
     },
     {
       "id": "323100_thorne_calcium_100.0_mg_standard",
@@ -8489,14 +8689,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Calcium-Magnesium-Malate-693749006718.jpg",
       "best_price_per_unit": 0.4,
-      "best_total_price": 40.0,
+      "best_total_price": 40,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 40.0,
+          "price": 40,
           "price_per_unit": 0.4,
           "product_url": "https://www.vitacost.com/thorne-calcium-magnesium-malate",
           "product_name": "Thorne Calcium-Magnesium Malate -- 240 Capsules",
@@ -8506,7 +8706,7 @@
         },
         {
           "retailer": "iHerb",
-          "price": 40.0,
+          "price": 40,
           "price_per_unit": 0.4,
           "product_url": "https://www.iherb.com/pr/thorne-calcium-magnesium-malate-240-capsules/80811",
           "product_name": "Thorne, Calcium-Magnesium Malate, 240 Capsules",
@@ -8519,7 +8719,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Capsule(s)"
     },
     {
       "id": "70096_now_calcium_60.0_mg_standard",
@@ -8534,7 +8735,7 @@
       "best_total_price": 24.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8553,7 +8754,11 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "321349_garden of life_betaine_50.0_mg_standard",
@@ -8568,7 +8773,7 @@
       "best_total_price": 21.59,
       "unit": "mg",
       "primary_ingredient": "Betaine",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8608,7 +8813,7 @@
       "best_total_price": 93.5,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 180.0,
+      "amount_per_serving": 180,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8635,7 +8840,8 @@
       "filters": [
         "soy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "177234_megafood_calcium_50.0_mg_standard",
@@ -8650,7 +8856,7 @@
       "best_total_price": 25.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8672,7 +8878,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -8687,7 +8894,7 @@
       "best_total_price": 17.96,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8717,7 +8924,7 @@
       "best_total_price": 11.98,
       "unit": "mg",
       "primary_ingredient": "Betaine Hydrochloride",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8745,7 +8952,8 @@
         "organic",
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "177246_megafood_calcium_50.0_mg_standard",
@@ -8760,7 +8968,7 @@
       "best_total_price": 32.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8792,7 +9000,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "258630_protocol for life balance_calcium_60.0_mg_standard",
@@ -8804,14 +9013,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Calcium-D-Glucarate-707359130975.jpg",
       "best_price_per_unit": 0.7333333333333333,
-      "best_total_price": 44.0,
+      "best_total_price": 44,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 44.0,
+          "price": 44,
           "price_per_unit": 0.7333333333333333,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-calcium-d-glucarate",
           "product_name": "Protocol For Life Balance Calcium D-Glucarate -- 500 mg -...",
@@ -8821,7 +9030,7 @@
         },
         {
           "retailer": "iHerb",
-          "price": 44.0,
+          "price": 44,
           "price_per_unit": 0.7333333333333333,
           "product_url": "https://www.iherb.com/pr/protocol-for-life-balance-calcium-d-glucarate-500-mg-90-veg-capsules/116882",
           "product_name": "Protocol for Life Balance, Calcium D-Glucarate, 500 mg, 90 Veg Capsules",
@@ -8836,7 +9045,10 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -8851,7 +9063,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8866,7 +9078,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "16 fl. oz.; 473 mL"
     },
     {
       "id": "212479_nature's way_betaine hcl_20.0_mg_standard",
@@ -8881,7 +9094,7 @@
       "best_total_price": 20.45,
       "unit": "mg",
       "primary_ingredient": "Betaine HCl",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8908,7 +9121,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "210800_seeking health_calcium_30.0_mg_standard",
@@ -8920,14 +9134,14 @@
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Calcium-D-Glucarate-810007520216.jpg",
       "best_price_per_unit": 1.0666666666666667,
-      "best_total_price": 32.0,
+      "best_total_price": 32,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 32.0,
+          "price": 32,
           "price_per_unit": 1.0666666666666667,
           "product_url": "https://www.vitacost.com/seeking-health-calcium-d-glucarate",
           "product_name": "Seeking Health Calcium D-Glucarate -- 60 Capsules",
@@ -8938,7 +9152,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "245857_rainbow light_betaine hydrochloride_20.0_mg_standard",
@@ -8953,7 +9168,7 @@
       "best_total_price": 26.79,
       "unit": "mg",
       "primary_ingredient": "Betaine Hydrochloride",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8971,7 +9186,8 @@
         "organic",
         "gluten_free"
       ],
-      "match_score": 99.9
+      "match_score": 99.9,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "299588_california gold nutrition_betaine hydrochloride_20.0_mg_standard",
@@ -8986,7 +9202,7 @@
       "best_total_price": 28.25,
       "unit": "mg",
       "primary_ingredient": "Betaine Hydrochloride",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9001,7 +9217,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "303651_xymogen_calcium_60.0_mg_standard",
@@ -9016,7 +9233,7 @@
       "best_total_price": 87.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9031,7 +9248,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "25486_doctor's best_boron_4.0_mg_standard",
@@ -9046,7 +9264,7 @@
       "best_total_price": 16.59,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 4.0,
+      "amount_per_serving": 4,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9078,7 +9296,7 @@
       "best_total_price": 14.59,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9106,7 +9324,8 @@
         "vegetarian",
         "dairy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "249862_bioschwartz_boron_3.0_mg_ultra_pure",
@@ -9121,7 +9340,7 @@
       "best_total_price": 18.97,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9138,7 +9357,8 @@
       "filters": [
         "ultra_pure"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "321391_garden of life vitamin code_boron_3.0_mg_standard",
@@ -9153,7 +9373,7 @@
       "best_total_price": 21.79,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9183,7 +9403,7 @@
       "best_total_price": 17.76,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 2.0,
+      "amount_per_serving": 2,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9202,7 +9422,8 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "217205_solgar_boron_2.0_mg_chelated",
@@ -9217,7 +9438,7 @@
       "best_total_price": 18.69,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 2.0,
+      "amount_per_serving": 2,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9236,7 +9457,8 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "333406_codeage_boron_3.0_mg_standard",
@@ -9251,7 +9473,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -9266,7 +9488,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "333406_codeage_boron_3.0_mg_standard",
@@ -9281,7 +9504,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9311,7 +9534,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9358,7 +9581,7 @@
           "price": 29.95,
           "price_per_unit": 11.98,
           "product_url": "https://www.iherb.com/pr/smnutrition-calcium-d-glucarate-bioperine-90-capsules/114568",
-          "product_name": "SMNutrition, Calcium D-Glucarate + BioPerine\u00ae, 90 Capsules",
+          "product_name": "SMNutrition, Calcium D-Glucarate + BioPerine®, 90 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/smo/smo45805/u/24.jpg",
           "rating": null,
           "reviews": null
@@ -9368,7 +9591,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "321392_garden of life vitamin code_boron_3.0_mg_standard",
@@ -9383,7 +9610,7 @@
       "best_total_price": 41.49,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9398,7 +9625,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "211468_roex_boron_1.0_mg_standard",
@@ -9413,7 +9641,7 @@
       "best_total_price": 17.79,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9428,7 +9656,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "11140_21st century_boron_0.5_mg_standard",
@@ -9473,7 +9702,7 @@
       "best_total_price": 32.32,
       "unit": "mg",
       "primary_ingredient": "Aloe vera gel 200:1 leaf extract",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9491,7 +9720,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "16 fl. oz.; 480 mL"
     },
     {
       "id": "298213_nature's plus_1-piperoylpiperidine_0.95_mg_standard",
@@ -9513,7 +9743,7 @@
           "price": 31.03,
           "price_per_unit": 32.66315789473685,
           "product_url": "https://www.iherb.com/pr/naturesplus-activated-coral-calcium-90-capsules/7624",
-          "product_name": "NaturesPlus, Activated Coral Calcium\u00ae, 90 Capsules",
+          "product_name": "NaturesPlus, Activated Coral Calcium®, 90 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap03723/u/60.jpg",
           "rating": null,
           "reviews": null
@@ -9533,7 +9763,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "242816_nature's way_vitamin d3_0.025_mg_standard",
@@ -9601,7 +9832,8 @@
         "gluten_free",
         "wheat_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "16 fl. oz.; 480 mL"
     },
     {
       "id": "261967_plantfusion_boron_0.093_mg_standard",
@@ -9635,7 +9867,11 @@
         "vegetarian",
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "242816_nature's way alive!_vitamin d3_0.025_mg_standard",
@@ -9702,7 +9938,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Capsule(s)"
     }
   ]
 }

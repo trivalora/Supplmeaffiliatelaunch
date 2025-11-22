@@ -3528,7 +3528,7 @@
       "best_total_price": 16.49,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 6000.0,
+      "amount_per_serving": 6000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3561,7 +3561,7 @@
       "best_total_price": 20.29,
       "unit": "mg",
       "primary_ingredient": "Peak Performance Blend",
-      "amount_per_serving": 3360.0,
+      "amount_per_serving": 3360,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3591,7 +3591,7 @@
       "best_total_price": 3.49,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3606,7 +3606,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "30 Vegan Capsule(s)"
     },
     {
       "id": "49483_nature's bounty_magnesium_500.0_mg_standard",
@@ -3621,7 +3625,7 @@
       "best_total_price": 7.79,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3650,7 +3654,11 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "219453_solgar_magnesium_420.0_mg_standard",
@@ -3665,7 +3673,7 @@
       "best_total_price": 7.19,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3685,7 +3693,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "269874_best naturals_magnesium_500.0_mg_standard",
@@ -3700,7 +3712,7 @@
       "best_total_price": 8.79,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3726,7 +3738,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "218430_solgar_magnesium_400.0_mg_standard",
@@ -3741,7 +3757,7 @@
       "best_total_price": 7.59,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3761,7 +3777,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "254598_kal_added sugars_1000.0_mg_standard",
@@ -3776,7 +3793,7 @@
       "best_total_price": 19.09,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3799,7 +3816,8 @@
         "peanut_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "180442_nature made_magnesium_250.0_mg_standard",
@@ -3814,7 +3832,7 @@
       "best_total_price": 5.09,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3834,7 +3852,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "13397_solaray_magnesium_400.0_mg_chelated",
@@ -3849,7 +3871,7 @@
       "best_total_price": 8.49,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3866,7 +3888,11 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "240269_nature's life_magnesium_500.0_mg_standard",
@@ -3881,7 +3907,7 @@
       "best_total_price": 11.49,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3896,7 +3922,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "244918_mason natural_tumeric_500.0_mg_standard",
@@ -3911,7 +3940,7 @@
       "best_total_price": 12.85,
       "unit": "mg",
       "primary_ingredient": "Tumeric",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3940,7 +3969,8 @@
         "gluten_free",
         "soy_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "236914_nature's bounty_magnesium_500.0_mg_standard",
@@ -3955,7 +3985,7 @@
       "best_total_price": 12.98,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3983,7 +4013,10 @@
         "no_artificial_sweeteners",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "217578_solgar_magnesium_400.0_mg_chelated",
@@ -3998,7 +4031,7 @@
       "best_total_price": 10.39,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4019,7 +4052,11 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "268471_twinlab_magnesium_420.0_mg_standard",
@@ -4034,7 +4071,7 @@
       "best_total_price": 10.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4051,7 +4088,11 @@
       "filters": [
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "420 mg"
+      ],
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "242510_nature's bounty_magnesium_500.0_mg_standard",
@@ -4066,7 +4107,7 @@
       "best_total_price": 13.09,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4094,7 +4135,11 @@
         "no_artificial_sweeteners",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "200 Tablet(s)"
     },
     {
       "id": "296679_nature's craft_magnesium_500.0_mg_standard",
@@ -4109,7 +4154,7 @@
       "best_total_price": 13.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4139,7 +4184,7 @@
       "best_total_price": 11.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4166,7 +4211,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "72119_now_magnesium_290.0_mg_standard",
@@ -4181,7 +4227,7 @@
       "best_total_price": 8.29,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 290.0,
+      "amount_per_serving": 290,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4210,7 +4256,11 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "290 mg"
+      ],
+      "dsld_content": "8 oz."
     },
     {
       "id": "299274_alta health products_magnesium chloride_520.0_mg_standard",
@@ -4225,7 +4275,7 @@
       "best_total_price": 15.29,
       "unit": "mg",
       "primary_ingredient": "Magnesium Chloride",
-      "amount_per_serving": 520.0,
+      "amount_per_serving": 520,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4240,7 +4290,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "296053_solaray_magnesium_400.0_mg_standard",
@@ -4255,7 +4306,7 @@
       "best_total_price": 11.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4270,7 +4321,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "296679_nature's craft_magnesium_500.0_mg_standard",
@@ -4285,7 +4340,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4300,7 +4355,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "170 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "219466_solgar_magnesium_420.0_mg_standard",
@@ -4315,7 +4374,7 @@
       "best_total_price": 12.79,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4335,7 +4394,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "302128_evlution nutrition_magnesium_400.0_mg_standard",
@@ -4350,7 +4413,7 @@
       "best_total_price": 12.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4365,7 +4428,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "400 mg"
+      ]
     },
     {
       "id": "218431_solgar_magnesium_400.0_mg_standard",
@@ -4380,7 +4446,7 @@
       "best_total_price": 13.59,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4400,7 +4466,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "223424_nutricost_magnesium_420.0_mg_standard",
@@ -4415,7 +4482,7 @@
       "best_total_price": 14.95,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4433,7 +4500,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "750 mg"
+      ],
+      "dsld_content": "240 Capsule(s)"
     },
     {
       "id": "296051_solaray_magnesium_400.0_mg_standard",
@@ -4448,7 +4519,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4463,7 +4534,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "277203_country life_magnesium_250.0_mg_standard",
@@ -4478,7 +4553,7 @@
       "best_total_price": 9.44,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4499,7 +4574,11 @@
         "gluten_free",
         "yeast_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "179534_nature made_magnesium_250.0_mg_standard",
@@ -4514,7 +4593,7 @@
       "best_total_price": 9.59,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4534,7 +4613,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "200 Tablet(s)"
     },
     {
       "id": "268472_twinlab_magnesium_420.0_mg_standard",
@@ -4549,7 +4632,7 @@
       "best_total_price": 16.71,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4566,7 +4649,11 @@
       "filters": [
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "420 mg"
+      ],
+      "dsld_content": "200 Capsule(s)"
     },
     {
       "id": "333256_country life_magnesium_400.0_mg_chelated",
@@ -4581,7 +4668,7 @@
       "best_total_price": 17.24,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4602,7 +4689,11 @@
         "gluten_free",
         "chelated"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "286789_kal_magnesium_400.0_mg_standard",
@@ -4617,7 +4708,7 @@
       "best_total_price": 17.39,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4634,7 +4725,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "306334_nutricost_magnesium_420.0_mg_standard",
@@ -4649,7 +4741,7 @@
       "best_total_price": 18.29,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4666,7 +4758,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "420 mg"
+      ],
+      "dsld_content": "240 Capsule(s)"
     },
     {
       "id": "284047_bioptimizers_elemental magnesium_500.0_mg_standard",
@@ -4681,7 +4777,7 @@
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "Elemental Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4711,7 +4807,7 @@
       "best_total_price": 11.25,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4743,7 +4839,7 @@
       "best_total_price": 12.19,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4762,7 +4858,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "269689_doctor's best_magnesium_400.0_mg_chelated",
@@ -4777,7 +4874,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4798,7 +4895,8 @@
         "gluten_free",
         "chelated"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "7.1 oz.; 200 g"
     },
     {
       "id": "73011_protocol for life balance_magnesium_400.0_mg_standard",
@@ -4810,14 +4908,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Magnesium-Citrate-707359112902.jpg",
       "best_price_per_unit": 0.05,
-      "best_total_price": 20.0,
+      "best_total_price": 20,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 20.0,
+          "price": 20,
           "price_per_unit": 0.05,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-magnesium-citrate-100-tablets",
           "product_name": "Protocol For Life Balance Magnesium Citrate -- 100 Tablets",
@@ -4832,7 +4930,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "289165_optimum nutrition_magnesium_435.0_mg_standard",
@@ -4847,7 +4946,7 @@
       "best_total_price": 22.49,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 435.0,
+      "amount_per_serving": 435,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4877,7 +4976,7 @@
       "best_total_price": 20.79,
       "unit": "mg",
       "primary_ingredient": "Magnesium Asporotate Complex",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4892,7 +4991,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "217587_solgar_magnesium_400.0_mg_chelated",
@@ -4907,7 +5010,7 @@
       "best_total_price": 20.89,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4928,7 +5031,11 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "326041_solaray_magnesium_400.0_mg_standard",
@@ -4943,7 +5050,7 @@
       "best_total_price": 20.89,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4958,7 +5065,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "180 Veg Capsule(s)"
     },
     {
       "id": "327567_megafood_magnesium_300.0_mg_standard",
@@ -4973,7 +5084,7 @@
       "best_total_price": 15.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4988,7 +5099,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "300 mg"
+      ]
     },
     {
       "id": "260165_advanced nutrition by zahler_magnesium_200.0_mg_standard",
@@ -5003,7 +5117,7 @@
       "best_total_price": 11.09,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5025,7 +5139,11 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "296550_enzymedica_motion magnesium blend_350.0_mg_standard",
@@ -5040,7 +5158,7 @@
       "best_total_price": 19.49,
       "unit": "mg",
       "primary_ingredient": "Motion Magnesium Blend",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5055,7 +5173,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "309186_ancient nutrition_ancient nutrients tcm blend_450.0_mg_standard",
@@ -5070,7 +5189,7 @@
       "best_total_price": 25.46,
       "unit": "mg",
       "primary_ingredient": "Ancient Nutrients TCM Blend",
-      "amount_per_serving": 450.0,
+      "amount_per_serving": 450,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5085,7 +5204,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "300 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "2954_source naturals_magnesium_133.0_mg_standard",
@@ -5100,7 +5223,7 @@
       "best_total_price": 7.69,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 133.0,
+      "amount_per_serving": 133,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5118,7 +5241,11 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "133 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "302618_emerald labs_magnesium_400.0_mg_chelated",
@@ -5133,7 +5260,7 @@
       "best_total_price": 23.36,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5150,7 +5277,11 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "319200_nature's plus_magnesium_200.0_mg_standard",
@@ -5165,7 +5296,7 @@
       "best_total_price": 12.61,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5180,7 +5311,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "326040_solaray_magnesium_200.0_mg_chelated",
@@ -5195,7 +5330,7 @@
       "best_total_price": 12.69,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5212,7 +5347,11 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "100 Veg Capsule(s)"
     },
     {
       "id": "270719_nutricost_magnesium_210.0_mg_standard",
@@ -5227,7 +5366,7 @@
       "best_total_price": 13.95,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 210.0,
+      "amount_per_serving": 210,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5245,7 +5384,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Capsule(s)"
     },
     {
       "id": "329200_country life_magnesium_250.0_mg_standard",
@@ -5260,7 +5400,7 @@
       "best_total_price": 17.02,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5277,7 +5417,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "220684_natural factors_magnesium_150.0_mg_standard",
@@ -5292,7 +5436,7 @@
       "best_total_price": 10.47,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5310,7 +5454,11 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "150 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "265992_integrative therapeutics_magnesium_300.0_mg_standard",
@@ -5325,7 +5473,7 @@
       "best_total_price": 21.49,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5344,7 +5492,8 @@
         "vegetarian",
         "wheat_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "296679_nature's craft_magnesium_500.0_mg_standard",
@@ -5359,7 +5508,7 @@
       "best_total_price": 35.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5389,7 +5538,7 @@
       "best_total_price": 10.19,
       "unit": "mg",
       "primary_ingredient": "Bromelain",
-      "amount_per_serving": 140.0,
+      "amount_per_serving": 140,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5419,7 +5568,7 @@
       "best_total_price": 11.21,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5440,7 +5589,11 @@
         "sugar_free",
         "no_artificial_colors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "150 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "258459_21st century_calcium_65.0_mg_standard",
@@ -5455,7 +5608,7 @@
       "best_total_price": 4.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 65.0,
+      "amount_per_serving": 65,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5472,7 +5625,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "110 Tablet(s)"
     },
     {
       "id": "322919_kal_magnesium_200.0_mg_standard",
@@ -5487,7 +5644,7 @@
       "best_total_price": 15.49,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5504,7 +5661,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "276221_green foods_algae_180.0_mg_standard",
@@ -5519,14 +5680,14 @@
       "best_total_price": 14.76,
       "unit": "mg",
       "primary_ingredient": "Algae",
-      "amount_per_serving": 180.0,
+      "amount_per_serving": 180,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 14.76,
           "price_per_unit": 0.082,
           "product_url": "https://www.vitacost.com/green-foods-magma-plus-powder-5-3-oz",
-          "product_name": "Green Foods Magma Plus\u00ae Powder -- 5.3 oz",
+          "product_name": "Green Foods Magma Plus® Powder -- 5.3 oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Green-Foods/Green-Foods-Magma-Plus-Powder-083851205312.jpg",
           "rating": null,
           "reviews": null
@@ -5534,7 +5695,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "5.3 oz."
     },
     {
       "id": "326811_country life_calcium_190.0_mg_standard",
@@ -5549,7 +5711,7 @@
       "best_total_price": 17.02,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 190.0,
+      "amount_per_serving": 190,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5566,7 +5728,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "322210_davinci laboratories_magnesium_300.0_mg_standard",
@@ -5581,7 +5747,7 @@
       "best_total_price": 28.52,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5596,7 +5762,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "313741_advanced nutrition by zahler_magnesium_200.0_mg_standard",
@@ -5611,7 +5778,7 @@
       "best_total_price": 19.59,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5626,7 +5793,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "296551_enzymedica_motion magnesium blend_350.0_mg_standard",
@@ -5641,7 +5812,7 @@
       "best_total_price": 34.49,
       "unit": "mg",
       "primary_ingredient": "Motion Magnesium Blend",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5656,7 +5827,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "269391_healthy origins_magnesium_200.0_mg_chelated",
@@ -5671,7 +5843,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5706,7 +5878,7 @@
       "best_total_price": 24.95,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 225.0,
+      "amount_per_serving": 225,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5724,7 +5896,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1500 mg"
+      ],
+      "dsld_content": "420 Capsule(s)"
     },
     {
       "id": "220688_natural factors_magnesium_150.0_mg_standard",
@@ -5739,7 +5915,7 @@
       "best_total_price": 17.47,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5757,7 +5933,11 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "150 mg"
+      ],
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "203385_doctor's best_coenzyme q10_200.0_mg_buffered_chelated",
@@ -5772,7 +5952,7 @@
       "best_total_price": 23.39,
       "unit": "mg",
       "primary_ingredient": "Coenzyme Q10",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5796,7 +5976,8 @@
         "buffered",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Veggie Capsule(s)"
     },
     {
       "id": "319199_nature's plus_magnesium_200.0_mg_standard",
@@ -5811,7 +5992,7 @@
       "best_total_price": 25.46,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5836,7 +6017,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "296549_enzymedica_ata mg_350.0_mg_standard",
@@ -5851,7 +6036,7 @@
       "best_total_price": 44.99,
       "unit": "mg",
       "primary_ingredient": "ATA Mg",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5866,7 +6051,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "201495_pure encapsulations_magnesium_150.0_mg_standard",
@@ -5881,7 +6067,7 @@
       "best_total_price": 19.4,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5899,7 +6085,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "334980_jigsaw health_folate_200.0_mcg dfe_sustained_release",
@@ -5914,7 +6101,7 @@
       "best_total_price": 27.97,
       "unit": "mcg dfe",
       "primary_ingredient": "Folate",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5931,7 +6118,8 @@
       "filters": [
         "sustained_release"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "183985_pure encapsulations_calcium_240.0_mg_standard",
@@ -5946,7 +6134,7 @@
       "best_total_price": 34.8,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 240.0,
+      "amount_per_serving": 240,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5964,7 +6152,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "244824_mason natural_chamomile flower extract_50.0_mg_standard",
@@ -5979,7 +6168,7 @@
       "best_total_price": 7.68,
       "unit": "mg",
       "primary_ingredient": "Chamomile flower extract",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5997,7 +6186,8 @@
         "soy_free",
         "sodium_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "303980_davinci laboratories_magnesium_140.0_mg_standard",
@@ -6012,7 +6202,7 @@
       "best_total_price": 22.16,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 140.0,
+      "amount_per_serving": 140,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6027,7 +6217,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.0
+      "match_score": 96,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "335527_xymogen_magnesium_250.0_mg_chelated",
@@ -6042,7 +6233,7 @@
       "best_total_price": 40.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6060,7 +6251,8 @@
         "vegetarian",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "241825_double wood supplements_magnesium_120.0_mg_standard",
@@ -6075,7 +6267,7 @@
       "best_total_price": 19.95,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 120.0,
+      "amount_per_serving": 120,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6093,7 +6285,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "1 Capsule(s)"
     },
     {
       "id": "241846_double wood supplements_magnesium_120.0_mg_standard",
@@ -6108,7 +6304,7 @@
       "best_total_price": 19.95,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 120.0,
+      "amount_per_serving": 120,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6123,7 +6319,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1500 mg"
+      ],
+      "dsld_content": "21 Capsule(s)"
     },
     {
       "id": "315677_double wood supplements_magnesium_112.0_mg_standard",
@@ -6138,7 +6338,7 @@
       "best_total_price": 19.95,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 112.0,
+      "amount_per_serving": 112,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6155,7 +6355,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "800 mg"
+      ],
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "244820_mason natural_magnesium_30.0_mg_standard",
@@ -6170,7 +6374,7 @@
       "best_total_price": 5.39,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6189,7 +6393,11 @@
         "soy_free",
         "sodium_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "550 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "228062_bioschwartz_magnesium_72.0_mg_buffered_chelated",
@@ -6204,7 +6412,7 @@
       "best_total_price": 12.97,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 72.0,
+      "amount_per_serving": 72,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6222,7 +6430,8 @@
         "buffered",
         "chelated"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Veggie Capsule(s)"
     },
     {
       "id": "313742_advanced nutrition by zahler_magnesium_200.0_mg_standard",
@@ -6237,7 +6446,7 @@
       "best_total_price": 37.19,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6254,7 +6463,11 @@
       "filters": [
         "kosher"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "250 Capsule(s)"
     },
     {
       "id": "282198_natural factors_magnesium_150.0_mg_standard",
@@ -6269,7 +6482,7 @@
       "best_total_price": 29.37,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6284,7 +6497,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "150 mg"
+      ],
+      "dsld_content": "360 Capsule(s)"
     },
     {
       "id": "177247_megafood_calcium_100.0_mg_standard",
@@ -6299,7 +6516,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6321,7 +6538,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "315679_double wood supplements_magnesium_144.0_mg_standard",
@@ -6336,7 +6554,7 @@
       "best_total_price": 29.95,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 144.0,
+      "amount_per_serving": 144,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6353,7 +6571,10 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "2000 mg"
+      ]
     },
     {
       "id": "333424_codeage_magnesium_144.0_mg_standard",
@@ -6368,7 +6589,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 144.0,
+      "amount_per_serving": 144,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6395,14 +6616,14 @@
       "dsld_brand": "Pure Encapsulations",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Magnesium-glycinate-766298001746.jpg",
       "best_price_per_unit": 0.21666666666666667,
-      "best_total_price": 26.0,
+      "best_total_price": 26,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 120.0,
+      "amount_per_serving": 120,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 26.0,
+          "price": 26,
           "price_per_unit": 0.21666666666666667,
           "product_url": "https://www.vitacost.com/pure-encapsulations-magnesium-glycinate-90-capsules-1",
           "product_name": "Pure Encapsulations Magnesium (glycinate) -- 90 Capsules",
@@ -6416,7 +6637,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "182038_life extension_magnesium_144.0_mg_standard",
@@ -6431,7 +6653,7 @@
       "best_total_price": 31.5,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 144.0,
+      "amount_per_serving": 144,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6460,14 +6682,14 @@
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Magnesium-Malate-Chewable-810007520650.jpg",
       "best_price_per_unit": 0.22,
-      "best_total_price": 22.0,
+      "best_total_price": 22,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 22.0,
+          "price": 22,
           "price_per_unit": 0.22,
           "product_url": "https://www.vitacost.com/seeking-health-magnesium-malate-chewable",
           "product_name": "Seeking Health Magnesium Malate Chewable -- 100 mg - 100 ...",
@@ -6478,7 +6700,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "100 mg"
+      ],
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "177143_terry naturally_magnesium_100.0_mg_chelated",
@@ -6493,14 +6719,14 @@
       "best_total_price": 22.36,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 22.36,
           "price_per_unit": 0.2236,
           "product_url": "https://www.vitacost.com/terry-naturally-p-5-p-mag",
-          "product_name": "Terry Naturally P-5-P Mag\u2122 -- 120 Capsules",
+          "product_name": "Terry Naturally P-5-P Mag™ -- 120 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-P-5-P-Mag-367703261023.jpg",
           "rating": null,
           "reviews": null
@@ -6515,7 +6741,8 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "322665_seeking health_magnesium_125.0_mg_standard",
@@ -6527,14 +6754,14 @@
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Magnesium-Plus-810007520681.jpg",
       "best_price_per_unit": 0.224,
-      "best_total_price": 28.0,
+      "best_total_price": 28,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 28.0,
+          "price": 28,
           "price_per_unit": 0.224,
           "product_url": "https://www.vitacost.com/seeking-health-magnesium-plus",
           "product_name": "Seeking Health Magnesium Plus -- 100 Capsules",
@@ -6545,7 +6772,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "284252_thorne_gamma-aminobutyric acid_250.0_mg_standard",
@@ -6557,14 +6785,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-PharmaGABA-250-693749662013.jpg",
       "best_price_per_unit": 0.224,
-      "best_total_price": 56.0,
+      "best_total_price": 56,
       "unit": "mg",
       "primary_ingredient": "Gamma-Aminobutyric Acid",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 56.0,
+          "price": 56,
           "price_per_unit": 0.224,
           "product_url": "https://www.vitacost.com/thorne-pharmagaba-250",
           "product_name": "Thorne PharmaGABA-250 -- 60 Capsules",
@@ -6577,7 +6805,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "298074_thorne_magnesium_200.0_mg_standard",
@@ -6589,14 +6818,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Magnesium-Bisglycinate-NSF-Certified-for-Sport-693749015130.jpg",
       "best_price_per_unit": 0.23,
-      "best_total_price": 46.0,
+      "best_total_price": 46,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 46.0,
+          "price": 46,
           "price_per_unit": 0.23,
           "product_url": "https://www.vitacost.com/thorne-magnesium-bisglycinate-nsf-certified-for-sport-30-packs",
           "product_name": "Thorne Magnesium Bisglycinate - NSF Certified for Sport -...",
@@ -6650,7 +6879,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "520 mg"
+      ],
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "249895_bioschwartz_magnesium_72.0_mg_buffered_chelated",
@@ -6665,7 +6898,7 @@
       "best_total_price": 17.97,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 72.0,
+      "amount_per_serving": 72,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6684,7 +6917,8 @@
         "buffered",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Veggie Capsule(s)"
     },
     {
       "id": "235240_nutricology_magnesium_124.0_mg_standard",
@@ -6699,7 +6933,7 @@
       "best_total_price": 30.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 124.0,
+      "amount_per_serving": 124,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6714,7 +6948,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "307646_jarrow formulas_magnesium_144.0_mg_standard",
@@ -6729,7 +6964,7 @@
       "best_total_price": 35.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 144.0,
+      "amount_per_serving": 144,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6747,7 +6982,8 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "62665_megafood_calcium_100.0_mg_standard",
@@ -6762,7 +6998,7 @@
       "best_total_price": 25.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6783,7 +7019,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "286893_kal_magnesium_144.0_mg_standard",
@@ -6798,7 +7035,7 @@
       "best_total_price": 37.49,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 144.0,
+      "amount_per_serving": 144,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -6825,7 +7062,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "328832_thorne_albion dimagnesium malate_80.0_mg_standard",
@@ -6837,14 +7075,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Magnesium-Citramate-693749272021.jpg",
       "best_price_per_unit": 0.2625,
-      "best_total_price": 21.0,
+      "best_total_price": 21,
       "unit": "mg",
       "primary_ingredient": "Albion Dimagnesium Malate",
-      "amount_per_serving": 80.0,
+      "amount_per_serving": 80,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 21.0,
+          "price": 21,
           "price_per_unit": 0.2625,
           "product_url": "https://www.vitacost.com/thorne-magnesium-citramate",
           "product_name": "Thorne Magnesium Citramate -- 90 Capsules",
@@ -6857,7 +7095,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "327131_dr. mercola_magnesium_145.0_mg_standard",
@@ -6872,7 +7111,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 145.0,
+      "amount_per_serving": 145,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6902,7 +7141,7 @@
       "best_total_price": 8.29,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6932,7 +7171,7 @@
       "best_total_price": 13.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6984,7 +7223,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 fl. oz."
     },
     {
       "id": "304276_allergy research group_magnesium_66.5_mg_standard",
@@ -7014,7 +7254,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 fl. oz."
     },
     {
       "id": "315678_double wood supplements_magnesium_60.0_mg_standard",
@@ -7029,7 +7270,7 @@
       "best_total_price": 17.95,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7046,7 +7287,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "1 Capsule(s)"
     },
     {
       "id": "334975_jigsaw health_magnesium_100.0_mg_standard",
@@ -7061,7 +7306,7 @@
       "best_total_price": 29.97,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7076,7 +7321,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "100 mg"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "284251_thorne_gamma-aminobutyric acid_100.0_mg_standard",
@@ -7088,14 +7337,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-PharmaGABA-100-693749652014.jpg",
       "best_price_per_unit": 0.31,
-      "best_total_price": 31.0,
+      "best_total_price": 31,
       "unit": "mg",
       "primary_ingredient": "Gamma-Aminobutyric Acid",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 31.0,
+          "price": 31,
           "price_per_unit": 0.31,
           "product_url": "https://www.vitacost.com/thorne-pharmagaba-100",
           "product_name": "Thorne PharmaGABA-100 -- 60 Capsules",
@@ -7105,7 +7354,7 @@
         },
         {
           "retailer": "iHerb",
-          "price": 31.0,
+          "price": 31,
           "price_per_unit": 0.31,
           "product_url": "https://www.iherb.com/pr/thorne-pharmagaba-100-60-capsules-100-mg-per-capsule/18741",
           "product_name": "Thorne, PharmaGABA-100, 60 Capsules (100 mg per Capsule)",
@@ -7118,7 +7367,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "6139_xymogen_magnesium_100.0_mg_standard",
@@ -7133,7 +7383,7 @@
       "best_total_price": 35.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7148,7 +7398,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "205309_pure encapsulations_magnesium_120.0_mg_standard",
@@ -7163,7 +7414,7 @@
       "best_total_price": 44.6,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 120.0,
+      "amount_per_serving": 120,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7181,7 +7432,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "326454_protocol for life balance_magnesium_144.0_mg_standard",
@@ -7193,14 +7445,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Magtein-Magnesium-L-Threonate-707359123908.jpg",
       "best_price_per_unit": 0.3819444444444444,
-      "best_total_price": 55.0,
+      "best_total_price": 55,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 144.0,
+      "amount_per_serving": 144,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 55.0,
+          "price": 55,
           "price_per_unit": 0.3819444444444444,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-magtein-magnesium-l-threonate",
           "product_name": "Protocol For Life Balance Magtein Magnesium L-Threonate -...",
@@ -7226,7 +7478,7 @@
       "best_total_price": 29.69,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 70.0,
+      "amount_per_serving": 70,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7243,7 +7495,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "233055_allergy research group_magnesium_70.0_mg_buffered",
@@ -7258,7 +7511,7 @@
       "best_total_price": 29.69,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 70.0,
+      "amount_per_serving": 70,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7275,7 +7528,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "177958_megafood_magnesium_50.0_mg_standard",
@@ -7290,7 +7544,7 @@
       "best_total_price": 22.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7327,7 +7581,7 @@
       "best_total_price": 15.99,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7357,7 +7611,7 @@
       "best_total_price": 29.97,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7374,7 +7628,11 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "50 mg"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -7389,7 +7647,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7404,7 +7662,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 fl. oz."
     },
     {
       "id": "239418_nature's answer_calcium_25.0_mg_standard",
@@ -7419,7 +7678,7 @@
       "best_total_price": 17.24,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7448,7 +7707,11 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "177958_megafood_magnesium_50.0_mg_standard",
@@ -7463,7 +7726,7 @@
       "best_total_price": 35.99,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7485,7 +7748,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "179948_nature made_calories_15.0_calorie_standard",
@@ -7500,7 +7764,7 @@
       "best_total_price": 11.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7520,7 +7784,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -7535,7 +7803,7 @@
       "best_total_price": 22.99,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7550,7 +7818,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 fl. oz."
     },
     {
       "id": "78681_source naturals_calories_10.0_calorie_standard",
@@ -7565,7 +7834,7 @@
       "best_total_price": 8.05,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7584,7 +7853,8 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "208431_source naturals_calories_10.0_calorie_standard",
@@ -7599,7 +7869,7 @@
       "best_total_price": 8.58,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7618,7 +7888,11 @@
         "sugar_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "625 mg"
+      ],
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "267822_floradix_calories_30.0_calorie_standard",
@@ -7633,7 +7907,7 @@
       "best_total_price": 27.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7651,7 +7925,8 @@
         "gluten_free",
         "alcohol_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "8.5 fl. oz."
     },
     {
       "id": "322911_kal_calories_25.0_calorie_standard",
@@ -7666,7 +7941,7 @@
       "best_total_price": 23.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7691,7 +7966,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "286787_kal_actisorb base_10.0_mg_standard",
@@ -7706,7 +7982,7 @@
       "best_total_price": 10.59,
       "unit": "mg",
       "primary_ingredient": "ActiSorb Base",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7723,7 +7999,10 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "209639_metagenics_calcium_25.0_mg_standard",
@@ -7738,14 +8017,14 @@
       "best_total_price": 26.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 26.95,
           "price_per_unit": 1.078,
           "product_url": "https://www.iherb.com/pr/metagenics-hemagenics-60-tablets/147293",
-          "product_name": "Metagenics, Hemagenics\u00ae, 60 Tablets",
+          "product_name": "Metagenics, Hemagenics®, 60 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mtg/mtg01825/u/25.jpg",
           "rating": null,
           "reviews": null
@@ -7757,7 +8036,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "271641_nature made_calories_10.0_calorie_standard",
@@ -7772,7 +8052,7 @@
       "best_total_price": 11.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7791,7 +8071,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "179947_nature made_calories_15.0_calorie_standard",
@@ -7806,7 +8090,7 @@
       "best_total_price": 17.39,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7841,7 +8125,7 @@
       "best_total_price": 18.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7861,7 +8145,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "286787_kal_actisorb base_10.0_mg_standard",
@@ -7876,7 +8164,7 @@
       "best_total_price": 13.69,
       "unit": "mg",
       "primary_ingredient": "ActiSorb Base",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7893,7 +8181,10 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "72987_source naturals_calories_10.0_calorie_standard",
@@ -7908,7 +8199,7 @@
       "best_total_price": 14.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7927,7 +8218,8 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "322922_kal_actisorb base_10.0_mg_standard",
@@ -7942,7 +8234,7 @@
       "best_total_price": 15.59,
       "unit": "mg",
       "primary_ingredient": "ActiSorb Base",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7959,7 +8251,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "267781_floradix_calories_30.0_calorie_standard",
@@ -7974,7 +8267,7 @@
       "best_total_price": 47.24,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7992,7 +8285,8 @@
         "gluten_free",
         "alcohol_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "17 fl. oz."
     },
     {
       "id": "323385_kal_calories_25.0_calorie_standard",
@@ -8007,7 +8301,7 @@
       "best_total_price": 40.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8022,7 +8316,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "322902_kal_calories_10.0_calorie_standard",
@@ -8037,7 +8332,7 @@
       "best_total_price": 16.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -8052,7 +8347,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "292266_protocol for life balance_calories_20.0_calorie_standard",
@@ -8064,14 +8360,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Magnesium-Citrate-707359112988.jpg",
       "best_price_per_unit": 1.65,
-      "best_total_price": 33.0,
+      "best_total_price": 33,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 33.0,
+          "price": 33,
           "price_per_unit": 1.65,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-magnesium-citrate",
           "product_name": "Protocol For Life Balance Magnesium Citrate -- 180 Softgels",
@@ -8082,7 +8378,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "179715_nature made_calories_5.0_calorie_standard",
@@ -8097,7 +8394,7 @@
       "best_total_price": 9.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8117,7 +8414,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "323386_kal_calories_10.0_calorie_standard",
@@ -8132,7 +8433,7 @@
       "best_total_price": 24.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8147,7 +8448,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "270 Tablet(s)"
     },
     {
       "id": "214799_maca magic_calories_5.0_calorie_standard",
@@ -8162,7 +8464,7 @@
       "best_total_price": 12.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8179,7 +8481,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "216538_metagenics_calcium_25.0_mg_standard",
@@ -8194,14 +8497,14 @@
       "best_total_price": 68.75,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 68.75,
           "price_per_unit": 2.75,
           "product_url": "https://www.iherb.com/pr/metagenics-hemagenics-180-tablets/19488",
-          "product_name": "Metagenics, Hemagenics\u00ae, 180 Tablets",
+          "product_name": "Metagenics, Hemagenics®, 180 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mtg/mtg01817/u/25.jpg",
           "rating": null,
           "reviews": null
@@ -8213,7 +8516,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "296318_solaray_bioperine_5.0_mg_standard",
@@ -8228,7 +8532,7 @@
       "best_total_price": 18.39,
       "unit": "mg",
       "primary_ingredient": "BioPerine",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -8243,7 +8547,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "350mg"
+      ],
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "286219_zhou_bioperine_5.0_mg_standard",
@@ -8258,7 +8566,7 @@
       "best_total_price": 20.49,
       "unit": "mg",
       "primary_ingredient": "BioPerine",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8273,7 +8581,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "350 mg"
+      ],
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "322912_kal_bioperine_5.0_mg_standard",
@@ -8288,7 +8600,7 @@
       "best_total_price": 21.39,
       "unit": "mg",
       "primary_ingredient": "BioPerine",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8303,7 +8615,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "160 Veg Capsule(s)"
     },
     {
       "id": "331444_bucklebury_bioperine_5.0_mg_standard",
@@ -8318,7 +8631,7 @@
       "best_total_price": 22.89,
       "unit": "mg",
       "primary_ingredient": "Bioperine",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8336,7 +8649,10 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "350 mg"
+      ]
     },
     {
       "id": "325991_solaray_bioperine_5.0_mg_standard",
@@ -8351,7 +8667,7 @@
       "best_total_price": 31.99,
       "unit": "mg",
       "primary_ingredient": "BioPerine",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -8366,7 +8682,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "350mg"
+      ],
+      "dsld_content": "240 Veg Capsule(s)"
     },
     {
       "id": "240869_jigsaw health_calories_5.0_calorie_chelated_fast_acting",
@@ -8381,14 +8701,14 @@
       "best_total_price": 49.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 49.97,
           "price_per_unit": 9.994,
           "product_url": "https://www.vitacost.com/jigsaw-health-magsoothe",
-          "product_name": "Jigsaw Health MagSoothe\u2122 Tart Raspberry Lemonade -- 13.8 oz",
+          "product_name": "Jigsaw Health MagSoothe™ Tart Raspberry Lemonade -- 13.8 oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Jigsaw-Health/Jigsaw-Health-MagSoothe-Tart-Raspberry-Lemonade-876634001559.jpg",
           "rating": null,
           "reviews": null
@@ -8404,7 +8724,8 @@
         "chelated",
         "fast_acting"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "13.8 oz."
     },
     {
       "id": "260753_sunwarrior_boron_1.6_mg_standard",
@@ -8441,7 +8762,8 @@
         "dairy_free",
         "soy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "4 fl. oz."
     }
   ]
 }

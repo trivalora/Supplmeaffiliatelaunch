@@ -3530,7 +3530,7 @@
       "best_total_price": 30.09,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 9000.0,
+      "amount_per_serving": 9000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3564,7 +3564,7 @@
       "best_total_price": 48.02,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3581,7 +3581,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "308326_nutricost_added sugars_1000.0_mg_standard",
@@ -3596,7 +3597,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3628,7 +3629,7 @@
       "best_total_price": 44.95,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3655,7 +3656,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "308338_nutricost_added sugars_1000.0_mg_standard",
@@ -3670,7 +3672,7 @@
       "best_total_price": 44.95,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3697,7 +3699,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "4753_mt. capra_calcium_260.0_mg_standard",
@@ -3712,7 +3715,7 @@
       "best_total_price": 17.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 260.0,
+      "amount_per_serving": 260,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3737,7 +3740,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "12.7 oz."
     },
     {
       "id": "217013_isatori_bio-gro bio-active peptides_500.0_mg_hydrolyzed_isolate",
@@ -3752,7 +3756,7 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "Bio-Gro Bio-Active Peptides",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3771,7 +3775,8 @@
         "hydrolyzed",
         "isolate"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "864 g; 1.9 lbs."
     },
     {
       "id": "217004_isatori_bio-gro bio-active peptides_500.0_mg_hydrolyzed_isolate",
@@ -3786,7 +3791,7 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "Bio-Gro Bio-Active Peptides",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3805,7 +3810,8 @@
         "hydrolyzed",
         "isolate"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 928 g"
     },
     {
       "id": "306052_nutricost_acai fruit extract_550.0_mg_standard",
@@ -3820,7 +3826,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "Acai Fruit Extract",
-      "amount_per_serving": 550.0,
+      "amount_per_serving": 550,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3837,7 +3843,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -3852,7 +3859,7 @@
       "best_total_price": 28.11,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3869,7 +3876,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "397 g; 14 oz."
     },
     {
       "id": "308271_nutricost_calcium_167.0_mg_standard",
@@ -3884,7 +3892,7 @@
       "best_total_price": 27.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 167.0,
+      "amount_per_serving": 167,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3911,7 +3919,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.5 lbs."
     },
     {
       "id": "308269_nutricost_calcium_156.0_mg_standard",
@@ -3926,7 +3935,7 @@
       "best_total_price": 27.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 156.0,
+      "amount_per_serving": 156,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3953,7 +3962,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.5 lbs."
     },
     {
       "id": "25749_body fortress_calcium_178.0_mg_standard",
@@ -3965,14 +3975,14 @@
       "dsld_brand": "Body Fortress",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft30010/u/23.jpg",
       "best_price_per_unit": 0.1797752808988764,
-      "best_total_price": 32.0,
+      "best_total_price": 32,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 178.0,
+      "amount_per_serving": 178,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 32.0,
+          "price": 32,
           "price_per_unit": 0.1797752808988764,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-cookies-n-creme-1-78-lb-810-g/136361",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Cookies and Cream, 1.78 lb (810 g)",
@@ -3983,7 +3993,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.78 lbs.; 810 g"
     },
     {
       "id": "306415_nutricost_calcium_156.0_mg_standard",
@@ -3998,7 +4009,7 @@
       "best_total_price": 28.52,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 156.0,
+      "amount_per_serving": 156,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4015,7 +4026,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "680 g; 1.5 lbs."
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -4030,7 +4042,7 @@
       "best_total_price": 36.69,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4047,7 +4059,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.95 lbs.; 885 g"
     },
     {
       "id": "308270_nutricost_calcium_166.0_mg_standard",
@@ -4062,7 +4075,7 @@
       "best_total_price": 31.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 166.0,
+      "amount_per_serving": 166,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4079,7 +4092,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "221461_body fortress_calcium_155.0_mg_standard",
@@ -4094,7 +4108,7 @@
       "best_total_price": 29.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 155.0,
+      "amount_per_serving": 155,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4111,7 +4125,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.74 lbs.; 792 g"
     },
     {
       "id": "178988_mrm_calories_100.0_calorie_isolate",
@@ -4126,7 +4141,7 @@
       "best_total_price": 19.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4144,7 +4159,8 @@
         "fermented",
         "isolate"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.01 lbs."
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -4159,7 +4175,7 @@
       "best_total_price": 45.99,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4176,7 +4192,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "125 g"
     },
     {
       "id": "255939_muscletech_calcium_150.0_mg_ultra_pure",
@@ -4191,7 +4208,7 @@
       "best_total_price": 35.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4212,7 +4229,8 @@
         "grass_fed",
         "ultra_pure"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.8 lbs.; 816 g"
     },
     {
       "id": "232422_life extension wellness code_calcium_111.0_mg_standard",
@@ -4227,7 +4245,7 @@
       "best_total_price": 27.75,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 111.0,
+      "amount_per_serving": 111,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4260,7 +4278,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 144.0,
+      "amount_per_serving": 144,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4277,7 +4295,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "308277_nutricost_calcium_139.0_mg_standard",
@@ -4292,7 +4311,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 139.0,
+      "amount_per_serving": 139,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4309,7 +4328,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "230809_biochem_calcium_80.0_mg_isolate",
@@ -4324,7 +4344,7 @@
       "best_total_price": 25.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 80.0,
+      "amount_per_serving": 80,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4348,7 +4368,8 @@
         "grass_fed",
         "isolate"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "355 g; 12.5 oz."
     },
     {
       "id": "329669_redcon1_calcium_125.0_mg_standard",
@@ -4363,7 +4384,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4388,7 +4409,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2.07 lbs."
     },
     {
       "id": "232387_life extension wellness code_calcium_88.0_mg_isolate",
@@ -4403,7 +4425,7 @@
       "best_total_price": 29.25,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 88.0,
+      "amount_per_serving": 88,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4436,7 +4458,7 @@
       "best_total_price": 28.5,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 85.0,
+      "amount_per_serving": 85,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4469,14 +4491,14 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 148.0,
+      "amount_per_serving": 148,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 49.99,
           "price_per_unit": 0.3377702702702703,
           "product_url": "https://www.gnc.com/whey-protein/528048.html",
-          "product_name": "GHOST\u00ae\nWHEY Protein - Cinnabon\u00ae (27 Servings)",
+          "product_name": "GHOST®\nWHEY Protein - Cinnabon® (27 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4496,14 +4518,14 @@
       "dsld_brand": "Body Fortress",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft32460/u/5.jpg",
       "best_price_per_unit": 0.3404255319148936,
-      "best_total_price": 32.0,
+      "best_total_price": 32,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 94.0,
+      "amount_per_serving": 94,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 32.0,
+          "price": 32,
           "price_per_unit": 0.3404255319148936,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-chocolate-peanut-butter-1-78-lb-810-g/136360",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Chocolate Peanut Butter, 1.78 lb (810 g)",
@@ -4516,7 +4538,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.78 lbs.; 810 g"
     },
     {
       "id": "249354_ghost_calcium_137.0_mg_hydrolyzed_isolate",
@@ -4531,14 +4554,14 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 137.0,
+      "amount_per_serving": 137,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 49.99,
           "price_per_unit": 0.3648905109489051,
           "product_url": "https://www.iherb.com/pr/ghost-whey-protein-peanut-butter-cereal-milk-2-lb-924-g/147719",
-          "product_name": "Ghost, Whey Protein, Peanut Butter Cereal Milk\u00ae, 2 lb (924 g)",
+          "product_name": "Ghost, Whey Protein, Peanut Butter Cereal Milk®, 2 lb (924 g)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00642/u/8.jpg",
           "rating": null,
           "reviews": null
@@ -4551,7 +4574,8 @@
         "hydrolyzed",
         "isolate"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 924 g"
     },
     {
       "id": "249352_ghost_calcium_135.0_mg_hydrolyzed_isolate",
@@ -4566,7 +4590,7 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 135.0,
+      "amount_per_serving": 135,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4586,7 +4610,8 @@
         "hydrolyzed",
         "isolate"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 924 g"
     },
     {
       "id": "327329_ghost_calcium_135.0_mg_standard",
@@ -4601,7 +4626,7 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 135.0,
+      "amount_per_serving": 135,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4616,7 +4641,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 924 g"
     },
     {
       "id": "249348_ghost_calcium_134.0_mg_hydrolyzed_isolate",
@@ -4631,14 +4657,14 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 134.0,
+      "amount_per_serving": 134,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 49.99,
           "price_per_unit": 0.3730597014925373,
           "product_url": "https://www.iherb.com/pr/ghost-whey-protein-cereal-milk-2-lb-924-g/147715",
-          "product_name": "Ghost, Whey Protein, Cereal Milk\u00ae, 2 lb (924 g)",
+          "product_name": "Ghost, Whey Protein, Cereal Milk®, 2 lb (924 g)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00615/u/8.jpg",
           "rating": null,
           "reviews": null
@@ -4651,7 +4677,8 @@
         "hydrolyzed",
         "isolate"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 924 g"
     },
     {
       "id": "292517_ghost_calcium_133.0_mg_standard",
@@ -4666,14 +4693,14 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 133.0,
+      "amount_per_serving": 133,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 49.99,
           "price_per_unit": 0.37586466165413535,
           "product_url": "https://www.iherb.com/pr/ghost-whey-protein-fruity-cereal-milk-2lb-924-g/147716",
-          "product_name": "Ghost, Whey Protein, Fruity Cereal Milk\u00ae, 2lb (924 g)",
+          "product_name": "Ghost, Whey Protein, Fruity Cereal Milk®, 2lb (924 g)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ghs/ghs00641/u/8.jpg",
           "rating": null,
           "reviews": null
@@ -4681,7 +4708,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 924 g"
     },
     {
       "id": "308274_nutricost_calcium_110.0_mg_standard",
@@ -4696,7 +4724,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 110.0,
+      "amount_per_serving": 110,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4713,7 +4741,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "322196_davinci laboratories_calcium_190.0_mg_standard",
@@ -4728,7 +4757,7 @@
       "best_total_price": 72.68,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 190.0,
+      "amount_per_serving": 190,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4743,7 +4772,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "996 g; 2.2 lbs."
     },
     {
       "id": "253168_optimum nutrition_calcium_130.0_mg_isolate",
@@ -4758,14 +4788,14 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 130.0,
+      "amount_per_serving": 130,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 49.99,
           "price_per_unit": 0.38453846153846155,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-vanilla-ice-cream-1-98-lb-899-g/27501",
-          "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Whey, Vanilla Ice Cream, 1.98 lb (899 g)",
+          "product_name": "Optimum Nutrition, Gold Standard® 100% Whey, Vanilla Ice Cream, 1.98 lb (899 g)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02865/u/57.jpg",
           "rating": null,
           "reviews": null
@@ -4775,7 +4805,7 @@
           "price": 84.99,
           "price_per_unit": 0.6537692307692308,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=350283&source=productlist",
-          "product_name": "Optimum Nutrition\nGold Standard 100% Whey\u2122 - Vanilla Ice Cream (73 Servings)",
+          "product_name": "Optimum Nutrition\nGold Standard 100% Whey™ - Vanilla Ice Cream (73 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4786,7 +4816,8 @@
         "gluten_free",
         "isolate"
       ],
-      "match_score": 89.2
+      "match_score": 89.2,
+      "dsld_content": "1.98 lbs.; 899 g"
     },
     {
       "id": "289172_optimum nutrition_calcium_130.0_mg_standard",
@@ -4801,14 +4832,14 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 130.0,
+      "amount_per_serving": 130,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 49.99,
           "price_per_unit": 0.38453846153846155,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-1-98-lb-899-g/27497",
-          "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Whey Protein, Double Rich Chocolate, 1.98 lb (899 g)",
+          "product_name": "Optimum Nutrition, Gold Standard® 100% Whey Protein, Double Rich Chocolate, 1.98 lb (899 g)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02861/u/69.jpg",
           "rating": null,
           "reviews": null
@@ -4818,7 +4849,7 @@
           "price": 84.99,
           "price_per_unit": 0.6537692307692308,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=350281&source=productlist",
-          "product_name": "Optimum Nutrition\nGold Standard 100% Whey\u2122 - Double Rich Chocolate (74 Servings)",
+          "product_name": "Optimum Nutrition\nGold Standard 100% Whey™ - Double Rich Chocolate (74 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4826,7 +4857,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 89.9
+      "match_score": 89.9,
+      "dsld_content": "1.98 lbs.; 899 g"
     },
     {
       "id": "308393_optimum nutrition_calories_130.0_calorie_standard",
@@ -4841,14 +4873,14 @@
       "best_total_price": 49.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 130.0,
+      "amount_per_serving": 130,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 49.99,
           "price_per_unit": 0.38453846153846155,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-chocolate-malt-2-lb-907-g/85070",
-          "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Whey, Chocolate Malt, 2 lb (907 g)",
+          "product_name": "Optimum Nutrition, Gold Standard® 100% Whey, Chocolate Malt, 2 lb (907 g)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02232/u/50.jpg",
           "rating": null,
           "reviews": null
@@ -4856,7 +4888,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "308286_nutricost_calcium_109.0_mg_standard",
@@ -4871,7 +4904,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 109.0,
+      "amount_per_serving": 109,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4888,7 +4921,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "174940_nutrabio_calcium_138.0_mg_isolate",
@@ -4903,7 +4937,7 @@
       "best_total_price": 54.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 138.0,
+      "amount_per_serving": 138,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4925,7 +4959,8 @@
         "non_gmo",
         "isolate"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "239206_nutrabio_calcium_138.0_mg_isolate",
@@ -4940,7 +4975,7 @@
       "best_total_price": 54.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 138.0,
+      "amount_per_serving": 138,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4960,7 +4995,8 @@
         "non_gmo",
         "isolate"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "308287_nutricost_calcium_105.0_mg_standard",
@@ -4975,7 +5011,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 105.0,
+      "amount_per_serving": 105,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5002,7 +5038,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "308284_nutricost_calcium_105.0_mg_standard",
@@ -5017,7 +5054,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 105.0,
+      "amount_per_serving": 105,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5034,7 +5071,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "26234_body fortress_calcium_80.0_mg_standard",
@@ -5046,14 +5084,14 @@
       "dsld_brand": "Body Fortress",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft32459/u/8.jpg",
       "best_price_per_unit": 0.4,
-      "best_total_price": 32.0,
+      "best_total_price": 32,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 80.0,
+      "amount_per_serving": 80,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 32.0,
+          "price": 32,
           "price_per_unit": 0.4,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-strawberry-1-78-lb-810-g/136359",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Strawberry, 1.78 lb (810 g)",
@@ -5066,7 +5104,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.78 lbs.; 810 g"
     },
     {
       "id": "51413_nutrabio_calcium_136.0_mg_isolate",
@@ -5081,7 +5120,7 @@
       "best_total_price": 54.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 136.0,
+      "amount_per_serving": 136,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5103,7 +5142,8 @@
         "non_gmo",
         "isolate"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "62356_bodytech_calories_110.0_calorie_standard",
@@ -5118,7 +5158,7 @@
       "best_total_price": 44.61,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 110.0,
+      "amount_per_serving": 110,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5133,7 +5173,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "680 g; 1.5 lbs."
     },
     {
       "id": "51348_nutrabio_calcium_135.0_mg_isolate",
@@ -5148,7 +5189,7 @@
       "best_total_price": 54.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 135.0,
+      "amount_per_serving": 135,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5171,7 +5212,8 @@
         "non_gmo",
         "isolate"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "32 oz."
     },
     {
       "id": "306229_nutricost_calcium_105.0_mg_standard",
@@ -5186,7 +5228,7 @@
       "best_total_price": 44.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 105.0,
+      "amount_per_serving": 105,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5203,7 +5245,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "203232_bodybuilding.com signature_calories_130.0_calorie_hydrolyzed_isolate",
@@ -5218,7 +5261,7 @@
       "best_total_price": 56.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 130.0,
+      "amount_per_serving": 130,
       "retailer_prices": [
         {
           "retailer": "Bodybuilding.com",
@@ -5238,7 +5281,7 @@
         "hydrolyzed",
         "isolate"
       ],
-      "match_score": 87.0
+      "match_score": 87
     },
     {
       "id": "26686_body fortress_calcium_72.0_mg_standard",
@@ -5250,14 +5293,14 @@
       "dsld_brand": "Body Fortress",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/bft/bft30000/u/24.jpg",
       "best_price_per_unit": 0.4444444444444444,
-      "best_total_price": 32.0,
+      "best_total_price": 32,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 72.0,
+      "amount_per_serving": 72,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 32.0,
+          "price": 32,
           "price_per_unit": 0.4444444444444444,
           "product_url": "https://www.iherb.com/pr/body-fortress-super-advanced-whey-protein-chocolate-1-78-lb-810-g/136358",
           "product_name": "Body Fortress, Super Advanced Whey Protein, Chocolate, 1.78 lb (810 g)",
@@ -5270,7 +5313,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1.78 lbs.; 810 g"
     },
     {
       "id": "237091_nutrabio_calcium_144.0_mg_standard",
@@ -5285,7 +5329,7 @@
       "best_total_price": 89.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 144.0,
+      "amount_per_serving": 144,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5324,7 +5368,7 @@
       "best_total_price": 79.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5349,7 +5393,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "4.71 lbs."
     },
     {
       "id": "308396_optimum nutrition_calcium_140.0_mg_standard",
@@ -5364,14 +5409,14 @@
       "best_total_price": 89.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 140.0,
+      "amount_per_serving": 140,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 89.99,
           "price_per_unit": 0.6427857142857143,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-chocolate-coconut-5-lb-2-27-kg/69590",
-          "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Whey, Chocolate Coconut, 5 lb (2.27 kg)",
+          "product_name": "Optimum Nutrition, Gold Standard® 100% Whey, Chocolate Coconut, 5 lb (2.27 kg)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02706/u/56.jpg",
           "rating": null,
           "reviews": null
@@ -5394,14 +5439,14 @@
       "best_total_price": 71.8,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 110.0,
+      "amount_per_serving": 110,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 71.8,
           "price_per_unit": 0.6527272727272727,
           "product_url": "https://www.iherb.com/pr/muscletech-nitro-tech-100-whey-gold-strawberry-shortcake-5-03-lbs-2-28-kg/74283",
-          "product_name": "MuscleTech, Nitro-Tech\u00ae 100% Whey Gold, Strawberry Shortcake, 5.03 lbs (2.28 kg)",
+          "product_name": "MuscleTech, Nitro-Tech® 100% Whey Gold, Strawberry Shortcake, 5.03 lbs (2.28 kg)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/msc/msc71050/u/70.jpg",
           "rating": null,
           "reviews": null
@@ -5424,7 +5469,7 @@
       "best_total_price": 20.27,
       "unit": "mg",
       "primary_ingredient": "Bromelain",
-      "amount_per_serving": 28.0,
+      "amount_per_serving": 28,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5445,7 +5490,8 @@
         "non_gmo",
         "grass_fed"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "12 oz."
     },
     {
       "id": "39073_natural factors_bromelain_28.0_mg_standard",
@@ -5460,7 +5506,7 @@
       "best_total_price": 20.27,
       "unit": "mg",
       "primary_ingredient": "Bromelain",
-      "amount_per_serving": 28.0,
+      "amount_per_serving": 28,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5482,7 +5528,8 @@
         "non_gmo",
         "grass_fed"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "12 oz."
     },
     {
       "id": "174927_nutrabio_calcium_140.0_mg_isolate",
@@ -5497,7 +5544,7 @@
       "best_total_price": 109.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 140.0,
+      "amount_per_serving": 140,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5519,7 +5566,8 @@
         "non_gmo",
         "isolate"
       ],
-      "match_score": 96.8
+      "match_score": 96.8,
+      "dsld_content": "5 lbs."
     },
     {
       "id": "174952_nutrabio_calcium_138.0_mg_isolate",
@@ -5534,7 +5582,7 @@
       "best_total_price": 109.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 138.0,
+      "amount_per_serving": 138,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5556,7 +5604,8 @@
         "non_gmo",
         "isolate"
       ],
-      "match_score": 96.0
+      "match_score": 96,
+      "dsld_content": "5 lbs."
     },
     {
       "id": "305110_mrm nutrition_16-strain probiotic blend_40.0_mg_standard",
@@ -5571,7 +5620,7 @@
       "best_total_price": 32.99,
       "unit": "mg",
       "primary_ingredient": "16-Strain Probiotic Blend",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5588,7 +5637,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2.03 lbs.; 923 g"
     },
     {
       "id": "13444_now_calcium_170.0_mg_standard",
@@ -5603,7 +5653,7 @@
       "best_total_price": 143.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 170.0,
+      "amount_per_serving": 170,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -5618,7 +5668,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "10 lbs."
     },
     {
       "id": "51353_nutrabio_beta-carotene_56.0_mg_isolate",
@@ -5633,7 +5684,7 @@
       "best_total_price": 54.99,
       "unit": "mg",
       "primary_ingredient": "Beta-Carotene",
-      "amount_per_serving": 56.0,
+      "amount_per_serving": 56,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -5655,7 +5706,8 @@
         "sugar_free",
         "isolate"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 lbs."
     },
     {
       "id": "39297_natural factors_bromelain_28.0_mg_standard",
@@ -5670,7 +5722,7 @@
       "best_total_price": 43.37,
       "unit": "mg",
       "primary_ingredient": "Bromelain",
-      "amount_per_serving": 28.0,
+      "amount_per_serving": 28,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5706,7 +5758,7 @@
       "best_total_price": 43.37,
       "unit": "mg",
       "primary_ingredient": "Bromelain",
-      "amount_per_serving": 28.0,
+      "amount_per_serving": 28,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5727,7 +5779,8 @@
         "no_artificial_sweeteners",
         "grass_fed"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 lbs."
     }
   ]
 }

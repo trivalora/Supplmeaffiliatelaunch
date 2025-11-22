@@ -18,7 +18,7 @@
       "Vitacost": 2,
       "iHerb": 2
     },
-    "avg_retailers_per_product": 1.0
+    "avg_retailers_per_product": 1
   },
   "filters": {
     "vegan": {
@@ -3527,7 +3527,7 @@
       "best_total_price": 44.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 728.0,
+      "amount_per_serving": 728,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3559,7 +3559,7 @@
       "best_total_price": 44.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 728.0,
+      "amount_per_serving": 728,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3599,7 +3599,7 @@
       "best_total_price": 44.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 710.0,
+      "amount_per_serving": 710,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3619,7 +3619,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 907 g"
     },
     {
       "id": "308424_optimum nutrition_calories_120.0_calorie_standard",
@@ -3634,14 +3635,14 @@
       "best_total_price": 104.68,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 120.0,
+      "amount_per_serving": 120,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 104.68,
           "price_per_unit": 0.8723333333333334,
           "product_url": "https://www.iherb.com/pr/optimum-nutrition-gold-standard-100-casein-chocolate-peanut-butter-3-97-lb-1-8-kg/27529",
-          "product_name": "Optimum Nutrition, Gold Standard\u00ae 100% Casein, Chocolate Peanut Butter, 3.97 lb (1.8 kg)",
+          "product_name": "Optimum Nutrition, Gold Standard® 100% Casein, Chocolate Peanut Butter, 3.97 lb (1.8 kg)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02628/u/25.jpg",
           "rating": null,
           "reviews": null

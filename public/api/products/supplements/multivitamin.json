@@ -3530,7 +3530,7 @@
       "best_total_price": 6.59,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3547,7 +3547,7 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "250011_vitafusion_added sugars_3000.0_mg_standard",
@@ -3562,7 +3562,7 @@
       "best_total_price": 13.39,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3581,7 +3581,7 @@
         "dairy_free",
         "no_artificial_flavors"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "303418_zarbee's_added sugars_4000.0_mg_standard",
@@ -3596,7 +3596,7 @@
       "best_total_price": 19.29,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3611,7 +3611,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "302634_centrum_added sugars_3000.0_mg_standard",
@@ -3626,7 +3626,7 @@
       "best_total_price": 17.03,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3641,7 +3641,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "322967_truheight_added sugars_3000.0_mg_standard",
@@ -3656,7 +3657,7 @@
       "best_total_price": 22.95,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3671,7 +3672,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "319156_nature's plus animal parade_added sugars_2000.0_mg_standard",
@@ -3686,7 +3688,7 @@
       "best_total_price": 16.11,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3704,7 +3706,7 @@
         "gluten_free",
         "sugar_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "228156_gaspari nutrition_beta-alanine_1600.0_mg_chelated",
@@ -3719,14 +3721,14 @@
       "best_total_price": 36.99,
       "unit": "mg",
       "primary_ingredient": "Beta-Alanine",
-      "amount_per_serving": 1600.0,
+      "amount_per_serving": 1600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 36.99,
           "price_per_unit": 0.02311875,
           "product_url": "https://www.iherb.com/pr/gaspari-nutrition-anavite-the-ultimate-performance-multi-vitamin-180-tablets/30537",
-          "product_name": "Gaspari Nutrition, ANAVITE\u00ae, The Ultimate Performance Multi-Vitamin, 180 Tablets",
+          "product_name": "Gaspari Nutrition, ANAVITE®, The Ultimate Performance Multi-Vitamin, 180 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gsn/gsn00698/u/46.jpg",
           "rating": null,
           "reviews": null
@@ -3736,7 +3738,8 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "322962_truheight_calcium_300.0_mg_standard",
@@ -3751,7 +3754,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3766,7 +3769,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "327183_dr. mercola_choline_550.0_mg_standard",
@@ -3781,7 +3784,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Choline",
-      "amount_per_serving": 550.0,
+      "amount_per_serving": 550,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3796,7 +3799,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "300 Tablet(s)"
     },
     {
       "id": "24577_innate response formulas_bioactive enzymes & proteins_534.0_mg_standard",
@@ -3811,7 +3815,7 @@
       "best_total_price": 41.99,
       "unit": "mg",
       "primary_ingredient": "Bioactive Enzymes & Proteins",
-      "amount_per_serving": 534.0,
+      "amount_per_serving": 534,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3828,7 +3832,7 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "11562_21st century_calcium_200.0_mg_standard",
@@ -3843,7 +3847,7 @@
       "best_total_price": 22.94,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3860,7 +3864,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "259170_futurebiotics_beta-sitosterol complex_210.0_mg_standard",
@@ -3875,14 +3880,14 @@
       "best_total_price": 25.47,
       "unit": "mg",
       "primary_ingredient": "Beta-Sitosterol Complex",
-      "amount_per_serving": 210.0,
+      "amount_per_serving": 210,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 25.47,
           "price_per_unit": 0.12128571428571427,
           "product_url": "https://www.iherb.com/pr/futurebiotics-pressur-lo-multi-vitamin-mineral-herb-formula-270-tablets/4317",
-          "product_name": "Futurebiotics, Pressur-Lo\u00ae, Multi Vitamin, Mineral & Herb Formula, 270 Tablets",
+          "product_name": "Futurebiotics, Pressur-Lo®, Multi Vitamin, Mineral & Herb Formula, 270 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/fbs/fbs20701/u/55.jpg",
           "rating": null,
           "reviews": null
@@ -3890,7 +3895,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "270 Tablet(s)"
     },
     {
       "id": "27558_metagenics_betaine hcl_325.0_mg_standard",
@@ -3905,14 +3911,14 @@
       "best_total_price": 60.23,
       "unit": "mg",
       "primary_ingredient": "Betaine HCl",
-      "amount_per_serving": 325.0,
+      "amount_per_serving": 325,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 60.23,
           "price_per_unit": 0.18532307692307692,
           "product_url": "https://www.iherb.com/pr/metagenics-multigenics-multivitamin-180-tablets/20577",
-          "product_name": "Metagenics, Multigenics\u00ae Multivitamin, 180 Tablets",
+          "product_name": "Metagenics, Multigenics® Multivitamin, 180 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mtg/mtg02451/u/57.jpg",
           "rating": null,
           "reviews": null
@@ -3920,7 +3926,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "33854_vitanica_bioflavonoids_200.0_mg_standard",
@@ -3935,7 +3942,7 @@
       "best_total_price": 46.99,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3953,7 +3960,7 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "73619_floradix_calcium_100.0_mg_standard",
@@ -3968,7 +3975,7 @@
       "best_total_price": 26.09,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3987,7 +3994,7 @@
         "kosher",
         "alcohol_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "207683_vitacost_alpha-lipoic acid_50.0_mg_sustained_release",
@@ -4002,7 +4009,7 @@
       "best_total_price": 13.49,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4019,7 +4026,7 @@
       "filters": [
         "sustained_release"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "306358_nutricost_calcium_50.0_mg_standard",
@@ -4034,7 +4041,7 @@
       "best_total_price": 13.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4062,7 +4069,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "3173_bayer one a day_chloride_34.0_mg_standard",
@@ -4077,7 +4085,7 @@
       "best_total_price": 11.19,
       "unit": "mg",
       "primary_ingredient": "Chloride",
-      "amount_per_serving": 34.0,
+      "amount_per_serving": 34,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4092,7 +4100,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "336424_mason natural_alpha-lipoic acid_50.0_mg_standard",
@@ -4107,7 +4116,7 @@
       "best_total_price": 16.99,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4122,7 +4131,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "298741_kaged_activaloe_100.0_mg_standard",
@@ -4137,7 +4146,7 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "ACTIValoe",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Bodybuilding.com",
@@ -4152,7 +4161,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "298741_kaged_activaloe_100.0_mg_standard",
@@ -4167,7 +4176,7 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "ACTIValoe",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4182,7 +4191,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "246595_pure synergy_acacia_165.0_mg_standard",
@@ -4197,14 +4207,14 @@
       "best_total_price": 60.91,
       "unit": "mg",
       "primary_ingredient": "Acacia",
-      "amount_per_serving": 165.0,
+      "amount_per_serving": 165,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 60.91,
           "price_per_unit": 0.3691515151515151,
           "product_url": "https://www.iherb.com/pr/pure-synergy-vita-min-herb-men-s-multivitamin-120-tablets/63755",
-          "product_name": "Pure Synergy, Vita-Min-Herb\u00ae, Men's Multivitamin, 120 Tablets",
+          "product_name": "Pure Synergy, Vita-Min-Herb®, Men's Multivitamin, 120 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/syn/syn00430/u/111.jpg",
           "rating": null,
           "reviews": null
@@ -4226,7 +4236,8 @@
         "non_gmo",
         "fermented"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "282412_bodybuilding.com signature_alpha lipoic acid_50.0_mg_standard",
@@ -4241,7 +4252,7 @@
       "best_total_price": 20.99,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Bodybuilding.com",
@@ -4256,7 +4267,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "325593_peach perfect_d-chiro inositol_50.0_mg_standard",
@@ -4271,7 +4282,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "D-Chiro Inositol",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -4286,7 +4297,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "302152_evlution nutrition_alpha-lipoic acid_20.0_mg_standard",
@@ -4301,7 +4312,7 @@
       "best_total_price": 15.29,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4326,7 +4337,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -4341,7 +4353,7 @@
       "best_total_price": 24.95,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4356,7 +4368,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "322160_davinci laboratories_alpha-lipoic acid_50.0_mg_standard",
@@ -4371,7 +4383,7 @@
       "best_total_price": 43.82,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4389,7 +4401,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "278011_pure encapsulations_alpha lipoic acid_50.0_mg_sustained_release",
@@ -4404,7 +4417,7 @@
       "best_total_price": 45.2,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4421,7 +4434,8 @@
       "filters": [
         "sustained_release"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "249899_bioschwartz_alpha lipoic acid_15.0_mg_standard",
@@ -4436,7 +4450,7 @@
       "best_total_price": 16.97,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4451,7 +4465,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "249898_bioschwartz_alpha lipoic acid_15.0_mg_standard",
@@ -4466,7 +4481,7 @@
       "best_total_price": 17.97,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4481,7 +4496,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "308028_country farms_calcium_25.0_mg_standard",
@@ -4496,7 +4512,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4511,7 +4527,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "32 fl. oz."
     },
     {
       "id": "232859_dr. mercola_apple pectin_50.0_mg_chelated",
@@ -4526,7 +4543,7 @@
       "best_total_price": 59.99,
       "unit": "mg",
       "primary_ingredient": "Apple Pectin",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4545,7 +4562,8 @@
         "soy_free",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Tablet(s)"
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -4560,7 +4578,7 @@
       "best_total_price": 39.95,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4575,7 +4593,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "296320_solaray_alpha lipoic acid_20.0_mg_standard",
@@ -4590,7 +4608,7 @@
       "best_total_price": 27.69,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4605,7 +4623,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "334082_gnc mega men_alpha lipoic acid_25.0_mg_standard",
@@ -4620,14 +4639,14 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 34.99,
           "price_per_unit": 1.3996000000000002,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=206712&source=productlist",
-          "product_name": "GNC Mega Men\u00ae\nSport Multivitamin - 90 Caplets (45 Servings)",
+          "product_name": "GNC Mega Men®\nSport Multivitamin - 90 Caplets (45 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4639,7 +4658,8 @@
         "dairy_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Caplet(s)"
     },
     {
       "id": "781_gnc mega men_alpha-lipoic acid_25.0_mg_standard",
@@ -4654,14 +4674,14 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 34.99,
           "price_per_unit": 1.3996000000000002,
           "product_url": "https://www.gnc.com/multivitamins-for-men/206221.html",
-          "product_name": "GNC Mega Men\u00ae\nEnergy & Metabolism Multivitamin - 90 Caplets (45 Servings)",
+          "product_name": "GNC Mega Men®\nEnergy & Metabolism Multivitamin - 90 Caplets (45 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4675,7 +4695,8 @@
         "yeast_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Caplet(s)"
     },
     {
       "id": "179598_nature made kids first_calories_10.0_calorie_standard",
@@ -4690,7 +4711,7 @@
       "best_total_price": 14.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4708,7 +4729,7 @@
         "gluten_free",
         "yeast_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -4723,7 +4744,7 @@
       "best_total_price": 44.95,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4738,7 +4759,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "278010_pure encapsulations_alpha lipoic acid_50.0_mg_sustained_release",
@@ -4750,14 +4771,14 @@
       "dsld_brand": "Pure Encapsulations",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-O-N-E-Multivitamin-766298017136.jpg",
       "best_price_per_unit": 1.72,
-      "best_total_price": 86.0,
+      "best_total_price": 86,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 86.0,
+          "price": 86,
           "price_per_unit": 1.72,
           "product_url": "https://www.vitacost.com/pure-encapsulations-o-n-e-multivitamin-120-capsules",
           "product_name": "Pure Encapsulations O.N.E. Multivitamin -- 120 Capsules",
@@ -4770,7 +4791,8 @@
       "filters": [
         "sustained_release"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "81927_gnc women's_apple fruit extract_10.0_mg_standard",
@@ -4785,7 +4807,7 @@
       "best_total_price": 17.99,
       "unit": "mg",
       "primary_ingredient": "Apple Fruit Extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -4805,7 +4827,8 @@
         "wheat_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Caplet(s)"
     },
     {
       "id": "248860_country life_betaine_15.2_mg_standard",
@@ -4840,7 +4863,7 @@
         "kosher",
         "gluten_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "288168_optimum nutrition_alpha lipoic acid_25.0_mg_standard",
@@ -4855,7 +4878,7 @@
       "best_total_price": 46.99,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4870,7 +4893,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "331658_gnc mega men_alpha-lipoic acid_25.0_mg_standard",
@@ -4885,14 +4908,14 @@
       "best_total_price": 47.99,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 47.99,
           "price_per_unit": 1.9196,
           "product_url": "https://www.gnc.com/multivitamins-for-men/206231.html",
-          "product_name": "GNC Mega Men\u00ae\nEnergy & Metabolism Multivitamin - 180 Caplets (90 Servings)",
+          "product_name": "GNC Mega Men®\nEnergy & Metabolism Multivitamin - 180 Caplets (90 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4904,7 +4927,8 @@
         "dairy_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Caplet(s)"
     },
     {
       "id": "229043_gnc women's_alpha-lipoic acid_25.0_mg_standard",
@@ -4919,7 +4943,7 @@
       "best_total_price": 47.99,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -4939,7 +4963,8 @@
         "wheat_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Caplet(s)"
     },
     {
       "id": "315330_gnc women's_alpha-lipoic acid_25.0_mg_standard",
@@ -4954,7 +4979,7 @@
       "best_total_price": 47.99,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -4969,7 +4994,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Caplet(s)"
     },
     {
       "id": "36674_thompson_calories_5.0_calorie_standard",
@@ -4984,7 +5010,7 @@
       "best_total_price": 12.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4999,7 +5025,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "33133_force factor_alpha lipoic acid_5.0_mg_standard",
@@ -5014,7 +5040,7 @@
       "best_total_price": 12.99,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5039,7 +5065,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "322693_seeking health_alpha-lipoic acid_25.0_mg_standard",
@@ -5051,14 +5078,14 @@
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52094/u/24.jpg",
       "best_price_per_unit": 3.04,
-      "best_total_price": 76.0,
+      "best_total_price": 76,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 76.0,
+          "price": 76,
           "price_per_unit": 3.04,
           "product_url": "https://www.iherb.com/pr/seeking-health-optimal-multivitamin-240-capsules/122656",
           "product_name": "Seeking Health, Optimal Multivitamin, 240 Capsules",
@@ -5069,7 +5096,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Capsule(s)"
     },
     {
       "id": "255089_solaray_acerola cherry_10.0_mg_standard",
@@ -5084,7 +5112,7 @@
       "best_total_price": 33.99,
       "unit": "mg",
       "primary_ingredient": "Acerola Cherry",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5099,7 +5127,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.5
+      "match_score": 96.5,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "326157_solaray_bioflavonoids concentrate_5.0_mg_standard",
@@ -5114,7 +5143,7 @@
       "best_total_price": 17.29,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids Concentrate",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5139,7 +5168,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "178154_nugenix_alpha lipoic acid_10.0_mg_standard",
@@ -5154,14 +5184,14 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 49.99,
           "price_per_unit": 4.9990000000000006,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=452393&source=productlist",
-          "product_name": "Nugenix\u00ae\nMen's Testosterone Multivitamin - 60 Tablets (30 Servings)",
+          "product_name": "Nugenix®\nMen's Testosterone Multivitamin - 60 Tablets (30 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -5169,7 +5199,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "251018_nature's plus source of life_amylase_5.0_mg_standard",
@@ -5184,7 +5215,7 @@
       "best_total_price": 45.01,
       "unit": "mg",
       "primary_ingredient": "Amylase",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5202,7 +5233,7 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "304038_davinci laboratories_a proprietary blend of vegetarian enzymes_8.0_mg_standard",
@@ -5217,14 +5248,14 @@
       "best_total_price": 79.52,
       "unit": "mg",
       "primary_ingredient": "A Proprietary Blend of Vegetarian Enzymes",
-      "amount_per_serving": 8.0,
+      "amount_per_serving": 8,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 79.52,
           "price_per_unit": 9.94,
           "product_url": "https://www.vitacost.com/davinci-laboratories-spectra-multivitamins-for-adults-240-tablets-1",
-          "product_name": "DaVinci Laboratories Spectra\u2122 Multivitamins for Adults --...",
+          "product_name": "DaVinci Laboratories Spectra™ Multivitamins for Adults --...",
           "image_url": "https://www.vitacost.com/Images/Products/200/DaVinci-Laboratories/DaVinci-Laboratories-Spectra-Multivitamins-for-Adults-026664013415.jpg",
           "rating": null,
           "reviews": null
@@ -5232,7 +5263,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "278304_pure encapsulations_benfopure benfotiamine_3.0_mg_standard",
@@ -5247,7 +5278,7 @@
       "best_total_price": 42.8,
       "unit": "mg",
       "primary_ingredient": "BenfoPure Benfotiamine",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5264,7 +5295,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "276376_deva_acerola fruit extract_0.5_mg_standard",
@@ -5297,7 +5329,7 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 85.0
+      "match_score": 85
     },
     {
       "id": "259132_futurebiotics_biotin_0.3_mg_standard",
@@ -5319,7 +5351,7 @@
           "price": 7.99,
           "price_per_unit": 26.633333333333336,
           "product_url": "https://www.vitacost.com/futurebiotics-m-v-teen-multivitamin",
-          "product_name": "Futurebiotics M.V. Teen\u2122 Multivitamin -- 90 Capsules",
+          "product_name": "Futurebiotics M.V. Teen™ Multivitamin -- 90 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Futurebiotics/Futurebiotics-M-V-Teen-Multivitamin-049479207268.jpg",
           "rating": null,
           "reviews": null
@@ -5327,7 +5359,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "326094_solaray_biotin_1.0_mg_standard",
@@ -5342,7 +5375,7 @@
       "best_total_price": 27.39,
       "unit": "mg",
       "primary_ingredient": "Biotin",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5357,7 +5390,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.0
+      "match_score": 96,
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "319210_nature's plus_anthocyanosides_1.3_mg_standard",
@@ -5389,7 +5423,7 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "74427_nature's bounty_biotin_0.3_mg_standard",
@@ -5428,7 +5462,7 @@
         "sodium_free",
         "no_artificial_flavors"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "65947_nature's way alive!_biotin_0.3_mg_standard",
@@ -5461,7 +5495,7 @@
         "gluten_free",
         "sugar_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "320576_nature's plus_biotin_0.6_mg_standard",
@@ -5491,7 +5525,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "232699_klean athlete_astaxanthin_1.0_mg_standard",
@@ -5502,16 +5537,16 @@
       "dsld_product_name": "Klean Multivitamin",
       "dsld_brand": "Klean Athlete",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Klean-Athlete/Klean-Athlete-Klean-Multivitamin-NSF-Certified-for-Sport-310539038383.jpg",
-      "best_price_per_unit": 44.0,
-      "best_total_price": 44.0,
+      "best_price_per_unit": 44,
+      "best_total_price": 44,
       "unit": "mg",
       "primary_ingredient": "Astaxanthin",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 44.0,
-          "price_per_unit": 44.0,
+          "price": 44,
+          "price_per_unit": 44,
           "product_url": "https://www.vitacost.com/klean-athlete-klean-multivitamin-nsf-certified-for-sport",
           "product_name": "Klean Athlete Klean Multivitamin - NSF Certified for Spor...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Klean-Athlete/Klean-Athlete-Klean-Multivitamin-NSF-Certified-for-Sport-310539038383.jpg",
@@ -5524,7 +5559,7 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "65870_nature's way alive!_biotin_0.3_mg_standard",
@@ -5557,7 +5592,7 @@
         "gluten_free",
         "sugar_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "323711_ritual_boron_0.7_mg_standard",
@@ -5587,7 +5622,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegan Capsule(s)"
     },
     {
       "id": "43946_megafood_biotin_0.3_mg_standard",
@@ -5619,7 +5655,7 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "317536_momentous_benfotiamine_1.0_mg_standard",
@@ -5634,7 +5670,7 @@
       "best_total_price": 54.95,
       "unit": "mg",
       "primary_ingredient": "Benfotiamine",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5649,7 +5685,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "303360_mh michael's health naturopathic programs_biotin_0.4_mg_standard",
@@ -5692,16 +5728,16 @@
       "dsld_product_name": "Multivitamin One",
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Multivitamin-One-Sensitive-810007520957.jpg",
-      "best_price_per_unit": 70.0,
-      "best_total_price": 35.0,
+      "best_price_per_unit": 70,
+      "best_total_price": 35,
       "unit": "mg",
       "primary_ingredient": "Biotin",
       "amount_per_serving": 0.5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 35.0,
-          "price_per_unit": 70.0,
+          "price": 35,
+          "price_per_unit": 70,
           "product_url": "https://www.vitacost.com/seeking-health-multivitamin-one-sensitive",
           "product_name": "Seeking Health Multivitamin One Sensitive -- 45 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Multivitamin-One-Sensitive-810007520957.jpg",
@@ -5711,7 +5747,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "45 Capsule(s)"
     },
     {
       "id": "250105_dr. mercola_biotin_0.3_mg_standard",
@@ -5741,7 +5778,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95.3
+      "match_score": 95.3,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "62260_megafood_biotin_0.3_mg_standard",
@@ -5776,7 +5814,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "298634_nature's plus_biotin_0.6_mg_standard",
@@ -5809,7 +5848,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "303353_mh michael's health naturopathic programs_biotin_0.375_mg_standard",
@@ -5842,7 +5882,8 @@
         "kosher",
         "organic"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "62068_megafood_biotin_0.3_mg_standard",
@@ -5878,7 +5919,7 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "62260_megafood_biotin_0.3_mg_standard",
@@ -5913,7 +5954,7 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "62275_megafood_biotin_0.3_mg_standard",
@@ -5959,7 +6000,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "303364_mh michael's health naturopathic programs_biotin_0.2_mg_standard",
@@ -6021,7 +6063,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "265239_carlson laboratories_biotin_0.3_mg_standard",
@@ -6053,7 +6096,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "335375_codeage_biotin_0.3_mg_standard",
@@ -6083,7 +6127,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "274073_metabolic maintenance_biotin_0.3_mg_standard",
@@ -6115,7 +6159,8 @@
       "filters": [
         "egg_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "253194_nature's bounty_biotin_0.075_mg_standard",
@@ -6145,7 +6190,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "208490_controlled labs_biotin_0.3_mg_standard",
@@ -6167,7 +6212,7 @@
           "price": 38.92,
           "price_per_unit": 129.73333333333335,
           "product_url": "https://www.iherb.com/pr/controlled-labs-orange-triad-multi-vitamin-joint-digestion-immune-formula-270-tablets/24674",
-          "product_name": "Controlled Labs, Orange Triad\u2122, Multi-Vitamin, Joint, Digestion & Immune Formula, 270 Tablets",
+          "product_name": "Controlled Labs, Orange Triad™, Multi-Vitamin, Joint, Digestion & Immune Formula, 270 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/col/col00140/u/47.jpg",
           "rating": null,
           "reviews": null
@@ -6175,7 +6220,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "270 Tablet(s)"
     },
     {
       "id": "305789_ancient nutrition_biotin_0.2813_mg_standard",
@@ -6205,7 +6251,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "292644_havasu nutrition_biotin_0.15_mg_standard",
@@ -6235,7 +6282,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "265727_carlson laboratories_biotin_0.15_mg_standard",
@@ -6267,7 +6314,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "267946_innate response formulas_biotin_0.3_mg_standard",
@@ -6304,7 +6352,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "62934_megafood_biotin_0.2_mg_standard",
@@ -6340,7 +6389,7 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "62413_megafood_biotin_0.3_mg_standard",
@@ -6386,7 +6435,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "62073_megafood_biotin_0.3_mg_standard",
@@ -6422,7 +6472,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "311390_rainbow light_biotin_0.2_mg_standard",
@@ -6430,7 +6481,7 @@
       "supplement_category": "multivitamin",
       "variant_key": "rainbow light_biotin_0.2_mg_standard",
       "brand": "Rainbow Light",
-      "dsld_product_name": "Men\u2019s Multivitamin for Performance Energy",
+      "dsld_product_name": "Men’s Multivitamin for Performance Energy",
       "dsld_brand": "Rainbow Light",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Rainbow-Light/Rainbow-Light-Performance-Energy-Multivitamin-for-Men-021888106936.jpg",
       "best_price_per_unit": 161.45,
@@ -6444,7 +6495,7 @@
           "price": 32.29,
           "price_per_unit": 161.45,
           "product_url": "https://www.vitacost.com/rainbow-light-performance-energy-multivitamin-for-men-90-tablets",
-          "product_name": "Rainbow Light Performance Energy\u2122 Multivitamin for Men --...",
+          "product_name": "Rainbow Light Performance Energy™ Multivitamin for Men --...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Rainbow-Light/Rainbow-Light-Performance-Energy-Multivitamin-for-Men-021888106936.jpg",
           "rating": null,
           "reviews": null
@@ -6482,7 +6533,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 97.1
+      "match_score": 97.1,
+      "dsld_content": "240 Vegetarian Capsule(s)"
     },
     {
       "id": "328833_thorne_beta-carotene_0.45_mg_standard",
@@ -6494,14 +6546,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/thr/thr00653/u/82.jpg",
       "best_price_per_unit": 171.11111111111111,
-      "best_total_price": 77.0,
+      "best_total_price": 77,
       "unit": "mg",
       "primary_ingredient": "Beta-Carotene",
       "amount_per_serving": 0.45,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 77.0,
+          "price": 77,
           "price_per_unit": 171.11111111111111,
           "product_url": "https://www.iherb.com/pr/thorne-multi-vitamin-elite-a-m-p-m-2-bottles-90-capsules-each/71156",
           "product_name": "Thorne, Multi-Vitamin Elite, A.M. & P.M., 2 Bottles, 90 Capsules Each",
@@ -6512,7 +6564,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "327571_megafood_biotin_0.3_mg_standard",
@@ -6542,7 +6595,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "82684_new chapter_biotin_0.3_mg_standard",
@@ -6578,7 +6632,7 @@
         "non_gmo",
         "fermented"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "276483_deva_biotin_0.03_mg_standard",
@@ -6621,7 +6675,8 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 95.0
+      "match_score": 95,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "6776_vital nutrients_biotin_0.2_mg_standard",
@@ -6651,7 +6706,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "311382_rainbow light_biotin_0.05_mg_standard",
@@ -6683,7 +6739,7 @@
           "price": 17.99,
           "price_per_unit": 359.79999999999995,
           "product_url": "https://www.iherb.com/pr/rainbow-light-women-s-one-daily-multivitamin-high-potency-60-vegetarian-tablets/107923",
-          "product_name": "Rainbow Light, Women's One\u2122 Daily Multivitamin, High Potency, 60 Vegetarian Tablets",
+          "product_name": "Rainbow Light, Women's One™ Daily Multivitamin, High Potency, 60 Vegetarian Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rlt/rlt21703/u/70.jpg",
           "rating": null,
           "reviews": null
@@ -6691,7 +6747,7 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "306609_nature's truth_biotin_0.03_mg_standard",
@@ -6702,7 +6758,7 @@
       "dsld_product_name": "ABC Complete",
       "dsld_brand": "Nature's Truth",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth10611/u/8.jpg",
-      "best_price_per_unit": 215.0,
+      "best_price_per_unit": 215,
       "best_total_price": 6.45,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -6711,7 +6767,7 @@
         {
           "retailer": "iHerb",
           "price": 6.45,
-          "price_per_unit": 215.0,
+          "price_per_unit": 215,
           "product_url": "https://www.iherb.com/pr/nature-s-truth-abc-complete-multivitamin-100-coated-caplets/141913",
           "product_name": "Nature's Truth, ABC Complete Multivitamin, 100 Coated Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nth/nth10611/u/8.jpg",
@@ -6721,7 +6777,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "265662_carlson laboratories_biotin_0.3_mg_standard",
@@ -6753,7 +6809,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "208141_innate response formulas_biotin_0.3_mg_standard",
@@ -6870,7 +6927,8 @@
         "gluten_free",
         "soy_free"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "209314_carlson laboratories_biotin_0.3_mg_standard",
@@ -6902,7 +6960,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "253194_nature's bounty_biotin_0.075_mg_standard",
@@ -6932,7 +6991,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Caplet(s)"
     },
     {
       "id": "245732_swolverine_biotin_0.045_mg_standard",
@@ -6966,7 +7026,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "274045_new chapter_biotin_0.06_mg_standard",
@@ -7023,7 +7084,7 @@
           "price": 34.69,
           "price_per_unit": 346.9,
           "product_url": "https://www.vitacost.com/kal-enhanced-energy-whole-food-multivitamin",
-          "product_name": "Kal Enhanced Energy\u00ae Whole Food Multivitamin Mango Pineap...",
+          "product_name": "Kal Enhanced Energy® Whole Food Multivitamin Mango Pineap...",
           "image_url": "https://www.vitacost.com/Images/Products/200/KAL/Kal-Enhanced-Energy-Whole-Food-Multivitamin-Mango-Pineapple-021245551195.jpg",
           "rating": null,
           "reviews": null
@@ -7066,7 +7127,8 @@
         "kosher",
         "organic"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "269938_bayer one a day_biotin_0.03_mg_standard",
@@ -7098,7 +7160,8 @@
       "filters": [
         "no_artificial_sweeteners"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "150 Tablet(s)"
     },
     {
       "id": "266764_bayer one a day_biotin_0.03_mg_standard",
@@ -7130,7 +7193,8 @@
       "filters": [
         "no_artificial_sweeteners"
       ],
-      "match_score": 99.1
+      "match_score": 99.1,
+      "dsld_content": "65 Tablet(s)"
     },
     {
       "id": "270560_bayer one a day_biotin_0.03_mg_standard",
@@ -7160,7 +7224,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "240456_bayer one a day_biotin_0.03_mg_standard",
@@ -7192,7 +7257,8 @@
       "filters": [
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "160 Tablet(s)"
     },
     {
       "id": "242529_nature's way_biotin_0.033_mg_standard",
@@ -7244,7 +7310,7 @@
           "price": 46.95,
           "price_per_unit": 469.5,
           "product_url": "https://www.vitacost.com/vitanica-maternal-symmetry-ob-multivitamin-180-vegetarian-capsules-1",
-          "product_name": "Vitanica Maternal Symmetry\u2122 OB Multivitamin -- 180 Vegeta...",
+          "product_name": "Vitanica Maternal Symmetry™ OB Multivitamin -- 180 Vegeta...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Vitanica/Vitanica-Maternal-Symmetry-OB-Multivitamin-708118020957.jpg",
           "rating": null,
           "reviews": null
@@ -7255,7 +7321,8 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Veg Capsule(s)"
     },
     {
       "id": "239352_an amazing nutrition amazing formulas_biotin_0.03_mg_standard",
@@ -7277,7 +7344,7 @@
           "price": 14.99,
           "price_per_unit": 499.6666666666667,
           "product_url": "https://www.vitacost.com/amazing-nutrition-amazing-formulas-daily-multivitamin",
-          "product_name": "Amazing Nutrition Amazing Formulas\u00a0Daily Multivitamin -- ...",
+          "product_name": "Amazing Nutrition Amazing Formulas Daily Multivitamin -- ...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Amazing-Nutrition/Amazing-Nutrition-Amazing-Formulas-Daily-Multivitamin-819209026861.jpg",
           "rating": null,
           "reviews": null
@@ -7285,7 +7352,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "311391_rainbow light_biotin_0.035_mg_standard",
@@ -7317,7 +7384,7 @@
           "price": 40.79,
           "price_per_unit": 1165.4285714285713,
           "product_url": "https://www.iherb.com/pr/rainbow-light-prenatal-one-daily-multivitamin-high-potency-150-vegan-tablets/14369",
-          "product_name": "Rainbow Light, Prenatal One\u2122 Daily Multivitamin, High Potency, 150 Vegan Tablets",
+          "product_name": "Rainbow Light, Prenatal One™ Daily Multivitamin, High Potency, 150 Vegan Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/rlt/rlt10976/u/114.jpg",
           "rating": null,
           "reviews": null
@@ -7325,7 +7392,7 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "331222_naturelo_biotin_0.045_mg_standard",
@@ -7355,7 +7422,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 99.6
+      "match_score": 99.6,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "240432_bayer one a day_biotin_0.043000000000000003_mg_standard",
@@ -7387,7 +7455,8 @@
       "filters": [
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "200 Tablet(s)"
     },
     {
       "id": "303354_mh michael's health naturopathic programs_biotin_0.04_mg_standard",
@@ -7419,7 +7488,8 @@
       "filters": [
         "kosher"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "255711_new chapter_biotin_0.035_mg_standard",
@@ -7465,7 +7535,7 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "204797_centrum_biotin_0.04_mg_standard",
@@ -7498,7 +7568,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "200 Tablet(s)"
     },
     {
       "id": "75039_gnc mega men_biotin_0.03_mg_standard",
@@ -7520,7 +7591,7 @@
           "price": 19.99,
           "price_per_unit": 666.3333333333333,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=571103&source=productlist",
-          "product_name": "GNC Mega Men\u00ae\nMega Men\u00ae Gummy Multivitamin - Mixed Berry - 120 Gummies (60 Servings)",
+          "product_name": "GNC Mega Men®\nMega Men® Gummy Multivitamin - Mixed Berry - 120 Gummies (60 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -7534,7 +7605,8 @@
         "egg_free",
         "nut_free"
       ],
-      "match_score": 96.9
+      "match_score": 96.9,
+      "dsld_content": "120 Gummie(s)"
     },
     {
       "id": "779_gnc mega men_astaxanthin_0.05_mg_standard",
@@ -7556,7 +7628,7 @@
           "price": 34.99,
           "price_per_unit": 699.8,
           "product_url": "https://www.gnc.com/multivitamins-for-men/206312.html",
-          "product_name": "GNC Mega Men\u00ae\n50 Plus Multivitamin - 60 Caplets (30 Servings)",
+          "product_name": "GNC Mega Men®\n50 Plus Multivitamin - 60 Caplets (30 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -7570,7 +7642,8 @@
         "yeast_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Caplet(s)"
     },
     {
       "id": "331219_naturelo_biotin_0.033_mg_standard",
@@ -7610,7 +7683,7 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "251299_megafood_biotin_0.03_mg_standard",
@@ -7621,7 +7694,7 @@
       "dsld_product_name": "One Daily",
       "dsld_brand": "MegaFood",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10103/u/31.jpg",
-      "best_price_per_unit": 733.0,
+      "best_price_per_unit": 733,
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -7630,9 +7703,9 @@
         {
           "retailer": "iHerb",
           "price": 21.99,
-          "price_per_unit": 733.0,
+          "price_per_unit": 733,
           "product_url": "https://www.iherb.com/pr/megafood-women-s-one-daily-multivitamin-30-tablets/42536",
-          "product_name": "MegaFood, Women\u2019s One Daily Multivitamin, 30 Tablets",
+          "product_name": "MegaFood, Women’s One Daily Multivitamin, 30 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10103/u/31.jpg",
           "rating": null,
           "reviews": null
@@ -7647,7 +7720,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "311383_rainbow light_biotin_0.05_mg_standard",
@@ -7669,7 +7743,7 @@
           "price": 38.79,
           "price_per_unit": 775.8,
           "product_url": "https://www.vitacost.com/rainbow-light-mens-one-multivitamin",
-          "product_name": "Rainbow Light Men's One\u2122 Multivitamin -- 150 Tablets",
+          "product_name": "Rainbow Light Men's One™ Multivitamin -- 150 Tablets",
           "image_url": "https://www.vitacost.com/Images/Products/200/Rainbow-Light/Rainbow-Light-Mens-One-Multivitamin-021888108930.jpg",
           "rating": null,
           "reviews": null
@@ -7677,7 +7751,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "150 Tablet(s)"
     },
     {
       "id": "331220_naturelo_biotin_0.03_mg_standard",
@@ -7707,7 +7782,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "333441_codeage_biotin_0.05_mg_standard",
@@ -7737,7 +7812,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "201811_new chapter_biotin_0.035_mg_standard",
@@ -7773,7 +7848,7 @@
         "non_gmo",
         "fermented"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "27160_gnc mega men_astaxanthin_0.05_mg_standard",
@@ -7795,7 +7870,7 @@
           "price": 47.99,
           "price_per_unit": 959.8,
           "product_url": "https://www.gnc.com/multivitamins-for-men/206322.html",
-          "product_name": "GNC Mega Men\u00ae\n50 Plus Multivitamin - 120 Caplets (60 Servings)",
+          "product_name": "GNC Mega Men®\n50 Plus Multivitamin - 120 Caplets (60 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -7809,7 +7884,8 @@
         "yeast_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Caplet(s)"
     },
     {
       "id": "303357_mh michael's health naturopathic programs_biotin_0.04_mg_standard",
@@ -7842,7 +7918,8 @@
         "kosher",
         "organic"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "260750_fairhaven health_biotin_0.035_mg_standard",
@@ -7875,7 +7952,7 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "251294_megafood_biotin_0.03_mg_standard",
@@ -7907,7 +7984,7 @@
           "price": 37.99,
           "price_per_unit": 1266.3333333333335,
           "product_url": "https://www.iherb.com/pr/megafood-women-s-one-daily-multivitamins-60-tablets/42537",
-          "product_name": "MegaFood, Women\u2019s One Daily Multivitamins, 60 Tablets",
+          "product_name": "MegaFood, Women’s One Daily Multivitamins, 60 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mgf/mgf10104/u/29.jpg",
           "rating": null,
           "reviews": null
@@ -7922,7 +7999,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "331221_naturelo_biotin_0.025_mg_standard",
@@ -7952,7 +8030,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "273964_new chapter_biotin_0.015_mg_standard",
@@ -7963,7 +8041,7 @@
       "dsld_product_name": "One Daily Every Man's Multivitamin 40+",
       "dsld_brand": "New Chapter",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Every-Mans-One-Daily-40-Mens-Multivitamin-40-plus-727783003690.jpg",
-      "best_price_per_unit": 1198.0,
+      "best_price_per_unit": 1198,
       "best_total_price": 17.97,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -7972,7 +8050,7 @@
         {
           "retailer": "Vitacost",
           "price": 17.97,
-          "price_per_unit": 1198.0,
+          "price_per_unit": 1198,
           "product_url": "https://www.vitacost.com/new-chapter-every-mans-one-daily-40-mens-multivitamin-40-plus",
           "product_name": "New Chapter Every Man's One Daily 40+ Men's Multivitamin ...",
           "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Every-Mans-One-Daily-40-Mens-Multivitamin-40-plus-727783003690.jpg",
@@ -8033,7 +8111,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "294170_new chapter_biotin_0.035_mg_standard",
@@ -8067,7 +8146,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "192 Tablet(s)"
     },
     {
       "id": "288229_new chapter_biotin_0.03_mg_standard",
@@ -8101,7 +8181,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "253077_new chapter_biotin_0.03_mg_standard",
@@ -8137,7 +8218,8 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "144 Tablet(s)"
     },
     {
       "id": "253125_new chapter_biotin_0.015_mg_standard",
@@ -8173,7 +8255,7 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 90.0
+      "match_score": 90
     },
     {
       "id": "251302_megafood_biotin_0.03_mg_standard",
@@ -8220,7 +8302,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "326093_solaray_biotin_0.01_mg_standard",
@@ -8231,7 +8314,7 @@
       "dsld_product_name": "Once Daily High Energy Multivitamin",
       "dsld_brand": "Solaray",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor04743/u/11.jpg",
-      "best_price_per_unit": 3179.0,
+      "best_price_per_unit": 3179,
       "best_total_price": 31.79,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -8240,7 +8323,7 @@
         {
           "retailer": "iHerb",
           "price": 31.79,
-          "price_per_unit": 3179.0,
+          "price_per_unit": 3179,
           "product_url": "https://www.iherb.com/pr/solaray-twice-daily-multi-energy-multivitamin-120-capsules/24667",
           "product_name": "Solaray, Twice Daily, Multi Energy Multivitamin, 120 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor04743/u/11.jpg",
@@ -8250,7 +8333,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.1
+      "match_score": 96.1,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "326093_solaray_biotin_0.01_mg_standard",
@@ -8261,7 +8345,7 @@
       "dsld_product_name": "Once Daily High Energy Multivitamin",
       "dsld_brand": "Solaray",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-High-Energy-Once-Daily-Multivitamin-076280109016.jpg",
-      "best_price_per_unit": 3729.0,
+      "best_price_per_unit": 3729,
       "best_total_price": 37.29,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -8270,7 +8354,7 @@
         {
           "retailer": "Vitacost",
           "price": 37.29,
-          "price_per_unit": 3729.0,
+          "price_per_unit": 3729,
           "product_url": "https://www.vitacost.com/solaray-high-energy-once-daily-multivitamin",
           "product_name": "Solaray High Energy Once Daily Multivitamin -- 120 VegCaps",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-High-Energy-Once-Daily-Multivitamin-076280109016.jpg",
@@ -8280,7 +8364,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "288195_new chapter_biotin_0.015_mg_standard",
@@ -8314,7 +8399,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "72 Tablet(s)"
     },
     {
       "id": "254380_solaray_biotin_0.01_mg_standard",
@@ -8325,7 +8411,7 @@
       "dsld_product_name": "Once Daily High Energy Multivitamin",
       "dsld_brand": "Solaray",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor47312/u/36.jpg",
-      "best_price_per_unit": 4659.0,
+      "best_price_per_unit": 4659,
       "best_total_price": 46.59,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -8334,7 +8420,7 @@
         {
           "retailer": "iHerb",
           "price": 46.59,
-          "price_per_unit": 4659.0,
+          "price_per_unit": 4659,
           "product_url": "https://www.iherb.com/pr/solaray-once-daily-high-energy-multivitamin-180-vegcaps/70104",
           "product_name": "Solaray, Once Daily High Energy Multivitamin, 180 VegCaps",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor47312/u/36.jpg",
@@ -8344,7 +8430,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Veg Capsule(s)"
     },
     {
       "id": "287255_ancient nutrition_biotin_0.003_mg_standard",
@@ -8374,7 +8461,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90
     }
   ]
 }

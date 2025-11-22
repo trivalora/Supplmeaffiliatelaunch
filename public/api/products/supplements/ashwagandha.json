@@ -3528,7 +3528,7 @@
       "best_total_price": 7.33,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha (Withania somnifera) root powder",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3553,7 +3553,9 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "7 oz.; 200 g",
+      "dsld_content": "7 oz.; 200 g"
     },
     {
       "id": "222784_organic india_proprietary organic blend_2000.0_mg_standard",
@@ -3568,7 +3570,7 @@
       "best_total_price": 5.99,
       "unit": "mg",
       "primary_ingredient": "Proprietary Organic Blend",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3589,7 +3591,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "18 Capsule(s)"
     },
     {
       "id": "312776_pure indian foods_ashwagandha root extract_5000.0_mg_standard",
@@ -3604,7 +3607,7 @@
       "best_total_price": 16.82,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3621,7 +3624,9 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "net_contents": "5.3 oz.; 150 g",
+      "dsld_content": "5.3 oz.; 150 g"
     },
     {
       "id": "309548_gaia herbs_added sugars_4000.0_mg_standard",
@@ -3636,7 +3641,7 @@
       "best_total_price": 14.84,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3653,7 +3658,8 @@
       "filters": [
         "organic"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "45 Gummie(s)"
     },
     {
       "id": "309548_gaia herbs_added sugars_4000.0_mg_standard",
@@ -3668,7 +3674,7 @@
       "best_total_price": 14.84,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3685,7 +3691,8 @@
       "filters": [
         "organic"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "45 Capsule(s)"
     },
     {
       "id": "333642_goli nutrition_added sugars_4000.0_mg_standard",
@@ -3700,7 +3707,7 @@
       "best_total_price": 14.98,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3717,7 +3724,9 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Gummie(s)",
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "277151_phytoral_added sugars_2000.0_mg_standard",
@@ -3732,7 +3741,7 @@
       "best_total_price": 11.77,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3749,7 +3758,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "309549_gaia herbs_added sugars_4000.0_mg_standard",
@@ -3764,7 +3774,7 @@
       "best_total_price": 26.09,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3781,7 +3791,8 @@
       "filters": [
         "organic"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "81 Gummie(s)"
     },
     {
       "id": "228879_happy healthy hippie_organic ashwagandha_2100.0_mg_standard",
@@ -3796,7 +3807,7 @@
       "best_total_price": 14.95,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha",
-      "amount_per_serving": 2100.0,
+      "amount_per_serving": 2100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3816,7 +3827,11 @@
         "organic",
         "non_gmo"
       ],
-      "match_score": 95.5
+      "match_score": 95.5,
+      "dosage": [
+        "2,100 mg"
+      ],
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "254804_bareorganics_organic ashwagandha root powder_3000.0_mg_standard",
@@ -3831,7 +3846,7 @@
       "best_total_price": 23.99,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha root powder",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3864,7 +3879,9 @@
         "non_gmo",
         "raw"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "net_contents": "8 oz.",
+      "dsld_content": "8 oz.; 227 g"
     },
     {
       "id": "321067_swolverine_added sugars_2000.0_mg_standard",
@@ -3879,7 +3896,7 @@
       "best_total_price": 16.59,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3899,7 +3916,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 95.1
+      "match_score": 95.1,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "307919_metabolic nutrition_ashwamax_2205.0_mg_standard",
@@ -3914,7 +3932,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "AshwaMAX",
-      "amount_per_serving": 2205.0,
+      "amount_per_serving": 2205,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3929,7 +3947,9 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "90 Capsule(s)",
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "221676_nutricost_ashwagandha_600.0_mg_standard",
@@ -3944,7 +3964,7 @@
       "best_total_price": 5.7,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3972,7 +3992,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "600 mg"
+      ],
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "256695_micro ingredients_organic ashwagandha powder_2000.0_mg_standard",
@@ -3987,7 +4011,7 @@
       "best_total_price": 21.24,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha powder",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4006,7 +4030,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "300 Softgel(s)"
     },
     {
       "id": "231295_micro ingredients_organic ashwagandha powder_2000.0_mg_standard",
@@ -4021,7 +4046,7 @@
       "best_total_price": 21.24,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha powder",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4040,7 +4065,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "300 Softgel(s)"
     },
     {
       "id": "248616_pure_ashwagandha extract_1800.0_mg_standard",
@@ -4055,7 +4081,7 @@
       "best_total_price": 22.94,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha extract",
-      "amount_per_serving": 1800.0,
+      "amount_per_serving": 1800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4070,7 +4096,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "80 Softgel(s)"
     },
     {
       "id": "300135_organic india_ashwagandha_1700.0_mg_standard",
@@ -4085,7 +4112,7 @@
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 1700.0,
+      "amount_per_serving": 1700,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4113,7 +4140,9 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "net_contents": "16 oz.; 454 g",
+      "dsld_content": "16 oz.; 454 g"
     },
     {
       "id": "175505_oregon's wild harvest_fresh organic ashwagandha_1000.0_mg_standard",
@@ -4128,7 +4157,7 @@
       "best_total_price": 13.46,
       "unit": "mg",
       "primary_ingredient": "fresh organic Ashwagandha",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4147,7 +4176,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1 Capsule(s)"
     },
     {
       "id": "265002_swanson_ashwagandha root extract_450.0_mg_standard",
@@ -4162,7 +4192,7 @@
       "best_total_price": 6.39,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 450.0,
+      "amount_per_serving": 450,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4177,7 +4207,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "450 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "251014_amazing india_ashwagandha extract_500.0_mg_standard",
@@ -4192,7 +4226,7 @@
       "best_total_price": 7.12,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha extract",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4212,7 +4246,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "271954_planetary herbals_ashwagandha_500.0_mg_standard",
@@ -4227,14 +4265,14 @@
       "best_total_price": 7.18,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 7.18,
           "price_per_unit": 0.01436,
           "product_url": "https://www.vitacost.com/planetary-herbals-full-spectrum-ashwagandha-570-mg-60-tablets-1",
-          "product_name": "Planetary Herbals Full Spectrum\u2122 Ashwagandha -- 570 mg - ...",
+          "product_name": "Planetary Herbals Full Spectrum™ Ashwagandha -- 570 mg - ...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Planetary-Herbals/Planetary-Herbals-Full-Spectrum-Ashwagandha-021078105343.jpg",
           "rating": null,
           "reviews": null
@@ -4244,7 +4282,7 @@
           "price": 12.59,
           "price_per_unit": 0.02518,
           "product_url": "https://www.iherb.com/pr/planetary-herbals-full-spectrum-ashwagandha-120-tablets/47962",
-          "product_name": "Planetary Herbals, Full Spectrum\u2122 Ashwagandha, 120 Tablets",
+          "product_name": "Planetary Herbals, Full Spectrum™ Ashwagandha, 120 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ptf/ptf10535/u/80.jpg",
           "rating": null,
           "reviews": null
@@ -4252,7 +4290,10 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 86.9
+      "match_score": 86.9,
+      "dosage": [
+        "570 mg"
+      ]
     },
     {
       "id": "322753_planetary herbals_ashwagandha_500.0_mg_standard",
@@ -4267,14 +4308,14 @@
       "best_total_price": 7.18,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 7.18,
           "price_per_unit": 0.01436,
           "product_url": "https://www.iherb.com/pr/planetary-herbals-full-spectrum-ashwagandha-60-tablets/1510",
-          "product_name": "Planetary Herbals, Full Spectrum\u2122 Ashwagandha, 60 Tablets",
+          "product_name": "Planetary Herbals, Full Spectrum™ Ashwagandha, 60 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ptf/ptf10534/u/28.jpg",
           "rating": null,
           "reviews": null
@@ -4282,7 +4323,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "307430_herb pharm_ashwagandha root (withania somnifera) extract_833.0_mg_standard",
@@ -4297,7 +4339,7 @@
       "best_total_price": 12.22,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha root (Withania somnifera) extract",
-      "amount_per_serving": 833.0,
+      "amount_per_serving": 833,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4314,7 +4356,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "1 fl. oz.; 30 mL"
     },
     {
       "id": "249949_zhou_ashwagandha root extract_1200.0_mg_standard",
@@ -4329,7 +4372,7 @@
       "best_total_price": 18.69,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4348,7 +4391,11 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1200 mg"
+      ],
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "286870_21st century_ashwagandha extract_500.0_mg_standard",
@@ -4363,7 +4410,7 @@
       "best_total_price": 7.79,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Extract",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4378,7 +4425,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "500 mg per Capsule; 500 mg"
+      ],
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "318366_healths harmony_ashwagandha root powder_1350.0_mg_standard",
@@ -4393,7 +4444,7 @@
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha root powder",
-      "amount_per_serving": 1350.0,
+      "amount_per_serving": 1350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4418,7 +4469,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "287211_dr. mercola_ashwagandha; powder_800.0_mg_standard",
@@ -4433,7 +4485,7 @@
       "best_total_price": 13.19,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha; Powder",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4448,7 +4500,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "400 mg per Capsule; 400 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "202061_mason natural_ashwagandha extract_500.0_mg_standard",
@@ -4463,7 +4519,7 @@
       "best_total_price": 9.25,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha extract",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4490,7 +4546,8 @@
       "filters": [
         "soy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "307231_oregon's wild harvest_ashwagandha_1200.0_mg_standard",
@@ -4505,7 +4562,7 @@
       "best_total_price": 22.46,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4523,7 +4580,8 @@
         "organic",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Vegan Capsule(s)"
     },
     {
       "id": "307230_oregon's wild harvest_organic ashwagandha_1200.0_mg_standard",
@@ -4538,7 +4596,7 @@
       "best_total_price": 22.46,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4555,7 +4613,9 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "90 Vegan Capsule(s)",
+      "dsld_content": "90 Vegan Capsule(s)"
     },
     {
       "id": "287211_dr. mercola_ashwagandha; powder_800.0_mg_standard",
@@ -4570,7 +4630,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha; Powder",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4585,7 +4645,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "231423_dr. mercola_organic ashwagandha (withania somnifera) root powder_800.0_mg_standard",
@@ -4600,7 +4661,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha (Withania somnifera) root powder",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4615,7 +4676,9 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Capsule(s)",
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "307428_herb pharm_ashwagandha root (withania somnifera) extract_626.0_mg_standard",
@@ -4630,7 +4693,7 @@
       "best_total_price": 12.22,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha root (Withania somnifera) extract",
-      "amount_per_serving": 626.0,
+      "amount_per_serving": 626,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4647,7 +4710,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "1 fl. oz.; 30 mL"
     },
     {
       "id": "273912_bragg_acetic acid_750.0_mg_standard",
@@ -4662,7 +4726,7 @@
       "best_total_price": 17.79,
       "unit": "mg",
       "primary_ingredient": "Acetic Acid",
-      "amount_per_serving": 750.0,
+      "amount_per_serving": 750,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4702,7 +4766,7 @@
       "best_total_price": 15.89,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha root (Withania somnifera) extract",
-      "amount_per_serving": 626.0,
+      "amount_per_serving": 626,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4729,7 +4793,9 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "1 fl. oz.; 30 mL",
+      "dsld_content": "1 fl. oz.; 30 mL"
     },
     {
       "id": "300133_organic india_ashwagandha_800.0_mg_standard",
@@ -4744,7 +4810,7 @@
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4772,7 +4838,12 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "90 Vegetarian Capsule(s)",
+      "dsld_content": "90 Vegetarian Capsule(s)",
+      "dosage": [
+        "400 mg per Capsule; 400 mg"
+      ]
     },
     {
       "id": "300133_organic india_ashwagandha_800.0_mg_standard",
@@ -4787,7 +4858,7 @@
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4815,7 +4886,9 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "net_contents": "90 Vegetarian Capsule(s)",
+      "dsld_content": "16 oz.; 454 g"
     },
     {
       "id": "323201_oregon's wild harvest_ashwagandha_1200.0_mg_standard",
@@ -4830,7 +4903,7 @@
       "best_total_price": 33.71,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4847,7 +4920,9 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "180 Vegan Capsule(s)",
+      "dsld_content": "180 Vegan Capsule(s)"
     },
     {
       "id": "307440_oregon's wild harvest_organic ashwagandha_1200.0_mg_standard",
@@ -4862,7 +4937,7 @@
       "best_total_price": 33.71,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4879,7 +4954,9 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "180 Vegan Capsule(s)",
+      "dsld_content": "180 Vegan Capsule(s)"
     },
     {
       "id": "287154_ancient nutrition_organic fermented botanical blend_800.0_mg_standard",
@@ -4894,7 +4971,7 @@
       "best_total_price": 25.46,
       "unit": "mg",
       "primary_ingredient": "Organic Fermented Botanical Blend",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4921,7 +4998,9 @@
       "filters": [
         "fermented"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "30 Tablet(s)",
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "258873_ancient nutrition_organic fermented botanical blend_800.0_mg_standard",
@@ -4936,7 +5015,7 @@
       "best_total_price": 25.46,
       "unit": "mg",
       "primary_ingredient": "Organic Fermented Botanical Blend",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4953,7 +5032,9 @@
       "filters": [
         "fermented"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "30 Tablet(s)",
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "327742_naturewise_evolutionary stress support blend_700.0_mg_standard",
@@ -4968,7 +5049,7 @@
       "best_total_price": 22.61,
       "unit": "mg",
       "primary_ingredient": "Evolutionary Stress Support Blend",
-      "amount_per_serving": 700.0,
+      "amount_per_serving": 700,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4986,7 +5067,9 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Vegan Capsule(s)",
+      "dsld_content": "60 Vegan Capsule(s)"
     },
     {
       "id": "270412_oregon's wild harvest_biodynamic & organic ashwagandha_616.0_mg_standard",
@@ -5001,14 +5084,14 @@
       "best_total_price": 20.96,
       "unit": "mg",
       "primary_ingredient": "Biodynamic & organic Ashwagandha",
-      "amount_per_serving": 616.0,
+      "amount_per_serving": 616,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 20.96,
           "price_per_unit": 0.03402597402597403,
           "product_url": "https://www.vitacost.com/oregons-wild-harvest-biodynamic-ashwagandha",
-          "product_name": "Oregon's Wild Harvest Biodynamic\u00ae Ashwagandha -- 2 fl oz",
+          "product_name": "Oregon's Wild Harvest Biodynamic® Ashwagandha -- 2 fl oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Oregons-Wild-Harvest/Oregons-Wild-Harvest-Biodynamic-Ashwagandha-706195173214.jpg",
           "rating": null,
           "reviews": null
@@ -5029,7 +5112,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 fl. oz."
     },
     {
       "id": "307139_oregon's wild harvest_ashwagandha_616.0_mg_standard",
@@ -5044,7 +5128,7 @@
       "best_total_price": 20.96,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 616.0,
+      "amount_per_serving": 616,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5061,7 +5145,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 fl. oz.; 59 mL"
     },
     {
       "id": "326422_protocol for life balance_ashwagandha root extract_450.0_mg_standard",
@@ -5073,14 +5158,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/prt/prt14603/u/24.jpg",
       "best_price_per_unit": 0.03777777777777778,
-      "best_total_price": 17.0,
+      "best_total_price": 17,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 450.0,
+      "amount_per_serving": 450,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 17.0,
+          "price": 17,
           "price_per_unit": 0.03777777777777778,
           "product_url": "https://www.iherb.com/pr/protocol-for-life-balance-ashwagandha-extract-450-mg-90-veg-capsules/120284",
           "product_name": "Protocol for Life Balance, Ashwagandha Extract, 450 mg, 90 Veg Capsules",
@@ -5091,7 +5176,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "450 mg"
+      ],
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "296679_nature's craft_magnesium_500.0_mg_standard",
@@ -5106,7 +5195,7 @@
       "best_total_price": 19.55,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5121,7 +5210,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "300134_organic india_ashwagandha_800.0_mg_standard",
@@ -5136,7 +5226,7 @@
       "best_total_price": 32.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5164,7 +5254,12 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "180 Vegetarian Capsule(s)",
+      "dsld_content": "180 Vegetarian Capsule(s)",
+      "dosage": [
+        "400 mg per Capsule; 400 mg"
+      ]
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -5179,7 +5274,7 @@
       "best_total_price": 8.49,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5196,7 +5291,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Vegan Capsule(s)"
     },
     {
       "id": "253241_new chapter_magnesium_325.0_mg_buffered",
@@ -5211,7 +5307,7 @@
       "best_total_price": 13.89,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 325.0,
+      "amount_per_serving": 325,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5254,7 +5350,12 @@
         "non_gmo",
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "30 Tablet(s)",
+      "dsld_content": "30 Vegan Capsule(s)",
+      "dosage": [
+        "325 mg"
+      ]
     },
     {
       "id": "287210_dr. mercola_organic ashwagandha (withania somnifera) root powder_800.0_mg_standard",
@@ -5269,7 +5370,7 @@
       "best_total_price": 35.19,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha (Withania somnifera) root powder",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5284,7 +5385,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "400 mg per Capsule; 400 mg"
+      ],
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "248190_nutrabio_ksm-66 ashwagandha root extract_600.0_mg_standard",
@@ -5299,14 +5404,14 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "KSM-66 Ashwagandha root extract",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 29.99,
           "price_per_unit": 0.04998333333333333,
           "product_url": "https://www.vitacost.com/nutrabio-ashwagandha-ksm-66",
-          "product_name": "NutraBio Ashwagandha KSM-66\u00ae -- 600 mg - 90 Vegan Capsules",
+          "product_name": "NutraBio Ashwagandha KSM-66® -- 600 mg - 90 Vegan Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/NutraBio/NutraBio-Ashwagandha-KSM-66-649908268763.jpg",
           "rating": null,
           "reviews": null
@@ -5328,7 +5433,11 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "600 mg"
+      ],
+      "dsld_content": "90 Vegan Capsule(s)"
     },
     {
       "id": "248190_nutrabio_ksm-66 ashwagandha root extract_600.0_mg_standard",
@@ -5343,14 +5452,14 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "KSM-66 Ashwagandha root extract",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 29.99,
           "price_per_unit": 0.04998333333333333,
           "product_url": "https://www.iherb.com/pr/nutrabio-ksm-66-ashwagandha-90-capsules/95838",
-          "product_name": "NutraBio, KSM-66\u00ae, Ashwagandha, 90 Capsules",
+          "product_name": "NutraBio, KSM-66®, Ashwagandha, 90 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26876/u/48.jpg",
           "rating": null,
           "reviews": null
@@ -5372,7 +5481,8 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "329337_nutrabio_ksm-66_600.0_mg_standard",
@@ -5387,14 +5497,14 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "KSM-66",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 29.99,
           "price_per_unit": 0.04998333333333333,
           "product_url": "https://www.iherb.com/pr/nutrabio-ksm-66-ashwagandha-90-capsules/95838",
-          "product_name": "NutraBio, KSM-66\u00ae, Ashwagandha, 90 Capsules",
+          "product_name": "NutraBio, KSM-66®, Ashwagandha, 90 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrb/nrb26876/u/48.jpg",
           "rating": null,
           "reviews": null
@@ -5402,7 +5512,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "254505_solaray_ashwagandha root extract_470.0_mg_standard",
@@ -5417,7 +5528,7 @@
       "best_total_price": 23.79,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha root extract",
-      "amount_per_serving": 470.0,
+      "amount_per_serving": 470,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5432,7 +5543,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "470 mg"
+      ],
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "191089_swanson_ksm-66 ashwagandha extract_250.0_mg_standard",
@@ -5447,7 +5562,7 @@
       "best_total_price": 12.79,
       "unit": "mg",
       "primary_ingredient": "KSM-66 Ashwagandha extract",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5462,7 +5577,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 94.0
+      "match_score": 94,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "293891_pure encapsulations_ashwagandha root extract_500.0_mg_standard",
@@ -5477,7 +5596,7 @@
       "best_total_price": 26.2,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5504,7 +5623,12 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "net_contents": "120 Capsule(s)",
+      "dsld_content": "60 Capsule(s)",
+      "dosage": [
+        "500 mg per Capsule; 500 mg"
+      ]
     },
     {
       "id": "282964_himalaya_organic ashwagandha extract_280.0_mg_standard",
@@ -5519,7 +5643,7 @@
       "best_total_price": 15.72,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha extract",
-      "amount_per_serving": 280.0,
+      "amount_per_serving": 280,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5536,7 +5660,8 @@
       "filters": [
         "wheat_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "4 oz."
     },
     {
       "id": "210829_seeking health_ashwagandha extract_420.0_mg_standard",
@@ -5548,14 +5673,14 @@
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Ashwagandha-810007520148.jpg",
       "best_price_per_unit": 0.05952380952380952,
-      "best_total_price": 25.0,
+      "best_total_price": 25,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha extract",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 25.0,
+          "price": 25,
           "price_per_unit": 0.05952380952380952,
           "product_url": "https://www.vitacost.com/seeking-health-ashwagandha",
           "product_name": "Seeking Health Ashwagandha -- 60 Capsules",
@@ -5566,7 +5691,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "174353_seeking health_ashwagandha extract_420.0_mg_standard",
@@ -5578,14 +5704,14 @@
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Ashwagandha-810007520148.jpg",
       "best_price_per_unit": 0.05952380952380952,
-      "best_total_price": 25.0,
+      "best_total_price": 25,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha extract",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 25.0,
+          "price": 25,
           "price_per_unit": 0.05952380952380952,
           "product_url": "https://www.vitacost.com/seeking-health-ashwagandha",
           "product_name": "Seeking Health Ashwagandha -- 60 Capsules",
@@ -5596,7 +5722,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "288816_paradise_organic ashwagandha root extract_250.0_mg_standard",
@@ -5611,7 +5738,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha root extract",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5636,7 +5763,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "250 mg per Capsule; 250 mg"
+      ],
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "307429_herb pharm_ashwagandha root (withania somnifera) extract_626.0_mg_standard",
@@ -5651,7 +5782,7 @@
       "best_total_price": 40.39,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha root (Withania somnifera) extract",
-      "amount_per_serving": 626.0,
+      "amount_per_serving": 626,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5666,7 +5797,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "4 fl. oz."
     },
     {
       "id": "316786_futurebiotics_ashwagandha herb extract_150.0_mg_standard",
@@ -5681,7 +5813,7 @@
       "best_total_price": 9.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Herb Extract",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5696,7 +5828,9 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "100 Vegetarian Capsule(s)",
+      "dsld_content": "100 Vegetarian Capsule(s)"
     },
     {
       "id": "188889_nature's answer_holy basil (ocimum santum) leaf extract_300.0_mg_standard",
@@ -5711,7 +5845,7 @@
       "best_total_price": 20.99,
       "unit": "mg",
       "primary_ingredient": "Holy Basil (Ocimum santum) leaf extract",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5745,7 +5879,7 @@
       "best_total_price": 43.98,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha root (Withania somnifera) extract",
-      "amount_per_serving": 626.0,
+      "amount_per_serving": 626,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5763,7 +5897,9 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "net_contents": "120 mL; 4 fl. oz.",
+      "dsld_content": "120 mL; 4 fl. oz."
     },
     {
       "id": "307555_jarrow formulas_ashwagandha root extract_300.0_mg_standard",
@@ -5778,7 +5914,7 @@
       "best_total_price": 21.09,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5806,7 +5942,11 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "300 mg"
+      ],
+      "dsld_content": "120 Veggie Capsule(s)"
     },
     {
       "id": "202293_terry naturally_proprietary complex_500.0_mg_standard",
@@ -5821,14 +5961,14 @@
       "best_total_price": 35.16,
       "unit": "mg",
       "primary_ingredient": "Proprietary Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 35.16,
           "price_per_unit": 0.07032,
           "product_url": "https://www.vitacost.com/terry-naturally-adaptra-ashwagandha-and-rhodiola",
-          "product_name": "Terry Naturally Adaptra\u00ae Ashwagandha and Rhodiola -- 60 C...",
+          "product_name": "Terry Naturally Adaptra® Ashwagandha and Rhodiola -- 60 C...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Adaptra-Ashwagandha-and-Rhodiola-367703200169.jpg",
           "rating": null,
           "reviews": null
@@ -5854,7 +5994,7 @@
       "best_total_price": 21.49,
       "unit": "mg",
       "primary_ingredient": "Proprietary Herbal Blend",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5874,7 +6014,8 @@
         "gluten_free",
         "wheat_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "256062_himalaya_proprietary herbal blend_300.0_mg_standard",
@@ -5889,7 +6030,7 @@
       "best_total_price": 21.49,
       "unit": "mg",
       "primary_ingredient": "Proprietary Herbal Blend",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5909,7 +6050,8 @@
         "gluten_free",
         "wheat_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "309550_gaia herbs_proprietary extract blend_350.0_mg_standard",
@@ -5924,7 +6066,7 @@
       "best_total_price": 25.19,
       "unit": "mg",
       "primary_ingredient": "Proprietary Extract Blend",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5941,7 +6083,7 @@
           "price": 25.19,
           "price_per_unit": 0.07197142857142858,
           "product_url": "https://www.iherb.com/pr/gaia-herbs-ashwagandha-root-60-liquid-phyto-caps/23832",
-          "product_name": "Gaia Herbs, Ashwagandha Root, 60 Liquid Phyto-Caps\u00ae",
+          "product_name": "Gaia Herbs, Ashwagandha Root, 60 Liquid Phyto-Caps®",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai99752/u/70.jpg",
           "rating": null,
           "reviews": null
@@ -5949,7 +6091,9 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Liquid Phyto-Capsule(s)",
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "293163_new nordic_ashwagandha root extract_300.0_mg_standard",
@@ -5964,7 +6108,7 @@
       "best_total_price": 21.79,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5984,7 +6128,8 @@
         "dairy_free",
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "282966_himalaya_organic ashwagandha extract_280.0_mg_standard",
@@ -5999,7 +6144,7 @@
       "best_total_price": 20.49,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha extract",
-      "amount_per_serving": 280.0,
+      "amount_per_serving": 280,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6026,7 +6171,9 @@
       "filters": [
         "wheat_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Caplet(s)",
+      "dsld_content": "60 Caplet(s)"
     },
     {
       "id": "240622_himalaya_organic ashwagandha extract_280.0_mg_standard",
@@ -6041,7 +6188,7 @@
       "best_total_price": 20.49,
       "unit": "mg",
       "primary_ingredient": "organic Ashwagandha extract",
-      "amount_per_serving": 280.0,
+      "amount_per_serving": 280,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6073,7 +6220,9 @@
         "wheat_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Caplet(s)",
+      "dsld_content": "60 Caplet(s)"
     },
     {
       "id": "288207_new chapter_magnesium_325.0_mg_buffered",
@@ -6085,14 +6234,14 @@
       "dsld_brand": "New Chapter",
       "product_image_url": "",
       "best_price_per_unit": 0.08923076923076922,
-      "best_total_price": 29.0,
+      "best_total_price": 29,
       "unit": "mg",
       "primary_ingredient": "Magnesium",
-      "amount_per_serving": 325.0,
+      "amount_per_serving": 325,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
-          "price": 29.0,
+          "price": 29,
           "price_per_unit": 0.08923076923076922,
           "product_url": "https://supplementwarehouse.com/products/nch-magnesium-ashwagandha-60t/?expa_m=search&expa_st=ashwagandha",
           "product_name": "New Chapter Magnesium + Ashwagandha 60 Tabs",
@@ -6110,7 +6259,9 @@
         "non_gmo",
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Tablet(s)",
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "296184_paradise_ashwagandha root extract_250.0_mg_standard",
@@ -6125,7 +6276,7 @@
       "best_total_price": 22.51,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6140,7 +6291,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "180 Vegetarian Capsule(s)"
     },
     {
       "id": "183744_pure encapsulations_ashwagandha (withania somnifera) extract_500.0_mg_standard",
@@ -6155,7 +6310,7 @@
       "best_total_price": 47.2,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha (Withania somnifera) extract",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6173,7 +6328,9 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "120 Capsule(s)",
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "282967_himalaya_ashwagandha root extract_280.0_mg_standard",
@@ -6188,7 +6345,7 @@
       "best_total_price": 29.32,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha Root Extract",
-      "amount_per_serving": 280.0,
+      "amount_per_serving": 280,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6215,7 +6372,9 @@
       "filters": [
         "wheat_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "90 Caplet(s)",
+      "dsld_content": "90 Caplet(s)"
     },
     {
       "id": "270470_gaia herbs_proprietary extract blend_350.0_mg_standard",
@@ -6230,7 +6389,7 @@
       "best_total_price": 42.29,
       "unit": "mg",
       "primary_ingredient": "Proprietary Extract Blend",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6247,7 +6406,7 @@
           "price": 42.29,
           "price_per_unit": 0.12082857142857142,
           "product_url": "https://www.iherb.com/pr/gaia-herbs-ashwagandha-root-120-liquid-phyto-caps-350-mg-per-cap/76244",
-          "product_name": "Gaia Herbs, Ashwagandha Root, 120 Liquid Phyto-Caps\u00ae (350 mg Per cap)",
+          "product_name": "Gaia Herbs, Ashwagandha Root, 120 Liquid Phyto-Caps® (350 mg Per cap)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai15028/u/54.jpg",
           "rating": null,
           "reviews": null
@@ -6259,7 +6418,9 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "120 Liquid Phyto-Capsule(s)",
+      "dsld_content": "120 Liquid"
     },
     {
       "id": "209515_gaia herbs_proprietary extract blend_350.0_mg_standard",
@@ -6274,7 +6435,7 @@
       "best_total_price": 42.29,
       "unit": "mg",
       "primary_ingredient": "Proprietary Extract Blend",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6293,7 +6454,9 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "120 Liquid Phyto-Capsule(s)",
+      "dsld_content": "120 Liquid"
     },
     {
       "id": "201708_solgar_ashwagandha powder_100.0_mg_standard",
@@ -6308,7 +6471,7 @@
       "best_total_price": 13.74,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha powder",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6353,7 +6516,7 @@
       "best_total_price": 35.99,
       "unit": "mg",
       "primary_ingredient": "Shoden",
-      "amount_per_serving": 240.0,
+      "amount_per_serving": 240,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6368,7 +6531,9 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Vegetarian Capsule(s)",
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "325719_terry naturally_ep35_150.0_mg_standard",
@@ -6383,7 +6548,7 @@
       "best_total_price": 24.76,
       "unit": "mg",
       "primary_ingredient": "EP35",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6398,7 +6563,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "274049_new chapter_sensoril organic ashwagandha (withania somnifera) (root and aerial parts) aqueous extract_125.0_mg_standard",
@@ -6413,7 +6579,7 @@
       "best_total_price": 21.39,
       "unit": "mg",
       "primary_ingredient": "Sensoril organic Ashwagandha (Withania somnifera) (root and aerial parts) aqueous extract",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6434,7 +6600,9 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Capsule(s)",
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "326576_havasu nutrition_artichoke leaf extract_100.0_mg_standard",
@@ -6449,7 +6617,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Artichoke Leaf Extract",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6466,7 +6634,9 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "90 Capsule(s)",
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "24917_metabolic maintenance_l-theanine_200.0_mg_standard",
@@ -6478,14 +6648,14 @@
       "dsld_brand": "Metabolic Maintenance",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00714/u/8.jpg",
       "best_price_per_unit": 0.2,
-      "best_total_price": 40.0,
+      "best_total_price": 40,
       "unit": "mg",
       "primary_ingredient": "L-Theanine",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 40.0,
+          "price": 40,
           "price_per_unit": 0.2,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-ashwagandha-plus-l-theanine-magnesium-blend-60-capsules/134928",
           "product_name": "Metabolic Maintenance, Ashwagandha Plus, L-Theanine & Magnesium Blend, 60 Capsules",
@@ -6496,7 +6666,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "325715_terry naturally_ep35_150.0_mg_standard",
@@ -6511,7 +6682,7 @@
       "best_total_price": 34.36,
       "unit": "mg",
       "primary_ingredient": "EP35",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6536,7 +6707,9 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Capsule(s)",
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "323280_irwin naturals_ashwagandha; powder_100.0_mg_standard",
@@ -6551,7 +6724,7 @@
       "best_total_price": 24.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha; Powder",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6576,7 +6749,9 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "net_contents": "75 Liquid Soft Gels",
+      "dsld_content": "75 Liquid Soft-Gel(s)"
     },
     {
       "id": "272034_youtheory_gingever_20.0_mg_standard",
@@ -6591,7 +6766,7 @@
       "best_total_price": 16.76,
       "unit": "mg",
       "primary_ingredient": "Gingever",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6616,7 +6791,9 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "net_contents": "60 Vegetarian Capsule(s)",
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "272034_youtheory_gingever_20.0_mg_standard",
@@ -6631,7 +6808,7 @@
       "best_total_price": 16.76,
       "unit": "mg",
       "primary_ingredient": "Gingever",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6646,7 +6823,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "272034_youtheory_gingever_20.0_mg_standard",
@@ -6661,7 +6842,7 @@
       "best_total_price": 16.79,
       "unit": "mg",
       "primary_ingredient": "Gingever",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6676,7 +6857,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "245156_goli nutrition_calories_10.0_calorie_standard",
@@ -6691,7 +6873,7 @@
       "best_total_price": 14.98,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6721,7 +6903,13 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "flavor": [
+        "Mixed Berry",
+        "Berry"
+      ],
+      "net_contents": "60 Gummie(s)",
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "228365_nutrachamps_black pepper extract_10.0_mg_standard",
@@ -6736,7 +6924,7 @@
       "best_total_price": 18.95,
       "unit": "mg",
       "primary_ingredient": "Black Pepper extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6756,7 +6944,9 @@
         "organic",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "net_contents": "90 Vegan Capsule(s)",
+      "dsld_content": "90 Vegan Capsule(s)"
     },
     {
       "id": "228365_nutrachamps_black pepper extract_10.0_mg_standard",
@@ -6771,7 +6961,7 @@
       "best_total_price": 18.95,
       "unit": "mg",
       "primary_ingredient": "Black Pepper extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6791,7 +6981,8 @@
         "organic",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "20 Capsule(s)"
     },
     {
       "id": "323288_irwin naturals_bioperine complex_3.0_mg_standard",
@@ -6806,7 +6997,7 @@
       "best_total_price": 20.29,
       "unit": "mg",
       "primary_ingredient": "BioPerine Complex",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6821,7 +7012,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "6 Capsule(s)"
     },
     {
       "id": "312777_pure indian foods_ashwagandha root extract_0.5_teaspoon_standard",
@@ -6851,7 +7043,9 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "net_contents": "8 oz.; 227 g",
+      "dsld_content": "8 oz.; 227 g"
     },
     {
       "id": "305577_banyan botanicals_ashwagandha_0.5_tsp_standard",
@@ -6881,7 +7075,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 lbs.; 227 g"
     },
     {
       "id": "265532_flora_biotin_0.006_mg_standard",

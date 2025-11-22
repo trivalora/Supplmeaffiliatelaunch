@@ -3528,7 +3528,7 @@
       "best_total_price": 8.49,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3548,7 +3548,8 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 86.8
+      "match_score": 86.8,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "313717_chapter six_added sugars_2000.0_mg_standard",
@@ -3563,7 +3564,7 @@
       "best_total_price": 15.99,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3580,7 +3581,11 @@
       "filters": [
         "kosher"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dosage": [
+        "5 mg"
+      ],
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "240107_nature's bounty_folate_667.0_mcg dfe_standard",
@@ -3595,24 +3600,24 @@
       "best_total_price": 8.99,
       "unit": "mcg dfe",
       "primary_ingredient": "Folate",
-      "amount_per_serving": 667.0,
+      "amount_per_serving": 667,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 8.99,
           "price_per_unit": 0.013478260869565217,
           "product_url": "https://www.vitacost.com/natures-bounty-gentle-iron-28-mg-90-capsules-1",
-          "product_name": "Nature's Bounty Gentle Iron\u00ae -- 28 mg - 90 Capsules",
+          "product_name": "Nature's Bounty Gentle Iron® -- 28 mg - 90 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Bounty/Natures-Bounty-Gentle-Iron-074312016035.jpg",
           "rating": null,
           "reviews": null
         },
         {
           "retailer": "iHerb",
-          "price": 9.0,
+          "price": 9,
           "price_per_unit": 0.013493253373313344,
           "product_url": "https://www.iherb.com/pr/nature-s-bounty-gentle-iron-90-capsules/32307",
-          "product_name": "Nature's Bounty, Gentle Iron\u00ae, 90 Capsules",
+          "product_name": "Nature's Bounty, Gentle Iron®, 90 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nrt/nrt01603/u/58.jpg",
           "rating": null,
           "reviews": null
@@ -3634,7 +3639,11 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "28 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "200338_christopher's original formulas_proprietary blend_1000.0_mg_standard",
@@ -3649,7 +3658,7 @@
       "best_total_price": 15.52,
       "unit": "mg",
       "primary_ingredient": "Proprietary Blend",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3664,7 +3673,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dosage": [
+        "460 mg"
+      ],
+      "dsld_content": "100 Vegetarian Capsule(s)"
     },
     {
       "id": "306728_nature's truth_ferrous sulfate; dried_205.0_mg_standard",
@@ -3679,7 +3692,7 @@
       "best_total_price": 6.76,
       "unit": "mg",
       "primary_ingredient": "Ferrous Sulfate; Dried",
-      "amount_per_serving": 205.0,
+      "amount_per_serving": 205,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3694,7 +3707,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95.0
+      "match_score": 95,
+      "dosage": [
+        "65 mg"
+      ]
     },
     {
       "id": "321396_garden of life vitamin code_folate_400.0_mcg dfe_standard",
@@ -3709,7 +3725,7 @@
       "best_total_price": 13.29,
       "unit": "mcg dfe",
       "primary_ingredient": "Folate",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3724,7 +3740,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dosage": [
+        "22 mg"
+      ],
+      "dsld_content": "30 Vegan Capsule(s)"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -3739,7 +3759,7 @@
       "best_total_price": 7.39,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3756,7 +3776,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "130 Tablet(s)"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -3771,7 +3792,7 @@
       "best_total_price": 13.79,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3788,7 +3809,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "303922_davinci laboratories_folate_400.0_mcg dfe_standard",
@@ -3803,7 +3825,7 @@
       "best_total_price": 28.52,
       "unit": "mcg dfe",
       "primary_ingredient": "Folate",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3831,7 +3853,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "14765_now_dong quai_100.0_mg_standard",
@@ -3846,7 +3869,7 @@
       "best_total_price": 7.89,
       "unit": "mg",
       "primary_ingredient": "Dong Quai",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3873,7 +3896,8 @@
       "filters": [
         "sugar_free"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "76174_nature's bounty_iron_65.0_mg_standard",
@@ -3888,7 +3912,7 @@
       "best_total_price": 5.39,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 65.0,
+      "amount_per_serving": 65,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3929,7 +3953,11 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "65 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "304108_21st century_iron_65.0_mg_standard",
@@ -3944,7 +3972,7 @@
       "best_total_price": 5.49,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 65.0,
+      "amount_per_serving": 65,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3961,7 +3989,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "65 mg"
+      ],
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "14765_now_dong quai_100.0_mg_standard",
@@ -3976,7 +4008,7 @@
       "best_total_price": 8.59,
       "unit": "mg",
       "primary_ingredient": "Dong Quai",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4003,7 +4035,7 @@
       "filters": [
         "sugar_free"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "210580_megafood_beet_125.0_mg_standard",
@@ -4018,7 +4050,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Beet",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4038,7 +4070,7 @@
         "dairy_free",
         "soy_free"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "210580_megafood_beet_125.0_mg_standard",
@@ -4053,7 +4085,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Beet",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4073,7 +4105,8 @@
         "dairy_free",
         "soy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "271462_nature made_iron_65.0_mg_standard",
@@ -4088,7 +4121,7 @@
       "best_total_price": 8.09,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 65.0,
+      "amount_per_serving": 65,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4116,7 +4149,11 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "65 mg"
+      ],
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "210583_megafood_beet_125.0_mg_standard",
@@ -4131,7 +4168,7 @@
       "best_total_price": 15.99,
       "unit": "mg",
       "primary_ingredient": "Beet",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4151,7 +4188,8 @@
         "dairy_free",
         "soy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "258592_21st century_calcium_31.0_mg_standard",
@@ -4166,7 +4204,7 @@
       "best_total_price": 4.24,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 31.0,
+      "amount_per_serving": 31,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4183,7 +4221,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dosage": [
+        "45 mg"
+      ],
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "298442_nature's plus_iron_40.0_mg_standard",
@@ -4198,7 +4240,7 @@
       "best_total_price": 5.75,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4216,7 +4258,7 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85
     },
     {
       "id": "220048_liquid labs_3b-hydroxy-androst-4-en-17-one_125.0_mg_standard",
@@ -4231,7 +4273,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-Androst-4-en-17-one",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4246,7 +4288,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "2 oz.; 60 mL"
     },
     {
       "id": "24764_innate response formulas_bioactive enzymes & proteins_274.0_mg_standard",
@@ -4261,7 +4304,7 @@
       "best_total_price": 44.99,
       "unit": "mg",
       "primary_ingredient": "Bioactive Enzymes & Proteins",
-      "amount_per_serving": 274.0,
+      "amount_per_serving": 274,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4278,7 +4321,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "267824_innate response formulas_beetroot_125.0_mg_standard",
@@ -4293,14 +4337,14 @@
       "best_total_price": 22.79,
       "unit": "mg",
       "primary_ingredient": "Beetroot",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 22.79,
           "price_per_unit": 0.18231999999999998,
           "product_url": "https://www.iherb.com/pr/innate-response-formulas-iron-response-90-tablets/30894",
-          "product_name": "Innate Response Formulas, Iron Response\u2122, 90 Tablets",
+          "product_name": "Innate Response Formulas, Iron Response™, 90 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/inn/inn40010/u/39.jpg",
           "rating": null,
           "reviews": null
@@ -4326,7 +4370,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "304107_21st century_iron_27.0_mg_standard",
@@ -4341,7 +4386,7 @@
       "best_total_price": 4.99,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 27.0,
+      "amount_per_serving": 27,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4358,7 +4403,10 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 95.0
+      "match_score": 95,
+      "dosage": [
+        "27 mg"
+      ]
     },
     {
       "id": "282194_natural factors_calcium_45.0_mg_standard",
@@ -4373,7 +4421,7 @@
       "best_total_price": 8.37,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4403,7 +4451,11 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "25 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "210580_megafood_beet_125.0_mg_standard",
@@ -4418,7 +4470,7 @@
       "best_total_price": 24.99,
       "unit": "mg",
       "primary_ingredient": "Beet",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4438,7 +4490,8 @@
         "dairy_free",
         "soy_free"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "230 mL; 7.7 fl. oz."
     },
     {
       "id": "331480_gnc women's_calcium_92.0_mg_standard",
@@ -4453,14 +4506,14 @@
       "best_total_price": 18.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 92.0,
+      "amount_per_serving": 92,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 18.99,
           "price_per_unit": 0.20641304347826087,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=164622&source=productlist",
-          "product_name": "GNC Women's\nIron Complete\u2122 - 60 Caplets (60 Servings)",
+          "product_name": "GNC Women's\nIron Complete™ - 60 Caplets (60 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4468,7 +4521,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Caplet(s)"
     },
     {
       "id": "296046_solaray_iron_50.0_mg_standard",
@@ -4483,7 +4537,7 @@
       "best_total_price": 10.39,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4508,7 +4562,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "50 mg"
+      ],
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "270509_nutricost_iron_65.0_mg_standard",
@@ -4523,7 +4581,7 @@
       "best_total_price": 13.95,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 65.0,
+      "amount_per_serving": 65,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4541,7 +4599,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "65 mg"
+      ],
+      "dsld_content": "240 Tablet(s)"
     },
     {
       "id": "306680_nature's truth_iron_28.0_mg_standard",
@@ -4556,7 +4618,7 @@
       "best_total_price": 6.45,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 28.0,
+      "amount_per_serving": 28,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4573,7 +4635,10 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 95.0
+      "match_score": 95,
+      "dosage": [
+        "28 mg"
+      ]
     },
     {
       "id": "276495_deva_iron_29.0_mg_chelated",
@@ -4588,7 +4653,7 @@
       "best_total_price": 6.99,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 29.0,
+      "amount_per_serving": 29,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4605,7 +4670,11 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "29 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "322687_seeking health_betaine hydrochloride_75.0_mg_standard",
@@ -4617,14 +4686,14 @@
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52054/u/40.jpg",
       "best_price_per_unit": 0.26666666666666666,
-      "best_total_price": 20.0,
+      "best_total_price": 20,
       "unit": "mg",
       "primary_ingredient": "Betaine Hydrochloride",
-      "amount_per_serving": 75.0,
+      "amount_per_serving": 75,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 20.0,
+          "price": 20,
           "price_per_unit": 0.26666666666666666,
           "product_url": "https://www.iherb.com/pr/seeking-health-iron-with-cofactors-90-capsules/122650",
           "product_name": "Seeking Health, Iron with Cofactors, 90 Capsules",
@@ -4635,7 +4704,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "214470_mason natural_iron_27.0_mg_standard",
@@ -4650,7 +4720,7 @@
       "best_total_price": 7.28,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 27.0,
+      "amount_per_serving": 27,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4667,7 +4737,10 @@
       "filters": [
         "soy_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "27 mg per Tablet; 27 mg"
+      ]
     },
     {
       "id": "298442_nature's plus_iron_40.0_mg_standard",
@@ -4682,14 +4755,14 @@
       "best_total_price": 12.54,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 12.54,
           "price_per_unit": 0.3135,
           "product_url": "https://www.iherb.com/pr/naturesplus-hema-plex-iron-30-slow-release-tablets/7662",
-          "product_name": "NaturesPlus, Hema-Plex\u00ae Iron, 30 Slow-Release Tablets",
+          "product_name": "NaturesPlus, Hema-Plex® Iron, 30 Slow-Release Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap03770/u/186.jpg",
           "rating": null,
           "reviews": null
@@ -4700,7 +4773,7 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85
     },
     {
       "id": "217573_solgar_iron_25.0_mg_chelated",
@@ -4715,7 +4788,7 @@
       "best_total_price": 7.89,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4746,7 +4819,8 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "214470_mason natural_iron_27.0_mg_standard",
@@ -4761,7 +4835,7 @@
       "best_total_price": 8.99,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 27.0,
+      "amount_per_serving": 27,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4778,7 +4852,7 @@
       "filters": [
         "soy_free"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "253062_new chapter_digestive support blend_75.0_mg_standard",
@@ -4793,7 +4867,7 @@
       "best_total_price": 26.19,
       "unit": "mg",
       "primary_ingredient": "Digestive Support Blend",
-      "amount_per_serving": 75.0,
+      "amount_per_serving": 75,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4824,7 +4898,7 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "56733_superior source_iron_25.0_mg_standard",
@@ -4839,7 +4913,7 @@
       "best_total_price": 8.79,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4854,7 +4928,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95.0
+      "match_score": 95,
+      "dosage": [
+        "25 mg"
+      ]
     },
     {
       "id": "65137_solgar_iron_25.0_mg_chelated",
@@ -4869,14 +4946,14 @@
       "best_total_price": 8.89,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 8.89,
           "price_per_unit": 0.3556,
           "product_url": "https://www.vitacost.com/solgar-gentle-iron-25-mg-90-vegetable-capsules-1",
-          "product_name": "Solgar Gentle Iron\u00ae -- 25 mg - 90 Vegetable Capsules",
+          "product_name": "Solgar Gentle Iron® -- 25 mg - 90 Vegetable Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Gentle-Iron-033984012493.jpg",
           "rating": null,
           "reviews": null
@@ -4886,7 +4963,7 @@
           "price": 9.65,
           "price_per_unit": 0.386,
           "product_url": "https://www.iherb.com/pr/solgar-gentle-iron-25-mg-90-vegetable-capsules/69609",
-          "product_name": "Solgar, Gentle Iron\u00ae, 25 mg, 90 Vegetable Capsules",
+          "product_name": "Solgar, Gentle Iron®, 25 mg, 90 Vegetable Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sol/sol01249/u/91.jpg",
           "rating": null,
           "reviews": null
@@ -4900,7 +4977,10 @@
         "non_gmo",
         "chelated"
       ],
-      "match_score": 95.0
+      "match_score": 95,
+      "dosage": [
+        "25 mg"
+      ]
     },
     {
       "id": "296046_solaray_iron_50.0_mg_standard",
@@ -4915,7 +4995,7 @@
       "best_total_price": 18.79,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4930,7 +5010,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85
     },
     {
       "id": "228821_nutrachamps_citrus bioflavonoids_50.0_mg_standard",
@@ -4945,7 +5025,7 @@
       "best_total_price": 19.95,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4964,7 +5044,7 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "206460_vitanica_calcium_57.0_mg_standard",
@@ -4979,7 +5059,7 @@
       "best_total_price": 22.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 57.0,
+      "amount_per_serving": 57,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4997,7 +5077,8 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "298442_nature's plus_iron_40.0_mg_standard",
@@ -5012,7 +5093,7 @@
       "best_total_price": 16.53,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5030,7 +5111,7 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85
     },
     {
       "id": "305559_healthy origins_iron_45.0_mg_chelated",
@@ -5045,7 +5126,7 @@
       "best_total_price": 18.99,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5062,7 +5143,10 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 95.0
+      "match_score": 95,
+      "dosage": [
+        "45 mg"
+      ]
     },
     {
       "id": "50085_now_alfalfa juice concentrate_50.0_mg_standard",
@@ -5077,7 +5161,7 @@
       "best_total_price": 22.9,
       "unit": "mg",
       "primary_ingredient": "Alfalfa juice concentrate",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5106,7 +5190,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "180 Veg Capsule(s)"
     },
     {
       "id": "299630_california gold nutrition_calories_15.0_calorie_standard",
@@ -5121,7 +5206,7 @@
       "best_total_price": 7.13,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5136,7 +5221,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "118 mL; 4 fl. oz."
     },
     {
       "id": "75453_source naturals_alpha-lipoic acid & r-lipoic acid_40.0_mg_standard",
@@ -5151,7 +5237,7 @@
       "best_total_price": 19.59,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid & R-Lipoic Acid",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5168,7 +5254,7 @@
           "price": 37.79,
           "price_per_unit": 0.94475,
           "product_url": "https://www.iherb.com/pr/source-naturals-life-force-multiple-no-iron-120-tablets/1259",
-          "product_name": "Source Naturals, Life Force Multiple\u00ae, No Iron, 120 Tablets",
+          "product_name": "Source Naturals, Life Force Multiple®, No Iron, 120 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sns/sns00966/u/51.jpg",
           "rating": null,
           "reviews": null
@@ -5176,7 +5262,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "326800_country life_ferrochel_25.0_mg_standard",
@@ -5191,7 +5278,7 @@
       "best_total_price": 13.12,
       "unit": "mg",
       "primary_ingredient": "Ferrochel",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5218,7 +5305,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "25 mg"
+      ],
+      "dsld_content": "90 Vegan Capsule(s)"
     },
     {
       "id": "306683_nature's truth_calories_25.0_calorie_standard",
@@ -5233,7 +5324,7 @@
       "best_total_price": 13.56,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5250,7 +5341,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "321969_thorne_ferrochel_25.0_mg_standard",
@@ -5262,14 +5354,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Iron-Bisglycinate-NSF-Certified-for-Sport-693749003458.jpg",
       "best_price_per_unit": 0.6,
-      "best_total_price": 15.0,
+      "best_total_price": 15,
       "unit": "mg",
       "primary_ingredient": "Ferrochel",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 15.0,
+          "price": 15,
           "price_per_unit": 0.6,
           "product_url": "https://www.vitacost.com/thorne-iron-bisglycinate-nsf-certified-for-sport",
           "product_name": "Thorne Iron Bisglycinate - NSF Certified for Sport -- 25 ...",
@@ -5280,7 +5372,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "25 Capsule(s)"
     },
     {
       "id": "321969_thorne_ferrochel_25.0_mg_standard",
@@ -5292,14 +5385,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/thr/thr00345/u/38.jpg",
       "best_price_per_unit": 0.6,
-      "best_total_price": 15.0,
+      "best_total_price": 15,
       "unit": "mg",
       "primary_ingredient": "Ferrochel",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 15.0,
+          "price": 15,
           "price_per_unit": 0.6,
           "product_url": "https://www.iherb.com/pr/thorne-iron-bisglycinate-60-capsules-25-mg-per-capsule/52838",
           "product_name": "Thorne, Iron Bisglycinate, 60 Capsules (25 mg per Capsule)",
@@ -5310,7 +5403,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dosage": [
+        "25 mg per Capsule; 25 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "276537_klean athlete_iron_27.0_mg_standard",
@@ -5325,7 +5422,7 @@
       "best_total_price": 16.5,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 27.0,
+      "amount_per_serving": 27,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5343,7 +5440,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "241857_carlson laboratories_iron_15.0_mg_chelated",
@@ -5358,7 +5456,7 @@
       "best_total_price": 9.27,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5376,7 +5474,10 @@
         "gluten_free",
         "chelated"
       ],
-      "match_score": 90.7
+      "match_score": 90.7,
+      "dosage": [
+        "15 mg"
+      ]
     },
     {
       "id": "241867_carlson laboratories_iron_27.0_mg_chelated",
@@ -5391,7 +5492,7 @@
       "best_total_price": 16.92,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 27.0,
+      "amount_per_serving": 27,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5409,7 +5510,11 @@
         "gluten_free",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "27 mg"
+      ],
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "260089_advanced nutrition by zahler_ferrochel_25.0_mg_standard",
@@ -5424,7 +5529,7 @@
       "best_total_price": 16.22,
       "unit": "mg",
       "primary_ingredient": "Ferrochel",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5441,7 +5546,7 @@
           "price": 18.99,
           "price_per_unit": 0.7595999999999999,
           "product_url": "https://www.gnc.com/iron/582950.html",
-          "product_name": "ZAHLER\u00ae\nIron Complex - 100 Capsules (100 Servings)",
+          "product_name": "ZAHLER®\nIron Complex - 100 Capsules (100 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -5456,7 +5561,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "260089_advanced nutrition by zahler_ferrochel_25.0_mg_standard",
@@ -5471,7 +5577,7 @@
       "best_total_price": 16.99,
       "unit": "mg",
       "primary_ingredient": "Ferrochel",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5493,7 +5599,7 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "327150_dr. mercola_acerola fruit juice; powder_50.0_mg_standard",
@@ -5508,7 +5614,7 @@
       "best_total_price": 37.49,
       "unit": "mg",
       "primary_ingredient": "Acerola Fruit Juice; Powder",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5523,7 +5629,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "7.5 mg"
+      ],
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "298442_nature's plus_iron_40.0_mg_standard",
@@ -5538,14 +5648,14 @@
       "best_total_price": 31.41,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 31.41,
           "price_per_unit": 0.78525,
           "product_url": "https://www.iherb.com/pr/naturesplus-source-of-life-garden-organic-men-s-once-daily-multi-iron-free-30-vegan-tablets/79236",
-          "product_name": "NaturesPlus, Source of Life Garden\u00ae, Organic Men's Once Daily Multi, Iron Free, 30 Vegan Tablets",
+          "product_name": "NaturesPlus, Source of Life Garden®, Organic Men's Once Daily Multi, Iron Free, 30 Vegan Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nap/nap30745/u/49.jpg",
           "rating": null,
           "reviews": null
@@ -5556,7 +5666,7 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85
     },
     {
       "id": "64758_the vitamin shoppe_antioxidant health blend_25.0_mg_standard",
@@ -5571,7 +5681,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Antioxidant Health Blend",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5590,7 +5700,8 @@
         "dairy_free",
         "nut_free"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "325683_bariatric advantage_fructooligosaccharides_66.5_mg_standard",
@@ -5623,7 +5734,11 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "60 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "303711_xymogen_iron_29.0_mg_standard",
@@ -5638,7 +5753,7 @@
       "best_total_price": 25.99,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 29.0,
+      "amount_per_serving": 29,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5655,7 +5770,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "270430_gaia herbs_acerola fruit extract_40.0_mg_standard",
@@ -5670,14 +5786,14 @@
       "best_total_price": 35.99,
       "unit": "mg",
       "primary_ingredient": "Acerola Fruit Extract",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 35.99,
           "price_per_unit": 0.89975,
           "product_url": "https://www.vitacost.com/gaia-herbs-plantforce-liquid-iron-8-5-fl-oz",
-          "product_name": "Gaia Herbs PlantForce\u2122 Liquid Iron -- 8.5 fl oz",
+          "product_name": "Gaia Herbs PlantForce™ Liquid Iron -- 8.5 fl oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Gaia-Herbs/Gaia-Herbs-PlantForce-Liquid-Iron-751063146265.jpg",
           "rating": null,
           "reviews": null
@@ -5698,7 +5814,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "8.5 fl. oz."
     },
     {
       "id": "218076_solgar_betaine hcl_25.0_mg_chelated",
@@ -5713,7 +5830,7 @@
       "best_total_price": 23.19,
       "unit": "mg",
       "primary_ingredient": "Betaine HCl",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5733,7 +5850,8 @@
         "dairy_free",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "299254_childlife essentials_calories_15.0_calorie_standard",
@@ -5748,7 +5866,7 @@
       "best_total_price": 13.96,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5766,7 +5884,8 @@
         "gluten_free",
         "alcohol_free"
       ],
-      "match_score": 87.3
+      "match_score": 87.3,
+      "dsld_content": "118 mL; 4 fl. oz."
     },
     {
       "id": "242994_gnc_iron_18.0_mg_standard",
@@ -5781,14 +5900,14 @@
       "best_total_price": 17.99,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 18.0,
+      "amount_per_serving": 18,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 17.99,
           "price_per_unit": 0.9994444444444444,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=038313&source=productlist",
-          "product_name": "GNC\nGentlesorb Iron\u2122 18 mg - 90 Capsules (90 Servings)",
+          "product_name": "GNC\nGentlesorb Iron™ 18 mg - 90 Capsules (90 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -5804,7 +5923,11 @@
         "no_artificial_colors",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "18 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "208588_enfamil_iron_15.0_mg_standard",
@@ -5819,14 +5942,14 @@
       "best_total_price": 15.31,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 15.31,
           "price_per_unit": 1.0206666666666666,
           "product_url": "https://www.iherb.com/pr/enfamil-fer-in-sol-iron-drops-active-minds-0-24-months-1-2-3-fl-oz-50-ml/143919",
-          "product_name": "Enfamil, Fer-In-Sol\u00ae, Iron Drops, Active Minds, 0-24 Months, 1 2/3 fl oz (50 ml)",
+          "product_name": "Enfamil, Fer-In-Sol®, Iron Drops, Active Minds, 0-24 Months, 1 2/3 fl oz (50 ml)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/enm/enm74002/u/50.jpg",
           "rating": null,
           "reviews": null
@@ -5838,7 +5961,8 @@
         "no_artificial_colors",
         "no_artificial_flavors"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "3 fl. oz.; 50 mL"
     },
     {
       "id": "296046_solaray_iron_50.0_mg_standard",
@@ -5853,14 +5977,14 @@
       "best_total_price": 51.39,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 51.39,
           "price_per_unit": 1.0278,
           "product_url": "https://www.vitacost.com/solaray-spectro-multi-vita-min-iron-free-original-formula",
-          "product_name": "Solaray Spectro\u2122 Multi-Vita-Min\u2122 Iron Free Original Formu...",
+          "product_name": "Solaray Spectro™ Multi-Vita-Min™ Iron Free Original Formu...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Spectro-Multi-Vita-Min-Iron-Free-Original-Formula-076280478556.jpg",
           "rating": null,
           "reviews": null
@@ -5868,7 +5992,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85
     },
     {
       "id": "298464_nature's plus source of life garden_orgen_18.0_mg_standard",
@@ -5883,7 +6007,7 @@
       "best_total_price": 19.09,
       "unit": "mg",
       "primary_ingredient": "Orgen",
-      "amount_per_serving": 18.0,
+      "amount_per_serving": 18,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5901,7 +6025,8 @@
         "organic",
         "yeast_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Vegan Capsule(s)"
     },
     {
       "id": "305057_vital nutrients_iron_20.0_mg_standard",
@@ -5916,7 +6041,7 @@
       "best_total_price": 21.9,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5933,7 +6058,8 @@
       "filters": [
         "raw"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Vegan Capsule(s)"
     },
     {
       "id": "229829_nature's way_calories_15.0_calorie_standard",
@@ -5948,7 +6074,7 @@
       "best_total_price": 17.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5965,7 +6091,7 @@
           "price": 21.49,
           "price_per_unit": 1.4326666666666665,
           "product_url": "https://www.iherb.com/pr/nature-s-way-energizing-iron-90-softgels/2126",
-          "product_name": "Nature's Way, Energizing Iron\u2122, 90 Softgels",
+          "product_name": "Nature's Way, Energizing Iron™, 90 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/emt/emt05219/u/72.jpg",
           "rating": null,
           "reviews": null
@@ -5975,7 +6101,10 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "8 mg; 200 mcg"
+      ]
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -5990,7 +6119,7 @@
       "best_total_price": 39.95,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6005,7 +6134,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "15.22 fl. oz.; 450 mL"
     },
     {
       "id": "73435_floradix_calories_20.0_calorie_standard",
@@ -6020,7 +6150,7 @@
       "best_total_price": 27.44,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6038,7 +6168,7 @@
         "vegetarian",
         "alcohol_free"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "73435_floradix_calories_20.0_calorie_standard",
@@ -6053,7 +6183,7 @@
       "best_total_price": 27.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6081,7 +6211,8 @@
         "vegetarian",
         "alcohol_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 mL; 8.5 fl. oz."
     },
     {
       "id": "73435_floradix_calories_20.0_calorie_standard",
@@ -6096,14 +6227,14 @@
       "best_total_price": 27.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 27.59,
           "price_per_unit": 1.3795,
           "product_url": "https://www.iherb.com/pr/floradix-floravital-iron-herbs-8-5-fl-oz-250-ml/106326",
-          "product_name": "Floradix, Floravital\u00ae Iron + Herbs, 8.5 fl oz (250 ml)",
+          "product_name": "Floradix, Floravital® Iron + Herbs, 8.5 fl oz (250 ml)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gai/gai26012/u/82.jpg",
           "rating": null,
           "reviews": null
@@ -6114,7 +6245,8 @@
         "vegetarian",
         "alcohol_free"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "250 mL; 8.5 fl. oz."
     },
     {
       "id": "218045_solgar_betaine hcl_25.0_mg_chelated",
@@ -6129,14 +6261,14 @@
       "best_total_price": 39.19,
       "unit": "mg",
       "primary_ingredient": "Betaine HCl",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 39.19,
           "price_per_unit": 1.5675999999999999,
           "product_url": "https://www.vitacost.com/solgar-formula-vm-75-iron-free",
-          "product_name": "Solgar Formula VM-75\u00ae Iron-Free -- 180 Tablets",
+          "product_name": "Solgar Formula VM-75® Iron-Free -- 180 Tablets",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Iron-Free-Formula-VM-75-033984011533.jpg",
           "rating": null,
           "reviews": null
@@ -6149,7 +6281,8 @@
         "dairy_free",
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "73435_floradix_calories_20.0_calorie_standard",
@@ -6164,7 +6297,7 @@
       "best_total_price": 31.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6182,7 +6315,7 @@
         "vegetarian",
         "alcohol_free"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "274129_metabolic maintenance_betaine hcl_25.0_mg_standard",
@@ -6194,17 +6327,17 @@
       "dsld_brand": "Metabolic Maintenance",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00520/u/64.jpg",
       "best_price_per_unit": 1.92,
-      "best_total_price": 48.0,
+      "best_total_price": 48,
       "unit": "mg",
       "primary_ingredient": "Betaine HCl",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 48.0,
+          "price": 48,
           "price_per_unit": 1.92,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-the-big-one-without-iron-90-capsules/37551",
-          "product_name": "Metabolic Maintenance, The Big One\u00ae without Iron, 90 Capsules",
+          "product_name": "Metabolic Maintenance, The Big One® without Iron, 90 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00520/u/64.jpg",
           "rating": null,
           "reviews": null
@@ -6214,7 +6347,8 @@
       "filters": [
         "egg_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "265038_flora_calories_10.0_calorie_standard",
@@ -6229,7 +6363,7 @@
       "best_total_price": 19.54,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6259,7 +6393,8 @@
         "kosher",
         "gluten_free"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "7.7 fl. oz."
     },
     {
       "id": "210956_seeking health_iron_10.0_mg_standard",
@@ -6270,16 +6405,16 @@
       "dsld_product_name": "Optimal Iron Chewable",
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Optimal-Iron-810007520544.jpg",
-      "best_price_per_unit": 2.0,
-      "best_total_price": 20.0,
+      "best_price_per_unit": 2,
+      "best_total_price": 20,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 20.0,
-          "price_per_unit": 2.0,
+          "price": 20,
+          "price_per_unit": 2,
           "product_url": "https://www.vitacost.com/seeking-health-optimal-iron",
           "product_name": "Seeking Health Optimal Iron -- 90 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Optimal-Iron-810007520544.jpg",
@@ -6289,7 +6424,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "322653_seeking health_iron_10.0_mg_standard",
@@ -6300,16 +6436,16 @@
       "dsld_product_name": "Iron Chewable 10 mg",
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Iron-Chewable-810007520537.jpg",
-      "best_price_per_unit": 2.0,
-      "best_total_price": 20.0,
+      "best_price_per_unit": 2,
+      "best_total_price": 20,
       "unit": "mg",
       "primary_ingredient": "Iron",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 20.0,
-          "price_per_unit": 2.0,
+          "price": 20,
+          "price_per_unit": 2,
           "product_url": "https://www.vitacost.com/seeking-health-iron-chewable",
           "product_name": "Seeking Health Iron Chewable -- 10 mg - 60 Tablets",
           "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Iron-Chewable-810007520537.jpg",
@@ -6319,7 +6455,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "10 mg"
+      ],
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "265219_carlson laboratories_calories_5.0_calorie_chelated",
@@ -6334,7 +6474,7 @@
       "best_total_price": 11.48,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6352,7 +6492,11 @@
         "gluten_free",
         "chelated"
       ],
-      "match_score": 93.8
+      "match_score": 93.8,
+      "dosage": [
+        "27 mg"
+      ],
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "73439_floradix_calories_20.0_calorie_standard",
@@ -6367,7 +6511,7 @@
       "best_total_price": 47.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6385,7 +6529,8 @@
         "vegetarian",
         "alcohol_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "17 fl. oz."
     },
     {
       "id": "265038_flora_calories_10.0_calorie_standard",
@@ -6400,7 +6545,7 @@
       "best_total_price": 25.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6420,7 +6565,7 @@
         "kosher",
         "gluten_free"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "220683_natural factors_calories_5.0_calorie_standard",
@@ -6435,7 +6580,7 @@
       "best_total_price": 13.27,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6455,7 +6600,11 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dosage": [
+        "20 mg"
+      ],
+      "dsld_content": "60 Chewable(s)"
     },
     {
       "id": "308454_swanson_amylase_3.32_mg_standard",
@@ -6477,7 +6626,7 @@
           "price": 9.39,
           "price_per_unit": 2.8283132530120483,
           "product_url": "https://www.iherb.com/pr/swanson-albion-multi-mineral-with-iron-120-capsules/118049",
-          "product_name": "Swanson, Albion\u00ae Multi-Mineral with Iron, 120 Capsules",
+          "product_name": "Swanson, Albion® Multi-Mineral with Iron, 120 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/swv/swv02062/u/24.jpg",
           "rating": null,
           "reviews": null
@@ -6485,7 +6634,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "73464_floradix_calories_20.0_calorie_standard",
@@ -6500,14 +6650,14 @@
       "best_total_price": 57.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 57.59,
           "price_per_unit": 2.8795,
           "product_url": "https://www.iherb.com/pr/floradix-floravital-iron-herbs-23-7-fl-oz-700-ml/106330",
-          "product_name": "Floradix, Floravital\u00ae Iron + Herbs, 23.7 fl oz (700 ml)",
+          "product_name": "Floradix, Floravital® Iron + Herbs, 23.7 fl oz (700 ml)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -6519,7 +6669,8 @@
         "gluten_free",
         "alcohol_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "23.7 fl. oz.; 700 mL"
     },
     {
       "id": "57635_irwin naturals_bioperine complex_6.0_mg_standard",
@@ -6534,7 +6685,7 @@
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "BioPerine Complex",
-      "amount_per_serving": 6.0,
+      "amount_per_serving": 6,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6551,7 +6702,8 @@
       "filters": [
         "no_preservatives"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "57636_irwin naturals_bioperine complex_6.0_mg_standard",
@@ -6566,7 +6718,7 @@
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "BioPerine Complex",
-      "amount_per_serving": 6.0,
+      "amount_per_serving": 6,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6583,7 +6735,8 @@
       "filters": [
         "no_preservatives"
       ],
-      "match_score": 96.8
+      "match_score": 96.8,
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "325681_bariatric advantage_fructooligosaccharides_10.0_mg_standard",
@@ -6598,7 +6751,7 @@
       "best_total_price": 43.88,
       "unit": "mg",
       "primary_ingredient": "Fructooligosaccharides",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6616,7 +6769,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "326463_protocol for life balance_alpha-lipoic acid_10.0_mg_standard",
@@ -6628,17 +6782,17 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Ortho-Multi-Greens-Iron-Free-Multivitamin-707359137882.jpg",
       "best_price_per_unit": 4.4,
-      "best_total_price": 44.0,
+      "best_total_price": 44,
       "unit": "mg",
       "primary_ingredient": "Alpha-Lipoic Acid",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 44.0,
+          "price": 44,
           "price_per_unit": 4.4,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-ortho-multi-greens-iron-free-multivitamin",
-          "product_name": "Protocol For Life Balance Ortho Multi\u00ae Greens Iron-Free M...",
+          "product_name": "Protocol For Life Balance Ortho Multi® Greens Iron-Free M...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Ortho-Multi-Greens-Iron-Free-Multivitamin-707359137882.jpg",
           "rating": null,
           "reviews": null
@@ -6646,7 +6800,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "250021_zhou_biotin_5.0_mg_standard",
@@ -6661,14 +6815,14 @@
       "best_total_price": 23.39,
       "unit": "mg",
       "primary_ingredient": "Biotin",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 23.39,
           "price_per_unit": 4.678,
           "product_url": "https://www.vitacost.com/zhou-iron-beard",
-          "product_name": "Zhou Iron Beard\u2122 -- 60 Veggie Capsules",
+          "product_name": "Zhou Iron Beard™ -- 60 Veggie Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Zhou/Zhou-Iron-Beard-859805006171.jpg",
           "rating": null,
           "reviews": null
@@ -6679,7 +6833,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "305315_carlson laboratories_copper_2.0_mg_standard",
@@ -6694,7 +6849,7 @@
       "best_total_price": 14.88,
       "unit": "mg",
       "primary_ingredient": "Copper",
-      "amount_per_serving": 2.0,
+      "amount_per_serving": 2,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6709,7 +6864,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "313476_amen_copper_2.0_mg_standard",
@@ -6724,7 +6880,7 @@
       "best_total_price": 24.99,
       "unit": "mg",
       "primary_ingredient": "Copper",
-      "amount_per_serving": 2.0,
+      "amount_per_serving": 2,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6739,7 +6895,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "325996_solaray_boron_1.0_mg_standard",
@@ -6754,14 +6910,14 @@
       "best_total_price": 12.89,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 12.89,
           "price_per_unit": 12.89,
           "product_url": "https://www.vitacost.com/solaray-mega-multi-mineral-iron-free-100-capsules-1",
-          "product_name": "Solaray Mega Multi Mineral\u2122 Iron Free -- 100 Capsules",
+          "product_name": "Solaray Mega Multi Mineral™ Iron Free -- 100 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Mega-Multi-Mineral-Iron-Free-076280045130.jpg",
           "rating": null,
           "reviews": null
@@ -6779,7 +6935,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "305099_vital nutrients_boron_1.5_mg_standard",
@@ -6809,7 +6966,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 97.3
+      "match_score": 97.3,
+      "dsld_content": "120 Vegan Capsule(s)"
     },
     {
       "id": "258917_solaray_boron_1.0_mg_chelated",
@@ -6824,7 +6982,7 @@
       "best_total_price": 20.79,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6841,7 +6999,7 @@
           "price": 20.79,
           "price_per_unit": 20.79,
           "product_url": "https://www.iherb.com/pr/solaray-mega-multi-mineral-iron-free-200-capsules/70064",
-          "product_name": "Solaray, Mega Multi Mineral\u2122, Iron Free, 200 Capsules",
+          "product_name": "Solaray, Mega Multi Mineral™, Iron Free, 200 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sor/sor04514/u/37.jpg",
           "rating": null,
           "reviews": null
@@ -6851,7 +7009,8 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "200 Capsule(s)"
     },
     {
       "id": "322718_seeking health_boron_0.5_mg_standard",
@@ -6862,16 +7021,16 @@
       "dsld_product_name": "Trace Minerals Complex",
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52126/u/50.jpg",
-      "best_price_per_unit": 40.0,
-      "best_total_price": 20.0,
+      "best_price_per_unit": 40,
+      "best_total_price": 20,
       "unit": "mg",
       "primary_ingredient": "Boron",
       "amount_per_serving": 0.5,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 20.0,
-          "price_per_unit": 40.0,
+          "price": 20,
+          "price_per_unit": 40,
           "product_url": "https://www.iherb.com/pr/seeking-health-trace-minerals-complex-iron-free-30-capsules/115175",
           "product_name": "Seeking Health, Trace Minerals Complex, Iron-Free, 30 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52126/u/50.jpg",
@@ -6881,7 +7040,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "323319_bariatric advantage_biotin_0.6_mg_standard",
@@ -6913,7 +7073,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "323318_bariatric advantage_biotin_0.6_mg_standard",
@@ -6945,7 +7106,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "323017_nutra biogenesis_biotin_0.8_mg_standard",
@@ -6979,7 +7141,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "70333_xymogen_biotin_0.5_mg_chelated",
@@ -7012,7 +7175,8 @@
         "vegetarian",
         "chelated"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "277966_pure encapsulations_biotin_0.4_mg_standard",
@@ -7045,7 +7209,7 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "39390_terry naturally_(6s)-5-methyltetrahydrofolic acid_0.4_mg_standard",
@@ -7067,7 +7231,7 @@
           "price": 36.76,
           "price_per_unit": 91.89999999999999,
           "product_url": "https://www.vitacost.com/terry-naturally-liver-fractions-with-natural-heme-iron",
-          "product_name": "Terry Naturally Liver Fractions\u2122 with Natural Heme Iron -...",
+          "product_name": "Terry Naturally Liver Fractions™ with Natural Heme Iron -...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Terry-Naturally/Terry-Naturally-Liver-Fractions-with-Natural-Heme-Iron-367703200893.jpg",
           "rating": null,
           "reviews": null
@@ -7077,7 +7241,7 @@
       "filters": [
         "sugar_free"
       ],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "325679_bariatric advantage_biotin_0.3_mg_standard",
@@ -7109,7 +7273,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "268465_twinlab_biotin_0.3_mg_standard",
@@ -7151,7 +7316,8 @@
       "filters": [
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "298450_nature's plus_biotin_0.3_mg_standard",
@@ -7185,7 +7351,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "304812_carlson laboratories_biotin_0.15_mg_standard",
@@ -7215,7 +7382,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "305126_vital nutrients_biotin_0.2_mg_standard",
@@ -7255,7 +7423,7 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "305124_vital nutrients_biotin_0.2_mg_standard",
@@ -7285,7 +7453,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Vegetarian Capsule(s)"
     },
     {
       "id": "305123_vital nutrients_biotin_0.2_mg_standard",
@@ -7315,7 +7484,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 97.5
+      "match_score": 97.5,
+      "dsld_content": "180 Vegetarian Capsule(s)"
     },
     {
       "id": "277968_pure encapsulations_biotin_0.4_mg_standard",
@@ -7337,7 +7507,7 @@
           "price": 104.6,
           "price_per_unit": 261.49999999999994,
           "product_url": "https://www.vitacost.com/pure-encapsulations-nutrient-950-without-iron-360-capsules",
-          "product_name": "Pure Encapsulations Nutrient 950\u00ae Without Iron -- 360 Cap...",
+          "product_name": "Pure Encapsulations Nutrient 950® Without Iron -- 360 Cap...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Nutrient-950-Without-Iron-766298004211.jpg",
           "rating": null,
           "reviews": null
@@ -7348,7 +7518,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "360 Capsule(s)"
     },
     {
       "id": "258648_nutricology_(6s)-5-methyltetrahydrofolate acid; glucosamine salt_0.111_mg_standard",
@@ -7378,7 +7549,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "304259_allergy research group_(6s)-5-methyltetrahydrofolic acid glucosamine salt_0.111_mg_standard",
@@ -7408,7 +7579,7 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 95.0
+      "match_score": 95
     },
     {
       "id": "244966_mason natural_biotin_0.03_mg_standard",
@@ -7419,7 +7590,7 @@
       "dsld_product_name": "Vitrum 50+ Adult-Multi Iron Free",
       "dsld_brand": "Mason Natural",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mav/mav18151/u/8.jpg",
-      "best_price_per_unit": 333.0,
+      "best_price_per_unit": 333,
       "best_total_price": 9.99,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -7428,7 +7599,7 @@
         {
           "retailer": "iHerb",
           "price": 9.99,
-          "price_per_unit": 333.0,
+          "price_per_unit": 333,
           "product_url": "https://www.iherb.com/pr/mason-natural-vitrum-50-adult-multi-iron-free-100-caplets/151893",
           "product_name": "Mason Natural, Vitrum 50+ Adult-Multi, Iron Free, 100 Caplets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mav/mav18151/u/8.jpg",
@@ -7441,7 +7612,8 @@
         "soy_free",
         "sodium_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Caplet(s)"
     },
     {
       "id": "308493_swanson_biotin_0.025_mg_standard",
@@ -7471,7 +7643,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "179550_nature made_biotin_0.03_mg_standard",
@@ -7506,7 +7679,8 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "271081_nature made_biotin_0.03_mg_standard",
@@ -7539,7 +7713,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "130 Tablet(s)"
     },
     {
       "id": "267909_innate response formulas_biotin_0.08_mg_standard",
@@ -7561,7 +7736,7 @@
           "price": 29.99,
           "price_per_unit": 374.875,
           "product_url": "https://www.iherb.com/pr/innate-response-formulas-men-over-40-one-daily-iron-free-60-tablets/64717",
-          "product_name": "Innate Response Formulas, Men Over 40\u2122 One Daily, Iron Free, 60 Tablets",
+          "product_name": "Innate Response Formulas, Men Over 40™ One Daily, Iron Free, 60 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/inn/inn40125/u/36.jpg",
           "rating": null,
           "reviews": null
@@ -7576,7 +7751,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "75029_natural factors_biotin_0.025_mg_standard",
@@ -7621,7 +7797,8 @@
         "no_artificial_colors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "244972_mason natural_biotin_0.03_mg_standard",
@@ -7654,7 +7831,8 @@
         "soy_free",
         "sodium_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Caplet(s)"
     },
     {
       "id": "267899_innate response formulas_biotin_0.03_mg_standard",
@@ -7691,7 +7869,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "270630_bayer one a day_biotin_0.035_mg_standard",
@@ -7727,7 +7906,8 @@
         "egg_free",
         "no_artificial_flavors"
       ],
-      "match_score": 90.0
+      "match_score": 90,
+      "dsld_content": "60 Softgel(s)"
     }
   ]
 }

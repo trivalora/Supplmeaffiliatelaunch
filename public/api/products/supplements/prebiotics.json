@@ -3529,7 +3529,7 @@
       "best_total_price": 20.79,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3548,7 +3548,7 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 87.0
+      "match_score": 87
     },
     {
       "id": "286240_zint_added sugars_2000.0_mg_standard",
@@ -3563,7 +3563,7 @@
       "best_total_price": 17.59,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3578,7 +3578,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "8 fl. oz."
     },
     {
       "id": "259582_dietworks_added sugars_1000.0_mg_standard",
@@ -3593,7 +3594,7 @@
       "best_total_price": 14.89,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3615,7 +3616,7 @@
         "shellfish_free",
         "peanut_free"
       ],
-      "match_score": 87.0
+      "match_score": 87
     },
     {
       "id": "253068_youtheory_organic triphala blend_1000.0_mg_standard",
@@ -3630,7 +3631,7 @@
       "best_total_price": 23.22,
       "unit": "mg",
       "primary_ingredient": "Organic Triphala Blend",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3645,7 +3646,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3.4 oz."
     },
     {
       "id": "298409_codeage_fermented organic botanical blend_1268.0_mg_standard",
@@ -3660,7 +3662,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Fermented Organic Botanical Blend",
-      "amount_per_serving": 1268.0,
+      "amount_per_serving": 1268,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -3675,7 +3677,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "335403_codeage_fermented organic botanical blend_1268.0_mg_standard",
@@ -3690,7 +3693,7 @@
       "best_total_price": 44.99,
       "unit": "mg",
       "primary_ingredient": "Fermented Organic Botanical Blend",
-      "amount_per_serving": 1268.0,
+      "amount_per_serving": 1268,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -3705,7 +3708,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "272257_dr. emil nutrition_corebiome_1000.0_mg_standard",
@@ -3720,7 +3724,7 @@
       "best_total_price": 41.95,
       "unit": "mg",
       "primary_ingredient": "CoreBiome",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3755,7 +3759,7 @@
       "best_total_price": 14.19,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3772,7 +3776,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "40 Veggie Capsule(s)"
     },
     {
       "id": "241596_yerba prima_calcium_100.0_mg_standard",
@@ -3787,7 +3792,7 @@
       "best_total_price": 14.02,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3818,7 +3823,8 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "12 oz."
     },
     {
       "id": "253108_new chapter all-flora_digestive support blend_82.5_mg_standard",
@@ -3863,7 +3869,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "333190_megafood_fructooligosaccharides_100.0_mg_standard",
@@ -3878,7 +3885,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Fructooligosaccharides",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3893,7 +3900,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "333196_megafood_fructooligosaccharides_100.0_mg_standard",
@@ -3908,7 +3916,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Fructooligosaccharides",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3923,7 +3931,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "241584_yerba prima_calcium_40.0_mg_standard",
@@ -3938,7 +3947,7 @@
       "best_total_price": 14.96,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3969,7 +3978,8 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "230251_olly_bacillus coagulans mtcc 5856_33.0_mg_standard",
@@ -3984,7 +3994,7 @@
       "best_total_price": 12.89,
       "unit": "mg",
       "primary_ingredient": "Bacillus coagulans MTCC 5856",
-      "amount_per_serving": 33.0,
+      "amount_per_serving": 33,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4002,7 +4012,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 95.8
+      "match_score": 95.8,
+      "dsld_content": "30 Gummie(s)"
     },
     {
       "id": "292795_physician's choice_acacia senegal_50.0_mg_standard",
@@ -4017,7 +4028,7 @@
       "best_total_price": 25.29,
       "unit": "mg",
       "primary_ingredient": "Acacia senegal",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4049,7 +4060,7 @@
       "best_total_price": 21.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4064,7 +4075,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "84 Caplet(s)"
     },
     {
       "id": "317866_benefiber_calories_30.0_calorie_standard",
@@ -4079,7 +4091,7 @@
       "best_total_price": 25.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4106,14 +4118,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-FiberMend-Prebiotic-693749002826.jpg",
       "best_price_per_unit": 0.9333333333333333,
-      "best_total_price": 42.0,
+      "best_total_price": 42,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 42.0,
+          "price": 42,
           "price_per_unit": 0.9333333333333333,
           "product_url": "https://www.vitacost.com/thorne-fibermend-prebiotic",
           "product_name": "Thorne FiberMend Prebiotic -- 11.6 oz",
@@ -4124,7 +4136,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "11.6 oz."
     },
     {
       "id": "326076_solaray_calories_25.0_calorie_standard",
@@ -4139,7 +4152,7 @@
       "best_total_price": 30.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4154,7 +4167,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "5.64 oz."
     },
     {
       "id": "335406_codeage_phytoceramides_30.0_mg_standard",
@@ -4169,7 +4183,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Phytoceramides",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -4184,7 +4198,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "249837_bioschwartz_preforpro_15.0_mg_standard",
@@ -4199,7 +4214,7 @@
       "best_total_price": 24.09,
       "unit": "mg",
       "primary_ingredient": "PreforPro",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4217,7 +4232,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "263103_tomorrow's nutrition_calories_15.0_calorie_standard",
@@ -4232,14 +4248,14 @@
       "best_total_price": 29.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 29.99,
           "price_per_unit": 1.9993333333333332,
           "product_url": "https://www.gnc.com/fiber/557818.html",
-          "product_name": "Tomorrow's Nutrition\u2122\nSunfiber\u00ae GI Prebiotic Fiber & Probiotic Blend - 6.4 oz. (30 Servings)",
+          "product_name": "Tomorrow's Nutrition™\nSunfiber® GI Prebiotic Fiber & Probiotic Blend - 6.4 oz. (30 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4253,7 +4269,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "6.4 oz."
     },
     {
       "id": "250931_renew life_calories_5.0_calorie_standard",
@@ -4268,7 +4285,7 @@
       "best_total_price": 16.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4302,7 +4319,7 @@
       "best_total_price": 25.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4319,7 +4336,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "278084_align_bifidobacterium longum longum 35624_4.0_mg_standard",
@@ -4334,7 +4352,7 @@
       "best_total_price": 23.89,
       "unit": "mg",
       "primary_ingredient": "Bifidobacterium longum longum 35624",
-      "amount_per_serving": 4.0,
+      "amount_per_serving": 4,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4351,7 +4369,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "6 Capsule(s)"
     },
     {
       "id": "62068_megafood_biotin_0.3_mg_standard",

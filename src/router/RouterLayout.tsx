@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useMemo } from 'react';
+import React, { Suspense, useEffect, useMemo, lazy } from 'react';
 import { Routes, Route, useLocation, Navigate, useNavigate } from 'react-router-dom';
 import { pushPageView } from '../analytics/dataLayer';
 import { buildRoutes, RouteSEO } from './routeMap';
@@ -600,6 +600,11 @@ export function RouterLayout() {
             {routes.map(r => (
               <Route key={r.path} path={r.path} element={r.element} />
             ))}
+            {/* Dynamic product page routes */}
+            <Route path="/:supplement/product/:productId" element={(() => {
+              const ProductPageLazy = lazy(() => import('../components/ProductPage').then(m => ({ default: m.ProductPage })));
+              return <ProductPageLazy onNavigate={handleNavigateHeader} />;
+            })()} />
             {Object.entries(ALIAS_REDIRECTS).map(([from, to]) => (
               <Route key={from} path={from} element={<Navigate to={to} replace />} />
             ))}

@@ -493,7 +493,11 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                           {filteredProducts.map((product, idx) => {
                             const lowestRetailerPrice = product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit)[0];
                             return (
-                              <tr key={idx} className={`border-b-2 border-secondary/30 hover:bg-tertiary/70 transition-colors ${idx % 2 === 0 ? 'bg-background' : 'bg-tertiary/20'}`}>
+                              <tr 
+                                key={idx} 
+                                className={`border-b-2 border-secondary/30 hover:bg-tertiary/70 transition-colors cursor-pointer ${idx % 2 === 0 ? 'bg-background' : 'bg-tertiary/20'}`}
+                                onClick={() => reactNavigate(`/${currentSupplement}/product/${product.id}`)}
+                              >
                                 <td className="p-4">
                                   <div className="w-20 h-20 bg-tertiary rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
                                     {(() => {

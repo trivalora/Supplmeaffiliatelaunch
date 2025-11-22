@@ -37,6 +37,7 @@ export function loadComponent(componentName: string): ComponentType<any> | null 
   if (componentName === 'MethodologyPage') return lazy(() => import('../components/MethodologyPage').then(m => ({ default: m.MethodologyPage })));
   if (componentName === 'PartnerPage') return lazy(() => import('../components/PartnerPage').then(m => ({ default: m.PartnerPage })));
   if (componentName === 'ProductComparison') return lazy(() => import('../components/ProductComparison').then(m => ({ default: m.ProductComparison })));
+  if (componentName === 'ProductPage') return lazy(() => import('../components/ProductPage').then(m => ({ default: m.ProductPage })));
 
   // Product Comparison pages
   if (componentName === 'AshwagandhaComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.AshwagandhaComparison })));

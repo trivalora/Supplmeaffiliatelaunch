@@ -6,7 +6,7 @@
     "product_count": 156,
     "price_per_unit_range": {
       "min": 0.0031775,
-      "max": 1213.0,
+      "max": 1213,
       "avg": 47.07792666995323
     },
     "total_price_range": {
@@ -3529,7 +3529,7 @@
       "best_total_price": 12.71,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -3548,7 +3548,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "205972_emergen-c_added sugars_4000.0_mg_standard",
@@ -3563,7 +3564,7 @@
       "best_total_price": 14.79,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3578,7 +3579,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "4 Capsule(s)"
     },
     {
       "id": "270968_nature made_added sugars_2000.0_mg_standard",
@@ -3593,7 +3598,7 @@
       "best_total_price": 9.59,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3612,7 +3617,8 @@
         "no_artificial_flavors",
         "no_artificial_sweeteners"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "80 Gummie(s)"
     },
     {
       "id": "270242_best naturals_vitamin c_2250.0_mg_standard",
@@ -3627,7 +3633,7 @@
       "best_total_price": 11.29,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 2250.0,
+      "amount_per_serving": 2250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3653,7 +3659,8 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1 lbs."
     },
     {
       "id": "292650_havasu nutrition_added sugars_3000.0_mg_standard",
@@ -3668,7 +3675,7 @@
       "best_total_price": 17.69,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3683,7 +3690,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "298644_nature's plus_vitamin c_5000.0_mg_standard",
@@ -3698,7 +3706,7 @@
       "best_total_price": 30.59,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3713,7 +3721,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 oz."
     },
     {
       "id": "269672_doctor's best_added sugars_3000.0_mg_standard",
@@ -3728,7 +3737,7 @@
       "best_total_price": 20.39,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3747,7 +3756,10 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "250 mg"
+      ]
     },
     {
       "id": "304802_carlson laboratories_added sugars_2000.0_mg_standard",
@@ -3762,7 +3774,7 @@
       "best_total_price": 14.88,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3779,7 +3791,10 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 88.3
+      "match_score": 88.3,
+      "dosage": [
+        "125 mg"
+      ]
     },
     {
       "id": "248826_nature's plus_added sugars_2000.0_mg_standard",
@@ -3794,7 +3809,7 @@
       "best_total_price": 16.49,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3814,7 +3829,10 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "318741_mason natural_vitamin c_1000.0_mg_standard",
@@ -3829,7 +3847,7 @@
       "best_total_price": 8.69,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3848,7 +3866,11 @@
         "gluten_free",
         "sodium_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "243011_gnc_vitamin c_1000.0_mg_standard",
@@ -3863,7 +3885,7 @@
       "best_total_price": 9.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -3887,7 +3909,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Caplet(s)"
     },
     {
       "id": "273183_nutribiotic immunity_vitamin c_2000.0_mg_pharmaceutical_grade",
@@ -3902,7 +3928,7 @@
       "best_total_price": 20.49,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3938,7 +3964,7 @@
       "best_total_price": 10.42,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3968,7 +3994,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "65679_nature's bounty_vitamin c_1000.0_mg_standard",
@@ -3983,7 +4013,7 @@
       "best_total_price": 11.36,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4011,7 +4041,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "100 Caplet(s)"
     },
     {
       "id": "75593_source naturals_vitamin c_1054.0_mg_standard",
@@ -4026,7 +4060,7 @@
       "best_total_price": 11.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1054.0,
+      "amount_per_serving": 1054,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4045,7 +4079,8 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "16 oz."
     },
     {
       "id": "8961_nature made_vitamin c_500.0_mg_standard",
@@ -4060,7 +4095,7 @@
       "best_total_price": 5.89,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4079,7 +4114,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "201666_solgar_vitamin c_1000.0_mg_standard",
@@ -4094,7 +4133,7 @@
       "best_total_price": 11.79,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4114,7 +4153,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "241546_nature's answer_vitamin c_1000.0_mg_standard",
@@ -4129,7 +4172,7 @@
       "best_total_price": 11.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4148,7 +4191,10 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 mg"
+      ]
     },
     {
       "id": "228735_nutrachamps_elderberry fruit blend_1200.0_mg_maximum_strength",
@@ -4163,7 +4209,7 @@
       "best_total_price": 14.95,
       "unit": "mg",
       "primary_ingredient": "Elderberry Fruit Blend",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4198,7 +4244,7 @@
       "best_total_price": 13.29,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1054.0,
+      "amount_per_serving": 1054,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4232,7 +4278,7 @@
       "best_total_price": 12.79,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4251,7 +4297,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "183704_allergy research group_vitamin c_2000.0_mg_buffered",
@@ -4266,7 +4316,7 @@
       "best_total_price": 25.69,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4298,7 +4348,7 @@
       "best_total_price": 25.69,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4315,7 +4365,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "69110_solgar_vitamin c_500.0_mg_standard",
@@ -4330,14 +4381,14 @@
       "best_total_price": 6.49,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 6.49,
           "price_per_unit": 0.01298,
           "product_url": "https://www.vitacost.com/solgar-ester-c-plus-vitamin-c-500-mg-50-vegetable-capsules-2",
-          "product_name": "Solgar Ester-C\u00ae Plus Vitamin C -- 500 mg - 50 Vegetable C...",
+          "product_name": "Solgar Ester-C® Plus Vitamin C -- 500 mg - 50 Vegetable C...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Ester-C-Plus-500-mg-Vitamin-C-033984010383.jpg",
           "rating": null,
           "reviews": null
@@ -4360,7 +4411,10 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "4360_nature's bounty_vitamin c_1000.0_mg_standard",
@@ -4375,7 +4429,7 @@
       "best_total_price": 13.09,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4403,7 +4457,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "75593_source naturals_vitamin c_1054.0_mg_standard",
@@ -4418,14 +4476,14 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1054.0,
+      "amount_per_serving": 1054,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 14.99,
           "price_per_unit": 0.014222011385199242,
           "product_url": "https://www.vitacost.com/source-naturals-vegan-true-vitamin-c-plantioxidant-complex-60-tablets",
-          "product_name": "Source Naturals Vegan True\u2122 Vitamin C Plantioxidant Compl...",
+          "product_name": "Source Naturals Vegan True™ Vitamin C Plantioxidant Compl...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Vegan-True-Vitamin-C-Plantioxidant-Complex-021078025931.jpg",
           "rating": null,
           "reviews": null
@@ -4452,7 +4510,7 @@
       "best_total_price": 14.24,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4469,7 +4527,7 @@
           "price": 17.02,
           "price_per_unit": 0.01702,
           "product_url": "https://www.vitacost.com/solgar-ester-c-plus-vitamin-c-1000-mg-90-tablets",
-          "product_name": "Solgar Ester-C\u00ae Plus Vitamin C -- 1000 mg - 90 Tablets",
+          "product_name": "Solgar Ester-C® Plus Vitamin C -- 1000 mg - 90 Tablets",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Ester-C-Plus-Vitamin-C-033984010529.jpg",
           "rating": null,
           "reviews": null
@@ -4482,7 +4540,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "50 Capsule(s)"
     },
     {
       "id": "73721_solgar_vitamin c_1000.0_mg_standard",
@@ -4497,7 +4559,7 @@
       "best_total_price": 14.51,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4527,7 +4589,10 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1,000 mg"
+      ]
     },
     {
       "id": "8843_nature made_vitamin c_1000.0_mg_standard",
@@ -4542,7 +4607,7 @@
       "best_total_price": 14.89,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4561,7 +4626,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "80 g"
     },
     {
       "id": "69110_solgar_vitamin c_500.0_mg_standard",
@@ -4576,7 +4645,7 @@
       "best_total_price": 7.59,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4596,7 +4665,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "242230_carlson laboratories_vitamin c_1000.0_mg_standard",
@@ -4611,7 +4684,7 @@
       "best_total_price": 16.92,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4629,7 +4702,11 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "13318_solaray_echinacea root_600.0_mg_standard",
@@ -4644,7 +4721,7 @@
       "best_total_price": 10.59,
       "unit": "mg",
       "primary_ingredient": "Echinacea Root",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4659,7 +4736,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "228735_nutrachamps_elderberry fruit blend_1200.0_mg_maximum_strength",
@@ -4674,7 +4752,7 @@
       "best_total_price": 21.95,
       "unit": "mg",
       "primary_ingredient": "Elderberry Fruit Blend",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4694,7 +4772,8 @@
         "non_gmo",
         "maximum_strength"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 mL; 4 fl. oz."
     },
     {
       "id": "326148_solaray_bioflavonoid blend_500.0_mg_standard",
@@ -4709,7 +4788,7 @@
       "best_total_price": 9.39,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoid Blend",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4727,7 +4806,8 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "100 Veg Capsule(s)"
     },
     {
       "id": "8841_nature made_vitamin c_500.0_mg_standard",
@@ -4742,7 +4822,7 @@
       "best_total_price": 9.79,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4761,7 +4841,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "130 Caplet(s)"
     },
     {
       "id": "272762_lake avenue nutrition_vitamin c_1000.0_mg_standard",
@@ -4776,7 +4860,7 @@
       "best_total_price": 22.4,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4791,7 +4875,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "250 g; 8.81 oz."
     },
     {
       "id": "8841_nature made_vitamin c_500.0_mg_standard",
@@ -4806,7 +4891,7 @@
       "best_total_price": 11.29,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4825,7 +4910,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "8722_nature made_vitamin c_500.0_mg_standard",
@@ -4840,7 +4929,7 @@
       "best_total_price": 11.89,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4859,7 +4948,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "75593_source naturals_vitamin c_1054.0_mg_standard",
@@ -4874,7 +4967,7 @@
       "best_total_price": 25.6,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1054.0,
+      "amount_per_serving": 1054,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4893,7 +4986,8 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "202981_doctor's best_vitamin c_500.0_mg_standard",
@@ -4908,7 +5002,7 @@
       "best_total_price": 12.89,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4929,7 +5023,11 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Veggie Capsule(s)"
     },
     {
       "id": "260120_gnc_vitamin c_500.0_mg_standard",
@@ -4944,7 +5042,7 @@
       "best_total_price": 12.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -4959,7 +5057,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Gummie(s)"
     },
     {
       "id": "69110_solgar_vitamin c_500.0_mg_standard",
@@ -4974,14 +5073,14 @@
       "best_total_price": 13.49,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 13.49,
           "price_per_unit": 0.02698,
           "product_url": "https://www.vitacost.com/solgar-ester-c-plus-vitamin-c-500-mg-100-vegetable-capsules-1",
-          "product_name": "Solgar Ester-C\u00ae Plus Vitamin C -- 500 mg - 100 Vegetable ...",
+          "product_name": "Solgar Ester-C® Plus Vitamin C -- 500 mg - 100 Vegetable ...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Ester-C-Plus-500-mg-Vitamin-C-033984010390.jpg",
           "rating": null,
           "reviews": null
@@ -4994,7 +5093,10 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "8961_nature made_vitamin c_500.0_mg_standard",
@@ -5009,7 +5111,7 @@
       "best_total_price": 13.79,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5028,7 +5130,8 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "201666_solgar_vitamin c_1000.0_mg_standard",
@@ -5043,7 +5146,7 @@
       "best_total_price": 27.74,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5063,7 +5166,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "236998_nature's bounty_vitamin c_500.0_mg_standard",
@@ -5078,7 +5185,7 @@
       "best_total_price": 13.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5108,7 +5215,11 @@
         "no_artificial_sweeteners",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "17116_nature's bounty_vitamin c_500.0_mg_standard",
@@ -5123,7 +5234,7 @@
       "best_total_price": 14.39,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5151,7 +5262,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "305899_gnc_vitamin c_1000.0_mg_standard",
@@ -5166,7 +5281,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -5181,7 +5296,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "500 Caplet(s)"
     },
     {
       "id": "257198_zenwise labs_green tea extract_725.0_mg_standard",
@@ -5196,7 +5315,7 @@
       "best_total_price": 21.97,
       "unit": "mg",
       "primary_ingredient": "Green Tea extract",
-      "amount_per_serving": 725.0,
+      "amount_per_serving": 725,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5215,7 +5334,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "326133_solaray_bioflavonoid concentrate_500.0_mg_fast_acting_sustained_release",
@@ -5230,7 +5350,7 @@
       "best_total_price": 15.19,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoid Concentrate",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5250,7 +5370,11 @@
         "sustained_release",
         "fast_acting"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Veg Capsule(s)"
     },
     {
       "id": "207675_solaray_calcium_610.0_mg_standard",
@@ -5265,7 +5389,7 @@
       "best_total_price": 18.89,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 610.0,
+      "amount_per_serving": 610,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5300,7 +5424,11 @@
       ],
       "available_retailers": 3,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "5000 mg"
+      ],
+      "dsld_content": "8 oz."
     },
     {
       "id": "298333_nature's plus_vitamin c_675.0_mg_standard",
@@ -5315,7 +5443,7 @@
       "best_total_price": 21.28,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 675.0,
+      "amount_per_serving": 675,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5330,7 +5458,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "675 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "8718_nature made_vitamin c_1000.0_mg_standard",
@@ -5345,7 +5477,7 @@
       "best_total_price": 33.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5364,7 +5496,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "300 Tablet(s)"
     },
     {
       "id": "288170_nature's bounty_vitamin c_1000.0_mg_standard",
@@ -5379,7 +5515,7 @@
       "best_total_price": 34.29,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5394,7 +5530,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "300 Caplet(s)"
     },
     {
       "id": "69111_solgar_vitamin c_500.0_mg_standard",
@@ -5409,7 +5549,7 @@
       "best_total_price": 17.49,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5429,7 +5569,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "269169_healthy origins_vitamin c_1000.0_mg_standard",
@@ -5444,7 +5588,7 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5463,7 +5607,11 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "360 Veggie Capsule(s)"
     },
     {
       "id": "69110_solgar_vitamin c_500.0_mg_standard",
@@ -5478,7 +5626,7 @@
       "best_total_price": 18.09,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5498,7 +5646,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "275085_garden of life vitamin code_raw organic fruit & vegetable blend_720.0_mg_standard",
@@ -5513,7 +5662,7 @@
       "best_total_price": 27.19,
       "unit": "mg",
       "primary_ingredient": "Raw Organic Fruit & Vegetable Blend",
-      "amount_per_serving": 720.0,
+      "amount_per_serving": 720,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5530,7 +5679,11 @@
       "filters": [
         "raw"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "273072_california gold nutrition_sodium_130.0_mg_buffered",
@@ -5545,7 +5698,7 @@
       "best_total_price": 4.96,
       "unit": "mg",
       "primary_ingredient": "Sodium",
-      "amount_per_serving": 130.0,
+      "amount_per_serving": 130,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5565,7 +5718,8 @@
         "soy_free",
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "242258_carlson laboratories_vitamin c_1000.0_mg_standard",
@@ -5580,7 +5734,7 @@
       "best_total_price": 38.17,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5597,7 +5751,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "250 Softgel(s)"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -5612,7 +5770,7 @@
       "best_total_price": 7.89,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5629,7 +5787,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Chewable(s)"
     },
     {
       "id": "71578_nature's bounty_cranberry concentrate_504.0_mg_standard",
@@ -5644,7 +5803,7 @@
       "best_total_price": 22.47,
       "unit": "mg",
       "primary_ingredient": "Cranberry concentrate",
-      "amount_per_serving": 504.0,
+      "amount_per_serving": 504,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5687,7 +5846,7 @@
       "best_total_price": 22.89,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5702,7 +5861,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 94.0
+      "match_score": 94,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "250 Veg Capsule(s)"
     },
     {
       "id": "305191_vital nutrients_citrus bioflavonoid_500.0_mg_standard",
@@ -5717,7 +5880,7 @@
       "best_total_price": 22.9,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoid",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5732,7 +5895,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Vegan Capsule(s)"
     },
     {
       "id": "265305_megafood_astragalus_500.0_mg_standard",
@@ -5747,7 +5911,7 @@
       "best_total_price": 22.99,
       "unit": "mg",
       "primary_ingredient": "Astragalus",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5784,7 +5948,7 @@
       "best_total_price": 46.69,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5805,7 +5969,10 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 mg"
+      ]
     },
     {
       "id": "43794_21st century_calcium_125.0_mg_standard",
@@ -5820,7 +5987,7 @@
       "best_total_price": 7.49,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5835,7 +6002,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "179569_nature made_vitamin c_500.0_mg_standard",
@@ -5850,7 +6018,7 @@
       "best_total_price": 29.97,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5870,7 +6038,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "500 Caplet(s)"
     },
     {
       "id": "4361_nature's bounty_echinacea_100.0_mg_standard",
@@ -5885,7 +6057,7 @@
       "best_total_price": 6.49,
       "unit": "mg",
       "primary_ingredient": "Echinacea",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5913,7 +6085,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "296252_solaray_echinacea_300.0_mg_standard",
@@ -5928,7 +6104,7 @@
       "best_total_price": 19.59,
       "unit": "mg",
       "primary_ingredient": "Echinacea",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5943,7 +6119,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "321350_garden of life_vitamin c_250.0_mg_standard",
@@ -5958,7 +6138,7 @@
       "best_total_price": 17.19,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5994,7 +6174,7 @@
       "best_total_price": 11.59,
       "unit": "mg",
       "primary_ingredient": "Raw Organic Fruit & Vegetable Blend",
-      "amount_per_serving": 166.0,
+      "amount_per_serving": 166,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6012,7 +6192,8 @@
         "kosher",
         "raw"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegan Capsule(s)"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -6027,7 +6208,7 @@
       "best_total_price": 14.19,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6044,7 +6225,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "213389_nature's way_rose hips_200.0_mg_standard",
@@ -6059,7 +6241,7 @@
       "best_total_price": 14.69,
       "unit": "mg",
       "primary_ingredient": "Rose Hips",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6077,7 +6259,8 @@
         "gluten_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1 Capsule(s)"
     },
     {
       "id": "207591_country life_calcium_200.0_mg_standard",
@@ -6092,7 +6275,7 @@
       "best_total_price": 14.87,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6126,7 +6309,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "296236_solaray_bioflavonoid complex_500.0_mg_buffered",
@@ -6141,7 +6328,7 @@
       "best_total_price": 44.19,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoid Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6158,7 +6345,11 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "360 Veg Capsule(s)"
     },
     {
       "id": "296007_solaray_bioflavonoid concentrate_100.0_mg_buffered",
@@ -6173,7 +6364,7 @@
       "best_total_price": 8.89,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoid Concentrate",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6192,7 +6383,11 @@
         "vegetarian",
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "223238_vital nutrients_citrus bioflavonoid complex_500.0_mg_standard",
@@ -6207,7 +6402,7 @@
       "best_total_price": 44.9,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoid Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6224,7 +6419,8 @@
       "filters": [
         "raw"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "220 Capsule(s)"
     },
     {
       "id": "179432_natural factors_citrus bioflavonoids extract_100.0_mg_standard",
@@ -6239,7 +6435,7 @@
       "best_total_price": 9.07,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids extract",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6259,7 +6455,8 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "296007_solaray_bioflavonoid concentrate_100.0_mg_buffered",
@@ -6274,7 +6471,7 @@
       "best_total_price": 9.39,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoid Concentrate",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -6293,7 +6490,8 @@
         "vegetarian",
         "buffered"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "54371_allergy research group_calcium_190.0_mg_buffered",
@@ -6308,7 +6506,7 @@
       "best_total_price": 18.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 190.0,
+      "amount_per_serving": 190,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6340,7 +6538,7 @@
       "best_total_price": 18.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 190.0,
+      "amount_per_serving": 190,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6357,7 +6555,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "287235_dr. mercola_vitamin c_125.0_mg_standard",
@@ -6372,7 +6571,7 @@
       "best_total_price": 12.49,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6387,7 +6586,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 94.0
+      "match_score": 94,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "335037_jigsaw health_potassium_380.0_mg_standard",
@@ -6402,7 +6602,7 @@
       "best_total_price": 39.97,
       "unit": "mg",
       "primary_ingredient": "Potassium",
-      "amount_per_serving": 380.0,
+      "amount_per_serving": 380,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6432,7 +6632,7 @@
       "best_total_price": 12.97,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 115.0,
+      "amount_per_serving": 115,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6449,7 +6649,8 @@
       "filters": [
         "maximum_strength"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "296007_solaray_bioflavonoid concentrate_100.0_mg_buffered",
@@ -6464,7 +6665,7 @@
       "best_total_price": 11.99,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoid Concentrate",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6483,7 +6684,11 @@
         "vegetarian",
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "100 Veg Capsule(s)"
     },
     {
       "id": "296048_solaray_liposomal blend_241.0_mg_liposomal",
@@ -6498,7 +6703,7 @@
       "best_total_price": 29.59,
       "unit": "mg",
       "primary_ingredient": "Liposomal Blend",
-      "amount_per_serving": 241.0,
+      "amount_per_serving": 241,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6527,7 +6732,11 @@
         "vegetarian",
         "liposomal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "100 Veg Capsule(s)"
     },
     {
       "id": "318374_healths harmony_calcium_115.0_mg_maximum_strength",
@@ -6542,7 +6751,7 @@
       "best_total_price": 14.97,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 115.0,
+      "amount_per_serving": 115,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6574,7 +6783,7 @@
       "best_total_price": 40.74,
       "unit": "mg",
       "primary_ingredient": "Amla Fruit Extract",
-      "amount_per_serving": 310.0,
+      "amount_per_serving": 310,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6607,7 +6816,7 @@
       "best_total_price": 20.99,
       "unit": "mg",
       "primary_ingredient": "Raw Organic Fruit & Vegetable Blend",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6624,7 +6833,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "231632_life extension_calcium_145.0_mg_standard",
@@ -6636,14 +6849,14 @@
       "dsld_brand": "Life Extension",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Buffered-Vitamin-C-Powder-737870084457.jpg",
       "best_price_per_unit": 0.14482758620689656,
-      "best_total_price": 21.0,
+      "best_total_price": 21,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 145.0,
+      "amount_per_serving": 145,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
-          "price": 21.0,
+          "price": 21,
           "price_per_unit": 0.14482758620689656,
           "product_url": "https://supplementwarehouse.com/products/le-buffered-vitamin-c-454g/?expa_m=search&expa_st=vitamin+c",
           "product_name": "Life Extension Buffered Vitamin C 454g",
@@ -6653,7 +6866,7 @@
         },
         {
           "retailer": "Vitacost",
-          "price": 21.0,
+          "price": 21,
           "price_per_unit": 0.14482758620689656,
           "product_url": "https://www.vitacost.com/life-extension-buffered-vitamin-c-powder",
           "product_name": "Life Extension Buffered Vitamin C Powder -- 1 lb",
@@ -6668,7 +6881,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "454 g"
     },
     {
       "id": "193338_nutricology_calcium_202.0_mg_buffered",
@@ -6683,7 +6897,7 @@
       "best_total_price": 29.69,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 202.0,
+      "amount_per_serving": 202,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6700,7 +6914,8 @@
       "filters": [
         "buffered"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "240 g"
     },
     {
       "id": "298457_nature's plus_rose hip_100.0_mg_standard",
@@ -6715,7 +6930,7 @@
       "best_total_price": 14.83,
       "unit": "mg",
       "primary_ingredient": "Rose Hip",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6730,7 +6945,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 mg"
+      ]
     },
     {
       "id": "207595_country life_calcium_200.0_mg_standard",
@@ -6745,7 +6963,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6779,7 +6997,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "308488_swanson_calcium_60.0_mg_standard",
@@ -6794,7 +7016,7 @@
       "best_total_price": 9.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6809,7 +7031,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "207830_mason natural_niacinamide_50.0_mg_standard",
@@ -6824,7 +7047,7 @@
       "best_total_price": 8.19,
       "unit": "mg",
       "primary_ingredient": "Niacinamide",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6839,7 +7062,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "247527_natural factors_citrus bioflavonoids extract_50.0_mg_sustained_release",
@@ -6854,7 +7078,7 @@
       "best_total_price": 9.07,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids extract",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6890,7 +7114,7 @@
       "best_total_price": 38.29,
       "unit": "mg",
       "primary_ingredient": "Boswellia extract",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6920,7 +7144,7 @@
       "best_total_price": 6.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 33.0,
+      "amount_per_serving": 33,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -6945,7 +7169,10 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 MG"
+      ]
     },
     {
       "id": "247527_natural factors_citrus bioflavonoids extract_50.0_mg_sustained_release",
@@ -6960,7 +7187,7 @@
       "best_total_price": 11.17,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids extract",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6996,7 +7223,7 @@
       "best_total_price": 22.89,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoid Concentrate",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7015,7 +7242,11 @@
         "vegetarian",
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "250 Veg Capsule(s)"
     },
     {
       "id": "333253_country life_calcium_100.0_mg_buffered",
@@ -7030,7 +7261,7 @@
       "best_total_price": 22.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7058,7 +7289,11 @@
         "non_gmo",
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "243010_gnc_calcium_33.0_mg_standard",
@@ -7073,7 +7308,7 @@
       "best_total_price": 7.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 33.0,
+      "amount_per_serving": 33,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -7098,7 +7333,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "250 Caplet(s)"
     },
     {
       "id": "296008_solaray_bioflavonoid concentrate_100.0_mg_buffered",
@@ -7113,7 +7352,7 @@
       "best_total_price": 24.99,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoid Concentrate",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7132,7 +7371,11 @@
         "vegetarian",
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "250 Veg Capsule(s)"
     },
     {
       "id": "321399_garden of life vitamin code_raw probiotic & enzyme blend_60.0_mg_standard",
@@ -7147,7 +7390,7 @@
       "best_total_price": 15.39,
       "unit": "mg",
       "primary_ingredient": "Raw Probiotic & Enzyme Blend",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7165,7 +7408,11 @@
         "kosher",
         "raw"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "210981_life extension_bio-quercetin phytosome_29.0_mg_standard",
@@ -7180,7 +7427,7 @@
       "best_total_price": 7.5,
       "unit": "mg",
       "primary_ingredient": "Bio-Quercetin Phytosome",
-      "amount_per_serving": 29.0,
+      "amount_per_serving": 29,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7207,7 +7454,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "6 Capsule(s)"
     },
     {
       "id": "75009_natural factors_berryrich berry blend concentrate_50.0_mg_buffered",
@@ -7222,14 +7470,14 @@
       "best_total_price": 13.97,
       "unit": "mg",
       "primary_ingredient": "BerryRich Berry Blend Concentrate",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 13.97,
           "price_per_unit": 0.27940000000000004,
           "product_url": "https://www.iherb.com/pr/natural-factors-biocgel-buffered-vitamin-c-with-berryrich-90-softgels/20868",
-          "product_name": "Natural Factors, BioCgel\u2122, Buffered Vitamin C with BerryRich\u00ae, 90 Softgels",
+          "product_name": "Natural Factors, BioCgel™, Buffered Vitamin C with BerryRich®, 90 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nfs/nfs01353/u/51.jpg",
           "rating": null,
           "reviews": null
@@ -7241,7 +7489,8 @@
         "non_gmo",
         "buffered"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "328843_thorne_citrus bioflavonoids_75.0_mg_standard",
@@ -7253,14 +7502,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-C-with-Flavonoids-693749012481.jpg",
       "best_price_per_unit": 0.28,
-      "best_total_price": 21.0,
+      "best_total_price": 21,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids",
-      "amount_per_serving": 75.0,
+      "amount_per_serving": 75,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 21.0,
+          "price": 21,
           "price_per_unit": 0.28,
           "product_url": "https://www.vitacost.com/thorne-vitamin-c-with-flavonoids",
           "product_name": "Thorne Vitamin C with Flavonoids -- 90 Capsules",
@@ -7270,7 +7519,7 @@
         },
         {
           "retailer": "iHerb",
-          "price": 21.0,
+          "price": 21,
           "price_per_unit": 0.28,
           "product_url": "https://www.iherb.com/pr/thorne-vitamin-c-with-flavonoids-90-capsules/111899",
           "product_name": "Thorne, Vitamin C with Flavonoids, 90 Capsules",
@@ -7281,7 +7530,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "264079_nature's answer_calories_35.0_calorie_standard",
@@ -7296,7 +7546,7 @@
       "best_total_price": 10.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 35.0,
+      "amount_per_serving": 35,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7313,7 +7563,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "8 fl. oz."
     },
     {
       "id": "228821_nutrachamps_citrus bioflavonoids_50.0_mg_standard",
@@ -7328,7 +7579,7 @@
       "best_total_price": 15.95,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7359,14 +7610,14 @@
       "dsld_brand": "Kirkman",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/kim/kim02171/u/51.jpg",
       "best_price_per_unit": 0.32,
-      "best_total_price": 24.0,
+      "best_total_price": 24,
       "unit": "mg",
       "primary_ingredient": "Sodium",
-      "amount_per_serving": 75.0,
+      "amount_per_serving": 75,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 24.0,
+          "price": 24,
           "price_per_unit": 0.32,
           "product_url": "https://www.iherb.com/pr/kirkman-labs-buffered-vitamin-c-powder-unflavored-7-oz-198-5-g/58430",
           "product_name": "Kirkman Labs, Buffered Vitamin C Powder, Unflavoured, 7 oz (198.5 g)",
@@ -7377,7 +7628,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "198.5 g; 7 oz."
     },
     {
       "id": "269626_integrative therapeutics_citrus bioflavonoid complex_125.0_mg_standard",
@@ -7392,7 +7644,7 @@
       "best_total_price": 40.5,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoid Complex",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7411,7 +7663,8 @@
         "vegetarian",
         "wheat_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "179426_natural factors_citrus bioflavonoids extract_50.0_mg_sustained_release",
@@ -7426,7 +7679,7 @@
       "best_total_price": 16.77,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids extract",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7447,7 +7700,10 @@
         "no_artificial_colors",
         "sustained_release"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 mg"
+      ]
     },
     {
       "id": "298500_nature's plus_calories_60.0_calorie_standard",
@@ -7462,7 +7718,7 @@
       "best_total_price": 22.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7477,7 +7733,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "30 fl. oz."
     },
     {
       "id": "201628_solgar_rose hips_62.5_mg_standard",
@@ -7512,7 +7772,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "219413_solgar_acerola extract_25.0_mg_standard",
@@ -7527,7 +7791,7 @@
       "best_total_price": 9.79,
       "unit": "mg",
       "primary_ingredient": "Acerola extract",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7548,7 +7812,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "24769_metabolic maintenance_hesperidin_80.0_mg_standard",
@@ -7563,7 +7831,7 @@
       "best_total_price": 32.5,
       "unit": "mg",
       "primary_ingredient": "Hesperidin",
-      "amount_per_serving": 80.0,
+      "amount_per_serving": 80,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7578,7 +7846,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "228821_nutrachamps_citrus bioflavonoids_50.0_mg_standard",
@@ -7593,7 +7862,7 @@
       "best_total_price": 21.95,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7612,7 +7881,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "325763_terry naturally_quercetin_50.0_mg_standard",
@@ -7627,7 +7897,7 @@
       "best_total_price": 23.16,
       "unit": "mg",
       "primary_ingredient": "Quercetin",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7657,7 +7927,7 @@
       "best_total_price": 13.19,
       "unit": "mg",
       "primary_ingredient": "Rose Hip",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7672,7 +7942,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "239498_amen_citrus bioflavonoid complex_50.0_mg_standard",
@@ -7687,7 +7961,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoid Complex",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7719,7 +7993,7 @@
       "best_total_price": 52.2,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 93.0,
+      "amount_per_serving": 93,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7737,7 +8011,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Capsule(s)"
     },
     {
       "id": "286229_zint_calories_20.0_calorie_standard",
@@ -7752,7 +8027,7 @@
       "best_total_price": 13.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7767,7 +8042,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3.5 oz."
     },
     {
       "id": "249914_bioschwartz_citrus bioflavonoids_20.0_mg_standard",
@@ -7782,7 +8058,7 @@
       "best_total_price": 13.97,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7797,7 +8073,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "298390_codeage_alpha lipoic acid_100.0_mg {alpha}-te_standard",
@@ -7812,7 +8089,7 @@
       "best_total_price": 69.99,
       "unit": "mg {alpha}-te",
       "primary_ingredient": "Alpha Lipoic Acid",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -7852,7 +8129,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7869,7 +8146,8 @@
       "filters": [
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "269852_nutricost_rose hips powder_25.0_mg_standard",
@@ -7884,7 +8162,7 @@
       "best_total_price": 19.59,
       "unit": "mg",
       "primary_ingredient": "Rose Hips powder",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7902,7 +8180,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "240 Capsule(s)"
     },
     {
       "id": "224729_gnc_citrus bioflavonoids complex_25.0_mg_standard",
@@ -7917,7 +8199,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids Complex",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -7943,7 +8225,10 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 mg"
+      ]
     },
     {
       "id": "271565_nature made_calories_15.0_calorie_standard",
@@ -7958,7 +8243,7 @@
       "best_total_price": 13.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7973,7 +8258,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "150 g"
     },
     {
       "id": "229659_hi-tech pharmaceuticals_citrus bioflavonoids_25.0_mg_liposomal",
@@ -7988,7 +8277,7 @@
       "best_total_price": 22.95,
       "unit": "mg",
       "primary_ingredient": "Citrus Bioflavonoids",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -8005,7 +8294,8 @@
       "filters": [
         "liposomal"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "200 Tablet(s)"
     },
     {
       "id": "258393_ancient nutrition_bacillus subtilis_20.0_mg_standard",
@@ -8020,7 +8310,7 @@
       "best_total_price": 21.19,
       "unit": "mg",
       "primary_ingredient": "Bacillus subtilis",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8050,14 +8340,14 @@
       "best_total_price": 26.89,
       "unit": "mg",
       "primary_ingredient": "Acerola extract",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 26.89,
           "price_per_unit": 1.0756000000000001,
           "product_url": "https://www.vitacost.com/solgar-ester-c-plus-vitamin-c-1000-mg-180-tablets-1",
-          "product_name": "Solgar Ester-C\u00ae Plus Vitamin C -- 1000 mg - 180 Tablets",
+          "product_name": "Solgar Ester-C® Plus Vitamin C -- 1000 mg - 180 Tablets",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-Ester-C-Plus-Vitamin-C-033984010536.jpg",
           "rating": null,
           "reviews": null
@@ -8071,7 +8361,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 95.8
+      "match_score": 95.8,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "204594_country life_calories_10.0_calorie_standard",
@@ -8086,7 +8380,7 @@
       "best_total_price": 12.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -8106,7 +8400,8 @@
         "yeast_free",
         "no_artificial_colors"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Wafer(s)"
     },
     {
       "id": "228835_healthforce superfoods_calories_25.0_calorie_standard",
@@ -8121,7 +8416,7 @@
       "best_total_price": 34.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8141,7 +8436,8 @@
         "kosher",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "180 g"
     },
     {
       "id": "228871_healthforce superfoods_calories_25.0_calorie_standard",
@@ -8156,7 +8452,7 @@
       "best_total_price": 34.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8176,7 +8472,8 @@
         "kosher",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "59243_country life_calories_10.0_calorie_standard",
@@ -8191,7 +8488,7 @@
       "best_total_price": 15.75,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8210,7 +8507,10 @@
         "dairy_free",
         "yeast_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "203744_innate response formulas_fruit phenolic blend_50.0_mg_standard",
@@ -8225,7 +8525,7 @@
       "best_total_price": 84.99,
       "unit": "mg",
       "primary_ingredient": "Fruit Phenolic Blend",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8248,7 +8548,11 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "180 Tablet(s)"
     },
     {
       "id": "287233_dr. mercola_calories_10.0_calorie_liposomal",
@@ -8263,7 +8567,7 @@
       "best_total_price": 18.75,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8280,7 +8584,11 @@
       "filters": [
         "liposomal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "317467_healthforce superfoods_calories_25.0_calorie_standard",
@@ -8295,14 +8603,14 @@
       "best_total_price": 49.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 49.95,
           "price_per_unit": 1.9980000000000002,
           "product_url": "https://www.vitacost.com/healthforce-superfoods-truly-natural-vitamin-c-240-vegancaps",
-          "product_name": "HealthForce Superfoods Truly Natural\u2122 Vitamin C -- 240 Ve...",
+          "product_name": "HealthForce Superfoods Truly Natural™ Vitamin C -- 240 Ve...",
           "image_url": "https://www.vitacost.com/Images/Products/200/HealthForce-Superfoods/HealthForce-Superfoods-Truly-Natural-Vitamin-C-650786003575.jpg",
           "rating": null,
           "reviews": null
@@ -8315,7 +8623,8 @@
         "kosher",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Veg Capsule(s)"
     },
     {
       "id": "246091_nature's way alive!_calories_10.0_calorie_isolate",
@@ -8330,7 +8639,7 @@
       "best_total_price": 23.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8365,14 +8674,14 @@
       "best_total_price": 37.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 37.49,
           "price_per_unit": 2.4993333333333334,
           "product_url": "https://www.vitacost.com/natures-answer-epifytosomes-liposomal-vitamin-c",
-          "product_name": "Nature's Answer EpiFytosomes\u2122 Liposomal Vitamin C -- 8 oz",
+          "product_name": "Nature's Answer EpiFytosomes™ Liposomal Vitamin C -- 8 oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Natures-Answer/Natures-Answer-EpiFytosomes-Liposomal-Vitamin-C-083000269400.jpg",
           "rating": null,
           "reviews": null
@@ -8388,7 +8697,8 @@
         "non_gmo",
         "liposomal"
       ],
-      "match_score": 94.0
+      "match_score": 94,
+      "dsld_content": "8 oz."
     },
     {
       "id": "308761_dr. mercola_calories_10.0_calorie_standard",
@@ -8403,7 +8713,7 @@
       "best_total_price": 43.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8418,7 +8728,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "500 mg Per Capsule; 500 mg"
+      ],
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "287234_dr. mercola_calories_10.0_calorie_standard",
@@ -8433,7 +8747,7 @@
       "best_total_price": 46.25,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8448,7 +8762,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "327417_garden of life vitamin code_mixed tocopherols; powder_4.0_mg_standard",
@@ -8463,7 +8781,7 @@
       "best_total_price": 21.09,
       "unit": "mg",
       "primary_ingredient": "Mixed Tocopherols; Powder",
-      "amount_per_serving": 4.0,
+      "amount_per_serving": 4,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8540,7 +8858,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "244313_purity products_biotin_0.3_mg_standard",
@@ -8562,7 +8881,7 @@
           "price": 19.99,
           "price_per_unit": 66.63333333333333,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=591141&source=productlist",
-          "product_name": "Purity Products\u00ae\nVitamin C Melt Water Pure - 30 Tablets (30 Servings)",
+          "product_name": "Purity Products®\nVitamin C Melt Water Pure - 30 Tablets (30 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -8570,7 +8889,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "67354_garden of life vitamin code_biotin_0.3_mg_standard",
@@ -8592,7 +8912,7 @@
           "price": 63.79,
           "price_per_unit": 212.63333333333333,
           "product_url": "https://www.vitacost.com/garden-of-life-vitamin-code-perfect-weight-240-vegetarian-capsules",
-          "product_name": "Garden of Life Vitamin Code\u00ae Perfect Weight\u2122 -- 240 Veget...",
+          "product_name": "Garden of Life Vitamin Code® Perfect Weight™ -- 240 Veget...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Vitamin-Code-Perfect-Weight-658010114219.jpg",
           "rating": null,
           "reviews": null
@@ -8616,16 +8936,16 @@
       "dsld_product_name": "B-Complex with Vitamin C Stress Formula",
       "dsld_brand": "Solgar",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-B-Complex-with-Vitamin-C-Stress-Formula-033984002005.jpg",
-      "best_price_per_unit": 440.0,
-      "best_total_price": 11.0,
+      "best_price_per_unit": 440,
+      "best_total_price": 11,
       "unit": "mg",
       "primary_ingredient": "Biotin",
       "amount_per_serving": 0.025,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 11.0,
-          "price_per_unit": 440.0,
+          "price": 11,
+          "price_per_unit": 440,
           "product_url": "https://www.vitacost.com/solgar-b-complex-with-vitamin-c-stress-formula-100-tablets",
           "product_name": "Solgar B-Complex with Vitamin C Stress Formula -- 100 Tab...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solgar/Solgar-B-Complex-with-Vitamin-C-Stress-Formula-033984002005.jpg",
@@ -8640,7 +8960,8 @@
         "halal",
         "dairy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "236745_garden of life vitamin code_biotin_0.035_mg_standard",
@@ -8662,7 +8983,7 @@
           "price": 16.39,
           "price_per_unit": 468.2857142857143,
           "product_url": "https://www.vitacost.com/garden-of-life-vitamin-code-raw-prenatal-30-vegetarian-capsules-3",
-          "product_name": "Garden of Life Vitamin Code\u00ae RAW Prenatal -- 30 Vegetaria...",
+          "product_name": "Garden of Life Vitamin Code® RAW Prenatal -- 30 Vegetaria...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Vitamin-Code-RAW-Prenatal-658010115896.jpg",
           "rating": null,
           "reviews": null
@@ -8685,7 +9006,7 @@
       "dsld_product_name": "Super B-Complex",
       "dsld_brand": "Nature Made",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ndm/ndm02727/u/30.jpg",
-      "best_price_per_unit": 483.0,
+      "best_price_per_unit": 483,
       "best_total_price": 14.49,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -8694,7 +9015,7 @@
         {
           "retailer": "iHerb",
           "price": 14.49,
-          "price_per_unit": 483.0,
+          "price_per_unit": 483,
           "product_url": "https://www.iherb.com/pr/nature-made-super-b-complex-with-vitamin-c-140-tablets/70876",
           "product_name": "Nature Made, Super B-Complex with Vitamin C, 140 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ndm/ndm02727/u/30.jpg",
@@ -8709,7 +9030,8 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "140 Tablet(s)"
     },
     {
       "id": "274909_garden of life vitamin code_biotin_0.03_mg_standard",
@@ -8814,7 +9136,8 @@
         "halal",
         "dairy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Tablet(s)"
     },
     {
       "id": "274909_garden of life vitamin code_biotin_0.03_mg_standard",
@@ -8871,7 +9194,7 @@
           "price": 32.89,
           "price_per_unit": 1096.3333333333335,
           "product_url": "https://www.vitacost.com/garden-of-life-vitamin-code-men",
-          "product_name": "Garden of Life Vitamin Code\u00ae Men -- 120 Vegetarian Capsules",
+          "product_name": "Garden of Life Vitamin Code® Men -- 120 Vegetarian Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Vitamin-Code-Men-658010113687.jpg",
           "rating": null,
           "reviews": null
@@ -8884,7 +9207,8 @@
         "no_artificial_colors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "297628_garden of life vitamin code_biotin_0.03_mg_standard",
@@ -8895,7 +9219,7 @@
       "dsld_product_name": "Family",
       "dsld_brand": "Garden of Life Vitamin Code",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Vitamin-Code-RAW-Family-Formula-658010113700.jpg",
-      "best_price_per_unit": 1213.0,
+      "best_price_per_unit": 1213,
       "best_total_price": 36.39,
       "unit": "mg",
       "primary_ingredient": "Biotin",
@@ -8904,9 +9228,9 @@
         {
           "retailer": "Vitacost",
           "price": 36.39,
-          "price_per_unit": 1213.0,
+          "price_per_unit": 1213,
           "product_url": "https://www.vitacost.com/garden-of-life-vitamin-code-raw-family-formula-120-vegetarian-capsules-2",
-          "product_name": "Garden of Life Vitamin Code\u00ae RAW Family Formula -- 120 Ve...",
+          "product_name": "Garden of Life Vitamin Code® RAW Family Formula -- 120 Ve...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Vitamin-Code-RAW-Family-Formula-658010113700.jpg",
           "rating": null,
           "reviews": null
@@ -8916,7 +9240,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Veg Capsule(s)"
     }
   ]
 }

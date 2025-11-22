@@ -3528,7 +3528,7 @@
       "best_total_price": 16.89,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3546,7 +3546,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "50 Gummie(s)"
     },
     {
       "id": "273197_olly_added sugars_2000.0_mg_standard",
@@ -3561,7 +3562,7 @@
       "best_total_price": 13.19,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3576,7 +3577,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.5
+      "match_score": 96.5,
+      "dsld_content": "70 Gummie(s)"
     },
     {
       "id": "228989_nutrachamps_antioxidant blend_4000.0_mg_standard",
@@ -3591,7 +3593,7 @@
       "best_total_price": 31.95,
       "unit": "mg",
       "primary_ingredient": "Antioxidant Blend",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3627,7 +3629,7 @@
       "best_total_price": 8.49,
       "unit": "mg",
       "primary_ingredient": "Cranberry concentrate",
-      "amount_per_serving": 900.0,
+      "amount_per_serving": 900,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3657,7 +3659,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Fructooligosaccharides",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3687,7 +3689,7 @@
       "best_total_price": 16.99,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3702,7 +3704,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.5
+      "match_score": 96.5,
+      "dsld_content": "100 Gummie(s)"
     },
     {
       "id": "205804_now_total carbohydrates_1000.0_mg_standard",
@@ -3717,7 +3720,7 @@
       "best_total_price": 17.19,
       "unit": "mg",
       "primary_ingredient": "Total Carbohydrates",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3736,7 +3739,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "271653_nutrition now_proprietary probiotic blend_755.0_mg_standard",
@@ -3751,7 +3755,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Proprietary Probiotic Blend",
-      "amount_per_serving": 755.0,
+      "amount_per_serving": 755,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3769,7 +3773,8 @@
         "gluten_free",
         "dairy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "74337_now_total carbohydrates_1000.0_mg_standard",
@@ -3784,14 +3789,14 @@
       "best_total_price": 20.59,
       "unit": "mg",
       "primary_ingredient": "Total Carbohydrates",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 20.59,
           "price_per_unit": 0.02059,
           "product_url": "https://www.vitacost.com/now-probiotic-10-50-billion-powder",
-          "product_name": "NOW Probiotic-10\u2122 50 Billion Powder -- 2 oz",
+          "product_name": "NOW Probiotic-10™ 50 Billion Powder -- 2 oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-Probiotic-10-50-Billion-Powder-733739029270.jpg",
           "rating": null,
           "reviews": null
@@ -3804,7 +3809,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 oz."
     },
     {
       "id": "65732_organic india_organic ceylon cinnamon_650.0_mg_standard",
@@ -3819,7 +3825,7 @@
       "best_total_price": 17.99,
       "unit": "mg",
       "primary_ingredient": "organic Ceylon Cinnamon",
-      "amount_per_serving": 650.0,
+      "amount_per_serving": 650,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3855,7 +3861,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Fermented Organic Botanical Blend",
-      "amount_per_serving": 1268.0,
+      "amount_per_serving": 1268,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3870,7 +3876,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.3
+      "match_score": 96.3,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "287218_dr. mercola_dr. mercola's probiotic blend_376.0_mg_standard",
@@ -3882,14 +3889,14 @@
       "dsld_brand": "Dr. Mercola",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Organic-Complete-Probiotics-Gummies-for-Kids-Natural-Cherry-810094214081.jpg",
       "best_price_per_unit": 0.0398936170212766,
-      "best_total_price": 15.0,
+      "best_total_price": 15,
       "unit": "mg",
       "primary_ingredient": "Dr. Mercola's Probiotic Blend",
-      "amount_per_serving": 376.0,
+      "amount_per_serving": 376,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 15.0,
+          "price": 15,
           "price_per_unit": 0.0398936170212766,
           "product_url": "https://www.vitacost.com/dr-mercola-organic-complete-probiotics-gummies-for-kids",
           "product_name": "Dr. Mercola Organic Complete Probiotics Gummies for Kids ...",
@@ -3915,14 +3922,14 @@
       "best_total_price": 24.98,
       "unit": "mg",
       "primary_ingredient": "LS3664 Whole Health Superblend",
-      "amount_per_serving": 541.0,
+      "amount_per_serving": 541,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 24.98,
           "price_per_unit": 0.04617375231053605,
           "product_url": "https://www.vitacost.com/force-factor-probioslim-extra-strength-probiotics",
-          "product_name": "Force Factor ProbioSlim\u00ae Extra Strength Probiotics -- 30 ...",
+          "product_name": "Force Factor ProbioSlim® Extra Strength Probiotics -- 30 ...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Force-Factor/Force-Factor-ProbioSlim-Extra-Strength-Probiotics-818594014811.jpg",
           "rating": null,
           "reviews": null
@@ -3930,7 +3937,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "63970_nature's way_cranrx bioactive cranberry 100% whole cranberry fruit solids_500.0_mg_standard",
@@ -3945,7 +3953,7 @@
       "best_total_price": 24.79,
       "unit": "mg",
       "primary_ingredient": "CranRx Bioactive Cranberry 100% whole Cranberry fruit solids",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3979,7 +3987,7 @@
       "best_total_price": 19.97,
       "unit": "mg",
       "primary_ingredient": "Advanced Enzyme & Prebiotic System",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3994,7 +4002,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "205615_21st century_proprietary blend_175.0_mg_standard",
@@ -4009,7 +4018,7 @@
       "best_total_price": 9.49,
       "unit": "mg",
       "primary_ingredient": "Proprietary Blend",
-      "amount_per_serving": 175.0,
+      "amount_per_serving": 175,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4026,7 +4035,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "213401_flora_women's probiotic blend_378.0_mg_standard",
@@ -4041,7 +4051,7 @@
       "best_total_price": 21.24,
       "unit": "mg",
       "primary_ingredient": "Women's Probiotic Blend",
-      "amount_per_serving": 378.0,
+      "amount_per_serving": 378,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4058,7 +4068,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Vegetarian Capsule(s)"
     },
     {
       "id": "298407_amen_prebiotic blend_440.0_mg_standard",
@@ -4073,7 +4084,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Prebiotic Blend",
-      "amount_per_serving": 440.0,
+      "amount_per_serving": 440,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4105,7 +4116,7 @@
       "best_total_price": 11.99,
       "unit": "mg",
       "primary_ingredient": "Proprietary Blend",
-      "amount_per_serving": 175.0,
+      "amount_per_serving": 175,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4122,7 +4133,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "150 Capsule(s)"
     },
     {
       "id": "220948_natural factors_cranrich cranberry concentrate_300.0_mg_standard",
@@ -4137,7 +4149,7 @@
       "best_total_price": 20.97,
       "unit": "mg",
       "primary_ingredient": "CranRich Cranberry concentrate",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4155,7 +4167,8 @@
         "vegetarian",
         "no_artificial_colors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "12 Capsule(s)"
     },
     {
       "id": "242637_garden of life primal defense_hso probiotic blend_410.0_mg_standard",
@@ -4170,14 +4183,14 @@
       "best_total_price": 33.29,
       "unit": "mg",
       "primary_ingredient": "HSO Probiotic Blend",
-      "amount_per_serving": 410.0,
+      "amount_per_serving": 410,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 33.29,
           "price_per_unit": 0.08119512195121951,
           "product_url": "https://www.vitacost.com/garden-of-life-primal-defense-ultra-probiotic-formula-15-billion-cells-60-vegetarian-capsules",
-          "product_name": "Garden of Life Primal Defense\u00ae Ultra Probiotic Formula --...",
+          "product_name": "Garden of Life Primal Defense® Ultra Probiotic Formula --...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Primal-Defense-Ultra-Probiotic-Formula-658010113366.jpg",
           "rating": null,
           "reviews": null
@@ -4204,7 +4217,7 @@
       "best_total_price": 25.46,
       "unit": "mg",
       "primary_ingredient": "Men's Support Blend",
-      "amount_per_serving": 310.0,
+      "amount_per_serving": 310,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4234,7 +4247,7 @@
       "best_total_price": 28.99,
       "unit": "mg",
       "primary_ingredient": "Enzyme Blend",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4260,7 +4273,8 @@
         "no_artificial_sweeteners",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "25 Capsule(s)"
     },
     {
       "id": "231417_sunbiotics_prebiotic blend_250.0_mg_standard",
@@ -4275,7 +4289,7 @@
       "best_total_price": 20.79,
       "unit": "mg",
       "primary_ingredient": "Prebiotic Blend",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4310,14 +4324,14 @@
       "best_total_price": 16.99,
       "unit": "mg",
       "primary_ingredient": "NutraFlora FOS",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 16.99,
           "price_per_unit": 0.08495,
           "product_url": "https://www.vitacost.com/vitacost-probiotic-10-20-10-strains",
-          "product_name": "Vitacost Probiotic 10-20 10 Strains -- 20 billion CFU\u2020 pe...",
+          "product_name": "Vitacost Probiotic 10-20 10 Strains -- 20 billion CFU† pe...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Vitacost/Vitacost-Probiotic-10-20-10-Strains-835003004287.jpg",
           "rating": null,
           "reviews": null
@@ -4340,7 +4354,7 @@
       "best_total_price": 42.46,
       "unit": "mg",
       "primary_ingredient": "Organic Fermented Botanical Blend",
-      "amount_per_serving": 480.0,
+      "amount_per_serving": 480,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4370,7 +4384,7 @@
       "best_total_price": 21.54,
       "unit": "mg",
       "primary_ingredient": "Fish Oil",
-      "amount_per_serving": 240.0,
+      "amount_per_serving": 240,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4402,14 +4416,14 @@
       "best_total_price": 56.88,
       "unit": "mg",
       "primary_ingredient": "Acacia Gum Fiber",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 56.88,
           "price_per_unit": 0.09480000000000001,
           "product_url": "https://www.iherb.com/pr/vibrant-health-green-vibrance-25-billion-probiotics-version-21-0-original-11-64-oz-330-g/4749",
-          "product_name": "Vibrant Health, Green Vibrance\u00ae +25 Billion Probiotics, Version 21.0, Original, 11.64 oz (330 g)",
+          "product_name": "Vibrant Health, Green Vibrance® +25 Billion Probiotics, Version 21.0, Original, 11.64 oz (330 g)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vbh/vbh80001/u/84.jpg",
           "rating": null,
           "reviews": null
@@ -4420,7 +4434,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "330 g; 11.64 oz."
     },
     {
       "id": "257195_zenwise labs_advanced enzyme & prebiotic system_400.0_mg_standard",
@@ -4435,7 +4450,7 @@
       "best_total_price": 39.97,
       "unit": "mg",
       "primary_ingredient": "Advanced Enzyme & Prebiotic System",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4465,7 +4480,7 @@
       "best_total_price": 24.79,
       "unit": "mg",
       "primary_ingredient": "Fish Oil",
-      "amount_per_serving": 240.0,
+      "amount_per_serving": 240,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4482,7 +4497,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "305807_ancient nutrition_organic prebiotic and postbiotic blend_240.0_mg_standard",
@@ -4497,7 +4513,7 @@
       "best_total_price": 25.46,
       "unit": "mg",
       "primary_ingredient": "Organic Prebiotic and Postbiotic Blend",
-      "amount_per_serving": 240.0,
+      "amount_per_serving": 240,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4512,7 +4528,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.3
+      "match_score": 96.3,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "287218_dr. mercola_dr. mercola's probiotic blend_376.0_mg_standard",
@@ -4527,7 +4544,7 @@
       "best_total_price": 41.25,
       "unit": "mg",
       "primary_ingredient": "Dr. Mercola's Probiotic Blend",
-      "amount_per_serving": 376.0,
+      "amount_per_serving": 376,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4557,7 +4574,7 @@
       "best_total_price": 44.16,
       "unit": "mg",
       "primary_ingredient": "D-Mannose",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4593,7 +4610,7 @@
       "best_total_price": 22.09,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4610,7 +4627,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Veg Capsule(s)"
     },
     {
       "id": "298552_nature's plus_acai concentrate_300.0_mg_standard",
@@ -4625,7 +4643,7 @@
       "best_total_price": 34.81,
       "unit": "mg",
       "primary_ingredient": "Acai Concentrate",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4652,14 +4670,14 @@
       "dsld_brand": "Life Extension Florassist Probiotic",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Florassist-Probiotic-Womens-Health-737870250531.jpg",
       "best_price_per_unit": 0.11755485893416928,
-      "best_total_price": 24.0,
+      "best_total_price": 24,
       "unit": "mg",
       "primary_ingredient": "Lactobacillus helveticus LAFTI L10",
       "amount_per_serving": 204.16,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 24.0,
+          "price": 24,
           "price_per_unit": 0.11755485893416928,
           "product_url": "https://www.vitacost.com/life-extension-florassist-probiotic-womens-health",
           "product_name": "Life Extension Florassist Probiotic Women's Health -- 30 ...",
@@ -4672,7 +4690,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "220042_liquid labs_3b-hydroxy-androst-1ene-17-one_125.0_mg_standard",
@@ -4687,7 +4706,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androst-1ene-17-one",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4717,7 +4736,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Cran-Gyn",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4750,7 +4769,7 @@
       "best_total_price": 23.19,
       "unit": "mg",
       "primary_ingredient": "Daily Digestive Balance Blend",
-      "amount_per_serving": 190.0,
+      "amount_per_serving": 190,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4780,7 +4799,7 @@
       "best_total_price": 46.19,
       "unit": "mg",
       "primary_ingredient": "Dr. Mercola's Probiotic Blend",
-      "amount_per_serving": 376.0,
+      "amount_per_serving": 376,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4795,7 +4814,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3.5 g; 0.12 oz."
     },
     {
       "id": "250846_culturelle_inulin_200.0_mg_standard",
@@ -4810,7 +4830,7 @@
       "best_total_price": 24.89,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4842,7 +4862,7 @@
       "best_total_price": 21.24,
       "unit": "mg",
       "primary_ingredient": "Complete Care Probiotic Blend",
-      "amount_per_serving": 165.0,
+      "amount_per_serving": 165,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4860,7 +4880,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Vegetarian Capsule(s)"
     },
     {
       "id": "250881_culturelle_inulin_200.0_mg_standard",
@@ -4875,7 +4896,7 @@
       "best_total_price": 26.09,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4907,7 +4928,7 @@
       "best_total_price": 16.19,
       "unit": "mg",
       "primary_ingredient": "Kids Probiotic Blend (Non-Nutrient/Non-Botanical)",
-      "amount_per_serving": 118.0,
+      "amount_per_serving": 118,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4941,7 +4962,7 @@
       "best_total_price": 20.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 140.0,
+      "amount_per_serving": 140,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4958,7 +4979,8 @@
       "filters": [
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "288728_probiogen_boswellia serrata extract_150.0_mg_standard",
@@ -4973,7 +4995,7 @@
       "best_total_price": 23.39,
       "unit": "mg",
       "primary_ingredient": "Boswellia serrata Extract",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5003,7 +5025,7 @@
       "best_total_price": 8.59,
       "unit": "mg",
       "primary_ingredient": "Proprietary Probiotic Blend",
-      "amount_per_serving": 55.0,
+      "amount_per_serving": 55,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5033,14 +5055,14 @@
       "best_total_price": 22.35,
       "unit": "mg",
       "primary_ingredient": "Probiotic Bacteria Blend",
-      "amount_per_serving": 136.0,
+      "amount_per_serving": 136,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 22.35,
           "price_per_unit": 0.16433823529411765,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-30-billion-cfu-60-veggie-capsules/64009",
-          "product_name": "California Gold Nutrition, LactoBif\u00ae 30 Probiotics, 30 Billion CFU, 60 Veg Capsules",
+          "product_name": "California Gold Nutrition, LactoBif® 30 Probiotics, 30 Billion CFU, 60 Veg Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn00965/u/170.jpg",
           "rating": null,
           "reviews": null
@@ -5048,7 +5070,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "306291_thorne_saccharomyces boulardii_250.0_mg_standard",
@@ -5060,14 +5083,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Sacro-B-Probiotic-693749757030.jpg",
       "best_price_per_unit": 0.172,
-      "best_total_price": 43.0,
+      "best_total_price": 43,
       "unit": "mg",
       "primary_ingredient": "Saccharomyces boulardii",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 43.0,
+          "price": 43,
           "price_per_unit": 0.172,
           "product_url": "https://www.vitacost.com/thorne-sacro-b-probiotic",
           "product_name": "Thorne Sacro-B Probiotic -- 60 Capsules",
@@ -5080,7 +5103,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "321857_eu natural_flourish probiotic complex_173.0_mg_sustained_release",
@@ -5095,7 +5119,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Flourish Probiotic Complex",
-      "amount_per_serving": 173.0,
+      "amount_per_serving": 173,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5127,7 +5151,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Flourish Probiotic Complex",
-      "amount_per_serving": 173.0,
+      "amount_per_serving": 173,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5159,7 +5183,7 @@
       "best_total_price": 35.09,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5176,7 +5200,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "50 Veg Capsule(s)"
     },
     {
       "id": "267662_olly_vaginal probiotic blend_100.0_mg_standard",
@@ -5191,7 +5216,7 @@
       "best_total_price": 17.99,
       "unit": "mg",
       "primary_ingredient": "Vaginal Probiotic Blend",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5247,7 +5272,8 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "14 Vegan Capsule(s)"
     },
     {
       "id": "232695_klean athlete_digestive and prebiotic blend_210.0_mg_standard",
@@ -5262,7 +5288,7 @@
       "best_total_price": 42.6,
       "unit": "mg",
       "primary_ingredient": "Digestive and Prebiotic Blend",
-      "amount_per_serving": 210.0,
+      "amount_per_serving": 210,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5295,7 +5321,7 @@
       "best_total_price": 32.19,
       "unit": "mg",
       "primary_ingredient": "Intelliflora Blend",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5310,7 +5336,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "284188_thorne_bacillus coagulans_133.0_mg_standard",
@@ -5322,14 +5349,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Bacillus-Coagulans-Probiotic-693749758020.jpg",
       "best_price_per_unit": 0.24812030075187969,
-      "best_total_price": 33.0,
+      "best_total_price": 33,
       "unit": "mg",
       "primary_ingredient": "Bacillus coagulans",
-      "amount_per_serving": 133.0,
+      "amount_per_serving": 133,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 33.0,
+          "price": 33,
           "price_per_unit": 0.24812030075187969,
           "product_url": "https://www.vitacost.com/thorne-bacillus-coagulans-probiotic",
           "product_name": "Thorne Bacillus Coagulans Probiotic -- 60 Capsules",
@@ -5342,7 +5369,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "309188_ancient nutrition_gut restore blend_170.0_mg_standard",
@@ -5357,7 +5385,7 @@
       "best_total_price": 42.46,
       "unit": "mg",
       "primary_ingredient": "Gut Restore Blend",
-      "amount_per_serving": 170.0,
+      "amount_per_serving": 170,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5387,7 +5415,7 @@
       "best_total_price": 26.36,
       "unit": "mg",
       "primary_ingredient": "FloraSure Probiotic Blend",
-      "amount_per_serving": 101.0,
+      "amount_per_serving": 101,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5402,7 +5430,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3 Capsule(s)"
     },
     {
       "id": "257204_master supplements_proprietary probiotic blend_133.0_mg_standard",
@@ -5417,7 +5446,7 @@
       "best_total_price": 35.39,
       "unit": "mg",
       "primary_ingredient": "Proprietary Probiotic Blend",
-      "amount_per_serving": 133.0,
+      "amount_per_serving": 133,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5447,14 +5476,14 @@
       "best_total_price": 9.75,
       "unit": "mg",
       "primary_ingredient": "Probiotic Bacteria Blend",
-      "amount_per_serving": 36.0,
+      "amount_per_serving": 36,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 9.75,
           "price_per_unit": 0.2708333333333333,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-lactobif-5-probiotics-5-billion-cfu-60-veggie-capsules/64006",
-          "product_name": "California Gold Nutrition, LactoBif\u00ae 5 Probiotics, 5 Billion CFU, 60 Veg Capsules",
+          "product_name": "California Gold Nutrition, LactoBif® 5 Probiotics, 5 Billion CFU, 60 Veg Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn00963/u/172.jpg",
           "rating": null,
           "reviews": null
@@ -5462,7 +5491,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "257204_master supplements_proprietary probiotic blend_133.0_mg_standard",
@@ -5477,7 +5507,7 @@
       "best_total_price": 37.46,
       "unit": "mg",
       "primary_ingredient": "Proprietary Probiotic Blend",
-      "amount_per_serving": 133.0,
+      "amount_per_serving": 133,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5492,7 +5522,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "235493_nutricology_acerola berry juice powder_200.0_mg_isolate",
@@ -5507,7 +5538,7 @@
       "best_total_price": 67.59,
       "unit": "mg",
       "primary_ingredient": "Acerola berry juice powder",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5585,7 +5616,7 @@
           "price": 29.97,
           "price_per_unit": 0.36327272727272725,
           "product_url": "https://www.vitacost.com/new-chapter-probiotic-all-flora-30-vegan-capsules",
-          "product_name": "New Chapter Probiotic All-Flora\u2122 -- 30 Vegan Capsules",
+          "product_name": "New Chapter Probiotic All-Flora™ -- 30 Vegan Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Probiotic-All-Flora-727783901828.jpg",
           "rating": null,
           "reviews": null
@@ -5600,7 +5631,8 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "30 Vegan Capsule(s)"
     },
     {
       "id": "326079_solaray_mycrobiome probiotic support blend_110.0_mg_standard",
@@ -5615,7 +5647,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Mycrobiome Probiotic Support Blend",
-      "amount_per_serving": 110.0,
+      "amount_per_serving": 110,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5642,14 +5674,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Chewable-Probiotic-707359129368.jpg",
       "best_price_per_unit": 0.39285714285714285,
-      "best_total_price": 22.0,
+      "best_total_price": 22,
       "unit": "mg",
       "primary_ingredient": "Blend of 10 Strains",
-      "amount_per_serving": 56.0,
+      "amount_per_serving": 56,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 22.0,
+          "price": 22,
           "price_per_unit": 0.39285714285714285,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-chewable-probiotic",
           "product_name": "Protocol For Life Balance Chewable Probiotic -- 90 Chewables",
@@ -5664,7 +5696,8 @@
         "vegetarian",
         "halal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Chewable(s)"
     },
     {
       "id": "323205_physician's choice_d-mannose_60.0_mg_standard",
@@ -5679,7 +5712,7 @@
       "best_total_price": 23.99,
       "unit": "mg",
       "primary_ingredient": "D-Mannose",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5712,7 +5745,7 @@
       "best_total_price": 40.69,
       "unit": "mg",
       "primary_ingredient": "Elderberry Immune Complex",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5744,7 +5777,7 @@
       "best_total_price": 41.39,
       "unit": "mg",
       "primary_ingredient": "Ginfort",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5774,7 +5807,7 @@
       "best_total_price": 50.29,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5789,7 +5822,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "323245_flora_infant probiotic blend_42.51_mg_standard",
@@ -5821,7 +5855,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2.64 oz."
     },
     {
       "id": "326608_new chapter_inulin_100.0_mg_standard",
@@ -5836,7 +5871,7 @@
       "best_total_price": 54.97,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5856,7 +5891,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegan Capsule(s)"
     },
     {
       "id": "213421_flora_adult probiotic blend_82.12_mg_standard",
@@ -5888,7 +5924,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 96.7
+      "match_score": 96.7,
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "213419_flora_children's probiotic blend_30.53_mg_standard",
@@ -5920,7 +5957,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "299461_physician's choice_acacia senegal_50.0_mg_standard",
@@ -5935,7 +5973,7 @@
       "best_total_price": 30.57,
       "unit": "mg",
       "primary_ingredient": "Acacia senegal",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5963,7 +6001,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "299950_probulin_inulin_100.0_mg_standard",
@@ -5978,7 +6017,7 @@
       "best_total_price": 62.99,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5993,7 +6032,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "274777_garden of life raw probiotics_colon transit support enzyme blend_50.0_mg_standard",
@@ -6008,14 +6048,14 @@
       "best_total_price": 33.59,
       "unit": "mg",
       "primary_ingredient": "Colon Transit Support Enzyme Blend",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 33.59,
           "price_per_unit": 0.6718000000000001,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-colon-care-50-billion-30-vegetarian-capsules-1",
-          "product_name": "Garden of Life RAW Probiotics\u2122 Colon Care -- 50 billion -...",
+          "product_name": "Garden of Life RAW Probiotics™ Colon Care -- 50 billion -...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-RAW-Probiotics-Colon-Care-658010116657.jpg",
           "rating": null,
           "reviews": null
@@ -6040,7 +6080,7 @@
       "best_total_price": 31.79,
       "unit": "mg",
       "primary_ingredient": "Eastern European Raw Fruit & Veggie Blend",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6072,7 +6112,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Eastern European Raw Fruit & Veggie Blend",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6102,7 +6142,7 @@
       "best_total_price": 37.5,
       "unit": "mg",
       "primary_ingredient": "(DE111) Bacillus subtilis",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6123,7 +6163,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "300144_organic india_calories_18.0_calorie_standard",
@@ -6138,7 +6179,7 @@
       "best_total_price": 17.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 18.0,
+      "amount_per_serving": 18,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6172,7 +6213,7 @@
       "best_total_price": 40.09,
       "unit": "mg",
       "primary_ingredient": "Postbiotic + Prebiotic Blend",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6187,7 +6228,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "28961_garden of life primal defense_calcium_38.0_mg_standard",
@@ -6202,14 +6244,14 @@
       "best_total_price": 38.79,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 38.0,
+      "amount_per_serving": 38,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 38.79,
           "price_per_unit": 1.0207894736842105,
           "product_url": "https://www.vitacost.com/garden-of-life-primal-defense-hso-probiotic-formula-90-vegetable-caplets",
-          "product_name": "Garden of Life Primal Defense\u00ae HSO\u2122 Probiotic Formula -- ...",
+          "product_name": "Garden of Life Primal Defense® HSO™ Probiotic Formula -- ...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Primal-Defense-HSO-Probiotic-Formula-658010111119.jpg",
           "rating": null,
           "reviews": null
@@ -6236,7 +6278,7 @@
       "best_total_price": 27.29,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6266,7 +6308,7 @@
       "best_total_price": 40.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 36.0,
+      "amount_per_serving": 36,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6298,7 +6340,7 @@
       "best_total_price": 25.46,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6328,7 +6370,7 @@
       "best_total_price": 25.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6345,7 +6387,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2 Capsule(s)"
     },
     {
       "id": "223171_nordic naturals_fos_20.0_mg_standard",
@@ -6360,7 +6403,7 @@
       "best_total_price": 26.31,
       "unit": "mg",
       "primary_ingredient": "FOS",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6396,7 +6439,7 @@
       "best_total_price": 40.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6414,7 +6457,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "307083_natren_vitamin c_20.0_mg_standard",
@@ -6429,14 +6473,14 @@
       "best_total_price": 30.59,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 30.59,
           "price_per_unit": 1.5295,
           "product_url": "https://www.vitacost.com/natren-digesta-lac-probiotic-dairy-powder-2-5-oz",
-          "product_name": "Natren Digesta-Lac\u00ae Probiotic Dairy Powder -- 2.5 oz",
+          "product_name": "Natren Digesta-Lac® Probiotic Dairy Powder -- 2.5 oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Natren/Natren-Digesta-Lac-Probiotic-Dairy-Powder-052557402509.jpg",
           "rating": null,
           "reviews": null
@@ -6444,7 +6488,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "2.5 oz."
     },
     {
       "id": "288730_probiogen_bacillus subtilis hu58_20.0_mg_standard",
@@ -6459,7 +6504,7 @@
       "best_total_price": 32.49,
       "unit": "mg",
       "primary_ingredient": "Bacillus subtilis HU58",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6489,7 +6534,7 @@
       "best_total_price": 37.09,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 22.0,
+      "amount_per_serving": 22,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6504,7 +6549,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3 oz."
     },
     {
       "id": "278089_align_bifidobacterium longum longum 35624_17.5_mg_standard",
@@ -6536,7 +6582,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 96.8
+      "match_score": 96.8,
+      "dsld_content": "21 Capsule(s)"
     },
     {
       "id": "174659_garden of life raw probiotics_calories_15.0_calorie_standard",
@@ -6551,14 +6598,14 @@
       "best_total_price": 32.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 32.59,
           "price_per_unit": 2.1726666666666667,
           "product_url": "https://www.vitacost.com/garden-of-life-raw-probiotics-5-day-max-care-400-billion-cfu-2-4-oz-1",
-          "product_name": "Garden of Life RAW Probiotics\u2122 5-Day Max Care -- 400 bill...",
+          "product_name": "Garden of Life RAW Probiotics™ 5-Day Max Care -- 400 bill...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-RAW-Probiotics-5-Day-Max-Care-658010116664.jpg",
           "rating": null,
           "reviews": null
@@ -6584,7 +6631,7 @@
       "best_total_price": 41.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 18.0,
+      "amount_per_serving": 18,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6614,7 +6661,7 @@
       "best_total_price": 40.19,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 17.0,
+      "amount_per_serving": 17,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6629,7 +6676,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "4.5 oz."
     },
     {
       "id": "305925_natren_vitamin c_17.0_mg_standard",
@@ -6644,7 +6692,7 @@
       "best_total_price": 43.96,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 17.0,
+      "amount_per_serving": 17,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6659,7 +6707,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "271145_menolabs_astaxanthin_15.0_mg_standard",
@@ -6674,14 +6723,14 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Astaxanthin",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 39.99,
           "price_per_unit": 2.666,
           "product_url": "https://www.vitacost.com/menolabs-menofit-menopause-probiotic-for-healthy-weight",
-          "product_name": "MenoLabs MenoFit\u00ae Menopause Probiotic for Healthy Weight ...",
+          "product_name": "MenoLabs MenoFit® Menopause Probiotic for Healthy Weight ...",
           "image_url": "https://www.vitacost.com/Images/Products/200/MenoLabs/MenoLabs-MenoFit-Menopause-Probiotic-for-Healthy-Weight-860007476204.jpg",
           "rating": null,
           "reviews": null
@@ -6714,7 +6763,7 @@
       "best_total_price": 42.97,
       "unit": "mg",
       "primary_ingredient": "Non-Fiber Phage Prebiotic Blend",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6729,7 +6778,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Vegan Capsule(s)"
     },
     {
       "id": "276287_triquetra_flora biome fermented blend_15.0_ml_standard",
@@ -6744,7 +6794,7 @@
       "best_total_price": 46.99,
       "unit": "ml",
       "primary_ingredient": "Flora Biome Fermented Blend",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -6774,7 +6824,7 @@
       "best_total_price": 35.99,
       "unit": "mg",
       "primary_ingredient": "Inulin",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6792,7 +6842,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "326124_solaray_aloe vera leaf gel_5.0_mg_standard",
@@ -6807,7 +6858,7 @@
       "best_total_price": 22.09,
       "unit": "mg",
       "primary_ingredient": "Aloe vera leaf gel",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6822,7 +6873,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "278084_align_bifidobacterium longum longum 35624_4.0_mg_standard",
@@ -6837,7 +6889,7 @@
       "best_total_price": 20.89,
       "unit": "mg",
       "primary_ingredient": "Bifidobacterium longum longum 35624",
-      "amount_per_serving": 4.0,
+      "amount_per_serving": 4,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6854,7 +6906,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "28 Capsule(s)"
     },
     {
       "id": "293433_healthforce superfoods_calories_4.0_calorie_standard",
@@ -6869,7 +6922,7 @@
       "best_total_price": 39.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 4.0,
+      "amount_per_serving": 4,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6884,7 +6937,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "179073_align_bifidobacterium infantis 35624_4.0_mg_standard",
@@ -6899,7 +6953,7 @@
       "best_total_price": 47.89,
       "unit": "mg",
       "primary_ingredient": "Bifidobacterium infantis 35624",
-      "amount_per_serving": 4.0,
+      "amount_per_serving": 4,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6916,7 +6970,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "42 Capsule(s)"
     },
     {
       "id": "179073_align_bifidobacterium infantis 35624_4.0_mg_standard",
@@ -6931,7 +6986,7 @@
       "best_total_price": 58.69,
       "unit": "mg",
       "primary_ingredient": "Bifidobacterium infantis 35624",
-      "amount_per_serving": 4.0,
+      "amount_per_serving": 4,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6963,7 +7018,7 @@
       "best_total_price": 14.99,
       "unit": "mg",
       "primary_ingredient": "Akkermansia muciniphila",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -6993,7 +7048,7 @@
       "best_total_price": 64.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 4.0,
+      "amount_per_serving": 4,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7026,7 +7081,7 @@
       "best_total_price": 24.99,
       "unit": "mg",
       "primary_ingredient": "Akkermansia muciniphila",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7094,7 +7149,8 @@
         "no_artificial_flavors",
         "no_artificial_sweeteners"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "32653_enzymedica_chromium picolinate_0.25_mg_standard",

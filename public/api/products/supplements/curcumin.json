@@ -3529,7 +3529,7 @@
       "best_total_price": 14.29,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 8000.0,
+      "amount_per_serving": 8000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3548,7 +3548,8 @@
         "organic",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "36 Gummie(s)"
     },
     {
       "id": "287162_ancient nutrition_bone broth protein turmeric blend_23000.0_mg_standard",
@@ -3563,7 +3564,7 @@
       "best_total_price": 44.99,
       "unit": "mg",
       "primary_ingredient": "Bone Broth Protein Turmeric Blend",
-      "amount_per_serving": 23000.0,
+      "amount_per_serving": 23000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3588,7 +3589,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "16.2 oz."
     },
     {
       "id": "57189_organic traditions_organic turmeric (curcuma longa) powder_5000.0_mg_standard",
@@ -3603,7 +3605,7 @@
       "best_total_price": 10.49,
       "unit": "mg",
       "primary_ingredient": "organic Turmeric (Curcuma longa) powder",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3618,7 +3620,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "16 oz."
     },
     {
       "id": "200439_yogi_proprietary blend of herbs_2000.0_mg_standard",
@@ -3633,7 +3636,7 @@
       "best_total_price": 4.48,
       "unit": "mg",
       "primary_ingredient": "Proprietary Blend of Herbs",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3652,7 +3655,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "32 g; 1.12 oz.; 16 Tea Bag(s)"
     },
     {
       "id": "306854_nature's truth_added sugars_6000.0_mg_standard",
@@ -3667,7 +3671,7 @@
       "best_total_price": 16.29,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 6000.0,
+      "amount_per_serving": 6000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3699,7 +3703,7 @@
       "best_total_price": 6.89,
       "unit": "mg",
       "primary_ingredient": "Proprietary Blend",
-      "amount_per_serving": 1250.0,
+      "amount_per_serving": 1250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3733,7 +3737,7 @@
       "best_total_price": 5.99,
       "unit": "mg",
       "primary_ingredient": "organic Ginger",
-      "amount_per_serving": 700.0,
+      "amount_per_serving": 700,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3769,7 +3773,7 @@
       "best_total_price": 5.99,
       "unit": "mg",
       "primary_ingredient": "organic Ginger",
-      "amount_per_serving": 700.0,
+      "amount_per_serving": 700,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3790,7 +3794,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "34.2 g; 18 Infusion Bag(s); 1.2 oz."
     },
     {
       "id": "309587_gaia herbs_added sugars_2000.0_mg_standard",
@@ -3805,7 +3810,7 @@
       "best_total_price": 20.69,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3820,7 +3825,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "40 Veg Capsule(s)"
     },
     {
       "id": "307226_oregon's wild harvest_fresh organic turmeric_1000.0_mg_standard",
@@ -3835,7 +3841,7 @@
       "best_total_price": 12.71,
       "unit": "mg",
       "primary_ingredient": "fresh organic Turmeric",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3852,7 +3858,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "77636_planetary herbals_meriva turmeric complex_500.0_mg_standard",
@@ -3867,14 +3874,14 @@
       "best_total_price": 10.85,
       "unit": "mg",
       "primary_ingredient": "Meriva Turmeric Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 10.85,
           "price_per_unit": 0.0217,
           "product_url": "https://www.vitacost.com/planetary-herbals-turmeric-gold-500-mg-30-capsules",
-          "product_name": "Planetary Herbals Turmeric Gold\u2122 -- 500 mg - 30 Capsules",
+          "product_name": "Planetary Herbals Turmeric Gold™ -- 500 mg - 30 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Planetary-Herbals/Planetary-Herbals-Turmeric-Gold-021078107071.jpg",
           "rating": null,
           "reviews": null
@@ -3882,7 +3889,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "271368_nature made_vitamin c_500.0_mg_standard",
@@ -3897,7 +3908,7 @@
       "best_total_price": 10.99,
       "unit": "mg",
       "primary_ingredient": "Vitamin C",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3912,7 +3923,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "244918_mason natural_tumeric_500.0_mg_standard",
@@ -3927,7 +3942,7 @@
       "best_total_price": 11.69,
       "unit": "mg",
       "primary_ingredient": "Tumeric",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3961,7 +3976,7 @@
       "best_total_price": 11.69,
       "unit": "mg",
       "primary_ingredient": "Turmeric",
-      "amount_per_serving": 450.0,
+      "amount_per_serving": 450,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3991,7 +4006,11 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "450 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "207672_solaray_turmeric root extract_600.0_mg_standard",
@@ -4006,7 +4025,7 @@
       "best_total_price": 15.99,
       "unit": "mg",
       "primary_ingredient": "Turmeric root extract",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4021,7 +4040,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "207749_vitacost_turmeric extract_800.0_mg_standard",
@@ -4036,7 +4056,7 @@
       "best_total_price": 21.64,
       "unit": "mg",
       "primary_ingredient": "Turmeric extract",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4051,7 +4071,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "800 mg"
+      ],
+      "dsld_content": "200 Capsule(s)"
     },
     {
       "id": "244918_mason natural_tumeric_500.0_mg_standard",
@@ -4066,7 +4090,7 @@
       "best_total_price": 13.79,
       "unit": "mg",
       "primary_ingredient": "Tumeric",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4100,7 +4124,7 @@
       "best_total_price": 17.39,
       "unit": "mg",
       "primary_ingredient": "Turmeric rhizome (Curcuma longa) extract",
-      "amount_per_serving": 616.0,
+      "amount_per_serving": 616,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4118,7 +4142,8 @@
         "organic",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "207672_solaray_turmeric root extract_600.0_mg_standard",
@@ -4133,7 +4158,7 @@
       "best_total_price": 17.79,
       "unit": "mg",
       "primary_ingredient": "Turmeric root extract",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -4158,7 +4183,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "300mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "243384_purity products_meriva enovita & green tea phytosome blend_1300.0_mg_standard",
@@ -4173,14 +4202,14 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Meriva Enovita & Green Tea Phytosome Blend",
-      "amount_per_serving": 1300.0,
+      "amount_per_serving": 1300,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 39.99,
           "price_per_unit": 0.03076153846153846,
           "product_url": "https://www.gnc.com/joint-support/591123.html",
-          "product_name": "Purity Products\u00ae\nChris Kilham's Clinical Curcumin\u2122 - 90 Capsules (30 Servings)",
+          "product_name": "Purity Products®\nChris Kilham's Clinical Curcumin™ - 90 Capsules (30 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -4192,7 +4221,8 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "205412_qunol_bioenhanced turmeric complex_1000.0_mg_standard",
@@ -4207,7 +4237,7 @@
       "best_total_price": 32.99,
       "unit": "mg",
       "primary_ingredient": "bioenhanced Turmeric Complex",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4222,7 +4252,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "243611_gnc_chondroitin sulfate; sodium_1200.0_mg_standard",
@@ -4237,7 +4271,7 @@
       "best_total_price": 39.99,
       "unit": "mg",
       "primary_ingredient": "Chondroitin Sulfate; Sodium",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -4260,7 +4294,8 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "284239_thorne_curcumin phytosome_1000.0_mg_standard",
@@ -4272,14 +4307,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Curcumin-Phytosome-693749004851.jpg",
       "best_price_per_unit": 0.034,
-      "best_total_price": 34.0,
+      "best_total_price": 34,
       "unit": "mg",
       "primary_ingredient": "Curcumin Phytosome",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 34.0,
+          "price": 34,
           "price_per_unit": 0.034,
           "product_url": "https://www.vitacost.com/thorne-curcumin-phytosome-1000-mg-60-capsules",
           "product_name": "Thorne Curcumin Phytosome -- 1000 mg - 60 Capsules",
@@ -4290,7 +4325,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "207672_solaray_turmeric root extract_600.0_mg_standard",
@@ -4305,14 +4344,14 @@
       "best_total_price": 20.69,
       "unit": "mg",
       "primary_ingredient": "Turmeric root extract",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 20.69,
           "price_per_unit": 0.03448333333333334,
           "product_url": "https://www.vitacost.com/solaray-siliverin-with-dandelion-turmeric-milk-thistle",
-          "product_name": "Solaray Siliverin\u2122 with Dandelion Turmeric & Milk Thistle...",
+          "product_name": "Solaray Siliverin™ with Dandelion Turmeric & Milk Thistle...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Solaray/Solaray-Siliverin-with-Dandelion-Turmeric-And-Milk-Thistle-076280037500.jpg",
           "rating": null,
           "reviews": null
@@ -4335,7 +4374,7 @@
       "best_total_price": 27.96,
       "unit": "mg",
       "primary_ingredient": "Organic Fermented Botanical Blend",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4352,7 +4391,8 @@
       "filters": [
         "fermented"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "207672_solaray_turmeric root extract_600.0_mg_standard",
@@ -4367,7 +4407,7 @@
       "best_total_price": 23.99,
       "unit": "mg",
       "primary_ingredient": "Turmeric root extract",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4382,7 +4422,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "30 Veg Capsule(s)"
     },
     {
       "id": "40405_himalaya_organic turmeric powder_350.0_mg_standard",
@@ -4397,7 +4438,7 @@
       "best_total_price": 14.02,
       "unit": "mg",
       "primary_ingredient": "organic Turmeric powder",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4429,14 +4470,14 @@
       "best_total_price": 20.79,
       "unit": "mg",
       "primary_ingredient": "Meriva Turmeric Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 20.79,
           "price_per_unit": 0.04158,
           "product_url": "https://www.vitacost.com/planetary-herbals-turmeric-gold-500-mg-60-capsules-1",
-          "product_name": "Planetary Herbals Turmeric Gold\u2122 -- 500 mg - 60 Capsules",
+          "product_name": "Planetary Herbals Turmeric Gold™ -- 500 mg - 60 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Planetary-Herbals/Planetary-Herbals-Turmeric-Gold-021078107088.jpg",
           "rating": null,
           "reviews": null
@@ -4444,7 +4485,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "273508_california gold nutrition_black cumin seed oil_200.0_mg_standard",
@@ -4459,14 +4504,14 @@
       "best_total_price": 9.33,
       "unit": "mg",
       "primary_ingredient": "Black Cumin seed Oil",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 9.33,
           "price_per_unit": 0.04665,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-curcuminup-30-fish-gelatin-softgels/73598",
-          "product_name": "California Gold Nutrition, CurcuminUP\u2122, 30 Fish Gelatin Softgels",
+          "product_name": "California Gold Nutrition, CurcuminUP™, 30 Fish Gelatin Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01144/u/159.jpg",
           "rating": null,
           "reviews": null
@@ -4486,14 +4531,14 @@
       "dsld_brand": "Life Extension",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Black-Cumin-Seed-Oil-and-Curcumin-Elite-737870231066.jpg",
       "best_price_per_unit": 0.048,
-      "best_total_price": 24.0,
+      "best_total_price": 24,
       "unit": "mg",
       "primary_ingredient": "Thymocid(TM) organic Black Cumin seed Oil",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
-          "price": 24.0,
+          "price": 24,
           "price_per_unit": 0.048,
           "product_url": "https://supplementwarehouse.com/products/le-black-cumin-seed-oil-w-curcumin-elite-turmeric-extract-60sg/?expa_m=search&expa_st=curcumin",
           "product_name": "Life Extension Black Cumin Seed Oil W/ Curcumin Elite Turmeric Extract 60 Softgels",
@@ -4503,7 +4548,7 @@
         },
         {
           "retailer": "Vitacost",
-          "price": 24.0,
+          "price": 24,
           "price_per_unit": 0.048,
           "product_url": "https://www.vitacost.com/life-extension-black-cumin-seed-oil-and-curcumin-elite",
           "product_name": "Life Extension Black Cumin Seed Oil and Curcumin Elite --...",
@@ -4514,7 +4559,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "307579_jarrow formulas_curcumin phytosome_500.0_mg_standard",
@@ -4529,7 +4575,7 @@
       "best_total_price": 24.49,
       "unit": "mg",
       "primary_ingredient": "Curcumin Phytosome",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4547,7 +4593,10 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "307577_jarrow formulas_total curcuminoids_475.0_mg_standard",
@@ -4562,7 +4611,7 @@
       "best_total_price": 24.39,
       "unit": "mg",
       "primary_ingredient": "Total Curcuminoids",
-      "amount_per_serving": 475.0,
+      "amount_per_serving": 475,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4581,7 +4630,11 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "289067_paradise_turmeric rhizome extract_250.0_mg_standard",
@@ -4596,7 +4649,7 @@
       "best_total_price": 12.99,
       "unit": "mg",
       "primary_ingredient": "Turmeric Rhizome Extract",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4611,7 +4664,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "59895_now_bromelain_300.0_mg_standard",
@@ -4626,7 +4680,7 @@
       "best_total_price": 16.69,
       "unit": "mg",
       "primary_ingredient": "Bromelain",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4644,7 +4698,8 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "181450_new chapter_turmeric (rhizome) aqueous extract_320.0_mg_standard",
@@ -4659,14 +4714,14 @@
       "best_total_price": 18.99,
       "unit": "mg",
       "primary_ingredient": "Turmeric (rhizome) aqueous extract",
-      "amount_per_serving": 320.0,
+      "amount_per_serving": 320,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 18.99,
           "price_per_unit": 0.059343749999999994,
           "product_url": "https://www.vitacost.com/new-chapter-turmeric-force-30-vegetarian-capsules",
-          "product_name": "New Chapter Turmeric Force\u2122 -- 30 Vegetarian Capsules",
+          "product_name": "New Chapter Turmeric Force™ -- 30 Vegetarian Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Turmeric-Force-727783900449.jpg",
           "rating": null,
           "reviews": null
@@ -4679,7 +4734,8 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Vegetarian Capsule(s)"
     },
     {
       "id": "298078_thorne_meriva_1000.0_mg_standard",
@@ -4691,14 +4747,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Curcumin-Phytosome-693749004790.jpg",
       "best_price_per_unit": 0.06,
-      "best_total_price": 60.0,
+      "best_total_price": 60,
       "unit": "mg",
       "primary_ingredient": "Meriva",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 60.0,
+          "price": 60,
           "price_per_unit": 0.06,
           "product_url": "https://www.vitacost.com/thorne-curcumin-phytosome",
           "product_name": "Thorne Curcumin Phytosome -- 1000 mg - 120 Capsules",
@@ -4709,7 +4765,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "326140_solaray_curcumin_285.0_mg_standard",
@@ -4724,7 +4784,7 @@
       "best_total_price": 17.79,
       "unit": "mg",
       "primary_ingredient": "Curcumin",
-      "amount_per_serving": 285.0,
+      "amount_per_serving": 285,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4739,7 +4799,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "300 mg"
+      ],
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "200648_bio nutrition_curcumin_250.0_mg_isolate",
@@ -4754,7 +4818,7 @@
       "best_total_price": 15.89,
       "unit": "mg",
       "primary_ingredient": "Curcumin",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4773,7 +4837,8 @@
         "halal",
         "isolate"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "50 Vegetarian Capsule(s)"
     },
     {
       "id": "39609_terry naturally_proprietary blend_412.0_mg_standard",
@@ -4788,7 +4853,7 @@
       "best_total_price": 27.99,
       "unit": "mg",
       "primary_ingredient": "Proprietary Blend",
-      "amount_per_serving": 412.0,
+      "amount_per_serving": 412,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4821,14 +4886,14 @@
       "best_total_price": 34.59,
       "unit": "mg",
       "primary_ingredient": "Meriva Turmeric Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 34.59,
           "price_per_unit": 0.06918,
           "product_url": "https://www.vitacost.com/source-naturals-turmeric-with-meriva",
-          "product_name": "Source Naturals Turmeric with Meriva\u00ae -- 500 mg - 120 Cap...",
+          "product_name": "Source Naturals Turmeric with Meriva® -- 500 mg - 120 Cap...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Turmeric-with-Meriva-021078024248.jpg",
           "rating": null,
           "reviews": null
@@ -4839,7 +4904,11 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "77641_planetary herbals_meriva turmeric complex_500.0_mg_standard",
@@ -4854,14 +4923,14 @@
       "best_total_price": 34.59,
       "unit": "mg",
       "primary_ingredient": "Meriva Turmeric Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 34.59,
           "price_per_unit": 0.06918,
           "product_url": "https://www.vitacost.com/planetary-herbals-turmeric-gold-500-mg-120-capsules-1",
-          "product_name": "Planetary Herbals Turmeric Gold\u2122 -- 500 mg - 120 Capsules",
+          "product_name": "Planetary Herbals Turmeric Gold™ -- 500 mg - 120 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Planetary-Herbals/Planetary-Herbals-Turmeric-Gold-021078107095.jpg",
           "rating": null,
           "reviews": null
@@ -4869,7 +4938,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "298725_nature's plus herbal actives_curcumin_380.0_mg_standard",
@@ -4884,7 +4957,7 @@
       "best_total_price": 27.58,
       "unit": "mg",
       "primary_ingredient": "Curcumin",
-      "amount_per_serving": 380.0,
+      "amount_per_serving": 380,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4899,7 +4972,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "400 mg"
+      ],
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "250157_dr. mercola_curcumin complex_500.0_mg_standard",
@@ -4914,7 +4991,7 @@
       "best_total_price": 37.49,
       "unit": "mg",
       "primary_ingredient": "Curcumin Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4929,7 +5006,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "40405_himalaya_organic turmeric powder_350.0_mg_standard",
@@ -4944,14 +5025,14 @@
       "best_total_price": 26.29,
       "unit": "mg",
       "primary_ingredient": "organic Turmeric powder",
-      "amount_per_serving": 350.0,
+      "amount_per_serving": 350,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 26.29,
           "price_per_unit": 0.07511428571428572,
           "product_url": "https://www.vitacost.com/himalaya-turmeric-95",
-          "product_name": "Himalaya Turmeric 95\u2122 -- 60 Vegetarian Capsules",
+          "product_name": "Himalaya Turmeric 95™ -- 60 Vegetarian Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Himalaya/Himalaya-Turmeric-95-605069425018.jpg",
           "rating": null,
           "reviews": null
@@ -4961,7 +5042,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "286851_further food_superfood & adaptogen blend_420.0_mg_standard",
@@ -4976,7 +5058,7 @@
       "best_total_price": 32.99,
       "unit": "mg",
       "primary_ingredient": "Superfood & Adaptogen Blend",
-      "amount_per_serving": 420.0,
+      "amount_per_serving": 420,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4991,7 +5073,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "6.35 oz."
     },
     {
       "id": "307578_jarrow formulas_total curcuminoids_475.0_mg_standard",
@@ -5006,7 +5089,7 @@
       "best_total_price": 38.19,
       "unit": "mg",
       "primary_ingredient": "Total Curcuminoids",
-      "amount_per_serving": 475.0,
+      "amount_per_serving": 475,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5024,7 +5107,11 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Veggie Capsule(s)"
     },
     {
       "id": "256643_irwin naturals_avocado oil_400.0_mg_standard",
@@ -5039,7 +5126,7 @@
       "best_total_price": 32.99,
       "unit": "mg",
       "primary_ingredient": "Avocado Oil",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5071,7 +5158,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "BCM-95 Curcugreen Curcumin-Essential Oil Complex",
-      "amount_per_serving": 325.0,
+      "amount_per_serving": 325,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5105,14 +5192,14 @@
       "best_total_price": 27.49,
       "unit": "mg",
       "primary_ingredient": "Turmeric (rhizome) aqueous extract",
-      "amount_per_serving": 320.0,
+      "amount_per_serving": 320,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 27.49,
           "price_per_unit": 0.08590624999999999,
           "product_url": "https://www.vitacost.com/new-chapter-turmeric-force-60-vegetarian-capsule",
-          "product_name": "New Chapter Turmeric Force\u2122 -- 60 Vegetarian Capsule",
+          "product_name": "New Chapter Turmeric Force™ -- 60 Vegetarian Capsule",
           "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Turmeric-Force-727783900463.jpg",
           "rating": null,
           "reviews": null
@@ -5125,7 +5212,8 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "284240_thorne_curcumin phytosome complex_500.0_mg_standard",
@@ -5137,14 +5225,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Curcumin-Phytosome-Sustained-Release-693749004844.jpg",
       "best_price_per_unit": 0.094,
-      "best_total_price": 47.0,
+      "best_total_price": 47,
       "unit": "mg",
       "primary_ingredient": "Curcumin Phytosome Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 47.0,
+          "price": 47,
           "price_per_unit": 0.094,
           "product_url": "https://www.vitacost.com/thorne-curcumin-phytosome-sustained-release",
           "product_name": "Thorne Curcumin Phytosome - Sustained Release -- 500 mg -...",
@@ -5155,7 +5243,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "74555_gnc herbal plus_turmeric root extract_300.0_mg_standard",
@@ -5170,14 +5261,14 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Turmeric root extract",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "GNC",
           "price": 29.99,
           "price_per_unit": 0.09996666666666666,
           "product_url": "https://www.gnc.com/on/demandware.store/Sites-GNC2-Site/default/Wishlist-Add?pid=188802&source=productlist",
-          "product_name": "GNC Herbal Plus\u00ae\nTurmeric Complex - 100 Capsules (100 Servings)",
+          "product_name": "GNC Herbal Plus®\nTurmeric Complex - 100 Capsules (100 Servings)",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -5195,7 +5286,8 @@
         "no_artificial_colors",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "289068_paradise_turmeric rhizome extract_250.0_mg_standard",
@@ -5210,7 +5302,7 @@
       "best_total_price": 26.39,
       "unit": "mg",
       "primary_ingredient": "Turmeric rhizome extract",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5225,7 +5317,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "185123_pure encapsulations_meriva turmeric phytosome_500.0_mg_standard",
@@ -5240,7 +5333,7 @@
       "best_total_price": 66.4,
       "unit": "mg",
       "primary_ingredient": "Meriva Turmeric Phytosome",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5258,7 +5351,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "294171_new chapter_turmeric (rhizome) aqueous extract_320.0_mg_standard",
@@ -5273,7 +5367,7 @@
       "best_total_price": 44.39,
       "unit": "mg",
       "primary_ingredient": "Turmeric (rhizome) aqueous extract",
-      "amount_per_serving": 320.0,
+      "amount_per_serving": 320,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5293,7 +5387,8 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "295998_solaray_berberine hydrochloride_300.0_mg_micronized",
@@ -5308,7 +5403,7 @@
       "best_total_price": 43.19,
       "unit": "mg",
       "primary_ingredient": "Berberine Hydrochloride",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5327,7 +5422,8 @@
         "vegetarian",
         "micronized"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "220395_natural factors_bromelain_150.0_mg_isolate",
@@ -5342,7 +5438,7 @@
       "best_total_price": 23.77,
       "unit": "mg",
       "primary_ingredient": "Bromelain",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5361,7 +5457,11 @@
         "no_artificial_colors",
         "isolate"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "450 mg"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "325765_terry naturally_bcm-95 curcugreen_250.0_mg_standard",
@@ -5376,7 +5476,7 @@
       "best_total_price": 44.76,
       "unit": "mg",
       "primary_ingredient": "BCM-95 Curcugreen",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5391,7 +5491,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "250159_dr. mercola_curcumin complex_500.0_mg_standard",
@@ -5406,7 +5507,7 @@
       "best_total_price": 91.25,
       "unit": "mg",
       "primary_ingredient": "Curcumin Complex",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5421,7 +5522,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "208251_vital nutrients_boswellia serrata gum extract_600.0_mg_standard",
@@ -5436,7 +5538,7 @@
       "best_total_price": 109.9,
       "unit": "mg",
       "primary_ingredient": "Boswellia serrata gum extract",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5466,14 +5568,14 @@
       "best_total_price": 42.7,
       "unit": "mg",
       "primary_ingredient": "Black Cumin seed Oil",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 42.7,
           "price_per_unit": 0.21350000000000002,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-curcuminup-with-omega-3-curcumin-complex-black-cumin-seed-oil-boswellia-and-ginger-90-fish-gelatin-softgels/97376",
-          "product_name": "California Gold Nutrition, CurcuminUP\u2122 with Omega-3 Curcumin Complex, Black Cumin Seed Oil, Boswellia and Ginger, 90 Fish Gelatin Softgels",
+          "product_name": "California Gold Nutrition, CurcuminUP™ with Omega-3 Curcumin Complex, Black Cumin Seed Oil, Boswellia and Ginger, 90 Fish Gelatin Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn01590/u/150.jpg",
           "rating": null,
           "reviews": null
@@ -5496,14 +5598,14 @@
       "best_total_price": 14.47,
       "unit": "mg",
       "primary_ingredient": "Artichoke Leaf Extract",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 14.47,
           "price_per_unit": 0.2894,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-silymarin-complex-milk-thistle-extract-plus-dandelion-artichoke-curcumin-c3-complex-ginger-and-bioperine-120-veggie-capsules/62027",
-          "product_name": "California Gold Nutrition, Silymarin Complex, Milk Thistle Extract Plus Dandelion, Artichoke, Curcumin C3 Complex\u00ae, Ginger and BioPerine\u00ae, 120 Veggie Capsules",
+          "product_name": "California Gold Nutrition, Silymarin Complex, Milk Thistle Extract Plus Dandelion, Artichoke, Curcumin C3 Complex®, Ginger and BioPerine®, 120 Veggie Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn00956/u/161.jpg",
           "rating": null,
           "reviews": null
@@ -5511,7 +5613,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Veggie Capsule(s)"
     },
     {
       "id": "287227_dr. mercola_curcuminoids_76.0_mg_standard",
@@ -5526,7 +5629,7 @@
       "best_total_price": 22.49,
       "unit": "mg",
       "primary_ingredient": "Curcuminoids",
-      "amount_per_serving": 76.0,
+      "amount_per_serving": 76,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5541,7 +5644,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "220142_natural factors_bromelain_150.0_mg_isolate",
@@ -5556,7 +5660,7 @@
       "best_total_price": 44.77,
       "unit": "mg",
       "primary_ingredient": "Bromelain",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5575,7 +5679,11 @@
         "no_artificial_colors",
         "isolate"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "450 mg"
+      ],
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "269096_codeage_ashwagandha extract_100.0_mg_liposomal",
@@ -5590,7 +5698,7 @@
       "best_total_price": 29.99,
       "unit": "mg",
       "primary_ingredient": "Ashwagandha extract",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "GNC",
@@ -5608,7 +5716,8 @@
         "non_gmo",
         "liposomal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "65328_organic traditions_calcium_42.5_mg_standard",
@@ -5659,7 +5768,7 @@
       "best_total_price": 16.49,
       "unit": "mg",
       "primary_ingredient": "Potassium",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5681,7 +5790,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "8 oz."
     },
     {
       "id": "74075_dr. mercola_turmeric (curcuma longa) rhizome extract powder_160.0_mg_standard",
@@ -5696,7 +5806,7 @@
       "best_total_price": 62.49,
       "unit": "mg",
       "primary_ingredient": "Turmeric (Curcuma longa) rhizome extract powder",
-      "amount_per_serving": 160.0,
+      "amount_per_serving": 160,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5711,7 +5821,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "52847_natural factors curcuminrich_theracurmin curcumin extract_30.0_mg_standard",
@@ -5726,14 +5837,14 @@
       "best_total_price": 11.87,
       "unit": "mg",
       "primary_ingredient": "Theracurmin Curcumin extract",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 11.87,
           "price_per_unit": 0.39566666666666667,
           "product_url": "https://www.vitacost.com/natural-factors-curcuminrich-theracurmin-30-vegetarian-capsules",
-          "product_name": "Natural Factors CurcuminRich\u00ae Theracurmin\u00ae -- 30 Vegetari...",
+          "product_name": "Natural Factors CurcuminRich® Theracurmin® -- 30 Vegetari...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-CurcuminRich-Theracurmin-068958045429.jpg",
           "rating": null,
           "reviews": null
@@ -5761,7 +5872,7 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "BCM-95",
-      "amount_per_serving": 125.0,
+      "amount_per_serving": 125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5791,7 +5902,7 @@
       "best_total_price": 33.99,
       "unit": "mg",
       "primary_ingredient": "Cumin",
-      "amount_per_serving": 60.0,
+      "amount_per_serving": 60,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5806,7 +5917,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "204502_solgar_curcumin_40.0_mg_standard",
@@ -5821,7 +5933,7 @@
       "best_total_price": 24.69,
       "unit": "mg",
       "primary_ingredient": "Curcumin",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5839,7 +5951,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Liquid"
     },
     {
       "id": "292076_irwin naturals_bamboo extract_28.6_mg_standard",
@@ -5869,7 +5982,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "309357_nutrabio_astragin_50.0_mg_standard",
@@ -5884,7 +5998,7 @@
       "best_total_price": 34.99,
       "unit": "mg",
       "primary_ingredient": "AstraGin",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5902,7 +6016,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "206181_now_total curcuminoids_20.0_mg_standard",
@@ -5917,14 +6032,14 @@
       "best_total_price": 15.59,
       "unit": "mg",
       "primary_ingredient": "Total Curcuminoids",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 15.59,
           "price_per_unit": 0.7795,
           "product_url": "https://www.vitacost.com/now-curcufresh-curcumin",
-          "product_name": "NOW CurcuFresh\u2122 Curcumin -- 60 Veg Capsules",
+          "product_name": "NOW CurcuFresh™ Curcumin -- 60 Veg Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/NOW/NOW-CurcuFresh-Curcumin-733739049377.jpg",
           "rating": null,
           "reviews": null
@@ -5936,7 +6051,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "76728_planetary herbals_calcium_57.0_mg_standard",
@@ -5951,14 +6067,14 @@
       "best_total_price": 45.12,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 57.0,
+      "amount_per_serving": 57,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 45.12,
           "price_per_unit": 0.791578947368421,
           "product_url": "https://www.iherb.com/pr/planetary-herbals-inflama-care-turmeric-boswellia-complex-120-tablets/144306",
-          "product_name": "Planetary Herbals, Inflama-Care\u2122, Turmeric/Boswellia Complex, 120 Tablets",
+          "product_name": "Planetary Herbals, Inflama-Care™, Turmeric/Boswellia Complex, 120 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ptf/ptf10656/u/8.jpg",
           "rating": null,
           "reviews": null
@@ -5966,7 +6082,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Tablet(s)"
     },
     {
       "id": "202134_pure encapsulations_flavonoids_85.0_mg_standard",
@@ -5981,7 +6098,7 @@
       "best_total_price": 68.2,
       "unit": "mg",
       "primary_ingredient": "Flavonoids",
-      "amount_per_serving": 85.0,
+      "amount_per_serving": 85,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5999,7 +6116,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "246602_pure synergy_organic; superpure co2; vacuum distilled turmeric extract_47.5_mg_standard",
@@ -6033,7 +6151,8 @@
         "organic",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "213170_nature's way_apresflex boswellia serrata gum extract_50.0_mg_standard",
@@ -6048,7 +6167,7 @@
       "best_total_price": 43.49,
       "unit": "mg",
       "primary_ingredient": "ApresFlex Boswellia serrata gum extract",
-      "amount_per_serving": 50.0,
+      "amount_per_serving": 50,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6083,7 +6202,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "organic Black Pepper",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6105,7 +6224,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "219376_solgar_curcumin_40.0_mg_standard",
@@ -6120,7 +6240,7 @@
       "best_total_price": 39.09,
       "unit": "mg",
       "primary_ingredient": "Curcumin",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6138,7 +6258,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "206181_now_total curcuminoids_20.0_mg_standard",
@@ -6153,7 +6274,7 @@
       "best_total_price": 20.12,
       "unit": "mg",
       "primary_ingredient": "Total Curcuminoids",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6172,7 +6293,8 @@
         "vegetarian",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "317003_naturewise_bioperine_15.0_mg_standard",
@@ -6187,7 +6309,7 @@
       "best_total_price": 15.09,
       "unit": "mg",
       "primary_ingredient": "Bioperine",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6206,7 +6328,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "297531_premier research labs_calcium_40.0_mg_standard",
@@ -6221,7 +6344,7 @@
       "best_total_price": 40.74,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6275,7 +6398,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "78243_source naturals_black pepper fruit extract_10.0_mg_standard",
@@ -6290,14 +6414,14 @@
       "best_total_price": 11.89,
       "unit": "mg",
       "primary_ingredient": "Black Pepper fruit extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 11.89,
           "price_per_unit": 1.189,
           "product_url": "https://www.vitacost.com/source-naturals-turmeric-1000-1000-mg-30-tablets-1",
-          "product_name": "Source Naturals Turmeric 1000\u2122 -- 1000 mg - 30 Tablets",
+          "product_name": "Source Naturals Turmeric 1000™ -- 1000 mg - 30 Tablets",
           "image_url": "https://www.vitacost.com/Images/Products/200/Source-Naturals/Source-Naturals-Turmeric-1000-021078023692.jpg",
           "rating": null,
           "reviews": null
@@ -6309,7 +6433,11 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "30 Tablet(s)"
     },
     {
       "id": "327603_organic india_black pepper_30.0_mg_standard",
@@ -6324,7 +6452,7 @@
       "best_total_price": 36.99,
       "unit": "mg",
       "primary_ingredient": "Black Pepper",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6352,7 +6480,8 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Vegetarian Capsule(s)"
     },
     {
       "id": "180084_natural factors_theracurmin curcumin extract_30.0_mg_standard",
@@ -6367,7 +6496,7 @@
       "best_total_price": 38.47,
       "unit": "mg",
       "primary_ingredient": "Theracurmin Curcumin extract",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6387,7 +6516,8 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "270853_best naturals_bioperine black pepper fruit extract_10.0_mg_standard",
@@ -6402,7 +6532,7 @@
       "best_total_price": 13.89,
       "unit": "mg",
       "primary_ingredient": "Bioperine Black Pepper Fruit Extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6430,7 +6560,10 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1500 mg"
+      ]
     },
     {
       "id": "309562_gaia herbs_calories_15.0_calorie_standard",
@@ -6445,7 +6578,7 @@
       "best_total_price": 22.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6464,7 +6597,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3.7 oz."
     },
     {
       "id": "317003_naturewise_bioperine_15.0_mg_standard",
@@ -6479,7 +6613,7 @@
       "best_total_price": 25.59,
       "unit": "mg",
       "primary_ingredient": "Bioperine",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6513,7 +6647,7 @@
       "best_total_price": 44.16,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6533,7 +6667,11 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1250 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "302149_evlution nutrition_bioperine_10.0_mg_standard",
@@ -6548,7 +6686,7 @@
       "best_total_price": 17.99,
       "unit": "mg",
       "primary_ingredient": "Bioperine",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6563,7 +6701,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Veggie Capsule(s)"
     },
     {
       "id": "286239_zint_calcium_8.05_mg_standard",
@@ -6593,7 +6732,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "16 oz."
     },
     {
       "id": "309599_gaia herbs_black pepper fruit supercritical extract_15.0_mg_standard",
@@ -6608,7 +6748,7 @@
       "best_total_price": 29.69,
       "unit": "mg",
       "primary_ingredient": "Black Pepper Fruit Supercritical Extract",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6638,7 +6778,7 @@
       "best_total_price": 19.99,
       "unit": "mg",
       "primary_ingredient": "Ginger",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6668,7 +6808,7 @@
       "best_total_price": 21.39,
       "unit": "mg",
       "primary_ingredient": "BioPerine Black Pepper extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6685,7 +6825,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Veggie Capsule(s)"
     },
     {
       "id": "77965_source naturals_black pepper fruit extract_3.5_mg_standard",
@@ -6719,7 +6860,8 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "50 Tablet(s)"
     },
     {
       "id": "293166_new nordic_calories_10.0_calorie_standard",
@@ -6734,7 +6876,7 @@
       "best_total_price": 21.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6753,7 +6895,8 @@
         "vegetarian",
         "dairy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "309593_gaia herbs_black pepper fruit supercritical extract_10.0_mg_standard",
@@ -6768,7 +6911,7 @@
       "best_total_price": 29.69,
       "unit": "mg",
       "primary_ingredient": "Black Pepper Fruit Supercritical Extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6783,7 +6926,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "270992_oregon's wild harvest_bioperine_9.0_mg_standard",
@@ -6798,7 +6942,7 @@
       "best_total_price": 26.96,
       "unit": "mg",
       "primary_ingredient": "Bioperine",
-      "amount_per_serving": 9.0,
+      "amount_per_serving": 9,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6815,7 +6959,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegan Capsule(s)"
     },
     {
       "id": "249911_bioschwartz_black pepper fruit extract_10.0_mg_standard",
@@ -6830,7 +6975,7 @@
       "best_total_price": 29.97,
       "unit": "mg",
       "primary_ingredient": "Black Pepper fruit extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6847,7 +6992,8 @@
       "filters": [
         "organic"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "160 Veggie Capsule(s)"
     },
     {
       "id": "327412_garden of life organics_black pepper fruit extract_7.0_mg_standard",
@@ -6862,7 +7008,7 @@
       "best_total_price": 22.39,
       "unit": "mg",
       "primary_ingredient": "Black Pepper Fruit Extract",
-      "amount_per_serving": 7.0,
+      "amount_per_serving": 7,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6894,7 +7040,7 @@
       "best_total_price": 31.99,
       "unit": "mg",
       "primary_ingredient": "Black Pepper (fruit) extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6909,7 +7055,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "319434_dr. tobias_bioperine_10.0_mg_standard",
@@ -6924,7 +7074,7 @@
       "best_total_price": 36.02,
       "unit": "mg",
       "primary_ingredient": "Bioperine",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6939,7 +7089,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "309588_gaia herbs_black pepper fruit supercritical extract_7.0_mg_standard",
@@ -6954,7 +7105,7 @@
       "best_total_price": 26.65,
       "unit": "mg",
       "primary_ingredient": "Black Pepper Fruit Supercritical Extract",
-      "amount_per_serving": 7.0,
+      "amount_per_serving": 7,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6969,7 +7120,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "309595_gaia herbs_black pepper fruit supercritical extract_10.0_mg_standard",
@@ -6984,7 +7136,7 @@
       "best_total_price": 41.39,
       "unit": "mg",
       "primary_ingredient": "Black Pepper Fruit Supercritical Extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7014,7 +7166,7 @@
       "best_total_price": 40.46,
       "unit": "mg",
       "primary_ingredient": "Bioperine",
-      "amount_per_serving": 9.0,
+      "amount_per_serving": 9,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7032,7 +7184,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Vegan Capsule(s)"
     },
     {
       "id": "309589_gaia herbs_black pepper fruit supercritical extract_7.0_mg_standard",
@@ -7047,7 +7200,7 @@
       "best_total_price": 33.29,
       "unit": "mg",
       "primary_ingredient": "Black Pepper Fruit Supercritical Extract",
-      "amount_per_serving": 7.0,
+      "amount_per_serving": 7,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7062,7 +7215,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "309594_gaia herbs_black pepper fruit supercritical extract_10.0_mg_standard",
@@ -7077,7 +7231,7 @@
       "best_total_price": 51.29,
       "unit": "mg",
       "primary_ingredient": "Black Pepper Fruit Supercritical Extract",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7092,7 +7246,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Liquid"
     },
     {
       "id": "182824_pure encapsulations_bioperine black pepper (piper nigrum) extract_5.3_mg_standard",
@@ -7104,14 +7259,14 @@
       "dsld_brand": "Pure Encapsulations",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Curcumin-766298000916.jpg",
       "best_price_per_unit": 6.037735849056604,
-      "best_total_price": 32.0,
+      "best_total_price": 32,
       "unit": "mg",
       "primary_ingredient": "Bioperine Black Pepper (Piper nigrum) extract",
       "amount_per_serving": 5.3,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 32.0,
+          "price": 32,
           "price_per_unit": 6.037735849056604,
           "product_url": "https://www.vitacost.com/pure-encapsulations-curcumin-60-capsules-1",
           "product_name": "Pure Encapsulations Curcumin -- 60 Capsules",
@@ -7125,7 +7280,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "302672_doctor's best_bioperine_5.0_mg_standard",
@@ -7140,7 +7296,7 @@
       "best_total_price": 36.09,
       "unit": "mg",
       "primary_ingredient": "Bioperine",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7155,7 +7311,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 mg"
+      ]
     },
     {
       "id": "257070_megafood_bioperine black pepper fruit extract_3.0_mg_standard",
@@ -7170,7 +7329,7 @@
       "best_total_price": 24.99,
       "unit": "mg",
       "primary_ingredient": "BioPerine Black Pepper fruit extract",
-      "amount_per_serving": 3.0,
+      "amount_per_serving": 3,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7240,7 +7399,7 @@
       "best_total_price": 9.29,
       "unit": "ml",
       "primary_ingredient": "Proprietary Extract Blend",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7255,7 +7414,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 fl. oz."
     },
     {
       "id": "63466_megafood_bioperine black pepper extract_2.0_mg_standard",
@@ -7270,7 +7430,7 @@
       "best_total_price": 18.99,
       "unit": "mg",
       "primary_ingredient": "Bioperine Black Pepper extract",
-      "amount_per_serving": 2.0,
+      "amount_per_serving": 2,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7307,7 +7467,7 @@
       "best_total_price": 49.58,
       "unit": "mg",
       "primary_ingredient": "BioPerine",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7325,7 +7485,10 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "184133_pure encapsulations_bioperine black pepper (piper nigrum) extract_5.3_mg_standard",
@@ -7358,7 +7521,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "182824_pure encapsulations_bioperine black pepper (piper nigrum) extract_5.3_mg_standard",
@@ -7380,7 +7544,7 @@
           "price": 82.6,
           "price_per_unit": 15.584905660377357,
           "product_url": "https://www.vitacost.com/pure-encapsulations-curcumin-500-with-bioperine-120-capsules",
-          "product_name": "Pure Encapsulations Curcumin 500 with Bioperine\u00ae -- 120 C...",
+          "product_name": "Pure Encapsulations Curcumin 500 with Bioperine® -- 120 C...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-Curcumin-500-with-Bioperine-766298010724.jpg",
           "rating": null,
           "reviews": null
@@ -7406,14 +7570,14 @@
       "best_total_price": 17.39,
       "unit": "ml",
       "primary_ingredient": "Proprietary Extract Blend",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 17.39,
           "price_per_unit": 17.39,
           "product_url": "https://www.vitacost.com/planetary-herbals-full-spectrum-turmeric-4-fl-oz",
-          "product_name": "Planetary Herbals Full Spectrum\u2122 Turmeric -- 4 fl oz",
+          "product_name": "Planetary Herbals Full Spectrum™ Turmeric -- 4 fl oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Planetary-Herbals/Planetary-Herbals-Full-Spectrum-Turmeric-021078106708.jpg",
           "rating": null,
           "reviews": null
@@ -7421,7 +7585,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "4 fl. oz."
     },
     {
       "id": "321858_eu natural_folate_0.4_mg_standard",

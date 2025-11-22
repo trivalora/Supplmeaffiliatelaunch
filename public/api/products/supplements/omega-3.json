@@ -6,7 +6,7 @@
     "product_count": 265,
     "price_per_unit_range": {
       "min": 0.0022025,
-      "max": 17156.0,
+      "max": 17156,
       "avg": 346.68898218425903
     },
     "total_price_range": {
@@ -3528,14 +3528,14 @@
       "best_total_price": 17.62,
       "unit": "du",
       "primary_ingredient": "Amylase Thera-blend",
-      "amount_per_serving": 8000.0,
+      "amount_per_serving": 8000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 17.62,
           "price_per_unit": 0.0022025,
           "product_url": "https://www.iherb.com/pr/enzymedica-repair-gold-30-capsules/74635",
-          "product_name": "Enzymedica, Repair Gold\u00ae, 30 Capsules",
+          "product_name": "Enzymedica, Repair Gold®, 30 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/enz/enz29031/u/39.jpg",
           "rating": null,
           "reviews": null
@@ -3548,7 +3548,8 @@
         "kosher",
         "egg_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "32647_enzymedica_amylase thera-blend_8000.0_du_standard",
@@ -3563,14 +3564,14 @@
       "best_total_price": 32.99,
       "unit": "du",
       "primary_ingredient": "Amylase Thera-blend",
-      "amount_per_serving": 8000.0,
+      "amount_per_serving": 8000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 32.99,
           "price_per_unit": 0.004123750000000001,
           "product_url": "https://www.iherb.com/pr/enzymedica-repair-gold-60-capsules/67002",
-          "product_name": "Enzymedica, Repair Gold\u00ae, 60 Capsules",
+          "product_name": "Enzymedica, Repair Gold®, 60 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/enz/enz27040/u/35.jpg",
           "rating": null,
           "reviews": null
@@ -3583,7 +3584,8 @@
         "kosher",
         "egg_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "296672_nature's craft_added sugars_4000.0_mg_standard",
@@ -3598,7 +3600,7 @@
       "best_total_price": 16.77,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3613,7 +3615,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "257181_centrum_added sugars_4000.0_mg_standard",
@@ -3628,7 +3631,7 @@
       "best_total_price": 17.03,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3646,7 +3649,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "110 Gummie(s)"
     },
     {
       "id": "220343_nordic naturals_added sugars_4000.0_mg_standard",
@@ -3661,14 +3665,14 @@
       "best_total_price": 19.51,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 19.51,
           "price_per_unit": 0.004877500000000001,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-nordic-omega-3-gummies-tangerine-82-mg-60-gummies/23065",
-          "product_name": "Nordic Naturals, Nordic Omega-3\u2122 Gummies, Tangerine, 82 mg, 60 Gummies",
+          "product_name": "Nordic Naturals, Nordic Omega-3™ Gummies, Tangerine, 82 mg, 60 Gummies",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor30130/u/50.jpg",
           "rating": null,
           "reviews": null
@@ -3679,7 +3683,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 86.1
+      "match_score": 86.1,
+      "dosage": [
+        "82 mg"
+      ],
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "213386_flora_alpha-linolenic acid_7000.0_mg_standard",
@@ -3694,7 +3702,7 @@
       "best_total_price": 34.84,
       "unit": "mg",
       "primary_ingredient": "Alpha-Linolenic Acid",
-      "amount_per_serving": 7000.0,
+      "amount_per_serving": 7000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3725,7 +3733,8 @@
         "gluten_free",
         "fish_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "17 fl. oz."
     },
     {
       "id": "270967_nature made_added sugars_4000.0_mg_standard",
@@ -3740,7 +3749,7 @@
       "best_total_price": 20.49,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 4000.0,
+      "amount_per_serving": 4000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3774,7 +3783,7 @@
       "best_total_price": 30.34,
       "unit": "mg",
       "primary_ingredient": "Alaskan Sockeye Salmon Oil",
-      "amount_per_serving": 4700.0,
+      "amount_per_serving": 4700,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3789,7 +3798,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "8 fl. oz.; 240 mL"
     },
     {
       "id": "218140_flora_alpha-linolenic acid_5000.0_mg_standard",
@@ -3804,7 +3814,7 @@
       "best_total_price": 42.49,
       "unit": "mg",
       "primary_ingredient": "Alpha-Linolenic Acid",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3825,7 +3835,8 @@
         "gluten_free",
         "fish_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "17 fl. oz.; 500 mL"
     },
     {
       "id": "75579_source naturals_arcticpure fish oil concentrate_1250.0_mg_enteric_coated",
@@ -3840,14 +3851,14 @@
       "best_total_price": 11.08,
       "unit": "mg",
       "primary_ingredient": "ArcticPure Fish Oil Concentrate",
-      "amount_per_serving": 1250.0,
+      "amount_per_serving": 1250,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 11.08,
           "price_per_unit": 0.008864,
           "product_url": "https://www.iherb.com/pr/source-naturals-arctic-pure-ultra-potency-omega-3-fish-oil-850-mg-60-softgels/7933",
-          "product_name": "Source Naturals, Arctic Pure\u00ae, Ultra Potency Omega-3 Fish Oil, 850 mg, 60 Softgels",
+          "product_name": "Source Naturals, Arctic Pure®, Ultra Potency Omega-3 Fish Oil, 850 mg, 60 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sns/sns02013/u/47.jpg",
           "rating": null,
           "reviews": null
@@ -3859,7 +3870,11 @@
         "sugar_free",
         "enteric_coated"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "850 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "312876_greens first pro_ahiflower seed oil_2250.0_mg_standard",
@@ -3874,7 +3889,7 @@
       "best_total_price": 39.15,
       "unit": "mg",
       "primary_ingredient": "Ahiflower Seed Oil",
-      "amount_per_serving": 2250.0,
+      "amount_per_serving": 2250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3889,7 +3904,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "247681_iwi_algae oil_850.0_mg_standard",
@@ -3904,7 +3920,7 @@
       "best_total_price": 14.89,
       "unit": "mg",
       "primary_ingredient": "Algae Oil",
-      "amount_per_serving": 850.0,
+      "amount_per_serving": 850,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3940,7 +3956,7 @@
       "best_total_price": 23.19,
       "unit": "mg",
       "primary_ingredient": "Algae Oil",
-      "amount_per_serving": 1250.0,
+      "amount_per_serving": 1250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3961,7 +3977,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "247662_iwi_algae oil_1250.0_mg_standard",
@@ -3976,7 +3993,7 @@
       "best_total_price": 30.79,
       "unit": "mg",
       "primary_ingredient": "Algae Oil",
-      "amount_per_serving": 1250.0,
+      "amount_per_serving": 1250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4012,7 +4029,7 @@
       "best_total_price": 20.29,
       "unit": "mg",
       "primary_ingredient": "Borage Oil",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4027,7 +4044,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "220 Softgel(s)"
     },
     {
       "id": "67182_the vitamin shoppe_borage oil_500.0_mg_standard",
@@ -4042,7 +4060,7 @@
       "best_total_price": 12.99,
       "unit": "mg",
       "primary_ingredient": "Borage Oil",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4062,7 +4080,8 @@
         "soy_free",
         "nut_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "260754_sunwarrior_algae oil_1650.0_mg_standard",
@@ -4077,7 +4096,7 @@
       "best_total_price": 42.97,
       "unit": "mg",
       "primary_ingredient": "Algae Oil",
-      "amount_per_serving": 1650.0,
+      "amount_per_serving": 1650,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4113,7 +4132,7 @@
       "best_total_price": 17.02,
       "unit": "mg",
       "primary_ingredient": "Alpha-Linolenic Acid",
-      "amount_per_serving": 585.0,
+      "amount_per_serving": 585,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4141,7 +4160,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1,300 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "247665_iwi_algae oil_1000.0_mg_standard",
@@ -4156,7 +4179,7 @@
       "best_total_price": 30.59,
       "unit": "mg",
       "primary_ingredient": "Algae Oil",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4177,7 +4200,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Softgel(s)"
     },
     {
       "id": "291816_barlean's_alpha-linolenic acid_1200.0_mg_standard",
@@ -4192,7 +4216,7 @@
       "best_total_price": 37.89,
       "unit": "mg",
       "primary_ingredient": "Alpha-Linolenic Acid",
-      "amount_per_serving": 1200.0,
+      "amount_per_serving": 1200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4207,7 +4231,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "16 oz."
     },
     {
       "id": "242079_carlson laboratories_algal oil_1000.0_mg_standard",
@@ -4222,7 +4247,7 @@
       "best_total_price": 42.42,
       "unit": "mg",
       "primary_ingredient": "Algal Oil",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4239,7 +4264,11 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "67183_the vitamin shoppe_borage oil_500.0_mg_standard",
@@ -4254,7 +4283,7 @@
       "best_total_price": 21.99,
       "unit": "mg",
       "primary_ingredient": "Borage Oil",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4274,7 +4303,8 @@
         "soy_free",
         "nut_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "201477_solgar_alpha-linolenic acid_585.0_mg_standard",
@@ -4289,7 +4319,7 @@
       "best_total_price": 28.58,
       "unit": "mg",
       "primary_ingredient": "Alpha-Linolenic Acid",
-      "amount_per_serving": 585.0,
+      "amount_per_serving": 585,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4307,7 +4337,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "303061_catalo_docosahexaenoic acid_800.0_mg_standard",
@@ -4322,7 +4353,7 @@
       "best_total_price": 39.87,
       "unit": "mg",
       "primary_ingredient": "Docosahexaenoic Acid",
-      "amount_per_serving": 800.0,
+      "amount_per_serving": 800,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4337,7 +4368,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "207476_21st century_dextrose_200.0_mg_standard",
@@ -4352,7 +4384,7 @@
       "best_total_price": 10.19,
       "unit": "mg",
       "primary_ingredient": "Dextrose",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4369,7 +4401,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "200 mg per Softgel; 200 mg"
+      ],
+      "dsld_content": "30 Softgel(s)"
     },
     {
       "id": "33317_advanced nutrition by zahler_docosahexaenoic acid_600.0_mg_standard",
@@ -4384,7 +4420,7 @@
       "best_total_price": 30.79,
       "unit": "mg",
       "primary_ingredient": "Docosahexaenoic Acid",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4401,7 +4437,7 @@
           "price": 55.22,
           "price_per_unit": 0.09203333333333333,
           "product_url": "https://www.iherb.com/pr/zahler-omega-3-platinum-advanced-omega-3-fish-oil-180-softgels-1-000-mg-per-softgel/81125",
-          "product_name": "Zahler, Omega 3 Platinum\u2122, Advanced Omega 3 Fish Oil, 180 Softgels (1,000 mg per Softgel)",
+          "product_name": "Zahler, Omega 3 Platinum™, Advanced Omega 3 Fish Oil, 180 Softgels (1,000 mg per Softgel)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/zah/zah08060/u/55.jpg",
           "rating": null,
           "reviews": null
@@ -4428,14 +4464,14 @@
       "best_total_price": 12.89,
       "unit": "mg",
       "primary_ingredient": "Alpha-Linolenic Acid",
-      "amount_per_serving": 212.0,
+      "amount_per_serving": 212,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 12.89,
           "price_per_unit": 0.06080188679245283,
           "product_url": "https://www.iherb.com/pr/kal-ultra-omega-3-6-9-50-softgels/121444",
-          "product_name": "KAL, Ultra Omega 3-6-9\u2122, 50 Softgels",
+          "product_name": "KAL, Ultra Omega 3-6-9™, 50 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cal/cal10390/u/24.jpg",
           "rating": null,
           "reviews": null
@@ -4465,7 +4501,8 @@
       "filters": [
         "organic"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "50 Softgel(s)"
     },
     {
       "id": "265450_flora_docosahexaenoic acid_500.0_mg_standard",
@@ -4480,7 +4517,7 @@
       "best_total_price": 32.29,
       "unit": "mg",
       "primary_ingredient": "Docosahexaenoic Acid",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4513,7 +4550,7 @@
       "best_total_price": 32.79,
       "unit": "mg",
       "primary_ingredient": "Carbohydrates",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4528,7 +4565,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "187536_swanson_bioflavonoids_200.0_mg_buffered",
@@ -4543,7 +4581,7 @@
       "best_total_price": 13.49,
       "unit": "mg",
       "primary_ingredient": "Bioflavonoids",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4575,7 +4613,7 @@
       "best_total_price": 31.59,
       "unit": "mg",
       "primary_ingredient": "Beta-Sitosterol",
-      "amount_per_serving": 360.0,
+      "amount_per_serving": 360,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4607,7 +4645,7 @@
       "best_total_price": 18.85,
       "unit": "mg",
       "primary_ingredient": "Alpha-Linolenic Acid",
-      "amount_per_serving": 212.0,
+      "amount_per_serving": 212,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4634,7 +4672,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "82134_euromedica_omega-3 phospholipid peptide complex_584.0_mg_standard",
@@ -4649,14 +4688,14 @@
       "best_total_price": 53.95,
       "unit": "mg",
       "primary_ingredient": "Omega-3 Phospholipid Peptide Complex",
-      "amount_per_serving": 584.0,
+      "amount_per_serving": 584,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 53.95,
           "price_per_unit": 0.09238013698630138,
           "product_url": "https://www.iherb.com/pr/euromedica-euromega-3-60-tablets/155026",
-          "product_name": "EuroMedica, EurOmega-3\u00ae, 60 Tablets",
+          "product_name": "EuroMedica, EurOmega-3®, 60 Tablets",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/euo/euo69996/u/18.jpg",
           "rating": null,
           "reviews": null
@@ -4667,7 +4706,8 @@
         "sugar_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Tablet(s)"
     },
     {
       "id": "33317_advanced nutrition by zahler_docosahexaenoic acid_600.0_mg_standard",
@@ -4682,7 +4722,7 @@
       "best_total_price": 55.89,
       "unit": "mg",
       "primary_ingredient": "Docosahexaenoic Acid",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4701,7 +4741,11 @@
         "fish_free",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "2000 mg"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "312851_greens first female_calcium_300.0_mg_standard",
@@ -4716,7 +4760,7 @@
       "best_total_price": 34.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 300.0,
+      "amount_per_serving": 300,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4749,7 +4793,7 @@
       "best_total_price": 24.61,
       "unit": "mg",
       "primary_ingredient": "Alpha Linolenic Acid",
-      "amount_per_serving": 212.0,
+      "amount_per_serving": 212,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4766,7 +4810,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "302713_doctor's best_dha_200.0_mg_standard",
@@ -4781,7 +4826,7 @@
       "best_total_price": 25.39,
       "unit": "mg",
       "primary_ingredient": "DHA",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4799,7 +4844,11 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "250764_megafood_algal dha_250.0_mg_standard",
@@ -4814,7 +4863,7 @@
       "best_total_price": 32.99,
       "unit": "mg",
       "primary_ingredient": "Algal DHA",
-      "amount_per_serving": 250.0,
+      "amount_per_serving": 250,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4835,7 +4884,8 @@
         "dairy_free",
         "soy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "303027_catalo_docosahexaenoic acid_200.0_mg_standard",
@@ -4847,14 +4897,14 @@
       "dsld_brand": "CATALO",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cat/cat02532/u/44.jpg",
       "best_price_per_unit": 0.135,
-      "best_total_price": 27.0,
+      "best_total_price": 27,
       "unit": "mg",
       "primary_ingredient": "Docosahexaenoic Acid",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 27.0,
+          "price": 27,
           "price_per_unit": 0.135,
           "product_url": "https://www.iherb.com/pr/catalo-children-s-dha-formula-orange-50-chewable-softgels/104042",
           "product_name": "CATALO, Children's DHA Formula, Orange, 50 Chewable Softgels",
@@ -4865,7 +4915,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "50 Chewable(s)"
     },
     {
       "id": "302713_doctor's best_dha_200.0_mg_standard",
@@ -4880,14 +4931,14 @@
       "best_total_price": 27.99,
       "unit": "mg",
       "primary_ingredient": "DHA",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 27.99,
           "price_per_unit": 0.13995,
           "product_url": "https://www.iherb.com/pr/doctor-s-best-vegan-dha-from-algae-with-life-s-dha-200-mg-60-veggie-softgels/48309",
-          "product_name": "Doctor's Best, Vegan DHA from Algae with Life's DHA\u2122, 200 mg, 60 Veggie Softgels",
+          "product_name": "Doctor's Best, Vegan DHA from Algae with Life's DHA™, 200 mg, 60 Veggie Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/drb/drb00296/u/75.jpg",
           "rating": null,
           "reviews": null
@@ -4898,7 +4949,10 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "200 mg"
+      ]
     },
     {
       "id": "52902_terry naturally_omega-3 phospholipid peptide complex_292.0_mg_standard",
@@ -4913,7 +4967,7 @@
       "best_total_price": 43.16,
       "unit": "mg",
       "primary_ingredient": "Omega-3 Phospholipid Peptide Complex",
-      "amount_per_serving": 292.0,
+      "amount_per_serving": 292,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4945,7 +4999,7 @@
       "best_total_price": 33.61,
       "unit": "mg",
       "primary_ingredient": "Carbohydrates",
-      "amount_per_serving": 200.0,
+      "amount_per_serving": 200,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4960,7 +5014,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1,000 mg per Serving; 1,000 mg"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "33318_advanced nutrition by zahler_docosahexaenoic acid_600.0_mg_standard",
@@ -4975,7 +5033,7 @@
       "best_total_price": 114.39,
       "unit": "mg",
       "primary_ingredient": "Docosahexaenoic Acid",
-      "amount_per_serving": 600.0,
+      "amount_per_serving": 600,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4994,7 +5052,11 @@
         "fish_free",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "2000 mg"
+      ],
+      "dsld_content": "360 Softgel(s)"
     },
     {
       "id": "299676_california gold nutrition_alpha-glycerophosphocholine_150.0_mg_standard",
@@ -5009,7 +5071,7 @@
       "best_total_price": 30.03,
       "unit": "mg",
       "primary_ingredient": "Alpha-Glycerophosphocholine",
-      "amount_per_serving": 150.0,
+      "amount_per_serving": 150,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5039,7 +5101,7 @@
       "best_total_price": 43.16,
       "unit": "mg",
       "primary_ingredient": "Omega-3 Phospholipid Peptide Complex",
-      "amount_per_serving": 214.0,
+      "amount_per_serving": 214,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5054,7 +5116,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "214 mg per Capsule; 214 mg"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "272996_california gold nutrition_calories_45.0_calorie_standard",
@@ -5066,14 +5132,14 @@
       "dsld_brand": "California Gold Nutrition",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/cgn/cgn00871/u/154.jpg",
       "best_price_per_unit": 0.3333333333333333,
-      "best_total_price": 15.0,
+      "best_total_price": 15,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 15.0,
+          "price": 15,
           "price_per_unit": 0.3333333333333333,
           "product_url": "https://www.iherb.com/pr/california-gold-nutrition-baby-s-dha-omega-3s-with-vitamin-d3-and-epa-2-fl-oz-59-ml/68171",
           "product_name": "California Gold Nutrition, Baby's DHA, Omega-3s with Vitamin D3 and EPA, 2 fl oz (59 ml)",
@@ -5084,7 +5150,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 fl. oz.; 59 mL"
     },
     {
       "id": "180435_nature made_calories_35.0_calorie_standard",
@@ -5099,7 +5166,7 @@
       "best_total_price": 11.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 35.0,
+      "amount_per_serving": 35,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5118,7 +5185,11 @@
         "yeast_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1200 mg"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "13801_nature made_calories_30.0_calorie_standard",
@@ -5133,7 +5204,7 @@
       "best_total_price": 10.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5154,7 +5225,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "90 Liquid"
     },
     {
       "id": "313334_naturewise_calories_20.0_calorie_standard",
@@ -5169,7 +5244,7 @@
       "best_total_price": 6.93,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5184,7 +5259,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "244601_mason natural_calories_40.0_calorie_standard",
@@ -5199,7 +5275,7 @@
       "best_total_price": 13.94,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5217,7 +5293,8 @@
         "gluten_free",
         "sodium_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "76798_now_calories_20.0_calorie_standard",
@@ -5232,7 +5309,7 @@
       "best_total_price": 7.39,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5249,7 +5326,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "179441_nature made_calories_35.0_calorie_standard",
@@ -5264,7 +5342,7 @@
       "best_total_price": 13.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 35.0,
+      "amount_per_serving": 35,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5283,7 +5361,11 @@
         "yeast_free",
         "no_artificial_flavors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1200 mg"
+      ],
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "224640_nordic naturals_calories_40.0_calorie_standard",
@@ -5298,7 +5380,7 @@
       "best_total_price": 16.11,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5317,7 +5399,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "2 fl. oz.; 60 mL"
     },
     {
       "id": "13801_nature made_calories_30.0_calorie_standard",
@@ -5332,7 +5415,7 @@
       "best_total_price": 13.16,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5353,7 +5436,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "62582_natural factors_calories_40.0_calorie_standard",
@@ -5365,14 +5452,14 @@
       "dsld_brand": "Natural Factors",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nfs/nfs35740/u/27.jpg",
       "best_price_per_unit": 0.45,
-      "best_total_price": 18.0,
+      "best_total_price": 18,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 18.0,
+          "price": 18,
           "price_per_unit": 0.45,
           "product_url": "https://www.iherb.com/pr/natural-factors-searich-omega-3-delicious-lemon-meringue-6-76-fl-oz-200-ml/68244",
           "product_name": "Natural Factors, SeaRich Omega-3, Delicious Lemon Meringue, 6.76 fl oz (200 ml)",
@@ -5387,7 +5474,8 @@
         "no_artificial_colors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "6.76 fl. oz.; 200 mL"
     },
     {
       "id": "70837_now_black currant oil_20.0_mg_standard",
@@ -5402,7 +5490,7 @@
       "best_total_price": 9.09,
       "unit": "mg",
       "primary_ingredient": "Black Currant Oil",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5429,7 +5517,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "180406_nature made_calories_35.0_calorie_standard",
@@ -5444,7 +5536,7 @@
       "best_total_price": 18.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 35.0,
+      "amount_per_serving": 35,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5463,7 +5555,11 @@
         "yeast_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1200 mg"
+      ],
+      "dsld_content": "150 Softgel(s)"
     },
     {
       "id": "241535_childlife essentials_calories_25.0_calorie_standard",
@@ -5478,7 +5574,7 @@
       "best_total_price": 12.96,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5498,7 +5594,8 @@
         "alcohol_free",
         "no_artificial_colors"
       ],
-      "match_score": 96.8
+      "match_score": 96.8,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "292642_havasu nutrition_calories_30.0_calorie_standard",
@@ -5513,7 +5610,7 @@
       "best_total_price": 16.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5528,7 +5625,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 99.0
+      "match_score": 99,
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "74252_nordic naturals_calories_45.0_calorie_standard",
@@ -5543,7 +5641,7 @@
       "best_total_price": 24.61,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5571,7 +5669,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "8 fl. oz."
     },
     {
       "id": "15044_now_calories_25.0_calorie_standard",
@@ -5586,7 +5685,7 @@
       "best_total_price": 13.89,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5601,7 +5700,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "296792_nature's craft_calories_20.0_calorie_standard",
@@ -5616,7 +5716,7 @@
       "best_total_price": 11.77,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5631,7 +5731,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "218506_solgar_calories_20.0_calorie_standard",
@@ -5646,7 +5747,7 @@
       "best_total_price": 11.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5674,7 +5775,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "206612_21st century_calories_15.0_calorie_standard",
@@ -5689,7 +5791,7 @@
       "best_total_price": 8.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5706,7 +5808,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,200 mg"
+      ],
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "306152_carlson laboratories_calories_20.0_calorie_standard",
@@ -5721,7 +5827,7 @@
       "best_total_price": 12.07,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5738,7 +5844,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "50 Softgel(s)"
     },
     {
       "id": "76107_nature's bounty_calories_30.0_calorie_standard",
@@ -5753,7 +5860,7 @@
       "best_total_price": 18.31,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5768,7 +5875,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1,200 mg"
+      ]
     },
     {
       "id": "15044_now_calories_25.0_calorie_standard",
@@ -5783,7 +5893,7 @@
       "best_total_price": 15.3,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5798,7 +5908,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "212591_swanson_calories_10.0_calorie_standard",
@@ -5813,7 +5924,7 @@
       "best_total_price": 6.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5828,7 +5939,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 86.8
+      "match_score": 86.8,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "223301_nordic naturals_calories_45.0_calorie_standard",
@@ -5843,7 +5955,7 @@
       "best_total_price": 28.86,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5878,7 +5990,7 @@
       "best_total_price": 16.5,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5905,7 +6017,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "209959_liquid labs_3b-hydroxy-androstane-3b-ol;17-one_30.0_mg_standard",
@@ -5920,7 +6033,7 @@
       "best_total_price": 19.95,
       "unit": "mg",
       "primary_ingredient": "3b-Hydroxy-androstane-3b-ol;17-one",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5935,7 +6048,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3 Drop(s)"
     },
     {
       "id": "265711_carlson laboratories_calories_20.0_calorie_standard",
@@ -5950,14 +6064,14 @@
       "best_total_price": 13.52,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 13.52,
           "price_per_unit": 0.6759999999999999,
           "product_url": "https://www.vitacost.com/carlson-super-omega-3-gems-50-softgels-2",
-          "product_name": "Carlson Super Omega-3 Gems\u00ae -- 50 Softgels",
+          "product_name": "Carlson Super Omega-3 Gems® -- 50 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Super-Omega-3-Gems-088395015205.jpg",
           "rating": null,
           "reviews": null
@@ -5979,7 +6093,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "50 Softgel(s)"
     },
     {
       "id": "244587_mason natural_calories_10.0_calorie_standard",
@@ -5994,7 +6109,7 @@
       "best_total_price": 6.87,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6011,7 +6126,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "30 Softgel(s)"
     },
     {
       "id": "25819_21st century_calories_10.0_calorie_standard",
@@ -6026,7 +6145,7 @@
       "best_total_price": 6.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6043,7 +6162,11 @@
       "filters": [
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "318761_mason natural_calories_10.0_calorie_standard",
@@ -6058,7 +6181,7 @@
       "best_total_price": 7.01,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6073,7 +6196,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "50271_now_calories_20.0_calorie_standard",
@@ -6088,7 +6215,7 @@
       "best_total_price": 14.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6103,7 +6230,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "327771_naturewise_calories_20.0_calorie_standard",
@@ -6118,7 +6246,7 @@
       "best_total_price": 14.15,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6133,7 +6261,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "265618_carlson laboratories_calories_25.0_calorie_standard",
@@ -6148,7 +6277,7 @@
       "best_total_price": 18.28,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6176,7 +6305,8 @@
         "organic",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "249904_bioschwartz_calories_30.0_calorie_ultra_pure",
@@ -6191,7 +6321,7 @@
       "best_total_price": 21.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6211,7 +6341,8 @@
         "wild_caught",
         "ultra_pure"
       ],
-      "match_score": 95.4
+      "match_score": 95.4,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "304899_carlson laboratories_calories_40.0_calorie_standard",
@@ -6226,7 +6357,7 @@
       "best_total_price": 29.67,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6243,7 +6374,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 94.3
+      "match_score": 94.3,
+      "dsld_content": "6.7 fl. oz."
     },
     {
       "id": "277732_nature's secret_adrenal blend_25.0_mg_fast_acting",
@@ -6258,14 +6390,14 @@
       "best_total_price": 18.74,
       "unit": "mg",
       "primary_ingredient": "Adrenal Blend",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 18.74,
           "price_per_unit": 0.7495999999999999,
           "product_url": "https://www.iherb.com/pr/nature-s-secret-women-s-73-nutrient-soft-gel-multi-with-omega-3-oils-60-liquid-soft-gels/3140",
-          "product_name": "Nature's Secret, Women's 73 Nutrient Soft-Gel Multi\u2122 With Omega-3 Oils, 60 Liquid Soft-Gels",
+          "product_name": "Nature's Secret, Women's 73 Nutrient Soft-Gel Multi™ With Omega-3 Oils, 60 Liquid Soft-Gels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nts/nts50093/u/65.jpg",
           "rating": null,
           "reviews": null
@@ -6275,7 +6407,8 @@
       "filters": [
         "fast_acting"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Liquid"
     },
     {
       "id": "59472_life extension_calories_25.0_calorie_standard",
@@ -6290,7 +6423,7 @@
       "best_total_price": 18.75,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6322,7 +6455,7 @@
       "best_total_price": 30.52,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6337,7 +6470,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "54286_carlson laboratories_calories_40.0_calorie_standard",
@@ -6352,7 +6486,7 @@
       "best_total_price": 30.52,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6367,7 +6501,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "180407_nature made_calories_35.0_calorie_standard",
@@ -6382,7 +6517,7 @@
       "best_total_price": 27.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 35.0,
+      "amount_per_serving": 35,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6401,7 +6536,11 @@
         "yeast_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1200 mg"
+      ],
+      "dsld_content": "230 Softgel(s)"
     },
     {
       "id": "223305_nordic naturals_calories_20.0_calorie_standard",
@@ -6416,7 +6555,7 @@
       "best_total_price": 16.11,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6436,7 +6575,11 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "690 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "303074_catalo_carbohydrates_100.0_mg_standard",
@@ -6451,7 +6594,7 @@
       "best_total_price": 80.85,
       "unit": "mg",
       "primary_ingredient": "Carbohydrates",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6466,7 +6609,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "179441_nature made_calories_35.0_calorie_standard",
@@ -6481,7 +6625,7 @@
       "best_total_price": 28.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 35.0,
+      "amount_per_serving": 35,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6500,7 +6644,11 @@
         "yeast_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1200 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "243975_garden of life_brown seaweed extract_30.0_mg_standard",
@@ -6515,14 +6663,14 @@
       "best_total_price": 24.79,
       "unit": "mg",
       "primary_ingredient": "Brown Seaweed extract",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 24.79,
           "price_per_unit": 0.8263333333333333,
           "product_url": "https://www.vitacost.com/garden-of-life-oceans-3-beyond-omega-3-with-omegaxanthin-60-softgels",
-          "product_name": "Garden of Life Oceans 3\u2122 Beyond Omega-3\u2122 with OmegaXanthi...",
+          "product_name": "Garden of Life Oceans 3™ Beyond Omega-3™ with OmegaXanthi...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Garden-of-Life/Garden-of-Life-Oceans-3-Beyond-Omega-3-with-OmegaXanthin-658010113854.jpg",
           "rating": null,
           "reviews": null
@@ -6532,7 +6680,7 @@
           "price": 25.89,
           "price_per_unit": 0.863,
           "product_url": "https://www.iherb.com/pr/garden-of-life-oceans-3-beyond-omega-3-with-omegaxanthin-60-softgels/16301",
-          "product_name": "Garden of Life, Oceans 3\u2122, Beyond Omega-3 with OmegaXanthin\u2122, 60 Softgels",
+          "product_name": "Garden of Life, Oceans 3™, Beyond Omega-3 with OmegaXanthin™, 60 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gol/gol11385/u/59.jpg",
           "rating": null,
           "reviews": null
@@ -6559,7 +6707,7 @@
       "best_total_price": 29.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 36.0,
+      "amount_per_serving": 36,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6588,7 +6736,8 @@
         "wild_caught",
         "ultra_pure"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "69560_barlean's_calories_20.0_calorie_standard",
@@ -6603,14 +6752,14 @@
       "best_total_price": 16.89,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 16.89,
           "price_per_unit": 0.8445,
           "product_url": "https://www.vitacost.com/barleans-fresh-catch-fish-oil-orange-100-softgels",
-          "product_name": "Barlean's Fresh Catch\u00ae Fish Oil Orange -- 100 Softgels",
+          "product_name": "Barlean's Fresh Catch® Fish Oil Orange -- 100 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Barleans/Barleans-Fresh-Catch-Fish-Oil-Orange-705875610070.jpg",
           "rating": null,
           "reviews": null
@@ -6620,7 +6769,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 98.3
+      "match_score": 98.3,
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "216646_carlson laboratories_calories_40.0_calorie_standard",
@@ -6635,7 +6785,7 @@
       "best_total_price": 33.92,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6678,7 +6828,7 @@
       "best_total_price": 16.96,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6708,7 +6858,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "46968_barlean's_calories_45.0_calorie_pharmaceutical_grade",
@@ -6723,14 +6874,14 @@
       "best_total_price": 38.89,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 38.89,
           "price_per_unit": 0.8642222222222222,
           "product_url": "https://www.vitacost.com/barleans-fresh-catch-fish-oil",
-          "product_name": "Barlean's Fresh Catch\u00ae Fish Oil Orange -- 8 fl oz",
+          "product_name": "Barlean's Fresh Catch® Fish Oil Orange -- 8 fl oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Barleans/Barleans-Fresh-Catch-Fish-Oil-Orange-705875600019.jpg",
           "rating": null,
           "reviews": null
@@ -6740,7 +6891,8 @@
       "filters": [
         "pharmaceutical_grade"
       ],
-      "match_score": 98.3
+      "match_score": 98.3,
+      "dsld_content": "8 fl. oz."
     },
     {
       "id": "206612_21st century_calories_15.0_calorie_standard",
@@ -6755,7 +6907,7 @@
       "best_total_price": 12.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6772,7 +6924,10 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1,200 mg"
+      ]
     },
     {
       "id": "214322_nordic naturals_calories_25.0_calorie_standard",
@@ -6787,7 +6942,7 @@
       "best_total_price": 22.06,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6808,7 +6963,8 @@
         "wild_caught",
         "fermented"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "236939_nature's bounty_calories_25.0_calorie_enteric_coated",
@@ -6823,7 +6979,7 @@
       "best_total_price": 22.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6851,7 +7007,11 @@
         "non_gmo",
         "enteric_coated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2400 mg"
+      ],
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "211279_nature made_calories_15.0_calorie_standard",
@@ -6866,7 +7026,7 @@
       "best_total_price": 13.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6899,7 +7059,7 @@
       "best_total_price": 9.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6916,7 +7076,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "309349_nutrabio_calories_15.0_calorie_standard",
@@ -6931,7 +7092,7 @@
       "best_total_price": 13.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6948,7 +7109,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1,000 mg per Softgel; 1,000 mg"
+      ],
+      "dsld_content": "150 Softgel(s)"
     },
     {
       "id": "326327_21st century_calories_15.0_calorie_standard",
@@ -6963,7 +7128,7 @@
       "best_total_price": 13.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6980,7 +7145,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,200 mg"
+      ],
+      "dsld_content": "140 Softgel(s)"
     },
     {
       "id": "271572_nature made_calories_20.0_calorie_standard",
@@ -6995,7 +7164,7 @@
       "best_total_price": 18.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7014,7 +7183,8 @@
         "no_artificial_flavors",
         "no_artificial_sweeteners"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "150 Gummie(s)"
     },
     {
       "id": "259169_futurebiotics_calories_10.0_calorie_standard",
@@ -7029,7 +7199,7 @@
       "best_total_price": 9.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7044,7 +7214,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "223560_nordic naturals_calories_45.0_calorie_pharmaceutical_grade",
@@ -7059,7 +7230,7 @@
       "best_total_price": 43.31,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7079,7 +7250,11 @@
         "wild_caught",
         "pharmaceutical_grade"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1560 mg"
+      ],
+      "dsld_content": "16 fl. oz."
     },
     {
       "id": "306677_nature's truth_calories_20.0_calorie_standard",
@@ -7094,7 +7269,7 @@
       "best_total_price": 19.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7109,7 +7284,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "62060_life extension_calories_20.0_calorie_standard",
@@ -7124,7 +7300,7 @@
       "best_total_price": 20.25,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7149,7 +7325,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg per Softgel; 1,000 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "265618_carlson laboratories_calories_25.0_calorie_standard",
@@ -7164,7 +7344,7 @@
       "best_total_price": 25.42,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7182,7 +7362,8 @@
         "organic",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "200 mL; 6.7 fl. oz."
     },
     {
       "id": "248551_oceanblue professional_calories_25.0_calorie_standard",
@@ -7197,7 +7378,7 @@
       "best_total_price": 25.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7227,7 +7408,7 @@
       "best_total_price": 15.51,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7244,7 +7425,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,200 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "82715_nature made_calories_20.0_calorie_standard",
@@ -7259,7 +7444,7 @@
       "best_total_price": 20.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7289,7 +7474,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "150 Softgel(s)"
     },
     {
       "id": "77221_nature's bounty_calories_15.0_calorie_standard",
@@ -7304,7 +7493,7 @@
       "best_total_price": 15.87,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7347,7 +7536,7 @@
       "best_total_price": 37.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 35.0,
+      "amount_per_serving": 35,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7366,7 +7555,11 @@
         "yeast_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,200 mg"
+      ],
+      "dsld_content": "200 Softgel(s)"
     },
     {
       "id": "326823_country life_calories_10.0_calorie_standard",
@@ -7381,7 +7574,7 @@
       "best_total_price": 10.87,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7408,7 +7601,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "50 Softgel(s)"
     },
     {
       "id": "55568_the vitamin shoppe_calories_10.0_calorie_standard",
@@ -7423,7 +7620,7 @@
       "best_total_price": 10.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7442,7 +7639,11 @@
         "dairy_free",
         "nut_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "205021_now_calories_10.0_calorie_standard",
@@ -7457,7 +7658,7 @@
       "best_total_price": 11.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7474,7 +7675,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "60670_life extension_calories_25.0_calorie_standard",
@@ -7489,7 +7691,7 @@
       "best_total_price": 28.5,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7506,7 +7708,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "271502_nature made_calories_20.0_calorie_standard",
@@ -7521,7 +7724,7 @@
       "best_total_price": 23.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7550,7 +7753,11 @@
         "no_artificial_flavors",
         "wild_caught"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "250 Softgel(s)"
     },
     {
       "id": "322173_little davinci_calories_40.0_calorie_standard",
@@ -7565,7 +7772,7 @@
       "best_total_price": 46.24,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7582,7 +7789,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "6.76 fl. oz.; 200 mL"
     },
     {
       "id": "241612_nature's bounty_calories_20.0_calorie_standard",
@@ -7597,7 +7805,7 @@
       "best_total_price": 23.89,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7627,7 +7835,7 @@
       "best_total_price": 11.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7653,7 +7861,10 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1,000 mg"
+      ]
     },
     {
       "id": "326270_sports research_calories_15.0_calorie_standard",
@@ -7668,7 +7879,7 @@
       "best_total_price": 17.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7683,7 +7894,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "30 Softgel(s)"
     },
     {
       "id": "60848_life extension_calories_25.0_calorie_standard",
@@ -7695,14 +7907,14 @@
       "dsld_brand": "Life Extension",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/lex/lex19862/u/152.jpg",
       "best_price_per_unit": 1.2,
-      "best_total_price": 30.0,
+      "best_total_price": 30,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 30.0,
+          "price": 30,
           "price_per_unit": 1.2,
           "product_url": "https://www.iherb.com/pr/life-extension-super-omega-3-240-softgels/67021",
           "product_name": "Life Extension, Super Omega-3, 240 Softgels",
@@ -7713,7 +7925,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "316087_live conscious_calories_20.0_calorie_standard",
@@ -7728,7 +7941,7 @@
       "best_total_price": 24.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7745,7 +7958,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1,000 mg per Softgel; 1,000 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "247316_paradise_calories_9.0_calorie_ultra_pure",
@@ -7760,14 +7977,14 @@
       "best_total_price": 11.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 9.0,
+      "amount_per_serving": 9,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 11.29,
           "price_per_unit": 1.2544444444444443,
           "product_url": "https://www.vitacost.com/paradise-herbs-med-vita-omega-sure-omega-3-fish-oil",
-          "product_name": "Paradise Herbs Med-Vita\u00ae Omega-Sure\u2122 Omega-3 Fish Oil -- ...",
+          "product_name": "Paradise Herbs Med-Vita® Omega-Sure™ Omega-3 Fish Oil -- ...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Paradise-Herbs/Paradise-Herbs-Med-Vita-Omega-Sure-Omega-3-Fish-Oil-601944777951.jpg",
           "rating": null,
           "reviews": null
@@ -7793,7 +8010,7 @@
       "best_total_price": 12.66,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7808,7 +8025,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "203403_swanson_calories_10.0_calorie_standard",
@@ -7823,7 +8044,7 @@
       "best_total_price": 13.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7838,7 +8059,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "305177_vital nutrients_calories_30.0_calorie_standard",
@@ -7853,7 +8075,7 @@
       "best_total_price": 39.9,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 30.0,
+      "amount_per_serving": 30,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7868,7 +8090,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 97.4
+      "match_score": 97.4,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "218558_solgar_calories_15.0_calorie_standard",
@@ -7883,7 +8106,7 @@
       "best_total_price": 20.08,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7910,7 +8133,11 @@
       "filters": [
         "dairy_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "700 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "205021_now_calories_10.0_calorie_standard",
@@ -7925,7 +8152,7 @@
       "best_total_price": 13.46,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -7942,7 +8169,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "150 Softgel(s)"
     },
     {
       "id": "321717_nordic naturals_calories_20.0_calorie_standard",
@@ -7957,7 +8185,7 @@
       "best_total_price": 27.16,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -7972,7 +8200,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "690 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "305228_davinci laboratories_calories_25.0_calorie_standard",
@@ -7987,7 +8219,7 @@
       "best_total_price": 33.96,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8004,7 +8236,8 @@
       "filters": [
         "wild_caught"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "187565_swanson_calories_10.0_calorie_standard",
@@ -8019,7 +8252,7 @@
       "best_total_price": 13.7,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8034,7 +8267,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.8
+      "match_score": 96.8,
+      "dsld_content": "150 Softgel(s)"
     },
     {
       "id": "203455_swanson_calories_10.0_calorie_standard",
@@ -8049,7 +8283,7 @@
       "best_total_price": 13.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8064,7 +8298,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "240779_nature's bounty_calories_15.0_calorie_standard",
@@ -8079,7 +8317,7 @@
       "best_total_price": 21.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8108,7 +8346,11 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1200 mg"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "214197_nordic naturals_calories_10.0_calorie_standard",
@@ -8123,7 +8365,7 @@
       "best_total_price": 14.41,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -8142,7 +8384,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "265618_carlson laboratories_calories_25.0_calorie_standard",
@@ -8157,7 +8400,7 @@
       "best_total_price": 36.04,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8190,7 +8433,7 @@
       "best_total_price": 28.86,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8210,7 +8453,11 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "223175_nordic naturals_calories_20.0_calorie_standard",
@@ -8225,7 +8472,7 @@
       "best_total_price": 28.86,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8245,7 +8492,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 95.6
+      "match_score": 95.6,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "266338_carlson laboratories_calories_40.0_calorie_standard",
@@ -8260,7 +8508,7 @@
       "best_total_price": 59.42,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8278,7 +8526,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 94.0
+      "match_score": 94,
+      "dsld_content": "16.9 fl. oz.; 500 mL"
     },
     {
       "id": "59472_life extension_calories_25.0_calorie_standard",
@@ -8293,7 +8542,7 @@
       "best_total_price": 38.25,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8310,7 +8559,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "326271_sports research_calories_15.0_calorie_standard",
@@ -8325,7 +8575,7 @@
       "best_total_price": 22.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8340,7 +8590,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "318761_mason natural_calories_10.0_calorie_standard",
@@ -8355,7 +8606,7 @@
       "best_total_price": 15.38,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8370,7 +8621,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "266315_carlson laboratories_calories_20.0_calorie_standard",
@@ -8385,7 +8637,7 @@
       "best_total_price": 31.11,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8404,7 +8656,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "336417_mason natural_calories_10.0_calorie_standard",
@@ -8419,7 +8672,7 @@
       "best_total_price": 15.78,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8434,7 +8687,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "306577_wiley's finest_calories_15.0_calorie_standard",
@@ -8449,7 +8703,7 @@
       "best_total_price": 23.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8474,7 +8728,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "306578_wiley's finest_calories_15.0_calorie_standard",
@@ -8489,7 +8744,7 @@
       "best_total_price": 23.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8504,7 +8759,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "30 Softgel(s)"
     },
     {
       "id": "306574_wiley's finest_calories_10.0_calorie_standard",
@@ -8519,7 +8775,7 @@
       "best_total_price": 16.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8544,7 +8800,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "266238_carlson laboratories_calories_20.0_calorie_standard",
@@ -8559,7 +8816,7 @@
       "best_total_price": 33.92,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8576,7 +8833,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "266236_carlson laboratories_calories_20.0_calorie_standard",
@@ -8591,7 +8849,7 @@
       "best_total_price": 33.92,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8608,7 +8866,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "1609_country life_calories_20.0_calorie_standard",
@@ -8623,14 +8882,14 @@
       "best_total_price": 34.71,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 34.71,
           "price_per_unit": 1.7355,
           "product_url": "https://www.vitacost.com/country-life-omega-3-mood-90-softgels",
-          "product_name": "Country Life Omega 3 Mood\u00ae -- 90 Softgels",
+          "product_name": "Country Life Omega 3 Mood® -- 90 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Country-Life/Country-Life-Omega-3-Mood-015794041207.jpg",
           "rating": null,
           "reviews": null
@@ -8640,7 +8899,8 @@
       "filters": [
         "no_artificial_colors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "291827_barlean's_calories_15.0_calorie_standard",
@@ -8655,7 +8915,7 @@
       "best_total_price": 26.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8670,7 +8930,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 94.0
+      "match_score": 94,
+      "dsld_content": "30 Softgel(s)"
     },
     {
       "id": "327616_country life_calories_10.0_calorie_standard",
@@ -8685,7 +8946,7 @@
       "best_total_price": 17.91,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8702,7 +8963,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "305311_carlson laboratories_calories_20.0_calorie_standard",
@@ -8717,7 +8982,7 @@
       "best_total_price": 36.04,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8734,7 +8999,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "76234_natural factors_calories_10.0_calorie_pharmaceutical_grade",
@@ -8749,7 +9015,7 @@
       "best_total_price": 18.17,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8778,7 +9044,11 @@
         "no_artificial_colors",
         "pharmaceutical_grade"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1260 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "253138_new chapter_botanical antioxidant stability system (b.a.s.s.) proprietary blend_12.0_mg_standard",
@@ -8793,7 +9063,7 @@
       "best_total_price": 21.97,
       "unit": "mg",
       "primary_ingredient": "Botanical Antioxidant Stability System (B.A.S.S.) Proprietary Blend",
-      "amount_per_serving": 12.0,
+      "amount_per_serving": 12,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8821,7 +9091,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "326273_sports research_calories_15.0_calorie_standard",
@@ -8836,7 +9107,7 @@
       "best_total_price": 27.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8851,7 +9122,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "326272_sports research_calories_15.0_calorie_standard",
@@ -8866,7 +9138,7 @@
       "best_total_price": 27.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -8881,7 +9153,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "64804_garden of life minami_calories_9.0_calorie_standard",
@@ -8896,7 +9169,7 @@
       "best_total_price": 16.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 9.0,
+      "amount_per_serving": 9,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8927,14 +9200,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/prt/prt11661/u/54.jpg",
       "best_price_per_unit": 1.8666666666666667,
-      "best_total_price": 28.0,
+      "best_total_price": 28,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 28.0,
+          "price": 28,
           "price_per_unit": 1.8666666666666667,
           "product_url": "https://www.iherb.com/pr/protocol-for-life-balance-molecularly-distilled-ultra-omega-3-fish-oil-90-softgels/23043",
           "product_name": "Protocol for Life Balance, Molecularly Distilled Ultra Omega-3 Fish Oil, 90 Softgels",
@@ -8948,7 +9221,8 @@
         "halal",
         "non_gmo"
       ],
-      "match_score": 99.3
+      "match_score": 99.3,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "322517_doctor's best_calories_20.0_calorie_standard",
@@ -8963,7 +9237,7 @@
       "best_total_price": 37.39,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -8981,7 +9255,10 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "2000 mg"
+      ]
     },
     {
       "id": "76234_natural factors_calories_10.0_calorie_pharmaceutical_grade",
@@ -8996,7 +9273,7 @@
       "best_total_price": 18.87,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9015,7 +9292,11 @@
         "no_artificial_colors",
         "pharmaceutical_grade"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "530 mg per Softgel; 530 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "239596_barlean's_calories_20.0_calorie_pharmaceutical_grade",
@@ -9030,14 +9311,14 @@
       "best_total_price": 37.89,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 37.89,
           "price_per_unit": 1.8945,
           "product_url": "https://www.vitacost.com/barleans-fresh-catch-fish-oil-orange",
-          "product_name": "Barlean's Fresh Catch\u00ae Fish Oil Orange -- 250 Softgels",
+          "product_name": "Barlean's Fresh Catch® Fish Oil Orange -- 250 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Barleans/Barleans-Fresh-Catch-Fish-Oil-Orange-705875610087.jpg",
           "rating": null,
           "reviews": null
@@ -9049,7 +9330,8 @@
         "non_gmo",
         "pharmaceutical_grade"
       ],
-      "match_score": 98.3
+      "match_score": 98.3,
+      "dsld_content": "250 Softgel(s)"
     },
     {
       "id": "321467_momentous_calories_20.0_calorie_standard",
@@ -9064,7 +9346,7 @@
       "best_total_price": 37.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9096,7 +9378,7 @@
       "best_total_price": 38.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9129,7 +9411,7 @@
       "best_total_price": 39.06,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9149,7 +9431,11 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "690 mg"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "77182_solgar_calories_15.0_calorie_standard",
@@ -9164,7 +9450,7 @@
       "best_total_price": 29.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9182,7 +9468,11 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "950 mg"
+      ],
+      "dsld_content": "10 Capsule(s)"
     },
     {
       "id": "247316_paradise_calories_9.0_calorie_ultra_pure",
@@ -9197,14 +9487,14 @@
       "best_total_price": 17.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 9.0,
+      "amount_per_serving": 9,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 17.99,
           "price_per_unit": 1.9988888888888887,
           "product_url": "https://www.iherb.com/pr/paradise-herbs-omega-sure-premium-omega-3-fish-oil-60-pesco-vegetarian-softgels/18965",
-          "product_name": "Paradise Herbs, Omega-Sure\u00ae, Premium Omega-3 Fish Oil, 60 Fish Gelatin Vegetarian Softgels",
+          "product_name": "Paradise Herbs, Omega-Sure®, Premium Omega-3 Fish Oil, 60 Fish Gelatin Vegetarian Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/par/par77796/u/48.jpg",
           "rating": null,
           "reviews": null
@@ -9226,16 +9516,16 @@
       "dsld_product_name": "Optimal Fish Oil",
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Fish-Oil-810007521176.jpg",
-      "best_price_per_unit": 2.0,
-      "best_total_price": 40.0,
+      "best_price_per_unit": 2,
+      "best_total_price": 40,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 40.0,
-          "price_per_unit": 2.0,
+          "price": 40,
+          "price_per_unit": 2,
           "product_url": "https://www.vitacost.com/seeking-health-fish-oil",
           "product_name": "Seeking Health Fish Oil -- 60 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Fish-Oil-810007521176.jpg",
@@ -9244,8 +9534,8 @@
         },
         {
           "retailer": "iHerb",
-          "price": 40.0,
-          "price_per_unit": 2.0,
+          "price": 40,
+          "price_per_unit": 2,
           "product_url": "https://www.iherb.com/pr/seeking-health-fish-oil-60-softgels/122646",
           "product_name": "Seeking Health, Fish Oil, 60 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52117/u/24.jpg",
@@ -9257,7 +9547,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "291804_thorne_calories_15.0_calorie_standard",
@@ -9268,16 +9559,16 @@
       "dsld_product_name": "Prenatal DHA 650 mg",
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Prenatal-DHA-693749013259.jpg",
-      "best_price_per_unit": 2.0,
-      "best_total_price": 30.0,
+      "best_price_per_unit": 2,
+      "best_total_price": 30,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 30.0,
-          "price_per_unit": 2.0,
+          "price": 30,
+          "price_per_unit": 2,
           "product_url": "https://www.vitacost.com/thorne-prenatal-dha",
           "product_name": "Thorne Prenatal DHA -- 60 Gel Caps",
           "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Prenatal-DHA-693749013259.jpg",
@@ -9287,7 +9578,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Gel Capsule(s)"
     },
     {
       "id": "298106_thorne_calories_15.0_calorie_standard",
@@ -9298,16 +9590,16 @@
       "dsld_product_name": "Advanced DHA 650 mg",
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Advanced-DHA-693749013273.jpg",
-      "best_price_per_unit": 2.0,
-      "best_total_price": 30.0,
+      "best_price_per_unit": 2,
+      "best_total_price": 30,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 30.0,
-          "price_per_unit": 2.0,
+          "price": 30,
+          "price_per_unit": 2,
           "product_url": "https://www.vitacost.com/thorne-advanced-dha",
           "product_name": "Thorne Advanced DHA -- 60 Gel Caps",
           "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Advanced-DHA-693749013273.jpg",
@@ -9317,7 +9609,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Gel Capsule(s)"
     },
     {
       "id": "271458_nature made_calories_15.0_calorie_standard",
@@ -9332,7 +9625,7 @@
       "best_total_price": 30.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9350,7 +9643,8 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "150 Softgel(s)"
     },
     {
       "id": "288736_nordic naturals_calories_15.0_calorie_standard",
@@ -9365,7 +9659,7 @@
       "best_total_price": 31.41,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9380,7 +9674,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "265946_carlson laboratories_calories_20.0_calorie_standard",
@@ -9395,7 +9690,7 @@
       "best_total_price": 41.91,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9414,7 +9709,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "303782_xymogen_calories_25.0_calorie_standard",
@@ -9429,7 +9725,7 @@
       "best_total_price": 52.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9444,7 +9740,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Softgel(s)"
     },
     {
       "id": "304750_flora udo's choice_calories_20.0_calorie_standard",
@@ -9459,7 +9756,7 @@
       "best_total_price": 42.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9476,7 +9773,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "17 fl. oz."
     },
     {
       "id": "73016_dr. tobias_calories_20.0_calorie_standard",
@@ -9491,7 +9789,7 @@
       "best_total_price": 43.02,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9506,7 +9804,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "304911_carlson laboratories_calories_5.0_calorie_standard",
@@ -9521,7 +9820,7 @@
       "best_total_price": 10.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9538,7 +9837,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 94.0
+      "match_score": 94,
+      "dosage": [
+        "100 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "303928_davinci laboratories_calories_25.0_calorie_standard",
@@ -9553,7 +9856,7 @@
       "best_total_price": 55.02,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9580,7 +9883,8 @@
       "filters": [
         "wild_caught"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "327772_naturewise_calories_20.0_calorie_standard",
@@ -9595,7 +9899,7 @@
       "best_total_price": 44.09,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9610,7 +9914,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "360 Softgel(s)"
     },
     {
       "id": "221683_nordic naturals_calories_10.0_calorie_standard",
@@ -9625,7 +9930,7 @@
       "best_total_price": 22.06,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9660,7 +9965,7 @@
       "best_total_price": 44.2,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9675,7 +9980,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "230 Softgel(s)"
     },
     {
       "id": "318763_mason natural_calories_10.0_calorie_standard",
@@ -9690,7 +9996,7 @@
       "best_total_price": 22.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9705,7 +10011,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "200 Softgel(s)"
     },
     {
       "id": "304813_carlson laboratories_calories_10.0_calorie_standard",
@@ -9720,7 +10030,7 @@
       "best_total_price": 22.53,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9737,7 +10047,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "233525_wiley's finest_calories_11.0_calorie_standard",
@@ -9752,7 +10066,7 @@
       "best_total_price": 25.89,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 11.0,
+      "amount_per_serving": 11,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9767,7 +10081,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1250 mg"
+      ]
     },
     {
       "id": "214199_nordic naturals_calories_10.0_calorie_standard",
@@ -9782,7 +10099,7 @@
       "best_total_price": 23.76,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -9801,7 +10118,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "67244_the vitamin shoppe_calories_10.0_calorie_standard",
@@ -9816,7 +10134,7 @@
       "best_total_price": 24.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9836,7 +10154,8 @@
         "soy_free",
         "nut_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "327617_country life_calories_25.0_calorie_standard",
@@ -9851,7 +10170,7 @@
       "best_total_price": 62.71,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9866,7 +10185,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.0
+      "match_score": 96,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "233603_garden of life minami_calories_10.0_calorie_standard",
@@ -9881,7 +10201,7 @@
       "best_total_price": 25.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9915,7 +10235,7 @@
       "best_total_price": 50.69,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -9932,7 +10252,7 @@
           "price": 56.3,
           "price_per_unit": 2.815,
           "product_url": "https://www.iherb.com/pr/jarrow-formulas-fish-oil-epa-dha-balance-120-softgels/4571",
-          "product_name": "Jarrow Formulas, Fish Oil, EPA-DHA Balance\u00ae, 120 Softgels",
+          "product_name": "Jarrow Formulas, Fish Oil, EPA-DHA Balance®, 120 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw16036/u/62.jpg",
           "rating": null,
           "reviews": null
@@ -9940,7 +10260,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "305312_carlson laboratories_calories_20.0_calorie_standard",
@@ -9955,7 +10276,7 @@
       "best_total_price": 50.92,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -9972,7 +10293,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 95.4
+      "match_score": 95.4,
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "223169_nordic naturals_calories_15.0_calorie_standard",
@@ -9987,7 +10309,7 @@
       "best_total_price": 39.06,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10004,7 +10326,7 @@
           "price": 39.06,
           "price_per_unit": 2.604,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-omega-3-phospholipids-60-soft-gels/61371",
-          "product_name": "Nordic Naturals, Omega-3 Phospholipids\u2122, 60 Soft Gels",
+          "product_name": "Nordic Naturals, Omega-3 Phospholipids™, 60 Soft Gels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor01621/u/78.jpg",
           "rating": null,
           "reviews": null
@@ -10015,7 +10337,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "288737_nordic naturals_calories_10.0_calorie_standard",
@@ -10030,7 +10353,7 @@
       "best_total_price": 26.31,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -10055,7 +10378,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "288737_nordic naturals_calories_10.0_calorie_standard",
@@ -10070,7 +10394,7 @@
       "best_total_price": 26.31,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -10085,7 +10409,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "43191_nordic naturals_calories_10.0_calorie_standard",
@@ -10100,7 +10425,7 @@
       "best_total_price": 26.31,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10134,7 +10459,7 @@
       "best_total_price": 53.25,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -10151,7 +10476,8 @@
       "filters": [
         "pharmaceutical_grade"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "67253_the vitamin shoppe_calories_10.0_calorie_standard",
@@ -10166,7 +10492,7 @@
       "best_total_price": 27.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -10186,7 +10512,8 @@
         "soy_free",
         "nut_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "326456_protocol for life balance_calories_10.0_calorie_standard",
@@ -10198,14 +10525,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Ultra-Omega-3-707359116610.jpg",
       "best_price_per_unit": 2.8,
-      "best_total_price": 28.0,
+      "best_total_price": 28,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 28.0,
+          "price": 28,
           "price_per_unit": 2.8,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-ultra-omega-3-90-softgels",
           "product_name": "Protocol For Life Balance Ultra Omega-3 -- 90 Softgels",
@@ -10216,7 +10543,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "304895_carlson laboratories_calories_10.0_calorie_standard",
@@ -10231,14 +10559,14 @@
       "best_total_price": 28.82,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 28.82,
           "price_per_unit": 2.882,
           "product_url": "https://www.vitacost.com/carlson-super-dha-gems-500-mg-60-softgels-1",
-          "product_name": "Carlson Super DHA Gems\u00ae -- 500 mg - 60 Softgels",
+          "product_name": "Carlson Super DHA Gems® -- 500 mg - 60 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Super-DHA-Gems-088395015502.jpg",
           "rating": null,
           "reviews": null
@@ -10256,7 +10584,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "266317_carlson laboratories_calories_20.0_calorie_standard",
@@ -10271,14 +10603,14 @@
       "best_total_price": 57.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 57.97,
           "price_per_unit": 2.8985,
           "product_url": "https://www.vitacost.com/carlson-super-omega-3-gems",
-          "product_name": "Carlson Super Omega-3 Gems\u00ae -- 250 Softgels",
+          "product_name": "Carlson Super Omega-3 Gems® -- 250 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Super-Omega-3-Gems-088395015229.jpg",
           "rating": null,
           "reviews": null
@@ -10290,7 +10622,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "250 Softgel(s)"
     },
     {
       "id": "266317_carlson laboratories_calories_20.0_calorie_standard",
@@ -10305,14 +10638,14 @@
       "best_total_price": 57.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 57.97,
           "price_per_unit": 2.8985,
           "product_url": "https://www.iherb.com/pr/carlson-wild-caught-super-omega-3-gems-250-soft-gels/8719",
-          "product_name": "Carlson, Wild Caught Super Omega-3 Gems\u00ae, 250 Soft Gels",
+          "product_name": "Carlson, Wild Caught Super Omega-3 Gems®, 250 Soft Gels",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -10324,7 +10657,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "250 Softgel(s)"
     },
     {
       "id": "78805_source naturals_calories_10.0_calorie_standard",
@@ -10339,7 +10673,7 @@
       "best_total_price": 29.39,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10370,7 +10704,11 @@
         "fish_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "300 mg"
+      ],
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "251552_nordic naturals_calories_10.0_calorie_standard",
@@ -10385,7 +10723,7 @@
       "best_total_price": 29.71,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10420,7 +10758,7 @@
       "best_total_price": 29.71,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10438,7 +10776,8 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "288731_nordic naturals_calories_10.0_calorie_standard",
@@ -10453,7 +10792,7 @@
       "best_total_price": 29.71,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -10468,7 +10807,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "250 mg"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "232135_life extension omega foundations_calories_5.0_calorie_standard",
@@ -10479,18 +10822,18 @@
       "dsld_product_name": "Vegetarian DHA",
       "dsld_brand": "Life Extension",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Omega-Foundations-Vegetarian-DHA-737870164036.jpg",
-      "best_price_per_unit": 3.0,
-      "best_total_price": 15.0,
+      "best_price_per_unit": 3,
+      "best_total_price": 15,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 15.0,
-          "price_per_unit": 3.0,
+          "price": 15,
+          "price_per_unit": 3,
           "product_url": "https://www.vitacost.com/life-extension-omega-foundations-vegetarian-dha",
-          "product_name": "Life Extension Omega Foundations\u00ae Vegetarian DHA -- 30 Ve...",
+          "product_name": "Life Extension Omega Foundations® Vegetarian DHA -- 30 Ve...",
           "image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Omega-Foundations-Vegetarian-DHA-737870164036.jpg",
           "rating": null,
           "reviews": null
@@ -10501,7 +10844,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "30 Veg Capsule(s)"
     },
     {
       "id": "55886_carlson laboratories_calories_10.0_calorie_standard",
@@ -10516,14 +10860,14 @@
       "best_total_price": 31.11,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 31.11,
           "price_per_unit": 3.1109999999999998,
           "product_url": "https://www.iherb.com/pr/carlson-wild-caught-super-omega-3-gems-100-30-soft-gels/2799",
-          "product_name": "Carlson, Wild Caught Super Omega-3 Gems\u00ae, 50 + 15 Soft Gels",
+          "product_name": "Carlson, Wild Caught Super Omega-3 Gems®, 50 + 15 Soft Gels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car01524/u/52.jpg",
           "rating": null,
           "reviews": null
@@ -10533,7 +10877,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "15 Softgel(s)"
     },
     {
       "id": "235384_nutricology_calories_20.0_calorie_standard",
@@ -10548,7 +10893,7 @@
       "best_total_price": 64.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10563,7 +10908,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "200 Softgel(s)"
     },
     {
       "id": "233186_allergy research group_calories_20.0_calorie_standard",
@@ -10578,7 +10924,7 @@
       "best_total_price": 64.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10608,7 +10954,7 @@
       "best_total_price": 64.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -10623,7 +10969,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "200 Softgel(s)"
     },
     {
       "id": "326432_protocol for life balance_calories_15.0_calorie_standard",
@@ -10635,14 +10982,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/prt/prt11614/u/8.jpg",
       "best_price_per_unit": 3.3333333333333335,
-      "best_total_price": 50.0,
+      "best_total_price": 50,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 50.0,
+          "price": 50,
           "price_per_unit": 3.3333333333333335,
           "product_url": "https://www.iherb.com/pr/protocol-for-life-balance-dha-100-90-softgels/120267",
           "product_name": "Protocol for Life Balance, DHA-100, 90 Softgels",
@@ -10653,7 +11000,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "269082_wiley's finest_calories_15.0_calorie_standard",
@@ -10668,7 +11016,7 @@
       "best_total_price": 52.79,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -10683,7 +11031,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.0
+      "match_score": 87,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "327776_sports research_calories_15.0_calorie_standard",
@@ -10698,7 +11047,7 @@
       "best_total_price": 54.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -10713,7 +11062,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "313229_davinci laboratories_calories_10.0_calorie_enteric_coated",
@@ -10728,7 +11078,7 @@
       "best_total_price": 37.8,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10769,16 +11119,16 @@
       "dsld_product_name": "Super EPA 425 mg",
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Super-EPA-693749006909.jpg",
-      "best_price_per_unit": 4.0,
-      "best_total_price": 40.0,
+      "best_price_per_unit": 4,
+      "best_total_price": 40,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 40.0,
-          "price_per_unit": 4.0,
+          "price": 40,
+          "price_per_unit": 4,
           "product_url": "https://www.vitacost.com/thorne-super-epa",
           "product_name": "Thorne Super EPA -- 90 Gel Caps",
           "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Super-EPA-693749006909.jpg",
@@ -10790,7 +11140,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Gel Capsule(s)"
     },
     {
       "id": "276499_deva_calories_10.0_calorie_standard",
@@ -10801,16 +11152,16 @@
       "dsld_product_name": "Vegan Omega-3 DHA-EPA 300 mg",
       "dsld_brand": "DEVA",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Omega-3-DHA-EPA-895634000409.jpg",
-      "best_price_per_unit": 4.0,
-      "best_total_price": 40.0,
+      "best_price_per_unit": 4,
+      "best_total_price": 40,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 40.0,
-          "price_per_unit": 4.0,
+          "price": 40,
+          "price_per_unit": 4,
           "product_url": "https://www.vitacost.com/deva-vegan-omega-3-dha-epa-300-mg-90-softgels",
           "product_name": "Deva Vegan Omega-3 DHA-EPA -- 300 mg - 90 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Omega-3-DHA-EPA-895634000409.jpg",
@@ -10820,7 +11171,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "300 mg"
+      ],
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "62509_now_calories_5.0_calorie_standard",
@@ -10835,7 +11190,7 @@
       "best_total_price": 20.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -10860,7 +11215,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "60 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "276381_deva_calories_5.0_calorie_standard",
@@ -10875,7 +11234,7 @@
       "best_total_price": 20.62,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -10900,7 +11259,11 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "38147_natural factors_calories_5.0_calorie_pharmaceutical_grade",
@@ -10915,14 +11278,14 @@
       "best_total_price": 20.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 20.97,
           "price_per_unit": 4.194,
           "product_url": "https://www.vitacost.com/natural-factors-rxomega-3-factors-120-softgels-1",
-          "product_name": "Natural Factors RxOmega-3 Factors\u2122 -- 120 Softgels",
+          "product_name": "Natural Factors RxOmega-3 Factors™ -- 120 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Natural-Factors/Natural-Factors-RxOmega-3-Factors-068958049137.jpg",
           "rating": null,
           "reviews": null
@@ -10934,7 +11297,8 @@
         "no_artificial_colors",
         "pharmaceutical_grade"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "38147_natural factors_calories_5.0_calorie_pharmaceutical_grade",
@@ -10949,14 +11313,14 @@
       "best_total_price": 20.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 20.97,
           "price_per_unit": 4.194,
           "product_url": "https://www.iherb.com/pr/natural-factors-womensense-rxomega-3-120-enteripure-softgels/2647",
-          "product_name": "Natural Factors, WomenSense\u00ae, RxOmega-3, 120 Enteripure\u2122 Softgels",
+          "product_name": "Natural Factors, WomenSense®, RxOmega-3, 120 Enteripure™ Softgels",
           "image_url": "",
           "rating": null,
           "reviews": null
@@ -10983,7 +11347,7 @@
       "best_total_price": 42.42,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11001,7 +11365,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "240365_wiley's finest_calories_9.0_calorie_standard",
@@ -11016,7 +11384,7 @@
       "best_total_price": 39.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 9.0,
+      "amount_per_serving": 9,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11031,7 +11399,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "326433_protocol for life balance_calories_10.0_calorie_enteric_coated",
@@ -11043,14 +11412,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-DHA-500-707359116122.jpg",
       "best_price_per_unit": 4.4,
-      "best_total_price": 44.0,
+      "best_total_price": 44,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 44.0,
+          "price": 44,
           "price_per_unit": 4.4,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-dha-500",
           "product_name": "Protocol For Life Balance DHA-500 -- 120 Softgels",
@@ -11063,7 +11432,8 @@
       "filters": [
         "enteric_coated"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "55691_the vitamin shoppe_calories_10.0_calorie_standard",
@@ -11078,7 +11448,7 @@
       "best_total_price": 44.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11097,7 +11467,8 @@
         "dairy_free",
         "nut_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "223609_nordic naturals_calories_10.0_calorie_standard",
@@ -11112,7 +11483,7 @@
       "best_total_price": 45.01,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11141,7 +11512,11 @@
         "fish_free",
         "wild_caught"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "830 mg"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "307583_jarrow formulas_calories_20.0_calorie_standard",
@@ -11156,7 +11531,7 @@
       "best_total_price": 92.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11173,7 +11548,7 @@
           "price": 100.35,
           "price_per_unit": 5.0175,
           "product_url": "https://www.iherb.com/pr/jarrow-formulas-fish-oil-epa-dha-balance-240-softgels-1-000-mg-per-softgel/7929",
-          "product_name": "Jarrow Formulas, Fish Oil EPA-DHA Balance\u00ae, 240 Softgels (1,000 mg per Softgel)",
+          "product_name": "Jarrow Formulas, Fish Oil EPA-DHA Balance®, 240 Softgels (1,000 mg per Softgel)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw16039/u/111.jpg",
           "rating": null,
           "reviews": null
@@ -11181,7 +11556,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "313924_thorne_calories_20.0_calorie_standard",
@@ -11193,14 +11569,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Super-EPA-Pro-693749610014.jpg",
       "best_price_per_unit": 4.65,
-      "best_total_price": 93.0,
+      "best_total_price": 93,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 93.0,
+          "price": 93,
           "price_per_unit": 4.65,
           "product_url": "https://www.vitacost.com/thorne-super-epa-pro-120-gel-caps",
           "product_name": "Thorne Super EPA Pro -- 120 Gel Caps",
@@ -11210,7 +11586,7 @@
         },
         {
           "retailer": "iHerb",
-          "price": 93.0,
+          "price": 93,
           "price_per_unit": 4.65,
           "product_url": "https://www.iherb.com/pr/thorne-super-epa-pro-120-gelcaps/38044",
           "product_name": "Thorne, Super EPA Pro, 120 Gelcaps",
@@ -11223,7 +11599,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Gel Capsule(s)"
     },
     {
       "id": "74124_nordic naturals_calories_10.0_calorie_standard",
@@ -11238,7 +11615,7 @@
       "best_total_price": 46.71,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11266,7 +11643,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "47084_barlean's_calories_10.0_calorie_standard",
@@ -11281,7 +11659,7 @@
       "best_total_price": 47.24,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11296,7 +11674,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 94.0
+      "match_score": 94,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "265792_carlson laboratories_calories_10.0_calorie_standard",
@@ -11311,7 +11690,7 @@
       "best_total_price": 48.37,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11339,7 +11718,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "205211_pure encapsulations_calories_10.0_calorie_standard",
@@ -11354,7 +11734,7 @@
       "best_total_price": 50.4,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11373,7 +11753,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "7 fl. oz."
     },
     {
       "id": "292270_protocol for life balance_calories_10.0_calorie_standard",
@@ -11385,14 +11766,14 @@
       "dsld_brand": "Protocol For Life Balance",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Protocol-For-Life-Balance/Protocol-For-Life-Balance-Ultra-Omega-3-707359116627.jpg",
       "best_price_per_unit": 5.3,
-      "best_total_price": 53.0,
+      "best_total_price": 53,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 53.0,
+          "price": 53,
           "price_per_unit": 5.3,
           "product_url": "https://www.vitacost.com/protocol-for-life-balance-ultra-omega-3",
           "product_name": "Protocol For Life Balance Ultra Omega-3 -- 180 Softgels",
@@ -11403,7 +11784,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "304773_carlson laboratories_calories_15.0_calorie_standard",
@@ -11418,7 +11800,7 @@
       "best_total_price": 80.67,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11433,7 +11815,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "216657_carlson laboratories_calories_15.0_calorie_standard",
@@ -11448,7 +11834,7 @@
       "best_total_price": 80.67,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11465,7 +11851,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1,000 mg"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "321970_thorne_calories_10.0_calorie_standard",
@@ -11477,14 +11867,14 @@
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Omega-3-with-CoQ10-693749616030.jpg",
       "best_price_per_unit": 5.5,
-      "best_total_price": 55.0,
+      "best_total_price": 55,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 55.0,
+          "price": 55,
           "price_per_unit": 5.5,
           "product_url": "https://www.vitacost.com/thorne-omega-3-with-coq10",
           "product_name": "Thorne Omega-3 with CoQ10 -- 90 Gel Caps",
@@ -11494,7 +11884,7 @@
         },
         {
           "retailer": "iHerb",
-          "price": 55.0,
+          "price": 55,
           "price_per_unit": 5.5,
           "product_url": "https://www.iherb.com/pr/thorne-omega-3-with-coq10-90-gelcaps/18622",
           "product_name": "Thorne, Omega-3 with CoQ10, 90 Gelcaps",
@@ -11505,7 +11895,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Gel Capsule(s)"
     },
     {
       "id": "204573_pure encapsulations_calories_10.0_calorie_ultra_pure",
@@ -11520,7 +11911,7 @@
       "best_total_price": 57.8,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11539,7 +11930,8 @@
         "non_gmo",
         "ultra_pure"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "184389_pure encapsulations_calories_10.0_calorie_standard",
@@ -11551,14 +11943,14 @@
       "dsld_brand": "Pure Encapsulations",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Pure-Encapsulations/Pure-Encapsulations-DHA-Ultimate-766298012193.jpg",
       "best_price_per_unit": 5.9,
-      "best_total_price": 59.0,
+      "best_total_price": 59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 59.0,
+          "price": 59,
           "price_per_unit": 5.9,
           "product_url": "https://www.vitacost.com/pure-encapsulations-dha-ultimate-60-softgel-capsules-1",
           "product_name": "Pure Encapsulations DHA Ultimate -- 60 Softgel Capsules",
@@ -11572,7 +11964,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "304315_deva_calories_5.0_calorie_standard",
@@ -11587,7 +11980,7 @@
       "best_total_price": 30.95,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11602,7 +11995,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "200 mg"
+      ],
+      "dsld_content": "90 Vegan Capsule(s)"
     },
     {
       "id": "265945_carlson laboratories_calories_10.0_calorie_standard",
@@ -11617,14 +12014,14 @@
       "best_total_price": 62.9,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 62.9,
           "price_per_unit": 6.29,
           "product_url": "https://www.vitacost.com/carlson-super-dha-gems",
-          "product_name": "Carlson Super DHA Gems\u00ae -- 500 mg - 180 Softgels",
+          "product_name": "Carlson Super DHA Gems® -- 500 mg - 180 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Super-DHA-Gems-088395015526.jpg",
           "rating": null,
           "reviews": null
@@ -11634,7 +12031,7 @@
           "price": 62.9,
           "price_per_unit": 6.29,
           "product_url": "https://www.iherb.com/pr/carlson-super-dha-gems-180-soft-gels/7070",
-          "product_name": "Carlson, Super DHA Gems\u00ae, 180 Soft Gels",
+          "product_name": "Carlson, Super DHA Gems®, 180 Soft Gels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/car/car01552/u/49.jpg",
           "rating": null,
           "reviews": null
@@ -11645,7 +12042,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "19506_carlson laboratories_calories_10.0_calorie_standard",
@@ -11660,14 +12061,14 @@
       "best_total_price": 63.75,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
           "price": 63.75,
           "price_per_unit": 6.375,
           "product_url": "https://www.vitacost.com/carlson-fish-oil-q-120-softgel-capsules",
-          "product_name": "Carlson Fish Oil Q\u2122 -- 120 Softgel Capsules",
+          "product_name": "Carlson Fish Oil Q™ -- 120 Softgel Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Carlson/Carlson-Fish-Oil-Q-088395016769.jpg",
           "rating": null,
           "reviews": null
@@ -11677,7 +12078,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "215470_wiley's finest_calories_11.0_calorie_standard",
@@ -11692,7 +12094,7 @@
       "best_total_price": 71.19,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 11.0,
+      "amount_per_serving": 11,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11707,7 +12109,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "184442_pure encapsulations_calories_10.0_calorie_ultra_pure",
@@ -11722,7 +12125,7 @@
       "best_total_price": 65.6,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11741,7 +12144,8 @@
         "non_gmo",
         "ultra_pure"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "269219_wiley's finest_calories_6.0_calorie_standard",
@@ -11756,7 +12160,7 @@
       "best_total_price": 40.59,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 6.0,
+      "amount_per_serving": 6,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11789,7 +12193,7 @@
       "best_total_price": 83.3,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -11807,7 +12211,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "500 mg"
+      ],
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "38147_natural factors_calories_5.0_calorie_pharmaceutical_grade",
@@ -11822,7 +12230,7 @@
       "best_total_price": 49.67,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11866,7 +12274,7 @@
       "best_total_price": 103.4,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11884,7 +12292,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "218646_xymogen_calories_5.0_calorie_standard",
@@ -11899,7 +12308,7 @@
       "best_total_price": 68.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -11944,7 +12353,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "291407_olly_biotin_0.15_mg_standard",
@@ -11974,7 +12384,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 94.0
+      "match_score": 94,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "265229_carlson laboratories_biotin_0.15_mg_standard",
@@ -12006,7 +12417,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "321410_sports research_astaxanthin_0.1_mg_standard",
@@ -12088,7 +12500,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "304814_carlson laboratories_biotin_0.15_mg_standard",
@@ -12118,7 +12531,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "213711_nature's way_astaxanthin_0.08_mg_standard",
@@ -12247,7 +12661,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Gummie(s)"
     },
     {
       "id": "179871_nature made_biotin_0.035_mg_standard",
@@ -12281,7 +12696,8 @@
         "yeast_free",
         "no_artificial_flavors"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "260232_advanced nutrition by zahler_biotin_0.035_mg_standard",
@@ -12303,7 +12719,7 @@
           "price": 39.39,
           "price_per_unit": 1125.4285714285713,
           "product_url": "https://www.vitacost.com/zahler-mighty-mini-prenatal-plus-dha",
-          "product_name": "Zahler Mighty Mini\u2122 Prenatal plus DHA -- 90 Softgels",
+          "product_name": "Zahler Mighty Mini™ Prenatal plus DHA -- 90 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/Zahler/Zahler-Mighty-Mini-Prenatal-plus-DHA-848998081904.jpg",
           "rating": null,
           "reviews": null
@@ -12316,7 +12732,8 @@
         "dairy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "65333_schiff megared_astaxanthin_0.017_mg_standard",
@@ -12378,7 +12795,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "288208_new chapter_astaxanthin_0.00125_mg_standard",
@@ -12389,7 +12807,7 @@
       "dsld_product_name": "Omega-3 Complex",
       "dsld_brand": "New Chapter",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Omega-3-Complex-727783902924.jpg",
-      "best_price_per_unit": 12776.0,
+      "best_price_per_unit": 12776,
       "best_total_price": 15.97,
       "unit": "mg",
       "primary_ingredient": "Astaxanthin",
@@ -12398,7 +12816,7 @@
         {
           "retailer": "Vitacost",
           "price": 15.97,
-          "price_per_unit": 12776.0,
+          "price_per_unit": 12776,
           "product_url": "https://www.vitacost.com/new-chapter-omega-3-complex",
           "product_name": "New Chapter Omega-3 Complex -- 30 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Omega-3-Complex-727783902924.jpg",
@@ -12408,7 +12826,7 @@
         {
           "retailer": "iHerb",
           "price": 26.97,
-          "price_per_unit": 21576.0,
+          "price_per_unit": 21576,
           "product_url": "https://www.iherb.com/pr/new-chapter-vegan-omega-3-complex-30-softgels/114122",
           "product_name": "New Chapter, Vegan Omega-3 Complex, 30 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncr/ncr90367/u/44.jpg",
@@ -12417,8 +12835,8 @@
         },
         {
           "retailer": "Supplement Warehouse",
-          "price": 30.0,
-          "price_per_unit": 24000.0,
+          "price": 30,
+          "price_per_unit": 24000,
           "product_url": "https://supplementwarehouse.com/products/nch-vegan-omega-3-complex-30vsg/?expa_m=search&expa_st=omega+3",
           "product_name": "New Chapter Vegan Omega 3 Complex 30 Softgels",
           "image_url": "",
@@ -12431,7 +12849,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Softgel(s)"
     },
     {
       "id": "273988_new chapter_astaxanthin_0.0025_mg_standard",
@@ -12442,7 +12861,7 @@
       "dsld_product_name": "Wholemega Fish Oil for Moms",
       "dsld_brand": "New Chapter",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncr/ncr90195/u/89.jpg",
-      "best_price_per_unit": 15988.0,
+      "best_price_per_unit": 15988,
       "best_total_price": 39.97,
       "unit": "mg",
       "primary_ingredient": "Astaxanthin",
@@ -12451,9 +12870,9 @@
         {
           "retailer": "iHerb",
           "price": 39.97,
-          "price_per_unit": 15988.0,
+          "price_per_unit": 15988,
           "product_url": "https://www.iherb.com/pr/new-chapter-wholemega-fish-oil-for-moms-180-softgels/82996",
-          "product_name": "New Chapter, Wholemega\u2122 Fish Oil for Mums, 180 Softgels",
+          "product_name": "New Chapter, Wholemega™ Fish Oil for Mums, 180 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncr/ncr90195/u/89.jpg",
           "rating": null,
           "reviews": null
@@ -12461,7 +12880,7 @@
         {
           "retailer": "Vitacost",
           "price": 59.09,
-          "price_per_unit": 23636.0,
+          "price_per_unit": 23636,
           "product_url": "https://www.vitacost.com/new-chapter-wholemega-fish-oil-180-softgels",
           "product_name": "New Chapter Wholemega Fish Oil -- 180 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Wholemega-Fish-Oil-727783050007.jpg",
@@ -12474,7 +12893,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "253135_new chapter_astaxanthin_0.0025_mg_standard",
@@ -12485,7 +12905,7 @@
       "dsld_product_name": "Wholemega Fish Oil",
       "dsld_brand": "New Chapter",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncr/ncr05003/u/87.jpg",
-      "best_price_per_unit": 15988.0,
+      "best_price_per_unit": 15988,
       "best_total_price": 39.97,
       "unit": "mg",
       "primary_ingredient": "Astaxanthin",
@@ -12494,7 +12914,7 @@
         {
           "retailer": "iHerb",
           "price": 39.97,
-          "price_per_unit": 15988.0,
+          "price_per_unit": 15988,
           "product_url": "https://www.iherb.com/pr/new-chapter-wholemega-fish-oil-120-bse-free-softgels/18201",
           "product_name": "New Chapter, Wholemega Fish Oil, 120 BSE-Free Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/ncr/ncr05003/u/87.jpg",
@@ -12518,7 +12938,7 @@
       "dsld_product_name": "Wholemega Fish Oil Tiny Caps",
       "dsld_brand": "New Chapter",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Wholemega-Fish-Oil-Tiny-Caps-727783901774.jpg",
-      "best_price_per_unit": 16916.0,
+      "best_price_per_unit": 16916,
       "best_total_price": 42.29,
       "unit": "mg",
       "primary_ingredient": "Astaxanthin",
@@ -12527,7 +12947,7 @@
         {
           "retailer": "Vitacost",
           "price": 42.29,
-          "price_per_unit": 16916.0,
+          "price_per_unit": 16916,
           "product_url": "https://www.vitacost.com/new-chapter-wholemega-fish-oil-tiny-caps-180-softgels",
           "product_name": "New Chapter Wholemega Fish Oil Tiny Caps -- 180 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Wholemega-Fish-Oil-Tiny-Caps-727783901774.jpg",
@@ -12540,7 +12960,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "253135_new chapter_astaxanthin_0.0025_mg_standard",
@@ -12551,7 +12972,7 @@
       "dsld_product_name": "Wholemega Fish Oil",
       "dsld_brand": "New Chapter",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Wholemega-Whole-Fish-Oil-727783050038.jpg",
-      "best_price_per_unit": 17156.0,
+      "best_price_per_unit": 17156,
       "best_total_price": 42.89,
       "unit": "mg",
       "primary_ingredient": "Astaxanthin",
@@ -12560,7 +12981,7 @@
         {
           "retailer": "Vitacost",
           "price": 42.89,
-          "price_per_unit": 17156.0,
+          "price_per_unit": 17156,
           "product_url": "https://www.vitacost.com/new-chapter-wholemega-whole-fish-oil-120-softgels",
           "product_name": "New Chapter Wholemega Whole Fish Oil -- 120 Softgels",
           "image_url": "https://www.vitacost.com/Images/Products/200/New-Chapter/New-Chapter-Wholemega-Whole-Fish-Oil-727783050038.jpg",
@@ -12573,7 +12994,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 97.4
+      "match_score": 97.4,
+      "dsld_content": "120 Softgel(s)"
     }
   ]
 }

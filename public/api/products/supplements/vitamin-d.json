@@ -6,7 +6,7 @@
     "product_count": 137,
     "price_per_unit_range": {
       "min": 0.00104,
-      "max": 2240.0,
+      "max": 2240,
       "avg": 183.26708419622804
     },
     "total_price_range": {
@@ -3525,14 +3525,14 @@
       "dsld_brand": "Metabolic Maintenance",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00511/u/44.jpg",
       "best_price_per_unit": 0.00104,
-      "best_total_price": 26.0,
+      "best_total_price": 26,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 25000.0,
+      "amount_per_serving": 25000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 26.0,
+          "price": 26,
           "price_per_unit": 0.00104,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-vitamin-d-3-with-vitamin-k2-mk-7-60-capsules/37556",
           "product_name": "Metabolic Maintenance, Vitamin D3 with Vitamin K2 MK-7, 60 Capsules",
@@ -3543,7 +3543,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 98.7
+      "match_score": 98.7,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "2534_life extension_vitamin d3_5000.0_iu_standard",
@@ -3558,7 +3559,7 @@
       "best_total_price": 7.5,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -3576,7 +3577,11 @@
         "dairy_free",
         "no_artificial_sweeteners"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "80657_source naturals_vitamin d3_5000.0_iu_standard",
@@ -3591,7 +3596,7 @@
       "best_total_price": 7.88,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3609,7 +3614,11 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "56657_superior source_vitamin d_10000.0_iu_standard",
@@ -3624,7 +3633,7 @@
       "best_total_price": 17.42,
       "unit": "iu",
       "primary_ingredient": "Vitamin D",
-      "amount_per_serving": 10000.0,
+      "amount_per_serving": 10000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3639,7 +3648,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "10000 IU"
+      ],
+      "dsld_content": "1 Capsule(s)"
     },
     {
       "id": "79091_source naturals_vitamin d3_2000.0_iu_standard",
@@ -3654,7 +3667,7 @@
       "best_total_price": 3.99,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3672,7 +3685,11 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "2534_life extension_vitamin d3_5000.0_iu_standard",
@@ -3687,7 +3704,7 @@
       "best_total_price": 10.5,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3705,7 +3722,11 @@
         "dairy_free",
         "no_artificial_sweeteners"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "78927_source naturals_vitamin d3_2000.0_iu_standard",
@@ -3720,7 +3741,7 @@
       "best_total_price": 4.59,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3738,7 +3759,11 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "33348_advanced nutrition by zahler_vitamin d3_10000.0_iu_standard",
@@ -3753,7 +3778,7 @@
       "best_total_price": 24.19,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 10000.0,
+      "amount_per_serving": 10000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3770,7 +3795,11 @@
       "filters": [
         "kosher"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "10000 IU"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "78969_source naturals_vitamin d3_2000.0_iu_standard",
@@ -3785,7 +3814,7 @@
       "best_total_price": 5.49,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3810,7 +3839,8 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3 Liquid"
     },
     {
       "id": "267556_vitafusion_added sugars_3000.0_mg_standard",
@@ -3825,7 +3855,7 @@
       "best_total_price": 10.99,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 3000.0,
+      "amount_per_serving": 3000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3844,7 +3874,8 @@
         "dairy_free",
         "no_artificial_flavors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "20 Capsule(s)"
     },
     {
       "id": "74816_natural factors_vitamin d3_2000.0_iu_standard",
@@ -3859,7 +3890,7 @@
       "best_total_price": 7.67,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3879,7 +3910,11 @@
         "no_artificial_colors",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "2000 IU"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "318946_nature's plus_added sugars_2000.0_mg_standard",
@@ -3894,7 +3929,7 @@
       "best_total_price": 7.89,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -3912,7 +3947,11 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 96.7
+      "match_score": 96.7,
+      "dosage": [
+        "1,000 IU"
+      ],
+      "dsld_content": "60 Gummie(s)"
     },
     {
       "id": "179704_nature made_vitamin d3_2000.0_iu_standard",
@@ -3927,7 +3966,7 @@
       "best_total_price": 8.19,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3947,7 +3986,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "2000 IU"
+      ],
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "71376_nature made_vitamin d3_5000.0_iu_standard",
@@ -3962,7 +4005,7 @@
       "best_total_price": 22.89,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -3977,7 +4020,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "13838_now_vitamin d3_1000.0_iu_standard",
@@ -3992,7 +4039,7 @@
       "best_total_price": 5.09,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4009,7 +4056,11 @@
       "filters": [
         "sugar_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "26696_nature made_vitamin d3_1000.0_iu_standard",
@@ -4024,7 +4075,7 @@
       "best_total_price": 6.09,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4044,7 +4095,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "223337_nordic naturals_added sugars_2000.0_mg_standard",
@@ -4059,7 +4114,7 @@
       "best_total_price": 12.71,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4077,7 +4132,10 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 IU"
+      ]
     },
     {
       "id": "322628_nature's plus_added sugars_2000.0_mg_standard",
@@ -4092,7 +4150,7 @@
       "best_total_price": 12.71,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4110,7 +4168,11 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "78384_nature's way_vitamin d3_2000.0_iu_standard",
@@ -4125,7 +4187,7 @@
       "best_total_price": 15.09,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4143,7 +4205,10 @@
         "gluten_free",
         "sugar_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "2000 IU"
+      ]
     },
     {
       "id": "74763_natural factors_vitamin d3_1000.0_iu_standard",
@@ -4158,7 +4223,7 @@
       "best_total_price": 7.67,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4178,7 +4243,11 @@
         "no_artificial_colors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "56663_superior source_vitamin d_1000.0_iu_standard",
@@ -4193,7 +4262,7 @@
       "best_total_price": 7.79,
       "unit": "iu",
       "primary_ingredient": "Vitamin D",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4208,7 +4277,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 IU"
+      ]
     },
     {
       "id": "78384_nature's way_vitamin d3_2000.0_iu_standard",
@@ -4223,7 +4295,7 @@
       "best_total_price": 15.59,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4241,7 +4313,10 @@
         "gluten_free",
         "sugar_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "2000 IU"
+      ]
     },
     {
       "id": "59605_country life_vitamin d_1000.0_iu_standard",
@@ -4256,7 +4331,7 @@
       "best_total_price": 8.02,
       "unit": "iu",
       "primary_ingredient": "Vitamin D",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4277,7 +4352,11 @@
         "no_artificial_colors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "318946_nature's plus_added sugars_2000.0_mg_standard",
@@ -4292,7 +4371,7 @@
       "best_total_price": 17.81,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4310,7 +4389,11 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "304279_allergy research group_cholecalciferol_2000.0_iu_standard",
@@ -4325,7 +4408,7 @@
       "best_total_price": 17.99,
       "unit": "iu",
       "primary_ingredient": "Cholecalciferol",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4340,7 +4423,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "62163_life extension_vitamin d3_1000.0_iu_standard",
@@ -4355,7 +4439,7 @@
       "best_total_price": 9.75,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Supplement Warehouse",
@@ -4372,7 +4456,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "250 Softgel(s)"
     },
     {
       "id": "64702_life extension_vitamin d3_2000.0_iu_standard",
@@ -4384,14 +4472,14 @@
       "dsld_brand": "Life Extension",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Life-Extension/Life-Extension-Liquid-Vitamin-D3-737870224419.jpg",
       "best_price_per_unit": 0.0105,
-      "best_total_price": 21.0,
+      "best_total_price": 21,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 21.0,
+          "price": 21,
           "price_per_unit": 0.0105,
           "product_url": "https://www.vitacost.com/life-extension-liquid-vitamin-d3-2000-iu-1-fl-oz",
           "product_name": "Life Extension Liquid Vitamin D3 -- 2000 IU - 1 fl oz",
@@ -4404,7 +4492,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2000 IU"
+      ],
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "223310_nordic naturals_added sugars_2000.0_mg_standard",
@@ -4419,7 +4511,7 @@
       "best_total_price": 21.21,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 2000.0,
+      "amount_per_serving": 2000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4452,7 +4544,7 @@
       "best_total_price": 11.59,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4479,7 +4571,8 @@
       "filters": [
         "chelated"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dsld_content": "90 Veg Capsule(s)"
     },
     {
       "id": "286727_l'il critters_added sugars_1000.0_mg_standard",
@@ -4494,7 +4587,7 @@
       "best_total_price": 14.29,
       "unit": "mg",
       "primary_ingredient": "Added Sugars",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4524,7 +4617,7 @@
       "best_total_price": 14.99,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4544,7 +4637,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "300 Softgel(s)"
     },
     {
       "id": "70876_superior source_vitamin d_400.0_iu_standard",
@@ -4559,7 +4656,7 @@
       "best_total_price": 6.99,
       "unit": "iu",
       "primary_ingredient": "Vitamin D",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4574,7 +4671,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "400 IU"
+      ]
     },
     {
       "id": "74088_nordic naturals_vitamin d3_1000.0_iu_standard",
@@ -4589,7 +4689,7 @@
       "best_total_price": 18.66,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4609,7 +4709,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "23407_designs for health_vitamin d_5000.0_iu_standard",
@@ -4624,7 +4728,7 @@
       "best_total_price": 109.44,
       "unit": "iu",
       "primary_ingredient": "Vitamin D",
-      "amount_per_serving": 5000.0,
+      "amount_per_serving": 5000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4639,7 +4743,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Vegetarian Capsule(s)"
     },
     {
       "id": "265282_megafood_nourishing food & herb blend_605.0_mg_standard",
@@ -4654,7 +4759,7 @@
       "best_total_price": 13.99,
       "unit": "mg",
       "primary_ingredient": "Nourishing Food & Herb Blend",
-      "amount_per_serving": 605.0,
+      "amount_per_serving": 605,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4676,7 +4781,11 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "2000 IU"
+      ],
+      "dsld_content": "70 g"
     },
     {
       "id": "64485_onnit_vitamin d3_1000.0_iu_standard",
@@ -4691,7 +4800,7 @@
       "best_total_price": 24.95,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4706,7 +4815,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "0.8 fl. oz."
     },
     {
       "id": "265282_megafood_nourishing food & herb blend_605.0_mg_standard",
@@ -4721,7 +4831,7 @@
       "best_total_price": 15.49,
       "unit": "mg",
       "primary_ingredient": "Nourishing Food & Herb Blend",
-      "amount_per_serving": 605.0,
+      "amount_per_serving": 605,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4743,7 +4853,10 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "2000 IU"
+      ]
     },
     {
       "id": "179572_nature made_calcium_500.0_mg_standard",
@@ -4758,7 +4871,7 @@
       "best_total_price": 15.78,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4778,7 +4891,8 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "300 Tablet(s)"
     },
     {
       "id": "177518_megafood_nourishing food & herb blend_650.0_mg_standard",
@@ -4793,7 +4907,7 @@
       "best_total_price": 20.99,
       "unit": "mg",
       "primary_ingredient": "Nourishing Food & Herb Blend",
-      "amount_per_serving": 650.0,
+      "amount_per_serving": 650,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4814,7 +4928,10 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 IU"
+      ]
     },
     {
       "id": "240025_mommy's bliss_vitamin d3_400.0_iu_standard",
@@ -4829,7 +4946,7 @@
       "best_total_price": 12.99,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4847,7 +4964,8 @@
         "organic",
         "no_artificial_flavors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "40 Capsule(s)"
     },
     {
       "id": "305772_ancient nutrition_ancient nutrients tcm blend_632.0_mg_standard",
@@ -4862,7 +4980,7 @@
       "best_total_price": 25.46,
       "unit": "mg",
       "primary_ingredient": "Ancient Nutrients TCM Blend",
-      "amount_per_serving": 632.0,
+      "amount_per_serving": 632,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4877,7 +4995,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "5000 IU"
+      ]
     },
     {
       "id": "203977_bodytech_calcium hmb_1000.0_mg_standard",
@@ -4892,7 +5013,7 @@
       "best_total_price": 44.99,
       "unit": "mg",
       "primary_ingredient": "Calcium HMB",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4907,7 +5028,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "3.26 oz.; 92.4 g"
     },
     {
       "id": "265283_megafood_nourishing food & herb blend_605.0_mg_standard",
@@ -4922,7 +5044,7 @@
       "best_total_price": 33.99,
       "unit": "mg",
       "primary_ingredient": "Nourishing Food & Herb Blend",
-      "amount_per_serving": 605.0,
+      "amount_per_serving": 605,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -4944,7 +5066,11 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2,000 IU"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "179566_nature made_calcium_92.0_mg_standard",
@@ -4959,7 +5085,7 @@
       "best_total_price": 5.19,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 92.0,
+      "amount_per_serving": 92,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -4979,7 +5105,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "100 Tablet(s)"
     },
     {
       "id": "277201_country life_quercetin_500.0_mg_standard",
@@ -4994,7 +5124,7 @@
       "best_total_price": 29.43,
       "unit": "mg",
       "primary_ingredient": "Quercetin",
-      "amount_per_serving": 500.0,
+      "amount_per_serving": 500,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5014,7 +5144,10 @@
         "gluten_free",
         "yeast_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "500 mg"
+      ]
     },
     {
       "id": "204008_bodytech_calcium hmb_1000.0_mg_standard",
@@ -5029,7 +5162,7 @@
       "best_total_price": 64.99,
       "unit": "mg",
       "primary_ingredient": "Calcium HMB",
-      "amount_per_serving": 1000.0,
+      "amount_per_serving": 1000,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5044,7 +5177,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "360 Capsule(s)"
     },
     {
       "id": "240028_mommy's bliss_vitamin d3_400.0_iu_standard",
@@ -5059,7 +5193,7 @@
       "best_total_price": 27.99,
       "unit": "iu",
       "primary_ingredient": "Vitamin D3",
-      "amount_per_serving": 400.0,
+      "amount_per_serving": 400,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5077,7 +5211,8 @@
         "no_artificial_flavors",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "0.34 fl. oz."
     },
     {
       "id": "62593_natural factors_calories_40.0_calorie_standard",
@@ -5092,7 +5227,7 @@
       "best_total_price": 4.17,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5111,7 +5246,11 @@
         "no_artificial_colors",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "2953_source naturals_calcium_51.0_mg_standard",
@@ -5126,7 +5265,7 @@
       "best_total_price": 5.95,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 51.0,
+      "amount_per_serving": 51,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5144,7 +5283,11 @@
         "yeast_free",
         "sugar_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2000 IU"
+      ],
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "248955_american health_calcium_111.0_mg_standard",
@@ -5159,7 +5302,7 @@
       "best_total_price": 13.78,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 111.0,
+      "amount_per_serving": 111,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5203,7 +5346,7 @@
       "best_total_price": 13.29,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 92.0,
+      "amount_per_serving": 92,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5223,7 +5366,11 @@
         "no_artificial_flavors",
         "no_preservatives"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "300 Tablet(s)"
     },
     {
       "id": "296254_solaray_calcium_110.0_mg_standard",
@@ -5238,7 +5385,7 @@
       "best_total_price": 18.39,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 110.0,
+      "amount_per_serving": 110,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5253,7 +5400,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "327152_dr. mercola_calcium_180.0_mg_standard",
@@ -5268,7 +5416,7 @@
       "best_total_price": 35.17,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 180.0,
+      "amount_per_serving": 180,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5295,7 +5443,8 @@
       "filters": [
         "soy_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "24777_metabolic maintenance_calcium_167.0_mg_standard",
@@ -5307,14 +5456,14 @@
       "dsld_brand": "Metabolic Maintenance",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00409/u/56.jpg",
       "best_price_per_unit": 0.2634730538922156,
-      "best_total_price": 44.0,
+      "best_total_price": 44,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 167.0,
+      "amount_per_serving": 167,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 44.0,
+          "price": 44,
           "price_per_unit": 0.2634730538922156,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-cal-mag-plus-with-vitamin-d-and-vitamin-k2-mk-7-180-vegetarian-capsules/106743",
           "product_name": "Metabolic Maintenance, Cal/Mag Plus with Vitamin D and Vitamin K2 MK-7, 180 Vegetarian Capsules",
@@ -5327,7 +5476,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "180 Vegetarian Capsule(s)"
     },
     {
       "id": "298422_amen_organic whole food blend_100.0_mg_standard",
@@ -5342,7 +5492,7 @@
       "best_total_price": 26.99,
       "unit": "mg",
       "primary_ingredient": "Organic Whole Food Blend",
-      "amount_per_serving": 100.0,
+      "amount_per_serving": 100,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5376,7 +5526,7 @@
       "best_total_price": 31.99,
       "unit": "mg",
       "primary_ingredient": "Calcium",
-      "amount_per_serving": 110.0,
+      "amount_per_serving": 110,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5391,7 +5541,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 96.9
+      "match_score": 96.9,
+      "dsld_content": "120 Veg Capsule(s)"
     },
     {
       "id": "178099_innate response formulas_bioactive enzymes & proteins_149.0_mg_standard",
@@ -5406,7 +5557,7 @@
       "best_total_price": 49.99,
       "unit": "mg",
       "primary_ingredient": "Bioactive Enzymes & Proteins",
-      "amount_per_serving": 149.0,
+      "amount_per_serving": 149,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5421,7 +5572,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "2000 IU"
+      ]
     },
     {
       "id": "224640_nordic naturals_calories_40.0_calorie_standard",
@@ -5436,7 +5590,7 @@
       "best_total_price": 16.11,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5470,7 +5624,7 @@
       "best_total_price": 10.49,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5493,7 +5647,11 @@
         "no_artificial_flavors",
         "no_artificial_sweeteners"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "179955_nature made_calories_15.0_calorie_standard",
@@ -5508,7 +5666,7 @@
       "best_total_price": 9.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5526,7 +5684,8 @@
         "gluten_free",
         "yeast_free"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "267323_l'il critters_calories_10.0_calorie_standard",
@@ -5541,7 +5700,7 @@
       "best_total_price": 6.29,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 10.0,
+      "amount_per_serving": 10,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5574,7 +5733,7 @@
       "best_total_price": 28.86,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 45.0,
+      "amount_per_serving": 45,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5607,7 +5766,7 @@
       "best_total_price": 31.37,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 40.0,
+      "amount_per_serving": 40,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5625,7 +5784,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "250 mL; 8.4 fl. oz."
     },
     {
       "id": "296182_nature's bounty_astragalus_16.5_mg_standard",
@@ -5655,7 +5815,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "100 Capsule(s)"
     },
     {
       "id": "288743_nordic naturals_calories_25.0_calorie_standard",
@@ -5670,7 +5831,7 @@
       "best_total_price": 26.31,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 25.0,
+      "amount_per_serving": 25,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5685,7 +5846,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "223242_nordic naturals_calories_20.0_calorie_standard",
@@ -5700,14 +5862,14 @@
       "best_total_price": 28.86,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 28.86,
           "price_per_unit": 1.443,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-ultimate-omega-d3-sport-60-soft-gels/43596",
-          "product_name": "Nordic Naturals, Ultimate Omega\u00ae-D3, Sport, 60 Soft Gels",
+          "product_name": "Nordic Naturals, Ultimate Omega®-D3, Sport, 60 Soft Gels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor01808/u/51.jpg",
           "rating": null,
           "reviews": null
@@ -5720,7 +5882,8 @@
         "non_gmo",
         "wild_caught"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "214304_nordic naturals_calories_20.0_calorie_standard",
@@ -5735,14 +5898,14 @@
       "best_total_price": 32.26,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 32.26,
           "price_per_unit": 1.613,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-complete-omega-d3-lemon-120-soft-gels/17834",
-          "product_name": "Nordic Naturals, Complete Omega\u2122-D3, Lemon, 120 Soft Gels",
+          "product_name": "Nordic Naturals, Complete Omega™-D3, Lemon, 120 Soft Gels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor02778/u/120.jpg",
           "rating": null,
           "reviews": null
@@ -5753,7 +5916,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "12191_spectrum_calories_20.0_calorie_standard",
@@ -5768,7 +5932,7 @@
       "best_total_price": 33.39,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5783,7 +5947,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "250 Softgel(s)"
     },
     {
       "id": "326301_sports research_calories_15.0_calorie_standard",
@@ -5798,7 +5963,7 @@
       "best_total_price": 33.97,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 15.0,
+      "amount_per_serving": 15,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5828,14 +5993,14 @@
       "best_total_price": 47.56,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 20.0,
+      "amount_per_serving": 20,
       "retailer_prices": [
         {
           "retailer": "iHerb",
           "price": 47.56,
           "price_per_unit": 2.378,
           "product_url": "https://www.iherb.com/pr/nordic-naturals-ultimate-omega-d3-lemon-120-soft-gels/16898",
-          "product_name": "Nordic Naturals, Ultimate Omega\u00ae-D3, Lemon, 120 Soft Gels",
+          "product_name": "Nordic Naturals, Ultimate Omega®-D3, Lemon, 120 Soft Gels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/nor/nor02794/u/92.jpg",
           "rating": null,
           "reviews": null
@@ -5843,7 +6008,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "82072_country life_calories_5.0_calorie_standard",
@@ -5858,7 +6024,7 @@
       "best_total_price": 13.12,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5878,7 +6044,10 @@
         "yeast_free",
         "no_artificial_flavors"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 IU"
+      ]
     },
     {
       "id": "267346_garden of life dr. formulated_bacillus subtilis de111_5.0_mg_standard",
@@ -5893,7 +6062,7 @@
       "best_total_price": 14.39,
       "unit": "mg",
       "primary_ingredient": "Bacillus subtilis DE111",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -5911,7 +6080,10 @@
         "gluten_free",
         "no_artificial_colors"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "5000 IU"
+      ]
     },
     {
       "id": "246749_nobi nutrition_bioperine_5.0_mg_standard",
@@ -5926,7 +6098,7 @@
       "best_total_price": 18.89,
       "unit": "mg",
       "primary_ingredient": "BioPerine",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -5941,7 +6113,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "276658_aurora nutrascience_calories_5.0_calorie_liposomal",
@@ -5956,7 +6129,7 @@
       "best_total_price": 30.99,
       "unit": "calorie",
       "primary_ingredient": "Calories",
-      "amount_per_serving": 5.0,
+      "amount_per_serving": 5,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6006,7 +6179,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "50,000 IU"
+      ],
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "283093_vitamatic_vitamin d3_1.25_mg_standard",
@@ -6038,7 +6215,10 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "50000 IU"
+      ]
     },
     {
       "id": "335448_xymogen_vitamin d3_1.25_mg_standard",
@@ -6070,7 +6250,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "30 Vegetarian Capsule(s)"
     },
     {
       "id": "304017_davinci laboratories_boron_2.0_mg_standard",
@@ -6085,7 +6266,7 @@
       "best_total_price": 24.66,
       "unit": "mg",
       "primary_ingredient": "Boron",
-      "amount_per_serving": 2.0,
+      "amount_per_serving": 2,
       "retailer_prices": [
         {
           "retailer": "iHerb",
@@ -6103,7 +6284,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "205006_pure encapsulations_energy_1.0_kj_standard",
@@ -6118,7 +6300,7 @@
       "best_total_price": 31.6,
       "unit": "kj",
       "primary_ingredient": "Energy",
-      "amount_per_serving": 1.0,
+      "amount_per_serving": 1,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
@@ -6136,7 +6318,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "0.75 oz."
     },
     {
       "id": "326304_21st century_boron_0.25_mg_standard",
@@ -6168,7 +6351,8 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "75 Chewable(s)"
     },
     {
       "id": "207404_21st century_copper_0.5_mg_standard",
@@ -6242,7 +6426,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "259205_futurebiotics_vitamin d3_0.125_mg_standard",
@@ -6272,7 +6460,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "90 Softgel(s)"
     },
     {
       "id": "333491_natrol_vitamin d3_0.125_mg_standard",
@@ -6302,7 +6494,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "9 Capsule(s)"
     },
     {
       "id": "232986_dr. mercola_vitamin d3_0.25_mg_liposomal",
@@ -6334,7 +6530,11 @@
       "filters": [
         "liposomal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "10000 IU"
+      ],
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "276383_deva_vitamin d2_0.06_mg_standard",
@@ -6345,16 +6545,16 @@
       "dsld_product_name": "Vegan Vitamin D 800 IU",
       "dsld_brand": "DEVA",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Vitamin-D-895634000270.jpg",
-      "best_price_per_unit": 100.0,
-      "best_total_price": 6.0,
+      "best_price_per_unit": 100,
+      "best_total_price": 6,
       "unit": "mg",
       "primary_ingredient": "Vitamin D2",
       "amount_per_serving": 0.06,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 6.0,
-          "price_per_unit": 100.0,
+          "price": 6,
+          "price_per_unit": 100,
           "product_url": "https://www.vitacost.com/deva-vegan-vitamin-d-800-iu-90-tablets-1",
           "product_name": "Deva Vegan Vitamin D -- 800 IU - 90 Tablets",
           "image_url": "https://www.vitacost.com/Images/Products/200/Deva/Deva-Vegan-Vitamin-D-895634000270.jpg",
@@ -6367,7 +6567,11 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "800 IU"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "24780_metabolic maintenance_boron_0.5_mg_standard",
@@ -6378,16 +6582,16 @@
       "dsld_product_name": "Cal/Mag/Zinc Complex",
       "dsld_brand": "Metabolic Maintenance",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00407/u/12.jpg",
-      "best_price_per_unit": 100.0,
-      "best_total_price": 50.0,
+      "best_price_per_unit": 100,
+      "best_total_price": 50,
       "unit": "mg",
       "primary_ingredient": "Boron",
       "amount_per_serving": 0.5,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 50.0,
-          "price_per_unit": 100.0,
+          "price": 50,
+          "price_per_unit": 100,
           "product_url": "https://www.iherb.com/pr/metabolic-maintenance-cal-mag-zinc-complex-with-vitamin-d-240-capsules/37559",
           "product_name": "Metabolic Maintenance, Cal/Mag/Zinc Complex with Vitamin D, 240 Capsules",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/mbm/mbm00407/u/12.jpg",
@@ -6399,7 +6603,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Capsule(s)"
     },
     {
       "id": "328940_absolute nutrition_vitamin d3_0.125_mg_standard",
@@ -6410,7 +6615,7 @@
       "dsld_product_name": "Vitamin D3 Drops",
       "dsld_brand": "Absolute Nutrition",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/abn/abn09022/u/8.jpg",
-      "best_price_per_unit": 102.0,
+      "best_price_per_unit": 102,
       "best_total_price": 12.75,
       "unit": "mg",
       "primary_ingredient": "Vitamin D3",
@@ -6419,7 +6624,7 @@
         {
           "retailer": "iHerb",
           "price": 12.75,
-          "price_per_unit": 102.0,
+          "price_per_unit": 102,
           "product_url": "https://www.iherb.com/pr/absolute-nutrition-vitamin-d3-drops-5-000-iu-2-fl-oz-60-ml/130075",
           "product_name": "Absolute Nutrition, Vitamin D3 Drops, 5,000 IU, 2 fl oz (60 ml)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/abn/abn09022/u/8.jpg",
@@ -6429,7 +6634,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dosage": [
+        "5,000 IU"
+      ],
+      "dsld_content": "2 fl. oz.; 60 mL"
     },
     {
       "id": "306410_nutricost_vitamin d3_0.125_mg_standard",
@@ -6462,7 +6671,11 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "307749_jarrow formulas_vitamin d3_0.125_mg_maximum_strength",
@@ -6473,7 +6686,7 @@
       "dsld_product_name": "Vitamin D3 125 mcg 5000 IU",
       "dsld_brand": "Jarrow Formulas",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw30005/u/59.jpg",
-      "best_price_per_unit": 110.0,
+      "best_price_per_unit": 110,
       "best_total_price": 13.75,
       "unit": "mg",
       "primary_ingredient": "Vitamin D3",
@@ -6482,7 +6695,7 @@
         {
           "retailer": "iHerb",
           "price": 13.75,
-          "price_per_unit": 110.0,
+          "price_per_unit": 110,
           "product_url": "https://www.iherb.com/pr/jarrow-formulas-vitamin-d3-125-mcg-5-000-iu-100-softgels/22926",
           "product_name": "Jarrow Formulas, Vitamin D3, 125 mcg (5,000 IU), 100 Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/jrw/jrw30005/u/59.jpg",
@@ -6494,7 +6707,11 @@
       "filters": [
         "maximum_strength"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "125 mcg; 5,000 IU"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "249918_bioschwartz_vitamin d3_0.125_mg_standard",
@@ -6524,7 +6741,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "360 Softgel(s)"
     },
     {
       "id": "269529_doctor's best_vitamin d3_0.05_mg_standard",
@@ -6558,7 +6779,11 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2000 IU"
+      ],
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "271464_nature made_vitamin d3_0.125_mg_standard",
@@ -6591,7 +6816,10 @@
         "gluten_free",
         "no_artificial_flavors"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "125 mcg; 5000 IU"
+      ]
     },
     {
       "id": "305192_vital nutrients_vitamin d3_0.25_mg_standard",
@@ -6621,7 +6849,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "269987_north american herb & spice_astaxanthin_0.24_mg_standard",
@@ -6696,7 +6925,8 @@
         "gluten_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegan Capsule(s)"
     },
     {
       "id": "335488_xymogen_vitamin d3_0.25_mg_standard",
@@ -6728,7 +6958,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "306413_nutricost_vitamin k2_0.1_mg_standard",
@@ -6760,7 +6991,11 @@
       "filters": [
         "non_gmo"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dosage": [
+        "100 MCG"
+      ],
+      "dsld_content": "500 Capsule(s)"
     },
     {
       "id": "287237_dr. mercola_vitamin d3_0.125_mg_liposomal",
@@ -6771,7 +7006,7 @@
       "dsld_product_name": "Liposomal Vitamin D3 5000 IU",
       "dsld_brand": "Dr. Mercola",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-813006016995.jpg",
-      "best_price_per_unit": 170.0,
+      "best_price_per_unit": 170,
       "best_total_price": 21.25,
       "unit": "mg",
       "primary_ingredient": "Vitamin D3",
@@ -6780,7 +7015,7 @@
         {
           "retailer": "Vitacost",
           "price": 21.25,
-          "price_per_unit": 170.0,
+          "price_per_unit": 170,
           "product_url": "https://www.vitacost.com/dr-mercola-liposomal-vitamin-d3-5000-iu-30-capsules",
           "product_name": "Dr. Mercola Liposomal Vitamin D3 -- 5000 IU - 30 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Liposomal-Vitamin-D3-813006016995.jpg",
@@ -6792,7 +7027,11 @@
       "filters": [
         "liposomal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "268936_premier research labs_vitamin d3_0.125_mg_standard",
@@ -6824,7 +7063,11 @@
       "filters": [
         "kosher"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "0.43 fl. oz."
     },
     {
       "id": "203341_doctor's best_vitamin d3_0.0625_mg_standard",
@@ -6860,7 +7103,11 @@
         "soy_free",
         "non_gmo"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2500 IU"
+      ],
+      "dsld_content": "60 Veggie Capsule(s)"
     },
     {
       "id": "335446_xymogen_vitamin d3_0.125_mg_standard",
@@ -6890,7 +7137,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "305195_vital nutrients_vitamin d3_0.125_mg_standard",
@@ -6930,7 +7178,10 @@
       ],
       "available_retailers": 2,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "5000 IU"
+      ]
     },
     {
       "id": "211109_seeking health_vitamin d3_0.125_mg_standard",
@@ -6941,16 +7192,16 @@
       "dsld_product_name": "Vitamin D3 + K2",
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Vitamin-D3-K2-810007521367.jpg",
-      "best_price_per_unit": 200.0,
-      "best_total_price": 25.0,
+      "best_price_per_unit": 200,
+      "best_total_price": 25,
       "unit": "mg",
       "primary_ingredient": "Vitamin D3",
       "amount_per_serving": 0.125,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 25.0,
-          "price_per_unit": 200.0,
+          "price": 25,
+          "price_per_unit": 200,
           "product_url": "https://www.vitacost.com/seeking-health-vitamin-d3-k2",
           "product_name": "Seeking Health Vitamin D3 + K2 -- 60 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Seeking-Health/Seeking-Health-Vitamin-D3-K2-810007521367.jpg",
@@ -6960,7 +7211,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "307746_jarrow formulas_vitamin d3_0.0625_mg_standard",
@@ -6990,7 +7242,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "62.5 mcg; 2,500 IU"
+      ],
+      "dsld_content": "100 Softgel(s)"
     },
     {
       "id": "309609_sports research_vegadelight_0.125_mg_standard",
@@ -7012,7 +7268,7 @@
           "price": 25.97,
           "price_per_unit": 207.76,
           "product_url": "https://www.iherb.com/pr/sports-research-d3-k2-plant-based-125-mcg-100-mcg-60-veggie-softgels/79975",
-          "product_name": "Sports Research, D3 + K2, Plant Based, 125\u00a0mcg/100\u00a0mcg, 60 Veggie Softgels",
+          "product_name": "Sports Research, D3 + K2, Plant Based, 125 mcg/100 mcg, 60 Veggie Softgels",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/sre/sre01134/u/86.jpg",
           "rating": null,
           "reviews": null
@@ -7020,7 +7276,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "125 mcg; 100 mcg"
+      ]
     },
     {
       "id": "318072_nutrabio_vitamin d3_0.125_mg_standard",
@@ -7050,7 +7309,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "60 Capsule(s)"
     },
     {
       "id": "327179_dr. mercola_vitamin d3_0.25_mg_liposomal",
@@ -7082,7 +7342,11 @@
       "filters": [
         "liposomal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "10000 IU"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "322220_davinci laboratories_vitamin d3_0.125_mg_standard",
@@ -7114,7 +7378,11 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "120 Capsule(s)"
     },
     {
       "id": "326434_protocol for life balance_vitamin d3_0.05_mg_standard",
@@ -7174,7 +7442,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "268033_innate response formulas_vitamin d3_0.125_mg_standard",
@@ -7209,7 +7478,10 @@
         "dairy_free",
         "soy_free"
       ],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "5000 IU"
+      ]
     },
     {
       "id": "335446_xymogen_vitamin d3_0.125_mg_standard",
@@ -7239,7 +7511,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "326494_protocol for life balance_vitamin d3_0.025_mg_standard",
@@ -7269,7 +7542,10 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 92.5
+      "match_score": 92.5,
+      "dosage": [
+        "1000 IU"
+      ]
     },
     {
       "id": "303732_xymogen_vitamin d3_0.125_mg_standard",
@@ -7301,7 +7577,8 @@
       "filters": [
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Vegetarian Capsule(s)"
     },
     {
       "id": "299649_california gold nutrition_vitamin d_0.025_mg_standard",
@@ -7331,7 +7608,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "60 Veg Capsule(s)"
     },
     {
       "id": "276490_deva_vitamin d2_0.02_mg_standard",
@@ -7364,7 +7642,11 @@
         "vegan",
         "vegetarian"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2400 IU"
+      ],
+      "dsld_content": "90 Tablet(s)"
     },
     {
       "id": "305193_vital nutrients_vitamin d3_0.05_mg_standard",
@@ -7394,7 +7676,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2000 IU"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "305193_vital nutrients_vitamin d3_0.05_mg_standard",
@@ -7424,7 +7710,11 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "2,000 IU"
+      ],
+      "dsld_content": "90 Vegetarian Capsule(s)"
     },
     {
       "id": "247529_natural factors_vitamin d3_0.05_mg_standard",
@@ -7458,7 +7748,8 @@
         "dairy_free",
         "no_artificial_colors"
       ],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "60 Softgel(s)"
     },
     {
       "id": "287236_dr. mercola_vitamin d3_0.125_mg_liposomal",
@@ -7490,7 +7781,11 @@
       "filters": [
         "liposomal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "5000 IU"
+      ],
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "303673_xymogen_vitamin d3_0.05_mg_standard",
@@ -7520,7 +7815,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "120 Softgel(s)"
     },
     {
       "id": "232984_dr. mercola_vitamin d3_0.025_mg_liposomal",
@@ -7552,7 +7848,11 @@
       "filters": [
         "liposomal"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dosage": [
+        "1000 IU"
+      ],
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "209074_carlson laboratories_vitamin d3_0.05_mg_standard",
@@ -7584,7 +7884,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "120 Vegetarian Capsule(s)"
     },
     {
       "id": "242816_nature's way_vitamin d3_0.025_mg_standard",
@@ -7650,7 +7951,8 @@
       "filters": [
         "gluten_free"
       ],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "0.5 fl. oz."
     },
     {
       "id": "327138_dr. mercola_vitamin d3_0.025_mg_standard",
@@ -7661,7 +7963,7 @@
       "dsld_product_name": "Vitamins D3 1000 IU & K2 45 mcg Low Dose",
       "dsld_brand": "Dr. Mercola",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Vitamins-D3-And-K2-Low-Dose-810094210991.jpg",
-      "best_price_per_unit": 750.0,
+      "best_price_per_unit": 750,
       "best_total_price": 18.75,
       "unit": "mg",
       "primary_ingredient": "Vitamin D3",
@@ -7670,7 +7972,7 @@
         {
           "retailer": "Vitacost",
           "price": 18.75,
-          "price_per_unit": 750.0,
+          "price_per_unit": 750,
           "product_url": "https://www.vitacost.com/dr-mercola-vitamins-d3-k2-low-dose",
           "product_name": "Dr. Mercola Vitamins D3 & K2 Low Dose -- 30 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Dr-Mercola/Dr-Mercola-Vitamins-D3-And-K2-Low-Dose-810094210991.jpg",
@@ -7680,7 +7982,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "30 Capsule(s)"
     },
     {
       "id": "298102_thorne_vitamin d_0.025_mg_standard",
@@ -7691,16 +7994,16 @@
       "dsld_product_name": "Vitamin D",
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-Liquid-693749168010.jpg",
-      "best_price_per_unit": 760.0,
-      "best_total_price": 19.0,
+      "best_price_per_unit": 760,
+      "best_total_price": 19,
       "unit": "mg",
       "primary_ingredient": "Vitamin D",
       "amount_per_serving": 0.025,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 19.0,
-          "price_per_unit": 760.0,
+          "price": 19,
+          "price_per_unit": 760,
           "product_url": "https://www.vitacost.com/thorne-vitamin-d-liquid",
           "product_name": "Thorne Vitamin D Liquid -- 1 fl oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-Liquid-693749168010.jpg",
@@ -7710,7 +8013,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "303674_xymogen_vitamin d3_0.05_mg_standard",
@@ -7740,7 +8044,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "240 Softgel(s)"
     },
     {
       "id": "269179_healthy origins_vitamin d3_0.025_mg_standard",
@@ -7773,7 +8078,8 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "360 Softgel(s)"
     },
     {
       "id": "298780_nature's plus_vitamin d3_0.025_mg_standard",
@@ -7816,7 +8122,8 @@
         "vegetarian",
         "gluten_free"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "90 Capsule(s)"
     },
     {
       "id": "298102_thorne_vitamin d_0.025_mg_standard",
@@ -7827,16 +8134,16 @@
       "dsld_product_name": "Vitamin D",
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-1000-693749015741.jpg",
-      "best_price_per_unit": 1080.0,
-      "best_total_price": 27.0,
+      "best_price_per_unit": 1080,
+      "best_total_price": 27,
       "unit": "mg",
       "primary_ingredient": "Vitamin D",
       "amount_per_serving": 0.025,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 27.0,
-          "price_per_unit": 1080.0,
+          "price": 27,
+          "price_per_unit": 1080,
           "product_url": "https://www.vitacost.com/thorne-vitamin-d-1000",
           "product_name": "Thorne Vitamin D-1000 -- 180 Capsules",
           "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-1000-693749015741.jpg",
@@ -7846,7 +8153,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 85.0
+      "match_score": 85,
+      "dsld_content": "180 Capsule(s)"
     },
     {
       "id": "298413_codeage_chromium_0.025_mg_standard",
@@ -7887,16 +8195,16 @@
       "dsld_product_name": "Vitamin D + K2",
       "dsld_brand": "Thorne",
       "product_image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-K2-Liquid-693749500018.jpg",
-      "best_price_per_unit": 1280.0,
-      "best_total_price": 32.0,
+      "best_price_per_unit": 1280,
+      "best_total_price": 32,
       "unit": "mg",
       "primary_ingredient": "Vitamin D",
       "amount_per_serving": 0.025,
       "retailer_prices": [
         {
           "retailer": "Vitacost",
-          "price": 32.0,
-          "price_per_unit": 1280.0,
+          "price": 32,
+          "price_per_unit": 1280,
           "product_url": "https://www.vitacost.com/thorne-vitamin-d-k2-liquid",
           "product_name": "Thorne Vitamin D + K2 Liquid -- 1 fl oz",
           "image_url": "https://www.vitacost.com/Images/Products/200/Thorne/Thorne-Vitamin-D-K2-Liquid-693749500018.jpg",
@@ -7906,7 +8214,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "1 fl. oz."
     },
     {
       "id": "269178_healthy origins_vitamin d3_0.025_mg_standard",
@@ -7939,7 +8248,8 @@
         "no_preservatives",
         "non_gmo"
       ],
-      "match_score": 87.5
+      "match_score": 87.5,
+      "dsld_content": "180 Softgel(s)"
     },
     {
       "id": "242816_nature's way_vitamin d3_0.025_mg_standard",
@@ -7984,16 +8294,16 @@
       "dsld_product_name": "Vitamin D3 + K2 Drops",
       "dsld_brand": "Seeking Health",
       "product_image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52135/u/69.jpg",
-      "best_price_per_unit": 2240.0,
-      "best_total_price": 28.0,
+      "best_price_per_unit": 2240,
+      "best_total_price": 28,
       "unit": "mg",
       "primary_ingredient": "Vitamin D",
       "amount_per_serving": 0.0125,
       "retailer_prices": [
         {
           "retailer": "iHerb",
-          "price": 28.0,
-          "price_per_unit": 2240.0,
+          "price": 28,
+          "price_per_unit": 2240,
           "product_url": "https://www.iherb.com/pr/seeking-health-vitamin-d3-k2-drops-1-fl-oz-30-ml/109875",
           "product_name": "Seeking Health, Vitamin D3 + K2 Drops, 1 fl oz (30 ml)",
           "image_url": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/skh/skh52135/u/69.jpg",
@@ -8003,7 +8313,8 @@
       ],
       "available_retailers": 1,
       "filters": [],
-      "match_score": 100.0
+      "match_score": 100,
+      "dsld_content": "1 fl. oz.; 30 mL"
     }
   ]
 }
