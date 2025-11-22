@@ -7,6 +7,7 @@
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+      dedupe: ['react', 'react-dom'],
       alias: {
         'vaul@1.1.2': 'vaul',
         'sonner@2.0.3': 'sonner',
@@ -84,10 +85,11 @@
           manualChunks(id) {
             // Group all glossary components into a single chunk for fewer small requests
             if (id.includes('/components/glossary/')) return 'glossary';
-            // Optionally group large vendor libraries
+            // Group large vendor libraries - but NOT lucide-react (causes React import issues)
             if (id.includes('node_modules')) {
               if (id.includes('radix-ui')) return 'radix';
-              if (id.includes('lucide-react')) return 'icons';
+              // React and react-dom should stay in vendor chunk
+              if (id.includes('react') || id.includes('react-dom')) return 'vendor';
             }
           }
         }
