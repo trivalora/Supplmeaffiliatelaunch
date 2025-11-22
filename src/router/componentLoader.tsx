@@ -53,8 +53,7 @@ export function loadComponent(componentName: string): ComponentType<any> | null 
   if (componentName === 'MultivitaminComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.MultivitaminComparison })));
   if (componentName === 'Omega3Comparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.Omega3Comparison })));
   if (componentName === 'PrebioticsComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.PrebioticsComparison })));
-  if (componentName === 'ProbioticsComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.ProbioticsComparison })));
-  if (componentName === 'SulforaphaneComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.SulforaphaneComparison })));
+  if (componentName === 'PrebioticsComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.PrebioticsComparison })));
   if (componentName === 'VitaminCComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.VitaminCComparison })));
   if (componentName === 'VitaminDComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.VitaminDComparison })));
   if (componentName === 'WheyProteinComparison') return lazy(() => import('../components/ProductComparisonWrapper').then(m => ({ default: m.WheyProteinComparison })));
@@ -101,7 +100,7 @@ function loadGlossaryComponent(componentName: string): ComponentType<any> | null
   if (componentName === 'CIPage') return lazy(() => import('../components/glossary/CIPage').then(m => ({ default: m.CIPage })));
   if (componentName === 'ClinicalSignificancePage') return lazy(() => import('../components/glossary/ClinicalSignificancePage').then(m => ({ default: m.ClinicalSignificancePage })));
   if (componentName === 'CoenzymeQ10Page') return lazy(() => import('../components/glossary/CoenzymeQ10Page').then(m => ({ default: m.CoenzymeQ10Page })));
-  if (componentName === 'CognitiveFunction') return lazy(() => import('../components/glossary/CognitiveFunction').then(m => ({ default: m.CognitiveFunction })));
+  if (componentName === 'CognitiveFunction') return lazy(() => import('../components/glossary/CognitiveFunction').then(m => ({ default: m.CognitiveFunctionPage })));
   if (componentName === 'CohortStudyPage') return lazy(() => import('../components/glossary/CohortStudyPage').then(m => ({ default: m.CohortStudyPage })));
   if (componentName === 'CollagenPage') return lazy(() => import('../components/glossary/CollagenPage').then(m => ({ default: m.CollagenPage })));
   if (componentName === 'ColonocytesPage') return lazy(() => import('../components/glossary/ColonocytesPage').then(m => ({ default: m.ColonocytesPage })));

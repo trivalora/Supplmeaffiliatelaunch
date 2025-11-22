@@ -1,0 +1,186 @@
+#!/usr/bin/env node
+/**
+ * Search Engine Ping Script
+ * Automatically notifies search engines when sitemap is updated
+ * Supports: Google, Bing, IndexNow
+ */
+
+import fs from 'fs';
+import path from 'path';
+import crypto from 'crypto';
+
+const BASE_URL = process.env.VITE_CANONICAL_BASE_URL || process.env.SITE_BASE_URL || 'https://www.suppl.me';
+const SITEMAP_URL = `${BASE_URL}/sitemap.xml`;
+const INDEX_NOW_KEY_FILE = 'indexnow-key.txt';
+const projectRoot = process.cwd();
+const publicDir = path.join(projectRoot, 'public');
+
+/**
+ * Generate or retrieve IndexNow API key
+ */
+function getIndexNowKey() {
+  const keyPath = path.join(publicDir, INDEX_NOW_KEY_FILE);
+  
+  // If key exists, read it
+  if (fs.existsSync(keyPath)) {
+    return fs.readFileSync(keyPath, 'utf-8').trim();
+  }
+  
+  // Generate new key (32-character hex)
+  const newKey = crypto.randomBytes(32).toString('hex');
+  fs.writeFileSync(keyPath, newKey, 'utf-8');
+  console.log(`[search-ping] Generated new IndexNow key: ${newKey}`);
+  return newKey;
+}
+
+/**
+ * Ping Google with sitemap URL
+ */
+async function pingGoogle() {
+  const url = `https://www.google.com/ping?sitemap=${encodeURIComponent(SITEMAP_URL)}`;
+  
+  try {
+    const response = await fetch(url, { method: 'GET' });
+    if (response.ok) {
+      console.log('✓ Google sitemap ping successful');
+      return true;
+    } else {
+      console.warn(`⚠ Google ping returned status ${response.status}`);
+      return false;
+    }
+  } catch (error) {
+    console.error('✗ Google ping failed:', error.message);
+    return false;
+  }
+}
+
+/**
+ * Ping Bing with sitemap URL
+ */
+async function pingBing() {
+  const url = `https://www.bing.com/ping?sitemap=${encodeURIComponent(SITEMAP_URL)}`;
+  
+  try {
+    const response = await fetch(url, { method: 'GET' });
+    if (response.ok) {
+      console.log('✓ Bing sitemap ping successful');
+      return true;
+    } else {
+      console.warn(`⚠ Bing ping returned status ${response.status}`);
+      return false;
+    }
+  } catch (error) {
+    console.error('✗ Bing ping failed:', error.message);
+    return false;
+  }
+}
+
+/**
+ * Submit URLs via IndexNow API
+ * IndexNow allows instant notification to multiple search engines (Bing, Yandex, Seznam)
+ */
+async function submitIndexNow(urls) {
+  const key = getIndexNowKey();
+  const host = BASE_URL.replace(/^https?:\/\//, '');
+  
+  // IndexNow API endpoint (can use bing.com, yandex.com, or seznam.cz)
+  const apiUrl = 'https://api.indexnow.org/indexnow';
+  
+  const payload = {
+    host: host,
+    key: key,
+    keyLocation: `${BASE_URL}/${INDEX_NOW_KEY_FILE}`,
+    urlList: urls.slice(0, 100) // IndexNow has a limit of 10,000 URLs, but we'll batch conservatively
+  };
+  
+  try {
+    const response = await fetch(apiUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8'
+      },
+      body: JSON.stringify(payload)
+    });
+    
+    if (response.ok || response.status === 202) {
+      console.log(`✓ IndexNow API submission successful (${urls.length} URLs)`);
+      return true;
+    } else {
+      const text = await response.text();
+      console.warn(`⚠ IndexNow API returned status ${response.status}: ${text}`);
+      return false;
+    }
+  } catch (error) {
+    console.error('✗ IndexNow API submission failed:', error.message);
+    return false;
+  }
+}
+
+/**
+ * Extract URLs from sitemap.xml
+ */
+function extractSitemapUrls() {
+  const sitemapPath = path.join(publicDir, 'sitemap.xml');
+  
+  if (!fs.existsSync(sitemapPath)) {
+    console.error('✗ sitemap.xml not found! Run sitemap generation first.');
+    return [];
+  }
+  
+  const sitemap = fs.readFileSync(sitemapPath, 'utf-8');
+  const urlMatches = sitemap.matchAll(/<loc>(.*?)<\/loc>/g);
+  const urls = Array.from(urlMatches).map(match => match[1]);
+  
+  console.log(`[search-ping] Found ${urls.length} URLs in sitemap`);
+  return urls;
+}
+
+/**
+ * Main execution
+ */
+(async () => {
+  console.log('[search-ping] Starting search engine notification...');
+  
+  // Skip in CI/preview environments if desired
+  if (process.env.SKIP_SEARCH_PING === 'true') {
+    console.log('[search-ping] SKIP_SEARCH_PING=true – skipping search engine pings');
+    return;
+  }
+  
+  // Only ping on production deployments
+  if (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'production') {
+    console.log('[search-ping] Not production deployment – skipping pings');
+    return;
+  }
+  
+  const results = {
+    google: false,
+    bing: false,
+    indexnow: false
+  };
+  
+  // Ping Google
+  results.google = await pingGoogle();
+  
+  // Ping Bing
+  results.bing = await pingBing();
+  
+  // Submit to IndexNow (batch first 100 URLs for immediate indexing)
+  const urls = extractSitemapUrls();
+  if (urls.length > 0) {
+    results.indexnow = await submitIndexNow(urls);
+  }
+  
+  console.log('\n[search-ping] Summary:');
+  console.log(`  Google: ${results.google ? '✓' : '✗'}`);
+  console.log(`  Bing: ${results.bing ? '✓' : '✗'}`);
+  console.log(`  IndexNow: ${results.indexnow ? '✓' : '✗'}`);
+  
+  if (!results.google && !results.bing && !results.indexnow) {
+    console.warn('\n⚠ No search engines were successfully notified.');
+    console.warn('This is expected in local/preview environments.');
+    console.warn('For production: Verify network connectivity and BASE_URL.');
+  } else {
+    console.log('\n✓ Search engine notification complete!');
+  }
+})();

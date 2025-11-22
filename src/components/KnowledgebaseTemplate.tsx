@@ -7,19 +7,17 @@ import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import { autolinkGlossaryTerms } from '../utils/glossaryAutolink';
 import { getProductsBySupplementName, type ProductData } from '../utils/supplementProductsData';
-import { SmartImage } from './SmartImage';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
 import {
   trackAffiliateClick,
   trackProductClick,
   trackOutboundLink,
-  trackAccordionToggle,
   trackSupplementView,
   trackCertificationClick,
   trackRetailerClick
 } from '../utils/analytics';
 import { trackSupplementSection } from '../utils/analytics';
-import { useSupplementTracking, useProductTracking } from '../hooks/useAnalytics';
+import { useProductTracking } from '../hooks/useAnalytics';
 import {
   Collapsible,
   CollapsibleContent,
@@ -351,9 +349,11 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
           try {
             const baseFile = heroImageUrl.split('?')[0].split('/').pop();
             if (baseFile && baseFile.includes('.')) {
+              // Remove Vite hash suffix (e.g., name-abc123.png → name.png)
+              const cleanFile = baseFile.replace(/-[A-Za-z0-9_~.-]+\.(png|jpe?g)$/i, '.$1');
               return (
                 <SectionImage
-                  file={baseFile}
+                  file={cleanFile}
                   alt={supplementName}
                   fallbackSrc={heroImageUrl}
                   objectFit="cover"

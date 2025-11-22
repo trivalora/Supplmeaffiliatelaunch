@@ -1,5 +1,5 @@
 import { lazy, ReactElement } from 'react';
-import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, RouteConfig, PageKey } from '../routes.config';
+import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, STATIC_ROUTES, RouteConfig, PageKey } from '../routes.config';
 import { PAGE_PATHS, getPathForKey } from '../utils/routePaths';
 import { SEOHead, pageSEO } from '../components/SEOHead';
 import { useNavigate } from 'react-router-dom';
@@ -149,6 +149,17 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
   GLOSSARY_ROUTES.forEach(r => {
     const key = r.key as PageKey;
     pushRoute(r, key);
+  });
+
+  // Static routes (About, Contact, Legal, Privacy, etc.)
+  STATIC_ROUTES.forEach(r => {
+    const staticRoute: RouteConfig = {
+      ...r,
+      category: 'static' as any,
+      showInNav: false,
+      description: r.title
+    };
+    pushRoute(staticRoute, r.key as PageKey);
   });
 
   return routes;

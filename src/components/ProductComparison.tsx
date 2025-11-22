@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Header } from './Header';
-import { Footer } from './Footer';
 import { PageKey } from '../routes.config';
 import { SEOHead } from './SEOHead';
 import { SearchResults } from './SearchResults';
@@ -147,44 +146,6 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
     }
   }
 
-  function getRetailerLogo(retailer: string): string {
-    const retailerKey = retailer.toLowerCase().replace(/\s+/g, '');
-    
-    switch(retailerKey) {
-      case 'iherb':
-        return `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="48" fill="#3C742C"/>
-          <path d="M30 35 H40 V65 H30 Z M55 35 L70 50 L55 65 V55 H45 V45 H55 Z" fill="white"/>
-        </svg>`;
-      case 'amazon':
-        return `<svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <text x="10" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#000">amazon</text>
-          <path d="M 15 32 Q 60 38 105 32" stroke="#FF9900" stroke-width="3" fill="none"/>
-          <circle cx="108" cy="30" r="2" fill="#FF9900"/>
-        </svg>`;
-      case 'vitacost':
-        return `<svg viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="140" height="40" rx="4" fill="#0088cc"/>
-          <text x="70" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">VITACOST</text>
-        </svg>`;
-      case 'supplementwarehouse':
-        return `<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="40" height="40" rx="4" fill="#e31837"/>
-          <text x="20" y="27" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">SW</text>
-        </svg>`;
-      default:
-        return `<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="40" height="40" rx="4" fill="var(--color-primary-dark)"/>
-          <text x="20" y="27" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">${retailer.charAt(0)}</text>
-        </svg>`;
-    }
-  }
-
-  function getBuyButtonClass(retailer: string): string {
-    const retailerKey = retailer.toLowerCase().replace(/\s+/g, '');
-    return `buy-button buy-button-${retailerKey}`;
-  }
-
   // Filter and sort products (don't slice yet - we need full list for filter counts)
   const allFilteredProducts = currentData ? currentData.filter(product => {
     // Search filter
@@ -223,15 +184,6 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
 
   // Slice for display
   const filteredProducts = allFilteredProducts.slice(0, displayedCount);
-
-  function calculateSavings(product: any) {
-    if (!product.retailer_prices || product.retailer_prices.length < 2) return 0;
-    const prices = product.retailer_prices.map((r: any) => r.price_per_unit).filter((p: number) => p > 0);
-    if (prices.length < 2) return 0;
-    const min = Math.min(...prices);
-    const max = Math.max(...prices);
-    return max > min ? ((max - min) / max) * 100 : 0;
-  }
 
   function toggleDietaryFilter(filterKey: string) {
     const newFilters = new Set(activeDietaryFilters);

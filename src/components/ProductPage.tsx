@@ -208,7 +208,7 @@ export function ProductPage({ onNavigate }: ProductPageProps) {
             <div className="bg-card rounded-xl shadow-sm border border-secondary/20 overflow-hidden mb-6">
               <div className="flex gap-6 p-8">
                 {/* Product Image - Small thumbnail on left */}
-                <div className="flex-shrink-0 w-[120px] h-[120px] bg-tertiary rounded-lg p-2 flex items-center justify-center">
+                <div className="shrink-0 w-[264px] h-[264px] bg-tertiary rounded-lg p-2 flex items-center justify-center">
                   {productImage ? (
                     <img
                       src={productImage}
@@ -312,18 +312,18 @@ export function ProductPage({ onNavigate }: ProductPageProps) {
                         <thead className="bg-tertiary">
                           <tr>
                             <th className="text-left p-3 font-medium">Ingredient</th>
-                            <th className="text-right p-3 font-medium">Amount</th>
-                            <th className="text-right p-3 font-medium">% Daily Value</th>
+                            <th className="text-center p-3 font-medium">Amount</th>
+                            <th className="text-center p-3 font-medium">% Daily Value</th>
                           </tr>
                         </thead>
                         <tbody>
                           {product.dsld_label_info.ingredients.map((ing, idx) => (
                             <tr key={idx} className={idx % 2 === 0 ? 'bg-background' : 'bg-tertiary/20'}>
                               <td className="p-3">{ing.name}</td>
-                              <td className="text-right p-3 text-muted-foreground">
+                              <td className="text-center p-3 text-muted-foreground">
                                 {ing.amount} {ing.unit}
                               </td>
-                              <td className="text-right p-3 text-muted-foreground">
+                              <td className="text-center p-3 text-muted-foreground">
                                 {ing.daily_value || '†'}
                               </td>
                             </tr>
