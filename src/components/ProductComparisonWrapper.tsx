@@ -44,7 +44,8 @@ export function PrebioticsComparison({ onNavigate }: { onNavigate: (page: PageKe
 }
 
 export function ProbioticsComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="probiotics" onNavigate={onNavigate} />;
+  const supplementId = "probiotics"; // Explicit variable to force rebuild
+  return <ProductComparisonWrapper supplementId={supplementId} onNavigate={onNavigate} />;
 }
 
 export function VitaminCComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
