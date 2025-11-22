@@ -1,8 +1,9 @@
-import { lazy, ReactElement, ComponentType } from 'react';
+import { lazy, ReactElement } from 'react';
 import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, RouteConfig, PageKey } from '../routes.config';
 import { PAGE_PATHS, getPathForKey } from '../utils/routePaths';
 import { SEOHead, pageSEO } from '../components/SEOHead';
 import { useNavigate } from 'react-router-dom';
+import { loadComponent } from './componentLoader';
 
 /**
  * Unified route description type consumed by React Router.
@@ -21,34 +22,15 @@ export interface AppRoute {
 
 /**
  * Create a lazily loaded component wrapper that injects onNavigate using react-router-dom.
- * Uses explicit lazy imports that Vite can statically analyze.
+ * Uses static component loader with explicit imports that Vite can analyze.
  */
 function makeLazyComponent(route: RouteConfig, pageKey: PageKey) {
-  // Build the full import path from routes.config componentPath
-  const componentPath = route.componentPath.startsWith('./')
-    ? route.componentPath.replace('./', '../')
-    : route.componentPath;
+  const LazyComp = loadComponent(route.componentName);
   
-  const componentName = route.componentName;
-  
-  // Create lazy component with dynamic import that Vite CAN analyze
-  // Vite can handle template literal imports as long as the variable parts are limited
-  const LazyComp = lazy(() => {
-    // This creates a switch statement that Vite can statically analyze
-    if (componentPath.includes('/glossary/')) {
-      // Extract just the filename for glossary components
-      const fileName = componentPath.split('/').pop();
-      return import(`../components/glossary/${fileName}.tsx`).then((mod: any) => ({
-        default: mod[componentName]
-      }));
-    } else {
-      // Main components
-      const fileName = componentPath.split('/').pop();
-      return import(`../components/${fileName}.tsx`).then((mod: any) => ({
-        default: mod[componentName]
-      }));
-    }
-  });
+  if (!LazyComp) {
+    console.error(`Component not found: ${route.componentName}`);
+    return () => <div>Component not found: {route.componentName}</div>;
+  }
 
   // Wrapper component (stable reference via function, not arrow in render)
   function ComponentWrapper() {
