@@ -6,7 +6,7 @@
 
   "functions": {
     "api/**/*.ts": {
-      "runtime": "nodejs22.x"
+      "runtime": "@vercel/node@3.2.17"
     }
   },
 
