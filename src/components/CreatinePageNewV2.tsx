@@ -7,6 +7,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function CreatinePageNewV2({ 
   onNavigate,
@@ -336,7 +337,7 @@ export function CreatinePageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Creatine', benefits)} />
+      <SEOHead {...getSupplementSEO('Creatine', benefits, '/creatine')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

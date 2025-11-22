@@ -1,17 +1,42 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Ashwagandha Price Comparison | Best Deals at iHerb & Amazon",
+    "@type": "ItemList",
+    "name": "Ashwagandha Products",
     "description": "Compare prices for Ashwagandha supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "category": "Supplement"
+    "url": "https://suppl.me/ashwagandha-comparison",
+    "numberOfItems": 100,
+    "itemListElement": []
   },
   {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
+    "@type": "CollectionPage",
     "name": "Ashwagandha Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for Ashwagandha supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "about": "Ashwagandha Price Comparison | Best Deals at iHerb & Amazon",
-    "url": "https://suppl.me/ashwagandha-comparison"
+    "url": "https://suppl.me/ashwagandha-comparison",
+    "about": {
+      "@type": "Thing",
+      "name": "Ashwagandha",
+      "description": "Price comparison and reviews for Ashwagandha supplements"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Ashwagandha Products",
+      "description": "Comprehensive list of Ashwagandha supplements with prices and certifications"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "suppl.me",
+    "url": "https://suppl.me",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 ]

@@ -1,17 +1,42 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Casein Protein Price Comparison | Best Deals at iHerb & Amazon",
+    "@type": "ItemList",
+    "name": "Casein Protein Products",
     "description": "Compare prices for Casein Protein supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "category": "Supplement"
+    "url": "https://suppl.me/casein-protein-comparison",
+    "numberOfItems": 100,
+    "itemListElement": []
   },
   {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
+    "@type": "CollectionPage",
     "name": "Casein Protein Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for Casein Protein supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "about": "Casein Protein Price Comparison | Best Deals at iHerb & Amazon",
-    "url": "https://suppl.me/casein-protein-comparison"
+    "url": "https://suppl.me/casein-protein-comparison",
+    "about": {
+      "@type": "Thing",
+      "name": "Casein Protein",
+      "description": "Price comparison and reviews for Casein Protein supplements"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Casein Protein Products",
+      "description": "Comprehensive list of Casein Protein supplements with prices and certifications"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "suppl.me",
+    "url": "https://suppl.me",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 ]

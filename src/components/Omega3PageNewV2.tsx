@@ -7,6 +7,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function Omega3PageNewV2({ 
   onNavigate,
@@ -316,7 +317,7 @@ export function Omega3PageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Omega-3', benefits)} />
+      <SEOHead {...getSupplementSEO('Omega-3', benefits, '/omega-3')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

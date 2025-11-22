@@ -6,6 +6,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function CalciumPageNewV2({ 
   onNavigate,
@@ -308,7 +309,7 @@ export function CalciumPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Calcium', benefits)} />
+      <SEOHead {...getSupplementSEO('Calcium', benefits, '/calcium')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

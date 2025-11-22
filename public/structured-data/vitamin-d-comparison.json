@@ -1,17 +1,42 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Vitamin D Price Comparison | Best Deals at iHerb & Amazon",
+    "@type": "ItemList",
+    "name": "Vitamin D Products",
     "description": "Compare prices for Vitamin D supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "category": "Supplement"
+    "url": "https://suppl.me/vitamin-d-comparison",
+    "numberOfItems": 100,
+    "itemListElement": []
   },
   {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
+    "@type": "CollectionPage",
     "name": "Vitamin D Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for Vitamin D supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "about": "Vitamin D Price Comparison | Best Deals at iHerb & Amazon",
-    "url": "https://suppl.me/vitamin-d-comparison"
+    "url": "https://suppl.me/vitamin-d-comparison",
+    "about": {
+      "@type": "Thing",
+      "name": "Vitamin D",
+      "description": "Price comparison and reviews for Vitamin D supplements"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Vitamin D Products",
+      "description": "Comprehensive list of Vitamin D supplements with prices and certifications"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "suppl.me",
+    "url": "https://suppl.me",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 ]

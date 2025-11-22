@@ -6,6 +6,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function MultivitaminPageNewV2({ 
   onNavigate,
@@ -318,7 +319,7 @@ export function MultivitaminPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Multivitamin', benefits)} />
+      <SEOHead {...getSupplementSEO('Multivitamin', benefits, '/multivitamin')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

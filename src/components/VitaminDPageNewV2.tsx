@@ -7,6 +7,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function VitaminDPageNewV2({ 
   onNavigate,
@@ -300,7 +301,7 @@ export function VitaminDPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Vitamin D', benefits)} />
+      <SEOHead {...getSupplementSEO('Vitamin D', benefits, '/vitamin-d')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

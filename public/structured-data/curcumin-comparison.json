@@ -1,17 +1,42 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Curcumin Price Comparison | Best Deals at iHerb & Amazon",
+    "@type": "ItemList",
+    "name": "Curcumin Products",
     "description": "Compare prices for Curcumin supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "category": "Supplement"
+    "url": "https://suppl.me/curcumin-comparison",
+    "numberOfItems": 100,
+    "itemListElement": []
   },
   {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
+    "@type": "CollectionPage",
     "name": "Curcumin Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for Curcumin supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "about": "Curcumin Price Comparison | Best Deals at iHerb & Amazon",
-    "url": "https://suppl.me/curcumin-comparison"
+    "url": "https://suppl.me/curcumin-comparison",
+    "about": {
+      "@type": "Thing",
+      "name": "Curcumin",
+      "description": "Price comparison and reviews for Curcumin supplements"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Curcumin Products",
+      "description": "Comprehensive list of Curcumin supplements with prices and certifications"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "suppl.me",
+    "url": "https://suppl.me",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 ]

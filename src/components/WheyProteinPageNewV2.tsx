@@ -5,6 +5,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function WheyProteinPageNewV2({ 
   onNavigate,
@@ -321,7 +322,7 @@ export function WheyProteinPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Whey Protein', benefits)} />
+      <SEOHead {...getSupplementSEO('Whey Protein', benefits, '/whey-protein')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

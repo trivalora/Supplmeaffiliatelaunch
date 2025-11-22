@@ -1,17 +1,42 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Prebiotics Price Comparison | Best Deals at iHerb & Amazon",
+    "@type": "ItemList",
+    "name": "Prebiotics Products",
     "description": "Compare prices for Prebiotics supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "category": "Supplement"
+    "url": "https://suppl.me/prebiotics-comparison",
+    "numberOfItems": 100,
+    "itemListElement": []
   },
   {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
+    "@type": "CollectionPage",
     "name": "Prebiotics Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for Prebiotics supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "about": "Prebiotics Price Comparison | Best Deals at iHerb & Amazon",
-    "url": "https://suppl.me/prebiotics-comparison"
+    "url": "https://suppl.me/prebiotics-comparison",
+    "about": {
+      "@type": "Thing",
+      "name": "Prebiotics",
+      "description": "Price comparison and reviews for Prebiotics supplements"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Prebiotics Products",
+      "description": "Comprehensive list of Prebiotics supplements with prices and certifications"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "suppl.me",
+    "url": "https://suppl.me",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 ]

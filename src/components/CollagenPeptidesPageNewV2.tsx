@@ -7,6 +7,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function CollagenPeptidesPageNewV2({ 
   onNavigate,
@@ -297,7 +298,7 @@ export function CollagenPeptidesPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Collagen Peptides', benefits)} />
+      <SEOHead {...getSupplementSEO('Collagen Peptides', benefits, '/collagen-peptides')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

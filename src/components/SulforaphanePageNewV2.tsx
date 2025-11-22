@@ -5,6 +5,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function SulforaphanePageNewV2({ 
   onNavigate,
@@ -256,7 +257,7 @@ export function SulforaphanePageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Sulforaphane', benefits)} />
+      <SEOHead {...getSupplementSEO('Sulforaphane', benefits, '/sulforaphane')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

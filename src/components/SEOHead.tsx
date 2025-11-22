@@ -241,16 +241,20 @@ export const pageSEO = {
 };
 
 /**
- * Generate SEO for supplement pages
+ * Generate SEO for individual supplement pages
  */
-export function getSupplementSEO(supplementName: string, benefits: string[]) {
+export function getSupplementSEO(supplementName: string, benefits: string[], supplementKey?: string) {
+  // Generate canonical path from supplement name
+  const canonicalPath = supplementKey || `/${supplementName.toLowerCase().replace(/\s+/g, '-')}`;
+  
   return {
     title: `${supplementName} - Evidence-Based Review`,
     description: `Comprehensive research review of ${supplementName}. Benefits include ${benefits.slice(0, 3).join(', ')}. Evidence-graded recommendations and dosing guides.`,
     keywords: `${supplementName.toLowerCase()}, ${supplementName.toLowerCase()} benefits, ${supplementName.toLowerCase()} dosage, ${supplementName.toLowerCase()} research, ${supplementName.toLowerCase()} evidence`,
     pageType: 'article' as const,
     publishedTime: '2025-11-11T00:00:00Z',
-    modifiedTime: new Date().toISOString()
+    modifiedTime: new Date().toISOString(),
+    canonicalPath
   };
 }
 

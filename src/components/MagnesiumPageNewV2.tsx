@@ -5,6 +5,7 @@ import {
 } from './iconExports';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function MagnesiumPageNewV2({ 
   onNavigate,
@@ -302,7 +303,7 @@ export function MagnesiumPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Magnesium', benefits)} />
+      <SEOHead {...getSupplementSEO('Magnesium', benefits, '/magnesium')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

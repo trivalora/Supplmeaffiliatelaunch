@@ -6,6 +6,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function IronPageNewV2({ 
   onNavigate,
@@ -313,7 +314,7 @@ export function IronPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Iron', benefits)} />
+      <SEOHead {...getSupplementSEO('Iron', benefits, '/iron')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

@@ -5,6 +5,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function CurcuminPageNewV2({ 
   onNavigate,
@@ -462,7 +463,7 @@ export function CurcuminPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Curcumin', benefits)} />
+      <SEOHead {...getSupplementSEO('Curcumin', benefits, '/curcumin')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

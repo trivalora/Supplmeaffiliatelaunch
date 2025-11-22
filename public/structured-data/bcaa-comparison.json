@@ -1,17 +1,42 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "BCAA Price Comparison | Best Deals at iHerb & Amazon",
+    "@type": "ItemList",
+    "name": "BCAA Products",
     "description": "Compare prices for BCAA supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "category": "Supplement"
+    "url": "https://suppl.me/bcaa-comparison",
+    "numberOfItems": 100,
+    "itemListElement": []
   },
   {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
+    "@type": "CollectionPage",
     "name": "BCAA Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for BCAA supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "about": "BCAA Price Comparison | Best Deals at iHerb & Amazon",
-    "url": "https://suppl.me/bcaa-comparison"
+    "url": "https://suppl.me/bcaa-comparison",
+    "about": {
+      "@type": "Thing",
+      "name": "BCAA",
+      "description": "Price comparison and reviews for BCAA supplements"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "BCAA Products",
+      "description": "Comprehensive list of BCAA supplements with prices and certifications"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "suppl.me",
+    "url": "https://suppl.me",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 ]

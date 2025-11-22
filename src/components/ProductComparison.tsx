@@ -257,11 +257,28 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
   const otherFilterKeys = Object.keys(filters).filter(key => !priorityFilters.includes(key));
   const orderedFilterKeys = [...priorityFilters.filter(key => filters[key]), ...otherFilterKeys];
 
+  // Load structured data for comparison page
+  const [structuredData, setStructuredData] = React.useState<any>(null);
+  
+  React.useEffect(() => {
+    if (!initialSupplement) return;
+    
+    // Fetch structured data for the comparison page
+    const comparisonKey = `${initialSupplement}-comparison`;
+    fetch(`/structured-data/${comparisonKey}.json`)
+      .then(res => res.ok ? res.json() : null)
+      .then(data => setStructuredData(data))
+      .catch(() => setStructuredData(null));
+  }, [initialSupplement]);
+
   return (
     <>
       <SEOHead
         title={currentSupplement ? `Compare ${currentSupplement} Prices` : "Compare Supplement Prices"}
         description="Compare supplement prices across multiple retailers to find the best deals"
+        structuredData={structuredData}
+        canonicalPath={initialSupplement ? `/${initialSupplement}-comparison` : '/compare'}
+        pageType="article"
       />
       
       <div className="min-h-screen bg-background">

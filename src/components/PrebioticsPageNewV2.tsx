@@ -5,6 +5,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function PrebioticsPageNewV2({ 
   onNavigate,
@@ -281,7 +282,7 @@ export function PrebioticsPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Prebiotics', benefits)} />
+      <SEOHead {...getSupplementSEO('Prebiotics', benefits, '/prebiotics')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

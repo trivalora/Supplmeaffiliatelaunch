@@ -1,17 +1,42 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Iron Price Comparison | Best Deals at iHerb & Amazon",
+    "@type": "ItemList",
+    "name": "Iron Products",
     "description": "Compare prices for Iron supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "category": "Supplement"
+    "url": "https://suppl.me/iron-comparison",
+    "numberOfItems": 100,
+    "itemListElement": []
   },
   {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
+    "@type": "CollectionPage",
     "name": "Iron Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for Iron supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "about": "Iron Price Comparison | Best Deals at iHerb & Amazon",
-    "url": "https://suppl.me/iron-comparison"
+    "url": "https://suppl.me/iron-comparison",
+    "about": {
+      "@type": "Thing",
+      "name": "Iron",
+      "description": "Price comparison and reviews for Iron supplements"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Iron Products",
+      "description": "Comprehensive list of Iron supplements with prices and certifications"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "suppl.me",
+    "url": "https://suppl.me",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
 ]

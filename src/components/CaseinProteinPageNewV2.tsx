@@ -7,6 +7,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function CaseinProteinPageNewV2({ 
   onNavigate,
@@ -430,7 +431,7 @@ export function CaseinProteinPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Casein Protein', benefits)} />
+      <SEOHead {...getSupplementSEO('Casein Protein', benefits, '/casein-protein')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} onContactClick={onContactClick} onLegalClick={onLegalClick} />
     </>
   );

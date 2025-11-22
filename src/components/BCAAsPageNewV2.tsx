@@ -6,6 +6,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function BCAAsPageNewV2({ 
   onNavigate,
@@ -258,7 +259,7 @@ export function BCAAsPageNewV2({
   
   return (
     <>
-      <SEOHead {...getSupplementSEO('BCAAs', benefits)} />
+      <SEOHead {...getSupplementSEO('BCAAs', benefits, '/bcaas')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

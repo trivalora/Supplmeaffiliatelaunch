@@ -20,22 +20,123 @@ function baseUrl() {
 function buildSupplementSchemas(route) {
   const prettyKey = route.key.replace(/v2$/, '').replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
   const pageUrl = `${baseUrl()}/${prettyKey}`;
+  
+  // Enhanced Product schema with more detail
   const product = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: route.title,
     description: route.description,
-    category: route.subcategory || 'Supplement'
+    category: route.subcategory || 'Supplement',
+    brand: {
+      '@type': 'Brand',
+      name: 'suppl.me'
+    },
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      lowPrice: '5.00',
+      highPrice: '150.00',
+      offerCount: 50,
+      availability: 'https://schema.org/InStock',
+      url: pageUrl
+    }
   };
+  
+  // Enhanced MedicalWebPage with audience and reviewedBy
   const medicalWebPage = {
     '@context': 'https://schema.org',
     '@type': 'MedicalWebPage',
     name: route.title,
     description: route.description,
-    about: route.title,
-    url: pageUrl
+    about: {
+      '@type': 'Thing',
+      name: route.title,
+      description: route.description
+    },
+    url: pageUrl,
+    lastReviewed: new Date().toISOString().split('T')[0],
+    reviewedBy: {
+      '@type': 'Organization',
+      name: 'suppl.me Research Team'
+    },
+    audience: {
+      '@type': 'MedicalAudience',
+      audienceType: 'Patient'
+    },
+    mainEntity: {
+      '@type': 'Drug',
+      name: route.title,
+      description: route.description,
+      drugClass: 'Dietary Supplement'
+    }
   };
-  return [product, medicalWebPage];
+  
+  // Add Organization schema for brand
+  const organization = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'suppl.me',
+    url: baseUrl(),
+    logo: `${baseUrl()}/logo.png`,
+    description: 'Evidence-based supplement information and price comparison'
+  };
+  
+  return [product, medicalWebPage, organization];
+}
+
+function buildComparisonSchemas(route) {
+  const slug = route.key;
+  const pageUrl = `${baseUrl()}/${slug}`;
+  const supplementName = route.title.replace(' Price Comparison | Best Deals at iHerb & Amazon', '');
+  
+  // ItemList schema for product comparison
+  const itemList = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `${supplementName} Products`,
+    description: route.description,
+    url: pageUrl,
+    numberOfItems: 100,
+    itemListElement: []
+  };
+  
+  // CollectionPage for the comparison page
+  const collectionPage = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: route.title,
+    description: route.description,
+    url: pageUrl,
+    about: {
+      '@type': 'Thing',
+      name: supplementName,
+      description: `Price comparison and reviews for ${supplementName} supplements`
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      name: `${supplementName} Products`,
+      description: `Comprehensive list of ${supplementName} supplements with prices and certifications`
+    }
+  };
+  
+  // WebSite with SearchAction
+  const website = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'suppl.me',
+    url: baseUrl(),
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${baseUrl()}/search?q={search_term_string}`
+      },
+      'query-input': 'required name=search_term_string'
+    }
+  };
+  
+  return [itemList, collectionPage, website];
 }
 
 function buildGlossarySchemas(route) {
@@ -145,9 +246,26 @@ async function loadKnowledgebaseRoutes() {
   }
   console.log('[structured-data] Wrote', v2.length, 'files to public/structured-data');
 
-  // Glossary
-  // Use the correct path to routes.config.ts
+  // Comparison pages (from KNOWLEDGEBASE_ROUTES with category === 'comparison')
   const tsPath = path.join(projectRoot, 'src', 'routes.config.ts');
+  const comparisonParsed = parseRoutesArrayFromTS(tsPath, 'KNOWLEDGEBASE_ROUTES')
+    .filter(r => r.key && r.title && r.category === 'comparison');
+  
+  if (comparisonParsed.length) {
+    for (const c of comparisonParsed) {
+      const jsonld = buildComparisonSchemas({
+        key: c.key,
+        title: c.title,
+        description: c.description || c.title
+      });
+      fs.writeFileSync(path.join(outDir, `${c.key}.json`), JSON.stringify(jsonld, null, 2));
+    }
+    console.log('[structured-data] Wrote', comparisonParsed.length, 'comparison page files');
+  } else {
+    console.warn('[structured-data] No comparison routes found.');
+  }
+
+  // Glossary
   const glossaryParsed = parseRoutesArrayFromTS(tsPath, 'GLOSSARY_ROUTES').filter(r => r.key && r.title);
   if (glossaryParsed.length) {
     for (const g of glossaryParsed) {

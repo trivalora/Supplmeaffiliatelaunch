@@ -7,6 +7,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function ProbioticsPageNewV2({ 
   onNavigate,
@@ -18,6 +19,7 @@ export function ProbioticsPageNewV2({
   onLegalClick?: () => void 
 }) {
   const benefits = ['digestive health', 'immune support', 'gut microbiome balance', 'IBS symptom relief', 'antibiotic recovery'];
+  const structuredData = useStructuredData('probioticsv2');
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Probiotics",
@@ -315,7 +317,10 @@ export function ProbioticsPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Probiotics', benefits)} />
+      <SEOHead 
+        {...getSupplementSEO('Probiotics', benefits, '/probiotics')} 
+        structuredData={structuredData}
+      />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

@@ -7,6 +7,7 @@ import {
 import { PageKey } from '../routes.config';
 import { getSupplementImage } from '../utils/supplementImages';
 import { SEOHead, getSupplementSEO } from './SEOHead';
+import { useStructuredData } from '../hooks/useStructuredData';
 
 export function AshwagandhaPageNewV2({ 
   onNavigate,
@@ -323,7 +324,7 @@ export function AshwagandhaPageNewV2({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Ashwagandha', benefits)} />
+      <SEOHead {...getSupplementSEO('Ashwagandha', benefits, '/ashwagandha')} structuredData={structuredData} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );
