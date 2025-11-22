@@ -1,5 +1,5 @@
 import { lazy, ReactElement } from 'react';
-import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, RouteConfig, PageKey } from '../routes.config';
+import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, STATIC_ROUTES, RouteConfig, StaticRouteConfig, PageKey } from '../routes.config';
 import { PAGE_PATHS, getPathForKey } from '../utils/routePaths';
 import { SEOHead, pageSEO } from '../components/SEOHead';
 import { useNavigate } from 'react-router-dom';
@@ -32,8 +32,9 @@ function normalizeComponentPath(componentPath: string) {
 
 /**
  * Create a lazily loaded component wrapper that injects onNavigate using react-router-dom.
+ * Works with both RouteConfig and StaticRouteConfig.
  */
-function makeLazyComponent(route: RouteConfig, pageKey: PageKey) {
+function makeLazyComponent(route: RouteConfig | StaticRouteConfig, pageKey: PageKey) {
   const adjustedPath = normalizeComponentPath(route.componentPath);
   const LazyComp = lazy(() => import(/* @vite-ignore */ adjustedPath).then(mod => ({
     default: (mod as any)[route.componentName]
@@ -83,28 +84,7 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     }
   });
 
-  // Product Comparison page (manually defined like landing)
-  const ProductComparisonLazy = lazy(() => import('../components/ProductComparison').then(m => ({ default: m.ProductComparison })));
-  const ProductComparisonWrapper = () => {
-    const navigateRR = useNavigate();
-    const onNavigate = (target: PageKey) => {
-      const path = getPathForKey(target);
-      navigateRR(path);
-    };
-    return <ProductComparisonLazy onNavigate={onNavigate} />;
-  };
-  routes.push({
-    path: '/product-comparison',
-    pageKey: 'product-comparison',
-    element: <ProductComparisonWrapper />,
-    seo: {
-      title: 'Compare Supplement Prices',
-      description: 'Compare supplement prices across multiple retailers to find the best deals',
-      canonicalPath: '/product-comparison',
-    }
-  });
-
-  // Helper to push route entries
+  // Helper to push route entries for knowledgebase and glossary
   const pushRoute = (route: RouteConfig, pageKey: PageKey, pathOverride?: string) => {
     // Determine path: prefer PAGE_PATHS mapping else fallback to derived
     const mappedPath = PAGE_PATHS[pageKey] || pathOverride || `/${pageKey}`;
@@ -170,6 +150,26 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     });
   };
 
+  // Helper to push static route entries (about, contact, product-comparison, etc.)
+  const pushStaticRoute = (route: StaticRouteConfig, pageKey: PageKey) => {
+    const mappedPath = PAGE_PATHS[pageKey] || `/${pageKey}`;
+    const Component = makeLazyComponent(route, pageKey);
+
+    // Static pages get simple SEO
+    const seo = {
+      title: route.title,
+      description: route.title, // Static routes don't have descriptions in config
+      canonicalPath: mappedPath,
+    };
+
+    routes.push({
+      path: mappedPath,
+      pageKey,
+      element: <Component />,
+      seo,
+    });
+  };
+
   // Knowledgebase routes
   KNOWLEDGEBASE_ROUTES.forEach(r => pushRoute(r, r.key as PageKey));
 
@@ -178,6 +178,9 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     const key = r.key as PageKey;
     pushRoute(r, key);
   });
+
+  // Static routes (about, contact, legal pages, product-comparison, etc.)
+  STATIC_ROUTES.forEach(r => pushStaticRoute(r, r.key as PageKey));
 
   return routes;
 }
