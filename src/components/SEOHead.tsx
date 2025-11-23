@@ -108,9 +108,9 @@ export function SEOHead({
     }
 
     // Additional SEO tags
-    setMetaTag('robots', 'index, follow');
-    setMetaTag('googlebot', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
-    setMetaTag('bingbot', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+    setMetaTag('robots', 'index,follow');
+    setMetaTag('googlebot', 'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1');
+    setMetaTag('bingbot', 'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1');
 
     // Theme color (for mobile browsers)
     setMetaTag('theme-color', '#162F1C');
