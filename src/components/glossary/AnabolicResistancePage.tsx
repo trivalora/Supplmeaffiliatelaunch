@@ -200,7 +200,7 @@ export const AnabolicResistancePage: React.FC = () => {
           <section className="mb-8">
             <h2 className="mb-4">Related Terms</h2>
             <div className="flex flex-wrap gap-2">
-              <Link href="/glossary/muscle-protein-synthesis">
+              <Link href="/glossary/muscleproteinsynthesis">
                 <span className="px-3 py-1 bg-secondary/20 rounded-full text-sm hover:bg-secondary/30 transition-colors cursor-pointer">
                   Muscle Protein Synthesis
                 </span>
@@ -220,7 +220,7 @@ export const AnabolicResistancePage: React.FC = () => {
                   Protein
                 </span>
               </Link>
-              <Link href="/glossary/essential-amino-acids">
+              <Link href="/glossary/essentialaminoacids">
                 <span className="px-3 py-1 bg-secondary/20 rounded-full text-sm hover:bg-secondary/30 transition-colors cursor-pointer">
                   Essential Amino Acids
                 </span>

@@ -218,7 +218,7 @@ export const CalciumCarbonatePage: React.FC = () => {
                   Bioavailability
                 </span>
               </Link>
-              <Link href="/glossary/bone-density">
+              <Link href="/glossary/bonedensity">
                 <span className="px-3 py-1 bg-secondary/20 rounded-full text-sm hover:bg-secondary/30 transition-colors cursor-pointer">
                   Bone Density
                 </span>

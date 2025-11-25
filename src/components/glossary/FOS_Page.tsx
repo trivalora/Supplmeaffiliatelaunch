@@ -213,7 +213,7 @@ export const FOSPage: React.FC = () => {
           <section className="mb-8">
             <h2 className="mb-4">Related Terms</h2>
             <div className="flex flex-wrap gap-2">
-              <Link href="/glossary/inulin-type-fructans">
+              <Link href="/glossary/inulintypefructans">
                 <span className="px-3 py-1 bg-secondary/20 rounded-full text-sm hover:bg-secondary/30 transition-colors cursor-pointer">
                   Inulin-Type Fructans
                 </span>
@@ -238,7 +238,7 @@ export const FOSPage: React.FC = () => {
                   FODMAP
                 </span>
               </Link>
-              <Link href="/glossary/gut-microbiome">
+              <Link href="/glossary/gutmicrobiome">
                 <span className="px-3 py-1 bg-secondary/20 rounded-full text-sm hover:bg-secondary/30 transition-colors cursor-pointer">
                   Gut Microbiome
                 </span>

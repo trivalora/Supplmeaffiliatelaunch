@@ -211,12 +211,12 @@ export const ChylomicronsPage: React.FC = () => {
                   VLDL
                 </span>
               </Link>
-              <Link href="/glossary/ldl-cholesterol">
+              <Link href="/glossary/ldlcholesterol">
                 <span className="px-3 py-1 bg-secondary/20 rounded-full text-sm hover:bg-secondary/30 transition-colors cursor-pointer">
                   LDL Cholesterol
                 </span>
               </Link>
-              <Link href="/glossary/hdl-cholesterol">
+              <Link href="/glossary/hdlcholesterol">
                 <span className="px-3 py-1 bg-secondary/20 rounded-full text-sm hover:bg-secondary/30 transition-colors cursor-pointer">
                   HDL Cholesterol
                 </span>
