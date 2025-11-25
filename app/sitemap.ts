@@ -9,7 +9,7 @@ const getRoutes = async () => {
 };
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://suppl.me';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.suppl.me';
   const currentDate = new Date();
   
   const sitemap: MetadataRoute.Sitemap = [];
