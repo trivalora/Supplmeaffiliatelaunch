@@ -39,7 +39,7 @@ export function BuyingGuideSection({
                 key={index}
                 href={certificationLinks[part]}
                 target="_blank"
-                rel="nofollow noreferrer"
+                rel="noopener noreferrer"
                 className="text-primary hover:underline"
                 onClick={() => {
                   trackOutboundLink(

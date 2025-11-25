@@ -223,7 +223,7 @@ export function WheyProteinKnowledgebasePage({
         title: "Third-Party Testing",
         description: (
           <>
-            Look for <a href="https://www.usp.org" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">USP</a>, <a href="https://www.consumerlab.com" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">ConsumerLab</a>, or <a href="https://www.nsf.org" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">NSF</a> certification for purity and absence of contaminants. Critical given inadequate safety reporting in meta-analyses—independent testing provides quality assurance.
+            Look for <a href="https://www.usp.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">USP</a>, <a href="https://www.consumerlab.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ConsumerLab</a>, or <a href="https://www.nsf.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">NSF</a> certification for purity and absence of contaminants. Critical given inadequate safety reporting in meta-analyses—independent testing provides quality assurance.
           </>
         )
       },

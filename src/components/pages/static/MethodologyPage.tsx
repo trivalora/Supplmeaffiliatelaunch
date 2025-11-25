@@ -74,7 +74,7 @@ export function MethodologyPage() {
                     <a
                       href="https://pubmed.ncbi.nlm.nih.gov/"
                       target="_blank"
-                      rel="nofollow noreferrer"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-2 font-['Lato',sans-serif] font-normal leading-6 text-primary text-[14px] hover:underline"
                     >
                       <ExternalLink className="w-4 h-4" />
@@ -83,7 +83,7 @@ export function MethodologyPage() {
                     <a
                       href="https://clinicaltrials.gov/"
                       target="_blank"
-                      rel="nofollow noreferrer"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-2 font-['Lato',sans-serif] font-normal leading-6 text-primary text-[14px] hover:underline"
                     >
                       <ExternalLink className="w-4 h-4" />

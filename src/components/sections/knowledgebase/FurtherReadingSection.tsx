@@ -30,7 +30,7 @@ export function FurtherReadingSection({ furtherReading }: FurtherReadingSectionP
                 <a
                   href={link.url}
                   target="_blank"
-                  rel="nofollow noreferrer"
+                  rel="noopener noreferrer"
                   className="text-foreground hover:text-primary transition-colors"
                 >
                   <p className="hover:underline mb-1">{link.title}</p>

@@ -359,7 +359,7 @@ export function CurcuminKnowledgebasePage({
         title: "Standardization & purity",
         description: (
           <>
-            Look for 95% curcuminoids standardized extract (includes curcumin, demethoxycurcumin, bisdemethoxycurcumin). Third-party testing: <a href="https://www.usp.org/" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">USP</a> Verified, <a href="https://www.nsf.org/" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">NSF</a> Certified, or <a href="https://www.consumerlab.com/" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">ConsumerLab</a> tested preferred. Check for heavy metal testing (turmeric sometimes contaminated with lead). Verify certificate of analysis available from manufacturer.
+            Look for 95% curcuminoids standardized extract (includes curcumin, demethoxycurcumin, bisdemethoxycurcumin). Third-party testing: <a href="https://www.usp.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">USP</a> Verified, <a href="https://www.nsf.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">NSF</a> Certified, or <a href="https://www.consumerlab.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ConsumerLab</a> tested preferred. Check for heavy metal testing (turmeric sometimes contaminated with lead). Verify certificate of analysis available from manufacturer.
           </>
         )
       },

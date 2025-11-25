@@ -57,7 +57,7 @@ export function FootnotePopup({ refNumber, reference }: FootnotePopupProps) {
             <a
               href={reference.link}
               target="_blank"
-              rel="nofollow noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
             >
               View source <ExternalLink className="w-3 h-3" />

@@ -11,7 +11,7 @@ export function ThirdPartyTestingPage() {
       
       <div className="space-y-4 mb-6">
         <div className="bg-card border border-border rounded-lg p-6">
-          <h4 className="mt-0"><a href="https://www.usp.org" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">USP (United States Pharmacopeia)</a></h4>
+          <h4 className="mt-0"><a href="https://www.usp.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">USP (United States Pharmacopeia)</a></h4>
           <p className="mb-0">
             Tests for ingredient accuracy, purity, potency, and manufacturing quality. Products with the USP Verified Mark have undergone rigorous testing and facility audits.
           </p>
@@ -25,7 +25,7 @@ export function ThirdPartyTestingPage() {
         </div>
 
         <div className="bg-card border border-border rounded-lg p-6">
-          <h4 className="mt-0"><a href="https://www.nsf.org" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">NSF International</a></h4>
+          <h4 className="mt-0"><a href="https://www.nsf.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">NSF International</a></h4>
           <p className="mb-0">
             Tests products and inspects manufacturing facilities. Products carrying NSF certification have been verified for contents, contaminant testing, and manufacturing standards.
           </p>

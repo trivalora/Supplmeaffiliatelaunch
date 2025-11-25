@@ -24,7 +24,7 @@ export function ReferencesSection({ references }: ReferencesSectionProps) {
               <a
                 href={ref.link}
                 target="_blank"
-                rel="nofollow noreferrer"
+                rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
               >
                 <p className="mb-1 hover:underline">{ref.title}</p>

@@ -195,7 +195,7 @@ export function BcaaKnowledgebasePage({
         title: "Quality and Third-Party Testing",
         description: (
           <>
-            Third-party testing critical for athletes: <a href="https://www.usp.org/" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">USP</a> Verified, <a href="https://www.nsf.org/" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">NSF</a> Certified for Sport, Informed-Sport, or <a href="https://www.consumerlab.com/" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">ConsumerLab</a> approved. Check for: stated amino acid content verified by independent lab, minimal fillers/additives, absence of banned substances for competitive athletes. Pharmaceutical-grade recommended for clinical/medical use.
+            Third-party testing critical for athletes: <a href="https://www.usp.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">USP</a> Verified, <a href="https://www.nsf.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">NSF</a> Certified for Sport, Informed-Sport, or <a href="https://www.consumerlab.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ConsumerLab</a> approved. Check for: stated amino acid content verified by independent lab, minimal fillers/additives, absence of banned substances for competitive athletes. Pharmaceutical-grade recommended for clinical/medical use.
           </>
         )
       },
