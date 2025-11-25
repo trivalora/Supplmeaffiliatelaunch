@@ -65,8 +65,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       if (data.products && Array.isArray(data.products)) {
         for (const product of data.products) {
           if (product.id) {
+            // URL-encode the product ID to handle special characters like &, spaces, etc.
+            const encodedId = encodeURIComponent(product.id);
             sitemap.push({
-              url: `${baseUrl}/${supplement}/product/${product.id}`,
+              url: `${baseUrl}/${supplement}/product/${encodedId}`,
               lastModified: currentDate,
               changeFrequency: 'weekly',
               priority: 0.6,

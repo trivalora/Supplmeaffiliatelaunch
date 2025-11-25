@@ -72,3 +72,7 @@ WALMART-SCRAPER*.md
 out/
 next-env.d.ts
 *.backup
+
+# Generated sitemaps (Next.js generates dynamically)
+public/sitemap.xml
+sitemap.xml
