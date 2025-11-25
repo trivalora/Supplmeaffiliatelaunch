@@ -107,7 +107,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     title: 'Omega-3',
     path: '/omega-3',
     description: 'Enhanced meta-analysis review of omega-3 with updated research data',
-    componentPath: './components/Omega3KnowledgebasePage',
+    componentPath: './components/pages/supplements/Omega3KnowledgebasePage',
     componentName: 'Omega3KnowledgebasePage',
     showInNav: true,
     category: 'knowledgebase',
