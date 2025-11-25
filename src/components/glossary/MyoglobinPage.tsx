@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Zap, Heart, AlertCircle } from 'lucide-react';
 

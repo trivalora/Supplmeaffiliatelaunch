@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function SerumPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function SerumPage() {
   return (
     <GlossaryTemplate
       term="Serum"
@@ -64,11 +56,6 @@ Important Considerations:
         { term: "Plasma", key: "plasma" },
         { term: "Biomarker", key: "biomarker" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="serum"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

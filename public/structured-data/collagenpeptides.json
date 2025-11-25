@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Collagen Peptides (V1 - Archived)",
-    "description": "Structural protein for skin, joints, and connective tissue",
-    "category": "Supplement",
+    "name": "Collagen Peptides - Scientific Evidence & Price Comparison",
+    "description": "Comprehensive review of hydrolyzed collagen peptides for skin elasticity, joint health, and bone density. Meta-analysis of clinical trials, bioavailability, and optimal dosing protocols.",
+    "category": "Structural Support",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Collagen Peptides (V1 - Archived)",
-    "description": "Structural protein for skin, joints, and connective tissue",
+    "name": "Collagen Peptides: Clinical Evidence for Skin, Joints & Bone Health",
+    "description": "Comprehensive review of hydrolyzed collagen peptides for skin elasticity, joint health, and bone density. Meta-analysis of clinical trials, bioavailability, and optimal dosing protocols.",
     "about": {
       "@type": "Thing",
-      "name": "Collagen Peptides (V1 - Archived)",
-      "description": "Structural protein for skin, joints, and connective tissue"
+      "name": "Collagen Peptides",
+      "description": "Comprehensive review of hydrolyzed collagen peptides for skin elasticity, joint health, and bone density. Meta-analysis of clinical trials, bioavailability, and optimal dosing protocols."
     },
     "url": "https://suppl.me/collagenpeptides",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Collagen Peptides (V1 - Archived)",
-      "description": "Structural protein for skin, joints, and connective tissue",
+      "name": "Collagen Peptides",
+      "description": "Comprehensive review of hydrolyzed collagen peptides for skin elasticity, joint health, and bone density. Meta-analysis of clinical trials, bioavailability, and optimal dosing protocols.",
       "drugClass": "Dietary Supplement"
     }
   },

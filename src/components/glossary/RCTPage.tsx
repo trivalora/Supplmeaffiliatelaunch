@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface RCTPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function RCTPage({ onNavigate }: RCTPageProps) {
+export function RCTPage() {
   return (
     <GlossaryTemplate
       term="Randomized Controlled Trial"
       abbreviation="RCT"
-      onNavigate={onNavigate}
-      currentPage="rct"
       definition="A type of scientific experiment that randomly assigns participants to different groups to test the effectiveness of an intervention."
       detailedExplanation="A Randomized Controlled Trial (RCT) is considered the gold standard in clinical research. In an RCT, participants are randomly assigned to either a treatment group or a control group. This randomization helps eliminate bias and ensures that differences in outcomes can be attributed to the intervention being tested rather than other factors.
 

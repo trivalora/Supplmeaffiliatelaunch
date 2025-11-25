@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { TrendingUp, Activity, AlertCircle } from 'lucide-react';
 

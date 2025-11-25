@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { AlertTriangle, Shield, Scale, AlertCircle } from 'lucide-react';
 

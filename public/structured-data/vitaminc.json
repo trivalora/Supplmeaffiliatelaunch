@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Vitamin C (V1 - Archived)",
-    "description": "Essential antioxidant vitamin for immune support and collagen synthesis",
-    "category": "Supplement",
+    "name": "Vitamin C Supplement - Scientific Evidence & Price Comparison",
+    "description": "Evidence-based review of vitamin C (ascorbic acid) for immune function, antioxidant protection, and collagen production. Analysis of forms (ascorbic acid, sodium ascorbate, liposomal), mega-dosing, and safety.",
+    "category": "Vitamins",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Vitamin C (V1 - Archived)",
-    "description": "Essential antioxidant vitamin for immune support and collagen synthesis",
+    "name": "Vitamin C: Immune Support, Antioxidant & Collagen Synthesis",
+    "description": "Evidence-based review of vitamin C (ascorbic acid) for immune function, antioxidant protection, and collagen production. Analysis of forms (ascorbic acid, sodium ascorbate, liposomal), mega-dosing, and safety.",
     "about": {
       "@type": "Thing",
-      "name": "Vitamin C (V1 - Archived)",
-      "description": "Essential antioxidant vitamin for immune support and collagen synthesis"
+      "name": "Vitamin C Supplement",
+      "description": "Evidence-based review of vitamin C (ascorbic acid) for immune function, antioxidant protection, and collagen production. Analysis of forms (ascorbic acid, sodium ascorbate, liposomal), mega-dosing, and safety."
     },
     "url": "https://suppl.me/vitaminc",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Vitamin C (V1 - Archived)",
-      "description": "Essential antioxidant vitamin for immune support and collagen synthesis",
+      "name": "Vitamin C Supplement",
+      "description": "Evidence-based review of vitamin C (ascorbic acid) for immune function, antioxidant protection, and collagen production. Analysis of forms (ascorbic acid, sodium ascorbate, liposomal), mega-dosing, and safety.",
       "drugClass": "Dietary Supplement"
     }
   },

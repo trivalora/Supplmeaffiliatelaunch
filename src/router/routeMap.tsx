@@ -1,6 +1,6 @@
 import { lazy, ReactElement } from 'react';
 import { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, STATIC_ROUTES, RouteConfig, PageKey } from '../routes.config';
-import { PAGE_PATHS, getPathForKey } from '../utils/routePaths';
+import { PAGE_PATHS, getPathForKey } from '@/lib/routePaths';
 import { SEOHead, pageSEO } from '../components/SEOHead';
 import { useNavigate } from 'react-router-dom';
 import { loadComponent } from './componentLoader';
@@ -81,8 +81,7 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     // Determine path: prefer PAGE_PATHS mapping else fallback to derived
     const mappedPath = PAGE_PATHS[pageKey] || pathOverride || `/${pageKey}`;
 
-    // Skip archived (category === 'v1') unless requested
-    if (!includeArchived && route.category === 'v1') return;
+    // No archived routes exist anymore (v1 deleted)
 
     const Component = makeLazyComponent(route, pageKey);
 
@@ -90,7 +89,7 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
     // Structured data for supplements (v2 only): inject as separate JSON-LD objects
     // Also add DefinedTerm for glossary entries
     let structuredData: Record<string, any> | Record<string, any>[] | undefined;
-    if (route.category === 'v2') {
+    if (route.category === 'knowledgebase') {
       structuredData = [
         {
           '@context': 'https://schema.org',
@@ -128,7 +127,7 @@ export function buildRoutes(includeArchived = false): AppRoute[] {
       ];
     }
     const seo = {
-      title: route.title + (route.category === 'v1' ? ' (Archived)' : ''),
+      title: route.title,
       description: route.description,
       canonicalPath: mappedPath,
       structuredData,

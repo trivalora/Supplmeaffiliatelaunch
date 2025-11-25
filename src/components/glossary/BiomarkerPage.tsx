@@ -1,20 +1,12 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function BiomarkerPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function BiomarkerPage() {
   return (
     <GlossaryTemplate
       term="Biomarker"
       definition="A measurable biological indicator that reflects normal biological processes, disease states, or responses to therapeutic interventions. Biomarkers can be measured in blood, urine, tissues, or other biological samples."
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             Biomarkers serve as objective, quantifiable indicators of biological or pathological processes. They can indicate disease risk (risk biomarkers), confirm disease presence (diagnostic biomarkers), predict disease progression (prognostic biomarkers), or assess treatment effectiveness (pharmacodynamic biomarkers). Common types include proteins, hormones, enzymes, metabolites, genes, or even physiological measurements like blood pressure.
@@ -40,11 +32,6 @@ export function BiomarkerPage({
         { term: "Clinical Significance", key: "clinicalsignificance" },
         { term: "Statistical Significance", key: "statisticalsignificance" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="biomarker"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

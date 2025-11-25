@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface JointHealthPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function JointHealthPage({ onNavigate }: JointHealthPageProps) {
+export function JointHealthPage() {
   return (
     <GlossaryTemplate
       term="Joint Health"
-      onNavigate={onNavigate}
-      currentPage="jointhealth"
       definition="The structural integrity and functional capacity of joints—where two or more bones meet—involving cartilage, synovial fluid, ligaments, and surrounding tissues that enable smooth, pain-free movement."
       detailedExplanation="Healthy joints allow smooth, pain-free movement through several key components: articular cartilage (smooth tissue covering bone ends that cushions impact), synovial fluid (lubricating fluid that nourishes cartilage and reduces friction), synovial membrane (tissue producing synovial fluid), ligaments (connect bones and stabilize joints), tendons (connect muscles to bones), and surrounding muscles. Joint health is crucial for mobility, quality of life, and independence, especially as we age.
 

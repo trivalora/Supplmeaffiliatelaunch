@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface AdaptogenPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function AdaptogenPage({ onNavigate }: AdaptogenPageProps) {
+export function AdaptogenPage() {
   return (
     <GlossaryTemplate
       term="Adaptogen"
-      onNavigate={onNavigate}
-      currentPage="adaptogen"
       definition="A natural substance, typically from plants or fungi, that helps the body adapt to stress and promotes homeostasis by modulating physiological responses to physical, chemical, or biological stressors."
       detailedExplanation="The concept of adaptogens originated in Soviet research in the 1940s-1950s, with criteria defined by scientist Nikolai Lazarev. To be classified as an adaptogen, a substance must: (1) increase resistance to a wide variety of stressors, (2) have a normalizing influence regardless of the direction of change from normal, and (3) be safe and cause minimal disruption to normal bodily functions. Adaptogens help maintain homeostasis by supporting the hypothalamic-pituitary-adrenal (HPA) axis and sympathoadrenal system.
 

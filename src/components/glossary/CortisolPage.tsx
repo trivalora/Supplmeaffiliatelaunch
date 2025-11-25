@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface CortisolPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CortisolPage({ onNavigate }: CortisolPageProps) {
+export function CortisolPage() {
   return (
     <GlossaryTemplate
       term="Cortisol"
-      onNavigate={onNavigate}
-      currentPage="cortisol"
       definition="A steroid hormone produced by the adrenal glands that regulates metabolism, immune function, and the body's stress response, following a natural daily rhythm."
       detailedExplanation="Cortisol is often called the 'stress hormone' because it rises in response to physical or psychological stress as part of the fight-or-flight response. However, cortisol has many essential functions beyond stress response: it regulates blood sugar by promoting glucose production, influences immune function, controls inflammation, affects sleep-wake cycles, and helps maintain blood pressure. Cortisol follows a diurnal rhythm, typically peaking 30-45 minutes after waking (the cortisol awakening response) and gradually declining throughout the day to reach lowest levels at night.
 

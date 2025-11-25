@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function DOMSPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="DOMS (Delayed Onset Muscle Soreness)"
         definition="Muscle pain and stiffness that develops 12-24 hours after unaccustomed or intense exercise, typically peaking at 24-72 hours and gradually resolving over 5-7 days."
@@ -119,7 +115,5 @@ export function DOMSPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

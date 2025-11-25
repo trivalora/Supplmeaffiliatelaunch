@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface GutMicrobiomePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function GutMicrobiomePage({ onNavigate }: GutMicrobiomePageProps) {
+export function GutMicrobiomePage() {
   return (
     <GlossaryTemplate
       term="Gut Microbiome"
-      onNavigate={onNavigate}
-      currentPage="gutmicrobiome"
       definition="The complex community of trillions of microorganisms (bacteria, viruses, fungi, and other microbes) living in the digestive tract, particularly the colon, that influence digestion, immunity, and overall health."
       detailedExplanation="The gut microbiome contains approximately 100 trillion microbial cells representing thousands of different species, collectively weighing about 2-3 pounds. This ecosystem performs essential functions including breaking down dietary fiber into short-chain fatty acids (SCFAs like butyrate, propionate, acetate), synthesizing certain vitamins (K, B12, folate, biotin), training and modulating the immune system, protecting against pathogens, influencing gut barrier integrity, and producing neurotransmitters that affect brain function via the gut-brain axis.
 

@@ -1,17 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface MetabolicSyndromePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function MetabolicSyndromePage({ onNavigate }: MetabolicSyndromePageProps) {
+export function MetabolicSyndromePage() {
   return (
     <GlossaryTemplate
       term="Metabolic Syndrome"
-      onNavigate={onNavigate}
-      currentPage="metabolicsyndrome"
       definition="A cluster of conditions including central obesity, high blood pressure, high blood sugar, and abnormal cholesterol levels that increase the risk of heart disease, stroke, and type 2 diabetes."
-      detailedExplanation={`Metabolic syndrome is defined by the presence of at least three of five metabolic abnormalities. Different organizations use slightly different criteria, but the most commonly used are from the National Cholesterol Education Program Adult Treatment Panel III (NCEP ATP III) with modifications:
+      expandedExplanation={`Metabolic syndrome is defined by the presence of at least three of five metabolic abnormalities. Different organizations use slightly different criteria, but the most commonly used are from the National Cholesterol Education Program Adult Treatment Panel III (NCEP ATP III) with modifications:
 
 **Diagnostic Criteria (≥3 of 5 required):**
 

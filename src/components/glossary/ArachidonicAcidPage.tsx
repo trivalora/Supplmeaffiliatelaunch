@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function ArachidonicAcidPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Arachidonic Acid (AA)"
         definition="An omega-6 polyunsaturated fatty acid that serves as a precursor to eicosanoids, including both pro-inflammatory and some regulatory signaling molecules. It plays important roles in inflammation, immune function, and cell signaling."
@@ -123,7 +119,5 @@ export function ArachidonicAcidPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

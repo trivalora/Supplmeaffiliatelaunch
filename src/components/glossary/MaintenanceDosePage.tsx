@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Activity, Target, TestTube, Users } from 'lucide-react';
 

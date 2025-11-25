@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const FOSPage: React.FC = () => {
   return (
@@ -251,17 +252,17 @@ export const FOSPage: React.FC = () => {
             <div className="space-y-3 text-sm">
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Gibson GR, et al. Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics. <em>Nat Rev Gastroenterol Hepatol.</em> 2017;14(8):491-502.
+                  Gibson GR, et al. Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics. <em>Nat Rev Gastroenterol Hepatol.</em>2017;14(8):491-502.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Roberfroid M, et al. Prebiotic effects: metabolic and health benefits. <em>Br J Nutr.</em> 2010;104 Suppl 2:S1-63.
+                  Roberfroid M, et al. Prebiotic effects: metabolic and health benefits. <em>Br J Nutr.</em>2010;104 Suppl 2:S1-63.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Kolida S, Gibson GR. Prebiotic capacity of inulin-type fructans. <em>J Nutr.</em> 2007;137(11 Suppl):2503S-2506S.
+                  Kolida S, Gibson GR. Prebiotic capacity of inulin-type fructans. <em>J Nutr.</em>2007;137(11 Suppl):2503S-2506S.
                 </p>
               </div>
             </div>
@@ -274,7 +275,7 @@ export const FOSPage: React.FC = () => {
               <a
                 href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5622781/"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="nofollow noreferrer"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />

@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const AnabolicResistancePage: React.FC = () => {
   return (
@@ -233,17 +234,17 @@ export const AnabolicResistancePage: React.FC = () => {
             <div className="space-y-3 text-sm">
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Moore DR, et al. Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men. <em>J Gerontol A Biol Sci Med Sci.</em> 2015;70(1):57-62.
+                  Moore DR, et al. Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men. <em>J Gerontol A Biol Sci Med Sci.</em>2015;70(1):57-62.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Burd NA, Gorissen SH, van Loon LJ. Anabolic resistance of muscle protein synthesis with aging. <em>Exerc Sport Sci Rev.</em> 2013;41(3):169-73.
+                  Burd NA, Gorissen SH, van Loon LJ. Anabolic resistance of muscle protein synthesis with aging. <em>Exerc Sport Sci Rev.</em>2013;41(3):169-73.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Wall BT, Gorissen SH, Pennings B, et al. Aging is accompanied by a blunted muscle protein synthetic response to protein ingestion. <em>PLoS One.</em> 2015;10(11):e0140903.
+                  Wall BT, Gorissen SH, Pennings B, et al. Aging is accompanied by a blunted muscle protein synthetic response to protein ingestion. <em>PLoS One.</em>2015;10(11):e0140903.
                 </p>
               </div>
             </div>
@@ -256,7 +257,7 @@ export const AnabolicResistancePage: React.FC = () => {
               <a
                 href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6566799/"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="nofollow noreferrer"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />

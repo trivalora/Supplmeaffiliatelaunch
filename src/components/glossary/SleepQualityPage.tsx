@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface SleepQualityPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function SleepQualityPage({ onNavigate }: SleepQualityPageProps) {
+export function SleepQualityPage() {
   return (
     <GlossaryTemplate
       term="Sleep Quality"
-      onNavigate={onNavigate}
-      currentPage="sleepquality"
       definition="A multidimensional assessment of sleep encompassing sleep duration, efficiency, latency, continuity, and subjective restfulness, all crucial for physical health, cognitive function, and emotional wellbeing."
       detailedExplanation="Sleep quality involves several measurable components: sleep latency (time to fall asleep, ideally under 30 minutes), sleep duration (7-9 hours for most adults), sleep efficiency (time asleep divided by time in bed, ideally above 85%), number of awakenings, time awake after sleep onset, sleep architecture (proper cycling through light, deep, and REM sleep stages), and subjective ratings of restfulness. Poor sleep quality can occur even with adequate duration if sleep is fragmented or lacking restorative deep sleep.
 

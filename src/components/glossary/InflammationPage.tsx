@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function InflammationPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function InflammationPage() {
   return (
     <GlossaryTemplate
       term="Inflammation"
@@ -31,11 +23,6 @@ Inflammation is measured through biomarkers such as C-reactive protein (CRP), in
         { term: "Oxidative Stress", key: "oxidativestress" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="inflammation"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

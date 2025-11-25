@@ -27,9 +27,9 @@ import {
   trackGlossaryLinkClick,
   trackTabInteraction,
   track404,
-} from '../utils/analytics';
-import { scrollDepthTracker } from '../utils/scrollDepthTracker';
-import { timeTracker } from '../utils/timeTracker';
+} from '@/lib/analytics';
+import { scrollDepthTracker } from '@/lib/scrollDepthTracker';
+import { timeTracker } from '@/lib/timeTracker';
 
 export function useAnalytics() {
   return {

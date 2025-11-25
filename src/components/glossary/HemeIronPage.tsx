@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface HemeIronPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function HemeIronPage({ onNavigate }: HemeIronPageProps) {
+export function HemeIronPage() {
   return (
     <GlossaryTemplate
       term="Heme Iron"
       abbreviation="None"
-      onNavigate={onNavigate}
-      currentPage="hemeiron"
       definition="The form of iron found in animal tissues bound within heme proteins (hemoglobin and myoglobin), which is absorbed via a dedicated transport mechanism and has significantly higher bioavailability (15-35%) compared to non-heme iron from plant sources."
       detailedExplanation="Heme iron is iron incorporated into the porphyrin ring structure of heme, the iron-containing component of hemoglobin (in blood) and myoglobin (in muscle tissue). This form of iron is found exclusively in animal-derived foods and represents approximately 40% of the iron in meat, with the remaining 60% present as non-heme iron. Despite constituting a smaller proportion of dietary iron overall, heme iron's superior absorption makes it a critical dietary source, especially for populations at risk of iron deficiency.
 

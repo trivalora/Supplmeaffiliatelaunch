@@ -1,16 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface EnterocytesPageProps {
-  onNavigate?: (key: string) => void;
-}
 
-export function EnterocytesPage({ onNavigate }: EnterocytesPageProps) {
+export function EnterocytesPage() {
   return (
     <GlossaryTemplate
       term="Enterocytes"
       abbreviation="Intestinal Epithelial Cells"
-      onNavigate={onNavigate}
-      currentPage="enterocytes"
       definition="The absorptive epithelial cells that line the small intestine, responsible for digesting and absorbing nutrients from food and forming a selective barrier between the intestinal lumen and internal body environment."
       detailedExplanation="Enterocytes are columnar epithelial cells that form the majority (~80%) of the intestinal epithelium lining the small intestine. They are highly specialized cells with a short lifespan (3-5 days) that must efficiently absorb nutrients while maintaining barrier function. The small intestine contains approximately 200-300 square meters of absorptive surface area, largely due to the microscopic structure of enterocytes.
 

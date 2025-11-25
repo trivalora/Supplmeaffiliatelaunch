@@ -1,17 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface RicketsPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function RicketsPage({ onNavigate }: RicketsPageProps) {
+export function RicketsPage() {
   return (
     <GlossaryTemplate
       term="Rickets"
-      onNavigate={onNavigate}
-      currentPage="rickets"
       definition="A childhood bone disorder caused by vitamin D, calcium, or phosphate deficiency, resulting in soft, weak bones and skeletal deformities."
-      detailedExplanation={`Rickets is a bone disease that occurs in growing children when bones fail to mineralize properly, causing them to become soft, weak, and deformed. The adult equivalent is osteomalacia. Rickets primarily affects the growth plates (areas of growing tissue near the ends of long bones), leading to characteristic skeletal abnormalities.
+      expandedExplanation={`Rickets is a bone disease that occurs in growing children when bones fail to mineralize properly, causing them to become soft, weak, and deformed. The adult equivalent is osteomalacia. Rickets primarily affects the growth plates (areas of growing tissue near the ends of long bones), leading to characteristic skeletal abnormalities.
 
 **Causes**
 

@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface GLP1PageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function GLP1Page({ onNavigate }: GLP1PageProps) {
+export function GLP1Page() {
   return (
     <GlossaryTemplate
       term="Glucagon-Like Peptide-1"
       abbreviation="GLP-1"
-      onNavigate={onNavigate}
-      currentPage="glp1"
       definition="An incretin hormone secreted by intestinal L-cells in response to nutrient intake that stimulates insulin secretion, suppresses glucagon release, delays gastric emptying, and reduces appetite, playing crucial roles in glucose homeostasis and satiety."
       detailedExplanation="Glucagon-Like Peptide-1 (GLP-1) is a 30-amino acid peptide hormone derived from post-translational processing of the proglucagon gene. It is secreted by enteroendocrine L-cells located primarily in the distal small intestine and colon in response to nutrient ingestion, particularly carbohydrates, proteins, and fats. GLP-1 is part of the incretin system, accounting for 50-70% of postprandial insulin secretion.
 

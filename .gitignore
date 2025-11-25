@@ -66,3 +66,9 @@ NORMALIZATION-*.md
 CURRENT-MATCHING*.md
 PRODUCT-FILTERING*.md
 WALMART-SCRAPER*.md
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+*.backup

@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { AlertTriangle, Activity, TestTube, TrendingDown, Stethoscope, CheckCircle } from 'lucide-react';
 

@@ -1,18 +1,97 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "outDir": "build",
-    "strict": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
     "skipLibCheck": true,
-    "allowImportingTsExtensions": true
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/lib/*": [
+        "./src/lib/*"
+      ],
+      "@/utils/*": [
+        "./src/utils/*"
+      ],
+      "@/hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@/styles/*": [
+        "./src/styles/*"
+      ]
+    }
   },
   "ts-node": {
     "esm": true
   },
-"include": ["scripts/**/*.ts", "src/**/*.ts", "api/**/*.ts"]
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "src/components/*PageNewV2.tsx",
+    "src/components/KnowledgebaseTemplate.tsx",
+    "src/components/SEOHead.tsx",
+    "src/components/AnalyticsProvider.tsx",
+    "src/components/ErrorBoundary.tsx",
+    "src/components/WhatToExpectSection.tsx",
+    "src/components/AffiliateTooltip.tsx",
+    "src/components/images.tsx",
+    "src/components/iconExports.tsx",
+    "src/components/ui/**/*.tsx",
+    "src/components/figma/**/*.tsx",
+    "src/lib/**/*.ts",
+    "src/lib/**/*.tsx",
+    "src/hooks/**/*.ts",
+    "src/hooks/**/*.tsx",
+    "src/analytics/**/*.ts",
+    "src/types/**/*.ts",
+    "api/**/*.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    ".next",
+    "data-pipeline",
+    "scripts",
+    "src/App.tsx",
+    "src/router/**/*",
+    "src/imports/**/*",
+    "src/figma/**/*",
+    "src/routes.config.ts",
+    "src/components/glossary/**/*",
+    "src/components/Header.tsx",
+    "src/components/Footer.tsx",
+    "src/components/LandingPage.tsx",
+    "src/components/AboutPage.tsx",
+    "src/components/PartnerPage.tsx",
+    "src/components/ProductPage.tsx",
+    "src/components/ProductComparison.tsx",
+    "src/components/GlossaryTemplate.tsx"
+  ]
 }

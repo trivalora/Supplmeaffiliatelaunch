@@ -223,9 +223,9 @@ export function CookiePolicyPage() {
                         You can opt out of specific tracking services:
                       </p>
                       <ul className="list-disc list-inside space-y-1 text-foreground ml-4 text-sm">
-                        <li><strong>Google Analytics:</strong> <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="nofollow noopener noreferrer" className="text-primary underline">Google Analytics Opt-out</a></li>
-                        <li><strong>Network Advertising:</strong> <a href="https://optout.networkadvertising.org/" target="_blank" rel="nofollow noopener noreferrer" className="text-primary underline">NAI Opt-out</a></li>
-                        <li><strong>Digital Advertising Alliance:</strong> <a href="https://optout.aboutads.info/" target="_blank" rel="nofollow noopener noreferrer" className="text-primary underline">DAA Opt-out</a></li>
+                        <li><strong>Google Analytics:</strong> <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="nofollow noreferrer" className="text-primary underline">Google Analytics Opt-out</a></li>
+                        <li><strong>Network Advertising:</strong> <a href="https://optout.networkadvertising.org/" target="_blank" rel="nofollow noreferrer" className="text-primary underline">NAI Opt-out</a></li>
+                        <li><strong>Digital Advertising Alliance:</strong> <a href="https://optout.aboutads.info/" target="_blank" rel="nofollow noreferrer" className="text-primary underline">DAA Opt-out</a></li>
                       </ul>
                     </div>
 

@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ButyratePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ButyratePage({ onNavigate }: ButyratePageProps) {
+export function ButyratePage() {
   return (
     <GlossaryTemplate
       term="Butyrate"
       abbreviation="Butyric Acid, C4:0"
-      onNavigate={onNavigate}
-      currentPage="butyrate"
       definition="A short-chain fatty acid with four carbon atoms produced by bacterial fermentation of dietary fiber in the colon, serving as the primary energy source for colonocytes and playing crucial roles in gut health, inflammation regulation, and metabolic function."
       detailedExplanation="Butyrate is a four-carbon saturated fatty acid (C4:0) that represents one of the three main short-chain fatty acids (SCFAs) produced in the human colon, alongside acetate and propionate. It is synthesized when beneficial gut bacteria ferment non-digestible carbohydrates, particularly dietary fibers such as resistant starch, inulin, and other prebiotics.
 

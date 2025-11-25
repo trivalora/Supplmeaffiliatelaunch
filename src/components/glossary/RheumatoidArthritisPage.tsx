@@ -1,18 +1,12 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface RheumatoidArthritisPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function RheumatoidArthritisPage({ onNavigate }: RheumatoidArthritisPageProps) {
+export function RheumatoidArthritisPage() {
   return (
     <GlossaryTemplate
       term="Rheumatoid Arthritis"
       abbreviation="RA"
-      onNavigate={onNavigate}
-      currentPage="rheumatoidarthritis"
       definition="An autoimmune disease causing chronic inflammation of the joints and other organs."
-      detailedExplanation={`Rheumatoid arthritis (RA) is a chronic autoimmune inflammatory disorder that primarily affects joints but can also involve other organs. In RA, the immune system mistakenly attacks the synovium (the lining of the membranes that surround the joints), causing painful swelling that can eventually result in bone erosion and joint deformity.
+      expandedExplanation={`Rheumatoid arthritis (RA) is a chronic autoimmune inflammatory disorder that primarily affects joints but can also involve other organs. In RA, the immune system mistakenly attacks the synovium (the lining of the membranes that surround the joints), causing painful swelling that can eventually result in bone erosion and joint deformity.
 
 Unlike osteoarthritis, which is caused by mechanical wear and tear, RA is an inflammatory disease driven by immune system dysfunction.
 

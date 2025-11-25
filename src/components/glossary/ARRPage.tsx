@@ -1,15 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ARRPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ARRPage({ onNavigate }: ARRPageProps) {
+export function ARRPage() {
   return (
     <GlossaryTemplate
       term="Absolute Risk Reduction"
       abbreviation="ARR"
-      onNavigate={onNavigate}
       currentPage="arr"
       definition="The absolute difference in event rates between the treatment and control groups, representing the actual percentage point reduction in risk achieved by an intervention."
       detailedExplanation="Absolute Risk Reduction (ARR) is calculated by subtracting the event rate in the treatment group from the event rate in the control group: ARR = Control Event Rate - Treatment Event Rate. Unlike relative measures (like RR or OR), ARR provides a direct, intuitive understanding of the actual benefit in percentage points. For example, if 20% of the control group experiences an event but only 15% of the treatment group does, the ARR is 5 percentage points (20% - 15% = 5%).

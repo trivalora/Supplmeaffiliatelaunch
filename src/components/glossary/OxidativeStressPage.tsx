@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function OxidativeStressPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function OxidativeStressPage() {
   return (
     <GlossaryTemplate
       term="Oxidative Stress"
@@ -31,11 +23,6 @@ The body maintains several antioxidant defense mechanisms including enzymes (sup
         { term: "Biomarker", key: "biomarker" },
         { term: "Inflammation", key: "inflammation" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="oxidativestress"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

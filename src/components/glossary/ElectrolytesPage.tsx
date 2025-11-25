@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ElectrolytesPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ElectrolytesPage({ onNavigate }: ElectrolytesPageProps) {
+export function ElectrolytesPage() {
   return (
     <GlossaryTemplate
       term="Electrolytes"
-      onNavigate={onNavigate}
-      currentPage="electrolytes"
       definition="Minerals in the blood and body fluids that carry an electrical charge, essential for nerve function, muscle contraction, hydration, pH balance, and numerous other physiological processes."
       detailedExplanation="The major electrolytes include sodium, potassium, chloride, calcium, magnesium, bicarbonate, and phosphate. These minerals exist as ions (charged particles) in body fluids and must be maintained within narrow ranges for proper cellular function. Electrolytes regulate fluid balance between intracellular and extracellular compartments, enable nerve impulse transmission, trigger muscle contractions (including the heartbeat), maintain blood pH, support enzyme activity, and facilitate nutrient transport across cell membranes.
 

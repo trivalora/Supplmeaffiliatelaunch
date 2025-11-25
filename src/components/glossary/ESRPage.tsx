@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function ESRPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="ESR (Erythrocyte Sedimentation Rate)"
         definition="A blood test that measures how quickly red blood cells (erythrocytes) settle to the bottom of a test tube. An elevated ESR is a non-specific indicator of inflammation in the body."
@@ -190,7 +186,5 @@ export function ESRPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface PropionatePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function PropionatePage({ onNavigate }: PropionatePageProps) {
+export function PropionatePage() {
   return (
     <GlossaryTemplate
       term="Propionate"
       abbreviation="Propionic Acid, C3:0"
-      onNavigate={onNavigate}
-      currentPage="propionate"
       definition="A three-carbon short-chain fatty acid produced by bacterial fermentation of dietary fiber in the colon, with important roles in glucose and lipid metabolism, appetite regulation, and gut health."
       detailedExplanation="Propionate (also called propionic acid) is a three-carbon saturated fatty acid (C3:0) produced when beneficial gut bacteria ferment non-digestible carbohydrates in the colon. It is one of the three major short-chain fatty acids (SCFAs), alongside acetate and butyrate, though it is typically produced in smaller quantities than acetate but larger quantities than butyrate.
 

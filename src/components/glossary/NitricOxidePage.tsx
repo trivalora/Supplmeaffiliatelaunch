@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function NitricOxidePage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Nitric Oxide (NO)"
         definition="A gaseous signaling molecule produced by cells throughout the body that plays critical roles in cardiovascular function, particularly blood vessel dilation (vasodilation), blood flow regulation, and blood pressure control."
@@ -153,7 +149,5 @@ export function NitricOxidePage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

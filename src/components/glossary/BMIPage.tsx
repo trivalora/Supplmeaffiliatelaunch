@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Scale, TrendingUp, AlertCircle } from 'lucide-react';
 
@@ -63,7 +64,7 @@ export function BMIPage() {
         { 
           icon: Scale, 
           title: "Simple Weight Assessment", 
-          description: "BMI is calculated as weight (kg) divided by height (m) squared. It provides a quick, standardized way to categorize weight status from underweight (<18.5) to obese (≥30 kg/m²)." 
+          description: "BMI is calculated as weight (kg) divided by height (m) squared. It provides a quick, standardized way to categorize weight status from underweight (&lt;18.5) to obese (≥30 kg/m²)." 
         },
         { 
           icon: TrendingUp, 

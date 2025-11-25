@@ -1,4 +1,5 @@
-import imgFooterLogo from "figma:asset/4cb875168c21f5f722f61eb6916e6c1483a46c66.png";
+// Footer logo image path
+const imgFooterLogo = '/images/footer-logo.png';
 
 function Logo() {
   return (

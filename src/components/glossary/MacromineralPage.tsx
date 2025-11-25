@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Pill, TrendingUp, Droplet } from 'lucide-react';
 

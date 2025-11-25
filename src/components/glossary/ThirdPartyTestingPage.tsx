@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function ThirdPartyTestingPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function ThirdPartyTestingPage() {
   const expandedExplanation = (
     <div>
       <p>
@@ -138,11 +130,6 @@ export function ThirdPartyTestingPage({
         { term: "Standardized Extract", key: "standardized-extract" },
         { term: "Bioavailability", key: "bioavailability" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="third-party-testing"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

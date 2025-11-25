@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface BoneDensityPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function BoneDensityPage({ onNavigate }: BoneDensityPageProps) {
+export function BoneDensityPage() {
   return (
     <GlossaryTemplate
       term="Bone Density"
       abbreviation="BMD"
-      onNavigate={onNavigate}
-      currentPage="bonedensity"
       definition="A measurement of the amount of minerals (primarily calcium and phosphorus) contained in a specific volume of bone, used to assess bone strength and fracture risk."
       detailedExplanation="Bone mineral density (BMD) is the primary biomarker used to diagnose osteoporosis and assess fracture risk. It's measured using dual-energy X-ray absorptiometry (DXA or DEXA) scans, typically at the hip and spine, and reported as a T-score comparing an individual's bone density to that of a healthy 30-year-old adult. A T-score of -1.0 or above is normal, -1.0 to -2.5 indicates osteopenia (low bone mass), and -2.5 or below indicates osteoporosis.
 

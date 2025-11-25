@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Activity, Heart, Shield } from 'lucide-react';
 
-interface SCFAPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function SCFAPage({ onNavigate }: SCFAPageProps) {
+export function SCFAPage() {
   return (
     <GlossaryTemplate
       term="SCFA (Short-Chain Fatty Acids)"
       abbreviation="SCFA, SCFAs"
       pronunciation="short-chayn fa-tee as-ids"
-      onNavigate={onNavigate}
-      currentPage="scfa"
       definition="Fatty acids containing fewer than six carbon atoms (primarily acetate, propionate, and butyrate) that are produced by bacterial fermentation of dietary fiber in the colon, providing energy to colonocytes and exerting wide-ranging metabolic, anti-inflammatory, and immune-modulating effects throughout the body."
       
       expandedExplanation={

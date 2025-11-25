@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function GlucagonPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Glucagon"
         definition="A peptide hormone produced by alpha cells in the pancreas that raises blood glucose levels by promoting glucose release from the liver. It acts as insulin's counter-regulatory hormone, preventing hypoglycemia during fasting."
@@ -174,7 +170,5 @@ export function GlucagonPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

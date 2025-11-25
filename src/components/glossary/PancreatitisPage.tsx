@@ -1,17 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface PancreatitisPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function PancreatitisPage({ onNavigate }: PancreatitisPageProps) {
+export function PancreatitisPage() {
   return (
     <GlossaryTemplate
       term="Pancreatitis"
-      onNavigate={onNavigate}
-      currentPage="pancreatitis"
       definition="Inflammation of the pancreas, which can be acute or chronic, causing digestive enzyme activation within the pancreas and potentially leading to serious complications."
-      detailedExplanation={`Pancreatitis is inflammation of the pancreas—a large gland behind the stomach that produces digestive enzymes and hormones (insulin, glucagon). When the pancreas becomes inflamed, digestive enzymes that are normally released into the small intestine become activated while still in the pancreas, causing damage to pancreatic tissue.
+      expandedExplanation={`Pancreatitis is inflammation of the pancreas—a large gland behind the stomach that produces digestive enzymes and hormones (insulin, glucagon). When the pancreas becomes inflamed, digestive enzymes that are normally released into the small intestine become activated while still in the pancreas, causing damage to pancreatic tissue.
 
 **Types**
 
@@ -24,7 +18,7 @@ export function PancreatitisPage({ onNavigate }: PancreatitisPageProps) {
 **Most Common:**
 - Gallstones (40%): Obstruction of the pancreatic duct
 - Alcohol (30%): Heavy, prolonged alcohol consumption
-- Hypertriglyceridemia: Very high triglycerides (>1000 mg/dL) can trigger acute pancreatitis
+- Hypertriglyceridemia: Very high triglycerides (&gt;1000 mg/dL) can trigger acute pancreatitis
 
 **Other Causes:**
 - Medications (certain antibiotics, diuretics, immunosuppressants)

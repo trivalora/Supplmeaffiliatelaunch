@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface GlycemicControlPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function GlycemicControlPage({ onNavigate }: GlycemicControlPageProps) {
+export function GlycemicControlPage() {
   return (
     <GlossaryTemplate
       term="Glycemic Control"
-      onNavigate={onNavigate}
-      currentPage="glycemiccontrol"
       definition="The regulation of blood glucose (sugar) levels within a healthy range, crucial for preventing diabetes complications and maintaining metabolic health."
       detailedExplanation="Glycemic control refers to how well blood sugar levels are managed and maintained within target ranges. It's assessed through several biomarkers: fasting blood glucose (normal: 70-99 mg/dL), postprandial (after-meal) glucose, and hemoglobin A1C (HbA1c), which reflects average blood sugar over the previous 2-3 months. An HbA1c below 5.7% is normal, 5.7-6.4% indicates prediabetes, and 6.5% or higher indicates diabetes.
 

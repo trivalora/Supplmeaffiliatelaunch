@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ThyroidPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ThyroidFunctionPage({ onNavigate }: ThyroidPageProps) {
+export function ThyroidFunctionPage() {
   return (
     <GlossaryTemplate
       term="Thyroid Function"
-      onNavigate={onNavigate}
-      currentPage="thyroidfunction"
       definition="The activity of the thyroid gland in producing hormones that regulate metabolism, energy production, body temperature, heart rate, and numerous other bodily functions."
       detailedExplanation="The thyroid gland, located in the neck, produces two main hormones: thyroxine (T4) and triiodothyronine (T3). T4 is the inactive form that's converted to active T3 in peripheral tissues. These hormones regulate metabolic rate, protein synthesis, bone growth, brain development in children, and sensitivity to other hormones. The pituitary gland releases thyroid-stimulating hormone (TSH) to regulate thyroid hormone production through a feedback loop.
 

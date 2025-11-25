@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface AnecdotalEvidencePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function AnecdotalEvidencePage({ onNavigate }: AnecdotalEvidencePageProps) {
+export function AnecdotalEvidencePage() {
   return (
     <GlossaryTemplate
       term="Anecdotal Evidence"
-      onNavigate={onNavigate}
-      currentPage="anecdotalevidence"
       definition="Information based on personal accounts, individual experiences, or observations rather than systematic scientific research."
       detailedExplanation="Anecdotal evidence consists of personal stories, testimonials, or individual observations that have not been systematically studied or verified through controlled research. While such evidence can be valuable for generating hypotheses and understanding patient experiences, it is considered the weakest form of evidence in scientific research.
 

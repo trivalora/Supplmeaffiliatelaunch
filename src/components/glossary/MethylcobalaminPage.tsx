@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const MethylcobalaminPage: React.FC = () => {
   return (
@@ -243,12 +244,12 @@ export const MethylcobalaminPage: React.FC = () => {
             <div className="space-y-3 text-sm">
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Paul C, Brady DM. Comparative Bioavailability and Utilization of Particular Forms of B12 Supplements With Potential to Mitigate B12-related Genetic Polymorphisms. <em>Integr Med (Encinitas).</em> 2017;16(1):42-49.
+                  Paul C, Brady DM. Comparative Bioavailability and Utilization of Particular Forms of B12 Supplements With Potential to Mitigate B12-related Genetic Polymorphisms. <em>Integr Med (Encinitas).</em>2017;16(1):42-49.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Okada K, et al. The effect of cobalamin (vitamin B12) on the cognitive function in elderly people: A systematic review. <em>J Nutr Health Aging.</em> 2015;19(4):355-62.
+                  Okada K, et al. The effect of cobalamin (vitamin B12) on the cognitive function in elderly people: A systematic review. <em>J Nutr Health Aging.</em>2015;19(4):355-62.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
@@ -266,7 +267,7 @@ export const MethylcobalaminPage: React.FC = () => {
               <a
                 href="https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="nofollow noreferrer"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />

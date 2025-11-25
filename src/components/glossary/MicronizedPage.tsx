@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function MicronizedPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function MicronizedPage() {
   return (
     <GlossaryTemplate
       term="Micronized"
@@ -92,11 +84,6 @@ Quality and Manufacturing:
         { term: "Bioavailability", key: "bioavailability" },
         { term: "Absorption", key: "absorption" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="micronized"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

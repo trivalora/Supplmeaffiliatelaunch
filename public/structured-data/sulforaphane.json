@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Sulforaphane (V1 - Archived)",
-    "description": "Bioactive compound from cruciferous vegetables",
-    "category": "Supplement",
+    "name": "Sulforaphane (Broccoli Extract) - Scientific Evidence & Price Comparison",
+    "description": "Scientific analysis of sulforaphane from broccoli sprouts for cellular detoxification, antioxidant defense, and cancer prevention. Review of myrosinase activity, bioavailability, and clinical applications.",
+    "category": "Antioxidants & Detoxification",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Sulforaphane (V1 - Archived)",
-    "description": "Bioactive compound from cruciferous vegetables",
+    "name": "Sulforaphane: Nrf2 Activation for Detoxification & Antioxidant Support",
+    "description": "Scientific analysis of sulforaphane from broccoli sprouts for cellular detoxification, antioxidant defense, and cancer prevention. Review of myrosinase activity, bioavailability, and clinical applications.",
     "about": {
       "@type": "Thing",
-      "name": "Sulforaphane (V1 - Archived)",
-      "description": "Bioactive compound from cruciferous vegetables"
+      "name": "Sulforaphane (Broccoli Extract)",
+      "description": "Scientific analysis of sulforaphane from broccoli sprouts for cellular detoxification, antioxidant defense, and cancer prevention. Review of myrosinase activity, bioavailability, and clinical applications."
     },
     "url": "https://suppl.me/sulforaphane",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Sulforaphane (V1 - Archived)",
-      "description": "Bioactive compound from cruciferous vegetables",
+      "name": "Sulforaphane (Broccoli Extract)",
+      "description": "Scientific analysis of sulforaphane from broccoli sprouts for cellular detoxification, antioxidant defense, and cancer prevention. Review of myrosinase activity, bioavailability, and clinical applications.",
       "drugClass": "Dietary Supplement"
     }
   },

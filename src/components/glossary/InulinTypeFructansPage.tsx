@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface InulinTypeFructansPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function InulinTypeFructansPage({ onNavigate }: InulinTypeFructansPageProps) {
+export function InulinTypeFructansPage() {
   return (
     <GlossaryTemplate
       term="Inulin-type Fructans"
-      onNavigate={onNavigate}
-      currentPage="inulintypefructans"
       definition="A subgroup of fructans consisting of linear chains of fructose molecules terminated by a glucose unit, including inulin and fructo-oligosaccharides (FOS), that function as prebiotic fibers selectively promoting beneficial gut bacteria growth."
       detailedExplanation="Inulin-type fructans are polymers of fructose molecules linked by β(2→1) glycosidic bonds with a terminal glucose unit. They are classified by chain length: short-chain fructo-oligosaccharides (scFOS or simply FOS) contain 2-8 fructose units, while inulin typically contains 10-60 units. Both occur naturally in foods like chicory root, Jerusalem artichoke, onions, garlic, leeks, asparagus, bananas, and wheat.
 

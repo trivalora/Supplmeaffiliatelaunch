@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Battery, Brain, Dumbbell } from 'lucide-react';
 
-interface ValinePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ValinePage({ onNavigate }: ValinePageProps) {
+export function ValinePage() {
   return (
     <GlossaryTemplate
       term="Valine"
       abbreviation="Val, V (single-letter code)"
       pronunciation="vay-leen"
-      onNavigate={onNavigate}
-      currentPage="valine"
       definition="An essential branched-chain amino acid (BCAA) that cannot be produced by the body and must be obtained from dietary protein. Valine supports muscle metabolism, mental focus, energy production, and immune function."
       
       expandedExplanation={

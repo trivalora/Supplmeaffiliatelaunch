@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function CardiovascularPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function CardiovascularPage() {
   return (
     <GlossaryTemplate
       term="Cardiovascular"
@@ -31,11 +23,6 @@ Many supplements target cardiovascular health through various mechanisms: omega-
         { term: "Biomarker", key: "biomarker" },
         { term: "Oxidative Stress", key: "oxidativestress" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="cardiovascular"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

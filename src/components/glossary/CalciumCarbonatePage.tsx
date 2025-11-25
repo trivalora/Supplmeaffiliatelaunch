@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const CalciumCarbonatePage: React.FC = () => {
   return (
@@ -236,12 +237,12 @@ export const CalciumCarbonatePage: React.FC = () => {
             <div className="space-y-3 text-sm">
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Heaney RP, et al. Absorbability and cost effectiveness in calcium supplementation. <em>J Am Coll Nutr.</em> 2001;20(3):239-46.
+                  Heaney RP, et al. Absorbability and cost effectiveness in calcium supplementation. <em>J Am Coll Nutr.</em>2001;20(3):239-46.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Straub DA. Calcium supplementation in clinical practice: a review of forms, doses, and indications. <em>Nutr Clin Pract.</em> 2007;22(3):286-96.
+                  Straub DA. Calcium supplementation in clinical practice: a review of forms, doses, and indications. <em>Nutr Clin Pract.</em>2007;22(3):286-96.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
@@ -259,7 +260,7 @@ export const CalciumCarbonatePage: React.FC = () => {
               <a
                 href="https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="nofollow noreferrer"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />

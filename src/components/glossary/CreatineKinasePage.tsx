@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Activity, Heart, AlertCircle } from 'lucide-react';
 
-interface CreatineKinasePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CreatineKinasePage({ onNavigate }: CreatineKinasePageProps) {
+export function CreatineKinasePage() {
   return (
     <GlossaryTemplate
       term="Creatine Kinase"
       abbreviation="CK, CPK (Creatine Phosphokinase)"
       pronunciation="kree-uh-tin ky-nase"
-      onNavigate={onNavigate}
-      currentPage="creatinekinase"
       definition="An enzyme found primarily in muscle tissue (skeletal muscle, heart, and brain) that catalyzes the conversion of creatine to phosphocreatine, storing energy for rapid ATP regeneration. Blood creatine kinase levels are used as a biomarker of muscle damage or stress."
       
       expandedExplanation={

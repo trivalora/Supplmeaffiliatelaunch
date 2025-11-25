@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function DrugInteractionsPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function DrugInteractionsPage() {
   return (
     <GlossaryTemplate
       term="Drug Interactions"
@@ -198,11 +190,6 @@ Knowledge about supplement-drug interactions has gaps:
         { term: "Electrolytes", key: "electrolytes" },
         { term: "Blood Glucose", key: "blood-glucose" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="drug-interactions"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

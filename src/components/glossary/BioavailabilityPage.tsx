@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function BioavailabilityPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function BioavailabilityPage() {
   return (
     <GlossaryTemplate
       term="Bioavailability"
@@ -30,11 +22,6 @@ Understanding bioavailability is crucial when comparing supplement forms or dosa
         { term: "Absorption", key: "absorption" },
         { term: "Metabolism", key: "metabolism" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="bioavailability"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

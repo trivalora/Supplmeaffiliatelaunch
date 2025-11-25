@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function HepaticEncephalopathyPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Hepatic Encephalopathy"
         definition="A decline in brain function that occurs when the liver is unable to adequately remove toxins from the blood, particularly ammonia. This condition is a complication of advanced liver disease or cirrhosis."
@@ -105,7 +101,5 @@ export function HepaticEncephalopathyPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

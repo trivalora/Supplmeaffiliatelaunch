@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Zap, Battery, TrendingUp } from 'lucide-react';
 
-interface PhosphocreatinePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function PhosphocreatinePage({ onNavigate }: PhosphocreatinePageProps) {
+export function PhosphocreatinePage() {
   return (
     <GlossaryTemplate
       term="Phosphocreatine"
       abbreviation="PCr, Creatine Phosphate"
       pronunciation="foss-fo-kree-uh-tin"
-      onNavigate={onNavigate}
-      currentPage="phosphocreatine"
       definition="A high-energy phosphate compound stored in muscle cells that serves as a rapid reserve for ATP regeneration during the first few seconds of intense muscle activity. Phosphocreatine donates its phosphate group to ADP to quickly produce ATP without requiring oxygen."
       
       expandedExplanation={

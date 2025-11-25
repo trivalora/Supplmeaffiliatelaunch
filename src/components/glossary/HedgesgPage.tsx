@@ -1,12 +1,14 @@
+'use client';
+
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
+import { Calculator, TrendingUp, Users, BarChart3, Target } from 'lucide-react';
 
 export function HedgesgPage() {
   return (
     <GlossaryTemplate
       term="Hedges' g"
       pronunciation="hej-iz jee"
-      currentPage="hedgesg"
       definition="A standardized effect size measure similar to Cohen's d but with a correction for small sample bias, commonly used in meta-analyses to quantify the magnitude of differences between groups."
       
       expandedExplanation={
@@ -179,7 +181,7 @@ export function HedgesgPage() {
           <p className="mb-3"><strong>Use Hedges' g When:</strong></p>
           <ul className="list-disc pl-6 space-y-2 mb-4">
             <li>Comparing means between two groups</li>
-            <li>Sample sizes are small to moderate (&lt; 50 per group)</li>
+            <li>Sample sizes are small to moderate (&lt;50 per group)</li>
             <li>Conducting or reading a meta-analysis</li>
             <li>Wanting to standardize across different measurement scales</li>
           </ul>
@@ -204,7 +206,7 @@ export function HedgesgPage() {
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-4">
             <li><strong>95% CI:</strong> Most common; range containing true effect size 95% of the time (in repeated sampling)</li>
-            <li><strong>Excludes Zero:</strong> If CI doesn't include zero, the effect is statistically significant at p &lt; 0.05</li>
+            <li><strong>Excludes Zero:</strong> If CI doesn't include zero, the effect is statistically significant at p &lt;0.05</li>
             <li><strong>Width Indicates Precision:</strong>
               <ul className="list-circle pl-6 space-y-1 mt-1">
                 <li>Narrow CI (e.g., 0.3 to 0.5) → precise estimate</li>

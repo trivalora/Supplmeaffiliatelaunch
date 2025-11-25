@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface CollagenPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CollagenPage({ onNavigate }: CollagenPageProps) {
+export function CollagenPage() {
   return (
     <GlossaryTemplate
       term="Collagen"
-      onNavigate={onNavigate}
-      currentPage="collagen"
       definition="The most abundant protein in the human body, providing structural support and strength to skin, bones, tendons, ligaments, cartilage, and connective tissues throughout the body."
       detailedExplanation="Collagen is a family of fibrous proteins that form a triple-helix structure, providing tensile strength and structural integrity to tissues. There are at least 28 different types of collagen, with Type I (skin, bone, tendon), Type II (cartilage), and Type III (skin, blood vessels) being most abundant. Collagen molecules are made from amino acids, particularly glycine, proline, and hydroxyproline, with vitamin C required for proper collagen synthesis.
 

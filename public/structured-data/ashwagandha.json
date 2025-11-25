@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Ashwagandha (V1 - Archived)",
-    "description": "Adaptogenic herb for stress management and cognitive function",
-    "category": "Supplement",
+    "name": "Ashwagandha Supplement - Scientific Evidence & Price Comparison",
+    "description": "Evidence-based review of ashwagandha (Withania somnifera) for stress reduction, anxiety relief, and cognitive enhancement. Meta-analysis of clinical trials, optimal dosing recommendations, and safety profile.",
+    "category": "Adaptogens & Phytochemicals",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Ashwagandha (V1 - Archived)",
-    "description": "Adaptogenic herb for stress management and cognitive function",
+    "name": "Ashwagandha: Science-Based Benefits, Dosage & Clinical Research",
+    "description": "Evidence-based review of ashwagandha (Withania somnifera) for stress reduction, anxiety relief, and cognitive enhancement. Meta-analysis of clinical trials, optimal dosing recommendations, and safety profile.",
     "about": {
       "@type": "Thing",
-      "name": "Ashwagandha (V1 - Archived)",
-      "description": "Adaptogenic herb for stress management and cognitive function"
+      "name": "Ashwagandha Supplement",
+      "description": "Evidence-based review of ashwagandha (Withania somnifera) for stress reduction, anxiety relief, and cognitive enhancement. Meta-analysis of clinical trials, optimal dosing recommendations, and safety profile."
     },
     "url": "https://suppl.me/ashwagandha",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Ashwagandha (V1 - Archived)",
-      "description": "Adaptogenic herb for stress management and cognitive function",
+      "name": "Ashwagandha Supplement",
+      "description": "Evidence-based review of ashwagandha (Withania somnifera) for stress reduction, anxiety relief, and cognitive enhancement. Meta-analysis of clinical trials, optimal dosing recommendations, and safety profile.",
       "drugClass": "Dietary Supplement"
     }
   },

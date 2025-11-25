@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function FaecalibacteriumPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Faecalibacterium prausnitzii"
         definition="One of the most abundant beneficial bacterial species in the healthy human colon. It is a major producer of butyrate, an important short-chain fatty acid that fuels colonocytes and has anti-inflammatory properties."
@@ -133,7 +129,5 @@ export function FaecalibacteriumPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

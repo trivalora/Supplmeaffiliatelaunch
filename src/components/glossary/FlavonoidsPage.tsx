@@ -1,17 +1,12 @@
+'use client';
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Grape, Heart, Brain, Shield, Droplet, Sparkles } from 'lucide-react';
 
-interface FlavonoidsPageProps {
-  onNavigate: (page: string) => void;
-}
-
-export const FlavonoidsPage: React.FC<FlavonoidsPageProps> = ({ onNavigate }) => {
+export function FlavonoidsPage() {
   return (
     <GlossaryTemplate
       term="Flavonoids"
-      onNavigate={onNavigate}
-      currentPage="flavonoids"
       definition="The largest subclass of polyphenols, characterized by a common 15-carbon skeleton consisting of two benzene rings connected by a 3-carbon bridge. Flavonoids are powerful antioxidants with anti-inflammatory, cardioprotective, and neuroprotective properties found abundantly in fruits, vegetables, tea, and cocoa."
       detailedExplanation="Flavonoids represent over 6,000 different compounds, making them the most diverse and abundant category of polyphenols in the human diet. They provide much of the color in fruits, vegetables, and flowers (yellows, reds, blues, purples). The term 'flavonoid' comes from the Latin word 'flavus' meaning yellow, though flavonoids encompass many colors.
 
@@ -58,7 +53,7 @@ Flavonoids are divided into six main subclasses based on their chemical structur
 - **Main compounds:** Genistein, daidzein, glycitein
 - **Food sources:** Soybeans, soy products (tofu, tempeh, soy milk), legumes
 - **Benefits:** Phytoestrogenic activity, cardiovascular health, bone health, potential cancer risk reduction
-- **Typical intake:** Very low (<1 mg/day) in Western diets; 25-50 mg/day in Asian diets with regular soy consumption
+- **Typical intake:** Very low (&lt;1 mg/day) in Western diets; 25-50 mg/day in Asian diets with regular soy consumption
 - **Controversy:** Estrogenic effects raise questions about safety in hormone-sensitive conditions
 
 **Mechanisms of action:**
@@ -159,4 +154,4 @@ Flavonoids from food are safe. Supplemental forms in high doses may cause gastro
       ]}
     />
   );
-};
+}

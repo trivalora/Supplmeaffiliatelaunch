@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ALAPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ALAPage({ onNavigate }: ALAPageProps) {
+export function ALAPage() {
   return (
     <GlossaryTemplate
       term="ALA (Alpha-Linolenic Acid)"
       abbreviation="ALA, α-Linolenic Acid"
-      onNavigate={onNavigate}
-      currentPage="ala"
       definition="An essential omega-3 fatty acid found primarily in plant sources that must be obtained through diet, as the human body cannot produce it, serving as a precursor to EPA and DHA though conversion rates are typically low."
       detailedExplanation="Alpha-linolenic acid (ALA) is an 18-carbon polyunsaturated fatty acid with three double bonds, making it the shortest-chain omega-3 fatty acid. It is classified as essential because humans lack the enzymes needed to synthesize it de novo, requiring dietary intake.
 

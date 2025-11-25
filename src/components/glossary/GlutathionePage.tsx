@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface GlutathionePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function GlutathionePage({ onNavigate }: GlutathionePageProps) {
+export function GlutathionePage() {
   return (
     <GlossaryTemplate
       term="Glutathione"
       abbreviation="GSH"
-      onNavigate={onNavigate}
-      currentPage="glutathione"
       definition="A tripeptide antioxidant composed of glutamine, cysteine, and glycine that serves as the body's master antioxidant, playing critical roles in detoxification, immune function, and protection against oxidative stress."
       detailedExplanation="Glutathione (GSH) is produced naturally in every cell of the body and is essential for maintaining cellular health. It exists in two forms: reduced glutathione (GSH, the active antioxidant form) and oxidized glutathione (GSSG, the inactive form produced after neutralizing free radicals). The ratio of GSH to GSSG is an important indicator of cellular oxidative stress—higher GSH:GSSG ratios indicate better antioxidant status and cellular health.
 

@@ -3,7 +3,7 @@
 // ========================================
 // Automatically tracks link clicks with appropriate context
 
-import { trackOutboundLink, trackNavigation, trackGlossaryLinkClick } from '../utils/analytics';
+import { trackOutboundLink, trackNavigation, trackGlossaryLinkClick } from '@/lib/analytics';
 
 interface TrackedLinkProps {
   href: string;

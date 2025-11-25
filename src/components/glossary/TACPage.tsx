@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface TACPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function TACPage({ onNavigate }: TACPageProps) {
+export function TACPage() {
   return (
     <GlossaryTemplate
       term="Total Antioxidant Capacity"
       abbreviation="TAC"
-      onNavigate={onNavigate}
-      currentPage="tac"
       definition="A measurement of the overall antioxidant power of blood or tissue, reflecting the combined contribution of all antioxidant compounds and enzymes that can neutralize free radicals and reactive oxygen species."
       detailedExplanation="Total Antioxidant Capacity (TAC) provides a comprehensive assessment of antioxidant status by measuring the collective ability of all antioxidants present in a sample to prevent oxidation. Rather than measuring individual antioxidants (like vitamin C, vitamin E, or glutathione separately), TAC captures the synergistic effects of all antioxidant compounds working together, including vitamins, minerals, enzymes, polyphenols, and other molecules.
 

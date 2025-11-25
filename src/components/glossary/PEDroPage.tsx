@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Star, CheckCircle, FileText } from 'lucide-react';
 

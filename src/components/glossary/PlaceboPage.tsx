@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface PlaceboPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function PlaceboPage({ onNavigate }: PlaceboPageProps) {
+export function PlaceboPage() {
   return (
     <GlossaryTemplate
       term="Placebo"
-      onNavigate={onNavigate}
-      currentPage="placebo"
       definition="An inactive substance or treatment given to a control group in research studies to compare against the active intervention."
       detailedExplanation="A placebo is a substance with no therapeutic effect that is designed to look, taste, and feel identical to the active treatment being studied. Placebos are essential in clinical research because they help control for the placebo effect—the phenomenon where people experience improvements simply because they believe they are receiving treatment.
 

@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Prebiotics (V1 - Archived)",
-    "description": "Dietary fibers that support beneficial gut bacteria",
-    "category": "Supplement",
+    "name": "Prebiotic Fiber - Scientific Evidence & Price Comparison",
+    "description": "Scientific review of prebiotic fibers (inulin, FOS, GOS) for gut health, microbiome diversity, and digestive function. Analysis of clinical efficacy, FODMAP considerations, and synergy with probiotics.",
+    "category": "Digestive Health",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Prebiotics (V1 - Archived)",
-    "description": "Dietary fibers that support beneficial gut bacteria",
+    "name": "Prebiotics: Evidence-Based Guide to Gut Health & Microbiome",
+    "description": "Scientific review of prebiotic fibers (inulin, FOS, GOS) for gut health, microbiome diversity, and digestive function. Analysis of clinical efficacy, FODMAP considerations, and synergy with probiotics.",
     "about": {
       "@type": "Thing",
-      "name": "Prebiotics (V1 - Archived)",
-      "description": "Dietary fibers that support beneficial gut bacteria"
+      "name": "Prebiotic Fiber",
+      "description": "Scientific review of prebiotic fibers (inulin, FOS, GOS) for gut health, microbiome diversity, and digestive function. Analysis of clinical efficacy, FODMAP considerations, and synergy with probiotics."
     },
     "url": "https://suppl.me/prebiotics",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Prebiotics (V1 - Archived)",
-      "description": "Dietary fibers that support beneficial gut bacteria",
+      "name": "Prebiotic Fiber",
+      "description": "Scientific review of prebiotic fibers (inulin, FOS, GOS) for gut health, microbiome diversity, and digestive function. Analysis of clinical efficacy, FODMAP considerations, and synergy with probiotics.",
       "drugClass": "Dietary Supplement"
     }
   },

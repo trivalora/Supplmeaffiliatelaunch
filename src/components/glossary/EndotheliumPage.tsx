@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function EndotheliumPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Endothelium"
         definition="The thin layer of specialized cells (endothelial cells) that lines the interior surface of all blood vessels and lymphatic vessels. This single-cell layer plays critical roles in vascular health, blood flow regulation, and cardiovascular function."
@@ -127,7 +123,5 @@ export function EndotheliumPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

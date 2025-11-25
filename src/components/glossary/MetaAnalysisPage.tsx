@@ -1,16 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface MetaAnalysisPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function MetaAnalysisPage({ onNavigate }: MetaAnalysisPageProps) {
+export function MetaAnalysisPage() {
   return (
     <GlossaryTemplate
       term="Meta-Analysis"
-      onNavigate={onNavigate}
-      currentPage="metaanalysis"
       definition="A statistical method that combines results from multiple studies to identify patterns, disagreements, or overall effects."
+      currentPage="metaanalysis"
       detailedExplanation="A meta-analysis is a powerful research tool that synthesizes data from multiple independent studies addressing the same research question. By pooling results from numerous trials, meta-analyses can provide more precise estimates of treatment effects and identify patterns that might not be apparent in individual studies.
 
 Meta-analyses are particularly valuable in supplement research because individual studies often have small sample sizes or conflicting results. By combining data from multiple RCTs, researchers can draw more reliable conclusions about a supplement's effectiveness.

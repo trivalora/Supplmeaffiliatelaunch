@@ -4,13 +4,9 @@
 interface DataLayerEventBase { event: string; [k: string]: any; }
 type DataLayerEvent = DataLayerEventBase;
 
-declare global {
-  interface Window { dataLayer: DataLayerEvent[]; }
-}
-
 function ensureDataLayer() {
   if (typeof window === 'undefined') return;
-  if (!window.dataLayer) window.dataLayer = [];
+  if (!(window as any).dataLayer) (window as any).dataLayer = [];
 }
 
 export interface PageViewParams {
@@ -22,7 +18,7 @@ export interface PageViewParams {
 
 function push(obj: DataLayerEvent) {
   ensureDataLayer();
-  window.dataLayer.push(obj);
+  (window as any).dataLayer.push(obj);
 }
 
 async function persist(event: string, payload?: any) {

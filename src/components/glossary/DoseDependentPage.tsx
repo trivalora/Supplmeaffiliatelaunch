@@ -1,20 +1,12 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function DoseDependentPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function DoseDependentPage() {
   return (
     <GlossaryTemplate
       term="Dose-Dependent"
       definition="A relationship where the magnitude of a biological effect (either beneficial or adverse) changes systematically with the amount of substance administered. Also called dose-response relationship."
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             In a dose-dependent relationship, as the dose increases, the effect typically increases proportionally within a certain range, often following a characteristic curve. At very low doses, there may be no detectable effect (below the threshold). As the dose increases, effects become measurable and strengthen. Eventually, a plateau is reached where further dose increases produce no additional benefit (maximum effect), and at very high doses, toxic or adverse effects may emerge or predominate.
@@ -38,11 +30,6 @@ export function DoseDependentPage({
         { term: "Bioavailability", key: "bioavailability" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="dosedependent"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

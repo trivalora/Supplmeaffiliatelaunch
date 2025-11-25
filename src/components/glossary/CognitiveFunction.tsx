@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface CognitivePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CognitiveFunctionPage({ onNavigate }: CognitivePageProps) {
+export function CognitiveFunctionPage() {
   return (
     <GlossaryTemplate
       term="Cognitive Function"
-      onNavigate={onNavigate}
-      currentPage="cognitivefunction"
       definition="The mental processes involved in acquiring knowledge and understanding, including attention, memory, reasoning, problem-solving, decision-making, and processing speed."
       detailedExplanation="Cognitive function encompasses multiple domains of mental ability that allow us to think, learn, remember, and interact with the world. Key domains include: executive function (planning, decision-making, impulse control), working memory (holding and manipulating information), processing speed (how quickly information is processed), verbal ability (language and communication), and visuospatial skills (understanding spatial relationships). Cognitive performance varies naturally throughout the day and across the lifespan.
 

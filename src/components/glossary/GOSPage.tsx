@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface GOSPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function GOSPage({ onNavigate }: GOSPageProps) {
+export function GOSPage() {
   return (
     <GlossaryTemplate
       term="Galacto-oligosaccharides"
       abbreviation="GOS"
-      onNavigate={onNavigate}
-      currentPage="gos"
       definition="Short-chain carbohydrates composed of galactose molecules linked together, functioning as prebiotics that selectively stimulate the growth and activity of beneficial gut bacteria, particularly Bifidobacteria."
       detailedExplanation="Galacto-oligosaccharides (GOS) are non-digestible carbohydrates consisting of chains of galactose units with a terminal glucose molecule, typically containing 2-8 sugar units. They are naturally present in human breast milk and small amounts in legumes and certain vegetables. Commercial GOS is produced enzymatically from lactose using β-galactosidase, creating mixtures with varying chain lengths and linkage types.
 

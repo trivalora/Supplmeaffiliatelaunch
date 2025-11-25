@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Calcium (V1 - Archived)",
-    "description": "Essential mineral for bone health and cellular functions",
-    "category": "Supplement",
+    "name": "Calcium Supplement - Scientific Evidence & Price Comparison",
+    "description": "Scientific review of calcium supplementation for bone density, osteoporosis prevention, and cardiovascular safety. Analysis of absorption, optimal forms (citrate vs carbonate), and dosing strategies.",
+    "category": "Minerals",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Calcium (V1 - Archived)",
-    "description": "Essential mineral for bone health and cellular functions",
+    "name": "Calcium: Evidence-Based Review for Bone Health & Safety",
+    "description": "Scientific review of calcium supplementation for bone density, osteoporosis prevention, and cardiovascular safety. Analysis of absorption, optimal forms (citrate vs carbonate), and dosing strategies.",
     "about": {
       "@type": "Thing",
-      "name": "Calcium (V1 - Archived)",
-      "description": "Essential mineral for bone health and cellular functions"
+      "name": "Calcium Supplement",
+      "description": "Scientific review of calcium supplementation for bone density, osteoporosis prevention, and cardiovascular safety. Analysis of absorption, optimal forms (citrate vs carbonate), and dosing strategies."
     },
     "url": "https://suppl.me/calcium",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Calcium (V1 - Archived)",
-      "description": "Essential mineral for bone health and cellular functions",
+      "name": "Calcium Supplement",
+      "description": "Scientific review of calcium supplementation for bone density, osteoporosis prevention, and cardiovascular safety. Analysis of absorption, optimal forms (citrate vs carbonate), and dosing strategies.",
       "drugClass": "Dietary Supplement"
     }
   },

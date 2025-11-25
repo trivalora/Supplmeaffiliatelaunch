@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface MDAPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function MDAPage({ onNavigate }: MDAPageProps) {
+export function MDAPage() {
   return (
     <GlossaryTemplate
       term="Malondialdehyde"
       abbreviation="MDA"
-      onNavigate={onNavigate}
-      currentPage="mda"
       definition="A reactive compound produced during lipid peroxidation that serves as a widely-used biomarker of oxidative stress and cellular damage, particularly reflecting damage to cell membranes and lipids."
       detailedExplanation="Malondialdehyde (MDA) is formed when reactive oxygen species (free radicals) attack polyunsaturated fatty acids in cell membranes through a process called lipid peroxidation. As lipids are oxidized, they break down into various byproducts, with MDA being one of the most abundant and stable. Because MDA formation directly reflects oxidative damage to lipids, it's considered a reliable marker of overall oxidative stress in the body.
 

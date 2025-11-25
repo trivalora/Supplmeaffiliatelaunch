@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface MitochondriaPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function MitochondriaPage({ onNavigate }: MitochondriaPageProps) {
+export function MitochondriaPage() {
   return (
     <GlossaryTemplate
       term="Mitochondria"
-      onNavigate={onNavigate}
-      currentPage="mitochondria"
       definition="Specialized organelles within cells that generate most of the cell's energy (ATP) through oxidative phosphorylation, often called the 'powerhouses of the cell.'"
       detailedExplanation="Mitochondria convert nutrients (glucose, fatty acids, amino acids) into adenosine triphosphate (ATP), the universal energy currency of cells, through a process called oxidative phosphorylation occurring in the electron transport chain. A single cell can contain hundreds to thousands of mitochondria depending on its energy demands—muscle cells and neurons are particularly mitochondria-rich. Beyond energy production, mitochondria regulate calcium signaling, produce reactive oxygen species for signaling, participate in apoptosis (programmed cell death), and synthesize certain hormones and heme.
 

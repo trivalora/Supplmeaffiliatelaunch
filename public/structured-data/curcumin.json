@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Curcumin (V1 - Archived)",
-    "description": "Active compound from turmeric with anti-inflammatory and metabolic effects",
-    "category": "Supplement",
+    "name": "Curcumin (Turmeric Extract) - Scientific Evidence & Price Comparison",
+    "description": "Scientific review of curcumin for inflammation, joint health, and cognitive function. Analysis of bioavailability challenges, enhanced formulations (piperine, liposomal), and clinical efficacy.",
+    "category": "Anti-Inflammatory",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Curcumin (V1 - Archived)",
-    "description": "Active compound from turmeric with anti-inflammatory and metabolic effects",
+    "name": "Curcumin: Anti-Inflammatory Benefits & Bioavailability Solutions",
+    "description": "Scientific review of curcumin for inflammation, joint health, and cognitive function. Analysis of bioavailability challenges, enhanced formulations (piperine, liposomal), and clinical efficacy.",
     "about": {
       "@type": "Thing",
-      "name": "Curcumin (V1 - Archived)",
-      "description": "Active compound from turmeric with anti-inflammatory and metabolic effects"
+      "name": "Curcumin (Turmeric Extract)",
+      "description": "Scientific review of curcumin for inflammation, joint health, and cognitive function. Analysis of bioavailability challenges, enhanced formulations (piperine, liposomal), and clinical efficacy."
     },
     "url": "https://suppl.me/curcumin",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Curcumin (V1 - Archived)",
-      "description": "Active compound from turmeric with anti-inflammatory and metabolic effects",
+      "name": "Curcumin (Turmeric Extract)",
+      "description": "Scientific review of curcumin for inflammation, joint health, and cognitive function. Analysis of bioavailability challenges, enhanced formulations (piperine, liposomal), and clinical efficacy.",
       "drugClass": "Dietary Supplement"
     }
   },

@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const MethylfolatePage: React.FC = () => {
   return (
@@ -213,17 +214,17 @@ export const MethylfolatePage: React.FC = () => {
             <div className="space-y-3 text-sm">
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Scaglione F, Panzavolta G. Folate, folic acid and 5-methyltetrahydrofolate are not the same thing. <em>Xenobiotica.</em> 2014;44(5):480-8.
+                  Scaglione F, Panzavolta G. Folate, folic acid and 5-methyltetrahydrofolate are not the same thing. <em>Xenobiotica.</em>2014;44(5):480-8.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Pietrzik K, Bailey L, Shane B. Folic acid and L-5-methyltetrahydrofolate: comparison of clinical pharmacokinetics and pharmacodynamics. <em>Clin Pharmacokinet.</em> 2010;49(8):535-48.
+                  Pietrzik K, Bailey L, Shane B. Folic acid and L-5-methyltetrahydrofolate: comparison of clinical pharmacokinetics and pharmacodynamics. <em>Clin Pharmacokinet.</em>2010;49(8):535-48.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Papakostas GI, et al. L-methylfolate as adjunctive therapy for SSRI-resistant major depression: results of two randomized, double-blind, parallel-sequential trials. <em>Am J Psychiatry.</em> 2012;169(12):1267-74.
+                  Papakostas GI, et al. L-methylfolate as adjunctive therapy for SSRI-resistant major depression: results of two randomized, double-blind, parallel-sequential trials. <em>Am J Psychiatry.</em>2012;169(12):1267-74.
                 </p>
               </div>
             </div>
@@ -236,7 +237,7 @@ export const MethylfolatePage: React.FC = () => {
               <a
                 href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="nofollow noreferrer"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />

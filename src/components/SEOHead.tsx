@@ -1,3 +1,4 @@
+'use client';
 import { useEffect } from 'react';
 
 interface SEOHeadProps {
@@ -67,7 +68,7 @@ export function SEOHead({
       canonicalElement.href = url;
     };
 
-    const base = (import.meta.env?.VITE_CANONICAL_BASE_URL || 'https://www.suppl.me').replace(/\/$/, '');
+    const base = (process.env.NEXT_PUBLIC_CANONICAL_BASE_URL || 'https://www.suppl.me').replace(/\/$/, '');
     const resolvedOgUrl = ogUrl || (canonicalPath ? `${base}${canonicalPath}` : window.location.href);
     setCanonicalUrl(resolvedOgUrl);
 

@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Sparkles, Moon, Shield } from 'lucide-react';
 

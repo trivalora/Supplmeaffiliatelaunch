@@ -1,18 +1,13 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function Nrf2Page({ onNavigate }: { onNavigate?: (page: string) => void }) {
+export function Nrf2Page() {
   return (
     <GlossaryTemplate
       term="Nrf2"
       pronunciation="en-arr-eff-two"
       partOfSpeech="noun (protein)"
-      onNavigate={onNavigate}
       
-      definition={
-        <p>
-          <strong>Nuclear Factor Erythroid 2-Related Factor 2 (Nrf2)</strong> is a <span className="font-medium">master transcription factor</span> that regulates the expression of hundreds of genes involved in <span className="font-medium">antioxidant defense</span>, detoxification, and cellular protection. When activated, Nrf2 increases the production of the body's own protective enzymes and antioxidant molecules.
-        </p>
-      }
+      definition="Nuclear factor erythroid 2-related factor 2 (Nrf2) is a transcription factor that regulates the expression of antioxidant and detoxification genes, acting as the body's master regulator of the cellular antioxidant defense system."
       
       laypersonExplanation={
         <>
@@ -25,7 +20,7 @@ export function Nrf2Page({ onNavigate }: { onNavigate?: (page: string) => void }
         </>
       }
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             <strong>Mechanism of Activation:</strong>

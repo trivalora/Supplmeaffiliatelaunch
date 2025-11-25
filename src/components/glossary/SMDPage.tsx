@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface SMDPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function SMDPage({ onNavigate }: SMDPageProps) {
+export function SMDPage() {
   return (
     <GlossaryTemplate
       term="Standardized Mean Difference"
       abbreviation="SMD"
-      onNavigate={onNavigate}
-      currentPage="smd"
       definition="A statistical measure used in meta-analyses to express the size of an intervention effect relative to the variability in the data, allowing comparison across studies using different measurement scales."
       detailedExplanation="Standardized Mean Difference (SMD) is calculated by dividing the difference between two group means by the pooled standard deviation. This standardization allows researchers to combine and compare results from studies that measured the same construct using different scales or instruments. For example, if multiple studies examined the effect of a supplement on anxiety using different anxiety questionnaires, SMD allows all these results to be pooled into a single analysis.
 

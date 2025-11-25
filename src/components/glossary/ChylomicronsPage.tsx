@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const ChylomicronsPage: React.FC = () => {
   return (
@@ -239,12 +240,12 @@ export const ChylomicronsPage: React.FC = () => {
             <div className="space-y-3 text-sm">
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Dash S, et al. The gut microbiome and diet in psychiatry: focus on depression. <em>Curr Opin Psychiatry.</em> 2015;28(1):1-6.
+                  Dash S, et al. The gut microbiome and diet in psychiatry: focus on depression. <em>Curr Opin Psychiatry.</em>2015;28(1):1-6.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Tso P, Balint JA. Formation and transport of chylomicrons by enterocytes to the lymphatics. <em>Am J Physiol.</em> 1986;250(6 Pt 1):G715-26.
+                  Tso P, Balint JA. Formation and transport of chylomicrons by enterocytes to the lymphatics. <em>Am J Physiol.</em>1986;250(6 Pt 1):G715-26.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
@@ -262,7 +263,7 @@ export const ChylomicronsPage: React.FC = () => {
               <a
                 href="https://www.ncbi.nlm.nih.gov/books/NBK305896/"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="nofollow noreferrer"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />

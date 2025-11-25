@@ -1,18 +1,13 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function NFkBPage({ onNavigate }: { onNavigate?: (page: string) => void }) {
+export function NFkBPage() {
   return (
     <GlossaryTemplate
       term="NF-κB"
       pronunciation="en-eff KAP-uh bee"
       partOfSpeech="noun (protein complex)"
-      onNavigate={onNavigate}
       
-      definition={
-        <p>
-          <strong>Nuclear Factor Kappa B (NF-κB)</strong> is a family of <span className="font-medium">transcription factor proteins</span> that function as a master regulator of inflammatory and immune responses, cell survival, and proliferation. When activated, NF-κB moves into the cell nucleus and turns on genes involved in inflammation, stress responses, and immunity.
-        </p>
-      }
+      definition="Nuclear Factor Kappa B (NF-κB) is a protein complex that acts as a master transcription factor regulating the expression of genes involved in inflammation, immune responses, cell survival, and proliferation. It is often called the 'molecular switch' for inflammation."
       
       laypersonExplanation={
         <>
@@ -25,7 +20,7 @@ export function NFkBPage({ onNavigate }: { onNavigate?: (page: string) => void }
         </>
       }
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             <strong>Mechanism of Action:</strong>

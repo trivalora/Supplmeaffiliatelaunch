@@ -1,16 +1,10 @@
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface CatalasePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CatalasePage({ onNavigate }: CatalasePageProps) {
+export function CatalasePage() {
   return (
     <GlossaryTemplate
       term="Catalase"
-      onNavigate={onNavigate}
-      currentPage="catalase"
       definition="An endogenous antioxidant enzyme that breaks down hydrogen peroxide into water and oxygen, protecting cells from oxidative damage."
       
       expandedExplanation={

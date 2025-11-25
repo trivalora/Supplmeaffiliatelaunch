@@ -1,17 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface HyperglycemiaPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function HyperglycemiaPage({ onNavigate }: HyperglycemiaPageProps) {
+export function HyperglycemiaPage() {
   return (
     <GlossaryTemplate
       term="Hyperglycemia"
-      onNavigate={onNavigate}
-      currentPage="hyperglycemia"
       definition="Elevated blood glucose levels above the normal range, commonly associated with diabetes and prediabetes."
-      detailedExplanation={`Hyperglycemia refers to abnormally high blood glucose (blood sugar) levels. While exact thresholds vary by context, hyperglycemia is generally defined as fasting blood glucose &gt;100 mg/dL (5.6 mmol/L) or random blood glucose &gt;140 mg/dL (7.8 mmol/L).
+      expandedExplanation={`Hyperglycemia refers to abnormally high blood glucose (blood sugar) levels. While exact thresholds vary by context, hyperglycemia is generally defined as fasting blood glucose &gt;100 mg/dL (5.6 mmol/L) or random blood glucose &gt;140 mg/dL (7.8 mmol/L).
 
 **Classification**
 

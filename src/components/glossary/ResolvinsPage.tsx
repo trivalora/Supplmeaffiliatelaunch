@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Shield, TrendingDown, Heart } from 'lucide-react';
 
-interface ResolvinsPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ResolvinsPage({ onNavigate }: ResolvinsPageProps) {
+export function ResolvinsPage() {
   return (
     <GlossaryTemplate
       term="Resolvins"
       abbreviation="RvE, RvD series (resolution-phase interaction products)"
       pronunciation="reh-zol-vinz"
-      onNavigate={onNavigate}
-      currentPage="resolvins"
       definition="Specialized pro-resolving mediators (SPMs) derived from omega-3 fatty acids EPA and DHA that actively resolve inflammation, reduce pain, promote tissue repair, and restore homeostasis rather than simply suppressing inflammatory responses."
       
       expandedExplanation={

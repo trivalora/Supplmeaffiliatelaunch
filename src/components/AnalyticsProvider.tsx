@@ -1,9 +1,11 @@
+'use client';
+
 // ========================================
 // ANALYTICS PROVIDER COMPONENT
 // ========================================
 
 import { useEffect } from 'react';
-import { initializeDataLayer, trackSessionStart, trackSessionEnd } from '../utils/analytics';
+import { initializeDataLayer, trackSessionStart, trackSessionEnd } from '@/lib/analytics';
 
 interface AnalyticsProviderProps {
   children: React.ReactNode;
@@ -109,7 +111,7 @@ function loadGoogleTagManager(gtmId: string) {
   document.body.insertBefore(noscript, document.body.firstChild);
 
   // Only log in development
-  if (typeof import.meta !== 'undefined' && import.meta.env?.DEV) {
+  if (process.env.NODE_ENV === 'development') {
     console.log(`Google Tag Manager loaded: ${gtmId}`);
   }
 }
@@ -140,7 +142,7 @@ function loadGoogleAnalytics(gaId: string) {
   document.head.appendChild(script2);
 
   // Only log in development
-  if (typeof import.meta !== 'undefined' && import.meta.env?.DEV) {
+  if (process.env.NODE_ENV === 'development') {
     console.log(`Google Analytics loaded: ${gaId}`);
   }
 }
@@ -166,7 +168,7 @@ function loadHotjar(hjId: string) {
   document.head.appendChild(script);
 
   // Only log in development
-  if (typeof import.meta !== 'undefined' && import.meta.env?.DEV) {
+  if (process.env.NODE_ENV === 'development') {
     console.log(`Hotjar loaded: ${hjId}`);
   }
 }
@@ -189,7 +191,7 @@ function loadClarity(clarityId: string) {
   document.head.appendChild(script);
 
   // Only log in development
-  if (typeof import.meta !== 'undefined' && import.meta.env?.DEV) {
+  if (process.env.NODE_ENV === 'development') {
     console.log(`Microsoft Clarity loaded: ${clarityId}`);
   }
 }

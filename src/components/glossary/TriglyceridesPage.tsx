@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface TriglyceridesPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function TriglyceridesPage({ onNavigate }: TriglyceridesPageProps) {
+export function TriglyceridesPage() {
   return (
     <GlossaryTemplate
       term="Triglycerides"
-      onNavigate={onNavigate}
-      currentPage="triglycerides"
       definition="A type of fat (lipid) found in the blood that serves as the body's primary form of energy storage, with elevated levels increasing cardiovascular disease risk."
       detailedExplanation="Triglycerides are composed of glycerol bound to three fatty acid chains and represent the main form of fat storage in the body. After eating, triglycerides from food are packaged into chylomicrons for transport, while the liver produces triglycerides from excess carbohydrates and packages them into very low-density lipoproteins (VLDL). Normal fasting triglyceride levels are below 150 mg/dL, with 150-199 mg/dL considered borderline high, 200-499 mg/dL high, and 500+ mg/dL very high.
 

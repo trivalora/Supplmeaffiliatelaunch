@@ -1,14 +1,8 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ClinicalSignificancePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ClinicalSignificancePage({ onNavigate }: ClinicalSignificancePageProps) {
+export function ClinicalSignificancePage() {
   return (
     <GlossaryTemplate
-      onNavigate={onNavigate}
-      currentPage="clinicalsignificance"
       term="Clinical Significance"
       definition="The practical importance of a treatment effect—whether it makes a real, noticeable difference in people's health and daily lives."
       detailedExplanation="Clinical significance refers to whether a research finding has practical, meaningful implications for patient care and health outcomes. Unlike statistical significance, which is a mathematical measure, clinical significance considers whether the magnitude of an effect is large enough to matter in real-world settings.

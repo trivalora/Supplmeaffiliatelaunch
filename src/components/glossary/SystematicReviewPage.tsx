@@ -6,7 +6,7 @@ export function SystematicReviewPage() {
     term: "Systematic Review",
     definition: "A comprehensive, structured research methodology that systematically identifies, evaluates, and synthesizes all available evidence on a specific research question using predefined, transparent, and reproducible methods.",
     
-    detailedExplanation: (
+    expandedExplanation: (
       <>
         <p>A systematic review is considered one of the highest levels of evidence in medical and scientific research. Unlike narrative reviews that may be subjective, systematic reviews follow rigorous protocols to minimize bias and provide reliable conclusions.</p>
         
@@ -41,7 +41,7 @@ export function SystematicReviewPage() {
       </>
     ),
 
-    commonUse: "&quot;A systematic review of 23 randomized controlled trials found that omega-3 supplementation significantly reduced triglyceride levels.&quot;",
+    commonUse: "A systematic review of 23 randomized controlled trials found that omega-3 supplementation significantly reduced triglyceride levels.",
 
     importanceInResearch: "Systematic reviews are crucial for evidence-based practice because they provide the most comprehensive and reliable synthesis of existing research, helping to identify consistent patterns, resolve conflicting findings, and reveal gaps in knowledge. They form the basis for clinical guidelines and health policy decisions.",
 

@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Heart, AlertTriangle, TrendingDown } from 'lucide-react';
 
-interface LDLCholesterolPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function LDLCholesterolPage({ onNavigate }: LDLCholesterolPageProps) {
+export function LDLCholesterolPage() {
   return (
     <GlossaryTemplate
       term="LDL Cholesterol (Low-Density Lipoprotein)"
       abbreviation="LDL, LDL-C, Bad Cholesterol"
       pronunciation="el-dee-el kuh-les-tuh-rawl"
-      onNavigate={onNavigate}
-      currentPage="ldlcholesterol"
       definition="A type of lipoprotein that transports cholesterol from the liver to peripheral tissues, with elevated levels strongly associated with atherosclerosis and cardiovascular disease risk. Often called 'bad cholesterol' because high levels contribute to arterial plaque buildup."
       
       expandedExplanation={
@@ -135,7 +130,7 @@ export function LDLCholesterolPage({ onNavigate }: LDLCholesterolPageProps) {
       
       examples={[
         "An individual with LDL of 160 mg/dL who adopts a Mediterranean diet, exercises regularly, and takes plant sterols may reduce LDL to 120 mg/dL, significantly lowering cardiovascular risk",
-        "Whey protein supplementation (20-40g daily) reduced LDL cholesterol by mean difference of 5.38 mg/dL (p<0.01) in meta-analyses of adults under 50 years",
+        "Whey protein supplementation (20-40g daily) reduced LDL cholesterol by mean difference of 5.38 mg/dL (p&lt;0.01) in meta-analyses of adults under 50 years",
         "A person with familial hypercholesterolemia (genetic high cholesterol) combining lifestyle changes, supplements, and statin medication may achieve LDL &lt;70 mg/dL, dramatically reducing their very high cardiovascular risk"
       ]}
       

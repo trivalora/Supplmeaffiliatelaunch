@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface FODMAPPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function FODMAPPage({ onNavigate }: FODMAPPageProps) {
+export function FODMAPPage() {
   return (
     <GlossaryTemplate
       term="FODMAP"
       abbreviation="Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyols"
-      onNavigate={onNavigate}
-      currentPage="fodmap"
       definition="A group of short-chain carbohydrates and sugar alcohols that are poorly absorbed in the small intestine and rapidly fermented by gut bacteria, causing digestive symptoms in sensitive individuals."
       detailedExplanation="FODMAPs are a collection of fermentable carbohydrates that share common characteristics: they are poorly absorbed in the small intestine, osmotically active (drawing water into the intestinal lumen), and rapidly fermented by gut bacteria. The acronym breaks down into: Fermentable Oligosaccharides (fructans and galacto-oligosaccharides/GOS), Disaccharides (lactose), Monosaccharides (excess fructose), And Polyols (sorbitol, mannitol, xylitol, maltitol).
 

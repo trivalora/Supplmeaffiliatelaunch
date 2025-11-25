@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function PharmacokineticsPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function PharmacokineticsPage() {
   return (
     <GlossaryTemplate
       term="Pharmacokinetics"
@@ -69,11 +61,6 @@ Importance in Supplement Research:
         { term: "Absorption", key: "absorption" },
         { term: "Metabolism", key: "metabolism" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="pharmacokinetics"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

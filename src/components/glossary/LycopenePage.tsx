@@ -1,17 +1,12 @@
+'use client';
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Heart, Shield, Droplet, Sun, Activity, Pill } from 'lucide-react';
 
-interface LycopenePageProps {
-  onNavigate: (page: string) => void;
-}
-
-export const LycopenePage: React.FC<LycopenePageProps> = ({ onNavigate }) => {
+export function LycopenePage() {
   return (
     <GlossaryTemplate
       term="Lycopene"
-      onNavigate={onNavigate}
-      currentPage="lycopene"
       definition="A bright red carotenoid pigment found predominantly in tomatoes and other red fruits. Unlike beta-carotene, lycopene has no vitamin A activity but functions as a powerful antioxidant with particular benefits for cardiovascular health, prostate health, and skin protection."
       detailedExplanation="Lycopene is an acyclic isomer of beta-carotene, containing 11 conjugated and 2 non-conjugated double bonds in its all-trans configuration. This extensive conjugated system makes lycopene one of the most potent singlet oxygen quenchers among dietary carotenoids, with antioxidant capacity approximately twice that of beta-carotene and 10 times that of alpha-tocopherol (vitamin E) in vitro.
 
@@ -185,4 +180,4 @@ Lycopene may work synergistically with other tomato compounds (vitamin C, beta-c
       ]}
     />
   );
-};
+}

@@ -1,18 +1,13 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function FerrousIronPage({ onNavigate }: { onNavigate?: (page: string) => void }) {
+export function FerrousIronPage() {
   return (
     <GlossaryTemplate
       term="Ferrous Iron"
       pronunciation="FEHR-us EYE-urn"
       partOfSpeech="noun (chemical form)"
-      onNavigate={onNavigate}
       
-      definition={
-        <p>
-          <strong>Ferrous iron (Fe²⁺)</strong> is iron in its <span className="font-medium">+2 oxidation state</span>, the form that is <span className="font-medium">better absorbed</span> by the human digestive system compared to ferric iron (Fe³⁺). Most iron supplements contain ferrous iron because of its superior bioavailability.
-        </p>
-      }
+      definition="Ferrous iron is the reduced form of iron (Fe²⁺), also known as ferrous iron or iron(II), which is the bioavailable form that can be directly absorbed by intestinal cells and is found in meat, some iron supplements, and results from ferric iron reduction in the gut."
       
       laypersonExplanation={
         <>
@@ -25,7 +20,7 @@ export function FerrousIronPage({ onNavigate }: { onNavigate?: (page: string) =>
         </>
       }
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             <strong>Chemical Properties:</strong>
@@ -40,9 +35,9 @@ export function FerrousIronPage({ onNavigate }: { onNavigate?: (page: string) =>
             <strong>Common Ferrous Iron Supplements:</strong>
           </p>
           <ul className="list-disc" style={{ marginLeft: '2rem' }}>
-            <li><span className="font-medium">Ferrous sulfate:</span> 20% elemental iron, most common and least expensive</li>
-            <li><span className="font-medium">Ferrous gluconate:</span> 12% elemental iron, often gentler on the stomach</li>
-            <li><span className="font-medium">Ferrous fumarate:</span> 33% elemental iron, most concentrated form</li>
+            <li><span className="font-medium">Ferrous sulfate:</span>20% elemental iron, most common and least expensive</li>
+            <li><span className="font-medium">Ferrous gluconate:</span>12% elemental iron, often gentler on the stomach</li>
+            <li><span className="font-medium">Ferrous fumarate:</span>33% elemental iron, most concentrated form</li>
             <li><span className="font-medium">Ferrous bisglycinate (chelated):</span> ~20% elemental iron, best absorbed and tolerated</li>
           </ul>
           <p>
@@ -51,16 +46,16 @@ export function FerrousIronPage({ onNavigate }: { onNavigate?: (page: string) =>
           <ul className="list-disc" style={{ marginLeft: '2rem' }}>
             <li><span className="font-medium">Direct uptake:</span> Ferrous iron can be transported directly across intestinal cells via DMT1 (divalent metal transporter 1)</li>
             <li><span className="font-medium">No reduction needed:</span> Unlike ferric iron, doesn't require enzymatic reduction before absorption</li>
-            <li><span className="font-medium">Absorption rate:</span> 10-30% of supplemental ferrous iron is absorbed (varies by individual iron status)</li>
+            <li><span className="font-medium">Absorption rate:</span>10-30% of supplemental ferrous iron is absorbed (varies by individual iron status)</li>
             <li><span className="font-medium">Enhanced by vitamin C:</span> Ascorbic acid keeps iron in ferrous state and increases absorption</li>
           </ul>
           <p>
             <strong>Bioavailability Comparison:</strong>
           </p>
           <ul className="list-disc" style={{ marginLeft: '2rem' }}>
-            <li><span className="font-medium">Ferrous iron:</span> 10-30% absorption</li>
-            <li><span className="font-medium">Ferric iron:</span> 5-12% absorption (must be reduced to ferrous first)</li>
-            <li><span className="font-medium">Heme iron (from meat):</span> 15-35% absorption (different absorption pathway)</li>
+            <li><span className="font-medium">Ferrous iron:</span>10-30% absorption</li>
+            <li><span className="font-medium">Ferric iron:</span>5-12% absorption (must be reduced to ferrous first)</li>
+            <li><span className="font-medium">Heme iron (from meat):</span>15-35% absorption (different absorption pathway)</li>
           </ul>
           <p>
             <strong>Factors Affecting Absorption:</strong>

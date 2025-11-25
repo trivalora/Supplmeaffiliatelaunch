@@ -6,7 +6,7 @@ export function ObservationalStudyPage() {
     term: "Observational Study",
     definition: "A research study where investigators observe participants and measure outcomes without manipulating or assigning interventions, allowing researchers to study associations and patterns as they naturally occur.",
     
-    detailedExplanation: (
+    expandedExplanation: (
       <>
         <p>In observational studies, researchers do not control or assign the exposure or intervention. Instead, they observe and record what happens naturally, making these studies valuable for examining real-world patterns, long-term outcomes, and situations where randomized controlled trials would be unethical or impractical.</p>
         
@@ -48,7 +48,7 @@ export function ObservationalStudyPage() {
       </>
     ),
 
-    commonUse: "&quot;An observational study of 50,000 adults found that those who regularly consumed omega-3-rich fish had a 23% lower risk of heart disease compared to those who rarely ate fish.&quot;",
+    commonUse: "An observational study of 50,000 adults found that those who regularly consumed omega-3-rich fish had a 23% lower risk of heart disease compared to those who rarely ate fish.",
 
     importanceInResearch: "Observational studies are essential for supplement research because they can examine long-term health outcomes, real-world usage patterns, and associations that would be impractical or unethical to test in randomized trials. They provide complementary evidence to RCTs and help generate hypotheses for future controlled studies.",
 

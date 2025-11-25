@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface FibrinogenPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function FibrinogenPage({ onNavigate }: FibrinogenPageProps) {
+export function FibrinogenPage() {
   return (
     <GlossaryTemplate
       term="Fibrinogen"
       abbreviation=""
-      onNavigate={onNavigate}
-      currentPage="fibrinogen"
       definition="A soluble plasma protein produced by the liver that plays a central role in blood clotting and is also an important biomarker of inflammation and cardiovascular disease risk."
       detailedExplanation="Fibrinogen is a glycoprotein that circulates in blood and converts to insoluble fibrin during the clotting process, forming the structural framework of blood clots. Beyond its essential role in hemostasis, fibrinogen is also an acute phase reactant—its levels increase during inflammation, infection, or tissue injury. Normal fibrinogen levels range from 200-400 mg/dL in healthy adults, though reference ranges vary slightly between laboratories.
 

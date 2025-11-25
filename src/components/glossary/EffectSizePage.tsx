@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const EffectSizePage: React.FC = () => {
   return (
@@ -138,8 +139,8 @@ export const EffectSizePage: React.FC = () => {
           </li>
           <li><strong>Heterogeneity:</strong> Degree of variation across studies (I² statistic)
             <ul>
-              <li>Low heterogeneity (I² &lt; 25%): Studies agree well</li>
-              <li>High heterogeneity (I² &gt; 75%): Results vary substantially</li>
+              <li>Low heterogeneity (I² &lt;25%): Studies agree well</li>
+              <li>High heterogeneity (I² &gt;75%): Results vary substantially</li>
             </ul>
           </li>
         </ul>
@@ -169,7 +170,7 @@ export const EffectSizePage: React.FC = () => {
 
         <h3>Statistical vs. Clinical Significance</h3>
         <ul>
-          <li><strong>Statistical Significance:</strong> Is the effect different from zero? (P &lt; 0.05)</li>
+          <li><strong>Statistical Significance:</strong> Is the effect different from zero? (P &lt;0.05)</li>
           <li><strong>Clinical Significance:</strong> Is the effect large enough to matter in practice?</li>
           <li><strong>Mismatch:</strong> Can have statistically significant but clinically trivial effects (large samples)</li>
           <li><strong>Or:</strong> Clinically important but non-significant effects (small samples, wide CIs)</li>

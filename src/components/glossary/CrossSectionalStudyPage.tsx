@@ -1,16 +1,10 @@
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface CrossSectionalStudyPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CrossSectionalStudyPage({ onNavigate }: CrossSectionalStudyPageProps) {
+export function CrossSectionalStudyPage() {
   return (
     <GlossaryTemplate
       term="Cross-Sectional Study"
-      onNavigate={onNavigate}
-      currentPage="crosssectionalstudy"
       definition="A type of observational research that analyzes data from a population at a single point in time, providing a 'snapshot' of the relationship between variables without following participants over time."
       
       expandedExplanation={

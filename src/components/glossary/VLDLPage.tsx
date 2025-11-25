@@ -1,18 +1,13 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function VLDLPage({ onNavigate }: { onNavigate?: (page: string) => void }) {
+export function VLDLPage() {
   return (
     <GlossaryTemplate
       term="VLDL"
       pronunciation="vee-el-dee-el"
       partOfSpeech="noun (lipoprotein)"
-      onNavigate={onNavigate}
       
-      definition={
-        <p>
-          <strong>Very Low-Density Lipoprotein (VLDL)</strong> is a type of <span className="font-medium">lipoprotein particle</span> produced by the liver that transports <span className="font-medium">triglycerides</span> and cholesterol from the liver to peripheral tissues. VLDL is one of the "bad" lipoproteins that contributes to cardiovascular disease risk when elevated.
-        </p>
-      }
+      definition="Very Low-Density Lipoprotein (VLDL) is a type of lipoprotein produced by the liver that carries triglycerides, cholesterol, and other lipids from the liver to various tissues in the body, serving as the primary transport vehicle for endogenously synthesized triglycerides."
       
       laypersonExplanation={
         <>
@@ -25,7 +20,7 @@ export function VLDLPage({ onNavigate }: { onNavigate?: (page: string) => void }
         </>
       }
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             <strong>VLDL Metabolism:</strong>
@@ -41,10 +36,10 @@ export function VLDLPage({ onNavigate }: { onNavigate?: (page: string) => void }
             <strong>Composition:</strong>
           </p>
           <ul className="list-disc" style={{ marginLeft: '2rem' }}>
-            <li><span className="font-medium">Triglycerides:</span> 50-65% (highest among lipoproteins)</li>
-            <li><span className="font-medium">Cholesterol:</span> 10-15%</li>
-            <li><span className="font-medium">Phospholipids:</span> 15-20%</li>
-            <li><span className="font-medium">Proteins (apolipoproteins):</span> 5-10%</li>
+            <li><span className="font-medium">Triglycerides:</span>50-65% (highest among lipoproteins)</li>
+            <li><span className="font-medium">Cholesterol:</span>10-15%</li>
+            <li><span className="font-medium">Phospholipids:</span>15-20%</li>
+            <li><span className="font-medium">Proteins (apolipoproteins):</span>5-10%</li>
           </ul>
           <p>
             <strong>Measurement:</strong>
@@ -53,7 +48,7 @@ export function VLDLPage({ onNavigate }: { onNavigate?: (page: string) => void }
             <li><span className="font-medium">Not directly measured:</span> Standard lipid panels don't measure VLDL directly</li>
             <li><span className="font-medium">Estimated calculation:</span> VLDL cholesterol ≈ Triglycerides / 5 (in mg/dL) or Triglycerides / 2.2 (in mmol/L)</li>
             <li><span className="font-medium">This estimate is valid when triglycerides are below 400 mg/dL</span></li>
-            <li><span className="font-medium">Normal range:</span> VLDL cholesterol &lt; 30 mg/dL</li>
+            <li><span className="font-medium">Normal range:</span> VLDL cholesterol &lt;30 mg/dL</li>
           </ul>
           <p>
             <strong>Health Implications:</strong>

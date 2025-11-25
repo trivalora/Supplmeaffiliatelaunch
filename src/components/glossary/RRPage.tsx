@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface RRPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function RRPage({ onNavigate }: RRPageProps) {
+export function RRPage() {
   return (
     <GlossaryTemplate
       term="Risk Ratio"
       abbreviation="RR"
-      onNavigate={onNavigate}
-      currentPage="rr"
       definition="A statistical measure that compares the probability (risk) of an outcome occurring in one group versus another, commonly used in prospective studies and clinical trials to quantify treatment effects."
       detailedExplanation="Risk Ratio (RR), also called Relative Risk, is calculated by dividing the risk of an outcome in the treatment group by the risk in the control group. Risk is simply the probability of an event occurring, calculated as the number of events divided by the total number of people in the group. An RR of 1.0 indicates no difference between groups. An RR greater than 1.0 suggests increased risk in the treatment group, while an RR less than 1.0 suggests decreased risk (protective effect).
 

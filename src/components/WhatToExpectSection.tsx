@@ -179,7 +179,7 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
           <h2 className="text-primary text-center">
             What to Expect
           </h2>
-          <p className="font-['Inter'] font-normal leading-[20px] text-muted-foreground text-[14px] tracking-[-0.15px] text-center">
+          <p className="font-['Inter'] font-normal leading-5 text-muted-foreground text-[14px] tracking-[-0.15px] text-center">
             Typical usage and expected outcomes
           </p>
         </div>
@@ -250,12 +250,12 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
                       <path d="M10.5 20.5L20.5 10.5C20.9673 10.0421 21.3391 9.49605 21.5941 8.89352C21.849 8.29098 21.982 7.64389 21.9853 6.98965C21.9886 6.3354 21.8622 5.687 21.6133 5.08192C21.3645 4.47684 20.9982 3.92709 20.5355 3.46447C20.0729 3.00184 19.5232 2.63552 18.9181 2.38667C18.313 2.13783 17.6646 2.0114 17.0104 2.01471C16.3561 2.01801 15.709 2.15098 15.1065 2.40592C14.5039 2.66087 13.9579 3.03273 13.5 3.5L3.5 13.5C3.03273 13.9579 2.66087 14.5039 2.40592 15.1065C2.15098 15.709 2.01801 16.3561 2.01471 17.0104C2.0114 17.6646 2.13783 18.313 2.38667 18.9181C2.63552 19.5232 3.00184 20.0729 3.46447 20.5355C3.92709 20.9982 4.47684 21.3645 5.08192 21.6133C5.687 21.8622 6.3354 21.9886 6.98965 21.9853C7.64389 21.982 8.29098 21.849 8.89352 21.5941C9.49605 21.3391 10.0421 20.9673 10.5 20.5Z" stroke="currentColor" className="text-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M8.5 8.5L15.5 15.5" stroke="currentColor" className="text-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className="font-['Inter'] font-normal leading-[20px] text-primary text-[16px] whitespace-nowrap">{formatUsage(outcome.usage)}</span>
+                    <span className="font-['Inter'] font-normal leading-5 text-primary text-[16px] whitespace-nowrap">{formatUsage(outcome.usage)}</span>
                     {outcome.usageFrequency && (
-                      <span className="font-['Inter'] font-normal leading-[20px] text-primary text-[16px] whitespace-nowrap"> {outcome.usageFrequency}</span>
+                      <span className="font-['Inter'] font-normal leading-5 text-primary text-[16px] whitespace-nowrap"> {outcome.usageFrequency}</span>
                     )}
                     {outcome.usageDelivery && (
-                      <span className="font-['Inter'] font-normal leading-[20px] text-primary text-[16px] whitespace-nowrap"> {outcome.usageDelivery}</span>
+                      <span className="font-['Inter'] font-normal leading-5 text-primary text-[16px] whitespace-nowrap"> {outcome.usageDelivery}</span>
                     )}
                   </div>
                   <div className="flex items-center justify-center w-full h-[18px]" data-column-description>
@@ -345,12 +345,12 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
                   </div>
                   <div className="flex items-center justify-center w-full h-[18px]" data-column-description>
                     <p className="font-['Inter'] font-normal leading-[18px] text-muted-foreground text-[13px] text-center whitespace-nowrap">
-                      {outcome.bestTime && outcome.bestTime.includes('or') ? 'Morning or Evening'
+                      {outcome.bestTime?.includes('or') ? 'Morning or Evening'
                         : outcome.bestTime === 'Anytime' ? 'Anytime'
-                        : (outcome.bestTime.includes('with food') || outcome.bestTime.includes('meal')) ? 'with food'
-                        : outcome.bestTime.includes('before bed') ? 'Before bed'
-                        : outcome.bestTime.includes('Morning') && !outcome.bestTime.includes('Evening') ? 'Morning'
-                        : outcome.bestTime.includes('Evening') && !outcome.bestTime.includes('Morning') ? 'Evening'
+                        : (outcome.bestTime?.includes('with food') || outcome.bestTime?.includes('meal')) ? 'with food'
+                        : outcome.bestTime?.includes('before bed') ? 'Before bed'
+                        : outcome.bestTime?.includes('Morning') && !outcome.bestTime?.includes('Evening') ? 'Morning'
+                        : outcome.bestTime?.includes('Evening') && !outcome.bestTime?.includes('Morning') ? 'Evening'
                         : outcome.bestTime || '\u00A0'}
                     </p>
                   </div>
@@ -366,8 +366,8 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
                       <path d="M16 7H22V13" stroke="currentColor" className="text-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M22 7L13.5 15.5L8.5 10.5L2 17" stroke="currentColor" className="text-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className="font-['Inter'] font-normal leading-[24px] text-primary text-[16px] whitespace-nowrap">{outcome.resultsWeeks}</span>
-                    <span className="font-['Inter'] font-normal leading-[24px] text-primary text-[16px]">weeks</span>
+                    <span className="font-['Inter'] font-normal leading-6 text-primary text-[16px] whitespace-nowrap">{outcome.resultsWeeks}</span>
+                    <span className="font-['Inter'] font-normal leading-6 text-primary text-[16px]">weeks</span>
                   </div>
                   <div className="w-full flex items-center justify-center h-[18px]" data-column-description>
                     <IntensityBar intensity={outcome.intensity} />
@@ -404,13 +404,13 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
                       <path d="M10.5 20.5L20.5 10.5C20.9673 10.0421 21.3391 9.49605 21.5941 8.89352C21.849 8.29098 21.982 7.64389 21.9853 6.98965C21.9886 6.3354 21.8622 5.687 21.6133 5.08192C21.3645 4.47684 20.9982 3.92709 20.5355 3.46447C20.0729 3.00184 19.5232 2.63552 18.9181 2.38667C18.313 2.13783 17.6646 2.0114 17.0104 2.01471C16.3561 2.01801 15.709 2.15098 15.1065 2.40592C14.5039 2.66087 13.9579 3.03273 13.5 3.5L3.5 13.5C3.03273 13.9579 2.66087 14.5039 2.40592 15.1065C2.15098 15.709 2.01801 16.3561 2.01471 17.0104C2.0114 17.6646 2.13783 18.313 2.38667 18.9181C2.63552 19.5232 3.00184 20.0729 3.46447 20.5355C3.92709 20.9982 4.47684 21.3645 5.08192 21.6133C5.687 21.8622 6.3354 21.9886 6.98965 21.9853C7.64389 21.982 8.29098 21.849 8.89352 21.5941C9.49605 21.3391 10.0421 20.9673 10.5 20.5Z" stroke="currentColor" className="text-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M8.5 8.5L15.5 15.5" stroke="currentColor" className="text-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className="font-['Inter'] font-normal leading-[24px] text-foreground text-[16px]">×</span>
+                    <span className="font-['Inter'] font-normal leading-6 text-foreground text-[16px]">×</span>
                     <span className="font-['Inter'] font-normal leading-[30px] text-primary text-[20px]">{formatUsage(outcome.usage)}</span>
                     {outcome.usageFrequency && (
-                      <span className="font-['Inter'] font-normal leading-[20px] text-primary text-[16px] whitespace-nowrap"> {outcome.usageFrequency}</span>
+                      <span className="font-['Inter'] font-normal leading-5 text-primary text-[16px] whitespace-nowrap"> {outcome.usageFrequency}</span>
                     )}
                     {outcome.usageDelivery && (
-                      <span className="font-['Inter'] font-normal leading-[20px] text-primary text-[16px] whitespace-nowrap"> {outcome.usageDelivery}</span>
+                      <span className="font-['Inter'] font-normal leading-5 text-primary text-[16px] whitespace-nowrap"> {outcome.usageDelivery}</span>
                     )}
                   </div>
                   <p className="font-['Inter'] font-normal leading-[18px] text-muted-foreground text-[13px] text-center">
@@ -554,7 +554,7 @@ export function WhatToExpectSection({ whatToExpectData }: WhatToExpectSectionPro
                       <path d="M22 7L13.5 15.5L8.5 10.5L2 17" stroke="currentColor" className="text-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <span className="font-['Inter'] font-normal leading-[30px] text-primary text-[20px]">{outcome.resultsWeeks}</span>
-                    <span className="font-['Inter'] font-normal leading-[24px] text-primary text-[16px]">weeks</span>
+                    <span className="font-['Inter'] font-normal leading-6 text-primary text-[16px]">weeks</span>
                   </div>
                   <IntensityBar intensity={outcome.intensity} />
                 </div>

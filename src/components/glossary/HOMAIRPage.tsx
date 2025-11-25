@@ -1,18 +1,12 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface HOMAIRPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function HOMAIRPage({ onNavigate }: HOMAIRPageProps) {
+export function HOMAIRPage() {
   return (
     <GlossaryTemplate
       term="HOMA-IR"
       abbreviation="Homeostatic Model Assessment of Insulin Resistance"
-      onNavigate={onNavigate}
-      currentPage="homair"
       definition="A mathematical formula quantifying insulin resistance from fasting glucose and insulin levels."
-      detailedExplanation={`HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) is a method used to quantify insulin resistance and beta-cell function from fasting blood glucose and fasting insulin levels. It provides an estimate of insulin resistance without the need for complex testing procedures like the hyperinsulinemic-euglycemic clamp (the gold standard but impractical for routine use).
+      expandedExplanation={`HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) is a method used to quantify insulin resistance and beta-cell function from fasting blood glucose and fasting insulin levels. It provides an estimate of insulin resistance without the need for complex testing procedures like the hyperinsulinemic-euglycemic clamp (the gold standard but impractical for routine use).
 
 **Calculation**
 
@@ -23,10 +17,10 @@ Where fasting insulin is measured in µU/mL and fasting glucose in mg/dL. If glu
 **Interpretation**
 
 Higher HOMA-IR values indicate greater insulin resistance. While cutoffs vary by population and laboratory, general guidelines suggest:
-- HOMA-IR &lt; 1.0: Optimal insulin sensitivity
+- HOMA-IR &lt;1.0: Optimal insulin sensitivity
 - HOMA-IR 1.0-2.9: Early/mild insulin resistance
 - HOMA-IR ≥ 2.9-3.0: Significant insulin resistance (common cutoff, though some use 2.5 or 2.6)
-- HOMA-IR &gt; 5.0: Severe insulin resistance
+- HOMA-IR &gt;5.0: Severe insulin resistance
 
 These cutoffs can vary based on ethnicity, age, BMI, and other factors.
 

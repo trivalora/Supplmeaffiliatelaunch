@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Activity, TrendingUp, Zap } from 'lucide-react';
 

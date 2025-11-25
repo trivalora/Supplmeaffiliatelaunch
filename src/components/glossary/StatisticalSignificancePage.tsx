@@ -1,14 +1,8 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface StatisticalSignificancePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function StatisticalSignificancePage({ onNavigate }: StatisticalSignificancePageProps) {
+export function StatisticalSignificancePage() {
   return (
     <GlossaryTemplate
-      onNavigate={onNavigate}
-      currentPage="statisticalsignificance"
       term="Statistical Significance"
       definition="A measure indicating that a research finding is unlikely to have occurred by chance alone, typically represented by a p-value less than 0.05."
       detailedExplanation="Statistical significance is a mathematical measure used to determine whether the results of a study are likely due to the intervention being tested or simply due to random chance. A result is typically considered statistically significant when the p-value is less than 0.05, meaning there is less than a 5% probability that the observed effect occurred by chance.

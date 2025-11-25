@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface AcetatePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function AcetatePage({ onNavigate }: AcetatePageProps) {
+export function AcetatePage() {
   return (
     <GlossaryTemplate
       term="Acetate"
       abbreviation="Acetic Acid, C2:0"
-      onNavigate={onNavigate}
-      currentPage="acetate"
       definition="A two-carbon short-chain fatty acid and the most abundantly produced SCFA from bacterial fermentation of dietary fiber in the colon, with roles in energy metabolism, lipid synthesis, appetite regulation, and inflammation modulation."
       detailedExplanation="Acetate (acetic acid) is a two-carbon saturated fatty acid (C2:0) that represents the most abundant short-chain fatty acid (SCFA) produced by gut bacterial fermentation of dietary fibers. It typically accounts for approximately 60-70% of total colonic SCFA production, with the remainder being propionate (~20-25%) and butyrate (~15-20%).
 

@@ -1,17 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface PrediabetesPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function PrediabetesPage({ onNavigate }: PrediabetesPageProps) {
+export function PrediabetesPage() {
   return (
     <GlossaryTemplate
       term="Prediabetes"
-      onNavigate={onNavigate}
-      currentPage="prediabetes"
       definition="A condition in which blood glucose levels are higher than normal but not high enough to be classified as type 2 diabetes. It represents an increased risk for developing diabetes and cardiovascular disease."
-      detailedExplanation={`Prediabetes is a metabolic state between normal glucose regulation and type 2 diabetes, characterized by impaired fasting glucose (IFG), impaired glucose tolerance (IGT), or elevated HbA1c. Without intervention, 15-30% of people with prediabetes will develop type 2 diabetes within 5 years.
+      expandedExplanation={`Prediabetes is a metabolic state between normal glucose regulation and type 2 diabetes, characterized by impaired fasting glucose (IFG), impaired glucose tolerance (IGT), or elevated HbA1c. Without intervention, 15-30% of people with prediabetes will develop type 2 diabetes within 5 years.
 
 **Diagnostic Criteria (Any One of Three):**
 

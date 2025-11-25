@@ -6,8 +6,10 @@ import { SEOHead } from './SEOHead';
 import { SearchResults } from './SearchResults';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
-import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb7.png";
-import { trackComparisonProductImpression, trackComparisonProductClick } from '../utils/analytics';
+import { trackComparisonProductImpression, trackComparisonProductClick } from '@/lib/analytics';
+
+// Amazon button image path (optimized version available)
+const imgAmazonButton = '/optimized/2f3309a930da536601e44619e42e44f89c102eb7-256.webp';
 
 interface ProductComparisonProps {
   onNavigate: (page: PageKey) => void;
@@ -676,7 +678,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
-                                            rel="nofollow noopener noreferrer"
+                                            rel="nofollow noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
                                             onClick={(e) => {
@@ -707,7 +709,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
-                                            rel="nofollow noopener noreferrer"
+                                            rel="nofollow noreferrer"
                                             className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
                                             onClick={(e) => {
@@ -736,7 +738,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
-                                            rel="nofollow noopener noreferrer"
+                                            rel="nofollow noreferrer"
                                             className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
                                             onClick={(e) => {
@@ -765,7 +767,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
-                                            rel="nofollow noopener noreferrer"
+                                            rel="nofollow noreferrer"
                                             className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
                                             onClick={(e) => {
@@ -794,7 +796,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
-                                            rel="nofollow noopener noreferrer"
+                                            rel="nofollow noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
                                             onClick={(e) => {
@@ -823,7 +825,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
-                                            rel="nofollow noopener noreferrer"
+                                            rel="nofollow noreferrer"
                                             className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-black hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
                                             onClick={(e) => {
@@ -851,7 +853,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
-                                            rel="nofollow noopener noreferrer"
+                                            rel="nofollow noreferrer"
                                             className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                             {...tooltipHandlers}
                                             onClick={(e) => {
@@ -880,7 +882,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                           <a
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
-                                            rel="nofollow noopener noreferrer"
+                                            rel="nofollow noreferrer"
                                             className="inline-flex items-center justify-center w-full px-3 py-2 rounded-lg bg-primary text-white hover:opacity-90 transition-opacity text-sm font-medium"
                                             {...tooltipHandlers}
                                             onClick={(e) => {
@@ -1003,7 +1005,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                         <a 
                                           href={addUTMParameters(r.product_url)} 
                                           target="_blank" 
-                                          rel="nofollow noopener noreferrer" 
+                                          rel="nofollow noreferrer" 
                                           className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity" 
                                           {...tooltipHandlers}
                                           onClick={(e) => {
@@ -1031,7 +1033,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                         <a 
                                           href={addUTMParameters(r.product_url)} 
                                           target="_blank" 
-                                          rel="nofollow noopener noreferrer" 
+                                          rel="nofollow noreferrer" 
                                           className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-black hover:opacity-90 transition-opacity" 
                                           {...tooltipHandlers}
                                           onClick={(e) => {
@@ -1059,7 +1061,7 @@ export function ProductComparison({ onNavigate, initialSupplement }: ProductComp
                                         <a 
                                           href={addUTMParameters(r.product_url)} 
                                           target="_blank" 
-                                          rel="nofollow noopener noreferrer" 
+                                          rel="nofollow noreferrer" 
                                           className="flex items-center justify-center w-full px-3 py-2 rounded-lg bg-primary text-white hover:opacity-90 transition-opacity text-sm font-medium" 
                                           {...tooltipHandlers}
                                           onClick={(e) => {

@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function BacteroidesPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Bacteroides"
         definition="A genus of Gram-negative, anaerobic bacteria that represents one of the most abundant groups in the human gut microbiome. Bacteroides species are specialized in breaking down complex carbohydrates and play important roles in nutrition and immune function."
@@ -135,7 +131,5 @@ export function BacteroidesPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

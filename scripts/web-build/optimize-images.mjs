@@ -13,7 +13,8 @@ const projectRoot = process.cwd();
 const sourceDir = path.join(projectRoot, 'src', 'assets');
 const outDir = path.join(projectRoot, 'public', 'optimized');
 // Include small sizes for icons/logos/thumbnails to avoid over-downloading on mobile
-const widths = [48, 64, 96, 128, 256, 640, 1280, 1920];
+// Include 2560 for large desktop displays and full-width hero images
+const widths = [48, 64, 96, 128, 256, 640, 1280, 1920, 2560];
 
 function ensureDir(p) {
     if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });

@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function SublingualPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function SublingualPage() {
   return (
     <GlossaryTemplate
       term="Sublingual Administration"
@@ -126,11 +118,6 @@ When considering sublingual supplements:
         { term: "Pharmacokinetics", key: "pharmacokinetics" },
         { term: "Therapeutic Dose", key: "therapeutic-dose" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="sublingual"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

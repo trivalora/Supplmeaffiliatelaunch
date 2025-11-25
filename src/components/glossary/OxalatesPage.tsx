@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { AlertTriangle, Leaf, TrendingDown } from 'lucide-react';
 
-interface OxalatesPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function OxalatesPage({ onNavigate }: OxalatesPageProps) {
+export function OxalatesPage() {
   return (
     <GlossaryTemplate
       term="Oxalates"
       abbreviation="Oxalic Acid"
       pronunciation="ox-uh-lates"
-      onNavigate={onNavigate}
-      currentPage="oxalates"
       definition="Natural organic compounds found in many plant foods that can bind to minerals (especially calcium) in the digestive tract, reducing absorption, and contribute to kidney stone formation in susceptible individuals when consumed in high amounts."
       
       expandedExplanation={

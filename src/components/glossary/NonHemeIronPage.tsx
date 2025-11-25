@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface NonHemeIronPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function NonHemeIronPage({ onNavigate }: NonHemeIronPageProps) {
+export function NonHemeIronPage() {
   return (
     <GlossaryTemplate
       term="Non-Heme Iron"
       abbreviation="None"
-      onNavigate={onNavigate}
-      currentPage="nonhemeiron"
       definition="The form of iron found in plant foods, dairy products, eggs, and as part of the total iron in meat (comprising about 60% of meat iron), which has lower bioavailability (2-20%) than heme iron and is highly influenced by dietary absorption enhancers and inhibitors."
       detailedExplanation="Non-heme iron represents the majority of dietary iron consumed globally, constituting ~85-90% of total iron intake in typical Western diets and virtually 100% of iron in vegetarian and vegan diets. Unlike heme iron, which is absorbed as an intact complex, non-heme iron must be liberated from food components, solubilized, and reduced before absorption, making it much more susceptible to dietary factors that either enhance or inhibit absorption.
 
@@ -44,7 +38,7 @@ Non-heme iron exists in two oxidation states:
 
 **Polyphenols and tannins:** Found in tea, coffee, cocoa, red wine, and some fruits/vegetables. They bind iron and reduce absorption. One cup of tea or coffee can reduce iron absorption by 60-90% if consumed with a meal.
 
-**Calcium:** High calcium intake (>300 mg in a single meal) can inhibit non-heme iron absorption by 30-50%, likely through competition for absorption pathways or formation of insoluble complexes.
+**Calcium:** High calcium intake (&gt;300 mg in a single meal) can inhibit non-heme iron absorption by 30-50%, likely through competition for absorption pathways or formation of insoluble complexes.
 
 **Other minerals:** Zinc and manganese can compete with iron for DMT1 transporter, though this is typically only significant with high-dose supplementation.
 

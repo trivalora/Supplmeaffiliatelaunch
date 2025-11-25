@@ -1,16 +1,10 @@
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface CohortStudyPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CohortStudyPage({ onNavigate }: CohortStudyPageProps) {
+export function CohortStudyPage() {
   return (
     <GlossaryTemplate
       term="Cohort Study"
-      onNavigate={onNavigate}
-      currentPage="cohortstudy"
       definition="A type of observational research that follows a group of people (cohort) who share a common characteristic over time to determine how different exposures affect the development of specific outcomes."
       
       expandedExplanation={

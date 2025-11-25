@@ -1,14 +1,8 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface SubgroupAnalysisPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function SubgroupAnalysisPage({ onNavigate }: SubgroupAnalysisPageProps) {
+export function SubgroupAnalysisPage() {
   return (
     <GlossaryTemplate
-      onNavigate={onNavigate}
-      currentPage="subgroupanalysis"
       term="Subgroup Analysis"
       definition="An examination of treatment effects within specific subsets of a study population, such as by age, sex, or baseline health status."
       detailedExplanation="Subgroup analysis involves analyzing whether a treatment has different effects in specific groups of participants within a larger study. Researchers might examine whether a supplement works better in men versus women, in older versus younger adults, or in people with certain health conditions versus healthy individuals.

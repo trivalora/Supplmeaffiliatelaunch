@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Activity, Droplet, Dumbbell } from 'lucide-react';
 
-interface IsoleucinePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function IsoleucinePage({ onNavigate }: IsoleucinePageProps) {
+export function IsoleucinePage() {
   return (
     <GlossaryTemplate
       term="Isoleucine"
       abbreviation="Ile, I (single-letter code)"
       pronunciation="eye-so-loo-seen"
-      onNavigate={onNavigate}
-      currentPage="isoleucine"
       definition="An essential branched-chain amino acid (BCAA) that cannot be produced by the body and must be obtained from dietary protein. Isoleucine plays important roles in muscle metabolism, immune function, hemoglobin production, and energy regulation."
       
       expandedExplanation={

@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Flame, Heart, TrendingUp } from 'lucide-react';
 
-interface CRPPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CRPPage({ onNavigate }: CRPPageProps) {
+export function CRPPage() {
   return (
     <GlossaryTemplate
       term="CRP (C-Reactive Protein)"
       abbreviation="CRP, hs-CRP (high-sensitivity CRP)"
       pronunciation="see-are-pee / see-ree-ak-tiv pro-teen"
-      onNavigate={onNavigate}
-      currentPage="crp"
       definition="An acute phase protein produced by the liver in response to inflammation, serving as a sensitive biomarker of systemic inflammation and cardiovascular disease risk."
       
       expandedExplanation={

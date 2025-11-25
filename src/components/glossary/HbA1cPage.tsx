@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { TrendingUp, Activity, Calendar } from 'lucide-react';
 
-interface HbA1cPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function HbA1cPage({ onNavigate }: HbA1cPageProps) {
+export function HbA1cPage() {
   return (
     <GlossaryTemplate
       term="HbA1c (Hemoglobin A1c)"
       abbreviation="HbA1c, A1C, Glycated Hemoglobin"
       pronunciation="aych-bee-ay-wuhn-see / gly-kay-ted hee-muh-glow-bin"
-      onNavigate={onNavigate}
-      currentPage="hba1c"
       definition="A blood test that measures the average blood glucose (sugar) levels over the past 2-3 months by detecting the percentage of hemoglobin proteins that have glucose attached to them, serving as a key diagnostic and monitoring tool for diabetes."
       
       expandedExplanation={

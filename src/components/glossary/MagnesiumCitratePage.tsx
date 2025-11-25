@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const MagnesiumCitratePage: React.FC = () => {
   return (
@@ -148,12 +149,12 @@ export const MagnesiumCitratePage: React.FC = () => {
             <div className="space-y-3 text-sm">
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Walker AF, et al. Mg citrate found more bioavailable than other Mg preparations in a randomised, double-blind study. <em>Magnes Res.</em> 2003;16(3):183-91.
+                  Walker AF, et al. Mg citrate found more bioavailable than other Mg preparations in a randomised, double-blind study. <em>Magnes Res.</em>2003;16(3):183-91.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Lindberg JS, et al. Magnesium bioavailability from magnesium citrate and magnesium oxide. <em>J Am Coll Nutr.</em> 1990;9(1):48-55.
+                  Lindberg JS, et al. Magnesium bioavailability from magnesium citrate and magnesium oxide. <em>J Am Coll Nutr.</em>1990;9(1):48-55.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
@@ -171,7 +172,7 @@ export const MagnesiumCitratePage: React.FC = () => {
               <a
                 href="https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="nofollow noreferrer"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />

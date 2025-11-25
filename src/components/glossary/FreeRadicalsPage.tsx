@@ -6,7 +6,7 @@ export function FreeRadicalsPage() {
     term: "Free Radicals",
     definition: "Highly reactive molecules or atoms that contain one or more unpaired electrons, making them unstable and capable of damaging cells, proteins, and DNA through oxidative reactions.",
     
-    detailedExplanation: (
+    expandedExplanation: (
       <>
         <p>Free radicals are a natural byproduct of normal metabolism and cellular function. In controlled amounts, they serve important roles in immune function and cell signaling. However, when free radical production exceeds the body's antioxidant defenses, they can cause oxidative damage that contributes to aging and disease.</p>
         
@@ -116,7 +116,7 @@ export function FreeRadicalsPage() {
       </>
     ),
 
-    commonUse: "&quot;Vitamin C is a potent antioxidant that neutralizes free radicals by donating electrons, thereby preventing oxidative damage to cells.&quot;",
+    commonUse: "Vitamin C is a potent antioxidant that neutralizes free radicals by donating electrons, thereby preventing oxidative damage to cells.",
 
     importanceInResearch: "Understanding free radical biology is essential for evaluating antioxidant supplements and their potential to reduce oxidative stress. Research examines whether supplemental antioxidants can beneficially shift the oxidative balance in various conditions without interfering with beneficial free radical functions.",
 

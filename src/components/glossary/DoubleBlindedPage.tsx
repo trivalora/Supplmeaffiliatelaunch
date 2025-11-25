@@ -1,14 +1,8 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface DoubleBlindedPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function DoubleBlindedPage({ onNavigate }: DoubleBlindedPageProps) {
+export function DoubleBlindedPage() {
   return (
     <GlossaryTemplate
-      onNavigate={onNavigate}
-      currentPage="doubleblinded"
       term="Double Blinded"
       definition="A study design where neither participants nor researchers know who is receiving the active treatment versus placebo until the study ends."
       detailedExplanation="Double-blinded studies represent the gold standard in clinical research. In these studies, neither the participants nor the researchers who interact with them and collect data know which participants are receiving the active supplement and which are receiving the placebo. Only an independent party (often a data management team) maintains the code that reveals group assignments, and this code is not broken until after all data has been collected.

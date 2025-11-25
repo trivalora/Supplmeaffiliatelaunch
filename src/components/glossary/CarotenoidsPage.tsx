@@ -1,17 +1,12 @@
+'use client';
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Sun, Eye, Shield, Carrot, Heart, Sparkles } from 'lucide-react';
 
-interface CarotenoidsPageProps {
-  onNavigate: (page: string) => void;
-}
-
-export const CarotenoidsPage: React.FC<CarotenoidsPageProps> = ({ onNavigate }) => {
+export function CarotenoidsPage() {
   return (
     <GlossaryTemplate
       term="Carotenoids"
-      onNavigate={onNavigate}
-      currentPage="carotenoids"
       definition="A family of fat-soluble pigments produced by plants and certain microorganisms that provide yellow, orange, and red colors to fruits and vegetables. Carotenoids function as antioxidants and some serve as precursors to vitamin A (provitamin A carotenoids)."
       detailedExplanation="Carotenoids are tetraterpenoid compounds containing 40 carbon atoms with an extensive conjugated double-bond system responsible for their characteristic colors and antioxidant properties. Over 600 carotenoids exist in nature, but only about 40-50 are consumed regularly in the human diet, and approximately 20 are found in human blood and tissues.
 
@@ -182,4 +177,4 @@ Carotenoid supplements are available as single compounds or mixtures. Important 
       ]}
     />
   );
-};
+}

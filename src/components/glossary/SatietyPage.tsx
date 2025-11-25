@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Brain, Activity, Scale, Beaker } from 'lucide-react';
 

@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface SIBOPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function SIBOPage({ onNavigate }: SIBOPageProps) {
+export function SIBOPage() {
   return (
     <GlossaryTemplate
       term="Small Intestinal Bacterial Overgrowth"
       abbreviation="SIBO"
-      onNavigate={onNavigate}
-      currentPage="sibo"
       definition="A condition characterized by excessive bacterial colonization of the small intestine (typically &gt;10³ colony-forming units per mL of jejunal aspirate or positive breath test), causing malabsorption, bloating, diarrhea, and other gastrointestinal symptoms."
       detailedExplanation="Small Intestinal Bacterial Overgrowth (SIBO) occurs when bacteria that normally reside predominantly in the colon proliferate abnormally in the small intestine. The small intestine typically maintains relatively low bacterial counts through mechanisms including gastric acid, bile salts, pancreatic enzymes, intestinal motility (especially the migrating motor complex), and the ileocecal valve. When these protective mechanisms fail, bacterial overgrowth can develop.
 
@@ -18,7 +12,7 @@ SIBO is classified by the predominant gas produced during bacterial fermentation
 
 Risk factors include conditions that slow motility (diabetes, scleroderma, hypothyroidism), structural abnormalities (diverticula, surgical blind loops, strictures), reduced gastric acid (chronic PPI use, atrophic gastritis), pancreatic insufficiency, and immune deficiency. There's significant overlap between SIBO and IBS, with studies reporting 4-78% SIBO prevalence in IBS patients (wide range reflects diagnostic variability).
 
-Diagnosis is challenging. The gold standard is jejunal aspirate culture (>10³ CFU/mL), but this is invasive and rarely performed. Instead, breath tests measuring hydrogen and methane after lactulose or glucose ingestion are commonly used, though specificity and sensitivity are debated. Interpretation criteria vary, and false positives/negatives occur.
+Diagnosis is challenging. The gold standard is jejunal aspirate culture (&gt;10³ CFU/mL), but this is invasive and rarely performed. Instead, breath tests measuring hydrogen and methane after lactulose or glucose ingestion are commonly used, though specificity and sensitivity are debated. Interpretation criteria vary, and false positives/negatives occur.
 
 Treatment typically involves antibiotics (rifaximin is most studied, with 40-50% symptom improvement), sometimes combined with neomycin or metronidazole for methane-dominant SIBO. Dietary modifications (low fermentation diet, specific carbohydrate diet), prokinetics to restore motility, and addressing underlying causes are important. Probiotics' role is controversial—some evidence suggests benefit, but certain strains might theoretically worsen overgrowth. Herbal antimicrobials are studied as alternatives. Relapse rates are high (12-44% within 3-6 months), often necessitating maintenance strategies."
       examples={[

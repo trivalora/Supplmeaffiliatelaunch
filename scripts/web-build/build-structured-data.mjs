@@ -2,6 +2,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { getSEOContent, getCleanSupplementName } from './seo-content-map.mjs';
 
 // Pre-generate JSON-LD files for supplement and glossary pages for static inclusion / prefetch.
 const __filename = fileURLToPath(import.meta.url);
@@ -21,13 +22,20 @@ function buildSupplementSchemas(route) {
   const prettyKey = route.key.replace(/v2$/, '').replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
   const pageUrl = `${baseUrl()}/${prettyKey}`;
   
+  // Get SEO-optimized content
+  const seoContent = getSEOContent(route.key);
+  const supplementName = seoContent ? seoContent.name : getCleanSupplementName(route.key);
+  const seoTitle = seoContent ? seoContent.title : route.title;
+  const seoDescription = seoContent ? seoContent.description : route.description;
+  const category = seoContent ? seoContent.category : (route.subcategory || 'Supplement');
+  
   // Enhanced Product schema with more detail
   const product = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: route.title,
-    description: route.description,
-    category: route.subcategory || 'Supplement',
+    name: `${supplementName} - Scientific Evidence & Price Comparison`,
+    description: seoDescription,
+    category: category,
     brand: {
       '@type': 'Brand',
       name: 'suppl.me'
@@ -47,12 +55,12 @@ function buildSupplementSchemas(route) {
   const medicalWebPage = {
     '@context': 'https://schema.org',
     '@type': 'MedicalWebPage',
-    name: route.title,
-    description: route.description,
+    name: seoTitle,
+    description: seoDescription,
     about: {
       '@type': 'Thing',
-      name: route.title,
-      description: route.description
+      name: supplementName,
+      description: seoDescription
     },
     url: pageUrl,
     lastReviewed: new Date().toISOString().split('T')[0],
@@ -66,8 +74,8 @@ function buildSupplementSchemas(route) {
     },
     mainEntity: {
       '@type': 'Drug',
-      name: route.title,
-      description: route.description,
+      name: supplementName,
+      description: seoDescription,
       drugClass: 'Dietary Supplement'
     }
   };
@@ -221,28 +229,44 @@ async function loadKnowledgebaseRoutes() {
   // Try dynamic import first (will likely fail on .ts under plain Node)
   try {
     const mod = await import(path.join(projectRoot, 'src', 'routes.config.ts'));
-    if (mod && mod.KNOWLEDGEBASE_ROUTES) return mod.KNOWLEDGEBASE_ROUTES;
+    if (mod && mod.KNOWLEDGEBASE_ROUTES) {
+      // Filter for knowledgebase routes only
+      const filtered = mod.KNOWLEDGEBASE_ROUTES
+        .filter(r => r && r.category === 'knowledgebase' && r.key && r.title)
+        .map(r => ({ key: r.key, title: r.title, description: r.description || r.title, subcategory: r.subcategory }));
+      console.log(`[structured-data] Dynamic import loaded ${mod.KNOWLEDGEBASE_ROUTES.length} total, filtered to ${filtered.length} knowledgebase routes`);
+      return filtered;
+    }
   } catch { }
 
   // Fallback: parse the TS file as text
-  // CRITICAL FIX: Use projectRoot instead of __dirname/../.. for correct path resolution
-  const tsPath = path.join(projectRoot, '..', 'src', 'routes.config.ts');
+  // FIXED: Use correct path relative to projectRoot
+  const tsPath = path.join(projectRoot, 'src', 'routes.config.ts');
   const parsed = parseRoutesArrayFromTS(tsPath, 'KNOWLEDGEBASE_ROUTES');
+  console.log(`[structured-data] Parsed ${parsed.length} total routes from KNOWLEDGEBASE_ROUTES`);
   const filtered = parsed
-    .filter(r => r && r.category === 'v2' && r.key && r.title)
+    .filter(r => r && r.category === 'knowledgebase' && r.key && r.title)
     .map(r => ({ key: r.key, title: r.title, description: r.description || r.title, subcategory: r.subcategory }));
+  console.log(`[structured-data] Filtered to ${filtered.length} knowledgebase routes`);
   return filtered;
 }
 
 (async () => {
   // Supplements (v2)
   const v2 = await loadKnowledgebaseRoutes();
+  console.log(`[structured-data] Loaded ${v2.length} v2 routes`);
   if (v2.length === 0) {
     console.warn('[structured-data] No v2 routes found.');
   }
+  // Debug: show first 3 routes
+  if (v2.length > 0) {
+    console.log('[structured-data] Sample routes:', v2.slice(0, 3).map(r => r.key));
+  }
   for (const r of v2) {
     const jsonld = buildSupplementSchemas(r);
-    fs.writeFileSync(path.join(outDir, `${r.key}.json`), JSON.stringify(jsonld, null, 2));
+    // Use clean filename without v2 suffix
+    const prettyKey = r.key.replace(/v2$/, '').replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+    fs.writeFileSync(path.join(outDir, `${prettyKey}.json`), JSON.stringify(jsonld, null, 2));
   }
   console.log('[structured-data] Wrote', v2.length, 'files to public/structured-data');
 
@@ -258,6 +282,7 @@ async function loadKnowledgebaseRoutes() {
         title: c.title,
         description: c.description || c.title
       });
+      // Keep original key for comparison pages (already clean)
       fs.writeFileSync(path.join(outDir, `${c.key}.json`), JSON.stringify(jsonld, null, 2));
     }
     console.log('[structured-data] Wrote', comparisonParsed.length, 'comparison page files');

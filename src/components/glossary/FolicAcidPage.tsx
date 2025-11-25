@@ -1,6 +1,7 @@
+'use client';
 import React from 'react';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { Link } from 'wouter';
+import Link from 'next/link';
 
 export const FolicAcidPage: React.FC = () => {
   return (
@@ -231,12 +232,12 @@ export const FolicAcidPage: React.FC = () => {
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Pfeiffer CM, et al. Unmetabolized folic acid is detected in nearly all serum samples from US children, adolescents, and adults. <em>J Nutr.</em> 2015;145(3):520-31.
+                  Pfeiffer CM, et al. Unmetabolized folic acid is detected in nearly all serum samples from US children, adolescents, and adults. <em>J Nutr.</em>2015;145(3):520-31.
                 </p>
               </div>
               <div className="p-4 bg-muted/30 rounded">
                 <p className="mb-2">
-                  Bailey RL, et al. Why US children use dietary supplements. <em>Pediatr Res.</em> 2013;74(6):737-41.
+                  Bailey RL, et al. Why US children use dietary supplements. <em>Pediatr Res.</em>2013;74(6):737-41.
                 </p>
               </div>
             </div>
@@ -249,7 +250,7 @@ export const FolicAcidPage: React.FC = () => {
               <a
                 href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="nofollow noreferrer"
                 className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />

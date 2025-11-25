@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Iron (V1 - Archived)",
-    "description": "Essential mineral for oxygen transport and energy metabolism",
-    "category": "Supplement",
+    "name": "Iron Supplement - Scientific Evidence & Price Comparison",
+    "description": "Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management.",
+    "category": "Minerals",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Iron (V1 - Archived)",
-    "description": "Essential mineral for oxygen transport and energy metabolism",
+    "name": "Iron: Evidence-Based Guide to Forms, Absorption & Safety",
+    "description": "Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management.",
     "about": {
       "@type": "Thing",
-      "name": "Iron (V1 - Archived)",
-      "description": "Essential mineral for oxygen transport and energy metabolism"
+      "name": "Iron Supplement",
+      "description": "Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management."
     },
     "url": "https://suppl.me/iron",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Iron (V1 - Archived)",
-      "description": "Essential mineral for oxygen transport and energy metabolism",
+      "name": "Iron Supplement",
+      "description": "Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management.",
       "drugClass": "Dietary Supplement"
     }
   },

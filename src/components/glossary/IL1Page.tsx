@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface IL1PageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function IL1Page({ onNavigate }: IL1PageProps) {
+export function IL1Page() {
   return (
     <GlossaryTemplate
       term="Interleukin-1"
       abbreviation="IL-1"
-      onNavigate={onNavigate}
-      currentPage="il1"
       definition="A pro-inflammatory cytokine that exists in two primary forms (IL-1α and IL-1β) and plays a crucial role in initiating and amplifying inflammatory responses, fever, and immune cell activation."
       detailedExplanation="Interleukin-1 (IL-1) is one of the first cytokines to be released during inflammation or immune activation. It exists primarily as two forms: IL-1α (typically associated with localized inflammation) and IL-1β (the predominant circulating form). IL-1β is produced mainly by activated macrophages and monocytes in response to infection, injury, or inflammatory triggers. Once released, IL-1β triggers a cascade of inflammatory responses including fever, acute phase protein production, immune cell recruitment, and activation of other inflammatory pathways.
 

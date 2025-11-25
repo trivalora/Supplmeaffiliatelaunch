@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface BetaCarotenePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function BetaCarotenePage({ onNavigate }: BetaCarotenePageProps) {
+export function BetaCarotenePage() {
   return (
     <GlossaryTemplate
       term="Beta-Carotene"
       abbreviation="β-Carotene, Provitamin A"
-      onNavigate={onNavigate}
-      currentPage="betacarotene"
       definition="A red-orange pigment and provitamin A carotenoid found in plants that the body can convert to vitamin A (retinol), while also functioning as a potent antioxidant that protects cells from oxidative damage."
       detailedExplanation="Beta-carotene (β-carotene) is one of the most abundant and well-studied carotenoids, belonging to a family of over 600 fat-soluble pigments found in plants. It's classified as a provitamin A carotenoid because the body can cleave it to produce vitamin A (retinol), though not all beta-carotene consumed is converted—some circulates intact and provides independent antioxidant benefits.
 
@@ -26,7 +20,7 @@ export function BetaCarotenePage({ onNavigate }: BetaCarotenePageProps) {
 
 **Supplementation concerns:** While dietary beta-carotene from whole foods appears safe and beneficial, high-dose supplements (20-30 mg/day) have raised concerns. The ATBC and CARET trials found increased lung cancer risk in smokers taking high-dose beta-carotene supplements. Current recommendations favor obtaining beta-carotene from food rather than isolated supplements, particularly for current or former smokers.
 
-**Individual variation:** Genetic polymorphisms in BCMO1 affect conversion efficiency. Some individuals are &quot;low converters&quot; who accumulate more circulating beta-carotene and may show yellow-orange skin discoloration (carotenemia) when consuming large amounts—a harmless condition that reverses when intake decreases.
+**Individual variation:** Genetic polymorphisms in BCMO1 affect conversion efficiency. Some individuals are low converters who accumulate more circulating beta-carotene and may show yellow-orange skin discoloration (carotenemia) when consuming large amounts—a harmless condition that reverses when intake decreases.
 
 **Beyond vitamin A:** Independent of vitamin A conversion, beta-carotene may influence immune function, gap junction communication between cells, and gene expression. Research suggests beta-carotene and other carotenoids work synergistically, highlighting the value of consuming a variety of colorful plant foods."
       examples={[

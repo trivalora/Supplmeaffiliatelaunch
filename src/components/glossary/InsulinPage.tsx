@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function InsulinPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Insulin"
         definition="A peptide hormone produced by beta cells in the pancreas that regulates blood glucose levels by promoting cellular uptake of glucose and inhibiting glucose production. It is central to carbohydrate, fat, and protein metabolism."
@@ -185,7 +181,5 @@ export function InsulinPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

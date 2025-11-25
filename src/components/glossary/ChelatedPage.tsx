@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function ChelatedPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function ChelatedPage() {
   return (
     <GlossaryTemplate
       term="Chelated"
@@ -85,11 +77,6 @@ Considerations:
         { term: "Oxalates", key: "oxalates" },
         { term: "Glycine", key: "glycine" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="chelated"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

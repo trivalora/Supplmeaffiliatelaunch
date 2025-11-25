@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Activity, CheckCircle2, XCircle } from 'lucide-react';
 

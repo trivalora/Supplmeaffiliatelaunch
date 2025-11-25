@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function AntioxidantPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function AntioxidantPage() {
   return (
     <GlossaryTemplate
       term="Antioxidant"
@@ -30,11 +22,6 @@ While antioxidants are beneficial, balance is crucial. Moderate levels of free r
         { term: "Oxidative Stress", key: "oxidativestress" },
         { term: "Biomarker", key: "biomarker" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="antioxidant"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

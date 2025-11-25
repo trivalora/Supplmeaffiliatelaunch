@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface MuscleProteinPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function MuscleProteinSynthesisPage({ onNavigate }: MuscleProteinPageProps) {
+export function MuscleProteinSynthesisPage() {
   return (
     <GlossaryTemplate
       term="Muscle Protein Synthesis"
       abbreviation="MPS"
-      onNavigate={onNavigate}
-      currentPage="muscleproteinsynthesis"
       definition="The metabolic process by which amino acids are incorporated into muscle proteins, essential for muscle growth, repair, and maintenance after exercise or injury."
       detailedExplanation="Muscle protein synthesis (MPS) and muscle protein breakdown (MPB) occur continuously, with the balance between them determining whether muscle mass increases, decreases, or remains stable (net protein balance). Resistance exercise creates microscopic muscle damage that triggers an elevated MPS response lasting 24-48 hours. Consuming protein provides amino acids as building blocks, further stimulating MPS, particularly when combined with resistance training.
 

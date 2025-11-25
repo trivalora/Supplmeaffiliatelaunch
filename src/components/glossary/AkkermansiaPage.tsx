@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function AkkermansiaPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Akkermansia muciniphila"
         definition="A beneficial bacterial species that lives in the mucus layer of the intestinal tract. It is associated with metabolic health, healthy body weight, and improved glucose metabolism."
@@ -118,7 +114,5 @@ export function AkkermansiaPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

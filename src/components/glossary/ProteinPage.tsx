@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ProteinPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ProteinPage({ onNavigate }: ProteinPageProps) {
+export function ProteinPage() {
   return (
     <GlossaryTemplate
       term="Protein"
-      onNavigate={onNavigate}
-      currentPage="protein"
       definition="A macronutrient composed of amino acids that serves as the primary building block for tissues, enzymes, hormones, antibodies, and numerous other biological molecules essential for life."
       detailedExplanation="Proteins are large, complex molecules made up of chains of amino acids linked by peptide bonds. There are 20 different amino acids, nine of which are essential (must be obtained from diet) and 11 non-essential (can be synthesized by the body). The sequence and arrangement of amino acids determine each protein's unique structure and function. Dietary protein is broken down into amino acids during digestion, which are then absorbed and used to build new proteins or converted to energy.
 

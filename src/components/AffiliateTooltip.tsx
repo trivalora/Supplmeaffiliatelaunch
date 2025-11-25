@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect, useRef } from 'react';
 
 let activeTooltip: ((x: number, y: number) => void) | null = null;

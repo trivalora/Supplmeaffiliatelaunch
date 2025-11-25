@@ -1,18 +1,13 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function BifidobacteriumPage({ onNavigate }: { onNavigate?: (page: string) => void }) {
+export function BifidobacteriumPage() {
   return (
     <GlossaryTemplate
       term="Bifidobacterium"
       pronunciation="biff-id-oh-back-TEER-ee-um"
       partOfSpeech="noun (bacterial genus)"
-      onNavigate={onNavigate}
       
-      definition={
-        <p>
-          <strong>Bifidobacterium</strong> is a genus of <span className="font-medium">beneficial anaerobic bacteria</span> that naturally inhabit the human gastrointestinal tract, particularly the colon. These bacteria are considered key members of a healthy gut microbiome and play crucial roles in digestion, immune function, and metabolic health.
-        </p>
-      }
+      definition="Bifidobacterium is a genus of beneficial anaerobic bacteria that naturally inhabit the human gastrointestinal tract, particularly the colon. These bacteria are considered key members of a healthy gut microbiome and play crucial roles in digestion, immune function, and metabolic health."
       
       laypersonExplanation={
         <>
@@ -25,7 +20,7 @@ export function BifidobacteriumPage({ onNavigate }: { onNavigate?: (page: string
         </>
       }
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             <strong>Classification and Common Species:</strong>

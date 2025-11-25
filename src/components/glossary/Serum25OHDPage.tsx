@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function Serum25OHDPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Serum 25-hydroxyvitamin D / 25(OH)D"
         definition="The major circulating form of vitamin D in the blood and the standard biomarker used to assess vitamin D status. It reflects both dietary intake and sunlight-induced production of vitamin D."
@@ -165,7 +161,5 @@ export function Serum25OHDPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

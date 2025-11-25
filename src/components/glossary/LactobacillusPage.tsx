@@ -1,18 +1,13 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function LactobacillusPage({ onNavigate }: { onNavigate?: (page: string) => void }) {
+export function LactobacillusPage() {
   return (
     <GlossaryTemplate
       term="Lactobacillus"
       pronunciation="lack-toh-buh-SILL-us"
       partOfSpeech="noun (bacterial genus)"
-      onNavigate={onNavigate}
       
-      definition={
-        <p>
-          <strong>Lactobacillus</strong> is a genus of <span className="font-medium">beneficial lactic acid-producing bacteria</span> found throughout the human body, particularly in the gastrointestinal tract, mouth, and vagina. These bacteria are among the most widely studied and used probiotic organisms for digestive and immune health.
-        </p>
-      }
+      definition="Lactobacillus is a genus of beneficial bacteria that naturally inhabit various parts of the human body (primarily the gut, mouth, and urogenital tract) and are widely used as probiotics for supporting digestive health, immune function, and microbial balance."
       
       laypersonExplanation={
         <>
@@ -25,7 +20,7 @@ export function LactobacillusPage({ onNavigate }: { onNavigate?: (page: string) 
         </>
       }
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             <strong>Classification and Common Species:</strong>
@@ -81,7 +76,7 @@ export function LactobacillusPage({ onNavigate }: { onNavigate?: (page: string) 
             <strong>Probiotic Supplementation:</strong>
           </p>
           <ul className="list-disc" style={{ marginLeft: '2rem' }}>
-            <li><span className="font-medium">Typical doses:</span> 1-10 billion CFU (colony-forming units) per day</li>
+            <li><span className="font-medium">Typical doses:</span>1-10 billion CFU (colony-forming units) per day</li>
             <li><span className="font-medium">Strain specificity:</span> Different strains have different effects—look for specific strain designations (e.g., "L. rhamnosus GG")</li>
             <li><span className="font-medium">Survival:</span> Many Lactobacillus strains survive stomach acid and reach the colon</li>
             <li><span className="font-medium">Transient colonization:</span> Most probiotic strains don't permanently colonize; require ongoing intake</li>

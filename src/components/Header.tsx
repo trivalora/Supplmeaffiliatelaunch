@@ -1,6 +1,10 @@
+'use client';
+
 import { useState, useEffect, useRef, useMemo, memo } from 'react';
-import imgLogo from "figma:asset/7157caff66020adbe0e259d3e2f8312044fb4dd5.png";
 import { ResponsivePicture } from './ResponsivePicture';
+
+// Logo image path
+const imgLogo = '/images/logo.png';
 import { Search, Menu, ChevronDown, X } from 'lucide-react';
 import { Input } from './ui/input';
 import { motion, AnimatePresence } from 'motion/react';
@@ -74,7 +78,7 @@ function Logo({ onClick }: { onClick?: () => void }) {
           alt="suppl.me"
           loading="eager"
           decoding="async"
-          fetchpriority="high"
+          fetchPriority="high"
           style={{ height: '53px', width: 'auto' }}
         />
       </div>
@@ -97,7 +101,7 @@ function Link1({ onClick }: { onClick?: () => void }) {
 
 
 // Import centralized supplement images
-import { SUPPLEMENT_IMAGES } from '../utils/supplementImages';
+import { SUPPLEMENT_IMAGES } from '@/lib/supplementImages';
 
 // Memoized dropdown item component
 const DropdownItem = memo(({ route, onClick }: { route: typeof KNOWLEDGEBASE_ROUTES[0]; onClick: () => void }) => {

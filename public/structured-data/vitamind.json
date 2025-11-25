@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Vitamin D (V1 - Archived)",
-    "description": "Essential vitamin for bone health, immune function, and mood",
-    "category": "Supplement",
+    "name": "Vitamin D3 Supplement - Scientific Evidence & Price Comparison",
+    "description": "Comprehensive analysis of vitamin D3 (cholecalciferol) for bone health, immune function, and disease prevention. Review of blood level targets (25-hydroxyvitamin D), dosing strategies, and K2 synergy.",
+    "category": "Vitamins",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Vitamin D (V1 - Archived)",
-    "description": "Essential vitamin for bone health, immune function, and mood",
+    "name": "Vitamin D: Evidence-Based Guide to Optimal Levels & Dosing",
+    "description": "Comprehensive analysis of vitamin D3 (cholecalciferol) for bone health, immune function, and disease prevention. Review of blood level targets (25-hydroxyvitamin D), dosing strategies, and K2 synergy.",
     "about": {
       "@type": "Thing",
-      "name": "Vitamin D (V1 - Archived)",
-      "description": "Essential vitamin for bone health, immune function, and mood"
+      "name": "Vitamin D3 Supplement",
+      "description": "Comprehensive analysis of vitamin D3 (cholecalciferol) for bone health, immune function, and disease prevention. Review of blood level targets (25-hydroxyvitamin D), dosing strategies, and K2 synergy."
     },
     "url": "https://suppl.me/vitamind",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Vitamin D (V1 - Archived)",
-      "description": "Essential vitamin for bone health, immune function, and mood",
+      "name": "Vitamin D3 Supplement",
+      "description": "Comprehensive analysis of vitamin D3 (cholecalciferol) for bone health, immune function, and disease prevention. Review of blood level targets (25-hydroxyvitamin D), dosing strategies, and K2 synergy.",
       "drugClass": "Dietary Supplement"
     }
   },

@@ -16,11 +16,11 @@ export function ContactPage() {
       <div className="bg-tertiary flex flex-col w-full min-h-screen" data-page-content>
         {/* Contact Section */}
         <div id="hero" className="bg-tertiary">
-          <div className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
-            <h1 className="font-['Lora',_serif] text-primary text-[36px] md:text-[48px] leading-tight mb-4">
+          <div className="max-w-7xl mx-auto px-4 md:px-8 py-20">
+            <h1 className="font-['Lora',serif] text-primary text-[36px] md:text-[48px] leading-tight mb-4">
               Contact Us
             </h1>
-            <p className="font-['Lato',_sans-serif] text-foreground text-[18px] leading-relaxed mb-12 max-w-2xl">
+            <p className="font-['Lato',sans-serif] text-foreground text-[18px] leading-relaxed mb-12 max-w-2xl">
               Have questions about supplements or our platform? We'd love to hear from you.
             </p>
 
@@ -28,7 +28,7 @@ export function ContactPage() {
               {/* Contact Information */}
               <div className="flex flex-col justify-between space-y-8">
                 <div>
-                  <h2 className="font-['Lora',_serif] text-primary text-[24px] md:text-[28px] mb-8">
+                  <h2 className="font-['Lora',serif] text-primary text-[24px] md:text-[28px] mb-8">
                     Write Us
                   </h2>
 
@@ -39,10 +39,10 @@ export function ContactPage() {
                         <MapPin className="w-5 h-5 text-primary-foreground" />
                       </div>
                       <div>
-                        <h3 className="font-['Lato',_sans-serif] font-bold text-foreground text-[16px] mb-2">
+                        <h3 className="font-['Lato',sans-serif] font-bold text-foreground text-[16px] mb-2">
                           Mailing Address
                         </h3>
-                        <p className="font-['Lato',_sans-serif] text-muted-foreground text-[14px] leading-relaxed">
+                        <p className="font-['Lato',sans-serif] text-muted-foreground text-[14px] leading-relaxed">
                           Trivalora Inc.<br />
                           2261 Market Street STE 85938<br />
                           San Francisco, CA 94114<br />
@@ -57,12 +57,12 @@ export function ContactPage() {
                         <Mail className="w-5 h-5 text-primary-foreground" />
                       </div>
                       <div>
-                        <h3 className="font-['Lato',_sans-serif] font-bold text-foreground text-[16px] mb-2">
+                        <h3 className="font-['Lato',sans-serif] font-bold text-foreground text-[16px] mb-2">
                           Email Us
                         </h3>
                         <a
                           href="mailto:hello@suppl.me"
-                          className="font-['Lato',_sans-serif] text-primary text-[14px] hover:underline"
+                          className="font-['Lato',sans-serif] text-primary text-[14px] hover:underline"
                         >
                           hello@suppl.me
                         </a>
@@ -75,12 +75,12 @@ export function ContactPage() {
                         <Phone className="w-5 h-5 text-primary-foreground" />
                       </div>
                       <div>
-                        <h3 className="font-['Lato',_sans-serif] font-bold text-foreground text-[16px] mb-2">
+                        <h3 className="font-['Lato',sans-serif] font-bold text-foreground text-[16px] mb-2">
                           Call Us
                         </h3>
                         <a
                           href="tel:+14152895055"
-                          className="font-['Lato',_sans-serif] text-muted-foreground text-[14px]"
+                          className="font-['Lato',sans-serif] text-muted-foreground text-[14px]"
                         >
                           (415) 289-5055 / 800
                         </a>
@@ -92,61 +92,61 @@ export function ContactPage() {
 
               {/* Contact Form */}
               <div className="bg-card rounded-[14px] border border-secondary p-8 shadow-lg">
-                <h2 className="font-['Lora',_serif] text-primary text-[24px] mb-6">
+                <h2 className="font-['Lora',serif] text-primary text-[24px] mb-6">
                   Send us a Message
                 </h2>
 
                 <form className="space-y-6">
                   <div>
-                    <Label htmlFor="name" className="font-['Lato',_sans-serif] text-foreground text-[14px] mb-2 block">
+                    <Label htmlFor="name" className="font-['Lato',sans-serif] text-foreground text-[14px] mb-2 block">
                       Your Name
                     </Label>
                     <Input
                       id="name"
                       type="text"
                       placeholder="John Doe"
-                      className="font-['Lato',_sans-serif]"
+                      className="font-['Lato',sans-serif]"
                     />
                   </div>
 
                   <div>
-                    <Label htmlFor="email" className="font-['Lato',_sans-serif] text-foreground text-[14px] mb-2 block">
+                    <Label htmlFor="email" className="font-['Lato',sans-serif] text-foreground text-[14px] mb-2 block">
                       Email Address
                     </Label>
                     <Input
                       id="email"
                       type="email"
                       placeholder="john@example.com"
-                      className="font-['Lato',_sans-serif]"
+                      className="font-['Lato',sans-serif]"
                     />
                   </div>
 
                   <div>
-                    <Label htmlFor="subject" className="font-['Lato',_sans-serif] text-foreground text-[14px] mb-2 block">
+                    <Label htmlFor="subject" className="font-['Lato',sans-serif] text-foreground text-[14px] mb-2 block">
                       Subject
                     </Label>
                     <Input
                       id="subject"
                       type="text"
                       placeholder="How can we help?"
-                      className="font-['Lato',_sans-serif]"
+                      className="font-['Lato',sans-serif]"
                     />
                   </div>
 
                   <div>
-                    <Label htmlFor="message" className="font-['Lato',_sans-serif] text-foreground text-[14px] mb-2 block">
+                    <Label htmlFor="message" className="font-['Lato',sans-serif] text-foreground text-[14px] mb-2 block">
                       Message
                     </Label>
                     <Textarea
                       id="message"
                       placeholder="Tell us more about your inquiry..."
-                      className="min-h-[150px] font-['Lato',_sans-serif]"
+                      className="min-h-[150px] font-['Lato',sans-serif]"
                     />
                   </div>
 
                   <Button
                     type="submit"
-                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-['Lato',_sans-serif] text-[16px] py-6 rounded-[14px]"
+                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-['Lato',sans-serif] text-[16px] py-6 rounded-[14px]"
                   >
                     Send Message
                   </Button>

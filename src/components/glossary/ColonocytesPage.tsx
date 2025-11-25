@@ -1,11 +1,7 @@
-import { Header } from '../Header';
 import { GlossaryTemplate } from '../GlossaryTemplate';
-import { Footer } from '../Footer';
 
 export function ColonocytesPage() {
   return (
-    <>
-      <Header />
       <GlossaryTemplate
         term="Colonocytes"
         definition="The epithelial cells that line the colon (large intestine). These specialized cells form a protective barrier and play crucial roles in nutrient absorption, water reabsorption, and immune function."
@@ -97,7 +93,5 @@ export function ColonocytesPage() {
           </>
         }
       />
-      <Footer />
-    </>
   );
 }

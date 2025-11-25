@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Activity, AlertTriangle, TrendingDown } from 'lucide-react';
 
-interface EicosanoidsPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function EicosanoidsPage({ onNavigate }: EicosanoidsPageProps) {
+export function EicosanoidsPage() {
   return (
     <GlossaryTemplate
       term="Eicosanoids"
       abbreviation="None (general class of compounds)"
       pronunciation="eye-koh-suh-noids"
-      onNavigate={onNavigate}
-      currentPage="eicosanoids"
       definition="A family of signaling molecules derived from 20-carbon polyunsaturated fatty acids (primarily arachidonic acid and EPA) that regulate inflammation, immune function, blood clotting, pain, fever, blood pressure, and numerous other physiological processes at the cellular level."
       
       expandedExplanation={

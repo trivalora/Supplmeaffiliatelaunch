@@ -1,17 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface AtherosclerosisPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function AtherosclerosisPage({ onNavigate }: AtherosclerosisPageProps) {
+export function AtherosclerosisPage() {
   return (
     <GlossaryTemplate
       term="Atherosclerosis"
-      onNavigate={onNavigate}
-      currentPage="atherosclerosis"
       definition="Arterial plaque buildup leading to narrowed and hardened arteries."
-      detailedExplanation={`Atherosclerosis is a chronic progressive disease characterized by the accumulation of lipids, inflammatory cells, and fibrous material within the arterial walls, forming plaques that narrow and harden arteries. This process reduces blood flow and can lead to cardiovascular events like heart attack and stroke.
+      expandedExplanation={`Atherosclerosis is a chronic progressive disease characterized by the accumulation of lipids, inflammatory cells, and fibrous material within the arterial walls, forming plaques that narrow and harden arteries. This process reduces blood flow and can lead to cardiovascular events like heart attack and stroke.
 
 **Disease Process**
 

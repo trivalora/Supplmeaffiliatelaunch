@@ -7,10 +7,10 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { AnalyticsProvider } from '../components/AnalyticsProvider';
-import { getPathForKey } from '../utils/routePaths';
-import { trackNavigation } from '../utils/analytics';
-import { scrollDepthTracker } from '../utils/scrollDepthTracker';
-import { timeTracker } from '../utils/timeTracker';
+import { getPathForKey } from '@/lib/routePaths';
+import { trackNavigation } from '@/lib/analytics';
+import { scrollDepthTracker } from '@/lib/scrollDepthTracker';
+import { timeTracker } from '@/lib/timeTracker';
 import { NotFound } from '../components/NotFound';
 
 // Simple loading fallback

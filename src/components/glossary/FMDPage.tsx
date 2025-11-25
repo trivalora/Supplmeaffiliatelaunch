@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface FMDPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function FMDPage({ onNavigate }: FMDPageProps) {
+export function FMDPage() {
   return (
     <GlossaryTemplate
       term="Flow-Mediated Dilation"
       abbreviation="FMD"
-      onNavigate={onNavigate}
-      currentPage="fmd"
       definition="A non-invasive ultrasound-based measurement of endothelial function that assesses how well blood vessels dilate in response to increased blood flow, serving as an indicator of cardiovascular health."
       detailedExplanation="Flow-Mediated Dilation (FMD) is measured by temporarily restricting blood flow to the arm using a blood pressure cuff, then releasing the cuff and measuring how much the brachial artery dilates in response to the sudden increase in blood flow. This dilation is endothelium-dependent, meaning it reflects the ability of the inner lining of blood vessels to produce nitric oxide and other vasodilating substances.
 

@@ -2,21 +2,13 @@ import { useState, useRef, useEffect } from 'react';
 import { Search, X, Check, Info } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Input } from './ui/input';
-import { Footer } from './Footer';
-import { ImageWithFallback } from './figma/ImageWithFallback';
-import { Header } from './Header';
 import { SearchResults } from './SearchResults';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
-import imgImageMistyMountainForest from "figma:asset/adaa5958638ef58a10a2b5b182d161d011abc01a.png";
-import imgAmazonButton from "figma:asset/2f3309a930da536601e44619e42e44f89c102eb7.png";
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
-import imgForestAerial from "figma:asset/4bdf2cba5e05e7d70b9f1402336825a64b04e236.png";
-import imgCrystalBallWaterfall from "figma:asset/f69f346bde9ce1223aa8e8e9265be307b22261e4.png";
 import { HeroImage, SectionImage, ProductImage } from './images';
-import { SEOHead } from './SEOHead';
 
 import { PageKey } from '../routes.config';
-import { trackCTAClick, trackRetailerClick, trackAffiliateClick } from '../utils/analytics';
+import { trackCTAClick, trackRetailerClick, trackAffiliateClick } from '@/lib/analytics';
 import { getProductsBySupplementName } from './KnowledgebaseTemplate';
 
 interface LandingPageProps {
@@ -58,7 +50,7 @@ function SearchBar({ onNavigate, searchQuery, setSearchQuery, inputRef }: {
     <div ref={searchRef} className="relative w-full max-w-2xl mx-auto px-[1vw] md:px-0">
       <div className="relative">
         <Search className="absolute left-5 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground z-10 pointer-events-none" />
-        <Input
+        <input
           ref={inputRef}
           type="text"
           placeholder="Search for supplements to compare prices..."
@@ -68,7 +60,7 @@ function SearchBar({ onNavigate, searchQuery, setSearchQuery, inputRef }: {
             setShowResults(true);
           }}
           onFocus={() => setShowResults(true)}
-          className="w-full h-14 pl-12 pr-6 md:pr-12 bg-input-background border-2 border-secondary focus:border-primary rounded-xl text-foreground shadow-md text-sm"
+          className="hero-search-input"
         />
         {searchQuery && (
           <button
@@ -82,10 +74,7 @@ function SearchBar({ onNavigate, searchQuery, setSearchQuery, inputRef }: {
           </button>
         )}
         {showResults && searchQuery.trim() && (
-          <div
-            className="absolute top-full mt-2 w-full"
-            style={{ zIndex: 10001 }}
-          >
+          <div className="hero-search-dropdown">
             <SearchResults
               query={searchQuery}
               onNavigate={handleNavigate}
@@ -109,8 +98,8 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
       link.id = id;
       link.rel = 'preload';
       link.as = 'image';
-      // Match ResponsivePicture defaults: 640, 1280, 1920
-      link.setAttribute('imagesrcset', '/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.avif 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.avif 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.avif 1920w');
+      // Match HeroImage widths: 640, 1280, 1920, 2560
+      link.setAttribute('imagesrcset', '/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.avif 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.avif 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.avif 1920w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-2560.avif 2560w');
       link.setAttribute('imagesizes', '100vw');
       // Hint high priority
       (link as any).fetchPriority = 'high';
@@ -125,55 +114,51 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
   return (
     <div
       id="hero"
-      className="relative flex items-center justify-center"
-      style={{
-        minHeight: '600px',
-        height: '75vh',
-        maxHeight: '75vh',
-        marginTop: 'var(--header-height)'
-      }}
+      className="hero-section flex items-center justify-center"
     >
-      {/* Background Image - Full Width - Optimized for performance */}
+      {/* Background Image - Full viewport width */}
       <HeroImage
         file="adaa5958638ef58a10a2b5b182d161d011abc01a.png"
         alt=""
-        fallbackSrc={imgImageMistyMountainForest}
         objectPosition="center"
+        widths={[640, 1280, 1920, 2560]}
       />
 
       {/* Gradient Overlays - Multiple layers for rich depth */}
-      {/* Layer 1: Base gradient from Figma */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'linear-gradient(to bottom, rgba(42,38,34,0.65), rgba(58,54,50,0.6) 50%, rgba(58,54,50,0.7))'
-        }}
-      />
+      <div className="absolute inset-0">
+        {/* Layer 1: Base gradient from Figma */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background: 'linear-gradient(to bottom, rgba(42,38,34,0.65), rgba(58,54,50,0.6) 50%, rgba(58,54,50,0.7))'
+          }}
+        />
 
-      {/* Layer 2: Radial gradient from Figma */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(42,38,34,0.3) 100%)'
-        }}
-      />
+        {/* Layer 2: Radial gradient from Figma */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(42,38,34,0.3) 100%)'
+          }}
+        />
 
-      {/* Layer 3: Additional green overlay - Always #162F1C regardless of theme */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          backgroundColor: '#162F1C',
-          opacity: 0.35
-        }}
-      />
+        {/* Layer 3: Additional green overlay - Always #162F1C regardless of theme */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            backgroundColor: '#162F1C',
+            opacity: 0.35
+          }}
+        />
+      </div>
 
-      <div data-layout-container className="relative z-10 !px-[2vw] md:px-[var(--page-padding-inline)]">
+      <div className="relative z-10 w-full px-[2vw] md:px-[var(--page-padding-inline)]">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="mb-4 text-white text-4xl md:text-5xl px-[5vw] md:px-0">
+          <h1 className="mb-4 text-white text-4xl md:text-5xl">
             Your evidence-backed supplement stack for less.<br /><span style={{ color: '#E0CBA8' }}>In seconds.</span>
           </h1>
 
-          <p className="mb-6 text-white/80 text-base md:text-lg max-w-2xl mx-auto px-[10vw] md:px-0">
+          <p className="mb-6 text-white/80 text-base md:text-lg max-w-2xl mx-auto">
             Find the most efficacious stack for your goals because we show price per mg of active ingredient and link every claim to sources.
           </p>
 
@@ -237,7 +222,6 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
             <SectionImage
               file="f69f346bde9ce1223aa8e8e9265be307b22261e4.png"
               alt="Crystal ball with waterfall - clarity and vision"
-              fallbackSrc={imgCrystalBallWaterfall}
               objectFit="cover"
               objectPosition="center"
               transform="scale(1.3)"
@@ -423,7 +407,6 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
             <SectionImage
               file="4bdf2cba5e05e7d70b9f1402336825a64b04e236.png"
               alt="Aerial view of lush forest - natural mission"
-              fallbackSrc={imgForestAerial}
               objectFit="cover"
             />
           </div>
@@ -478,7 +461,7 @@ function AffiliateButtonsLP({
       <a
         href={amazonLink}
         target="_blank"
-        rel="nofollow noopener noreferrer"
+        rel="nofollow noreferrer"
         onClick={(e) => {
           e.stopPropagation();
           trackAffiliateClick('Amazon', 'landing', 'product_card');
@@ -489,7 +472,7 @@ function AffiliateButtonsLP({
         {...tooltipHandlers}
       >
         <img
-          src={imgAmazonButton}
+          src="/optimized/2f3309a930da536601e44619e42e44f89c102eb7-256.webp"
           alt="Amazon"
           className="h-5 w-auto object-contain rounded-[14px]"
         />
@@ -497,7 +480,7 @@ function AffiliateButtonsLP({
       <a
         href={iherbLink}
         target="_blank"
-        rel="nofollow noopener noreferrer"
+        rel="nofollow noreferrer"
         onClick={(e) => {
           e.stopPropagation();
           trackAffiliateClick('iHerb', 'landing', 'product_card');
@@ -850,25 +833,19 @@ export function LandingPage(props: LandingPageProps) {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <SEOHead />
-      <Header onNavigate={props.onNavigate} />
-
-      {/* Hero as direct child - ensures full viewport width */}
+    <>
+      {/* Hero section - Full viewport width, breaks out of main container */}
       <HeroSection onNavigate={props.onNavigate} searchInputRef={searchInputRef} />
 
-      <main data-page-content className="flex-1">
-        <WhyTrustUsSection onNavigate={props.onNavigate} />
-        <OurMissionSection onNavigate={props.onNavigate} />
-        <PopularComparisonsSection onNavigate={props.onNavigate} />
-        <CTASection onScrollToSearch={handleScrollToSearch} />
-        <NewsletterSection />
-      </main>
-
-      <Footer onNavigate={props.onNavigate} />
+      {/* Main content sections */}
+      <WhyTrustUsSection onNavigate={props.onNavigate} />
+      <OurMissionSection onNavigate={props.onNavigate} />
+      <PopularComparisonsSection onNavigate={props.onNavigate} />
+      <CTASection onScrollToSearch={handleScrollToSearch} />
+      <NewsletterSection />
 
       {/* Global affiliate tooltip */}
       <AffiliateTooltip />
-    </div>
+    </>
   );
 }

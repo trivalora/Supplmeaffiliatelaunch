@@ -1,5 +1,7 @@
+'use client';
+
 import { Component, ReactNode } from 'react';
-import { trackError } from '../utils/analytics';
+import { trackError } from '@/lib/analytics';
 
 interface Props {
   children: ReactNode;
@@ -31,7 +33,7 @@ export class ErrorBoundary extends Component<Props, State> {
 
   componentDidCatch(error: Error, errorInfo: any) {
     // Log error to console in development
-    if (typeof import.meta !== 'undefined' && import.meta.env?.DEV) {
+    if (process.env.NODE_ENV === 'development') {
       console.error('Error caught by ErrorBoundary:', error);
       console.error('Error info:', errorInfo);
     }
@@ -101,7 +103,7 @@ export class ErrorBoundary extends Component<Props, State> {
               We're sorry for the inconvenience. Please try refreshing the page or going back to the home page.
             </p>
 
-            {(typeof import.meta !== 'undefined' && import.meta.env?.DEV) && this.state.error && (
+            {(process.env.NODE_ENV === 'development') && this.state.error && (
               <details className="mb-6 text-left">
                 <summary className="cursor-pointer text-sm mb-2" style={{ color: 'var(--color-fourth)' }}>
                   Error Details (Dev Only)

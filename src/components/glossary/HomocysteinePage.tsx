@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface HomocysteinePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function HomocysteinePage({ onNavigate }: HomocysteinePageProps) {
+export function HomocysteinePage() {
   return (
     <GlossaryTemplate
       term="Homocysteine"
-      onNavigate={onNavigate}
-      currentPage="homocysteine"
       definition="An amino acid produced during the metabolism of methionine that, when elevated in the blood, is associated with increased risk of cardiovascular disease and other health problems."
       detailedExplanation="Homocysteine is an intermediate product in the metabolism of the essential amino acid methionine. Under normal conditions, homocysteine is quickly converted to other beneficial compounds through pathways requiring vitamins B6, B12, and folate. When these vitamins are deficient or when genetic variations affect these pathways, homocysteine accumulates in the blood—a condition called hyperhomocysteinemia.
 

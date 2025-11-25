@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface EmpiricalEvidencePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function EmpiricalEvidencePage({ onNavigate }: EmpiricalEvidencePageProps) {
+export function EmpiricalEvidencePage() {
   return (
     <GlossaryTemplate
       term="Empirical Evidence"
-      onNavigate={onNavigate}
-      currentPage="empiricalevidence"
       definition="Evidence obtained through observation, experimentation, or direct experience rather than theory or belief."
       detailedExplanation="Empirical evidence forms the foundation of scientific knowledge. It is information acquired through direct observation or experimentation that can be verified and replicated by others. In the context of supplement research, empirical evidence comes from controlled studies, clinical trials, and systematic observations.
 

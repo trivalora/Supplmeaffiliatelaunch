@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Creatine (V1 - Archived)",
-    "description": "Performance supplement for strength, power, and muscle growth",
-    "category": "Supplement",
+    "name": "Creatine Monohydrate - Scientific Evidence & Price Comparison",
+    "description": "Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile.",
+    "category": "Sports Nutrition",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Creatine (V1 - Archived)",
-    "description": "Performance supplement for strength, power, and muscle growth",
+    "name": "Creatine: Most Researched Supplement for Strength & Cognition",
+    "description": "Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile.",
     "about": {
       "@type": "Thing",
-      "name": "Creatine (V1 - Archived)",
-      "description": "Performance supplement for strength, power, and muscle growth"
+      "name": "Creatine Monohydrate",
+      "description": "Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile."
     },
     "url": "https://suppl.me/creatine",
-    "lastReviewed": "2025-11-23",
+    "lastReviewed": "2025-11-24",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Creatine (V1 - Archived)",
-      "description": "Performance supplement for strength, power, and muscle growth",
+      "name": "Creatine Monohydrate",
+      "description": "Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile.",
       "drugClass": "Dietary Supplement"
     }
   },

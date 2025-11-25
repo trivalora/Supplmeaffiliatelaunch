@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function StandardizedExtractPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function StandardizedExtractPage() {
   return (
     <GlossaryTemplate
       term="Standardized Extract"
@@ -105,11 +97,6 @@ Look for:
         { term: "Third-Party Testing", key: "third-party-testing" },
         { term: "Therapeutic Dose", key: "therapeutic-dose" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="standardized-extract"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

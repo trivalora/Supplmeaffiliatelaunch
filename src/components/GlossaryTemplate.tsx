@@ -1,5 +1,8 @@
-import { useCallback, useMemo } from 'react';
-import { autolinkGlossaryContent } from '../utils/glossaryAutolink';
+'use client';
+
+import { useMemo } from 'react';
+import Link from 'next/link';
+import { autolinkGlossaryContent } from '@/lib/glossaryAutolink';
 import { LucideIcon } from 'lucide-react';
 import { SEOHead } from './SEOHead';
 
@@ -20,10 +23,7 @@ interface GlossaryTemplateProps {
   keyPoints?: Array<{ icon: LucideIcon; title: string; description: string }>;
   commonMisconceptions?: React.ReactNode;
   relatedTerms?: Array<{ term: string; key?: string; link?: string }> | string[];
-  onNavigate?: (key: string) => void;
   currentPage?: string;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
 }
 
 export function GlossaryTemplate({
@@ -43,42 +43,35 @@ export function GlossaryTemplate({
   keyPoints,
   commonMisconceptions,
   relatedTerms = [],
-  onNavigate,
   currentPage
 }: GlossaryTemplateProps) {
-  const handleNavigate = useCallback((key: string) => {
-    if (onNavigate) {
-      onNavigate(key);
-    }
-  }, [onNavigate]);
-
   // PERFORMANCE FIX: Memoized autolinked content (prevents re-processing on every render)
   const linkedWhyItMatters = useMemo(() => 
-    autolinkGlossaryContent(whyItMatters || '', onNavigate, currentPage),
-    [whyItMatters, onNavigate, currentPage]
+    autolinkGlossaryContent(whyItMatters || '', currentPage),
+    [whyItMatters, currentPage]
   );
   
   const linkedSimpleExplanation = useMemo(() => 
-    autolinkGlossaryContent(simpleExplanation || '', onNavigate, currentPage),
-    [simpleExplanation, onNavigate, currentPage]
+    autolinkGlossaryContent(simpleExplanation || '', currentPage),
+    [simpleExplanation, currentPage]
   );
   
   const linkedDetailedExplanation = useMemo(() => 
-    autolinkGlossaryContent(detailedExplanation || '', onNavigate, currentPage),
-    [detailedExplanation, onNavigate, currentPage]
+    autolinkGlossaryContent(detailedExplanation || '', currentPage),
+    [detailedExplanation, currentPage]
   );
   
   const linkedExampleContext = useMemo(() => 
-    autolinkGlossaryContent(exampleContext || '', onNavigate, currentPage),
-    [exampleContext, onNavigate, currentPage]
+    autolinkGlossaryContent(exampleContext || '', currentPage),
+    [exampleContext, currentPage]
   );
   
   // PERFORMANCE FIX: Memoize examples array processing - process all at once, not in a loop with hooks
   const linkedExamples = useMemo(() => 
     examples.map(example => 
-      autolinkGlossaryContent(example, onNavigate, currentPage)
+      autolinkGlossaryContent(example, currentPage)
     ),
-    [examples, onNavigate, currentPage]
+    [examples, currentPage]
   );
 
   // Normalize relatedTerms to always be an array of objects
@@ -149,7 +142,7 @@ export function GlossaryTemplate({
                   <div className="bg-card border border-border rounded-[14px] p-8 mb-6">
                     <h2 className="text-primary mb-4">Why It Matters</h2>
                     <div className="text-foreground leading-relaxed">
-                      {onNavigate ? linkedWhyItMatters : whyItMatters}
+                      {linkedWhyItMatters}
                     </div>
                   </div>
                 )}
@@ -159,7 +152,7 @@ export function GlossaryTemplate({
                   <div className="bg-card border border-border rounded-[14px] p-8 mb-6">
                     <h2 className="text-primary mb-4">Simple Explanation</h2>
                     <div className="text-foreground leading-relaxed">
-                      {onNavigate ? linkedSimpleExplanation : simpleExplanation}
+                      {linkedSimpleExplanation}
                     </div>
                   </div>
                 )}
@@ -169,7 +162,7 @@ export function GlossaryTemplate({
                   <div className="bg-card border border-border rounded-[14px] p-8 mb-6">
                     <h2 className="text-primary mb-4">Detailed Explanation</h2>
                     <div className="text-foreground leading-relaxed">
-                      {onNavigate ? linkedDetailedExplanation : detailedExplanation}
+                      {linkedDetailedExplanation}
                     </div>
                   </div>
                 )}
@@ -238,7 +231,7 @@ export function GlossaryTemplate({
                         <li key={index} className="flex gap-3">
                           <span className="text-secondary shrink-0">•</span>
                           <span className="text-foreground leading-relaxed">
-                            {onNavigate ? linkedExamples[index] : example}
+                            {linkedExamples[index]}
                           </span>
                         </li>
                       ))}
@@ -251,7 +244,7 @@ export function GlossaryTemplate({
                   <div className="bg-card border border-border rounded-[14px] p-8 mb-6">
                     <h2 className="text-primary mb-4">Example in Context</h2>
                     <div className="text-foreground leading-relaxed italic">
-                      {onNavigate ? linkedExampleContext : exampleContext}
+                      {linkedExampleContext}
                     </div>
                   </div>
                 )}
@@ -272,18 +265,13 @@ export function GlossaryTemplate({
                     <h2 className="text-primary mb-4">Related Terms</h2>
                     <div className="flex flex-wrap gap-3">
                       {normalizedRelatedTerms.map((related, index) => (
-                        <button
+                        <Link
                           key={related.key || index}
-                          onClick={(e) => {
-                            e.preventDefault();
-                            if (onNavigate && related.key) {
-                              onNavigate(related.key);
-                            }
-                          }}
-                          className="px-4 py-2 bg-tertiary border border-secondary rounded-lg text-foreground hover:bg-secondary/10 transition-colors cursor-pointer"
+                          href={`/glossary/${related.key}`}
+                          className="px-4 py-2 bg-tertiary border border-secondary rounded-lg text-foreground hover:bg-secondary/10 transition-colors cursor-pointer inline-block"
                         >
                           {related.term}
-                        </button>
+                        </Link>
                       ))}
                     </div>
                   </div>

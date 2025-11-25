@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { AlertCircle, Leaf, TrendingDown } from 'lucide-react';
 
-interface PhytatesPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function PhytatesPage({ onNavigate }: PhytatesPageProps) {
+export function PhytatesPage() {
   return (
     <GlossaryTemplate
       term="Phytates"
       abbreviation="Phytic Acid, Inositol Hexaphosphate, IP6"
       pronunciation="fy-tates"
-      onNavigate={onNavigate}
-      currentPage="phytates"
       definition="Natural compounds found in plant seeds, grains, legumes, and nuts that can bind to minerals (particularly iron, zinc, calcium, and magnesium) in the digestive tract, reducing their absorption. Also called 'anti-nutrients' though they have some beneficial properties."
       
       expandedExplanation={

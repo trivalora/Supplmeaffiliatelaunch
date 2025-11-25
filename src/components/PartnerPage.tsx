@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { ExternalLink, CheckCircle2, Calendar } from 'lucide-react';
-import imgForestAerial from "figma:asset/4bdf2cba5e05e7d70b9f1402336825a64b04e236.png";
 import { ResponsivePicture } from './ResponsivePicture';
 import { SEOHead } from './SEOHead';
 
+// Forest aerial image path (optimized version available)
+const imgForestAerial = '/optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-1920.webp';
+
 interface PartnerPageProps {
-  onNavigate: (page: string) => void;
+  onNavigate?: (page: string) => void;  // Made optional for Next.js
 }
 
 export function PartnerPage({ onNavigate }: PartnerPageProps) {
@@ -69,7 +71,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
         description="Join our supplement affiliate network. FTC/FDA compliant platform with evidence-based content, real-time pricing, and quality traffic. ShareASale, Amazon, and iHerb partnerships available."
         keywords="supplement affiliate program, retailer partnership, affiliate network, supplement marketing, price comparison partnership"
       />
-      <div className="min-h-screen bg-tertiary">
+      <div className="min-h-screen bg-tertiary" data-page-content>
         {/* Hero Section */}
         <div
           className="relative flex items-center justify-center overflow-visible"
@@ -239,34 +241,34 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 <div className="bg-white p-6 rounded-xl shadow-sm">
                   <h4 className="mb-3" style={{ color: '#162F1C' }}>Price Comparison Tables</h4>
                   <p className="mb-3 text-foreground">Featured placement in side-by-side product comparisons with real-time pricing updates.</p>
-                  <button
-                    onClick={() => onNavigate('vitamin-d')}
+                  <a
+                    href="/vitamin-d"
                     className="text-fourth hover:underline inline-flex items-center gap-1"
                   >
                     View Live Example <ExternalLink className="w-4 h-4" />
-                  </button>
+                  </a>
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
                   <h4 className="mb-3" style={{ color: '#162F1C' }}>Retailer Badge Features</h4>
                   <p className="mb-3 text-foreground">Trusted retailer badges on knowledge base pages with prominent call-to-action placement.</p>
-                  <button
-                    onClick={() => onNavigate('omega-3')}
+                  <a
+                    href="/omega-3"
                     className="text-fourth hover:underline inline-flex items-center gap-1"
                   >
                     View Live Example <ExternalLink className="w-4 h-4" />
-                  </button>
+                  </a>
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
                   <h4 className="mb-3" style={{ color: '#162F1C' }}>Category Top Picks</h4>
                   <p className="mb-3 text-foreground">Featured "Best Price" and "Editor's Choice" slots in category roundup pages.</p>
-                  <button
-                    onClick={() => onNavigate('knowledgebase')}
+                  <a
+                    href="/ashwagandha"
                     className="text-fourth hover:underline inline-flex items-center gap-1"
                   >
                     View Live Example <ExternalLink className="w-4 h-4" />
-                  </button>
+                  </a>
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm">

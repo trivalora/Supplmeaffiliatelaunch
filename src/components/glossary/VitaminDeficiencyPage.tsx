@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface VitaminDeficiencyPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function VitaminDeficiencyPage({ onNavigate }: VitaminDeficiencyPageProps) {
+export function VitaminDeficiencyPage() {
   return (
     <GlossaryTemplate
       term="Vitamin Deficiency"
-      onNavigate={onNavigate}
-      currentPage="vitamindeficiency"
       definition="An insufficient level of one or more essential vitamins in the body, resulting from inadequate dietary intake, poor absorption, increased requirements, or excessive losses, leading to various health problems."
       detailedExplanation="Vitamin deficiencies occur when vitamin intake or absorption fails to meet the body's needs. Vitamins are organic compounds required in small amounts for normal metabolism, growth, and health maintenance. They function as cofactors for enzymes, antioxidants, hormone precursors, and gene regulators. Deficiencies can be primary (inadequate dietary intake) or secondary (adequate intake but impaired absorption, increased needs, or excessive losses).
 

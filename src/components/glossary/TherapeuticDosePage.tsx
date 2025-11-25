@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function TherapeuticDosePage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function TherapeuticDosePage() {
   return (
     <GlossaryTemplate
       term="Therapeutic Dose"
@@ -126,11 +118,6 @@ Consult a healthcare provider for dosing when:
         { term: "Metabolism", key: "metabolism" },
         { term: "Dose-Dependent", key: "dose-dependent" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="therapeutic-dose"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Clock, TrendingDown, Repeat, Users } from 'lucide-react';
 

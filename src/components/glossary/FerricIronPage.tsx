@@ -1,18 +1,13 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function FerricIronPage({ onNavigate }: { onNavigate?: (page: string) => void }) {
+export function FerricIronPage() {
   return (
     <GlossaryTemplate
       term="Ferric Iron"
       pronunciation="FEHR-ik EYE-urn"
       partOfSpeech="noun (chemical form)"
-      onNavigate={onNavigate}
       
-      definition={
-        <p>
-          <strong>Ferric iron (Fe³⁺)</strong> is iron in its <span className="font-medium">+3 oxidation state</span>, a form that is <span className="font-medium">less well absorbed</span> by the human digestive system than ferrous iron (Fe²⁺). Ferric iron must be reduced to ferrous iron before it can be absorbed by intestinal cells.
-        </p>
-      }
+      definition="Ferric iron is the oxidized form of iron (Fe³⁺), also known as ferric iron or iron(III), which is the primary form found in most iron supplements and fortified foods, but requires conversion to ferrous iron for absorption in the intestines."
       
       laypersonExplanation={
         <>
@@ -25,7 +20,7 @@ export function FerricIronPage({ onNavigate }: { onNavigate?: (page: string) => 
         </>
       }
       
-      detailedExplanation={
+      expandedExplanation={
         <>
           <p>
             <strong>Chemical Properties:</strong>

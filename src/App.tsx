@@ -6,7 +6,7 @@ import { AnalyticsProvider } from './components/AnalyticsProvider';
 import { SEOHead, pageSEO, getSupplementSEO, getGlossarySEO } from './components/SEOHead';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { PageKey } from './routes.config';
-import { getPathForKey } from './utils/routePaths';
+import { getPathForKey } from '@/lib/routePaths';
 
 // Eager load ONLY the initial landing page (needed for first render)
 import { LandingPage } from './components/LandingPage';

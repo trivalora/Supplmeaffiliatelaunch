@@ -1,14 +1,8 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface SingleBlindedPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function SingleBlindedPage({ onNavigate }: SingleBlindedPageProps) {
+export function SingleBlindedPage() {
   return (
     <GlossaryTemplate
-      onNavigate={onNavigate}
-      currentPage="singleblinded"
       term="Single Blinded"
       definition="A study design where participants do not know whether they are receiving the active treatment or placebo, but researchers do know."
       detailedExplanation="In a single-blinded study, participants are kept unaware of whether they are receiving the actual supplement or a placebo, but the researchers conducting the study know which group each participant is in. This design helps control for placebo effects and participant bias, as people cannot alter their behavior or reporting based on knowing what they're receiving.

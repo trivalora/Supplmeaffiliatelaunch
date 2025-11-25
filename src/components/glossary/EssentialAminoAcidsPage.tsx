@@ -6,7 +6,7 @@ export function EssentialAminoAcidsPage() {
     term: "Essential Amino Acids (EAAs)",
     definition: "The nine amino acids that the human body cannot synthesize in sufficient quantities and must be obtained through diet: histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine.",
     
-    detailedExplanation: (
+    expandedExplanation: (
       <>
         <p>Essential amino acids are "essential" not because they're more important than other amino acids, but because they must come from external sources. Without adequate intake of all nine EAAs, the body cannot efficiently build new proteins, leading to various health problems.</p>
         
@@ -115,7 +115,7 @@ export function EssentialAminoAcidsPage() {
       </>
     ),
 
-    commonUse: "&quot;This plant-based protein powder is fortified with additional lysine and methionine to provide a complete essential amino acid profile comparable to whey protein.&quot;",
+    commonUse: "This plant-based protein powder is fortified with additional lysine and methionine to provide a complete essential amino acid profile comparable to whey protein.",
 
     importanceInResearch: "EAA research focuses on optimal ratios for muscle protein synthesis, minimum effective doses, timing strategies, and comparisons between complete protein sources versus isolated EAA supplements. Understanding EAA requirements is crucial for developing effective protein supplementation protocols.",
 

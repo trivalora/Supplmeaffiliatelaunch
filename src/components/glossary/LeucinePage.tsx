@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Dumbbell, Zap, TrendingUp } from 'lucide-react';
 
-interface LeucinePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function LeucinePage({ onNavigate }: LeucinePageProps) {
+export function LeucinePage() {
   return (
     <GlossaryTemplate
       term="Leucine"
       abbreviation="Leu, L (single-letter code)"
       pronunciation="loo-seen"
-      onNavigate={onNavigate}
-      currentPage="leucine"
       definition="An essential branched-chain amino acid (BCAA) that cannot be produced by the body and must be obtained from dietary protein. Leucine is the most potent amino acid for stimulating muscle protein synthesis through activation of the mTOR signaling pathway."
       
       expandedExplanation={

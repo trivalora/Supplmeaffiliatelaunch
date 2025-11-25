@@ -1,0 +1,180 @@
+# Documentation Index
+
+**Project:** Suppl.me v0.3 - Evidence-Based Supplement Information Platform  
+**Status:** ✅ Production Ready (Nov 25, 2025)  
+**Tech Stack:** Next.js 16 + React 19 + TypeScript + Tailwind CSS v4
+
+---
+
+## 🎯 Start Here
+
+### Essential Documents
+- 📖 **[Main README](../README.md)** - Project overview and quick start
+- 📊 **[Production Status](../PRODUCTION_STATUS.md)** - Current deployment status
+- 🤖 **[AI Agent Instructions](../.github/copilot-instructions.md)** - Master reference for development
+- 🚀 **[Production Readiness Report](../PRODUCTION_READY.md)** - Full audit
+
+### Recent Updates (Nov 25, 2025)
+- ✅ **UI Refinement Complete** - Header, dropdown, search polished to production quality
+- ✅ **Build System Clean** - 0 TypeScript errors, 0 warnings
+- ✅ **Documentation Reorganized** - Archived old docs, updated current state
+- ⚠️ **Hero Image Width** - Minor cosmetic issue, non-blocking for launch
+
+---
+
+## Documentation Structure
+
+### 🚀 Deployment
+- **[Deployment Checklist](deployment/DEPLOYMENT_CHECKLIST.md)** - Pre-deployment verification steps
+- **[Vercel Build Settings](deployment/VERCEL_BUILD_SETTINGS.md)** - Build configuration
+- **[Vercel Environment Variables](deployment/VERCEL_ENV_VARS.md)** - Required env vars
+
+### 📚 Guides
+- **[GTM Import Guide](guides/GTM_IMPORT_GUIDE.md)** - Analytics container setup (22 events, 36 variables)
+- **[Quick Start Guide](QUICK-START-GUIDE.md)** - Get up and running
+- **[Widget Usage](WIDGET_USAGE.md)** - Embeddable widget documentation
+
+### 📖 Reference
+- **[Quick Reference](reference/QUICK_REFERENCE.md)** - Common commands and patterns
+- **[Quick Answers](reference/QUICK_ANSWERS.md)** - FAQ and troubleshooting
+- **[Architecture](ARCHITECTURE.md)** - System design and patterns
+
+### 🗂️ Archive
+- **[Nov 25 UI Refinement](../.archive/nov-25-ui-refinement/)** - Today's work
+  - UI_REFINEMENT_COMPLETE.md - Comprehensive changelog
+  - FINAL_BUGS_FIXED.md - Hero image investigation
+  - IMAGE_ARCHITECTURE_AUDIT.md - Image optimization audit
+- **[Completed Work (Nov 2025)](../.archive/completed-work-nov-2025/)** - Phase 3-5 fixes
+- **[Migration Docs](../.archive/migration-docs/)** - v0.2 → v0.3 migration history
+
+---
+
+## Project Statistics
+
+### Content (All Production-Ready)
+- **1,936 total pages** statically generated
+  - 17 supplement knowledge pages
+  - 198 glossary terms
+  - 17 product comparison pages
+  - 1,691 product detail pages
+  - 13 static pages
+
+### Routes
+- **230 total routes** in `src/routes.config.ts`
+  - knowledgebase: 17 routes
+  - glossary: 198 routes
+  - comparison: 17 routes
+  - product details: 1,691 routes (dynamic)
+
+### Build Performance (November 25, 2025)
+- TypeScript: **0 errors** ✅
+- Peer Dependencies: **0 warnings** ✅
+- Build time: ~2-3 minutes
+- Pages generated: 1,936 (all static)
+- Node.js: >=22.x (currently v24.1.0)
+
+### Known Issues
+- ⚠️ Hero image width (cosmetic, non-blocking)
+
+---
+
+## Development Workflow
+
+### Common Commands
+```bash
+npm run dev              # Dev server (port 3000/3001)
+npm run build            # Production build
+npm run start            # Preview production build
+npm run lint             # Run ESLint
+```
+
+### Build Variants
+```bash
+npm run build:images     # Build with image optimization
+npm run build:full       # Build with images + font subsetting
+npm run images           # Optimize images only
+npm run cache:remote-images  # Cache retailer logos
+```
+
+### Deployment
+```bash
+git push origin main     # Auto-deploy to Vercel
+```
+
+---
+
+## Architecture Overview
+
+### Frontend (Next.js 16 App Router)
+- **Routing**: Centralized in `src/routes.config.ts`
+- **Components**: 
+  - Server components by default
+  - Client components (`'use client'`) for interactivity
+  - Dynamic routes in `app/[slug]/page.tsx`
+- **Styling**: Tailwind CSS v4 with custom design system
+- **Analytics**: GTM + GA4 (22 events tracked)
+
+### Key Patterns
+1. **100vw Hero Container**: Background spans viewport, content respects padding
+2. **Category-Specific Search**: Distinct backgrounds (black/green/gold) per category
+3. **COMPONENT_MAP**: All page components imported and mapped in dynamic routes
+4. **Glossary Auto-linking**: Automatic term linking with hover cards
+5. **Image Optimization**: HeroImage, SectionImage, ProductImage components
+
+### Data Flow
+```
+routes.config.ts → app/[slug]/page.tsx → Component (Client)
+                                        ↓
+                               KnowledgebaseTemplate
+                               GlossaryTemplate  
+                               ProductComparisonWrapper
+```
+
+---
+
+## External Dependencies
+
+### Analytics
+- GTM Container: GTM-NQWRNKFT
+- GA4 Property: G-JHCPJYM37R
+- Optional: Hotjar, Microsoft Clarity
+
+### Data Sources
+- DSLD (Dietary Supplement Label Database) - SQLite
+- Retailer APIs: iHerb, Vitacost, Amazon, GNC, Walmart, Bodybuilding.com
+
+### Deployment
+- Vercel (automatic on push to main)
+- Node.js >=22.x required
+
+---
+
+## Recent Updates (Nov 2025)
+
+### ✅ Completed
+- Server/Client component boundaries fixed
+- Hero image 100vw container architecture
+- Search results category-specific styling
+- Product page color consistency (primary green)
+- Complete DSLD label data display (8 categories)
+- SEO enhancements (BreadcrumbList, enhanced schemas)
+- Category cleanup (v2 → knowledgebase, v1 removed)
+
+### 📝 Documentation Improvements
+- Archived completed work documentation
+- Organized docs into deployment/guides/reference
+- Comprehensive AI agent instructions
+- Production readiness audit complete
+
+---
+
+## Need Help?
+
+1. **Quick Answers**: Check `docs/reference/QUICK_ANSWERS.md`
+2. **AI Agents**: See `.github/copilot-instructions.md` for complete patterns
+3. **Deployment**: Follow `docs/deployment/DEPLOYMENT_CHECKLIST.md`
+4. **Troubleshooting**: See "Common Pitfalls" in copilot instructions
+
+---
+
+**Last Updated:** November 25, 2025

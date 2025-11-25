@@ -10,7 +10,7 @@ export function HeroImage({
     file,
     alt = '',
     fallbackSrc,
-    widths = [640, 1280, 1920],
+    widths = [640, 1280, 1920, 2560],
     objectPosition = 'center',
 }: {
     file: string;
@@ -24,8 +24,8 @@ export function HeroImage({
     const fallback = fallbackSrc || `/optimized/${base}-${widths[Math.floor(widths.length / 2)]}.webp`;
 
     return (
-        <div style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
-            <picture style={{ display: 'block', width: '100%', height: '100%' }}>
+        <div className="hero-image-container">
+            <picture className="hero-image-wrapper">
                 <source type="image/avif" srcSet={toSet('avif')} sizes="100vw" />
                 <source type="image/webp" srcSet={toSet('webp')} sizes="100vw" />
                 <img
@@ -33,13 +33,10 @@ export function HeroImage({
                     alt={alt}
                     loading="eager"
                     decoding="async"
-                    fetchpriority="high"
+                    fetchPriority="high"
+                    className="hero-image"
                     style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
                         objectPosition,
-                        display: 'block',
                     }}
                 />
             </picture>

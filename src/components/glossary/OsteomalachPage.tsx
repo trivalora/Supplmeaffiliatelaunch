@@ -1,17 +1,11 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface OsteomalachPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function OsteomalachPage({ onNavigate }: OsteomalachPageProps) {
+export function OsteomalachPage() {
   return (
     <GlossaryTemplate
       term="Osteomalacia"
-      onNavigate={onNavigate}
-      currentPage="osteomalacia"
       definition="Softening of the bones in adults due to defective bone mineralization, most commonly caused by severe vitamin D deficiency."
-      detailedExplanation={`Osteomalacia is the adult equivalent of rickets, characterized by impaired bone mineralization resulting in soft, weak bones prone to deformity and fracture. Unlike osteoporosis (which involves loss of mineralized bone), osteomalacia involves accumulation of unmineralized bone matrix (osteoid).
+      expandedExplanation={`Osteomalacia is the adult equivalent of rickets, characterized by impaired bone mineralization resulting in soft, weak bones prone to deformity and fracture. Unlike osteoporosis (which involves loss of mineralized bone), osteomalacia involves accumulation of unmineralized bone matrix (osteoid).
 
 **Causes**
 

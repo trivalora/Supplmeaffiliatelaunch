@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ImmunePageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ImmuneSystemPage({ onNavigate }: ImmunePageProps) {
+export function ImmuneSystemPage() {
   return (
     <GlossaryTemplate
       term="Immune System"
-      onNavigate={onNavigate}
-      currentPage="immunesystem"
       definition="The body's defense network of cells, tissues, and organs that protect against pathogens, foreign substances, and abnormal cells, comprising both innate and adaptive immune responses."
       detailedExplanation="The immune system consists of two main components: the innate immune system (first line of defense including physical barriers like skin, and cells like neutrophils and macrophages that respond quickly but non-specifically) and the adaptive immune system (specialized responses involving B cells that produce antibodies and T cells that kill infected cells or coordinate immune responses). These systems work together to detect and eliminate threats while avoiding attacks on the body's own cells.
 

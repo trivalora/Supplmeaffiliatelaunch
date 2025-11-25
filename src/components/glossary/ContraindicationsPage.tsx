@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function ContraindicationsPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function ContraindicationsPage() {
   return (
     <GlossaryTemplate
       term="Contraindications"
@@ -131,11 +123,6 @@ Contraindication information has limitations:
         { term: "Blood Glucose", key: "blood-glucose" },
         { term: "Thyroid Function", key: "thyroid-function" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="contraindications"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

@@ -1,81 +1,78 @@
-import { ProductComparison } from './ProductComparison';
-import { PageKey } from '../routes.config';
+import { ProductComparisonClient } from './ProductComparisonClient';
 
 interface ProductComparisonWrapperProps {
   supplementId: string;
-  onNavigate: (page: PageKey) => void;
 }
 
-export function ProductComparisonWrapper({ supplementId, onNavigate }: ProductComparisonWrapperProps) {
-  return <ProductComparison initialSupplement={supplementId} onNavigate={onNavigate} />;
+export function ProductComparisonWrapper({ supplementId }: ProductComparisonWrapperProps) {
+  return <ProductComparisonClient supplementId={supplementId} />;
 }
 
 // Export individual wrappers for each supplement
-export function AshwagandhaComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="ashwagandha" onNavigate={onNavigate} />;
+export function AshwagandhaComparison() {
+  return <ProductComparisonWrapper supplementId="ashwagandha" />;
 }
 
-export function CalciumComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="calcium" onNavigate={onNavigate} />;
+export function CalciumComparison() {
+  return <ProductComparisonWrapper supplementId="calcium" />;
 }
 
-export function CollagenComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="collagen" onNavigate={onNavigate} />;
+export function CollagenComparison() {
+  return <ProductComparisonWrapper supplementId="collagen" />;
 }
 
-export function CreatineComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="creatine" onNavigate={onNavigate} />;
+export function CreatineComparison() {
+  return <ProductComparisonWrapper supplementId="creatine" />;
 }
 
-export function IronComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="iron" onNavigate={onNavigate} />;
+export function IronComparison() {
+  return <ProductComparisonWrapper supplementId="iron" />;
 }
 
-export function MagnesiumComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="magnesium" onNavigate={onNavigate} />;
+export function MagnesiumComparison() {
+  return <ProductComparisonWrapper supplementId="magnesium" />;
 }
 
-export function Omega3Comparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="omega-3" onNavigate={onNavigate} />;
+export function Omega3Comparison() {
+  return <ProductComparisonWrapper supplementId="omega-3" />;
 }
 
-export function PrebioticsComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="prebiotics" onNavigate={onNavigate} />;
+export function PrebioticsComparison() {
+  return <ProductComparisonWrapper supplementId="prebiotics" />;
 }
 
-export function ProbioticsComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  const supplementId = "probiotics"; // Explicit variable to force rebuild
-  return <ProductComparisonWrapper supplementId={supplementId} onNavigate={onNavigate} />;
+export function ProbioticsComparison() {
+  return <ProductComparisonWrapper supplementId="probiotics" />;
 }
 
-export function VitaminCComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="vitamin-c" onNavigate={onNavigate} />;
+export function VitaminCComparison() {
+  return <ProductComparisonWrapper supplementId="vitamin-c" />;
 }
 
-export function VitaminDComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="vitamin-d" onNavigate={onNavigate} />;
+export function VitaminDComparison() {
+  return <ProductComparisonWrapper supplementId="vitamin-d" />;
 }
 
-export function BCAAsComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="bcaa" onNavigate={onNavigate} />;
+export function BCAAsComparison() {
+  return <ProductComparisonWrapper supplementId="bcaa" />;
 }
 
-export function CurcuminComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="curcumin" onNavigate={onNavigate} />;
+export function CurcuminComparison() {
+  return <ProductComparisonWrapper supplementId="curcumin" />;
 }
 
-export function MultivitaminComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="multivitamin" onNavigate={onNavigate} />;
+export function MultivitaminComparison() {
+  return <ProductComparisonWrapper supplementId="multivitamin" />;
 }
 
-export function WheyProteinComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="whey" onNavigate={onNavigate} />;
+export function WheyProteinComparison() {
+  return <ProductComparisonWrapper supplementId="whey" />;
 }
 
-export function CaseinProteinComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="casein" onNavigate={onNavigate} />;
+export function CaseinProteinComparison() {
+  return <ProductComparisonWrapper supplementId="casein" />;
 }
 
-export function ZincComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-  return <ProductComparisonWrapper supplementId="zinc" onNavigate={onNavigate} />;
+export function ZincComparison() {
+  return <ProductComparisonWrapper supplementId="zinc" />;
 }

@@ -1,14 +1,8 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface EfficacyPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function EfficacyPage({ onNavigate }: EfficacyPageProps) {
+export function EfficacyPage() {
   return (
     <GlossaryTemplate
-      onNavigate={onNavigate}
-      currentPage="efficacy"
       term="Efficacy"
       definition="The ability of a supplement or treatment to produce the desired beneficial effect under ideal, controlled conditions."
       detailedExplanation="Efficacy refers to how well a supplement works under optimal, controlled circumstances, such as in a randomized controlled trial. It answers the question: 'Can this supplement work when used under ideal conditions with high adherence and careful monitoring?'

@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface OxidizedLDLPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function OxidizedLDLPage({ onNavigate }: OxidizedLDLPageProps) {
+export function OxidizedLDLPage() {
   return (
     <GlossaryTemplate
       term="Oxidized LDL"
       abbreviation="oxLDL"
-      onNavigate={onNavigate}
-      currentPage="oxidizedldl"
       definition="Low-density lipoprotein particles that have undergone oxidative modification, transforming them from cholesterol transport particles into pro-inflammatory molecules that play a central role in atherosclerosis development and cardiovascular disease."
       detailedExplanation="Oxidized LDL (oxLDL) represents LDL cholesterol particles that have been chemically modified by reactive oxygen species, making them more atherogenic (plaque-forming) than native LDL. This oxidation process is considered a critical early event in atherosclerosis development, transforming LDL from a relatively benign cholesterol carrier into a pathogenic trigger of vascular inflammation.
 

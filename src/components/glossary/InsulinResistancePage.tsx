@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function InsulinResistancePage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function InsulinResistancePage() {
   return (
     <GlossaryTemplate
       term="Insulin Resistance"
@@ -31,11 +23,6 @@ Insulin resistance is assessed through various methods including fasting insulin
         { term: "Metabolism", key: "metabolism" },
         { term: "Inflammation", key: "inflammation" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="insulinresistance"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

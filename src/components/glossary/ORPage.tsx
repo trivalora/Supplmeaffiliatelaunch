@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface ORPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function ORPage({ onNavigate }: ORPageProps) {
+export function ORPage() {
   return (
     <GlossaryTemplate
       term="Odds Ratio"
       abbreviation="OR"
-      onNavigate={onNavigate}
-      currentPage="or"
       definition="A statistical measure that quantifies the odds of an outcome occurring in one group relative to the odds in another group, commonly used in case-control studies and logistic regression analyses."
       detailedExplanation="Odds Ratio (OR) compares the odds of an event in the treatment group to the odds in the control group. Unlike Risk Ratio which uses probabilities, OR uses odds—calculated as the probability of an event occurring divided by the probability of it not occurring. An OR of 1.0 indicates no difference between groups. An OR greater than 1.0 suggests increased odds in the treatment group, while an OR less than 1.0 suggests decreased odds.
 

@@ -1,16 +1,10 @@
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface AminoAcidsPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function AminoAcidsPage({ onNavigate }: AminoAcidsPageProps) {
+export function AminoAcidsPage() {
   return (
     <GlossaryTemplate
       term="Amino Acids"
-      onNavigate={onNavigate}
-      currentPage="aminoacids"
       definition="Organic compounds that serve as the building blocks of proteins, each containing an amino group (-NH₂), a carboxyl group (-COOH), and a unique side chain that determines its properties and function."
       
       detailedExplanation="Amino acids are fundamental molecules in biology, combining in various sequences to form the proteins that make up muscles, enzymes, hormones, antibodies, and countless other vital structures and functions in the body. There are 20 standard amino acids that combine to create all human proteins.

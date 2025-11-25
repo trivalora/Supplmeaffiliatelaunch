@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface PeerReviewedPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function PeerReviewedPage({ onNavigate }: PeerReviewedPageProps) {
+export function PeerReviewedPage() {
   return (
     <GlossaryTemplate
       term="Peer-reviewed"
-      onNavigate={onNavigate}
-      currentPage="peerreviewed"
       definition="Scientific research that has been evaluated and approved by independent experts in the same field before publication."
       detailedExplanation="Peer review is a critical quality control process in scientific publishing. Before a research paper is published in a reputable journal, it undergoes rigorous evaluation by independent experts (peers) who assess the study's methodology, analysis, conclusions, and significance. These reviewers check for errors, biases, and ensure that the research meets the journal's standards.
 

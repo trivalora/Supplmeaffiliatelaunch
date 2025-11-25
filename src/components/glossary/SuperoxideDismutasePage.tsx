@@ -1,19 +1,14 @@
+'use client';
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Shield, Zap, Activity, Pill, Heart, Brain } from 'lucide-react';
 
-interface SuperoxideDismutasePageProps {
-  onNavigate: (page: string) => void;
-}
-
-export const SuperoxideDismutasePage: React.FC<SuperoxideDismutasePageProps> = ({ onNavigate }) => {
+export function SuperoxideDismutasePage() {
   return (
     <GlossaryTemplate
       term="Superoxide Dismutase"
       abbreviation="SOD"
       pronunciation="soo-per-OK-side dis-MYOO-tase"
-      onNavigate={onNavigate}
-      currentPage="superoxidedismutase"
       definition="A family of metalloenzymes that catalyzes the dismutation of superoxide radicals (O₂•⁻) into oxygen (O₂) and hydrogen peroxide (H₂O₂), representing the first line of enzymatic defense against oxidative stress in cells."
       detailedExplanation="Superoxide dismutase (SOD) is one of the most important antioxidant enzymes in living organisms, present in nearly all aerobic organisms and most subcellular compartments. SOD enzymes protect cells from the damaging effects of superoxide radicals, which are continuously produced as byproducts of cellular metabolism, particularly during mitochondrial respiration.
 
@@ -224,4 +219,4 @@ Higher SOD activity generally correlates with better antioxidant defense, though
       ]}
     />
   );
-};
+}

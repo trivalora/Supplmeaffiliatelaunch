@@ -1,18 +1,13 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Heart, Shield, TrendingUp } from 'lucide-react';
 
-interface HDLCholesterolPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function HDLCholesterolPage({ onNavigate }: HDLCholesterolPageProps) {
+export function HDLCholesterolPage() {
   return (
     <GlossaryTemplate
       term="HDL Cholesterol (High-Density Lipoprotein)"
       abbreviation="HDL, HDL-C, Good Cholesterol"
       pronunciation="aych-dee-el kuh-les-tuh-rawl"
-      onNavigate={onNavigate}
-      currentPage="hdlcholesterol"
       definition="A type of lipoprotein that transports cholesterol from peripheral tissues back to the liver for disposal, often called 'good cholesterol' because higher levels are associated with lower cardiovascular disease risk and protection against atherosclerosis."
       
       expandedExplanation={

@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface CIPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function CIPage({ onNavigate }: CIPageProps) {
+export function CIPage() {
   return (
     <GlossaryTemplate
       term="Confidence Interval"
       abbreviation="CI"
-      onNavigate={onNavigate}
-      currentPage="ci"
       definition="A range of values that is likely to contain the true effect size with a specified level of confidence (typically 95%), providing information about the precision and uncertainty of a study's findings."
       detailedExplanation="A Confidence Interval (CI) quantifies the uncertainty around an estimated effect. When a study reports a mean difference of -5.2 mmHg (95% CI: -8.1 to -2.3), this means we can be 95% confident that the true effect lies somewhere between -8.1 and -2.3 mmHg. The width of the CI indicates precision: narrow intervals suggest precise estimates with low uncertainty, while wide intervals indicate high uncertainty and imprecise estimates.
 

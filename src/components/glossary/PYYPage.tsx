@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface PYYPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function PYYPage({ onNavigate }: PYYPageProps) {
+export function PYYPage() {
   return (
     <GlossaryTemplate
       term="Peptide YY"
       abbreviation="PYY"
-      onNavigate={onNavigate}
-      currentPage="pyy"
       definition="A satiety hormone secreted by intestinal L-cells in response to food intake that reduces appetite, slows gastric emptying, and decreases food consumption, playing a key role in appetite regulation and energy balance."
       detailedExplanation="Peptide YY (PYY) is a 36-amino acid hormone belonging to the neuropeptide Y family. It is co-secreted with GLP-1 by enteroendocrine L-cells located primarily in the distal small intestine and colon. PYY is released in response to food intake, with secretion proportional to calorie content and particularly responsive to fat and protein. Secretion begins within 15-30 minutes of eating and peaks 1-2 hours postprandially.
 

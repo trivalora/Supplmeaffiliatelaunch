@@ -1,18 +1,13 @@
+'use client';
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Wine, Heart, Activity, Shield, Pill, AlertCircle } from 'lucide-react';
 
-interface ResveratrolPageProps {
-  onNavigate: (page: string) => void;
-}
-
-export const ResveratrolPage: React.FC<ResveratrolPageProps> = ({ onNavigate }) => {
+export function ResveratrolPage() {
   return (
     <GlossaryTemplate
       term="Resveratrol"
       pronunciation="rez-VER-uh-trol"
-      onNavigate={onNavigate}
-      currentPage="resveratrol"
       definition="A polyphenolic stilbene compound produced by certain plants as a defense mechanism against stress, pathogens, and UV radiation. Found in grape skins, red wine, berries, and peanuts, resveratrol has been extensively studied for potential anti-aging, cardioprotective, and metabolic benefits."
       detailedExplanation="Resveratrol (3,5,4'-trihydroxystilbene) gained widespread attention in the 1990s due to the 'French Paradox'—the observation that French populations exhibited relatively low cardiovascular disease rates despite consuming diets high in saturated fat, with red wine consumption proposed as a protective factor. Since then, resveratrol has become one of the most studied polyphenols, with research exploring its effects on aging, cardiovascular health, metabolism, and neurodegenerative diseases.
 
@@ -183,4 +178,4 @@ The enthusiasm for resveratrol as an anti-aging supplement may be premature base
       ]}
     />
   );
-};
+}

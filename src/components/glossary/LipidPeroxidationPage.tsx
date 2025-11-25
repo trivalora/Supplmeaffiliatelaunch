@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface LipidPeroxidationPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function LipidPeroxidationPage({ onNavigate }: LipidPeroxidationPageProps) {
+export function LipidPeroxidationPage() {
   return (
     <GlossaryTemplate
       term="Lipid Peroxidation"
       abbreviation="None"
-      onNavigate={onNavigate}
-      currentPage="lipidperoxidation"
       definition="The oxidative degradation of lipids (fats) in cell membranes by reactive oxygen species, creating a chain reaction that damages membrane structure and produces toxic byproducts, serving as a key mechanism of oxidative damage in disease and aging."
       detailedExplanation="Lipid peroxidation is a destructive process where reactive oxygen species (ROS) attack polyunsaturated fatty acids (PUFAs) in cellular membranes, initiating a self-propagating chain reaction of oxidative damage. This process compromises membrane integrity, alters membrane protein function, and generates toxic aldehyde byproducts that can damage proteins and DNA throughout the cell.
 
@@ -70,7 +64,7 @@ Lipid peroxidation contributes to:
 - Avoiding pro-oxidant exposures (smoking, excessive alcohol, pollution)
 - Maintaining iron stores in normal range (excess iron catalyzes peroxidation)"
       examples={[
-        "When vitamin E intake is inadequate, erythrocyte (red blood cell) membranes show increased lipid peroxidation, measured as elevated MDA levels (>2.5 μmol/L plasma), potentially leading to hemolysis.",
+        "When vitamin E intake is inadequate, erythrocyte (red blood cell) membranes show increased lipid peroxidation, measured as elevated MDA levels (&gt;2.5 μmol/L plasma), potentially leading to hemolysis.",
         "Isoprostane levels (F2-IsoP) in healthy adults typically range from 15-40 pg/mL plasma, but can exceed 100 pg/mL in conditions of severe oxidative stress like sepsis or myocardial infarction.",
         "Supplementation with vitamin E (400-800 IU daily) can reduce markers of lipid peroxidation by 20-40% in individuals with elevated oxidative stress, though effects on clinical outcomes are less consistent."
       ]}

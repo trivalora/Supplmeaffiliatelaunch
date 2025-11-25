@@ -1,18 +1,12 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface UlcerativeColitisPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function UlcerativeColitisPage({ onNavigate }: UlcerativeColitisPageProps) {
+export function UlcerativeColitisPage() {
   return (
     <GlossaryTemplate
       term="Ulcerative Colitis"
       abbreviation="UC"
-      onNavigate={onNavigate}
-      currentPage="ulcerativecolitis"
       definition="A chronic inflammatory bowel disease causing inflammation and ulcers in the colon and rectum."
-      detailedExplanation={`Ulcerative colitis (UC) is a type of inflammatory bowel disease (IBD) characterized by chronic inflammation and ulceration of the innermost lining (mucosa) of the colon (large intestine) and rectum.
+      expandedExplanation={`Ulcerative colitis (UC) is a type of inflammatory bowel disease (IBD) characterized by chronic inflammation and ulceration of the innermost lining (mucosa) of the colon (large intestine) and rectum.
 
 Unlike Crohn's disease, which can affect any part of the digestive tract and involves all layers of the bowel wall, UC is limited to the colon and rectum and affects only the mucosal layer. The inflammation typically begins in the rectum and extends continuously upward through the colon.
 

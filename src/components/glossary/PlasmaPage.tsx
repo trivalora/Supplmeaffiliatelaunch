@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function PlasmaPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function PlasmaPage() {
   return (
     <GlossaryTemplate
       term="Plasma"
@@ -20,7 +12,7 @@ Plasma consists of:
 • ~90% Water
 • ~7% Proteins (albumin, globulins, fibrinogen)
 • ~1% Electrolytes, nutrients, hormones
-• <1% Gases, waste products
+• &lt;1% Gases, waste products
 
 Plasma vs. Serum:
 
@@ -58,11 +50,6 @@ Used for coagulation studies"
         { term: "Serum", key: "serum" },
         { term: "Biomarker", key: "biomarker" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="plasma"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

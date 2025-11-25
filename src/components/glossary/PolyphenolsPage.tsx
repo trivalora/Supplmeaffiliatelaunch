@@ -1,17 +1,12 @@
+'use client';
 import React from 'react';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Leaf, HeartPulse, Shield, Pill, Activity, Sparkles } from 'lucide-react';
 
-interface PolyphenolsPageProps {
-  onNavigate: (page: string) => void;
-}
-
-export const PolyphenolsPage: React.FC<PolyphenolsPageProps> = ({ onNavigate }) => {
+export function PolyphenolsPage() {
   return (
     <GlossaryTemplate
       term="Polyphenols"
-      onNavigate={onNavigate}
-      currentPage="polyphenols"
       definition="A large family of naturally occurring plant compounds characterized by multiple phenol units. Polyphenols function as antioxidants and signaling molecules with anti-inflammatory, cardioprotective, and metabolic benefits."
       detailedExplanation="Polyphenols are among the most abundant antioxidants in the human diet, found predominantly in fruits, vegetables, tea, coffee, wine, cocoa, and whole grains. They are synthesized by plants as defense compounds against UV radiation, pathogens, and oxidative stress. In humans, polyphenols exert biological effects through multiple mechanisms: direct antioxidant activity (scavenging free radicals), modulation of cellular signaling pathways (especially Nrf2, NF-κB, and AMPK), influence on gut microbiota composition, and epigenetic regulation.
 
@@ -122,4 +117,4 @@ Polyphenol content in foods varies based on plant variety, growing conditions, r
       ]}
     />
   );
-};
+}

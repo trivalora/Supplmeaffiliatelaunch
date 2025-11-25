@@ -1,15 +1,9 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface NeurotransmitterPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function NeurotransmitterPage({ onNavigate }: NeurotransmitterPageProps) {
+export function NeurotransmitterPage() {
   return (
     <GlossaryTemplate
       term="Neurotransmitter"
-      onNavigate={onNavigate}
-      currentPage="neurotransmitter"
       definition="Chemical messengers that transmit signals across synapses from one neuron to another neuron, muscle cell, or gland cell, enabling communication throughout the nervous system."
       detailedExplanation="Neurotransmitters are synthesized in neurons from precursor molecules (often amino acids or derived from diet), stored in vesicles, and released in response to electrical signals. Once released into the synaptic cleft, they bind to specific receptors on target cells, triggering responses ranging from muscle contraction to mood changes. After transmission, neurotransmitters are either broken down by enzymes or reabsorbed by the releasing neuron (reuptake) for recycling.
 

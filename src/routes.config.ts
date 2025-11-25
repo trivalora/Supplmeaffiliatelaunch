@@ -23,135 +23,149 @@ export type SubcategoryType =
 export interface RouteConfig {
   key: string;
   title: string;
+  path?: string;  // Added for routes that have explicit paths
   description: string;
   componentPath: string;
   componentName: string;
   showInNav: boolean;
-  category?: 'v1' | 'v2' | 'glossary';
+  category?: 'knowledgebase' | 'glossary' | 'comparison';
   subcategory?: SubcategoryType;
   abbreviation?: string;
+  supplementId?: string;  // For comparison pages
 }
 
 export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
-  // V2 Pages (Primary - shown in navigation)
+  // Knowledgebase Pages (Primary - shown in navigation)
   {
     key: 'ashwagandhav2',
     title: 'Ashwagandha',
+    path: '/ashwagandha',
     description: 'Enhanced meta-analysis review of ashwagandha with updated research data',
-    componentPath: './components/AshwagandhaPageNewV2',
-    componentName: 'AshwagandhaPageNewV2',
+    componentPath: './components/AshwagandhaKnowledgebasePage',
+    componentName: 'AshwagandhaKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Phytochemicals'
   },
   {
     key: 'calciumv2',
     title: 'Calcium',
+    path: '/calcium',
     description: 'Enhanced meta-analysis review of calcium for bone health and cardiovascular effects',
-    componentPath: './components/CalciumPageNewV2',
-    componentName: 'CalciumPageNewV2',
+    componentPath: './components/CalciumKnowledgebasePage',
+    componentName: 'CalciumKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Minerals'
   },
   {
     key: 'collagenpeptidesv2',
     title: 'Collagen Peptides',
+    path: '/collagen',
     description: 'Enhanced meta-analysis review of collagen peptides for skin, joints, and connective tissue',
-    componentPath: './components/CollagenPeptidesPageNewV2',
-    componentName: 'CollagenPeptidesPageNewV2',
+    componentPath: './components/CollagenKnowledgebasePage',
+    componentName: 'CollagenKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Protein Supplements'
   },
   {
     key: 'creatinev2',
     title: 'Creatine',
+    path: '/creatine',
     description: 'Enhanced meta-analysis review of creatine with updated research data',
-    componentPath: './components/CreatinePageNewV2',
-    componentName: 'CreatinePageNewV2',
+    componentPath: './components/CreatineKnowledgebasePage',
+    componentName: 'CreatineKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Amino Acids'
   },
   {
     key: 'ironv2',
     title: 'Iron',
+    path: '/iron',
     description: 'Enhanced meta-analysis review of iron for anemia, heart failure, and chronic kidney disease',
-    componentPath: './components/IronPageNewV2',
-    componentName: 'IronPageNewV2',
+    componentPath: './components/IronKnowledgebasePage',
+    componentName: 'IronKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Minerals'
   },
   {
     key: 'magnesiumv2',
     title: 'Magnesium',
+    path: '/magnesium',
     description: 'Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation',
-    componentPath: './components/MagnesiumPageNewV2',
-    componentName: 'MagnesiumPageNewV2',
+    componentPath: './components/MagnesiumKnowledgebasePage',
+    componentName: 'MagnesiumKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Minerals'
   },
   {
     key: 'omega3v2',
     title: 'Omega-3',
+    path: '/omega-3',
     description: 'Enhanced meta-analysis review of omega-3 with updated research data',
-    componentPath: './components/Omega3PageNewV2',
-    componentName: 'Omega3PageNewV2',
+    componentPath: './components/Omega3KnowledgebasePage',
+    componentName: 'Omega3KnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Omega-3 Fatty Acids'
   },
   {
     key: 'prebioticsv2',
     title: 'Prebiotics',
+    path: '/prebiotics',
     description: 'Enhanced meta-analysis review of prebiotics for gut health and metabolic effects',
-    componentPath: './components/PrebioticsPageNewV2',
-    componentName: 'PrebioticsPageNewV2',
+    componentPath: './components/PrebioticsKnowledgebasePage',
+    componentName: 'PrebioticsKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Probiotics'
   },
   {
     key: 'probioticsv2',
     title: 'Probiotics',
+    path: '/probiotics',
     description: 'Enhanced meta-analysis review of probiotics for digestive and immune health',
-    componentPath: './components/ProbioticsPageNewV2',
-    componentName: 'ProbioticsPageNewV2',
+    componentPath: './components/ProbioticsKnowledgebasePage',
+    componentName: 'ProbioticsKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Probiotics'
   },
   {
     key: 'sulforaphanev2',
     title: 'Sulforaphane',
+    path: '/sulforaphane',
     description: 'Enhanced meta-analysis review of sulforaphane with updated research data',
-    componentPath: './components/SulforaphanePageNewV2',
-    componentName: 'SulforaphanePageNewV2',
+    componentPath: './components/SulforaphaneKnowledgebasePage',
+    componentName: 'SulforaphaneKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Phytochemicals'
   },
   {
     key: 'vitamincv2',
     title: 'Vitamin C',
+    path: '/vitamin-c',
     description: 'Enhanced meta-analysis review of vitamin C with updated research data',
-    componentPath: './components/VitaminCPageNewV2',
-    componentName: 'VitaminCPageNewV2',
+    componentPath: './components/VitaminCKnowledgebasePage',
+    componentName: 'VitaminCKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Vitamins'
   },
   {
     key: 'vitamindv2',
     title: 'Vitamin D',
+    path: '/vitamin-d',
     description: 'Enhanced meta-analysis review of vitamin D with updated research data',
-    componentPath: './components/VitaminDPageNewV2',
-    componentName: 'VitaminDPageNewV2',
+    componentPath: './components/VitaminDKnowledgebasePage',
+    componentName: 'VitaminDKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Vitamins'
   },
 
@@ -159,11 +173,12 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   {
     key: 'bcaasv2',
     title: 'BCAAs',
+    path: '/bcaas',
     description: 'Enhanced meta-analysis review of branched-chain amino acids for muscle recovery and hepatic health',
-    componentPath: './components/BCAAsPageNewV2',
-    componentName: 'BCAAsPageNewV2',
+    componentPath: './components/BcaaKnowledgebasePage',
+    componentName: 'BcaaKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Amino Acids'
   },
 
@@ -171,190 +186,48 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   {
     key: 'curcuminv2',
     title: 'Curcumin',
+    path: '/curcumin',
     description: 'Enhanced meta-analysis review of curcumin with anti-inflammatory and metabolic effects',
-    componentPath: './components/CurcuminPageNewV2',
-    componentName: 'CurcuminPageNewV2',
+    componentPath: './components/CurcuminKnowledgebasePage',
+    componentName: 'CurcuminKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Phytochemicals'
   },
   {
     key: 'multivitaminv2',
     title: 'Multivitamin',
+    path: '/multivitamin',
     description: 'Enhanced meta-analysis review of multivitamins with population-specific efficacy and safety data',
-    componentPath: './components/MultivitaminPageNewV2',
-    componentName: 'MultivitaminPageNewV2',
+    componentPath: './components/MultivitaminKnowledgebasePage',
+    componentName: 'MultivitaminKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Vitamins'
   },
   {
     key: 'wheyproteinv2',
     title: 'Whey Protein',
+    path: '/whey-protein',
     description: 'Enhanced meta-analysis review of whey protein for body composition, metabolic health, and athletic performance',
-    componentPath: './components/WheyProteinPageNewV2',
-    componentName: 'WheyProteinPageNewV2',
+    componentPath: './components/WheyProteinKnowledgebasePage',
+    componentName: 'WheyProteinKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Protein Supplements'
   },
   {
     key: 'caseinproteinv2',
     title: 'Casein Protein',
+    path: '/casein-protein',
     description: 'Enhanced meta-analysis review of casein protein for blood pressure, muscle mass, and inflammatory outcomes',
-    componentPath: './components/CaseinProteinPageNewV2',
-    componentName: 'CaseinProteinPageNewV2',
+    componentPath: './components/CaseinProteinKnowledgebasePage',
+    componentName: 'CaseinProteinKnowledgebasePage',
     showInNav: true,
-    category: 'v2',
+    category: 'knowledgebase',
     subcategory: 'Protein Supplements'
   },
 
-  // V1 Pages (Archived - hidden from navigation)
-  {
-    key: 'wheyprotein',
-    title: 'Whey Protein (V1 - Archived)',
-    description: 'High-quality dairy protein for muscle mass, strength, and metabolic health',
-    componentPath: './components/WheyProteinPageNew',
-    componentName: 'WheyProteinPageNew',
-    showInNav: false,
-    category: 'v1',
-    subcategory: 'Protein Supplements'
-  },
-  {
-    key: 'multivitamin',
-    title: 'Multivitamin (V1 - Archived)',
-    description: 'Comprehensive blend of essential vitamins and minerals',
-    componentPath: './components/MultivitaminPageNew',
-    componentName: 'MultivitaminPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'curcumin',
-    title: 'Curcumin (V1 - Archived)',
-    description: 'Active compound from turmeric with anti-inflammatory and metabolic effects',
-    componentPath: './components/CurcuminPageNew',
-    componentName: 'CurcuminPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'bcaas',
-    title: 'BCAAs (V1 - Archived)',
-    description: 'Essential branched-chain amino acids for muscle recovery and hepatic health',
-    componentPath: './components/BCAAsPageNew',
-    componentName: 'BCAAsPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'ashwagandha',
-    title: 'Ashwagandha (V1 - Archived)',
-    description: 'Adaptogenic herb for stress management and cognitive function',
-    componentPath: './components/AshwagandhaPageNew',
-    componentName: 'AshwagandhaPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'calcium',
-    title: 'Calcium (V1 - Archived)',
-    description: 'Essential mineral for bone health and cellular functions',
-    componentPath: './components/CalciumPageNew',
-    componentName: 'CalciumPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'collagenpeptides',
-    title: 'Collagen Peptides (V1 - Archived)',
-    description: 'Structural protein for skin, joints, and connective tissue',
-    componentPath: './components/CollagenPeptidesPageNew',
-    componentName: 'CollagenPeptidesPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'creatine',
-    title: 'Creatine (V1 - Archived)',
-    description: 'Performance supplement for strength, power, and muscle growth',
-    componentPath: './components/CreatinePageNew',
-    componentName: 'CreatinePageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'iron',
-    title: 'Iron (V1 - Archived)',
-    description: 'Essential mineral for oxygen transport and energy metabolism',
-    componentPath: './components/IronPageNew',
-    componentName: 'IronPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'magnesium',
-    title: 'Magnesium (V1 - Archived)',
-    description: 'Vital mineral for muscle function, bone health, and energy metabolism',
-    componentPath: './components/MagnesiumPageNew',
-    componentName: 'MagnesiumPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'omega3',
-    title: 'Omega-3 (V1 - Archived)',
-    description: 'Essential fatty acids for heart health, brain function, and inflammation',
-    componentPath: './components/Omega3PageNew',
-    componentName: 'Omega3PageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'prebiotics',
-    title: 'Prebiotics (V1 - Archived)',
-    description: 'Dietary fibers that support beneficial gut bacteria',
-    componentPath: './components/PrebioticsPageNew',
-    componentName: 'PrebioticsPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'probiotics',
-    title: 'Probiotics (V1 - Archived)',
-    description: 'Live beneficial bacteria for digestive and immune health',
-    componentPath: './components/ProbioticsPageNew',
-    componentName: 'ProbioticsPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'sulforaphane',
-    title: 'Sulforaphane (V1 - Archived)',
-    description: 'Bioactive compound from cruciferous vegetables',
-    componentPath: './components/SulforaphanePageNew',
-    componentName: 'SulforaphanePageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'vitaminc',
-    title: 'Vitamin C (V1 - Archived)',
-    description: 'Essential antioxidant vitamin for immune support and collagen synthesis',
-    componentPath: './components/VitaminCPageNew',
-    componentName: 'VitaminCPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
-  {
-    key: 'vitamind',
-    title: 'Vitamin D (V1 - Archived)',
-    description: 'Essential vitamin for bone health, immune function, and mood',
-    componentPath: './components/VitaminDPageNew',
-    componentName: 'VitaminDPageNew',
-    showInNav: false,
-    category: 'v1'
-  },
   {
     key: 'ashwagandha-comparison',
     title: 'Ashwagandha Price Comparison | Best Deals at iHerb & Amazon',

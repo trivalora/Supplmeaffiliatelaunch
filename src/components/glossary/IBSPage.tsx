@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface IBSPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function IBSPage({ onNavigate }: IBSPageProps) {
+export function IBSPage() {
   return (
     <GlossaryTemplate
       term="Irritable Bowel Syndrome"
       abbreviation="IBS"
-      onNavigate={onNavigate}
-      currentPage="ibs"
       definition="A chronic functional gastrointestinal disorder characterized by recurrent abdominal pain associated with altered bowel habits (diarrhea, constipation, or both) in the absence of structural or biochemical abnormalities."
       detailedExplanation="Irritable Bowel Syndrome (IBS) is a disorder of gut-brain interaction affecting 10-15% of the global population. It's diagnosed using Rome IV criteria, which require recurrent abdominal pain at least one day per week over the past three months, associated with two or more of: (1) related to defecation, (2) associated with change in stool frequency, or (3) associated with change in stool form or appearance. Symptoms must have started at least six months before diagnosis.
 

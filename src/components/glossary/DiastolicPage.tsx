@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Heart, Activity, TrendingDown } from 'lucide-react';
 

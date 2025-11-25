@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { Atom, Sparkles, TrendingUp } from 'lucide-react';
 

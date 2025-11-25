@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { track404 } from '../utils/analytics';
+import { track404 } from '@/lib/analytics';
 
 export function NotFound() {
     useEffect(() => {

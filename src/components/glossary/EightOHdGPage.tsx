@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface EightOHdGPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function EightOHdGPage({ onNavigate }: EightOHdGPageProps) {
+export function EightOHdGPage() {
   return (
     <GlossaryTemplate
       term="8-OHdG"
       abbreviation="8-hydroxy-2'-deoxyguanosine, 8-oxo-dG"
-      onNavigate={onNavigate}
-      currentPage="eightoh dg"
       definition="A modified DNA nucleoside formed when reactive oxygen species attack guanine bases in DNA, serving as one of the most widely used biomarkers for oxidative DNA damage and oxidative stress."
       detailedExplanation="8-hydroxy-2'-deoxyguanosine (8-OHdG), also known as 8-oxo-deoxyguanosine, is formed when hydroxyl radicals or other reactive oxygen species oxidize the guanine base in DNA. Among the four DNA bases (adenine, guanine, cytosine, thymine), guanine is most susceptible to oxidation due to its lowest redox potential. The formation and accumulation of 8-OHdG represents oxidative DNA damage that can lead to mutations if not properly repaired.
 

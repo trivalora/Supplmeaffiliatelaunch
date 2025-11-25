@@ -1,14 +1,6 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-export function MetabolismPage({
-  onNavigate,
-  onContactClick,
-  onLegalClick
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+export function MetabolismPage() {
   return (
     <GlossaryTemplate
       term="Metabolism"
@@ -31,11 +23,6 @@ Metabolic health refers to the body's ability to efficiently process and utilize
         { term: "Biomarker", key: "biomarker" },
         { term: "Absorption", key: "absorption" }
       ]}
-      
-      onNavigate={onNavigate}
-      currentPage="metabolism"
-      onContactClick={onContactClick}
-      onLegalClick={onLegalClick}
     />
   );
 }

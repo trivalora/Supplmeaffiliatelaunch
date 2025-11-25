@@ -1,16 +1,10 @@
 import { GlossaryTemplate } from '../GlossaryTemplate';
 
-interface IL6PageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function IL6Page({ onNavigate }: IL6PageProps) {
+export function IL6Page() {
   return (
     <GlossaryTemplate
       term="Interleukin-6"
       abbreviation="IL-6"
-      onNavigate={onNavigate}
-      currentPage="il6"
       definition="A pro-inflammatory cytokine produced by immune cells, muscle tissue, and fat cells that plays a dual role in immune response and chronic inflammation, commonly measured as a biomarker of systemic inflammation."
       detailedExplanation="Interleukin-6 (IL-6) is a signaling protein (cytokine) with complex functions in the body. During acute inflammation or infection, IL-6 is rapidly released by immune cells to help coordinate the immune response, promote fever, and stimulate the production of acute phase proteins like C-reactive protein (CRP). However, chronically elevated IL-6 is associated with numerous health problems including cardiovascular disease, diabetes, obesity, autoimmune conditions, and age-related decline.
 

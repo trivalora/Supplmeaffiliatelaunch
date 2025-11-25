@@ -14,7 +14,7 @@ async function loadConfigs() {
   let routesConfig = null;
   let pathMapping = null;
   try { routesConfig = await import(path.join(srcDir, 'routes.config.ts')); } catch { }
-  try { pathMapping = await import(path.join(srcDir, 'utils', 'routePaths.ts')); } catch { }
+  try { pathMapping = await import(path.join(srcDir, 'lib', 'routePaths.ts')); } catch { }
   return { routesConfig, pathMapping };
 }
 
@@ -41,25 +41,25 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
   const staticPages = ['/knowledgebase', '/glossary', '/about', '/methodology', '/privacy', '/terms', '/legal', '/cookies', '/partner', '/contact', '/product-comparison'];
   staticPages.forEach(p => paths.add(p));
 
-  // Add all 17 supplement comparison pages
+  // Add all 17 supplement comparison pages (Next.js App Router pattern)
   const comparisonPages = [
-    '/ashwagandha-comparison',
-    '/calcium-comparison',
-    '/collagen-comparison',
-    '/creatine-comparison',
-    '/iron-comparison',
-    '/magnesium-comparison',
-    '/omega-3-comparison',
-    '/prebiotics-comparison',
-    '/probiotics-comparison',
-    '/vitamin-c-comparison',
-    '/vitamin-d-comparison',
-    '/bcaa-comparison',
-    '/curcumin-comparison',
-    '/multivitamin-comparison',
-    '/whey-protein-comparison',
-    '/casein-protein-comparison',
-    '/zinc-comparison'
+    '/comparison/ashwagandha',
+    '/comparison/calcium',
+    '/comparison/collagen',
+    '/comparison/creatine',
+    '/comparison/iron',
+    '/comparison/magnesium',
+    '/comparison/omega-3',
+    '/comparison/prebiotics',
+    '/comparison/probiotics',
+    '/comparison/vitamin-c',
+    '/comparison/vitamin-d',
+    '/comparison/bcaa',
+    '/comparison/curcumin',
+    '/comparison/multivitamin',
+    '/comparison/whey',
+    '/comparison/casein',
+    '/comparison/zinc'
   ];
   comparisonPages.forEach(p => paths.add(p));
 

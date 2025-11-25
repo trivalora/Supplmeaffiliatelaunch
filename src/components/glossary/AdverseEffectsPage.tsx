@@ -1,17 +1,12 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { AlertCircle, TrendingUp, Shield } from 'lucide-react';
 
-interface AdverseEffectsPageProps {
-  onNavigate?: (key: string) => void;
-}
-
-export function AdverseEffectsPage({ onNavigate }: AdverseEffectsPageProps) {
+export function AdverseEffectsPage() {
   return (
     <GlossaryTemplate
       term="Adverse Effects"
       abbreviation="Side Effects, Adverse Reactions"
-      onNavigate={onNavigate}
-      currentPage="adverseeffects"
       definition="Unintended, harmful, or unpleasant responses to a supplement or medication that occur in addition to the desired therapeutic response, ranging from mild and temporary to severe and life-threatening."
       
       expandedExplanation={

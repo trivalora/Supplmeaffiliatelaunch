@@ -1,3 +1,4 @@
+'use client';
 import { GlossaryTemplate } from '../GlossaryTemplate';
 import { AlertCircle, Droplet, TrendingDown } from 'lucide-react';
 
