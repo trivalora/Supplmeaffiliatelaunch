@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Suppl.me - Evidence-Based Supplement Research & Price Comparison',
     description: 'Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.',
-    url: 'https://suppl.me',
+    url: 'https://www.suppl.me',
     siteName: 'Suppl.me',
     type: 'website',
     images: [
       {
-        url: 'https://suppl.me/images/og-home.jpg',
+        url: 'https://www.suppl.me/images/og-home.jpg',
         width: 1200,
         height: 630,
         alt: 'Suppl.me - Evidence-Based Supplement Information',
@@ -33,10 +33,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Suppl.me - Evidence-Based Supplement Research',
     description: 'Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.',
-    images: ['https://suppl.me/images/og-home.jpg'],
+    images: ['https://www.suppl.me/images/og-home.jpg'],
   },
   alternates: {
-    canonical: 'https://suppl.me',
+    canonical: 'https://www.suppl.me',
   },
   robots: {
     index: true,

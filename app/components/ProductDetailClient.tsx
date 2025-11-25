@@ -188,19 +188,19 @@ export function ProductDetailClient({ supplement, productId }: ProductDetailClie
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": `https://suppl.me`
+        "item": `https://www.suppl.me`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": `${supplement?.replace(/-/g, ' ')} Products`,
-        "item": `https://suppl.me/comparison/${supplement}`
+        "name": `${supplement.charAt(0).toUpperCase() + supplement.slice(1)} Products`,
+        "item": `https://www.suppl.me/comparison/${supplement}`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": product.brand,
-        "item": `https://suppl.me/${supplement}/brand/${product.brand.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://www.suppl.me/${supplement}/brand/${product.brand.toLowerCase().replace(/\s+/g, '-')}`
       },
       {
         "@type": "ListItem",

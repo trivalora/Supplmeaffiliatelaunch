@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: { params: Promise<{ term: str
   const title = route.abbreviation 
     ? `${route.title} (${route.abbreviation}) - Supplement Research Glossary`
     : `${route.title} - Supplement Research Glossary`;
+  
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.suppl.me';
+  const fullUrl = `${baseUrl}/glossary/${term}`;
     
   return {
     title,
@@ -54,6 +57,10 @@ export async function generateMetadata({ params }: { params: Promise<{ term: str
       title,
       description: route.description,
       type: 'article',
+      url: fullUrl,
+    },
+    alternates: {
+      canonical: fullUrl,
     },
   };
 }

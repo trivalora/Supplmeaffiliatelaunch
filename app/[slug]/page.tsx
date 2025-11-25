@@ -114,7 +114,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Get SEO-optimized content if available
   const seoContent = getSEOContent(route.key);
   
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://suppl.me';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.suppl.me';
   const fullUrl = `${baseUrl}${route.path}`;
   
   // Use SEO title and description if available, otherwise fall back to route data

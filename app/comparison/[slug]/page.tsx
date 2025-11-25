@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
   
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://suppl.me';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.suppl.me';
   const fullUrl = `${baseUrl}/comparison/${slug}`;
   const title = route.title;
   const description = route.description || `Compare ${route.title} products from top retailers. Find the best ${slug} supplements based on price, quality, and third-party testing.`;
