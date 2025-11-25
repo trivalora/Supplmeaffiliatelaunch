@@ -35,7 +35,7 @@ export function getSupplementRoutes(): RouteMapping[] {
     .filter(route => route.category === 'knowledgebase' && route.showInNav)
     .map(route => ({
       key: route.key as PageKey,
-      path: keyToPath(route.key),
+      path: route.path || keyToPath(route.key), // Use path if provided, otherwise generate from key
       title: route.title,
       description: route.description,
       componentName: route.componentName,
@@ -69,7 +69,7 @@ export function getRouteByKey(key: PageKey): RouteMapping | null {
   if (!route) return null;
   
   const isGlossary = GLOSSARY_ROUTES.some(r => r.key === key);
-  const path = isGlossary ? `/glossary/${key}` : keyToPath(route.key);
+  const path = isGlossary ? `/glossary/${key}` : (route.path || keyToPath(route.key)); // Use path if provided
   
   return {
     key: route.key as PageKey,
@@ -106,10 +106,10 @@ export function getRouteByPath(path: string): RouteMapping | null {
     }
   }
   
-  // Try to find supplement by matching path (with or without v2 suffix)
+  // Try to find supplement by matching path
   const allRoutes = [...KNOWLEDGEBASE_ROUTES];
   const route = allRoutes.find(r => {
-    const routePath = keyToPath(r.key).replace(/^\//, '');
+    const routePath = (r.path || keyToPath(r.key)).replace(/^\//, '');
     return routePath === cleanPath;
   });
   
@@ -117,7 +117,7 @@ export function getRouteByPath(path: string): RouteMapping | null {
   
   return {
     key: route.key as PageKey,
-    path: keyToPath(route.key),
+    path: route.path || keyToPath(route.key), // Use path if provided
     title: route.title,
     description: route.description,
     componentName: route.componentName,
