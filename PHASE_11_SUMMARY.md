@@ -127,17 +127,23 @@ rm -rf .next && npm run build
 
 ## Known Issues
 
-### Non-Issues (Expected Behavior)
-- ⚠️ 35 MODULE_NOT_FOUND warnings during build
-  - These are for glossary dynamic imports
-  - Harmless warnings, not errors
-  - Pages build successfully
+### Fixed Post-Phase 11 ✅
+1. **Omega-3 componentPath** (commit de93c25a)
+   - Was: `./components/Omega3KnowledgebasePage`
+   - Fixed: `./components/pages/supplements/Omega3KnowledgebasePage`
 
-### No Actual Issues
+2. **Route-adapter path mismatch** (commit c089caec)
+   - route-adapter was ignoring explicit `path` field
+   - Generated URLs from keys instead (collagenpeptidesv2 → /collagenpeptides)
+   - Fixed to use `route.path || keyToPath(route.key)`
+   - All supplement pages now load at correct URLs
+
+### Status After Fixes
 - ✅ 0 TypeScript errors
 - ✅ 0 runtime errors
-- ✅ 0 import path errors
-- ✅ All pages generate correctly
+- ✅ All knowledgebase pages load correctly (/collagen, /bcaa, /omega-3, etc.)
+- ✅ All 1937 pages generate correctly
+- ⚠️ 35 glossary MODULE_NOT_FOUND warnings (harmless - dynamic import fallback)
 
 ---
 
