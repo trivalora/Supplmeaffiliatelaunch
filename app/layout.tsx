@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { GoogleTagManager } from '@next/third-parties/google';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { AnalyticsProvider } from '../src/components/AnalyticsProvider';
+import { AnalyticsProvider } from '@/components/providers/AnalyticsProvider';
 import '../src/styles/globals.css';
 import '../src/fonts.css';
 

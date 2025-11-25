@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { LandingPage } from '@/components/LandingPage';
+import { LandingPage } from '@/components/pages/static/LandingPage';
 import { PageKey } from '@/routes.config';
 import { getRouteByKey } from '../lib/route-adapter';
 

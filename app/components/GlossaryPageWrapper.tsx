@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { GlossaryPage } from '@/components/GlossaryPage';
+import { GlossaryPage } from '@/components/pages/static/GlossaryPage';
 
 export function GlossaryPageWrapper() {
   const router = useRouter();

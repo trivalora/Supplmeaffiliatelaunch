@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { useAffiliateTooltip, AffiliateTooltip } from '@/components/AffiliateTooltip';
+import { useAffiliateTooltip, AffiliateTooltip } from '@/components/shared/ui-extensions/AffiliateTooltip';
 import IHerbBadgeLogoRgb from '@/imports/IHerbBadgeLogoRgb1-106-1526';
 
 // Amazon button image path (optimized version available)

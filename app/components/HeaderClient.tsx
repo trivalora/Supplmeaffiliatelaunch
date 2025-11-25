@@ -9,8 +9,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { RouteConfig, KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES } from '@/routes.config';
 import { getRouteByKey } from '../lib/route-adapter';
 import { getSupplementThumbnail } from '@/lib/supplementImages';
-import { DarkModeToggle } from '@/components/DarkModeToggle';
-import { SearchResults } from '@/components/SearchResults';
+import { DarkModeToggle } from '@/components/shared/ui-extensions/DarkModeToggle';
+import { SearchResults } from '@/components/shared/content/SearchResults';
 import { Input } from '@/components/ui/input';
 
 interface HeaderClientProps {

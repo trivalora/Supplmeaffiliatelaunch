@@ -1,0 +1,32 @@
+import { GlossaryTemplate } from '@/components/templates/GlossaryTemplate';
+
+export function GLP1Page() {
+  return (
+    <GlossaryTemplate
+      term="Glucagon-Like Peptide-1"
+      abbreviation="GLP-1"
+      definition="An incretin hormone secreted by intestinal L-cells in response to nutrient intake that stimulates insulin secretion, suppresses glucagon release, delays gastric emptying, and reduces appetite, playing crucial roles in glucose homeostasis and satiety."
+      detailedExplanation="Glucagon-Like Peptide-1 (GLP-1) is a 30-amino acid peptide hormone derived from post-translational processing of the proglucagon gene. It is secreted by enteroendocrine L-cells located primarily in the distal small intestine and colon in response to nutrient ingestion, particularly carbohydrates, proteins, and fats. GLP-1 is part of the incretin system, accounting for 50-70% of postprandial insulin secretion.
+
+GLP-1 exerts multiple physiological effects: (1) enhances glucose-dependent insulin secretion from pancreatic beta-cells, (2) suppresses glucagon secretion from alpha-cells, (3) delays gastric emptying, slowing nutrient absorption, (4) reduces appetite and food intake through central and peripheral mechanisms, (5) may promote beta-cell proliferation and reduce apoptosis, and (6) potentially benefits cardiovascular function. These effects collectively improve glycemic control and promote satiety.
+
+Native GLP-1 has a very short half-life (1-2 minutes) due to rapid degradation by the enzyme dipeptidyl peptidase-4 (DPP-4). This led to development of GLP-1 receptor agonist medications (like semaglutide, liraglutide) that resist DPP-4 degradation and have prolonged action, now widely used for type 2 diabetes and obesity treatment.
+
+In supplement research, interventions that increase endogenous GLP-1 secretion are of interest. Dietary fibers (particularly viscous soluble fibers and prebiotics like inulin and GOS) increase GLP-1through colonic fermentation producing short-chain fatty acids that stimulate L-cells. Protein intake also stimulates GLP-1 secretion. Some polyphenols and bioactive compounds are being investigated for GLP-1-enhancing effects.
+
+Fasting GLP-1 levels are typically 5-10 pmol/L, rising to 15-50 pmol/L postprandially in healthy individuals. People with obesity or type 2 diabetes often have blunted GLP-1 responses. In studies, GLP-1 measurements (fasting and/or postprandial) serve as biomarkers of metabolic health and mechanisms underlying glucose control improvements. However, measurement is technically challenging due to GLP-1's rapid degradation, requiring immediate sample processing with DPP-4 inhibitors."
+      examples={[
+        "Study shows prebiotic fiber supplementation increases postprandial GLP-1 by 30-40% and improves glucose tolerance in overweight adults",
+        "Patient's fasting GLP-1 increases from 7 pmol/L to 12 pmol/L after 8 weeks of high-fiber diet, correlating with improved satiety and weight loss",
+        "Clinical trial reports that whey protein increases GLP-1 area under the curve by 60% compared to control, reducing subsequent meal intake by 10%"
+      ]}
+      relatedTerms={[
+        { term: "PYY (Peptide YY)", key: "pyy" },
+        { term: "Blood Glucose", key: "bloodglucose" },
+        { term: "Glucose Metabolism", key: "glucosemetabolism" },
+        { term: "Gut Microbiome", key: "gutmicrobiome" }
+      ]}
+      currentPage="glp1"
+    />
+  );
+}

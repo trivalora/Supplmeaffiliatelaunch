@@ -1,0 +1,26 @@
+import { GlossaryTemplate } from '@/components/templates/GlossaryTemplate';
+
+export function NeurotransmitterPage() {
+  return (
+    <GlossaryTemplate
+      term="Neurotransmitter"
+      definition="Chemical messengers that transmit signals across synapses from one neuron to another neuron, muscle cell, or gland cell, enabling communication throughout the nervous system."
+      detailedExplanation="Neurotransmitters are synthesized in neurons from precursor molecules (often amino acids or derived from diet), stored in vesicles, and released in response to electrical signals. Once released into the synaptic cleft, they bind to specific receptors on target cells, triggering responses ranging from muscle contraction to mood changes. After transmission, neurotransmitters are either broken down by enzymes or reabsorbed by the releasing neuron (reuptake) for recycling.
+
+Major neurotransmitters include: serotonin (mood, sleep, appetite), dopamine (motivation, reward, movement), norepinephrine (alertness, stress response), GABA (inhibitory, calming), glutamate (excitatory, learning, memory), acetylcholine (muscle activation, memory, attention), and endorphins (pain relief, pleasure). Imbalances in neurotransmitter systems are implicated in depression, anxiety, ADHD, Parkinson's disease, schizophrenia, and many other neurological and psychiatric conditions.
+
+Many medications target neurotransmitter systems—SSRIs increase serotonin, stimulants affect dopamine and norepinephrine, benzodiazepines enhance GABA activity. Some supplements provide neurotransmitter precursors or influence their metabolism: tryptophan and 5-HTP convert to serotonin, tyrosine converts to dopamine and norepinephrine, and magnesium modulates glutamate and GABA receptors. However, neurotransmitter system complexity means effects are often unpredictable and individual."
+      examples={[
+        "Magnesium acts as a natural calcium channel blocker, modulating glutamate activity and potentially supporting mood and cognitive function",
+        "Omega-3 DHA is incorporated into brain cell membranes and influences neurotransmitter receptor function and neuroplasticity",
+        "St. John's Wort appears to inhibit reuptake of multiple neurotransmitters (serotonin, norepinephrine, dopamine), though with significant drug interactions"
+      ]}
+      relatedTerms={[
+        { term: "Cognitive Function", key: "cognitivefunction" },
+        { term: "Biomarker", key: "biomarker" },
+        { term: "Metabolism", key: "metabolism" }
+      ]}
+      currentPage="neurotransmitter"
+    />
+  );
+}

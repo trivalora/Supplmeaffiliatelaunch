@@ -1,0 +1,81 @@
+'use client';
+import { GlossaryTemplate } from '@/components/templates/GlossaryTemplate';
+
+export function MagnesiumCitratePage() {
+  return (
+    <GlossaryTemplate
+      term="Magnesium Citrate"
+      definition="A magnesium salt of citric acid that combines elemental magnesium with citrate molecules. It is one of the most commonly used and well-absorbed forms of magnesium in dietary supplements."
+      detailedExplanation="The citrate form offers several advantages over other magnesium compounds, particularly in terms of absorption and tolerability. The citrate component itself may also provide additional benefits for certain health applications."
+      expandedExplanation={
+        <>
+          <h2 className="text-2xl font-serif text-primary mb-4">Absorption and Bioavailability</h2>
+          <p className="mb-4">
+            Magnesium citrate demonstrates superior bioavailability compared to many other magnesium forms:
+          </p>
+          <ul className="list-disc pl-6 mb-4 space-y-2">
+            <li><strong>High absorption:</strong> Absorbed significantly better than magnesium oxide, one of the most common but poorly absorbed forms</li>
+            <li><strong>Gentle on digestion:</strong> Less likely to cause digestive upset at moderate doses compared to some other forms</li>
+            <li><strong>Dose-dependent effects:</strong> Higher doses may have a mild laxative effect, which can be beneficial or undesirable depending on the situation</li>
+            <li><strong>Water soluble:</strong> Dissolves readily in water, which may enhance absorption in the digestive tract</li>
+          </ul>
+          <p className="mb-6">
+            The elemental magnesium content in magnesium citrate is approximately 16%, meaning 100 mg of magnesium citrate provides about 16 mg of elemental magnesium. This is an important consideration when comparing dosages across different supplement forms.
+          </p>
+
+          <h2 className="text-2xl font-serif text-primary mb-4">Common Uses</h2>
+          <p className="mb-4">
+            Magnesium citrate is used for various health purposes:
+          </p>
+          <ul className="list-disc pl-6 mb-6 space-y-2">
+            <li><strong>Magnesium supplementation:</strong> To correct deficiency or maintain adequate magnesium status</li>
+            <li><strong>Constipation relief:</strong> At higher doses (typically 200-400 mg elemental magnesium), can promote bowel movements</li>
+            <li><strong>Muscle and nerve function:</strong> Supporting normal neuromuscular function</li>
+            <li><strong>Bone health:</strong> As part of comprehensive bone support alongside calcium and vitamin D</li>
+            <li><strong>Cardiovascular support:</strong> May help maintain healthy blood pressure in some individuals</li>
+            <li><strong>Sleep support:</strong> Some people use magnesium citrate to support relaxation and sleep quality</li>
+          </ul>
+
+          <h2 className="text-2xl font-serif text-primary mb-4">Dosage Considerations</h2>
+          <p className="mb-4">
+            Typical supplemental doses of magnesium citrate range from 100-400 mg of elemental magnesium per day, often divided into two doses. The recommended dietary allowance (RDA) for magnesium in adults is 310-420 mg per day depending on age and sex.
+          </p>
+          <div className="p-4 bg-secondary/20 border-l-4 border-secondary rounded-r mb-6">
+            <p className="text-sm">
+              <strong>Note:</strong> Always check supplement labels for elemental magnesium content rather than total magnesium citrate weight. The laxative effect typically begins at doses above 300-400 mg elemental magnesium, though individual tolerance varies.
+            </p>
+          </div>
+
+          <h2 className="text-2xl font-serif text-primary mb-4">Comparison to Other Magnesium Forms</h2>
+          <p className="mb-4">
+            Different magnesium forms have distinct characteristics:
+          </p>
+          <ul className="list-disc pl-6 mb-6 space-y-2">
+            <li><strong>Magnesium citrate vs. magnesium oxide:</strong> Citrate is absorbed significantly better than oxide; oxide has higher elemental magnesium content (~60%) but much lower bioavailability</li>
+            <li><strong>Magnesium citrate vs. magnesium glycinate:</strong> Glycinate may be gentler on digestion and less likely to cause laxative effects, making it preferred by some for higher-dose supplementation</li>
+            <li><strong>Magnesium citrate vs. magnesium chloride:</strong> Both are well absorbed, but chloride has a very bitter taste and is less commonly used orally</li>
+            <li><strong>Magnesium citrate vs. magnesium threonate:</strong> Threonate may have superior brain penetration for cognitive support, but citrate is more cost-effective for general magnesium supplementation</li>
+          </ul>
+
+          <h2 className="text-2xl font-serif text-primary mb-4">Safety and Side Effects</h2>
+          <p className="mb-4">
+            Magnesium citrate is generally well-tolerated, but some considerations include:
+          </p>
+          <ul className="list-disc pl-6 mb-6 space-y-2">
+            <li><strong>Laxative effect:</strong> Higher doses may cause loose stools or diarrhea</li>
+            <li><strong>Drug interactions:</strong> May interfere with absorption of certain antibiotics (tetracyclines, fluoroquinolones) and bisphosphonates</li>
+            <li><strong>Kidney function:</strong> Individuals with impaired kidney function should use caution and consult healthcare providers, as magnesium is primarily excreted by the kidneys</li>
+            <li><strong>Timing:</strong> Taking with food may reduce laxative effects and improve tolerability</li>
+          </ul>
+        </>
+      }
+      relatedTerms={[
+        { term: 'Bioavailability', path: '/glossary/bioavailability' },
+        { term: 'Absorption', path: '/glossary/absorption' },
+        { term: 'Macromineral', path: '/glossary/macromineral' },
+        { term: 'Electrolytes', path: '/glossary/electrolytes' },
+      ]}
+      currentPage="magnesiumcitrate"
+    />
+  );
+}

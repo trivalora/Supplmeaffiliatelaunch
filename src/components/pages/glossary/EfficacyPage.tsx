@@ -1,0 +1,26 @@
+import { GlossaryTemplate } from '@/components/templates/GlossaryTemplate';
+
+export function EfficacyPage() {
+  return (
+    <GlossaryTemplate
+      term="Efficacy"
+      definition="The ability of a supplement or treatment to produce the desired beneficial effect under ideal, controlled conditions."
+      detailedExplanation="Efficacy refers to how well a supplement works under optimal, controlled circumstances, such as in a randomized controlled trial. It answers the question: 'Can this supplement work when used under ideal conditions with high adherence and careful monitoring?'
+
+Efficacy is distinct from effectiveness, which measures how well a supplement works in real-world settings where adherence may be imperfect and conditions are less controlled. A supplement might have high efficacy in clinical trials but lower effectiveness in everyday use if people struggle to take it consistently or if it requires specific conditions (like taking with food) that aren't always met.
+
+In supplement research, establishing efficacy through rigorous clinical trials is the first step. Once efficacy is demonstrated, researchers and healthcare providers can then assess whether those benefits translate to real-world effectiveness and whether the supplement should be recommended for general use."
+      examples={[
+        "Clinical trials demonstrating the efficacy of vitamin D in improving bone mineral density when taken daily at the recommended dose.",
+        "Studies showing the efficacy of omega-3 supplements in reducing triglyceride levels under controlled conditions.",
+        "Research establishing the efficacy of probiotic strains in reducing digestive symptoms when taken as directed."
+      ]}
+      relatedTerms={[
+        { term: "RCT", key: "rct" },
+        { term: "Clinical Significance", key: "clinicalsignificance" },
+        { term: "Empirical Evidence", key: "empiricalevidence" }
+      ]}
+      currentPage="efficacy"
+    />
+  );
+}

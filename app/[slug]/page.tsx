@@ -5,23 +5,23 @@ import { getSEOContent } from '@/lib/seo-content';
 import { PageViewTracker } from '../components/PageViewTracker';
 
 // Import all supplement knowledgebase page components
-import { AshwagandhaKnowledgebasePage } from '@/components/AshwagandhaKnowledgebasePage';
-import { BcaaKnowledgebasePage } from '@/components/BcaaKnowledgebasePage';
-import { CalciumKnowledgebasePage } from '@/components/CalciumKnowledgebasePage';
-import { CaseinProteinKnowledgebasePage } from '@/components/CaseinProteinKnowledgebasePage';
-import { CollagenKnowledgebasePage } from '@/components/CollagenKnowledgebasePage';
-import { CreatineKnowledgebasePage } from '@/components/CreatineKnowledgebasePage';
-import { CurcuminKnowledgebasePage } from '@/components/CurcuminKnowledgebasePage';
-import { IronKnowledgebasePage } from '@/components/IronKnowledgebasePage';
-import { MagnesiumKnowledgebasePage } from '@/components/MagnesiumKnowledgebasePage';
-import { MultivitaminKnowledgebasePage } from '@/components/MultivitaminKnowledgebasePage';
-import { Omega3KnowledgebasePage } from '@/components/Omega3KnowledgebasePage';
-import { PrebioticsKnowledgebasePage } from '@/components/PrebioticsKnowledgebasePage';
-import { ProbioticsKnowledgebasePage } from '@/components/ProbioticsKnowledgebasePage';
-import { SulforaphaneKnowledgebasePage } from '@/components/SulforaphaneKnowledgebasePage';
-import { VitaminCKnowledgebasePage } from '@/components/VitaminCKnowledgebasePage';
-import { VitaminDKnowledgebasePage } from '@/components/VitaminDKnowledgebasePage';
-import { WheyProteinKnowledgebasePage } from '@/components/WheyProteinKnowledgebasePage';
+import { AshwagandhaKnowledgebasePage } from '@/components/pages/supplements/AshwagandhaKnowledgebasePage';
+import { BcaaKnowledgebasePage } from '@/components/pages/supplements/BcaaKnowledgebasePage';
+import { CalciumKnowledgebasePage } from '@/components/pages/supplements/CalciumKnowledgebasePage';
+import { CaseinProteinKnowledgebasePage } from '@/components/pages/supplements/CaseinProteinKnowledgebasePage';
+import { CollagenKnowledgebasePage } from '@/components/pages/supplements/CollagenKnowledgebasePage';
+import { CreatineKnowledgebasePage } from '@/components/pages/supplements/CreatineKnowledgebasePage';
+import { CurcuminKnowledgebasePage } from '@/components/pages/supplements/CurcuminKnowledgebasePage';
+import { IronKnowledgebasePage } from '@/components/pages/supplements/IronKnowledgebasePage';
+import { MagnesiumKnowledgebasePage } from '@/components/pages/supplements/MagnesiumKnowledgebasePage';
+import { MultivitaminKnowledgebasePage } from '@/components/pages/supplements/MultivitaminKnowledgebasePage';
+import { Omega3KnowledgebasePage } from '@/components/pages/supplements/Omega3KnowledgebasePage';
+import { PrebioticsKnowledgebasePage } from '@/components/pages/supplements/PrebioticsKnowledgebasePage';
+import { ProbioticsKnowledgebasePage } from '@/components/pages/supplements/ProbioticsKnowledgebasePage';
+import { SulforaphaneKnowledgebasePage } from '@/components/pages/supplements/SulforaphaneKnowledgebasePage';
+import { VitaminCKnowledgebasePage } from '@/components/pages/supplements/VitaminCKnowledgebasePage';
+import { VitaminDKnowledgebasePage } from '@/components/pages/supplements/VitaminDKnowledgebasePage';
+import { WheyProteinKnowledgebasePage } from '@/components/pages/supplements/WheyProteinKnowledgebasePage';
 
 // Import all comparison page components
 import {
@@ -41,8 +41,7 @@ import {
   MultivitaminComparison,
   WheyProteinComparison,
   CaseinProteinComparison,
-  ZincComparison
-} from '@/components/ProductComparisonWrapper';
+} from '@/components/pages/comparisons';
 
 // Component mapping
 const COMPONENT_MAP: Record<string, React.ComponentType<any>> = {
@@ -82,7 +81,6 @@ const COMPONENT_MAP: Record<string, React.ComponentType<any>> = {
   'MultivitaminComparison': MultivitaminComparison,
   'WheyProteinComparison': WheyProteinComparison,
   'CaseinProteinComparison': CaseinProteinComparison,
-  'ZincComparison': ZincComparison
 };
 
 interface PageProps {

@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { SearchResults } from './SearchResults';
-import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
+import { SearchResults } from '@/components/shared/content/SearchResults';
+import { useAffiliateTooltip, AffiliateTooltip } from '@/components/shared/ui-extensions/AffiliateTooltip';
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import { trackComparisonProductImpression, trackComparisonProductClick } from '@/lib/analytics';
 import { DualRangeSlider } from './ui/dual-range-slider';
@@ -347,7 +347,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                   <div className="product-comparison-search-dropdown">
                     <SearchResults
                       query={searchQuery}
-                      onNavigate={(page) => {
+                      onNavigate={(page: string) => {
                         router.push(`/${page}`);
                         setShowSearchDropdown(false);
                         setSearchQuery('');

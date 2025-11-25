@@ -1,0 +1,26 @@
+import { GlossaryTemplate } from '@/components/templates/GlossaryTemplate';
+
+export function SleepQualityPage() {
+  return (
+    <GlossaryTemplate
+      term="Sleep Quality"
+      definition="A multidimensional assessment of sleep encompassing sleep duration, efficiency, latency, continuity, and subjective restfulness, all crucial for physical health, cognitive function, and emotional wellbeing."
+      detailedExplanation="Sleep quality involves several measurable components: sleep latency (time to fall asleep, ideally under 30 minutes), sleep duration (7-9 hours for most adults), sleep efficiency (time asleep divided by time in bed, ideally above 85%), number of awakenings, time awake after sleep onset, sleep architecture (proper cycling through light, deep, and REM sleep stages), and subjective ratings of restfulness. Poor sleep quality can occur even with adequate duration if sleep is fragmented or lacking restorative deep sleep.
+
+Sleep serves critical functions including memory consolidation, cellular repair, immune system maintenance, hormone regulation (growth hormone, cortisol, leptin, ghrelin), metabolic homeostasis, cardiovascular health, and emotional processing. Chronic poor sleep increases risk of obesity, diabetes, cardiovascular disease, cognitive decline, mood disorders, weakened immune function, and all-cause mortality. Even mild sleep restriction (6 hours vs. 8 hours) accumulates significant cognitive and physiological deficits over time.
+
+Improving sleep quality involves sleep hygiene practices: consistent sleep-wake schedule, cool dark quiet bedroom, limiting blue light exposure before bed, avoiding caffeine after noon, regular exercise (but not close to bedtime), stress management, and limiting alcohol. Supplements that may support sleep include magnesium, melatonin (for circadian rhythm issues), glycine, and herbs like valerian or chamomile, though addressing lifestyle factors and sleep hygiene should come first."
+      examples={[
+        "Magnesium supplementation (300-500mg taken 1-2 hours before bed) may improve sleep quality by regulating neurotransmitters and reducing arousal",
+        "Regular aerobic exercise (30-40 minutes, 4-5 days weekly) improves sleep quality and increases deep sleep duration",
+        "Consistent sleep-wake times (even on weekends) strengthen circadian rhythm and improve sleep quality more than any supplement"
+      ]}
+      relatedTerms={[
+        { term: "Cortisol", key: "cortisol" },
+        { term: "Cognitive Function", key: "cognitivefunction" },
+        { term: "Metabolism", key: "metabolism" }
+      ]}
+      currentPage="sleepquality"
+    />
+  );
+}
