@@ -136,6 +136,18 @@ function extractSitemapUrls() {
 }
 
 /**
+ * Check if sitemap is accessible before pinging
+ */
+async function verifySitemapAccessible() {
+  try {
+    const response = await fetch(SITEMAP_URL, { method: 'HEAD' });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
+/**
  * Main execution
  */
 (async () => {
@@ -152,6 +164,17 @@ function extractSitemapUrls() {
     console.log('[search-ping] Not production deployment – skipping pings');
     return;
   }
+  
+  // Verify sitemap is accessible before pinging
+  const sitemapAccessible = await verifySitemapAccessible();
+  if (!sitemapAccessible) {
+    console.log('[search-ping] Sitemap not yet accessible at', SITEMAP_URL);
+    console.log('[search-ping] This is normal for first deployment or if site is not yet live');
+    console.log('[search-ping] Search engines will be pinged on next deployment once site is live');
+    return;
+  }
+  
+  console.log('[search-ping] Sitemap verified accessible, proceeding with pings...');
   
   const results = {
     google: false,
