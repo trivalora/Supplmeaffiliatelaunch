@@ -50,25 +50,25 @@ export function Footer() {
             Contact Us
           </Link>
           <Link 
-            href="/legal"
+            href="/legal-notice"
             className="text-secondary hover:opacity-80 transition-opacity"
           >
             Legal Notice
           </Link>
           <Link 
-            href="/privacy"
+            href="/privacy-policy"
             className="text-secondary hover:opacity-80 transition-opacity"
           >
             Privacy Policy
           </Link>
           <Link 
-            href="/cookies"
+            href="/cookie-policy"
             className="text-secondary hover:opacity-80 transition-opacity"
           >
             Cookie Policy
           </Link>
           <Link 
-            href="/terms"
+            href="/terms-of-service"
             className="text-secondary hover:opacity-80 transition-opacity"
           >
             Terms of Service
