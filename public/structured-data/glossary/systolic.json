@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Systolic Blood Pressure",
     "description": "The top number in blood pressure readings, measuring peak arterial pressure when the heart contracts",
-    "url": "https://suppl.me/glossary/systolic",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/systolic",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Systolic Blood Pressure",
     "description": "The top number in blood pressure readings, measuring peak arterial pressure when the heart contracts",
-    "url": "https://suppl.me/glossary/systolic"
+    "url": "https://www.suppl.me/glossary/systolic"
   }
 ]

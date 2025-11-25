@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Atherosclerosis",
     "description": "Arterial plaque buildup leading to narrowed and hardened arteries",
-    "url": "https://suppl.me/glossary/atherosclerosis",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/atherosclerosis",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Atherosclerosis",
     "description": "Arterial plaque buildup leading to narrowed and hardened arteries",
-    "url": "https://suppl.me/glossary/atherosclerosis"
+    "url": "https://www.suppl.me/glossary/atherosclerosis"
   }
 ]

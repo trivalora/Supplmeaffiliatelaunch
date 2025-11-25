@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Tolerable Upper Intake Level",
     "description": "Maximum daily nutrient intake unlikely to cause adverse health effects",
-    "url": "https://suppl.me/glossary/tolerableupperintakelevel",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/tolerableupperintakelevel",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "UL"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Tolerable Upper Intake Level",
     "description": "Maximum daily nutrient intake unlikely to cause adverse health effects",
-    "url": "https://suppl.me/glossary/tolerableupperintakelevel"
+    "url": "https://www.suppl.me/glossary/tolerableupperintakelevel"
   }
 ]

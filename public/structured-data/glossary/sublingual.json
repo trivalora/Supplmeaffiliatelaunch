@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Sublingual Administration",
     "description": "Placing supplement under tongue for direct absorption into bloodstream",
-    "url": "https://suppl.me/glossary/sublingual",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/sublingual",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Sublingual Administration",
     "description": "Placing supplement under tongue for direct absorption into bloodstream",
-    "url": "https://suppl.me/glossary/sublingual"
+    "url": "https://www.suppl.me/glossary/sublingual"
   }
 ]

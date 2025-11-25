@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Glucose Metabolism",
     "description": "All biochemical processes involved in the formation, breakdown, and regulation of glucose",
-    "url": "https://suppl.me/glossary/glucosemetabolism",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/glucosemetabolism",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Glucose Metabolism",
     "description": "All biochemical processes involved in the formation, breakdown, and regulation of glucose",
-    "url": "https://suppl.me/glossary/glucosemetabolism"
+    "url": "https://www.suppl.me/glossary/glucosemetabolism"
   }
 ]

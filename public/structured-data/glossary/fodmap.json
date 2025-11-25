@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "FODMAP",
     "description": "Short-chain carbohydrates poorly absorbed in small intestine, causing digestive symptoms in sensitive individuals",
-    "url": "https://suppl.me/glossary/fodmap",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/fodmap",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyols"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "FODMAP",
     "description": "Short-chain carbohydrates poorly absorbed in small intestine, causing digestive symptoms in sensitive individuals",
-    "url": "https://suppl.me/glossary/fodmap"
+    "url": "https://www.suppl.me/glossary/fodmap"
   }
 ]

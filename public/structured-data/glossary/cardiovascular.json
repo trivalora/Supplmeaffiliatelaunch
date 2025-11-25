@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Cardiovascular",
     "description": "Relating to the heart and blood vessels - the circulatory system",
-    "url": "https://suppl.me/glossary/cardiovascular",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/cardiovascular",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Cardiovascular",
     "description": "Relating to the heart and blood vessels - the circulatory system",
-    "url": "https://suppl.me/glossary/cardiovascular"
+    "url": "https://www.suppl.me/glossary/cardiovascular"
   }
 ]

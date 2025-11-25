@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "HOMA-IR",
     "description": "Mathematical formula quantifying insulin resistance from fasting glucose and insulin",
-    "url": "https://suppl.me/glossary/homair",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/homair",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "Homeostatic Model Assessment of Insulin Resistance"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "HOMA-IR",
     "description": "Mathematical formula quantifying insulin resistance from fasting glucose and insulin",
-    "url": "https://suppl.me/glossary/homair"
+    "url": "https://www.suppl.me/glossary/homair"
   }
 ]

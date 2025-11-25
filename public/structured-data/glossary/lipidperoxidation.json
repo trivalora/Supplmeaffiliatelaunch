@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Lipid Peroxidation",
     "description": "Oxidative degradation of lipids causing cellular damage and producing reactive compounds",
-    "url": "https://suppl.me/glossary/lipidperoxidation",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/lipidperoxidation",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Lipid Peroxidation",
     "description": "Oxidative degradation of lipids causing cellular damage and producing reactive compounds",
-    "url": "https://suppl.me/glossary/lipidperoxidation"
+    "url": "https://www.suppl.me/glossary/lipidperoxidation"
   }
 ]

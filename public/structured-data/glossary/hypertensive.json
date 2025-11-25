@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Hypertensive",
     "description": "Having high blood pressure (hypertension) above normal ranges",
-    "url": "https://suppl.me/glossary/hypertensive",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/hypertensive",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hypertensive",
     "description": "Having high blood pressure (hypertension) above normal ranges",
-    "url": "https://suppl.me/glossary/hypertensive"
+    "url": "https://www.suppl.me/glossary/hypertensive"
   }
 ]

@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Interleukin-6",
     "description": "Pro-inflammatory cytokine serving as a biomarker of systemic inflammation",
-    "url": "https://suppl.me/glossary/il6",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/il6",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "IL-6"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Interleukin-6",
     "description": "Pro-inflammatory cytokine serving as a biomarker of systemic inflammation",
-    "url": "https://suppl.me/glossary/il6"
+    "url": "https://www.suppl.me/glossary/il6"
   }
 ]

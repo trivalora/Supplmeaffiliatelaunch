@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Risk Ratio",
     "description": "Measure of relative risk comparing the probability of an event in treatment vs. control groups",
-    "url": "https://suppl.me/glossary/rr",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/rr",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "RR"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Risk Ratio",
     "description": "Measure of relative risk comparing the probability of an event in treatment vs. control groups",
-    "url": "https://suppl.me/glossary/rr"
+    "url": "https://www.suppl.me/glossary/rr"
   }
 ]

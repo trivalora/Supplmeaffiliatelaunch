@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Subgroup Analysis",
     "description": "Examination of treatment effects within specific subsets of a study population",
-    "url": "https://suppl.me/glossary/subgroupanalysis",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/subgroupanalysis",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Subgroup Analysis",
     "description": "Examination of treatment effects within specific subsets of a study population",
-    "url": "https://suppl.me/glossary/subgroupanalysis"
+    "url": "https://www.suppl.me/glossary/subgroupanalysis"
   }
 ]

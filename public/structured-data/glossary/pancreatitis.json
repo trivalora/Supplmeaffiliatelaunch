@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Pancreatitis",
     "description": "Inflammation of the pancreas, which can be acute or chronic",
-    "url": "https://suppl.me/glossary/pancreatitis",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/pancreatitis",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Pancreatitis",
     "description": "Inflammation of the pancreas, which can be acute or chronic",
-    "url": "https://suppl.me/glossary/pancreatitis"
+    "url": "https://www.suppl.me/glossary/pancreatitis"
   }
 ]

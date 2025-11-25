@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Half-Life",
     "description": "Time required for half of a substance to be eliminated from the body",
-    "url": "https://suppl.me/glossary/halflife",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/halflife",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Half-Life",
     "description": "Time required for half of a substance to be eliminated from the body",
-    "url": "https://suppl.me/glossary/halflife"
+    "url": "https://www.suppl.me/glossary/halflife"
   }
 ]

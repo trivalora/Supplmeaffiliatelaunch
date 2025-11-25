@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Electrolytes",
     "description": "Minerals carrying electrical charge essential for cellular function",
-    "url": "https://suppl.me/glossary/electrolytes",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/electrolytes",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Electrolytes",
     "description": "Minerals carrying electrical charge essential for cellular function",
-    "url": "https://suppl.me/glossary/electrolytes"
+    "url": "https://www.suppl.me/glossary/electrolytes"
   }
 ]

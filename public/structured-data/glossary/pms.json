@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "PMS (Premenstrual Syndrome)",
     "description": "Physical, emotional, and behavioral symptoms occurring before menstruation",
-    "url": "https://suppl.me/glossary/pms",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/pms",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "PMS (Premenstrual Syndrome)",
     "description": "Physical, emotional, and behavioral symptoms occurring before menstruation",
-    "url": "https://suppl.me/glossary/pms"
+    "url": "https://www.suppl.me/glossary/pms"
   }
 ]

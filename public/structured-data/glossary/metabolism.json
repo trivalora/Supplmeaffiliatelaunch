@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Metabolism",
     "description": "The sum of chemical reactions that convert nutrients into energy and building blocks",
-    "url": "https://suppl.me/glossary/metabolism",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/metabolism",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Metabolism",
     "description": "The sum of chemical reactions that convert nutrients into energy and building blocks",
-    "url": "https://suppl.me/glossary/metabolism"
+    "url": "https://www.suppl.me/glossary/metabolism"
   }
 ]

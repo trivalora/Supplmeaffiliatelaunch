@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Joint Health",
     "description": "Structural integrity and functional capacity of joints",
-    "url": "https://suppl.me/glossary/jointhealth",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/jointhealth",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Joint Health",
     "description": "Structural integrity and functional capacity of joints",
-    "url": "https://suppl.me/glossary/jointhealth"
+    "url": "https://www.suppl.me/glossary/jointhealth"
   }
 ]

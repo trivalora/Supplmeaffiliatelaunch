@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Heme Iron",
     "description": "Highly bioavailable iron form found in animal foods, bound to hemoglobin or myoglobin",
-    "url": "https://suppl.me/glossary/hemeiron",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/hemeiron",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Heme Iron",
     "description": "Highly bioavailable iron form found in animal foods, bound to hemoglobin or myoglobin",
-    "url": "https://suppl.me/glossary/hemeiron"
+    "url": "https://www.suppl.me/glossary/hemeiron"
   }
 ]

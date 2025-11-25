@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "CRP (C-Reactive Protein)",
     "description": "Inflammatory biomarker produced by the liver in response to inflammation",
-    "url": "https://suppl.me/glossary/crp",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/crp",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "CRP"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "CRP (C-Reactive Protein)",
     "description": "Inflammatory biomarker produced by the liver in response to inflammation",
-    "url": "https://suppl.me/glossary/crp"
+    "url": "https://www.suppl.me/glossary/crp"
   }
 ]

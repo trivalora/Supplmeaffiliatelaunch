@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Oxidative Stress",
     "description": "An imbalance between free radicals and antioxidants leading to cellular damage",
-    "url": "https://suppl.me/glossary/oxidativestress",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/oxidativestress",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Oxidative Stress",
     "description": "An imbalance between free radicals and antioxidants leading to cellular damage",
-    "url": "https://suppl.me/glossary/oxidativestress"
+    "url": "https://www.suppl.me/glossary/oxidativestress"
   }
 ]

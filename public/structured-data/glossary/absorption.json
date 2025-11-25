@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Absorption",
     "description": "The process by which nutrients pass from the gut into the bloodstream",
-    "url": "https://suppl.me/glossary/absorption",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/absorption",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Absorption",
     "description": "The process by which nutrients pass from the gut into the bloodstream",
-    "url": "https://suppl.me/glossary/absorption"
+    "url": "https://www.suppl.me/glossary/absorption"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Bioavailability",
     "description": "The proportion of a nutrient that enters the bloodstream and becomes available for use",
-    "url": "https://suppl.me/glossary/bioavailability",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/bioavailability",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Bioavailability",
     "description": "The proportion of a nutrient that enters the bloodstream and becomes available for use",
-    "url": "https://suppl.me/glossary/bioavailability"
+    "url": "https://www.suppl.me/glossary/bioavailability"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Placebo",
     "description": "An inactive substance given to a control group to compare against the active intervention",
-    "url": "https://suppl.me/glossary/placebo",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/placebo",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Placebo",
     "description": "An inactive substance given to a control group to compare against the active intervention",
-    "url": "https://suppl.me/glossary/placebo"
+    "url": "https://www.suppl.me/glossary/placebo"
   }
 ]

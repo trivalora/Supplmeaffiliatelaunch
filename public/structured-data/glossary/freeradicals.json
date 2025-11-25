@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Free Radicals",
     "description": "Highly reactive molecules with unpaired electrons that can damage cells and DNA",
-    "url": "https://suppl.me/glossary/freeradicals",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/freeradicals",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Free Radicals",
     "description": "Highly reactive molecules with unpaired electrons that can damage cells and DNA",
-    "url": "https://suppl.me/glossary/freeradicals"
+    "url": "https://www.suppl.me/glossary/freeradicals"
   }
 ]

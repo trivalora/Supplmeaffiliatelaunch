@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Cortisol",
     "description": "Stress hormone regulating metabolism and immune function",
-    "url": "https://suppl.me/glossary/cortisol",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/cortisol",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Cortisol",
     "description": "Stress hormone regulating metabolism and immune function",
-    "url": "https://suppl.me/glossary/cortisol"
+    "url": "https://www.suppl.me/glossary/cortisol"
   }
 ]

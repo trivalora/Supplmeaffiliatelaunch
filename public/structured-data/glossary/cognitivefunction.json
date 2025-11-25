@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Cognitive Function",
     "description": "Mental processes including memory, attention, reasoning, and problem-solving",
-    "url": "https://suppl.me/glossary/cognitivefunction",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/cognitivefunction",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Cognitive Function",
     "description": "Mental processes including memory, attention, reasoning, and problem-solving",
-    "url": "https://suppl.me/glossary/cognitivefunction"
+    "url": "https://www.suppl.me/glossary/cognitivefunction"
   }
 ]

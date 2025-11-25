@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Endothelium",
     "description": "Single-cell layer lining blood vessels that regulates vascular function and health",
-    "url": "https://suppl.me/glossary/endothelium",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/endothelium",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Endothelium",
     "description": "Single-cell layer lining blood vessels that regulates vascular function and health",
-    "url": "https://suppl.me/glossary/endothelium"
+    "url": "https://www.suppl.me/glossary/endothelium"
   }
 ]

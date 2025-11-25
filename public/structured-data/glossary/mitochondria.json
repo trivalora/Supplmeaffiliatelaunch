@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Mitochondria",
     "description": "Cell organelles generating energy through ATP production",
-    "url": "https://suppl.me/glossary/mitochondria",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/mitochondria",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Mitochondria",
     "description": "Cell organelles generating energy through ATP production",
-    "url": "https://suppl.me/glossary/mitochondria"
+    "url": "https://www.suppl.me/glossary/mitochondria"
   }
 ]

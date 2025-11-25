@@ -4,7 +4,7 @@
     "@type": "ItemList",
     "name": "Vitamin D Products",
     "description": "Compare prices for Vitamin D supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "url": "https://suppl.me/vitamin-d-comparison",
+    "url": "https://www.suppl.me/vitamin-d-comparison",
     "numberOfItems": 100,
     "itemListElement": []
   },
@@ -13,7 +13,7 @@
     "@type": "CollectionPage",
     "name": "Vitamin D Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for Vitamin D supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "url": "https://suppl.me/vitamin-d-comparison",
+    "url": "https://www.suppl.me/vitamin-d-comparison",
     "about": {
       "@type": "Thing",
       "name": "Vitamin D",
@@ -29,12 +29,12 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "suppl.me",
-    "url": "https://suppl.me",
+    "url": "https://www.suppl.me",
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+        "urlTemplate": "https://www.suppl.me/search?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }

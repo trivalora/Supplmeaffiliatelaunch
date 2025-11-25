@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Empirical Evidence",
     "description": "Evidence obtained through observation, experimentation, or direct experience",
-    "url": "https://suppl.me/glossary/empiricalevidence",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/empiricalevidence",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Empirical Evidence",
     "description": "Evidence obtained through observation, experimentation, or direct experience",
-    "url": "https://suppl.me/glossary/empiricalevidence"
+    "url": "https://www.suppl.me/glossary/empiricalevidence"
   }
 ]

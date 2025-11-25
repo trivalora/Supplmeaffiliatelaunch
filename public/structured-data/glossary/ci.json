@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Confidence Interval",
     "description": "Range of values likely to contain the true effect size with specified confidence",
-    "url": "https://suppl.me/glossary/ci",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/ci",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "CI"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Confidence Interval",
     "description": "Range of values likely to contain the true effect size with specified confidence",
-    "url": "https://suppl.me/glossary/ci"
+    "url": "https://www.suppl.me/glossary/ci"
   }
 ]

@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "mTOR (Mechanistic Target of Rapamycin)",
     "description": "Protein kinase regulating cell growth, metabolism, and protein synthesis",
-    "url": "https://suppl.me/glossary/mtor",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/mtor",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "mTOR"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "mTOR (Mechanistic Target of Rapamycin)",
     "description": "Protein kinase regulating cell growth, metabolism, and protein synthesis",
-    "url": "https://suppl.me/glossary/mtor"
+    "url": "https://www.suppl.me/glossary/mtor"
   }
 ]

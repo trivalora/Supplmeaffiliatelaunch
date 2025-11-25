@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Valine",
     "description": "Essential branched-chain amino acid supporting muscle growth and energy",
-    "url": "https://suppl.me/glossary/valine",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/valine",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Valine",
     "description": "Essential branched-chain amino acid supporting muscle growth and energy",
-    "url": "https://suppl.me/glossary/valine"
+    "url": "https://www.suppl.me/glossary/valine"
   }
 ]

@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Coenzyme Q10 (CoQ10)",
     "description": "Compound critical for mitochondrial energy production and antioxidant protection",
-    "url": "https://suppl.me/glossary/coenzymeq10",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/coenzymeq10",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "CoQ10"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Coenzyme Q10 (CoQ10)",
     "description": "Compound critical for mitochondrial energy production and antioxidant protection",
-    "url": "https://suppl.me/glossary/coenzymeq10"
+    "url": "https://www.suppl.me/glossary/coenzymeq10"
   }
 ]

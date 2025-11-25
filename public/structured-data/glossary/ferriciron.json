@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Ferric Iron",
     "description": "Iron in +3 oxidation state, less well absorbed than ferrous iron",
-    "url": "https://suppl.me/glossary/ferriciron",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/ferriciron",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Ferric Iron",
     "description": "Iron in +3 oxidation state, less well absorbed than ferrous iron",
-    "url": "https://suppl.me/glossary/ferriciron"
+    "url": "https://www.suppl.me/glossary/ferriciron"
   }
 ]

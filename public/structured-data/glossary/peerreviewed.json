@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Peer-reviewed",
     "description": "Scientific research evaluated and approved by independent experts before publication",
-    "url": "https://suppl.me/glossary/peerreviewed",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/peerreviewed",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Peer-reviewed",
     "description": "Scientific research evaluated and approved by independent experts before publication",
-    "url": "https://suppl.me/glossary/peerreviewed"
+    "url": "https://www.suppl.me/glossary/peerreviewed"
   }
 ]

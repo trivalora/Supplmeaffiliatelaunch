@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Isoleucine",
     "description": "Essential branched-chain amino acid important for muscle metabolism and immune function",
-    "url": "https://suppl.me/glossary/isoleucine",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/isoleucine",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Isoleucine",
     "description": "Essential branched-chain amino acid important for muscle metabolism and immune function",
-    "url": "https://suppl.me/glossary/isoleucine"
+    "url": "https://www.suppl.me/glossary/isoleucine"
   }
 ]

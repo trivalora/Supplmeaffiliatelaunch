@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "LDL Cholesterol",
     "description": "Low-density lipoprotein cholesterol, the primary contributor to arterial plaque buildup",
-    "url": "https://suppl.me/glossary/ldlcholesterol",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/ldlcholesterol",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "LDL"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "LDL Cholesterol",
     "description": "Low-density lipoprotein cholesterol, the primary contributor to arterial plaque buildup",
-    "url": "https://suppl.me/glossary/ldlcholesterol"
+    "url": "https://www.suppl.me/glossary/ldlcholesterol"
   }
 ]

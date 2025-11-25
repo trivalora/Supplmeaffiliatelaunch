@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Osteomalacia",
     "description": "Softening of the bones in adults due to defective bone mineralization",
-    "url": "https://suppl.me/glossary/osteomalacia",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/osteomalacia",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Osteomalacia",
     "description": "Softening of the bones in adults due to defective bone mineralization",
-    "url": "https://suppl.me/glossary/osteomalacia"
+    "url": "https://www.suppl.me/glossary/osteomalacia"
   }
 ]

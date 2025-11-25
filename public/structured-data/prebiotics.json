@@ -16,7 +16,7 @@
       "highPrice": "150.00",
       "offerCount": 50,
       "availability": "https://schema.org/InStock",
-      "url": "https://suppl.me/prebiotics"
+      "url": "https://www.suppl.me/prebiotics"
     }
   },
   {
@@ -29,8 +29,8 @@
       "name": "Prebiotic Fiber",
       "description": "Scientific review of prebiotic fibers (inulin, FOS, GOS) for gut health, microbiome diversity, and digestive function. Analysis of clinical efficacy, FODMAP considerations, and synergy with probiotics."
     },
-    "url": "https://suppl.me/prebiotics",
-    "lastReviewed": "2025-11-24",
+    "url": "https://www.suppl.me/prebiotics",
+    "lastReviewed": "2025-11-25",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -50,8 +50,8 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "suppl.me",
-    "url": "https://suppl.me",
-    "logo": "https://suppl.me/logo.png",
+    "url": "https://www.suppl.me",
+    "logo": "https://www.suppl.me/logo.png",
     "description": "Evidence-based supplement information and price comparison"
   }
 ]

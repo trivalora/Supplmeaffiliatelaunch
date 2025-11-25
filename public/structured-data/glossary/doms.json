@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "DOMS (Delayed Onset Muscle Soreness)",
     "description": "Muscle pain and stiffness occurring 12-72 hours after intense or unfamiliar exercise",
-    "url": "https://suppl.me/glossary/doms",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/doms",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "DOMS"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "DOMS (Delayed Onset Muscle Soreness)",
     "description": "Muscle pain and stiffness occurring 12-72 hours after intense or unfamiliar exercise",
-    "url": "https://suppl.me/glossary/doms"
+    "url": "https://www.suppl.me/glossary/doms"
   }
 ]

@@ -16,7 +16,7 @@
       "highPrice": "150.00",
       "offerCount": 50,
       "availability": "https://schema.org/InStock",
-      "url": "https://suppl.me/vitaminc"
+      "url": "https://www.suppl.me/vitaminc"
     }
   },
   {
@@ -29,8 +29,8 @@
       "name": "Vitamin C Supplement",
       "description": "Evidence-based review of vitamin C (ascorbic acid) for immune function, antioxidant protection, and collagen production. Analysis of forms (ascorbic acid, sodium ascorbate, liposomal), mega-dosing, and safety."
     },
-    "url": "https://suppl.me/vitaminc",
-    "lastReviewed": "2025-11-24",
+    "url": "https://www.suppl.me/vitaminc",
+    "lastReviewed": "2025-11-25",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -50,8 +50,8 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "suppl.me",
-    "url": "https://suppl.me",
-    "logo": "https://suppl.me/logo.png",
+    "url": "https://www.suppl.me",
+    "logo": "https://www.suppl.me/logo.png",
     "description": "Evidence-based supplement information and price comparison"
   }
 ]

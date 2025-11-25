@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "FOS (Fructooligosaccharides)",
     "description": "Short-chain prebiotic fibers that selectively feed beneficial gut bacteria",
-    "url": "https://suppl.me/glossary/fos",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/fos",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "FOS"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "FOS (Fructooligosaccharides)",
     "description": "Short-chain prebiotic fibers that selectively feed beneficial gut bacteria",
-    "url": "https://suppl.me/glossary/fos"
+    "url": "https://www.suppl.me/glossary/fos"
   }
 ]

@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "NF-κB",
     "description": "Master transcription factor regulating inflammatory and immune responses",
-    "url": "https://suppl.me/glossary/nfkb",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/nfkb",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "Nuclear Factor Kappa B"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "NF-κB",
     "description": "Master transcription factor regulating inflammatory and immune responses",
-    "url": "https://suppl.me/glossary/nfkb"
+    "url": "https://www.suppl.me/glossary/nfkb"
   }
 ]

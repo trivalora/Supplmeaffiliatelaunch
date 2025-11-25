@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Beta-Carotene",
     "description": "Orange plant pigment and provitamin A carotenoid with antioxidant properties",
-    "url": "https://suppl.me/glossary/betacarotene",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/betacarotene",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Beta-Carotene",
     "description": "Orange plant pigment and provitamin A carotenoid with antioxidant properties",
-    "url": "https://suppl.me/glossary/betacarotene"
+    "url": "https://www.suppl.me/glossary/betacarotene"
   }
 ]

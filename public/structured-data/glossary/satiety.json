@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Satiety",
     "description": "Feeling of fullness and satisfaction after eating that suppresses further food intake",
-    "url": "https://suppl.me/glossary/satiety",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/satiety",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Satiety",
     "description": "Feeling of fullness and satisfaction after eating that suppresses further food intake",
-    "url": "https://suppl.me/glossary/satiety"
+    "url": "https://www.suppl.me/glossary/satiety"
   }
 ]

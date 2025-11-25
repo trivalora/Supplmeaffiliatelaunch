@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Ferrous Iron",
     "description": "Iron in +2 oxidation state, better absorbed form for supplements",
-    "url": "https://suppl.me/glossary/ferrousiron",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/ferrousiron",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Ferrous Iron",
     "description": "Iron in +2 oxidation state, better absorbed form for supplements",
-    "url": "https://suppl.me/glossary/ferrousiron"
+    "url": "https://www.suppl.me/glossary/ferrousiron"
   }
 ]

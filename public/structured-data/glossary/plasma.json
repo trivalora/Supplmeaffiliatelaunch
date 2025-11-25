@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Plasma",
     "description": "Liquid component of blood containing water, proteins, nutrients, and waste products",
-    "url": "https://suppl.me/glossary/plasma",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/plasma",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Plasma",
     "description": "Liquid component of blood containing water, proteins, nutrients, and waste products",
-    "url": "https://suppl.me/glossary/plasma"
+    "url": "https://www.suppl.me/glossary/plasma"
   }
 ]

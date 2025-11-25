@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Glutathione Peroxidase (GPx)",
     "description": "Selenium-dependent antioxidant enzyme reducing hydrogen peroxide and lipid peroxides",
-    "url": "https://suppl.me/glossary/glutathioneperoxidase",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/glutathioneperoxidase",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "GPx"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Glutathione Peroxidase (GPx)",
     "description": "Selenium-dependent antioxidant enzyme reducing hydrogen peroxide and lipid peroxides",
-    "url": "https://suppl.me/glossary/glutathioneperoxidase"
+    "url": "https://www.suppl.me/glossary/glutathioneperoxidase"
   }
 ]

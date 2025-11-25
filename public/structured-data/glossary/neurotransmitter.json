@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Neurotransmitter",
     "description": "Chemical messengers transmitting signals between neurons",
-    "url": "https://suppl.me/glossary/neurotransmitter",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/neurotransmitter",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Neurotransmitter",
     "description": "Chemical messengers transmitting signals between neurons",
-    "url": "https://suppl.me/glossary/neurotransmitter"
+    "url": "https://www.suppl.me/glossary/neurotransmitter"
   }
 ]

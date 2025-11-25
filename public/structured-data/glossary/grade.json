@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "GRADE",
     "description": "Grading of Recommendations Assessment, Development and Evaluation - a systematic approach for rating evidence quality",
-    "url": "https://suppl.me/glossary/grade",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/grade",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "GRADE",
     "description": "Grading of Recommendations Assessment, Development and Evaluation - a systematic approach for rating evidence quality",
-    "url": "https://suppl.me/glossary/grade"
+    "url": "https://www.suppl.me/glossary/grade"
   }
 ]

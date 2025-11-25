@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Essential Amino Acids",
     "description": "Nine amino acids that must be obtained from diet",
-    "url": "https://suppl.me/glossary/essentialaminoacids",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/essentialaminoacids",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "EAAs"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Essential Amino Acids",
     "description": "Nine amino acids that must be obtained from diet",
-    "url": "https://suppl.me/glossary/essentialaminoacids"
+    "url": "https://www.suppl.me/glossary/essentialaminoacids"
   }
 ]

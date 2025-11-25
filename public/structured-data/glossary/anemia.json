@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Anemia",
     "description": "Insufficient red blood cells or hemoglobin causing reduced oxygen capacity",
-    "url": "https://suppl.me/glossary/anemia",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/anemia",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Anemia",
     "description": "Insufficient red blood cells or hemoglobin causing reduced oxygen capacity",
-    "url": "https://suppl.me/glossary/anemia"
+    "url": "https://www.suppl.me/glossary/anemia"
   }
 ]

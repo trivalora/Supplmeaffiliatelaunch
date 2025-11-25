@@ -4,7 +4,7 @@
     "@type": "ItemList",
     "name": "Zinc Products",
     "description": "Compare prices for Zinc supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "url": "https://suppl.me/zinc-comparison",
+    "url": "https://www.suppl.me/zinc-comparison",
     "numberOfItems": 100,
     "itemListElement": []
   },
@@ -13,7 +13,7 @@
     "@type": "CollectionPage",
     "name": "Zinc Price Comparison | Best Deals at iHerb & Amazon",
     "description": "Compare prices for Zinc supplements across top retailers. Find the best deals, certifications, and quality products.",
-    "url": "https://suppl.me/zinc-comparison",
+    "url": "https://www.suppl.me/zinc-comparison",
     "about": {
       "@type": "Thing",
       "name": "Zinc",
@@ -29,12 +29,12 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "suppl.me",
-    "url": "https://suppl.me",
+    "url": "https://www.suppl.me",
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://suppl.me/search?q={search_term_string}"
+        "urlTemplate": "https://www.suppl.me/search?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "HOMA-IR",
     "description": "Homeostatic Model Assessment of Insulin Resistance - a method to quantify insulin resistance",
-    "url": "https://suppl.me/glossary/homa-ir",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/homa-ir",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "HOMA-IR",
     "description": "Homeostatic Model Assessment of Insulin Resistance - a method to quantify insulin resistance",
-    "url": "https://suppl.me/glossary/homa-ir"
+    "url": "https://www.suppl.me/glossary/homa-ir"
   }
 ]

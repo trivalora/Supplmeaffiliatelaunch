@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Sleep Quality",
     "description": "Assessment of sleep duration, efficiency, and restfulness",
-    "url": "https://suppl.me/glossary/sleepquality",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/sleepquality",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Sleep Quality",
     "description": "Assessment of sleep duration, efficiency, and restfulness",
-    "url": "https://suppl.me/glossary/sleepquality"
+    "url": "https://www.suppl.me/glossary/sleepquality"
   }
 ]

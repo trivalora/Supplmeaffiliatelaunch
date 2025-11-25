@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Blood Glucose",
     "description": "The amount of glucose (sugar) present in the blood, the body\\",
-    "url": "https://suppl.me/glossary/bloodglucose",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/bloodglucose",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Blood Glucose",
     "description": "The amount of glucose (sugar) present in the blood, the body\\",
-    "url": "https://suppl.me/glossary/bloodglucose"
+    "url": "https://www.suppl.me/glossary/bloodglucose"
   }
 ]

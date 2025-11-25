@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Flavonoids",
     "description": "Largest class of polyphenols with diverse antioxidant and anti-inflammatory effects",
-    "url": "https://suppl.me/glossary/flavonoids",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/flavonoids",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Flavonoids",
     "description": "Largest class of polyphenols with diverse antioxidant and anti-inflammatory effects",
-    "url": "https://suppl.me/glossary/flavonoids"
+    "url": "https://www.suppl.me/glossary/flavonoids"
   }
 ]

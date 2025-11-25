@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Amino Acids",
     "description": "Building blocks of proteins essential for tissue growth and repair",
-    "url": "https://suppl.me/glossary/aminoacids",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/aminoacids",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Amino Acids",
     "description": "Building blocks of proteins essential for tissue growth and repair",
-    "url": "https://suppl.me/glossary/aminoacids"
+    "url": "https://www.suppl.me/glossary/aminoacids"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Third-Party Testing",
     "description": "Independent laboratory verification of supplement quality, purity, and potency",
-    "url": "https://suppl.me/glossary/thirdpartytesting",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/thirdpartytesting",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Third-Party Testing",
     "description": "Independent laboratory verification of supplement quality, purity, and potency",
-    "url": "https://suppl.me/glossary/thirdpartytesting"
+    "url": "https://www.suppl.me/glossary/thirdpartytesting"
   }
 ]

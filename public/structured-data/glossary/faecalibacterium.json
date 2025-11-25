@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Faecalibacterium prausnitzii",
     "description": "Major butyrate-producing gut bacteria associated with anti-inflammatory effects",
-    "url": "https://suppl.me/glossary/faecalibacterium",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/faecalibacterium",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Faecalibacterium prausnitzii",
     "description": "Major butyrate-producing gut bacteria associated with anti-inflammatory effects",
-    "url": "https://suppl.me/glossary/faecalibacterium"
+    "url": "https://www.suppl.me/glossary/faecalibacterium"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Efficacy",
     "description": "The ability of a treatment to produce the desired effect under ideal conditions",
-    "url": "https://suppl.me/glossary/efficacy",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/efficacy",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Efficacy",
     "description": "The ability of a treatment to produce the desired effect under ideal conditions",
-    "url": "https://suppl.me/glossary/efficacy"
+    "url": "https://www.suppl.me/glossary/efficacy"
   }
 ]

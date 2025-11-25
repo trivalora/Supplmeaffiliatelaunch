@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Protein Synthesis",
     "description": "The biological process of building new proteins from amino acids",
-    "url": "https://suppl.me/glossary/proteinsynthesis",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/proteinsynthesis",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Protein Synthesis",
     "description": "The biological process of building new proteins from amino acids",
-    "url": "https://suppl.me/glossary/proteinsynthesis"
+    "url": "https://www.suppl.me/glossary/proteinsynthesis"
   }
 ]

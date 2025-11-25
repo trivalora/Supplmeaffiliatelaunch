@@ -16,7 +16,7 @@
       "highPrice": "150.00",
       "offerCount": 50,
       "availability": "https://schema.org/InStock",
-      "url": "https://suppl.me/sulforaphane"
+      "url": "https://www.suppl.me/sulforaphane"
     }
   },
   {
@@ -29,8 +29,8 @@
       "name": "Sulforaphane (Broccoli Extract)",
       "description": "Scientific analysis of sulforaphane from broccoli sprouts for cellular detoxification, antioxidant defense, and cancer prevention. Review of myrosinase activity, bioavailability, and clinical applications."
     },
-    "url": "https://suppl.me/sulforaphane",
-    "lastReviewed": "2025-11-24",
+    "url": "https://www.suppl.me/sulforaphane",
+    "lastReviewed": "2025-11-25",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -50,8 +50,8 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "suppl.me",
-    "url": "https://suppl.me",
-    "logo": "https://suppl.me/logo.png",
+    "url": "https://www.suppl.me",
+    "logo": "https://www.suppl.me/logo.png",
     "description": "Evidence-based supplement information and price comparison"
   }
 ]

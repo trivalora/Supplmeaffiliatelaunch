@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Oxidative Damage",
     "description": "Cellular and molecular damage caused by reactive oxygen species and free radicals",
-    "url": "https://suppl.me/glossary/oxidativedamage",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/oxidativedamage",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Oxidative Damage",
     "description": "Cellular and molecular damage caused by reactive oxygen species and free radicals",
-    "url": "https://suppl.me/glossary/oxidativedamage"
+    "url": "https://www.suppl.me/glossary/oxidativedamage"
   }
 ]

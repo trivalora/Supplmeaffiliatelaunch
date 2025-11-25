@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Hydrolyzed",
     "description": "Proteins broken down into smaller peptides through hydrolysis for easier absorption",
-    "url": "https://suppl.me/glossary/hydrolyzed",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/hydrolyzed",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hydrolyzed",
     "description": "Proteins broken down into smaller peptides through hydrolysis for easier absorption",
-    "url": "https://suppl.me/glossary/hydrolyzed"
+    "url": "https://www.suppl.me/glossary/hydrolyzed"
   }
 ]

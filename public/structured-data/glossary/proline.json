@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Proline",
     "description": "Amino acid with unique cyclic structure critical for collagen stability",
-    "url": "https://suppl.me/glossary/proline",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/proline",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Proline",
     "description": "Amino acid with unique cyclic structure critical for collagen stability",
-    "url": "https://suppl.me/glossary/proline"
+    "url": "https://www.suppl.me/glossary/proline"
   }
 ]

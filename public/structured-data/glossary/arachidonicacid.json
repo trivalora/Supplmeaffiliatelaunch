@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Arachidonic Acid",
     "description": "Omega-6 fatty acid that serves as precursor to inflammatory and regulatory eicosanoids",
-    "url": "https://suppl.me/glossary/arachidonicacid",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/arachidonicacid",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "AA"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Arachidonic Acid",
     "description": "Omega-6 fatty acid that serves as precursor to inflammatory and regulatory eicosanoids",
-    "url": "https://suppl.me/glossary/arachidonicacid"
+    "url": "https://www.suppl.me/glossary/arachidonicacid"
   }
 ]

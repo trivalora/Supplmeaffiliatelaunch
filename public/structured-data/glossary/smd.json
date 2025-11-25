@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Standardized Mean Difference",
     "description": "Statistical measure of effect size used in meta-analyses",
-    "url": "https://suppl.me/glossary/smd",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/smd",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "SMD"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Standardized Mean Difference",
     "description": "Statistical measure of effect size used in meta-analyses",
-    "url": "https://suppl.me/glossary/smd"
+    "url": "https://www.suppl.me/glossary/smd"
   }
 ]

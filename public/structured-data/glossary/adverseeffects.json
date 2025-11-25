@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Adverse Effects",
     "description": "Unintended harmful or unpleasant responses to supplements ranging from mild to severe",
-    "url": "https://suppl.me/glossary/adverseeffects",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/adverseeffects",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Adverse Effects",
     "description": "Unintended harmful or unpleasant responses to supplements ranging from mild to severe",
-    "url": "https://suppl.me/glossary/adverseeffects"
+    "url": "https://www.suppl.me/glossary/adverseeffects"
   }
 ]

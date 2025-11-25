@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Normotensive",
     "description": "Having normal blood pressure levels without medication",
-    "url": "https://suppl.me/glossary/normotensive",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/normotensive",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Normotensive",
     "description": "Having normal blood pressure levels without medication",
-    "url": "https://suppl.me/glossary/normotensive"
+    "url": "https://www.suppl.me/glossary/normotensive"
   }
 ]

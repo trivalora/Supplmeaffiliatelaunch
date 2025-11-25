@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Therapeutic Dose",
     "description": "Amount of supplement that produces desired beneficial effect while remaining safe",
-    "url": "https://suppl.me/glossary/therapeuticdose",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/therapeuticdose",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Therapeutic Dose",
     "description": "Amount of supplement that produces desired beneficial effect while remaining safe",
-    "url": "https://suppl.me/glossary/therapeuticdose"
+    "url": "https://www.suppl.me/glossary/therapeuticdose"
   }
 ]

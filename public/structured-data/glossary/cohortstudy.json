@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Cohort Study",
     "description": "Observational study following groups over time to assess exposure-outcome relationships",
-    "url": "https://suppl.me/glossary/cohortstudy",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/cohortstudy",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Cohort Study",
     "description": "Observational study following groups over time to assess exposure-outcome relationships",
-    "url": "https://suppl.me/glossary/cohortstudy"
+    "url": "https://www.suppl.me/glossary/cohortstudy"
   }
 ]

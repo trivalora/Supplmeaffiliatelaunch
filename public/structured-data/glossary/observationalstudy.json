@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Observational Study",
     "description": "Research where investigators observe outcomes without assigning interventions",
-    "url": "https://suppl.me/glossary/observationalstudy",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/observationalstudy",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Observational Study",
     "description": "Research where investigators observe outcomes without assigning interventions",
-    "url": "https://suppl.me/glossary/observationalstudy"
+    "url": "https://www.suppl.me/glossary/observationalstudy"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Synergistic Effect",
     "description": "Combined effect of substances that is greater than the sum of individual effects",
-    "url": "https://suppl.me/glossary/synergisticeffect",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/synergisticeffect",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Synergistic Effect",
     "description": "Combined effect of substances that is greater than the sum of individual effects",
-    "url": "https://suppl.me/glossary/synergisticeffect"
+    "url": "https://www.suppl.me/glossary/synergisticeffect"
   }
 ]

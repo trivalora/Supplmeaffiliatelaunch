@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Lycopene",
     "description": "Red carotenoid pigment with antioxidant properties, abundant in tomatoes",
-    "url": "https://suppl.me/glossary/lycopene",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/lycopene",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Lycopene",
     "description": "Red carotenoid pigment with antioxidant properties, abundant in tomatoes",
-    "url": "https://suppl.me/glossary/lycopene"
+    "url": "https://www.suppl.me/glossary/lycopene"
   }
 ]

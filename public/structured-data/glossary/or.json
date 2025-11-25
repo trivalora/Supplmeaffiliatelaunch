@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Odds Ratio",
     "description": "Statistical measure comparing odds of an outcome in treatment vs. control groups",
-    "url": "https://suppl.me/glossary/or",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/or",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "OR"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Odds Ratio",
     "description": "Statistical measure comparing odds of an outcome in treatment vs. control groups",
-    "url": "https://suppl.me/glossary/or"
+    "url": "https://www.suppl.me/glossary/or"
   }
 ]

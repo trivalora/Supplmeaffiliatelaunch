@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Double Blinded",
     "description": "A study where neither participants nor researchers know group assignments",
-    "url": "https://suppl.me/glossary/doubleblinded",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/doubleblinded",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Double Blinded",
     "description": "A study where neither participants nor researchers know group assignments",
-    "url": "https://suppl.me/glossary/doubleblinded"
+    "url": "https://www.suppl.me/glossary/doubleblinded"
   }
 ]

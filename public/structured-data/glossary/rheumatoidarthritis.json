@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Rheumatoid Arthritis",
     "description": "Autoimmune disease causing chronic joint inflammation and systemic effects",
-    "url": "https://suppl.me/glossary/rheumatoidarthritis",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/rheumatoidarthritis",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "RA"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Rheumatoid Arthritis",
     "description": "Autoimmune disease causing chronic joint inflammation and systemic effects",
-    "url": "https://suppl.me/glossary/rheumatoidarthritis"
+    "url": "https://www.suppl.me/glossary/rheumatoidarthritis"
   }
 ]

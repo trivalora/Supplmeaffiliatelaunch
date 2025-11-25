@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Nitric Oxide",
     "description": "Signaling molecule that regulates blood vessel dilation and cardiovascular function",
-    "url": "https://suppl.me/glossary/nitricoxide",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/nitricoxide",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "NO"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Nitric Oxide",
     "description": "Signaling molecule that regulates blood vessel dilation and cardiovascular function",
-    "url": "https://suppl.me/glossary/nitricoxide"
+    "url": "https://www.suppl.me/glossary/nitricoxide"
   }
 ]

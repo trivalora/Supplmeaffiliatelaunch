@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Meta-Analysis",
     "description": "A statistical method that combines results from multiple studies to identify overall effects",
-    "url": "https://suppl.me/glossary/metaanalysis",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/metaanalysis",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Meta-Analysis",
     "description": "A statistical method that combines results from multiple studies to identify overall effects",
-    "url": "https://suppl.me/glossary/metaanalysis"
+    "url": "https://www.suppl.me/glossary/metaanalysis"
   }
 ]

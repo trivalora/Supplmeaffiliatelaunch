@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "DHA",
     "description": "Docosahexaenoic acid - an omega-3 fatty acid essential for brain and eye health",
-    "url": "https://suppl.me/glossary/dha",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/dha",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "DHA",
     "description": "Docosahexaenoic acid - an omega-3 fatty acid essential for brain and eye health",
-    "url": "https://suppl.me/glossary/dha"
+    "url": "https://www.suppl.me/glossary/dha"
   }
 ]

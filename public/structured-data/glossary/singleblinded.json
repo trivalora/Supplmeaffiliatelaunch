@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Single Blinded",
     "description": "A study where participants don\\",
-    "url": "https://suppl.me/glossary/singleblinded",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/singleblinded",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Single Blinded",
     "description": "A study where participants don\\",
-    "url": "https://suppl.me/glossary/singleblinded"
+    "url": "https://www.suppl.me/glossary/singleblinded"
   }
 ]

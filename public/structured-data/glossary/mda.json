@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Malondialdehyde",
     "description": "Biomarker of oxidative stress and lipid peroxidation",
-    "url": "https://suppl.me/glossary/mda",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/mda",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "MDA"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Malondialdehyde",
     "description": "Biomarker of oxidative stress and lipid peroxidation",
-    "url": "https://suppl.me/glossary/mda"
+    "url": "https://www.suppl.me/glossary/mda"
   }
 ]

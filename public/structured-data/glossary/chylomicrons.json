@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Chylomicrons",
     "description": "Lipoprotein particles that transport dietary fats from intestines to tissues",
-    "url": "https://suppl.me/glossary/chylomicrons",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/chylomicrons",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Chylomicrons",
     "description": "Lipoprotein particles that transport dietary fats from intestines to tissues",
-    "url": "https://suppl.me/glossary/chylomicrons"
+    "url": "https://www.suppl.me/glossary/chylomicrons"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Contraindications",
     "description": "Specific situations or conditions where a supplement should not be used",
-    "url": "https://suppl.me/glossary/contraindications",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/contraindications",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Contraindications",
     "description": "Specific situations or conditions where a supplement should not be used",
-    "url": "https://suppl.me/glossary/contraindications"
+    "url": "https://www.suppl.me/glossary/contraindications"
   }
 ]

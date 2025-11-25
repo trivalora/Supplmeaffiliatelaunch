@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Bacteroides",
     "description": "Major genus of beneficial gut bacteria involved in fiber fermentation and immune modulation",
-    "url": "https://suppl.me/glossary/bacteroides",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/bacteroides",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Bacteroides",
     "description": "Major genus of beneficial gut bacteria involved in fiber fermentation and immune modulation",
-    "url": "https://suppl.me/glossary/bacteroides"
+    "url": "https://www.suppl.me/glossary/bacteroides"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Immune System",
     "description": "Body defense network protecting against pathogens and disease",
-    "url": "https://suppl.me/glossary/immunesystem",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/immunesystem",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Immune System",
     "description": "Body defense network protecting against pathogens and disease",
-    "url": "https://suppl.me/glossary/immunesystem"
+    "url": "https://www.suppl.me/glossary/immunesystem"
   }
 ]

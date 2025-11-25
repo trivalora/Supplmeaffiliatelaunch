@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Bone Density",
     "description": "Measurement of minerals in bone used to assess strength and fracture risk",
-    "url": "https://suppl.me/glossary/bonedensity",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/bonedensity",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "BMD"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Bone Density",
     "description": "Measurement of minerals in bone used to assess strength and fracture risk",
-    "url": "https://suppl.me/glossary/bonedensity"
+    "url": "https://www.suppl.me/glossary/bonedensity"
   }
 ]

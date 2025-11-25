@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "EPA",
     "description": "Eicosapentaenoic acid - a long-chain omega-3 fatty acid with anti-inflammatory properties",
-    "url": "https://suppl.me/glossary/epa",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/epa",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "EPA",
     "description": "Eicosapentaenoic acid - a long-chain omega-3 fatty acid with anti-inflammatory properties",
-    "url": "https://suppl.me/glossary/epa"
+    "url": "https://www.suppl.me/glossary/epa"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Blood Pressure",
     "description": "The force of blood pushing against artery walls, measured as systolic over diastolic",
-    "url": "https://suppl.me/glossary/bloodpressure",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/bloodpressure",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Blood Pressure",
     "description": "The force of blood pushing against artery walls, measured as systolic over diastolic",
-    "url": "https://suppl.me/glossary/bloodpressure"
+    "url": "https://www.suppl.me/glossary/bloodpressure"
   }
 ]

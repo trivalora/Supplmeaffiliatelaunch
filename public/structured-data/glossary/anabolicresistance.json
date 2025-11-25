@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Anabolic Resistance",
     "description": "Reduced muscle protein synthesis response to anabolic stimuli like protein intake",
-    "url": "https://suppl.me/glossary/anabolicresistance",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/anabolicresistance",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Anabolic Resistance",
     "description": "Reduced muscle protein synthesis response to anabolic stimuli like protein intake",
-    "url": "https://suppl.me/glossary/anabolicresistance"
+    "url": "https://www.suppl.me/glossary/anabolicresistance"
   }
 ]

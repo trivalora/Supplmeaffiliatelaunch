@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Metabolic Syndrome",
     "description": "Cluster of conditions increasing risk of heart disease, diabetes, and stroke",
-    "url": "https://suppl.me/glossary/metabolicsyndrome",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/metabolicsyndrome",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Metabolic Syndrome",
     "description": "Cluster of conditions increasing risk of heart disease, diabetes, and stroke",
-    "url": "https://suppl.me/glossary/metabolicsyndrome"
+    "url": "https://www.suppl.me/glossary/metabolicsyndrome"
   }
 ]

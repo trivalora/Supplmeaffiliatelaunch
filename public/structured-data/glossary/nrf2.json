@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Nrf2",
     "description": "Master transcription factor regulating antioxidant defense and cellular protection",
-    "url": "https://suppl.me/glossary/nrf2",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/nrf2",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "Nuclear Factor Erythroid 2-Related Factor 2"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Nrf2",
     "description": "Master transcription factor regulating antioxidant defense and cellular protection",
-    "url": "https://suppl.me/glossary/nrf2"
+    "url": "https://www.suppl.me/glossary/nrf2"
   }
 ]

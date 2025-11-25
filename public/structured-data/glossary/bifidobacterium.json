@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Bifidobacterium",
     "description": "Beneficial bacterial genus that inhabits the gut and supports digestive and immune health",
-    "url": "https://suppl.me/glossary/bifidobacterium",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/bifidobacterium",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Bifidobacterium",
     "description": "Beneficial bacterial genus that inhabits the gut and supports digestive and immune health",
-    "url": "https://suppl.me/glossary/bifidobacterium"
+    "url": "https://www.suppl.me/glossary/bifidobacterium"
   }
 ]

@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Weighted Mean Difference",
     "description": "Statistical measure pooling results from studies using the same measurement scale",
-    "url": "https://suppl.me/glossary/wmd",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/wmd",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "WMD"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Weighted Mean Difference",
     "description": "Statistical measure pooling results from studies using the same measurement scale",
-    "url": "https://suppl.me/glossary/wmd"
+    "url": "https://www.suppl.me/glossary/wmd"
   }
 ]

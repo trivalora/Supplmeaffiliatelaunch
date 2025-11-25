@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Folic Acid",
     "description": "Synthetic form of vitamin B9 used in supplements and fortified foods",
-    "url": "https://suppl.me/glossary/folicacid",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/folicacid",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Folic Acid",
     "description": "Synthetic form of vitamin B9 used in supplements and fortified foods",
-    "url": "https://suppl.me/glossary/folicacid"
+    "url": "https://www.suppl.me/glossary/folicacid"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Oxalates",
     "description": "Plant compounds affecting mineral absorption and kidney stone risk",
-    "url": "https://suppl.me/glossary/oxalates",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/oxalates",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Oxalates",
     "description": "Plant compounds affecting mineral absorption and kidney stone risk",
-    "url": "https://suppl.me/glossary/oxalates"
+    "url": "https://www.suppl.me/glossary/oxalates"
   }
 ]

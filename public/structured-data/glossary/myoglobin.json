@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Myoglobin",
     "description": "Oxygen-binding protein in muscle tissue that stores oxygen for energy production",
-    "url": "https://suppl.me/glossary/myoglobin",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/myoglobin",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Myoglobin",
     "description": "Oxygen-binding protein in muscle tissue that stores oxygen for energy production",
-    "url": "https://suppl.me/glossary/myoglobin"
+    "url": "https://www.suppl.me/glossary/myoglobin"
   }
 ]

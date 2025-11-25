@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Creatine Kinase",
     "description": "Enzyme and biomarker of muscle damage",
-    "url": "https://suppl.me/glossary/creatinekinase",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/creatinekinase",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "CK"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Creatine Kinase",
     "description": "Enzyme and biomarker of muscle damage",
-    "url": "https://suppl.me/glossary/creatinekinase"
+    "url": "https://www.suppl.me/glossary/creatinekinase"
   }
 ]

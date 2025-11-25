@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Dose-Dependent",
     "description": "A relationship where effect magnitude changes with the amount administered",
-    "url": "https://suppl.me/glossary/dosedependent",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/dosedependent",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Dose-Dependent",
     "description": "A relationship where effect magnitude changes with the amount administered",
-    "url": "https://suppl.me/glossary/dosedependent"
+    "url": "https://www.suppl.me/glossary/dosedependent"
   }
 ]

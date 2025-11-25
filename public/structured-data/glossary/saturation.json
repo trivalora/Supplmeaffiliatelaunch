@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Saturation",
     "description": "State where body stores of a nutrient are filled to capacity",
-    "url": "https://suppl.me/glossary/saturation",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/saturation",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Saturation",
     "description": "State where body stores of a nutrient are filled to capacity",
-    "url": "https://suppl.me/glossary/saturation"
+    "url": "https://www.suppl.me/glossary/saturation"
   }
 ]

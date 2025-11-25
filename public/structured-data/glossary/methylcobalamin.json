@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Methylcobalamin",
     "description": "Active form of vitamin B12 used in supplements, readily utilized by the body",
-    "url": "https://suppl.me/glossary/methylcobalamin",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/methylcobalamin",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Methylcobalamin",
     "description": "Active form of vitamin B12 used in supplements, readily utilized by the body",
-    "url": "https://suppl.me/glossary/methylcobalamin"
+    "url": "https://www.suppl.me/glossary/methylcobalamin"
   }
 ]

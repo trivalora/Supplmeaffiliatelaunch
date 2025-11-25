@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Standardized Extract",
     "description": "Botanical extract processed to contain guaranteed concentration of active compounds",
-    "url": "https://suppl.me/glossary/standardizedextract",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/standardizedextract",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Standardized Extract",
     "description": "Botanical extract processed to contain guaranteed concentration of active compounds",
-    "url": "https://suppl.me/glossary/standardizedextract"
+    "url": "https://www.suppl.me/glossary/standardizedextract"
   }
 ]

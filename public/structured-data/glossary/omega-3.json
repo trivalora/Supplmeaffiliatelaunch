@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Omega-3 Fatty Acids",
     "description": "Essential polyunsaturated fatty acids important for heart and brain health",
-    "url": "https://suppl.me/glossary/omega-3",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/omega-3",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Omega-3 Fatty Acids",
     "description": "Essential polyunsaturated fatty acids important for heart and brain health",
-    "url": "https://suppl.me/glossary/omega-3"
+    "url": "https://www.suppl.me/glossary/omega-3"
   }
 ]

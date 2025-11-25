@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "HDL Cholesterol",
     "description": "High-density lipoprotein cholesterol, protective against cardiovascular disease",
-    "url": "https://suppl.me/glossary/hdlcholesterol",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/hdlcholesterol",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "HDL"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "HDL Cholesterol",
     "description": "High-density lipoprotein cholesterol, protective against cardiovascular disease",
-    "url": "https://suppl.me/glossary/hdlcholesterol"
+    "url": "https://www.suppl.me/glossary/hdlcholesterol"
   }
 ]

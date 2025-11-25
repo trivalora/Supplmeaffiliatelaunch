@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Insulin",
     "description": "Pancreatic hormone regulating blood glucose by promoting cellular glucose uptake",
-    "url": "https://suppl.me/glossary/insulin",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/insulin",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Insulin",
     "description": "Pancreatic hormone regulating blood glucose by promoting cellular glucose uptake",
-    "url": "https://suppl.me/glossary/insulin"
+    "url": "https://www.suppl.me/glossary/insulin"
   }
 ]

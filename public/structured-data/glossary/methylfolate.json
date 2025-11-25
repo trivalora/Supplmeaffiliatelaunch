@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Methylfolate",
     "description": "Active form of folate that bypasses MTHFR enzyme, superior to folic acid",
-    "url": "https://suppl.me/glossary/methylfolate",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/methylfolate",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "5-MTHF"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Methylfolate",
     "description": "Active form of folate that bypasses MTHFR enzyme, superior to folic acid",
-    "url": "https://suppl.me/glossary/methylfolate"
+    "url": "https://www.suppl.me/glossary/methylfolate"
   }
 ]

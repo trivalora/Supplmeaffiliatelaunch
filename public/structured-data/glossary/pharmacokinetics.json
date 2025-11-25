@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Pharmacokinetics",
     "description": "Study of how the body absorbs, distributes, metabolizes, and excretes substances",
-    "url": "https://suppl.me/glossary/pharmacokinetics",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/pharmacokinetics",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Pharmacokinetics",
     "description": "Study of how the body absorbs, distributes, metabolizes, and excretes substances",
-    "url": "https://suppl.me/glossary/pharmacokinetics"
+    "url": "https://www.suppl.me/glossary/pharmacokinetics"
   }
 ]

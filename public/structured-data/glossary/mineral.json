@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Mineral",
     "description": "Inorganic chemical elements essential for various physiological functions",
-    "url": "https://suppl.me/glossary/mineral",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/mineral",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Mineral",
     "description": "Inorganic chemical elements essential for various physiological functions",
-    "url": "https://suppl.me/glossary/mineral"
+    "url": "https://www.suppl.me/glossary/mineral"
   }
 ]

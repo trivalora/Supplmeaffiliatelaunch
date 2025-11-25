@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Serum",
     "description": "Blood plasma without clotting factors, commonly used for laboratory testing",
-    "url": "https://suppl.me/glossary/serum",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/serum",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Serum",
     "description": "Blood plasma without clotting factors, commonly used for laboratory testing",
-    "url": "https://suppl.me/glossary/serum"
+    "url": "https://www.suppl.me/glossary/serum"
   }
 ]

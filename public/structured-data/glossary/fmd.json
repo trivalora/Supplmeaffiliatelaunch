@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Flow-Mediated Dilation",
     "description": "Non-invasive ultrasound measurement of endothelial function and cardiovascular health",
-    "url": "https://suppl.me/glossary/fmd",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/fmd",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "FMD"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Flow-Mediated Dilation",
     "description": "Non-invasive ultrasound measurement of endothelial function and cardiovascular health",
-    "url": "https://suppl.me/glossary/fmd"
+    "url": "https://www.suppl.me/glossary/fmd"
   }
 ]

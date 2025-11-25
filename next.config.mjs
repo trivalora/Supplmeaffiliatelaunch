@@ -42,7 +42,7 @@ const nextConfig = {
 
   // Environment variables available to the browser
   env: {
-    VITE_CANONICAL_BASE_URL: process.env.VITE_CANONICAL_BASE_URL || 'https://suppl.me',
+    VITE_CANONICAL_BASE_URL: process.env.VITE_CANONICAL_BASE_URL || 'https://www.suppl.me',
   },
 
   // Disable x-powered-by header

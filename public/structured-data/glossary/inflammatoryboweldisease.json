@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Inflammatory Bowel Disease",
     "description": "Chronic inflammatory GI conditions including Crohn\\",
-    "url": "https://suppl.me/glossary/inflammatoryboweldisease",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/inflammatoryboweldisease",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "IBD"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Inflammatory Bowel Disease",
     "description": "Chronic inflammatory GI conditions including Crohn\\",
-    "url": "https://suppl.me/glossary/inflammatoryboweldisease"
+    "url": "https://www.suppl.me/glossary/inflammatoryboweldisease"
   }
 ]

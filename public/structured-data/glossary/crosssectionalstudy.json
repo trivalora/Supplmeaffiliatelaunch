@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Cross-Sectional Study",
     "description": "Observational study analyzing data from a population at one specific point in time",
-    "url": "https://suppl.me/glossary/crosssectionalstudy",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/crosssectionalstudy",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Cross-Sectional Study",
     "description": "Observational study analyzing data from a population at one specific point in time",
-    "url": "https://suppl.me/glossary/crosssectionalstudy"
+    "url": "https://www.suppl.me/glossary/crosssectionalstudy"
   }
 ]

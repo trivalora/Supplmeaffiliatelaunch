@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Randomized Controlled Trial",
     "description": "A type of scientific experiment that randomly assigns participants to different groups to test effectiveness",
-    "url": "https://suppl.me/glossary/rct",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/rct",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "RCT"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Randomized Controlled Trial",
     "description": "A type of scientific experiment that randomly assigns participants to different groups to test effectiveness",
-    "url": "https://suppl.me/glossary/rct"
+    "url": "https://www.suppl.me/glossary/rct"
   }
 ]

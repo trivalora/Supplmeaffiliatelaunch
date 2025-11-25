@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Acetate",
     "description": "Most abundant short-chain fatty acid produced by gut bacteria",
-    "url": "https://suppl.me/glossary/acetate",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/acetate",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Acetate",
     "description": "Most abundant short-chain fatty acid produced by gut bacteria",
-    "url": "https://suppl.me/glossary/acetate"
+    "url": "https://www.suppl.me/glossary/acetate"
   }
 ]

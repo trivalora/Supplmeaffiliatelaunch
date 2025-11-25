@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Inulin-type Fructans",
     "description": "Prebiotic fibers including inulin and FOS that promote beneficial gut bacteria growth",
-    "url": "https://suppl.me/glossary/inulintypefructans",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/inulintypefructans",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Inulin-type Fructans",
     "description": "Prebiotic fibers including inulin and FOS that promote beneficial gut bacteria growth",
-    "url": "https://suppl.me/glossary/inulintypefructans"
+    "url": "https://www.suppl.me/glossary/inulintypefructans"
   }
 ]

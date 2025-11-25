@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Hyperglycemia",
     "description": "Elevated blood glucose levels above the normal range",
-    "url": "https://suppl.me/glossary/hyperglycemia",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/hyperglycemia",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hyperglycemia",
     "description": "Elevated blood glucose levels above the normal range",
-    "url": "https://suppl.me/glossary/hyperglycemia"
+    "url": "https://www.suppl.me/glossary/hyperglycemia"
   }
 ]

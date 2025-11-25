@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Eicosanoids",
     "description": "Signaling molecules derived from omega-3 and omega-6 fatty acids",
-    "url": "https://suppl.me/glossary/eicosanoids",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/eicosanoids",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Eicosanoids",
     "description": "Signaling molecules derived from omega-3 and omega-6 fatty acids",
-    "url": "https://suppl.me/glossary/eicosanoids"
+    "url": "https://www.suppl.me/glossary/eicosanoids"
   }
 ]

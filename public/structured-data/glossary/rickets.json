@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Rickets",
     "description": "A childhood bone disorder caused by vitamin D, calcium, or phosphate deficiency",
-    "url": "https://suppl.me/glossary/rickets",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/rickets",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Rickets",
     "description": "A childhood bone disorder caused by vitamin D, calcium, or phosphate deficiency",
-    "url": "https://suppl.me/glossary/rickets"
+    "url": "https://www.suppl.me/glossary/rickets"
   }
 ]

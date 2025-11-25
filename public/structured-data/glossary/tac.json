@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Total Antioxidant Capacity",
     "description": "Measurement of overall antioxidant power in blood or tissue",
-    "url": "https://suppl.me/glossary/tac",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/tac",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "TAC"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Total Antioxidant Capacity",
     "description": "Measurement of overall antioxidant power in blood or tissue",
-    "url": "https://suppl.me/glossary/tac"
+    "url": "https://www.suppl.me/glossary/tac"
   }
 ]

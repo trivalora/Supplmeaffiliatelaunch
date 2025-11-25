@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Oxidized LDL",
     "description": "Modified LDL cholesterol that promotes atherosclerosis and cardiovascular disease",
-    "url": "https://suppl.me/glossary/oxidizedldl",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/oxidizedldl",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "oxLDL"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Oxidized LDL",
     "description": "Modified LDL cholesterol that promotes atherosclerosis and cardiovascular disease",
-    "url": "https://suppl.me/glossary/oxidizedldl"
+    "url": "https://www.suppl.me/glossary/oxidizedldl"
   }
 ]

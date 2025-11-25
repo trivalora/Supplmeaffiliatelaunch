@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Anecdotal Evidence",
     "description": "Information based on personal accounts rather than systematic scientific research",
-    "url": "https://suppl.me/glossary/anecdotalevidence",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/anecdotalevidence",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Anecdotal Evidence",
     "description": "Information based on personal accounts rather than systematic scientific research",
-    "url": "https://suppl.me/glossary/anecdotalevidence"
+    "url": "https://www.suppl.me/glossary/anecdotalevidence"
   }
 ]

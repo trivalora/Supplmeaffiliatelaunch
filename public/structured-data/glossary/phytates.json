@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Phytates",
     "description": "Plant compounds that can inhibit mineral absorption",
-    "url": "https://suppl.me/glossary/phytates",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/phytates",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Phytates",
     "description": "Plant compounds that can inhibit mineral absorption",
-    "url": "https://suppl.me/glossary/phytates"
+    "url": "https://www.suppl.me/glossary/phytates"
   }
 ]

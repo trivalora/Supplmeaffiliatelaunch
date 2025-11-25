@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Glycemic Control",
     "description": "Regulation of blood glucose levels within a healthy range",
-    "url": "https://suppl.me/glossary/glycemiccontrol",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/glycemiccontrol",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Glycemic Control",
     "description": "Regulation of blood glucose levels within a healthy range",
-    "url": "https://suppl.me/glossary/glycemiccontrol"
+    "url": "https://www.suppl.me/glossary/glycemiccontrol"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Resveratrol",
     "description": "Polyphenolic compound from grapes and red wine studied for anti-aging benefits",
-    "url": "https://suppl.me/glossary/resveratrol",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/resveratrol",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Resveratrol",
     "description": "Polyphenolic compound from grapes and red wine studied for anti-aging benefits",
-    "url": "https://suppl.me/glossary/resveratrol"
+    "url": "https://www.suppl.me/glossary/resveratrol"
   }
 ]

@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Inflammation",
     "description": "The body\\",
-    "url": "https://suppl.me/glossary/inflammation",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/inflammation",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Inflammation",
     "description": "The body\\",
-    "url": "https://suppl.me/glossary/inflammation"
+    "url": "https://www.suppl.me/glossary/inflammation"
   }
 ]

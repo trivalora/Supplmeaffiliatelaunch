@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "BMI (Body Mass Index)",
     "description": "Weight-to-height ratio used to categorize body weight status",
-    "url": "https://suppl.me/glossary/bmi",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/bmi",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "BMI"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "BMI (Body Mass Index)",
     "description": "Weight-to-height ratio used to categorize body weight status",
-    "url": "https://suppl.me/glossary/bmi"
+    "url": "https://www.suppl.me/glossary/bmi"
   }
 ]

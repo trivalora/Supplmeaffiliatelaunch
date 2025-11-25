@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Absolute Risk Reduction",
     "description": "Absolute difference in event rates between treatment and control groups",
-    "url": "https://suppl.me/glossary/arr",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/arr",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "ARR"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Absolute Risk Reduction",
     "description": "Absolute difference in event rates between treatment and control groups",
-    "url": "https://suppl.me/glossary/arr"
+    "url": "https://www.suppl.me/glossary/arr"
   }
 ]

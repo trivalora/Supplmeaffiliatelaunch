@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "ATP (Adenosine Triphosphate)",
     "description": "Primary energy currency of cells, storing and transferring chemical energy",
-    "url": "https://suppl.me/glossary/atp",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/atp",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "ATP (Adenosine Triphosphate)",
     "description": "Primary energy currency of cells, storing and transferring chemical energy",
-    "url": "https://suppl.me/glossary/atp"
+    "url": "https://www.suppl.me/glossary/atp"
   }
 ]

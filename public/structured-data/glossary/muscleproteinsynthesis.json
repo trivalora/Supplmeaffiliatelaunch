@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Muscle Protein Synthesis",
     "description": "Process of building muscle protein from amino acids",
-    "url": "https://suppl.me/glossary/muscleproteinsynthesis",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/muscleproteinsynthesis",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "MPS"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Muscle Protein Synthesis",
     "description": "Process of building muscle protein from amino acids",
-    "url": "https://suppl.me/glossary/muscleproteinsynthesis"
+    "url": "https://www.suppl.me/glossary/muscleproteinsynthesis"
   }
 ]

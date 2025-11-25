@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Magnesium Oxide",
     "description": "Common but poorly absorbed magnesium supplement form, often used as laxative",
-    "url": "https://suppl.me/glossary/magnesiumoxide",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/magnesiumoxide",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Magnesium Oxide",
     "description": "Common but poorly absorbed magnesium supplement form, often used as laxative",
-    "url": "https://suppl.me/glossary/magnesiumoxide"
+    "url": "https://www.suppl.me/glossary/magnesiumoxide"
   }
 ]

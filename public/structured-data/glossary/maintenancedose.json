@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Maintenance Dose",
     "description": "Ongoing supplement dose to maintain optimal levels after loading phase",
-    "url": "https://suppl.me/glossary/maintenancedose",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/maintenancedose",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Maintenance Dose",
     "description": "Ongoing supplement dose to maintain optimal levels after loading phase",
-    "url": "https://suppl.me/glossary/maintenancedose"
+    "url": "https://www.suppl.me/glossary/maintenancedose"
   }
 ]

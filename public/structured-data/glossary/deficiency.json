@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Deficiency",
     "description": "Insufficient nutrient levels in the body causing impaired function or clinical symptoms",
-    "url": "https://suppl.me/glossary/deficiency",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/deficiency",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Deficiency",
     "description": "Insufficient nutrient levels in the body causing impaired function or clinical symptoms",
-    "url": "https://suppl.me/glossary/deficiency"
+    "url": "https://www.suppl.me/glossary/deficiency"
   }
 ]

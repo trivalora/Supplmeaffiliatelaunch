@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Clinical Significance",
     "description": "The practical importance of a treatment effect in real-world health outcomes",
-    "url": "https://suppl.me/glossary/clinicalsignificance",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/clinicalsignificance",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Clinical Significance",
     "description": "The practical importance of a treatment effect in real-world health outcomes",
-    "url": "https://suppl.me/glossary/clinicalsignificance"
+    "url": "https://www.suppl.me/glossary/clinicalsignificance"
   }
 ]

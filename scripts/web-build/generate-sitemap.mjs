@@ -9,13 +9,16 @@ import path from 'path';
 const projectRoot = process.cwd();
 const srcDir = path.join(projectRoot, 'src');
 
-// Dynamically import route config & path mapping (best-effort; TS may not load under plain Node)
+// Dynamically import route config using tsx for TypeScript support
 async function loadConfigs() {
-  let routesConfig = null;
-  let pathMapping = null;
-  try { routesConfig = await import(path.join(srcDir, 'routes.config.ts')); } catch { }
-  try { pathMapping = await import(path.join(srcDir, 'lib', 'routePaths.ts')); } catch { }
-  return { routesConfig, pathMapping };
+  try {
+    // Use tsx to load TypeScript files
+    const { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES } = await import(path.join(srcDir, 'routes.config.ts'));
+    return { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES };
+  } catch (error) {
+    console.warn('[sitemap] Could not load routes.config.ts:', error.message);
+    return { KNOWLEDGEBASE_ROUTES: null, GLOSSARY_ROUTES: null };
+  }
 }
 
 function buildUrl(baseUrl, p) {
@@ -31,37 +34,37 @@ function buildUrl(baseUrl, p) {
 }
 
 /**
- * Build canonical path list from route config and PAGE_PATHS.
- * Ensures we only include current (v2) supplement pages with clean URLs and all glossary pages.
+ * Build canonical path list from route config.
+ * Generates URLs for all supplements, glossary pages, and products.
  */
-function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) {
+function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES) {
   const paths = new Set();
   paths.add('/');
 
-  const staticPages = ['/knowledgebase', '/glossary', '/about', '/methodology', '/privacy', '/terms', '/legal', '/cookies', '/partner', '/contact', '/product-comparison'];
+  const staticPages = ['/knowledgebase', '/glossary', '/about', '/methodology', '/privacy-policy', '/terms-of-service', '/legal-notice', '/cookie-policy', '/partner', '/contact'];
   staticPages.forEach(p => paths.add(p));
 
-  // Add all 17 supplement comparison pages (Next.js App Router pattern)
-  const comparisonPages = [
-    '/comparison/ashwagandha',
-    '/comparison/calcium',
-    '/comparison/collagen',
-    '/comparison/creatine',
-    '/comparison/iron',
-    '/comparison/magnesium',
-    '/comparison/omega-3',
-    '/comparison/prebiotics',
-    '/comparison/probiotics',
-    '/comparison/vitamin-c',
-    '/comparison/vitamin-d',
-    '/comparison/bcaa',
-    '/comparison/curcumin',
-    '/comparison/multivitamin',
-    '/comparison/whey',
-    '/comparison/casein',
-    '/comparison/zinc'
-  ];
-  comparisonPages.forEach(p => paths.add(p));
+  // Add supplement pages from KNOWLEDGEBASE_ROUTES
+  if (KNOWLEDGEBASE_ROUTES && KNOWLEDGEBASE_ROUTES.length) {
+    KNOWLEDGEBASE_ROUTES
+      .filter(r => r.category === 'knowledgebase' && r.path)
+      .forEach(r => paths.add(r.path));
+    
+    // Add comparison pages
+    KNOWLEDGEBASE_ROUTES
+      .filter(r => r.category === 'comparison')
+      .forEach(r => {
+        const supplementId = r.key.replace('-comparison', '');
+        paths.add(`/comparison/${supplementId}`);
+      });
+  }
+
+  // Add glossary pages from GLOSSARY_ROUTES
+  if (GLOSSARY_ROUTES && GLOSSARY_ROUTES.length) {
+    GLOSSARY_ROUTES.forEach(r => {
+      paths.add(`/glossary/${r.key}`);
+    });
+  }
 
   // Add product pages by reading JSON files
   const supplementsDir = path.join(projectRoot, 'public', 'api', 'products', 'supplements');
@@ -73,56 +76,12 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
         const data = JSON.parse(fs.readFileSync(path.join(supplementsDir, file), 'utf-8'));
         if (data.products && Array.isArray(data.products)) {
           data.products.forEach(product => {
-            // URL-encode product IDs to handle spaces and special characters
             const encodedId = encodeURIComponent(product.id);
             paths.add(`/${supplementName}/product/${encodedId}`);
           });
         }
       } catch (err) {
         console.warn(`[sitemap] Could not read ${file}:`, err.message);
-      }
-    });
-  }
-
-  if (KNOWLEDGEBASE_ROUTES && KNOWLEDGEBASE_ROUTES.length && PAGE_PATHS) {
-    // CRITICAL FIX: Map v2 route keys to clean URLs from PAGE_PATHS
-    // This ensures /ashwagandha instead of /ashwagandhav2
-    KNOWLEDGEBASE_ROUTES.filter(r => r.category === 'v2').forEach(r => {
-      const cleanPath = PAGE_PATHS[r.key];
-      if (cleanPath) {
-        paths.add(cleanPath);
-      }
-    });
-  } else if (PAGE_PATHS && Object.keys(PAGE_PATHS).length) {
-    // Fallback when TS import fails: include v2 supplement pages and glossary pages
-    Object.entries(PAGE_PATHS).forEach(([key, path]) => {
-      if (typeof path === 'string') {
-        // Include v2 supplements (keys ending with v2 → clean URLs like /ashwagandha)
-        if (key.endsWith('v2')) {
-          paths.add(path);
-        }
-        // Include glossary pages (paths starting with /glossary/)
-        else if (path.startsWith('/glossary/')) {
-          paths.add(path);
-        }
-        // Skip v1 archived pages (URLs ending with -v1)
-        // All other static pages already added above
-      }
-    });
-  }
-
-  if (GLOSSARY_ROUTES && GLOSSARY_ROUTES.length && PAGE_PATHS) {
-    GLOSSARY_ROUTES.forEach(r => {
-      const cleanPath = PAGE_PATHS[r.key];
-      if (cleanPath) {
-        paths.add(cleanPath);
-      }
-    });
-  } else if (PAGE_PATHS && Object.keys(PAGE_PATHS).length) {
-    // Fallback: add all glossary paths from PAGE_PATHS
-    Object.values(PAGE_PATHS).forEach(path => {
-      if (typeof path === 'string' && path.startsWith('/glossary/')) {
-        paths.add(path);
       }
     });
   }
@@ -136,22 +95,18 @@ function buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS) 
     return;
   }
   const baseUrl = process.env.VITE_CANONICAL_BASE_URL || process.env.SITE_BASE_URL || 'https://www.suppl.me';
-  const { routesConfig, pathMapping } = await loadConfigs();
+  const { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES } = await loadConfigs();
   
-  const { KNOWLEDGEBASE_ROUTES = [], GLOSSARY_ROUTES = [] } = routesConfig || {};
-  const { PAGE_PATHS = {} } = pathMapping || {};
-
-  // If imports failed, log warning but continue with PAGE_PATHS
-  if (!routesConfig && !pathMapping) {
-    console.warn('[sitemap] Could not import TS configs; using PAGE_PATHS from fallback.');
-  }
-  
-  // Even if route config import failed, we should have PAGE_PATHS
-  if (Object.keys(PAGE_PATHS).length === 0) {
-    console.error('[sitemap] No PAGE_PATHS available - sitemap will be incomplete!');
+  // Log import status
+  if (!KNOWLEDGEBASE_ROUTES || !GLOSSARY_ROUTES) {
+    console.error('[sitemap] Failed to load route configs - sitemap will be incomplete!');
+    console.error('[sitemap] Please ensure routes.config.ts is accessible.');
+    return;
   }
 
-  const urls = buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES, PAGE_PATHS);
+  console.log(`[sitemap] Loaded ${KNOWLEDGEBASE_ROUTES.length} knowledgebase routes, ${GLOSSARY_ROUTES.length} glossary routes`);
+
+  const urls = buildCanonicalPaths(KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES);
   const now = new Date().toISOString();
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n` +

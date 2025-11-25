@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "VLDL",
     "description": "Lipoprotein particle transporting triglycerides from liver to tissues",
-    "url": "https://suppl.me/glossary/vldl",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/vldl",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "Very Low-Density Lipoprotein"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "VLDL",
     "description": "Lipoprotein particle transporting triglycerides from liver to tissues",
-    "url": "https://suppl.me/glossary/vldl"
+    "url": "https://www.suppl.me/glossary/vldl"
   }
 ]

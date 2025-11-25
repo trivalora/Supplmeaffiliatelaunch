@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Glutathione",
     "description": "Master antioxidant protecting against oxidative stress and supporting detoxification",
-    "url": "https://suppl.me/glossary/glutathione",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/glutathione",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "GSH"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Glutathione",
     "description": "Master antioxidant protecting against oxidative stress and supporting detoxification",
-    "url": "https://suppl.me/glossary/glutathione"
+    "url": "https://www.suppl.me/glossary/glutathione"
   }
 ]

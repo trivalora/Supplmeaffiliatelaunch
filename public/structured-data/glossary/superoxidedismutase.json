@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Superoxide Dismutase",
     "description": "Family of antioxidant enzymes that neutralize superoxide radicals",
-    "url": "https://suppl.me/glossary/superoxidedismutase",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/superoxidedismutase",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "SOD"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Superoxide Dismutase",
     "description": "Family of antioxidant enzymes that neutralize superoxide radicals",
-    "url": "https://suppl.me/glossary/superoxidedismutase"
+    "url": "https://www.suppl.me/glossary/superoxidedismutase"
   }
 ]

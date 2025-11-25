@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Hydroxyproline",
     "description": "Modified amino acid found almost exclusively in collagen, essential for stability",
-    "url": "https://suppl.me/glossary/hydroxyproline",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/hydroxyproline",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hydroxyproline",
     "description": "Modified amino acid found almost exclusively in collagen, essential for stability",
-    "url": "https://suppl.me/glossary/hydroxyproline"
+    "url": "https://www.suppl.me/glossary/hydroxyproline"
   }
 ]

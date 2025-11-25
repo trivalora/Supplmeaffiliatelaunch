@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Fibrinogen",
     "description": "Plasma protein essential for blood clotting and biomarker of inflammation",
-    "url": "https://suppl.me/glossary/fibrinogen",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/fibrinogen",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Fibrinogen",
     "description": "Plasma protein essential for blood clotting and biomarker of inflammation",
-    "url": "https://suppl.me/glossary/fibrinogen"
+    "url": "https://www.suppl.me/glossary/fibrinogen"
   }
 ]

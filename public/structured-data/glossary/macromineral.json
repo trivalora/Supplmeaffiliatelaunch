@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Macromineral",
     "description": "Essential minerals required in amounts greater than 100 mg per day",
-    "url": "https://suppl.me/glossary/macromineral",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/macromineral",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Macromineral",
     "description": "Essential minerals required in amounts greater than 100 mg per day",
-    "url": "https://suppl.me/glossary/macromineral"
+    "url": "https://www.suppl.me/glossary/macromineral"
   }
 ]

@@ -4,8 +4,8 @@
     "@type": "DefinedTerm",
     "name": "Glucagon-Like Peptide-1",
     "description": "Incretin hormone regulating insulin secretion, gastric emptying, and appetite",
-    "url": "https://suppl.me/glossary/glp1",
-    "inDefinedTermSet": "https://suppl.me/glossary",
+    "url": "https://www.suppl.me/glossary/glp1",
+    "inDefinedTermSet": "https://www.suppl.me/glossary",
     "alternateName": "GLP-1"
   },
   {
@@ -13,6 +13,6 @@
     "@type": "WebPage",
     "name": "Glucagon-Like Peptide-1",
     "description": "Incretin hormone regulating insulin secretion, gastric emptying, and appetite",
-    "url": "https://suppl.me/glossary/glp1"
+    "url": "https://www.suppl.me/glossary/glp1"
   }
 ]

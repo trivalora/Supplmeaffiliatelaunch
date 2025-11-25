@@ -4,14 +4,14 @@
     "@type": "DefinedTerm",
     "name": "Propionate",
     "description": "Short-chain fatty acid produced by gut bacteria with metabolic effects",
-    "url": "https://suppl.me/glossary/propionate",
-    "inDefinedTermSet": "https://suppl.me/glossary"
+    "url": "https://www.suppl.me/glossary/propionate",
+    "inDefinedTermSet": "https://www.suppl.me/glossary"
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Propionate",
     "description": "Short-chain fatty acid produced by gut bacteria with metabolic effects",
-    "url": "https://suppl.me/glossary/propionate"
+    "url": "https://www.suppl.me/glossary/propionate"
   }
 ]

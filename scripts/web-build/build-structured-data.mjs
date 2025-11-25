@@ -15,7 +15,7 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 if (!fs.existsSync(glossaryOutDir)) fs.mkdirSync(glossaryOutDir, { recursive: true });
 
 function baseUrl() {
-  return process.env.VITE_CANONICAL_BASE_URL || process.env.SITE_BASE_URL || 'https://suppl.me';
+  return process.env.VITE_CANONICAL_BASE_URL || process.env.SITE_BASE_URL || 'https://www.suppl.me';
 }
 
 function buildSupplementSchemas(route) {
