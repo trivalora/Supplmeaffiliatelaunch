@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+@import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
+
+/* Ensure no width constraints */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 :root {
   /* ================================================
@@ -61,7 +69,7 @@
   --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.08);
   
   /* === LAYOUT VARIABLES === */
-  --header-height: 78px;
+  --header-height: 80px;
   
   /* === HEADER COLORS (Fixed - not affected by dark mode) === */
   --header-bg: #162F1C;
@@ -370,26 +378,18 @@
     box-sizing: border-box;
   }
   
-  /* Prevent images from causing layout shifts in dark mode */
-  /* Content images are 20% smaller (max-width: 80%) */
+  /* Prevent images from causing layout shifts */
   img {
     display: block;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
   }
   
-  /* Exceptions - keep these images at full size */
+  /* Exceptions - reset margins for specific contexts */
   [data-layout-header] img,
   [data-layout-footer] img,
   [data-name="Logo"] img,
-  [data-button-height] img,
-  button img,
-  a img,
-  [data-knowledgebase-hero] img,
-  [data-grid] img {
-    max-width: 100%;
+  [data-button-height] img {
     margin-left: 0;
     margin-right: 0;
   }
@@ -421,6 +421,14 @@
   
   a:hover {
     opacity: 1;
+  }
+  
+  /* Header links with no hover effect */
+  .header-no-hover,
+  .header-no-hover:hover {
+    opacity: 1 !important;
+    text-decoration: none !important;
+    transform: none !important;
   }
   
   /* Footnote link styling */
@@ -1889,6 +1897,222 @@ button, a, [role="button"] {
   backface-visibility: hidden;
   /* Improve paint performance */
   contain: layout style paint;
+}
+
+/* ================================================
+   SEARCH RESULTS STYLES
+   Thumbnail images and dropdown positioning
+   ================================================ */
+
+/* Dropdown thumbnail - shared between header dropdown and search results */
+.dropdown-thumbnail {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.25rem; /* rounded = 4px */
+  overflow: hidden;
+  background-color: rgb(249, 250, 251); /* gray-50 */
+  position: relative;
+}
+
+.dropdown-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Ensure Next.js Image component also gets styled */
+.dropdown-thumbnail > span {
+  display: block !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.dropdown-thumbnail > span > img {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+/* Legacy class name - now just aliases to dropdown-thumbnail */
+.search-result-thumbnail {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  background-color: rgb(249, 250, 251);
+}
+
+.search-result-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Header search dropdown positioning - prevents viewport overflow */
+.header-search-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  z-index: 50;
+  width: 320px;
+  max-height: calc(97vh - var(--header-height));
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero search dropdown positioning */
+.hero-search-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  width: 100%;
+  z-index: 10001;
+  max-height: calc(50vh - var(--header-height));
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Product Comparison search dropdown positioning */
+.product-comparison-search-dropdown {
+ position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  z-index: 50;
+  width: 320px;
+  max-height: calc(80vh - var(--header-height));
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Search results card container */
+.search-results-card {
+  background-color: var(--card);
+  border: 2px solid var(--secondary);
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Search results scrollable content */
+.search-results-content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+  min-height: 0;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Comparison item background */
+.comparison-item {
+  background-color: rgba(22, 47, 28, 0.15);
+  transition: background-color 0.2s;
+}
+
+.comparison-item:hover {
+  background-color: rgba(22, 47, 28, 0.25);
+}
+
+/* Comparison category header */
+.comparison-category-header {
+  color: var(--primary);
+  background-color: rgba(22, 47, 28, 0.15);
+}
+
+/* Hero search input - no focus ring */
+.hero-search-input {
+  width: 100%;
+  height: 3.5rem;
+  padding-left: 3rem;
+  padding-right: 1.5rem;
+  background-color: var(--input-background);
+  border: 2px solid var(--secondary);
+  border-radius: 0.75rem;
+  color: var(--foreground);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-size: 0.875rem;
+  transition: border-color 0.2s;
+}
+
+.hero-search-input:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: none;
+}
+
+.hero-search-input::placeholder {
+  color: var(--muted-foreground);
+}
+
+/* Header styles for inline replacement */
+.header-text {
+  color: var(--header-text, #F7F7F3);
+}
+
+.header-secondary {
+  color: var(--header-secondary, #E0CBA8);
+}
+
+.header-bg {
+  background-color: var(--header-bg, #162F1C);
+}
+
+/* Hero section - Full viewport width */
+.hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  height: 75vh;
+  max-height: 75vh;
+  margin-top: var(--header-height);
+}
+
+/* Hero image container - Full bleed to viewport edges */
+.hero-image-container {
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  width: 100vw;
+  height: 75vh;
+  max-height: 75vh;
+  z-index: -1;
+}
+
+.hero-image-wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Section backgrounds */
+.section-bg-tertiary {
+  background-color: var(--section-bg-tertiary);
+}
+
+.section-bg-secondary {
+  background-color: var(--section-bg-secondary);
 }
 
 .dropdown-item:hover {
