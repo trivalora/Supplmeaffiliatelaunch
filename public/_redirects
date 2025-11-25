@@ -1,6 +1,6 @@
-# Vercel/Netlify SPA fallback for React Router
-# API routes should be served as-is
-/api/*  /api/:splat  200
+# Next.js App Router - No SPA redirects needed
+# Next.js handles routing automatically via middleware and file-based routing
+# This file can be used for custom redirects if needed in the future
 
-# All other routes should serve index.html for client-side routing
-/*  /index.html  200
+# Example custom redirects (currently none needed):
+# /old-path /new-path 301
