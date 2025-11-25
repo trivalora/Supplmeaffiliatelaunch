@@ -24,13 +24,14 @@ async function loadConfigs() {
 function buildUrl(baseUrl, p) {
   if (!p || p === '/') return baseUrl;
   const url = `${baseUrl}${p.startsWith('/') ? p : '/' + p}`;
-  // Only XML-escape ampersands, quotes, and angle brackets
-  // Do NOT escape apostrophes - they're already URL-encoded in the path
+  // XML-escape special characters in the proper order
+  // CRITICAL: Must escape & first, before other entities
   return url
-    .replace(/&/g, '&amp;')
+    .replace(/&/g, '&amp;')  // Must be first!
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
 
 /**
