@@ -501,6 +501,13 @@ html, body {
     background-color: #162F1C !important;
     border-color: #E0CBA8 !important;
   }
+
+  /* Knowledgebase dropdown - always primary green */
+  .knowledgebase-dropdown,
+  .dark .knowledgebase-dropdown {
+    background-color: #162F1C !important;
+    border-color: #E0CBA8 !important;
+  }
   
   /* ================================================
      PAGE LAYOUT

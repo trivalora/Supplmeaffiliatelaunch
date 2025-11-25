@@ -144,9 +144,9 @@ function KnowledgebaseDropdown({ routes }: { routes: RouteConfig[] }) {
             }}
           >
             <div
-              className="rounded-2xl shadow-xl flex flex-col"
+              className="knowledgebase-dropdown rounded-2xl shadow-xl flex flex-col"
               style={{
-                backgroundColor: '#162F1C !important',
+                backgroundColor: '#162F1C',
                 border: '0.5px solid #E0CBA8',
                 width: '420px',
                 maxHeight: 'calc(75vh - var(--header-height) + 4vh)',
