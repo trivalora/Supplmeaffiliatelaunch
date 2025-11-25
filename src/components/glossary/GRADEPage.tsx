@@ -1,0 +1,53 @@
+'use client';
+import { GlossaryTemplate } from '../GlossaryTemplate';
+import { Activity, CheckCircle2, XCircle } from 'lucide-react';
+
+export function GRADEPage() {
+  return (
+    <GlossaryTemplate
+      term="GRADE (Grading of Recommendations Assessment, Development and Evaluation)"
+      pronunciation="grayd"
+      definition="GRADE is a systematic approach for rating the quality (or certainty) of evidence and the strength of recommendations in healthcare and clinical practice. It provides a transparent framework for moving from evidence to recommendations, taking into account the balance of benefits and harms, patient values and preferences, and resource use."
+      
+      expandedExplanation={
+        <>
+          <p className="mb-4">
+            The GRADE system evaluates evidence quality across four levels:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
+            <li><strong>High:</strong> We are very confident that the true effect lies close to that of the estimate of the effect. Further research is very unlikely to change our confidence in the estimate.</li>
+            <li><strong>Moderate:</strong> We are moderately confident in the effect estimate. Further research is likely to have an important impact and may change the estimate.</li>
+            <li><strong>Low:</strong> Our confidence in the effect estimate is limited. Further research is very likely to have an important impact and is likely to change the estimate.</li>
+            <li><strong>Very Low:</strong> We have very little confidence in the effect estimate. Any estimate of effect is very uncertain.</li>
+          </ul>
+          <p className="mb-4">
+            GRADE starts with the study design (randomized trials start as high quality, observational studies start as low quality) and then considers factors that can lower quality (risk of bias, inconsistency, indirectness, imprecision, publication bias) or raise quality (large effect size, dose-response gradient, confounders working against the effect).
+          </p>
+          <p className="mb-4">
+            When you see research graded using GRADE methodology, you can better understand not just what the research found, but how much confidence we should have in those findings. This helps distinguish between "we're quite certain this works" versus "there's some early evidence but we need more research."
+          </p>
+        </>
+      }
+      
+      keyPoints={[
+        { 
+          icon: Activity, 
+          title: "Evidence Quality Assessment", 
+          description: "GRADE systematically evaluates the certainty of evidence through multiple criteria including study design, risk of bias, consistency of results, and precision of estimates." 
+        },
+        { 
+          icon: CheckCircle2, 
+          title: "Four Quality Levels", 
+          description: "Evidence is classified as High, Moderate, Low, or Very Low quality, helping readers understand how much confidence to place in research findings." 
+        },
+        { 
+          icon: XCircle, 
+          title: "Recommendation Strength", 
+          description: "Beyond evidence quality, GRADE also rates recommendations as Strong or Weak (Conditional), considering benefits, harms, values, preferences, and resources." 
+        }
+      ]}
+      
+      relatedTerms={['meta-analysis', 'rct', 'statistical-significance', 'clinical-significance', 'peer-reviewed']}
+    />
+  );
+}

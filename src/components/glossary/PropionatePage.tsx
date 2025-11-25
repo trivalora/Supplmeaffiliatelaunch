@@ -1,0 +1,40 @@
+import { GlossaryTemplate } from '../GlossaryTemplate';
+
+export function PropionatePage() {
+  return (
+    <GlossaryTemplate
+      term="Propionate"
+      abbreviation="Propionic Acid, C3:0"
+      definition="A three-carbon short-chain fatty acid produced by bacterial fermentation of dietary fiber in the colon, with important roles in glucose and lipid metabolism, appetite regulation, and gut health."
+      detailedExplanation="Propionate (also called propionic acid) is a three-carbon saturated fatty acid (C3:0) produced when beneficial gut bacteria ferment non-digestible carbohydrates in the colon. It is one of the three major short-chain fatty acids (SCFAs), alongside acetate and butyrate, though it is typically produced in smaller quantities than acetate but larger quantities than butyrate.
+
+After production in the colon, propionate is absorbed into the bloodstream and primarily transported to the liver via the portal vein. Unlike butyrate, which is largely consumed by colonocytes for energy, propionate enters hepatic circulation where it exerts significant metabolic effects.
+
+**Key functions and effects of propionate:**
+
+**Gluconeogenesis substrate:** In the liver, propionate serves as a substrate for glucose production through gluconeogenesis. This process helps maintain blood glucose homeostasis, particularly during fasting states. Propionate can contribute to hepatic glucose production without causing hyperglycemia, making it metabolically favorable.
+
+**Lipid metabolism:** Propionate appears to inhibit cholesterol synthesis in the liver by reducing the activity of HMG-CoA reductase, the rate-limiting enzyme in cholesterol production. Some studies suggest this may contribute to improved lipid profiles, though effects are modest.
+
+**Appetite and satiety:** Propionate influences appetite regulation through multiple mechanisms. It stimulates the release of satiety hormones including PYY (peptide YY) and GLP-1 (glucagon-like peptide-1) from intestinal L-cells. These hormones signal fullness to the brain and slow gastric emptying, potentially reducing food intake.
+
+**Metabolic health:** Research has linked higher colonic propionate production with improved insulin sensitivity, reduced hepatic lipogenesis (fat production), and better metabolic outcomes. These effects may contribute to the metabolic benefits associated with high-fiber diets.
+
+**Immune modulation:** Like other SCFAs, propionate exhibits anti-inflammatory properties and can influence immune cell function, though these effects are less pronounced than those of butyrate.
+
+Propionate production varies based on gut microbiome composition and dietary fiber intake. Specific bacteria, including various species of Bacteroides, Negativicutes, and Clostridium, are primary propionate producers. Dietary interventions that increase fermentable fiber, particularly certain prebiotics, can enhance propionate production and potentially amplify its metabolic benefits."
+      examples={[
+        "Consuming 15-20 grams of prebiotic fiber daily, particularly from sources like chicory root inulin, can increase colonic propionate production by 20-40%.",
+        "Studies using propionate esters delivered to the colon have shown reduced appetite, increased satiety hormone release (PYY and GLP-1), and reduced body weight gain in overweight individuals.",
+        "Individuals with metabolic syndrome often show reduced fecal propionate concentrations compared to metabolically healthy individuals, suggesting a potential link between gut-derived propionate and metabolic health."
+      ]}
+      relatedTerms={[
+        { term: "SCFA", key: "scfa" },
+        { term: "Gut Microbiome", key: "gutmicrobiome" },
+        { term: "GLP-1", key: "glp1" },
+        { term: "PYY", key: "pyy" },
+        { term: "Metabolism", key: "metabolism" }
+      ]}
+    />
+  );
+}

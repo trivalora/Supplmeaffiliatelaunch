@@ -1,0 +1,31 @@
+import { GlossaryTemplate } from '../GlossaryTemplate';
+
+export function CIPage() {
+  return (
+    <GlossaryTemplate
+      term="Confidence Interval"
+      abbreviation="CI"
+      definition="A range of values that is likely to contain the true effect size with a specified level of confidence (typically 95%), providing information about the precision and uncertainty of a study's findings."
+      detailedExplanation="A Confidence Interval (CI) quantifies the uncertainty around an estimated effect. When a study reports a mean difference of -5.2 mmHg (95% CI: -8.1 to -2.3), this means we can be 95% confident that the true effect lies somewhere between -8.1 and -2.3 mmHg. The width of the CI indicates precision: narrow intervals suggest precise estimates with low uncertainty, while wide intervals indicate high uncertainty and imprecise estimates.
+
+The 95% confidence level is conventional, meaning if we repeated the study many times, 95% of the calculated CIs would contain the true effect. However, any single CI either contains the true value or doesn't—the 95% refers to the long-run performance of the method, not the probability that a specific interval contains the true value.
+
+For hypothesis testing, the CI provides more information than a p-value alone. If a CI for a mean difference includes zero, the result is not statistically significant at the corresponding α level (e.g., 95% CI corresponds to α = 0.05). If the entire CI is on one side of zero, the result is statistically significant. For example, RR = 0.72 (95% CI: 0.58-0.89) is statistically significant because the entire interval is below 1.0 (indicating benefit), while RR = 0.85 (95% CI: 0.68-1.06) is not significant because the CI includes 1.0 (no effect).
+
+CI width depends on sample size, outcome variability, and the chosen confidence level. Larger studies produce narrower CIs. Meta-analyses combine data from multiple studies to achieve narrower, more precise CIs than any single study. A meta-analysis reporting SMD = -0.35 (95% CI: -0.49 to -0.21) provides better precision than a single RCT reporting SMD = -0.40 (95% CI: -0.71 to -0.09), even though the point estimates are similar.
+
+When evaluating supplement research, always examine the CI, not just the point estimate. A study showing 'significant' benefit might have a wide CI barely excluding zero, suggesting weak evidence. Conversely, a 'non-significant' finding with a narrow CI near zero provides strong evidence of minimal or no effect. The CI reveals whether the uncertainty is compatible with clinically meaningful benefit, no effect, or potential harm."
+      examples={[
+        "Magnesium reduces systolic blood pressure by -4.18 mmHg (95% CI: -5.84 to -2.52), showing a statistically significant and precisely estimated benefit",
+        "Probiotic supplementation shows WMD = -0.8 kg (95% CI: -2.1 to 0.5 kg) for body weight—not significant (includes zero) and compatible with minimal effect",
+        "Vitamin D supplementation: RR = 0.88 (95% CI: 0.79-0.98) for fractures—statistically significant, but the narrow CI near 1.0 suggests a modest effect"
+      ]}
+      relatedTerms={[
+        { term: "Statistical Significance", key: "statisticalsignificance" },
+        { term: "Meta-Analysis", key: "metaanalysis" },
+        { term: "Risk Ratio", key: "rr" },
+        { term: "WMD", key: "wmd" }
+      ]}
+    />
+  );
+}
