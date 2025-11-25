@@ -71,11 +71,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    { "source": "/manifest.webmanifest", "destination": "/manifest.webmanifest" },
-    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/robots.txt", "destination": "/robots.txt" },
-    { "source": "/indexnow-key.txt", "destination": "/indexnow-key.txt" }
   ]
 }
