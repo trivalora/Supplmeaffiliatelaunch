@@ -70,6 +70,10 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       return {
         title: 'Product Not Found',
         description: 'The requested product could not be found.',
+        robots: {
+          index: false,
+          follow: false,
+        },
       };
     }
     
@@ -79,19 +83,45 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       w.charAt(0).toUpperCase() + w.slice(1)
     ).join(' ');
     
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_CANONICAL_BASE_URL || 'https://suppl.me';
+    const canonicalUrl = `${baseUrl}/${supplement}/product/${encodeURIComponent(productId)}`;
+    
     return {
       title: `${brand} ${productName} - ${supplementName} | Suppl.me`,
-      description: `Compare prices and view supplement facts for ${brand} ${productName}. Available at multiple retailers with detailed ingredient information.`,
+      description: `Compare prices and view supplement facts for ${brand} ${productName}. Available at multiple retailers with detailed ingredient information from DSLD database.`,
+      keywords: `${brand}, ${productName}, ${supplementName}, supplement facts, price comparison, DSLD`,
+      robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+          index: true,
+          follow: true,
+        },
+      },
+      alternates: {
+        canonical: canonicalUrl,
+      },
       openGraph: {
+        title: `${brand} ${productName} - ${supplementName}`,
+        description: `Compare prices and view supplement facts for ${brand} ${productName}`,
+        type: 'website',
+        url: canonicalUrl,
+        siteName: 'Suppl.me',
+      },
+      twitter: {
+        card: 'summary',
         title: `${brand} ${productName}`,
         description: `Compare prices for ${brand} ${productName}`,
-        type: 'website',
       },
     };
   } catch (error) {
     return {
       title: 'Product Details',
       description: 'View product information and compare prices.',
+      robots: {
+        index: false,
+        follow: true,
+      },
     };
   }
 }
