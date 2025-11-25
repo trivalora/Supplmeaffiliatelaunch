@@ -7,9 +7,14 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 **Current Status**: Production-ready - 17 supplement pages, 198 glossary terms, 17 comparison pages, 1,691 product detail pages, 1,936 total static pages.
 
 **Recent Critical Updates (Nov 25, 2025 - Evening)**:
+- ✅ **Content Directory Reorganization COMPLETE** (Phase 11): All content organized into logical structure
+- ✅ **292 Files Reorganized**: 254 moved, 20 new, 13 modified
+- ✅ **New Directory Structure**: pages/, templates/, sections/, shared/, providers/
+- ✅ **All Imports Updated**: routes.config.ts + app/ + component imports
+- ✅ **Build Verified**: 1937 pages, 0 TypeScript errors
 - ✅ **Codebase Cleanup Complete**: Archived 13 obsolete migration scripts
 - ✅ **Comprehensive Audit**: CODEBASE_AUDIT_NOV25.md created
-- ✅ **Content Structure Recommendations**: Optional reorganization guide created
+- ✅ **Content Structure Recommendations**: IMPLEMENTED (was optional, now complete)
 - ✅ **Scalability & Standardization Audit**: CODEBASE_AUDIT_SCALABILITY_NOV2025.md created
 - ✅ All previous critical updates remain resolved
 
@@ -29,7 +34,7 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 
 **High Priority Improvements Identified:**
 1. 🔴 Remove 'v2' suffix from route keys (confusing legacy naming)
-2. 🔴 Extract comparison component wrappers (reduce 200+ lines boilerplate)
+2. ✅ **COMPLETED**: Extract comparison component wrappers (17 separate files created)
 3. 🔴 Replace hardcoded colors with CSS variables (8 components affected)
 
 **Medium Priority Improvements:**
@@ -77,16 +82,18 @@ Vercel serverless functions:
      title: 'Zinc',
      path: '/zinc',
      category: 'knowledgebase',
-     componentPath: './components/ZincKnowledgebasePage',
+     componentPath: './components/pages/supplements/ZincKnowledgebasePage',
      componentName: 'ZincKnowledgebasePage',
      showInNav: true,
      subcategory: 'Minerals'
    }
    ```
 
-2. **Create component** `src/components/ZincKnowledgebasePage.tsx`:
+2. **Create component** `src/components/pages/supplements/ZincKnowledgebasePage.tsx`:
    ```typescript
    'use client';  // Required for analytics
+   import { KnowledgebaseTemplate } from '@/components/templates/KnowledgebaseTemplate';
+   
    export function ZincKnowledgebasePage() {
      return <KnowledgebaseTemplate supplementName="Zinc" {...data} />;
    }
@@ -95,7 +102,7 @@ Vercel serverless functions:
 3. **Add to dynamic route** `app/[slug]/page.tsx`:
    ```typescript
    // Import
-   import { ZincKnowledgebasePage } from '@/components/ZincKnowledgebasePage';
+   import { ZincKnowledgebasePage } from '@/components/pages/supplements/ZincKnowledgebasePage';
    
    // Add to COMPONENT_MAP
    const COMPONENT_MAP = {
@@ -104,25 +111,41 @@ Vercel serverless functions:
    };
    ```
 
-4. **Add comparison page** (optional):
+4. **Add comparison page**:
    ```typescript
-   // In ProductComparisonWrapper.tsx
-   export function ZincComparison({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
-     return <ProductComparisonWrapper supplementId="zinc" onNavigate={onNavigate} />;
+   // Create src/components/pages/comparisons/ZincComparison.tsx
+   'use client';
+   import { ProductComparisonWrapper } from '@/components/templates/ProductComparisonWrapper';
+   import { PageKey } from '@/routes.config';
+   
+   interface ComparisonProps {
+     onNavigate?: (page: PageKey) => void;
    }
+   
+   export function ZincComparison({ onNavigate }: ComparisonProps) {
+     return (
+       <ProductComparisonWrapper
+         supplementId="zinc"
+         onNavigate={onNavigate}
+       />
+     );
+   }
+   
+   // Add export to src/components/pages/comparisons/index.ts:
+   export { ZincComparison } from './ZincComparison';
    
    // In routes.config.ts (COMPARISON_ROUTES)
    {
      key: 'zinc-comparison',
      title: 'Zinc Price Comparison | Best Deals',
      path: '/zinc-comparison',
-     componentPath: './components/ProductComparisonWrapper',
+     componentPath: './components/pages/comparisons',
      componentName: 'ZincComparison',
      category: 'comparison'
    }
    
-   // Import and map in app/[slug]/page.tsx COMPONENT_MAP
-   import { ZincComparison } from '@/components/ProductComparisonWrapper';
+   // Import in app/[slug]/page.tsx (automatically from index.ts):
+   import { ZincComparison } from '@/components/pages/comparisons';
    const COMPONENT_MAP = { 'ZincComparison': ZincComparison, ... };
    ```
 
@@ -134,9 +157,11 @@ Vercel serverless functions:
 Page auto-appears in Header dropdown and generates statically at build time.
 
 ### Add Glossary Term
-1. **Create page** `src/components/glossary/ZincDeficiencyPage.tsx`:
+1. **Create page** `src/components/pages/glossary/ZincDeficiencyPage.tsx`:
    ```typescript
    'use client';  // Required if using Lucide icons
+   import { GlossaryTemplate } from '@/components/templates/GlossaryTemplate';
+   
    export function ZincDeficiencyPage() {
      return (
        <GlossaryTemplate
@@ -149,6 +174,18 @@ Page auto-appears in Header dropdown and generates statically at build time.
    ```
 
 2. **Add route** to `src/routes.config.ts` in `GLOSSARY_ROUTES`:
+   ```typescript
+   {
+     key: 'zinc-deficiency',
+     title: 'Zinc Deficiency',
+     path: '/glossary/zinc-deficiency',
+     componentPath: './components/pages/glossary/ZincDeficiencyPage',
+     componentName: 'ZincDeficiencyPage',
+     description: 'A condition where...'
+   }
+   ```
+
+Term auto-links in content and generates statically.
    ```typescript
    {
      key: 'zinc-deficiency',
@@ -453,9 +490,16 @@ export function ZincKnowledgebasePage() {
 - `ProductComparisonWrapper` - All comparison pages (17 in use)
 - `ProductDetailClient` - All product detail pages (1,691 in use)
 
-**Modular Sections** (in `src/components/knowledgebase/`):
+**Modular Sections** (in `src/components/sections/knowledgebase/`):
 - `BenefitsDrawbacksSection` - Benefits/drawbacks cards
 - `ResearchSection` - Research grades display
+- `BuyingGuideSection` - Buying recommendations
+- `ReferencesSection` - Scientific references
+- `ProductComparisonSection` - Price comparison embed
+- `OverviewSection` - Overview content
+- `FurtherReadingSection` - Additional resources
+
+**When to create new components**: Only if pattern used 3+ times AND not covered by existing templates.
 - `BuyingGuideSection` - Buying recommendations
 - `ReferencesSection` - Scientific references
 - `ProductComparisonSection` - Price comparison embed
@@ -598,8 +642,8 @@ const Component = await import(`@/components/${route.componentName}`);
 - `app/components/HeaderClient.tsx` - Header with search, dropdown (434 lines)
 - `app/components/ProductDetailClient.tsx` - Product detail page with DSLD data (648 lines)
 - `app/lib/route-adapter.ts` - Maps routes.config.ts → Next.js
-- `src/components/KnowledgebaseTemplate.tsx` - Supplement page template (337 lines)
-- `src/components/GlossaryTemplate.tsx` - Glossary term template (286 lines)
+- `src/components/templates/KnowledgebaseTemplate.tsx` - Supplement page template (337 lines)
+- `src/components/templates/GlossaryTemplate.tsx` - Glossary term template (286 lines)
 - `src/utils/analytics.ts` - All analytics tracking functions
 - `src/lib/glossaryAutolink.tsx` - Auto-linking engine
 - `src/styles/globals.css` - Design system, CSS variables (2,134 lines)
@@ -619,31 +663,42 @@ app/                           # Next.js App Router
 
 src/                           # Source code
 ├── components/               # All page components (289 total)
-│   ├── *KnowledgebasePage.tsx  # 17 supplement pages
-│   ├── glossary/*.tsx        # 198 glossary pages
-│   ├── knowledgebase/        # 12 modular sections (Benefits, Research, etc.)
-│   └── ui/                   # 39 ShadCN components
+│   ├── pages/
+│   │   ├── supplements/      # 17 knowledgebase pages
+│   │   ├── comparisons/      # 17 comparison pages + index
+│   │   ├── glossary/         # 197 glossary term pages
+│   │   └── static/           # 13 static pages
+│   ├── templates/            # 3 template files (Knowledgebase, Glossary, ProductComparison)
+│   ├── sections/
+│   │   └── knowledgebase/    # 10 modular sections (Benefits, Research, etc.)
+│   ├── shared/
+│   │   ├── layout/           # Header, Footer, ErrorBoundary
+│   │   ├── ui-extensions/    # TrackedLink, AffiliateTooltip, ImageWithFallback, DarkModeToggle
+│   │   └── content/          # SearchResults, SmartImage, ResponsivePicture
+│   ├── providers/            # AnalyticsProvider
+│   └── ui/                   # 47 ShadCN components
 ├── routes.config.ts          # ⭐ ROUTING SOURCE OF TRUTH (2,322 lines)
 ├── utils/                    # Analytics, images, supplementImages.ts
 ├── lib/                      # Glossary autolink, analytics
-├── styles/globals.css        # Design system (2,134 lines - CSS variables, dark mode)
-└── data/                     # 🆕 Recommended: Separate data from components
+└── styles/globals.css        # Design system (2,134 lines - CSS variables, dark mode)
 
-scripts/                       # Build scripts (12 total)
+scripts/                       # Build scripts
+├── data-pipeline/            # Product data scraping & processing
+├── database/                 # DSLD database queries
 └── web-build/               # Sitemap, structured data generation
 
 public/                        # Static assets
 ├── images/supplements/       # Supplement images (17)
 ├── api/products/supplements/ # Product data JSON (17 files, ~2 MB each)
 ├── structured-data/          # JSON-LD files (auto-generated)
-└── sitemap.xml              # Generated sitemap (1,936 URLs)
+└── sitemap.xml              # Generated sitemap (1,937 URLs)
 ```
 
 **File Count Summary**:
-- Component Files: 289 (17 KB + 198 glossary + 39 UI + 35 utility)
+- Component Files: 289 (17 supplements + 17 comparisons + 197 glossary + 13 static + 45 other)
 - Data Files: 41 (17 product JSON + 17 images + 7 logos)
 - Configuration: 18 (routes, TypeScript, Next.js, build scripts)
-- **Total Static Pages**: 1,936
+- **Total Static Pages**: 1,937
 Medium Usage (50-90%):
 ⚠️ technicalExplanation (154/198 - 78%)
 ⚠️ examples (129/198 - 65%)
