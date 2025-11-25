@@ -70,6 +70,7 @@ While heme iron offers superior bioavailability, a balanced diet incorporating b
         { term: "Hemoglobin", key: "hemoglobin" },
         { term: "Anemia", key: "anemia" }
       ]}
+      currentPage="hemeiron"
     />
   );
 }

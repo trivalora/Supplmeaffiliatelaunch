@@ -160,6 +160,8 @@ export function Serum25OHDPage() {
             </p>
           </>
         }
+      currentPage="serum25ohd"
+
       />
   );
 }

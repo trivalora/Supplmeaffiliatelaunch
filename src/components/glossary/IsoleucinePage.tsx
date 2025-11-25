@@ -97,6 +97,9 @@ export function IsoleucinePage() {
         "An endurance athlete consuming BCAAs during a long run may benefit from isoleucine's role in glucose uptake and energy production when glycogen stores decline"
       ]}
       
+      currentPage="isoleucine"
+
+      
       relatedTerms={[
         { term: "Leucine", key: "leucine" },
         { term: "Valine", key: "valine" },

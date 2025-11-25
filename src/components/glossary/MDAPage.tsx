@@ -25,6 +25,7 @@ Reductions in MDA suggest decreased oxidative stress and potentially reduced ris
         { term: "Biomarker", key: "biomarker" },
         { term: "Inflammation", key: "inflammation" }
       ]}
+      currentPage="mda"
     />
   );
 }

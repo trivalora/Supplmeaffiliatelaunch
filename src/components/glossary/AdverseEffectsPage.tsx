@@ -213,6 +213,9 @@ export function AdverseEffectsPage() {
         "Some individuals experience allergic reactions to specific supplement ingredients (e.g., shellfish-derived glucosamine)—an idiosyncratic adverse effect unrelated to dose"
       ]}
       
+      currentPage="adverseeffects"
+
+      
       relatedTerms={[
         { term: "Contraindications", key: "contraindications" },
         { term: "Drug Interactions", key: "druginteractions" },

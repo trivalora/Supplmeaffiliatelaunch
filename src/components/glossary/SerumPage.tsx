@@ -56,6 +56,7 @@ Important Considerations:
         { term: "Plasma", key: "plasma" },
         { term: "Biomarker", key: "biomarker" }
       ]}
+      currentPage="serum"
     />
   );
 }

@@ -21,6 +21,7 @@ RCTs are particularly valuable in supplement research because they help establis
         { term: "Placebo", key: "placebo" },
         { term: "Statistical Significance", key: "statisticalsignificance" }
       ]}
+      currentPage="rct"
     />
   );
 }

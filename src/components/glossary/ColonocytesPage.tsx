@@ -92,6 +92,8 @@ export function ColonocytesPage() {
             </p>
           </>
         }
+      currentPage="colonocytes"
+
       />
   );
 }

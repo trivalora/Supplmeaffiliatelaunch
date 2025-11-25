@@ -96,6 +96,9 @@ export function HbA1cPage() {
         "A person with type 2 diabetes lowering HbA1c from 8.5% to 7.0% through diet, medication, and supplements reduces their risk of complications by approximately 25-40%"
       ]}
       
+      currentPage="hba1c"
+
+      
       relatedTerms={[
         { term: "Blood Glucose", key: "bloodglucose" },
         { term: "Glycemic Control", key: "glycemiccontrol" },

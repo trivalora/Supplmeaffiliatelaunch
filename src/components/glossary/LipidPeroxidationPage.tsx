@@ -75,6 +75,7 @@ Lipid peroxidation contributes to:
         { term: "Antioxidant", key: "antioxidant" },
         { term: "Oxidized LDL", key: "oxidizedldl" }
       ]}
+      currentPage="lipidperoxidation"
     />
   );
 }

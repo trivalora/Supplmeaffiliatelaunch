@@ -23,6 +23,7 @@ Many supplements target cardiovascular health through various mechanisms: omega-
         { term: "Biomarker", key: "biomarker" },
         { term: "Oxidative Stress", key: "oxidativestress" }
       ]}
+      currentPage="cardiovascular"
     />
   );
 }

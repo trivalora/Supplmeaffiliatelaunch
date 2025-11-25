@@ -50,5 +50,6 @@ export function SystematicReviewPage() {
     exampleContext: "When evaluating supplement effectiveness, systematic reviews provide stronger evidence than individual studies because they synthesize findings from multiple trials, reduce the impact of individual study biases, and can reveal overall treatment effects that might not be apparent in single studies."
   };
 
-  return <GlossaryTemplate {...content} />;
+  return <GlossaryTemplate {...content}   currentPage="systematicreview"
+    />;
 }

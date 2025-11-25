@@ -152,6 +152,7 @@ Flavonoids from food are safe. Supplemental forms in high doses may cause gastro
           description: "Flavonoids provide yellow, red, blue, and purple colors in fruits and vegetables. Consuming a variety of colors ensures diverse flavonoid intake (aim for 400-600 mg total daily)." 
         }
       ]}
+      currentPage="flavonoids"
     />
   );
 }

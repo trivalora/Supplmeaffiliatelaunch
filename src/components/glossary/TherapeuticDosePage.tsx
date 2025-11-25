@@ -118,6 +118,7 @@ Consult a healthcare provider for dosing when:
         { term: "Metabolism", key: "metabolism" },
         { term: "Dose-Dependent", key: "dose-dependent" }
       ]}
+      currentPage="therapeuticdose"
     />
   );
 }

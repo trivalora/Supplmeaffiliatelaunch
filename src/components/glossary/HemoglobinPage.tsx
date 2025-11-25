@@ -127,6 +127,9 @@ export function HemoglobinPage() {
         }
       ]}
       
+      currentPage="hemoglobin"
+
+      
       relatedTerms={['anemia', 'myoglobin', 'bloodglucose', 'biomarker', 'mineral']}
     />
   );

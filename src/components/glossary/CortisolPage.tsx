@@ -20,6 +20,7 @@ Cortisol levels are measured through blood, saliva, or urine tests. Managing str
         { term: "Metabolism", key: "metabolism" },
         { term: "Inflammation", key: "inflammation" }
       ]}
+      currentPage="cortisol"
     />
   );
 }

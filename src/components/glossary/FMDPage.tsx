@@ -24,6 +24,7 @@ FMD measurements are highly standardized but can be influenced by factors such a
         { term: "Oxidative Stress", key: "oxidativestress" },
         { term: "Meta-Analysis", key: "metaanalysis" }
       ]}
+      currentPage="fmd"
     />
   );
 }

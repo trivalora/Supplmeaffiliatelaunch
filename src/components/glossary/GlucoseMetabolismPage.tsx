@@ -59,6 +59,9 @@ export function GlucoseMetabolismPage() {
         }
       ]}
       
+      currentPage="glucosemetabolism"
+
+      
       relatedTerms={['bloodglucose', 'insulinresistance', 'glycemiccontrol', 'metabolism']}
     />
   );

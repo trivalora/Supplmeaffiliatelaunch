@@ -113,6 +113,8 @@ export function AkkermansiaPage() {
             </p>
           </>
         }
+      currentPage="akkermansia"
+
       />
   );
 }

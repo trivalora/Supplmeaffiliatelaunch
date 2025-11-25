@@ -461,15 +461,15 @@ const GLOSSARY_TERMS: GlossaryTerm[] = [
   },
   {
     key: 'vitamindv2',
-    terms: ['vitamin D', 'vitamin D3', 'cholecalciferol', 'vitamin D2', 'ergocalciferol']
+    terms: ['vitamin D', 'vitamin D3', 'cholecalciferol', 'vitamin D2', 'ergocalciferol', 'vitamin D supplementation']
   },
   {
     key: 'vitamincv2',
-    terms: ['vitamin C', 'ascorbic acid', 'ascorbate']
+    terms: ['vitamin C', 'ascorbic acid', 'ascorbate', 'vitamin C supplementation']
   },
   {
     key: 'omega3v2',
-    terms: ['omega-3 supplement', 'fish oil', 'omega-3 supplementation']
+    terms: ['omega-3 supplement', 'fish oil', 'omega-3 supplementation', 'fish oil supplement']
   },
   {
     key: 'probioticsv2',

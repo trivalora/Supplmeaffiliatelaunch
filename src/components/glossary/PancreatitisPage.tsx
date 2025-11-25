@@ -88,6 +88,7 @@ In chronic pancreatitis with malabsorption, supplementation with pancreatic enzy
         { term: "Absorption", key: "absorption" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="pancreatitis"
     />
   );
 }

@@ -112,6 +112,9 @@ export function ResolvinsPage() {
         "An individual taking low-dose aspirin (81mg) along with omega-3s produces aspirin-triggered resolvins (AT-RvD1), enhancing anti-inflammatory and cardioprotective effects beyond either intervention alone"
       ]}
       
+      currentPage="resolvins"
+
+      
       relatedTerms={[
         { term: "EPA", key: "epa" },
         { term: "DHA", key: "dha" },

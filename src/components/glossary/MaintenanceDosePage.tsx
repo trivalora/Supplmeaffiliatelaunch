@@ -49,6 +49,7 @@ export function MaintenanceDosePage() {
         'Pharmacokinetics',
         'Biomarker'
       ]}
+      currentPage="maintenancedose"
     />
   );
 }

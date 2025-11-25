@@ -89,6 +89,9 @@ export function HydrolyzedPage() {
         }
       ]}
       
+      currentPage="hydrolyzed"
+
+      
       relatedTerms={['protein', 'absorption', 'bioavailability', 'collagen']}
     />
   );

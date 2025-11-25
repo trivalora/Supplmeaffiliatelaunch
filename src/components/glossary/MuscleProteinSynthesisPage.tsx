@@ -21,6 +21,7 @@ Maximizing MPS for muscle growth and maintenance requires adequate protein intak
         { term: "Bioavailability", key: "bioavailability" },
         { term: "Dose-Dependent", key: "dosedependent" }
       ]}
+      currentPage="muscleproteinsynthesis"
     />
   );
 }

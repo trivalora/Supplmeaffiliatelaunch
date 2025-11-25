@@ -78,6 +78,9 @@ export function BMIPage() {
         }
       ]}
       
+      currentPage="bmi"
+
+      
       relatedTerms={[
         { term: "Biomarker", key: "biomarker" },
         { term: "Subgroup Analysis", key: "subgroupanalysis" },

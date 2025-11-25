@@ -23,6 +23,7 @@ SMD is particularly valuable in systematic reviews and meta-analyses where multi
         { term: "Clinical Significance", key: "clinicalsignificance" },
         { term: "Effect Size", key: "effectsize" }
       ]}
+      currentPage="smd"
     />
   );
 }

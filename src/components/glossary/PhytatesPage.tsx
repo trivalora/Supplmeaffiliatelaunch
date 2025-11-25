@@ -124,6 +124,9 @@ export function PhytatesPage() {
         "A vegetarian with marginal iron stores consuming primarily whole grains and legumes may benefit from traditional preparation methods (soaking, fermenting) to reduce phytate-induced iron inhibition and prevent deficiency"
       ]}
       
+      currentPage="phytates"
+
+      
       relatedTerms={[
         { term: "Absorption", key: "absorption" },
         { term: "Bioavailability", key: "bioavailability" },

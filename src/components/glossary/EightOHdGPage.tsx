@@ -65,6 +65,7 @@ While widely used, 8-OHdG has some limitations:
         { term: "Antioxidant", key: "antioxidant" },
         { term: "MDA", key: "mda" }
       ]}
+      currentPage="eightohdg"
     />
   );
 }

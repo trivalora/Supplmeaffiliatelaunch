@@ -20,6 +20,7 @@ However, single-blinded studies are still vulnerable to researcher bias, as the 
         { term: "Placebo", key: "placebo" },
         { term: "RCT", key: "rct" }
       ]}
+      currentPage="singleblinded"
     />
   );
 }

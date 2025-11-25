@@ -20,6 +20,7 @@ The use of placebos is fundamental to double-blind studies, where neither partic
         { term: "Double Blinded", key: "doubleblinded" },
         { term: "Anecdotal Evidence", key: "anecdotalevidence" }
       ]}
+      currentPage="placebo"
     />
   );
 }

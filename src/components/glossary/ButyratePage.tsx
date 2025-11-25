@@ -33,6 +33,7 @@ Butyrate production is influenced by diet, particularly fiber intake. Diets low 
         { term: "Inflammation", key: "inflammation" },
         { term: "Inulin-Type Fructans", key: "inulintypefructans" }
       ]}
+      currentPage="butyrate"
     />
   );
 }

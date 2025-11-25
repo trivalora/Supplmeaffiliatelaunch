@@ -97,6 +97,9 @@ export function FerricIronPage() {
         "Iron fortification of cereals often uses ferric iron because it doesn't cause undesirable color or flavor changes."
       ]}
       
+      currentPage="ferriciron"
+
+      
       relatedTerms={[
         { term: 'Bioavailability', page: 'bioavailability' },
         { term: 'Absorption', page: 'absorption' },

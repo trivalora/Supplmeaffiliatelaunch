@@ -98,6 +98,7 @@ Non-heme iron absorption is highly variable:
         { term: "Bioavailability", key: "bioavailability" },
         { term: "Phytates", key: "phytates" }
       ]}
+      currentPage="nonhemeiron"
     />
   );
 }

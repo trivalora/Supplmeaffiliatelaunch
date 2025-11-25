@@ -148,6 +148,9 @@ export function CatalasePage() {
         </>
       }
       
+      currentPage="catalase"
+
+      
       relatedTerms={[
         { term: 'Antioxidant', key: 'antioxidant' },
         { term: 'Oxidative Stress', key: 'oxidativestress' },

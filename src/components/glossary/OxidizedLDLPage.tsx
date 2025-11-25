@@ -50,6 +50,7 @@ Reducing both LDL cholesterol levels (through statins, diet, lifestyle) and oxid
         { term: "MDA", key: "mda" },
         { term: "Cardiovascular", key: "cardiovascular" }
       ]}
+      currentPage="oxidizedldl"
     />
   );
 }

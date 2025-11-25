@@ -89,6 +89,9 @@ export function GlycinePage() {
         }
       ]}
       
+      currentPage="glycine"
+
+      
       relatedTerms={['protein', 'collagen', 'proline', 'hydroxyproline', 'proteinsynthesis']}
     />
   );

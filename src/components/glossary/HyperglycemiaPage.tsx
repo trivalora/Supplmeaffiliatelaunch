@@ -85,6 +85,7 @@ For those with prediabetes or at risk for diabetes, preventing hyperglycemia inv
         { term: "Glycemic Control", key: "glycemiccontrol" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="hyperglycemia"
     />
   );
 }

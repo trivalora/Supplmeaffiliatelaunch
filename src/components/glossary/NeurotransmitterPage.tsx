@@ -20,6 +20,7 @@ Many medications target neurotransmitter systems—SSRIs increase serotonin, sti
         { term: "Biomarker", key: "biomarker" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="neurotransmitter"
     />
   );
 }

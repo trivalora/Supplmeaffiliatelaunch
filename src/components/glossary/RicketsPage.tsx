@@ -94,6 +94,7 @@ With early diagnosis and treatment, rickets is reversible. Bone deformities ofte
         { term: "Absorption", key: "absorption" },
         { term: "Bioavailability", key: "bioavailability" }
       ]}
+      currentPage="rickets"
     />
   );
 }

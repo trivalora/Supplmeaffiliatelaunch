@@ -81,6 +81,9 @@ export function OsteoporosisPage() {
         }
       ]}
       
+      currentPage="osteoporosis"
+
+      
       relatedTerms={['bonedensity', 'mineral', 'macromineral', 'biomarker']}
     />
   );

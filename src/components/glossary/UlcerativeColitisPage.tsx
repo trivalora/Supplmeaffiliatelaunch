@@ -91,6 +91,7 @@ UC is a chronic disease with a relapsing-remitting course. Most patients alterna
         { term: "SCFA", key: "scfa" },
         { term: "Gut Microbiome", key: "gutmicrobiome" }
       ]}
+      currentPage="ulcerativecolitis"
     />
   );
 }

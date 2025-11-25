@@ -20,6 +20,7 @@ Supporting mitochondrial health involves regular exercise (particularly enduranc
         { term: "Oxidative Stress", key: "oxidativestress" },
         { term: "Biomarker", key: "biomarker" }
       ]}
+      currentPage="mitochondria"
     />
   );
 }

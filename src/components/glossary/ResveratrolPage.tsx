@@ -176,6 +176,7 @@ The enthusiasm for resveratrol as an anti-aging supplement may be premature base
           description: "Research uses 100-500 mg/day (50-250x dietary intake). Doses up to 1,000 mg/day are well-tolerated, but higher doses (2,000-5,000 mg) may cause gastrointestinal upset." 
         }
       ]}
+      currentPage="resveratrol"
     />
   );
 }

@@ -88,6 +88,9 @@ export function CrossSectionalStudyPage() {
       
       exampleContext="Cross-sectional studies are valuable initial research tools that can quickly identify potential associations between supplement use, nutrient status, and health outcomes. While they cannot prove causation, they efficiently generate hypotheses for more rigorous longitudinal studies and provide important prevalence data for public health planning."
       
+      currentPage="crosssectionalstudy"
+
+      
       relatedTerms={[
         { term: "Observational Study", key: "observationalstudy" },
         { term: "Cohort Study", key: "cohortstudy" },

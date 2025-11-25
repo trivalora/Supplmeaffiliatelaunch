@@ -26,6 +26,7 @@ When evaluating supplement research, always examine the CI, not just the point e
         { term: "Risk Ratio", key: "rr" },
         { term: "WMD", key: "wmd" }
       ]}
+      currentPage="ci"
     />
   );
 }

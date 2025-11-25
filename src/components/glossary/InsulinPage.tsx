@@ -180,6 +180,8 @@ export function InsulinPage() {
             </p>
           </>
         }
+      currentPage="insulin"
+
       />
   );
 }

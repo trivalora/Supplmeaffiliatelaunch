@@ -97,6 +97,9 @@ export function OxidativeDamagePage() {
         </>
       }
       
+      currentPage="oxidativedamage"
+
+      
       relatedTerms={[
         'Free Radicals',
         'Oxidative Stress',

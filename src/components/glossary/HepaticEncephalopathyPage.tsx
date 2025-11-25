@@ -100,6 +100,8 @@ export function HepaticEncephalopathyPage() {
             </p>
           </>
         }
+      currentPage="hepaticencephalopathy"
+
       />
   );
 }

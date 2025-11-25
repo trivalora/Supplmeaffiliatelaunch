@@ -83,6 +83,9 @@ export function Nrf2Page() {
         "Nrf2 activation upregulates phase II detoxification enzymes, enhancing the body's ability to eliminate carcinogens."
       ]}
       
+      currentPage="nrf2"
+
+      
       relatedTerms={[
         { term: 'Antioxidant', page: 'antioxidant' },
         { term: 'Oxidative Stress', page: 'oxidativestress' },

@@ -20,6 +20,7 @@ Diagnosis involves blood tests measuring vitamin levels and assessing functional
         { term: "Absorption", key: "absorption" },
         { term: "Bioavailability", key: "bioavailability" }
       ]}
+      currentPage="vitamindeficiency"
     />
   );
 }

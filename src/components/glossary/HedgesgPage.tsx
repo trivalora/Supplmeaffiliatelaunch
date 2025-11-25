@@ -304,6 +304,9 @@ export function HedgesgPage() {
         }
       ]}
       
+      currentPage="hedgesg"
+
+      
       relatedTerms={[
         { term: "Standardized Mean Difference", key: "smd" },
         { term: "Effect Size", key: "effectsize" },

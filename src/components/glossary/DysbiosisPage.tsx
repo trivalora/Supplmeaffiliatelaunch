@@ -23,6 +23,7 @@ export function DysbiosisPage() {
         { term: 'Inflammation', path: '/glossary/inflammation' },
         { term: 'GOS', path: '/glossary/gos' }
       ]}
+      currentPage="dysbiosis"
     />
   );
 }

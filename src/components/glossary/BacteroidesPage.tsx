@@ -130,6 +130,8 @@ export function BacteroidesPage() {
             </p>
           </>
         }
+      currentPage="bacteroides"
+
       />
   );
 }

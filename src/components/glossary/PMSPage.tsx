@@ -92,6 +92,9 @@ export function PMSPage() {
         }
       ]}
       
+      currentPage="pms"
+
+      
       relatedTerms={['inflammation', 'biomarker', 'metabolism', 'neurotransmitter']}
     />
   );

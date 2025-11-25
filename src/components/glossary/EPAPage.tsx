@@ -47,6 +47,9 @@ export function EPAPage() {
         }
       ]}
       
+      currentPage="epa"
+
+      
       relatedTerms={['dha', 'omega-3', 'cardiovascular', 'inflammation', 'triglycerides', 'bioavailability']}
     />
   );

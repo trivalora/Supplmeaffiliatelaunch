@@ -70,6 +70,9 @@ export function MacromineralPage() {
         }
       ]}
       
+      currentPage="macromineral"
+
+      
       relatedTerms={['mineral', 'electrolytes', 'bioavailability', 'absorption']}
     />
   );

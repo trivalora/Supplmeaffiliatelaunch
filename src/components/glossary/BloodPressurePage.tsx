@@ -60,6 +60,9 @@ export function BloodPressurePage() {
         }
       ]}
       
+      currentPage="bloodpressure"
+
+      
       relatedTerms={[
         { term: "Cardiovascular", key: "cardiovascular" },
         { term: "Electrolytes", key: "electrolytes" },

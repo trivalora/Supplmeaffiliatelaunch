@@ -77,6 +77,7 @@ Considerations:
         { term: "Oxalates", key: "oxalates" },
         { term: "Glycine", key: "glycine" }
       ]}
+      currentPage="chelated"
     />
   );
 }

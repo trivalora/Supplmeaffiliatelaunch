@@ -73,6 +73,9 @@ export function NFkBPage() {
         "Chronic NF-κB activation in adipose tissue contributes to systemic inflammation and insulin resistance in obesity."
       ]}
       
+      currentPage="nfkb"
+
+      
       relatedTerms={[
         { term: 'Inflammation', page: 'inflammation' },
         { term: 'TNF-α', page: 'tnfalpha' },

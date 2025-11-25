@@ -128,6 +128,8 @@ export function FaecalibacteriumPage() {
             </p>
           </>
         }
+      currentPage="faecalibacterium"
+
       />
   );
 }

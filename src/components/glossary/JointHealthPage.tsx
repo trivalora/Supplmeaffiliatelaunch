@@ -20,6 +20,7 @@ Supporting joint health involves maintaining healthy body weight (reduces mechan
         { term: "Inflammation", key: "inflammation" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="jointhealth"
     />
   );
 }

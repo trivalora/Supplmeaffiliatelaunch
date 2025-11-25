@@ -57,5 +57,6 @@ export function ObservationalStudyPage() {
     exampleContext: "While RCTs provide the strongest evidence for supplement efficacy, observational studies are valuable for understanding how supplements are used in real-world settings, identifying potential long-term benefits or risks, and examining outcomes in populations often excluded from clinical trials, such as elderly individuals with multiple health conditions."
   };
 
-  return <GlossaryTemplate {...content} />;
+  return <GlossaryTemplate {...content}   currentPage="observationalstudy"
+    />;
 }

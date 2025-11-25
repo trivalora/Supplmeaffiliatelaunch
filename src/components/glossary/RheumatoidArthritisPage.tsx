@@ -43,6 +43,7 @@ Some supplements studied for RA include omega-3 fatty acids (modest anti-inflamm
         { term: "Joint Health", key: "jointhealth" },
         { term: "CRP", key: "crp" }
       ]}
+      currentPage="rheumatoidarthritis"
     />
   );
 }

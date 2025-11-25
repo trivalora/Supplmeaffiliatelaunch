@@ -123,6 +123,7 @@ Contraindication information has limitations:
         { term: "Blood Glucose", key: "blood-glucose" },
         { term: "Thyroid Function", key: "thyroid-function" }
       ]}
+      currentPage="contraindications"
     />
   );
 }

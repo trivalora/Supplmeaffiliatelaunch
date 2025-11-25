@@ -26,6 +26,9 @@ export function DoseDependentPage() {
         "Curcumin exhibits dose-dependent gastrointestinal side effects, with odds ratio approximately 3.0 versus placebo at high doses (approaching 4g/day)"
       ]}
       
+      currentPage="dosedependent"
+
+      
       relatedTerms={[
         { term: "Bioavailability", key: "bioavailability" },
         { term: "Clinical Significance", key: "clinicalsignificance" }

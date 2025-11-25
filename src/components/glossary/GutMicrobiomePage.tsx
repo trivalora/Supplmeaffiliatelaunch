@@ -20,6 +20,7 @@ Supporting microbiome health involves eating diverse plant foods rich in fiber a
         { term: "Absorption", key: "absorption" },
         { term: "Biomarker", key: "biomarker" }
       ]}
+      currentPage="gutmicrobiome"
     />
   );
 }

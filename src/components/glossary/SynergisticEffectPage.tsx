@@ -95,6 +95,9 @@ export function SynergisticEffectPage() {
         </>
       }
       
+      currentPage="synergisticeffect"
+
+      
       relatedTerms={[
         'Bioavailability',
         'Absorption',

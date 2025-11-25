@@ -24,6 +24,7 @@ However, TAC has limitations. Higher TAC doesn't automatically mean better healt
         { term: "Biomarker", key: "biomarker" },
         { term: "Inflammation", key: "inflammation" }
       ]}
+      currentPage="tac"
     />
   );
 }

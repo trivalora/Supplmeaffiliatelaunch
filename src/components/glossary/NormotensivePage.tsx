@@ -61,6 +61,9 @@ export function NormotensivePage() {
         }
       ]}
       
+      currentPage="normotensive"
+
+      
       relatedTerms={['bloodpressure', 'hypertensive', 'systolic', 'diastolic']}
     />
   );

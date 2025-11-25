@@ -83,6 +83,9 @@ export function PreeclampsiaPage() {
         }
       ]}
       
+      currentPage="preeclampsia"
+
+      
       relatedTerms={['bloodpressure', 'hypertensive', 'biomarker', 'cardiovascular']}
     />
   );

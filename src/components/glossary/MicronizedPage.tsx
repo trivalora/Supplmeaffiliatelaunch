@@ -84,6 +84,7 @@ Quality and Manufacturing:
         { term: "Bioavailability", key: "bioavailability" },
         { term: "Absorption", key: "absorption" }
       ]}
+      currentPage="micronized"
     />
   );
 }

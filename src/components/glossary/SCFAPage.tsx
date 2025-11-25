@@ -137,6 +137,9 @@ export function SCFAPage() {
         "Individuals consuming 30-40g fiber daily from diverse sources (whole grains, legumes, vegetables, fruits) typically have higher fecal SCFA concentrations and healthier gut microbiomes compared to low-fiber diets"
       ]}
       
+      currentPage="scfa"
+
+      
       relatedTerms={[
         { term: "Gut Microbiome", key: "gutmicrobiome" },
         { term: "GOS", key: "gos" },

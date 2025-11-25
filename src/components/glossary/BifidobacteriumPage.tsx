@@ -101,6 +101,9 @@ export function BifidobacteriumPage() {
         "The infant gut microbiome of breastfed babies is dominated by Bifidobacterium species, which metabolize human milk oligosaccharides."
       ]}
       
+      currentPage="bifidobacterium"
+
+      
       relatedTerms={[
         { term: 'Gut Microbiome', page: 'gutmicrobiome' },
         { term: 'GOS', page: 'gos' },

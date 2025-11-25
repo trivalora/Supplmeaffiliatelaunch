@@ -103,6 +103,9 @@ export function ValinePage() {
         "A meal with 200g of cooked lentils (~18g protein) provides roughly 0.9g valine, demonstrating how plant proteins also supply all three BCAAs"
       ]}
       
+      currentPage="valine"
+
+      
       relatedTerms={[
         { term: "Leucine", key: "leucine" },
         { term: "Isoleucine", key: "isoleucine" },

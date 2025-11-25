@@ -50,6 +50,7 @@ Used for coagulation studies"
         { term: "Serum", key: "serum" },
         { term: "Biomarker", key: "biomarker" }
       ]}
+      currentPage="plasma"
     />
   );
 }

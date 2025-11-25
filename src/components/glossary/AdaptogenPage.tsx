@@ -20,6 +20,7 @@ Scientific evidence for adaptogens varies by substance and claimed benefit. Ashw
         { term: "Biomarker", key: "biomarker" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="adaptogen"
     />
   );
 }

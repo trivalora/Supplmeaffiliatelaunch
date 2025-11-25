@@ -24,6 +24,7 @@ When reading meta-analyses, WMD is often reported alongside a 95% confidence int
         { term: "Statistical Significance", key: "statisticalsignificance" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="wmd"
     />
   );
 }

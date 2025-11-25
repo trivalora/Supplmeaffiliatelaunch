@@ -24,6 +24,7 @@ Therapeutic drugs that block IL-1 signaling (IL-1 receptor antagonists like anak
         { term: "Biomarker", key: "biomarker" },
         { term: "Oxidative Stress", key: "oxidativestress" }
       ]}
+      currentPage="il1"
     />
   );
 }

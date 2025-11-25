@@ -20,6 +20,7 @@ However, peer review is not infallible. Even peer-reviewed studies can have limi
         { term: "Meta-Analysis", key: "metaanalysis" },
         { term: "RCT", key: "rct" }
       ]}
+      currentPage="peerreviewed"
     />
   );
 }

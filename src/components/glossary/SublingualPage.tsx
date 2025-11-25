@@ -118,6 +118,7 @@ When considering sublingual supplements:
         { term: "Pharmacokinetics", key: "pharmacokinetics" },
         { term: "Therapeutic Dose", key: "therapeutic-dose" }
       ]}
+      currentPage="sublingual"
     />
   );
 }

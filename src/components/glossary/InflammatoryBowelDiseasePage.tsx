@@ -24,6 +24,7 @@ export function InflammatoryBowelDiseasePage() {
         { term: 'IBS', path: '/glossary/ibs' },
         { term: 'Immune System', path: '/glossary/immune-system' }
       ]}
+      currentPage="inflammatoryboweldisease"
     />
   );
 }

@@ -178,6 +178,7 @@ Lycopene may work synergistically with other tomato compounds (vitamin C, beta-c
           description: "Tomatoes and tomato products provide 80-85% of lycopene intake. One-half cup tomato sauce provides ~20-25 mg, while a raw tomato provides only 3-5 mg." 
         }
       ]}
+      currentPage="lycopene"
     />
   );
 }

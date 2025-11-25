@@ -46,6 +46,7 @@ Atherosclerosis is increasingly recognized as an inflammatory disease, not just 
         { term: "CRP", key: "crp" },
         { term: "Oxidative Stress", key: "oxidativestress" }
       ]}
+      currentPage="atherosclerosis"
     />
   );
 }

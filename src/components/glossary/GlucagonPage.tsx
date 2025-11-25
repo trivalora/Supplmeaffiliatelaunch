@@ -169,6 +169,8 @@ export function GlucagonPage() {
             </p>
           </>
         }
+      currentPage="glucagon"
+
       />
   );
 }

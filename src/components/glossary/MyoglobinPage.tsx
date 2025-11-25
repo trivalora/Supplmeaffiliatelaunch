@@ -106,6 +106,9 @@ export function MyoglobinPage() {
         }
       ]}
       
+      currentPage="myoglobin"
+
+      
       relatedTerms={['hemoglobin', 'biomarker', 'atp', 'mitochondria', 'cardiovascular']}
     />
   );

@@ -24,6 +24,7 @@ IL-6 can also increase temporarily after exercise, where it serves beneficial me
         { term: "Oxidative Stress", key: "oxidativestress" },
         { term: "Antioxidant", key: "antioxidant" }
       ]}
+      currentPage="il6"
     />
   );
 }

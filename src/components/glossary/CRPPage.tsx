@@ -102,6 +102,9 @@ export function CRPPage() {
         "Magnesium supplementation (250-500mg daily) reduced serum CRP significantly (SMD -0.356) in individuals with baseline CRP &gt;3 mg/L, showing anti-inflammatory benefits"
       ]}
       
+      currentPage="crp"
+
+      
       relatedTerms={[
         { term: "Inflammation", key: "inflammation" },
         { term: "IL-6", key: "il6" },

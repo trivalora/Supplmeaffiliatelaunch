@@ -117,6 +117,9 @@ export function LactobacillusPage() {
         "L. rhamnosus GG is one of the most extensively studied probiotic strains, with evidence for preventing antibiotic-associated diarrhea."
       ]}
       
+      currentPage="lactobacillus"
+
+      
       relatedTerms={[
         { term: 'Gut Microbiome', page: 'gutmicrobiome' },
         { term: 'Immune System', page: 'immunesystem' },

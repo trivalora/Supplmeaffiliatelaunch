@@ -20,6 +20,7 @@ Improving sleep quality involves sleep hygiene practices: consistent sleep-wake 
         { term: "Cognitive Function", key: "cognitivefunction" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="sleepquality"
     />
   );
 }

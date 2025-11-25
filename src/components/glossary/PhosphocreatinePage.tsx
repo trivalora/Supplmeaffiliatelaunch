@@ -108,6 +108,9 @@ export function PhosphocreatinePage() {
         "After 3 months of creatine supplementation (5g daily), an athlete's muscle phosphocreatine increases by 20%, allowing 1-2 additional reps per set at maximum intensity"
       ]}
       
+      currentPage="phosphocreatine"
+
+      
       relatedTerms={[
         { term: "ATP", key: "atp" },
         { term: "Creatine Kinase", key: "creatinekinase" },

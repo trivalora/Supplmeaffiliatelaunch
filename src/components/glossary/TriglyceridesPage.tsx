@@ -20,6 +20,7 @@ Lowering triglycerides involves dietary changes (reducing refined carbs and suga
         { term: "Biomarker", key: "biomarker" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="triglycerides"
     />
   );
 }

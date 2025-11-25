@@ -23,6 +23,7 @@ Metabolic health refers to the body's ability to efficiently process and utilize
         { term: "Biomarker", key: "biomarker" },
         { term: "Absorption", key: "absorption" }
       ]}
+      currentPage="metabolism"
     />
   );
 }

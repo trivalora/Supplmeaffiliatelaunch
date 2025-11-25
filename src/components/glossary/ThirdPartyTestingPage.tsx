@@ -130,6 +130,7 @@ export function ThirdPartyTestingPage() {
         { term: "Standardized Extract", key: "standardized-extract" },
         { term: "Bioavailability", key: "bioavailability" }
       ]}
+      currentPage="thirdpartytesting"
     />
   );
 }

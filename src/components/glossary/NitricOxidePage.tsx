@@ -148,6 +148,8 @@ export function NitricOxidePage() {
             </p>
           </>
         }
+      currentPage="nitricoxide"
+
       />
   );
 }

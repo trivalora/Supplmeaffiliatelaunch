@@ -96,6 +96,9 @@ export function SaturationPage() {
         </>
       }
       
+      currentPage="saturation"
+
+      
       relatedTerms={[
         'Bioavailability',
         'Loading Phase',

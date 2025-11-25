@@ -92,6 +92,9 @@ export function VLDLPage() {
         "Individuals with metabolic syndrome typically have elevated VLDL, low HDL, and small dense LDL particles."
       ]}
       
+      currentPage="vldl"
+
+      
       relatedTerms={[
         { term: 'Triglycerides', page: 'triglycerides' },
         { term: 'LDL Cholesterol', page: 'ldlcholesterol' },

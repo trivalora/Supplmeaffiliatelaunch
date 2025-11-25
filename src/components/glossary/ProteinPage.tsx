@@ -20,6 +20,7 @@ Protein quality varies based on amino acid profile and digestibility. Complete p
         { term: "Absorption", key: "absorption" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="protein"
     />
   );
 }

@@ -22,6 +22,7 @@ Understanding bioavailability is crucial when comparing supplement forms or dosa
         { term: "Absorption", key: "absorption" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="bioavailability"
     />
   );
 }

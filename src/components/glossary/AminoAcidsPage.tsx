@@ -84,6 +84,7 @@ export function AminoAcidsPage() {
         { term: "Glycine", key: "glycine" },
         { term: "Proline", key: "proline" }
       ]}
+      currentPage="aminoacids"
     />
   );
 }

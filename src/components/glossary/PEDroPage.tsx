@@ -101,6 +101,9 @@ export function PEDroPage() {
         }
       ]}
       
+      currentPage="pedro"
+
+      
       relatedTerms={['rct', 'doubleblinded', 'singleblinded', 'clinicalsignificance', 'statisticalsignificance', 'grade']}
     />
   );

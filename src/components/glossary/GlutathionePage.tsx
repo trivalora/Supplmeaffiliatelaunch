@@ -25,6 +25,7 @@ In supplement research, glutathione is measured both as a biomarker of antioxida
         { term: "Biomarker", key: "biomarker" },
         { term: "Immune System", key: "immunesystem" }
       ]}
+      currentPage="glutathione"
     />
   );
 }

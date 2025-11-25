@@ -47,6 +47,9 @@ export function GRADEPage() {
         }
       ]}
       
+      currentPage="grade"
+
+      
       relatedTerms={['meta-analysis', 'rct', 'statistical-significance', 'clinical-significance', 'peer-reviewed']}
     />
   );

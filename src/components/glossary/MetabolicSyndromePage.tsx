@@ -64,6 +64,7 @@ Several supplements have been studied for metabolic syndrome components includin
         { term: "HOMA-IR", key: "homair" },
         { term: "BMI", key: "bmi" }
       ]}
+      currentPage="metabolicsyndrome"
     />
   );
 }

@@ -190,6 +190,7 @@ Knowledge about supplement-drug interactions has gaps:
         { term: "Electrolytes", key: "electrolytes" },
         { term: "Blood Glucose", key: "blood-glucose" }
       ]}
+      currentPage="druginteractions"
     />
   );
 }

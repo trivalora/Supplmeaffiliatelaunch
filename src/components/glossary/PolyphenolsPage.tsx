@@ -115,6 +115,7 @@ Polyphenol content in foods varies based on plant variety, growing conditions, r
           description: "Coffee, tea, berries, dark chocolate, red wine, and extra virgin olive oil are rich sources. Total polyphenol intake ranges from 500-1,500 mg/day in Western diets, up to 2,000+ mg/day in Mediterranean diets." 
         }
       ]}
+      currentPage="polyphenols"
     />
   );
 }

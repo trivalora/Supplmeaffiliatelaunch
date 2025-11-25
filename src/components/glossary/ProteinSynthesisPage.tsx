@@ -69,6 +69,9 @@ export function ProteinSynthesisPage() {
         }
       ]}
       
+      currentPage="proteinsynthesis"
+
+      
       relatedTerms={['muscleproteinsynthesis', 'metabolism', 'absorption', 'bioavailability']}
     />
   );

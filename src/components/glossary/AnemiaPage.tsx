@@ -115,6 +115,9 @@ export function AnemiaPage() {
         }
       ]}
       
+      currentPage="anemia"
+
+      
       relatedTerms={[
         { term: "Hemoglobin", key: "hemoglobin" },
         { term: "Biomarker", key: "biomarker" },

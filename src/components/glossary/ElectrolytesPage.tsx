@@ -20,6 +20,7 @@ Maintaining electrolyte balance involves adequate hydration, consuming a varied 
         { term: "Cardiovascular", key: "cardiovascular" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="electrolytes"
     />
   );
 }

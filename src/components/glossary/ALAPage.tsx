@@ -27,6 +27,7 @@ For individuals following plant-based diets who may not consume EPA and DHA from
         { term: "Essential Fatty Acids", key: "essentialfattyacids" },
         { term: "Bioavailability", key: "bioavailability" }
       ]}
+      currentPage="ala"
     />
   );
 }

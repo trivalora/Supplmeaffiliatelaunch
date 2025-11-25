@@ -95,6 +95,9 @@ export function HydroxyprolinePage() {
         }
       ]}
       
+      currentPage="hydroxyproline"
+
+      
       relatedTerms={['collagen', 'proline', 'glycine', 'biomarker', 'osteoporosis']}
     />
   );

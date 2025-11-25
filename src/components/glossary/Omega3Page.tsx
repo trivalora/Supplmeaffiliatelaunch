@@ -49,6 +49,9 @@ export function Omega3Page() {
         }
       ]}
       
+      currentPage="omega3"
+
+      
       relatedTerms={['epa', 'dha', 'cardiovascular', 'inflammation', 'triglycerides', 'cognitive-function', 'bioavailability']}
     />
   );

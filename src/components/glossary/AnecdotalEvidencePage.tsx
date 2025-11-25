@@ -20,6 +20,7 @@ In supplement research, anecdotal evidence should be viewed as a starting point 
         { term: "Placebo", key: "placebo" },
         { term: "RCT", key: "rct" }
       ]}
+      currentPage="anecdotalevidence"
     />
   );
 }

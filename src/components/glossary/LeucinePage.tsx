@@ -91,6 +91,9 @@ export function LeucinePage() {
         "A meal with 150g chicken breast (~35g protein, ~2.8g leucine) combined with quinoa provides sufficient leucine to trigger the mTOR pathway and initiate muscle building"
       ]}
       
+      currentPage="leucine"
+
+      
       relatedTerms={[
         { term: "Isoleucine", key: "isoleucine" },
         { term: "Valine", key: "valine" },

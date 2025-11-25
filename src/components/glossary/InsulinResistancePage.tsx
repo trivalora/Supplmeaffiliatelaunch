@@ -23,6 +23,7 @@ Insulin resistance is assessed through various methods including fasting insulin
         { term: "Metabolism", key: "metabolism" },
         { term: "Inflammation", key: "inflammation" }
       ]}
+      currentPage="insulinresistance"
     />
   );
 }

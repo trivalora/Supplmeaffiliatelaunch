@@ -185,6 +185,8 @@ export function ESRPage() {
             </p>
           </>
         }
+      currentPage="esr"
+
       />
   );
 }

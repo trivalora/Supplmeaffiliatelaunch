@@ -53,6 +53,9 @@ export function DHAPage() {
         }
       ]}
       
+      currentPage="dha"
+
+      
       relatedTerms={['epa', 'omega-3', 'cognitive-function', 'cardiovascular', 'bioavailability', 'metabolism']}
     />
   );

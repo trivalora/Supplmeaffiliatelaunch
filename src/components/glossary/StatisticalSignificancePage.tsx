@@ -20,6 +20,7 @@ However, statistical significance does not necessarily indicate clinical importa
         { term: "RCT", key: "rct" },
         { term: "Meta-Analysis", key: "metaanalysis" }
       ]}
+      currentPage="statisticalsignificance"
     />
   );
 }

@@ -47,6 +47,7 @@ export function LoadingPhasePage() {
         'Bioavailability',
         'Therapeutic Dose'
       ]}
+      currentPage="loadingphase"
     />
   );
 }

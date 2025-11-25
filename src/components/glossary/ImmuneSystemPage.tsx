@@ -20,6 +20,7 @@ Numerous factors affect immune function including nutrition (vitamins C, D, A, z
         { term: "Biomarker", key: "biomarker" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="immunesystem"
     />
   );
 }

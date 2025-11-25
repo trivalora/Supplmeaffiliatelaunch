@@ -70,6 +70,9 @@ export function HypertensivePage() {
         }
       ]}
       
+      currentPage="hypertensive"
+
+      
       relatedTerms={['bloodpressure', 'normotensive', 'systolic', 'diastolic', 'cardiovascular']}
     />
   );

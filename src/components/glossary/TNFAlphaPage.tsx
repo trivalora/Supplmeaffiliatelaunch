@@ -25,6 +25,7 @@ The success of TNF-α blocking drugs (like infliximab, adalimumab, etanercept) i
         { term: "Biomarker", key: "biomarker" },
         { term: "Insulin Resistance", key: "insulinresistance" }
       ]}
+      currentPage="tnfalpha"
     />
   );
 }

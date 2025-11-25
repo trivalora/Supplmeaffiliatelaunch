@@ -56,6 +56,7 @@ In clinical trials evaluating supplements or interventions for metabolic health 
         { term: "Biomarker", key: "biomarker" },
         { term: "Glycemic Control", key: "glycemiccontrol" }
       ]}
+      currentPage="homair"
     />
   );
 }

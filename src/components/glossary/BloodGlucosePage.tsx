@@ -53,6 +53,9 @@ export function BloodGlucosePage() {
         }
       ]}
       
+      currentPage="bloodglucose"
+
+      
       relatedTerms={[
         { term: "Glycemic Control", key: "glycemiccontrol" },
         { term: "Insulin Resistance", key: "insulinresistance" },

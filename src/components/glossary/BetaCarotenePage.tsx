@@ -35,6 +35,7 @@ export function BetaCarotenePage() {
         { term: "Bioavailability", key: "bioavailability" },
         { term: "Free Radicals", key: "freeradicals" }
       ]}
+      currentPage="betacarotene"
     />
   );
 }

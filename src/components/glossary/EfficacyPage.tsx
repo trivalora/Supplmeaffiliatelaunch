@@ -20,6 +20,7 @@ In supplement research, establishing efficacy through rigorous clinical trials i
         { term: "Clinical Significance", key: "clinicalsignificance" },
         { term: "Empirical Evidence", key: "empiricalevidence" }
       ]}
+      currentPage="efficacy"
     />
   );
 }

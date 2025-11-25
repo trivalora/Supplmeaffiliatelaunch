@@ -97,6 +97,7 @@ Look for:
         { term: "Third-Party Testing", key: "third-party-testing" },
         { term: "Therapeutic Dose", key: "therapeutic-dose" }
       ]}
+      currentPage="standardizedextract"
     />
   );
 }

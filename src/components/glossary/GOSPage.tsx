@@ -26,6 +26,7 @@ Compared to other prebiotics like inulin and fructo-oligosaccharides (FOS), GOS 
         { term: "GLP-1 (Glucagon-Like Peptide-1)", key: "glp1" },
         { term: "Inflammation", key: "inflammation" }
       ]}
+      currentPage="gos"
     />
   );
 }

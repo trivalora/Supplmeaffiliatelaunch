@@ -7,6 +7,8 @@ export function mTORPage() {
       term="mTOR (Mechanistic Target of Rapamycin)"
       definition="A protein kinase that acts as a central regulator of cell growth, proliferation, metabolism, and protein synthesis in response to nutrients, growth factors, and cellular energy."
       category="Physiological Processes"
+      currentPage="mtor"
+
       relatedTerms={['Protein Synthesis', 'Muscle Protein Synthesis', 'Leucine', 'Metabolism', 'Anabolic']}
     >
       <div className="space-y-6">

@@ -24,6 +24,7 @@ Fibrinogen levels are influenced by numerous factors including age, smoking, obe
         { term: "Biomarker", key: "biomarker" },
         { term: "Oxidative Stress", key: "oxidativestress" }
       ]}
+      currentPage="fibrinogen"
     />
   );
 }

@@ -89,6 +89,9 @@ export function CohortStudyPage() {
       
       exampleContext="Cohort studies provide crucial evidence about supplement effects over time, especially for outcomes that take years to develop. They offer stronger evidence than cross-sectional studies while being more practical than decades-long RCTs for studying chronic disease prevention."
       
+      currentPage="cohortstudy"
+
+      
       relatedTerms={[
         { term: "Observational Study", key: "observationalstudy" },
         { term: "RCT", key: "rct" },

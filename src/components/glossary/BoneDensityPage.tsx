@@ -21,6 +21,7 @@ Low bone density significantly increases fracture risk, particularly hip, spine,
         { term: "Metabolism", key: "metabolism" },
         { term: "Dose-Dependent", key: "dosedependent" }
       ]}
+      currentPage="bonedensity"
     />
   );
 }

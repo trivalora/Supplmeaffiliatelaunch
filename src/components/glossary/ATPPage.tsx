@@ -103,6 +103,9 @@ export function ATPPage() {
         }
       ]}
       
+      currentPage="atp"
+
+      
       relatedTerms={[
         { term: "Mitochondria", key: "mitochondria" },
         { term: "Metabolism", key: "metabolism" },

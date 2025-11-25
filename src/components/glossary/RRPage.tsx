@@ -25,6 +25,7 @@ When interpreting RR in supplement research, consider both the relative risk red
         { term: "Statistical Significance", key: "statisticalsignificance" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="rr"
     />
   );
 }

@@ -67,6 +67,7 @@ Enterocyte dysfunction contributes to malabsorption syndromes, celiac disease, i
         { term: "Inflammation", key: "inflammation" },
         { term: "SCFA", key: "scfa" }
       ]}
+      currentPage="enterocytes"
     />
   );
 }

@@ -35,6 +35,7 @@ Propionate production varies based on gut microbiome composition and dietary fib
         { term: "PYY", key: "pyy" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="propionate"
     />
   );
 }

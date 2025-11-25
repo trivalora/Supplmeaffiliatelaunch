@@ -20,6 +20,7 @@ In supplement research, clinical significance helps bridge the gap between labor
         { term: "Efficacy", key: "efficacy" },
         { term: "RCT", key: "rct" }
       ]}
+      currentPage="clinicalsignificance"
     />
   );
 }

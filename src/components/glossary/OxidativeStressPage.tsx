@@ -23,6 +23,7 @@ The body maintains several antioxidant defense mechanisms including enzymes (sup
         { term: "Biomarker", key: "biomarker" },
         { term: "Inflammation", key: "inflammation" }
       ]}
+      currentPage="oxidativestress"
     />
   );
 }

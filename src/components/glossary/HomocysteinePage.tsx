@@ -20,6 +20,7 @@ B-vitamin supplementation, particularly with folate, vitamin B12, and vitamin B6
         { term: "Biomarker", key: "biomarker" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="homocysteine"
     />
   );
 }

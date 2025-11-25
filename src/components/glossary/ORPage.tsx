@@ -24,6 +24,7 @@ When interpreting OR in supplement research, be aware that ORs can appear more d
         { term: "Statistical Significance", key: "statisticalsignificance" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="or"
     />
   );
 }

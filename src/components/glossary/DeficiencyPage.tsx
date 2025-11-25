@@ -45,6 +45,9 @@ export function DeficiencyPage() {
         </>
       }
       
+      currentPage="deficiency"
+
+      
       relatedTerms={[
         'Bioavailability',
         'Absorption',

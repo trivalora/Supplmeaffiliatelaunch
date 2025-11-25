@@ -37,6 +37,7 @@ Acetate production is influenced by overall fiber intake and gut microbiome comp
         { term: "GLP-1", key: "glp1" },
         { term: "Inflammation", key: "inflammation" }
       ]}
+      currentPage="acetate"
     />
   );
 }

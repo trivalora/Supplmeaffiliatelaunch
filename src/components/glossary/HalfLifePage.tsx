@@ -49,6 +49,7 @@ export function HalfLifePage() {
         'Maintenance Dose',
         'Absorption'
       ]}
+      currentPage="halflife"
     />
   );
 }

@@ -109,6 +109,9 @@ export function CreatineKinasePage() {
         "A marathon runner with CK levels of 25,000 U/L three days after the race should monitor for signs of rhabdomyolysis (dark urine, severe weakness, confusion) and seek medical attention if present"
       ]}
       
+      currentPage="creatinekinase"
+
+      
       relatedTerms={[
         { term: "Phosphocreatine", key: "phosphocreatine" },
         { term: "ATP", key: "atp" },

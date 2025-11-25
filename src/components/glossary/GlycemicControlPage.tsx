@@ -20,6 +20,7 @@ Glycemic control is influenced by diet (particularly carbohydrate quality and qu
         { term: "Biomarker", key: "biomarker" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="glycemiccontrol"
     />
   );
 }

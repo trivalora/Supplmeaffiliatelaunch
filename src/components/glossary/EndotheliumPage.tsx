@@ -122,6 +122,8 @@ export function EndotheliumPage() {
             </p>
           </>
         }
+      currentPage="endothelium"
+
       />
   );
 }

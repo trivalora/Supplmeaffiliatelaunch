@@ -68,6 +68,7 @@ Unlike type 2 diabetes, prediabetes is often reversible with lifestyle changes. 
         { term: "Metabolic Syndrome", key: "metabolicsyndrome" },
         { term: "Glycemic Control", key: "glycemiccontrol" }
       ]}
+      currentPage="prediabetes"
     />
   );
 }

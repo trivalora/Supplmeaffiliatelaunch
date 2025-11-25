@@ -124,5 +124,6 @@ export function EssentialAminoAcidsPage() {
     exampleContext: "A 70kg person needs approximately 2.4-2.9g of leucine daily. This can be obtained from ~30g of whey protein, 150g of chicken breast, or through EAA supplements providing all nine essential amino acids in balanced ratios. Without adequate intake of all nine EAAs, even high total protein intake cannot fully support muscle protein synthesis."
   };
 
-  return <GlossaryTemplate {...content} />;
+  return <GlossaryTemplate {...content}   currentPage="essentialaminoacids"
+    />;
 }

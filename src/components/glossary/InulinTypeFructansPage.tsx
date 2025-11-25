@@ -27,6 +27,7 @@ Inulin-type fructans are generally recognized as safe (GRAS) and widely used as 
         { term: "Gut Microbiome", key: "gutmicrobiome" },
         { term: "Glucose Metabolism", key: "glucosemetabolism" }
       ]}
+      currentPage="inulintypefructans"
     />
   );
 }

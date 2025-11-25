@@ -67,6 +67,9 @@ export function SystolicPage() {
         }
       ]}
       
+      currentPage="systolic"
+
+      
       relatedTerms={['bloodpressure', 'diastolic', 'cardiovascular', 'hypertensive']}
     />
   );

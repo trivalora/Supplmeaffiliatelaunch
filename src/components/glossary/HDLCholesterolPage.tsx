@@ -135,6 +135,9 @@ export function HDLCholesterolPage() {
         "A sedentary person with HDL of 42 mg/dL who starts jogging 4 times weekly for 6 months may increase HDL to 48-52 mg/dL, demonstrating exercise's powerful effect on HDL"
       ]}
       
+      currentPage="hdlcholesterol"
+
+      
       relatedTerms={[
         { term: "LDL Cholesterol", key: "ldlcholesterol" },
         { term: "Triglycerides", key: "triglycerides" },

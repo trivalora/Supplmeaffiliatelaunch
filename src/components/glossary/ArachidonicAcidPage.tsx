@@ -118,6 +118,8 @@ export function ArachidonicAcidPage() {
             </p>
           </>
         }
+      currentPage="arachidonicacid"
+
       />
   );
 }

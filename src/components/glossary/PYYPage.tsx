@@ -28,6 +28,7 @@ Some research explores exogenous PYY administration for obesity treatment, but p
         { term: "Metabolism", key: "metabolism" },
         { term: "Biomarker", key: "biomarker" }
       ]}
+      currentPage="pyy"
     />
   );
 }

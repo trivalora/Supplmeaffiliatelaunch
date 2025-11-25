@@ -7,6 +7,8 @@ export function GlutathionePeroxidasePage() {
       term="Glutathione Peroxidase (GPx)"
       definition="A selenium-dependent antioxidant enzyme that reduces hydrogen peroxide and lipid peroxides, protecting cells from oxidative damage."
       category="Enzymes & Proteins"
+      currentPage="glutathioneperoxidase"
+
       relatedTerms={['Antioxidant', 'Glutathione', 'Oxidative Stress', 'Selenium', 'Catalase', 'Superoxide Dismutase']}
     >
       <div className="space-y-6">

@@ -20,6 +20,7 @@ However, subgroup analyses must be interpreted cautiously. They are often explor
         { term: "Meta-Analysis", key: "metaanalysis" },
         { term: "Statistical Significance", key: "statisticalsignificance" }
       ]}
+      currentPage="subgroupanalysis"
     />
   );
 }

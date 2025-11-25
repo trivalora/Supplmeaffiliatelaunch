@@ -106,6 +106,7 @@ Osteoporosis involves loss of normally mineralized bone (low bone mass), while o
         { term: "Absorption", key: "absorption" },
         { term: "Bioavailability", key: "bioavailability" }
       ]}
+      currentPage="osteomalach"
     />
   );
 }

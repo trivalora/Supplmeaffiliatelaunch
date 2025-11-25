@@ -26,6 +26,9 @@ export function BiomarkerPage() {
         "Serum 25-hydroxyvitamin D measures vitamin D status, with levels below 20 ng/mL indicating deficiency"
       ]}
       
+      currentPage="biomarker"
+
+      
       relatedTerms={[
         { term: "Inflammation", key: "inflammation" },
         { term: "Oxidative Stress", key: "oxidativestress" },

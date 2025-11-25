@@ -23,6 +23,7 @@ export function CytokinesPage() {
         { term: 'CRP', key: 'crp' },
         { term: 'Immune System', key: 'immunesystem' }
       ]}
+      currentPage="cytokines"
     />
   );
 }

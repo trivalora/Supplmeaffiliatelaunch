@@ -26,6 +26,7 @@ Treatment typically involves antibiotics (rifaximin is most studied, with 40-50%
         { term: "Biomarker", key: "biomarker" },
         { term: "Absorption", key: "absorption" }
       ]}
+      currentPage="sibo"
     />
   );
 }

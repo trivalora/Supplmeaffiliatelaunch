@@ -20,6 +20,7 @@ Factors supporting cognitive health include regular physical exercise (particula
         { term: "Efficacy", key: "efficacy" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="cognitivefunction.tsx"
     />
   );
 }

@@ -48,6 +48,9 @@ export function TolerableUpperIntakeLevelPage() {
         </>
       }
       
+      currentPage="tolerableupperintakelevel"
+
+      
       relatedTerms={[
         'Deficiency',
         'Therapeutic Dose',

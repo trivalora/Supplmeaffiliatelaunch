@@ -26,6 +26,7 @@ In supplement research, IBS is a common target condition for probiotics, prebiot
         { term: "Gut Microbiome", key: "gutmicrobiome" },
         { term: "Inflammation", key: "inflammation" }
       ]}
+      currentPage="ibs"
     />
   );
 }

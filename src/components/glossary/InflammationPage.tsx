@@ -23,6 +23,7 @@ Inflammation is measured through biomarkers such as C-reactive protein (CRP), in
         { term: "Oxidative Stress", key: "oxidativestress" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="inflammation"
     />
   );
 }

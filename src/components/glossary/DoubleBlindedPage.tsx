@@ -20,6 +20,7 @@ Double-blinding is particularly important in supplement research where many outc
         { term: "Placebo", key: "placebo" },
         { term: "RCT", key: "rct" }
       ]}
+      currentPage="doubleblinded"
     />
   );
 }

@@ -107,6 +107,9 @@ export function EicosanoidsPage() {
         "An individual taking ibuprofen for headache blocks COX-2 enzyme, preventing prostaglandin synthesis that causes pain and blood vessel dilation"
       ]}
       
+      currentPage="eicosanoids"
+
+      
       relatedTerms={[
         { term: "EPA", key: "epa" },
         { term: "Arachidonic Acid", key: "arachidonicacid" },

@@ -20,6 +20,7 @@ Thyroid function is assessed through blood tests measuring TSH, free T4, and fre
         { term: "Metabolism", key: "metabolism" },
         { term: "Absorption", key: "absorption" }
       ]}
+      currentPage="thyroidfunction"
     />
   );
 }

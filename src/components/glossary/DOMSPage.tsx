@@ -114,6 +114,8 @@ export function DOMSPage() {
             </p>
           </>
         }
+      currentPage="doms"
+
       />
   );
 }

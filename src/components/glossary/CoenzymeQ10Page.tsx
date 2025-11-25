@@ -24,6 +24,7 @@ export function CoenzymeQ10Page() {
         { term: 'Bioavailability', key: 'bioavailability' },
         { term: 'Cardiovascular', key: 'cardiovascular' }
       ]}
+      currentPage="coenzymeq10"
     />
   );
 }

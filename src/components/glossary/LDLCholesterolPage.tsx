@@ -134,6 +134,9 @@ export function LDLCholesterolPage() {
         "A person with familial hypercholesterolemia (genetic high cholesterol) combining lifestyle changes, supplements, and statin medication may achieve LDL &lt;70 mg/dL, dramatically reducing their very high cardiovascular risk"
       ]}
       
+      currentPage="ldlcholesterol"
+
+      
       relatedTerms={[
         { term: "HDL Cholesterol", key: "hdlcholesterol" },
         { term: "Triglycerides", key: "triglycerides" },

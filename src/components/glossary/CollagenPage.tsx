@@ -20,6 +20,7 @@ Collagen supplements typically provide hydrolyzed collagen (collagen peptides)â€
         { term: "Absorption", key: "absorption" },
         { term: "Clinical Significance", key: "clinicalsignificance" }
       ]}
+      currentPage="collagen"
     />
   );
 }

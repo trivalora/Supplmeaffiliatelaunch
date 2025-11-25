@@ -22,6 +22,7 @@ Understanding absorption is essential for optimizing supplement effectiveness. P
         { term: "Bioavailability", key: "bioavailability" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="absorption"
     />
   );
 }

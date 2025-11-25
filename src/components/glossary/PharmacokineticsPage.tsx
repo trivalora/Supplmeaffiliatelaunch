@@ -61,6 +61,7 @@ Importance in Supplement Research:
         { term: "Absorption", key: "absorption" },
         { term: "Metabolism", key: "metabolism" }
       ]}
+      currentPage="pharmacokinetics"
     />
   );
 }

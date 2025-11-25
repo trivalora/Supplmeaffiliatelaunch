@@ -43,6 +43,9 @@ export function SatietyPage() {
         </>
       }
       
+      currentPage="satiety"
+
+      
       relatedTerms={[
         'GLP-1',
         'PYY',

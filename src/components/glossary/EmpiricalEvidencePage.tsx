@@ -20,6 +20,7 @@ The strength of empirical evidence varies depending on the study design, with ra
         { term: "Anecdotal Evidence", key: "anecdotalevidence" },
         { term: "Peer-reviewed", key: "peerreviewed" }
       ]}
+      currentPage="empiricalevidence"
     />
   );
 }

@@ -125,5 +125,6 @@ export function FreeRadicalsPage() {
     exampleContext: "During intense exercise, muscle cells produce increased free radicals as a byproduct of elevated oxygen consumption. While excessive ROS can damage muscle tissue, moderate levels actually trigger beneficial adaptations like increased mitochondrial production and enhanced antioxidant enzyme expression. This is why mega-dose antioxidant supplementation during training may actually impair some exercise adaptations."
   };
 
-  return <GlossaryTemplate {...content} />;
+  return <GlossaryTemplate {...content}   currentPage="freeradicals"
+    />;
 }

@@ -70,6 +70,9 @@ export function DiastolicPage() {
         }
       ]}
       
+      currentPage="diastolic"
+
+      
       relatedTerms={['bloodpressure', 'systolic', 'cardiovascular', 'hypertensive']}
     />
   );

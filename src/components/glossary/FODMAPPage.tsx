@@ -26,6 +26,7 @@ Prebiotics often contain high-FODMAP fibers (inulin, GOS, fructans), which is wh
         { term: "Inulin-type Fructans", key: "inulintypefructans" },
         { term: "Gut Microbiome", key: "gutmicrobiome" }
       ]}
+      currentPage="fodmap"
     />
   );
 }

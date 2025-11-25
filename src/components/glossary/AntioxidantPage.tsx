@@ -22,6 +22,7 @@ While antioxidants are beneficial, balance is crucial. Moderate levels of free r
         { term: "Oxidative Stress", key: "oxidativestress" },
         { term: "Biomarker", key: "biomarker" }
       ]}
+      currentPage="antioxidant"
     />
   );
 }

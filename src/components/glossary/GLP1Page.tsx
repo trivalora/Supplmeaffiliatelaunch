@@ -26,6 +26,7 @@ Fasting GLP-1 levels are typically 5-10 pmol/L, rising to 15-50 pmol/L postprand
         { term: "Glucose Metabolism", key: "glucosemetabolism" },
         { term: "Gut Microbiome", key: "gutmicrobiome" }
       ]}
+      currentPage="glp1"
     />
   );
 }

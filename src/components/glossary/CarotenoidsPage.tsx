@@ -175,6 +175,7 @@ Carotenoid supplements are available as single compounds or mixtures. Important 
           description: "Carotenoids are fat-soluble and require at least 3-5g dietary fat per meal for optimal absorption. Cooking and processing generally increase bioavailability by breaking down plant cell walls." 
         }
       ]}
+      currentPage="carotenoids"
     />
   );
 }

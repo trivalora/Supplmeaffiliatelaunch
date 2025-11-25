@@ -133,6 +133,9 @@ export function OxalatesPage() {
         "Very high-dose vitamin C supplementation (3,000mg daily) metabolizes partially to oxalate, potentially increasing urinary oxalate by 20-30% and raising stone risk in susceptible individuals"
       ]}
       
+      currentPage="oxalates"
+
+      
       relatedTerms={[
         { term: "Absorption", key: "absorption" },
         { term: "Bioavailability", key: "bioavailability" },

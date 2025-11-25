@@ -217,6 +217,7 @@ Higher SOD activity generally correlates with better antioxidant defense, though
           description: "SOD1 mutations cause ~20% of familial ALS (Lou Gehrig's disease). Reduced SOD activity is implicated in Parkinson's, Alzheimer's, and age-related cognitive decline." 
         }
       ]}
+      currentPage="superoxidedismutase"
     />
   );
 }

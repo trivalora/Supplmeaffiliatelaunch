@@ -94,6 +94,9 @@ export function FerrousIronPage() {
         "The supplement contained 65 mg of elemental iron as ferrous fumarate, providing approximately 33% iron by weight."
       ]}
       
+      currentPage="ferrousiron"
+
+      
       relatedTerms={[
         { term: 'Bioavailability', page: 'bioavailability' },
         { term: 'Absorption', page: 'absorption' },
