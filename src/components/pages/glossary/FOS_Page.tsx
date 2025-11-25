@@ -71,7 +71,7 @@ export function FOS_Page() {
             <ul className="list-disc ml-6 space-y-2 mb-4">
               <li>Gas and bloating (most common)</li>
               <li>Abdominal discomfort or cramping</li>
-              <li>Diarrhea at high doses (>20g/day)</li>
+              <li>Diarrhea at high doses ({'>'}20g/day)</li>
             </ul>
             <p className="mb-4">
               To minimize side effects, start with 2-3g daily and gradually increase over 1-2 weeks. Symptoms typically decrease as gut bacteria adapt. Individuals with IBS or FODMAP sensitivity may not tolerate FOS well, as they're high-FODMAP carbohydrates.

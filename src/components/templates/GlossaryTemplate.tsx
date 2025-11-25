@@ -4,7 +4,7 @@ import { useMemo } from 'react';
 import Link from 'next/link';
 import { autolinkGlossaryContent } from '@/lib/glossaryAutolink';
 import { LucideIcon } from 'lucide-react';
-import { SEOHead } from './SEOHead';
+import { SEOHead } from '../SEOHead';
 
 interface GlossaryTemplateProps {
   term: string;

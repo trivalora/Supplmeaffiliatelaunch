@@ -58,7 +58,7 @@ export function ChylomicronsPage() {
               <strong>Postprandial Hyperlipidemia:</strong> Exaggerated or prolonged elevation of chylomicrons after meals may indicate metabolic dysfunction and is associated with increased cardiovascular risk. This can result from impaired lipoprotein lipase activity, overproduction of triglyceride-rich lipoproteins, or insulin resistance.
             </p>
             <p className="mb-4">
-              <strong>Familial Chylomicronemia Syndrome:</strong> Rare genetic disorders affecting lipoprotein lipase or its cofactors can cause extreme triglyceride elevations (often >1000 mg/dL) with visible lipemic plasma and risk of acute pancreatitis. Management requires very low-fat diets (<15g/day).
+              <strong>Familial Chylomicronemia Syndrome:</strong> Rare genetic disorders affecting lipoprotein lipase or its cofactors can cause extreme triglyceride elevations (often {'>'}1000 mg/dL) with visible lipemic plasma and risk of acute pancreatitis. Management requires very low-fat diets ({'<'}15g/day).
             </p>
             <p className="mb-4">
               <strong>Supplement Timing:</strong> Understanding chylomicron physiology explains why fat-soluble supplements (vitamins A, D, E, K, CoQ10, curcumin, omega-3s) should be taken with meals containing at least 10-15g of fat for optimal absorption.

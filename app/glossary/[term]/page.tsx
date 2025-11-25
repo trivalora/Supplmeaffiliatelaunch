@@ -17,7 +17,8 @@ async function getGlossaryComponent(key: string) {
 
   try {
     // Dynamically import using the componentName from routes.config.ts
-    const module = await import(`../../../src/components/glossary/${route.componentName}`);
+    // FIXED: Import from pages/glossary subdirectory
+    const module = await import(`../../../src/components/pages/glossary/${route.componentName}`);
     return module.default || module[Object.keys(module)[0]];
   } catch (error) {
     console.error(`Failed to load component for glossary term: ${key}`, error);

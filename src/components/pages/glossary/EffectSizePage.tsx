@@ -54,10 +54,10 @@ export function EffectSizePage() {
               <strong>Correlation coefficient (r):</strong> Measures association strength between two continuous variables, ranging from -1 to +1. Interpretations: 0.1 = small, 0.3 = medium, 0.5 = large. r² (coefficient of determination) indicates the proportion of variance in one variable explained by another.
             </p>
             <p className="mb-4">
-              <strong>Hedges' g:</strong> Similar to Cohen's d but corrected for small sample bias, providing more accurate estimates when n < 20. Often used interchangeably with d in meta-analyses.
+              <strong>Hedges' g:</strong> Similar to Cohen's d but corrected for small sample bias, providing more accurate estimates when n {'<'} 20. Often used interchangeably with d in meta-analyses.
             </p>
             <p className="mb-4">
-              <strong>Odds ratios and risk ratios:</strong> Used for dichotomous outcomes (yes/no, disease/no disease). Values >1 indicate increased likelihood; <1 indicate decreased likelihood. Common in epidemiology and clinical research.
+              <strong>Odds ratios and risk ratios:</strong> Used for dichotomous outcomes (yes/no, disease/no disease). Values {'>'}1 indicate increased likelihood; {'<'}1 indicate decreased likelihood. Common in epidemiology and clinical research.
             </p>
             <p className="mb-4">
               <strong>Percentage of non-overlap:</strong> Illustrates practical significance by showing how much two distributions overlap. Cohen's d of 0.8 corresponds to about 47% non-overlap, meaning treatment group members score higher than 79% of control group members.
@@ -76,7 +76,7 @@ export function EffectSizePage() {
               <li>The effect size helps determine if supplementation is clinically worthwhile, not just statistically significant</li>
             </ul>
             <p className="mb-4">
-              When evaluating supplement research, look for effect sizes alongside p-values. A supplement showing p < 0.001 but d = 0.1 may be statistically significant yet practically trivial. Conversely, d = 0.6 with p = 0.06 might represent a meaningful effect that merely failed to reach arbitrary significance thresholds in a small trial.
+              When evaluating supplement research, look for effect sizes alongside p-values. A supplement showing p {'<'} 0.001 but d = 0.1 may be statistically significant yet practically trivial. Conversely, d = 0.6 with p = 0.06 might represent a meaningful effect that merely failed to reach arbitrary significance thresholds in a small trial.
             </p>
           </section>
         </>
