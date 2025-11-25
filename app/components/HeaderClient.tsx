@@ -319,24 +319,39 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 30, stiffness: 300 }}
-              className="fixed top-0 right-0 bottom-0 w-[85%] max-w-sm bg-white dark:bg-gray-900 z-50 overflow-y-auto"
+              className="fixed top-0 right-0 bottom-0 w-[85%] max-w-sm z-50 overflow-y-auto"
+              style={{ backgroundColor: 'var(--header-bg, #162F1C)' }}
             >
               {/* Header */}
-              <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-800">
+              <div 
+                className="flex items-center justify-between p-4 border-b"
+                style={{ 
+                  borderColor: 'var(--header-secondary, #E0CBA8)',
+                  color: 'var(--header-text, #F7F7F3)'
+                }}
+              >
                 <h2 className="text-lg font-semibold">Menu</h2>
                 <button
                   onClick={() => setIsOpen(false)}
                   className="p-2"
                   aria-label="Close menu"
                 >
-                  <X className="h-6 w-6" />
+                  <X className="h-6 w-6" style={{ color: 'var(--header-text, #F7F7F3)' }} />
                 </button>
               </div>
 
               {/* Menu Items */}
               <div className="p-4 space-y-4">
-                <div className="border-b border-gray-200 dark:border-gray-800 pb-4">
-                  <h3 className="text-sm font-semibold mb-2 text-gray-500">Supplements</h3>
+                <div 
+                  className="border-b pb-4"
+                  style={{ borderColor: 'var(--header-secondary, #E0CBA8)' }}
+                >
+                  <h3 
+                    className="text-sm font-semibold mb-2"
+                    style={{ color: 'var(--header-secondary, #E0CBA8)' }}
+                  >
+                    Supplements
+                  </h3>
                   {routes.map((route) => {
                     const href = route.path || (route.key.endsWith('v2') 
                       ? `/${route.key.replace('v2', '')}`
@@ -346,8 +361,9 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
                       <Link
                         key={route.key}
                         href={href}
-                        className="block py-2"
+                        className="block py-2 hover:opacity-80 transition-opacity"
                         onClick={() => setIsOpen(false)}
+                        style={{ color: 'var(--header-text, #F7F7F3)' }}
                       >
                         {route.title}
                       </Link>
@@ -357,23 +373,33 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
 
                 <Link
                   href="/glossary"
-                  className="block py-2 text-lg"
+                  className="block py-2 text-lg hover:opacity-80 transition-opacity"
                   onClick={() => setIsOpen(false)}
+                  style={{ color: 'var(--header-text, #F7F7F3)' }}
                 >
                   Glossary
                 </Link>
 
                 <Link
                   href="/about"
-                  className="block py-2 text-lg"
+                  className="block py-2 text-lg hover:opacity-80 transition-opacity"
                   onClick={() => setIsOpen(false)}
+                  style={{ color: 'var(--header-text, #F7F7F3)' }}
                 >
                   About Us
                 </Link>
 
-                <div className="border-t border-gray-200 dark:border-gray-800 pt-4">
+                <div 
+                  className="border-t pt-4"
+                  style={{ borderColor: 'var(--header-secondary, #E0CBA8)' }}
+                >
                   <div className="flex items-center justify-between">
-                    <span className="text-sm font-semibold text-gray-500">Dark Mode</span>
+                    <span 
+                      className="text-sm font-semibold"
+                      style={{ color: 'var(--header-secondary, #E0CBA8)' }}
+                    >
+                      Dark Mode
+                    </span>
                     <DarkModeToggle />
                   </div>
                 </div>
