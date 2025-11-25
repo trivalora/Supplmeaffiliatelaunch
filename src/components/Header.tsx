@@ -13,7 +13,7 @@ import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from 
 import { DarkModeToggle } from './DarkModeToggle';
 import { SearchResults } from './SearchResults';
 import { KNOWLEDGEBASE_ROUTES, PageKey } from '../routes.config';
-import { prefetchRoute } from '../analytics/prefetch';
+import { prefetchRoute } from '../lib/prefetch';
 
 function Container() {
   return (

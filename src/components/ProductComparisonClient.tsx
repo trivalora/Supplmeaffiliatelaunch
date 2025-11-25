@@ -5,9 +5,10 @@ import { useRouter } from 'next/navigation';
 import { SearchResults } from './SearchResults';
 import { useAffiliateTooltip, AffiliateTooltip } from './AffiliateTooltip';
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
-import imgAmazonButton from '@/assets/2f3309a930da536601e44619e42e44f89c102eb7.png';
 import { trackComparisonProductImpression, trackComparisonProductClick } from '@/lib/analytics';
 import { DualRangeSlider } from './ui/dual-range-slider';
+
+const imgAmazonButton = '/images/amazon-button.png';
 
 interface ProductComparisonClientProps {
   supplementId: string;
@@ -754,7 +755,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                                               );
                                             }}
                                           >
-                                            <img src={imgAmazonButton.src} alt="Amazon" className="h-4 w-auto invert" />
+                                            <img src={imgAmazonButton} alt="Amazon" className="h-4 w-auto invert" />
                                           </a>
                                         ) : r.retailer.toLowerCase() === 'vitacost' ? (
                                           <a
@@ -1063,7 +1064,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                                         );
                                       }}
                                       >
-                                        <img src={imgAmazonButton.src} alt="Amazon" className="h-3.5 w-auto invert" />
+                                        <img src={imgAmazonButton} alt="Amazon" className="h-3.5 w-auto invert" />
                                       </a>
                                   ) : r.retailer.toLowerCase() === 'vitacost' ? (
                                     <a 
