@@ -1,16 +1,23 @@
-import { Pool } from 'pg';
+// Lazy PostgreSQL pool (optional dependency)
+let _pool: any | null = null;
+let _pg: any = null;
 
-// Lazy pool singleton
-let _pool: Pool | null = null;
+// Try to import pg if available
+try {
+  _pg = require('pg');
+} catch (e) {
+  console.warn('[db] pg module not available, database features disabled');
+}
 
 export function getPool() {
+  if (!_pg) return null;
   if (_pool) return _pool;
   const { PGHOST, PGPORT, PGUSER, PGPASSWORD, PGDATABASE, PGSSL } = process.env;
   if (!PGHOST || !PGUSER || !PGPASSWORD || !PGDATABASE) {
     console.warn('[db] Missing PG connection env vars, database features disabled');
     return null;
   }
-  _pool = new Pool({
+  _pool = new _pg.Pool({
     host: PGHOST,
     port: PGPORT ? parseInt(PGPORT, 10) : 5432,
     user: PGUSER,

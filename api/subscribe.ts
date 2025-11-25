@@ -1,8 +1,15 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { Pool } from 'pg';
 
 let _pool: any = null;
+let _pg: any = null;
+
+try {
+  _pg = require('pg');
+} catch (e) {
+  console.warn('[subscribe] pg module not available');
+}
 function getPool() {
+    if (!_pg) return null;
     if (!_pool) {
         const connectionString = process.env.DATABASE_URL;
         if (!connectionString) {
@@ -10,7 +17,7 @@ function getPool() {
             // but avoid creating pool with undefined connection string
             // The handler will respond 500 with guidance
         }
-        _pool = new Pool({
+        _pool = new _pg.Pool({
             connectionString,
             ssl: process.env.PGSSL === 'disable' ? undefined : { rejectUnauthorized: false },
             max: 3,

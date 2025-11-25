@@ -1,11 +1,18 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { Pool } from 'pg';
 
 let _pool: any = null;
+let _pg: any = null;
+
+try {
+  _pg = require('pg');
+} catch (e) {
+  console.warn('[partner-lead] pg module not available');
+}
 function getPool() {
+    if (!_pg) return null;
     if (!_pool) {
         const connectionString = process.env.DATABASE_URL;
-        _pool = new Pool({
+        _pool = new _pg.Pool({
             connectionString,
             ssl: process.env.PGSSL === 'disable' ? undefined : { rejectUnauthorized: false },
             max: 3,
