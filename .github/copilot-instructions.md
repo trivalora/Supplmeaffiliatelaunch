@@ -7,6 +7,13 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 **Current Status**: Production-ready - 17 supplement pages, 198 glossary terms, 17 comparison pages, 1,691 product detail pages, 1,936 total static pages.
 
 **Recent Critical Updates (Nov 25, 2025 - Evening)**:
+- ✅ **Codebase Cleanup Complete**: Archived 13 obsolete migration scripts
+- ✅ **Comprehensive Audit**: CODEBASE_AUDIT_NOV25.md created
+- ✅ **Content Structure Recommendations**: Optional reorganization guide created
+- ✅ **Scalability & Standardization Audit**: CODEBASE_AUDIT_SCALABILITY_NOV2025.md created
+- ✅ All previous critical updates remain resolved
+
+**Previous Critical Updates (Nov 25, 2025):**
 - ✅ **Hero Image Full Width**: Fixed position: fixed with proper top offset, spans full viewport
 - ✅ **Search Dropdowns**: All 3 contexts (header, hero, product comparison) properly sized and scrollable
   - Header search: `max-height: calc(94vh - var(--header-height))`
@@ -18,7 +25,19 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - ✅ **Scroll Behavior**: Search dropdowns use `overscroll-behavior: contain` to prevent page scroll
 - ✅ **Build System**: 0 TypeScript errors, 0 peer dependency warnings
 - ✅ **All Critical Issues**: RESOLVED
+**Known Issues & Improvement Opportunities**: See `docs/CODEBASE_AUDIT_SCALABILITY_NOV2025.md` for detailed analysis.
 
+**High Priority Improvements Identified:**
+1. 🔴 Remove 'v2' suffix from route keys (confusing legacy naming)
+2. 🔴 Extract comparison component wrappers (reduce 200+ lines boilerplate)
+3. 🔴 Replace hardcoded colors with CSS variables (8 components affected)
+
+**Medium Priority Improvements:**
+4. ⚠️ Separate data from components (improve maintainability)
+5. ⚠️ Implement dynamic component loading (scalability for 30+ supplements)
+6. ⚠️ Standardize glossary related terms format (consistency)
+
+See full audit report for detailed recommendations and implementation roadmap.
 **Known Issues**: NONE - All critical issues resolved!
 
 ## Architecture
@@ -362,6 +381,88 @@ style={{ backgroundColor: isHovered ? 'rgba(255, 255, 255, 0.95)' : '#FFFFFF' }}
 - Supplement pages: `[Name]KnowledgebasePage.tsx` (e.g., `AshwagandhaKnowledgebasePage.tsx`)
 - Glossary pages: `[Name]Page.tsx` (e.g., `BioavailabilityPage.tsx`)
 - **No more "V2" suffix** - v1 pages removed, all current pages are v2 architecture
+- **⚠️ KNOWN ISSUE**: Route keys still have `v2` suffix (e.g., `ashwagandhav2`) - scheduled for cleanup
+
+### 2. Styling Standards (Priority Order)
+
+**Use in this order:**
+
+1. **Tailwind Utility Classes** (Primary)
+   ```typescript
+   <div className="bg-primary text-white p-4 rounded-lg">
+   ```
+
+2. **CSS Variables via Inline Styles** (Dynamic values)
+   ```typescript
+   <div style={{ paddingTop: 'var(--header-height)' }}>
+   ```
+
+3. **Tailwind + CSS Variables** (Hybrid)
+   ```typescript
+   <div className="p-[var(--space-md)] bg-primary/10">
+   ```
+
+4. **Inline Styles** (Last resort - complex calculations)
+   ```typescript
+   <div style={{ height: 'calc(100vh - var(--header-height))' }}>
+   ```
+
+**Never Use:**
+- ❌ Hardcoded hex colors (`#162F1C`) - use `var(--primary)` or Tailwind classes
+- ❌ Hardcoded pixel values (`padding: 24px`) - use `var(--space-*)` or Tailwind
+- ❌ Magic numbers without comments
+
+**Available CSS Variables**: See `src/styles/globals.css` for complete list:
+- Typography: `--fluid-h1`, `--fluid-h2`, `--fluid-body`, etc.
+- Spacing: `--space-xs`, `--space-sm`, `--space-md`, etc.
+- Colors: `--primary`, `--secondary`, `--tertiary`, `--background`, etc.
+- Layout: `--header-height`, `--page-padding-inline`, etc.
+
+### 2. Glossary Auto-Linking
+Content automatically links glossary terms:
+```typescript
+import { autolinkGlossaryContent } from '@/lib/glossaryAutolink';
+
+// For JSX
+const linkedJSX = autolinkGlossaryContent(<p>Text with bioavailability mentioned</p>);
+
+// For strings
+const linkedText = autolinkGlossaryTerms('Text with meta-analysis mentioned');
+```
+
+Auto-linking:
+- Case-insensitive matching
+- Handles plurals automatically
+- Creates hover cards with term definitions
+- Tracks clicks via `trackGlossaryLinkClick()`
+- **Performance**: Uses `useMemo()` in templates to prevent re-processing
+
+### 3. Analytics Tracking
+// src/components/ZincKnowledgebasePage.tsx (20 lines)
+import { ZINC_DATA } from '@/data/supplements/zinc';
+export function ZincKnowledgebasePage() {
+  return <KnowledgebaseTemplate {...ZINC_DATA} />;
+}
+```
+
+### 4. Component Reusability
+
+**Template System** (use these for all pages):
+- `KnowledgebaseTemplate` - All supplement pages (17 in use)
+- `GlossaryTemplate` - All glossary terms (198 in use)
+- `ProductComparisonWrapper` - All comparison pages (17 in use)
+- `ProductDetailClient` - All product detail pages (1,691 in use)
+
+**Modular Sections** (in `src/components/knowledgebase/`):
+- `BenefitsDrawbacksSection` - Benefits/drawbacks cards
+- `ResearchSection` - Research grades display
+- `BuyingGuideSection` - Buying recommendations
+- `ReferencesSection` - Scientific references
+- `ProductComparisonSection` - Price comparison embed
+- `OverviewSection` - Overview content
+- `FurtherReadingSection` - Additional resources
+
+**When to create new components**: Only if pattern used 3+ times AND not covered by existing templates.
 
 ### 2. Glossary Auto-Linking
 Content automatically links glossary terms:
@@ -400,7 +501,6 @@ trackProductClick('NOW Foods Vitamin D', 'NOW Foods', 'iHerb', 9.99, 'vitamin-d'
 ```
 
 All events push to `window.dataLayer` → GTM → GA4/Hotjar/Clarity.
-
 ### 4. SEO & Structured Data
 Every page needs metadata:
 ```typescript
@@ -423,24 +523,145 @@ Structured data generates automatically via `postbuild`:
 - Product schema names: Enhanced with "- Scientific Evidence & Price Comparison" suffix
 - BreadcrumbList schema: Added to all 1,691 product pages for SERP breadcrumbs
 
+**URL Structure** (SEO-optimized):
+```
+✅ Clean URLs:
+/ashwagandha                    # Knowledgebase
+/ashwagandha-comparison         # Comparison
+/ashwagandha/product/ABC123     # Product Detail
+/glossary/bioavailability       # Glossary
+
+❌ Never use:
+/ashwagandhav2                  # No version suffixes
+/supplement/123                 # No numeric IDs
+/products?id=ABC                # No query params
+```
+
+## Scalability & Best Practices
+
+### Current Architecture Capacity
+
+**Current Scale**: 1,936 pages
+- 17 supplement pages
+- 198 glossary terms
+- 17 comparison pages
+- 1,691 product detail pages
+- 13 static pages
+
+**Estimated Capacity** (without refactoring):
+- **Immediate** (0-30 supplements): Current system adequate
+- **Growth** (30-100 supplements): Requires dynamic component loading
+- **Enterprise** (100+ supplements): Database migration recommended
+
+### Identified Improvement Opportunities
+
+See `docs/CODEBASE_AUDIT_SCALABILITY_NOV2025.md` for full analysis.
+
+**Quick Reference**:
+1. 🔴 HIGH: Remove `v2` suffix from route keys (effort: 2h)
+2. 🔴 HIGH: Generate comparison wrappers programmatically (effort: 3h)
+3. 🔴 HIGH: Replace hardcoded colors with CSS variables (effort: 4h)
+4. ⚠️ MEDIUM: Separate data from components (effort: 8h)
+5. ⚠️ MEDIUM: Implement dynamic component loading (effort: 6h)
+
+### Adding New Supplements at Scale
+
+**When adding your 1st-30th supplement**: Follow existing pattern (3 files)
+**When adding your 31st+ supplement**: Implement dynamic loading first
+
+**Current Bottleneck**: COMPONENT_MAP in `app/[slug]/page.tsx`
+```typescript
+// Current (manual - doesn't scale past 30):
+import { Supplement1Page } from '@/components/...';
+import { Supplement2Page } from '@/components/...';
+// ... 30+ imports ...
+
+const COMPONENT_MAP = {
+  'Supplement1Page': Supplement1Page,
+  // ... 30+ mappings ...
+};
+
+// Future (dynamic - scales to 1000+):
+const Component = await import(`@/components/${route.componentName}`);
+```n" suffix
+- BreadcrumbList schema: Added to all 1,691 product pages for SERP breadcrumbs
+
 ## Key Files & Directories
 
 ### Must-Know Files
-- `src/routes.config.ts` - **Single source of truth** for all navigation
+- `src/routes.config.ts` - **Single source of truth** for all navigation (2,322 lines)
 - `app/layout.tsx` - Root layout with GTM, Header, Footer
-- `app/[slug]/page.tsx` - Dynamic supplement pages (17 routes)
+- `app/[slug]/page.tsx` - Dynamic supplement pages (17 routes) + COMPONENT_MAP
 - `app/[slug]/product/[productId]/page.tsx` - Dynamic product detail pages (1,867 routes)
 - `app/glossary/[term]/page.tsx` - Dynamic glossary pages (198 routes)
 - `app/error.tsx` - Next.js error boundary with analytics tracking
-- `app/components/HeaderClient.tsx` - Header with search, dropdown (350+ lines)
-- `app/components/ProductDetailClient.tsx` - Product detail page with DSLD data
+- `app/components/HeaderClient.tsx` - Header with search, dropdown (434 lines)
+- `app/components/ProductDetailClient.tsx` - Product detail page with DSLD data (648 lines)
 - `app/lib/route-adapter.ts` - Maps routes.config.ts → Next.js
-- `src/components/KnowledgebaseTemplate.tsx` - Supplement page template
-- `src/components/GlossaryTemplate.tsx` - Glossary term template
+- `src/components/KnowledgebaseTemplate.tsx` - Supplement page template (337 lines)
+- `src/components/GlossaryTemplate.tsx` - Glossary term template (286 lines)
 - `src/utils/analytics.ts` - All analytics tracking functions
 - `src/lib/glossaryAutolink.tsx` - Auto-linking engine
-- `src/styles/globals.css` - Design system, CSS variables
+- `src/styles/globals.css` - Design system, CSS variables (2,134 lines)
 - `package.json` - Build scripts, Node >=22.x required
+
+### Directory Structure
+```
+app/                           # Next.js App Router
+├── [slug]/
+│   ├── page.tsx              # Supplement + comparison pages (dynamic, COMPONENT_MAP)
+│   └── product/[productId]/page.tsx  # Product detail pages (1,867 routes)
+├── glossary/[term]/page.tsx  # Glossary pages (dynamic)
+├── components/               # Client components (HeaderClient, ProductDetailClient, etc.)
+├── lib/route-adapter.ts      # Route mapping utility
+├── layout.tsx                # Root layout
+└── error.tsx                 # Error boundary with analytics
+
+src/                           # Source code
+├── components/               # All page components (289 total)
+│   ├── *KnowledgebasePage.tsx  # 17 supplement pages
+│   ├── glossary/*.tsx        # 198 glossary pages
+│   ├── knowledgebase/        # 12 modular sections (Benefits, Research, etc.)
+│   └── ui/                   # 39 ShadCN components
+├── routes.config.ts          # ⭐ ROUTING SOURCE OF TRUTH (2,322 lines)
+├── utils/                    # Analytics, images, supplementImages.ts
+├── lib/                      # Glossary autolink, analytics
+├── styles/globals.css        # Design system (2,134 lines - CSS variables, dark mode)
+└── data/                     # 🆕 Recommended: Separate data from components
+
+scripts/                       # Build scripts (12 total)
+└── web-build/               # Sitemap, structured data generation
+
+public/                        # Static assets
+├── images/supplements/       # Supplement images (17)
+├── api/products/supplements/ # Product data JSON (17 files, ~2 MB each)
+├── structured-data/          # JSON-LD files (auto-generated)
+└── sitemap.xml              # Generated sitemap (1,936 URLs)
+```
+
+**File Count Summary**:
+- Component Files: 289 (17 KB + 198 glossary + 39 UI + 35 utility)
+- Data Files: 41 (17 product JSON + 17 images + 7 logos)
+- Configuration: 18 (routes, TypeScript, Next.js, build scripts)
+- **Total Static Pages**: 1,936
+Medium Usage (50-90%):
+⚠️ technicalExplanation (154/198 - 78%)
+⚠️ examples (129/198 - 65%)
+⚠️ keyPoints (115/198 - 58%)
+
+⚠️ INCONSISTENCY: relatedTerms uses two different formats:
+// Format 1 (60% of pages):
+relatedTerms: ['Term 1', 'Term 2']
+
+// Format 2 (40% of pages):
+relatedTerms: [{ term: 'Term 1', key: 'term1' }]
+
+// Recommendation: Standardize on object format
+```
+
+**When creating new pages**, refer to most complete examples:
+- Knowledgebase: `AshwagandhaKnowledgebasePage.tsx`, `CreatineKnowledgebasePage.tsx`
+- Glossary: `RCTPage.tsx`, `MetaAnalysisPage.tsx`
 
 ### Directory Structure
 ```
@@ -771,6 +992,19 @@ npm run analyze                   # Bundle size analysis
 - **archive/** - Historical documentation
 - **INDEX.md** - Master documentation index
 
+### Recent Documentation (Nov 25, 2025 - Evening)
+- **CODEBASE_AUDIT_NOV25.md** - Comprehensive codebase structure analysis
+  - File count summary (1,936 pages, 229 components)
+  - Naming conventions documentation
+  - Build system health check
+  - Best practices compliance review
+- **CONTENT_STRUCTURE_RECOMMENDATIONS.md** - Optional reorganization proposals
+  - Two implementation options (full vs minimal)
+  - Risk assessment and effort estimates
+  - Implementation guide with detailed checklists
+  - Import path update examples
+- **CLEANUP_SUMMARY_NOV25.md** - Cleanup actions taken (13 scripts archived)
+
 ### Archived Documentation (.archive/)
 - **completed-work-nov-2025/** - Recent fixes and enhancements (Nov 2025)
   - CATEGORY_CLEANUP_COMPLETE.md
@@ -780,11 +1014,19 @@ npm run analyze                   # Bundle size analysis
   - And 4 more completion docs
 - **migration-docs/** - v0.2 → v0.3 migration history
 
+### Archived Scripts (scripts/.archive-cleanup-nov25/)
+- **Migration fix scripts** - 13 obsolete scripts from Vite→Next migration
+  - Icon validation, props cleanup, link formatting, etc.
+  - All executed successfully during migration
+  - Archived for historical reference
+
 ### Finding Documentation
 1. **Start with**: `docs/INDEX.md` for complete navigation
 2. **AI agents**: `.github/copilot-instructions.md` (this file)
 3. **Quick help**: `docs/reference/QUICK_ANSWERS.md`
 4. **Deployment**: `docs/deployment/` folder
+5. **Project audit**: `docs/CODEBASE_AUDIT_NOV25.md` for comprehensive overview
+6. **Reorganization**: `docs/CONTENT_STRUCTURE_RECOMMENDATIONS.md` for future improvements
 
 ## Notes
 
