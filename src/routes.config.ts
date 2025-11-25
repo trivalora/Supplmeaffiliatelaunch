@@ -173,7 +173,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   {
     key: 'bcaasv2',
     title: 'BCAAs',
-    path: '/bcaas',
+    path: '/bcaa',
     description: 'Enhanced meta-analysis review of branched-chain amino acids for muscle recovery and hepatic health',
     componentPath: './components/BcaaKnowledgebasePage',
     componentName: 'BcaaKnowledgebasePage',

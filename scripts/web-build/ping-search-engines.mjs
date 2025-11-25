@@ -11,25 +11,29 @@ import crypto from 'crypto';
 
 const BASE_URL = process.env.VITE_CANONICAL_BASE_URL || process.env.SITE_BASE_URL || 'https://www.suppl.me';
 const SITEMAP_URL = `${BASE_URL}/sitemap.xml`;
-const INDEX_NOW_KEY_FILE = 'indexnow-key.txt';
 const projectRoot = process.cwd();
 const publicDir = path.join(projectRoot, 'public');
 
 /**
  * Generate or retrieve IndexNow API key
+ * Per Bing documentation, key file should be named {key}.txt
  */
 function getIndexNowKey() {
-  const keyPath = path.join(publicDir, INDEX_NOW_KEY_FILE);
+  // Check for existing key file (named after the key itself)
+  const files = fs.readdirSync(publicDir);
+  const existingKeyFile = files.find(f => f.length === 68 && f.endsWith('.txt'));
   
-  // If key exists, read it
-  if (fs.existsSync(keyPath)) {
-    return fs.readFileSync(keyPath, 'utf-8').trim();
+  if (existingKeyFile) {
+    const key = existingKeyFile.replace('.txt', '');
+    return key;
   }
   
-  // Generate new key (32-character hex)
+  // Generate new key (64-character hex per Bing docs)
   const newKey = crypto.randomBytes(32).toString('hex');
+  const keyPath = path.join(publicDir, `${newKey}.txt`);
   fs.writeFileSync(keyPath, newKey, 'utf-8');
   console.log(`[search-ping] Generated new IndexNow key: ${newKey}`);
+  console.log(`[search-ping] Key file hosted at: ${BASE_URL}/${newKey}.txt`);
   return newKey;
 }
 
@@ -89,7 +93,7 @@ async function submitIndexNow(urls) {
   const payload = {
     host: host,
     key: key,
-    keyLocation: `${BASE_URL}/${INDEX_NOW_KEY_FILE}`,
+    keyLocation: `${BASE_URL}/${key}.txt`,
     urlList: urls.slice(0, 100) // IndexNow has a limit of 10,000 URLs, but we'll batch conservatively
   };
   
