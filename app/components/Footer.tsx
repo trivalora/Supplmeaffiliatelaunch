@@ -5,13 +5,13 @@ import Image from 'next/image';
 export function Footer() {
   return (
     <footer 
-      className="bg-primary w-full relative" 
+      className="w-full relative" 
       style={{ 
         position: 'relative', 
         zIndex: 10, 
         borderTop: '1px solid rgba(224, 203, 168, 0.25)',
-        backgroundColor: 'var(--primary, #162f1c)',
-        color: 'var(--secondary, #e0cba8)'
+        backgroundColor: '#162f1c !important',
+        color: '#e0cba8 !important'
       }}
     >
       <div className="mx-auto px-4 md:px-8 py-12 max-w-7xl">
@@ -29,7 +29,7 @@ export function Footer() {
 
         {/* Disclaimer */}
         <div className="mb-8 text-center md:text-left max-w-4xl mx-auto">
-          <p className="text-secondary text-sm md:text-base" style={{ color: 'var(--secondary, #e0cba8)' }}>
+          <p className="text-sm md:text-base" style={{ color: '#e0cba8 !important' }}>
             The purchase links on this website are affiliate links and we earn a commission if you buy through our website. 
             This is the only way we currently make money. Thank you.
           </p>
@@ -39,43 +39,43 @@ export function Footer() {
         <div className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4 mb-8">
           <Link 
             href="/partner"
-            className="text-secondary hover:opacity-80 transition-opacity"
-            style={{ color: 'var(--secondary, #e0cba8)' }}
+            className="hover:opacity-80 transition-opacity"
+            style={{ color: '#e0cba8 !important' }}
           >
             Partner
           </Link>
           <Link 
             href="/contact"
-            className="text-secondary hover:opacity-80 transition-opacity"
-            style={{ color: 'var(--secondary, #e0cba8)' }}
+            className="hover:opacity-80 transition-opacity"
+            style={{ color: '#e0cba8 !important' }}
           >
             Contact Us
           </Link>
           <Link 
             href="/legal"
-            className="text-secondary hover:opacity-80 transition-opacity"
-            style={{ color: 'var(--secondary, #e0cba8)' }}
+            className="hover:opacity-80 transition-opacity"
+            style={{ color: '#e0cba8 !important' }}
           >
             Legal Notice
           </Link>
           <Link 
             href="/privacy"
-            className="text-secondary hover:opacity-80 transition-opacity"
-            style={{ color: 'var(--secondary, #e0cba8)' }}
+            className="hover:opacity-80 transition-opacity"
+            style={{ color: '#e0cba8 !important' }}
           >
             Privacy Policy
           </Link>
           <Link 
             href="/cookies"
-            className="text-secondary hover:opacity-80 transition-opacity"
-            style={{ color: 'var(--secondary, #e0cba8)' }}
+            className="hover:opacity-80 transition-opacity"
+            style={{ color: '#e0cba8 !important' }}
           >
             Cookie Policy
           </Link>
           <Link 
             href="/terms"
-            className="text-secondary hover:opacity-80 transition-opacity"
-            style={{ color: 'var(--secondary, #e0cba8)' }}
+            className="hover:opacity-80 transition-opacity"
+            style={{ color: '#e0cba8 !important' }}
           >
             Terms of Service
           </Link>
@@ -91,7 +91,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="text-center">
-          <p className="text-secondary text-xs" style={{ color: 'var(--secondary, #e0cba8)' }}>
+          <p className="text-xs" style={{ color: '#e0cba8 !important' }}>
             © 2025 - Trivalora, Inc.
           </p>
         </div>

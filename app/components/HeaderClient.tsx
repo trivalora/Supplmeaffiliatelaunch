@@ -30,10 +30,12 @@ const DropdownItem = memo(({ route, onClick }: { route: RouteConfig; onClick: ()
   return (
     <Link
       href={href}
-      className="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors hover:bg-white/5"
+      className="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors"
       onClick={onClick}
       prefetch={true}
       style={{ opacity: 1 }}
+      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.05)'}
+      onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
     >
       {imageUrl && (
         <div className="dropdown-thumbnail">
@@ -144,8 +146,8 @@ function KnowledgebaseDropdown({ routes }: { routes: RouteConfig[] }) {
             <div
               className="rounded-2xl shadow-xl flex flex-col"
               style={{
-                backgroundColor: 'var(--primary, #162F1C)',
-                border: '0.5px solid var(--header-secondary, #E0CBA8)',
+                backgroundColor: '#162F1C !important',
+                border: '0.5px solid #E0CBA8',
                 width: '420px',
                 maxHeight: 'calc(75vh - var(--header-height) + 4vh)',
                 height: '100%'
