@@ -194,6 +194,7 @@ function transformProducts(products) {
       id,
       json_id: jsonId, // Store the original JSON ID
       supplement_id: supplementId,
+      supplement_slug: product.supplement_slug, // KEEP supplement_slug for database
       dsld_id: clean(product.dsld_id),
       brand: clean(product.brand),
       product_name: clean(product.product_name),
@@ -394,6 +395,7 @@ async function main() {
     { id: 'id', title: 'id' },
     { id: 'json_id', title: 'json_id' },
     { id: 'supplement_id', title: 'supplement_id' },
+    { id: 'supplement_slug', title: 'supplement_slug' },
     { id: 'dsld_id', title: 'dsld_id' },
     { id: 'brand', title: 'brand' },
     { id: 'product_name', title: 'product_name' },

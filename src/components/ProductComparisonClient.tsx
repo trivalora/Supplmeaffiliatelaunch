@@ -176,7 +176,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
     // Search filter
     if (searchQuery) {
       const searchText = (
-        (product.retailer_prices && product.retailer_prices[0]?.product_name || '') + ' ' +
+        (product.dsld_product_name || product.product_name || '') + ' ' +
         (product.brand || '') + ' ' +
         (product.retailer_prices?.map((r: any) => r.retailer).join(' ') || '')
       ).toLowerCase();
@@ -190,7 +190,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
         return price < min ? price : min;
       }, Infinity);
       
-      if (lowestPrice < priceRange[0] || lowestPrice > priceRange[1]) return false;
+      if (lowestPrice !== undefined && lowestPrice !== Infinity && (lowestPrice < priceRange[0] || lowestPrice > priceRange[1])) return false;
     }
     
     // Dietary filters - product must match ALL active filters
@@ -227,17 +227,17 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
       const lowestRetailerPrice = product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit)[0];
       return {
         id: product.id || `${product.brand}-${idx}`,
-        name: product.dsld_product_name || product.brand || 'Unknown Product',
+        name: product.dsld_product_name || product.product_name || product.brand || 'Unknown Product',
         brand: product.brand || 'Unknown Brand',
         price: lowestRetailerPrice?.price || 0,
         pricePerUnit: lowestRetailerPrice?.price_per_unit || 0,
         unit: product.unit || 'unit',
         retailer: lowestRetailerPrice?.retailer || 'Unknown',
         productUrl: lowestRetailerPrice?.product_url || '',
-        imageUrl: product.product_image_url || lowestRetailerPrice?.image_url,
+        imageUrl: product.product_image_url || undefined,
         position: idx + 1,
         dosage: product.amount_per_serving ? `${product.amount_per_serving} ${product.unit}` : undefined,
-        netContents: product.net_contents,
+        netContents: product.net_contents || undefined,
         availableRetailers: product.retailer_prices?.length || 0,
       };
     });
@@ -277,7 +277,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
       for (const product of apiProducts) {
         if (searchQuery) {
           const searchText = (
-            (product.retailer_prices && product.retailer_prices[0]?.product_name || '') + ' ' +
+            (product.dsld_product_name || product.product_name || '') + ' ' +
             (product.brand || '') + ' ' +
             (product.retailer_prices?.map((r: any) => r.retailer).join(' ') || '')
           ).toLowerCase();
@@ -291,7 +291,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
             return price < min ? price : min;
           }, Infinity);
           
-          if (lowestPrice < priceRange[0] || lowestPrice > priceRange[1]) continue;
+          if (lowestPrice !== undefined && lowestPrice !== Infinity && (lowestPrice < priceRange[0] || lowestPrice > priceRange[1])) continue;
         }
         
         const productFilters = product.filters || [];
@@ -352,8 +352,6 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
             <ErrorState 
               error={error} 
               onRetry={refetch}
-              title="Failed to load products"
-              description="We couldn't load the product comparison data. Please try again."
             />
           </div>
         </main>
@@ -603,7 +601,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                       <tbody>
                         {filteredProducts.map((product, idx) => {
                           const lowestRetailerPrice = product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit)[0];
-                          const imageUrl = product.product_image_url || lowestRetailerPrice?.image_url || product.retailer_prices?.find((r: any) => r.image_url)?.image_url;
+                          const imageUrl = product.product_image_url;
                           const productId = product.id || `${product.brand?.toLowerCase().replace(/\s+/g, '-')}-${idx}`;
                           
                           return (
@@ -928,7 +926,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                 <div className="lg:hidden space-y-4">
                   {filteredProducts.map((product, idx) => {
                     const lowestRetailerPrice = product.retailer_prices?.sort((a: any, b: any) => a.price_per_unit - b.price_per_unit)[0];
-                    const imageUrl = product.product_image_url || lowestRetailerPrice?.image_url || product.retailer_prices?.find((r: any) => r.image_url)?.image_url;
+                    const imageUrl = product.product_image_url;
                     const productId = product.id || `${product.brand?.toLowerCase().replace(/\s+/g, '-')}-${idx}`;
                     
                     return (

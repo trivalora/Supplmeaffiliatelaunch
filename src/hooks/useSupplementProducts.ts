@@ -20,6 +20,7 @@ interface Product {
   dsld_id: string;
   brand: string;
   product_name: string;
+  dsld_product_name?: string; // DSLD product name
   display_name: string | null;
   serving_size: string | null;
   third_party_tested: boolean;
@@ -32,7 +33,7 @@ interface Product {
   // Metadata fields from enrichment
   unit: string | null;
   amount_per_serving: number | null;
-  net_contents: string | null;
+  net_contents: string | null | undefined; // Allow undefined for compatibility
   filters: string[];
   product_image_url: string | null;
 }

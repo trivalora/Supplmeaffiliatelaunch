@@ -19,6 +19,7 @@
  */
 
 import fs from 'fs';
+import { join, dirname } from 'path';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parse } from 'csv-parse/sync';
@@ -34,6 +35,7 @@ dotenv.config({ path: path.join(__dirname, '../../.env.local') });
 // Configuration
 const CONFIG = {
   inputDir: path.join(__dirname, 'data/transformed'),
+  dataDir: path.join(__dirname, 'data'),
   backupDir: path.join(__dirname, 'data/backups'),
   batchSize: 100  // Insert in batches to avoid timeouts
 };
@@ -75,8 +77,8 @@ function ensureBackupDir() {
 /**
  * Read CSV file
  */
-function readCSV(filename) {
-  const filepath = path.join(CONFIG.inputDir, filename);
+function readCSV(filename, customDir = null) {
+  const filepath = path.join(customDir || CONFIG.inputDir, filename);
   try {
     const content = fs.readFileSync(filepath, 'utf8');
     return parse(content, {
@@ -117,10 +119,22 @@ async function insertBatch(supabase, table, records, batchSize = CONFIG.batchSiz
       if (useUpsert) {
         // Use upsert to update if exists, insert if not
         const { data, error } = await query.upsert(batch, { onConflict: getConflictColumn(table) });
-        if (error) throw error;
+        if (error) {
+          // Log first record in failing batch for debugging
+          console.error(`\n  ✗ Batch ${i + 1} error details:`);
+          console.error(`     Error: ${error.message}`);
+          console.error(`     First record in batch:`, JSON.stringify(batch[0], null, 2));
+          throw error;
+        }
       } else {
         const { data, error} = await query.insert(batch);
-        if (error) throw error;
+        if (error) {
+          // Log first record in failing batch for debugging
+          console.error(`\n  ✗ Batch ${i + 1} error details:`);
+          console.error(`     Error: ${error.message}`);
+          console.error(`     First record in batch:`, JSON.stringify(batch[0], null, 2));
+          throw error;
+        }
       }
       
       loaded += batch.length;
@@ -128,7 +142,7 @@ async function insertBatch(supabase, table, records, batchSize = CONFIG.batchSiz
     } catch (error) {
       failed += batch.length;
       stats.errors.push(`Batch ${i + 1} failed for ${table}: ${error.message}`);
-      console.error(`\n  ✗ Batch ${i + 1} failed: ${error.message}`);
+      // Don't duplicate console.error - already logged above
     }
   }
   
@@ -167,7 +181,36 @@ async function loadSupplements(supabase, supplements) {
 async function loadProducts(supabase, products) {
   console.log('Loading products...');
   
-  const result = await insertBatch(supabase, 'products', products, CONFIG.batchSize, true);
+  // Step 1: Query actual supplement UUIDs from database
+  console.log('  Querying supplement UUIDs from database...');
+  const { data: supplements, error: suppError } = await supabase
+    .from('supplements')
+    .select('id, slug');
+  
+  if (suppError) {
+    console.error(`  ✗ Failed to fetch supplements: ${suppError.message}`);
+    stats.products.failed = products.length;
+    return;
+  }
+  
+  const slugToIdMap = {};
+  supplements.forEach(supp => {
+    slugToIdMap[supp.slug] = supp.id;
+  });
+  console.log(`  ✓ Mapped ${Object.keys(slugToIdMap).length} supplement slugs to database UUIDs`);
+  
+  // Step 2: Replace supplement_id with actual database UUIDs
+  console.log('  Updating products with correct supplement_id values...');
+  const updatedProducts = products.map(product => {
+    const correctSupplementId = slugToIdMap[product.supplement_slug];
+    return {
+      ...product,
+      supplement_id: correctSupplementId // Replace transform-generated UUID with actual database UUID
+    };
+  });
+  
+  // Step 3: Insert products with correct supplement_ids
+  const result = await insertBatch(supabase, 'products', updatedProducts, CONFIG.batchSize, true);
   stats.products.loaded = result.loaded;
   stats.products.failed = result.failed;
   
@@ -180,7 +223,81 @@ async function loadProducts(supabase, products) {
 async function loadPrices(supabase, prices) {
   console.log('Loading prices...');
   
-  const result = await insertBatch(supabase, 'prices', prices, CONFIG.batchSize, true);
+  // Step 1: Build product_json_id -> product_id mapping
+  console.log('  Building product json_id->id mapping...');
+  const { data: products, error: prodError } = await supabase
+    .from('products')
+    .select('id, json_id');
+  
+  if (prodError) {
+    console.error(`  ✗ Failed to fetch products: ${prodError.message}`);
+    stats.prices.failed = prices.length;
+    return;
+  }
+  
+  const productMap = {};
+  products.forEach(prod => {
+    productMap[prod.json_id] = prod.id;
+  });
+  console.log(`  ✓ Mapped ${Object.keys(productMap).length} product json_ids to IDs`);
+  
+  // Step 2: Build retailer_name -> retailer_id mapping
+  console.log('  Building retailer name->id mapping...');
+  const { data: retailers, error: retError } = await supabase
+    .from('retailers')
+    .select('id, name');
+  
+  if (retError) {
+    console.error(`  ✗ Failed to fetch retailers: ${retError.message}`);
+    stats.prices.failed = prices.length;
+    return;
+  }
+  
+  const retailerMap = {};
+  retailers.forEach(ret => {
+    retailerMap[ret.name] = ret.id;
+  });
+  console.log(`  ✓ Mapped ${Object.keys(retailerMap).length} retailer names to IDs`);
+  
+  // Step 3: Transform prices to add product_id and retailer_id
+  console.log('  Transforming prices to add product_id and retailer_id...');
+  const seenPairs = new Set();
+  const transformedPrices = prices
+    .map(price => {
+      const productId = productMap[price.product_json_id];
+      const retailerId = retailerMap[price.retailer_name];
+      
+      if (!productId) {
+        console.warn(`  ⚠ Warning: No product found for json_id "${price.product_json_id}"`);
+      }
+      if (!retailerId) {
+        console.warn(`  ⚠ Warning: No retailer found for name "${price.retailer_name}"`);
+      }
+      
+      return {
+        product_id: productId,
+        retailer_id: retailerId,
+        price: price.price,
+        currency: price.currency,
+        product_url: price.product_url,
+        affiliate_url: price.affiliate_url,
+        in_stock: price.in_stock,
+        last_checked_at: price.last_checked_at
+      };
+    })
+    .filter(price => {
+      // Dedupe: Keep only first occurrence of each (product_id, retailer_id) pair
+      const key = `${price.product_id}_${price.retailer_id}`;
+      if (seenPairs.has(key) || !price.product_id || !price.retailer_id) {
+        return false;
+      }
+      seenPairs.add(key);
+      return true;
+    });
+  console.log(`  ✓ Transformed ${transformedPrices.length} prices (${prices.length - transformedPrices.length} duplicates/invalid skipped)`);
+  
+  // Step 4: Insert prices
+  const result = await insertBatch(supabase, 'prices', transformedPrices, CONFIG.batchSize, false);
   stats.prices.loaded = result.loaded;
   stats.prices.failed = result.failed;
   
@@ -346,7 +463,8 @@ async function main() {
   console.log('Step 1: Reading validated CSV files...');
   const supplements = readCSV('supplements-validated.csv');
   const products = readCSV('products-validated.csv');
-  const prices = readCSV('prices-validated.csv');
+  // Use original prices.csv (has product_json_id, retailer_name) not validated (has UUIDs)
+  const prices = readCSV('prices.csv', CONFIG.dataDir);
   console.log(`  ✓ Read ${supplements.length} supplements`);
   console.log(`  ✓ Read ${products.length} products`);
   console.log(`  ✓ Read ${prices.length} prices`);
