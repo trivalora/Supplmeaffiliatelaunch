@@ -46,6 +46,9 @@ export async function GET(request: Request) {
     
     const { data, error } = await query;
     
+    // Type assertion for view data
+    const supplements = data as any;
+    
     if (error) {
       console.error('Error fetching supplements:', error);
       return NextResponse.json(
@@ -54,8 +57,11 @@ export async function GET(request: Request) {
       );
     }
     
+    // Type assertion for view data
+    const supplements = data as any;
+    
     return NextResponse.json(
-      { supplements: data },
+      { supplements },
       {
         headers: {
           'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',

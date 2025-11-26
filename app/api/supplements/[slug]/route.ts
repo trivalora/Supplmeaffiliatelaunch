@@ -47,7 +47,7 @@ export async function GET(
     const supabase = createClient();
     
     // Query supplement with product count
-    const { data, error } = await supabase
+    const { data: supplementData, error } = await supabase
       .from('supplements')
       .select(`
         *,
@@ -71,6 +71,9 @@ export async function GET(
         { status: 500 }
       );
     }
+    
+    // Type assertion for joined data
+    const data = supplementData as any;
     
     // Transform response to include product_count at top level
     const supplement = {
