@@ -46,9 +46,6 @@ export async function GET(request: Request) {
     
     const { data, error } = await query;
     
-    // Type assertion for view data
-    const { data, error } = await query;
-    
     if (error) {
       console.error('Error fetching supplements:', error);
       return NextResponse.json(
