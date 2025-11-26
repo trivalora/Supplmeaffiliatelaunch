@@ -46,7 +46,7 @@ export function ImpressumPage() {
                       <div className="space-y-3 text-foreground">
                         <p><strong>Company Name:</strong> Trivalora Inc.</p>
                         <p><strong>Legal Form:</strong> Incorporated</p>
-                        <p><strong>Website:</strong> <a href="https://suppl.me" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">suppl.me</a></p>
+                        <p><strong>Website:</strong> <a href="https://www.suppl.me" target="_blank" rel="nofollow noreferrer" className="text-primary hover:underline">www.suppl.me</a></p>
                       </div>
                     </div>
                   </div>

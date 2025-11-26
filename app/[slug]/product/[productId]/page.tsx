@@ -83,7 +83,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       w.charAt(0).toUpperCase() + w.slice(1)
     ).join(' ');
     
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_CANONICAL_BASE_URL || 'https://suppl.me';
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_CANONICAL_BASE_URL || 'https://www.suppl.me';
     const canonicalUrl = `${baseUrl}/${supplement}/product/${encodeURIComponent(productId)}`;
     
     return {
