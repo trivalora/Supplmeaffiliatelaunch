@@ -22,7 +22,7 @@ export function MagnesiumKnowledgebasePage({
     supplementName: "Magnesium",
     currentPage: "magnesium",
     heroDescription: "Evidence-based overview of an essential mineral with meta-analytic support for modest improvements in blood pressure, glucose metabolism, inflammation, and biomarker response in specific populations.",
-    heroImageUrl: getSupplementImage('magnesiumv2'),
+    heroImageUrl: getSupplementImage('magnesium'),
     
     overviewTitle: "What is Magnesium?",
     overviewContent: (

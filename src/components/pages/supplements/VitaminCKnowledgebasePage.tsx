@@ -22,7 +22,7 @@ export function VitaminCKnowledgebasePage({
     supplementName: "Vitamin C",
     currentPage: "vitaminc",
     heroDescription: "Evidence-based overview of an essential antioxidant vitamin with meta-analytic support for immune function, cardiovascular health, and critical illness outcomes.",
-    heroImageUrl: getSupplementImage('vitamincv2'),
+    heroImageUrl: getSupplementImage('vitaminc'),
     
     overviewTitle: "What is Vitamin C?",
     overviewContent: (

@@ -23,7 +23,7 @@ export function MultivitaminKnowledgebasePage({
     supplementName: "Multivitamin",
     currentPage: "multivitamin",
     heroDescription: "Evidence-based overview of comprehensive vitamin and mineral supplements with population-specific efficacy ranging from no mortality benefit in healthy adults to reduced cataracts in older adults, improved pregnancy outcomes, and consistent safety profiles across all groups.",
-    heroImageUrl: getSupplementImage('multivitaminv2'),
+    heroImageUrl: getSupplementImage('multivitamin'),
     
     overviewTitle: "What is a Multivitamin?",
     overviewContent: (

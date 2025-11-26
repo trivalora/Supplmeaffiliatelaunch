@@ -22,7 +22,7 @@ export function SulforaphaneKnowledgebasePage({
     supplementName: "Sulforaphane",
     currentPage: "sulforaphane",
     heroDescription: "Evidence-based overview of a powerful phytochemical from cruciferous vegetables, with meta-analytic support for autism spectrum disorder symptoms and cardiovascular health.",
-    heroImageUrl: getSupplementImage('sulforaphanev2'),
+    heroImageUrl: getSupplementImage('sulforaphane'),
     
     overviewTitle: "What is Sulforaphane?",
     overviewContent: (

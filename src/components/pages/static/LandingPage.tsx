@@ -516,32 +516,32 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
     {
       ...getProductsBySupplementName('multivitamin')[1], // Life Extension Two-Per-Day
       supplementName: 'multivitamin',
-      onClick: () => onNavigate('multivitaminv2' as PageKey)
+      onClick: () => onNavigate('multivitamin' as PageKey)
     },
     {
       ...getProductsBySupplementName('vitamin d')[1], // California Gold Nutrition Vitamin D3
       supplementName: 'vitamin d',
-      onClick: () => onNavigate('vitamindv2' as PageKey)
+      onClick: () => onNavigate('vitamind' as PageKey)
     },
     {
       ...getProductsBySupplementName('omega-3')[1], // California Gold Nutrition Omega-3
       supplementName: 'omega-3',
-      onClick: () => onNavigate('omega3v2' as PageKey)
+      onClick: () => onNavigate('omega3' as PageKey)
     },
     {
       ...getProductsBySupplementName('creatine')[1], // California Gold Nutrition Creatine
       supplementName: 'creatine',
-      onClick: () => onNavigate('creatinev2' as PageKey)
+      onClick: () => onNavigate('creatine' as PageKey)
     },
     {
       ...getProductsBySupplementName('magnesium')[1], // Doctor's Best Magnesium
       supplementName: 'magnesium',
-      onClick: () => onNavigate('magnesiumv2' as PageKey)
+      onClick: () => onNavigate('magnesium' as PageKey)
     },
     {
       ...getProductsBySupplementName('vitamin c')[1], // California Gold Nutrition Vitamin C
       supplementName: 'vitamin c',
-      onClick: () => onNavigate('vitamincv2' as PageKey)
+      onClick: () => onNavigate('vitaminc' as PageKey)
     }
   ];
 

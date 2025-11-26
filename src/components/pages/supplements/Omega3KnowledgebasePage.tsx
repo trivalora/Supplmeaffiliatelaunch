@@ -24,7 +24,7 @@ export function Omega3KnowledgebasePage({
     supplementName: "Omega-3",
     currentPage: "omega3",
     heroDescription: "Evidence-based overview of essential fatty acids (EPA and DHA) critical for heart health, brain function, inflammation control, and overall wellbeing.",
-    heroImageUrl: getSupplementImage('omega3v2'),
+    heroImageUrl: getSupplementImage('omega3'),
     
     overviewTitle: "What is Omega-3?",
     overviewContent: (

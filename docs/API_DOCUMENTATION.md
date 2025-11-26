@@ -1,0 +1,458 @@
+# API Endpoints Documentation
+
+**Base URL**: `https://www.suppl.me/api`  
+**Version**: 1.0  
+**Last Updated**: November 26, 2025
+
+---
+
+## Authentication
+
+All API endpoints are currently **public** (no authentication required). Rate limiting is handled by Vercel/Supabase.
+
+---
+
+## Endpoints
+
+### 1. GET /supplements
+
+List all supplements with summary data.
+
+**Query Parameters**:
+- `show_in_nav` (boolean, optional) - Filter by navigation visibility
+
+**Example Request**:
+```bash
+GET /api/supplements?show_in_nav=true
+```
+
+**Example Response**:
+```json
+{
+  "supplements": [
+    {
+      "id": "uuid",
+      "slug": "ashwagandha",
+      "name": "Ashwagandha",
+      "display_name": "Ashwagandha",
+      "subcategory": "Adaptogens",
+      "hero_image_url": "/images/supplements/ashwagandha.webp",
+      "show_in_nav": true,
+      "sort_order": 1,
+      "product_count": 96,
+      "avg_price": 15.99,
+      "min_price": 8.99,
+      "max_price": 39.99
+    }
+  ]
+}
+```
+
+**Cache**: 1 hour
+
+---
+
+### 2. GET /supplements/[slug]
+
+Get single supplement with details.
+
+**Path Parameters**:
+- `slug` (string, required) - Supplement slug (e.g., 'ashwagandha')
+
+**Example Request**:
+```bash
+GET /api/supplements/ashwagandha
+```
+
+**Example Response**:
+```json
+{
+  "supplement": {
+    "id": "uuid",
+    "slug": "ashwagandha",
+    "name": "Ashwagandha",
+    "display_name": "Ashwagandha",
+    "subcategory": "Adaptogens",
+    "description": "Adaptogenic herb...",
+    "hero_description": "Evidence-based review...",
+    "hero_image_url": "/images/supplements/ashwagandha.webp",
+    "show_in_nav": true,
+    "sort_order": 1,
+    "meta_title": "Ashwagandha - Evidence-Based Research",
+    "meta_description": "Comprehensive meta-analysis review...",
+    "meta_keywords": ["ashwagandha", "adaptogens"],
+    "product_count": 96,
+    "created_at": "2025-11-26T00:00:00Z",
+    "updated_at": "2025-11-26T00:00:00Z"
+  }
+}
+```
+
+**Cache**: 1 hour
+
+**Error Responses**:
+- `404` - Supplement not found
+
+---
+
+### 3. GET /supplements/[slug]/products
+
+Get paginated product list for a supplement with advanced filtering.
+
+**Path Parameters**:
+- `slug` (string, required) - Supplement slug
+
+**Query Parameters**:
+- `page` (number, default: 1) - Page number
+- `limit` (number, default: 50, max: 100) - Items per page
+- `retailer` (string, optional) - Filter by retailer name (exact match)
+- `brand` (string, optional) - Filter by brand (partial match, case-insensitive)
+- `min_price` (number, optional) - Minimum price filter
+- `max_price` (number, optional) - Maximum price filter
+- `third_party_tested` (boolean, optional) - Filter by testing status
+- `in_stock` (boolean, default: true) - Only show in-stock products
+- `sort` (string, default: 'price_asc') - Sort order
+  - Options: `price_asc`, `price_desc`, `brand_asc`, `brand_desc`
+
+**Example Request**:
+```bash
+GET /api/supplements/ashwagandha/products?page=1&limit=10&sort=price_asc&retailer=iHerb&min_price=10&max_price=20
+```
+
+**Example Response**:
+```json
+{
+  "products": [
+    {
+      "id": "uuid",
+      "json_id": "57173_organic traditions_...",
+      "brand": "Organic Traditions",
+      "product_name": "Ashwagandha Root Powder",
+      "product_image_url": "/images/products/...",
+      "best_total_price": 12.99,
+      "available_retailers": ["iHerb", "Amazon"],
+      "price_count": 2,
+      "supplement_slug": "ashwagandha",
+      "supplement_name": "Ashwagandha"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 96,
+    "totalPages": 10
+  }
+}
+```
+
+**Cache**: 30 minutes
+
+**Error Responses**:
+- `404` - Supplement not found
+
+---
+
+### 4. GET /products/[id]
+
+Get single product with all prices and retailer info.
+
+**Path Parameters**:
+- `id` (string, required) - Product UUID or json_id
+
+**Example Request**:
+```bash
+# By UUID
+GET /api/products/550e8400-e29b-41d4-a716-446655440000
+
+# By json_id (backward compatibility)
+GET /api/products/57173_organic%20traditions_ashwagandha%20root%20powder_5000.0_mg_standard
+```
+
+**Example Response**:
+```json
+{
+  "product": {
+    "id": "uuid",
+    "json_id": "57173_organic traditions_...",
+    "dsld_id": "57173",
+    "brand": "Organic Traditions",
+    "product_name": "Ashwagandha Root Powder",
+    "display_name": null,
+    "dsld_product_name": "Organic Ashwagandha Root Powder",
+    "dsld_brand": "Organic Traditions",
+    "serving_size": "5000 mg",
+    "servings_per_container": "30",
+    "net_quantity": "150g",
+    "label_data": {},
+    "ingredients": ["Organic Ashwagandha Root"],
+    "product_image_url": "/images/products/...",
+    "is_active": true,
+    "third_party_tested": false,
+    "certifications": ["organic", "non-gmo"],
+    "supplement": {
+      "id": "uuid",
+      "slug": "ashwagandha",
+      "name": "Ashwagandha",
+      "display_name": "Ashwagandha"
+    },
+    "prices": [
+      {
+        "id": "uuid",
+        "price": 12.99,
+        "currency": "USD",
+        "product_url": "https://iherb.com/...",
+        "affiliate_url": "https://iherb.com/...",
+        "in_stock": true,
+        "last_checked_at": "2025-11-26T12:00:00Z",
+        "retailer": {
+          "id": "uuid",
+          "slug": "iherb",
+          "name": "iHerb",
+          "display_name": "iHerb",
+          "logo_url": "/logos/iherb.png",
+          "is_active": true
+        }
+      },
+      {
+        "id": "uuid",
+        "price": 14.99,
+        "currency": "USD",
+        "product_url": "https://amazon.com/...",
+        "affiliate_url": "https://amazon.com/...",
+        "in_stock": true,
+        "last_checked_at": "2025-11-26T12:00:00Z",
+        "retailer": {
+          "id": "uuid",
+          "slug": "amazon",
+          "name": "Amazon",
+          "display_name": "Amazon",
+          "logo_url": "/logos/amazon.png",
+          "is_active": true
+        }
+      }
+    ],
+    "created_at": "2025-11-26T00:00:00Z",
+    "updated_at": "2025-11-26T00:00:00Z"
+  }
+}
+```
+
+**Cache**: 1 hour
+
+**Error Responses**:
+- `404` - Product not found
+
+---
+
+### 5. GET /products/search
+
+Full-text search across all products with advanced filtering.
+
+**Query Parameters**:
+- `q` (string, **required**, min 2 chars) - Search query
+- `supplement` (string, optional) - Filter by supplement slug
+- `brand` (string, optional) - Filter by brand (partial match, case-insensitive)
+- `retailer` (string, optional) - Filter by retailer availability
+- `min_price` (number, optional) - Minimum price filter
+- `max_price` (number, optional) - Maximum price filter
+- `third_party_tested` (boolean, optional) - Filter by testing status
+- `in_stock` (boolean, default: true) - Only show in-stock products
+- `sort` (string, default: 'relevance') - Sort order
+  - Options: `relevance`, `price_asc`, `price_desc`, `brand_asc`, `brand_desc`
+- `page` (number, default: 1) - Page number
+- `limit` (number, default: 20, max: 100) - Results per page
+
+**Example Request**:
+```bash
+GET /api/products/search?q=ashwagandha+extract&supplement=ashwagandha&brand=now&min_price=10&max_price=30&third_party_tested=true&sort=price_asc&limit=20
+```
+
+**Example Response**:
+```json
+{
+  "results": [
+    {
+      "id": "uuid",
+      "json_id": "12345_now_...",
+      "brand": "NOW Foods",
+      "product_name": "Ashwagandha Extract 450mg",
+      "product_image_url": "/images/products/...",
+      "best_total_price": 12.99,
+      "available_retailers": ["iHerb", "Amazon", "Vitacost"],
+      "third_party_tested": true,
+      "supplement": {
+        "slug": "ashwagandha",
+        "name": "Ashwagandha"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 20,
+    "total": 45,
+    "totalPages": 3
+  },
+  "query": {
+    "q": "ashwagandha extract",
+    "filters": {
+      "supplement": "ashwagandha",
+      "brand": "now",
+      "retailer": null,
+      "min_price": "10",
+      "max_price": "30",
+      "third_party_tested": "true",
+      "in_stock": true,
+      "sort": "price_asc"
+    }
+  }
+}
+```
+
+**Cache**: 10 minutes
+
+**Error Responses**:
+- `400` - Search query too short (< 2 characters)
+
+---
+
+## Common Response Codes
+
+- `200` - Success
+- `400` - Bad Request (invalid parameters)
+- `404` - Not Found
+- `500` - Internal Server Error
+
+---
+
+## Rate Limiting
+
+Rate limits are enforced by Vercel/Supabase:
+- **Anonymous users**: ~100 requests/minute
+- **Authenticated users**: Higher limits (future)
+
+---
+
+## Caching
+
+All endpoints use HTTP caching headers:
+- `Cache-Control: public, s-maxage=X, stale-while-revalidate=Y`
+- Supplements: 1 hour cache, 24 hour stale
+- Products: 30 minutes - 1 hour cache
+- Search: 10 minutes cache
+
+---
+
+## Examples
+
+### Get all supplements in navigation
+```bash
+curl "https://www.suppl.me/api/supplements?show_in_nav=true"
+```
+
+### Get ashwagandha products sorted by price
+```bash
+curl "https://www.suppl.me/api/supplements/ashwagandha/products?sort=price_asc&limit=10"
+```
+
+### Search for NOW brand products
+```bash
+curl "https://www.suppl.me/api/products/search?q=vitamin&brand=now&sort=price_asc"
+```
+
+### Get products from iHerb only
+```bash
+curl "https://www.suppl.me/api/supplements/vitamin-d/products?retailer=iHerb"
+```
+
+### Search with multiple filters
+```bash
+curl "https://www.suppl.me/api/products/search?q=protein&supplement=whey&min_price=20&max_price=50&third_party_tested=true&retailer=iHerb"
+```
+
+---
+
+## TypeScript Types
+
+```typescript
+interface Supplement {
+  id: string;
+  slug: string;
+  name: string;
+  display_name: string;
+  subcategory: string;
+  description: string;
+  hero_description: string;
+  hero_image_url: string;
+  show_in_nav: boolean;
+  sort_order: number;
+  meta_title: string;
+  meta_description: string;
+  meta_keywords: string[];
+  product_count?: number;
+  avg_price?: number;
+  min_price?: number;
+  max_price?: number;
+  created_at: string;
+  updated_at: string;
+}
+
+interface Product {
+  id: string;
+  json_id: string;
+  dsld_id: string | null;
+  brand: string;
+  product_name: string;
+  display_name: string | null;
+  dsld_product_name: string | null;
+  dsld_brand: string | null;
+  serving_size: string | null;
+  servings_per_container: string | null;
+  net_quantity: string | null;
+  label_data: object;
+  ingredients: string[];
+  product_image_url: string | null;
+  is_active: boolean;
+  third_party_tested: boolean;
+  certifications: string[];
+  supplement?: {
+    id: string;
+    slug: string;
+    name: string;
+    display_name: string;
+  };
+  prices?: Price[];
+  created_at: string;
+  updated_at: string;
+}
+
+interface Price {
+  id: string;
+  price: number;
+  currency: string;
+  product_url: string | null;
+  affiliate_url: string | null;
+  in_stock: boolean;
+  last_checked_at: string;
+  retailer: Retailer;
+}
+
+interface Retailer {
+  id: string;
+  slug: string;
+  name: string;
+  display_name: string;
+  logo_url: string | null;
+  is_active: boolean;
+}
+
+interface Pagination {
+  page: number;
+  limit: number;
+  total: number;
+  totalPages: number;
+}
+```
+
+---
+
+**Support**: For API issues, contact via GitHub issues or email.

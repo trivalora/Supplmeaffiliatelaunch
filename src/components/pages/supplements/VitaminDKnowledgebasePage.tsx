@@ -24,7 +24,7 @@ export function VitaminDKnowledgebasePage({
     supplementName: "Vitamin D",
     currentPage: "vitamind",
     heroDescription: "Evidence-based overview of the sunshine vitamin essential for bone health, immune function, mood regulation, and overall wellbeing.",
-    heroImageUrl: getSupplementImage('vitamindv2'),
+    heroImageUrl: getSupplementImage('vitamind'),
     
     overviewTitle: "What is Vitamin D?",
     overviewContent: (

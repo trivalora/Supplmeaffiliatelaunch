@@ -36,25 +36,25 @@ const AVAILABLE_SUPPLEMENTS = [
 // Map comparison slugs to image keys (handles special cases)
 function getImageKeyFromSlug(slug: string): string {
   const mapping: Record<string, string> = {
-    'ashwagandha': 'ashwagandhav2',
-    'bcaa': 'bcaasv2',
-    'calcium': 'calciumv2',
-    'casein-protein': 'caseinproteinv2',
-    'collagen': 'collagenpeptidesv2',
-    'creatine': 'creatinev2',
-    'curcumin': 'curcuminv2',
-    'iron': 'ironv2',
-    'magnesium': 'magnesiumv2',
-    'multivitamin': 'multivitaminv2',
-    'omega-3': 'omega3v2',
-    'prebiotics': 'prebioticsv2',
-    'probiotics': 'probioticsv2',
-    'vitamin-c': 'vitamincv2',
-    'vitamin-d': 'vitamindv2',
-    'whey-protein': 'wheyproteinv2',
-    // Note: zinc image doesn't exist in SUPPLEMENT_IMAGES yet
+    'ashwagandha': 'ashwagandha',
+    'bcaa': 'bcaas',
+    'calcium': 'calcium',
+    'casein-protein': 'caseinprotein',
+    'collagen': 'collagenpeptides',
+    'creatine': 'creatine',
+    'curcumin': 'curcumin',
+    'iron': 'iron',
+    'magnesium': 'magnesium',
+    'multivitamin': 'multivitamin',
+    'omega-3': 'omega3',
+    'prebiotics': 'prebiotics',
+    'probiotics': 'probiotics',
+    'sulforaphane': 'sulforaphane',
+    'vitamin-c': 'vitaminc',
+    'vitamin-d': 'vitamind',
+    'whey-protein': 'wheyprotein',
   };
-  return mapping[slug] || `${slug}v2`;
+  return mapping[slug] || slug;
 }
 
 // Knowledgebase result item with image and blackish background

@@ -448,59 +448,59 @@ const GLOSSARY_TERMS: GlossaryTerm[] = [
     terms: ['prediabetes', 'pre-diabetes', 'prediabetic', 'impaired glucose tolerance', 'impaired fasting glucose', 'IGT', 'IFG']
   },
   {
-    key: 'magnesiumv2',
+    key: 'magnesium',
     terms: ['magnesium', 'magnesium supplement', 'magnesium supplementation', 'Mg']
   },
   {
-    key: 'calciumv2',
+    key: 'calcium',
     terms: ['calcium', 'calcium supplement', 'calcium supplementation', 'Ca']
   },
   {
-    key: 'ironv2',
+    key: 'iron',
     terms: ['iron supplement', 'iron supplementation', 'Fe supplement']
   },
   {
-    key: 'vitamindv2',
+    key: 'vitamind',
     terms: ['vitamin D', 'vitamin D3', 'cholecalciferol', 'vitamin D2', 'ergocalciferol', 'vitamin D supplementation']
   },
   {
-    key: 'vitamincv2',
+    key: 'vitaminc',
     terms: ['vitamin C', 'ascorbic acid', 'ascorbate', 'vitamin C supplementation']
   },
   {
-    key: 'omega3v2',
+    key: 'omega3',
     terms: ['omega-3 supplement', 'fish oil', 'omega-3 supplementation', 'fish oil supplement']
   },
   {
-    key: 'probioticsv2',
+    key: 'probiotics',
     terms: ['probiotic', 'probiotics', 'probiotic supplement']
   },
   {
-    key: 'prebioticsv2',
+    key: 'prebiotics',
     terms: ['prebiotic', 'prebiotics', 'prebiotic fiber']
   },
   {
-    key: 'creatinev2',
+    key: 'creatine',
     terms: ['creatine monohydrate', 'creatine supplement', 'creatine supplementation']
   },
   {
-    key: 'ashwagandhav2',
+    key: 'ashwagandha',
     terms: ['ashwagandha', 'withania somnifera', 'KSM-66']
   },
   {
-    key: 'sulforaphanev2',
+    key: 'sulforaphane',
     terms: ['sulforaphane', 'glucoraphanin']
   },
   {
-    key: 'collagenpeptidesv2',
+    key: 'collagenpeptides',
     terms: ['collagen peptide', 'collagen peptides', 'hydrolyzed collagen', 'collagen supplement']
   },
   {
-    key: 'bcaasv2',
+    key: 'bcaas',
     terms: ['BCAA', 'BCAAs', 'branched-chain amino acid', 'branched-chain amino acids', 'leucine:isoleucine:valine']
   },
   {
-    key: 'curcuminv2',
+    key: 'curcumin',
     terms: ['curcumin', 'curcuminoid', 'curcuminoids', 'turmeric extract']
   }
 ];

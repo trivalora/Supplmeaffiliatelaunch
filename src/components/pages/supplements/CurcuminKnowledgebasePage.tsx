@@ -22,7 +22,7 @@ export function CurcuminKnowledgebasePage({
     supplementName: "Curcumin",
     currentPage: "curcumin",
     heroDescription: "Active compound from turmeric with meta-analytic evidence demonstrating benefits in 23 of 42 clinical outcomes across metabolic, inflammatory, cognitive, and antioxidant domains",
-    heroImageUrl: getSupplementImage('curcuminv2'),
+    heroImageUrl: getSupplementImage('curcumin'),
     
     overviewTitle: "What is Curcumin?",
     overviewContent: (

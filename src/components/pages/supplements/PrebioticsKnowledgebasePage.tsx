@@ -22,7 +22,7 @@ export function PrebioticsKnowledgebasePage({
     supplementName: "Prebiotics",
     currentPage: "prebiotics",
     heroDescription: "Evidence-based overview of non-digestible fibers that nourish beneficial gut bacteria, supporting digestive health, immune function, and overall wellbeing.",
-    heroImageUrl: getSupplementImage('prebioticsv2'),
+    heroImageUrl: getSupplementImage('prebiotics'),
     
     overviewTitle: "What are Prebiotics?",
     overviewContent: (

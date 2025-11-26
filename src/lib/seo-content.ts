@@ -14,7 +14,7 @@ export interface SEOSupplementContent {
 }
 
 export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
-  ashwagandhav2: {
+  ashwagandha: {
     name: 'Ashwagandha Supplement',
     title: 'Ashwagandha: Science-Based Benefits, Dosage & Clinical Research',
     description: 'Evidence-based review of ashwagandha (Withania somnifera) for stress reduction, anxiety relief, and cognitive enhancement. Meta-analysis of clinical trials, optimal dosing recommendations, and safety profile.',
@@ -22,7 +22,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Adaptogens & Phytochemicals'
   },
   
-  bcaasv2: {
+  bcaas: {
     name: 'BCAAs (Branched-Chain Amino Acids)',
     title: 'BCAAs: Clinical Evidence for Muscle Recovery & Performance',
     description: 'Comprehensive analysis of branched-chain amino acids (leucine, isoleucine, valine) for muscle protein synthesis, exercise recovery, and athletic performance. Review of clinical studies and optimal supplementation protocols.',
@@ -30,7 +30,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Sports Nutrition'
   },
   
-  calciumv2: {
+  calcium: {
     name: 'Calcium Supplement',
     title: 'Calcium: Evidence-Based Review for Bone Health & Safety',
     description: 'Scientific review of calcium supplementation for bone density, osteoporosis prevention, and cardiovascular safety. Analysis of absorption, optimal forms (citrate vs carbonate), and dosing strategies.',
@@ -38,7 +38,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Minerals'
   },
   
-  caseinproteinv2: {
+  caseinprotein: {
     name: 'Casein Protein',
     title: 'Casein Protein: Slow-Digesting Protein for Muscle Growth',
     description: 'Evidence-based analysis of micellar casein protein for overnight muscle recovery, satiety, and lean mass gains. Comparison with whey protein and optimal timing strategies.',
@@ -46,7 +46,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Protein Supplements'
   },
   
-  collagenpeptidesv2: {
+  collagenpeptides: {
     name: 'Collagen Peptides',
     title: 'Collagen Peptides: Clinical Evidence for Skin, Joints & Bone Health',
     description: 'Comprehensive review of hydrolyzed collagen peptides for skin elasticity, joint health, and bone density. Meta-analysis of clinical trials, bioavailability, and optimal dosing protocols.',
@@ -54,7 +54,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Structural Support'
   },
   
-  creatinev2: {
+  creatine: {
     name: 'Creatine Monohydrate',
     title: 'Creatine: Most Researched Supplement for Strength & Cognition',
     description: 'Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile.',
@@ -62,7 +62,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Sports Nutrition'
   },
   
-  curcuminv2: {
+  curcumin: {
     name: 'Curcumin (Turmeric Extract)',
     title: 'Curcumin: Anti-Inflammatory Benefits & Bioavailability Solutions',
     description: 'Scientific review of curcumin for inflammation, joint health, and cognitive function. Analysis of bioavailability challenges, enhanced formulations (piperine, liposomal), and clinical efficacy.',
@@ -70,7 +70,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Anti-Inflammatory'
   },
   
-  ironv2: {
+  iron: {
     name: 'Iron Supplement',
     title: 'Iron: Evidence-Based Guide to Forms, Absorption & Safety',
     description: 'Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management.',
@@ -78,7 +78,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Minerals'
   },
   
-  magnesiumv2: {
+  magnesium: {
     name: 'Magnesium Supplement',
     title: 'Magnesium: Clinical Evidence for Sleep, Muscle & Heart Health',
     description: 'Evidence-based review of magnesium for sleep quality, muscle relaxation, cardiovascular health, and blood pressure. Analysis of bioavailable forms (glycinate, citrate, threonate) and optimal dosing.',
@@ -86,7 +86,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Minerals'
   },
   
-  multivitaminv2: {
+  multivitamin: {
     name: 'Multivitamin',
     title: 'Multivitamins: Evidence-Based Analysis of Efficacy & Quality',
     description: 'Scientific review of multivitamin supplementation for nutrient deficiencies, immune function, and disease prevention. Analysis of bioavailable forms, third-party testing, and cost-effectiveness.',
@@ -94,7 +94,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Essential Nutrients'
   },
   
-  omega3v2: {
+  omega3: {
     name: 'Omega-3 Fish Oil',
     title: 'Omega-3: EPA & DHA Benefits for Heart, Brain & Inflammation',
     description: 'Comprehensive analysis of omega-3 fatty acids (EPA/DHA) for cardiovascular health, cognitive function, and anti-inflammatory effects. Review of clinical trials, purity standards (IFOS), and optimal dosing.',
@@ -102,7 +102,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Essential Fatty Acids'
   },
   
-  prebioticsv2: {
+  prebiotics: {
     name: 'Prebiotic Fiber',
     title: 'Prebiotics: Evidence-Based Guide to Gut Health & Microbiome',
     description: 'Scientific review of prebiotic fibers (inulin, FOS, GOS) for gut health, microbiome diversity, and digestive function. Analysis of clinical efficacy, FODMAP considerations, and synergy with probiotics.',
@@ -110,7 +110,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Digestive Health'
   },
   
-  probioticsv2: {
+  probiotics: {
     name: 'Probiotic Supplement',
     title: 'Probiotics: Strain-Specific Benefits for Gut & Immune Health',
     description: 'Evidence-based review of probiotic strains (Lactobacillus, Bifidobacterium) for digestive health, immune function, and mental health. Analysis of CFU counts, strain specificity, and storage requirements.',
@@ -118,7 +118,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Digestive Health'
   },
   
-  sulforaphanev2: {
+  sulforaphane: {
     name: 'Sulforaphane (Broccoli Extract)',
     title: 'Sulforaphane: Nrf2 Activation for Detoxification & Antioxidant Support',
     description: 'Scientific analysis of sulforaphane from broccoli sprouts for cellular detoxification, antioxidant defense, and cancer prevention. Review of myrosinase activity, bioavailability, and clinical applications.',
@@ -126,7 +126,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Antioxidants & Detoxification'
   },
   
-  vitamincv2: {
+  vitaminc: {
     name: 'Vitamin C Supplement',
     title: 'Vitamin C: Immune Support, Antioxidant & Collagen Synthesis',
     description: 'Evidence-based review of vitamin C (ascorbic acid) for immune function, antioxidant protection, and collagen production. Analysis of forms (ascorbic acid, sodium ascorbate, liposomal), mega-dosing, and safety.',
@@ -134,7 +134,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Vitamins'
   },
   
-  vitamindv2: {
+  vitamind: {
     name: 'Vitamin D3 Supplement',
     title: 'Vitamin D: Evidence-Based Guide to Optimal Levels & Dosing',
     description: 'Comprehensive analysis of vitamin D3 (cholecalciferol) for bone health, immune function, and disease prevention. Review of blood level targets (25-hydroxyvitamin D), dosing strategies, and K2 synergy.',
@@ -142,7 +142,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     category: 'Vitamins'
   },
   
-  wheyproteinv2: {
+  wheyprotein: {
     name: 'Whey Protein',
     title: 'Whey Protein: Fast-Absorbing Protein for Muscle Growth',
     description: 'Evidence-based review of whey protein (concentrate, isolate, hydrolysate) for muscle protein synthesis, post-workout recovery, and body composition. Analysis of leucine content, digestion rates, and quality standards.',

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 /**
  * Hook to load structured data JSON for a given page key
- * @param pageKey - The key to look up in /structured-data/ (e.g., 'probioticsv2', 'probiotics-comparison')
+ * @param pageKey - The key to look up in /structured-data/ (e.g., 'probiotics', 'probiotics-comparison')
  * @returns The structured data array or null if not found/loaded
  */
 export function useStructuredData(pageKey: string | null | undefined) {

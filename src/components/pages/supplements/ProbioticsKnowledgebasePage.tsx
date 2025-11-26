@@ -24,7 +24,7 @@ export function ProbioticsKnowledgebasePage({
     supplementName: "Probiotics",
     currentPage: "probiotics",
     heroDescription: "Evidence-based overview of live beneficial bacteria that support digestive health, immune function, and the gut microbiome balance.",
-    heroImageUrl: getSupplementImage('probioticsv2'),
+    heroImageUrl: getSupplementImage('probiotics'),
     
     overviewTitle: "What are Probiotics?",
     overviewContent: (

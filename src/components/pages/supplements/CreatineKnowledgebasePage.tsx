@@ -24,7 +24,7 @@ export function CreatineKnowledgebasePage({
     supplementName: "Creatine",
     currentPage: "creatine",
     heroDescription: "Evidence-based overview of one of the most researched and effective supplements for improving exercise performance, muscle mass, and strength, with comprehensive meta-analytic evidence from 10 systematic reviews.",
-    heroImageUrl: getSupplementImage('creatinev2'),
+    heroImageUrl: getSupplementImage('creatine'),
     
     overviewTitle: "What is Creatine?",
     overviewContent: (

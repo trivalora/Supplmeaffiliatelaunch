@@ -16,7 +16,7 @@ export function CaseinProteinKnowledgebasePage() {
     supplementName: "Casein Protein",
     currentPage: "caseinprotein",
     heroDescription: "Evidence-based overview of casein protein supplementation with meta-analytic evidence from 6 systematic reviews covering blood pressure, body composition, and inflammatory outcomes across diverse adult populations.",
-    heroImageUrl: getSupplementImage('caseinproteinv2'),
+    heroImageUrl: getSupplementImage('caseinprotein'),
     
     overviewTitle: "What is Casein Protein?",
     overviewContent: (

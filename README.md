@@ -29,6 +29,26 @@ npm run build            # Production build (1,936 pages)
 npm run start            # Serve production build
 ```
 
+### API Testing (Week 3 Complete ✅)
+```bash
+npm run dev              # Start dev server
+
+# Test all API endpoints
+node scripts/test-api-endpoints.mjs
+
+# Or use bash version
+./scripts/test-api-endpoints.sh
+```
+
+**API Endpoints Available**:
+- `GET /api/supplements` - List all supplements
+- `GET /api/supplements/[slug]` - Single supplement
+- `GET /api/supplements/[slug]/products` - Filtered products
+- `GET /api/products/[id]` - Single product detail
+- `GET /api/products/search` - Full-text search
+
+See **[Week 3 Complete](docs/WEEK_3_COMPLETE.md)** for full API documentation.
+
 ### Documentation
 - **[Production Status](PRODUCTION_STATUS.md)** - Current deployment status
 - **[Quick Start Guide](docs/QUICK-START-GUIDE.md)** - Getting started

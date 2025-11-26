@@ -22,7 +22,7 @@ export function WheyProteinKnowledgebasePage({
     supplementName: "Whey Protein",
     currentPage: "wheyprotein",
     heroDescription: "Evidence-based overview of whey protein supplementation with comprehensive meta-analytic evidence from 10 systematic reviews covering body composition, metabolic health, athletic performance, and recovery outcomes across diverse populations.",
-    heroImageUrl: getSupplementImage('wheyproteinv2'),
+    heroImageUrl: getSupplementImage('wheyprotein'),
     
     overviewTitle: "What is Whey Protein?",
     overviewContent: (
