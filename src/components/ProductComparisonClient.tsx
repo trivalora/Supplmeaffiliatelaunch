@@ -7,6 +7,8 @@ import { useAffiliateTooltip, AffiliateTooltip } from '@/components/shared/ui-ex
 import IHerbBadgeLogoRgb from '../imports/IHerbBadgeLogoRgb1-106-1526';
 import { trackComparisonProductImpression, trackComparisonProductClick } from '@/lib/analytics';
 import { DualRangeSlider } from './ui/dual-range-slider';
+import { useSupplementProducts } from '@/hooks';
+import { ProductGridSkeleton, ErrorState } from '@/components/shared';
 
 const imgAmazonButton = '/images/amazon-button.png';
 
@@ -44,27 +46,40 @@ interface ProductData {
 
 export function ProductComparisonClient({ supplementId }: ProductComparisonClientProps) {
   const router = useRouter();
-  const [currentData, setCurrentData] = useState<any[] | null>(null);
   const [filters, setFilters] = useState<Record<string, any>>({});
   const [activeDietaryFilters, setActiveDietaryFilters] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('price_asc');
+  
+  // API Hook - fetch products from database
+  const { 
+    products: apiProducts, 
+    pagination,
+    loading, 
+    error, 
+    filters: apiFilters, 
+    setFilters: setApiFilters,
+    refetch 
+  } = useSupplementProducts(supplementId, {
+    page: 1,
+    limit: 1000, // Load all products (filter client-side for now)
+    sort: sortBy,
+    in_stock: true
+  });
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 100]);
   const [priceFilterActive, setPriceFilterActive] = useState(false);
   const [displayedCount, setDisplayedCount] = useState(25);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const tooltipHandlers = useAffiliateTooltip();
-
-  // Calculate min/max prices from current data
+  
+  // Calculate min/max prices from API products
   const priceMinMax = useMemo(() => {
-    if (!currentData || currentData.length === 0) {
+    if (!apiProducts || apiProducts.length === 0) {
       return { min: 0, max: 100 };
     }
-    const prices = currentData
-      .map(p => p.price_usd || p.price || 0)
+    const prices = apiProducts
+      .map(p => p.best_total_price || 0)
       .filter(p => p > 0);
     
     if (prices.length === 0) return { min: 0, max: 100 };
@@ -73,7 +88,9 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
     const max = Math.ceil(Math.max(...prices));
     
     return { min: Math.max(0, min), max: Math.max(min + 10, max) };
-  }, [currentData]);
+  }, [apiProducts]);
+
+
 
   // Initialize price range when data loads
   useEffect(() => {
@@ -83,12 +100,28 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
     }
   }, [priceMinMax]);
 
-  // Load supplement data on mount or when supplementId changes
+  // Extract available filters from products
   useEffect(() => {
-    if (supplementId) {
-      loadSupplement(supplementId);
+    if (apiProducts && apiProducts.length > 0) {
+      const filterMap: Record<string, any> = {};
+      
+      apiProducts.forEach(product => {
+        if (product.filters && Array.isArray(product.filters)) {
+          product.filters.forEach((filterKey: string) => {
+            if (!filterMap[filterKey]) {
+              filterMap[filterKey] = {
+                display_name: filterKey.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+                count: 0
+              };
+            }
+            filterMap[filterKey].count++;
+          });
+        }
+      });
+      
+      setFilters(filterMap);
     }
-  }, [supplementId]);
+  }, [apiProducts]);
 
   // Reset displayed count when search or sort changes
   useEffect(() => {
@@ -112,29 +145,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
     };
   }, [showSearchDropdown]);
 
-  async function loadSupplement(supplement: string) {
-    setLoading(true);
-    setError(null);
-    
-    try {
-      const response = await fetch(`/api/products/supplements/${supplement}.json`);
-      
-      if (!response.ok) {
-        throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
-      }
-      
-      const data: ProductData = await response.json();
-      
-      setCurrentData(data.products || []);
-      setFilters(data.filters || {});
-      setActiveDietaryFilters(new Set());
-    } catch (err) {
-      console.error('Error loading supplement:', err);
-      setError(err instanceof Error ? err.message : 'Failed to load supplement data');
-    } finally {
-      setLoading(false);
-    }
-  }
+
 
   function getNormalizedProductName(product: any): string {
     const name = product.dsld_product_name || product.brand || '';
@@ -158,7 +169,10 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
   }
 
   // Filter and sort products
-  const allFilteredProducts = currentData ? currentData.filter(product => {
+  const allFilteredProducts = useMemo(() => {
+    if (!apiProducts) return [];
+    
+    return apiProducts.filter(product => {
     // Search filter
     if (searchQuery) {
       const searchText = (
@@ -190,18 +204,19 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
     }
     
     return true;
-  }).sort((a, b) => {
-    switch(sortBy) {
-      case 'price_asc':
-        return (a.best_price_per_unit || 0) - (b.best_price_per_unit || 0);
-      case 'price_desc':
-        return (b.best_price_per_unit || 0) - (a.best_price_per_unit || 0);
-      case 'retailers_desc':
-        return (b.retailer_prices?.length || 0) - (a.retailer_prices?.length || 0);
-      default:
-        return 0;
-    }
-  }) : [];
+    }).sort((a, b) => {
+      switch(sortBy) {
+        case 'price_asc':
+          return (a.best_price_per_unit || 0) - (b.best_price_per_unit || 0);
+        case 'price_desc':
+          return (b.best_price_per_unit || 0) - (a.best_price_per_unit || 0);
+        case 'retailers_desc':
+          return (b.retailer_prices?.length || 0) - (a.retailer_prices?.length || 0);
+        default:
+          return 0;
+      }
+    });
+  }, [apiProducts, searchQuery, priceFilterActive, priceRange, activeDietaryFilters, sortBy]);
 
   // Slice for display
   const filteredProducts = allFilteredProducts.slice(0, displayedCount);
@@ -253,7 +268,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
 
   // Calculate reactive filter counts
   const calculateReactiveFilterCounts = () => {
-    if (!currentData) return {};
+    if (!apiProducts) return {};
     
     const counts: Record<string, number> = {};
     const allFilterKeys = Object.keys(filters);
@@ -261,7 +276,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
     for (const filterKey of allFilterKeys) {
       let matchingCount = 0;
       
-      for (const product of currentData) {
+      for (const product of apiProducts) {
         if (searchQuery) {
           const searchText = (
             (product.retailer_prices && product.retailer_prices[0]?.product_name || '') + ' ' +
@@ -311,6 +326,43 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
   const otherFilterKeys = Object.keys(filters).filter(key => !priorityFilters.includes(key));
   const orderedFilterKeys = [...priorityFilters.filter(key => filters[key]), ...otherFilterKeys];
 
+  // Show loading skeleton
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background" data-page-content>
+        <main data-layout-main style={{ paddingTop: 'var(--header-height)' }}>
+          <div data-layout-container className="py-4 sm:py-8">
+            <div className="bg-card rounded-xl p-4 sm:p-6 shadow-sm border border-secondary/20 mb-4 sm:mb-6 mx-4 sm:mx-0">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-4">
+                Compare All {supplementId.replace(/-/g, ' ')} Products
+              </h1>
+              <p className="text-muted-foreground">Loading products from database...</p>
+            </div>
+            <ProductGridSkeleton count={6} />
+          </div>
+        </main>
+      </div>
+    );
+  }
+
+  // Show error state
+  if (error) {
+    return (
+      <div className="min-h-screen bg-background" data-page-content>
+        <main data-layout-main style={{ paddingTop: 'var(--header-height)' }}>
+          <div data-layout-container className="py-4 sm:py-8">
+            <ErrorState 
+              error={error} 
+              onRetry={refetch}
+              title="Failed to load products"
+              description="We couldn't load the product comparison data. Please try again."
+            />
+          </div>
+        </main>
+      </div>
+    );
+  }
+
   return (
     <>
       <div className="min-h-screen bg-background" data-page-content>
@@ -323,8 +375,8 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                   Compare All {supplementId.replace(/-/g, ' ')} Products
                 </h1>
                 <div className="text-sm text-muted-foreground">
-                  <span className="font-semibold text-foreground">{currentData?.length || 0}</span> total products
-                  {allFilteredProducts.length < (currentData?.length || 0) && (
+                  <span className="font-semibold text-foreground">{apiProducts?.length || 0}</span> total products
+                  {allFilteredProducts.length < (apiProducts?.length || 0) && (
                     <span> • <span className="font-semibold text-primary">{allFilteredProducts.length}</span> matching filters</span>
                   )}
                 </div>
@@ -527,28 +579,16 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
             </div>
 
             {/* Products Display */}
-            {loading && (
-              <div className="text-center py-12">
-                <p className="text-muted-foreground">Loading products...</p>
-              </div>
-            )}
-
-            {error && (
-              <div className="bg-red-50 border border-red-200 rounded-xl p-4 mb-6">
-                <p className="text-red-800">{error}</p>
-              </div>
-            )}
-
-            {!loading && !error && filteredProducts.length === 0 && (
+            {filteredProducts.length === 0 && (
               <div className="text-center py-12">
                 <p className="text-muted-foreground">No products found matching your filters</p>
-                {currentData && currentData.length > 0 && (
+                {apiProducts && apiProducts.length > 0 && (
                   <p className="text-sm text-muted-foreground mt-2">Try clearing some filters to see more results</p>
                 )}
               </div>
             )}
 
-            {!loading && !error && filteredProducts.length > 0 && (
+            {filteredProducts.length > 0 && (
               <>
                 {/* Desktop Table View */}
                 <div className="hidden lg:block bg-card rounded-xl shadow-sm border border-secondary/20 overflow-hidden">
