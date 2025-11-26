@@ -76,20 +76,51 @@ export function ProductDetailClient({ supplement, productId }: ProductDetailClie
   useEffect(() => {
     async function loadProduct() {
       try {
-        const response = await fetch(`/api/products/supplements/${supplement}.json`);
+        const response = await fetch(`/api/products/${productId}`);
         
         if (!response.ok) {
           throw new Error(`Failed to load data: ${response.status}`);
         }
         
         const data = await response.json();
-        const foundProduct = data.products.find((p: ProductDetails) => p.id === productId);
         
-        if (!foundProduct) {
+        if (!data.product) {
           throw new Error('Product not found');
         }
         
-        setProduct(foundProduct);
+        // Map API response to ProductDetails interface
+        const apiProduct = data.product;
+        const mappedProduct: ProductDetails = {
+          id: apiProduct.id,
+          dsld_id: apiProduct.dsld_id,
+          brand: apiProduct.brand,
+          dsld_product_name: apiProduct.dsld_product_name || apiProduct.product_name,
+          dsld_brand: apiProduct.dsld_brand,
+          amount_per_serving: apiProduct.amount_per_serving,
+          unit: apiProduct.unit,
+          product_image_url: apiProduct.product_image_url,
+          retailer_prices: (apiProduct.prices || []).map((p: any) => ({
+            retailer: p.retailer?.name || p.retailer?.display_name || 'Unknown',
+            price: p.price,
+            price_per_unit: p.price / (apiProduct.amount_per_serving || 1),
+            product_url: p.product_url,
+            product_name: apiProduct.dsld_product_name || apiProduct.product_name,
+            image_url: apiProduct.product_image_url,
+            rating: undefined,
+            reviews: undefined,
+          })),
+          filters: apiProduct.filters || [],
+          dosage: apiProduct.dosage || [],
+          servings: apiProduct.servings || [],
+          flavor: apiProduct.flavor || [],
+          multipack: apiProduct.multipack || [],
+          net_contents: apiProduct.net_contents,
+          form: apiProduct.form || [],
+          dsld_content: apiProduct.dsld_content,
+          dsld_label_info: apiProduct.dsld_label_info,
+        };
+        
+        setProduct(mappedProduct);
       } catch (err) {
         console.error('Error loading product:', err);
         setError(err instanceof Error ? err.message : 'Failed to load product');
@@ -99,7 +130,7 @@ export function ProductDetailClient({ supplement, productId }: ProductDetailClie
     }
 
     loadProduct();
-  }, [supplement, productId]);
+  }, [productId]);
 
   function addUTMParameters(url: string): string {
     if (!url) return url;

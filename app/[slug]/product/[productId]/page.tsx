@@ -12,40 +12,17 @@ interface ProductPageProps {
 
 // This will be called at build time for static generation
 export async function generateStaticParams() {
-  const fs = await import('fs/promises');
-  const path = await import('path');
+  // Fetch all products from database via API
+  const supabase = await import('@/lib/supabase/server').then(m => m.createClient());
   
-  // List of all supplements with product data
-  const supplements = [
-    'ashwagandha', 'bcaa', 'calcium', 'casein', 'collagen',
-    'creatine', 'curcumin', 'iron', 'magnesium', 'multivitamin',
-    'omega-3', 'prebiotics', 'probiotics', 'vitamin-c', 'vitamin-d',
-    'whey', 'zinc'
-  ];
+  const { data: products } = await supabase
+    .from('products')
+    .select('id, supplement_slug');
   
-  const allProducts: Array<{ slug: string; productId: string }> = [];
-  
-  // Load all products from each supplement's JSON file
-  for (const supplement of supplements) {
-    try {
-      const filePath = path.join(process.cwd(), 'public', 'api', 'products', 'supplements', `${supplement}.json`);
-      const fileContent = await fs.readFile(filePath, 'utf-8');
-      const data = JSON.parse(fileContent);
-      
-      if (data.products && Array.isArray(data.products)) {
-        for (const product of data.products) {
-          if (product.id) {
-            allProducts.push({
-              slug: supplement,
-              productId: product.id
-            });
-          }
-        }
-      }
-    } catch (error) {
-      console.error(`Error loading products for ${supplement}:`, error);
-    }
-  }
+  const allProducts = (products || []).map(p => ({
+    slug: p.supplement_slug,
+    productId: p.id
+  }));
   
   console.log(`Generating static params for ${allProducts.length} product pages`);
   return allProducts;
@@ -55,18 +32,22 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   const { slug, productId } = await params;
   const supplement = slug;
   
-  // Load product data
+  // Load product data from database
   try {
-    const fs = await import('fs/promises');
-    const path = await import('path');
+    const supabase = await import('@/lib/supabase/server').then(m => m.createClient());
     
-    const filePath = path.join(process.cwd(), 'public', 'api', 'products', 'supplements', `${supplement}.json`);
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    const data = JSON.parse(fileContent);
+    const { data: product, error } = await supabase
+      .from('products')
+      .select(`
+        id,
+        brand,
+        dsld_product_name,
+        supplement:supplements(name)
+      `)
+      .eq('id', productId)
+      .single();
     
-    const product = data.products.find((p: any) => p.id === productId);
-    
-    if (!product) {
+    if (error || !product) {
       return {
         title: 'Product Not Found',
         description: 'The requested product could not be found.',
@@ -79,7 +60,8 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     
     const brand = product.brand || 'Unknown Brand';
     const productName = product.dsld_product_name || 'Product';
-    const supplementName = supplement.split('-').map((w: string) => 
+    // @ts-expect-error - supplement is a foreign key relation
+    const supplementName = product.supplement?.name || supplement.split('-').map((w: string) => 
       w.charAt(0).toUpperCase() + w.slice(1)
     ).join(' ');
     

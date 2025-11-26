@@ -35,7 +35,15 @@ interface Supplement {
  *       json_id: string,
  *       brand: string,
  *       product_name: string,
+ *       display_name: string,
  *       product_image_url: string,
+ *       serving_size: string,
+ *       third_party_tested: boolean,
+ *       certifications: string[],
+ *       unit: string,
+ *       amount_per_serving: number,
+ *       net_contents: string,
+ *       filters: string[],
  *       best_total_price: number,
  *       available_retailers: string[],
  *       price_count: number,
@@ -104,13 +112,23 @@ export async function GET(
         dsld_id,
         brand,
         product_name,
+        display_name,
         product_image_url,
+        serving_size,
         third_party_tested,
+        certifications,
+        unit,
+        amount_per_serving,
+        net_contents,
+        filters,
         prices (
           price,
+          product_url,
+          affiliate_url,
           in_stock,
           retailer:retailers (
-            name
+            name,
+            slug
           )
         )
       `, { count: 'exact' })
@@ -188,16 +206,41 @@ export async function GET(
         filteredPrices.map((p: any) => p.retailer?.name).filter(Boolean)
       )];
       
+      // Build prices array with retailer info and URLs
+      const pricesWithRetailers = filteredPrices.map((p: any) => {
+        const pricePerUnit = product.amount_per_serving 
+          ? p.price / product.amount_per_serving 
+          : 0;
+        
+        return {
+          price: p.price,
+          price_per_unit: pricePerUnit,
+          product_url: p.product_url,
+          affiliate_url: p.affiliate_url,
+          in_stock: p.in_stock,
+          retailer: p.retailer?.name,
+          retailer_slug: p.retailer?.slug
+        };
+      });
+      
       return {
         id: product.id,
         json_id: product.dsld_id,
         brand: product.brand,
         product_name: product.product_name,
+        display_name: product.display_name,
         product_image_url: product.product_image_url,
+        serving_size: product.serving_size,
+        third_party_tested: product.third_party_tested,
+        certifications: product.certifications || [],
+        unit: product.unit,
+        amount_per_serving: product.amount_per_serving,
+        net_contents: product.net_contents,
+        filters: product.filters || [],
         best_total_price: bestPrice,
         available_retailers: availableRetailers,
         price_count: filteredPrices.length,
-        third_party_tested: product.third_party_tested,
+        prices: pricesWithRetailers,
         supplement_slug: slug,
         supplement_name: supplement.name
       };

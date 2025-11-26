@@ -6,16 +6,13 @@
 import { useState, useEffect, useCallback } from 'react';
 
 interface Price {
+  price: number;
+  price_per_unit: number;
+  product_url: string;
+  affiliate_url: string;
+  in_stock: boolean;
   retailer: string;
   retailer_slug: string;
-  retailer_display_name: string;
-  price: number;
-  currency: string;
-  product_url: string;
-  affiliate_url: string | null;
-  in_stock: boolean;
-  logo_url: string | null;
-  button_style: Record<string, string>;
 }
 
 interface Product {
@@ -28,8 +25,16 @@ interface Product {
   third_party_tested: boolean;
   certifications: string[];
   prices: Price[];
+  retailer_prices?: Price[]; // Alias for compatibility with ProductComparisonClient
   best_total_price: number | null;
+  best_price_per_unit: number | null;
   supplement_slug: string;
+  // Metadata fields from enrichment
+  unit: string | null;
+  amount_per_serving: number | null;
+  net_contents: string | null;
+  filters: string[];
+  product_image_url: string | null;
 }
 
 interface Pagination {
@@ -105,7 +110,14 @@ export function useSupplementProducts(
       }
       
       const data = await response.json();
-      setProducts(data.products || []);
+      
+      // Map prices to retailer_prices for compatibility with ProductComparisonClient
+      const productsWithRetailerPrices = (data.products || []).map((p: Product) => ({
+        ...p,
+        retailer_prices: p.prices
+      }));
+      
+      setProducts(productsWithRetailerPrices);
       setPagination(data.pagination || null);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to fetch products');
