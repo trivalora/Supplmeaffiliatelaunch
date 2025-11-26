@@ -274,3 +274,4 @@ npx tsx scripts/data-pipeline/normalization/step1.2-filter-by-relevance.ts
 For detailed information, refer to documentation in the `docs/` directory and script-specific READMEs in `scripts/`.
 # Database Migration Complete - Wed Nov 26 17:57:18 CET 2025
 # Trigger redeploy Wed Nov 26 18:19:08 CET 2025
+# Redeployed after env vars added Wed Nov 26 19:24:45 CET 2025
