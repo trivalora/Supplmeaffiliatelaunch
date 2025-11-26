@@ -49,10 +49,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
   const [filters, setFilters] = useState<Record<string, any>>({});
   const [activeDietaryFilters, setActiveDietaryFilters] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState('');
-  const [sortBy, setSortBy] = useState('price_asc');
-  
-  // Map UI sort options to API sort options
-  const apiSortBy = sortBy === 'retailers_desc' ? 'price_asc' : sortBy as 'price_asc' | 'price_desc' | 'brand_asc' | 'brand_desc';
+  const [sortBy, setSortBy] = useState<'price_asc' | 'price_desc'>('price_asc');
   
   // API Hook - fetch products from database
   const { 
@@ -66,7 +63,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
   } = useSupplementProducts(supplementId, {
     page: 1,
     limit: 1000, // Load all products (filter client-side for now)
-    sort: apiSortBy,
+    sort: sortBy,
     in_stock: true
   });
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 100]);
@@ -213,8 +210,6 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
           return (a.best_price_per_unit || 0) - (b.best_price_per_unit || 0);
         case 'price_desc':
           return (b.best_price_per_unit || 0) - (a.best_price_per_unit || 0);
-        case 'retailers_desc':
-          return (b.retailer_prices?.length || 0) - (a.retailer_prices?.length || 0);
         default:
           return 0;
       }
@@ -571,12 +566,11 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                 </svg>
                 <select
                   value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value)}
+                  onChange={(e) => setSortBy(e.target.value as 'price_asc' | 'price_desc')}
                   className="border-0 focus:outline-none focus:ring-0 bg-transparent text-sm font-medium cursor-pointer flex-1 min-h-8"
                 >
                   <option value="price_asc">Price: Low to High</option>
                   <option value="price_desc">Price: High to Low</option>
-                  <option value="retailers_desc">Most Retailers</option>
                 </select>
               </div>
             </div>
