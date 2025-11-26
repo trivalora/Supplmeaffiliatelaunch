@@ -83,9 +83,11 @@ export async function GET(request: Request) {
       .from('products')
       .select(`
         id,
+        json_id,
         dsld_id,
         brand,
         product_name,
+        dsld_product_name,
         product_image_url,
         third_party_tested,
         supplement:supplements!inner(
@@ -179,9 +181,11 @@ export async function GET(request: Request) {
       
       return {
         id: product.id,
-        json_id: product.dsld_id,
+        json_id: product.json_id,
+        dsld_id: product.dsld_id,
         brand: product.brand,
         product_name: product.product_name,
+        dsld_product_name: product.dsld_product_name,
         product_image_url: product.product_image_url,
         best_total_price: bestPrice,
         available_retailers: retailers,

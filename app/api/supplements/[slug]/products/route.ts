@@ -109,10 +109,12 @@ export async function GET(
       .from('products')
       .select(`
         id,
+        json_id,
         dsld_id,
         brand,
         product_name,
         display_name,
+        dsld_product_name,
         product_image_url,
         serving_size,
         third_party_tested,
@@ -225,10 +227,12 @@ export async function GET(
       
       return {
         id: product.id,
-        json_id: product.dsld_id,
+        json_id: product.json_id,
+        dsld_id: product.dsld_id,
         brand: product.brand,
         product_name: product.product_name,
         display_name: product.display_name,
+        dsld_product_name: product.dsld_product_name,
         product_image_url: product.product_image_url,
         serving_size: product.serving_size,
         third_party_tested: product.third_party_tested,

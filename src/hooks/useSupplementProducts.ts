@@ -17,10 +17,11 @@ interface Price {
 
 interface Product {
   id: string;
-  dsld_id: string;
+  json_id: string;  // Original JSON ID (e.g., "57173_organic traditions_...")
+  dsld_id: string | null;  // DSLD database ID (may be null)
   brand: string;
   product_name: string;
-  dsld_product_name?: string; // DSLD product name
+  dsld_product_name: string | null; // DSLD product name
   display_name: string | null;
   serving_size: string | null;
   third_party_tested: boolean;
