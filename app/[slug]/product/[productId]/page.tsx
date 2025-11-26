@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
         supplement:supplements(name)
       `)
       .eq('id', productId)
-      .single();
+      .single() as { data: { id: string; brand: string; dsld_product_name: string; supplement?: { name: string } } | null; error: any };
     
     if (error || !product) {
       return {
@@ -60,7 +60,6 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     
     const brand = product.brand || 'Unknown Brand';
     const productName = product.dsld_product_name || 'Product';
-    // @ts-expect-error - supplement is a foreign key relation
     const supplementName = product.supplement?.name || supplement.split('-').map((w: string) => 
       w.charAt(0).toUpperCase() + w.slice(1)
     ).join(' ');
