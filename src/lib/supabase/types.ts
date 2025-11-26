@@ -19,7 +19,7 @@ export type Json =
   | Json[]
 
 export interface Database {
-  public: {
+  api: {
     Tables: {
       supplements: {
         Row: {
@@ -121,7 +121,8 @@ export interface Database {
       products: {
         Row: {
           id: string
-          dsld_id: string
+          json_id: string
+          dsld_id: string | null
           supplement_id: string
           brand: string
           product_name: string
@@ -142,7 +143,8 @@ export interface Database {
         }
         Insert: {
           id?: string
-          dsld_id: string
+          json_id: string
+          dsld_id?: string | null
           supplement_id: string
           brand: string
           product_name: string
@@ -163,7 +165,8 @@ export interface Database {
         }
         Update: {
           id?: string
-          dsld_id?: string
+          json_id?: string
+          dsld_id?: string | null
           supplement_id?: string
           brand?: string
           product_name?: string
