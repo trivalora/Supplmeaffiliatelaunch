@@ -37,7 +37,7 @@ export interface RouteConfig {
 export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   // Knowledgebase Pages (Primary - shown in navigation)
   {
-    key: 'ashwagandhav2',
+    key: 'ashwagandha',
     title: 'Ashwagandha',
     path: '/ashwagandha',
     description: 'Enhanced meta-analysis review of ashwagandha with updated research data',
@@ -48,7 +48,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Phytochemicals'
   },
   {
-    key: 'calciumv2',
+    key: 'calcium',
     title: 'Calcium',
     path: '/calcium',
     description: 'Enhanced meta-analysis review of calcium for bone health and cardiovascular effects',
@@ -59,7 +59,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Minerals'
   },
   {
-    key: 'collagenpeptidesv2',
+    key: 'collagenpeptides',
     title: 'Collagen Peptides',
     path: '/collagen',
     description: 'Enhanced meta-analysis review of collagen peptides for skin, joints, and connective tissue',
@@ -70,7 +70,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Protein Supplements'
   },
   {
-    key: 'creatinev2',
+    key: 'creatine',
     title: 'Creatine',
     path: '/creatine',
     description: 'Enhanced meta-analysis review of creatine with updated research data',
@@ -81,7 +81,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Amino Acids'
   },
   {
-    key: 'ironv2',
+    key: 'iron',
     title: 'Iron',
     path: '/iron',
     description: 'Enhanced meta-analysis review of iron for anemia, heart failure, and chronic kidney disease',
@@ -92,7 +92,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Minerals'
   },
   {
-    key: 'magnesiumv2',
+    key: 'magnesium',
     title: 'Magnesium',
     path: '/magnesium',
     description: 'Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation',
@@ -103,7 +103,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Minerals'
   },
   {
-    key: 'omega3v2',
+    key: 'omega3',
     title: 'Omega-3',
     path: '/omega-3',
     description: 'Enhanced meta-analysis review of omega-3 with updated research data',
@@ -114,7 +114,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Omega-3 Fatty Acids'
   },
   {
-    key: 'prebioticsv2',
+    key: 'prebiotics',
     title: 'Prebiotics',
     path: '/prebiotics',
     description: 'Enhanced meta-analysis review of prebiotics for gut health and metabolic effects',
@@ -125,7 +125,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Probiotics'
   },
   {
-    key: 'probioticsv2',
+    key: 'probiotics',
     title: 'Probiotics',
     path: '/probiotics',
     description: 'Enhanced meta-analysis review of probiotics for digestive and immune health',
@@ -136,7 +136,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Probiotics'
   },
   {
-    key: 'sulforaphanev2',
+    key: 'sulforaphane',
     title: 'Sulforaphane',
     path: '/sulforaphane',
     description: 'Enhanced meta-analysis review of sulforaphane with updated research data',
@@ -147,7 +147,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Phytochemicals'
   },
   {
-    key: 'vitamincv2',
+    key: 'vitaminc',
     title: 'Vitamin C',
     path: '/vitamin-c',
     description: 'Enhanced meta-analysis review of vitamin C with updated research data',
@@ -158,7 +158,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Vitamins'
   },
   {
-    key: 'vitamindv2',
+    key: 'vitamind',
     title: 'Vitamin D',
     path: '/vitamin-d',
     description: 'Enhanced meta-analysis review of vitamin D with updated research data',
@@ -171,7 +171,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
 
   // V2 Pages (Primary - shown in navigation) - continued
   {
-    key: 'bcaasv2',
+    key: 'bcaas',
     title: 'BCAAs',
     path: '/bcaa',
     description: 'Enhanced meta-analysis review of branched-chain amino acids for muscle recovery and hepatic health',
@@ -184,7 +184,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
 
   // V2 Pages (Primary - shown in navigation) - continued
   {
-    key: 'curcuminv2',
+    key: 'curcumin',
     title: 'Curcumin',
     path: '/curcumin',
     description: 'Enhanced meta-analysis review of curcumin with anti-inflammatory and metabolic effects',
@@ -195,7 +195,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Phytochemicals'
   },
   {
-    key: 'multivitaminv2',
+    key: 'multivitamin',
     title: 'Multivitamin',
     path: '/multivitamin',
     description: 'Enhanced meta-analysis review of multivitamins with population-specific efficacy and safety data',
@@ -206,7 +206,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Vitamins'
   },
   {
-    key: 'wheyproteinv2',
+    key: 'wheyprotein',
     title: 'Whey Protein',
     path: '/whey-protein',
     description: 'Enhanced meta-analysis review of whey protein for body composition, metabolic health, and athletic performance',
@@ -217,7 +217,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     subcategory: 'Protein Supplements'
   },
   {
-    key: 'caseinproteinv2',
+    key: 'caseinprotein',
     title: 'Casein Protein',
     path: '/casein-protein',
     description: 'Enhanced meta-analysis review of casein protein for blood pressure, muscle mass, and inflammatory outcomes',
@@ -369,15 +369,6 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     description: 'Compare prices for Casein Protein supplements across top retailers. Find the best deals, certifications, and quality products.',
     componentPath: './components/pages/comparisons',
     componentName: 'CaseinProteinComparison',
-    showInNav: false,
-    category: 'comparison'
-  },
-  {
-    key: 'zinc-comparison',
-    title: 'Zinc Price Comparison | Best Deals at iHerb & Amazon',
-    description: 'Compare prices for Zinc supplements across top retailers. Find the best deals, certifications, and quality products.',
-    componentPath: './components/pages/comparisons',
-    componentName: 'ZincComparison',
     showInNav: false,
     category: 'comparison'
   }

@@ -6,7 +6,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function PrebioticsKnowledgebasePage({ 
   onNavigate,
@@ -17,12 +16,11 @@ export function PrebioticsKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('prebioticsv2');
   const benefits = ['gut microbiome health', 'digestive support', 'immune function', 'mineral absorption', 'metabolic health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Prebiotics",
-    currentPage: "prebioticsv2",
+    currentPage: "prebiotics",
     heroDescription: "Evidence-based overview of non-digestible fibers that nourish beneficial gut bacteria, supporting digestive health, immune function, and overall wellbeing.",
     heroImageUrl: getSupplementImage('prebioticsv2'),
     
@@ -283,7 +281,7 @@ export function PrebioticsKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Prebiotics', benefits, '/prebiotics')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Prebiotics', benefits, '/prebiotics')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

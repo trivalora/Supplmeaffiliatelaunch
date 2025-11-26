@@ -53,10 +53,9 @@ function IntensityBar({ intensity }: { intensity: string }) {
       <div className="absolute flex gap-[5px] h-[20px] items-end left-[14px] top-1/2 -translate-y-1/2 z-10">
         {/* First bar - small (12px) */}
         <div 
-          className={coloredBars[0] ? "bg-[#4a7c59] dark:bg-[#66bb6a]" : ""}
           style={{ 
             height: `${barHeights[0]}px`,
-            backgroundColor: coloredBars[0] ? undefined : 'var(--border)',
+            backgroundColor: coloredBars[0] ? 'var(--primary)' : 'var(--border)',
             width: '5px',
             borderRadius: '9999px'
           }}
@@ -71,9 +70,9 @@ function IntensityBar({ intensity }: { intensity: string }) {
               bottom: 0,
               width: '5px',
               height: '50%',
-              backgroundColor: '#4a7c59',
+              backgroundColor: 'var(--primary)',
               borderRadius: '9999px'
-            }} className="dark:bg-[#66bb6a]" />
+            }} />
             <div style={{ 
               position: 'absolute',
               top: 0,
@@ -85,10 +84,9 @@ function IntensityBar({ intensity }: { intensity: string }) {
           </div>
         ) : (
           <div 
-            className={coloredBars[1] ? "bg-[#4a7c59] dark:bg-[#66bb6a]" : ""}
             style={{ 
               height: `${barHeights[1]}px`,
-              backgroundColor: coloredBars[1] ? undefined : 'var(--border)',
+              backgroundColor: coloredBars[1] ? 'var(--primary)' : 'var(--border)',
               width: '5px',
               borderRadius: '9999px'
             }}
@@ -104,9 +102,9 @@ function IntensityBar({ intensity }: { intensity: string }) {
               bottom: 0,
               width: '5px',
               height: '50%',
-              backgroundColor: '#4a7c59',
+              backgroundColor: 'var(--primary)',
               borderRadius: '9999px'
-            }} className="dark:bg-[#66bb6a]" />
+            }} />
             <div style={{ 
               position: 'absolute',
               top: 0,
@@ -118,10 +116,9 @@ function IntensityBar({ intensity }: { intensity: string }) {
           </div>
         ) : (
           <div 
-            className={coloredBars[2] ? "bg-[#4a7c59] dark:bg-[#66bb6a]" : ""}
             style={{ 
               height: `${barHeights[2]}px`,
-              backgroundColor: coloredBars[2] ? undefined : 'var(--border)',
+              backgroundColor: coloredBars[2] ? 'var(--primary)' : 'var(--border)',
               width: '5px',
               borderRadius: '9999px'
             }}

@@ -6,7 +6,6 @@ import {
 } from '@/components/iconExports';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function MagnesiumKnowledgebasePage({ 
   onNavigate,
@@ -17,12 +16,11 @@ export function MagnesiumKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('magnesiumv2');
   const benefits = ['blood pressure reduction', 'glucose metabolism', 'sleep quality', 'muscle function', 'bone health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Magnesium",
-    currentPage: "magnesiumv2",
+    currentPage: "magnesium",
     heroDescription: "Evidence-based overview of an essential mineral with meta-analytic support for modest improvements in blood pressure, glucose metabolism, inflammation, and biomarker response in specific populations.",
     heroImageUrl: getSupplementImage('magnesiumv2'),
     
@@ -304,7 +302,7 @@ export function MagnesiumKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Magnesium', benefits, '/magnesium')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Magnesium', benefits, '/magnesium')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

@@ -7,7 +7,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function BcaaKnowledgebasePage({ 
   onNavigate,
@@ -18,12 +17,11 @@ export function BcaaKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('bcaasv2');
   const benefits = ['muscle recovery', 'exercise performance', 'muscle protein synthesis', 'fatigue reduction', 'muscle soreness'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "BCAAs",
-    currentPage: "bcaasv2",
+    currentPage: "bcaas",
     heroDescription: "Essential amino acids (leucine, isoleucine, valine) with meta-analytic evidence supporting benefits for liver cancer surgery, hepatic encephalopathy, and exercise-induced muscle damage reduction",
     heroImageUrl: getSupplementImage('bcaasv2'),
     
@@ -260,7 +258,7 @@ export function BcaaKnowledgebasePage({
   
   return (
     <>
-      <SEOHead {...getSupplementSEO('BCAAs', benefits, '/bcaas')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('BCAAs', benefits, '/bcaas')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

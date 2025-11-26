@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Probiotic Supplement - Scientific Evidence & Price Comparison",
-    "description": "Evidence-based review of probiotic strains (Lactobacillus, Bifidobacterium) for digestive health, immune function, and mental health. Analysis of CFU counts, strain specificity, and storage requirements.",
-    "category": "Digestive Health",
+    "name": "Probiotics - Scientific Evidence & Price Comparison",
+    "description": "Enhanced meta-analysis review of probiotics for digestive and immune health",
+    "category": "Probiotics",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Probiotics: Strain-Specific Benefits for Gut & Immune Health",
-    "description": "Evidence-based review of probiotic strains (Lactobacillus, Bifidobacterium) for digestive health, immune function, and mental health. Analysis of CFU counts, strain specificity, and storage requirements.",
+    "name": "Probiotics",
+    "description": "Enhanced meta-analysis review of probiotics for digestive and immune health",
     "about": {
       "@type": "Thing",
-      "name": "Probiotic Supplement",
-      "description": "Evidence-based review of probiotic strains (Lactobacillus, Bifidobacterium) for digestive health, immune function, and mental health. Analysis of CFU counts, strain specificity, and storage requirements."
+      "name": "Probiotics",
+      "description": "Enhanced meta-analysis review of probiotics for digestive and immune health"
     },
     "url": "https://www.suppl.me/probiotics",
-    "lastReviewed": "2025-11-25",
+    "lastReviewed": "2025-11-26",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Probiotic Supplement",
-      "description": "Evidence-based review of probiotic strains (Lactobacillus, Bifidobacterium) for digestive health, immune function, and mental health. Analysis of CFU counts, strain specificity, and storage requirements.",
+      "name": "Probiotics",
+      "description": "Enhanced meta-analysis review of probiotics for digestive and immune health",
       "drugClass": "Dietary Supplement"
     }
   },

@@ -2,8 +2,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Iron Supplement - Scientific Evidence & Price Comparison",
-    "description": "Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management.",
+    "name": "Iron - Scientific Evidence & Price Comparison",
+    "description": "Enhanced meta-analysis review of iron for anemia, heart failure, and chronic kidney disease",
     "category": "Minerals",
     "brand": {
       "@type": "Brand",
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Iron: Evidence-Based Guide to Forms, Absorption & Safety",
-    "description": "Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management.",
+    "name": "Iron",
+    "description": "Enhanced meta-analysis review of iron for anemia, heart failure, and chronic kidney disease",
     "about": {
       "@type": "Thing",
-      "name": "Iron Supplement",
-      "description": "Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management."
+      "name": "Iron",
+      "description": "Enhanced meta-analysis review of iron for anemia, heart failure, and chronic kidney disease"
     },
     "url": "https://www.suppl.me/iron",
-    "lastReviewed": "2025-11-25",
+    "lastReviewed": "2025-11-26",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Iron Supplement",
-      "description": "Comprehensive analysis of iron supplementation for anemia, fatigue, and cognitive function. Comparison of forms (ferrous sulfate, bisglycinate, heme iron), absorption strategies, and side effect management.",
+      "name": "Iron",
+      "description": "Enhanced meta-analysis review of iron for anemia, heart failure, and chronic kidney disease",
       "drugClass": "Dietary Supplement"
     }
   },

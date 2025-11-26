@@ -1,3 +1,5 @@
+'use client';
+
 import { Search } from 'lucide-react';
 import { useState } from 'react';
 import { KNOWLEDGEBASE_ROUTES, SubcategoryType } from '@/routes.config';

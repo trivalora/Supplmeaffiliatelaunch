@@ -8,15 +8,13 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function CaseinProteinKnowledgebasePage() {
-  const structuredData = useStructuredData('caseinproteinv2');
   const benefits = ['sustained protein release', 'muscle preservation', 'overnight recovery', 'satiety', 'lean muscle growth'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Casein Protein",
-    currentPage: "caseinproteinv2",
+    currentPage: "caseinprotein",
     heroDescription: "Evidence-based overview of casein protein supplementation with meta-analytic evidence from 6 systematic reviews covering blood pressure, body composition, and inflammatory outcomes across diverse adult populations.",
     heroImageUrl: getSupplementImage('caseinproteinv2'),
     
@@ -206,7 +204,7 @@ export function CaseinProteinKnowledgebasePage() {
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Casein Protein', benefits, '/casein-protein')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Casein Protein', benefits, '/casein-protein')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

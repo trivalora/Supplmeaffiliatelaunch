@@ -734,7 +734,8 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                                             href={addUTMParameters(r.product_url)}
                                             target="_blank"
                                             rel="nofollow noreferrer"
-                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-[#FF9900] hover:bg-[#FF9900]/90 transition-colors"
+                                            className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg transition-opacity hover:opacity-90"
+                                            style={{ backgroundColor: 'var(--color-amazon)' }}
                                             {...tooltipHandlers}
                                             onClick={(e) => {
                                               e.stopPropagation();
@@ -1043,7 +1044,8 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
                                       href={addUTMParameters(r.product_url)} 
                                       target="_blank" 
                                       rel="nofollow noreferrer" 
-                                      className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-[#FF9900] hover:bg-[#FF9900]/90 transition-colors" 
+                                      className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg transition-opacity hover:opacity-90"
+                                      style={{ backgroundColor: 'var(--color-amazon)' }}
                                       {...tooltipHandlers}
                                       onClick={(e) => {
                                         e.stopPropagation();

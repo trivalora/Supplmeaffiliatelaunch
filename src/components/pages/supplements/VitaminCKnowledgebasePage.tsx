@@ -6,7 +6,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function VitaminCKnowledgebasePage({ 
   onNavigate,
@@ -17,12 +16,11 @@ export function VitaminCKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('vitamincv2');
   const benefits = ['immune support', 'antioxidant protection', 'collagen synthesis', 'iron absorption', 'skin health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Vitamin C",
-    currentPage: "vitamincv2",
+    currentPage: "vitaminc",
     heroDescription: "Evidence-based overview of an essential antioxidant vitamin with meta-analytic support for immune function, cardiovascular health, and critical illness outcomes.",
     heroImageUrl: getSupplementImage('vitamincv2'),
     
@@ -291,7 +289,7 @@ export function VitaminCKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Vitamin C', benefits, '/vitamin-c')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Vitamin C', benefits, '/vitamin-c')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

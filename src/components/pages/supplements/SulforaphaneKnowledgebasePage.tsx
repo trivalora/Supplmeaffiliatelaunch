@@ -6,7 +6,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function SulforaphaneKnowledgebasePage({ 
   onNavigate,
@@ -17,12 +16,11 @@ export function SulforaphaneKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('sulforaphanev2');
   const benefits = ['antioxidant support', 'detoxification', 'inflammation reduction', 'neuroprotection', 'cellular health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Sulforaphane",
-    currentPage: "sulforaphanev2",
+    currentPage: "sulforaphane",
     heroDescription: "Evidence-based overview of a powerful phytochemical from cruciferous vegetables, with meta-analytic support for autism spectrum disorder symptoms and cardiovascular health.",
     heroImageUrl: getSupplementImage('sulforaphanev2'),
     
@@ -258,7 +256,7 @@ export function SulforaphaneKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Sulforaphane', benefits, '/sulforaphane')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Sulforaphane', benefits, '/sulforaphane')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

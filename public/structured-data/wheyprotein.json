@@ -2,8 +2,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Whey Protein - Scientific Evidence & Price Comparison",
-    "description": "Evidence-based review of whey protein (concentrate, isolate, hydrolysate) for muscle protein synthesis, post-workout recovery, and body composition. Analysis of leucine content, digestion rates, and quality standards.",
+    "name": "Wheyprotein - Scientific Evidence & Price Comparison",
+    "description": "Enhanced meta-analysis review of whey protein for body composition, metabolic health, and athletic performance",
     "category": "Protein Supplements",
     "brand": {
       "@type": "Brand",
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Whey Protein: Fast-Absorbing Protein for Muscle Growth",
-    "description": "Evidence-based review of whey protein (concentrate, isolate, hydrolysate) for muscle protein synthesis, post-workout recovery, and body composition. Analysis of leucine content, digestion rates, and quality standards.",
+    "name": "Whey Protein",
+    "description": "Enhanced meta-analysis review of whey protein for body composition, metabolic health, and athletic performance",
     "about": {
       "@type": "Thing",
-      "name": "Whey Protein",
-      "description": "Evidence-based review of whey protein (concentrate, isolate, hydrolysate) for muscle protein synthesis, post-workout recovery, and body composition. Analysis of leucine content, digestion rates, and quality standards."
+      "name": "Wheyprotein",
+      "description": "Enhanced meta-analysis review of whey protein for body composition, metabolic health, and athletic performance"
     },
     "url": "https://www.suppl.me/wheyprotein",
-    "lastReviewed": "2025-11-25",
+    "lastReviewed": "2025-11-26",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Whey Protein",
-      "description": "Evidence-based review of whey protein (concentrate, isolate, hydrolysate) for muscle protein synthesis, post-workout recovery, and body composition. Analysis of leucine content, digestion rates, and quality standards.",
+      "name": "Wheyprotein",
+      "description": "Enhanced meta-analysis review of whey protein for body composition, metabolic health, and athletic performance",
       "drugClass": "Dietary Supplement"
     }
   },

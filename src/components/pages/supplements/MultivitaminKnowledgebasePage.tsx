@@ -7,7 +7,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function MultivitaminKnowledgebasePage({ 
   onNavigate,
@@ -18,12 +17,11 @@ export function MultivitaminKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('multivitaminv2');
   const benefits = ['nutrient insurance', 'immune support', 'energy metabolism', 'overall wellness', 'deficiency prevention'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Multivitamin",
-    currentPage: "multivitaminv2",
+    currentPage: "multivitamin",
     heroDescription: "Evidence-based overview of comprehensive vitamin and mineral supplements with population-specific efficacy ranging from no mortality benefit in healthy adults to reduced cataracts in older adults, improved pregnancy outcomes, and consistent safety profiles across all groups.",
     heroImageUrl: getSupplementImage('multivitaminv2'),
     
@@ -320,7 +318,7 @@ export function MultivitaminKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Multivitamin', benefits, '/multivitamin')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Multivitamin', benefits, '/multivitamin')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

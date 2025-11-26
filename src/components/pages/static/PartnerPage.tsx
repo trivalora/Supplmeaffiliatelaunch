@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import { ExternalLink, CheckCircle2, Calendar } from 'lucide-react';
 import { ResponsivePicture } from '@/components/shared/content/ResponsivePicture';
@@ -111,7 +113,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
-              backgroundColor: '#162F1C',
+              backgroundColor: 'var(--primary)',
               opacity: 0.35
             }}
           />
@@ -119,7 +121,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
           <div data-layout-container className="relative z-10">
             <div className="text-center max-w-4xl mx-auto px-[5vw] md:px-0">
               <h1 className="mb-4 text-white text-4xl md:text-5xl">
-                We compare supplement prices with real-time accuracy for US shoppers. <span style={{ color: '#E0CBA8' }}>Partner-ready.</span>
+                We compare supplement prices with real-time accuracy for US shoppers. <span style={{ color: 'var(--secondary)' }}>Partner-ready.</span>
               </h1>
 
               <p className="mb-8 text-white/80 text-base md:text-lg max-w-2xl mx-auto">
@@ -164,7 +166,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <div className="mb-2" style={{ color: '#162F1C' }}>
+                  <div className="mb-2" style={{ color: 'var(--primary)' }}>
                     <CheckCircle2 className="w-6 h-6" />
                   </div>
                   <h3 className="mb-2 text-primary">Traffic Plan (0-90 Days)</h3>
@@ -174,7 +176,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <div className="mb-2" style={{ color: '#162F1C' }}>
+                  <div className="mb-2" style={{ color: 'var(--primary)' }}>
                     <CheckCircle2 className="w-6 h-6" />
                   </div>
                   <h3 className="mb-2 text-primary">Geographic Focus</h3>
@@ -194,33 +196,33 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="flex gap-4">
-                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: '#162F1C' }} />
+                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: 'var(--primary)' }} />
                     <div>
-                      <h4 className="mb-1" style={{ color: '#162F1C' }}>FTC Compliance</h4>
+                      <h4 className="mb-1" style={{ color: 'var(--primary)' }}>FTC Compliance</h4>
                       <p className="text-foreground">Affiliate disclosures on every product listing and comparison page.</p>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
-                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: '#162F1C' }} />
+                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: 'var(--primary)' }} />
                     <div>
-                      <h4 className="mb-1" style={{ color: '#162F1C' }}>FDA Safe Claims</h4>
+                      <h4 className="mb-1" style={{ color: 'var(--primary)' }}>FDA Safe Claims</h4>
                       <p className="text-foreground">No disease claims; structure/function only. Medical disclaimer sitewide. <a href="https://www.fda.gov" target="_blank" rel="nofollow noreferrer" className="text-fourth underline">(fda.gov)</a></p>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
-                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: '#162F1C' }} />
+                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: 'var(--primary)' }} />
                     <div>
-                      <h4 className="mb-1" style={{ color: '#162F1C' }}>Legal Pages Live</h4>
+                      <h4 className="mb-1" style={{ color: 'var(--primary)' }}>Legal Pages Live</h4>
                       <p className="text-foreground">Privacy Policy, Terms of Service, Cookie Policy, and Contact page with business address.</p>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
-                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: '#162F1C' }} />
+                    <CheckCircle2 className="w-5 h-5 mt-1 shrink-0" style={{ color: 'var(--primary)' }} />
                     <div>
-                      <h4 className="mb-1" style={{ color: '#162F1C' }}>Network-Compliant</h4>
+                      <h4 className="mb-1" style={{ color: 'var(--primary)' }}>Network-Compliant</h4>
                       <p className="text-foreground">No coupons/incentives, no doorway pages, no paid search brand-bidding. <a href="https://www.cj.com" target="_blank" rel="nofollow noreferrer" className="text-fourth underline">(cj.com)</a></p>
                     </div>
                   </div>
@@ -239,7 +241,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="mb-3" style={{ color: '#162F1C' }}>Price Comparison Tables</h4>
+                  <h4 className="mb-3" style={{ color: 'var(--primary)' }}>Price Comparison Tables</h4>
                   <p className="mb-3 text-foreground">Featured placement in side-by-side product comparisons with real-time pricing updates.</p>
                   <a
                     href="/vitamin-d"
@@ -250,7 +252,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="mb-3" style={{ color: '#162F1C' }}>Retailer Badge Features</h4>
+                  <h4 className="mb-3" style={{ color: 'var(--primary)' }}>Retailer Badge Features</h4>
                   <p className="mb-3 text-foreground">Trusted retailer badges on knowledge base pages with prominent call-to-action placement.</p>
                   <a
                     href="/omega-3"
@@ -261,7 +263,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="mb-3" style={{ color: '#162F1C' }}>Category Top Picks</h4>
+                  <h4 className="mb-3" style={{ color: 'var(--primary)' }}>Category Top Picks</h4>
                   <p className="mb-3 text-foreground">Featured "Best Price" and "Editor's Choice" slots in category roundup pages.</p>
                   <a
                     href="/ashwagandha"
@@ -272,7 +274,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="mb-3" style={{ color: '#162F1C' }}>Newsletter Features</h4>
+                  <h4 className="mb-3" style={{ color: 'var(--primary)' }}>Newsletter Features</h4>
                   <p className="mb-3 text-foreground">Dedicated product spotlights in monthly email campaigns to engaged supplement buyers.</p>
                   <p className="text-foreground/60 italic">Coming Q2 2025</p>
                 </div>
@@ -288,17 +290,17 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
 
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="text-center">
-                    <div className="text-4xl mb-2" style={{ color: '#162F1C' }}>12hr</div>
+                    <div className="text-4xl mb-2" style={{ color: 'var(--primary)' }}>12hr</div>
                     <p className="text-foreground">Price feed refresh cycle with automated mismatch alerts</p>
                   </div>
 
                   <div className="text-center">
-                    <div className="text-4xl mb-2" style={{ color: '#162F1C' }}>Weekly</div>
+                    <div className="text-4xl mb-2" style={{ color: 'var(--primary)' }}>Weekly</div>
                     <p className="text-foreground">Manual QA checklist: pricing accuracy, link validation, content review</p>
                   </div>
 
                   <div className="text-center">
-                    <div className="text-4xl mb-2" style={{ color: '#162F1C' }}>2x/week</div>
+                    <div className="text-4xl mb-2" style={{ color: 'var(--primary)' }}>2x/week</div>
                     <p className="text-foreground">Broken-link sweeps across all product pages and affiliate URLs</p>
                   </div>
                 </div>
@@ -315,59 +317,59 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                 <h3 className="mb-4 text-primary">Networks We Support First</h3>
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div>
-                    <h4 className="mb-2" style={{ color: '#162F1C' }}>Active Networks</h4>
+                    <h4 className="mb-2" style={{ color: 'var(--primary)' }}>Active Networks</h4>
                     <ul className="space-y-2 text-foreground">
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4" style={{ color: '#162F1C' }} />
+                        <CheckCircle2 className="w-4 h-4" style={{ color: 'var(--primary)' }} />
                         ShareASale <span className="text-foreground/60">(Priority)</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4" style={{ color: '#162F1C' }} />
+                        <CheckCircle2 className="w-4 h-4" style={{ color: 'var(--primary)' }} />
                         Amazon Associates <span className="text-foreground/60">(Live)</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4" style={{ color: '#162F1C' }} />
+                        <CheckCircle2 className="w-4 h-4" style={{ color: 'var(--primary)' }} />
                         iHerb Affiliate <span className="text-foreground/60">(Live)</span>
                       </li>
                     </ul>
                   </div>
 
                   <div>
-                    <h4 className="mb-2" style={{ color: '#162F1C' }}>Planned Q1 2025</h4>
+                    <h4 className="mb-2" style={{ color: 'var(--primary)' }}>Planned Q1 2025</h4>
                     <ul className="space-y-2 text-foreground">
                       <li className="flex items-center gap-2">
-                        <div className="w-4 h-4 rounded-full border-2" style={{ borderColor: '#162F1C' }}></div>
+                        <div className="w-4 h-4 rounded-full border-2" style={{ borderColor: 'var(--primary)' }}></div>
                         Awin
                       </li>
                       <li className="flex items-center gap-2">
-                        <div className="w-4 h-4 rounded-full border-2" style={{ borderColor: '#162F1C' }}></div>
+                        <div className="w-4 h-4 rounded-full border-2" style={{ borderColor: 'var(--primary)' }}></div>
                         CJ Affiliate (Commission Junction)
                       </li>
                       <li className="flex items-center gap-2">
-                        <div className="w-4 h-4 rounded-full border-2" style={{ borderColor: '#162F1C' }}></div>
+                        <div className="w-4 h-4 rounded-full border-2" style={{ borderColor: 'var(--primary)' }}></div>
                         Impact
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <div className="border-t pt-6" style={{ borderColor: '#E0CBA8' }}>
-                  <h4 className="mb-3" style={{ color: '#162F1C' }}>Tracking Standards</h4>
+                <div className="border-t pt-6" style={{ borderColor: 'var(--secondary)' }}>
+                  <h4 className="mb-3" style={{ color: 'var(--primary)' }}>Tracking Standards</h4>
                   <ul className="space-y-2 text-foreground">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4" style={{ color: '#162F1C' }} />
+                      <CheckCircle2 className="w-4 h-4" style={{ color: 'var(--primary)' }} />
                       UTM parameter implementation for campaign tracking
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4" style={{ color: '#162F1C' }} />
+                      <CheckCircle2 className="w-4 h-4" style={{ color: 'var(--primary)' }} />
                       SubID support for granular placement tracking
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4" style={{ color: '#162F1C' }} />
+                      <CheckCircle2 className="w-4 h-4" style={{ color: 'var(--primary)' }} />
                       Suppression of paid search to protect brand terms
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4" style={{ color: '#162F1C' }} />
+                      <CheckCircle2 className="w-4 h-4" style={{ color: 'var(--primary)' }} />
                       Google Tag Manager for event tracking and conversion monitoring
                     </li>
                   </ul>
@@ -387,7 +389,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
             <div data-layout-container>
               <div className="max-w-2xl mx-auto">
                 <div className="text-center mb-8">
-                  <Calendar className="w-12 h-12 mx-auto mb-4" style={{ color: '#162F1C' }} />
+                  <Calendar className="w-12 h-12 mx-auto mb-4" style={{ color: 'var(--primary)' }} />
                   <h2 className="mb-3 text-primary">Let's Partner</h2>
                   <p className="text-foreground">
                     Ready to activate? Fill out this quick form and we'll schedule a 10-minute partner review.
@@ -510,22 +512,22 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
               <div className="bg-white p-8 rounded-xl shadow-sm">
                 <div className="space-y-6 text-foreground">
                   <div>
-                    <h4 className="mb-2" style={{ color: '#162F1C' }}>Third-Party Verification</h4>
+                    <h4 className="mb-2" style={{ color: 'var(--primary)' }}>Third-Party Verification</h4>
                     <p>We don't just claim quality—we prove it. Every product recommendation is backed by research grades (A-D), peer-reviewed studies, and meta-analysis citations. Affiliate managers approve what's undeniable.</p>
                   </div>
 
                   <div>
-                    <h4 className="mb-2" style={{ color: '#162F1C' }}>Specificity Over Vagueness</h4>
+                    <h4 className="mb-2" style={{ color: 'var(--primary)' }}>Specificity Over Vagueness</h4>
                     <p>Numbers beat adjectives. We provide exact SKU counts, update frequencies, traffic plans, and compliance documentation. This removes guesswork and accelerates approval decisions.</p>
                   </div>
 
                   <div>
-                    <h4 className="mb-2" style={{ color: '#162F1C' }}>De-Risked Partnership</h4>
+                    <h4 className="mb-2" style={{ color: 'var(--primary)' }}>De-Risked Partnership</h4>
                     <p>Clear compliance standards, FTC/FDA-safe content, and transparent traffic sources mean you're partnering with a platform built for long-term, sustainable growth—not quick wins that risk your brand.</p>
                   </div>
 
                   <div>
-                    <h4 className="mb-2" style={{ color: '#162F1C' }}>Quality Traffic Promise</h4>
+                    <h4 className="mb-2" style={{ color: 'var(--primary)' }}>Quality Traffic Promise</h4>
                     <p>Our audience is actively researching supplements with purchase intent. They're comparing prices and reading evidence-based content—not browsing casually. This drives higher conversion rates and better EPCs.</p>
                   </div>
                 </div>

@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "BCAAs (Branched-Chain Amino Acids) - Scientific Evidence & Price Comparison",
-    "description": "Comprehensive analysis of branched-chain amino acids (leucine, isoleucine, valine) for muscle protein synthesis, exercise recovery, and athletic performance. Review of clinical studies and optimal supplementation protocols.",
-    "category": "Sports Nutrition",
+    "name": "Bcaas - Scientific Evidence & Price Comparison",
+    "description": "Enhanced meta-analysis review of branched-chain amino acids for muscle recovery and hepatic health",
+    "category": "Amino Acids",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "BCAAs: Clinical Evidence for Muscle Recovery & Performance",
-    "description": "Comprehensive analysis of branched-chain amino acids (leucine, isoleucine, valine) for muscle protein synthesis, exercise recovery, and athletic performance. Review of clinical studies and optimal supplementation protocols.",
+    "name": "BCAAs",
+    "description": "Enhanced meta-analysis review of branched-chain amino acids for muscle recovery and hepatic health",
     "about": {
       "@type": "Thing",
-      "name": "BCAAs (Branched-Chain Amino Acids)",
-      "description": "Comprehensive analysis of branched-chain amino acids (leucine, isoleucine, valine) for muscle protein synthesis, exercise recovery, and athletic performance. Review of clinical studies and optimal supplementation protocols."
+      "name": "Bcaas",
+      "description": "Enhanced meta-analysis review of branched-chain amino acids for muscle recovery and hepatic health"
     },
     "url": "https://www.suppl.me/bcaas",
-    "lastReviewed": "2025-11-25",
+    "lastReviewed": "2025-11-26",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "BCAAs (Branched-Chain Amino Acids)",
-      "description": "Comprehensive analysis of branched-chain amino acids (leucine, isoleucine, valine) for muscle protein synthesis, exercise recovery, and athletic performance. Review of clinical studies and optimal supplementation protocols.",
+      "name": "Bcaas",
+      "description": "Enhanced meta-analysis review of branched-chain amino acids for muscle recovery and hepatic health",
       "drugClass": "Dietary Supplement"
     }
   },

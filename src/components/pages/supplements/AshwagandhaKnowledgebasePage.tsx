@@ -8,7 +8,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function AshwagandhaKnowledgebasePage({ 
   onNavigate,
@@ -19,14 +18,13 @@ export function AshwagandhaKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('ashwagandhav2');
   const benefits = ['stress reduction', 'anxiety relief', 'cortisol management', 'sleep quality', 'cognitive function'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Ashwagandha",
-    currentPage: "ashwagandhav2",
+    currentPage: "ashwagandha",
     heroDescription: "Evidence-based overview of this Ayurvedic adaptogen herb best known for reducing stress and anxiety, with potential benefits for sleep, testosterone, and physical performance.",
-    heroImageUrl: getSupplementImage('ashwagandhav2'),
+    heroImageUrl: getSupplementImage('ashwagandha'),
     
     overviewTitle: "What is Ashwagandha?",
     overviewContent: (
@@ -325,7 +323,7 @@ export function AshwagandhaKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Ashwagandha', benefits, '/ashwagandha')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Ashwagandha', benefits, '/ashwagandha')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

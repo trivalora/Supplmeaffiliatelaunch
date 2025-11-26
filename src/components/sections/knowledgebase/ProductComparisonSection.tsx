@@ -2,7 +2,6 @@
 
 import { useMemo } from 'react';
 import { getProductsBySupplementName, type ProductData } from '@/lib/supplementProductsData';
-import { useProductTracking } from '@/hooks/useAnalytics';
 import { ProductImage } from '@/components/images';
 import { AffiliateButtons } from './AffiliateButtons';
 
@@ -36,20 +35,9 @@ interface ProductComparisonSectionProps {
 
 export function ProductComparisonSection({ supplementName }: ProductComparisonSectionProps) {
   const supplements = getProductsBySupplementName(supplementName);
-  const { handleProductImpression } = useProductTracking(supplementName);
 
-  // Track product impressions when component mounts
-  useMemo(() => {
-    if (supplements.length > 0) {
-      const productData = supplements.map((product: any, index: number) => ({
-        name: product.name,
-        brand: product.brand,
-        retailer: 'Multiple',
-        position: index + 1,
-      }));
-      handleProductImpression(productData, 'bottom');
-    }
-  }, [supplements, handleProductImpression]);
+  // Memoize supplement data
+  const supplementData = useMemo(() => supplements, [supplements]);
 
   // Build description from structured fields with type labels
   const getDescriptionLines = (product: ProductData): Array<{ text: string; type: 'content' | 'weight' | 'flavor' | 'dietary' | 'extraNotice' }> => {

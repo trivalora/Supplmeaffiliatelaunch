@@ -2,9 +2,9 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Creatine Monohydrate - Scientific Evidence & Price Comparison",
-    "description": "Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile.",
-    "category": "Sports Nutrition",
+    "name": "Creatine - Scientific Evidence & Price Comparison",
+    "description": "Enhanced meta-analysis review of creatine with updated research data",
+    "category": "Amino Acids",
     "brand": {
       "@type": "Brand",
       "name": "suppl.me"
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Creatine: Most Researched Supplement for Strength & Cognition",
-    "description": "Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile.",
+    "name": "Creatine",
+    "description": "Enhanced meta-analysis review of creatine with updated research data",
     "about": {
       "@type": "Thing",
-      "name": "Creatine Monohydrate",
-      "description": "Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile."
+      "name": "Creatine",
+      "description": "Enhanced meta-analysis review of creatine with updated research data"
     },
     "url": "https://www.suppl.me/creatine",
-    "lastReviewed": "2025-11-25",
+    "lastReviewed": "2025-11-26",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Creatine Monohydrate",
-      "description": "Evidence-based review of creatine monohydrate for muscle strength, power output, cognitive function, and neuroprotection. Analysis of 1000+ studies, loading protocols, and safety profile.",
+      "name": "Creatine",
+      "description": "Enhanced meta-analysis review of creatine with updated research data",
       "drugClass": "Dietary Supplement"
     }
   },

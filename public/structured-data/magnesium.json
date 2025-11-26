@@ -2,8 +2,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Magnesium Supplement - Scientific Evidence & Price Comparison",
-    "description": "Evidence-based review of magnesium for sleep quality, muscle relaxation, cardiovascular health, and blood pressure. Analysis of bioavailable forms (glycinate, citrate, threonate) and optimal dosing.",
+    "name": "Magnesium - Scientific Evidence & Price Comparison",
+    "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation",
     "category": "Minerals",
     "brand": {
       "@type": "Brand",
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Magnesium: Clinical Evidence for Sleep, Muscle & Heart Health",
-    "description": "Evidence-based review of magnesium for sleep quality, muscle relaxation, cardiovascular health, and blood pressure. Analysis of bioavailable forms (glycinate, citrate, threonate) and optimal dosing.",
+    "name": "Magnesium",
+    "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation",
     "about": {
       "@type": "Thing",
-      "name": "Magnesium Supplement",
-      "description": "Evidence-based review of magnesium for sleep quality, muscle relaxation, cardiovascular health, and blood pressure. Analysis of bioavailable forms (glycinate, citrate, threonate) and optimal dosing."
+      "name": "Magnesium",
+      "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation"
     },
     "url": "https://www.suppl.me/magnesium",
-    "lastReviewed": "2025-11-25",
+    "lastReviewed": "2025-11-26",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -41,8 +41,8 @@
     },
     "mainEntity": {
       "@type": "Drug",
-      "name": "Magnesium Supplement",
-      "description": "Evidence-based review of magnesium for sleep quality, muscle relaxation, cardiovascular health, and blood pressure. Analysis of bioavailable forms (glycinate, citrate, threonate) and optimal dosing.",
+      "name": "Magnesium",
+      "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation",
       "drugClass": "Dietary Supplement"
     }
   },

@@ -1,44 +1,24 @@
 import { Shield, Lock, Eye, Users, Database, Globe, FileText } from 'lucide-react';
 import { LegalContactSection } from '@/components/LegalContactSection';
-import { SEOHead } from '@/components/SEOHead';
+import { StaticPageTemplate, CardContent } from '@/components/templates/StaticPageTemplate';
 
 export function PrivacyPolicyPage() {
   return (
-    <>
-      <SEOHead 
-        title="Privacy Policy - Data Protection & Security"
-        description="Read our privacy policy to understand how we collect, use, and protect your personal information. Learn about your data rights and our commitment to privacy."
-        keywords="privacy policy, data protection, personal information, GDPR, privacy rights"
-      />
-      <div className="bg-background flex flex-col w-full min-h-screen" data-page-content>
-        {/* Anchor for "top" navigation */}
-        <div id="top" className="absolute" style={{ top: 'var(--header-height)' }}></div>
-        
-        {/* Hero Section */}
-        <div id="hero">
-          <div className="flex-1 flex items-center justify-center px-6 py-16 md:py-24" style={{ backgroundColor: '#162F1C' }}>
-            <div className="max-w-[800px] text-center">
-              <div className="flex justify-center mb-6">
-                <Shield className="w-16 h-16" style={{ color: '#E0CBA8' }} />
-              </div>
-              <h1 className="mb-6" style={{ color: '#F7F7F3' }}>
-                Privacy Policy
-              </h1>
-              <p className="text-[18px] md:text-[20px] leading-[32px]" style={{ color: '#E0CBA8' }}>
-                Last Updated: October 29, 2025
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Main Content */}
-        <div data-layout-section>
-          <div data-layout-container>
-            <div className="max-w-[800px] mx-auto">
-              <div data-stack="xl">
+    <StaticPageTemplate
+      title="Privacy Policy - Data Protection & Security"
+      description="Read our privacy policy to understand how we collect, use, and protect your personal information. Learn about your data rights and our commitment to privacy."
+      keywords="privacy policy, data protection, personal information, GDPR, privacy rights"
+      heroTitle="Privacy Policy"
+      heroSubtitle="Last Updated: October 29, 2025"
+      heroIcon={Shield}
+      heroBackground="primary"
+      showTopAnchor={true}
+    >
+      <div className="max-w-[800px] mx-auto">
+        <div data-stack="xl">
                 
                 {/* Introduction */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Introduction</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     Welcome to suppl.me ("we," "our," or "us"). We are committed to protecting your privacy and personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
@@ -46,10 +26,10 @@ export function PrivacyPolicyPage() {
                   <p className="text-foreground leading-relaxed">
                     Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Information We Collect */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <Database className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">Information We Collect</h2>
@@ -94,10 +74,10 @@ export function PrivacyPolicyPage() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* How We Use Your Information */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <Eye className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">How We Use Your Information</h2>
@@ -117,10 +97,10 @@ export function PrivacyPolicyPage() {
                     <li>Prevent fraud and ensure security</li>
                     <li>Comply with legal obligations</li>
                   </ul>
-                </div>
+                </CardContent>
 
                 {/* Information Sharing */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <Users className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">Information Sharing and Disclosure</h2>
@@ -154,10 +134,10 @@ export function PrivacyPolicyPage() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Data Security */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <Lock className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">Data Security</h2>
@@ -166,10 +146,10 @@ export function PrivacyPolicyPage() {
                   <p className="text-foreground leading-relaxed mb-4">
                     We use administrative, technical, and physical security measures to protect your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your information, we cannot guarantee absolute security.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Your Rights */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <FileText className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">Your Privacy Rights</h2>
@@ -190,10 +170,10 @@ export function PrivacyPolicyPage() {
                   <p className="text-foreground leading-relaxed mt-4">
                     To exercise these rights, please contact us using the information provided below.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* International Data Transfers */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <Globe className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">International Data Transfers</h2>
@@ -202,32 +182,29 @@ export function PrivacyPolicyPage() {
                   <p className="text-foreground leading-relaxed">
                     Your information may be transferred to and maintained on computers located outside of your state, province, country, or other governmental jurisdiction where data protection laws may differ. If you are located outside the United States and choose to provide information to us, we transfer your data to the United States and process it there.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Children's Privacy */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Children's Privacy</h2>
                   <p className="text-foreground leading-relaxed">
                     Our website is not intended for children under the age of 18. We do not knowingly collect personal information from children under 18. If you become aware that a child has provided us with personal information, please contact us, and we will take steps to delete such information.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Changes to Privacy Policy */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Changes to This Privacy Policy</h2>
                   <p className="text-foreground leading-relaxed">
                     We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Contact Information */}
                 <LegalContactSection />
 
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </>
+    </StaticPageTemplate>
   );
 }

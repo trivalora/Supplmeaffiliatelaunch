@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useRef, useEffect } from 'react';
 import { Search, X, Check, Info } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -142,11 +144,11 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
           }}
         />
 
-        {/* Layer 3: Additional green overlay - Always #162F1C regardless of theme */}
+        {/* Layer 3: Additional green overlay - Always primary color regardless of theme */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            backgroundColor: '#162F1C',
+            backgroundColor: 'var(--primary)',
             opacity: 0.35
           }}
         />
@@ -155,7 +157,7 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
       <div className="relative z-10 w-full px-[2vw] md:px-[var(--page-padding-inline)]">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="mb-4 text-white text-4xl md:text-5xl">
-            Your evidence-backed supplement stack for less.<br /><span style={{ color: '#E0CBA8' }}>In seconds.</span>
+            Your evidence-backed supplement stack for less.<br /><span style={{ color: 'var(--secondary)' }}>In seconds.</span>
           </h1>
 
           <p className="mb-6 text-white/80 text-base md:text-lg max-w-2xl mx-auto">
@@ -187,7 +189,7 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
                 trackCTAClick('Compare Prices', 'hero', '/compare', 'button');
               }
             }}
-            className="mt-5 px-8 py-3 rounded-2xl transition-all shadow-xl bg-black text-white hover:bg-[#1a1a1a] cursor-pointer text-sm"
+            className="mt-5 px-8 py-3 rounded-2xl transition-all shadow-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer text-sm"
           >
             Compare Prices
           </button>
@@ -656,7 +658,7 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
 // ========================================
 function CTASection({ onScrollToSearch }: { onScrollToSearch?: () => void }) {
   return (
-    <section data-layout-section style={{ backgroundColor: '#162F1C', color: '#ffffff' }}>
+    <section data-layout-section style={{ backgroundColor: 'var(--primary)', color: '#ffffff' }}>
       <div data-layout-container className="text-center">
         <h2 className="mb-4">Start making better supplement decisions</h2>
         <p className="mb-8 max-w-2xl mx-auto" style={{ color: '#E0CBA8' }}>
@@ -669,7 +671,7 @@ function CTASection({ onScrollToSearch }: { onScrollToSearch?: () => void }) {
               trackCTAClick('Compare Prices Now', 'cta', '/#hero', 'button');
               onScrollToSearch && onScrollToSearch();
             }}
-            className="bg-black text-white px-8 py-4 rounded-xl hover:bg-[#1a1a1a] transition-colors shadow-lg"
+            className="bg-primary text-primary-foreground px-8 py-4 rounded-xl hover:bg-primary/90 transition-colors shadow-lg"
           >
             Compare Prices Now
           </button>

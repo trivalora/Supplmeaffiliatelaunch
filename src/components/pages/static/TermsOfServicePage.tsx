@@ -1,44 +1,24 @@
 import { FileText, Scale, AlertTriangle, CheckCircle2, XCircle, Shield } from 'lucide-react';
 import { LegalContactSection } from '@/components/LegalContactSection';
-import { SEOHead } from '@/components/SEOHead';
+import { StaticPageTemplate, CardContent } from '@/components/templates/StaticPageTemplate';
 
 export function TermsOfServicePage() {
   return (
-    <>
-      <SEOHead 
-        title="Terms of Service - User Agreement"
-        description="Review our terms of service for using the supplement guide platform. Learn about user responsibilities, service limitations, and legal agreements."
-        keywords="terms of service, user agreement, terms and conditions, legal terms, service agreement"
-      />
-      <div className="bg-background flex flex-col w-full min-h-screen" data-page-content>
-        {/* Anchor for "top" navigation */}
-        <div id="top" className="absolute" style={{ top: 'var(--header-height)' }}></div>
-        
-        {/* Hero Section */}
-        <div id="hero">
-          <div className="flex-1 flex items-center justify-center px-6 py-16 md:py-24" style={{ backgroundColor: '#162F1C' }}>
-            <div className="max-w-[800px] text-center">
-              <div className="flex justify-center mb-6">
-                <Scale className="w-16 h-16" style={{ color: '#E0CBA8' }} />
-              </div>
-              <h1 className="mb-6" style={{ color: '#F7F7F3' }}>
-                Terms of Service
-              </h1>
-              <p className="text-[18px] md:text-[20px] leading-[32px]" style={{ color: '#E0CBA8' }}>
-                Last Updated: October 29, 2025
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Main Content */}
-        <div data-layout-section>
-          <div data-layout-container>
-            <div className="max-w-[800px] mx-auto">
-              <div data-stack="xl">
+    <StaticPageTemplate
+      title="Terms of Service - User Agreement"
+      description="Review our terms of service for using the supplement guide platform. Learn about user responsibilities, service limitations, and legal agreements."
+      keywords="terms of service, user agreement, terms and conditions, legal terms, service agreement"
+      heroTitle="Terms of Service"
+      heroSubtitle="Last Updated: October 29, 2025"
+      heroIcon={Scale}
+      heroBackground="primary"
+      showTopAnchor={true}
+    >
+      <div className="max-w-[800px] mx-auto">
+        <div data-stack="xl">
                 
                 {/* Acceptance of Terms */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">1. Acceptance of Terms</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     By accessing and using suppl.me (the "Website"), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to these Terms of Service, please do not use this Website.
@@ -46,10 +26,10 @@ export function TermsOfServicePage() {
                   <p className="text-foreground leading-relaxed">
                     We reserve the right to modify these terms at any time. Your continued use of the Website following any changes constitutes acceptance of those changes.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Use of Website */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <CheckCircle2 className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">2. Use of Website</h2>
@@ -70,10 +50,10 @@ export function TermsOfServicePage() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Prohibited Activities */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <XCircle className="w-6 h-6 text-warning-accent" />
                     <h2 className="text-primary">3. Prohibited Activities</h2>
@@ -93,10 +73,10 @@ export function TermsOfServicePage() {
                     <li>Post false, misleading, or defamatory content</li>
                     <li>Violate any applicable laws or regulations</li>
                   </ul>
-                </div>
+                </CardContent>
 
                 {/* Intellectual Property */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <FileText className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">4. Intellectual Property Rights</h2>
@@ -108,7 +88,7 @@ export function TermsOfServicePage() {
                   <p className="text-foreground leading-relaxed">
                     You may not reproduce, distribute, modify, create derivative works of, publicly display, or exploit any content from the Website without our express written permission.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Affiliate Disclosure */}
                 <div className="bg-warning border border-warning-accent rounded-[14px] p-8">
@@ -142,7 +122,7 @@ export function TermsOfServicePage() {
                 </div>
 
                 {/* Third-Party Links */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">6. Third-Party Links</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     The Website may contain links to third-party websites (including affiliate merchant sites like Amazon and Walmart). These links are provided for your convenience only. We do not control and are not responsible for the content, privacy policies, or practices of third-party websites.
@@ -150,10 +130,10 @@ export function TermsOfServicePage() {
                   <p className="text-foreground leading-relaxed">
                     Your use of third-party websites is at your own risk and subject to the terms and conditions of those websites.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Disclaimer of Warranties */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-center gap-3 mb-6">
                     <Shield className="w-6 h-6 text-primary" />
                     <h2 className="text-primary">7. Disclaimer of Warranties</h2>
@@ -172,10 +152,10 @@ export function TermsOfServicePage() {
                   <p className="text-muted-foreground text-sm mt-4">
                     We do not warrant that the Website will meet your requirements or that any errors will be corrected.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Limitation of Liability */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">8. Limitation of Liability</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     TO THE FULLEST EXTENT PERMITTED BY LAW, suppl.me SHALL NOT BE LIABLE FOR ANY:
@@ -190,48 +170,45 @@ export function TermsOfServicePage() {
                   <p className="text-muted-foreground text-sm mt-4">
                     This limitation applies even if we have been advised of the possibility of such damages.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Indemnification */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">9. Indemnification</h2>
                   <p className="text-foreground leading-relaxed">
                     You agree to indemnify, defend, and hold harmless suppl.me and its officers, directors, employees, agents, and affiliates from any claims, liabilities, damages, losses, costs, or expenses (including reasonable attorneys' fees) arising out of or relating to your use of the Website, violation of these Terms, or infringement of any rights of another.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Governing Law */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">10. Governing Law and Jurisdiction</h2>
                   <p className="text-foreground leading-relaxed">
                     These Terms shall be governed by and construed in accordance with the laws of [Your State/Country], without regard to its conflict of law provisions. Any disputes arising from these Terms or your use of the Website shall be resolved in the courts of [Your Jurisdiction].
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Severability */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">11. Severability</h2>
                   <p className="text-foreground leading-relaxed">
                     If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Entire Agreement */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">12. Entire Agreement</h2>
                   <p className="text-foreground leading-relaxed">
                     These Terms of Service, together with our Privacy Policy and any other legal notices published on the Website, constitute the entire agreement between you and suppl.me regarding your use of the Website.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Contact Information */}
                 <LegalContactSection />
 
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </>
+    </StaticPageTemplate>
   );
 }

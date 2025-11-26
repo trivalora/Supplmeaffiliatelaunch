@@ -54,7 +54,8 @@ export function AffiliateButtons({
         target="_blank"
         rel="nofollow noreferrer"
         data-button-height="md"
-        className="flex-1 bg-[#FF9900] rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-3"
+        className="flex-1 rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-3"
+        style={{ backgroundColor: 'var(--color-amazon)' }}
         {...tooltipHandlers}
         onClick={handleAmazonClick}
       >

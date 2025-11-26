@@ -86,12 +86,12 @@ export interface KnowledgebasePageProps {
 
 function HeroLeftPanel({ supplementName, heroDescription }: { supplementName: string; heroDescription: string }) {
   return (
-    <div className="flex-1 flex items-center justify-center h-auto md:h-full" style={{ backgroundColor: '#162F1C', padding: 'clamp(2rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem)' }}>
+    <div className="flex-1 flex items-center justify-center h-auto md:h-full" style={{ backgroundColor: 'var(--primary)', padding: 'clamp(2rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem)' }}>
       <div data-knowledgebase-hero-text>
-        <h1 style={{ color: '#F7F7F3' }}>
+        <h1 style={{ color: 'var(--tertiary)' }}>
           {supplementName}
         </h1>
-        <p style={{ color: '#F7F7F3' }}>
+        <p style={{ color: 'var(--tertiary)' }}>
           {heroDescription}
         </p>
       </div>

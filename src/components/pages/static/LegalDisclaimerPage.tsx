@@ -1,44 +1,24 @@
 import { Shield, Building2, MapPin, Mail } from 'lucide-react';
 import { LegalContactSection } from '@/components/LegalContactSection';
-import { SEOHead } from '@/components/SEOHead';
+import { StaticPageTemplate, CardContent } from '@/components/templates/StaticPageTemplate';
 
 export function LegalDisclaimerPage() {
   return (
-    <>
-      <SEOHead
-        title="Legal Disclaimer - Important Information"
-        description="Read our legal disclaimer regarding supplement information, medical advice, and liability limitations. Understand the scope and limitations of our service."
-        keywords="legal disclaimer, liability, medical disclaimer, supplement information, legal notice"
-      />
-      <div className="bg-background flex flex-col w-full min-h-screen" data-page-content>
-        {/* Anchor for "top" navigation */}
-        <div id="top" className="absolute" style={{ top: 'var(--header-height)' }}></div>
-
-        {/* Hero Section */}
-        <div id="hero">
-          <div className="flex-1 flex items-center justify-center px-6 py-16 md:py-24" style={{ backgroundColor: '#162F1C' }}>
-            <div className="max-w-[800px] text-center">
-              <div className="flex justify-center mb-6">
-                <Shield className="w-16 h-16" style={{ color: '#E0CBA8' }} />
-              </div>
-              <h1 className="mb-6" style={{ color: '#F7F7F3' }}>
-                Legal Notice
-              </h1>
-              <p className="text-[18px] md:text-[20px] leading-[32px]" style={{ color: '#E0CBA8' }}>
-                Legal Disclaimer & Company Information
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Main Content */}
-        <div data-layout-section>
-          <div data-layout-container>
-            <div className="max-w-[800px] mx-auto">
-              <div data-stack="xl">
+    <StaticPageTemplate
+      title="Legal Disclaimer - Important Information"
+      description="Read our legal disclaimer regarding supplement information, medical advice, and liability limitations. Understand the scope and limitations of our service."
+      keywords="legal disclaimer, liability, medical disclaimer, supplement information, legal notice"
+      heroTitle="Legal Disclaimer"
+      heroSubtitle="Legal Disclaimer & Company Information"
+      heroIcon={Shield}
+      heroBackground="primary"
+      showTopAnchor={true}
+    >
+      <div className="max-w-[800px] mx-auto">
+        <div data-stack="xl">
 
                 {/* Company Information */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-start gap-4 mb-6">
                     <Building2 className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div>
@@ -50,10 +30,10 @@ export function LegalDisclaimerPage() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Registered Address */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-start gap-4 mb-6">
                     <MapPin className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div>
@@ -66,10 +46,10 @@ export function LegalDisclaimerPage() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Contact Information */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-start gap-4 mb-6">
                     <Mail className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div className="w-full">
@@ -90,10 +70,10 @@ export function LegalDisclaimerPage() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Responsible for Content */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Responsible for Content</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     The content on this website is the responsibility of:
@@ -104,10 +84,10 @@ export function LegalDisclaimerPage() {
                     <p>San Francisco, CA 94114</p>
                     <p>United States</p>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Copyright */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Copyright</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     © {new Date().getFullYear()} Trivalora Inc. All rights reserved.
@@ -115,30 +95,30 @@ export function LegalDisclaimerPage() {
                   <p className="text-foreground leading-relaxed">
                     The content and works on these pages created by the site operators are subject to copyright. The duplication, processing, distribution, or any form of commercialization of such material beyond the scope of copyright law shall require the prior written consent of the respective author or creator.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Introduction */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">
                     Introduction and Acceptance of Terms
                   </h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     Welcome to suppl.me, a website operated by trivalora, Inc. The information, tools, and services available on this website are provided to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated herein. By accessing or using any part of this website, you agree to be bound by this Legal Disclaimer. If you do not agree to all the terms and conditions of this disclaimer, you must not access or use this website.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Section 1.1.1 */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h3 className="text-primary mb-4">
                     1.1.1 General Information & Educational Purpose Clause
                   </h3>
                   <p className="text-foreground leading-relaxed">
                     The content provided on suppl.me, including but not limited to text, graphics, images, data compilations, and other material, is for informational and educational purposes only. The website is designed to aggregate and present publicly available research and pricing information on nutritional supplements to serve as a self-help tool for your own use. The content is not intended to be, and should not be construed as, professional advice of any kind, including medical, financial, or legal advice.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Section 1.1.2 */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h3 className="text-primary mb-4">
                     1.1.2 No Medical Advice & Professional Consultation Mandate
                   </h3>
@@ -151,20 +131,20 @@ export function LegalDisclaimerPage() {
                   <p className="text-foreground leading-relaxed">
                     If you think you may have a medical emergency, call your doctor or emergency services (911) immediately. Use of this website does not create a physician-patient or any other professional-client relationship between you and trivalora, Inc.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Section 1.1.3 */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h3 className="text-primary mb-4">
                     1.1.3 Nutritional Supplement & FDA Disclaimer
                   </h3>
                   <p className="text-foreground leading-relaxed">
                     The statements made regarding dietary supplements on this website have not been evaluated by the United States Food and Drug Administration (FDA). The products linked to or discussed on this website are not intended to diagnose, treat, cure, or prevent any disease. The information provided is not meant to replace the advice of your physician or health care provider.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Section 1.1.4 */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h3 className="text-primary mb-4">
                     1.1.4 Disclaimer of Warranties & Accuracy of Information
                   </h3>
@@ -174,10 +154,10 @@ export function LegalDisclaimerPage() {
                   <p className="text-foreground leading-relaxed">
                     We are not responsible for any errors or omissions, or for the results obtained from the use of this information. No guarantee is given that the information provided on this website is correct, complete, or up-to-date.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Section 1.1.5 */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h3 className="text-primary mb-4">
                     1.1.5 Limitation of Liability & Assumption of Risk
                   </h3>
@@ -187,10 +167,10 @@ export function LegalDisclaimerPage() {
                   <p className="text-foreground leading-relaxed">
                     In no event will trivalora, Inc., its directors, employees, or affiliates be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. You agree to release, discharge, indemnify, and hold harmless trivalora, Inc. and its officers, directors, employees, and agents from any and all claims, liabilities, damages, and expenses that may arise from your use of this website or reliance on its content.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Section 1.1.6 */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h3 className="text-primary mb-4">
                     1.1.6 External Links & Third-Party Content
                   </h3>
@@ -200,10 +180,10 @@ export function LegalDisclaimerPage() {
                   <p className="text-foreground leading-relaxed">
                     Despite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content. The information provided on this website is for general informational purposes only. While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability of the information, products, services, or related graphics contained on the website.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Section 1.2 */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-6">
                     1.2 Affiliate Disclosure Policy
                   </h2>
@@ -248,16 +228,13 @@ export function LegalDisclaimerPage() {
                       We are committed to radical transparency regarding our business model because we believe it is essential to earning and maintaining your trust and a prerequisite to making the internet a better place for us all.
                     </p>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Contact Information */}
                 <LegalContactSection />
 
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </>
+    </StaticPageTemplate>
   );
 }

@@ -49,61 +49,61 @@ const imgImageCreatine = '8611a9337d5a61d564cf0a15cb51569ba3ba4b80.png';
  */
 export const SUPPLEMENT_IMAGES: Record<PageKey, string> = {
   // Ashwagandha
-  'ashwagandhav2': imgImageAshwagandha,
+  'ashwagandha': imgImageAshwagandha,
   
   // BCAAs
-  'bcaasv2': imgImageBCAAs,
+  'bcaas': imgImageBCAAs,
   
   // Calcium
-  'calciumv2': imgImageCalcium,
+  'calcium': imgImageCalcium,
   
   // Casein Protein
-  'caseinproteinv2': imgImageCaseinProtein,
+  'caseinprotein': imgImageCaseinProtein,
   
   // Collagen Peptides
-  'collagenpeptidesv2': imgImageCollagenPeptides,
+  'collagenpeptides': imgImageCollagenPeptides,
   
   // Creatine
-  'creatinev2': imgImageCreatine,
+  'creatine': imgImageCreatine,
   
   // Curcumin
-  'curcuminv2': imgImageCurcumin,
+  'curcumin': imgImageCurcumin,
   
   // Iron
-  'ironv2': imgImageIron,
+  'iron': imgImageIron,
   
   // Magnesium
-  'magnesiumv2': imgImageMagnesium,
+  'magnesium': imgImageMagnesium,
   
   // Multivitamin
-  'multivitaminv2': imgImageMultivitamin,
+  'multivitamin': imgImageMultivitamin,
   
   // Omega-3
-  'omega3v2': imgImageOmega3,
+  'omega3': imgImageOmega3,
   
   // Prebiotics
-  'prebioticsv2': imgImagePrebiotics,
+  'prebiotics': imgImagePrebiotics,
   
   // Probiotics
-  'probioticsv2': imgImageProbiotics,
+  'probiotics': imgImageProbiotics,
   
   // Sulforaphane
-  'sulforaphanev2': imgImageSulforaphane,
+  'sulforaphane': imgImageSulforaphane,
   
   // Vitamin C
-  'vitamincv2': imgImageVitaminC,
+  'vitaminc': imgImageVitaminC,
   
   // Vitamin D
-  'vitamindv2': imgImageVitaminD,
+  'vitamind': imgImageVitaminD,
   
   // Whey Protein
-  'wheyproteinv2': imgImageWheyProtein,
+  'wheyprotein': imgImageWheyProtein,
 } as Record<PageKey, string>;
 
 /**
  * Get the image URL for a specific supplement page
  * Returns the base filename for use with SectionImage component
- * @param pageKey The page key (e.g., 'ashwagandhav2')
+ * @param pageKey The page key (e.g., 'ashwagandha')
  * @returns The base image filename or undefined if not found
  */
 export function getSupplementImage(pageKey: PageKey): string | undefined {
@@ -112,7 +112,7 @@ export function getSupplementImage(pageKey: PageKey): string | undefined {
 
 /**
  * Get the thumbnail image URL for header dropdown (256px version)
- * @param pageKey The page key (e.g., 'ashwagandhav2')
+ * @param pageKey The page key (e.g., 'ashwagandha')
  * @returns The full path to the 256px webp image
  */
 export function getSupplementThumbnail(pageKey: PageKey): string | undefined {

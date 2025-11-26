@@ -7,7 +7,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function CalciumKnowledgebasePage({ 
   onNavigate,
@@ -18,15 +17,14 @@ export function CalciumKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('calciumv2');
   const benefits = ['bone health', 'muscle function', 'nerve transmission', 'blood clotting', 'osteoporosis prevention'];
   
   const pageProps: KnowledgebasePageProps = {
     // Hero Section
     supplementName: "Calcium",
-    currentPage: "calciumv2",
+    currentPage: "calcium",
     heroDescription: "Evidence-based overview of the most abundant mineral in the human body, essential for bone health, nerve function, muscle contraction, and various physiological processes.",
-    heroImageUrl: getSupplementImage('calciumv2'),
+    heroImageUrl: getSupplementImage('calcium'),
     
     // Overview Section
     overviewTitle: "What is Calcium?",
@@ -310,7 +308,7 @@ export function CalciumKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Calcium', benefits, '/calcium')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Calcium', benefits, '/calcium')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

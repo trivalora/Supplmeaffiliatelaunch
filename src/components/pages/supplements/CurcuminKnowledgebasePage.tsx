@@ -6,7 +6,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function CurcuminKnowledgebasePage({ 
   onNavigate,
@@ -17,12 +16,11 @@ export function CurcuminKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('curcuminv2');
   const benefits = ['inflammation reduction', 'joint health', 'antioxidant support', 'brain health', 'pain relief'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Curcumin",
-    currentPage: "curcuminv2",
+    currentPage: "curcumin",
     heroDescription: "Active compound from turmeric with meta-analytic evidence demonstrating benefits in 23 of 42 clinical outcomes across metabolic, inflammatory, cognitive, and antioxidant domains",
     heroImageUrl: getSupplementImage('curcuminv2'),
     
@@ -456,7 +454,7 @@ export function CurcuminKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Curcumin', benefits, '/curcumin')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Curcumin', benefits, '/curcumin')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

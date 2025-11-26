@@ -8,7 +8,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function CreatineKnowledgebasePage({ 
   onNavigate,
@@ -19,12 +18,11 @@ export function CreatineKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('creatinev2');
   const benefits = ['muscle strength', 'exercise performance', 'muscle mass', 'cognitive function', 'power output'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Creatine",
-    currentPage: "creatinev2",
+    currentPage: "creatine",
     heroDescription: "Evidence-based overview of one of the most researched and effective supplements for improving exercise performance, muscle mass, and strength, with comprehensive meta-analytic evidence from 10 systematic reviews.",
     heroImageUrl: getSupplementImage('creatinev2'),
     
@@ -338,7 +336,7 @@ export function CreatineKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Creatine', benefits, '/creatine')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Creatine', benefits, '/creatine')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

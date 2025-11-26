@@ -6,7 +6,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function WheyProteinKnowledgebasePage({ 
   onNavigate,
@@ -17,12 +16,11 @@ export function WheyProteinKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('wheyproteinv2');
   const benefits = ['muscle growth', 'recovery', 'protein synthesis', 'strength gains', 'satiety'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Whey Protein",
-    currentPage: "wheyproteinv2",
+    currentPage: "wheyprotein",
     heroDescription: "Evidence-based overview of whey protein supplementation with comprehensive meta-analytic evidence from 10 systematic reviews covering body composition, metabolic health, athletic performance, and recovery outcomes across diverse populations.",
     heroImageUrl: getSupplementImage('wheyproteinv2'),
     
@@ -323,7 +321,7 @@ export function WheyProteinKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Whey Protein', benefits, '/whey-protein')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Whey Protein', benefits, '/whey-protein')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

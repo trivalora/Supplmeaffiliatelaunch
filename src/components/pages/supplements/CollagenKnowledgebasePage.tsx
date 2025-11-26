@@ -8,7 +8,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function CollagenKnowledgebasePage({ 
   onNavigate,
@@ -19,12 +18,11 @@ export function CollagenKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('collagenpeptidesv2');
   const benefits = ['skin elasticity', 'joint health', 'bone density', 'wound healing', 'hair and nail health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Collagen Peptides",
-    currentPage: "collagenpeptidesv2",
+    currentPage: "collagenpeptides",
     heroDescription: "Evidence-based overview of hydrolyzed collagen supplements popular for joint, skin, and bone health, as well as exercise recovery and muscle maintenance.",
     heroImageUrl: getSupplementImage('collagenpeptidesv2'),
     
@@ -299,7 +297,7 @@ export function CollagenKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Collagen Peptides', benefits, '/collagen-peptides')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Collagen Peptides', benefits, '/collagen-peptides')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

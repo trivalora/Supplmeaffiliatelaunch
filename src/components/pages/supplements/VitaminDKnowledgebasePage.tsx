@@ -8,7 +8,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function VitaminDKnowledgebasePage({ 
   onNavigate,
@@ -19,12 +18,11 @@ export function VitaminDKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('vitamindv2');
   const benefits = ['bone health', 'immune function', 'mood support', 'cardiovascular health', 'muscle function'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Vitamin D",
-    currentPage: "vitamindv2",
+    currentPage: "vitamind",
     heroDescription: "Evidence-based overview of the sunshine vitamin essential for bone health, immune function, mood regulation, and overall wellbeing.",
     heroImageUrl: getSupplementImage('vitamindv2'),
     
@@ -302,7 +300,7 @@ export function VitaminDKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Vitamin D', benefits, '/vitamin-d')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Vitamin D', benefits, '/vitamin-d')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

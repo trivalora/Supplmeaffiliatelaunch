@@ -1,44 +1,24 @@
 import { Building2, MapPin, Mail, FileText } from 'lucide-react';
 import { LegalContactSection } from '@/components/LegalContactSection';
-import { SEOHead } from '@/components/SEOHead';
+import { StaticPageTemplate, CardContent } from '@/components/templates/StaticPageTemplate';
 
 export function ImpressumPage() {
   return (
-    <>
-      <SEOHead
-        title="Impressum - Legal Information"
-        description="Legal information and company details for Trivalora Inc. Find our contact information, business address, and regulatory details."
-        keywords="impressum, legal information, company details, business address, regulatory information"
-      />
-      <div className="bg-background flex flex-col w-full min-h-screen" data-page-content>
-        {/* Anchor for "top" navigation */}
-        <div id="top" className="absolute" style={{ top: 'var(--header-height)' }}></div>
-
-        {/* Hero Section */}
-        <div id="hero">
-          <div className="flex-1 flex items-center justify-center px-6 py-16 md:py-24" style={{ backgroundColor: '#162F1C' }}>
-            <div className="max-w-[800px] text-center">
-              <div className="flex justify-center mb-6">
-                <FileText className="w-16 h-16" style={{ color: '#E0CBA8' }} />
-              </div>
-              <h1 className="mb-6" style={{ color: '#F7F7F3' }}>
-                Impressum
-              </h1>
-              <p className="text-[18px] md:text-[20px] leading-[32px]" style={{ color: '#E0CBA8' }}>
-                Legal Disclosure & Company Information
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Main Content */}
-        <div data-layout-section>
-          <div data-layout-container>
-            <div className="max-w-[800px] mx-auto">
-              <div data-stack="xl">
+    <StaticPageTemplate
+      title="Impressum - Legal Information"
+      description="Legal information and company details for Trivalora Inc. Find our contact information, business address, and regulatory details."
+      keywords="impressum, legal information, company details, business address, regulatory information"
+      heroTitle="Impressum"
+      heroSubtitle="Legal Disclosure & Company Information"
+      heroIcon={FileText}
+      heroBackground="primary"
+      showTopAnchor={true}
+    >
+      <div className="max-w-[800px] mx-auto">
+        <div data-stack="xl">
 
                 {/* Company Information */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-start gap-4 mb-6">
                     <Building2 className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div>
@@ -50,10 +30,10 @@ export function ImpressumPage() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Registered Address */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-start gap-4 mb-6">
                     <MapPin className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div>
@@ -66,10 +46,10 @@ export function ImpressumPage() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Contact Information */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <div className="flex items-start gap-4 mb-6">
                     <Mail className="w-6 h-6 text-primary shrink-0 mt-1" />
                     <div className="w-full">
@@ -90,10 +70,10 @@ export function ImpressumPage() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Responsible for Content */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Responsible for Content</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     The content on this website is the responsibility of:
@@ -104,10 +84,10 @@ export function ImpressumPage() {
                     <p>San Francisco, CA 94114</p>
                     <p>United States</p>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Disclaimer */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Disclaimer</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     Despite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content.
@@ -118,10 +98,10 @@ export function ImpressumPage() {
                   <p className="text-foreground leading-relaxed">
                     This website contains affiliate links. We may earn a commission if you make a purchase through our links. This helps support our platform and allows us to continue providing valuable content to our users.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Copyright */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Copyright</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     © {new Date().getFullYear()} Trivalora Inc. All rights reserved.
@@ -129,16 +109,13 @@ export function ImpressumPage() {
                   <p className="text-foreground leading-relaxed">
                     The content and works on these pages created by the site operators are subject to copyright. The duplication, processing, distribution, or any form of commercialization of such material beyond the scope of copyright law shall require the prior written consent of the respective author or creator.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Contact Information */}
                 <LegalContactSection />
 
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </>
+    </StaticPageTemplate>
   );
 }

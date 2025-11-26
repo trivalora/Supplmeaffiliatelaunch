@@ -273,7 +273,7 @@ export function SearchResults({ query, onNavigate, context: _context = 'header' 
           {/* Glossary results */}
           {glossaryResults.length > 0 && (
             <>
-              <div className="px-4 py-2 text-xs uppercase tracking-wide font-medium border-b border-secondary/20" style={{ color: 'var(--primary)', backgroundColor: '#FFFFFF' }}>
+              <div className="px-4 py-2 text-xs uppercase tracking-wide font-medium border-b border-secondary/20" style={{ color: 'var(--primary)', backgroundColor: 'var(--tertiary)' }}>
                 Glossary
               </div>
               {glossaryResults.map((result: any, idx: number) => (

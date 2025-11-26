@@ -1,3 +1,5 @@
+'use client';
+
 import { Search } from 'lucide-react';
 import { useState } from 'react';
 import { GLOSSARY_ROUTES } from '@/routes.config';

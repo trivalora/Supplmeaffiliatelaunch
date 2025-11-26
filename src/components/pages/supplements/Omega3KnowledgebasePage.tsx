@@ -8,7 +8,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function Omega3KnowledgebasePage({ 
   onNavigate,
@@ -19,12 +18,11 @@ export function Omega3KnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('omega3v2');
   const benefits = ['heart health', 'brain function', 'inflammation reduction', 'eye health', 'triglyceride reduction'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Omega-3",
-    currentPage: "omega3v2",
+    currentPage: "omega3",
     heroDescription: "Evidence-based overview of essential fatty acids (EPA and DHA) critical for heart health, brain function, inflammation control, and overall wellbeing.",
     heroImageUrl: getSupplementImage('omega3v2'),
     
@@ -318,7 +316,7 @@ export function Omega3KnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Omega-3', benefits, '/omega-3')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Omega-3', benefits, '/omega-3')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

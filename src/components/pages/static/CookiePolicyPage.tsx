@@ -1,44 +1,24 @@
 import { Cookie, Settings, BarChart, Target, Shield } from 'lucide-react';
 import { LegalContactSection } from '@/components/LegalContactSection';
-import { SEOHead } from '@/components/SEOHead';
+import { StaticPageTemplate, CardContent } from '@/components/templates/StaticPageTemplate';
 
 export function CookiePolicyPage() {
   return (
-    <>
-      <SEOHead 
-        title="Cookie Policy - How We Use Cookies"
-        description="Learn about our cookie usage, tracking technologies, and how they improve your browsing experience. Manage your cookie preferences and understand data collection practices."
-        keywords="cookie policy, cookies, tracking, browser storage, cookie preferences"
-      />
-      <div className="bg-background flex flex-col w-full min-h-screen" data-page-content>
-        {/* Anchor for "top" navigation */}
-        <div id="top" className="absolute" style={{ top: 'var(--header-height)' }}></div>
-        
-        {/* Hero Section */}
-        <div id="hero">
-          <div className="flex-1 flex items-center justify-center px-6 py-16 md:py-24" style={{ backgroundColor: '#162F1C' }}>
-            <div className="max-w-[800px] text-center">
-              <div className="flex justify-center mb-6">
-                <Cookie className="w-16 h-16" style={{ color: '#E0CBA8' }} />
-              </div>
-              <h1 className="mb-6" style={{ color: '#F7F7F3' }}>
-                Cookie Policy
-              </h1>
-              <p className="text-[18px] md:text-[20px] leading-[32px]" style={{ color: '#E0CBA8' }}>
-                Last Updated: October 29, 2025
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Main Content */}
-        <div data-layout-section>
-          <div data-layout-container>
-            <div className="max-w-[800px] mx-auto">
-              <div data-stack="xl">
+    <StaticPageTemplate
+      title="Cookie Policy - How We Use Cookies"
+      description="Learn about our cookie usage, tracking technologies, and how they improve your browsing experience. Manage your cookie preferences and understand data collection practices."
+      keywords="cookie policy, cookies, tracking, browser storage, cookie preferences"
+      heroTitle="Cookie Policy"
+      heroSubtitle="Last Updated: October 29, 2025"
+      heroIcon={Cookie}
+      heroBackground="primary"
+      showTopAnchor={true}
+    >
+      <div className="max-w-[800px] mx-auto">
+        <div data-stack="xl">
                 
                 {/* What Are Cookies */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">What Are Cookies?</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide a better user experience.
@@ -46,10 +26,10 @@ export function CookiePolicyPage() {
                   <p className="text-foreground leading-relaxed">
                     This Cookie Policy explains what cookies are, how we use them, what types of cookies we use, and how you can control or delete them.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* How We Use Cookies */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">How We Use Cookies</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     We use cookies and similar tracking technologies to:
@@ -63,10 +43,10 @@ export function CookiePolicyPage() {
                     <li>Deliver personalized content and advertisements</li>
                     <li>Track affiliate referrals and commissions</li>
                   </ul>
-                </div>
+                </CardContent>
 
                 {/* Types of Cookies */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-6">Types of Cookies We Use</h2>
                   
                   <div className="space-y-6">
@@ -135,10 +115,10 @@ export function CookiePolicyPage() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Third-Party Cookies */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Third-Party Cookies</h2>
                   <p className="text-foreground leading-relaxed mb-4">
                     In addition to our own cookies, we use various third-party cookies to report website usage statistics and deliver advertisements.
@@ -166,10 +146,10 @@ export function CookiePolicyPage() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Cookie Duration */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Cookie Duration</h2>
                   
                   <div className="space-y-4">
@@ -187,7 +167,7 @@ export function CookiePolicyPage() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </CardContent>
 
                 {/* Managing Cookies */}
                 <div className="bg-benefit border border-benefit-accent rounded-[14px] p-8">
@@ -238,29 +218,26 @@ export function CookiePolicyPage() {
                 </div>
 
                 {/* Do Not Track */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Do Not Track Signals</h2>
                   <p className="text-foreground leading-relaxed">
                     Some browsers have a "Do Not Track" feature that signals websites you visit that you do not want to have your online activity tracked. Currently, our website does not respond to Do Not Track signals, but we respect your privacy choices made through browser cookie settings.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Changes to Cookie Policy */}
-                <div className="bg-card border border-border rounded-[14px] p-8">
+                <CardContent>
                   <h2 className="text-primary mb-4">Changes to This Cookie Policy</h2>
                   <p className="text-foreground leading-relaxed">
                     We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Please revisit this page periodically to stay informed about our use of cookies.
                   </p>
-                </div>
+                </CardContent>
 
                 {/* Contact Information */}
                 <LegalContactSection />
 
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </>
+    </StaticPageTemplate>
   );
 }

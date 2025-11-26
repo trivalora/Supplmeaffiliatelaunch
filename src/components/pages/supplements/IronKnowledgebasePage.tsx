@@ -7,7 +7,6 @@ import {
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
 import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
-import { useStructuredData } from '@/hooks/useStructuredData';
 
 export function IronKnowledgebasePage({ 
   onNavigate,
@@ -18,12 +17,11 @@ export function IronKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const structuredData = useStructuredData('ironv2');
   const benefits = ['energy levels', 'oxygen transport', 'anemia prevention', 'cognitive function', 'immune support'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Iron",
-    currentPage: "ironv2",
+    currentPage: "iron",
     heroDescription: "Evidence-based overview of an essential mineral with meta-analytic support for treating iron deficiency, anemia across all ages, and improving outcomes in heart failure and chronic kidney disease.",
     heroImageUrl: getSupplementImage("iron"),
     
@@ -315,7 +313,7 @@ export function IronKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Iron', benefits, '/iron')} structuredData={structuredData} />
+      <SEOHead {...getSupplementSEO('Iron', benefits, '/iron')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

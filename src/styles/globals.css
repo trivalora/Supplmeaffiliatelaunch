@@ -126,6 +126,10 @@ html, body {
   --warning: #FFF3E0;
   --warning-accent: #F57C00;
   
+  /* === RETAILER BRAND COLORS === */
+  --color-amazon: #FF9900;
+  --color-amazon-hover: #FF9900E6;  /* 90% opacity */
+  
   /* Chart colors */
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);

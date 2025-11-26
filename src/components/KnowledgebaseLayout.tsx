@@ -15,7 +15,7 @@ interface KnowledgebaseLayoutProps {
  */
 export function KnowledgebaseLayout({ children }: KnowledgebaseLayoutProps) {
   return (
-    <div className="bg-[#F7F7F3] flex flex-col w-full min-h-screen" style={{ paddingTop: 'var(--header-height)' }}>
+    <div className="bg-tertiary flex flex-col w-full min-h-screen" style={{ paddingTop: 'var(--header-height)' }}>
       {children}
     </div>
   );
