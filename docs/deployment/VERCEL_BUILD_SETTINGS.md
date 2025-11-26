@@ -126,8 +126,8 @@ Production Domain: suppl.me (or www.suppl.me)
 - [x] Node.js Version: 22.x
 
 ### Environment Variables
-- [x] `NEXT_PUBLIC_SITE_URL` = `https://suppl.me`
-- [x] `NEXT_PUBLIC_CANONICAL_BASE_URL` = `https://suppl.me`
+- [x] `NEXT_PUBLIC_SITE_URL` = `https://www.suppl.me`
+- [x] `NEXT_PUBLIC_CANONICAL_BASE_URL` = `https://www.suppl.me`
 - [x] `NEXT_PUBLIC_GTM_ID` = `GTM-NQWRNKFT`
 - [x] `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-JHCPJYM37R`
 

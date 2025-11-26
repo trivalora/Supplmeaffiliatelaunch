@@ -62,7 +62,7 @@ async function main() {
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
                 'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
-                'Referer': 'https://suppl.me/'
+                'Referer': 'https://www.suppl.me/'
             }
         });
         if ((res.status === 429 || res.status === 403) && attempt < 3) {
