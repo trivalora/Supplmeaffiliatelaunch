@@ -1,6 +1,27 @@
 import { createClient } from '@/lib/supabase/server';
 import { NextResponse } from 'next/server';
 
+interface ProductWithRelations {
+  id: string;
+  json_id: string;
+  dsld_id: string | null;
+  supplement_id: string;
+  brand: string;
+  product_name: string;
+  [key: string]: any; // For other product fields
+  supplement?: any;
+  prices?: Array<{
+    id: string;
+    price: number;
+    currency: string;
+    product_url: string;
+    affiliate_url: string | null;
+    in_stock: boolean;
+    last_checked_at: string | null;
+    retailer?: any;
+  }>;
+}
+
 /**
  * GET /api/products/[id]
  * 
@@ -120,12 +141,12 @@ export async function GET(
       );
     }
     
-    // TypeScript type assertion for joined data
-    const product = data as any;
+    // Type the data properly
+    const product = data as unknown as ProductWithRelations;
     
     // Sort prices by price ascending
     if (product.prices && product.prices.length > 0) {
-      product.prices.sort((a: any, b: any) => a.price - b.price);
+      product.prices.sort((a, b) => a.price - b.price);
     }
     
     return NextResponse.json(

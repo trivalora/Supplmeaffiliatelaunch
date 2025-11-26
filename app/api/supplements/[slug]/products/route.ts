@@ -1,6 +1,12 @@
 import { createClient } from '@/lib/supabase/server';
 import { NextResponse } from 'next/server';
 
+interface Supplement {
+  id: string;
+  slug: string;
+  name: string;
+}
+
 /**
  * GET /api/supplements/[slug]/products
  * 
@@ -87,8 +93,8 @@ export async function GET(
       );
     }
     
-    // Type assertion for supplement data
-    const supplement = supplementData as any;
+    // Type the supplement data properly
+    const supplement = supplementData as unknown as Supplement;
     
     // Build query - join products with prices to get best price and retailers
     let query = supabase

@@ -1,6 +1,25 @@
 import { createClient } from '@/lib/supabase/server';
 import { NextResponse } from 'next/server';
 
+interface SupplementWithCount {
+  id: string;
+  slug: string;
+  name: string;
+  display_name: string;
+  subcategory: string | null;
+  description: string | null;
+  hero_description: string | null;
+  hero_image_url: string | null;
+  show_in_nav: boolean;
+  sort_order: number;
+  meta_title: string | null;
+  meta_description: string | null;
+  meta_keywords: string[] | null;
+  created_at: string;
+  updated_at: string;
+  products?: Array<{ count: number }>;
+}
+
 /**
  * GET /api/supplements/[slug]
  * 
@@ -47,7 +66,7 @@ export async function GET(
     const supabase = createClient();
     
     // Query supplement with product count
-    const { data: supplementData, error } = await supabase
+    const { data, error } = await supabase
       .from('supplements')
       .select(`
         *,
@@ -72,13 +91,13 @@ export async function GET(
       );
     }
     
-    // Type assertion for joined data
-    const data = supplementData as any;
+    // Type the data properly
+    const supplementData = data as unknown as SupplementWithCount;
     
     // Transform response to include product_count at top level
     const supplement = {
-      ...data,
-      product_count: data.products?.[0]?.count || 0,
+      ...supplementData,
+      product_count: supplementData.products?.[0]?.count || 0,
       products: undefined, // Remove the nested products array
     };
     
