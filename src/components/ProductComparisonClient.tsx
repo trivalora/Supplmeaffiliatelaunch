@@ -51,6 +51,9 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('price_asc');
   
+  // Map UI sort options to API sort options
+  const apiSortBy = sortBy === 'retailers_desc' ? 'price_asc' : sortBy as 'price_asc' | 'price_desc' | 'brand_asc' | 'brand_desc';
+  
   // API Hook - fetch products from database
   const { 
     products: apiProducts, 
@@ -63,7 +66,7 @@ export function ProductComparisonClient({ supplementId }: ProductComparisonClien
   } = useSupplementProducts(supplementId, {
     page: 1,
     limit: 1000, // Load all products (filter client-side for now)
-    sort: sortBy,
+    sort: apiSortBy,
     in_stock: true
   });
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 100]);
