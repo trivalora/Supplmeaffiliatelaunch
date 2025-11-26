@@ -14,51 +14,72 @@ Your deployment is failing because the API routes can't connect to Supabase. The
 ### Step 2: Add Environment Variables
 1. Click **Settings** tab
 2. Click **Environment Variables** in the left sidebar
-3. Add the following variables (click "Add" for each):
+3. Add the following 7 variables (click "Add" for each, copy-paste the values):
 
+---
+
+**Variable 1 of 7:**
 ```
-NEXT_PUBLIC_SUPABASE_URL
+Name: NEXT_PUBLIC_SUPABASE_URL
 Value: https://rdraqlnxypwlhkhngyjk.supabase.co
-Environment: Production, Preview, Development (check all 3)
 ```
+✅ Check all 3: Production, Preview, Development
 
+---
+
+**Variable 2 of 7:**
 ```
-NEXT_PUBLIC_SUPABASE_ANON_KEY
+Name: NEXT_PUBLIC_SUPABASE_ANON_KEY
 Value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJkcmFxbG54eXB3bGhraG5neWprIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxNTQ4MzQsImV4cCI6MjA3OTczMDgzNH0.G3jTJgmMMwPAweePvdPJV3YRcecUaCrNGFSOpcZTTnc
-Environment: Production, Preview, Development (check all 3)
 ```
+✅ Check all 3: Production, Preview, Development
 
+---
+
+**Variable 3 of 7:** 🔒 **MARK AS SENSITIVE**
 ```
-SUPABASE_SERVICE_ROLE_KEY
+Name: SUPABASE_SERVICE_ROLE_KEY
 Value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJkcmFxbG54eXB3bGhraG5neWprIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NDE1NDgzNCwiZXhwIjoyMDc5NzMwODM0fQ.FtKlSITzItpRbsZo6jASuWwgmsiYHWpN8jXuqH2fHAw
-Environment: Production, Preview, Development (check all 3)
-⚠️ Mark as "Sensitive" (click the checkbox)
 ```
+✅ Check all 3: Production, Preview, Development  
+⚠️ Check "Sensitive" checkbox
 
+---
+
+**Variable 4 of 7:** 🔒 **MARK AS SENSITIVE**
 ```
-DATABASE_URL
+Name: DATABASE_URL
 Value: postgresql://postgres.rdraqlnxypwlhkhngyjk:pEkpoj-hovsif-4cofba@aws-0-us-east-1.pooler.supabase.com:6543/postgres
-Environment: Production, Preview, Development (check all 3)
-⚠️ Mark as "Sensitive" (click the checkbox)
 ```
+✅ Check all 3: Production, Preview, Development  
+⚠️ Check "Sensitive" checkbox
 
+---
+
+**Variable 5 of 7:**
 ```
-NEXT_PUBLIC_GTM_ID
+Name: NEXT_PUBLIC_GTM_ID
 Value: GTM-NQWRNKFT
-Environment: Production, Preview, Development (check all 3)
 ```
+✅ Check all 3: Production, Preview, Development
 
-```
-NEXT_PUBLIC_SITE_URL
-Value: https://www.suppl.me
-Environment: Production, Preview, Development (check all 3)
-```
+---
 
+**Variable 6 of 7:**
 ```
-NEXT_PUBLIC_CANONICAL_BASE_URL
+Name: NEXT_PUBLIC_SITE_URL
 Value: https://www.suppl.me
-Environment: Production, Preview, Development (check all 3)
 ```
+✅ Check all 3: Production, Preview, Development
+
+---
+
+**Variable 7 of 7:**
+```
+Name: NEXT_PUBLIC_CANONICAL_BASE_URL
+Value: https://www.suppl.me
+```
+✅ Check all 3: Production, Preview, Development
 
 ### Step 3: Redeploy
 After adding all variables:
