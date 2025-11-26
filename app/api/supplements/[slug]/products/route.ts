@@ -74,18 +74,21 @@ export async function GET(
     const supabase = createClient();
     
     // First, verify supplement exists
-    const { data: supplement, error: suppError } = await supabase
+    const { data: supplementData, error: suppError } = await supabase
       .from('supplements')
       .select('id, slug, name')
       .eq('slug', slug)
       .single();
     
-    if (suppError || !supplement) {
+    if (suppError || !supplementData) {
       return NextResponse.json(
         { error: 'Supplement not found' },
         { status: 404 }
       );
     }
+    
+    // Type assertion for supplement data
+    const supplement = supplementData as any;
     
     // Build query - join products with prices to get best price and retailers
     let query = supabase
