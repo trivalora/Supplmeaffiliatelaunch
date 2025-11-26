@@ -72,8 +72,8 @@ export async function GET(
     
     const supabase = createClient();
     
-    // Build query with all related data
-    let query = supabase
+    // Build query with all related data - query by UUID
+    const { data, error } = await supabase
       .from('products')
       .select(`
         *,
@@ -100,18 +100,9 @@ export async function GET(
             is_active
           )
         )
-      `);
-    
-    // Check if id is a UUID or json_id
-    const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-    if (uuidRegex.test(id)) {
-      query = query.eq('id', id);
-    } else {
-      // Assume it's a json_id (backward compatibility)
-      query = query.eq('json_id', id);
-    }
-    
-    const { data, error } = await query.single();
+      `)
+      .eq('id', id)
+      .single();
     
     if (error) {
       if (error.code === 'PGRST116') {
