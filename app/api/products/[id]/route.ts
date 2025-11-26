@@ -120,13 +120,16 @@ export async function GET(
       );
     }
     
+    // TypeScript type assertion for joined data
+    const product = data as any;
+    
     // Sort prices by price ascending
-    if (data.prices && data.prices.length > 0) {
-      data.prices.sort((a: any, b: any) => a.price - b.price);
+    if (product.prices && product.prices.length > 0) {
+      product.prices.sort((a: any, b: any) => a.price - b.price);
     }
     
     return NextResponse.json(
-      { product: data },
+      { product },
       {
         headers: {
           // Cache for 1 hour, stale-while-revalidate for 24 hours
