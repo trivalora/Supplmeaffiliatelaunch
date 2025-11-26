@@ -389,11 +389,84 @@ git push origin main          # Auto-deploys to Vercel
 
 **Database Migration**: ✅ Week 1-2 Complete (17 supplements, 1,663 products, 1,986 prices)
 **API Development**: ✅ Week 3 Complete (5 endpoints, all filters tested, error handling verified)
-**Current Focus**: Week 4 - Frontend integration (React hooks, page updates, search UI)
+**Current Focus**: Week 4 - Frontend integration + Production deployment fix
 
 **Recent Fixes** (Nov 26, 2025):
 - ✅ Fixed Supabase client imports (`createClient` from `@/lib/supabase/server`)
 - ✅ Moved `/lib/supabase` to `/src/lib/supabase` for correct path resolution
 - ✅ Updated column names: `dsld_id` (not `json_id`), `supplement_id` (not `supplement_slug`)
-- ✅ All 5 API endpoints tested and functional
+- ✅ All 5 API endpoints tested and functional locally
+- 🚨 **PRODUCTION ISSUE**: Dynamic API routes return 404 (env vars not set in Vercel)
+- 📝 Created fix: `docs/PRODUCTION_API_FIX.md` + `scripts/setup-vercel-env.mjs`
 - 📝 Documented optional `supplement_slug` optimization (see `docs/SUPPLEMENT_SLUG_ENHANCEMENT.md`)
+
+---
+
+## 🚨 Production Deployment Fix
+
+### Critical Issue (Nov 26, 2025)
+
+**Problem:**
+```
+❌ GET /api/supplements/ashwagandha → 404 Not Found
+❌ GET /api/supplements/ashwagandha/products → 404 Not Found
+✅ GET /api/supplements → 200 OK (works)
+```
+
+**Root Cause:** Environment variables not set in Vercel production
+
+### Quick Fix (Choose One)
+
+#### Option A: Manual (5 minutes)
+1. Go to https://vercel.com/dashboard → Settings → Environment Variables
+2. Add 7 variables (copy from `.env.local`):
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `SUPABASE_SERVICE_ROLE_KEY` (mark sensitive)
+   - `DATABASE_URL` (mark sensitive)
+   - `NEXT_PUBLIC_GTM_ID`
+   - `NEXT_PUBLIC_SITE_URL`
+   - `NEXT_PUBLIC_CANONICAL_BASE_URL`
+3. Check all 3 environments for each variable
+4. Deployments → Latest → ⋮ → Redeploy
+
+#### Option B: CLI (2 minutes)
+```bash
+npm i -g vercel
+vercel login
+vercel link
+node scripts/setup-vercel-env.mjs
+vercel --prod
+```
+
+### Verification
+```bash
+# After deployment, run diagnostics
+node scripts/diagnose-production.mjs
+
+# Expected output:
+# ✅ /api/supplements → 200 OK
+# ✅ /api/supplements/ashwagandha → 200 OK
+# ✅ /api/supplements/ashwagandha/products → 200 OK
+```
+
+### Documentation
+- **Complete Guide**: `docs/PRODUCTION_API_FIX.md`
+- **Env Setup**: `VERCEL_ENV_SETUP.md`
+- **Diagnostics**: `scripts/diagnose-production.mjs`
+
+### Common Issues
+
+**Still 404 after setup?**
+- Check Vercel Function Logs (Deployments → Functions tab)
+- Verify Supabase project isn't paused (https://supabase.com/dashboard)
+- Confirm all 7 variables are set for "Production" environment
+
+**500 Internal Server Error?**
+- Supabase connection issue → Check project status
+- Wrong schema → Verify `db: { schema: 'api' }` in `src/lib/supabase/server.ts`
+
+**Variables not working?**
+- Must redeploy after adding variables
+- Verify names match exactly (case-sensitive)
+- Check "Production" checkbox is ticked

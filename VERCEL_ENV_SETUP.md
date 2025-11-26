@@ -195,10 +195,30 @@ All `NEXT_PUBLIC_*` variables are embedded in client-side JavaScript bundles. Th
    - GTM → Check events are firing
    - GA4 → Verify pageviews and events
 
+## Automated Setup
+
+For faster setup, use the automated script:
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Login and link project
+vercel login
+vercel link
+
+# Run automated setup
+node scripts/setup-vercel-env.mjs
+
+# Deploy
+vercel --prod
+```
+
 ## Support
 
 If you encounter issues:
-1. Check Vercel Function Logs
-2. Check Supabase Logs
-3. Test API endpoints directly with curl
-4. Review this doc: `docs/DEPLOYMENT_FIXES_COMPLETE.md`
+1. **Run diagnostics**: `node scripts/diagnose-production.mjs`
+2. Check Vercel Function Logs (Dashboard → Deployments → Functions)
+3. Check Supabase project status (https://supabase.com/dashboard)
+4. Test API endpoints directly with curl
+5. Review complete guide: `docs/PRODUCTION_API_FIX.md`

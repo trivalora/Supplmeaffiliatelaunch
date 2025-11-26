@@ -76,3 +76,5 @@ next-env.d.ts
 # Generated sitemaps (Next.js generates dynamically)
 public/sitemap.xml
 sitemap.xml
+.vercel
+.env*.local
