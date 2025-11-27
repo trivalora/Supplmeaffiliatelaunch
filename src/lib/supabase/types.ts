@@ -1,13 +1,20 @@
 /**
- * Supabase Database Types
+ * ⚠️ DEPRECATED - DO NOT USE
  * 
- * These types are generated from your Supabase database schema.
+ * This file contains outdated, manually maintained type definitions.
  * 
- * To regenerate after schema changes:
- * npx supabase gen types typescript --project-id <your-project-ref> > lib/supabase/types.ts
+ * ✅ USE THIS INSTEAD: './types-generated.ts'
  * 
- * Or use the Supabase CLI:
- * npx supabase gen types typescript --local > lib/supabase/types.ts
+ * The types-generated.ts file is auto-generated from the production database
+ * and includes all tables with complete field definitions.
+ * 
+ * To regenerate types after schema changes:
+ * 
+ * 1. Authenticate: npx supabase login
+ * 2. Generate: npx supabase gen types typescript --project-id rdraqlnxypwlhkhngyjk --schema api > src/lib/supabase/types-generated.ts
+ * 3. Verify: npm run build
+ * 
+ * This file is kept for reference only and should not be imported.
  */
 
 export type Json =
