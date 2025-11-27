@@ -4,23 +4,24 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.4.0 (Nov 27, 2025)  
-**Status:** ✅ Production-ready with clean, organized workspace  
+**Current Version:** 0.4.1 (Dec 2024)  
+**Status:** ✅ Production-ready with glossary backend complete  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
 **Key Stats:**
-- ✅ 17 supplements, 198 glossary terms, 17 comparison pages, 1,691 product detail pages
-- ✅ 5 API endpoints (all operational in production)
-- ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices)
+- ✅ 17 supplements, 197 glossary terms (in database), 17 comparison pages, 1,691 product detail pages
+- ✅ 7 API endpoints (all operational in production)
+- ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices, **197 glossary terms**)
 - ✅ SEO Score: 9.75/10 - Excellent implementation
 - ✅ Template System: 9/10 - Strong, consistent, reusable
 
-**Version 0.4 Highlights:**
-🧹 **Workspace Cleanup Complete** ✅
-- **Archived**: 50+ migration scripts and docs from v0.3
-- **Organized**: Clean documentation structure
-- **Ready**: Prepared for Week 4 frontend integration
-- **See**: [CHANGELOG.md](/CHANGELOG.md) for complete version history
+**Version 0.4.1 Highlights:**
+📚 **Glossary Backend Complete** ✅
+- **Database**: 197 glossary terms migrated to Supabase
+- **API**: GET /api/glossary endpoints operational
+- **Validation**: 8 checks passed (100% coverage)
+- **Scripts**: Extract, validate, and test tooling
+- **See**: `docs/GLOSSARY_BACKEND_COMPLETE.md` for details
 
 **Active Priority** (Week 4):
 🚀 **Frontend Integration** - Next Phase
@@ -43,12 +44,15 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 ### Backend (Production - Database)
 ✅ **MIGRATION COMPLETE** - Now fully on Supabase/PostgreSQL
 ```
-Supabase/PostgreSQL
+Supabase/PostgreSQL (Schema: api)
 ├── supplements (17 rows)
 ├── products (1,691 rows)
 ├── retailers (7 rows)
 ├── prices (11,837 rows)
-└── glossary_terms (198 rows)
+└── glossary_terms (197 rows) ← NEW in v0.4.1
+    ├── 60 with abbreviations (30.5%)
+    ├── 27 with related_terms links
+    └── 187 with SEO metadata (94.9%)
 ```
 
 ### API Routes
@@ -59,8 +63,8 @@ Supabase/PostgreSQL
 - `/api/products/[id]` - Single product
 - `/api/products/search` - Product search
 - `/api/retailers` - Retailer list
-- `/api/glossary` - Glossary terms
-- `/api/glossary/[slug]` - Single term
+- `/api/glossary` - List glossary terms (search & pagination) ← NEW
+- `/api/glossary/[slug]` - Single glossary term ← NEW
 
 ---
 
@@ -337,6 +341,11 @@ className="bg-primary"
 - `docs/ADDING_SUPPLEMENTS.md` - How to add supplements
 - `docs/INDEX.md` - Documentation index
 
+**Glossary Backend (NEW v0.4.1)**:
+- `docs/GLOSSARY_BACKEND_COMPLETE.md` - Complete reference & API docs
+- `docs/GLOSSARY_BACKEND_IMPLEMENTATION_PLAN.md` - Implementation strategy
+- `docs/GLOSSARY_MIGRATION_INSTRUCTIONS.md` - Step-by-step guide
+
 **Quick Reference**:
 - `docs/reference/QUICK_ANSWERS.md` - Common questions
 - `docs/SCALABILITY_NEXT_STEPS.md` - Implementation summary
@@ -386,6 +395,7 @@ git push origin main          # Auto-deploys to Vercel
 - **Deployment**: Vercel (auto on push to main)
 
 **Recent Updates:**
+- ✅ **v0.4.1** (Dec 2024): Glossary backend complete - 197 terms in database
 - ✅ **v0.4.0** (Nov 27, 2025): Workspace cleanup - 50+ files archived
 - ✅ **v0.3.0** (Nov 26-27, 2025): Database migration complete - Supabase production ready
 - ✅ **v0.2.0** (Nov 2025): UI refinement - 1,936 pages with zero errors
@@ -393,6 +403,7 @@ git push origin main          # Auto-deploys to Vercel
 **Migration Status:**
 - ✅ Week 1-2: Database setup (17 supplements, 1,691 products, 11,837 prices)
 - ✅ Week 3: API development (5 endpoints, all operational)
+- ✅ Week 3.5: Glossary backend (197 terms, 2 new endpoints)
 - 🔄 Week 4: Frontend integration (in planning)
 
 **Architecture Notes:**
@@ -403,7 +414,7 @@ git push origin main          # Auto-deploys to Vercel
 
 ---
 
-## ✅ Production Status (v0.4.0 - Nov 27, 2025)
+## ✅ Production Status (v0.4.1 - Dec 2024)
 
 ### All Systems Operational
 
@@ -414,25 +425,29 @@ git push origin main          # Auto-deploys to Vercel
 ✅ GET /api/supplements/[slug]/products → 200 OK (paginated, filtered)
 ✅ GET /api/products/[id] → 200 OK (single product)
 ✅ GET /api/products/search → 200 OK (full-text search)
+✅ GET /api/glossary → 200 OK (197 terms, search & pagination) ← NEW
+✅ GET /api/glossary/[slug] → 200 OK (single term) ← NEW
 ```
 
 **Infrastructure:**
-- ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices)
+- ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices, **197 glossary terms**)
 - ✅ Vercel hosting with all environment variables configured
 - ✅ App Router API routes (App Router style, not Pages Router)
 - ✅ Clean workspace (migration artifacts archived)
 
-**v0.4 Changes:**
-- 🧹 Archived 27 migration scripts → `.archive/v0.3-migration/scripts/`
-- 🧹 Archived 15 migration docs → `.archive/v0.3-migration/docs/`
-- 🧹 Archived 8 deployment docs → `.archive/deployment-artifacts/`
-- 📚 Created comprehensive CHANGELOG.md
-- 📦 Updated package.json to 0.4.0
-- 📖 Consolidated and updated all documentation
+**v0.4.1 Changes:**
+- 📚 Glossary backend: 197 terms migrated to database
+- 🔧 New scripts: extract, validate, test glossary data
+- 📖 Complete documentation (3 new docs)
+- ✅ All validation checks passed (8/8)
+- 🗄️ SQL migration: 138 KB, 4,288 lines
+- 🔗 Related terms: 27 terms with UUID linking
 
 **Test Production:**
 ```bash
 # Test endpoints
 curl https://www.suppl.me/api/supplements/ashwagandha
 curl https://www.suppl.me/api/products/search?q=magnesium
+curl https://www.suppl.me/api/glossary?search=clinical
+curl https://www.suppl.me/api/glossary/rct
 ```
