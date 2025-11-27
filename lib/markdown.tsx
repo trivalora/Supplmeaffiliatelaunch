@@ -1,26 +1,29 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import rehypeRaw from 'rehype-raw';
 
 /**
  * Parse markdown content to React components with custom styling
  * 
  * Supports:
  * - GitHub Flavored Markdown (tables, strikethrough, task lists)
- * - Raw HTML elements (for existing HTML content in database)
+ * - Standard markdown formatting
  * - Custom Tailwind styling for all elements
  * 
- * @param content - Markdown or HTML string from database
+ * Note: Does NOT render raw HTML for security. HTML tags will be escaped.
+ * 
+ * @param content - Markdown string from database
  * @returns React component tree
  */
 export function parseMarkdownToReact(content: string | null | undefined): React.ReactNode {
   if (!content) return null;
   
+  // Sanitize content: escape any potential HTML tags to prevent rendering issues
+  const sanitizedContent = content.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+  
   return (
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
-      rehypePlugins={[rehypeRaw]}
       components={{
         // Headings
         h1: ({ node, ...props }) => (
@@ -112,7 +115,7 @@ export function parseMarkdownToReact(content: string | null | undefined): React.
         ),
       }}
     >
-      {content}
+      {sanitizedContent}
     </ReactMarkdown>
   );
 }
@@ -124,10 +127,11 @@ export function parseMarkdownToReact(content: string | null | undefined): React.
 export function parseInlineMarkdown(content: string | null | undefined): React.ReactNode {
   if (!content) return null;
   
+  const sanitizedContent = content.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+  
   return (
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
-      rehypePlugins={[rehypeRaw]}
       components={{
         p: ({ node, ...props }) => <span {...props} />, // Remove paragraph wrapper
         strong: ({ node, ...props }) => <strong className="font-semibold" {...props} />,
@@ -143,7 +147,7 @@ export function parseInlineMarkdown(content: string | null | undefined): React.R
         ),
       }}
     >
-      {content}
+      {sanitizedContent}
     </ReactMarkdown>
   );
 }
