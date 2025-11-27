@@ -1,23 +1,23 @@
-# Suppl.me Affiliate Launch v0.3
+# Suppl.me Affiliate Launch
 
-## 🚀 Production-Ready Status
+## 🚀 Production Status
 
-**Version**: 0.3  
+**Version**: 0.4.0  
 **Build Status**: ✅ Successful (0 errors, 0 warnings)  
 **Pages Generated**: 1,936 static pages  
-**Last Updated**: November 25, 2025  
+**Last Updated**: November 27, 2025  
 
 ### Current State
+- ✅ **Production Ready**: All systems operational
 - ✅ **17 Supplement Pages** with evidence-based information
 - ✅ **198 Glossary Terms** with auto-linking
 - ✅ **17 Price Comparison Pages** across 7 retailers
 - ✅ **1,691 Product Detail Pages** with DSLD integration
-- ✅ **UI Fully Refined**: Header, dropdown, search polished to production quality
-- ⚠️ **1 Known Issue**: Hero image width (cosmetic only, non-blocking)
+- ✅ **Supabase Backend**: PostgreSQL with 5 API endpoints
+- ✅ **Clean Workspace**: Migration artifacts archived
+- 🔄 **Next Phase**: Week 4 - Frontend integration
 
-**Ready for Deployment**: YES ✅
-
----
+**Status**: ✅ **PRODUCTION READY** - All endpoints operational
 
 ## Quick Start
 
@@ -29,46 +29,60 @@ npm run build            # Production build (1,936 pages)
 npm run start            # Serve production build
 ```
 
-### API Testing (Week 3 Complete ✅)
+### API Endpoints (Production Ready)
+
+**All endpoints operational in production:**
+- `GET /api/supplements` - List all supplements
+- `GET /api/supplements/[slug]` - Single supplement details
+- `GET /api/supplements/[slug]/products` - Product list (paginated, filtered)
+- `GET /api/products/[id]` - Single product details
+- `GET /api/products/search` - Full-text search across products
+
+**Test locally:**
 ```bash
 npm run dev              # Start dev server
 
-# Test all API endpoints
-node scripts/test-api-endpoints.mjs
-
-# Or use bash version
-./scripts/test-api-endpoints.sh
+# Test endpoints
+curl http://localhost:3000/api/supplements | jq
+curl http://localhost:3000/api/supplements/ashwagandha | jq
+curl "http://localhost:3000/api/supplements/ashwagandha/products?limit=10" | jq
 ```
 
-**API Endpoints Available**:
-- `GET /api/supplements` - List all supplements
-- `GET /api/supplements/[slug]` - Single supplement
-- `GET /api/supplements/[slug]/products` - Filtered products
-- `GET /api/products/[id]` - Single product detail
-- `GET /api/products/search` - Full-text search
-
-See **[Week 3 Complete](docs/WEEK_3_COMPLETE.md)** for full API documentation.
+See **[API Documentation](docs/API_DOCUMENTATION.md)** for complete reference.
 
 ### Documentation
+- **[CHANGELOG](CHANGELOG.md)** - Version history and changes
 - **[Production Status](PRODUCTION_STATUS.md)** - Current deployment status
-- **[Quick Start Guide](docs/QUICK-START-GUIDE.md)** - Getting started
-- **[Deployment Checklist](docs/deployment/DEPLOYMENT_CHECKLIST.md)** - Deploy to Vercel
-- **[GTM Import Guide](docs/guides/GTM_IMPORT_GUIDE.md)** - Analytics setup
+- **[API Documentation](docs/API_DOCUMENTATION.md)** - API endpoint reference
+- **[Architecture](docs/ARCHITECTURE.md)** - System design and patterns
 - **[Documentation Index](docs/INDEX.md)** - Complete documentation map
+- **[Adding Supplements](docs/ADDING_SUPPLEMENTS.md)** - How to add new supplements
+
+### Archives
+- **[v0.3 Migration](.archive/v0.3-migration/README.md)** - Database migration artifacts
+- **[Deployment Artifacts](.archive/deployment-artifacts/README.md)** - Deployment troubleshooting docs
 
 ---
 
 ## Project Overview
 
-Evidence-based supplement information platform built with **Next.js 16 App Router** and **React 19**. Combines internal data pipeline (not deployed) with production-ready frontend.
+Evidence-based supplement information platform built with **Next.js 16 App Router**, **React 19**, and **Supabase PostgreSQL**.
 
 ### Key Features
-- 🔬 Evidence-based supplement information
-- 💰 Real-time price comparison across 7 retailers
+- 🔬 Evidence-based supplement information (17 supplements)
+- 💰 Price comparison across 7 retailers (11,837 prices)
 - 📊 1,691 products with DSLD database integration
-- 🔍 Advanced search with live filtering
-- 📱 Fully responsive design
+- 🔍 Full-text search and advanced filtering
+- 📱 Fully responsive, production-ready design
 - 📈 Complete analytics integration (GTM + GA4)
+- ⚡ 5 RESTful API endpoints with Supabase backend
+
+### Architecture
+- **Frontend:** Next.js 16 + React 19 + TypeScript + Tailwind CSS v4
+- **Backend:** Supabase (PostgreSQL) with 5 tables, optimized views
+- **Hosting:** Vercel (frontend) + Supabase (database)
+- **Analytics:** Google Tag Manager + Google Analytics 4
+- **Build:** Static Site Generation (SSG) for 1,936 pages
 
 ## Documentation Structure
 
@@ -236,18 +250,25 @@ npx tsx scripts/data-pipeline/utilities/test-bodybuilding-fix.ts
 - **tsconfig.json** - TypeScript configuration
 - **package.json** - Dependencies and scripts
 
-## Recent Improvements
+## Recent Updates
 
-### ✅ Bodybuilding.com Fix (Nov 2024)
-- Fixed product name parsing (removed HTML markup)
-- Added image URL capture
-- 75% of products cleaned
+### ✅ Version 0.4.0 - Workspace Cleanup (Nov 27, 2025)
+- Archived all migration scripts and documentation
+- Cleaned up temporary deployment troubleshooting docs
+- Created comprehensive archive structure
+- Updated to clean, production-ready workspace
 
-### ✅ Project Organization (Nov 2024)
-- Reorganized all documentation
-- Clean data pipeline structure
-- Separated web build from data processing
-- Comprehensive README files
+### ✅ Version 0.3.0 - Database Migration (Nov 26-27, 2025)
+- Migrated from static JSON to Supabase PostgreSQL
+- Built 5 RESTful API endpoints
+- Deployed to production (all endpoints operational)
+- Enriched data with filters, metadata, DSLD integration
+
+### ✅ Version 0.2.0 - UI Refinement (Nov 2025)
+- Production-ready UI with polished components
+- Complete analytics integration (22 events)
+- SEO optimization (structured data, sitemaps)
+- 1,936 pages with zero build errors
 
 ## Development
 
@@ -261,17 +282,26 @@ npx tsx scripts/data-pipeline/normalization/step1-normalize-and-enrich.ts
 npx tsx scripts/data-pipeline/normalization/step1.2-filter-by-relevance.ts
 ```
 
-## Important Notes
+## Version History
 
-⚠️ **Internal Use Only**: Scraping scripts and data pipeline are for internal product data collection only. Not deployed to production.
-
-📊 **Data Quality**: Low retention rates from some retailers (e.g., Bodybuilding.com: 452→1 ashwagandha products) is correct - their search returns generic popular products instead of relevant supplements.
-
-🔍 **Image Support**: All scrapers now capture product images which flow through the entire pipeline.
+**Current:** v0.4.0 - Clean, production-ready workspace  
+**Previous:** v0.3.0 - Database migration complete  
+**See:** [CHANGELOG.md](CHANGELOG.md) for complete version history
 
 ---
 
-For detailed information, refer to documentation in the `docs/` directory and script-specific READMEs in `scripts/`.
-# Database Migration Complete - Wed Nov 26 17:57:18 CET 2025
-# Trigger redeploy Wed Nov 26 18:19:08 CET 2025
-# Redeployed after env vars added Wed Nov 26 19:24:45 CET 2025
+## Important Notes
+
+⚠️ **Migration Artifacts**: All v0.3 migration scripts and documentation have been archived in `.archive/v0.3-migration/`. They are preserved for reference but no longer needed for active development.
+
+📊 **Data Pipeline**: Internal scraping scripts (in `scripts/data-pipeline/`) are for product data collection only. They are not deployed to production and run separately from the web application.
+
+🔍 **Production Backend**: The site now runs on Supabase PostgreSQL with real-time API endpoints. Static JSON files have been removed.
+
+---
+
+For detailed information, refer to:
+- **[Documentation Index](docs/INDEX.md)** - Complete documentation map
+- **[API Documentation](docs/API_DOCUMENTATION.md)** - API reference
+- **[Architecture](docs/ARCHITECTURE.md)** - System design
+- **[CHANGELOG](CHANGELOG.md)** - Version history

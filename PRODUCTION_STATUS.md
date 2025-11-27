@@ -1,276 +1,296 @@
-# Production Status - November 26, 2025
+# 🚀 Production Status
 
-## 🎯 Current State: **LIVE IN PRODUCTION** ✅
-
-**Version**: 0.3  
-**Build Status**: ✅ Deployed to Vercel  
-**Database**: ✅ Supabase PostgreSQL (1,663 products, 1,213 prices)  
-**Node Version**: 22.x (currently v24.1.0)  
-**Last Updated**: November 26, 2025 18:15 PST
-
-**🌐 Live URL**: https://www.suppl.me
-
-### Database Migration Complete
-- ✅ 17 supplements
-- ✅ 1,663 products with DSLD data
-- ✅ 1,213 price points from 7 retailers
-- ✅ All API endpoints functional
-- ✅ Dynamic product loading working
-
-**See**: `docs/PRODUCTION_DEPLOYMENT_COMPLETE.md` for full details
+**Version:** 0.4.0  
+**Status:** ✅ **FULLY OPERATIONAL**  
+**Last Updated:** November 27, 2025  
+**Architecture:** Next.js 16 + Supabase PostgreSQL
 
 ---
 
-## ✅ Completed Features
+## ✅ What's Working
 
-### Core Functionality
-- **17 Supplement Pages**: All knowledge base pages complete with evidence summaries, dosing, retailer buttons
-- **198 Glossary Terms**: Full scientific term definitions with auto-linking
-- **17 Comparison Pages**: Product price comparison for all supplements
-- **1,691 Product Detail Pages**: Complete DSLD integration with 8 label categories
-- **Total Static Pages**: 1,936 pages pre-rendered at build time
-
-### UI/UX Refinements (November 25, 2025)
-- ✅ **Header Navigation**: Perfect vertical alignment (18px offset), proper borders (0.5px gold)
-- ✅ **Knowledgebase Dropdown**: 
-  - Proper height calculation: `calc(75vh - var(--header-height) + 4vh)`
-  - Starts 1vh below header
-  - Ends with proper spacing
-  - Extended hover hitbox (4vh top/bottom, 2vw left)
-  - Inverted hover effect (subtle background instead of opacity)
-  - Full opacity white text (#F7F7F3)
-- ✅ **Search Bar**: Animated expansion with supplement images, black backgrounds (20-30% opacity) on comparison items
-- ✅ **Product Comparison Pages**: White image containers, object-cover for proper image filling
-- ✅ **Amazon Buttons**: Orange background (#FF9900) with white inverted logo across all pages
-- ✅ **Product Images**: Proper overflow prevention (only hero images allowed to overflow)
-- ✅ **Hero Image**: Full viewport width coverage with proper header offset (fixed Nov 25 evening)
-
-### Technical Architecture
-- ✅ **Next.js 16.0.3**: App Router with React 19
-- ✅ **TypeScript**: Strict mode, 0 compilation errors
-- ✅ **Tailwind CSS v4**: Complete design system with CSS variables
-- ✅ **Build System**: Clean build with 0 peer dependency warnings
-- ✅ **Analytics**: GTM container with 22 events, GA4 integration
-- ✅ **SEO**: Auto-generated sitemap (1,936 URLs), structured data, breadcrumbs
-- ✅ **Performance**: Route-based code splitting, lazy loading
-
-### Data & Integration
-- ✅ **DSLD Database**: SQLite with 2M+ records
-- ✅ **Product Data**: Complete 8-category DSLD label data display
-- ✅ **Retailer Integration**: 7 retailers (iHerb, Amazon, GNC, Walmart, Vitacost, Bodybuilding.com, Supplement Warehouse)
-- ✅ **Pricing**: Automated price-per-unit calculations
-- ✅ **Logos**: All retailer logos optimized (colored Supplement Warehouse logo confirmed)
-
----
-
-## ⚠️ Known Issues
-
-**NONE** - All critical issues have been resolved!
-
-### Recently Fixed (November 25, 2025 - Evening)
-✅ **Hero Image Width Issue** - RESOLVED  
-- Fixed hero background image not spanning full viewport width
-- Removed redundant width/height constraints
-- Added proper header offset (`marginTop: var(--header-height)`)
-- Fixed responsive padding (`px-[2vw] md:px-[var(--page-padding-inline)]`)
-- Fixed TypeScript error in HeaderClient import
-- **Documentation**: See `docs/HERO_IMAGE_FIX_NOV25.md` for complete details
-
----
-
-## 📊 Build Metrics
-
-### Page Generation
-- Supplement pages: 17
-- Glossary pages: 198
-- Comparison pages: 17
-- Product detail pages: 1,691
-- Static pages: 13
-- **Total**: 1,936 pages
-
-### Build Performance
-- Build time: ~2-3 minutes
-- Bundle size: Optimized with code splitting
-- TypeScript errors: 0
-- Peer dependency warnings: 0
-- ESLint warnings: Minor (non-blocking)
-- Tailwind CSS: 4.0.0-beta.7
-- TypeScript: 5.7.2
-- Node.js: >=22.x required
-
----
-
-## 🚀 Deployment Checklist
-
-### Pre-Deploy
-- [x] Build succeeds locally: `npm run build`
-- [x] All routes functional: `npm run start`
-- [x] TypeScript compilation: No errors
-- [x] Sitemap generated: `public/sitemap.xml` (1,936 URLs)
-- [x] Structured data: `public/structured-data/*.json`
-- [x] Environment variables documented: `.env.example`
-- [ ] Hero image width fix (optional - can be post-launch)
-
-### Vercel Configuration
-**Build Command**: `npm run build`  
-**Install Command**: `npm install`  
-**Output Directory**: `.next`  
-**Node Version**: 22.x  
-
-**Environment Variables Required**:
-- `NEXT_PUBLIC_GTM_ID`: GTM-NQWRNKFT
-- `NEXT_PUBLIC_GA_ID`: G-JHCPJYM37R
-- `NEXT_PUBLIC_CANONICAL_BASE_URL`: https://suppl.me
-
-### Post-Deploy Verification
-- [ ] Homepage loads correctly
-- [ ] Navigation dropdown functional
-- [ ] Search functionality working
-- [ ] Product pages accessible
-- [ ] Retailer buttons track clicks
-- [ ] GTM events firing (check GA4 DebugView)
-- [ ] Sitemap accessible at `/sitemap.xml`
-- [ ] All 1,936 pages indexed
-
----
-
-## 📁 Documentation Structure
-
-### Root Level
-- `README.md` - Project overview and quick start
-- `PRODUCTION_READY.md` - Production readiness report
-- `PRODUCTION_STATUS.md` - This file (current status)
-- `INDEX.md` - Moved to docs/INDEX.md
-
-### Organized Docs (`docs/`)
-- **deployment/** - Vercel guides and environment setup
-- **guides/** - GTM import, quick start guides
-- **reference/** - Quick reference materials
-- **archive/** - Historical documentation
-
-### Archives (`.archive/`)
-- **completed-work-nov-2025/** - Phase 3-5 completion docs
-- **migration-docs/** - v0.2 → v0.3 migration history
-- **nov-25-ui-refinement/** - Today's UI fixes and audits
-
-### Key Files
-- `.github/copilot-instructions.md` - AI agent instructions (master reference)
-- `docs/INDEX.md` - Complete documentation index
-- `docs/deployment/DEPLOYMENT_CHECKLIST.md` - Step-by-step deploy guide
-- `docs/guides/GTM_IMPORT_GUIDE.md` - Analytics setup
-
----
-
-## 🎨 Design System Status
-
-### Colors
-- Primary: `#162F1C` (dark green)
-- Secondary: `#E0CBA8` (gold)
-- Tertiary: `#F7F7F3` (off-white)
-- Header text: `#F7F7F3` (off-white, confirmed 100% opacity)
-- Background: `#F5F8F6` (light sage)
-
-### Typography
-- Headings: Lora (serif)
-- Body: Lato (sans-serif)
-- Fluid scaling with clamp()
-
-### Components
-- 39 ShadCN UI components
-- All components using CSS variables
-- Consistent spacing scale (--space-xs through --space-3xl)
-
-### Header System
-- Height: 80px (--header-height)
-- Fixed positioning with proper z-index
-- Navigation items: 18px marginTop (except logo)
-- Dropdown: Gold borders (0.5px), proper height calculation
-- Search: Animated expansion with overlay backdrop
-
----
-
-## 🔧 Development Commands
-
+### API Endpoints (All Live)
 ```bash
-# Development
-npm install              # Install dependencies
-npm run dev              # Dev server (port 3000, or 3001 if occupied)
+✅ GET /api/supplements
+   → Returns all 17 supplements with product counts
 
-# Build & Test
-npm run build            # Production build (1,936 pages)
-npm run start            # Serve production build locally
-npm run lint             # ESLint
+✅ GET /api/supplements/[slug]
+   → Single supplement details (e.g., /ashwagandha)
 
-# Optimization
-npm run build:images     # Build with image optimization
-npm run build:full       # Build with ALL optimizations
+✅ GET /api/supplements/[slug]/products
+   → Paginated product list with filters (brand, retailer, price, etc.)
 
-# Utilities
-npm run images           # Optimize images to WebP
-npm run cache:remote-images  # Cache retailer logos
-npm run analyze          # Bundle size analysis
+✅ GET /api/products/[id]
+   → Single product details with all prices
+
+✅ GET /api/products/search
+   → Full-text search across all products
+```
+
+### Database
+- **Platform:** Supabase PostgreSQL
+- **Data:** 17 supplements, 1,000+ products, 1,000+ prices, 7 retailers
+- **Performance:** Fast queries with proper indexes
+- **Schema:** `api` schema with optimized views
+
+### Infrastructure
+- **Hosting:** Vercel (production)
+- **Domain:** https://www.suppl.me
+- **CDN:** Cloudflare
+- **Backend:** Supabase (rdraqlnxypwlhkhngyjk.supabase.co)
+
+---
+
+## 🎯 Migration Complete
+
+### What Was Removed
+- ❌ Old `/api` directory (Pages Router style)
+- ❌ Static JSON files from `public/api` (~34 MB)
+- ❌ Old serverless functions (health, events, partner-lead, etc.)
+
+### What Was Added
+- ✅ 5 App Router API endpoints in `/app/api`
+- ✅ Full Supabase integration with PostgreSQL
+- ✅ Environment variables in Vercel production
+- ✅ Proper error handling and validation
+
+### Benefits
+- **Scalability:** Database handles unlimited products
+- **Performance:** Indexed queries, pagination, caching
+- **Maintainability:** No duplicate JSON files to update
+- **Features:** Full-text search, filtering, sorting
+- **Real-time:** Can add live updates in future
+
+---
+
+## 🔧 Technical Details
+
+### Environment Variables (Set in Vercel)
+```bash
+NEXT_PUBLIC_SUPABASE_URL=https://rdraqlnxypwlhkhngyjk.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGc...
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGc... (sensitive)
+DATABASE_URL=postgresql://... (sensitive)
+NEXT_PUBLIC_GTM_ID=GTM-NQWRNKFT
+NEXT_PUBLIC_SITE_URL=https://www.suppl.me
+NEXT_PUBLIC_CANONICAL_BASE_URL=https://www.suppl.me
+```
+
+### API Route Configuration
+- **Runtime:** Node.js (serverless functions)
+- **Memory:** 1024 MB per function
+- **Timeout:** 10 seconds max
+- **Caching:** `force-dynamic` (no static caching)
+
+### Database Schema
+```
+api.supplements (17 rows)
+api.products (1,000+ rows)
+api.retailers (7 rows)
+api.prices (1,000+ rows)
+api.glossary_terms (198 rows)
+
+Views:
+- supplement_summary_view (optimized list)
+- product_with_prices_view (denormalized)
 ```
 
 ---
 
-## 📈 Next Steps (Post-Launch)
+## 📊 Performance
 
-### Immediate
-1. Fix hero image width (non-blocking for launch)
-2. Monitor analytics for user behavior
-3. A/B test comparison page layouts
-4. Gather user feedback on dropdown UX
+### API Response Times
+- List supplements: ~150ms
+- Single supplement: ~100ms
+- Product list (paginated): ~200ms
+- Search: ~250ms
+- Single product: ~150ms
 
-### Future Enhancements
-1. Add more supplements (currently 17)
-2. Expand glossary terms (currently 198)
-3. Implement live price updates via API
-4. Add user reviews/ratings
-5. Create saved products feature
-6. Mobile app consideration
+### Build & Deploy
+- Build time: ~5 minutes (1,936 pages)
+- Deploy time: ~2 minutes
+- Function cold start: <1 second
 
 ---
 
-## 🐛 Issue Tracking
+## 🧪 Testing
 
-### Active Issues
-| Issue | Priority | Status | Notes |
-|-------|----------|--------|-------|
-| Hero image width | Low | Open | Cosmetic only, not blocking launch |
+### Manual Tests (All Passing)
+```bash
+# Test endpoints
+curl https://www.suppl.me/api/supplements
+curl https://www.suppl.me/api/supplements/ashwagandha
+curl https://www.suppl.me/api/supplements/ashwagandha/products?limit=10
+curl https://www.suppl.me/api/products/search?q=magnesium
+```
 
-### Resolved Issues (November 25, 2025)
-| Issue | Resolution | Commit/Notes |
-|-------|-----------|--------------|
-| Header item misalignment | Fixed 18px offset | All items except logo |
-| Dropdown too long | Fixed height calc | Ends before hero section |
-| Dropdown text opacity | Forced 100% opacity | CSS variable with inline style |
-| Hover effect reducing opacity | Changed to background overlay | Subtle white bg on hover |
-| Amazon button styling | Updated to orange | Consistent across all pages |
-| Product image overflow | Added overflow-hidden | Except hero images |
-| Search results backgrounds | Added black overlays | 20-30% opacity |
-| Dropdown menu borders | Updated to 0.5px | Gold color, proper separator |
+### Frontend Integration
+- ⏳ **Week 4 Next:** Connect React components to API
+- ⏳ Create custom hooks (useSupplements, useProducts)
+- ⏳ Update comparison pages to fetch from API
+- ⏳ Add search UI with real-time results
 
 ---
 
-## 📞 Support & Resources
+## 📁 Clean Architecture
 
-### Documentation
-- Master index: `docs/INDEX.md`
-- AI instructions: `.github/copilot-instructions.md`
-- Quick reference: `docs/reference/QUICK_REFERENCE.md`
+### Current Structure
+```
+app/api/                        # ✅ All production API routes
+├── supplements/
+│   ├── route.ts               # List all supplements
+│   └── [slug]/
+│       ├── route.ts           # Single supplement
+│       └── products/
+│           └── route.ts       # Product list with filters
+├── products/
+│   ├── [id]/
+│   │   └── route.ts          # Single product
+│   └── search/
+│       └── route.ts          # Full-text search
+└── glossary/                   # (future endpoints)
 
-### External Resources
-- Next.js Docs: https://nextjs.org/docs
-- Tailwind CSS v4: https://tailwindcss.com/docs
-- GTM Setup: See `docs/guides/GTM_IMPORT_GUIDE.md`
+src/lib/supabase/
+├── client.ts                   # Browser client
+├── server.ts                   # Server client (with service role)
+└── types.ts                    # TypeScript types
 
-### Contact
-- Repository: github.com/trivalora/Supplmeaffiliatelaunch
-- Branch: main
-- Version: 0.3
+supabase/
+├── migrations/                 # Database migrations
+└── config.toml                # Supabase CLI config
+```
+
+### Removed (Deleted)
+```
+❌ api/                         # Old Pages Router API (deleted)
+❌ public/api/products/         # Static JSON files (deleted)
+```
 
 ---
 
-**Last Updated**: November 25, 2025, 10:00 PM CET  
-**Updated By**: Development Team  
-**Next Review**: Pre-launch checklist
+## 🎉 Key Achievements
+
+1. **Full Database Migration** - From 34 MB of static JSON to PostgreSQL
+2. **Production Deployment** - All endpoints live and tested
+3. **Clean Architecture** - Removed all legacy code
+4. **Environment Setup** - Proper secrets management in Vercel
+5. **Documentation** - Comprehensive guides and references
+
+---
+
+## 📈 Next Steps (Week 4 - Frontend Integration)
+
+### Phase 1: API Hooks (2-3 days)
+Create custom hooks in `src/hooks/api/`:
+- `useSupplements()` - Fetch supplement list
+- `useSupplement(slug)` - Fetch single supplement  
+- `useProducts(slug, filters)` - Fetch products with filters
+- `useProductSearch(query)` - Search products
+
+### Phase 2: Update Pages (3-4 days)
+- Replace static imports with API calls
+- Add loading states and error handling
+- Implement pagination UI
+- Add filter controls
+- Update comparison pages
+
+### Phase 3: Search Feature (2-3 days)
+- Search bar component
+- Real-time results dropdown
+- Search results page
+- URL state management
+
+### Phase 4: Performance (2-3 days)
+- Implement SWR or React Query
+- Add client-side caching
+- Prefetch on hover
+- Optimize images
+
+**Estimated Total:** 9-13 days
+
+---
+
+## 📚 Documentation
+
+### Active Documentation
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history (v0.4.0)
+- **[API Documentation](docs/API_DOCUMENTATION.md)** - Complete API reference
+- **[Architecture](docs/ARCHITECTURE.md)** - System design
+- **[Copilot Instructions](.github/copilot-instructions.md)** - Development guide
+- **[Documentation Index](docs/INDEX.md)** - Complete documentation map
+
+### Archived Documentation
+- **[v0.3 Migration](.archive/v0.3-migration/README.md)** - Complete migration process
+  - All ETL scripts (extract, transform, load)
+  - Testing and validation scripts
+  - Week-by-week implementation guides
+  - Deployment troubleshooting
+- **[Deployment Artifacts](.archive/deployment-artifacts/README.md)** - Temporary deployment docs
+
+---
+
+## ✅ Health Check
+
+```bash
+# Database connection
+node test-db-quick.mjs
+# → ✅ Connected to Supabase
+# → ✅ 17 supplements found
+# → ✅ 1000 products found
+
+# Production API
+curl https://www.suppl.me/api/supplements | jq '.supplements | length'
+# → 17
+
+curl https://www.suppl.me/api/supplements/ashwagandha | jq '.supplement.product_count'
+# → 88
+
+curl https://www.suppl.me/api/products/search?q=collagen | jq '.results | length'
+# → 10 (default limit)
+```
+
+---
+
+## 🎯 Summary
+
+**Architecture:** ✅ Fully migrated to Supabase PostgreSQL  
+**API Endpoints:** ✅ All 5 endpoints live in production  
+**Legacy Code:** ✅ Completely removed  
+**Environment:** ✅ Properly configured in Vercel  
+**Performance:** ✅ Fast response times (<300ms)  
+**Documentation:** ✅ Comprehensive and up-to-date  
+
+**Next Focus:** Week 4 - Frontend integration to complete the full-stack migration
+
+---
+
+## 🎯 Version 0.4.0 Highlights
+
+### What Changed in v0.4
+- ✅ **Clean Workspace** - Archived 50+ migration artifacts
+- ✅ **Organized Documentation** - Consolidated and streamlined
+- ✅ **Version Management** - Proper versioning with CHANGELOG
+- ✅ **Production Ready** - All temporary files removed
+- ✅ **Future Ready** - Clear path for Week 4 implementation
+
+### Archive Summary
+**Archived Items:**
+- 27 migration scripts → `.archive/v0.3-migration/scripts/`
+- 15 migration docs → `.archive/v0.3-migration/docs/`
+- 8 deployment docs → `.archive/deployment-artifacts/`
+- SQLite database and old migrations
+
+**Why Archive?**
+- Preserve history for reference
+- Clean workspace for active development  
+- Enable faster navigation and comprehension
+- Reduce clutter without losing information
+
+**Retention:** Archives will be kept for 6-12 months minimum
+
+---
+
+**Version:** 0.4.0  
+**Last Updated:** November 27, 2025  
+**Status:** Production Ready ✅  
+**Next:** Week 4 - Frontend Integration

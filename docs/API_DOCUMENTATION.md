@@ -1,8 +1,8 @@
 # API Endpoints Documentation
 
 **Base URL**: `https://www.suppl.me/api`  
-**Version**: 1.0  
-**Last Updated**: November 26, 2025
+**Version**: 1.1  
+**Last Updated**: November 27, 2025
 
 ---
 
@@ -12,7 +12,29 @@ All API endpoints are currently **public** (no authentication required). Rate li
 
 ---
 
-## Endpoints
+## Endpoints Overview
+
+### Product & Supplement Endpoints
+1. [GET /supplements](#1-get-supplements) - List all supplements
+2. [GET /supplements/[slug]](#2-get-supplementsslug) - Single supplement details
+3. [GET /supplements/[slug]/products](#3-get-supplementsslugproducts) - Product list with filters
+4. [GET /products/[id]](#4-get-productsid) - Single product details
+5. [GET /products/search](#5-get-productssearch) - Full-text product search
+
+### Form Submission Endpoints  
+6. [POST /subscribe](#6-post-subscribe) - Newsletter subscription
+7. [POST /partner-lead](#7-post-partner-lead) - Partner application
+
+### Glossary Endpoints
+8. [GET /glossary](#8-get-glossary) - List glossary terms
+9. [POST /glossary](#9-post-glossary) - Create glossary term
+10. [GET /glossary/[slug]](#10-get-glossaryslug) - Single glossary term
+11. [PUT /glossary/[slug]](#11-put-glossaryslug) - Update glossary term
+12. [DELETE /glossary/[slug]](#12-delete-glossaryslug) - Delete glossary term
+
+---
+
+## Product & Supplement Endpoints
 
 ### 1. GET /supplements
 
@@ -369,6 +391,30 @@ curl "https://www.suppl.me/api/supplements/vitamin-d/products?retailer=iHerb"
 curl "https://www.suppl.me/api/products/search?q=protein&supplement=whey&min_price=20&max_price=50&third_party_tested=true&retailer=iHerb"
 ```
 
+### Subscribe to newsletter
+```bash
+curl -X POST "https://www.suppl.me/api/subscribe" \
+  -H "Content-Type: application/json" \
+  -d '{"email":"test@example.com","source":"test"}'
+```
+
+### Submit partner application
+```bash
+curl -X POST "https://www.suppl.me/api/partner-lead" \
+  -H "Content-Type: application/json" \
+  -d '{"name":"John Doe","email":"john@example.com","network":"shareasale","category":"Omega-3"}'
+```
+
+### List glossary terms
+```bash
+curl "https://www.suppl.me/api/glossary?limit=10"
+```
+
+### Search glossary
+```bash
+curl "https://www.suppl.me/api/glossary?search=clinical"
+```
+
 ---
 
 ## TypeScript Types
@@ -450,6 +496,63 @@ interface Pagination {
   limit: number;
   total: number;
   totalPages: number;
+}
+
+interface NewsletterSubscriber {
+  id: string;
+  email: string;
+  source: string;
+  status: 'active' | 'unsubscribed' | 'bounced';
+  subscribed_at: string;
+  unsubscribed_at: string | null;
+  ip_address: string | null;
+  user_agent: string | null;
+  confirmed: boolean;
+  confirmation_token: string | null;
+  metadata: object;
+  created_at: string;
+  updated_at: string;
+}
+
+interface PartnerLead {
+  id: string;
+  name: string;
+  email: string;
+  network: string;
+  category: string;
+  message: string | null;
+  status: 'new' | 'contacted' | 'approved' | 'rejected' | 'archived';
+  priority: 'low' | 'medium' | 'high';
+  ip_address: string | null;
+  user_agent: string | null;
+  contacted_at: string | null;
+  responded_at: string | null;
+  notes: string | null;
+  metadata: object;
+  created_at: string;
+  updated_at: string;
+}
+
+interface GlossaryTerm {
+  id: string;
+  slug: string;
+  term: string;
+  abbreviation: string | null;
+  pronunciation: string | null;
+  definition: string;
+  expanded_explanation: string | null;
+  why_it_matters: string | null;
+  simple_explanation: string | null;
+  technical_explanation: string | null;
+  real_world_context: string | null;
+  examples: string[];
+  key_points: object[];
+  common_misconceptions: string[];
+  related_terms: string[];
+  meta_title: string | null;
+  meta_description: string | null;
+  created_at: string;
+  updated_at: string;
 }
 ```
 

@@ -4,18 +4,30 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Status** (Nov 26, 2025):
-- ✅ Production-ready - 17 supplements, 198 glossary terms, 17 comparison pages, 1,691 product detail pages
+**Current Version:** 0.4.0 (Nov 27, 2025)  
+**Status:** ✅ Production-ready with clean, organized workspace  
+**Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
+
+**Key Stats:**
+- ✅ 17 supplements, 198 glossary terms, 17 comparison pages, 1,691 product detail pages
+- ✅ 5 API endpoints (all operational in production)
+- ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices)
 - ✅ SEO Score: 9.75/10 - Excellent implementation
 - ✅ Template System: 9/10 - Strong, consistent, reusable
-- ✅ Overall Health: 7.8/10 - Production-ready with clear improvement path
+
+**Version 0.4 Highlights:**
+🧹 **Workspace Cleanup Complete** ✅
+- **Archived**: 50+ migration scripts and docs from v0.3
+- **Organized**: Clean documentation structure
+- **Ready**: Prepared for Week 4 frontend integration
+- **See**: [CHANGELOG.md](/CHANGELOG.md) for complete version history
 
 **Active Priority** (Week 4):
-🚀 **Frontend Integration** - Connecting React components to REST API
-- **Current Phase**: Week 3 Complete ✅ - All 5 API endpoints tested & functional
-- **Next Phase**: Week 4 - Frontend integration (hooks, page updates, search UI)
-- **See**: `docs/WEEK_3_COMPLETE.md` for API reference & `docs/WEEK_3_CHECKLIST.md` for testing results
-- **Why**: Dynamic product loading, real-time search, better UX, scalable architecture
+🚀 **Frontend Integration** - Next Phase
+- **Goal**: Connect React components to Supabase API endpoints
+- **Tasks**: Custom hooks, dynamic loading, search UI, client-side caching
+- **Duration**: Estimated 9-13 days
+- **See**: `docs/FRONTEND_MIGRATION_GUIDE.md` for implementation plan
 
 ---
 
@@ -28,16 +40,8 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - **Analytics**: GTM (22 events, 36 variables) → GA4 (G-JHCPJYM37R)
 - **Build**: All 1,936 pages statically generated (SSG), ~5 min build time
 
-### Backend (Current - File-Based)
-```
-public/api/products/supplements/
-├── ashwagandha.json (391 KB, 142 products)
-├── calcium.json (716 KB)
-├── collagen.json (868 KB)
-└── ... (17 files total, ~34 MB)
-```
-
-### Backend (Target - Database)
+### Backend (Production - Database)
+✅ **MIGRATION COMPLETE** - Now fully on Supabase/PostgreSQL
 ```
 Supabase/PostgreSQL
 ├── supplements (17 rows)
@@ -48,13 +52,7 @@ Supabase/PostgreSQL
 ```
 
 ### API Routes
-**Current**:
-- `/api/health` - Status endpoint
-- `/api/events` - Analytics tracking
-- `/api/partner-lead` - Lead submission (optional PostgreSQL)
-- `/api/subscribe` - Email subscription (optional PostgreSQL)
-
-**Target** (Week 3):
+**Production (All Live)**:
 - `/api/supplements` - List all supplements
 - `/api/supplements/[slug]` - Supplement details
 - `/api/supplements/[slug]/products` - Product list (paginated)
@@ -387,86 +385,54 @@ git push origin main          # Auto-deploys to Vercel
 - **Analytics**: GTM (GTM-NQWRNKFT) → GA4 (G-JHCPJYM37R)
 - **Deployment**: Vercel (auto on push to main)
 
-**Database Migration**: ✅ Week 1-2 Complete (17 supplements, 1,663 products, 1,986 prices)
-**API Development**: ✅ Week 3 Complete (5 endpoints, all filters tested, error handling verified)
-**Current Focus**: Week 4 - Frontend integration + Production deployment fix
+**Recent Updates:**
+- ✅ **v0.4.0** (Nov 27, 2025): Workspace cleanup - 50+ files archived
+- ✅ **v0.3.0** (Nov 26-27, 2025): Database migration complete - Supabase production ready
+- ✅ **v0.2.0** (Nov 2025): UI refinement - 1,936 pages with zero errors
 
-**Recent Fixes** (Nov 26, 2025):
-- ✅ Fixed Supabase client imports (`createClient` from `@/lib/supabase/server`)
-- ✅ Moved `/lib/supabase` to `/src/lib/supabase` for correct path resolution
-- ✅ Updated column names: `dsld_id` (not `json_id`), `supplement_id` (not `supplement_slug`)
-- ✅ All 5 API endpoints tested and functional locally
-- 🚨 **PRODUCTION ISSUE**: Dynamic API routes return 404 (env vars not set in Vercel)
-- 📝 Created fix: `docs/PRODUCTION_API_FIX.md` + `scripts/setup-vercel-env.mjs`
-- 📝 Documented optional `supplement_slug` optimization (see `docs/SUPPLEMENT_SLUG_ENHANCEMENT.md`)
+**Migration Status:**
+- ✅ Week 1-2: Database setup (17 supplements, 1,691 products, 11,837 prices)
+- ✅ Week 3: API development (5 endpoints, all operational)
+- 🔄 Week 4: Frontend integration (in planning)
+
+**Architecture Notes:**
+- All migration scripts archived in `.archive/v0.3-migration/`
+- Production deployment docs archived in `.archive/deployment-artifacts/`
+- Active documentation consolidated and updated for v0.4
+- See [CHANGELOG.md](/CHANGELOG.md) for complete version history
 
 ---
 
-## 🚨 Production Deployment Fix
+## ✅ Production Status (v0.4.0 - Nov 27, 2025)
 
-### Critical Issue (Nov 26, 2025)
+### All Systems Operational
 
-**Problem:**
+**API Endpoints (Production):**
 ```
-❌ GET /api/supplements/ashwagandha → 404 Not Found
-❌ GET /api/supplements/ashwagandha/products → 404 Not Found
-✅ GET /api/supplements → 200 OK (works)
+✅ GET /api/supplements → 200 OK (17 supplements)
+✅ GET /api/supplements/[slug] → 200 OK (single supplement)
+✅ GET /api/supplements/[slug]/products → 200 OK (paginated, filtered)
+✅ GET /api/products/[id] → 200 OK (single product)
+✅ GET /api/products/search → 200 OK (full-text search)
 ```
 
-**Root Cause:** Environment variables not set in Vercel production
+**Infrastructure:**
+- ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices)
+- ✅ Vercel hosting with all environment variables configured
+- ✅ App Router API routes (App Router style, not Pages Router)
+- ✅ Clean workspace (migration artifacts archived)
 
-### Quick Fix (Choose One)
+**v0.4 Changes:**
+- 🧹 Archived 27 migration scripts → `.archive/v0.3-migration/scripts/`
+- 🧹 Archived 15 migration docs → `.archive/v0.3-migration/docs/`
+- 🧹 Archived 8 deployment docs → `.archive/deployment-artifacts/`
+- 📚 Created comprehensive CHANGELOG.md
+- 📦 Updated package.json to 0.4.0
+- 📖 Consolidated and updated all documentation
 
-#### Option A: Manual (5 minutes)
-1. Go to https://vercel.com/dashboard → Settings → Environment Variables
-2. Add 7 variables (copy from `.env.local`):
-   - `NEXT_PUBLIC_SUPABASE_URL`
-   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-   - `SUPABASE_SERVICE_ROLE_KEY` (mark sensitive)
-   - `DATABASE_URL` (mark sensitive)
-   - `NEXT_PUBLIC_GTM_ID`
-   - `NEXT_PUBLIC_SITE_URL`
-   - `NEXT_PUBLIC_CANONICAL_BASE_URL`
-3. Check all 3 environments for each variable
-4. Deployments → Latest → ⋮ → Redeploy
-
-#### Option B: CLI (2 minutes)
+**Test Production:**
 ```bash
-npm i -g vercel
-vercel login
-vercel link
-node scripts/setup-vercel-env.mjs
-vercel --prod
+# Test endpoints
+curl https://www.suppl.me/api/supplements/ashwagandha
+curl https://www.suppl.me/api/products/search?q=magnesium
 ```
-
-### Verification
-```bash
-# After deployment, run diagnostics
-node scripts/diagnose-production.mjs
-
-# Expected output:
-# ✅ /api/supplements → 200 OK
-# ✅ /api/supplements/ashwagandha → 200 OK
-# ✅ /api/supplements/ashwagandha/products → 200 OK
-```
-
-### Documentation
-- **Complete Guide**: `docs/PRODUCTION_API_FIX.md`
-- **Env Setup**: `VERCEL_ENV_SETUP.md`
-- **Diagnostics**: `scripts/diagnose-production.mjs`
-
-### Common Issues
-
-**Still 404 after setup?**
-- Check Vercel Function Logs (Deployments → Functions tab)
-- Verify Supabase project isn't paused (https://supabase.com/dashboard)
-- Confirm all 7 variables are set for "Production" environment
-
-**500 Internal Server Error?**
-- Supabase connection issue → Check project status
-- Wrong schema → Verify `db: { schema: 'api' }` in `src/lib/supabase/server.ts`
-
-**Variables not working?**
-- Must redeploy after adding variables
-- Verify names match exactly (case-sensitive)
-- Check "Production" checkbox is ticked
