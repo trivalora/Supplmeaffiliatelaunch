@@ -82,12 +82,39 @@ function extractDefinition(content) {
 }
 
 /**
+ * Extract string content from props
+ * Matches both direct props and content objects
+ * Handles: propName="..." OR propName: "..."
+ */
+function extractStringProp(content, propName) {
+  // Try direct prop pattern first: propName="..."
+  // Use non-greedy match and handle escaped quotes
+  let match = content.match(new RegExp(`${propName}="([^"]*(?:\\\\"[^"]*)*[^"]*)"`));
+  if (match) {
+    return match[1].replace(/\\"/g, '"').trim();
+  }
+  
+  // Try content object pattern: propName: "..."
+  match = content.match(new RegExp(`${propName}:\\s*"([^"]+)"`));
+  if (match) {
+    return match[1].trim();
+  }
+  
+  return null;
+}
+
+/**
  * Extract expanded explanation JSX
  * Matches: expandedExplanation={<>...</>} OR expandedExplanation: (<>...</>)
+ * Also matches: detailedExplanation="..." (string version)
  */
 function extractExpandedExplanation(content) {
-  // Try direct prop pattern: expandedExplanation={<>...</>}
-  let match = content.match(/expandedExplanation=\{<>([\s\S]*?)<\/>\}/);
+  // First, try detailedExplanation as a string (most common)
+  let match = extractStringProp(content, 'detailedExplanation');
+  if (match) return match;
+  
+  // Try expandedExplanation as JSX: expandedExplanation={<>...</>}
+  match = content.match(/expandedExplanation=\{<>([\s\S]*?)<\/>\}/);
   if (match) {
     return match[1].trim();
   }
@@ -99,6 +126,48 @@ function extractExpandedExplanation(content) {
   }
   
   return null;
+}
+
+/**
+ * Extract examples array
+ * Matches: examples={["...", "..."]} OR examples: ["...", "..."]
+ */
+function extractExamples(content) {
+  // Try direct prop pattern: examples={["...", "..."]}
+  let match = content.match(/examples=\{(\[[^\]]*\])\}/);
+  if (!match) {
+    // Try content object pattern with multiline support
+    match = content.match(/examples:\s*\[([\s\S]*?)\]/);
+  }
+  
+  if (match) {
+    try {
+      const arrayStr = match[1] || match[0];
+      // Clean up for JSON parsing
+      let cleaned = arrayStr.trim();
+      
+      // Handle multiline arrays by removing line breaks and excess whitespace
+      cleaned = cleaned.replace(/\s*\n\s*/g, ' ').trim();
+      
+      // Ensure it starts with [ and ends with ]
+      if (!cleaned.startsWith('[')) cleaned = '[' + cleaned;
+      if (!cleaned.endsWith(']')) cleaned = cleaned + ']';
+      
+      // Replace single quotes with double quotes for JSON
+      // But preserve quotes inside strings
+      cleaned = cleaned.replace(/'/g, '"');
+      
+      // Handle HTML entities like &gt;
+      cleaned = cleaned.replace(/&gt;/g, '>').replace(/&lt;/g, '<');
+      
+      const parsed = JSON.parse(cleaned);
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (e) {
+      console.warn(`    ⚠️  Failed to parse examples array: ${e.message}`);
+    }
+  }
+  
+  return [];
 }
 
 /**
@@ -140,24 +209,15 @@ function extractRelatedTerms(content) {
 }
 
 /**
- * Convert JSX to plain HTML string
- * This is a simple regex-based conversion for common patterns
+ * Clean up content string
+ * Remove excessive whitespace while preserving paragraph breaks
  */
-function convertJSXToHTML(jsxString) {
-  if (!jsxString) return null;
+function cleanContent(content) {
+  if (!content) return null;
   
-  let html = jsxString;
-  
-  // Convert className to class
-  html = html.replace(/className=/g, 'class=');
-  
-  // Remove any React-specific attributes
-  html = html.replace(/\s+key="[^"]*"/g, '');
-  
-  // Clean up excessive whitespace while preserving structure
-  html = html.replace(/\n\s+\n/g, '\n\n');
-  
-  return html;
+  return content
+    .replace(/\n\s+\n/g, '\n\n')  // Normalize paragraph breaks
+    .trim();
 }
 
 /**
@@ -246,11 +306,10 @@ function extractGlossaryTerms() {
     const filePath = path.join(GLOSSARY_DIR, file);
     const content = fs.readFileSync(filePath, 'utf-8');
     
+    // Extract required fields
     const term = extractTerm(content);
     const slug = extractSlug(content, file);
     const definition = extractDefinition(content);
-    const expandedExplanation = extractExpandedExplanation(content);
-    const relatedTerms = extractRelatedTerms(content);
     
     if (!term || !slug || !definition) {
       console.log(`  ❌ ${file}: Missing required fields (term: ${!!term}, slug: ${!!slug}, def: ${!!definition})`);
@@ -258,14 +317,32 @@ function extractGlossaryTerms() {
       continue;
     }
     
-    const htmlContent = convertJSXToHTML(expandedExplanation);
+    // Extract optional content fields
+    const abbreviation = extractStringProp(content, 'abbreviation');
+    const pronunciation = extractStringProp(content, 'pronunciation');
+    const expandedExplanation = extractExpandedExplanation(content);
+    const whyItMatters = extractStringProp(content, 'whyItMatters');
+    const simpleExplanation = extractStringProp(content, 'simpleExplanation');
+    const technicalExplanation = extractStringProp(content, 'technicalExplanation');
+    const realWorldContext = extractStringProp(content, 'realWorldContext');
+    const keyPoints = extractStringProp(content, 'keyPoints');
+    const examples = extractExamples(content);
+    const relatedTerms = extractRelatedTerms(content);
     
     terms.push({
       file,
       slug,
       term,
+      abbreviation,
+      pronunciation,
       definition,
-      expanded_explanation: htmlContent,
+      expanded_explanation: expandedExplanation,
+      why_it_matters: whyItMatters,
+      simple_explanation: simpleExplanation,
+      technical_explanation: technicalExplanation,
+      real_world_context: realWorldContext,
+      examples,
+      key_points: keyPoints,
       related_terms: relatedTerms
     });
     
@@ -350,19 +427,48 @@ ALTER TABLE api.glossary_terms DISABLE TRIGGER ALL;
     sql += `  slug,\n`;
     sql += `  term,\n`;
     sql += `  abbreviation,\n`;
+    sql += `  pronunciation,\n`;
     sql += `  definition,\n`;
     sql += `  expanded_explanation,\n`;
+    sql += `  why_it_matters,\n`;
+    sql += `  simple_explanation,\n`;
+    sql += `  technical_explanation,\n`;
+    sql += `  real_world_context,\n`;
+    sql += `  examples,\n`;
+    sql += `  key_points,\n`;
     sql += `  meta_title,\n`;
     sql += `  meta_description\n`;
     sql += `) VALUES (\n`;
     sql += `  '${escapeSql(term.slug)}',\n`;
     sql += `  '${escapeSql(term.term)}',\n`;
     sql += `  ${term.abbreviation ? `'${escapeSql(term.abbreviation)}'` : 'NULL'},\n`;
+    sql += `  ${term.pronunciation ? `'${escapeSql(term.pronunciation)}'` : 'NULL'},\n`;
     sql += `  '${escapeSql(term.definition)}',\n`;
     sql += `  ${term.expanded_explanation ? `'${escapeSql(term.expanded_explanation)}'` : 'NULL'},\n`;
+    sql += `  ${term.why_it_matters ? `'${escapeSql(term.why_it_matters)}'` : 'NULL'},\n`;
+    sql += `  ${term.simple_explanation ? `'${escapeSql(term.simple_explanation)}'` : 'NULL'},\n`;
+    sql += `  ${term.technical_explanation ? `'${escapeSql(term.technical_explanation)}'` : 'NULL'},\n`;
+    sql += `  ${term.real_world_context ? `'${escapeSql(term.real_world_context)}'` : 'NULL'},\n`;
+    sql += `  ${term.examples && term.examples.length > 0 ? `ARRAY[${term.examples.map(ex => `'${escapeSql(ex)}'`).join(', ')}]` : 'ARRAY[]::text[]'},\n`;
+    sql += `  ${term.key_points ? `'${escapeSql(term.key_points)}'` : 'NULL'},\n`;
     sql += `  ${term.meta_title ? `'${escapeSql(term.meta_title)}'` : 'NULL'},\n`;
     sql += `  ${term.meta_description ? `'${escapeSql(term.meta_description)}'` : 'NULL'}\n`;
-    sql += `);\n\n`;
+    sql += `)\n`;
+    sql += `ON CONFLICT (slug) DO UPDATE SET\n`;
+    sql += `  term = EXCLUDED.term,\n`;
+    sql += `  abbreviation = EXCLUDED.abbreviation,\n`;
+    sql += `  pronunciation = EXCLUDED.pronunciation,\n`;
+    sql += `  definition = EXCLUDED.definition,\n`;
+    sql += `  expanded_explanation = EXCLUDED.expanded_explanation,\n`;
+    sql += `  why_it_matters = EXCLUDED.why_it_matters,\n`;
+    sql += `  simple_explanation = EXCLUDED.simple_explanation,\n`;
+    sql += `  technical_explanation = EXCLUDED.technical_explanation,\n`;
+    sql += `  real_world_context = EXCLUDED.real_world_context,\n`;
+    sql += `  examples = EXCLUDED.examples,\n`;
+    sql += `  key_points = EXCLUDED.key_points,\n`;
+    sql += `  meta_title = EXCLUDED.meta_title,\n`;
+    sql += `  meta_description = EXCLUDED.meta_description,\n`;
+    sql += `  updated_at = CURRENT_TIMESTAMP;\n\n`;
   });
   
   // Generate related terms updates (second pass)
@@ -402,11 +508,22 @@ SELECT COUNT(*) as total_terms FROM api.glossary_terms;
 function generateReport(terms) {
   console.log('\n📊 Extraction Summary Report\n');
   console.log('═'.repeat(60));
-  console.log(`Total terms extracted:        ${terms.length}`);
-  console.log(`Terms with abbreviations:     ${terms.filter(t => t.abbreviation).length}`);
-  console.log(`Terms with expanded content:  ${terms.filter(t => t.expanded_explanation).length}`);
-  console.log(`Terms with related terms:     ${terms.filter(t => t.related_terms && t.related_terms.length > 0).length}`);
+  console.log(`Total terms extracted:              ${terms.length}`);
+  console.log(`Terms with abbreviations:           ${terms.filter(t => t.abbreviation).length} (${(terms.filter(t => t.abbreviation).length / terms.length * 100).toFixed(1)}%)`);
+  console.log(`Terms with pronunciation:           ${terms.filter(t => t.pronunciation).length} (${(terms.filter(t => t.pronunciation).length / terms.length * 100).toFixed(1)}%)`);
+  console.log(`Terms with expanded explanation:    ${terms.filter(t => t.expanded_explanation).length} (${(terms.filter(t => t.expanded_explanation).length / terms.length * 100).toFixed(1)}%)`);
+  console.log(`Terms with why it matters:          ${terms.filter(t => t.why_it_matters).length} (${(terms.filter(t => t.why_it_matters).length / terms.length * 100).toFixed(1)}%)`);
+  console.log(`Terms with simple explanation:      ${terms.filter(t => t.simple_explanation).length} (${(terms.filter(t => t.simple_explanation).length / terms.length * 100).toFixed(1)}%)`);
+  console.log(`Terms with examples:                ${terms.filter(t => t.examples && t.examples.length > 0).length} (${(terms.filter(t => t.examples && t.examples.length > 0).length / terms.length * 100).toFixed(1)}%)`);
+  console.log(`Terms with related terms:           ${terms.filter(t => t.related_terms && t.related_terms.length > 0).length} (${(terms.filter(t => t.related_terms && t.related_terms.length > 0).length / terms.length * 100).toFixed(1)}%)`);
   console.log('═'.repeat(60));
+  
+  // Content completeness
+  const completeTerms = terms.filter(t => 
+    t.expanded_explanation || t.why_it_matters || (t.examples && t.examples.length > 0)
+  );
+  console.log(`\n✅ Complete terms (ready for database):  ${completeTerms.length} (${(completeTerms.length / terms.length * 100).toFixed(1)}%)`);
+  console.log(`⚠️  Basic terms (definition only):       ${terms.length - completeTerms.length} (${((terms.length - completeTerms.length) / terms.length * 100).toFixed(1)}%)`);
   
   // Sample of first 5 terms
   console.log('\n📋 Sample terms (first 5):');
@@ -414,7 +531,9 @@ function generateReport(terms) {
     console.log(`  ${i + 1}. ${t.term} (${t.slug})`);
     console.log(`     Definition: ${t.definition.substring(0, 60)}...`);
     if (t.abbreviation) console.log(`     Abbreviation: ${t.abbreviation}`);
-    if (t.related_terms.length > 0) console.log(`     Related: ${t.related_terms.join(', ')}`);
+    if (t.expanded_explanation) console.log(`     Content: ${t.expanded_explanation.substring(0, 60)}...`);
+    if (t.examples && t.examples.length > 0) console.log(`     Examples: ${t.examples.length}`);
+    if (t.related_terms && t.related_terms.length > 0) console.log(`     Related: ${t.related_terms.join(', ')}`);
     console.log();
   });
 }

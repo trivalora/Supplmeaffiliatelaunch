@@ -1916,7 +1916,7 @@ export const GLOSSARY_ROUTES: RouteConfig[] = [
     category: 'glossary'
   },
   {
-    key: '8ohdg',
+    key: 'eightohdg',
     title: '8-OHdG',
     abbreviation: '8-hydroxy-2\'-deoxyguanosine',
     description: 'Biomarker of oxidative DNA damage and oxidative stress',
