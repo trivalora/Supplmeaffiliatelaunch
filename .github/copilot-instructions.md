@@ -17,10 +17,10 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 
 **Version 0.4.1 Highlights:**
 📚 **Glossary Backend Complete** ✅
-- **Database**: 197 glossary terms migrated to Supabase
+- **Database**: 197 glossary terms in Supabase (all data-driven)
 - **API**: GET /api/glossary endpoints operational
-- **Validation**: 8 checks passed (100% coverage)
-- **Scripts**: Extract, validate, and test tooling
+- **Sitemap**: Fixed to include all 1,691 product pages
+- **Static cleanup**: Removed migration scripts, all glossary data now in DB
 - **See**: `docs/GLOSSARY_BACKEND_COMPLETE.md` for details
 
 **Active Priority** (Week 4):
@@ -112,23 +112,32 @@ const COMPONENT_MAP = {
 
 ### 2. Add Glossary Term
 
-**Step 1**: Create `src/components/pages/glossary/[Term]Page.tsx`
-```typescript
-'use client';
-import { GlossaryTemplate } from '@/components/templates/GlossaryTemplate';
+**All glossary terms are now stored in Supabase database.** To add a new term:
 
-export function ZincDeficiencyPage() {
-  return (
-    <GlossaryTemplate
-      term="Zinc Deficiency"
-      definition="Plain text definition..."  // String only
-      expandedExplanation={<>JSX content here</>}  // JSX here
-    />
-  );
-}
+**Step 1**: Insert into database via SQL or Supabase dashboard:
+```sql
+INSERT INTO api.glossary_terms (
+  slug,
+  term,
+  definition,
+  expanded_explanation,
+  examples,
+  meta_title,
+  meta_description
+) VALUES (
+  'zinc-deficiency',
+  'Zinc Deficiency',
+  'Insufficient zinc levels in the body...',
+  'Detailed explanation with scientific context...',
+  ARRAY['Example 1', 'Example 2'],
+  'Zinc Deficiency - Suppl.me Glossary',
+  'Understanding zinc deficiency symptoms and treatment'
+);
 ```
 
-**Step 2**: Add route to `src/routes.config.ts` in `GLOSSARY_ROUTES`
+**Step 2**: Term automatically appears via `/api/glossary/[slug]` endpoint
+
+**Step 3**: Optional - Create custom page component if advanced layout needed (most terms use dynamic rendering)
 
 ### 3. Build & Deploy
 
@@ -266,10 +275,9 @@ src/
 └── styles/globals.css        # Design system (2,134 lines)
 
 scripts/
-├── migration/                # NEW: Database migration scripts
-│   ├── extract-products-to-csv.mjs
-│   ├── transform-data.mjs
-│   └── load-to-supabase.mjs
+├── migration/                # Database migration utilities
+│   ├── test-glossary-api.mjs # Test glossary API endpoints
+│   └── validate-glossary-data.mjs  # Validate glossary database
 ├── data-pipeline/            # Product scraping
 ├── database/                 # DSLD queries
 └── web-build/               # Sitemap, structured data
@@ -436,12 +444,13 @@ git push origin main          # Auto-deploys to Vercel
 - ✅ Clean workspace (migration artifacts archived)
 
 **v0.4.1 Changes:**
-- 📚 Glossary backend: 197 terms migrated to database
-- 🔧 New scripts: extract, validate, test glossary data
-- 📖 Complete documentation (3 new docs)
-- ✅ All validation checks passed (8/8)
-- 🗄️ SQL migration: 138 KB, 4,288 lines
+- 📚 Glossary backend: 197 terms in database (fully data-driven)
+- 🔧 Utility scripts: test and validate glossary API/data
+- 📖 Complete documentation (GLOSSARY_BACKEND_COMPLETE.md)
+- ✅ All validation checks passed
+- 🗄️ Database schema: glossary_terms table with 197 entries
 - 🔗 Related terms: 27 terms with UUID linking
+- 🗺️ Sitemap fix: 1,691 product pages restored via Supabase queries
 
 **Test Production:**
 ```bash
