@@ -5,7 +5,7 @@ export function Serum25OHDPage() {
       <GlossaryTemplate
         term="Serum 25-hydroxyvitamin D / 25(OH)D"
         definition="The major circulating form of vitamin D in the blood and the standard biomarker used to assess vitamin D status. It reflects both dietary intake and sunlight-induced production of vitamin D."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Serum 25-hydroxyvitamin D, commonly abbreviated as 25(OH)D, is the best indicator of vitamin D status because it has a relatively long half-life (2-3 weeks) and reflects vitamin D from all sources: sun exposure, food, and supplements. Measuring 25(OH)D is the recommended way to determine whether someone has vitamin D deficiency, insufficiency, or adequate levels.

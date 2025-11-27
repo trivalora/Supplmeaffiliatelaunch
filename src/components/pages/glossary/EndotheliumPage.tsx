@@ -5,7 +5,7 @@ export function EndotheliumPage() {
       <GlossaryTemplate
         term="Endothelium"
         definition="The thin layer of specialized cells (endothelial cells) that lines the interior surface of all blood vessels and lymphatic vessels. This single-cell layer plays critical roles in vascular health, blood flow regulation, and cardiovascular function."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               The endothelium forms the interface between circulating blood and the vessel wall. Far from being a passive barrier, it is a highly active organ that regulates blood vessel tone, prevents blood clotting, controls inflammation, and influences the development of atherosclerosis. Endothelial dysfunction is recognized as an early marker of cardiovascular disease.

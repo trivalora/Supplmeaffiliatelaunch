@@ -5,7 +5,7 @@ export function NitricOxidePage() {
       <GlossaryTemplate
         term="Nitric Oxide (NO)"
         definition="A gaseous signaling molecule produced by cells throughout the body that plays critical roles in cardiovascular function, particularly blood vessel dilation (vasodilation), blood flow regulation, and blood pressure control."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Nitric oxide (NO) is one of the most important signaling molecules in human physiology. Despite being a simple gas composed of one nitrogen and one oxygen atom, NO regulates numerous vital functions including blood pressure, vascular health, immune response, neurotransmission, and exercise performance. The 1998 Nobel Prize in Physiology or Medicine was awarded for discovering NO's role in cardiovascular signaling.

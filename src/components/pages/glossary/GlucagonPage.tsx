@@ -5,7 +5,7 @@ export function GlucagonPage() {
       <GlossaryTemplate
         term="Glucagon"
         definition="A peptide hormone produced by alpha cells in the pancreas that raises blood glucose levels by promoting glucose release from the liver. It acts as insulin's counter-regulatory hormone, preventing hypoglycemia during fasting."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Glucagon is a critical hormone for maintaining blood glucose within normal ranges, particularly between meals and during fasting. While insulin signals energy abundance and promotes storage, glucagon signals energy scarcity and promotes mobilization of stored energy. Together, these two pancreatic hormones maintain glucose homeostasis.

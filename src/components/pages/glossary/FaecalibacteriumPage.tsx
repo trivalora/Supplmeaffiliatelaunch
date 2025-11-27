@@ -5,7 +5,7 @@ export function FaecalibacteriumPage() {
       <GlossaryTemplate
         term="Faecalibacterium prausnitzii"
         definition="One of the most abundant beneficial bacterial species in the healthy human colon. It is a major producer of butyrate, an important short-chain fatty acid that fuels colonocytes and has anti-inflammatory properties."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Faecalibacterium prausnitzii is a Gram-positive, strictly anaerobic bacterium that typically comprises 5-15% of the gut microbiota in healthy adults, making it one of the most prevalent species in the colon. It is considered a biomarker of intestinal health, with reduced levels consistently observed in various inflammatory and metabolic disorders.

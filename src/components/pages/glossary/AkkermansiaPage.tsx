@@ -5,7 +5,7 @@ export function AkkermansiaPage() {
       <GlossaryTemplate
         term="Akkermansia muciniphila"
         definition="A beneficial bacterial species that lives in the mucus layer of the intestinal tract. It is associated with metabolic health, healthy body weight, and improved glucose metabolism."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Akkermansia muciniphila is a Gram-negative bacterium that comprises 1-5% of the gut microbiome in healthy adults. It specializes in degrading mucin (the glycoprotein in intestinal mucus), which stimulates the constant renewal of the protective mucus layer. This bacterium has gained significant scientific attention due to its consistent association with metabolic health and its inverse correlation with obesity, diabetes, and inflammation.

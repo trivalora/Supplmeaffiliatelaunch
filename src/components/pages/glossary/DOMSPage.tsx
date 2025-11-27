@@ -5,7 +5,7 @@ export function DOMSPage() {
       <GlossaryTemplate
         term="DOMS (Delayed Onset Muscle Soreness)"
         definition="Muscle pain and stiffness that develops 12-24 hours after unaccustomed or intense exercise, typically peaking at 24-72 hours and gradually resolving over 5-7 days."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Delayed onset muscle soreness (DOMS) is the muscle pain and tenderness that occurs after performing unfamiliar or strenuous exercise. Unlike acute muscle pain that occurs during or immediately after exercise, DOMS has a delayed onset and is particularly common after eccentric exercises (lengthening contractions like running downhill or lowering weights).

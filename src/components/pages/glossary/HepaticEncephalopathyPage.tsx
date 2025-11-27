@@ -5,7 +5,7 @@ export function HepaticEncephalopathyPage() {
       <GlossaryTemplate
         term="Hepatic Encephalopathy"
         definition="A decline in brain function that occurs when the liver is unable to adequately remove toxins from the blood, particularly ammonia. This condition is a complication of advanced liver disease or cirrhosis."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Hepatic encephalopathy (HE) represents a spectrum of neurological and psychiatric abnormalities ranging from subtle cognitive deficits to coma. It occurs when the liver's detoxification function is severely impaired, allowing neurotoxic substances—especially ammonia—to accumulate in the bloodstream and affect brain function.

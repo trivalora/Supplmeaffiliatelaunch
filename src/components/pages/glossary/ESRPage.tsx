@@ -5,7 +5,7 @@ export function ESRPage() {
       <GlossaryTemplate
         term="ESR (Erythrocyte Sedimentation Rate)"
         definition="A blood test that measures how quickly red blood cells (erythrocytes) settle to the bottom of a test tube. An elevated ESR is a non-specific indicator of inflammation in the body."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               The erythrocyte sedimentation rate (ESR), also called sed rate, is one of the oldest laboratory tests still in common use. First described in the early 1900s, it measures the rate at which red blood cells descend in a vertical column of anticoagulated blood over one hour. While non-specific (doesn't identify the cause of inflammation), ESR is useful for detecting, monitoring, and assessing the severity of inflammatory conditions.

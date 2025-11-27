@@ -5,7 +5,7 @@ export function ArachidonicAcidPage() {
       <GlossaryTemplate
         term="Arachidonic Acid (AA)"
         definition="An omega-6 polyunsaturated fatty acid that serves as a precursor to eicosanoids, including both pro-inflammatory and some regulatory signaling molecules. It plays important roles in inflammation, immune function, and cell signaling."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Arachidonic acid (AA, 20:4 n-6) is a 20-carbon omega-6 fatty acid found in cell membranes throughout the body, particularly in brain tissue, muscles, and immune cells. While often characterized as "pro-inflammatory," AA actually gives rise to both inflammatory and anti-inflammatory mediators, and it's essential for normal physiological functions including immune response, tissue repair, and brain development.

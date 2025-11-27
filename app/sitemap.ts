@@ -1,6 +1,5 @@
 import { MetadataRoute } from 'next';
-import fs from 'fs/promises';
-import path from 'path';
+import { createClient } from '@supabase/supabase-js';
 
 // Import route configurations
 const getRoutes = async () => {
@@ -13,6 +12,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const currentDate = new Date();
   
   const sitemap: MetadataRoute.Sitemap = [];
+  
+  // Initialize Supabase client
+  const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    { db: { schema: 'api' } }
+  );
   
   // Get routes configuration
   const { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES } = await getRoutes();
@@ -55,15 +61,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   }
   
-  // 4. Product pages (1,867 pages)
+  // 4. Product pages (1,691 pages) - Fetch from Supabase
   for (const supplement of supplements) {
     try {
-      const filePath = path.join(process.cwd(), 'public', 'api', 'products', 'supplements', `${supplement}.json`);
-      const fileContent = await fs.readFile(filePath, 'utf-8');
-      const data = JSON.parse(fileContent);
+      // Fetch products directly from Supabase
+      const { data: products, error } = await supabase
+        .from('products')
+        .select('id')
+        .eq('supplement_slug', supplement);
       
-      if (data.products && Array.isArray(data.products)) {
-        for (const product of data.products) {
+      if (error) {
+        console.error(`Supabase error for ${supplement}:`, error);
+        continue;
+      }
+      
+      if (products && Array.isArray(products)) {
+        for (const product of products) {
           if (product.id) {
             // URL-encode the product ID to handle special characters like &, spaces, etc.
             const encodedId = encodeURIComponent(product.id);

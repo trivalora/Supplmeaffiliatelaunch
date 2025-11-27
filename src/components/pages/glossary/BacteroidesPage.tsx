@@ -5,7 +5,7 @@ export function BacteroidesPage() {
       <GlossaryTemplate
         term="Bacteroides"
         definition="A genus of Gram-negative, anaerobic bacteria that represents one of the most abundant groups in the human gut microbiome. Bacteroides species are specialized in breaking down complex carbohydrates and play important roles in nutrition and immune function."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Bacteroides is a major bacterial genus in the human colon, typically comprising 20-30% of the total gut microbiota in Western populations. These bacteria are highly efficient at degrading complex polysaccharides (plant fibers) that human digestive enzymes cannot break down, making them essential partners in extracting nutrition from dietary fiber.

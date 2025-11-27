@@ -5,7 +5,7 @@ export function InsulinPage() {
       <GlossaryTemplate
         term="Insulin"
         definition="A peptide hormone produced by beta cells in the pancreas that regulates blood glucose levels by promoting cellular uptake of glucose and inhibiting glucose production. It is central to carbohydrate, fat, and protein metabolism."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Insulin is one of the most important metabolic hormones in the human body. Secreted in response to elevated blood glucose (particularly after meals), insulin acts as a key that unlocks cells to allow glucose entry, simultaneously signaling the body to store energy and switch from catabolic (breakdown) to anabolic (building) processes.

@@ -5,7 +5,7 @@ export function ColonocytesPage() {
       <GlossaryTemplate
         term="Colonocytes"
         definition="The epithelial cells that line the colon (large intestine). These specialized cells form a protective barrier and play crucial roles in nutrient absorption, water reabsorption, and immune function."
-        content={
+        expandedExplanation={
           <>
             <p className="content-text">
               Colonocytes are the primary cells forming the inner lining of the colon. They create a single-layer epithelial barrier that separates the gut lumen (containing trillions of bacteria and partially digested food) from the underlying tissues and bloodstream. These cells have a rapid turnover rate, typically replacing themselves every 3-5 days.
