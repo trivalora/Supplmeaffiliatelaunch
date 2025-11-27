@@ -447,30 +447,9 @@ const GLOSSARY_TERMS: GlossaryTerm[] = [
     key: 'prediabetes',
     terms: ['prediabetes', 'pre-diabetes', 'prediabetic', 'impaired glucose tolerance', 'impaired fasting glucose', 'IGT', 'IFG']
   },
-  {
-    key: 'magnesium',
-    terms: ['magnesium', 'magnesium supplement', 'magnesium supplementation', 'Mg']
-  },
-  {
-    key: 'calcium',
-    terms: ['calcium', 'calcium supplement', 'calcium supplementation', 'Ca']
-  },
-  {
-    key: 'iron',
-    terms: ['iron supplement', 'iron supplementation', 'Fe supplement']
-  },
-  {
-    key: 'vitamind',
-    terms: ['vitamin D', 'vitamin D3', 'cholecalciferol', 'vitamin D2', 'ergocalciferol', 'vitamin D supplementation']
-  },
-  {
-    key: 'vitaminc',
-    terms: ['vitamin C', 'ascorbic acid', 'ascorbate', 'vitamin C supplementation']
-  },
-  {
-    key: 'omega3',
-    terms: ['omega-3 supplement', 'fish oil', 'omega-3 supplementation', 'fish oil supplement']
-  },
+  // NOTE: Removed supplement-specific terms (magnesium, calcium, iron, vitamin D, vitamin C, omega-3, probiotics)
+  // These are knowledgebase pages (/magnesium, /vitamin-d) not glossary terms (/glossary/...)
+  // If you want to link to supplements, use explicit <Link> components in content
   {
     key: 'probiotics',
     terms: ['probiotic', 'probiotics', 'probiotic supplement']
@@ -486,23 +465,11 @@ const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     key: 'ashwagandha',
     terms: ['ashwagandha', 'withania somnifera', 'KSM-66']
-  },
-  {
-    key: 'sulforaphane',
-    terms: ['sulforaphane', 'glucoraphanin']
-  },
-  {
-    key: 'collagenpeptides',
-    terms: ['collagen peptide', 'collagen peptides', 'hydrolyzed collagen', 'collagen supplement']
-  },
-  {
-    key: 'bcaas',
-    terms: ['BCAA', 'BCAAs', 'branched-chain amino acid', 'branched-chain amino acids', 'leucine:isoleucine:valine']
-  },
-  {
-    key: 'curcumin',
-    terms: ['curcumin', 'curcuminoid', 'curcuminoids', 'turmeric extract']
   }
+  // NOTE: Removed supplement-specific entries that don't have glossary pages:
+  // - probiotics, collagen, BCAAs, curcumin, sulforaphane
+  // These are supplement knowledgebase pages, not glossary definitions
+  // Autolinking should ONLY create links to /glossary/* pages that actually exist
 ];
 
 // Define external links (new tab, nofollow, noreferrer)
