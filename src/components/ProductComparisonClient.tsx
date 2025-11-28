@@ -38,7 +38,7 @@ const SUPPLEMENTS = [
   { id: "creatine", name: "Creatine", icon: "⚡" },
   { id: "curcumin", name: "Curcumin", icon: "🧡" },
   { id: "iron", name: "Iron", icon: "🔴" },
-  { id: "magnesium", name: "Magnesium", icon: "⚪" },
+  { id: "magnesium", name: "Magnesium Glycinate", icon: "⚪" },
   { id: "multivitamin", name: "Multivitamin", icon: "💊" },
   { id: "omega-3", name: "Omega-3", icon: "🐟" },
   { id: "prebiotics", name: "Prebiotics", icon: "🌱" },

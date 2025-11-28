@@ -151,10 +151,10 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
   },
 
   magnesium: {
-    name: "Magnesium Supplement",
-    title: "Magnesium for Sleep, Muscle & Heart",
+    name: "Magnesium Glycinate",
+    title: "Magnesium Glycinate: Sleep & Muscle Health",
     description:
-      "Magnesium for sleep, muscles, and heart health. Bioavailable forms (glycinate, citrate, threonate), optimal dosing, and price comparison.",
+      "Magnesium glycinate for sleep, muscles, and heart health. Highly bioavailable, gentle on stomach, optimal dosing, and price comparison.",
     keywords: [
       "magnesium",
       "magnesium glycinate",
