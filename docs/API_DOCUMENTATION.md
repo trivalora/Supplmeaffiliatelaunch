@@ -152,6 +152,7 @@ GET /api/supplements/ashwagandha/products?page=1&limit=10&sort=price_asc&retaile
       "product_name": "Ashwagandha Root Powder",
       "product_image_url": "/images/products/...",
       "best_total_price": 12.99,
+      "best_price_per_unit": 0.0026,
       "available_retailers": ["iHerb", "Amazon"],
       "price_count": 2,
       "supplement_slug": "ashwagandha",
@@ -166,6 +167,9 @@ GET /api/supplements/ashwagandha/products?page=1&limit=10&sort=price_asc&retaile
   }
 }
 ```
+
+**Response Fields**:
+- `best_price_per_unit` (number | null) - Lowest price per unit (mg/mcg) across all retailers. Calculated as `price / amount_per_serving`. Returns `null` if `amount_per_serving` is not available.
 
 **Cache**: 30 minutes
 
