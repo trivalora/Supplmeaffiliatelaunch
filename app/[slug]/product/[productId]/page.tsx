@@ -100,8 +100,28 @@ export async function generateMetadata({
     const description =
       fullDesc.length > 160 ? fullDesc.substring(0, 157) + "..." : fullDesc;
 
+    // Build title - don't add supplement name if already in product name
+    const productNameLower = productName.toLowerCase();
+    const supplementNameLower = supplementName.toLowerCase();
+    const includesSupplementName =
+      productNameLower.includes(supplementNameLower) ||
+      supplementNameLower
+        .split(" ")
+        .some(
+          (word: string) => word.length > 3 && productNameLower.includes(word)
+        );
+
+    const baseTitle = `${brand} ${productName}`;
+    const fullTitle = includesSupplementName
+      ? baseTitle
+      : `${baseTitle} - ${supplementName}`;
+
+    // Ensure title under 60 chars
+    const title =
+      fullTitle.length > 60 ? `${baseTitle.substring(0, 57)}...` : fullTitle;
+
     return {
-      title: `${brand} ${productName} - ${supplementName} | Suppl.me`,
+      title,
       description,
       keywords: `${brand}, ${productName}, ${supplementName}, supplement facts, price comparison, DSLD`,
       robots: {
@@ -116,7 +136,9 @@ export async function generateMetadata({
         canonical: canonicalUrl,
       },
       openGraph: {
-        title: `${brand} ${productName} - ${supplementName}`,
+        title: includesSupplementName
+          ? baseTitle
+          : `${baseTitle} - ${supplementName}`,
         description,
         type: "website",
         url: canonicalUrl,

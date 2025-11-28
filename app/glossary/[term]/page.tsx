@@ -1,25 +1,25 @@
-import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import { GlossaryPageContent } from './GlossaryPageContent';
-import type { GlossaryTerm } from './GlossaryPageContent';
-import { getRouteByPath } from '../../lib/route-adapter';
-import { PageViewTracker } from '../../components/PageViewTracker';
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { GlossaryPageContent } from "./GlossaryPageContent";
+import type { GlossaryTerm } from "./GlossaryPageContent";
+import { getRouteByPath } from "../../lib/route-adapter";
+import { PageViewTracker } from "../../components/PageViewTracker";
 
 /**
  * Fetch glossary term from API
  */
 async function getGlossaryTerm(slug: string): Promise<GlossaryTerm | null> {
   try {
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
     const response = await fetch(`${baseUrl}/api/glossary/${slug}`, {
-      cache: 'force-cache',
-      next: { revalidate: 3600 } // Revalidate every hour
+      cache: "force-cache",
+      next: { revalidate: 3600 }, // Revalidate every hour
     });
-    
+
     if (!response.ok) {
       return null;
     }
-    
+
     const data = await response.json();
     return data.term || null;
   } catch (error) {
@@ -34,7 +34,11 @@ async function getGlossaryTerm(slug: string): Promise<GlossaryTerm | null> {
  */
 function hasCompleteContent(term: GlossaryTerm): boolean {
   // A term is "complete" if it has either expanded_explanation or why_it_matters
-  return !!(term.expanded_explanation || term.why_it_matters || (term.examples && term.examples.length > 0));
+  return !!(
+    term.expanded_explanation ||
+    term.why_it_matters ||
+    (term.examples && term.examples.length > 0)
+  );
 }
 
 /**
@@ -42,13 +46,15 @@ function hasCompleteContent(term: GlossaryTerm): boolean {
  */
 async function getHardcodedGlossaryComponent(slug: string) {
   const route = getRouteByPath(`/glossary/${slug}`);
-  
+
   if (!route || !route.componentName) {
     return null;
   }
 
   try {
-    const module = await import(`../../../src/components/pages/glossary/${route.componentName}`);
+    const module = await import(
+      `../../../src/components/pages/glossary/${route.componentName}`
+    );
     return module.default || module[Object.keys(module)[0]];
   } catch (error) {
     console.error(`Failed to load hardcoded component for: ${slug}`, error);
@@ -62,22 +68,22 @@ async function getHardcodedGlossaryComponent(slug: string) {
  */
 export async function generateStaticParams() {
   try {
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
     const response = await fetch(`${baseUrl}/api/glossary?limit=500`, {
-      cache: 'force-cache'
+      cache: "force-cache",
     });
-    
+
     if (!response.ok) {
-      console.error('Failed to fetch glossary terms for static generation');
+      console.error("Failed to fetch glossary terms for static generation");
       return [];
     }
-    
+
     const { terms } = await response.json();
     return terms.map((term: GlossaryTerm) => ({
-      term: term.slug
+      term: term.slug,
     }));
   } catch (error) {
-    console.error('Error generating static params for glossary:', error);
+    console.error("Error generating static params for glossary:", error);
     return [];
   }
 }
@@ -85,31 +91,38 @@ export async function generateStaticParams() {
 /**
  * Generate metadata for SEO
  */
-export async function generateMetadata({ params }: { params: Promise<{ term: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ term: string }>;
+}): Promise<Metadata> {
   const { term: slug } = await params;
   const term = await getGlossaryTerm(slug);
-  
+
   if (!term) {
-    return { title: 'Term Not Found' };
+    return { title: "Term Not Found" };
   }
-  
-  const title = term.abbreviation 
-    ? `${term.term} (${term.abbreviation}) - Supplement Research Glossary`
-    : `${term.term} - Supplement Research Glossary`;
-  
-  const description = term.meta_description || term.definition?.substring(0, 155) || '';
-  
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.suppl.me';
+
+  const title = term.abbreviation
+    ? `${term.term} (${term.abbreviation}) Definition`
+    : `${term.term} Definition`;
+
+  const description =
+    term.meta_description || term.definition?.substring(0, 155) || "";
+
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.suppl.me";
   const fullUrl = `${baseUrl}/glossary/${slug}`;
-    
+
   return {
     title: term.meta_title || title,
     description,
-    keywords: `${term.term}, ${term.abbreviation || ''}, supplement research, scientific terminology`,
+    keywords: `${term.term}, ${
+      term.abbreviation || ""
+    }, supplement research, scientific terminology`,
     openGraph: {
       title,
       description,
-      type: 'article',
+      type: "article",
       url: fullUrl,
     },
     alternates: {
@@ -120,45 +133,45 @@ export async function generateMetadata({ params }: { params: Promise<{ term: str
 
 /**
  * Page component - hybrid approach (database + fallback)
- * 
+ *
  * Strategy:
  * 1. Try to fetch from database
  * 2. If database content is complete, use it
  * 3. If incomplete, fall back to hardcoded React component
  * 4. If neither works, show 404
- * 
+ *
  * This allows gradual migration from hardcoded to database-driven content
  */
-export default async function GlossaryTermPage({ 
-  params 
-}: { 
-  params: Promise<{ term: string }> 
+export default async function GlossaryTermPage({
+  params,
+}: {
+  params: Promise<{ term: string }>;
 }) {
   const { term: slug } = await params;
-  
+
   // Try to fetch from database
   const term = await getGlossaryTerm(slug);
-  
+
   // If database has complete content, use it
   if (term && hasCompleteContent(term)) {
     console.log(`✅ Rendering ${slug} from database`);
     return <GlossaryPageContent term={term} />;
   }
-  
+
   // Otherwise, fall back to hardcoded component
   console.log(`⚠️  Falling back to hardcoded component for ${slug}`);
   const route = getRouteByPath(`/glossary/${slug}`);
-  
+
   if (!route) {
     notFound();
   }
-  
+
   const HardcodedComponent = await getHardcodedGlossaryComponent(slug);
-  
+
   if (!HardcodedComponent) {
     notFound();
   }
-  
+
   return (
     <>
       <PageViewTracker pageName={route.title} pageCategory="glossary" />
