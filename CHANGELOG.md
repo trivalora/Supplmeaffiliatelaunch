@@ -65,6 +65,36 @@ All notable changes to the Suppl.me Affiliate Launch project.
 - **Index Size:** ~500 KB
 - **Query Performance:** List (50ms), Single (10ms), Search (80ms)
 
+#### Archived (Post-Migration Cleanup)
+- 📁 **9 migration scripts** → `.archive/v0.4.1-glossary-migration/scripts/`
+  - Environment setup scripts (one-time use)
+  - Migration runners (completed)
+  - Testing and validation scripts (replaced by permanent utilities)
+  - Deployment fix scripts (issues resolved)
+
+- 📁 **13 migration docs** → `.archive/v0.4.1-glossary-migration/docs/`
+  - Migration planning and status documents
+  - Implementation completion summaries
+  - Deployment troubleshooting guides
+
+- 📁 **5 root-level docs** → `.archive/v0.4.1-glossary-migration/root-level/`
+  - Temporary completion summaries
+  - Outdated checklists
+  - Build fix documentation (superseded)
+
+#### Updated
+- 📝 `README.md` - Updated to v0.4.1 status
+- 📝 `CHANGELOG.md` - Added v0.4.1 section (this file)
+- 📝 `PRODUCTION_STATUS.md` - Updated glossary backend status
+- 📝 `.github/copilot-instructions.md` - Updated AI context
+- 📝 `docs/API_DOCUMENTATION.md` - Added glossary endpoints
+- 📝 `docs/INDEX.md` - Updated documentation map
+- 📝 `scripts/README.md` - Removed obsolete script references
+- 📝 `scripts/migration/README.md` - Focus on active utilities only
+
+#### Why This Cleanup?
+With the glossary migration complete and all systems operational, v0.4.1 archives temporary migration artifacts to maintain a clean, production-ready workspace while preserving all work for historical reference.
+
 ---
 
 ## [0.4.0] - November 27, 2025

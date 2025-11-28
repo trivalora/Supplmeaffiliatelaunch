@@ -1,17 +1,29 @@
-'use client';
+"use client";
 
-import { useState, useRef, useEffect } from 'react';
-import { Search, X, Check, Info } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
-import { Input } from '@/components/ui/input';
-import { SearchResults } from '@/components/shared/content/SearchResults';
-import { useAffiliateTooltip, AffiliateTooltip } from '@/components/shared/ui-extensions/AffiliateTooltip';
-import IHerbBadgeLogoRgb from '@/imports/IHerbBadgeLogoRgb1-106-1526';
-import { HeroImage, SectionImage, ProductImage } from '@/components/images';
+import { useState, useRef, useEffect } from "react";
+import { Search, X, Check, Info } from "lucide-react";
+import { motion, AnimatePresence } from "motion/react";
+import { Input } from "@/components/ui/input";
+import { SearchResults } from "@/components/shared/content/SearchResults";
+import {
+  MobileSearchSheet,
+  useMobileSearch,
+} from "@/components/shared/ui-extensions/MobileSearchSheet";
+import { useIsMobile } from "@/hooks";
+import {
+  useAffiliateTooltip,
+  AffiliateTooltip,
+} from "@/components/shared/ui-extensions/AffiliateTooltip";
+import IHerbBadgeLogoRgb from "@/imports/IHerbBadgeLogoRgb1-106-1526";
+import { HeroImage, SectionImage, ProductImage } from "@/components/images";
 
-import { PageKey } from '@/routes.config';
-import { trackCTAClick, trackRetailerClick, trackAffiliateClick } from '@/lib/analytics';
-import { getProductsBySupplementName } from '@/components/templates/KnowledgebaseTemplate';
+import { PageKey } from "@/routes.config";
+import {
+  trackCTAClick,
+  trackRetailerClick,
+  trackAffiliateClick,
+} from "@/lib/analytics";
+import { getProductsBySupplementName } from "@/components/templates/KnowledgebaseTemplate";
 
 interface LandingPageProps {
   onNavigate: (page: PageKey) => void;
@@ -21,7 +33,12 @@ interface LandingPageProps {
 // HERO SECTION
 // ========================================
 
-function SearchBar({ onNavigate, searchQuery, setSearchQuery, inputRef }: {
+function SearchBar({
+  onNavigate,
+  searchQuery,
+  setSearchQuery,
+  inputRef,
+}: {
   onNavigate: (page: PageKey) => void;
   searchQuery: string;
   setSearchQuery: (query: string) => void;
@@ -29,27 +46,64 @@ function SearchBar({ onNavigate, searchQuery, setSearchQuery, inputRef }: {
 }) {
   const [showResults, setShowResults] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
+  const isMobile = useIsMobile();
+  const mobileSearch = useMobileSearch();
 
   const handleNavigate = (page: PageKey) => {
     onNavigate(page);
-    setSearchQuery('');
+    setSearchQuery("");
     setShowResults(false);
   };
 
   // Handle click outside
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
-      if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
+      if (
+        searchRef.current &&
+        !searchRef.current.contains(event.target as Node)
+      ) {
         setShowResults(false);
       }
     }
 
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // Mobile: Show fake input that opens bottom sheet
+  if (isMobile) {
+    return (
+      <>
+        <div className="relative w-full max-w-2xl mx-auto px-[1vw] md:px-0">
+          <div className="relative">
+            <Search className="absolute left-5 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground z-10 pointer-events-none" />
+            <button
+              onClick={() => mobileSearch.open()}
+              className="mobile-search-input-trigger"
+              aria-label="Open search"
+            >
+              Search for supplements to compare prices...
+            </button>
+          </div>
+        </div>
+
+        <MobileSearchSheet
+          isOpen={mobileSearch.isOpen}
+          onClose={mobileSearch.close}
+          onNavigate={handleNavigate}
+          placeholder="Search for supplements to compare prices..."
+          context="landing"
+        />
+      </>
+    );
+  }
+
+  // Desktop: Keep existing inline search
   return (
-    <div ref={searchRef} className="relative w-full max-w-2xl mx-auto px-[1vw] md:px-0">
+    <div
+      ref={searchRef}
+      className="relative w-full max-w-2xl mx-auto px-[1vw] md:px-0"
+    >
       <div className="relative">
         <Search className="absolute left-5 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground z-10 pointer-events-none" />
         <input
@@ -67,7 +121,7 @@ function SearchBar({ onNavigate, searchQuery, setSearchQuery, inputRef }: {
         {searchQuery && (
           <button
             onClick={() => {
-              setSearchQuery('');
+              setSearchQuery("");
               setShowResults(false);
             }}
             className="absolute right-3 md:right-5 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-primary transition-colors"
@@ -89,22 +143,31 @@ function SearchBar({ onNavigate, searchQuery, setSearchQuery, inputRef }: {
   );
 }
 
-function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKey) => void; searchInputRef?: React.RefObject<HTMLInputElement> }) {
-  const [searchQuery, setSearchQuery] = useState('');
+function HeroSection({
+  onNavigate,
+  searchInputRef,
+}: {
+  onNavigate: (page: PageKey) => void;
+  searchInputRef?: React.RefObject<HTMLInputElement>;
+}) {
+  const [searchQuery, setSearchQuery] = useState("");
 
   // Preload the hero AVIF sources for tighter LCP
   useEffect(() => {
-    const id = 'preload-hero-adaa5958';
+    const id = "preload-hero-adaa5958";
     if (!document.getElementById(id)) {
-      const link = document.createElement('link');
+      const link = document.createElement("link");
       link.id = id;
-      link.rel = 'preload';
-      link.as = 'image';
+      link.rel = "preload";
+      link.as = "image";
       // Match HeroImage widths: 640, 1280, 1920, 2560
-      link.setAttribute('imagesrcset', '/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.avif 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.avif 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.avif 1920w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-2560.avif 2560w');
-      link.setAttribute('imagesizes', '100vw');
+      link.setAttribute(
+        "imagesrcset",
+        "/optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-640.avif 640w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1280.avif 1280w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-1920.avif 1920w, /optimized/adaa5958638ef58a10a2b5b182d161d011abc01a-2560.avif 2560w"
+      );
+      link.setAttribute("imagesizes", "100vw");
       // Hint high priority
-      (link as any).fetchPriority = 'high';
+      (link as any).fetchPriority = "high";
       document.head.appendChild(link);
     }
     return () => {
@@ -114,10 +177,7 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
   }, []);
 
   return (
-    <div
-      id="hero"
-      className="hero-section flex items-center justify-center"
-    >
+    <div id="hero" className="hero-section flex items-center justify-center">
       {/* Background Image - Full viewport width */}
       <HeroImage
         file="adaa5958638ef58a10a2b5b182d161d011abc01a.png"
@@ -132,7 +192,8 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: 'linear-gradient(to bottom, rgba(42,38,34,0.65), rgba(58,54,50,0.6) 50%, rgba(58,54,50,0.7))'
+            background:
+              "linear-gradient(to bottom, rgba(42,38,34,0.65), rgba(58,54,50,0.6) 50%, rgba(58,54,50,0.7))",
           }}
         />
 
@@ -140,7 +201,8 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(42,38,34,0.3) 100%)'
+            background:
+              "radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(42,38,34,0.3) 100%)",
           }}
         />
 
@@ -148,8 +210,8 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            backgroundColor: 'var(--primary)',
-            opacity: 0.35
+            backgroundColor: "var(--primary)",
+            opacity: 0.35,
           }}
         />
       </div>
@@ -157,11 +219,14 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
       <div className="relative z-10 w-full px-[2vw] md:px-[var(--page-padding-inline)]">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="mb-4 text-white text-4xl md:text-5xl">
-            Your evidence-backed supplement stack for less.<br /><span style={{ color: 'var(--secondary)' }}>In seconds.</span>
+            Your evidence-backed supplement stack for less.
+            <br />
+            <span style={{ color: "var(--secondary)" }}>In seconds.</span>
           </h1>
 
           <p className="mb-6 text-white/80 text-base md:text-lg max-w-2xl mx-auto">
-            Find the most efficacious stack for your goals because we show price per mg of active ingredient and link every claim to sources.
+            Find the most efficacious stack for your goals because we show price
+            per mg of active ingredient and link every claim to sources.
           </p>
 
           {/* Tabs */}
@@ -179,14 +244,19 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
             </div>
           </div>
 
-          <SearchBar onNavigate={onNavigate} searchQuery={searchQuery} setSearchQuery={setSearchQuery} inputRef={searchInputRef} />
+          <SearchBar
+            onNavigate={onNavigate}
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            inputRef={searchInputRef}
+          />
 
           <button
             onClick={() => {
               if (searchQuery.trim()) {
-                trackCTAClick('Compare Prices', 'hero', '/compare', 'button');
+                trackCTAClick("Compare Prices", "hero", "/compare", "button");
               } else {
-                trackCTAClick('Compare Prices', 'hero', '/compare', 'button');
+                trackCTAClick("Compare Prices", "hero", "/compare", "button");
               }
             }}
             className="mt-5 px-8 py-3 rounded-2xl transition-all shadow-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer text-sm"
@@ -197,8 +267,13 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
           <div className="mt-4">
             <button
               onClick={() => {
-                trackCTAClick('Learn Methodology', 'hero', '/methodology', 'link');
-                onNavigate('methodology');
+                trackCTAClick(
+                  "Learn Methodology",
+                  "hero",
+                  "/methodology",
+                  "link"
+                );
+                onNavigate("methodology");
               }}
               className="text-white/60 hover:text-white text-sm transition-colors underline decoration-white/40 hover:decoration-white"
             >
@@ -214,9 +289,16 @@ function HeroSection({ onNavigate, searchInputRef }: { onNavigate: (page: PageKe
 // ========================================
 // WHY TRUST US SECTION
 // ========================================
-function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
+function WhyTrustUsSection({
+  onNavigate,
+}: {
+  onNavigate: (page: PageKey) => void;
+}) {
   return (
-    <section data-layout-section style={{ backgroundColor: 'var(--section-bg-tertiary)' }}>
+    <section
+      data-layout-section
+      style={{ backgroundColor: "var(--section-bg-tertiary)" }}
+    >
       <div data-layout-container>
         <div data-grid="2col" className="items-stretch gap-8">
           {/* Image - Cropped at sides to match height of mission section */}
@@ -246,7 +328,9 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
                   <div>
                     <h3>Evidence you can verify</h3>
                     <p>
-                      Every pick cites clinical research in plain English. See our methodology, evidence grades, and dosing ranges on each page.
+                      Every pick cites clinical research in plain English. See
+                      our methodology, evidence grades, and dosing ranges on
+                      each page.
                     </p>
                   </div>
                 </div>
@@ -258,7 +342,8 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
                   <div>
                     <h3>Transparent by design</h3>
                     <p>
-                      Prices are normalized for the amount of active ingredient. Value you can directly compare.
+                      Prices are normalized for the amount of active ingredient.
+                      Value you can directly compare.
                     </p>
                   </div>
                 </div>
@@ -270,7 +355,9 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
                   <div>
                     <h3>On your side, not for sale</h3>
                     <p>
-                      We earn via affiliate links when you buy through us—never from paid placements. Affiliate payouts never affect default rankings. If two options tie, we show both.
+                      We earn via affiliate links when you buy through us—never
+                      from paid placements. Affiliate payouts never affect
+                      default rankings. If two options tie, we show both.
                     </p>
                   </div>
                 </div>
@@ -282,7 +369,9 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
                   <div>
                     <h3>Safety comes first</h3>
                     <p>
-                      Clear safety notes and interactions, with sources, so you can decide confidently (and loop in your clinician if needed).
+                      Clear safety notes and interactions, with sources, so you
+                      can decide confidently (and loop in your clinician if
+                      needed).
                     </p>
                   </div>
                 </div>
@@ -290,11 +379,19 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
             </div>
 
             {/* Buttons below */}
-            <div className="flex gap-4 flex-wrap" style={{ marginTop: 'var(--space-xl)' }}>
+            <div
+              className="flex gap-4 flex-wrap"
+              style={{ marginTop: "var(--space-xl)" }}
+            >
               <button
                 onClick={() => {
-                  trackCTAClick('Learn Process', 'why_trust_us', '/methodology', 'button');
-                  onNavigate('methodology');
+                  trackCTAClick(
+                    "Learn Process",
+                    "why_trust_us",
+                    "/methodology",
+                    "button"
+                  );
+                  onNavigate("methodology");
                 }}
                 className="bg-primary text-primary-foreground px-6 py-3 rounded-xl hover:opacity-90 transition-opacity"
               >
@@ -302,8 +399,13 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
               </button>
               <button
                 onClick={() => {
-                  trackCTAClick('View Research', 'why_trust_us', '/knowledgebase', 'button');
-                  onNavigate('knowledgebase');
+                  trackCTAClick(
+                    "View Research",
+                    "why_trust_us",
+                    "/knowledgebase",
+                    "button"
+                  );
+                  onNavigate("knowledgebase");
                 }}
                 className="bg-card border-2 border-secondary text-primary px-6 py-3 rounded-xl hover:bg-muted transition-colors"
               >
@@ -320,9 +422,16 @@ function WhyTrustUsSection({ onNavigate }: { onNavigate: (page: PageKey) => void
 // ========================================
 // OUR MISSION SECTION
 // ========================================
-function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
+function OurMissionSection({
+  onNavigate,
+}: {
+  onNavigate: (page: PageKey) => void;
+}) {
   return (
-    <section data-layout-section style={{ backgroundColor: 'var(--section-bg-secondary)' }}>
+    <section
+      data-layout-section
+      style={{ backgroundColor: "var(--section-bg-secondary)" }}
+    >
       <div data-layout-container>
         <div data-grid="2col" className="items-stretch gap-8">
           {/* Content */}
@@ -344,7 +453,8 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
                   <div>
                     <h3>Science, made usable</h3>
                     <p>
-                      No hype. Just evidence‑backed picks with dosing guidance you can act on in seconds.
+                      No hype. Just evidence‑backed picks with dosing guidance
+                      you can act on in seconds.
                     </p>
                   </div>
                 </div>
@@ -356,7 +466,8 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
                   <div>
                     <h3>Fair price discovery</h3>
                     <p>
-                      Find the lowest verified total price for what meets your criteria—no junk fees, no guesswork.
+                      Find the lowest verified total price for what meets your
+                      criteria—no junk fees, no guesswork.
                     </p>
                   </div>
                 </div>
@@ -368,7 +479,8 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
                   <div>
                     <h3>Independent, always</h3>
                     <p>
-                      No brand endorsements. No paid placement. Clear affiliate disclosure on every merchant button.
+                      No brand endorsements. No paid placement. Clear affiliate
+                      disclosure on every merchant button.
                     </p>
                   </div>
                 </div>
@@ -376,11 +488,19 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
             </div>
 
             {/* Buttons below */}
-            <div className="flex gap-4 flex-wrap" style={{ marginTop: 'var(--space-xl)' }}>
+            <div
+              className="flex gap-4 flex-wrap"
+              style={{ marginTop: "var(--space-xl)" }}
+            >
               <button
                 onClick={() => {
-                  trackCTAClick('Read Our Story', 'mission', '/about', 'button');
-                  onNavigate('about');
+                  trackCTAClick(
+                    "Read Our Story",
+                    "mission",
+                    "/about",
+                    "button"
+                  );
+                  onNavigate("about");
                 }}
                 className="bg-primary text-primary-foreground px-6 py-3 rounded-xl hover:opacity-90 transition-opacity"
               >
@@ -388,12 +508,21 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
               </button>
               <button
                 onClick={() => {
-                  trackCTAClick('Our Team', 'mission', '/about#meet-our-founders', 'button');
-                  onNavigate('about');
+                  trackCTAClick(
+                    "Our Team",
+                    "mission",
+                    "/about#meet-our-founders",
+                    "button"
+                  );
+                  onNavigate("about");
                   setTimeout(() => {
-                    const element = document.getElementById('meet-our-founders');
+                    const element =
+                      document.getElementById("meet-our-founders");
                     if (element) {
-                      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                      element.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                      });
                     }
                   }, 300);
                 }}
@@ -421,14 +550,14 @@ function OurMissionSection({ onNavigate }: { onNavigate: (page: PageKey) => void
 // ========================================
 // POPULAR COMPARISONS SECTION
 // ========================================
-function AffiliateButtonsLP({ 
-  amazonLink, 
-  iherbLink, 
-  supplementName, 
-  onNavigate 
-}: { 
-  amazonLink: string; 
-  iherbLink: string; 
+function AffiliateButtonsLP({
+  amazonLink,
+  iherbLink,
+  supplementName,
+  onNavigate,
+}: {
+  amazonLink: string;
+  iherbLink: string;
   supplementName: string;
   onNavigate: (page: PageKey) => void;
 }) {
@@ -437,25 +566,26 @@ function AffiliateButtonsLP({
   // Map supplement names to comparison page keys
   const getComparisonPageKey = (name: string): PageKey => {
     const mapping: Record<string, string> = {
-      'multivitamin': 'multivitamin-comparison',
-      'vitamin d': 'vitamin-d-comparison',
-      'omega-3': 'omega-3-comparison',
-      'creatine': 'creatine-comparison',
-      'magnesium': 'magnesium-comparison',
-      'vitamin c': 'vitamin-c-comparison',
-      'calcium': 'calcium-comparison',
-      'iron': 'iron-comparison',
-      'probiotics': 'probiotics-comparison',
-      'whey': 'whey-comparison',
-      'casein': 'casein-comparison',
-      'collagen': 'collagen-comparison',
-      'ashwagandha': 'ashwagandha-comparison',
-      'curcumin': 'curcumin-comparison',
-      'bcaas': 'bcaas-comparison',
-      'prebiotics': 'prebiotics-comparison',
-      'sulforaphane': 'sulforaphane-comparison'
+      multivitamin: "multivitamin-comparison",
+      "vitamin d": "vitamin-d-comparison",
+      "omega-3": "omega-3-comparison",
+      creatine: "creatine-comparison",
+      magnesium: "magnesium-comparison",
+      "vitamin c": "vitamin-c-comparison",
+      calcium: "calcium-comparison",
+      iron: "iron-comparison",
+      probiotics: "probiotics-comparison",
+      whey: "whey-comparison",
+      casein: "casein-comparison",
+      collagen: "collagen-comparison",
+      ashwagandha: "ashwagandha-comparison",
+      curcumin: "curcumin-comparison",
+      bcaas: "bcaas-comparison",
+      prebiotics: "prebiotics-comparison",
+      sulforaphane: "sulforaphane-comparison",
     };
-    return (mapping[name.toLowerCase()] || 'multivitamin-comparison') as PageKey;
+    return (mapping[name.toLowerCase()] ||
+      "multivitamin-comparison") as PageKey;
   };
 
   return (
@@ -466,8 +596,8 @@ function AffiliateButtonsLP({
         rel="nofollow noreferrer"
         onClick={(e) => {
           e.stopPropagation();
-          trackAffiliateClick('Amazon', 'landing', 'product_card');
-          trackRetailerClick('Amazon', 'landing', 'hero');
+          trackAffiliateClick("Amazon", "landing", "product_card");
+          trackRetailerClick("Amazon", "landing", "hero");
         }}
         data-button-height="md"
         className="flex-1 bg-black rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-4"
@@ -485,8 +615,8 @@ function AffiliateButtonsLP({
         rel="nofollow noreferrer"
         onClick={(e) => {
           e.stopPropagation();
-          trackAffiliateClick('iHerb', 'landing', 'product_card');
-          trackRetailerClick('iHerb', 'landing', 'hero');
+          trackAffiliateClick("iHerb", "landing", "product_card");
+          trackRetailerClick("iHerb", "landing", "hero");
         }}
         data-button-height="md"
         className="flex-1 px-4 rounded-lg transition-opacity hover:opacity-90 flex items-center justify-center bg-tertiary border border-secondary"
@@ -510,39 +640,43 @@ function AffiliateButtonsLP({
   );
 }
 
-function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey) => void }) {
+function PopularComparisonsSection({
+  onNavigate,
+}: {
+  onNavigate: (page: PageKey) => void;
+}) {
   // Get products from the shared data source (selecting one product from each category)
   const supplements = [
     {
-      ...getProductsBySupplementName('multivitamin')[1], // Life Extension Two-Per-Day
-      supplementName: 'multivitamin',
-      onClick: () => onNavigate('multivitamin' as PageKey)
+      ...getProductsBySupplementName("multivitamin")[1], // Life Extension Two-Per-Day
+      supplementName: "multivitamin",
+      onClick: () => onNavigate("multivitamin" as PageKey),
     },
     {
-      ...getProductsBySupplementName('vitamin d')[1], // California Gold Nutrition Vitamin D3
-      supplementName: 'vitamin d',
-      onClick: () => onNavigate('vitamind' as PageKey)
+      ...getProductsBySupplementName("vitamin d")[1], // California Gold Nutrition Vitamin D3
+      supplementName: "vitamin d",
+      onClick: () => onNavigate("vitamind" as PageKey),
     },
     {
-      ...getProductsBySupplementName('omega-3')[1], // California Gold Nutrition Omega-3
-      supplementName: 'omega-3',
-      onClick: () => onNavigate('omega3' as PageKey)
+      ...getProductsBySupplementName("omega-3")[1], // California Gold Nutrition Omega-3
+      supplementName: "omega-3",
+      onClick: () => onNavigate("omega3" as PageKey),
     },
     {
-      ...getProductsBySupplementName('creatine')[1], // California Gold Nutrition Creatine
-      supplementName: 'creatine',
-      onClick: () => onNavigate('creatine' as PageKey)
+      ...getProductsBySupplementName("creatine")[1], // California Gold Nutrition Creatine
+      supplementName: "creatine",
+      onClick: () => onNavigate("creatine" as PageKey),
     },
     {
-      ...getProductsBySupplementName('magnesium')[1], // Doctor's Best Magnesium
-      supplementName: 'magnesium',
-      onClick: () => onNavigate('magnesium' as PageKey)
+      ...getProductsBySupplementName("magnesium")[1], // Doctor's Best Magnesium
+      supplementName: "magnesium",
+      onClick: () => onNavigate("magnesium" as PageKey),
     },
     {
-      ...getProductsBySupplementName('vitamin c')[1], // California Gold Nutrition Vitamin C
-      supplementName: 'vitamin c',
-      onClick: () => onNavigate('vitaminc' as PageKey)
-    }
+      ...getProductsBySupplementName("vitamin c")[1], // California Gold Nutrition Vitamin C
+      supplementName: "vitamin c",
+      onClick: () => onNavigate("vitaminc" as PageKey),
+    },
   ];
 
   // Helper function to structure product description lines consistently
@@ -551,40 +685,41 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
 
     // Content (e.g., "180 Capsules (2250 mg/cap)")
     if (product.content) {
-      lines.push({ text: product.content, type: 'content' });
+      lines.push({ text: product.content, type: "content" });
     }
 
     // Weight (e.g., "2 lb (908 g)")
     if (product.weight) {
-      lines.push({ text: product.weight, type: 'weight' });
+      lines.push({ text: product.weight, type: "weight" });
     }
 
     // Flavor (e.g., "Flavor: Vanilla")
     if (product.flavor) {
-      lines.push({ text: `Flavor: ${product.flavor}`, type: 'flavor' });
+      lines.push({ text: `Flavor: ${product.flavor}`, type: "flavor" });
     }
 
     // Extra Notice (e.g., "USP Grade", "Micronized", "100% Chelated")
     if (product.extraNotice) {
-      lines.push({ text: product.extraNotice, type: 'extraNotice' });
+      lines.push({ text: product.extraNotice, type: "extraNotice" });
     }
 
     // Dietary Info (if any)
     if (product.dietaryInfo) {
-      lines.push({ text: product.dietaryInfo, type: 'dietary' });
+      lines.push({ text: product.dietaryInfo, type: "dietary" });
     }
 
     return lines;
   };
 
   return (
-    <section data-layout-section style={{ backgroundColor: 'var(--section-bg-tertiary)' }}>
+    <section
+      data-layout-section
+      style={{ backgroundColor: "var(--section-bg-tertiary)" }}
+    >
       <div data-layout-container>
         <div className="text-center mb-12">
           <h2 className="mb-4">Popular Supplements</h2>
-          <p>
-            See how different brands stack up on price and quality
-          </p>
+          <p>See how different brands stack up on price and quality</p>
         </div>
 
         <div data-grid="3col">
@@ -598,7 +733,10 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
                 className="bg-tertiary rounded-lg border border-secondary overflow-hidden cursor-pointer transition-shadow flex flex-col p-4"
                 data-product-card
               >
-                <div className="bg-white rounded-lg p-4 mb-3" style={{ height: '25vh' }}>
+                <div
+                  className="bg-white rounded-lg p-4 mb-3"
+                  style={{ height: "25vh" }}
+                >
                   <ProductImage
                     src={supplement.image}
                     alt={supplement.name}
@@ -608,8 +746,15 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
                 </div>
                 <div className="flex-1 flex flex-col">
                   <div className="mb-3">
-                    <div className="text-xs uppercase tracking-wide text-fourth mb-1">{supplement.brand}</div>
-                    <h3 className="text-primary" style={{ minHeight: '3.15rem' }}>{supplement.name}</h3>
+                    <div className="text-xs uppercase tracking-wide text-fourth mb-1">
+                      {supplement.brand}
+                    </div>
+                    <h3
+                      className="text-primary"
+                      style={{ minHeight: "3.15rem" }}
+                    >
+                      {supplement.name}
+                    </h3>
                   </div>
 
                   <div className="text-sm text-foreground mb-3 flex-1">
@@ -617,12 +762,17 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
                       <div
                         key={idx}
                         className={
-                          line.type === 'content' ? 'mb-1' :
-                            line.type === 'weight' ? 'mb-1' :
-                              line.type === 'flavor' ? 'text-muted-foreground mb-1' :
-                                line.type === 'dietary' ? 'text-muted-foreground' :
-                                  line.type === 'extraNotice' ? 'text-muted-foreground' :
-                                    ''
+                          line.type === "content"
+                            ? "mb-1"
+                            : line.type === "weight"
+                            ? "mb-1"
+                            : line.type === "flavor"
+                            ? "text-muted-foreground mb-1"
+                            : line.type === "dietary"
+                            ? "text-muted-foreground"
+                            : line.type === "extraNotice"
+                            ? "text-muted-foreground"
+                            : ""
                         }
                       >
                         {line.text}
@@ -632,9 +782,13 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
 
                   <div className="text-sm mb-4">
                     {supplement.pricePerUnit && (
-                      <div className="text-muted-foreground">from {supplement.pricePerUnit}</div>
+                      <div className="text-muted-foreground">
+                        from {supplement.pricePerUnit}
+                      </div>
                     )}
-                    <div className="font-medium">{supplement.pricePerBottle} per bottle</div>
+                    <div className="font-medium">
+                      {supplement.pricePerBottle} per bottle
+                    </div>
                   </div>
 
                   <AffiliateButtonsLP
@@ -658,17 +812,21 @@ function PopularComparisonsSection({ onNavigate }: { onNavigate: (page: PageKey)
 // ========================================
 function CTASection({ onScrollToSearch }: { onScrollToSearch?: () => void }) {
   return (
-    <section data-layout-section style={{ backgroundColor: 'var(--primary)', color: '#ffffff' }}>
+    <section
+      data-layout-section
+      style={{ backgroundColor: "var(--primary)", color: "#ffffff" }}
+    >
       <div data-layout-container className="text-center">
         <h2 className="mb-4">Start making better supplement decisions</h2>
-        <p className="mb-8 max-w-2xl mx-auto" style={{ color: '#E0CBA8' }}>
-          Join thousands of people who trust science-backed recommendations and transparent pricing.
+        <p className="mb-8 max-w-2xl mx-auto" style={{ color: "#E0CBA8" }}>
+          Join thousands of people who trust science-backed recommendations and
+          transparent pricing.
         </p>
 
         <div className="flex gap-4 justify-center flex-wrap">
           <button
             onClick={() => {
-              trackCTAClick('Compare Prices Now', 'cta', '/#hero', 'button');
+              trackCTAClick("Compare Prices Now", "cta", "/#hero", "button");
               onScrollToSearch && onScrollToSearch();
             }}
             className="bg-primary text-primary-foreground px-8 py-4 rounded-xl hover:bg-primary/90 transition-colors shadow-lg"
@@ -691,9 +849,11 @@ function CTASection({ onScrollToSearch }: { onScrollToSearch?: () => void }) {
 // NEWSLETTER SECTION
 // ========================================
 function NewsletterSection() {
-  const [email, setEmail] = useState('');
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<
+    "idle" | "loading" | "success" | "error"
+  >("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -701,54 +861,58 @@ function NewsletterSection() {
     // Basic email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!email) {
-      setStatus('error');
-      setErrorMessage('Please enter your email address');
+      setStatus("error");
+      setErrorMessage("Please enter your email address");
       return;
     }
     if (!emailRegex.test(email)) {
-      setStatus('error');
-      setErrorMessage('Please enter a valid email address');
+      setStatus("error");
+      setErrorMessage("Please enter a valid email address");
       return;
     }
 
-    setStatus('loading');
-    setErrorMessage('');
+    setStatus("loading");
+    setErrorMessage("");
 
     try {
-      const resp = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'landing_newsletter' })
+      const resp = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, source: "landing_newsletter" }),
       });
       const data = await resp.json().catch(() => ({}));
       if (!resp.ok || data?.ok === false) {
-        throw new Error(data?.error || 'Subscription failed');
+        throw new Error(data?.error || "Subscription failed");
       }
-      setStatus('success');
-      setEmail('');
+      setStatus("success");
+      setEmail("");
 
       // Reset success message after 5 seconds
       setTimeout(() => {
-        setStatus('idle');
+        setStatus("idle");
       }, 5000);
     } catch (error: any) {
-      setStatus('error');
-      setErrorMessage(error?.message || 'Something went wrong. Please try again.');
+      setStatus("error");
+      setErrorMessage(
+        error?.message || "Something went wrong. Please try again."
+      );
     }
   };
 
   return (
-    <section data-layout-section style={{ backgroundColor: 'var(--section-bg-secondary)' }}>
+    <section
+      data-layout-section
+      style={{ backgroundColor: "var(--section-bg-secondary)" }}
+    >
       <div data-layout-container>
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div className="flex-1">
             <h2 className="mb-2">Stay informed</h2>
             <p className="mb-2">
-              Sign-up for your newsletter of curated news from the world of supplements
+              Sign-up for your newsletter of curated news from the world of
+              supplements
             </p>
-            <p className="text-sm">
-              No marketing emails—max 1/week. Promised.
-            </p>
+            <p className="text-sm">No marketing emails—max 1/week. Promised.</p>
           </div>
 
           <div className="w-full md:w-auto md:min-w-[400px]">
@@ -760,12 +924,12 @@ function NewsletterSection() {
                   value={email}
                   onChange={(e) => {
                     setEmail(e.target.value);
-                    if (status === 'error') {
-                      setStatus('idle');
-                      setErrorMessage('');
+                    if (status === "error") {
+                      setStatus("idle");
+                      setErrorMessage("");
                     }
                   }}
-                  disabled={status === 'loading' || status === 'success'}
+                  disabled={status === "loading" || status === "success"}
                   className="flex-1"
                   aria-label="Email address"
                   autoComplete="email"
@@ -774,16 +938,20 @@ function NewsletterSection() {
                 />
                 <button
                   type="submit"
-                  disabled={status === 'loading' || status === 'success'}
+                  disabled={status === "loading" || status === "success"}
                   className="bg-primary text-primary-foreground px-6 py-2 rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {status === 'loading' ? 'Subscribing...' : status === 'success' ? 'Subscribed!' : 'Subscribe'}
+                  {status === "loading"
+                    ? "Subscribing..."
+                    : status === "success"
+                    ? "Subscribed!"
+                    : "Subscribe"}
                 </button>
               </div>
 
               <div aria-live="polite" aria-atomic="true">
                 <AnimatePresence mode="wait">
-                  {status === 'error' && errorMessage && (
+                  {status === "error" && errorMessage && (
                     <motion.p
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -793,7 +961,7 @@ function NewsletterSection() {
                       {errorMessage}
                     </motion.p>
                   )}
-                  {status === 'success' && (
+                  {status === "success" && (
                     <motion.p
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -821,9 +989,9 @@ export function LandingPage(props: LandingPageProps) {
 
   const handleScrollToSearch = () => {
     // Scroll to hero section
-    const heroElement = document.getElementById('hero');
+    const heroElement = document.getElementById("hero");
     if (heroElement) {
-      heroElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      heroElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
     // Focus the search input after scroll animation
@@ -837,7 +1005,10 @@ export function LandingPage(props: LandingPageProps) {
   return (
     <>
       {/* Hero section - Full viewport width, breaks out of main container */}
-      <HeroSection onNavigate={props.onNavigate} searchInputRef={searchInputRef} />
+      <HeroSection
+        onNavigate={props.onNavigate}
+        searchInputRef={searchInputRef}
+      />
 
       {/* Main content sections */}
       <WhyTrustUsSection onNavigate={props.onNavigate} />

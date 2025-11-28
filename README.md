@@ -2,20 +2,20 @@
 
 ## 🚀 Production Status
 
-**Version**: 0.4.0  
+**Version**: 0.4.1  
 **Build Status**: ✅ Successful (0 errors, 0 warnings)  
 **Pages Generated**: 1,936 static pages  
-**Last Updated**: November 27, 2025  
+**Last Updated**: December 2024  
 
 ### Current State
 - ✅ **Production Ready**: All systems operational
 - ✅ **17 Supplement Pages** with evidence-based information
-- ✅ **198 Glossary Terms** with auto-linking
+- ✅ **197 Glossary Terms** in Supabase database
 - ✅ **17 Price Comparison Pages** across 7 retailers
 - ✅ **1,691 Product Detail Pages** with DSLD integration
-- ✅ **Supabase Backend**: PostgreSQL with 5 API endpoints
-- ✅ **Clean Workspace**: Migration artifacts archived
-- 🔄 **Next Phase**: Week 4 - Frontend integration
+- ✅ **Supabase Backend**: PostgreSQL with 7 API endpoints
+- ✅ **Clean Workspace**: All migration artifacts archived
+- 🔄 **Next Phase**: Frontend integration with API endpoints
 
 **Status**: ✅ **PRODUCTION READY** - All endpoints operational
 
@@ -31,12 +31,20 @@ npm run start            # Serve production build
 
 ### API Endpoints (Production Ready)
 
-**All endpoints operational in production:**
+**All 7 endpoints operational in production:**
+
+**Supplements:**
 - `GET /api/supplements` - List all supplements
 - `GET /api/supplements/[slug]` - Single supplement details
 - `GET /api/supplements/[slug]/products` - Product list (paginated, filtered)
+
+**Products:**
 - `GET /api/products/[id]` - Single product details
 - `GET /api/products/search` - Full-text search across products
+
+**Glossary:**
+- `GET /api/glossary` - List glossary terms (search & pagination)
+- `GET /api/glossary/[slug]` - Single glossary term details
 
 **Test locally:**
 ```bash
@@ -44,8 +52,8 @@ npm run dev              # Start dev server
 
 # Test endpoints
 curl http://localhost:3000/api/supplements | jq
-curl http://localhost:3000/api/supplements/ashwagandha | jq
-curl "http://localhost:3000/api/supplements/ashwagandha/products?limit=10" | jq
+curl http://localhost:3000/api/glossary?search=clinical | jq
+curl http://localhost:3000/api/glossary/rct | jq
 ```
 
 See **[API Documentation](docs/API_DOCUMENTATION.md)** for complete reference.
@@ -59,6 +67,7 @@ See **[API Documentation](docs/API_DOCUMENTATION.md)** for complete reference.
 - **[Adding Supplements](docs/ADDING_SUPPLEMENTS.md)** - How to add new supplements
 
 ### Archives
+- **[v0.4.1 Glossary Migration](.archive/v0.4.1-glossary-migration/README.md)** - Glossary backend migration artifacts
 - **[v0.3 Migration](.archive/v0.3-migration/README.md)** - Database migration artifacts
 - **[Deployment Artifacts](.archive/deployment-artifacts/README.md)** - Deployment troubleshooting docs
 
@@ -72,10 +81,11 @@ Evidence-based supplement information platform built with **Next.js 16 App Route
 - 🔬 Evidence-based supplement information (17 supplements)
 - 💰 Price comparison across 7 retailers (11,837 prices)
 - 📊 1,691 products with DSLD database integration
+- 📚 197 glossary terms in Supabase database
 - 🔍 Full-text search and advanced filtering
 - 📱 Fully responsive, production-ready design
 - 📈 Complete analytics integration (GTM + GA4)
-- ⚡ 5 RESTful API endpoints with Supabase backend
+- ⚡ 7 RESTful API endpoints with Supabase backend
 
 ### Architecture
 - **Frontend:** Next.js 16 + React 19 + TypeScript + Tailwind CSS v4
@@ -252,6 +262,12 @@ npx tsx scripts/data-pipeline/utilities/test-bodybuilding-fix.ts
 
 ## Recent Updates
 
+### ✅ Version 0.4.1 - Glossary Backend Complete (Dec 2024)
+- Migrated 197 glossary terms to Supabase database
+- Added 2 new API endpoints (GET /api/glossary)
+- Archived migration scripts and documentation
+- Clean workspace with active utilities only
+
 ### ✅ Version 0.4.0 - Workspace Cleanup (Nov 27, 2025)
 - Archived all migration scripts and documentation
 - Cleaned up temporary deployment troubleshooting docs
@@ -284,19 +300,19 @@ npx tsx scripts/data-pipeline/normalization/step1.2-filter-by-relevance.ts
 
 ## Version History
 
-**Current:** v0.4.0 - Clean, production-ready workspace  
-**Previous:** v0.3.0 - Database migration complete  
+**Current:** v0.4.1 - Glossary backend complete  
+**Previous:** v0.4.0 - Clean, production-ready workspace  
 **See:** [CHANGELOG.md](CHANGELOG.md) for complete version history
 
 ---
 
 ## Important Notes
 
-⚠️ **Migration Artifacts**: All v0.3 migration scripts and documentation have been archived in `.archive/v0.3-migration/`. They are preserved for reference but no longer needed for active development.
+⚠️ **Migration Artifacts**: All migration scripts and documentation have been archived in `.archive/`. They are preserved for reference but no longer needed for active development.
 
 📊 **Data Pipeline**: Internal scraping scripts (in `scripts/data-pipeline/`) are for product data collection only. They are not deployed to production and run separately from the web application.
 
-🔍 **Production Backend**: The site now runs on Supabase PostgreSQL with real-time API endpoints. Static JSON files have been removed.
+🔍 **Production Backend**: The site runs on Supabase PostgreSQL with real-time API endpoints. All 197 glossary terms are now database-driven.
 
 ---
 

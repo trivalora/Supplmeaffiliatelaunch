@@ -1,8 +1,8 @@
 # 🚀 Production Status
 
-**Version:** 0.4.0  
+**Version:** 0.4.1  
 **Status:** ✅ **FULLY OPERATIONAL**  
-**Last Updated:** November 27, 2025  
+**Last Updated:** December 2024  
 **Architecture:** Next.js 16 + Supabase PostgreSQL
 
 ---
@@ -25,11 +25,17 @@
 
 ✅ GET /api/products/search
    → Full-text search across all products
+
+✅ GET /api/glossary
+   → List glossary terms with search & pagination
+
+✅ GET /api/glossary/[slug]
+   → Single glossary term details (e.g., /rct)
 ```
 
 ### Database
 - **Platform:** Supabase PostgreSQL
-- **Data:** 17 supplements, 1,000+ products, 1,000+ prices, 7 retailers
+- **Data:** 17 supplements, 1,691 products, 11,837 prices, 7 retailers, **197 glossary terms**
 - **Performance:** Fast queries with proper indexes
 - **Schema:** `api` schema with optimized views
 
@@ -49,10 +55,11 @@
 - ❌ Old serverless functions (health, events, partner-lead, etc.)
 
 ### What Was Added
-- ✅ 5 App Router API endpoints in `/app/api`
+- ✅ 7 App Router API endpoints in `/app/api` (including 2 glossary endpoints)
 - ✅ Full Supabase integration with PostgreSQL
 - ✅ Environment variables in Vercel production
 - ✅ Proper error handling and validation
+- ✅ Glossary terms migrated to database (197 terms)
 
 ### Benefits
 - **Scalability:** Database handles unlimited products

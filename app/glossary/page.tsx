@@ -4,7 +4,7 @@ import { PageViewTracker } from '../components/PageViewTracker';
 
 export const metadata: Metadata = {
   title: 'Glossary - Suppl.me',
-  description: 'Scientific and medical terms related to supplements, nutrition, and health.',
+  description: 'Scientific and medical terms used in supplement research. Comprehensive glossary of clinical trial terminology, biomarkers, study designs, and nutrition concepts.',
 };
 
 export default function GlossaryIndexPage() {

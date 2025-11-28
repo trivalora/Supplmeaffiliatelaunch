@@ -4,7 +4,7 @@ import { PageViewTracker } from '../components/PageViewTracker';
 
 export const metadata: Metadata = {
   title: 'Research Methodology - Evidence-Based Supplement Guide',
-  description: 'Learn about our rigorous research methodology for evaluating supplements. We combine academic research precision with modern technology to deliver reliable, evidence-based supplement information.',
+  description: 'Our research methodology combines academic rigor with modern technology to evaluate supplements. Clinical trials, meta-analyses, and evidence-based protocols.',
 };
 
 export default function MethodologyPage() {

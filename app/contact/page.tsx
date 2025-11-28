@@ -4,7 +4,7 @@ import { PageViewTracker } from '../components/PageViewTracker';
 
 export const metadata: Metadata = {
   title: 'Contact Us - Suppl.me',
-  description: 'Get in touch with the suppl.me team.',
+  description: 'Contact the Suppl.me team with questions about supplements, research, partnerships, or technical support. We\'re here to help with evidence-based guidance.',
 };
 
 export default function ContactPage() {

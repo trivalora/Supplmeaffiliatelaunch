@@ -8,7 +8,7 @@ import '../src/fonts.css';
 
 export const metadata: Metadata = {
   title: 'Suppl.me - Evidence-Based Supplement Research & Price Comparison',
-  description: 'Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, dosing recommendations, safety profiles, and multi-retailer price comparison. Compare prices from iHerb, Amazon, Vitacost, and more.',
+  description: 'Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.',
   keywords: 'supplements, evidence-based supplements, supplement research, meta-analysis, clinical trials, supplement comparison, supplement reviews, supplement prices, iHerb, Amazon supplements, vitamin research, mineral supplements',
   authors: [{ name: 'Suppl.me Research Team' }],
   icons: {

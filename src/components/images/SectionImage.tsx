@@ -30,8 +30,8 @@ export function SectionImage({
     return (
         <div style={{ width: '100%', height: '100%' }}>
             <picture style={{ display: 'block', width: '100%', height: '100%' }}>
-                <source type="image/avif" srcSet={toSet('avif')} sizes="(min-width: 1024px) 50vw, 100vw" />
-                <source type="image/webp" srcSet={toSet('webp')} sizes="(min-width: 1024px) 50vw, 100vw" />
+                <source type="image/avif" srcSet={toSet('avif')} sizes="(min-width: 1280px) 50vw, (min-width: 1024px) 60vw, (min-width: 768px) 75vw, (min-width: 640px) 90vw, 100vw" />
+                <source type="image/webp" srcSet={toSet('webp')} sizes="(min-width: 1280px) 50vw, (min-width: 1024px) 60vw, (min-width: 768px) 75vw, (min-width: 640px) 90vw, 100vw" />
                 <img
                     src={fallback}
                     alt={alt}

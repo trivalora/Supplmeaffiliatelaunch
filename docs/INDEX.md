@@ -9,20 +9,32 @@
 ## 🎯 Start Here
 
 ### Essential Documents
+
 - 📖 **[Main README](../README.md)** - Project overview and quick start
 - 📊 **[Production Status](../PRODUCTION_STATUS.md)** - Current deployment status
 - 🤖 **[AI Agent Instructions](../.github/copilot-instructions.md)** - Master reference for development
+- 🧠 **[Project Memory](../PROJECT_MEMORY.md)** - Quick reference for AI assistants
+- 🔌 **[MCP Servers](MCP_SERVERS.md)** - Model Context Protocol configuration
 - 🚀 **[Production Readiness Report](../PRODUCTION_READY.md)** - Full audit
 
 ### Recent Updates
 
+#### Nov 27, 2025
+
+- ✅ **Project Memory System** - AI context system with MCP servers installed
+- ✅ **MCP Configuration** - 5 servers (Supabase, filesystem, GitHub, Pylance, local DB)
+- ✅ **Copilot Enhancement** - VS Code settings optimized for AI assistance
+- ✅ **Documentation** - Complete MCP setup guide created
+
 #### Nov 26, 2025
+
 - ✅ **Week 3 API Development Complete** - All 5 core endpoints with comprehensive filtering
 - ✅ **API Documentation** - Complete reference guide with examples
 - ✅ **Test Scripts Created** - Node.js and Bash versions for endpoint testing
 - ✅ **Database Migration Complete** - 17 supplements, 1,663 products, 1,986 prices
 
 #### Nov 25, 2025
+
 - ✅ **Codebase Cleanup** - Archived 13 obsolete migration scripts
 - ✅ **Comprehensive Scalability Audit** (Evening) - Created 45-page detailed analysis
 - ✅ **Implementation Guide** (Evening) - Step-by-step improvement roadmap
@@ -39,6 +51,7 @@
 ### 🔍 Project Analysis (NEW - Nov 25, 2025)
 
 #### Scalability & Standardization Audit (Evening)
+
 - **[Scalability & Standardization Audit](CODEBASE_AUDIT_SCALABILITY_NOV2025.md)** - 45-page comprehensive analysis
   - Current page structure & naming conventions (1,936 pages)
   - SEO structure review (excellent URL design, metadata coverage)
@@ -55,6 +68,7 @@
   - Testing strategies and rollback plans
 
 #### Codebase Structure (Morning)
+
 - **[Codebase Audit](CODEBASE_AUDIT_NOV25.md)** - Comprehensive project structure analysis
   - File count summary (1,936 pages, 229 components)
   - Naming conventions documentation
@@ -67,16 +81,19 @@
 - **[Cleanup Summary](CLEANUP_SUMMARY_NOV25.md)** - What was cleaned up and why
 
 ### 🚀 Deployment
+
 - **[Deployment Checklist](deployment/DEPLOYMENT_CHECKLIST.md)** - Pre-deployment verification steps
 - **[Vercel Build Settings](deployment/VERCEL_BUILD_SETTINGS.md)** - Build configuration
 - **[Vercel Environment Variables](deployment/VERCEL_ENV_VARS.md)** - Required env vars
 
 ### 📚 Guides
+
 - **[GTM Import Guide](guides/GTM_IMPORT_GUIDE.md)** - Analytics container setup (22 events, 36 variables)
 - **[Quick Start Guide](QUICK-START-GUIDE.md)** - Get up and running
 - **[Widget Usage](WIDGET_USAGE.md)** - Embeddable widget documentation
 
 ### 🔌 API Development (NEW - Nov 26, 2025)
+
 - **[Week 3 Complete](WEEK_3_COMPLETE.md)** - Full API endpoint summary & testing guide
 - **[Week 3 Summary](WEEK_3_SUMMARY.md)** - Visual summary of accomplishments
 - **[API Documentation](API_DOCUMENTATION.md)** - Complete API reference with examples
@@ -84,15 +101,18 @@
 - **[Database Migration Complete](DATABASE_MIGRATION_COMPLETE.md)** - Week 1-2 summary
 
 **Test Scripts**:
+
 - `scripts/test-api-endpoints.mjs` - Node.js test script (recommended)
 - `scripts/test-api-endpoints.sh` - Bash test script
 
 ### 📖 Reference
+
 - **[Quick Reference](reference/QUICK_REFERENCE.md)** - Common commands and patterns
 - **[Quick Answers](reference/QUICK_ANSWERS.md)** - FAQ and troubleshooting
 - **[Architecture](ARCHITECTURE.md)** - System design and patterns
 
 ### 🗂️ Archive
+
 - **[Nov 25 Cleanup](CLEANUP_SUMMARY_NOV25.md)** - Today's cleanup actions
   - 13 obsolete scripts archived
   - Migration fix scripts no longer needed
@@ -110,6 +130,7 @@
 ## Project Statistics
 
 ### Content (All Production-Ready)
+
 - **1,936 total pages** statically generated
   - 17 supplement knowledge pages
   - 198 glossary terms
@@ -118,6 +139,7 @@
   - 13 static pages
 
 ### Routes
+
 - **230 total routes** in `src/routes.config.ts`
   - knowledgebase: 17 routes
   - glossary: 198 routes
@@ -125,6 +147,7 @@
   - product details: 1,691 routes (dynamic)
 
 ### Build Performance (November 25, 2025)
+
 - TypeScript: **0 errors** ✅
 - Peer Dependencies: **0 warnings** ✅
 - Build time: ~2-3 minutes
@@ -132,6 +155,7 @@
 - Node.js: >=22.x (currently v24.1.0)
 
 ### Known Issues
+
 - ⚠️ Hero image width (cosmetic, non-blocking)
 
 ---
@@ -139,6 +163,7 @@
 ## Development Workflow
 
 ### Common Commands
+
 ```bash
 npm run dev              # Dev server (port 3000/3001)
 npm run build            # Production build
@@ -147,6 +172,7 @@ npm run lint             # Run ESLint
 ```
 
 ### Build Variants
+
 ```bash
 npm run build:images     # Build with image optimization
 npm run build:full       # Build with images + font subsetting
@@ -155,6 +181,7 @@ npm run cache:remote-images  # Cache retailer logos
 ```
 
 ### Deployment
+
 ```bash
 git push origin main     # Auto-deploy to Vercel
 ```
@@ -164,8 +191,9 @@ git push origin main     # Auto-deploy to Vercel
 ## Architecture Overview
 
 ### Frontend (Next.js 16 App Router)
+
 - **Routing**: Centralized in `src/routes.config.ts`
-- **Components**: 
+- **Components**:
   - Server components by default
   - Client components (`'use client'`) for interactivity
   - Dynamic routes in `app/[slug]/page.tsx`
@@ -173,6 +201,7 @@ git push origin main     # Auto-deploy to Vercel
 - **Analytics**: GTM + GA4 (22 events tracked)
 
 ### Key Patterns
+
 1. **100vw Hero Container**: Background spans viewport, content respects padding
 2. **Category-Specific Search**: Distinct backgrounds (black/green/gold) per category
 3. **COMPONENT_MAP**: All page components imported and mapped in dynamic routes
@@ -180,11 +209,12 @@ git push origin main     # Auto-deploy to Vercel
 5. **Image Optimization**: HeroImage, SectionImage, ProductImage components
 
 ### Data Flow
+
 ```
 routes.config.ts → app/[slug]/page.tsx → Component (Client)
                                         ↓
                                KnowledgebaseTemplate
-                               GlossaryTemplate  
+                               GlossaryTemplate
                                ProductComparisonWrapper
 ```
 
@@ -193,15 +223,18 @@ routes.config.ts → app/[slug]/page.tsx → Component (Client)
 ## External Dependencies
 
 ### Analytics
+
 - GTM Container: GTM-NQWRNKFT
 - GA4 Property: G-JHCPJYM37R
 - Optional: Hotjar, Microsoft Clarity
 
 ### Data Sources
+
 - DSLD (Dietary Supplement Label Database) - SQLite
 - Retailer APIs: iHerb, Vitacost, Amazon, GNC, Walmart, Bodybuilding.com
 
 ### Deployment
+
 - Vercel (automatic on push to main)
 - Node.js >=22.x required
 
@@ -210,6 +243,7 @@ routes.config.ts → app/[slug]/page.tsx → Component (Client)
 ## Recent Updates (Nov 2025)
 
 ### ✅ Completed
+
 - Server/Client component boundaries fixed
 - Hero image 100vw container architecture
 - Search results category-specific styling
@@ -219,6 +253,7 @@ routes.config.ts → app/[slug]/page.tsx → Component (Client)
 - Category cleanup (v2 → knowledgebase, v1 removed)
 
 ### 📝 Documentation Improvements
+
 - Archived completed work documentation
 - Organized docs into deployment/guides/reference
 - Comprehensive AI agent instructions

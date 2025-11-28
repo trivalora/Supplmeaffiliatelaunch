@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap");
 @import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
 
 /* Ensure no width constraints */
-html, body {
+html,
+body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -16,44 +17,48 @@ html, body {
      Uses clamp() for responsive, viewport-based scaling
      Pattern: clamp(min, preferred, max)
      ================================================ */
-  
+
   /* === FLUID TYPOGRAPHY === */
-  --fluid-h1: clamp(2rem, 5vw + 1rem, 4rem);        /* 32px → 64px */
+  --fluid-h1: clamp(2rem, 5vw + 1rem, 4rem); /* 32px → 64px */
   --fluid-h2: clamp(1.5rem, 3vw + 0.75rem, 2.5rem); /* 24px → 40px */
   --fluid-h3: clamp(1.125rem, 2vw + 0.5rem, 1.75rem); /* 18px → 28px */
   --fluid-body: clamp(0.875rem, 1.5vw + 0.5rem, 1.125rem); /* 14px → 18px */
   --fluid-small: clamp(0.75rem, 1vw + 0.375rem, 0.875rem); /* 12px → 14px */
-  --fluid-xs: clamp(0.5625rem, 1.8vw, 0.6875rem); /* 9px → 11px - For very small UI elements */
+  --fluid-xs: clamp(
+    0.5625rem,
+    1.8vw,
+    0.6875rem
+  ); /* 9px → 11px - For very small UI elements */
   --fluid-lead: clamp(1rem, 2vw + 0.5rem, 1.5rem); /* 16px → 24px */
-  
+
   /* === FLUID SPACING SCALE === */
   /* Use these for all padding, margin, and gaps */
-  --space-3xs: clamp(0.25rem, 0.5vw, 0.5rem);    /* 4px → 8px */
-  --space-2xs: clamp(0.5rem, 1vw, 0.75rem);      /* 8px → 12px */
-  --space-xs: clamp(0.75rem, 1.5vw, 1rem);       /* 12px → 16px */
-  --space-sm: clamp(1rem, 2vw, 1.5rem);          /* 16px → 24px */
-  --space-md: clamp(1.5rem, 3vw, 2rem);          /* 24px → 32px */
-  --space-lg: clamp(2rem, 4vw, 3rem);            /* 32px → 48px */
-  --space-xl: clamp(3rem, 5vw, 4rem);            /* 48px → 64px */
-  --space-2xl: clamp(4rem, 6vw, 6rem);           /* 64px → 96px */
-  --space-3xl: clamp(6rem, 8vw, 8rem);           /* 96px → 128px */
-  
+  --space-3xs: clamp(0.25rem, 0.5vw, 0.5rem); /* 4px → 8px */
+  --space-2xs: clamp(0.5rem, 1vw, 0.75rem); /* 8px → 12px */
+  --space-xs: clamp(0.75rem, 1.5vw, 1rem); /* 12px → 16px */
+  --space-sm: clamp(1rem, 2vw, 1.5rem); /* 16px → 24px */
+  --space-md: clamp(1.5rem, 3vw, 2rem); /* 24px → 32px */
+  --space-lg: clamp(2rem, 4vw, 3rem); /* 32px → 48px */
+  --space-xl: clamp(3rem, 5vw, 4rem); /* 48px → 64px */
+  --space-2xl: clamp(4rem, 6vw, 6rem); /* 64px → 96px */
+  --space-3xl: clamp(6rem, 8vw, 8rem); /* 96px → 128px */
+
   /* === PAGE LAYOUT SPACING === */
   /* Horizontal padding for sections */
-  --page-padding-inline: clamp(1.5rem, 3vw, 6rem);  /* Mobile → Desktop */
-  --page-padding-block: clamp(2rem, 4vh, 4rem);     /* Vertical spacing */
-  
+  --page-padding-inline: clamp(1.5rem, 3vw, 6rem); /* Mobile → Desktop */
+  --page-padding-block: clamp(2rem, 4vh, 4rem); /* Vertical spacing */
+
   /* === FONT FAMILIES === */
-  --font-heading: 'Lora', serif;
-  --font-body: 'Lato', sans-serif;
-  
+  --font-heading: "Lora", serif;
+  --font-body: "Lato", sans-serif;
+
   /* === BRAND COLORS === */
-  --color-primary-dark: #162F1C;
-  --color-secondary: #E0CBA8;
-  --color-tertiary: #F5F8F6;
-  --color-fourth: #7F8468;
-  --color-text: #2D2D2D;
-  
+  --color-primary-dark: #162f1c;
+  --color-secondary: #e0cba8;
+  --color-tertiary: #f5f8f6;
+  --color-fourth: #7f8468;
+  --color-text: #2d2d2d;
+
   /* === BORDER & RADIUS === */
   --border-width: 1px;
   --border-color: var(--color-secondary);
@@ -62,21 +67,21 @@ html, body {
   --radius-md: 12px;
   --radius-lg: 14px;
   --radius-xl: 16px;
-  
+
   /* === SHADOWS === */
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
   --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.08);
-  
+
   /* === LAYOUT VARIABLES === */
   --header-height: 80px;
-  
+
   /* === HEADER COLORS (Fixed - not affected by dark mode) === */
-  --header-bg: #162F1C;
-  --header-text: #F7F7F3;
-  --header-secondary: #E0CBA8;
+  --header-bg: #162f1c;
+  --header-text: #f7f7f3;
+  --header-secondary: #e0cba8;
   --header-hover: #1e4028;
-  
+
   /* === Z-INDEX SCALE === */
   /* Proper z-index hierarchy for layering */
   --z-base: 1;
@@ -87,65 +92,65 @@ html, body {
   --z-modal: 9999;
   --z-popover: 9999;
   --z-tooltip: 10000;
-  
+
   /* === DESIGN TOKENS (for Tailwind/ShadCN compatibility) === */
-  --background: #F5F8F6;
-  --foreground: #2D2D2D;
+  --background: #f5f8f6;
+  --foreground: #2d2d2d;
   --card: #ffffff;
-  --card-foreground: #2D2D2D;
-  --popover: #F5F8F6;
-  --popover-foreground: #2D2D2D;
-  --primary: #162F1C;
+  --card-foreground: #2d2d2d;
+  --popover: #f5f8f6;
+  --popover-foreground: #2d2d2d;
+  --primary: #162f1c;
   --primary-foreground: #ffffff;
-  --secondary: #E0CBA8;
-  --secondary-foreground: #2D2D2D;
-  --tertiary: #F7F7F3;
-  --tertiary-foreground: #2D2D2D;
-  --muted: #EEF3F0;
-  --muted-foreground: #7F8468;
-  --accent: #E0CBA8;
-  --accent-foreground: #2D2D2D;
+  --secondary: #e0cba8;
+  --secondary-foreground: #2d2d2d;
+  --tertiary: #f7f7f3;
+  --tertiary-foreground: #2d2d2d;
+  --muted: #eef3f0;
+  --muted-foreground: #7f8468;
+  --accent: #e0cba8;
+  --accent-foreground: #2d2d2d;
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
   --border: rgba(224, 203, 168, 0.5);
   --input: transparent;
-  --input-background: #F5F8F6;
-  --switch-background: #7F8468;
-  --ring: #7F8468;
+  --input-background: #f5f8f6;
+  --switch-background: #7f8468;
+  --ring: #7f8468;
   --radius: 0.625rem;
-  
+
   /* === LANDING PAGE SECTION COLORS === */
-  --section-bg-tertiary: #F7F7F3;
-  --section-bg-secondary: #E0CBA8;
-  
+  --section-bg-tertiary: #f7f7f3;
+  --section-bg-secondary: #e0cba8;
+
   /* === KNOWLEDGEBASE SPECIFIC TOKENS === */
-  --benefit: #162F1C;
-  --benefit-accent: #A5D6A7;
-  --benefit-b: #E8F5E9;
-  --benefit-b-accent: #2E7D32;
-  --warning: #FFF3E0;
-  --warning-accent: #F57C00;
-  
+  --benefit: #162f1c;
+  --benefit-accent: #a5d6a7;
+  --benefit-b: #e8f5e9;
+  --benefit-b-accent: #2e7d32;
+  --warning: #fff3e0;
+  --warning-accent: #f57c00;
+
   /* === RETAILER BRAND COLORS === */
-  --color-amazon: #FF9900;
-  --color-amazon-hover: #FF9900E6;  /* 90% opacity */
-  
+  --color-amazon: #ff9900;
+  --color-amazon-hover: #ff9900e6; /* 90% opacity */
+
   /* Chart colors */
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
-  
+
   /* Sidebar tokens */
-  --sidebar: #F7F7F3;
-  --sidebar-foreground: #2D2D2D;
-  --sidebar-primary: #162F1C;
-  --sidebar-primary-foreground: #F7F7F3;
-  --sidebar-accent: #E0CBA8;
-  --sidebar-accent-foreground: #2D2D2D;
+  --sidebar: #f7f7f3;
+  --sidebar-foreground: #2d2d2d;
+  --sidebar-primary: #162f1c;
+  --sidebar-primary-foreground: #f7f7f3;
+  --sidebar-accent: #e0cba8;
+  --sidebar-accent-foreground: #2d2d2d;
   --sidebar-border: rgba(0, 0, 0, 0.1);
-  --sidebar-ring: #7F8468;
+  --sidebar-ring: #7f8468;
 }
 
 /* ================================================
@@ -159,84 +164,84 @@ html, body {
    ================================================ */
 .dark {
   /* === HEADER COLORS (Fixed - same as light mode) === */
-  --header-bg: #162F1C;
-  --header-text: #F7F7F3;
-  --header-secondary: #E0CBA8;
+  --header-bg: #162f1c;
+  --header-text: #f7f7f3;
+  --header-secondary: #e0cba8;
   --header-hover: #1e4028;
-  
+
   /* === BACKGROUNDS === */
   /* Dark green background maintains brand identity */
-  --background: #162F1C;              /* Use our brand green */
-  --foreground: #e8dec9;              /* Warmer, softer cream for better readability */
-  
+  --background: #162f1c; /* Use our brand green */
+  --foreground: #e8dec9; /* Warmer, softer cream for better readability */
+
   /* === SURFACES === */
   /* Elevated surfaces should be slightly lighter */
-  --card: #1a2e1f;                    /* Elevated surface */
+  --card: #1a2e1f; /* Elevated surface */
   --card-foreground: #e8dec9;
   --popover: #1f3524;
   --popover-foreground: #e8dec9;
-  
+
   /* === LANDING PAGE SECTIONS (Dark Mode) === */
-  --section-bg-tertiary: #1a2e1f;     /* Slightly lighter than main background */
-  --section-bg-secondary: #8a7150;    /* DARKER brown/gold for dark mode */
-  
+  --section-bg-tertiary: #1a2e1f; /* Slightly lighter than main background */
+  --section-bg-secondary: #8a7150; /* DARKER brown/gold for dark mode */
+
   /* === INTERACTIVE ELEMENTS === */
-  --primary: #E0CBA8;                 /* Golden color for better visibility */
+  --primary: #e0cba8; /* Golden color for better visibility */
   --primary-foreground: #0f1f14;
-  --secondary: #8a7150;               /* DARKER brown/gold for dark mode */
+  --secondary: #8a7150; /* DARKER brown/gold for dark mode */
   --secondary-foreground: #e8dec9;
   --tertiary: #1f3524;
   --tertiary-foreground: #e8dec9;
-  
+
   /* === TEXT HIERARCHY === */
-  --muted: #243428;                   /* Slightly lighter for muted backgrounds */
-  --muted-foreground: #9fa89d;        /* Softer gray-green for secondary text */
-  
+  --muted: #243428; /* Slightly lighter for muted backgrounds */
+  --muted-foreground: #9fa89d; /* Softer gray-green for secondary text */
+
   /* === ACCENTS === */
-  --accent: #8a7150;                  /* Match darker secondary */
+  --accent: #8a7150; /* Match darker secondary */
   --accent-foreground: #e8dec9;
-  --destructive: #f87171;             /* Softer red for dark mode */
+  --destructive: #f87171; /* Softer red for dark mode */
   --destructive-foreground: #ffffff;
-  
+
   /* === BORDERS & INPUTS === */
   /* Borders remain consistent - not affected by dark mode */
   --border: rgba(224, 203, 168, 0.5);
   --input: transparent;
-  --input-background: #1f3524;        /* Matches elevated surface */
-  --switch-background: #5a6b54;       /* Lighter switch background */
+  --input-background: #1f3524; /* Matches elevated surface */
+  --switch-background: #5a6b54; /* Lighter switch background */
   /* Ring/outline remains consistent - not affected by dark mode */
   --ring: rgba(127, 132, 104, 0.5);
-  
+
   /* === KNOWLEDGEBASE DARK MODE === */
   /* Benefit cards - green tinted */
-  --benefit: #2E7D32;                 /* Darker, richer green background */
-  --benefit-accent: #C8E6C9;          /* Lighter green accent */
-  --benefit-b: #1a3520;               /* Grade B green background */
-  --benefit-b-accent: #66bb6a;        /* Grade B green accent */
-  
+  --benefit: #2e7d32; /* Darker, richer green background */
+  --benefit-accent: #c8e6c9; /* Lighter green accent */
+  --benefit-b: #1a3520; /* Grade B green background */
+  --benefit-b-accent: #66bb6a; /* Grade B green accent */
+
   /* Warning cards - amber tinted */
-  --warning: #332818;                 /* Dark amber background */
-  --warning-accent: #ffb74d;          /* Softer orange accent */
-  
+  --warning: #332818; /* Dark amber background */
+  --warning-accent: #ffb74d; /* Softer orange accent */
+
   /* === BRAND COLORS (Dark Mode) === */
-  --color-primary-dark: #E0CBA8;
-  --color-secondary: #8a7150;         /* DARKER brown/gold for dark mode */
+  --color-primary-dark: #e0cba8;
+  --color-secondary: #8a7150; /* DARKER brown/gold for dark mode */
   --color-tertiary: #1f3524;
   --color-fourth: #9fa89d;
   --color-text: #e8dec9;
   /* Borders remain consistent - not affected by dark mode */
   --border-subtle: rgba(224, 203, 168, 0.3);
-  
+
   /* === SIDEBAR (Dark Mode) === */
-  --sidebar: #162F1C;
+  --sidebar: #162f1c;
   --sidebar-foreground: #e8dec9;
-  --sidebar-primary: #E0CBA8;
+  --sidebar-primary: #e0cba8;
   --sidebar-primary-foreground: #0f1f14;
   --sidebar-accent: #d4b896;
   --sidebar-accent-foreground: #0f1f14;
   --sidebar-border: rgba(212, 184, 150, 0.2);
   --sidebar-ring: #d4b896;
-  
+
   /* === SHADOWS (Dark Mode) === */
   /* Softer, lighter shadows work better in dark mode */
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
@@ -295,7 +300,7 @@ html, body {
     border-color: rgba(224, 203, 168, 0.5);
     outline-color: rgba(127, 132, 104, 0.5);
   }
-  
+
   html {
     /* Always reserve space for scrollbar to prevent layout shift */
     overflow-y: scroll;
@@ -313,38 +318,38 @@ html, body {
     /* Fix anchor links to account for fixed header */
     scroll-padding-top: calc(var(--header-height) + 20px);
   }
-  
+
   /* Keep scrollbar consistent in dark mode */
   html.dark {
     scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
   }
-  
+
   /* Webkit scrollbar styling (Chrome, Safari, Edge) */
   html::-webkit-scrollbar {
     width: 8px;
   }
-  
+
   html::-webkit-scrollbar-track {
     background: transparent;
   }
-  
+
   html::-webkit-scrollbar-thumb {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 4px;
   }
-  
+
   html::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, 0.4);
   }
-  
+
   html.dark::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.3);
   }
-  
+
   html.dark::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.4);
   }
-  
+
   /* Disable all transitions during dark mode toggle to prevent layout shift */
   html.disable-transitions,
   html.disable-transitions *,
@@ -353,8 +358,9 @@ html, body {
     transition: none !important;
     animation: none !important;
   }
-  
-  html, body {
+
+  html,
+  body {
     margin: 0;
     padding: 0;
   }
@@ -375,20 +381,22 @@ html, body {
     /* Prevent reflow during color changes */
     overflow-x: hidden;
   }
-  
+
   /* Contain layout shifts */
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     /* Prevent unexpected layout changes */
     box-sizing: border-box;
   }
-  
+
   /* Prevent images from causing layout shifts */
   img {
     display: block;
     max-width: 100%;
     height: auto;
   }
-  
+
   /* Exceptions - reset margins for specific contexts */
   [data-layout-header] img,
   [data-layout-footer] img,
@@ -397,36 +405,45 @@ html, body {
     margin-left: 0;
     margin-right: 0;
   }
-  
+
   /* Prevent any element from creating horizontal overflow */
   #root {
     overflow-x: hidden;
     width: 100%;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-heading);
   }
-  
+
   /* No transitions to prevent layout shift during dark mode toggle */
-  a, button, input, textarea, select,
+  a,
+  button,
+  input,
+  textarea,
+  select,
   [data-layout-card],
   [data-knowledgebase-card],
   [data-knowledgebase-card-benefit],
   [data-knowledgebase-card-warning] {
     /* Transitions removed to prevent layout shift */
   }
-  
+
   /* Link styling */
   a {
     opacity: 0.8;
     transition: opacity 0.2s ease;
   }
-  
+
   a:hover {
     opacity: 1;
   }
-  
+
   /* Header links with no hover effect */
   .header-no-hover,
   .header-no-hover:hover {
@@ -434,7 +451,7 @@ html, body {
     text-decoration: none !important;
     transform: none !important;
   }
-  
+
   /* Footnote link styling */
   .footnote-link {
     color: var(--color-primary-dark);
@@ -444,96 +461,96 @@ html, body {
     transition: color 0.2s ease, text-decoration 0.2s ease;
     cursor: help;
   }
-  
+
   .footnote-link:hover {
     color: var(--color-fourth);
     opacity: 1;
     text-decoration: underline;
   }
-  
+
   /* Dark mode image adjustments */
   .dark img:not([data-no-dark-filter]) {
     /* Slightly reduce brightness and increase contrast for better dark mode appearance */
     filter: brightness(0.9) contrast(1.05);
   }
-  
+
   /* Prevent logo images from being filtered */
   .dark [data-name="Logo"] img,
   .dark [alt*="logo" i] img,
   .dark [alt*="suppl.me" i] img {
     filter: none;
   }
-  
+
   /* ================================================
      HEADER & FOOTER: IMMUNE TO DARK MODE
      These components maintain their original styling
      ================================================ */
-  
+
   /* Header should always have dark green background and light text */
   .dark [data-layout-header] {
-    background-color: #162F1C !important;
-    border-color: #E0CBA8 !important;
+    background-color: #162f1c !important;
+    border-color: #e0cba8 !important;
   }
-  
+
   .dark [data-layout-header] p,
   .dark [data-layout-header] button,
   .dark [data-layout-header] a {
-    color: #F7F7F3;
+    color: #f7f7f3;
   }
-  
+
   /* Footer should always have dark green background */
   .dark [data-layout-footer] {
-    background-color: #162F1C !important;
+    background-color: #162f1c !important;
   }
-  
+
   .dark [data-layout-footer] p:not(.text-secondary) {
-    color: #F7F7F3;
+    color: #f7f7f3;
   }
-  
+
   .dark [data-layout-footer] .text-secondary {
-    color: #E0CBA8 !important;
+    color: #e0cba8 !important;
   }
-  
+
   /* Mobile menu should also stay consistent */
   .dark [data-radix-popper-content-wrapper] [class*="SheetContent"] {
-    background-color: #162F1C !important;
-    border-color: #E0CBA8 !important;
+    background-color: #162f1c !important;
+    border-color: #e0cba8 !important;
   }
-  
+
   /* Dropdown menu from header */
   .dark [data-radix-popper-content-wrapper] [class*="DropdownMenuContent"] {
-    background-color: #162F1C !important;
-    border-color: #E0CBA8 !important;
+    background-color: #162f1c !important;
+    border-color: #e0cba8 !important;
   }
 
   /* Knowledgebase dropdown - always primary green */
   .knowledgebase-dropdown,
   .dark .knowledgebase-dropdown {
-    background-color: #162F1C !important;
-    border-color: #E0CBA8 !important;
+    background-color: #162f1c !important;
+    border-color: #e0cba8 !important;
   }
-  
+
   /* ================================================
      PAGE LAYOUT
      All pages have consistent top padding for header
      ================================================ */
-  
+
   [data-layout-page] {
     padding-top: var(--header-height);
   }
-  
+
   /* === PREVENT DARK MODE FROM AFFECTING BORDERS, OUTLINES, AND STROKES === */
   /* Force borders and outlines to remain consistent across themes */
   .dark .border-border,
   .dark [class*="border-border"] {
     border-color: rgba(224, 203, 168, 0.5) !important;
   }
-  
+
   .dark *:focus,
   .dark *:focus-visible {
     outline-color: rgba(127, 132, 104, 0.5) !important;
   }
-  
+
   /* Prevent SVG strokes from changing (they inherit from text color via currentColor) */
   /* This is handled by explicit color classes in components */
 }
@@ -627,12 +644,12 @@ html, body {
 
 .dark .glossary-hero h1,
 .dark .glossary-hero .text-primary-foreground {
-  color: #E0CBA8 !important; /* Lighter brown for main headings */
+  color: #e0cba8 !important; /* Lighter brown for main headings */
 }
 
 .dark .glossary-hero .text-secondary,
 .dark .glossary-hero p {
-  color: #F5E6D3 !important; /* Even lighter for secondary text and descriptions */
+  color: #f5e6d3 !important; /* Even lighter for secondary text and descriptions */
 }
 
 /* === HERO SECTION BOTTOM BORDER (DARK MODE ONLY) === */
@@ -668,11 +685,11 @@ html, body {
 
 /* Hero text color overrides */
 [data-knowledgebase-hero] h1 {
-  color: #F7F7F3;
+  color: #f7f7f3;
 }
 
 [data-knowledgebase-hero] p {
-  color: #E0CBA8;
+  color: #e0cba8;
 }
 
 /* Hero images maintain consistent appearance in both themes */
@@ -692,32 +709,32 @@ html, body {
 }
 
 .dark [data-knowledgebase-card-info] {
-  background: #162F1C;
-  border-color: #2E7D32;
+  background: #162f1c;
+  border-color: #2e7d32;
 }
 
 /* Benefits card - green theme */
 [data-knowledgebase-card-benefits] {
-  background: #E8F5E9;
+  background: #e8f5e9;
   border-radius: var(--radius-lg);
-  border: var(--border-width) solid #2E7D32;
+  border: var(--border-width) solid #2e7d32;
 }
 
 .dark [data-knowledgebase-card-benefits] {
   background: #1a3d1f;
-  border-color: #4CAF50;
+  border-color: #4caf50;
 }
 
 /* Drawbacks card - orange theme */
 [data-knowledgebase-card-drawbacks] {
-  background: #FFF3E0;
+  background: #fff3e0;
   border-radius: var(--radius-lg);
-  border: var(--border-width) solid #F57C00;
+  border: var(--border-width) solid #f57c00;
 }
 
 .dark [data-knowledgebase-card-drawbacks] {
   background: #3d2a1a;
-  border-color: #FF9800;
+  border-color: #ff9800;
 }
 
 /* Card content wrapper */
@@ -778,8 +795,8 @@ html, body {
 
 .dark [data-knowledgebase-card],
 .dark [data-card] {
-  background: #162F1C;
-  border-color: #2E7D32;
+  background: #162f1c;
+  border-color: #2e7d32;
 }
 
 @media (max-width: 767px) {
@@ -800,20 +817,20 @@ html, body {
 .dark [data-knowledgebase-card-stat],
 .dark [data-card="stat"] {
   background: #1e4028;
-  border-color: #2E7D32;
+  border-color: #2e7d32;
 }
 
 /* Warning/Alert card */
 [data-knowledgebase-card-warning],
 [data-card="warning"] {
-  background: #FFF8E1;
-  border-color: #FFB74D;
+  background: #fff8e1;
+  border-color: #ffb74d;
 }
 
 .dark [data-knowledgebase-card-warning],
 .dark [data-card="warning"] {
   background: #3d2e1a;
-  border-color: #FFA726;
+  border-color: #ffa726;
 }
 
 /* Highlight card - nested info boxes */
@@ -848,7 +865,7 @@ html, body {
 .dark [data-knowledgebase-card-benefits] h3,
 .dark [data-knowledgebase-card-drawbacks] h2,
 .dark [data-knowledgebase-card-drawbacks] h3 {
-  color: #E0CBA8;
+  color: #e0cba8;
 }
 
 /* Paragraphs in cards */
@@ -1025,25 +1042,25 @@ html, body {
 
 [data-knowledgebase-grade-badge][data-grade="A"],
 [data-component="grade-badge"][data-grade="A"] {
-  background: #4CAF50;
+  background: #4caf50;
   color: white;
 }
 
 [data-knowledgebase-grade-badge][data-grade="B"],
 [data-component="grade-badge"][data-grade="B"] {
-  background: #8BC34A;
+  background: #8bc34a;
   color: white;
 }
 
 [data-knowledgebase-grade-badge][data-grade="C"],
 [data-component="grade-badge"][data-grade="C"] {
-  background: #FFC107;
-  color: #2D2D2D;
+  background: #ffc107;
+  color: #2d2d2d;
 }
 
 [data-knowledgebase-grade-badge][data-grade="D"],
 [data-component="grade-badge"][data-grade="D"] {
-  background: #FF9800;
+  background: #ff9800;
   color: white;
 }
 
@@ -1848,7 +1865,9 @@ html:not(.dark) {
 }
 
 /* Button states should be instant */
-button, a, [role="button"] {
+button,
+a,
+[role="button"] {
   transition-duration: 0.15s;
 }
 
@@ -1995,7 +2014,7 @@ button, a, [role="button"] {
 
 /* Product Comparison search dropdown positioning */
 .product-comparison-search-dropdown {
- position: absolute;
+  position: absolute;
   top: calc(100% + 0.5rem);
   left: 0;
   z-index: 50;
@@ -2011,7 +2030,8 @@ button, a, [role="button"] {
   background-color: var(--card);
   border: 2px solid var(--secondary);
   border-radius: 0.75rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
   height: 100%;
   max-height: 100%;
   display: flex;
@@ -2055,8 +2075,9 @@ button, a, [role="button"] {
   border: 2px solid var(--secondary);
   border-radius: 0.75rem;
   color: var(--foreground);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  font-size: 0.875rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-size: 16px; /* Prevents iOS zoom on focus */
   transition: border-color 0.2s;
 }
 
@@ -2070,17 +2091,230 @@ button, a, [role="button"] {
   color: var(--muted-foreground);
 }
 
+/* ================================================
+   MOBILE SEARCH SHEET
+   Bottom sheet search experience for mobile devices
+   ================================================ */
+
+.mobile-search-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: var(--card);
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  max-height: 90vh;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Reorder: results above, search input at bottom */
+.mobile-search-sheet-handle {
+  order: 1;
+}
+
+.mobile-search-sheet-results {
+  order: 2;
+}
+
+.mobile-search-sheet-footer {
+  order: 3;
+}
+
+/* Drag handle at top of sheet */
+.mobile-search-sheet-handle {
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 0 0.5rem;
+  flex-shrink: 0;
+}
+
+.mobile-search-sheet-handle-bar {
+  width: 3rem;
+  height: 0.25rem;
+  background-color: var(--muted-foreground);
+  opacity: 0.3;
+  border-radius: 9999px;
+}
+
+/* Footer with close button and search input (at bottom of sheet) */
+.mobile-search-sheet-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-top: 1px solid var(--secondary);
+  flex-shrink: 0;
+  background-color: var(--card);
+  padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+}
+
+.mobile-search-sheet-close {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--muted-foreground);
+  transition: background-color 0.2s, color 0.2s;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+}
+
+.mobile-search-sheet-close:hover {
+  background-color: var(--muted);
+  color: var(--foreground);
+}
+
+.mobile-search-sheet-close:active {
+  transform: scale(0.95);
+}
+
+/* Search input wrapper */
+.mobile-search-sheet-input-wrapper {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-search-sheet-icon {
+  position: absolute;
+  left: 0.875rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--muted-foreground);
+  pointer-events: none;
+}
+
+.mobile-search-sheet-input {
+  width: 100%;
+  height: 3rem;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+  border: 2px solid var(--secondary);
+  border-radius: 0.75rem;
+  font-size: 16px; /* Prevents iOS zoom */
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: border-color 0.2s;
+}
+
+.mobile-search-sheet-input:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+.mobile-search-sheet-input::placeholder {
+  color: var(--muted-foreground);
+}
+
+.mobile-search-sheet-clear {
+  position: absolute;
+  right: 0.75rem;
+  padding: 0.375rem;
+  border-radius: 9999px;
+  color: var(--muted-foreground);
+  transition: background-color 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-search-sheet-clear:hover {
+  background-color: var(--muted);
+  color: var(--foreground);
+}
+
+.mobile-search-sheet-clear:active {
+  transform: scale(0.9);
+}
+
+/* Results area (above input) */
+.mobile-search-sheet-results {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.5rem;
+}
+
+/* Empty state */
+.mobile-search-sheet-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  min-height: 200px;
+}
+
+/* Mobile search trigger button (used in header) */
+.mobile-search-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--header-text);
+  transition: background-color 0.2s;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+}
+
+.mobile-search-trigger:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.mobile-search-trigger:active {
+  transform: scale(0.95);
+}
+
+/* Mobile search input trigger (fake input that opens sheet) */
+.mobile-search-input-trigger {
+  width: 100%;
+  height: 3.5rem;
+  padding-left: 3rem;
+  padding-right: 1.5rem;
+  background-color: var(--input-background);
+  border: 2px solid var(--secondary);
+  border-radius: 0.75rem;
+  color: var(--muted-foreground);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: border-color 0.2s;
+}
+
+.mobile-search-input-trigger:hover {
+  border-color: var(--primary);
+}
+
+.mobile-search-input-trigger:active {
+  transform: scale(0.99);
+}
+
 /* Header styles for inline replacement */
 .header-text {
-  color: var(--header-text, #F7F7F3);
+  color: var(--header-text, #f7f7f3);
 }
 
 .header-secondary {
-  color: var(--header-secondary, #E0CBA8);
+  color: var(--header-secondary, #e0cba8);
 }
 
 .header-bg {
-  background-color: var(--header-bg, #162F1C);
+  background-color: var(--header-bg, #162f1c);
 }
 
 /* Hero section - Full viewport width */

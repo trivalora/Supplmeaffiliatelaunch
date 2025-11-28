@@ -3,7 +3,7 @@ import { TermsOfServicePageWrapper } from '../components/TermsOfServicePageWrapp
 
 export const metadata: Metadata = {
   title: 'Terms of Service - Suppl.me',
-  description: 'Terms and conditions for using suppl.me.',
+  description: 'Terms and conditions for using Suppl.me. User agreements, disclaimers, and legal terms for accessing evidence-based supplement information and price comparisons.',
 };
 
 export default function TermsOfServicePage() {

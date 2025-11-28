@@ -1,17 +1,26 @@
-'use client';
+"use client";
 
-import { useState, useEffect, useRef, useMemo, memo } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { useRouter } from 'next/navigation';
-import { Search, Menu, ChevronDown, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
-import { RouteConfig, KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES } from '@/routes.config';
-import { getRouteByKey } from '../lib/route-adapter';
-import { getSupplementThumbnail } from '@/lib/supplementImages';
-import { DarkModeToggle } from '@/components/shared/ui-extensions/DarkModeToggle';
-import { SearchResults } from '@/components/shared/content/SearchResults';
-import { Input } from '@/components/ui/input';
+import { useState, useEffect, useRef, useMemo, memo } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { Search, Menu, ChevronDown, X } from "lucide-react";
+import { motion, AnimatePresence } from "motion/react";
+import {
+  RouteConfig,
+  KNOWLEDGEBASE_ROUTES,
+  GLOSSARY_ROUTES,
+} from "@/routes.config";
+import { getRouteByKey } from "../lib/route-adapter";
+import { getSupplementThumbnail } from "@/lib/supplementImages";
+import { DarkModeToggle } from "@/components/shared/ui-extensions/DarkModeToggle";
+import { SearchResults } from "@/components/shared/content/SearchResults";
+import {
+  MobileSearchSheet,
+  useMobileSearch,
+} from "@/components/shared/ui-extensions/MobileSearchSheet";
+import { useIsMobile } from "@/hooks";
+import { Input } from "@/components/ui/input";
 
 interface HeaderClientProps {
   routes?: RouteConfig[];
@@ -21,40 +30,46 @@ interface HeaderClientProps {
 }
 
 // Memoized dropdown item component for performance
-const DropdownItem = memo(({ route, onClick }: { route: RouteConfig; onClick: () => void }) => {
-  const imageUrl = getSupplementThumbnail(route.key);
-  const href = route.path || (route.key.endsWith('v2') 
-    ? `/${route.key.replace('v2', '')}`
-    : `/${route.key}`);
+const DropdownItem = memo(
+  ({ route, onClick }: { route: RouteConfig; onClick: () => void }) => {
+    const imageUrl = getSupplementThumbnail(route.key);
+    const href =
+      route.path ||
+      (route.key.endsWith("v2")
+        ? `/${route.key.replace("v2", "")}`
+        : `/${route.key}`);
 
-  return (
-    <Link
-      href={href}
-      className="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors"
-      onClick={onClick}
-      prefetch={true}
-      style={{ opacity: 1 }}
-      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.05)'}
-      onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
-    >
-      {imageUrl && (
-        <div className="dropdown-thumbnail">
-          <Image
-            src={imageUrl}
-            alt={route.title}
-            width={40}
-            height={40}
-          />
-        </div>
-      )}
-      <span className="text-sm font-medium" style={{ color: 'var(--header-text, #F7F7F3)', opacity: 1 }}>
-        {route.title}
-      </span>
-    </Link>
-  );
-});
+    return (
+      <Link
+        href={href}
+        className="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors"
+        onClick={onClick}
+        prefetch={true}
+        style={{ opacity: 1 }}
+        onMouseEnter={(e) =>
+          (e.currentTarget.style.backgroundColor = "rgba(255, 255, 255, 0.05)")
+        }
+        onMouseLeave={(e) =>
+          (e.currentTarget.style.backgroundColor = "transparent")
+        }
+      >
+        {imageUrl && (
+          <div className="dropdown-thumbnail">
+            <Image src={imageUrl} alt={route.title} width={40} height={40} />
+          </div>
+        )}
+        <span
+          className="text-sm font-medium"
+          style={{ color: "var(--header-text, #F7F7F3)", opacity: 1 }}
+        >
+          {route.title}
+        </span>
+      </Link>
+    );
+  }
+);
 
-DropdownItem.displayName = 'DropdownItem';
+DropdownItem.displayName = "DropdownItem";
 
 // Desktop Knowledgebase Dropdown
 function KnowledgebaseDropdown({ routes }: { routes: RouteConfig[] }) {
@@ -68,23 +83,23 @@ function KnowledgebaseDropdown({ routes }: { routes: RouteConfig[] }) {
   useEffect(() => {
     const toPreload = routes.slice(0, 6);
     const cleanupIds: string[] = [];
-    
+
     toPreload.forEach((route) => {
       const imageUrl = getSupplementThumbnail(route.key);
       if (!imageUrl) return;
-      
+
       const id = `preload-nav-${route.key}`;
       if (!document.getElementById(id)) {
-        const link = document.createElement('link');
+        const link = document.createElement("link");
         link.id = id;
-        link.rel = 'preload';
-        link.as = 'image';
+        link.rel = "preload";
+        link.as = "image";
         link.href = imageUrl;
         document.head.appendChild(link);
         cleanupIds.push(id);
       }
     });
-    
+
     return () => {
       cleanupIds.forEach((id) => {
         const el = document.getElementById(id);
@@ -96,17 +111,20 @@ function KnowledgebaseDropdown({ routes }: { routes: RouteConfig[] }) {
   // Close on click outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
       }
     };
 
     if (isOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [isOpen]);
 
@@ -121,10 +139,16 @@ function KnowledgebaseDropdown({ routes }: { routes: RouteConfig[] }) {
         className="cursor-pointer flex items-center gap-1"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-nowrap" style={{ color: 'var(--header-text, #F7F7F3)' }}>
+        <span
+          className="text-nowrap"
+          style={{ color: "var(--header-text, #F7F7F3)" }}
+        >
           Knowledgebase
         </span>
-        <ChevronDown className="h-4 w-4" style={{ color: 'var(--header-text, #F7F7F3)' }} />
+        <ChevronDown
+          className="h-4 w-4"
+          style={{ color: "var(--header-text, #F7F7F3)" }}
+        />
       </button>
 
       <AnimatePresence>
@@ -135,22 +159,22 @@ function KnowledgebaseDropdown({ routes }: { routes: RouteConfig[] }) {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.15 }}
             className="fixed"
-            style={{ 
-              top: 'calc(var(--header-height) + 1vh - 4vh)',
-              right: '1vw',
+            style={{
+              top: "calc(var(--header-height) + 1vh - 4vh)",
+              right: "1vw",
               zIndex: 50,
-              maxHeight: 'calc(75vh - var(--header-height) + 4vh)',
-              padding: '4vh 0 4vh 2vw'
+              maxHeight: "calc(75vh - var(--header-height) + 4vh)",
+              padding: "4vh 0 4vh 2vw",
             }}
           >
             <div
               className="knowledgebase-dropdown rounded-2xl shadow-xl flex flex-col"
               style={{
-                backgroundColor: '#162F1C',
-                border: '0.5px solid #E0CBA8',
-                width: '420px',
-                maxHeight: 'calc(75vh - var(--header-height) + 4vh)',
-                height: '100%'
+                backgroundColor: "#162F1C",
+                border: "0.5px solid #E0CBA8",
+                width: "420px",
+                maxHeight: "calc(75vh - var(--header-height) + 4vh)",
+                height: "100%",
               }}
             >
               <div className="overflow-y-auto flex-1 p-2 scrollbar-thin scrollbar-thumb-secondary/30 scrollbar-track-transparent">
@@ -173,11 +197,13 @@ function KnowledgebaseDropdown({ routes }: { routes: RouteConfig[] }) {
 // SearchBar Component with expansion animation
 function SearchBar() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
+  const isMobile = useIsMobile();
+  const mobileSearch = useMobileSearch();
 
   useEffect(() => {
     if (isExpanded && inputRef.current) {
@@ -190,31 +216,35 @@ function SearchBar() {
     const handleClickOutside = (event: MouseEvent) => {
       // Check if click is outside both the search container AND the dropdown
       if (
-        containerRef.current && 
+        containerRef.current &&
         !containerRef.current.contains(event.target as Node) &&
         dropdownRef.current &&
         !dropdownRef.current.contains(event.target as Node)
       ) {
         setIsExpanded(false);
-        setSearchQuery('');
+        setSearchQuery("");
       }
     };
 
     if (isExpanded) {
-      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [isExpanded]);
 
   const handleSearchClick = () => {
-    setIsExpanded(true);
+    if (isMobile) {
+      mobileSearch.open();
+    } else {
+      setIsExpanded(true);
+    }
   };
 
   const handleClear = () => {
-    setSearchQuery('');
+    setSearchQuery("");
     setIsExpanded(false);
   };
 
@@ -227,6 +257,37 @@ function SearchBar() {
     }
   };
 
+  const handleMobileNavigate = (key: string) => {
+    const route = getRouteByKey(key);
+    if (route && route.path) {
+      router.push(route.path);
+    }
+  };
+
+  // Mobile: Show search icon that opens bottom sheet
+  if (isMobile) {
+    return (
+      <>
+        <button
+          onClick={handleSearchClick}
+          className="mobile-search-trigger"
+          aria-label="Open search"
+        >
+          <Search className="h-6 w-6" />
+        </button>
+
+        <MobileSearchSheet
+          isOpen={mobileSearch.isOpen}
+          onClose={mobileSearch.close}
+          onNavigate={handleMobileNavigate}
+          placeholder="Search supplements..."
+          context="header"
+        />
+      </>
+    );
+  }
+
+  // Desktop: Keep existing expanding search bar
   return (
     <>
       {/* Search Bar */}
@@ -235,25 +296,25 @@ function SearchBar() {
         className="relative flex items-center z-50"
         initial={false}
         animate={{
-          width: isExpanded ? '320px' : '24px',
+          width: isExpanded ? "320px" : "24px",
         }}
         transition={{
           duration: 0.6,
           ease: [0.32, 0.72, 0, 1],
         }}
-        style={{ height: '24px' }}
+        style={{ height: "24px" }}
       >
         {!isExpanded ? (
           <Search
             className="h-6 w-6 cursor-pointer"
-            style={{ color: 'var(--header-text, #F7F7F3)' }}
+            style={{ color: "var(--header-text, #F7F7F3)" }}
             onClick={handleSearchClick}
           />
         ) : (
           <div className="relative flex items-center w-full h-6">
             <Search
               className="absolute left-3 h-4 w-4 pointer-events-none"
-              style={{ color: 'var(--header-secondary, #E0CBA8)' }}
+              style={{ color: "var(--header-secondary, #E0CBA8)" }}
             />
             <Input
               ref={inputRef}
@@ -263,14 +324,14 @@ function SearchBar() {
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-9 pr-9 h-6 border-0 focus-visible:ring-1 text-sm"
               style={{
-                backgroundColor: 'var(--header-bg, #162F1C)',
-                color: 'var(--header-text, #F7F7F3)',
-                borderColor: 'var(--header-secondary, #E0CBA8)',
+                backgroundColor: "var(--header-bg, #162F1C)",
+                color: "var(--header-text, #F7F7F3)",
+                borderColor: "var(--header-secondary, #E0CBA8)",
               }}
             />
             <X
               className="absolute right-3 h-4 w-4 cursor-pointer"
-              style={{ color: 'var(--header-secondary, #E0CBA8)' }}
+              style={{ color: "var(--header-secondary, #E0CBA8)" }}
               onClick={handleClear}
             />
           </div>
@@ -298,7 +359,10 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
         className="p-2"
         aria-label="Open menu"
       >
-        <Menu className="h-6 w-6" style={{ color: 'var(--header-text, #F7F7F3)' }} />
+        <Menu
+          className="h-6 w-6"
+          style={{ color: "var(--header-text, #F7F7F3)" }}
+        />
       </button>
 
       <AnimatePresence>
@@ -315,19 +379,19 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
 
             {/* Menu */}
             <motion.div
-              initial={{ x: '100%' }}
+              initial={{ x: "100%" }}
               animate={{ x: 0 }}
-              exit={{ x: '100%' }}
-              transition={{ type: 'spring', damping: 30, stiffness: 300 }}
+              exit={{ x: "100%" }}
+              transition={{ type: "spring", damping: 30, stiffness: 300 }}
               className="fixed top-0 right-0 bottom-0 w-[85%] max-w-sm z-50 overflow-y-auto"
-              style={{ backgroundColor: 'var(--header-bg, #162F1C)' }}
+              style={{ backgroundColor: "var(--header-bg, #162F1C)" }}
             >
               {/* Header */}
-              <div 
+              <div
                 className="flex items-center justify-between p-4 border-b"
-                style={{ 
-                  borderColor: 'var(--header-secondary, #E0CBA8)',
-                  color: 'var(--header-text, #F7F7F3)'
+                style={{
+                  borderColor: "var(--header-secondary, #E0CBA8)",
+                  color: "var(--header-text, #F7F7F3)",
                 }}
               >
                 <h2 className="text-lg font-semibold">Menu</h2>
@@ -336,26 +400,31 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
                   className="p-2"
                   aria-label="Close menu"
                 >
-                  <X className="h-6 w-6" style={{ color: 'var(--header-text, #F7F7F3)' }} />
+                  <X
+                    className="h-6 w-6"
+                    style={{ color: "var(--header-text, #F7F7F3)" }}
+                  />
                 </button>
               </div>
 
               {/* Menu Items */}
               <div className="p-4 space-y-4">
-                <div 
+                <div
                   className="border-b pb-4"
-                  style={{ borderColor: 'var(--header-secondary, #E0CBA8)' }}
+                  style={{ borderColor: "var(--header-secondary, #E0CBA8)" }}
                 >
-                  <h3 
+                  <h3
                     className="text-sm font-semibold mb-2"
-                    style={{ color: 'var(--header-secondary, #E0CBA8)' }}
+                    style={{ color: "var(--header-secondary, #E0CBA8)" }}
                   >
                     Supplements
                   </h3>
                   {routes.map((route) => {
-                    const href = route.path || (route.key.endsWith('v2') 
-                      ? `/${route.key.replace('v2', '')}`
-                      : `/${route.key}`);
+                    const href =
+                      route.path ||
+                      (route.key.endsWith("v2")
+                        ? `/${route.key.replace("v2", "")}`
+                        : `/${route.key}`);
 
                     return (
                       <Link
@@ -363,7 +432,7 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
                         href={href}
                         className="block py-2 hover:opacity-80 transition-opacity"
                         onClick={() => setIsOpen(false)}
-                        style={{ color: 'var(--header-text, #F7F7F3)' }}
+                        style={{ color: "var(--header-text, #F7F7F3)" }}
                       >
                         {route.title}
                       </Link>
@@ -375,7 +444,7 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
                   href="/glossary"
                   className="block py-2 text-lg hover:opacity-80 transition-opacity"
                   onClick={() => setIsOpen(false)}
-                  style={{ color: 'var(--header-text, #F7F7F3)' }}
+                  style={{ color: "var(--header-text, #F7F7F3)" }}
                 >
                   Glossary
                 </Link>
@@ -384,19 +453,19 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
                   href="/about"
                   className="block py-2 text-lg hover:opacity-80 transition-opacity"
                   onClick={() => setIsOpen(false)}
-                  style={{ color: 'var(--header-text, #F7F7F3)' }}
+                  style={{ color: "var(--header-text, #F7F7F3)" }}
                 >
                   About Us
                 </Link>
 
-                <div 
+                <div
                   className="border-t pt-4"
-                  style={{ borderColor: 'var(--header-secondary, #E0CBA8)' }}
+                  style={{ borderColor: "var(--header-secondary, #E0CBA8)" }}
                 >
                   <div className="flex items-center justify-between">
-                    <span 
+                    <span
                       className="text-sm font-semibold"
-                      style={{ color: 'var(--header-secondary, #E0CBA8)' }}
+                      style={{ color: "var(--header-secondary, #E0CBA8)" }}
                     >
                       Dark Mode
                     </span>
@@ -412,7 +481,12 @@ function MobileMenu({ routes }: { routes: RouteConfig[] }) {
   );
 }
 
-export function HeaderClient({ routes, mobile, darkModeToggle, searchBar }: HeaderClientProps) {
+export function HeaderClient({
+  routes,
+  mobile,
+  darkModeToggle,
+  searchBar,
+}: HeaderClientProps) {
   // Dark mode toggle
   if (darkModeToggle) {
     return <DarkModeToggle />;

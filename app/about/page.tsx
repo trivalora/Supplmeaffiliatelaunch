@@ -4,7 +4,7 @@ import { PageViewTracker } from '../components/PageViewTracker';
 
 export const metadata: Metadata = {
   title: 'About Us - Evidence-Based Supplement Guide',
-  description: 'Meet the team behind the evidence-based supplement platform. Learn about our mission to provide transparent, science-backed supplement recommendations and price comparisons.',
+  description: 'Meet the team delivering science-backed supplement reviews and price comparisons. Our mission: transparent, evidence-based recommendations you can trust.',
 };
 
 export default function AboutPage() {

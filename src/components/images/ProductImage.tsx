@@ -11,7 +11,7 @@ export function ProductImage({
     src,
     alt,
     widths = [240, 360, 480, 640],
-    sizes = '240px',
+    sizes = '(min-width: 1024px) 240px, (min-width: 768px) 200px, (min-width: 640px) 180px, 160px',
 }: {
     src: string;
     alt: string;
