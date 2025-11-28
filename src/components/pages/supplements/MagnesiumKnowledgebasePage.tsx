@@ -33,29 +33,27 @@ export function MagnesiumKnowledgebasePage({
     supplementName: "Magnesium Glycinate",
     currentPage: "magnesium",
     heroDescription:
-      "Evidence-based overview of an essential mineral with meta-analytic support for modest improvements in blood pressure, glucose metabolism, inflammation, and biomarker response in specific populations.",
+      "Highly bioavailable magnesium chelated with glycine for superior absorption and tolerability. Ideal for sleep, muscle relaxation, and daily magnesium support without GI side effects.",
     heroImageUrl: getSupplementImage("magnesium"),
 
     overviewTitle: "What is Magnesium Glycinate?",
     overviewContent: (
       <>
         <p>
-          Magnesium is an <span className="font-medium">essential mineral</span>{" "}
-          involved in over 300 enzymatic reactions, critical for muscle and
-          nerve function, blood glucose control, blood pressure regulation, and
-          protein synthesis. It's the fourth most abundant mineral in the body
-          and plays key roles in energy production, bone health, and
-          cardiovascular function.
+          Magnesium glycinate is a <span className="font-medium">highly bioavailable form</span>{" "}
+          of magnesium bound to glycine, an amino acid. This chelated form is known for its
+          excellent absorption and gentle effect on the digestive system, making it ideal for
+          those who experience GI discomfort with other magnesium forms. Magnesium is involved
+          in over 300 enzymatic reactions, critical for muscle and nerve function, blood glucose
+          control, blood pressure regulation, and protein synthesis.
         </p>
 
         <p style={{ marginTop: "var(--space-md)" }}>
-          Meta-analytic evidence demonstrates modest but consistent benefits for
-          blood pressure reduction, glucose metabolism in diabetes or high-risk
-          populations, and inflammation marker improvements, with dose- and
-          time-dependent increases in circulating magnesium and urinary
-          excretion. Inorganic forms are more effective at raising serum
-          magnesium but may cause more gastrointestinal symptoms than organic
-          forms.
+          The glycinate form is particularly favored for sleep support and relaxation due to
+          glycine's calming properties. Meta-analytic evidence demonstrates modest but consistent
+          benefits for blood pressure reduction, glucose metabolism, and inflammation marker
+          improvements. Unlike inorganic forms (oxide, chloride), magnesium glycinate rarely
+          causes diarrhea and is well-tolerated even at higher doses.
         </p>
       </>
     ),
@@ -73,9 +71,9 @@ export function MagnesiumKnowledgebasePage({
       },
       {
         icon: FlaskConical,
-        title: "Supplements",
+        title: "Glycinate supplements",
         description:
-          "Magnesium oxide, citrate, chloride, glycinate, and other organic/inorganic forms",
+          "Magnesium glycinate (chelated form) offers superior absorption and tolerability compared to oxide or citrate forms",
       },
     ],
 
@@ -180,13 +178,13 @@ export function MagnesiumKnowledgebasePage({
       },
     ],
 
-    buyingGuideIntro: "When selecting magnesium supplements:",
+    buyingGuideIntro: "When selecting magnesium glycinate supplements:",
     buyingGuideItems: [
       {
         icon: Pill,
-        title: "Form selection",
+        title: "Why glycinate?",
         description:
-          "Magnesium oxide is most studied in trials but has lower bioavailability and higher laxative effect. Magnesium citrate has better absorption and tolerability. Magnesium glycinate is highly bioavailable and gentle on stomach. Magnesium chloride is well-absorbed. Avoid magnesium sulfate (Epsom salt) for oral use. Inorganic forms (oxide, chloride) raise serum magnesium more effectively but may cause GI upset.",
+          "Magnesium glycinate is highly bioavailable and gentle on the stomach—ideal for daily use. The glycine component adds calming benefits for sleep and relaxation. Unlike magnesium oxide (most studied but poorly absorbed with laxative effects) or citrate (better absorbed but can cause loose stools), glycinate rarely causes GI issues even at higher doses.",
       },
       {
         icon: FlaskConical,
