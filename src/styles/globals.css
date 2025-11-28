@@ -2112,8 +2112,8 @@ a,
   box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* Reorder: results above, search input at bottom */
-.mobile-search-sheet-handle {
+/* Reorder: header at top, results in middle, footer at bottom */
+.mobile-search-sheet-header {
   order: 1;
 }
 
@@ -2125,11 +2125,13 @@ a,
   order: 3;
 }
 
-/* Drag handle at top of sheet */
-.mobile-search-sheet-handle {
+/* Header with drag handle and close button */
+.mobile-search-sheet-header {
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 0.75rem 0 0.5rem;
+  position: relative;
+  padding: 0.75rem 1rem 0.5rem;
   flex-shrink: 0;
 }
 
@@ -2141,24 +2143,15 @@ a,
   border-radius: 9999px;
 }
 
-/* Footer with close button and search input (at bottom of sheet) */
-.mobile-search-sheet-footer {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 1rem;
-  border-top: 1px solid var(--secondary);
-  flex-shrink: 0;
-  background-color: var(--card);
-  padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
-}
-
-.mobile-search-sheet-close {
+/* Close button in top right */
+.mobile-search-sheet-close-top {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
   color: var(--muted-foreground);
   transition: background-color 0.2s, color 0.2s;
-  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2166,13 +2159,24 @@ a,
   min-height: 2.5rem;
 }
 
-.mobile-search-sheet-close:hover {
+.mobile-search-sheet-close-top:hover {
   background-color: var(--muted);
   color: var(--foreground);
 }
 
-.mobile-search-sheet-close:active {
+.mobile-search-sheet-close-top:active {
   transform: scale(0.95);
+}
+
+/* Footer with search input (at bottom of sheet) */
+.mobile-search-sheet-footer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px solid var(--secondary);
+  flex-shrink: 0;
+  background-color: var(--card);
+  padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
 }
 
 /* Search input wrapper */

@@ -138,9 +138,16 @@ export function MobileSearchSheet({
             aria-modal="true"
             aria-label="Search"
           >
-            {/* Drag Handle */}
-            <div className="mobile-search-sheet-handle">
+            {/* Header with drag handle and close button */}
+            <div className="mobile-search-sheet-header">
               <div className="mobile-search-sheet-handle-bar" />
+              <button
+                onClick={handleClose}
+                className="mobile-search-sheet-close-top"
+                aria-label="Close search"
+              >
+                <X className="h-5 w-5" />
+              </button>
             </div>
 
             {/* Search Results (above input) */}
@@ -164,14 +171,6 @@ export function MobileSearchSheet({
 
             {/* Search Input Footer (at bottom) */}
             <div className="mobile-search-sheet-footer">
-              <button
-                onClick={handleClose}
-                className="mobile-search-sheet-close"
-                aria-label="Close search"
-              >
-                <X className="h-5 w-5" />
-              </button>
-
               <div className="mobile-search-sheet-input-wrapper">
                 <Search className="mobile-search-sheet-icon" />
                 <Input
@@ -186,6 +185,7 @@ export function MobileSearchSheet({
                   autoCapitalize="off"
                   spellCheck="false"
                   enterKeyHint="search"
+                  autoFocus
                 />
                 {searchQuery && (
                   <button
