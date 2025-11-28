@@ -5,7 +5,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function VitaminCKnowledgebasePage({ 
   onNavigate,
@@ -16,7 +15,6 @@ export function VitaminCKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['immune support', 'antioxidant protection', 'collagen synthesis', 'iron absorption', 'skin health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Vitamin C",
@@ -289,7 +287,6 @@ export function VitaminCKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Vitamin C', benefits, '/vitamin-c')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

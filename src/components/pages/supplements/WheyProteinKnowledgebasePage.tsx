@@ -5,7 +5,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function WheyProteinKnowledgebasePage({ 
   onNavigate,
@@ -16,7 +15,6 @@ export function WheyProteinKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['muscle growth', 'recovery', 'protein synthesis', 'strength gains', 'satiety'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Whey Protein",
@@ -321,7 +319,6 @@ export function WheyProteinKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Whey Protein', benefits, '/whey-protein')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

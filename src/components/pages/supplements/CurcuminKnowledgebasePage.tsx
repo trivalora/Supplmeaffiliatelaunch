@@ -5,7 +5,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function CurcuminKnowledgebasePage({ 
   onNavigate,
@@ -16,7 +15,6 @@ export function CurcuminKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['inflammation reduction', 'joint health', 'antioxidant support', 'brain health', 'pain relief'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Curcumin",
@@ -454,7 +452,6 @@ export function CurcuminKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Curcumin', benefits, '/curcumin')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

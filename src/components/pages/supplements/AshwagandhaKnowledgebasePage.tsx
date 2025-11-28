@@ -7,7 +7,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function AshwagandhaKnowledgebasePage({ 
   onNavigate,
@@ -18,7 +17,6 @@ export function AshwagandhaKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['stress reduction', 'anxiety relief', 'cortisol management', 'sleep quality', 'cognitive function'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Ashwagandha",
@@ -323,7 +321,6 @@ export function AshwagandhaKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Ashwagandha', benefits, '/ashwagandha')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

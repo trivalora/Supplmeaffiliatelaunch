@@ -5,7 +5,6 @@ import {
   Pill, Zap, Apple, FlaskConical, User, Users, BarChart3
 } from '@/components/iconExports';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function MagnesiumKnowledgebasePage({ 
   onNavigate,
@@ -16,7 +15,6 @@ export function MagnesiumKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['blood pressure reduction', 'glucose metabolism', 'sleep quality', 'muscle function', 'bone health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Magnesium",
@@ -302,7 +300,6 @@ export function MagnesiumKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Magnesium', benefits, '/magnesium')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

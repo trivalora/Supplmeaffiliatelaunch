@@ -5,7 +5,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function SulforaphaneKnowledgebasePage({ 
   onNavigate,
@@ -16,7 +15,6 @@ export function SulforaphaneKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['antioxidant support', 'detoxification', 'inflammation reduction', 'neuroprotection', 'cellular health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Sulforaphane",
@@ -256,7 +254,6 @@ export function SulforaphaneKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Sulforaphane', benefits, '/sulforaphane')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

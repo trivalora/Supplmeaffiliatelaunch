@@ -7,7 +7,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function CreatineKnowledgebasePage({ 
   onNavigate,
@@ -18,7 +17,6 @@ export function CreatineKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['muscle strength', 'exercise performance', 'muscle mass', 'cognitive function', 'power output'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Creatine",
@@ -336,7 +334,6 @@ export function CreatineKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Creatine', benefits, '/creatine')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

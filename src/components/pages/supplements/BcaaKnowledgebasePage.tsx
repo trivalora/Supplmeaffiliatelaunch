@@ -6,7 +6,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function BcaaKnowledgebasePage({ 
   onNavigate,
@@ -17,7 +16,6 @@ export function BcaaKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['muscle recovery', 'exercise performance', 'muscle protein synthesis', 'fatigue reduction', 'muscle soreness'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "BCAAs",
@@ -258,7 +256,6 @@ export function BcaaKnowledgebasePage({
   
   return (
     <>
-      <SEOHead {...getSupplementSEO('BCAAs', benefits, '/bcaas')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

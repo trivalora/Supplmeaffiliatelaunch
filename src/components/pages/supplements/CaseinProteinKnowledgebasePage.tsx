@@ -7,10 +7,8 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function CaseinProteinKnowledgebasePage() {
-  const benefits = ['sustained protein release', 'muscle preservation', 'overnight recovery', 'satiety', 'lean muscle growth'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Casein Protein",
@@ -204,7 +202,6 @@ export function CaseinProteinKnowledgebasePage() {
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Casein Protein', benefits, '/casein-protein')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

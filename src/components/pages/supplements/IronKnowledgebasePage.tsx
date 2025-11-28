@@ -6,7 +6,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function IronKnowledgebasePage({ 
   onNavigate,
@@ -17,7 +16,6 @@ export function IronKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['energy levels', 'oxygen transport', 'anemia prevention', 'cognitive function', 'immune support'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Iron",
@@ -313,7 +311,6 @@ export function IronKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Iron', benefits, '/iron')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

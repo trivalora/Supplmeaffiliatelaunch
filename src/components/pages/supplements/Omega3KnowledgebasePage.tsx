@@ -7,7 +7,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function Omega3KnowledgebasePage({ 
   onNavigate,
@@ -18,7 +17,6 @@ export function Omega3KnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['heart health', 'brain function', 'inflammation reduction', 'eye health', 'triglyceride reduction'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Omega-3",
@@ -316,7 +314,6 @@ export function Omega3KnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Omega-3', benefits, '/omega-3')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

@@ -5,7 +5,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function PrebioticsKnowledgebasePage({ 
   onNavigate,
@@ -16,7 +15,6 @@ export function PrebioticsKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['gut microbiome health', 'digestive support', 'immune function', 'mineral absorption', 'metabolic health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Prebiotics",
@@ -281,7 +279,6 @@ export function PrebioticsKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Prebiotics', benefits, '/prebiotics')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

@@ -7,7 +7,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function CollagenKnowledgebasePage({ 
   onNavigate,
@@ -18,7 +17,6 @@ export function CollagenKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['skin elasticity', 'joint health', 'bone density', 'wound healing', 'hair and nail health'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Collagen Peptides",
@@ -297,7 +295,6 @@ export function CollagenKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Collagen Peptides', benefits, '/collagen-peptides')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

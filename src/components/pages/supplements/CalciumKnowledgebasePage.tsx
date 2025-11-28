@@ -6,7 +6,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function CalciumKnowledgebasePage({ 
   onNavigate,
@@ -17,7 +16,6 @@ export function CalciumKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['bone health', 'muscle function', 'nerve transmission', 'blood clotting', 'osteoporosis prevention'];
   
   const pageProps: KnowledgebasePageProps = {
     // Hero Section
@@ -308,7 +306,6 @@ export function CalciumKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Calcium', benefits, '/calcium')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );

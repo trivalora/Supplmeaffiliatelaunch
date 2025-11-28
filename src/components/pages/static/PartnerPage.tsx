@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { ExternalLink, CheckCircle2, Calendar } from 'lucide-react';
 import { ResponsivePicture } from '@/components/shared/content/ResponsivePicture';
-import { SEOHead } from '@/components/SEOHead';
 
 // Forest aerial image path (optimized version available)
 const imgForestAerial = '/optimized/4bdf2cba5e05e7d70b9f1402336825a64b04e236-1920.webp';
@@ -67,13 +66,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
   };
 
   return (
-    <>
-      <SEOHead
-        title="Partner With Us - Affiliate & Retailer Opportunities"
-        description="Join our supplement affiliate network. FTC/FDA compliant platform with evidence-based content, real-time pricing, and quality traffic. ShareASale, Amazon, and iHerb partnerships available."
-        keywords="supplement affiliate program, retailer partnership, affiliate network, supplement marketing, price comparison partnership"
-      />
-      <div className="min-h-screen bg-tertiary" data-page-content>
+    <div className="min-h-screen bg-tertiary" data-page-content>
         {/* Hero Section */}
         <div
           className="relative flex items-center justify-center overflow-visible"
@@ -537,6 +530,5 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
 
         </div>
       </div>
-    </>
   );
 }

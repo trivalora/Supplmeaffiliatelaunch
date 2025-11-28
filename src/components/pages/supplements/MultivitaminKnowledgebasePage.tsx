@@ -6,7 +6,6 @@ import {
 } from '@/components/iconExports';
 import { PageKey } from '@/routes.config';
 import { getSupplementImage } from '@/lib/supplementImages';
-import { SEOHead, getSupplementSEO } from '@/components/SEOHead';
 
 export function MultivitaminKnowledgebasePage({ 
   onNavigate,
@@ -17,7 +16,6 @@ export function MultivitaminKnowledgebasePage({
   onContactClick?: () => void; 
   onLegalClick?: () => void 
 }) {
-  const benefits = ['nutrient insurance', 'immune support', 'energy metabolism', 'overall wellness', 'deficiency prevention'];
   
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Multivitamin",
@@ -318,7 +316,6 @@ export function MultivitaminKnowledgebasePage({
 
   return (
     <>
-      <SEOHead {...getSupplementSEO('Multivitamin', benefits, '/multivitamin')} />
       <KnowledgebaseTemplate {...pageProps} />
     </>
   );
