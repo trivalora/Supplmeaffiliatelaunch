@@ -1,6 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 import { NextRequest, NextResponse } from "next/server";
 import { headers } from "next/headers";
+import { sendGA4AffiliateClick } from "@/lib/ga4-measurement-protocol";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -199,6 +200,25 @@ export async function POST(request: NextRequest) {
         { status: 500 }
       );
     }
+
+    // Send to GA4 Measurement Protocol (conversion tracking)
+    // Fire and forget - don't block the response
+    sendGA4AffiliateClick(
+      body.visitorId,
+      {
+        productName: body.productName,
+        brand: body.brand,
+        supplementSlug: body.supplementSlug,
+        retailerSlug: body.retailerSlug,
+        price: body.price,
+        clickId,
+      },
+      {
+        sessionId: body.sessionId,
+      }
+    ).catch((err) => {
+      console.error("[Affiliate Click] GA4 MP send failed:", err);
+    });
 
     // Return success with tracking URL
     return NextResponse.json({

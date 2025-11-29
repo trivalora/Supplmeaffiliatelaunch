@@ -1,6 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 import { NextRequest, NextResponse } from "next/server";
 import { headers } from "next/headers";
+import { sendToGA4, convertToGA4Events } from "@/lib/ga4-measurement-protocol";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -234,6 +235,20 @@ export async function POST(request: NextRequest) {
         { success: false, error: "Failed to store events" },
         { status: 500 }
       );
+    }
+
+    // Send to GA4 Measurement Protocol (server-side, bypasses ad blockers)
+    // Fire and forget - don't block the response
+    if (data && data.length > 0 && !isBotRequest) {
+      const visitorId = events[0]?.visitorId;
+      if (visitorId) {
+        const ga4Events = convertToGA4Events(eventRecords);
+        sendToGA4(visitorId, ga4Events, {
+          userId: events[0]?.data?.userId as string | undefined,
+        }).catch((err) => {
+          console.error("[Events API] GA4 MP send failed:", err);
+        });
+      }
     }
 
     // Success response

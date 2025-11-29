@@ -1,6 +1,6 @@
 {
-  "name": "supplme-affiliate-launch",
-  "version": "0.6.0",
+  "name": "suppl-affiliate-launch",
+  "version": "0.6.1",
   "private": true,
   "engines": {
     "node": ">=22.x"
