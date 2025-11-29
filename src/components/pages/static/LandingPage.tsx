@@ -901,6 +901,7 @@ function NewsletterSection() {
 
   return (
     <section
+      id="newsletter"
       data-layout-section
       style={{ backgroundColor: "var(--section-bg-secondary)" }}
     >

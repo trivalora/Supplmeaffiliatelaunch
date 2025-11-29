@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import {
-  sendConfirmationEmail,
+  sendWaitlistConfirmationEmail,
   generateConfirmationToken,
   getTokenExpiration,
 } from "@/lib/mailersend";
@@ -10,30 +10,30 @@ export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
 /**
- * POST /api/subscribe
+ * POST /api/waitlist
  *
- * Subscribe a user to the newsletter (with double opt-in)
+ * Add a user to the waitlist (with double opt-in)
  *
  * Request body:
- * - email (string, required): Email address to subscribe
- * - source (string, optional): Source of subscription (default: 'landing_newsletter')
- *
- * Flow:
- * 1. Save subscriber with confirmed=false
- * 2. Generate confirmation token
- * 3. Send confirmation email via MailerSend
- * 4. User clicks link to confirm (handled by /api/newsletter/confirm)
+ * - email (string, required): Email address
+ * - name (string, optional): User's name
+ * - interest (string, optional): What they're interested in
+ * - referralSource (string, optional): How they heard about us
+ * - wantsNewsletter (boolean, optional): Also subscribe to newsletter
+ * - metadata (object, optional): Any additional custom data
  *
  * Returns:
  * - 201: Confirmation email sent
- * - 200: Already subscribed (and confirmed)
- * - 202: Confirmation email resent (existing unconfirmed subscriber)
+ * - 200: Already on waitlist (and confirmed)
+ * - 202: Confirmation email resent (existing unconfirmed)
  * - 400: Invalid email
  * - 500: Server error
  */
 export async function POST(request: NextRequest) {
   try {
-    const { email, source } = await request.json();
+    const body = await request.json();
+    const { email, name, interest, referralSource, wantsNewsletter, metadata } =
+      body;
 
     // Validation: Check if email is provided
     if (!email) {
@@ -63,17 +63,28 @@ export async function POST(request: NextRequest) {
     // Create Supabase client
     const supabase = createClient();
 
-    // Check if subscriber already exists
+    // Check if already on waitlist
     const { data: existing } = await supabase
-      .from("newsletter_subscribers")
+      .from("waitlist_signups")
       .select("id, email, confirmed, status")
       .eq("email", normalizedEmail)
       .single();
 
-    // Already confirmed - no action needed
-    if (existing?.confirmed) {
+    // Already confirmed and waiting
+    if (existing?.confirmed && existing?.status === "waiting") {
       return NextResponse.json(
-        { ok: true, message: "You're already subscribed to our newsletter!" },
+        {
+          ok: true,
+          message: "You're already on our waitlist! We'll be in touch soon.",
+        },
+        { status: 200 }
+      );
+    }
+
+    // Already converted
+    if (existing?.status === "converted") {
+      return NextResponse.json(
+        { ok: true, message: "Great news—you already have access!" },
         { status: 200 }
       );
     }
@@ -82,81 +93,82 @@ export async function POST(request: NextRequest) {
     const confirmationToken = generateConfirmationToken();
     const tokenExpiresAt = getTokenExpiration();
 
-    let subscriberId: string;
-
     if (existing) {
-      // Existing unconfirmed subscriber - update token and resend
+      // Existing unconfirmed signup - update token and resend
       const { error: updateError } = await supabase
-        .from("newsletter_subscribers")
+        .from("waitlist_signups")
         .update({
+          name: name?.trim() || null,
           confirmation_token: confirmationToken,
           token_expires_at: tokenExpiresAt.toISOString(),
-          status: "active",
+          status: "waiting",
           updated_at: new Date().toISOString(),
         })
         .eq("id", existing.id);
 
       if (updateError) {
-        console.error("Newsletter update error:", updateError);
+        console.error("Waitlist update error:", updateError);
         return NextResponse.json(
-          {
-            ok: false,
-            error: "Failed to process subscription. Please try again.",
-          },
+          { ok: false, error: "Failed to process signup. Please try again." },
           { status: 500 }
         );
       }
-
-      subscriberId = existing.id;
     } else {
-      // New subscriber - insert with confirmation token
-      const { data: newSubscriber, error: insertError } = await supabase
-        .from("newsletter_subscribers")
+      // New signup - insert with confirmation token
+      const { error: insertError } = await supabase
+        .from("waitlist_signups")
         .insert({
           email: normalizedEmail,
-          source: source || "landing_newsletter",
+          name: name?.trim() || null,
+          interest: interest?.trim() || null,
+          referral_source: referralSource?.trim() || null,
+          wants_newsletter: wantsNewsletter || false,
+          source: "waitlist",
           ip_address: ip,
           user_agent: userAgent,
           confirmed: false,
           confirmation_token: confirmationToken,
           token_expires_at: tokenExpiresAt.toISOString(),
-        })
-        .select("id")
-        .single();
+          metadata: metadata || {},
+        });
 
       if (insertError) {
-        // Handle race condition - someone inserted between our check and insert
+        // Handle race condition
         if (insertError.code === "23505") {
           return NextResponse.json(
-            { ok: true, message: "Please check your email for confirmation." },
+            {
+              ok: true,
+              message: "Please check your email to confirm your spot.",
+            },
             { status: 200 }
           );
         }
 
-        console.error("Newsletter subscription error:", insertError);
+        console.error("Waitlist signup error:", insertError);
         return NextResponse.json(
-          { ok: false, error: "Failed to subscribe. Please try again." },
+          { ok: false, error: "Failed to join waitlist. Please try again." },
           { status: 500 }
         );
       }
-
-      subscriberId = newSubscriber.id;
     }
 
     // Send confirmation email via MailerSend
-    const emailResult = await sendConfirmationEmail(
+    const emailResult = await sendWaitlistConfirmationEmail(
       normalizedEmail,
-      confirmationToken
+      confirmationToken,
+      name?.trim()
     );
 
     if (!emailResult.success) {
-      console.error("Failed to send confirmation email:", emailResult.error);
-      // Don't fail the request - subscriber is saved, they can request resend
+      console.error(
+        "Failed to send waitlist confirmation email:",
+        emailResult.error
+      );
       return NextResponse.json(
         {
           ok: true,
           message:
-            "Almost there! Please check your email to confirm your subscription.",
+            "Almost there! Please check your email to confirm your spot.",
           warning:
             "If you don't receive the email, please try again in a few minutes.",
         },
@@ -174,7 +186,7 @@ export async function POST(request: NextRequest) {
       {
         ok: true,
         message:
-          "Almost there! Please check your email to confirm your subscription.",
+          "Almost there! Please check your email to confirm your spot on the waitlist.",
         requiresConfirmation: true,
       },
       {
@@ -184,8 +196,8 @@ export async function POST(request: NextRequest) {
         },
       }
     );
-  } catch (error: any) {
-    console.error("Newsletter API error:", error);
+  } catch (error: unknown) {
+    console.error("Waitlist API error:", error);
     return NextResponse.json(
       { ok: false, error: "Internal server error" },
       { status: 500 }

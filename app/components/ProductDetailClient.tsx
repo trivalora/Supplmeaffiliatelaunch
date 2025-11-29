@@ -7,6 +7,7 @@ import {
   useAffiliateTooltip,
   AffiliateTooltip,
 } from "@/components/shared/ui-extensions/AffiliateTooltip";
+import { RefillReminderModal } from "@/components/shared/RefillReminderModal";
 import { ProductContextSection } from "@/components/shared/ProductContextSection";
 import {
   generateProductContent,
@@ -49,6 +50,7 @@ interface ProductDetails {
   net_contents?: string;
   form?: string[];
   dsld_content?: string;
+  servings_per_container?: number | null;
   dsld_label_info?: {
     serving_size?: string;
     ingredients?: Array<{
@@ -88,6 +90,29 @@ export function ProductDetailClient({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const tooltipHandlers = useAffiliateTooltip();
+
+  // Refill reminder modal state
+  const [showRefillModal, setShowRefillModal] = useState(false);
+  const [pendingBuyUrl, setPendingBuyUrl] = useState<string | null>(null);
+
+  // Handle buy click - show refill modal if product has servings data
+  const handleBuyClick = (url: string) => {
+    if (product?.servings_per_container) {
+      setPendingBuyUrl(url);
+      setShowRefillModal(true);
+    } else {
+      // No servings data, proceed directly
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+  };
+
+  // Continue to external buy URL after modal
+  const handleContinueToBuy = () => {
+    if (pendingBuyUrl) {
+      window.open(pendingBuyUrl, "_blank", "noopener,noreferrer");
+      setPendingBuyUrl(null);
+    }
+  };
 
   useEffect(() => {
     async function loadProduct() {
@@ -151,6 +176,9 @@ export function ProductDetailClient({
           form: apiProduct.form || [],
           dsld_content: apiProduct.dsld_content,
           dsld_label_info: apiProduct.dsld_label_info,
+          servings_per_container: apiProduct.servings_per_container
+            ? parseInt(apiProduct.servings_per_container, 10)
+            : null,
         };
 
         setProduct(mappedProduct);
@@ -539,6 +567,14 @@ export function ProductDetailClient({
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                onClick={(e) => {
+                                  if (product?.servings_per_container) {
+                                    e.preventDefault();
+                                    handleBuyClick(
+                                      addUTMParameters(retailer.product_url)
+                                    );
+                                  }
+                                }}
                                 {...tooltipHandlers}
                               >
                                 <div className="h-5 w-5">
@@ -554,6 +590,14 @@ export function ProductDetailClient({
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                onClick={(e) => {
+                                  if (product?.servings_per_container) {
+                                    e.preventDefault();
+                                    handleBuyClick(
+                                      addUTMParameters(retailer.product_url)
+                                    );
+                                  }
+                                }}
                                 {...tooltipHandlers}
                               >
                                 <img
@@ -572,6 +616,14 @@ export function ProductDetailClient({
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                onClick={(e) => {
+                                  if (product?.servings_per_container) {
+                                    e.preventDefault();
+                                    handleBuyClick(
+                                      addUTMParameters(retailer.product_url)
+                                    );
+                                  }
+                                }}
                                 {...tooltipHandlers}
                               >
                                 <img
@@ -589,6 +641,14 @@ export function ProductDetailClient({
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-[#FF9900] hover:bg-[#FF9900]/90 transition-colors"
+                                onClick={(e) => {
+                                  if (product?.servings_per_container) {
+                                    e.preventDefault();
+                                    handleBuyClick(
+                                      addUTMParameters(retailer.product_url)
+                                    );
+                                  }
+                                }}
                                 {...tooltipHandlers}
                               >
                                 <img
@@ -604,6 +664,14 @@ export function ProductDetailClient({
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                onClick={(e) => {
+                                  if (product?.servings_per_container) {
+                                    e.preventDefault();
+                                    handleBuyClick(
+                                      addUTMParameters(retailer.product_url)
+                                    );
+                                  }
+                                }}
                                 {...tooltipHandlers}
                               >
                                 <img
@@ -622,6 +690,14 @@ export function ProductDetailClient({
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                onClick={(e) => {
+                                  if (product?.servings_per_container) {
+                                    e.preventDefault();
+                                    handleBuyClick(
+                                      addUTMParameters(retailer.product_url)
+                                    );
+                                  }
+                                }}
                                 {...tooltipHandlers}
                               >
                                 <img
@@ -640,6 +716,14 @@ export function ProductDetailClient({
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
+                                onClick={(e) => {
+                                  if (product?.servings_per_container) {
+                                    e.preventDefault();
+                                    handleBuyClick(
+                                      addUTMParameters(retailer.product_url)
+                                    );
+                                  }
+                                }}
                                 {...tooltipHandlers}
                               >
                                 <img
@@ -657,6 +741,14 @@ export function ProductDetailClient({
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors font-medium"
+                                onClick={(e) => {
+                                  if (product?.servings_per_container) {
+                                    e.preventDefault();
+                                    handleBuyClick(
+                                      addUTMParameters(retailer.product_url)
+                                    );
+                                  }
+                                }}
                                 {...tooltipHandlers}
                               >
                                 Buy Now at {retailer.retailer}
@@ -916,6 +1008,24 @@ export function ProductDetailClient({
         </div>
 
         <AffiliateTooltip />
+
+        {/* Refill Reminder Modal */}
+        {product && (
+          <RefillReminderModal
+            isOpen={showRefillModal}
+            onClose={() => {
+              setShowRefillModal(false);
+              setPendingBuyUrl(null);
+            }}
+            product={{
+              id: product.id,
+              name: product.dsld_product_name,
+              brand: product.brand,
+              servings_per_container: product.servings_per_container ?? null,
+            }}
+            onContinue={handleContinueToBuy}
+          />
+        )}
       </main>
     </>
   );
