@@ -15,6 +15,7 @@ import {
   type ProductPageContent,
 } from "@/lib/product-content-generator";
 import type { SupplementProductContext } from "@/lib/product-context-data";
+import { estimateServingsPerContainer } from "@/lib/servings-calculator";
 import IHerbBadgeLogoRgb from "@/imports/IHerbBadgeLogoRgb1-106-1526";
 
 // Amazon button image path (optimized version available)
@@ -95,13 +96,25 @@ export function ProductDetailClient({
   const [showRefillModal, setShowRefillModal] = useState(false);
   const [pendingBuyUrl, setPendingBuyUrl] = useState<string | null>(null);
 
-  // Handle buy click - show refill modal if product has servings data
+  // Calculate estimated servings from available data
+  const estimatedServings = useMemo(() => {
+    if (!product) return null;
+    const servingSize = product.dsld_label_info?.serving_size || null;
+    const estimate = estimateServingsPerContainer({
+      servings_per_container: product.servings_per_container,
+      net_contents: product.net_contents,
+      serving_size: servingSize,
+    });
+    return estimate?.servingsPerContainer ?? null;
+  }, [product]);
+
+  // Handle buy click - show refill modal if we can estimate servings
   const handleBuyClick = (url: string) => {
-    if (product?.servings_per_container) {
+    if (estimatedServings) {
       setPendingBuyUrl(url);
       setShowRefillModal(true);
     } else {
-      // No servings data, proceed directly
+      // No servings data available, proceed directly
       window.open(url, "_blank", "noopener,noreferrer");
     }
   };
@@ -1021,7 +1034,7 @@ export function ProductDetailClient({
               id: product.id,
               name: product.dsld_product_name,
               brand: product.brand,
-              servings_per_container: product.servings_per_container ?? null,
+              servings_per_container: estimatedServings,
             }}
             onContinue={handleContinueToBuy}
           />
