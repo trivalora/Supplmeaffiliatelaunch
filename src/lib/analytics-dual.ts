@@ -347,13 +347,19 @@ export function trackEventDual(
   const sessionId = getSessionId();
   const utm = getUTMParams();
   const device = getDeviceInfo();
-  const timestamp = new Date().toISOString();
+  const timestamp = Date.now();
+  const timestampISO = new Date(timestamp).toISOString();
+
+  // Generate event_id for deduplication (same ID will be used by GTM and server)
+  // GA4 automatically deduplicates events with the same event_id within 24 hours
+  const eventId = `${eventName}_${visitorId}_${timestamp}`.substring(0, 40);
 
   // Send to GTM (existing behavior)
   if (options.sendToGTM !== false) {
     pushToDataLayer({
       event: eventName,
       ...data,
+      event_id: eventId, // For GA4 deduplication
       timestamp,
     });
   }
@@ -370,7 +376,11 @@ export function trackEventDual(
       referrer: document.referrer,
       utm,
       device,
-      data,
+      data: {
+        ...data,
+        event_id: eventId, // Same event_id for deduplication
+        timestamp,
+      },
     });
   }
 }

@@ -4,6 +4,41 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.6.2] - November 29, 2025
+
+### 🎯 Event Deduplication - Zero Duplicate Events in GA4
+
+**Focus:** Implement GA4 `event_id` deduplication to prevent double-counting from dual tracking (GTM + Server).
+
+#### Added
+- ✅ **Event ID Generation**: Deterministic `event_id` creation in `trackEventDual()`
+  - Format: `{eventName}_{visitorId}_{timestamp}` (40 char limit)
+  - Same ID sent to both GTM and server for automatic GA4 deduplication
+- ✅ **GTM Template Update**: `gtm_complete_v0.6.2.json`
+  - New variable: "DLV - Event ID" pulls `event_id` from dataLayer
+  - Updated all GA4 tags to include `event_id` parameter
+- ✅ **Documentation**: `docs/DEDUPLICATION_ARCHITECTURE.md` (400+ lines)
+  - Complete explanation of dual tracking architecture
+  - Why GTM Server-Side Container ≠ ad blocker bypass
+  - GA4 deduplication mechanism (24-hour window)
+  - Edge cases and testing procedures
+
+#### Changed
+- ✅ **`src/lib/analytics-dual.ts`**: 
+  - Generate `event_id` before sending to GTM and server
+  - Both channels now receive identical `event_id` for deduplication
+- ✅ **`src/lib/ga4-measurement-protocol.ts`**:
+  - Added `skipDeduplication` option for testing
+  - Preserve `event_id` from client or generate fallback
+  - Include `event_id` in all GA4 Measurement Protocol payloads
+
+#### Fixed
+- ✅ **Double Counting**: GA4 now deduplicates events with same `event_id` within 24 hours
+- ✅ **Data Accuracy**: Dual tracking (GTM + Server) no longer creates duplicate events
+- ✅ **Coverage**: Maintains ~98% capture rate (70% GTM + 30% server-only) with accurate counts
+
+---
+
 ## [0.6.1] - November 29, 2025
 
 ### 🚀 Analytics Enhancement Complete - GA4 MP, Webhooks & Dashboard

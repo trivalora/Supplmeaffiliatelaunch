@@ -52,6 +52,7 @@ export async function sendToGA4(
     userId?: string;
     userProperties?: GA4UserProperties;
     debug?: boolean;
+    skipDeduplication?: boolean; // For testing purposes
   } = {}
 ): Promise<boolean> {
   // Skip if not configured
@@ -71,17 +72,38 @@ export async function sendToGA4(
   const endpoint = options.debug ? GA4_DEBUG_ENDPOINT : GA4_ENDPOINT;
   const url = `${endpoint}?measurement_id=${GA4_MEASUREMENT_ID}&api_secret=${GA4_API_SECRET}`;
 
-  // Build payload
+  // Build payload with deduplication
   const payload: GA4Payload = {
     client_id: clientId,
-    events: events.map((event) => ({
-      name: normalizeEventName(event.name),
-      params: {
+    events: events.map((event) => {
+      const params = {
         ...sanitizeEventParams(event.params),
         // Required for session tracking
         engagement_time_msec: event.params.engagement_time_msec || 100,
-      },
-    })),
+      };
+
+      // Add event_id for deduplication (unless explicitly skipped)
+      // GA4 will automatically deduplicate events with the same event_id within 24 hours
+      if (!options.skipDeduplication) {
+        // Use existing event_id if provided, or generate one
+        if (!params.event_id) {
+          // Generate deterministic event_id based on: timestamp + visitor_id + event_name
+          // This ensures GTM and Server send the same event_id for the same event
+          const timestamp = event.params.timestamp || Date.now();
+          const visitorId = event.params.visitor_id || clientId;
+          const eventName = event.name;
+          params.event_id = `${eventName}_${visitorId}_${timestamp}`.substring(
+            0,
+            40
+          );
+        }
+      }
+
+      return {
+        name: normalizeEventName(event.name),
+        params,
+      };
+    }),
   };
 
   // Add optional fields
