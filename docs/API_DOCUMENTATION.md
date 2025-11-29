@@ -1,8 +1,8 @@
 # API Endpoints Documentation
 
 **Base URL**: `https://www.suppl.me/api`  
-**Version**: 1.1  
-**Last Updated**: November 27, 2025
+**Version**: 1.2  
+**Last Updated**: November 29, 2025
 
 ---
 
@@ -103,12 +103,44 @@ GET /api/supplements/ashwagandha
     "meta_title": "Ashwagandha - Evidence-Based Research",
     "meta_description": "Comprehensive meta-analysis review...",
     "meta_keywords": ["ashwagandha", "adaptogens"],
+    "quick_overview": "An adaptogenic herb traditionally used in Ayurvedic medicine...",
+    "extended_overview": "Ashwagandha (Withania somnifera) has been used for over 3,000 years...",
+    "science_snapshot": "Clinical studies have shown that ashwagandha root extract...",
+    "key_benefits": ["Supports healthy cortisol levels", "May help with occasional stress", "..."],
+    "ideal_for": ["Those managing daily stress", "People seeking adaptogenic support", "..."],
+    "timing_tips": ["Can be taken morning or evening depending on your goals", "..."],
+    "quality_markers": ["KSM-66", "Sensoril", "root extract", "..."],
+    "safety_considerations": ["Generally well-tolerated at recommended doses", "..."],
+    "what_to_expect_summary": ["Most users begin noticing subtle changes...", "..."],
+    "typical_dosage_min": 300,
+    "typical_dosage_max": 600,
+    "typical_dosage_unit": "mg",
+    "form_notes": {"capsule": "Convenient for consistent daily dosing...", "..."},
+    "what_to_expect": {"primaryOutcome": {"label": "Stress Support", "timeframe": "4-8 weeks", "intensity": "Moderate"}, "secondaryOutcome": {"..."}},
+    "synergy_notes": "Often combined with other adaptogens like rhodiola...",
     "product_count": 96,
     "created_at": "2025-11-26T00:00:00Z",
-    "updated_at": "2025-11-26T00:00:00Z"
+    "updated_at": "2025-11-29T00:00:00Z"
   }
 }
 ```
+
+**Response Fields (v0.5.0 additions)**:
+- `quick_overview` (string) - Brief 1-2 sentence description
+- `extended_overview` (string) - Detailed 150+ word scientific explanation
+- `science_snapshot` (string) - Research summary paragraph
+- `key_benefits` (string[]) - Array of benefit statements (6-8 items)
+- `ideal_for` (string[]) - Target audience array (4-5 items)
+- `timing_tips` (string[]) - When/how to take guidance (3-4 items)
+- `quality_markers` (string[]) - What to look for when buying (4-5 items)
+- `safety_considerations` (string[]) - Safety information (3-4 items)
+- `what_to_expect_summary` (string[]) - Timeline expectations (3-4 items)
+- `typical_dosage_min` (number) - Minimum typical dosage
+- `typical_dosage_max` (number) - Maximum typical dosage
+- `typical_dosage_unit` (string) - Dosage unit (mg, mcg, IU, etc.)
+- `form_notes` (object) - Form-specific guidance keyed by form type
+- `what_to_expect` (object) - Primary/secondary outcome timelines
+- `synergy_notes` (string) - Complementary supplement combinations
 
 **Cache**: 1 hour
 
@@ -438,6 +470,26 @@ interface Supplement {
   meta_title: string;
   meta_description: string;
   meta_keywords: string[];
+  // Extended content fields (v0.5.0)
+  quick_overview: string | null;
+  extended_overview: string | null;
+  science_snapshot: string | null;
+  key_benefits: string[];
+  ideal_for: string[];
+  timing_tips: string[];
+  quality_markers: string[];
+  safety_considerations: string[];
+  what_to_expect_summary: string[];
+  typical_dosage_min: number | null;
+  typical_dosage_max: number | null;
+  typical_dosage_unit: string | null;
+  form_notes: Record<string, string> | null;
+  what_to_expect: {
+    primaryOutcome?: { label: string; timeframe: string; intensity: string };
+    secondaryOutcome?: { label: string; timeframe: string; intensity: string };
+  } | null;
+  synergy_notes: string | null;
+  // Computed fields
   product_count?: number;
   avg_price?: number;
   min_price?: number;

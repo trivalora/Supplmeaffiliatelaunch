@@ -4,6 +4,97 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.5.0] - November 29, 2025
+
+### 📝 Supplement Content Migration & SEO Enhancement
+
+**Focus:** Migrate supplement content to Supabase database for dynamic, SEO-optimized 400+ word product page paragraphs
+
+#### Added - Database Schema
+- ✅ Added 14 new columns to `api.supplements` table for rich content:
+  - `quick_overview` - Brief 1-2 sentence description
+  - `extended_overview` - Detailed 150+ word scientific explanation
+  - `science_snapshot` - Research summary paragraph
+  - `key_benefits[]` - Array of benefit statements (6-8 items)
+  - `ideal_for[]` - Target audience array (4-5 items)
+  - `timing_tips[]` - When/how to take guidance (3-4 items)
+  - `quality_markers[]` - What to look for when buying (4-5 items)
+  - `safety_considerations[]` - Safety information (3-4 items)
+  - `what_to_expect_summary[]` - Timeline expectations (3-4 items)
+  - `typical_dosage_min`, `typical_dosage_max`, `typical_dosage_unit` - Dosage range
+  - `form_notes` (JSONB) - Form-specific guidance (capsule, powder, liquid, etc.)
+  - `what_to_expect` (JSONB) - Primary/secondary outcome timelines
+  - `synergy_notes` - Complementary supplement combinations
+
+#### Added - Migration Files
+- ✅ `supabase/migrations/20251129000001_add_supplement_content.sql` - Schema migration
+- ✅ `supabase/migrations/20251129000002_seed_supplement_content.sql` - Data seed (345 lines, 18 supplements)
+- ✅ `scripts/migration/migrate-supplement-content-to-db.mts` - Migration script generator
+- ✅ `scripts/test-product-content.mts` - Content generation test script
+
+#### Added - Content Generation System
+- ✅ `src/lib/product-content-generator.ts` - Dynamic SEO content generation
+  - `EXTENDED_OVERVIEW_TEMPLATES` - 5 templates for 400+ word overview paragraphs
+  - `EXTENDED_DETAILS_TEMPLATES` - 5 templates for 400+ word detail paragraphs
+  - `mapApiSupplementToContext()` - Maps API response to content context
+  - `generateProductContent()` - Generates unique product page content
+  - Hash-based template selection for consistency
+- ✅ `src/lib/product-context-data.ts` - TypeScript fallback data store
+  - Complete `SupplementProductContext` interface
+  - `SUPPLEMENT_PRODUCT_CONTEXT` object with all 17 supplements
+
+#### Changed - Frontend
+- ✅ `app/components/ProductDetailClient.tsx` - Updated to fetch supplement context from API
+  - Added parallel fetch: `Promise.all([productFetch, supplementFetch])`
+  - Added `supplementContext` state management
+  - Passes pre-fetched context to `generateProductContent()`
+  - Backward compatible: falls back to TypeScript if API unavailable
+
+#### Data Migration
+- 📊 **17 supplements** with complete extended content:
+  - Ashwagandha, BCAAs, Calcium, Casein Protein, Collagen Peptides
+  - Creatine, Curcumin, Iron, Magnesium, Multivitamin
+  - Omega-3, Prebiotics, Probiotics, Vitamin B12, Vitamin C
+  - Vitamin D, Whey Protein, Zinc
+- 📊 Each supplement includes 12-14 content fields
+- 📊 Total content: ~15,000 words across all supplements
+
+#### SEO Impact
+- ⬆️ Product page content increased from ~180-330 words to 400+ words per paragraph
+- ⬆️ Unique, hash-based template selection prevents duplicate content
+- ⬆️ Form-specific (capsule/powder/gummy/liquid) and dosage-aware content
+- ⬆️ Scientific accuracy with research-backed claims
+- ⬆️ Proper hedging language for FTC/FDA compliance
+
+#### API Response (Updated)
+```json
+GET /api/supplements/ashwagandha
+{
+  "supplement": {
+    "id": "uuid",
+    "slug": "ashwagandha",
+    "name": "Ashwagandha",
+    "quick_overview": "An adaptogenic herb traditionally used in Ayurvedic medicine...",
+    "extended_overview": "Ashwagandha (Withania somnifera) has been used for over 3,000 years...",
+    "science_snapshot": "Clinical studies have shown that ashwagandha root extract...",
+    "key_benefits": ["Supports healthy cortisol levels", "May help with occasional stress", ...],
+    "ideal_for": ["Those managing daily stress", "People seeking adaptogenic support", ...],
+    "timing_tips": ["Can be taken morning or evening depending on your goals", ...],
+    "quality_markers": ["KSM-66", "Sensoril", "root extract", ...],
+    "safety_considerations": ["Generally well-tolerated at recommended doses", ...],
+    "what_to_expect_summary": ["Most users begin noticing subtle changes...", ...],
+    "typical_dosage_min": 300,
+    "typical_dosage_max": 600,
+    "typical_dosage_unit": "mg",
+    "form_notes": {"capsule": "Convenient for consistent daily dosing...", ...},
+    "what_to_expect": {"primaryOutcome": {...}, "secondaryOutcome": {...}},
+    "synergy_notes": "Often combined with other adaptogens like rhodiola..."
+  }
+}
+```
+
+---
+
 ## [0.4.1] - December 2024
 
 ### 📚 Glossary Backend Extension

@@ -1,7 +1,7 @@
 # Documentation Index
 
-**Project:** Suppl.me v0.3 - Evidence-Based Supplement Information Platform  
-**Status:** ✅ Production Ready (Nov 25, 2025)  
+**Project:** Suppl.me v0.5.0 - Evidence-Based Supplement Information Platform  
+**Status:** ✅ Production Ready (Nov 29, 2025)  
 **Tech Stack:** Next.js 16 + React 19 + TypeScript + Tailwind CSS v4
 
 ---
@@ -18,6 +18,14 @@
 - 🚀 **[Production Readiness Report](../PRODUCTION_READY.md)** - Full audit
 
 ### Recent Updates
+
+#### Nov 29, 2025
+
+- ✅ **Supplement Content Migration** - 14 new columns for rich product content
+- ✅ **SEO Enhancement** - 400+ word unique paragraphs per product page
+- ✅ **Content Generator** - Template-based system with hash selection
+- ✅ **API Update** - Supplement endpoint returns extended content fields
+- ✅ **Frontend Integration** - ProductDetailClient fetches from API
 
 #### Nov 27, 2025
 

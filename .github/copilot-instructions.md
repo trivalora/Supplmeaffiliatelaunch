@@ -4,8 +4,8 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.4.1 (Dec 2024)  
-**Status:** ✅ Production-ready with glossary backend complete  
+**Current Version:** 0.5.0 (Nov 2025)  
+**Status:** ✅ Production-ready with supplement content migration complete  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
 **Key Stats:**
@@ -15,6 +15,17 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices, **197 glossary terms**)
 - ✅ SEO Score: 9.75/10 - Excellent implementation
 - ✅ Template System: 9/10 - Strong, consistent, reusable
+- ✅ Product Content: 400+ word SEO paragraphs (dynamic generation)
+
+**Version 0.5.0 Highlights:**
+📝 **Supplement Content Migration** ✅
+
+- **Database**: 14 new columns added to `api.supplements` for rich content
+- **Content**: Extended overview, science snapshot, benefits, timing tips, etc.
+- **SEO**: 400+ word unique paragraphs for each product page
+- **Generator**: `src/lib/product-content-generator.ts` with 5 templates each
+- **API**: Supplement context fetched in parallel with product data
+- **See**: `CHANGELOG.md` for v0.5.0 details
 
 **Version 0.4.1 Highlights:**
 📚 **Glossary Backend Complete** ✅
@@ -51,11 +62,16 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 
 ```
 Supabase/PostgreSQL (Schema: api)
-├── supplements (17 rows)
+├── supplements (17 rows) ← Extended with 14 content columns in v0.5.0
+│   ├── quick_overview, extended_overview, science_snapshot
+│   ├── key_benefits[], ideal_for[], timing_tips[]
+│   ├── quality_markers[], safety_considerations[], what_to_expect_summary[]
+│   ├── typical_dosage_min/max/unit
+│   ├── form_notes (JSONB), what_to_expect (JSONB), synergy_notes
 ├── products (1,691 rows)
 ├── retailers (7 rows)
 ├── prices (11,837 rows)
-└── glossary_terms (197 rows) ← NEW in v0.4.1
+└── glossary_terms (197 rows)
     ├── 60 with abbreviations (30.5%)
     ├── 27 with related_terms links
     └── 187 with SEO metadata (94.9%)
@@ -478,6 +494,7 @@ git push origin main          # Auto-deploys to Vercel
 
 **Recent Updates:**
 
+- ✅ **v0.5.0** (Nov 29, 2025): Supplement content migration - 400+ word SEO paragraphs
 - ✅ **v0.4.1** (Dec 2024): Glossary backend complete - 197 terms in database
 - ✅ **v0.4.0** (Nov 27, 2025): Workspace cleanup - 50+ files archived
 - ✅ **v0.3.0** (Nov 26-27, 2025): Database migration complete - Supabase production ready
@@ -488,7 +505,8 @@ git push origin main          # Auto-deploys to Vercel
 - ✅ Week 1-2: Database setup (17 supplements, 1,691 products, 11,837 prices)
 - ✅ Week 3: API development (5 endpoints, all operational)
 - ✅ Week 3.5: Glossary backend (197 terms, 2 new endpoints)
-- 🔄 Week 4: Frontend integration (in planning)
+- ✅ Week 4: Supplement content migration (14 new columns, SEO content)
+- 🔄 Week 5: Frontend integration (in planning)
 
 **Architecture Notes:**
 
@@ -499,28 +517,38 @@ git push origin main          # Auto-deploys to Vercel
 
 ---
 
-## ✅ Production Status (v0.4.1 - Dec 2024)
+## ✅ Production Status (v0.5.0 - Nov 2025)
 
 ### All Systems Operational
 
 **API Endpoints (Production):**
 
 ```
-✅ GET /api/supplements → 200 OK (17 supplements)
-✅ GET /api/supplements/[slug] → 200 OK (single supplement)
+✅ GET /api/supplements → 200 OK (17 supplements with extended content)
+✅ GET /api/supplements/[slug] → 200 OK (single supplement + content fields)
 ✅ GET /api/supplements/[slug]/products → 200 OK (paginated, filtered)
 ✅ GET /api/products/[id] → 200 OK (single product)
 ✅ GET /api/products/search → 200 OK (full-text search)
-✅ GET /api/glossary → 200 OK (197 terms, search & pagination) ← NEW
-✅ GET /api/glossary/[slug] → 200 OK (single term) ← NEW
+✅ GET /api/glossary → 200 OK (197 terms, search & pagination)
+✅ GET /api/glossary/[slug] → 200 OK (single term)
 ```
 
 **Infrastructure:**
 
-- ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices, **197 glossary terms**)
+- ✅ Supabase PostgreSQL backend (17 supplements with extended content, 1,691 products, 11,837 prices, **197 glossary terms**)
 - ✅ Vercel hosting with all environment variables configured
 - ✅ App Router API routes (App Router style, not Pages Router)
 - ✅ Clean workspace (migration artifacts archived)
+- ✅ Product content generator for SEO-optimized paragraphs
+
+**v0.5.0 Changes:**
+
+- 📝 Supplement content: 14 new columns for rich product context
+- 🔧 Content generator: `src/lib/product-content-generator.ts`
+- 📖 5 extended overview templates + 5 extended details templates
+- ✅ Hash-based template selection for unique content per product
+- 🚀 Parallel API fetch in ProductDetailClient for performance
+- 📊 400+ word SEO paragraphs for each product page
 
 **v0.4.1 Changes:**
 

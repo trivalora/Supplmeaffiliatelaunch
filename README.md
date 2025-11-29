@@ -2,10 +2,10 @@
 
 ## 🚀 Production Status
 
-**Version**: 0.4.1  
+**Version**: 0.5.0  
 **Build Status**: ✅ Successful (0 errors, 0 warnings)  
 **Pages Generated**: 1,936 static pages  
-**Last Updated**: December 2024  
+**Last Updated**: November 2025  
 
 ### Current State
 - ✅ **Production Ready**: All systems operational
@@ -261,6 +261,15 @@ npx tsx scripts/data-pipeline/utilities/test-bodybuilding-fix.ts
 - **package.json** - Dependencies and scripts
 
 ## Recent Updates
+
+### ✅ Version 0.5.0 - Supplement Content Migration (Nov 29, 2025)
+- Migrated supplement content to Supabase for SEO-optimized product pages
+- Added 14 new columns to `api.supplements` table for rich content
+- Generates unique 400+ word paragraphs for each product page
+- Dynamic content based on form type (capsule, powder, gummy, liquid)
+- Hash-based template selection for content uniqueness
+- Parallel API fetch in ProductDetailClient for performance
+- See [CHANGELOG.md](CHANGELOG.md) for full details
 
 ### ✅ Version 0.4.1 - Glossary Backend Complete (Dec 2024)
 - Migrated 197 glossary terms to Supabase database

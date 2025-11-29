@@ -5,7 +5,7 @@
 ## 🎯 Quick Project Identity
 
 **Name:** Suppl.me - Evidence-Based Supplement Comparison Platform  
-**Version:** 0.4.1 (Production - December 2024)  
+**Version:** 0.5.0 (Production - November 2025)  
 **Stack:** Next.js 16 + React 19 + Supabase PostgreSQL + TypeScript + Tailwind v4  
 **Status:** ✅ Production-ready, 1,936 pages live on Vercel
 
@@ -25,8 +25,9 @@
 
 - **Database:** Supabase PostgreSQL (schema: `api`, NOT `public`)
 - **Tables:** 5 tables (supplements, products, retailers, prices, glossary_terms)
-- **Data:** 17 supplements, 1,691 products, 11,837 prices, 197 glossary terms
+- **Data:** 17 supplements (with extended content), 1,691 products, 11,837 prices, 197 glossary terms
 - **API:** 7 endpoints (all App Router style in `app/api/`)
+- **Content:** 14 extended columns for SEO-optimized product page content
 
 ### Deployment
 
@@ -388,6 +389,47 @@ NEXT_PUBLIC_SITE_URL=https://www.suppl.me
 
 ---
 
-**Last Updated:** December 2024  
-**Version:** 0.4.1  
+**Last Updated:** November 2025  
+**Version:** 0.5.0  
 **Status:** Production Ready ✅
+
+---
+
+## 📝 Product Content Generation
+
+### SEO Content System (v0.5.0)
+
+Product pages generate unique 400+ word paragraphs using:
+
+**Key Files:**
+- `src/lib/product-content-generator.ts` - Template-based content generation
+- `src/lib/product-context-data.ts` - TypeScript fallback data
+- `app/components/ProductDetailClient.tsx` - Fetches supplement context from API
+
+**Database Columns (14 new in v0.5.0):**
+- `quick_overview` - Brief 1-2 sentence description
+- `extended_overview` - Detailed 150+ word scientific explanation
+- `science_snapshot` - Research summary paragraph
+- `key_benefits[]` - Array of benefit statements
+- `ideal_for[]` - Target audience array
+- `timing_tips[]` - When/how to take guidance
+- `quality_markers[]` - What to look for when buying
+- `safety_considerations[]` - Safety information
+- `what_to_expect_summary[]` - Timeline expectations
+- `typical_dosage_min/max/unit` - Dosage range
+- `form_notes` (JSONB) - Form-specific guidance
+- `what_to_expect` (JSONB) - Primary/secondary outcome timelines
+- `synergy_notes` - Complementary supplement combinations
+
+**Content Generation Flow:**
+```
+ProductDetailClient
+    ↓
+Parallel fetch: product + supplement context
+    ↓
+generateProductContent(product, supplementContext)
+    ↓
+Hash-based template selection (5 overview + 5 detail templates)
+    ↓
+400+ word unique paragraphs
+```
