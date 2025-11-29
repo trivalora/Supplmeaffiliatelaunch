@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Magnesium - Scientific Evidence & Price Comparison",
-    "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation",
+    "description": "Enhanced meta-analysis review of magnesium glycinate for blood pressure, glucose, and inflammation",
     "category": "Minerals",
     "brand": {
       "@type": "Brand",
@@ -22,15 +22,15 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Magnesium",
-    "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation",
+    "name": "Magnesium Glycinate",
+    "description": "Enhanced meta-analysis review of magnesium glycinate for blood pressure, glucose, and inflammation",
     "about": {
       "@type": "Thing",
       "name": "Magnesium",
-      "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation"
+      "description": "Enhanced meta-analysis review of magnesium glycinate for blood pressure, glucose, and inflammation"
     },
     "url": "https://www.suppl.me/magnesium",
-    "lastReviewed": "2025-11-28",
+    "lastReviewed": "2025-11-29",
     "reviewedBy": {
       "@type": "Organization",
       "name": "suppl.me Research Team"
@@ -42,7 +42,7 @@
     "mainEntity": {
       "@type": "Drug",
       "name": "Magnesium",
-      "description": "Enhanced meta-analysis review of magnesium for blood pressure, glucose, and inflammation",
+      "description": "Enhanced meta-analysis review of magnesium glycinate for blood pressure, glucose, and inflammation",
       "drugClass": "Dietary Supplement"
     }
   },

@@ -40,19 +40,22 @@ export function MagnesiumKnowledgebasePage({
     overviewContent: (
       <>
         <p>
-          Magnesium glycinate is a <span className="font-medium">highly bioavailable form</span>{" "}
-          of magnesium bound to glycine, an amino acid. This chelated form is known for its
-          excellent absorption and gentle effect on the digestive system, making it ideal for
-          those who experience GI discomfort with other magnesium forms. Magnesium is involved
-          in over 300 enzymatic reactions, critical for muscle and nerve function, blood glucose
+          Magnesium glycinate is a{" "}
+          <span className="font-medium">highly bioavailable form</span> of
+          magnesium bound to glycine, an amino acid. This chelated form is known
+          for its excellent absorption and gentle effect on the digestive
+          system, making it ideal for those who experience GI discomfort with
+          other magnesium forms. Magnesium is involved in over 300 enzymatic
+          reactions, critical for muscle and nerve function, blood glucose
           control, blood pressure regulation, and protein synthesis.
         </p>
 
         <p style={{ marginTop: "var(--space-md)" }}>
-          The glycinate form is particularly favored for sleep support and relaxation due to
-          glycine's calming properties. Meta-analytic evidence demonstrates modest but consistent
-          benefits for blood pressure reduction, glucose metabolism, and inflammation marker
-          improvements. Unlike inorganic forms (oxide, chloride), magnesium glycinate rarely
+          The glycinate form is particularly favored for sleep support and
+          relaxation due to glycine's calming properties. Meta-analytic evidence
+          demonstrates modest but consistent benefits for blood pressure
+          reduction, glucose metabolism, and inflammation marker improvements.
+          Unlike inorganic forms (oxide, chloride), magnesium glycinate rarely
           causes diarrhea and is well-tolerated even at higher doses.
         </p>
       </>

@@ -1,12 +1,19 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   useAffiliateTooltip,
   AffiliateTooltip,
 } from "@/components/shared/ui-extensions/AffiliateTooltip";
+import { ProductContextSection } from "@/components/shared/ProductContextSection";
+import {
+  generateProductContent,
+  mapApiSupplementToContext,
+  type ProductPageContent,
+} from "@/lib/product-content-generator";
+import type { SupplementProductContext } from "@/lib/product-context-data";
 import IHerbBadgeLogoRgb from "@/imports/IHerbBadgeLogoRgb1-106-1526";
 
 // Amazon button image path (optimized version available)
@@ -76,6 +83,8 @@ export function ProductDetailClient({
 }: ProductDetailClientProps) {
   const router = useRouter();
   const [product, setProduct] = useState<ProductDetails | null>(null);
+  const [supplementContext, setSupplementContext] =
+    useState<SupplementProductContext | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const tooltipHandlers = useAffiliateTooltip();
@@ -83,20 +92,35 @@ export function ProductDetailClient({
   useEffect(() => {
     async function loadProduct() {
       try {
-        const response = await fetch(`/api/products/${productId}`);
+        // Fetch product and supplement context in parallel
+        const [productResponse, supplementResponse] = await Promise.all([
+          fetch(`/api/products/${productId}`),
+          fetch(`/api/supplements/${supplement}`),
+        ]);
 
-        if (!response.ok) {
-          throw new Error(`Failed to load data: ${response.status}`);
+        if (!productResponse.ok) {
+          throw new Error(`Failed to load product: ${productResponse.status}`);
         }
 
-        const data = await response.json();
+        const productData = await productResponse.json();
 
-        if (!data.product) {
+        if (!productData.product) {
           throw new Error("Product not found");
         }
 
+        // Map supplement context from API if available
+        if (supplementResponse.ok) {
+          const supplementData = await supplementResponse.json();
+          if (supplementData.supplement) {
+            const mappedContext = mapApiSupplementToContext(
+              supplementData.supplement
+            );
+            setSupplementContext(mappedContext);
+          }
+        }
+
         // Map API response to ProductDetails interface
-        const apiProduct = data.product;
+        const apiProduct = productData.product;
         const mappedProduct: ProductDetails = {
           id: apiProduct.id,
           dsld_id: apiProduct.dsld_id,
@@ -140,6 +164,39 @@ export function ProductDetailClient({
 
     loadProduct();
   }, [productId]);
+
+  // Generate dynamic, unique content for this product (must be before early returns)
+  const productContent = useMemo(() => {
+    if (!product) return null;
+    // Pass supplement context from API (falls back to TypeScript file if null)
+    return generateProductContent(
+      supplement,
+      {
+        id: product.id,
+        brand: product.brand,
+        dsld_product_name: product.dsld_product_name,
+        amount_per_serving: product.amount_per_serving,
+        unit: product.unit,
+        form: product.form,
+        filters: product.filters,
+        dosage: product.dosage,
+        servings: product.servings,
+        flavor: product.flavor,
+        net_contents: product.net_contents,
+      },
+      supplementContext
+    );
+  }, [product, supplement, supplementContext]);
+
+  // Format supplement name for display (must be before early returns)
+  const supplementDisplayName = useMemo(
+    () =>
+      supplement
+        .split("-")
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(" "),
+    [supplement]
+  );
 
   function addUTMParameters(url: string): string {
     if (!url) return url;
@@ -622,6 +679,14 @@ export function ProductDetailClient({
               </div>
             </div>
           </div>
+
+          {/* About This Supplement - Dynamic Content Section */}
+          {productContent && (
+            <ProductContextSection
+              content={productContent}
+              supplementName={supplementDisplayName}
+            />
+          )}
 
           {/* Supplement Facts */}
           {product.dsld_label_info && (
