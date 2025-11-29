@@ -222,7 +222,7 @@ export async function POST(request: NextRequest) {
       os: event.device?.os || null,
       screen_resolution: event.device?.screenResolution || null,
       viewport_size: event.device?.viewportSize || null,
-      event_data: event.data || {},
+      event_data: (event.data || {}) as any,
       is_bot: isBotRequest,
       source: "frontend",
     }));

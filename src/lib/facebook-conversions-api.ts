@@ -164,11 +164,11 @@ export function convertToFacebookEvent(
     event_name: string;
     event_category: string;
     event_data: Record<string, any>;
-    session_id?: string;
-    visitor_id?: string;
-    page_url?: string;
-    ip_hash?: string;
-    user_agent?: string;
+    session_id?: string | null;
+    visitor_id?: string | null;
+    page_url?: string | null;
+    ip_hash?: string | null;
+    user_agent?: string | null;
   },
   options: {
     ipAddress?: string; // Real IP (not hashed) for Facebook
@@ -196,7 +196,7 @@ export function convertToFacebookEvent(
 
   // Build user_data
   const userData: FacebookUserData = {
-    client_user_agent: analyticsEvent.user_agent,
+    client_user_agent: analyticsEvent.user_agent || undefined,
     client_ip_address: options.ipAddress,
     fbp: options.fbp,
     fbc: options.fbc,

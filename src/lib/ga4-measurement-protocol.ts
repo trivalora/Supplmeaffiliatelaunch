@@ -76,7 +76,7 @@ export async function sendToGA4(
   const payload: GA4Payload = {
     client_id: clientId,
     events: events.map((event) => {
-      const params = {
+      const params: Record<string, any> = {
         ...sanitizeEventParams(event.params),
         // Required for session tracking
         engagement_time_msec: event.params.engagement_time_msec || 100,
@@ -221,8 +221,8 @@ export function convertToGA4Events(
     event_name: string;
     event_category: string;
     event_data: Record<string, any>;
-    session_id?: string;
-    visitor_id?: string;
+    session_id?: string | null;
+    visitor_id?: string | null;
   }>
 ): GA4Event[] {
   return analyticsEvents.map((event) => {

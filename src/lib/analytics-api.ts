@@ -180,7 +180,7 @@ export async function trackApiEvent(
       ip_hash: meta.ipHash,
       page_url: meta.referer,
       referrer: meta.referer,
-      event_data: params.data || {},
+      event_data: (params.data || {}) as any,
       is_bot: meta.isBot,
       source: "api",
     });

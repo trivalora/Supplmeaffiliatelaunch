@@ -160,7 +160,9 @@ export async function GET(request: NextRequest) {
     const supplementCounts: Record<string, number> = {};
     for (const click of clicks || []) {
       const slug = click.supplement_slug;
-      supplementCounts[slug] = (supplementCounts[slug] || 0) + 1;
+      if (slug) {
+        supplementCounts[slug] = (supplementCounts[slug] || 0) + 1;
+      }
     }
     const bySupplementArr = Object.entries(supplementCounts)
       .map(([supplement, clickCount]) => ({ supplement, clicks: clickCount }))

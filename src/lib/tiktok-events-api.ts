@@ -169,12 +169,12 @@ export function convertToTikTokEvent(
     event_name: string;
     event_category: string;
     event_data: Record<string, any>;
-    session_id?: string;
-    visitor_id?: string;
-    page_url?: string;
-    referrer?: string;
-    ip_hash?: string;
-    user_agent?: string;
+    session_id?: string | null;
+    visitor_id?: string | null;
+    page_url?: string | null;
+    referrer?: string | null;
+    ip_hash?: string | null;
+    user_agent?: string | null;
   },
   options: {
     ipAddress?: string; // Real IP (not hashed) for TikTok
@@ -203,7 +203,7 @@ export function convertToTikTokEvent(
   // Build user data
   const user: TikTokUser = {
     ip: options.ipAddress,
-    user_agent: analyticsEvent.user_agent,
+    user_agent: analyticsEvent.user_agent || undefined,
     ttp: options.ttp,
   };
 
@@ -264,11 +264,11 @@ export function convertToTikTokEvent(
       ad: {},
       page: {
         url: analyticsEvent.page_url || "",
-        referrer: analyticsEvent.referrer,
+        referrer: analyticsEvent.referrer || undefined,
       },
       user,
       ip: options.ipAddress,
-      user_agent: analyticsEvent.user_agent,
+      user_agent: analyticsEvent.user_agent || undefined,
     },
     properties,
   };
