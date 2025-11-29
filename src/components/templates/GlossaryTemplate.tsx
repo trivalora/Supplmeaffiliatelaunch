@@ -109,7 +109,7 @@ export function GlossaryTemplate({
                 </span>
               </div>
               <h1 className="text-primary-foreground mb-4">
-                {term} Definition & Examples
+                {term} Definition and Explanation
                 {abbreviation && (
                   <span className="block text-2xl md:text-3xl text-secondary mt-2">
                     ({abbreviation})

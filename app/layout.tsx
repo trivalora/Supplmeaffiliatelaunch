@@ -1,42 +1,46 @@
-import type { Metadata } from 'next';
-import { GoogleTagManager } from '@next/third-parties/google';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import { AnalyticsProvider } from '@/components/providers/AnalyticsProvider';
-import '../src/styles/globals.css';
-import '../src/fonts.css';
+import type { Metadata } from "next";
+import { GoogleTagManager } from "@next/third-parties/google";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { AnalyticsProvider } from "@/components/providers/AnalyticsProvider";
+import "../src/styles/globals.css";
+import "../src/fonts.css";
 
 export const metadata: Metadata = {
-  title: 'Suppl.me - Evidence-Based Supplement Research & Price Comparison',
-  description: 'Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.',
-  keywords: 'supplements, evidence-based supplements, supplement research, meta-analysis, clinical trials, supplement comparison, supplement reviews, supplement prices, iHerb, Amazon supplements, vitamin research, mineral supplements',
-  authors: [{ name: 'Suppl.me Research Team' }],
+  title: "Suppl.me - Evidence-Based Supplement Research & Price Comparison",
+  description:
+    "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
+  keywords:
+    "supplements, evidence-based supplements, supplement research, meta-analysis, clinical trials, supplement comparison, supplement reviews, supplement prices, iHerb, Amazon supplements, vitamin research, mineral supplements",
+  authors: [{ name: "Suppl.me Research Team" }],
   icons: {
-    icon: '/favicon.ico',
+    icon: "/favicon.ico",
   },
   openGraph: {
-    title: 'Suppl.me - Evidence-Based Supplement Research & Price Comparison',
-    description: 'Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.',
-    url: 'https://www.suppl.me',
-    siteName: 'Suppl.me',
-    type: 'website',
+    title: "Suppl.me - Evidence-Based Supplement Research & Price Comparison",
+    description:
+      "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
+    url: "https://www.suppl.me",
+    siteName: "Suppl.me",
+    type: "website",
     images: [
       {
-        url: 'https://www.suppl.me/images/og-home.jpg',
+        url: "https://www.suppl.me/images/og-home.jpg",
         width: 1200,
         height: 630,
-        alt: 'Suppl.me - Evidence-Based Supplement Information',
+        alt: "Suppl.me - Evidence-Based Supplement Information",
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Suppl.me - Evidence-Based Supplement Research',
-    description: 'Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.',
-    images: ['https://www.suppl.me/images/og-home.jpg'],
+    card: "summary_large_image",
+    title: "Suppl.me - Evidence-Based Supplement Research",
+    description:
+      "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
+    images: ["https://www.suppl.me/images/og-home.jpg"],
   },
   alternates: {
-    canonical: 'https://www.suppl.me',
+    canonical: "https://www.suppl.me",
   },
   robots: {
     index: true,
@@ -44,9 +48,9 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
 };
@@ -56,24 +60,37 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const gtmId = process.env.NEXT_PUBLIC_GTM_ID || 'GTM-XXXXXXX';
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-XXXXXXX";
 
   return (
     <html lang="en">
       <head>
         <GoogleTagManager gtmId={gtmId} />
+        {/* Preload critical fonts for faster rendering */}
+        <link
+          rel="preload"
+          href="/fonts/Lato-Regular-subset.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Lato-Bold-subset.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="antialiased">
-        <AnalyticsProvider 
+        <AnalyticsProvider
           googleTagManagerId={gtmId}
           googleAnalyticsId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}
           hotjarId={process.env.NEXT_PUBLIC_HOTJAR_ID}
           clarityId={process.env.NEXT_PUBLIC_CLARITY_ID}
         >
           <Header />
-          <main className="min-h-screen overflow-x-hidden">
-            {children}
-          </main>
+          <main className="min-h-screen overflow-x-hidden">{children}</main>
           <Footer />
         </AnalyticsProvider>
       </body>
