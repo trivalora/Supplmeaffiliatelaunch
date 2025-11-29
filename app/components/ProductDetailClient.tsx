@@ -101,7 +101,8 @@ export function ProductDetailClient({
   const estimatedServings = useMemo(() => {
     if (!product) return null;
     // Use serving_size from root level (from API) or fall back to dsld_label_info
-    const servingSize = product.serving_size || product.dsld_label_info?.serving_size || null;
+    const servingSize =
+      product.serving_size || product.dsld_label_info?.serving_size || null;
     const estimate = estimateServingsPerContainer({
       servings_per_container: product.servings_per_container,
       net_contents: product.net_contents,
@@ -194,7 +195,8 @@ export function ProductDetailClient({
           servings_per_container: apiProduct.servings_per_container
             ? parseInt(apiProduct.servings_per_container, 10)
             : null,
-          serving_size: apiProduct.serving_size || apiProduct.dsld_label_info?.serving_size,
+          serving_size:
+            apiProduct.serving_size || apiProduct.dsld_label_info?.serving_size,
         };
 
         setProduct(mappedProduct);

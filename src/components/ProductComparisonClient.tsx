@@ -1,6 +1,12 @@
 "use client";
 
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import React, {
+  useState,
+  useEffect,
+  useRef,
+  useMemo,
+  useCallback,
+} from "react";
 import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import { SearchResults } from "@/components/shared/content/SearchResults";
@@ -13,6 +19,8 @@ import {
   useAffiliateTooltip,
   AffiliateTooltip,
 } from "@/components/shared/ui-extensions/AffiliateTooltip";
+import { RefillReminderModal } from "@/components/shared/RefillReminderModal";
+import { estimateServingsPerContainer } from "@/lib/servings-calculator";
 import IHerbBadgeLogoRgb from "../imports/IHerbBadgeLogoRgb1-106-1526";
 import {
   trackComparisonProductImpression,
@@ -92,6 +100,80 @@ export function ProductComparisonClient({
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const tooltipHandlers = useAffiliateTooltip();
+
+  // Refill reminder modal state
+  const [showRefillModal, setShowRefillModal] = useState(false);
+  const [pendingBuyUrl, setPendingBuyUrl] = useState<string | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<{
+    id: string;
+    name: string;
+    brand: string;
+    servings: number | null;
+  } | null>(null);
+
+  // Handle buy click - show refill modal if we can estimate servings
+  const handleBuyClick = useCallback(
+    (
+      e: React.MouseEvent,
+      url: string,
+      product: any,
+      retailer: string,
+      price: number,
+      pricePerUnit: number,
+      idx: number
+    ) => {
+      // Calculate estimated servings
+      const estimate = estimateServingsPerContainer({
+        servings_per_container: product.servings_per_container,
+        net_contents: product.net_contents,
+        serving_size: product.serving_size,
+      });
+
+      // Track the click
+      trackComparisonProductClick(
+        {
+          id: product.id || `${product.brand}-${idx}`,
+          name: product.dsld_product_name || product.brand || "Unknown Product",
+          brand: product.brand || "Unknown Brand",
+          price: price,
+          pricePerUnit: pricePerUnit,
+          unit: product.unit || "unit",
+          retailer: retailer,
+          productUrl: url,
+          position: idx + 1,
+        },
+        supplementId,
+        "buy_now"
+      );
+
+      if (estimate?.servingsPerContainer) {
+        e.preventDefault();
+        e.stopPropagation();
+        setSelectedProduct({
+          id: product.id || `${product.brand}-${idx}`,
+          name:
+            product.dsld_product_name ||
+            product.product_name ||
+            product.brand ||
+            "Unknown Product",
+          brand: product.brand || "Unknown Brand",
+          servings: estimate.servingsPerContainer,
+        });
+        setPendingBuyUrl(url);
+        setShowRefillModal(true);
+      }
+      // If no servings estimate, let the link proceed normally
+    },
+    [supplementId]
+  );
+
+  // Continue to external buy URL after modal
+  const handleContinueToBuy = useCallback(() => {
+    if (pendingBuyUrl) {
+      window.open(pendingBuyUrl, "_blank", "noopener,noreferrer");
+      setPendingBuyUrl(null);
+    }
+  }, [pendingBuyUrl]);
 
   // Calculate min/max prices from API products
   const priceMinMax = useMemo(() => {
@@ -924,33 +1006,19 @@ export function ProductComparisonClient({
                                               rel="nofollow noreferrer"
                                               className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                               {...tooltipHandlers}
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                trackComparisonProductClick(
-                                                  {
-                                                    id:
-                                                      product.id ||
-                                                      `${product.brand}-${idx}`,
-                                                    name:
-                                                      product.dsld_product_name ||
-                                                      product.brand ||
-                                                      "Unknown Product",
-                                                    brand:
-                                                      product.brand ||
-                                                      "Unknown Brand",
-                                                    price: r.price,
-                                                    pricePerUnit:
-                                                      r.price_per_unit,
-                                                    unit:
-                                                      product.unit || "unit",
-                                                    retailer: r.retailer,
-                                                    productUrl: r.product_url,
-                                                    position: idx + 1,
-                                                  },
-                                                  supplementId,
-                                                  "buy_now"
-                                                );
-                                              }}
+                                              onClick={(e) =>
+                                                handleBuyClick(
+                                                  e,
+                                                  addUTMParameters(
+                                                    r.product_url
+                                                  ),
+                                                  product,
+                                                  r.retailer,
+                                                  r.price,
+                                                  r.price_per_unit,
+                                                  idx
+                                                )
+                                              }
                                             >
                                               <div className="h-5 w-5">
                                                 <IHerbBadgeLogoRgb />
@@ -969,33 +1037,19 @@ export function ProductComparisonClient({
                                               rel="nofollow noreferrer"
                                               className="inline-flex items-center justify-start gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                               {...tooltipHandlers}
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                trackComparisonProductClick(
-                                                  {
-                                                    id:
-                                                      product.id ||
-                                                      `${product.brand}-${idx}`,
-                                                    name:
-                                                      product.dsld_product_name ||
-                                                      product.brand ||
-                                                      "Unknown Product",
-                                                    brand:
-                                                      product.brand ||
-                                                      "Unknown Brand",
-                                                    price: r.price,
-                                                    pricePerUnit:
-                                                      r.price_per_unit,
-                                                    unit:
-                                                      product.unit || "unit",
-                                                    retailer: r.retailer,
-                                                    productUrl: r.product_url,
-                                                    position: idx + 1,
-                                                  },
-                                                  supplementId,
-                                                  "buy_now"
-                                                );
-                                              }}
+                                              onClick={(e) =>
+                                                handleBuyClick(
+                                                  e,
+                                                  addUTMParameters(
+                                                    r.product_url
+                                                  ),
+                                                  product,
+                                                  r.retailer,
+                                                  r.price,
+                                                  r.price_per_unit,
+                                                  idx
+                                                )
+                                              }
                                             >
                                               <img
                                                 src="/logos/gnc.svg"
@@ -1016,33 +1070,19 @@ export function ProductComparisonClient({
                                               rel="nofollow noreferrer"
                                               className="inline-flex items-center justify-start gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                               {...tooltipHandlers}
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                trackComparisonProductClick(
-                                                  {
-                                                    id:
-                                                      product.id ||
-                                                      `${product.brand}-${idx}`,
-                                                    name:
-                                                      product.dsld_product_name ||
-                                                      product.brand ||
-                                                      "Unknown Product",
-                                                    brand:
-                                                      product.brand ||
-                                                      "Unknown Brand",
-                                                    price: r.price,
-                                                    pricePerUnit:
-                                                      r.price_per_unit,
-                                                    unit:
-                                                      product.unit || "unit",
-                                                    retailer: r.retailer,
-                                                    productUrl: r.product_url,
-                                                    position: idx + 1,
-                                                  },
-                                                  supplementId,
-                                                  "buy_now"
-                                                );
-                                              }}
+                                              onClick={(e) =>
+                                                handleBuyClick(
+                                                  e,
+                                                  addUTMParameters(
+                                                    r.product_url
+                                                  ),
+                                                  product,
+                                                  r.retailer,
+                                                  r.price,
+                                                  r.price_per_unit,
+                                                  idx
+                                                )
+                                              }
                                             >
                                               <img
                                                 src="/logos/walmart.svg"
@@ -1067,33 +1107,19 @@ export function ProductComparisonClient({
                                                   "var(--color-amazon)",
                                               }}
                                               {...tooltipHandlers}
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                trackComparisonProductClick(
-                                                  {
-                                                    id:
-                                                      product.id ||
-                                                      `${product.brand}-${idx}`,
-                                                    name:
-                                                      product.dsld_product_name ||
-                                                      product.brand ||
-                                                      "Unknown Product",
-                                                    brand:
-                                                      product.brand ||
-                                                      "Unknown Brand",
-                                                    price: r.price,
-                                                    pricePerUnit:
-                                                      r.price_per_unit,
-                                                    unit:
-                                                      product.unit || "unit",
-                                                    retailer: r.retailer,
-                                                    productUrl: r.product_url,
-                                                    position: idx + 1,
-                                                  },
-                                                  supplementId,
-                                                  "buy_now"
-                                                );
-                                              }}
+                                              onClick={(e) =>
+                                                handleBuyClick(
+                                                  e,
+                                                  addUTMParameters(
+                                                    r.product_url
+                                                  ),
+                                                  product,
+                                                  r.retailer,
+                                                  r.price,
+                                                  r.price_per_unit,
+                                                  idx
+                                                )
+                                              }
                                             >
                                               <img
                                                 src={imgAmazonButton}
@@ -1111,33 +1137,19 @@ export function ProductComparisonClient({
                                               rel="nofollow noreferrer"
                                               className="inline-flex items-center justify-start gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                               {...tooltipHandlers}
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                trackComparisonProductClick(
-                                                  {
-                                                    id:
-                                                      product.id ||
-                                                      `${product.brand}-${idx}`,
-                                                    name:
-                                                      product.dsld_product_name ||
-                                                      product.brand ||
-                                                      "Unknown Product",
-                                                    brand:
-                                                      product.brand ||
-                                                      "Unknown Brand",
-                                                    price: r.price,
-                                                    pricePerUnit:
-                                                      r.price_per_unit,
-                                                    unit:
-                                                      product.unit || "unit",
-                                                    retailer: r.retailer,
-                                                    productUrl: r.product_url,
-                                                    position: idx + 1,
-                                                  },
-                                                  supplementId,
-                                                  "buy_now"
-                                                );
-                                              }}
+                                              onClick={(e) =>
+                                                handleBuyClick(
+                                                  e,
+                                                  addUTMParameters(
+                                                    r.product_url
+                                                  ),
+                                                  product,
+                                                  r.retailer,
+                                                  r.price,
+                                                  r.price_per_unit,
+                                                  idx
+                                                )
+                                              }
                                             >
                                               <img
                                                 src="/logos/vitacost.svg"
@@ -1158,33 +1170,19 @@ export function ProductComparisonClient({
                                               rel="nofollow noreferrer"
                                               className="inline-flex items-center justify-start gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                               {...tooltipHandlers}
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                trackComparisonProductClick(
-                                                  {
-                                                    id:
-                                                      product.id ||
-                                                      `${product.brand}-${idx}`,
-                                                    name:
-                                                      product.dsld_product_name ||
-                                                      product.brand ||
-                                                      "Unknown Product",
-                                                    brand:
-                                                      product.brand ||
-                                                      "Unknown Brand",
-                                                    price: r.price,
-                                                    pricePerUnit:
-                                                      r.price_per_unit,
-                                                    unit:
-                                                      product.unit || "unit",
-                                                    retailer: r.retailer,
-                                                    productUrl: r.product_url,
-                                                    position: idx + 1,
-                                                  },
-                                                  supplementId,
-                                                  "buy_now"
-                                                );
-                                              }}
+                                              onClick={(e) =>
+                                                handleBuyClick(
+                                                  e,
+                                                  addUTMParameters(
+                                                    r.product_url
+                                                  ),
+                                                  product,
+                                                  r.retailer,
+                                                  r.price,
+                                                  r.price_per_unit,
+                                                  idx
+                                                )
+                                              }
                                             >
                                               <img
                                                 src="/logos/bodybuilding.png"
@@ -1205,33 +1203,19 @@ export function ProductComparisonClient({
                                               rel="nofollow noreferrer"
                                               className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                               {...tooltipHandlers}
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                trackComparisonProductClick(
-                                                  {
-                                                    id:
-                                                      product.id ||
-                                                      `${product.brand}-${idx}`,
-                                                    name:
-                                                      product.dsld_product_name ||
-                                                      product.brand ||
-                                                      "Unknown Product",
-                                                    brand:
-                                                      product.brand ||
-                                                      "Unknown Brand",
-                                                    price: r.price,
-                                                    pricePerUnit:
-                                                      r.price_per_unit,
-                                                    unit:
-                                                      product.unit || "unit",
-                                                    retailer: r.retailer,
-                                                    productUrl: r.product_url,
-                                                    position: idx + 1,
-                                                  },
-                                                  supplementId,
-                                                  "buy_now"
-                                                );
-                                              }}
+                                              onClick={(e) =>
+                                                handleBuyClick(
+                                                  e,
+                                                  addUTMParameters(
+                                                    r.product_url
+                                                  ),
+                                                  product,
+                                                  r.retailer,
+                                                  r.price,
+                                                  r.price_per_unit,
+                                                  idx
+                                                )
+                                              }
                                             >
                                               <img
                                                 src="/logos/supplement-warehouse.png"
@@ -1251,33 +1235,19 @@ export function ProductComparisonClient({
                                               rel="nofollow noreferrer"
                                               className="inline-flex items-center justify-center w-full px-3 py-2 rounded-lg bg-primary text-white hover:opacity-90 transition-opacity text-sm font-medium"
                                               {...tooltipHandlers}
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                trackComparisonProductClick(
-                                                  {
-                                                    id:
-                                                      product.id ||
-                                                      `${product.brand}-${idx}`,
-                                                    name:
-                                                      product.dsld_product_name ||
-                                                      product.brand ||
-                                                      "Unknown Product",
-                                                    brand:
-                                                      product.brand ||
-                                                      "Unknown Brand",
-                                                    price: r.price,
-                                                    pricePerUnit:
-                                                      r.price_per_unit,
-                                                    unit:
-                                                      product.unit || "unit",
-                                                    retailer: r.retailer,
-                                                    productUrl: r.product_url,
-                                                    position: idx + 1,
-                                                  },
-                                                  supplementId,
-                                                  "buy_now"
-                                                );
-                                              }}
+                                              onClick={(e) =>
+                                                handleBuyClick(
+                                                  e,
+                                                  addUTMParameters(
+                                                    r.product_url
+                                                  ),
+                                                  product,
+                                                  r.retailer,
+                                                  r.price,
+                                                  r.price_per_unit,
+                                                  idx
+                                                )
+                                              }
                                             >
                                               Buy Now at {r.retailer}
                                             </a>
@@ -1425,31 +1395,17 @@ export function ProductComparisonClient({
                                         rel="nofollow noreferrer"
                                         className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                         {...tooltipHandlers}
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          trackComparisonProductClick(
-                                            {
-                                              id:
-                                                product.id ||
-                                                `${product.brand}-${idx}`,
-                                              name:
-                                                product.dsld_product_name ||
-                                                product.brand ||
-                                                "Unknown Product",
-                                              brand:
-                                                product.brand ||
-                                                "Unknown Brand",
-                                              price: r.price,
-                                              pricePerUnit: r.price_per_unit,
-                                              unit: product.unit || "unit",
-                                              retailer: r.retailer,
-                                              productUrl: r.product_url,
-                                              position: idx + 1,
-                                            },
-                                            supplementId,
-                                            "buy_now"
-                                          );
-                                        }}
+                                        onClick={(e) =>
+                                          handleBuyClick(
+                                            e,
+                                            addUTMParameters(r.product_url),
+                                            product,
+                                            r.retailer,
+                                            r.price,
+                                            r.price_per_unit,
+                                            idx
+                                          )
+                                        }
                                       >
                                         <div className="h-4 w-4">
                                           <IHerbBadgeLogoRgb />
@@ -1465,31 +1421,17 @@ export function ProductComparisonClient({
                                         rel="nofollow noreferrer"
                                         className="flex items-center justify-start gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                         {...tooltipHandlers}
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          trackComparisonProductClick(
-                                            {
-                                              id:
-                                                product.id ||
-                                                `${product.brand}-${idx}`,
-                                              name:
-                                                product.dsld_product_name ||
-                                                product.brand ||
-                                                "Unknown Product",
-                                              brand:
-                                                product.brand ||
-                                                "Unknown Brand",
-                                              price: r.price,
-                                              pricePerUnit: r.price_per_unit,
-                                              unit: product.unit || "unit",
-                                              retailer: r.retailer,
-                                              productUrl: r.product_url,
-                                              position: idx + 1,
-                                            },
-                                            supplementId,
-                                            "buy_now"
-                                          );
-                                        }}
+                                        onClick={(e) =>
+                                          handleBuyClick(
+                                            e,
+                                            addUTMParameters(r.product_url),
+                                            product,
+                                            r.retailer,
+                                            r.price,
+                                            r.price_per_unit,
+                                            idx
+                                          )
+                                        }
                                       >
                                         <img
                                           src="/logos/gnc.svg"
@@ -1508,31 +1450,17 @@ export function ProductComparisonClient({
                                         rel="nofollow noreferrer"
                                         className="flex items-center justify-start gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                         {...tooltipHandlers}
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          trackComparisonProductClick(
-                                            {
-                                              id:
-                                                product.id ||
-                                                `${product.brand}-${idx}`,
-                                              name:
-                                                product.dsld_product_name ||
-                                                product.brand ||
-                                                "Unknown Product",
-                                              brand:
-                                                product.brand ||
-                                                "Unknown Brand",
-                                              price: r.price,
-                                              pricePerUnit: r.price_per_unit,
-                                              unit: product.unit || "unit",
-                                              retailer: r.retailer,
-                                              productUrl: r.product_url,
-                                              position: idx + 1,
-                                            },
-                                            supplementId,
-                                            "buy_now"
-                                          );
-                                        }}
+                                        onClick={(e) =>
+                                          handleBuyClick(
+                                            e,
+                                            addUTMParameters(r.product_url),
+                                            product,
+                                            r.retailer,
+                                            r.price,
+                                            r.price_per_unit,
+                                            idx
+                                          )
+                                        }
                                       >
                                         <img
                                           src="/logos/walmart.svg"
@@ -1555,31 +1483,17 @@ export function ProductComparisonClient({
                                             "var(--color-amazon)",
                                         }}
                                         {...tooltipHandlers}
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          trackComparisonProductClick(
-                                            {
-                                              id:
-                                                product.id ||
-                                                `${product.brand}-${idx}`,
-                                              name:
-                                                product.dsld_product_name ||
-                                                product.brand ||
-                                                "Unknown Product",
-                                              brand:
-                                                product.brand ||
-                                                "Unknown Brand",
-                                              price: r.price,
-                                              pricePerUnit: r.price_per_unit,
-                                              unit: product.unit || "unit",
-                                              retailer: r.retailer,
-                                              productUrl: r.product_url,
-                                              position: idx + 1,
-                                            },
-                                            supplementId,
-                                            "buy_now"
-                                          );
-                                        }}
+                                        onClick={(e) =>
+                                          handleBuyClick(
+                                            e,
+                                            addUTMParameters(r.product_url),
+                                            product,
+                                            r.retailer,
+                                            r.price,
+                                            r.price_per_unit,
+                                            idx
+                                          )
+                                        }
                                       >
                                         <img
                                           src={imgAmazonButton}
@@ -1595,31 +1509,17 @@ export function ProductComparisonClient({
                                         rel="nofollow noreferrer"
                                         className="flex items-center justify-start gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                         {...tooltipHandlers}
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          trackComparisonProductClick(
-                                            {
-                                              id:
-                                                product.id ||
-                                                `${product.brand}-${idx}`,
-                                              name:
-                                                product.dsld_product_name ||
-                                                product.brand ||
-                                                "Unknown Product",
-                                              brand:
-                                                product.brand ||
-                                                "Unknown Brand",
-                                              price: r.price,
-                                              pricePerUnit: r.price_per_unit,
-                                              unit: product.unit || "unit",
-                                              retailer: r.retailer,
-                                              productUrl: r.product_url,
-                                              position: idx + 1,
-                                            },
-                                            supplementId,
-                                            "buy_now"
-                                          );
-                                        }}
+                                        onClick={(e) =>
+                                          handleBuyClick(
+                                            e,
+                                            addUTMParameters(r.product_url),
+                                            product,
+                                            r.retailer,
+                                            r.price,
+                                            r.price_per_unit,
+                                            idx
+                                          )
+                                        }
                                       >
                                         <img
                                           src="/logos/vitacost.svg"
@@ -1638,31 +1538,17 @@ export function ProductComparisonClient({
                                         rel="nofollow noreferrer"
                                         className="flex items-center justify-start gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                         {...tooltipHandlers}
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          trackComparisonProductClick(
-                                            {
-                                              id:
-                                                product.id ||
-                                                `${product.brand}-${idx}`,
-                                              name:
-                                                product.dsld_product_name ||
-                                                product.brand ||
-                                                "Unknown Product",
-                                              brand:
-                                                product.brand ||
-                                                "Unknown Brand",
-                                              price: r.price,
-                                              pricePerUnit: r.price_per_unit,
-                                              unit: product.unit || "unit",
-                                              retailer: r.retailer,
-                                              productUrl: r.product_url,
-                                              position: idx + 1,
-                                            },
-                                            supplementId,
-                                            "buy_now"
-                                          );
-                                        }}
+                                        onClick={(e) =>
+                                          handleBuyClick(
+                                            e,
+                                            addUTMParameters(r.product_url),
+                                            product,
+                                            r.retailer,
+                                            r.price,
+                                            r.price_per_unit,
+                                            idx
+                                          )
+                                        }
                                       >
                                         <img
                                           src="/logos/bodybuilding.png"
@@ -1681,31 +1567,17 @@ export function ProductComparisonClient({
                                         rel="nofollow noreferrer"
                                         className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                         {...tooltipHandlers}
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          trackComparisonProductClick(
-                                            {
-                                              id:
-                                                product.id ||
-                                                `${product.brand}-${idx}`,
-                                              name:
-                                                product.dsld_product_name ||
-                                                product.brand ||
-                                                "Unknown Product",
-                                              brand:
-                                                product.brand ||
-                                                "Unknown Brand",
-                                              price: r.price,
-                                              pricePerUnit: r.price_per_unit,
-                                              unit: product.unit || "unit",
-                                              retailer: r.retailer,
-                                              productUrl: r.product_url,
-                                              position: idx + 1,
-                                            },
-                                            supplementId,
-                                            "buy_now"
-                                          );
-                                        }}
+                                        onClick={(e) =>
+                                          handleBuyClick(
+                                            e,
+                                            addUTMParameters(r.product_url),
+                                            product,
+                                            r.retailer,
+                                            r.price,
+                                            r.price_per_unit,
+                                            idx
+                                          )
+                                        }
                                       >
                                         <img
                                           src="/logos/supplement-warehouse.png"
@@ -1723,31 +1595,17 @@ export function ProductComparisonClient({
                                         rel="nofollow noreferrer"
                                         className="flex items-center justify-center w-full px-3 py-2 rounded-lg bg-primary text-white hover:opacity-90 transition-opacity text-sm font-medium"
                                         {...tooltipHandlers}
-                                        onClick={(e) => {
-                                          e.stopPropagation();
-                                          trackComparisonProductClick(
-                                            {
-                                              id:
-                                                product.id ||
-                                                `${product.brand}-${idx}`,
-                                              name:
-                                                product.dsld_product_name ||
-                                                product.brand ||
-                                                "Unknown Product",
-                                              brand:
-                                                product.brand ||
-                                                "Unknown Brand",
-                                              price: r.price,
-                                              pricePerUnit: r.price_per_unit,
-                                              unit: product.unit || "unit",
-                                              retailer: r.retailer,
-                                              productUrl: r.product_url,
-                                              position: idx + 1,
-                                            },
-                                            supplementId,
-                                            "buy_now"
-                                          );
-                                        }}
+                                        onClick={(e) =>
+                                          handleBuyClick(
+                                            e,
+                                            addUTMParameters(r.product_url),
+                                            product,
+                                            r.retailer,
+                                            r.price,
+                                            r.price_per_unit,
+                                            idx
+                                          )
+                                        }
                                       >
                                         Buy Now at {r.retailer}
                                       </a>
@@ -1797,6 +1655,25 @@ export function ProductComparisonClient({
         </main>
 
         <AffiliateTooltip />
+
+        {/* Refill Reminder Modal */}
+        {selectedProduct && (
+          <RefillReminderModal
+            isOpen={showRefillModal}
+            onClose={() => {
+              setShowRefillModal(false);
+              setPendingBuyUrl(null);
+              setSelectedProduct(null);
+            }}
+            product={{
+              id: selectedProduct.id,
+              name: selectedProduct.name,
+              brand: selectedProduct.brand,
+              servings_per_container: selectedProduct.servings,
+            }}
+            onContinue={handleContinueToBuy}
+          />
+        )}
       </div>
     </>
   );
