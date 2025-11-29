@@ -81,6 +81,13 @@ export default function RootLayout({
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <link
+          rel="preload"
+          href="/fonts/Lora-Variable.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="antialiased">
         <AnalyticsProvider
