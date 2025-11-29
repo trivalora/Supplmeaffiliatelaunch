@@ -2,6 +2,11 @@ import { createClient } from "@/lib/supabase/server";
 import { NextRequest, NextResponse } from "next/server";
 import { headers } from "next/headers";
 import { sendToGA4, convertToGA4Events } from "@/lib/ga4-measurement-protocol";
+import {
+  sendToFacebookCAPI,
+  convertToFacebookEvent,
+} from "@/lib/facebook-conversions-api";
+import { sendToTikTokAPI, convertToTikTokEvent } from "@/lib/tiktok-events-api";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -249,6 +254,47 @@ export async function POST(request: NextRequest) {
           console.error("[Events API] GA4 MP send failed:", err);
         });
       }
+    }
+
+    // Send to Facebook Conversions API (server-side, bypasses ad blockers)
+    // Fire and forget - don't block the response
+    if (data && data.length > 0 && !isBotRequest) {
+      const fbEvents = eventRecords.map((record) =>
+        convertToFacebookEvent(record, {
+          ipAddress:
+            headersList.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+            headersList.get("x-real-ip") ||
+            undefined,
+          fbp: events[0]?.data?.fbp as string | undefined,
+          fbc: events[0]?.data?.fbc as string | undefined,
+          userEmail: events[0]?.data?.userEmail as string | undefined,
+          userId: events[0]?.data?.userId as string | undefined,
+        })
+      );
+
+      sendToFacebookCAPI(fbEvents).catch((err) => {
+        console.error("[Events API] Facebook CAPI send failed:", err);
+      });
+    }
+
+    // Send to TikTok Events API (server-side, bypasses ad blockers)
+    // Fire and forget - don't block the response
+    if (data && data.length > 0 && !isBotRequest) {
+      const tiktokEvents = eventRecords.map((record) =>
+        convertToTikTokEvent(record, {
+          ipAddress:
+            headersList.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+            headersList.get("x-real-ip") ||
+            undefined,
+          ttp: events[0]?.data?.ttp as string | undefined,
+          userEmail: events[0]?.data?.userEmail as string | undefined,
+          userId: events[0]?.data?.userId as string | undefined,
+        })
+      );
+
+      sendToTikTokAPI(tiktokEvents).catch((err) => {
+        console.error("[Events API] TikTok API send failed:", err);
+      });
     }
 
     // Success response

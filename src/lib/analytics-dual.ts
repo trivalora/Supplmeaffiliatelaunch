@@ -49,6 +49,12 @@ export interface DeviceInfo {
   viewportSize?: string;
 }
 
+export interface SocialCookies {
+  fbp?: string; // Facebook browser ID (_fbp cookie)
+  fbc?: string; // Facebook click ID (_fbc cookie)
+  ttp?: string; // TikTok click ID (_ttp cookie)
+}
+
 export interface ServerEvent {
   event: string;
   category: string;
@@ -259,6 +265,34 @@ export function getDeviceInfo(): DeviceInfo {
   };
 }
 
+/**
+ * Get cookie value by name
+ */
+function getCookie(name: string): string | undefined {
+  if (typeof document === "undefined") return undefined;
+
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) {
+    return parts.pop()?.split(";").shift();
+  }
+  return undefined;
+}
+
+/**
+ * Get social platform cookies for server-side tracking
+ * These cookies enable proper attribution and deduplication
+ */
+export function getSocialCookies(): SocialCookies {
+  if (typeof window === "undefined") return {};
+
+  return {
+    fbp: getCookie("_fbp"), // Facebook Pixel browser ID
+    fbc: getCookie("_fbc"), // Facebook click ID (from fbclid param)
+    ttp: getCookie("_ttp"), // TikTok Pixel click ID
+  };
+}
+
 // ===========================================
 // Event Queue & Batching
 // ===========================================
@@ -347,11 +381,12 @@ export function trackEventDual(
   const sessionId = getSessionId();
   const utm = getUTMParams();
   const device = getDeviceInfo();
+  const socialCookies = getSocialCookies();
   const timestamp = Date.now();
   const timestampISO = new Date(timestamp).toISOString();
 
   // Generate event_id for deduplication (same ID will be used by GTM and server)
-  // GA4 automatically deduplicates events with the same event_id within 24 hours
+  // GA4, Facebook, and TikTok all automatically deduplicate events with the same event_id within 24 hours
   const eventId = `${eventName}_${visitorId}_${timestamp}`.substring(0, 40);
 
   // Send to GTM (existing behavior)
@@ -359,7 +394,7 @@ export function trackEventDual(
     pushToDataLayer({
       event: eventName,
       ...data,
-      event_id: eventId, // For GA4 deduplication
+      event_id: eventId, // For GA4/Facebook/TikTok deduplication
       timestamp,
     });
   }
@@ -378,8 +413,12 @@ export function trackEventDual(
       device,
       data: {
         ...data,
-        event_id: eventId, // Same event_id for deduplication
+        event_id: eventId, // Same event_id for deduplication across all platforms
         timestamp,
+        // Include social cookies for server-side tracking
+        fbp: socialCookies.fbp,
+        fbc: socialCookies.fbc,
+        ttp: socialCookies.ttp,
       },
     });
   }
