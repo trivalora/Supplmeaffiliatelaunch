@@ -1,12 +1,13 @@
-import { createClient } from '@/lib/supabase/server';
-import { NextResponse } from 'next/server';
+import { createClient } from "@/lib/supabase/server";
+import { NextResponse } from "next/server";
+import { trackSearchApiCall, trackApiError } from "@/lib/analytics-api";
 
 /**
  * GET /api/products/search
- * 
+ *
  * Full-text search across all products with advanced filtering options.
  * Uses PostgreSQL full-text search with English language support.
- * 
+ *
  * Query Parameters:
  *   - q: string (required, min 2 chars) - Search query
  *   - supplement: string (optional) - Filter by supplement slug
@@ -20,7 +21,7 @@ import { NextResponse } from 'next/server';
  *           Options: relevance, price_asc, price_desc, brand_asc, brand_desc
  *   - limit: number (default: 20, max: 100) - Results per page
  *   - page: number (default: 1) - Page number
- * 
+ *
  * Response:
  *   {
  *     results: Array<{
@@ -50,38 +51,47 @@ import { NextResponse } from 'next/server';
  *   }
  */
 export async function GET(request: Request) {
+  const startTime = Date.now();
+
   try {
     const { searchParams } = new URL(request.url);
-    
+
     // Required parameter
-    const q = searchParams.get('q');
+    const q = searchParams.get("q");
     if (!q || q.trim().length < 2) {
       return NextResponse.json(
-        { error: 'Search query (q) is required and must be at least 2 characters' },
+        {
+          error:
+            "Search query (q) is required and must be at least 2 characters",
+        },
         { status: 400 }
       );
     }
-    
+
     // Optional filters
-    const supplementSlug = searchParams.get('supplement');
-    const brand = searchParams.get('brand');
-    const retailer = searchParams.get('retailer');
-    const minPrice = searchParams.get('min_price');
-    const maxPrice = searchParams.get('max_price');
-    const thirdPartyTested = searchParams.get('third_party_tested');
-    const inStock = searchParams.get('in_stock') !== 'false'; // Default true
-    
+    const supplementSlug = searchParams.get("supplement");
+    const brand = searchParams.get("brand");
+    const retailer = searchParams.get("retailer");
+    const minPrice = searchParams.get("min_price");
+    const maxPrice = searchParams.get("max_price");
+    const thirdPartyTested = searchParams.get("third_party_tested");
+    const inStock = searchParams.get("in_stock") !== "false"; // Default true
+
     // Pagination & sorting
-    const page = Math.max(1, parseInt(searchParams.get('page') || '1'));
-    const limit = Math.min(100, Math.max(1, parseInt(searchParams.get('limit') || '20')));
-    const sortBy = searchParams.get('sort') || 'relevance';
-    
+    const page = Math.max(1, parseInt(searchParams.get("page") || "1"));
+    const limit = Math.min(
+      100,
+      Math.max(1, parseInt(searchParams.get("limit") || "20"))
+    );
+    const sortBy = searchParams.get("sort") || "relevance";
+
     const supabase = createClient();
-    
+
     // Start with full-text search on products
     let query = supabase
-      .from('products')
-      .select(`
+      .from("products")
+      .select(
+        `
         id,
         json_id,
         dsld_id,
@@ -101,84 +111,90 @@ export async function GET(request: Request) {
             name
           )
         )
-      `, { count: 'exact' })
+      `,
+        { count: "exact" }
+      )
       .or(`brand.ilike.%${q}%,product_name.ilike.%${q}%`)
-      .eq('is_active', true);
-    
+      .eq("is_active", true);
+
     // Apply supplement filter
     if (supplementSlug) {
-      query = query.eq('supplement.slug', supplementSlug);
+      query = query.eq("supplement.slug", supplementSlug);
     }
-    
+
     // Apply brand filter (case-insensitive partial match)
     if (brand) {
-      query = query.ilike('brand', `%${brand}%`);
+      query = query.ilike("brand", `%${brand}%`);
     }
-    
+
     // Apply third_party_tested filter
     if (thirdPartyTested !== null) {
-      query = query.eq('third_party_tested', thirdPartyTested === 'true');
+      query = query.eq("third_party_tested", thirdPartyTested === "true");
     }
-    
+
     // Apply in_stock filter
     if (inStock) {
-      query = query.eq('prices.in_stock', true);
+      query = query.eq("prices.in_stock", true);
     }
-    
+
     // Apply retailer filter
     if (retailer) {
-      query = query.eq('prices.retailer.name', retailer);
+      query = query.eq("prices.retailer.name", retailer);
     }
-    
+
     // Apply price filters
     if (minPrice) {
       const min = parseFloat(minPrice);
       if (!isNaN(min)) {
-        query = query.gte('prices.price', min);
+        query = query.gte("prices.price", min);
       }
     }
     if (maxPrice) {
       const max = parseFloat(maxPrice);
       if (!isNaN(max)) {
-        query = query.lte('prices.price', max);
+        query = query.lte("prices.price", max);
       }
     }
-    
+
     // Apply sorting
-    if (sortBy === 'price_asc') {
-      query = query.order('price', { foreignTable: 'prices', ascending: true });
-    } else if (sortBy === 'price_desc') {
-      query = query.order('price', { foreignTable: 'prices', ascending: false });
-    } else if (sortBy === 'brand_asc') {
-      query = query.order('brand', { ascending: true });
-    } else if (sortBy === 'brand_desc') {
-      query = query.order('brand', { ascending: false });
+    if (sortBy === "price_asc") {
+      query = query.order("price", { foreignTable: "prices", ascending: true });
+    } else if (sortBy === "price_desc") {
+      query = query.order("price", {
+        foreignTable: "prices",
+        ascending: false,
+      });
+    } else if (sortBy === "brand_asc") {
+      query = query.order("brand", { ascending: true });
+    } else if (sortBy === "brand_desc") {
+      query = query.order("brand", { ascending: false });
     }
     // relevance is the default (by full-text search ranking)
-    
+
     // Apply pagination
     const start = (page - 1) * limit;
     const end = start + limit - 1;
     query = query.range(start, end);
-    
+
     const { data, error, count } = await query;
-    
+
     if (error) {
-      console.error('Error searching products:', error);
+      console.error("Error searching products:", error);
       return NextResponse.json(
-        { error: 'Search failed', details: error.message },
+        { error: "Search failed", details: error.message },
         { status: 500 }
       );
     }
-    
+
     // Transform results to include best price and available retailers
     const results = (data || []).map((product: any) => {
       const prices = product.prices || [];
-      const bestPrice = prices.length > 0 
-        ? Math.min(...prices.map((p: any) => p.price))
-        : null;
-      const retailers = [...new Set(prices.map((p: any) => p.retailer?.name).filter(Boolean))];
-      
+      const bestPrice =
+        prices.length > 0 ? Math.min(...prices.map((p: any) => p.price)) : null;
+      const retailers = [
+        ...new Set(prices.map((p: any) => p.retailer?.name).filter(Boolean)),
+      ];
+
       return {
         id: product.id,
         json_id: product.json_id,
@@ -190,12 +206,20 @@ export async function GET(request: Request) {
         best_total_price: bestPrice,
         available_retailers: retailers,
         third_party_tested: product.third_party_tested,
-        supplement: product.supplement
+        supplement: product.supplement,
       };
     });
-    
+
     const totalPages = count ? Math.ceil(count / limit) : 0;
-    
+
+    // Track search API call (non-blocking)
+    trackSearchApiCall(
+      request,
+      q,
+      results.length,
+      Date.now() - startTime
+    ).catch(() => {});
+
     return NextResponse.json(
       {
         results,
@@ -215,21 +239,30 @@ export async function GET(request: Request) {
             max_price: maxPrice,
             third_party_tested: thirdPartyTested,
             in_stock: inStock,
-            sort: sortBy
-          }
-        }
+            sort: sortBy,
+          },
+        },
       },
       {
         headers: {
           // Cache for 10 minutes, stale-while-revalidate for 1 hour
-          'Cache-Control': 'public, s-maxage=600, stale-while-revalidate=3600',
+          "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600",
         },
       }
     );
   } catch (error) {
-    console.error('Unexpected error in /api/products/search:', error);
+    // Track errors
+    trackApiError(
+      request,
+      "/api/products/search",
+      500,
+      error instanceof Error ? error.message : "Unknown error",
+      Date.now() - startTime
+    ).catch(() => {});
+
+    console.error("Unexpected error in /api/products/search:", error);
     return NextResponse.json(
-      { error: 'Internal server error' },
+      { error: "Internal server error" },
       { status: 500 }
     );
   }

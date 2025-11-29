@@ -1,5 +1,6 @@
-import { createClient } from '@/lib/supabase/server';
-import { NextResponse } from 'next/server';
+import { createClient } from "@/lib/supabase/server";
+import { NextResponse } from "next/server";
+import { trackProductApiCall, trackApiError } from "@/lib/analytics-api";
 
 interface ProductWithRelations {
   id: string;
@@ -24,13 +25,13 @@ interface ProductWithRelations {
 
 /**
  * GET /api/products/[id]
- * 
+ *
  * Returns detailed information for a single product including all prices and retailer info.
  * Supports both UUID and json_id (backward compatibility with original JSON structure).
- * 
+ *
  * Path Parameters:
  *   - id: string - Product UUID or json_id (e.g., '57173_organic traditions_...')
- * 
+ *
  * Response:
  *   {
  *     product: {
@@ -81,22 +82,25 @@ export async function GET(
   request: Request,
   { params }: { params: Promise<{ id: string }> }
 ) {
+  const startTime = Date.now();
+
   try {
     const { id } = await params;
-    
+
     if (!id) {
       return NextResponse.json(
-        { error: 'Product ID is required' },
+        { error: "Product ID is required" },
         { status: 400 }
       );
     }
-    
+
     const supabase = createClient();
-    
+
     // Build query with all related data - query by UUID
     const { data, error } = await supabase
-      .from('products')
-      .select(`
+      .from("products")
+      .select(
+        `
         *,
         supplement:supplements(
           id,
@@ -121,47 +125,67 @@ export async function GET(
             is_active
           )
         )
-      `)
-      .eq('id', id)
+      `
+      )
+      .eq("id", id)
       .single();
-    
+
     if (error) {
-      if (error.code === 'PGRST116') {
+      if (error.code === "PGRST116") {
         // No rows returned
         return NextResponse.json(
-          { error: 'Product not found' },
+          { error: "Product not found" },
           { status: 404 }
         );
       }
-      
-      console.error('Error fetching product:', error);
+
+      console.error("Error fetching product:", error);
       return NextResponse.json(
-        { error: 'Failed to fetch product', details: error.message },
+        { error: "Failed to fetch product", details: error.message },
         { status: 500 }
       );
     }
-    
+
     // Type the data properly
     const product = data as unknown as ProductWithRelations;
-    
+
     // Sort prices by price ascending
     if (product.prices && product.prices.length > 0) {
       product.prices.sort((a, b) => a.price - b.price);
     }
-    
+
+    // Track this API request (non-blocking)
+    trackProductApiCall(
+      request,
+      product.id,
+      product.product_name,
+      product.supplement?.slug || "",
+      Date.now() - startTime
+    ).catch(() => {}); // Ignore tracking errors
+
     return NextResponse.json(
       { product },
       {
         headers: {
           // Cache for 1 hour, stale-while-revalidate for 24 hours
-          'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+          "Cache-Control":
+            "public, s-maxage=3600, stale-while-revalidate=86400",
         },
       }
     );
   } catch (error) {
-    console.error('Unexpected error in /api/products/[id]:', error);
+    // Track errors too
+    trackApiError(
+      request,
+      "/api/products/[id]",
+      500,
+      error instanceof Error ? error.message : "Unknown error",
+      Date.now() - startTime
+    ).catch(() => {});
+
+    console.error("Unexpected error in /api/products/[id]:", error);
     return NextResponse.json(
-      { error: 'Internal server error' },
+      { error: "Internal server error" },
       { status: 500 }
     );
   }

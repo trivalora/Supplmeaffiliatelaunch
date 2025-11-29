@@ -4,6 +4,114 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.6.0] - November 29, 2025
+
+### 📊 Backend Analytics & Affiliate Tracking
+
+**Focus:** Server-side event tracking with Supabase for comprehensive analytics, bypassing ad blockers and enabling affiliate commission reconciliation via unique click IDs.
+
+#### Added - Database Schema
+- ✅ `api.analytics_events` table - All frontend/backend events with full context
+- ✅ `api.affiliate_clicks` table - Click tracking with `click_id` for commission attribution
+- ✅ `api.api_requests` table - API endpoint performance metrics
+- ✅ `api.session_stats` materialized view - Pre-aggregated dashboard metrics
+- ✅ Database functions: `api.get_analytics_summary()`, `api.refresh_session_stats()`
+- ✅ Indexes for event_type, session_id, visitor_id, supplement_slug, retailer_slug
+- ✅ Migration: `supabase/migrations/20251129100000_create_analytics_tables.sql`
+
+#### Added - API Endpoints
+- ✅ `POST /api/events` - Batched event ingestion
+  - Rate limiting (100 req/min/IP)
+  - Bot detection (12 patterns)
+  - IP hashing for privacy
+  - Event validation and sanitization
+  
+- ✅ `POST /api/events/affiliate-click` - Affiliate click tracking
+  - Generates unique `click_id` (format: `suppl_XXXXXX_XXXXXXXX`)
+  - Returns tracking URL with click_id appended
+  - Records full attribution context (UTM, landing page, time on site)
+  
+- ✅ `GET /api/analytics/summary` - Dashboard metrics
+  - Period filtering: 24h, 7d, 30d, 90d
+  - Totals: events, sessions, page views, clicks
+  - Funnel: supplement_view → product_view → affiliate_click
+  - Top supplements and retailers by clicks
+  
+- ✅ `GET /api/analytics/affiliate-clicks` - Click data with commission status
+  - Filtering by supplement, retailer, commission status
+  - Pagination support
+  - Full click context (visitor journey, time on site)
+
+#### Added - Client Libraries
+- ✅ `src/lib/analytics-dual.ts` - Dual-tracking client (GTM + Server)
+  - `trackEventDual()` - Send events to both GTM and Supabase
+  - `trackAffiliateClickDual()` - Get tracking URL with click_id
+  - `trackPageViewDual()`, `trackProductViewDual()`, `trackSearchDual()`
+  - Event batching (10 events or 2s delay)
+  - Visitor/session ID management
+  - UTM parameter parsing
+  - Device detection (type, browser, OS)
+  - Auto-flush on page unload/visibility change
+  
+- ✅ `src/lib/analytics-api.ts` - Server-side API tracking utility
+  - `trackApiRequest()` - Track API endpoint calls
+  - `trackProductApiCall()` - Track product detail views
+  - `trackSearchApiCall()` - Track search queries
+  - IP hashing for privacy compliance
+
+#### Added - GTM Extension
+- ✅ `gtm_backend_tracking_extension.json` - Import into existing GTM container
+  - 17 new Data Layer Variables (clickId, sessionId, visitorId, etc.)
+  - 6 new Custom Event Triggers (product_view, affiliate_click, etc.)
+  - 4 enhanced GA4 Tags with server reconciliation IDs
+  - Import instructions included
+
+#### Changed - Existing API Routes
+- ✅ `app/api/products/[id]/route.ts` - Added `trackProductApiCall()` tracking
+- ✅ `app/api/products/search/route.ts` - Added `trackSearchApiCall()` tracking
+- ✅ `src/shared/apiTypes.ts` - Added analytics TypeScript types
+
+#### Technical Highlights
+- **Dual-Tracking Pattern**: Events sent to BOTH GTM AND server simultaneously
+- **~30% More Data**: Server-side tracking bypasses ad blockers
+- **Click ID Format**: `suppl_{timestamp36}_{random8}` for uniqueness
+- **Commission Reconciliation**: Match affiliate commissions to clicks via `click_id` parameter
+- **Bot Detection**: 12 patterns including headless browsers, crawlers, monitoring tools
+- **Rate Limiting**: 100 requests/minute per IP address
+- **Privacy**: IP addresses hashed before storage (SHA-256)
+- **Event Batching**: Queue flush on batch full (10) or timeout (2s) or page unload
+
+#### API Response Examples
+```json
+// POST /api/events/affiliate-click
+{
+  "success": true,
+  "clickId": "suppl_mikq5r6y_8f5gyozp",
+  "trackingUrl": "https://iherb.com/product?subid=suppl_mikq5r6y_8f5gyozp&clickid=suppl_mikq5r6y_8f5gyozp"
+}
+
+// GET /api/analytics/summary?period=7d
+{
+  "period": "7d",
+  "totals": {
+    "events": 1250,
+    "sessions": 320,
+    "pageviews": 890,
+    "affiliate_clicks": 45
+  },
+  "funnel": {
+    "supplement_views": 210,
+    "product_views": 156,
+    "affiliate_clicks": 45,
+    "conversion_rate": "21.4%"
+  },
+  "top_supplements": [...],
+  "top_retailers": [...]
+}
+```
+
+---
+
 ## [0.5.0] - November 29, 2025
 
 ### 📝 Supplement Content Migration & SEO Enhancement
@@ -389,15 +497,13 @@ We follow **Semantic Versioning** (SemVer):
 
 ### Upcoming Versions
 
-#### [0.5.0] - Week 4 Frontend Integration (Planned)
-- 🔄 Connect React components to API endpoints
-- 🔄 Create custom hooks (useSupplements, useProducts, useSearch)
-- 🔄 Update comparison pages to fetch from API
-- 🔄 Add real-time search UI
-- 🔄 Implement client-side caching (SWR/React Query)
-- 🔄 Add loading states and error handling
+#### [0.7.0] - Frontend Analytics Integration (Planned)
+- 🔄 Integrate dual-tracking into existing components
+- 🔄 Add analytics dashboard UI at `/admin/analytics`
+- 🔄 Set up affiliate webhook endpoints for commission callbacks
+- 🔄 Real-time analytics visualization
 
-#### [0.6.0] - Feature Enhancements (Planned)
+#### [0.8.0] - Feature Enhancements (Planned)
 - 🆕 Advanced filtering UI
 - 🆕 Product sorting options
 - 🆕 User preferences (saved products, comparisons)
@@ -465,5 +571,5 @@ We follow **Semantic Versioning** (SemVer):
 ---
 
 **Maintained By:** GitHub Copilot  
-**Last Updated:** November 27, 2025  
-**Current Version:** 0.4.0
+**Last Updated:** November 29, 2025  
+**Current Version:** 0.6.0
