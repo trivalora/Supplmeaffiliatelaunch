@@ -14,6 +14,7 @@ import {
   useAffiliateTooltip,
   AffiliateTooltip,
 } from "@/components/shared/ui-extensions/AffiliateTooltip";
+import { WaitlistSignup } from "@/components/shared/WaitlistSignup";
 import IHerbBadgeLogoRgb from "@/imports/IHerbBadgeLogoRgb1-106-1526";
 import { HeroImage, SectionImage, ProductImage } from "@/components/images";
 
@@ -1017,6 +1018,15 @@ export function LandingPage(props: LandingPageProps) {
       <PopularComparisonsSection onNavigate={props.onNavigate} />
       <CTASection onScrollToSearch={handleScrollToSearch} />
       <NewsletterSection />
+
+      {/* Waitlist Section */}
+      <WaitlistSignup
+        title="Get Early Access to New Features"
+        subtitle="We're building personalized supplement tracking, smart refill reminders, and more. Join the waitlist to be first in line."
+        buttonText="Join the Waitlist"
+        interest="early_access"
+        className="bg-muted/30"
+      />
 
       {/* Global affiliate tooltip */}
       <AffiliateTooltip />
