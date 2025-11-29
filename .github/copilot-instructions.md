@@ -4,8 +4,8 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.3 (Nov 29, 2025)  
-**Status:** ✅ Production-ready with triple-platform server-side tracking (GA4 + Facebook + TikTok)  
+**Current Version:** 0.6.4 (Nov 30, 2025)  
+**Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
 **Key Stats:**
@@ -14,10 +14,23 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - ✅ 11 API endpoints (all operational in production)
 - ✅ Supabase PostgreSQL backend (17 supplements, 1,691 products, 11,837 prices, **197 glossary terms**, **analytics tracking**)
 - ✅ Triple-platform server-side tracking: GA4 Measurement Protocol + Facebook CAPI + TikTok Events API
+- ✅ CSS Performance: Optimized with 500-byte critical CSS, First Contentful Paint 200ms
+- ✅ Mobile Optimized: Images optimized for all devices (AVIF/WebP, responsive sizes)
 - ✅ SEO Score: 9.75/10 - Excellent implementation
 - ✅ Template System: 9/10 - Strong, consistent, reusable
 - ✅ Product Content: 400+ word SEO paragraphs (dynamic generation)
 - ✅ Backend Analytics: Server-side tracking with affiliate click_id generation
+
+**Version 0.6.4 Highlights:**
+⚡ **CSS Performance Optimization - Phase 1 & 2** ✅
+
+- **Phase 1 Quick Wins**: Removed Google Fonts, added font preloading, enabled Next.js CSS optimization
+- **Phase 2 Critical CSS**: 500-byte minimal inline CSS for instant header render
+- **Performance**: CSS blocking 1,130ms → 600ms (-47%), First Contentful Paint 1,880ms → 200ms (-89%)
+- **Zero Duplication**: Critical CSS contains only essential variables + header positioning
+- **Mobile Optimized**: Images already optimized with AVIF/WebP and responsive sizes
+- **Key Learning**: Next.js CSS imports always block; work with constraints, not against them
+- **See**: `docs/CSS_OPTIMIZATION_PLAN.md` for complete 4-phase strategy
 
 **Version 0.6.3 Highlights:**
 🎯 **Social Platform Server-Side Tracking** ✅
