@@ -52,6 +52,7 @@ interface ProductDetails {
   form?: string[];
   dsld_content?: string;
   servings_per_container?: number | null;
+  serving_size?: string;
   dsld_label_info?: {
     serving_size?: string;
     ingredients?: Array<{
@@ -99,7 +100,8 @@ export function ProductDetailClient({
   // Calculate estimated servings from available data
   const estimatedServings = useMemo(() => {
     if (!product) return null;
-    const servingSize = product.dsld_label_info?.serving_size || null;
+    // Use serving_size from root level (from API) or fall back to dsld_label_info
+    const servingSize = product.serving_size || product.dsld_label_info?.serving_size || null;
     const estimate = estimateServingsPerContainer({
       servings_per_container: product.servings_per_container,
       net_contents: product.net_contents,
@@ -192,6 +194,7 @@ export function ProductDetailClient({
           servings_per_container: apiProduct.servings_per_container
             ? parseInt(apiProduct.servings_per_container, 10)
             : null,
+          serving_size: apiProduct.serving_size || apiProduct.dsld_label_info?.serving_size,
         };
 
         setProduct(mappedProduct);
@@ -581,7 +584,7 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (product?.servings_per_container) {
+                                  if (estimatedServings) {
                                     e.preventDefault();
                                     handleBuyClick(
                                       addUTMParameters(retailer.product_url)
@@ -604,7 +607,7 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (product?.servings_per_container) {
+                                  if (estimatedServings) {
                                     e.preventDefault();
                                     handleBuyClick(
                                       addUTMParameters(retailer.product_url)
@@ -630,7 +633,7 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (product?.servings_per_container) {
+                                  if (estimatedServings) {
                                     e.preventDefault();
                                     handleBuyClick(
                                       addUTMParameters(retailer.product_url)
@@ -655,7 +658,7 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-[#FF9900] hover:bg-[#FF9900]/90 transition-colors"
                                 onClick={(e) => {
-                                  if (product?.servings_per_container) {
+                                  if (estimatedServings) {
                                     e.preventDefault();
                                     handleBuyClick(
                                       addUTMParameters(retailer.product_url)
@@ -678,7 +681,7 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (product?.servings_per_container) {
+                                  if (estimatedServings) {
                                     e.preventDefault();
                                     handleBuyClick(
                                       addUTMParameters(retailer.product_url)
@@ -704,7 +707,7 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (product?.servings_per_container) {
+                                  if (estimatedServings) {
                                     e.preventDefault();
                                     handleBuyClick(
                                       addUTMParameters(retailer.product_url)
@@ -730,7 +733,7 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (product?.servings_per_container) {
+                                  if (estimatedServings) {
                                     e.preventDefault();
                                     handleBuyClick(
                                       addUTMParameters(retailer.product_url)
@@ -755,7 +758,7 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors font-medium"
                                 onClick={(e) => {
-                                  if (product?.servings_per_container) {
+                                  if (estimatedServings) {
                                     e.preventDefault();
                                     handleBuyClick(
                                       addUTMParameters(retailer.product_url)
