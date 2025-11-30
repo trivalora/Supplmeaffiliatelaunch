@@ -65,6 +65,39 @@ const nextConfig = {
 
   // React strict mode
   reactStrictMode: true,
+
+  // Redirects for SEO - handle common URL variations
+  async redirects() {
+    return [
+      // Comparison page redirects (fix Seobility 404s)
+      {
+        source: "/comparison/bcaas",
+        destination: "/comparison/bcaa",
+        permanent: true,
+      },
+      {
+        source: "/comparison/whey",
+        destination: "/comparison/whey-protein",
+        permanent: true,
+      },
+      {
+        source: "/comparison/casein",
+        destination: "/comparison/casein-protein",
+        permanent: true,
+      },
+      {
+        source: "/comparison/collagen-peptides",
+        destination: "/comparison/collagen",
+        permanent: true,
+      },
+      {
+        source: "/comparison/magnesium-glycinate",
+        destination: "/comparison/magnesium",
+        permanent: true,
+      },
+      // No redirect for /comparison/zinc - it doesn't exist (zinc is a knowledgebase page only)
+    ];
+  },
 };
 
 export default nextConfig;
