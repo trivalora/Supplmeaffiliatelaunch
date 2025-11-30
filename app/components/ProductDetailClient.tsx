@@ -16,6 +16,10 @@ import {
 } from "@/lib/product-content-generator";
 import type { SupplementProductContext } from "@/lib/product-context-data";
 import { estimateServingsPerContainer } from "@/lib/servings-calculator";
+import {
+  trackAffiliateClickDual,
+  trackProductViewDual,
+} from "@/lib/analytics-dual";
 import IHerbBadgeLogoRgb from "@/imports/IHerbBadgeLogoRgb1-106-1526";
 
 // Amazon button image path (optimized version available)
@@ -111,14 +115,46 @@ export function ProductDetailClient({
     return estimate?.servingsPerContainer ?? null;
   }, [product]);
 
-  // Handle buy click - show refill modal if we can estimate servings
-  const handleBuyClick = (url: string) => {
-    if (estimatedServings) {
-      setPendingBuyUrl(url);
-      setShowRefillModal(true);
-    } else {
-      // No servings data available, proceed directly
-      window.open(url, "_blank", "noopener,noreferrer");
+  // Handle buy click with affiliate tracking and click_id generation
+  const handleBuyClick = async (url: string, retailerSlug: string) => {
+    if (!product) return;
+
+    // Track affiliate click and get tracking URL with click_id
+    try {
+      const { trackingUrl, clickId } = await trackAffiliateClickDual({
+        productId: product.id,
+        productName: product.dsld_product_name,
+        brand: product.brand,
+        supplementSlug: supplement,
+        retailerSlug: retailerSlug,
+        price:
+          product.retailer_prices.find((r) => r.product_url === url)?.price ||
+          0,
+        pricePerUnit:
+          product.retailer_prices.find((r) => r.product_url === url)
+            ?.price_per_unit || 0,
+        affiliateUrl: url,
+      });
+
+      // Use tracking URL (includes click_id for commission reconciliation)
+      const finalUrl = trackingUrl || url;
+
+      if (estimatedServings) {
+        setPendingBuyUrl(finalUrl);
+        setShowRefillModal(true);
+      } else {
+        // No servings data available, proceed directly
+        window.open(finalUrl, "_blank", "noopener,noreferrer");
+      }
+    } catch (error) {
+      console.error("[ProductDetail] Affiliate tracking failed:", error);
+      // Fallback: proceed with original URL if tracking fails
+      if (estimatedServings) {
+        setPendingBuyUrl(url);
+        setShowRefillModal(true);
+      } else {
+        window.open(url, "_blank", "noopener,noreferrer");
+      }
     }
   };
 
@@ -200,6 +236,16 @@ export function ProductDetailClient({
         };
 
         setProduct(mappedProduct);
+
+        // Track product view with dual tracking (GTM + Server)
+        trackProductViewDual(
+          apiProduct.id,
+          apiProduct.dsld_product_name || apiProduct.product_name,
+          apiProduct.brand,
+          supplement,
+          mappedProduct.retailer_prices.length,
+          Math.min(...mappedProduct.retailer_prices.map((p) => p.price))
+        );
       } catch (err) {
         console.error("Error loading product:", err);
         setError(err instanceof Error ? err.message : "Failed to load product");
@@ -586,12 +632,11 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (estimatedServings) {
-                                    e.preventDefault();
-                                    handleBuyClick(
-                                      addUTMParameters(retailer.product_url)
-                                    );
-                                  }
+                                  e.preventDefault();
+                                  handleBuyClick(
+                                    addUTMParameters(retailer.product_url),
+                                    "iherb"
+                                  );
                                 }}
                                 {...tooltipHandlers}
                               >
@@ -609,12 +654,11 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (estimatedServings) {
-                                    e.preventDefault();
-                                    handleBuyClick(
-                                      addUTMParameters(retailer.product_url)
-                                    );
-                                  }
+                                  e.preventDefault();
+                                  handleBuyClick(
+                                    addUTMParameters(retailer.product_url),
+                                    "gnc"
+                                  );
                                 }}
                                 {...tooltipHandlers}
                               >
@@ -635,12 +679,11 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (estimatedServings) {
-                                    e.preventDefault();
-                                    handleBuyClick(
-                                      addUTMParameters(retailer.product_url)
-                                    );
-                                  }
+                                  e.preventDefault();
+                                  handleBuyClick(
+                                    addUTMParameters(retailer.product_url),
+                                    "walmart"
+                                  );
                                 }}
                                 {...tooltipHandlers}
                               >
@@ -660,12 +703,11 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-[#FF9900] hover:bg-[#FF9900]/90 transition-colors"
                                 onClick={(e) => {
-                                  if (estimatedServings) {
-                                    e.preventDefault();
-                                    handleBuyClick(
-                                      addUTMParameters(retailer.product_url)
-                                    );
-                                  }
+                                  e.preventDefault();
+                                  handleBuyClick(
+                                    addUTMParameters(retailer.product_url),
+                                    "amazon"
+                                  );
                                 }}
                                 {...tooltipHandlers}
                               >
@@ -683,12 +725,11 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (estimatedServings) {
-                                    e.preventDefault();
-                                    handleBuyClick(
-                                      addUTMParameters(retailer.product_url)
-                                    );
-                                  }
+                                  e.preventDefault();
+                                  handleBuyClick(
+                                    addUTMParameters(retailer.product_url),
+                                    "vitacost"
+                                  );
                                 }}
                                 {...tooltipHandlers}
                               >
@@ -709,12 +750,11 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-start gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (estimatedServings) {
-                                    e.preventDefault();
-                                    handleBuyClick(
-                                      addUTMParameters(retailer.product_url)
-                                    );
-                                  }
+                                  e.preventDefault();
+                                  handleBuyClick(
+                                    addUTMParameters(retailer.product_url),
+                                    "bodybuilding"
+                                  );
                                 }}
                                 {...tooltipHandlers}
                               >
@@ -735,12 +775,11 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-tertiary border border-secondary hover:opacity-90 transition-opacity"
                                 onClick={(e) => {
-                                  if (estimatedServings) {
-                                    e.preventDefault();
-                                    handleBuyClick(
-                                      addUTMParameters(retailer.product_url)
-                                    );
-                                  }
+                                  e.preventDefault();
+                                  handleBuyClick(
+                                    addUTMParameters(retailer.product_url),
+                                    "supplement-warehouse"
+                                  );
                                 }}
                                 {...tooltipHandlers}
                               >
@@ -760,12 +799,13 @@ export function ProductDetailClient({
                                 rel="nofollow noopener noreferrer"
                                 className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors font-medium"
                                 onClick={(e) => {
-                                  if (estimatedServings) {
-                                    e.preventDefault();
-                                    handleBuyClick(
-                                      addUTMParameters(retailer.product_url)
-                                    );
-                                  }
+                                  e.preventDefault();
+                                  handleBuyClick(
+                                    addUTMParameters(retailer.product_url),
+                                    retailer.retailer
+                                      .toLowerCase()
+                                      .replace(/\s+/g, "-")
+                                  );
                                 }}
                                 {...tooltipHandlers}
                               >

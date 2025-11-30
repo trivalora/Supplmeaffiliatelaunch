@@ -410,6 +410,16 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
     showInNav: false,
     category: "comparison",
   },
+  {
+    key: "sulforaphane-comparison",
+    title: "Sulforaphane Price Comparison | Best Deals at iHerb & Amazon",
+    description:
+      "Compare prices for Sulforaphane supplements across top retailers. Find the best deals, certifications, and quality products.",
+    componentPath: "./components/pages/comparisons",
+    componentName: "SulforaphaneComparison",
+    showInNav: false,
+    category: "comparison",
+  },
 ];
 
 // Glossary routes

@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { GlossaryTemplate } from '@/components/templates/GlossaryTemplate';
-import { parseMarkdownToReact } from '../../../lib/markdown';
-import { PageViewTracker } from '../../components/PageViewTracker';
+import { GlossaryTemplate } from "@/components/templates/GlossaryTemplate";
+import { parseMarkdownToReact } from "../../../lib/markdown";
+import { PageViewTracker } from "../../components/PageViewTracker";
 
 /**
  * Database glossary term structure
@@ -38,33 +38,39 @@ interface GlossaryPageContentProps {
  * Converts markdown/HTML to formatted React components
  */
 export function GlossaryPageContent({ term }: GlossaryPageContentProps) {
+  // Parse definition (which may contain HTML links) to React
+  const definitionContent = term.definition
+    ? parseMarkdownToReact(term.definition)
+    : term.definition;
+
   // Convert markdown/HTML content to React components
-  const expandedExplanation = term.expanded_explanation 
+  const expandedExplanation = term.expanded_explanation
     ? parseMarkdownToReact(term.expanded_explanation)
     : undefined;
-    
+
   const technicalExplanation = term.technical_explanation
     ? parseMarkdownToReact(term.technical_explanation)
     : undefined;
-    
+
   const realWorldContext = term.real_world_context
     ? parseMarkdownToReact(term.real_world_context)
     : undefined;
-  
-  const commonMisconceptions = term.common_misconceptions && term.common_misconceptions.length > 0
-    ? parseMarkdownToReact(term.common_misconceptions.join('\n\n'))
-    : undefined;
-  
+
+  const commonMisconceptions =
+    term.common_misconceptions && term.common_misconceptions.length > 0
+      ? parseMarkdownToReact(term.common_misconceptions.join("\n\n"))
+      : undefined;
+
   // Key points: If stored as markdown string, parse it
   // If stored as structured data, would need different handling
   const keyPointsContent = term.key_points
     ? parseMarkdownToReact(term.key_points)
     : undefined;
-  
+
   // Related terms: For now, just pass empty array
   // TODO: Fetch related terms by UUIDs from API
   const relatedTerms: Array<{ term: string; key: string }> = [];
-  
+
   return (
     <>
       <PageViewTracker pageName={term.term} pageCategory="glossary" />
@@ -72,7 +78,7 @@ export function GlossaryPageContent({ term }: GlossaryPageContentProps) {
         term={term.term}
         abbreviation={term.abbreviation || undefined}
         pronunciation={term.pronunciation || undefined}
-        definition={term.definition}
+        definition={definitionContent}
         expandedExplanation={expandedExplanation}
         whyItMatters={term.why_it_matters || undefined}
         simpleExplanation={term.simple_explanation || undefined}

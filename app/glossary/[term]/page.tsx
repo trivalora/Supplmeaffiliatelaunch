@@ -70,7 +70,7 @@ export async function generateStaticParams() {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
     const response = await fetch(`${baseUrl}/api/glossary?limit=500`, {
-      cache: "force-cache",
+      cache: "no-store", // Temporarily disable cache to get fresh data after database changes
     });
 
     if (!response.ok) {

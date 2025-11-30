@@ -56,6 +56,7 @@ import {
   MultivitaminComparison,
   WheyProteinComparison,
   CaseinProteinComparison,
+  SulforaphaneComparison,
 } from '@/components/pages/comparisons';
 
 /**
@@ -84,7 +85,7 @@ const COMPONENT_MAP: Record<string, React.ComponentType<any>> = {
   'WheyProteinKnowledgebasePage': WheyProteinKnowledgebasePage,
   'CaseinProteinKnowledgebasePage': CaseinProteinKnowledgebasePage,
   
-  // Comparison pages (16)
+  // Comparison pages (17)
   'AshwagandhaComparison': AshwagandhaComparison,
   'CalciumComparison': CalciumComparison,
   'CollagenComparison': CollagenComparison,
@@ -101,6 +102,7 @@ const COMPONENT_MAP: Record<string, React.ComponentType<any>> = {
   'MultivitaminComparison': MultivitaminComparison,
   'WheyProteinComparison': WheyProteinComparison,
   'CaseinProteinComparison': CaseinProteinComparison,
+  'SulforaphaneComparison': SulforaphaneComparison,
 };
 
 interface PageProps {

@@ -10,7 +10,7 @@ interface GlossaryTemplateProps {
   abbreviation?: string;
   pronunciation?: string;
   partOfSpeech?: string;
-  definition: string;
+  definition: string | React.ReactNode;
   detailedExplanation?: string;
   expandedExplanation?: React.ReactNode;
   whyItMatters?: string;
