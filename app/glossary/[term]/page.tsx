@@ -102,7 +102,7 @@ export async function generateMetadata({
     return { title: "Term Not Found" };
   }
 
-  const title = `${term.term} Definition and Explanation`;
+  const title = `${term.term} - Definition and Explanation`;
 
   const description =
     term.meta_description || term.definition?.substring(0, 155) || "";
