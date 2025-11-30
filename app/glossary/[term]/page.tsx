@@ -12,8 +12,7 @@ async function getGlossaryTerm(slug: string): Promise<GlossaryTerm | null> {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
     const response = await fetch(`${baseUrl}/api/glossary/${slug}`, {
-      cache: "force-cache",
-      next: { revalidate: 3600 }, // Revalidate every hour
+      cache: "no-store", // Changed from force-cache to no-store to always fetch fresh data
     });
 
     if (!response.ok) {
