@@ -908,7 +908,9 @@ export function ProductComparisonClient({
                                   {imageUrl ? (
                                     <img
                                       src={imageUrl}
-                                      alt={`${product.brand} ${product.dsld_product_name || "Product"} bottle`}
+                                      alt={`${product.brand} ${
+                                        product.dsld_product_name || "Product"
+                                      } bottle`}
                                       className="w-full h-full object-cover"
                                       style={{ objectFit: "cover" }}
                                       loading="lazy"
@@ -1315,7 +1317,9 @@ export function ProductComparisonClient({
                               {imageUrl ? (
                                 <img
                                   src={imageUrl}
-                                  alt={`${product.brand} ${product.dsld_product_name || "Product"} bottle`}
+                                  alt={`${product.brand} ${
+                                    product.dsld_product_name || "Product"
+                                  } bottle`}
                                   className="w-full h-full object-cover"
                                   style={{ objectFit: "cover" }}
                                   loading="lazy"
