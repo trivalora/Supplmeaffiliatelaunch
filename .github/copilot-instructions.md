@@ -16,8 +16,8 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.6.4 (Dec 1, 2025)  
-**Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance + **ALL 197 glossary terms enhanced** + **Glossary system 100% consistent** + **Enhanced hero typography**  
+**Current Version:** 0.6.6.6 (Dec 1, 2025)  
+**Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance + **ALL 197 glossary terms enhanced** + **Glossary system 100% consistent** + **Enhanced hero typography** + **ALL product images migrated to local storage**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
 **Key Stats:**
@@ -34,6 +34,26 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - ✅ Backend Analytics: Server-side tracking with affiliate click_id generation
 - ✅ **Glossary Enhancement: 197/197 terms (100%) enhanced to 500+ words with rich content**
 - ✅ **Glossary System: 100% consistent architecture** (v0.6.6)
+
+**Version 0.6.6.6 Highlights:**
+🎉 **Complete Image Migration - DONE!** ✅
+
+- **iHerb**: 211 products migrated to local storage (210 unique images)
+- **Vitacost**: 57 products migrated to local storage (57 unique images)
+- **Total**: 268 products now use local images (267 image files in `public/images/products/`)
+- **Zero External Dependencies**: Eliminated all Cloudinary/external image CDN reliance
+- **Scripts**: `scripts/update-remaining-iherb-images.mjs` + `scripts/update-vitacost-images.mjs`
+- **Performance**: Faster page loads, complete control over image delivery
+- **Status**: Image migration project 100% COMPLETE
+
+**Version 0.6.6.5 Highlights:**
+🖼️ **iHerb Image Migration Complete** ✅
+
+- **Local Images**: 211 iHerb products now use local images (eliminated Cloudinary dependency)
+- **Files Copied**: 210 unique image files to `public/images/products/`
+- **Database Updated**: All product_image_url fields updated from external URLs to local paths
+- **Processing**: Matched by original URL from CSV mapping (308 total, 211 found in DB)
+- **Script**: `scripts/update-remaining-iherb-images.mjs` - URL-based matching and file operations
 
 **Version 0.6.6.4 Highlights:**
 📝 **SEO Enhancement - Definition Label** ✅

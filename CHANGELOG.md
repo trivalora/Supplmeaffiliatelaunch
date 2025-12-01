@@ -4,6 +4,32 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.6.6.6] - December 1, 2025
+
+### Changed
+
+- **Image Migration COMPLETE**: Finished migrating all product images to local storage
+  - **Vitacost Products**: 57 products migrated with local image paths
+  - **Total Migration**: 268 products (211 iHerb + 57 Vitacost) now use local images
+  - **Image Files**: 267 unique files in `public/images/products/` (210 iHerb + 57 Vitacost)
+  - **External CDN**: Completely eliminated Cloudinary and external image dependencies
+  - **Script**: `scripts/update-vitacost-images.mjs` for batch Vitacost processing
+  - **Performance**: Improved page load times with local image delivery
+  - **Control**: Full control over image optimization and delivery strategy
+  - **Status**: ✅ Image migration project 100% COMPLETE
+
+## [0.6.6.5] - December 1, 2025
+
+### Changed
+
+- **Image Migration - iHerb Products**: Completed migration of 211 iHerb products to local storage
+  - **Local Images**: 210 unique image files copied to `public/images/products/`
+  - **Database Updates**: All product_image_url fields updated from external Cloudinary URLs to local paths
+  - **Matching Strategy**: URL-based matching from CSV mapping (308 total mappings, 211 products found in database)
+  - **Script**: `scripts/update-remaining-iherb-images.mjs` handles batch processing
+  - **Performance**: Eliminated external Cloudinary dependency for all iHerb products
+  - **Next Phase**: Vitacost images ready for processing with similar approach
+
 ## [0.6.6.4] - December 1, 2025
 
 ### Enhanced
