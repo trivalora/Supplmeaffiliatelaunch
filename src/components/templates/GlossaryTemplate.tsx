@@ -128,7 +128,7 @@ export function GlossaryTemplate({
               </div>
               <h1 className="text-primary-foreground mb-4">
                 <span className="block text-xl md:text-2xl font-normal text-secondary/60 tracking-wide mb-6">
-                  Definition & Explanation{" "}
+                  Definition & Explanation
                 </span>
                 <span className="block">{term}</span>
               </h1>
@@ -150,9 +150,13 @@ export function GlossaryTemplate({
               {/* Definition directly in hero */}
               <div className="text-secondary text-lg md:text-xl leading-relaxed">
                 {typeof definition === "string" ? (
-                  <p>{definition}</p>
+                  <p>
+                    <strong>Definition:</strong> {definition}
+                  </p>
                 ) : (
-                  definition
+                  <div>
+                    <strong>Definition:</strong> {definition}
+                  </div>
                 )}
               </div>
             </div>

@@ -4,6 +4,17 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.6.6.4] - December 1, 2025
+
+### Enhanced
+
+- **SEO Keyword Presence**: Added bold "Definition:" label before definition text in glossary hero sections
+  - Word "definition" now appears twice on every glossary page: h1 ("Definition & Explanation") + body text label
+  - Improves keyword relevance and semantic clarity for search engines
+  - Enhances user experience with explicit content labeling
+  - Applied to all 195 glossary pages via GlossaryTemplate
+  - Files: `src/components/templates/GlossaryTemplate.tsx`
+
 ## [0.6.6.3] - December 1, 2025
 
 ### Fixed

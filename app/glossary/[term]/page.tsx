@@ -69,7 +69,7 @@ export async function generateStaticParams() {
   try {
     // Import routes config directly to avoid API calls during build
     const { GLOSSARY_ROUTES } = await import("../../../src/routes.config");
-    
+
     return GLOSSARY_ROUTES.map((route) => ({
       term: route.key,
     }));
