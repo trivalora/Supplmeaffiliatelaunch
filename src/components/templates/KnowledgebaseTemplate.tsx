@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { ReactNode, useEffect } from 'react';
-import { LucideIcon } from 'lucide-react';
-import { ImageWithFallback } from '@/components/shared/ui-extensions/ImageWithFallback';
-import { SectionImage } from '@/components/images';
-import { WhatToExpectSection } from '@/components/WhatToExpectSection';
-import { AffiliateTooltip } from '@/components/shared/ui-extensions/AffiliateTooltip';
-import { trackSupplementView, trackSupplementSection } from '@/lib/analytics';
+import { ReactNode, useEffect } from "react";
+import { LucideIcon } from "lucide-react";
+import { ImageWithFallback } from "@/components/shared/ui-extensions/ImageWithFallback";
+import { SectionImage } from "@/components/images";
+import { WhatToExpectSection } from "@/components/WhatToExpectSection";
+import { AffiliateTooltip } from "@/components/shared/ui-extensions/AffiliateTooltip";
+import { trackSupplementView, trackSupplementSection } from "@/lib/analytics";
 
 // Import all extracted sections
 import {
@@ -16,8 +16,8 @@ import {
   ReferencesSection,
   ProductComparisonSection,
   OverviewSection,
-  FurtherReadingSection
-} from '@/components/sections/knowledgebase';
+  FurtherReadingSection,
+} from "@/components/sections/knowledgebase";
 
 // Re-export types for backward compatibility
 export type {
@@ -28,17 +28,22 @@ export type {
   Reference,
   FurtherReadingLink,
   WhatToExpectData,
-  DietarySource
-} from '@/components/sections/knowledgebase';
+  DietarySource,
+} from "@/components/sections/knowledgebase";
 
 // Additional type definitions specific to this template
 export interface WhatToExpectOutcome {
-  icon: LucideIcon | 'happy' | 'performance';
+  icon: LucideIcon | "happy" | "performance";
   iconLabel: string;
   usage: string;
   bestTime: string;
   resultsWeeks: string;
-  intensity: 'Low' | 'Low to Moderate' | 'Moderate' | 'Moderate to High' | 'High';
+  intensity:
+    | "Low"
+    | "Low to Moderate"
+    | "Moderate"
+    | "Moderate to High"
+    | "High";
   signsOfEffectiveness?: string;
 }
 
@@ -84,47 +89,79 @@ export interface KnowledgebasePageProps {
 // HERO SECTION COMPONENTS
 // ========================================
 
-function HeroLeftPanel({ supplementName, heroDescription }: { supplementName: string; heroDescription: string }) {
+function HeroLeftPanel({
+  supplementName,
+  heroDescription,
+}: {
+  supplementName: string;
+  heroDescription: string;
+}) {
   return (
-    <div className="flex-1 flex items-center justify-center h-auto md:h-full" style={{ backgroundColor: 'var(--primary)', padding: 'clamp(2rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem)' }}>
+    <div
+      className="flex-1 flex items-center justify-center h-auto md:h-full"
+      style={{
+        backgroundColor: "var(--primary)",
+        padding: "clamp(2rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem)",
+      }}
+    >
       <div data-knowledgebase-hero-text>
-        <h1 style={{ color: 'var(--tertiary)' }}>
-          {supplementName}
+        <h1 style={{ color: "var(--tertiary)" }}>
+          <span style={{ display: "block" }}>{supplementName}</span>
+          <span
+            style={{
+              display: "block",
+              fontSize: "0.4em",
+              fontWeight: "400",
+              marginTop: "0.5rem",
+              opacity: "0.9",
+            }}
+          >
+            Benefits, Risks & Best Price
+          </span>
         </h1>
-        <p style={{ color: 'var(--tertiary)' }}>
-          {heroDescription}
-        </p>
+        <p style={{ color: "var(--tertiary)" }}>{heroDescription}</p>
       </div>
     </div>
   );
 }
 
-function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { heroImageUrl?: string; heroImageComponent?: ReactNode; supplementName: string }) {
+function HeroRightPanel({
+  heroImageUrl,
+  heroImageComponent,
+  supplementName,
+}: {
+  heroImageUrl?: string;
+  heroImageComponent?: ReactNode;
+  supplementName: string;
+}) {
   // Preload hero AVIF sources for LCP if we can derive the base filename
   useEffect(() => {
     if (!heroImageUrl) return;
     try {
-      const baseFile = heroImageUrl.split('?')[0].split('/').pop() || '';
+      const baseFile = heroImageUrl.split("?")[0].split("/").pop() || "";
       if (!baseFile) return;
       // Strip extension to get base hash
-      const base = baseFile.replace(/\.(png|jpe?g)$/i, '');
+      const base = baseFile.replace(/\.(png|jpe?g)$/i, "");
       if (!base) return;
       const id = `preload-kb-hero-${base}`;
       if (!document.getElementById(id)) {
-        const link = document.createElement('link');
+        const link = document.createElement("link");
         link.id = id;
-        link.rel = 'preload';
-        link.as = 'image';
-        link.setAttribute('imagesrcset', `/optimized/${base}-640.avif 640w, /optimized/${base}-1280.avif 1280w, /optimized/${base}-1920.avif 1920w`);
-        link.setAttribute('imagesizes', '(min-width: 1024px) 50vw, 100vw');
-        (link as any).fetchPriority = 'high';
+        link.rel = "preload";
+        link.as = "image";
+        link.setAttribute(
+          "imagesrcset",
+          `/optimized/${base}-640.avif 640w, /optimized/${base}-1280.avif 1280w, /optimized/${base}-1920.avif 1920w`
+        );
+        link.setAttribute("imagesizes", "(min-width: 1024px) 50vw, 100vw");
+        (link as any).fetchPriority = "high";
         document.head.appendChild(link);
       }
       return () => {
         const el = document.getElementById(id);
         if (el) el.remove();
       };
-    } catch { }
+    } catch {}
   }, [heroImageUrl]);
 
   return (
@@ -137,8 +174,8 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
         // Prefer optimized responsive images when we can derive the asset filename
         (() => {
           try {
-            const baseFile = heroImageUrl.split('?')[0].split('/').pop();
-            if (baseFile && baseFile.includes('.')) {
+            const baseFile = heroImageUrl.split("?")[0].split("/").pop();
+            if (baseFile && baseFile.includes(".")) {
               // The baseFile is already clean (e.g., "hash.png")
               return (
                 <SectionImage
@@ -148,7 +185,7 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
                 />
               );
             }
-          } catch { }
+          } catch {}
           // Fallback if we cannot compute an asset filename
           return (
             <ImageWithFallback
@@ -163,11 +200,30 @@ function HeroRightPanel({ heroImageUrl, heroImageComponent, supplementName }: { 
   );
 }
 
-function HeroSection({ supplementName, heroDescription, heroImageUrl, heroImageComponent }: Pick<KnowledgebasePageProps, 'supplementName' | 'heroDescription' | 'heroImageUrl' | 'heroImageComponent'>) {
+function HeroSection({
+  supplementName,
+  heroDescription,
+  heroImageUrl,
+  heroImageComponent,
+}: Pick<
+  KnowledgebasePageProps,
+  "supplementName" | "heroDescription" | "heroImageUrl" | "heroImageComponent"
+>) {
   return (
-    <div id="hero" data-knowledgebase-hero className="h-auto md:h-[clamp(400px,50vh,600px)] w-full flex flex-col-reverse md:flex-row">
-      <HeroLeftPanel supplementName={supplementName} heroDescription={heroDescription} />
-      <HeroRightPanel heroImageUrl={heroImageUrl} heroImageComponent={heroImageComponent} supplementName={supplementName} />
+    <div
+      id="hero"
+      data-knowledgebase-hero
+      className="h-auto md:h-[clamp(400px,50vh,600px)] w-full flex flex-col-reverse md:flex-row"
+    >
+      <HeroLeftPanel
+        supplementName={supplementName}
+        heroDescription={heroDescription}
+      />
+      <HeroRightPanel
+        heroImageUrl={heroImageUrl}
+        heroImageComponent={heroImageComponent}
+        supplementName={supplementName}
+      />
     </div>
   );
 }
@@ -179,7 +235,9 @@ function HeroSection({ supplementName, heroDescription, heroImageUrl, heroImageC
 export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
   // Fire supplement_view on mount
   useEffect(() => {
-    try { trackSupplementView(props.supplementName); } catch { }
+    try {
+      trackSupplementView(props.supplementName);
+    } catch {}
   }, [props.supplementName]);
 
   // Section view tracking (supplement_section_view)
@@ -188,45 +246,64 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
     if (!supplement) return;
     const observedSections = new Set<string>();
     const sectionSelectors = [
-      '[data-knowledgebase-card-info]',
-      '[data-knowledgebase-card-benefits]',
-      '[data-knowledgebase-card-drawbacks]',
-      '[data-knowledgebase-research]',
-      '#hero',
-      '[data-section]'
+      "[data-knowledgebase-card-info]",
+      "[data-knowledgebase-card-benefits]",
+      "[data-knowledgebase-card-drawbacks]",
+      "[data-knowledgebase-research]",
+      "#hero",
+      "[data-section]",
     ];
     const elements: Array<HTMLElement> = [];
-    sectionSelectors.forEach(sel => {
-      document.querySelectorAll(sel).forEach(el => {
+    sectionSelectors.forEach((sel) => {
+      document.querySelectorAll(sel).forEach((el) => {
         if (el instanceof HTMLElement) elements.push(el);
       });
     });
     if (!elements.length) return;
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const el = entry.target as HTMLElement;
-          const label = el.getAttribute('data-knowledgebase-research-heading') ? 'Research Summary' :
-            el.id === 'hero' ? 'Hero' :
-              el.getAttribute('data-knowledgebase-card-info') !== null ? 'Overview' :
-                el.getAttribute('data-knowledgebase-card-benefits') !== null ? 'Benefits' :
-                  el.getAttribute('data-knowledgebase-card-drawbacks') !== null ? 'Drawbacks' :
-                    el.getAttribute('data-section') ? 'Section' : 'Unknown';
-          if (!observedSections.has(label)) {
-            observedSections.add(label);
-            try { trackSupplementSection(supplement, label); } catch { }
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const el = entry.target as HTMLElement;
+            const label = el.getAttribute("data-knowledgebase-research-heading")
+              ? "Research Summary"
+              : el.id === "hero"
+              ? "Hero"
+              : el.getAttribute("data-knowledgebase-card-info") !== null
+              ? "Overview"
+              : el.getAttribute("data-knowledgebase-card-benefits") !== null
+              ? "Benefits"
+              : el.getAttribute("data-knowledgebase-card-drawbacks") !== null
+              ? "Drawbacks"
+              : el.getAttribute("data-section")
+              ? "Section"
+              : "Unknown";
+            if (!observedSections.has(label)) {
+              observedSections.add(label);
+              try {
+                trackSupplementSection(supplement, label);
+              } catch {}
+            }
           }
-        }
-      });
-    }, { threshold: 0.35 });
-    elements.forEach(el => observer.observe(el));
+        });
+      },
+      { threshold: 0.35 }
+    );
+    elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, [props.supplementName]);
 
   return (
-    <div className="bg-background flex flex-col w-full min-h-screen" data-page-content>
+    <div
+      className="bg-background flex flex-col w-full min-h-screen"
+      data-page-content
+    >
       {/* Anchor for "top" navigation */}
-      <div id="top" className="absolute" style={{ top: 'var(--header-height)' }}></div>
+      <div
+        id="top"
+        className="absolute"
+        style={{ top: "var(--header-height)" }}
+      ></div>
 
       {/* Hero */}
       <HeroSection
@@ -238,10 +315,8 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
 
       {/* Main Content Container */}
       <div className="px-6 py-8 max-w-7xl mx-auto w-full">
-
         {/* Two-column layout on desktop, stacked on mobile */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-
           {/* Left Column - Main Content (2/3 width on desktop) */}
           <div className="lg:col-span-2 space-y-8 order-1">
             {/* Overview */}
@@ -283,7 +358,6 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
               />
             </div>
           </div>
-
         </div>
       </div>
 
@@ -333,4 +407,4 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
 }
 
 // Re-export for external use
-export { getProductsBySupplementName } from '@/lib/supplementProductsData';
+export { getProductsBySupplementName } from "@/lib/supplementProductsData";
