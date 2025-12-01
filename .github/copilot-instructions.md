@@ -103,7 +103,7 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 
 ✅ **MIGRATION COMPLETE** - Now fully on Supabase/PostgreSQL
 
-````
+```
 Supabase/PostgreSQL (Schema: api)
 ├── supplements (17 rows) ← Extended with 14 content columns in v0.5.0
 │   ├── quick_overview, extended_overview, science_snapshot
@@ -120,51 +120,55 @@ Supabase/PostgreSQL (Schema: api)
 │   └── 187 with SEO metadata (94.9%)
 └── analytics_events (growing) ← NEW in v0.6.0
 └── affiliate_clicks (growing) ← NEW in v0.6.0
-````
+```
 
 ### ⚠️ Database Connection Rules (CRITICAL)
 
 **All database tables are in the `api` schema**, not `public`. Always specify the schema when connecting.
 
 **✅ CORRECT - Node.js/JavaScript Scripts:**
-```javascript
-import { createClient } from '@supabase/supabase-js';
-import { config } from 'dotenv';
 
-config({ path: '.env.local' });
+```javascript
+import { createClient } from "@supabase/supabase-js";
+import { config } from "dotenv";
+
+config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
   process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: 'api' } }  // ← MUST specify schema!
+  { db: { schema: "api" } } // ← MUST specify schema!
 );
 
 // Then query normally
 const { data } = await supabase
-  .from('glossary_terms')
-  .select('*')
-  .eq('slug', 'polyphenols');
+  .from("glossary_terms")
+  .select("*")
+  .eq("slug", "polyphenols");
 ```
 
 **❌ WRONG - Missing schema:**
+
 ```javascript
 // This will fail with "schema must be one of the following: api"
-const supabase = createClient(url, key);  // Missing schema config!
+const supabase = createClient(url, key); // Missing schema config!
 ```
 
 **✅ CORRECT - API Routes (Server Components):**
+
 ```typescript
 // In app/api/*/route.ts files
-import { createClient } from '@/lib/supabase/server';
+import { createClient } from "@/lib/supabase/server";
 
 export async function GET() {
-  const supabase = createClient();  // Already configured with api schema
-  const { data } = await supabase.from('glossary_terms').select('*');
+  const supabase = createClient(); // Already configured with api schema
+  const { data } = await supabase.from("glossary_terms").select("*");
   return Response.json(data);
 }
 ```
 
 **Environment Variables Required:**
+
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=https://xxx.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=xxx
@@ -173,6 +177,7 @@ DATABASE_URL=postgresql://...  # For direct psql access
 ```
 
 **Supabase CLI - Limited Direct Query Support:**
+
 ```bash
 # ❌ WRONG - This syntax doesn't exist
 npx supabase db execute --sql "SELECT ..." --linked
@@ -186,6 +191,7 @@ psql "$DATABASE_URL" -c "SELECT * FROM api.glossary_terms LIMIT 5;"
 ```
 
 **Best Practice for Scripts:**
+
 - Create `.js` files in `scripts/` directory
 - Use ES modules (`import` syntax) since package.json has `"type": "module"`
 - Always configure schema: `{ db: { schema: 'api' } }`
@@ -196,6 +202,7 @@ psql "$DATABASE_URL" -c "SELECT * FROM api.glossary_terms LIMIT 5;"
 **Production (All Live - 11 endpoints)**:
 
 **Content API:**
+
 - `/api/supplements` - List all supplements
 - `/api/supplements/[slug]` - Supplement details
 - `/api/supplements/[slug]/products` - Product list (paginated)
@@ -206,6 +213,7 @@ psql "$DATABASE_URL" -c "SELECT * FROM api.glossary_terms LIMIT 5;"
 - `/api/glossary/[slug]` - Single glossary term
 
 **Analytics API (NEW in v0.6.0):**
+
 - `POST /api/events` - Batched event ingestion (rate limited, bot filtered)
 - `POST /api/events/affiliate-click` - Affiliate click tracking with click_id generation
 - `GET /api/analytics/summary` - Dashboard metrics (24h, 7d, 30d, 90d)
@@ -234,7 +242,7 @@ psql "$DATABASE_URL" -c "SELECT * FROM api.glossary_terms LIMIT 5;"
   showInNav: true,
   subcategory: 'Minerals'
 }
-````
+```
 
 **Step 2**: Create component `src/components/pages/supplements/ZincKnowledgebasePage.tsx`
 

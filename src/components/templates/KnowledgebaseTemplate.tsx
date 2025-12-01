@@ -180,7 +180,7 @@ function HeroRightPanel({
               return (
                 <SectionImage
                   file={baseFile}
-                  alt={supplementName}
+                  alt={`${supplementName} supplement - compare prices, benefits, and dosage forms`}
                   objectFit="cover"
                 />
               );
@@ -190,7 +190,7 @@ function HeroRightPanel({
           return (
             <ImageWithFallback
               src={heroImageUrl}
-              alt={supplementName}
+              alt={`${supplementName} supplement - compare prices, benefits, and dosage forms`}
               className="w-full h-full object-cover"
             />
           );

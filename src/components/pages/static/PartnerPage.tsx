@@ -92,7 +92,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
         <div className="absolute inset-0 w-full h-full">
           <ResponsivePicture
             file="4bdf2cba5e05e7d70b9f1402336825a64b04e236.png"
-            alt=""
+            alt="Forest canopy aerial view - partnership and growth in supplement industry"
             fallbackSrc={imgForestAerial}
             sizes="100vw"
             imgProps={{

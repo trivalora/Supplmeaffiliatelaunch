@@ -182,7 +182,7 @@ function HeroSection({
       {/* Background Image - Full viewport width */}
       <HeroImage
         file="adaa5958638ef58a10a2b5b182d161d011abc01a.png"
-        alt=""
+        alt="Natural supplement ingredients - herbs, roots, and botanicals for evidence-based health"
         objectPosition="center"
         widths={[640, 1280, 1920, 2560]}
       />
@@ -306,7 +306,7 @@ function WhyTrustUsSection({
           <div className="order-2 md:order-1 overflow-hidden rounded-2xl shadow-lg">
             <SectionImage
               file="f69f346bde9ce1223aa8e8e9265be307b22261e4.png"
-              alt="Crystal ball with waterfall - clarity and vision"
+              alt="Crystal clear water flowing - transparent supplement research and evidence-based recommendations"
               objectFit="cover"
               objectPosition="center"
               transform="scale(1.3)"
@@ -538,7 +538,7 @@ function OurMissionSection({
           <div className="overflow-hidden rounded-2xl shadow-lg">
             <SectionImage
               file="4bdf2cba5e05e7d70b9f1402336825a64b04e236.png"
-              alt="Aerial view of lush forest - natural mission"
+              alt="Lush green forest from above - natural, science-backed supplement recommendations"
               objectFit="cover"
             />
           </div>
@@ -740,7 +740,7 @@ function PopularComparisonsSection({
                 >
                   <ProductImage
                     src={supplement.image}
-                    alt={supplement.name}
+                    alt={`${supplement.name} by ${supplement.brand} - price comparison and reviews`}
                     widths={[240, 360, 480, 640]}
                     sizes="240px"
                   />

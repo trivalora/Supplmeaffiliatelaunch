@@ -460,7 +460,7 @@ export function ProductDetailClient({
                 {productImage ? (
                   <img
                     src={productImage}
-                    alt={product.dsld_product_name}
+                    alt={`${product.brand} ${product.dsld_product_name} - product bottle and supplement facts`}
                     className="w-full h-full object-contain"
                     loading="eager"
                   />
