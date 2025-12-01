@@ -105,7 +105,7 @@ function HeroLeftPanel({
       }}
     >
       <div data-knowledgebase-hero-text>
-        <h1 style={{ color: "var(--tertiary)" }}>
+        <h1 style={{ color: "var(--tertiary)", marginBottom: "2rem" }}>
           <span style={{ display: "block" }}>{supplementName}</span>
           <span
             style={{
