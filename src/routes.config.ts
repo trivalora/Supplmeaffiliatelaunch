@@ -252,7 +252,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
 
   {
     key: "ashwagandha-comparison",
-    title: "Ashwagandha Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Ashwagandha Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Ashwagandha supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -262,7 +262,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "calcium-comparison",
-    title: "Calcium Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Calcium Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Calcium supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -272,7 +272,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "collagen-comparison",
-    title: "Collagen Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Collagen Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Collagen supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -282,7 +282,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "creatine-comparison",
-    title: "Creatine Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Creatine Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Creatine supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -292,7 +292,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "iron-comparison",
-    title: "Iron Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Iron Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Iron supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -302,7 +302,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "magnesium-comparison",
-    title: "Magnesium Glycinate Price Comparison | Best Deals",
+    title: "Magnesium Glycinate Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Magnesium Glycinate supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -312,7 +312,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "omega-3-comparison",
-    title: "Omega-3 Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Omega-3 Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Omega-3 supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -322,7 +322,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "prebiotics-comparison",
-    title: "Prebiotics Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Prebiotics Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Prebiotics supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -332,7 +332,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "probiotics-comparison",
-    title: "Probiotics Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Probiotics Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Probiotics supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -342,7 +342,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "vitamin-c-comparison",
-    title: "Vitamin C Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Vitamin C Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Vitamin C supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -352,7 +352,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "vitamin-d-comparison",
-    title: "Vitamin D Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Vitamin D Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Vitamin D supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -362,7 +362,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "bcaa-comparison",
-    title: "BCAA Price Comparison | Best Deals at iHerb & Amazon",
+    title: "BCAA Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for BCAA supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -372,7 +372,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "curcumin-comparison",
-    title: "Curcumin Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Curcumin Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Curcumin supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -382,7 +382,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "multivitamin-comparison",
-    title: "Multivitamin Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Multivitamin Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Multivitamin supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -392,7 +392,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "whey-protein-comparison",
-    title: "Whey Protein Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Whey Protein Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Whey Protein supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -402,7 +402,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "casein-protein-comparison",
-    title: "Casein Protein Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Casein Protein Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Casein Protein supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",
@@ -412,7 +412,7 @@ export const KNOWLEDGEBASE_ROUTES: RouteConfig[] = [
   },
   {
     key: "sulforaphane-comparison",
-    title: "Sulforaphane Price Comparison | Best Deals at iHerb & Amazon",
+    title: "Sulforaphane Price Comparison | Best Supplement Deals",
     description:
       "Compare prices for Sulforaphane supplements across top retailers. Find the best deals, certifications, and quality products.",
     componentPath: "./components/pages/comparisons",

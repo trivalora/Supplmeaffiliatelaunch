@@ -9,7 +9,7 @@ import "../src/styles/globals.css";
 import "../src/fonts.css";
 
 export const metadata: Metadata = {
-  title: "Suppl.me - Evidence-Based Supplement Research & Price Comparison",
+  title: "Suppl - Evidence-Based Supplement Research & Price Comparison",
   description:
     "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
   keywords:
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Suppl.me - Evidence-Based Supplement Research & Price Comparison",
+    title: "Suppl - Evidence-Based Supplement Research & Price Comparison",
     description:
       "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
     url: "https://www.suppl.me",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Suppl.me - Evidence-Based Supplement Research",
+    title: "Suppl - Evidence-Based Supplement Research",
     description:
       "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
     images: ["https://www.suppl.me/images/og-home.jpg"],
