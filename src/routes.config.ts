@@ -876,16 +876,6 @@ export const GLOSSARY_ROUTES: RouteConfig[] = [
     category: "glossary",
   },
   {
-    key: "omega-3",
-    title: "Omega-3 Fatty Acids",
-    description:
-      "Essential polyunsaturated fatty acids important for heart and brain health",
-    componentPath: "./components/pages/glossary/Omega3Page",
-    componentName: "Omega3Page",
-    showInNav: true,
-    category: "glossary",
-  },
-  {
     key: "bloodglucose",
     title: "Blood Glucose",
     description:
