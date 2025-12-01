@@ -16,7 +16,7 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.6.1 (Dec 1, 2025)  
+**Current Version:** 0.6.6.2 (Dec 1, 2025)  
 **Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance + **ALL 197 glossary terms enhanced** + **Glossary system 100% consistent** + **Enhanced hero typography**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
@@ -34,6 +34,16 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - ✅ Backend Analytics: Server-side tracking with affiliate click_id generation
 - ✅ **Glossary Enhancement: 197/197 terms (100%) enhanced to 500+ words with rich content**
 - ✅ **Glossary System: 100% consistent architecture** (v0.6.6)
+
+**Version 0.6.6.2 Highlights:**
+🔧 **Glossary Data Integrity Fix** ✅
+
+- **Collagen Duplicate**: Removed from GLOSSARY_ROUTES (was in both glossary + knowledgebase)
+- **Omega-3 Duplicate**: Removed from GLOSSARY_ROUTES (was in both glossary + knowledgebase)
+- **Audit Complete**: Verified all 17 supplements ONLY in KNOWLEDGEBASE_ROUTES
+- **Glossary Count**: Now 195 terms (down from 197)
+- **Sitemap**: Will regenerate cleanly without supplement duplicates
+- **See**: `routes.config.ts` - clean separation of supplements vs terms
 
 **Version 0.6.6.1 Highlights:**
 🎨 **Glossary Hero Typography Enhancement** ✅

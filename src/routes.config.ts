@@ -704,16 +704,7 @@ export const GLOSSARY_ROUTES: RouteConfig[] = [
     showInNav: true,
     category: "glossary",
   },
-  {
-    key: "collagen",
-    title: "Collagen",
-    description:
-      "Most abundant protein providing structural support to tissues",
-    componentPath: "./components/pages/glossary/CollagenPage",
-    componentName: "CollagenPage",
-    showInNav: true,
-    category: "glossary",
-  },
+
   {
     key: "cortisol",
     title: "Cortisol",

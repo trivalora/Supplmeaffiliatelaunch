@@ -4,6 +4,35 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.6.6.2] - December 1, 2025
+
+### 🔧 Glossary Data Integrity Fix
+
+**Focus:** Remove supplement duplicates from GLOSSARY_ROUTES to ensure clean separation between supplements (knowledgebase) and glossary terms.
+
+#### Fixed - Duplicate Removal ✅
+- ✅ **Collagen**: Removed from GLOSSARY_ROUTES (was in both glossary + knowledgebase)
+- ✅ **Omega-3**: Removed from GLOSSARY_ROUTES (was in both glossary + knowledgebase)
+- ✅ **Audit Complete**: Verified all 17 supplements exist ONLY in KNOWLEDGEBASE_ROUTES
+  - ashwagandha, bcaa, calcium, casein, collagen, creatine, curcumin, iron, magnesium, multivitamin, omega-3, prebiotics, probiotics, sulforaphane, vitamin-c, vitamin-d, whey, zinc
+  - No supplements found in glossary routes
+
+#### Impact - Glossary Count ✅
+- **Before**: 197 entries (195 terms + 2 supplements)
+- **After**: 195 entries (terms only)
+- **Sitemap**: Will regenerate cleanly without supplement duplicates
+- **Architecture**: Clean separation of supplements vs terms
+
+#### Files Modified
+**Modified:**
+- `src/routes.config.ts` (removed collagen, omega-3 from GLOSSARY_ROUTES)
+
+**Deleted:**
+- `src/components/pages/glossary/CollagenPage.tsx`
+- `src/components/pages/glossary/Omega3Page.tsx`
+
+---
+
 ## [0.6.6.1] - December 1, 2025
 
 ### 🎨 Glossary Hero Typography Enhancement
