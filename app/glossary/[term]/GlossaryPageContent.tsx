@@ -58,7 +58,21 @@ export function GlossaryPageContent({ term }: GlossaryPageContentProps) {
 
   const commonMisconceptions =
     term.common_misconceptions && term.common_misconceptions.length > 0
-      ? parseMarkdownToReact(term.common_misconceptions.join("\n\n"))
+      ? parseMarkdownToReact(
+          term.common_misconceptions
+            // Convert single newlines within items to double newlines for proper paragraph breaks
+            .map((item) => item.replace(/\n/g, "\n\n"))
+            .join("\n\n")
+            // Color code Myth/Fact labels
+            .replace(
+              /\*\*Myth:\*\*/g,
+              '<strong class="text-red-600">Myth:</strong>'
+            )
+            .replace(
+              /\*\*Fact:\*\*/g,
+              '<strong class="text-primary">Fact:</strong>'
+            )
+        )
       : undefined;
 
   // Key points: If stored as markdown string, parse it
@@ -78,13 +92,14 @@ export function GlossaryPageContent({ term }: GlossaryPageContentProps) {
         term={term.term}
         abbreviation={term.abbreviation || undefined}
         pronunciation={term.pronunciation || undefined}
-        definition={definitionContent}
+        definition={term.definition}
         expandedExplanation={expandedExplanation}
         whyItMatters={term.why_it_matters || undefined}
         simpleExplanation={term.simple_explanation || undefined}
         technicalExplanation={technicalExplanation}
         realWorldContext={realWorldContext}
         examples={term.examples || undefined}
+        keyPointsContent={keyPointsContent}
         commonMisconceptions={commonMisconceptions}
         relatedTerms={relatedTerms}
         currentPage={term.slug}

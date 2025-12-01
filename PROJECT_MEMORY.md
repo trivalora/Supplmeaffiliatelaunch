@@ -5,9 +5,9 @@
 ## 🎯 Quick Project Identity
 
 **Name:** Suppl.me - Evidence-Based Supplement Comparison Platform  
-**Version:** 0.5.0 (Production - November 2025)  
+**Version:** 0.6.5 (Production - December 1, 2025)  
 **Stack:** Next.js 16 + React 19 + Supabase PostgreSQL + TypeScript + Tailwind v4  
-**Status:** ✅ Production-ready, 1,936 pages live on Vercel
+**Status:** ✅ Production-ready, 1,936 pages live on Vercel, **ALL 197 glossary terms enhanced**
 
 ---
 
@@ -24,10 +24,11 @@
 ### Backend
 
 - **Database:** Supabase PostgreSQL (schema: `api`, NOT `public`)
-- **Tables:** 5 tables (supplements, products, retailers, prices, glossary_terms)
-- **Data:** 17 supplements (with extended content), 1,691 products, 11,837 prices, 197 glossary terms
-- **API:** 7 endpoints (all App Router style in `app/api/`)
+- **Tables:** 5 core + 4 analytics tables
+- **Data:** 17 supplements (with extended content), 1,691 products, 11,837 prices, **197 glossary terms (ALL 500+ words)**
+- **API:** 11 endpoints (all App Router style in `app/api/`)
 - **Content:** 14 extended columns for SEO-optimized product page content
+- **Glossary:** 5 rich content fields (why_it_matters, simple_explanation, key_points, common_misconceptions, examples)
 
 ### Deployment
 

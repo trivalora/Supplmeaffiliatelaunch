@@ -4,6 +4,56 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.6.5] - December 1, 2025
+
+### 🎉 Glossary Enhancement Project - COMPLETE!
+
+**Focus:** Enhance ALL 197 glossary terms to 500+ words each for improved SEO and user value. Added comprehensive content including `why_it_matters`, `simple_explanation`, `key_points`, `common_misconceptions`, and `examples` fields.
+
+#### 🏆 PROJECT COMPLETE - All 197 Terms Enhanced!
+
+| Batch | Terms | Range | Status |
+|-------|-------|-------|--------|
+| Batch 1 | 1-10 | 8-OHdG → Anabolic Resistance | ✅ Complete |
+| Batch 2 | 11-20 | Anecdotal Evidence → Bioavailability | ✅ Complete |
+| Batch 3 | 21-30 | Biomarker → Carotenoids | ✅ Complete |
+| Batch 4 | 31-40 | Catalase → Colonocytes | ✅ Complete |
+| Batch 5 | 41-50 | Confidence Interval → Diastolic | ✅ Complete |
+| Batch 6 | 51-60 | Distal Colon → Ergogenic | ✅ Complete |
+| Batch 7 | 61-70 | Essential Amino Acid → Fructooligosaccharides | ✅ Complete |
+| Batch 8 | 71-80 | Galactooligosaccharides → Glucuronidation | ✅ Complete |
+| Batch 9 | 81-90 | Glycemic Control → Hemoglobin | ✅ Complete |
+| Batch 10 | 91-100 | Hepatic Encephalopathy → IBD | ✅ Complete |
+| Batch 11 | 101-110 | Insulin → LDL Cholesterol | ✅ Complete |
+| Batch 12 | 111-120 | Leucine → Meta-Analysis | ✅ Complete |
+| Batch 13 | 121-130 | Metabolic Syndrome → Myoglobin | ✅ Complete |
+| Batch 14 | 131-140 | Neurotransmitter → Osteomalacia | ✅ Complete |
+| Batch 15 | 141-150 | Osteoporosis → Pharmacokinetics | ✅ Complete |
+| Batch 16 | 151-160 | Phosphocreatine → Propionate | ✅ Complete |
+| Batch 17 | 161-170 | Protein → Saturation | ✅ Complete |
+| Batch 18 | 171-180 | SCFA → Subgroup Analysis | ✅ Complete |
+| Batch 19 | 181-190 | Sublingual → Total Antioxidant Capacity | ✅ Complete |
+| Batch 20 | 191-197 | Triglycerides → Weighted Mean Difference | ✅ Complete |
+
+#### Final Statistics
+- **Total Enhanced**: 197/197 terms (100% complete!)
+- **Word Count**: All terms verified at 500+ words
+- **Content Fields**: 5 rich content fields per term
+- **Scripts Created**: 20 batch scripts + 1 boost script
+
+#### Content Structure Per Term
+- `why_it_matters` (~150-200 words): Practical relevance for supplement shoppers
+- `simple_explanation` (~200-300 words): Comprehensive plain-language breakdown
+- `key_points` (markdown): 5 bullet points with essential facts
+- `common_misconceptions` (array): 3 Myth/Fact pairs
+- `examples` (array): 4-5 practical real-world scenarios
+
+#### Scripts Created (All in `scripts/`)
+- `enhance-glossary-batch-1.mjs` through `enhance-glossary-batch-20.mjs`
+- `boost-remaining-terms.mjs` - Additional content for terms needing 500+ boost
+
+---
+
 ## [0.6.4] - November 30, 2025
 
 ### 🎯 CSS Performance Optimization - Phase 1 & 2
