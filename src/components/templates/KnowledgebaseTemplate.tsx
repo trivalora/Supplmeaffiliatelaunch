@@ -112,8 +112,8 @@ function HeroLeftPanel({
               display: "block",
               fontSize: "0.4em",
               fontWeight: "400",
-              marginTop: "0.5rem",
-              opacity: "0.9",
+              marginTop: "1rem",
+              color: "var(--tertiary)",
             }}
           >
             Benefits, Risks & Best Price
