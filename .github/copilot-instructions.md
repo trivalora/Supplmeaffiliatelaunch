@@ -1,11 +1,23 @@
 # Copilot Instructions: Suppl.me Affiliate Launch
 
+## ⚠️ CRITICAL RULES (READ FIRST!)
+
+### 🚨 NEVER push to git without documented version change!
+
+- **ALWAYS** update `CHANGELOG.md` before any git push
+- **ALWAYS** bump version in this file (`copilot-instructions.md`)
+- **ALWAYS** update `PROJECT_MEMORY.md` version
+- **Format**: `v0.X.Y` for features, `v0.X.Y.Z` for minor fixes
+- **NO EXCEPTIONS** - Every push must have a documented version
+
+---
+
 ## Project Overview
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.5 (Dec 1, 2025)  
-**Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance + **ALL 197 glossary terms enhanced**  
+**Current Version:** 0.6.6.1 (Dec 1, 2025)  
+**Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance + **ALL 197 glossary terms enhanced** + **Glossary system 100% consistent** + **Enhanced hero typography**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
 **Key Stats:**
@@ -21,6 +33,29 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - ✅ Product Content: 400+ word SEO paragraphs (dynamic generation)
 - ✅ Backend Analytics: Server-side tracking with affiliate click_id generation
 - ✅ **Glossary Enhancement: 197/197 terms (100%) enhanced to 500+ words with rich content**
+- ✅ **Glossary System: 100% consistent architecture** (v0.6.6)
+
+**Version 0.6.6.1 Highlights:**
+🎨 **Glossary Hero Typography Enhancement** ✅
+
+- **Two-line H1**: "Definition & Explanation" above term name
+- **Visual Hierarchy**: Subtitle appears first, term second
+- **Spacing**: 3x vertical spacing (mb-6) between lines
+- **SEO**: Maintains single h1 semantic structure
+- **Consistency**: Applied to all 197 glossary pages
+- **See**: `GlossaryTemplate.tsx` hero section
+
+**Version 0.6.6 Highlights:**
+🔧 **Glossary System Architecture Fix** ✅
+
+- **Icon Alignment**: Fixed in all 11 GlossaryTemplate sections
+- **Autolinking System**: Restored with 197 terms from database
+- **TypeScript Compilation**: Resolved type mismatch errors
+- **Database Typo**: Fixed osteomalach → osteomalacia
+- **Broken Links**: Removed invalid /glossary/bcaa link
+- **Architecture Audit**: 100% consistency verified
+- **Score**: 10/10 - Perfect database ↔ autolink synchronization
+- **See**: `GLOSSARY_FIX_DOCUMENTATION.md` + `GLOSSARY_ARCHITECTURE_AUDIT.md`
 
 **Version 0.6.5 Highlights:**
 🎉 **Glossary Enhancement Project - COMPLETE!** ✅
@@ -77,6 +112,7 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 
 **Next Priority** (v0.6.5.1+):
 🔍 **SEO Refinements** - Minor improvements
+
 - **Tasks**:
   1. ✅ Server-side tracking (Complete)
   2. ⏳ GA4 Measurement Protocol integration

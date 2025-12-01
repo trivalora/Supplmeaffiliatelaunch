@@ -1,6 +1,6 @@
-import { autolinkGlossaryTerms } from '@/lib/glossaryAutolink';
-import { formatFootnotes } from './formatFootnotes';
-import { ResearchGrade, Reference } from './types';
+import { autolinkGlossaryTerms } from "@/lib/glossaryAutolink";
+import { formatFootnotes } from "./formatFootnotes";
+import { ResearchGrade, Reference } from "./types";
 
 interface ResearchSectionProps {
   researchGrades?: ResearchGrade[];
@@ -11,34 +11,51 @@ interface ResearchSectionProps {
 export function ResearchSection({
   researchGrades,
   currentPage,
-  references
+  references,
 }: ResearchSectionProps) {
   if (!researchGrades) return null;
 
-  const shouldUseAutolink = currentPage && !currentPage.startsWith('glossary-');
+  const shouldUseAutolink = currentPage && !currentPage.startsWith("glossary-");
 
   // Process all grade descriptions
-  const linkedGradeDescriptions = researchGrades.map(grade =>
-    shouldUseAutolink ? autolinkGlossaryTerms(grade.description, currentPage) : grade.description
-  );
+  const linkedGradeDescriptions = researchGrades.map((grade) => {
+    const linked = shouldUseAutolink
+      ? autolinkGlossaryTerms(grade.description, currentPage)
+      : grade.description;
+    // Convert ReactNode to array format expected by formatFootnotes
+    if (typeof linked === "string") {
+      return linked;
+    }
+    // If it's JSX, wrap in mutable array
+    return [linked];
+  });
 
-  const getGradeColor = (letter: 'A' | 'B' | 'C' | 'D') => {
+  const getGradeColor = (letter: "A" | "B" | "C" | "D") => {
     switch (letter) {
-      case 'A': return 'bg-benefit text-benefit-accent';
-      case 'B': return 'bg-benefit-b text-benefit-b-accent';
-      case 'C': return 'bg-warning text-warning-accent';
-      case 'D': return 'bg-[#FFEBEE] text-[#C62828]';
+      case "A":
+        return "bg-benefit text-benefit-accent";
+      case "B":
+        return "bg-benefit-b text-benefit-b-accent";
+      case "C":
+        return "bg-warning text-warning-accent";
+      case "D":
+        return "bg-[#FFEBEE] text-[#C62828]";
     }
   };
 
   return (
     <div data-knowledgebase-research>
       {/* Heading - matches Main Drawbacks heading style */}
-      <h2 className="text-primary mb-6" data-knowledgebase-research-heading>Research Summary</h2>
+      <h2 className="text-primary mb-6" data-knowledgebase-research-heading>
+        Research Summary
+      </h2>
 
       {/* Research Grade Cards */}
       {researchGrades && researchGrades.length > 0 && (
-        <div data-knowledgebase-research-grid className="grid gap-4 md:grid-cols-2">
+        <div
+          data-knowledgebase-research-grid
+          className="grid gap-4 md:grid-cols-2"
+        >
           {researchGrades.map((grade, index) => (
             <div
               key={index}
@@ -48,19 +65,27 @@ export function ResearchSection({
               <div className="flex items-start gap-4">
                 {/* Grade Badge - Large for all cards */}
                 <div
-                  className={`w-[80px] h-[79px] rounded-[24px] flex items-center justify-center shrink-0 ${getGradeColor(grade.letter)}`}
+                  className={`w-[80px] h-[79px] rounded-[24px] flex items-center justify-center shrink-0 ${getGradeColor(
+                    grade.letter
+                  )}`}
                 >
-                  <span>
-                    {grade.letter}
-                  </span>
+                  <span>{grade.letter}</span>
                 </div>
 
                 {/* Title - Aligned with badge, fixed height for consistency, LARGER font sizes */}
-                <div className="flex-1 wrap-break-word flex items-center" style={{ height: '79px' }}>
+                <div
+                  className="flex-1 wrap-break-word flex items-center"
+                  style={{ height: "79px" }}
+                >
                   <h3
                     className="text-primary leading-tight"
                     style={{
-                      fontSize: grade.title.length > 50 ? '1.15rem' : grade.title.length > 35 ? '1.3rem' : '1.45rem'
+                      fontSize:
+                        grade.title.length > 50
+                          ? "1.15rem"
+                          : grade.title.length > 35
+                          ? "1.3rem"
+                          : "1.45rem",
                     }}
                   >
                     {grade.title}
@@ -73,10 +98,10 @@ export function ResearchSection({
                 <p
                   className="text-muted-foreground"
                   style={{
-                    fontSize: grade.subtitle.length > 55 ? '0.7rem' : '0.75rem', // 12px default, 11.2px if too long
-                    lineHeight: '1.4',
-                    marginTop: '0',
-                    marginBottom: '0.25rem',
+                    fontSize: grade.subtitle.length > 55 ? "0.7rem" : "0.75rem", // 12px default, 11.2px if too long
+                    lineHeight: "1.4",
+                    marginTop: "0",
+                    marginBottom: "0.25rem",
                   }}
                 >
                   {grade.subtitle}
@@ -84,16 +109,16 @@ export function ResearchSection({
               )}
 
               {/* Spacing placeholder when no subtitle - CORRECTED HEIGHT to match subtitle vertical space */}
-              {!grade.subtitle && (
-                <div style={{ height: '0.8rem' }}></div>
-              )}
+              {!grade.subtitle && <div style={{ height: "0.8rem" }}></div>}
 
               {/* Description */}
               <p className="text-muted-foreground wrap-break-word">
                 {shouldUseAutolink
-                  ? formatFootnotes(linkedGradeDescriptions[index], references)
-                  : formatFootnotes(grade.description, references)
-                }
+                  ? formatFootnotes(
+                      linkedGradeDescriptions[index] || grade.description,
+                      references
+                    )
+                  : formatFootnotes(grade.description, references)}
               </p>
             </div>
           ))}

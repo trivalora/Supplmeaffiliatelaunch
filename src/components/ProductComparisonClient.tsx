@@ -904,7 +904,7 @@ export function ProductComparisonClient({
                               }`}
                             >
                               <td className="p-4">
-                                <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
+                                <div className="w-20 h-20 bg-white dark:bg-[#ebebeb] rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
                                   {imageUrl ? (
                                     <img
                                       src={imageUrl}
@@ -1313,7 +1313,7 @@ export function ProductComparisonClient({
                       >
                         <div className="p-4 space-y-3">
                           <div className="flex gap-3">
-                            <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
+                            <div className="w-20 h-20 bg-white dark:bg-[#ebebeb] rounded-lg flex items-center justify-center text-2xl shrink-0 overflow-hidden">
                               {imageUrl ? (
                                 <img
                                   src={imageUrl}

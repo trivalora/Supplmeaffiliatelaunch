@@ -61,16 +61,23 @@ export function GlossaryPageContent({ term }: GlossaryPageContentProps) {
       ? parseMarkdownToReact(
           term.common_misconceptions
             // Convert single newlines within items to double newlines for proper paragraph breaks
-            .map((item) => item.replace(/\n/g, "\n\n"))
+            .map((item, index) => {
+              // Add numbering to Myth/Fact pairs
+              const pairNumber = index + 1;
+              return item
+                .replace(/\n/g, "\n\n")
+                .replace(/\*\*Myth:\*\*/g, `**Myth #${pairNumber}:**`)
+                .replace(/\*\*Fact:\*\*/g, `**Fact #${pairNumber}:**`);
+            })
             .join("\n\n")
-            // Color code Myth/Fact labels
+            // Color code Myth/Fact labels (with numbers)
             .replace(
-              /\*\*Myth:\*\*/g,
-              '<strong class="text-red-600">Myth:</strong>'
+              /\*\*Myth #(\d+):\*\*/g,
+              '<strong class="text-red-600">Myth #$1:</strong>'
             )
             .replace(
-              /\*\*Fact:\*\*/g,
-              '<strong class="text-primary">Fact:</strong>'
+              /\*\*Fact #(\d+):\*\*/g,
+              '<strong class="text-primary">Fact #$1:</strong>'
             )
         )
       : undefined;

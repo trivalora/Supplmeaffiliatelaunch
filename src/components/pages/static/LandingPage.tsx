@@ -25,6 +25,7 @@ import {
   trackAffiliateClick,
 } from "@/lib/analytics";
 import { getProductsBySupplementName } from "@/components/templates/KnowledgebaseTemplate";
+import { ComparePricesCTA } from "@/components/shared/content/ComparePricesCTA";
 
 interface LandingPageProps {
   onNavigate: (page: PageKey) => void;
@@ -211,7 +212,7 @@ function HeroSection({
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            backgroundColor: "var(--primary)",
+            backgroundColor: "#162F1C",
             opacity: 0.35,
           }}
         />
@@ -260,7 +261,14 @@ function HeroSection({
                 trackCTAClick("Compare Prices", "hero", "/compare", "button");
               }
             }}
-            className="mt-5 px-8 py-3 rounded-2xl transition-all shadow-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer text-sm"
+            className="mt-5 px-8 py-3 rounded-2xl transition-all shadow-xl cursor-pointer text-sm"
+            style={{ backgroundColor: "#000000", color: "#ffffff" }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.backgroundColor = "#1a1a1a")
+            }
+            onMouseLeave={(e) =>
+              (e.currentTarget.style.backgroundColor = "#000000")
+            }
           >
             Compare Prices
           </button>
@@ -735,7 +743,7 @@ function PopularComparisonsSection({
                 data-product-card
               >
                 <div
-                  className="bg-white rounded-lg p-4 mb-3"
+                  className="bg-white dark:bg-[#ebebeb] rounded-lg p-4 mb-3"
                   style={{ height: "25vh" }}
                 >
                   <ProductImage
@@ -811,39 +819,9 @@ function PopularComparisonsSection({
 // ========================================
 // CTA SECTION
 // ========================================
+// Using shared ComparePricesCTA component
 function CTASection({ onScrollToSearch }: { onScrollToSearch?: () => void }) {
-  return (
-    <section
-      data-layout-section
-      style={{ backgroundColor: "var(--primary)", color: "#ffffff" }}
-    >
-      <div data-layout-container className="text-center">
-        <h2 className="mb-4">Start making better supplement decisions</h2>
-        <p className="mb-8 max-w-2xl mx-auto" style={{ color: "#E0CBA8" }}>
-          Join thousands of people who trust science-backed recommendations and
-          transparent pricing.
-        </p>
-
-        <div className="flex gap-4 justify-center flex-wrap">
-          <button
-            onClick={() => {
-              trackCTAClick("Compare Prices Now", "cta", "/#hero", "button");
-              onScrollToSearch && onScrollToSearch();
-            }}
-            className="bg-primary text-primary-foreground px-8 py-4 rounded-xl hover:bg-primary/90 transition-colors shadow-lg"
-          >
-            Compare Prices Now
-          </button>
-          <button className="bg-white/10 border-2 border-white/30 text-white/40 px-8 py-4 rounded-xl cursor-not-allowed relative group">
-            Browse Health Goals
-            <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white text-foreground px-3 py-1 rounded text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-              Coming Soon
-            </span>
-          </button>
-        </div>
-      </div>
-    </section>
-  );
+  return <ComparePricesCTA onScrollToSearch={onScrollToSearch} />;
 }
 
 // ========================================

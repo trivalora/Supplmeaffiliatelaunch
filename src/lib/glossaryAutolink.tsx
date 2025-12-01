@@ -1,1154 +1,939 @@
-import { ReactNode, useMemo } from "react";
-import Link from "next/link";
-import { trackGlossaryLinkClick } from "./analytics";
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "../components/ui/hover-card";
-import { GLOSSARY_DATA } from "./glossaryData";
+// AUTO-GENERATED from database - 2025-12-01
+// This file provides automatic linking of glossary terms in text content
+// Run: node scripts/generate-glossary-autolink.mjs to regenerate
 
-// Define glossary terms with their variations and target keys
+import { ReactNode } from "react";
+import Link from "next/link";
+
+/**
+ * Glossary term definition for autolinking
+ */
 interface GlossaryTerm {
   key: string;
   terms: string[]; // All variations that should link to this page
 }
 
+/**
+ * All glossary terms with their variations
+ * Loaded from scripts/generated-autolink-terms.ts
+ */
 const GLOSSARY_TERMS: GlossaryTerm[] = [
+  { key: "absorption", terms: ["Absorption", "absorption"] },
+  { key: "acetate", terms: ["Acetate", "Acetic Acid, C2:0", "acetate"] },
+  { key: "adaptogen", terms: ["Adaptogen", "adaptogen"] },
   {
-    key: "rct",
+    key: "adverseeffects",
     terms: [
-      "RCT",
-      "RCTs",
-      "randomized controlled trial",
-      "randomized controlled trials",
-      "randomised controlled trial",
-      "randomised controlled trials",
+      "Adverse Effects",
+      "Side Effects, Adverse Reactions",
+      "adverse effects",
+      "adverse-effects",
     ],
   },
   {
-    key: "metaanalysis",
-    terms: ["meta-analysis", "meta-analyses", "metaanalysis", "metaanalyses"],
+    key: "akkermansia",
+    terms: [
+      "Akkermansia muciniphila",
+      "akkermansia muciniphila",
+      "akkermansia-muciniphila",
+    ],
   },
   {
-    key: "empiricalevidence",
-    terms: ["empirical evidence", "empirical data", "empirical research"],
+    key: "ala",
+    terms: [
+      "ALA (Alpha-Linolenic Acid)",
+      "ALA",
+      "α-Linolenic Acid",
+      "ala (alpha-linolenic acid)",
+      "ala-(alpha-linolenic-acid)",
+    ],
+  },
+  { key: "aminoacids", terms: ["Amino Acids", "amino acids", "amino-acids"] },
+  {
+    key: "anabolicresistance",
+    terms: [
+      "Anabolic Resistance",
+      "anabolic resistance",
+      "anabolic-resistance",
+    ],
   },
   {
     key: "anecdotalevidence",
-    terms: ["anecdotal evidence", "anecdotal report", "anecdotal reports"],
+    terms: ["Anecdotal Evidence", "anecdotal evidence", "anecdotal-evidence"],
   },
+  { key: "anemia", terms: ["Anemia", "anemia"] },
+  { key: "antioxidant", terms: ["Antioxidant", "antioxidant"] },
   {
-    key: "placebo",
-    terms: ["placebo", "placebos", "placebo effect", "placebo-controlled"],
-  },
-  {
-    key: "peerreviewed",
-    terms: ["peer-reviewed", "peer reviewed", "peer review"],
-  },
-  {
-    key: "statisticalsignificance",
+    key: "arachidonicacid",
     terms: [
-      "statistical significance",
-      "statistically significant",
-      "p-value",
-      "p value",
-      "p-values",
-      "p values",
+      "Arachidonic Acid (AA)",
+      "AA",
+      "arachidonic acid (aa)",
+      "arachidonic-acid-(aa)",
+    ],
+  },
+  {
+    key: "arr",
+    terms: [
+      "Absolute Risk Reduction",
+      "ARR",
+      "absolute risk reduction",
+      "absolute-risk-reduction",
+    ],
+  },
+  { key: "atherosclerosis", terms: ["Atherosclerosis", "atherosclerosis"] },
+  {
+    key: "atp",
+    terms: [
+      "ATP (Adenosine Triphosphate)",
+      "ATP",
+      "atp (adenosine triphosphate)",
+      "atp-(adenosine-triphosphate)",
+    ],
+  },
+  { key: "bacteroides", terms: ["Bacteroides", "bacteroides"] },
+  {
+    key: "betacarotene",
+    terms: ["Beta-Carotene", "β-Carotene", "Provitamin A", "beta-carotene"],
+  },
+  { key: "bifidobacterium", terms: ["Bifidobacterium", "bifidobacterium"] },
+  { key: "bioavailability", terms: ["Bioavailability", "bioavailability"] },
+  { key: "biomarker", terms: ["Biomarker", "biomarker"] },
+  {
+    key: "bloodglucose",
+    terms: ["Blood Glucose", "blood glucose", "blood-glucose"],
+  },
+  {
+    key: "bloodpressure",
+    terms: ["Blood Pressure", "blood pressure", "blood-pressure"],
+  },
+  { key: "bmi", terms: ["BMI", "Body Mass Index", "bmi"] },
+  {
+    key: "bonedensity",
+    terms: ["Bone Density", "BMD", "bone density", "bone-density"],
+  },
+  { key: "butyrate", terms: ["Butyrate", "Butyric Acid", "C4:0", "butyrate"] },
+  {
+    key: "calciumcarbonate",
+    terms: [
+      "Calcium Carbonate",
+      "CaCO₃",
+      "calcium carbonate",
+      "calcium-carbonate",
+    ],
+  },
+  {
+    key: "calciumcitrate",
+    terms: ["Calcium Citrate", "calcium citrate", "calcium-citrate"],
+  },
+  { key: "cardiovascular", terms: ["Cardiovascular", "cardiovascular"] },
+  { key: "carotenoids", terms: ["Carotenoids", "carotenoids"] },
+  { key: "catalase", terms: ["Catalase", "catalase"] },
+  { key: "chelated", terms: ["Chelated", "chelated"] },
+  { key: "chylomicrons", terms: ["Chylomicrons", "chylomicrons"] },
+  {
+    key: "ci",
+    terms: [
+      "Confidence Interval",
+      "CI",
+      "confidence interval",
+      "confidence-interval",
     ],
   },
   {
     key: "clinicalsignificance",
     terms: [
+      "Clinical Significance",
       "clinical significance",
-      "clinically significant",
-      "clinically meaningful",
+      "clinical-significance",
     ],
   },
   {
-    key: "subgroupanalysis",
+    key: "coenzymeq10",
     terms: [
-      "subgroup analysis",
-      "subgroup analyses",
-      "sub-group analysis",
-      "sub-group analyses",
-    ],
-  },
-  {
-    key: "efficacy",
-    terms: ["efficacy", "efficacious"],
-  },
-  {
-    key: "singleblinded",
-    terms: ["single blind", "single-blind", "single blinded", "single-blinded"],
-  },
-  {
-    key: "doubleblinded",
-    terms: ["double blind", "double-blind", "double blinded", "double-blinded"],
-  },
-  {
-    key: "bioavailability",
-    terms: ["bioavailability", "bioavailable"],
-  },
-  {
-    key: "inflammation",
-    terms: [
-      "inflammation",
-      "inflammatory",
-      "anti-inflammatory",
-      "pro-inflammatory",
-    ],
-  },
-  {
-    key: "oxidativestress",
-    terms: ["oxidative stress", "oxidative damage", "lipid peroxidation"],
-  },
-  {
-    key: "antioxidant",
-    terms: ["antioxidant", "antioxidants"],
-  },
-  {
-    key: "insulinresistance",
-    terms: [
-      "insulin resistance",
-      "insulin resistant",
-      "insulin sensitivity",
-      "insulin-resistant",
-    ],
-  },
-  {
-    key: "biomarker",
-    terms: ["biomarker", "biomarkers"],
-  },
-  {
-    key: "absorption",
-    terms: ["absorption", "absorb", "absorbed"],
-  },
-  {
-    key: "metabolism",
-    terms: ["metabolism", "metabolic"],
-  },
-  {
-    key: "cardiovascular",
-    terms: ["cardiovascular", "cardio-vascular"],
-  },
-  {
-    key: "dosedependent",
-    terms: ["dose-dependent", "dose dependent", "dose-response"],
-  },
-  {
-    key: "homocysteine",
-    terms: ["homocysteine", "hyperhomocysteinemia"],
-  },
-  {
-    key: "bonedensity",
-    terms: [
-      "bone density",
-      "bone mineral density",
-      "BMD",
-      "osteoporosis",
-      "osteopenia",
-    ],
-  },
-  {
-    key: "glycemiccontrol",
-    terms: [
-      "glycemic control",
-      "blood sugar control",
-      "glucose control",
-      "HbA1c",
-      "hemoglobin A1C",
+      "Coenzyme Q10",
+      "CoQ10",
+      "ubiquinone",
+      "coenzyme q10",
+      "coenzyme-q10",
     ],
   },
   {
     key: "cognitivefunction",
+    terms: ["Cognitive Function", "cognitive function", "cognitive-function"],
+  },
+  {
+    key: "cohortstudy",
+    terms: ["Cohort Study", "cohort study", "cohort-study"],
+  },
+  { key: "collagen", terms: ["Collagen", "collagen"] },
+  { key: "colonocytes", terms: ["Colonocytes", "colonocytes"] },
+  {
+    key: "contraindications",
+    terms: ["Contraindications", "contraindications"],
+  },
+  { key: "cortisol", terms: ["Cortisol", "cortisol"] },
+  {
+    key: "creatinekinase",
     terms: [
-      "cognitive function",
-      "cognitive performance",
-      "cognition",
-      "memory",
-      "executive function",
+      "Creatine Kinase",
+      "CK",
+      "CPK",
+      "Creatine Phosphokinase",
+      "creatine kinase",
+      "creatine-kinase",
     ],
   },
   {
-    key: "anemia",
-    terms: ["anemia", "anaemia", "iron deficiency anemia", "hemoglobin"],
-  },
-  {
-    key: "triglycerides",
-    terms: ["triglycerides", "triglyceride", "hypertriglyceridemia"],
-  },
-  {
-    key: "collagen",
-    terms: ["collagen", "collagen peptides", "collagen synthesis"],
-  },
-  {
-    key: "cortisol",
-    terms: ["cortisol", "stress hormone", "HPA axis"],
-  },
-  {
-    key: "thyroidfunction",
+    key: "crosssectionalstudy",
     terms: [
-      "thyroid function",
-      "thyroid",
-      "TSH",
-      "T3",
-      "T4",
-      "hypothyroidism",
-      "hyperthyroidism",
+      "Cross-Sectional Study",
+      "cross-sectional study",
+      "cross-sectional-study",
     ],
   },
   {
-    key: "gutmicrobiome",
+    key: "crp",
     terms: [
-      "gut microbiome",
-      "microbiome",
-      "gut bacteria",
-      "dysbiosis",
-      "gut flora",
+      "CRP (C-Reactive Protein)",
+      "CRP",
+      "hs-CRP",
+      "high-sensitivity CRP",
+      "crp (c-reactive protein)",
+      "crp-(c-reactive-protein)",
     ],
   },
-  {
-    key: "immunesystem",
-    terms: ["immune system", "immune function", "immunity", "immune response"],
-  },
-  {
-    key: "muscleproteinsynthesis",
-    terms: ["muscle protein synthesis", "MPS", "muscle growth"],
-  },
-  {
-    key: "proteinsynthesis",
-    terms: ["protein synthesis"],
-  },
-  {
-    key: "neurotransmitter",
-    terms: [
-      "neurotransmitter",
-      "neurotransmitters",
-      "serotonin",
-      "dopamine",
-      "GABA",
-      "glutamate",
-    ],
-  },
-  {
-    key: "electrolytes",
-    terms: ["electrolytes", "electrolyte", "sodium", "potassium"],
-  },
-  {
-    key: "jointhealth",
-    terms: [
-      "joint health",
-      "joints",
-      "cartilage",
-      "osteoarthritis",
-      "synovial fluid",
-    ],
-  },
-  {
-    key: "sleepquality",
-    terms: ["sleep quality", "sleep", "insomnia", "sleep duration"],
-  },
-  {
-    key: "mitochondria",
-    terms: [
-      "mitochondria",
-      "mitochondrial",
-      "mitochondrial function",
-      "ATP production",
-    ],
-  },
-  {
-    key: "protein",
-    terms: ["protein", "amino acids", "amino acid"],
-  },
-  {
-    key: "vitamindeficiency",
-    terms: ["vitamin deficiency", "deficiency", "nutritional deficiency"],
-  },
-  {
-    key: "adaptogen",
-    terms: ["adaptogen", "adaptogens", "adaptogenic"],
-  },
-  {
-    key: "smd",
-    terms: ["SMD", "standardized mean difference", "effect size", "Cohen's d"],
-  },
-  {
-    key: "bloodglucose",
-    terms: [
-      "blood glucose",
-      "blood sugar",
-      "fasting glucose",
-      "fasting blood sugar",
-    ],
-  },
-  {
-    key: "bloodpressure",
-    terms: [
-      "blood pressure",
-      "systolic pressure",
-      "diastolic pressure",
-      "hypertension",
-      "hypotension",
-    ],
-  },
-  {
-    key: "epa",
-    terms: ["EPA", "eicosapentaenoic acid"],
-  },
+  { key: "cytokines", terms: ["Cytokines", "cytokines"] },
+  { key: "deficiency", terms: ["Deficiency", "deficiency"] },
   {
     key: "dha",
-    terms: ["DHA", "docosahexaenoic acid"],
-  },
-  {
-    key: "omega-3",
-    terms: ["omega-3", "omega-3 fatty acids", "omega 3"],
-  },
-  {
-    key: "grade",
-    terms: ["GRADE", "GRADE system", "GRADE criteria"],
-  },
-  {
-    key: "glucosemetabolism",
     terms: [
-      "glucose metabolism",
-      "metabolic pathways",
-      "glycolysis",
-      "gluconeogenesis",
+      "DHA (Docosahexaenoic Acid)",
+      "DHA",
+      "dha (docosahexaenoic acid)",
+      "dha-(docosahexaenoic-acid)",
     ],
-  },
-  {
-    key: "systolic",
-    terms: ["systolic", "systolic pressure", "systolic blood pressure"],
   },
   {
     key: "diastolic",
-    terms: ["diastolic", "diastolic pressure", "diastolic blood pressure"],
-  },
-  {
-    key: "normotensive",
-    terms: ["normotensive", "normal blood pressure"],
-  },
-  {
-    key: "hypertensive",
-    terms: ["hypertensive", "hypertension"],
-  },
-  {
-    key: "macromineral",
-    terms: ["macromineral", "macrominerals", "major mineral", "major minerals"],
-  },
-  {
-    key: "mineral",
-    terms: ["mineral", "minerals", "trace mineral", "trace minerals"],
-  },
-  {
-    key: "pms",
     terms: [
-      "PMS",
-      "premenstrual syndrome",
-      "PMDD",
-      "premenstrual dysphoric disorder",
+      "Diastolic Blood Pressure",
+      "diastolic blood pressure",
+      "diastolic-blood-pressure",
     ],
   },
   {
-    key: "preeclampsia",
-    terms: ["pre-eclampsia", "preeclampsia", "eclampsia", "HELLP syndrome"],
-  },
-  {
-    key: "osteoporosis",
-    terms: ["osteoporosis", "osteopenia", "bone loss", "low bone mass"],
-  },
-  {
-    key: "hydrolyzed",
+    key: "doms",
     terms: [
-      "hydrolyzed",
-      "hydrolyzed protein",
-      "hydrolysis",
-      "enzymatic hydrolysis",
-      "protein hydrolysate",
+      "DOMS (Delayed Onset Muscle Soreness)",
+      "DOMS",
+      "doms (delayed onset muscle soreness)",
+      "doms-(delayed-onset-muscle-soreness)",
+    ],
+  },
+  { key: "dosedependent", terms: ["Dose-Dependent", "dose-dependent"] },
+  {
+    key: "doubleblinded",
+    terms: ["Double Blinded", "double blinded", "double-blinded"],
+  },
+  {
+    key: "druginteractions",
+    terms: ["Drug Interactions", "drug interactions", "drug-interactions"],
+  },
+  { key: "dysbiosis", terms: ["Dysbiosis", "dysbiosis"] },
+  { key: "effectsize", terms: ["Effect Size", "effect size", "effect-size"] },
+  { key: "efficacy", terms: ["Efficacy", "efficacy"] },
+  { key: "eicosanoids", terms: ["Eicosanoids", "eicosanoids"] },
+  {
+    key: "eightohdg",
+    terms: ["8-OHdG", "8-hydroxy-2'-deoxyguanosine", "8-oxo-dG", "8-ohdg"],
+  },
+  { key: "electrolytes", terms: ["Electrolytes", "electrolytes"] },
+  {
+    key: "empiricalevidence",
+    terms: ["Empirical Evidence", "empirical evidence", "empirical-evidence"],
+  },
+  { key: "endothelium", terms: ["Endothelium", "endothelium"] },
+  {
+    key: "enterocytes",
+    terms: ["Enterocytes", "Intestinal Epithelial Cells", "enterocytes"],
+  },
+  {
+    key: "epa",
+    terms: [
+      "EPA (Eicosapentaenoic Acid)",
+      "EPA",
+      "epa (eicosapentaenoic acid)",
+      "epa-(eicosapentaenoic-acid)",
     ],
   },
   {
-    key: "glycine",
-    terms: ["glycine", "Gly"],
-  },
-  {
-    key: "proline",
-    terms: ["proline", "Pro"],
-  },
-  {
-    key: "hydroxyproline",
-    terms: ["hydroxyproline", "hydroxylation"],
-  },
-  {
-    key: "anemia",
+    key: "esr",
     terms: [
-      "anemia",
-      "anaemia",
-      "iron deficiency anemia",
-      "hemolytic anemia",
-      "pernicious anemia",
+      "ESR (Erythrocyte Sedimentation Rate)",
+      "ESR",
+      "esr (erythrocyte sedimentation rate)",
+      "esr-(erythrocyte-sedimentation-rate)",
     ],
   },
   {
-    key: "atp",
+    key: "essentialaminoacids",
     terms: [
-      "ATP",
-      "adenosine triphosphate",
-      "cellular energy",
-      "energy currency",
+      "Essential Amino Acids",
+      "EAAs",
+      "essential amino acids",
+      "essential-amino-acids",
     ],
   },
   {
-    key: "pedro",
+    key: "faecalibacterium",
     terms: [
-      "PEDro",
-      "PEDro scale",
-      "PEDro score",
-      "Physiotherapy Evidence Database",
+      "Faecalibacterium prausnitzii",
+      "faecalibacterium prausnitzii",
+      "faecalibacterium-prausnitzii",
     ],
   },
+  { key: "ferriciron", terms: ["Ferric Iron", "ferric iron", "ferric-iron"] },
   {
-    key: "hemoglobin",
-    terms: [
-      "hemoglobin",
-      "haemoglobin",
-      "Hb",
-      "Hgb",
-      "HbA1c",
-      "glycated hemoglobin",
-    ],
+    key: "ferrousiron",
+    terms: ["Ferrous Iron", "ferrous iron", "ferrous-iron"],
   },
-  {
-    key: "myoglobin",
-    terms: ["myoglobin", "myoglobinuria"],
-  },
-  {
-    key: "rr",
-    terms: ["RR", "risk ratio", "relative risk"],
-  },
-  {
-    key: "or",
-    terms: ["OR", "odds ratio"],
-  },
+  { key: "fibrinogen", terms: ["Fibrinogen", "fibrinogen"] },
+  { key: "flavonoids", terms: ["Flavonoids", "flavonoids"] },
   {
     key: "fmd",
     terms: [
+      "Flow-Mediated Dilation",
       "FMD",
       "flow-mediated dilation",
-      "flow mediated dilation",
-      "endothelial function",
-    ],
-  },
-  {
-    key: "wmd",
-    terms: ["WMD", "weighted mean difference"],
-  },
-  {
-    key: "il6",
-    terms: ["IL-6", "interleukin-6", "interleukin 6"],
-  },
-  {
-    key: "tac",
-    terms: ["TAC", "total antioxidant capacity"],
-  },
-  {
-    key: "fibrinogen",
-    terms: ["fibrinogen", "hyperfibrinogenemia"],
-  },
-  {
-    key: "il1",
-    terms: ["IL-1", "IL-1β", "IL-1α", "interleukin-1", "interleukin 1"],
-  },
-  {
-    key: "tnfalpha",
-    terms: [
-      "TNF-α",
-      "TNF-alpha",
-      "tumor necrosis factor",
-      "tumour necrosis factor",
-    ],
-  },
-  {
-    key: "mda",
-    terms: ["MDA", "malondialdehyde", "lipid peroxidation", "TBARS"],
-  },
-  {
-    key: "glutathione",
-    terms: [
-      "glutathione",
-      "GSH",
-      "GSSG",
-      "reduced glutathione",
-      "oxidized glutathione",
+      "flow-mediated-dilation",
     ],
   },
   {
     key: "fodmap",
     terms: [
       "FODMAP",
-      "FODMAPs",
-      "fermentable oligosaccharides",
-      "low FODMAP",
-      "high FODMAP",
-      "FODMAP diet",
+      "Fermentable Oligosaccharides",
+      "Disaccharides",
+      "Monosaccharides",
+      "Polyols",
+      "fodmap",
     ],
   },
+  { key: "folicacid", terms: ["Folic Acid", "folic acid", "folic-acid"] },
   {
-    key: "ibs",
-    terms: ["IBS", "irritable bowel syndrome", "IBS-D", "IBS-C", "IBS-M"],
-  },
-  {
-    key: "sibo",
+    key: "fos",
     terms: [
-      "SIBO",
-      "small intestinal bacterial overgrowth",
-      "IMO",
-      "intestinal methanogen overgrowth",
-    ],
-  },
-  {
-    key: "gos",
-    terms: [
-      "GOS",
-      "galacto-oligosaccharides",
-      "galacto-oligosaccharide",
-      "galactooligosaccharides",
-    ],
-  },
-  {
-    key: "inulintypefructans",
-    terms: [
-      "inulin",
-      "fructans",
-      "inulin-type fructans",
+      "Fructooligosaccharides (FOS)",
       "FOS",
-      "fructo-oligosaccharides",
-      "fructooligosaccharides",
+      "fructooligosaccharides (fos)",
+      "fructooligosaccharides-(fos)",
     ],
+  },
+  {
+    key: "freeradicals",
+    terms: ["Free Radicals", "free radicals", "free-radicals"],
   },
   {
     key: "glp1",
     terms: [
+      "Glucagon-Like Peptide-1",
       "GLP-1",
       "glucagon-like peptide-1",
-      "glucagon like peptide 1",
-      "incretin",
+      "glucagon-like-peptide-1",
     ],
   },
+  { key: "glucagon", terms: ["Glucagon", "glucagon"] },
   {
-    key: "pyy",
-    terms: ["PYY", "peptide YY", "PYY3-36"],
+    key: "glucosemetabolism",
+    terms: ["Glucose Metabolism", "glucose metabolism", "glucose-metabolism"],
   },
+  { key: "glutathione", terms: ["Glutathione", "GSH", "glutathione"] },
   {
-    key: "arr",
+    key: "glutathioneperoxidase",
     terms: [
-      "ARR",
-      "absolute risk reduction",
-      "absolute risk",
-      "NNT",
-      "number needed to treat",
+      "Glutathione Peroxidase",
+      "GPx",
+      "glutathione peroxidase",
+      "glutathione-peroxidase",
     ],
   },
   {
-    key: "ci",
+    key: "glycemiccontrol",
+    terms: ["Glycemic Control", "glycemic control", "glycemic-control"],
+  },
+  { key: "glycine", terms: ["Glycine", "Gly", "glycine"] },
+  {
+    key: "gos",
+    terms: ["Galacto-oligosaccharides", "GOS", "galacto-oligosaccharides"],
+  },
+  {
+    key: "grade",
     terms: [
-      "CI",
-      "confidence interval",
-      "confidence intervals",
-      "95% CI",
-      "95% confidence interval",
+      "GRADE (Grading of Recommendations Assessment, Development and Evaluation)",
+      "GRADE",
+      "grade (grading of recommendations assessment, development and evaluation)",
+      "grade-(grading-of-recommendations-assessment,-development-and-evaluation)",
     ],
   },
   {
-    key: "ulcerativecolitis",
-    terms: ["ulcerative colitis", "UC"],
+    key: "gutmicrobiome",
+    terms: ["Gut Microbiome", "gut microbiome", "gut-microbiome"],
   },
-  {
-    key: "inflammatoryboweldisease",
-    terms: [
-      "inflammatory bowel disease",
-      "IBD",
-      "Crohn's disease",
-      "Crohn disease",
-    ],
-  },
+  { key: "halflife", terms: ["Half-Life", "half-life"] },
   {
     key: "hba1c",
     terms: [
+      "HbA1c (Hemoglobin A1c)",
       "HbA1c",
       "A1C",
-      "hemoglobin A1c",
-      "glycated hemoglobin",
-      "glycosylated hemoglobin",
-    ],
-  },
-  {
-    key: "crp",
-    terms: [
-      "CRP",
-      "C-reactive protein",
-      "c reactive protein",
-      "hs-CRP",
-      "high-sensitivity CRP",
-    ],
-  },
-  {
-    key: "ldlcholesterol",
-    terms: [
-      "LDL",
-      "LDL cholesterol",
-      "LDL-C",
-      "low-density lipoprotein",
-      "bad cholesterol",
+      "Glycated Hemoglobin",
+      "hba1c (hemoglobin a1c)",
+      "hba1c-(hemoglobin-a1c)",
     ],
   },
   {
     key: "hdlcholesterol",
     terms: [
+      "HDL Cholesterol (High-Density Lipoprotein)",
       "HDL",
-      "HDL cholesterol",
       "HDL-C",
-      "high-density lipoprotein",
-      "good cholesterol",
+      "Good Cholesterol",
+      "hdl cholesterol (high-density lipoprotein)",
+      "hdl-cholesterol-(high-density-lipoprotein)",
     ],
   },
+  { key: "hedgesg", terms: ["Hedges' g", "hedges' g", "hedges'-g"] },
+  { key: "hemeiron", terms: ["Heme Iron", "heme iron", "heme-iron"] },
+  { key: "hemoglobin", terms: ["Hemoglobin", "Hb", "hemoglobin"] },
   {
-    key: "scfa",
+    key: "hepaticencephalopathy",
     terms: [
-      "SCFA",
-      "SCFAs",
-      "short-chain fatty acids",
-      "short-chain fatty acid",
+      "Hepatic Encephalopathy",
+      "hepatic encephalopathy",
+      "hepatic-encephalopathy",
     ],
   },
   {
-    key: "betacarotene",
-    terms: ["beta-carotene", "beta carotene", "β-carotene", "provitamin A"],
-  },
-  {
-    key: "lycopene",
-    terms: ["lycopene"],
-  },
-  {
-    key: "oxidizedldl",
-    terms: ["oxidized LDL", "oxLDL", "oxidised LDL"],
-  },
-  {
-    key: "eightohdg",
+    key: "homair",
     terms: [
-      "8-OHdG",
-      "8-hydroxy-2'-deoxyguanosine",
-      "8-oxo-dG",
-      "8-oxoguanine",
+      "HOMA-IR",
+      "Homeostatic Model Assessment of Insulin Resistance",
+      "homa-ir",
     ],
   },
+  { key: "homocysteine", terms: ["Homocysteine", "homocysteine"] },
+  { key: "hydrolyzed", terms: ["Hydrolyzed", "hydrolyzed"] },
+  { key: "hydroxyproline", terms: ["Hydroxyproline", "hydroxyproline"] },
+  { key: "hyperglycemia", terms: ["Hyperglycemia", "hyperglycemia"] },
+  { key: "hypertensive", terms: ["Hypertensive", "hypertensive"] },
   {
-    key: "enterocytes",
-    terms: ["enterocyte", "enterocytes", "intestinal epithelial cells"],
+    key: "ibs",
+    terms: [
+      "Irritable Bowel Syndrome",
+      "IBS",
+      "irritable bowel syndrome",
+      "irritable-bowel-syndrome",
+    ],
   },
+  { key: "il1", terms: ["Interleukin-1", "IL-1", "interleukin-1"] },
+  { key: "il6", terms: ["Interleukin-6", "IL-6", "interleukin-6"] },
+  {
+    key: "immunesystem",
+    terms: ["Immune System", "immune system", "immune-system"],
+  },
+  { key: "inflammation", terms: ["Inflammation", "inflammation"] },
+  {
+    key: "inflammatoryboweldisease",
+    terms: [
+      "Inflammatory Bowel Disease",
+      "IBD",
+      "inflammatory bowel disease",
+      "inflammatory-bowel-disease",
+    ],
+  },
+  { key: "insulin", terms: ["Insulin", "insulin"] },
+  {
+    key: "insulinresistance",
+    terms: ["Insulin Resistance", "insulin resistance", "insulin-resistance"],
+  },
+  {
+    key: "inulintypefructans",
+    terms: [
+      "Inulin-type Fructans",
+      "inulin-type fructans",
+      "inulin-type-fructans",
+    ],
+  },
+  { key: "isoleucine", terms: ["Isoleucine", "Ile", "I", "isoleucine"] },
+  {
+    key: "jointhealth",
+    terms: ["Joint Health", "joint health", "joint-health"],
+  },
+  { key: "lactobacillus", terms: ["Lactobacillus", "lactobacillus"] },
+  {
+    key: "ldlcholesterol",
+    terms: [
+      "LDL Cholesterol (Low-Density Lipoprotein)",
+      "LDL",
+      "LDL-C",
+      "Bad Cholesterol",
+      "ldl cholesterol (low-density lipoprotein)",
+      "ldl-cholesterol-(low-density-lipoprotein)",
+    ],
+  },
+  { key: "leucine", terms: ["Leucine", "Leu", "L", "leucine"] },
   {
     key: "lipidperoxidation",
-    terms: ["lipid peroxidation", "lipid oxidation", "peroxidation"],
+    terms: ["Lipid Peroxidation", "lipid peroxidation", "lipid-peroxidation"],
   },
   {
-    key: "hemeiron",
-    terms: ["heme iron", "haem iron"],
+    key: "loadingphase",
+    terms: ["Loading Phase", "loading phase", "loading-phase"],
+  },
+  { key: "lycopene", terms: ["Lycopene", "lycopene"] },
+  { key: "macromineral", terms: ["Macromineral", "macromineral"] },
+  {
+    key: "magnesiumcitrate",
+    terms: ["Magnesium Citrate", "magnesium citrate", "magnesium-citrate"],
+  },
+  {
+    key: "magnesiumoxide",
+    terms: ["Magnesium Oxide", "MgO", "magnesium oxide", "magnesium-oxide"],
+  },
+  {
+    key: "maintenancedose",
+    terms: ["Maintenance Dose", "maintenance dose", "maintenance-dose"],
+  },
+  { key: "mda", terms: ["Malondialdehyde", "MDA", "malondialdehyde"] },
+  { key: "metaanalysis", terms: ["Meta-Analysis", "meta-analysis"] },
+  {
+    key: "metabolicsyndrome",
+    terms: ["Metabolic Syndrome", "metabolic syndrome", "metabolic-syndrome"],
+  },
+  { key: "metabolism", terms: ["Metabolism", "metabolism"] },
+  {
+    key: "methylcobalamin",
+    terms: ["Methylcobalamin", "MeCbl", "methylcobalamin"],
+  },
+  { key: "methylfolate", terms: ["Methylfolate", "5-MTHF", "methylfolate"] },
+  { key: "micronized", terms: ["Micronized", "micronized"] },
+  { key: "mineral", terms: ["Mineral", "mineral"] },
+  { key: "mitochondria", terms: ["Mitochondria", "mitochondria"] },
+  { key: "mtor", terms: ["mTOR", "Mechanistic Target of Rapamycin", "mtor"] },
+  {
+    key: "muscleproteinsynthesis",
+    terms: [
+      "Muscle Protein Synthesis",
+      "MPS",
+      "muscle protein synthesis",
+      "muscle-protein-synthesis",
+    ],
+  },
+  { key: "myoglobin", terms: ["Myoglobin", "myoglobin"] },
+  { key: "neurotransmitter", terms: ["Neurotransmitter", "neurotransmitter"] },
+  { key: "nfkb", terms: ["NF-κB", "Nuclear Factor Kappa B", "nf-κb"] },
+  {
+    key: "nitricoxide",
+    terms: [
+      "Nitric Oxide (NO)",
+      "NO",
+      "nitric oxide (no)",
+      "nitric-oxide-(no)",
+    ],
   },
   {
     key: "nonhemeiron",
-    terms: ["non-heme iron", "nonheme iron", "non-haem iron"],
+    terms: ["Non-Heme Iron", "non-heme iron", "non-heme-iron"],
+  },
+  { key: "normotensive", terms: ["Normotensive", "normotensive"] },
+  {
+    key: "nrf2",
+    terms: ["Nrf2", "Nuclear Factor Erythroid 2-Related Factor 2", "nrf2"],
   },
   {
-    key: "rickets",
-    terms: ["rickets", "rachitic"],
-  },
-  {
-    key: "osteomalacia",
-    terms: ["osteomalacia", "adult rickets"],
-  },
-  {
-    key: "hyperglycemia",
+    key: "observationalstudy",
     terms: [
-      "hyperglycemia",
-      "hyperglycaemia",
-      "high blood sugar",
-      "elevated glucose",
+      "Observational Study",
+      "observational study",
+      "observational-study",
     ],
   },
   {
-    key: "prediabetes",
+    key: "omega3",
     terms: [
-      "prediabetes",
-      "pre-diabetes",
-      "prediabetic",
-      "impaired glucose tolerance",
-      "impaired fasting glucose",
-      "IGT",
-      "IFG",
+      "Omega-3 Fatty Acids",
+      "omega-3 fatty acids",
+      "omega-3-fatty-acids",
+      "omega-3",
+      "omega 3",
     ],
   },
-  // NOTE: Removed supplement-specific terms (magnesium, calcium, iron, vitamin D, vitamin C, omega-3, probiotics)
-  // These are knowledgebase pages (/magnesium, /vitamin-d) not glossary terms (/glossary/...)
-  // If you want to link to supplements, use explicit <Link> components in content
+  { key: "or", terms: ["Odds Ratio", "OR", "odds ratio", "odds-ratio"] },
+  { key: "osteomalacia", terms: ["Osteomalacia", "osteomalacia"] },
+  { key: "osteoporosis", terms: ["Osteoporosis", "osteoporosis"] },
+  { key: "oxalates", terms: ["Oxalates", "Oxalic Acid", "oxalates"] },
   {
-    key: "probiotics",
-    terms: ["probiotic", "probiotics", "probiotic supplement"],
+    key: "oxidativedamage",
+    terms: ["Oxidative Damage", "oxidative damage", "oxidative-damage"],
   },
   {
-    key: "prebiotics",
-    terms: ["prebiotic", "prebiotics", "prebiotic fiber"],
+    key: "oxidativestress",
+    terms: ["Oxidative Stress", "oxidative stress", "oxidative-stress"],
   },
   {
-    key: "creatine",
+    key: "oxidizedldl",
+    terms: ["Oxidized LDL", "oxLDL", "oxidized ldl", "oxidized-ldl"],
+  },
+  { key: "pancreatitis", terms: ["Pancreatitis", "pancreatitis"] },
+  {
+    key: "pedro",
+    terms: ["PEDro Scale", "PEDro", "pedro scale", "pedro-scale"],
+  },
+  { key: "peerreviewed", terms: ["Peer-reviewed", "peer-reviewed"] },
+  { key: "pharmacokinetics", terms: ["Pharmacokinetics", "pharmacokinetics"] },
+  {
+    key: "phosphocreatine",
+    terms: ["Phosphocreatine", "PCr", "Creatine Phosphate", "phosphocreatine"],
+  },
+  {
+    key: "phytates",
     terms: [
-      "creatine monohydrate",
-      "creatine supplement",
-      "creatine supplementation",
+      "Phytates",
+      "Phytic Acid",
+      "Inositol Hexaphosphate",
+      "IP6",
+      "phytates",
+    ],
+  },
+  { key: "placebo", terms: ["Placebo", "placebo"] },
+  { key: "plasma", terms: ["Plasma", "plasma"] },
+  {
+    key: "pms",
+    terms: [
+      "PMS (Premenstrual Syndrome)",
+      "PMS",
+      "pms (premenstrual syndrome)",
+      "pms-(premenstrual-syndrome)",
+    ],
+  },
+  { key: "polyphenols", terms: ["Polyphenols", "polyphenols"] },
+  { key: "prediabetes", terms: ["Prediabetes", "prediabetes"] },
+  { key: "preeclampsia", terms: ["Pre-eclampsia", "pre-eclampsia"] },
+  { key: "proline", terms: ["Proline", "Pro", "proline"] },
+  {
+    key: "propionate",
+    terms: ["Propionate", "Propionic Acid", "C3:0", "propionate"],
+  },
+  { key: "protein", terms: ["Protein", "protein"] },
+  {
+    key: "proteinsynthesis",
+    terms: ["Protein Synthesis", "protein synthesis", "protein-synthesis"],
+  },
+  { key: "pyy", terms: ["Peptide YY", "PYY", "peptide yy", "peptide-yy"] },
+  {
+    key: "rct",
+    terms: [
+      "Randomized Controlled Trial",
+      "RCT",
+      "randomized controlled trial",
+      "randomized-controlled-trial",
     ],
   },
   {
-    key: "ashwagandha",
-    terms: ["ashwagandha", "withania somnifera", "KSM-66"],
+    key: "resolvins",
+    terms: [
+      "Resolvins",
+      "RvE",
+      "RvD series",
+      "resolution-phase interaction products",
+      "resolvins",
+    ],
   },
-  // NOTE: Removed supplement-specific entries that don't have glossary pages:
-  // - probiotics, collagen, BCAAs, curcumin, sulforaphane
-  // These are supplement knowledgebase pages, not glossary definitions
-  // Autolinking should ONLY create links to /glossary/* pages that actually exist
+  { key: "resveratrol", terms: ["Resveratrol", "resveratrol"] },
+  {
+    key: "rheumatoidarthritis",
+    terms: [
+      "Rheumatoid Arthritis",
+      "RA",
+      "rheumatoid arthritis",
+      "rheumatoid-arthritis",
+    ],
+  },
+  { key: "rickets", terms: ["Rickets", "rickets"] },
+  { key: "rr", terms: ["Risk Ratio", "RR", "risk ratio", "risk-ratio"] },
+  { key: "satiety", terms: ["Satiety", "satiety"] },
+  { key: "saturation", terms: ["Saturation", "saturation"] },
+  {
+    key: "scfa",
+    terms: [
+      "SCFA (Short-Chain Fatty Acids)",
+      "SCFA",
+      "SCFAs",
+      "scfa (short-chain fatty acids)",
+      "scfa-(short-chain-fatty-acids)",
+    ],
+  },
+  { key: "serum", terms: ["Serum", "serum"] },
+  {
+    key: "serum25ohd",
+    terms: [
+      "Serum 25-hydroxyvitamin D / 25(OH)D",
+      "25-hydroxyvitamin D",
+      "serum 25-hydroxyvitamin d / 25(oh)d",
+      "serum-25-hydroxyvitamin-d-/-25(oh)d",
+    ],
+  },
+  {
+    key: "sibo",
+    terms: [
+      "Small Intestinal Bacterial Overgrowth",
+      "SIBO",
+      "small intestinal bacterial overgrowth",
+      "small-intestinal-bacterial-overgrowth",
+    ],
+  },
+  {
+    key: "singleblinded",
+    terms: ["Single Blinded", "single blinded", "single-blinded"],
+  },
+  {
+    key: "sleepquality",
+    terms: ["Sleep Quality", "sleep quality", "sleep-quality"],
+  },
+  {
+    key: "smd",
+    terms: [
+      "Standardized Mean Difference",
+      "SMD",
+      "standardized mean difference",
+      "standardized-mean-difference",
+    ],
+  },
+  {
+    key: "standardizedextract",
+    terms: [
+      "Standardized Extract",
+      "standardized extract",
+      "standardized-extract",
+    ],
+  },
+  {
+    key: "statisticalsignificance",
+    terms: [
+      "Statistical Significance",
+      "statistical significance",
+      "statistical-significance",
+    ],
+  },
+  {
+    key: "subgroupanalysis",
+    terms: ["Subgroup Analysis", "subgroup analysis", "subgroup-analysis"],
+  },
+  {
+    key: "sublingual",
+    terms: [
+      "Sublingual Administration",
+      "sublingual administration",
+      "sublingual-administration",
+    ],
+  },
+  {
+    key: "superoxidedismutase",
+    terms: [
+      "Superoxide Dismutase",
+      "SOD",
+      "superoxide dismutase",
+      "superoxide-dismutase",
+    ],
+  },
+  {
+    key: "synergisticeffect",
+    terms: ["Synergistic Effect", "synergistic effect", "synergistic-effect"],
+  },
+  {
+    key: "systematicreview",
+    terms: ["Systematic Review", "systematic review", "systematic-review"],
+  },
+  {
+    key: "systolic",
+    terms: [
+      "Systolic Blood Pressure",
+      "systolic blood pressure",
+      "systolic-blood-pressure",
+    ],
+  },
+  {
+    key: "tac",
+    terms: [
+      "Total Antioxidant Capacity",
+      "TAC",
+      "total antioxidant capacity",
+      "total-antioxidant-capacity",
+    ],
+  },
+  {
+    key: "therapeuticdose",
+    terms: ["Therapeutic Dose", "therapeutic dose", "therapeutic-dose"],
+  },
+  {
+    key: "thirdpartytesting",
+    terms: [
+      "Third-Party Testing",
+      "third-party testing",
+      "third-party-testing",
+    ],
+  },
+  {
+    key: "thyroidfunction",
+    terms: ["Thyroid Function", "thyroid function", "thyroid-function"],
+  },
+  {
+    key: "tnfalpha",
+    terms: [
+      "Tumor Necrosis Factor-Alpha",
+      "TNF-α",
+      "tumor necrosis factor-alpha",
+      "tumor-necrosis-factor-alpha",
+    ],
+  },
+  {
+    key: "tolerableupperintakelevel",
+    terms: [
+      "Tolerable Upper Intake Level",
+      "UL",
+      "tolerable upper intake level",
+      "tolerable-upper-intake-level",
+    ],
+  },
+  { key: "triglycerides", terms: ["Triglycerides", "triglycerides"] },
+  {
+    key: "ulcerativecolitis",
+    terms: [
+      "Ulcerative Colitis",
+      "UC",
+      "ulcerative colitis",
+      "ulcerative-colitis",
+    ],
+  },
+  { key: "valine", terms: ["Valine", "Val", "V", "valine"] },
+  {
+    key: "vitamindeficiency",
+    terms: ["Vitamin Deficiency", "vitamin deficiency", "vitamin-deficiency"],
+  },
+  { key: "vldl", terms: ["VLDL", "Very Low-Density Lipoprotein", "vldl"] },
+  {
+    key: "wmd",
+    terms: [
+      "Weighted Mean Difference",
+      "WMD",
+      "weighted mean difference",
+      "weighted-mean-difference",
+    ],
+  },
 ];
 
-// Define external links (new tab, nofollow, noreferrer)
-interface ExternalLink {
-  terms: string[];
-  url: string;
-}
-
-const EXTERNAL_LINKS: ExternalLink[] = [
-  {
-    terms: ["USP", "U.S. Pharmacopeia"],
-    url: "https://www.usp.org",
-  },
-  {
-    terms: ["ConsumerLab", "Consumer Lab"],
-    url: "https://www.consumerlab.com",
-  },
-  {
-    terms: ["NSF", "NSF International"],
-    url: "https://www.nsf.org",
-  },
-];
-
-interface Match {
-  start: number;
-  end: number;
-  text: string;
-  key: string;
-  isExternal?: boolean;
-  url?: string;
-}
-
-// PERFORMANCE OPTIMIZATION: Cache the regex pattern and lookup maps since they never change
-let cachedPattern: RegExp | null = null;
-let cachedSortedTerms: string[] | null = null;
-let cachedGlossaryTermLookup: Map<string, GlossaryTerm> | null = null;
-let cachedExternalLinkLookup: Map<string, ExternalLink> | null = null;
-
-function getOrCreateCachedData(): {
-  pattern: RegExp;
-  sortedTerms: string[];
-  glossaryLookup: Map<string, GlossaryTerm>;
-  externalLookup: Map<string, ExternalLink>;
-} {
-  if (
-    cachedPattern &&
-    cachedSortedTerms &&
-    cachedGlossaryTermLookup &&
-    cachedExternalLinkLookup
-  ) {
-    return {
-      pattern: cachedPattern,
-      sortedTerms: cachedSortedTerms,
-      glossaryLookup: cachedGlossaryTermLookup,
-      externalLookup: cachedExternalLinkLookup,
-    };
-  }
-
-  // Build lookup maps for faster term matching
-  const glossaryLookup = new Map<string, GlossaryTerm>();
-  GLOSSARY_TERMS.forEach((gt) => {
-    gt.terms.forEach((term) => {
-      glossaryLookup.set(term.toLowerCase(), gt);
-    });
-  });
-
-  const externalLookup = new Map<string, ExternalLink>();
-  EXTERNAL_LINKS.forEach((el) => {
-    el.terms.forEach((term) => {
-      externalLookup.set(term.toLowerCase(), el);
-    });
-  });
-
-  // Build a single regex pattern that matches all terms (glossary + external)
-  const allGlossaryTerms = GLOSSARY_TERMS.flatMap((gt) => gt.terms);
-  const allExternalTerms = EXTERNAL_LINKS.flatMap((el) => el.terms);
-  const allTerms = [...allGlossaryTerms, ...allExternalTerms];
-
-  // Sort by length (longest first) to match longer phrases before shorter ones
-  // Filter out any non-string values for safety
-  const sortedTerms = [...allTerms]
-    .filter((term) => typeof term === "string" && term)
-    .sort((a, b) => b.length - a.length);
-
-  // Escape special regex characters and create pattern
-  const escapedTerms = sortedTerms.map((term) =>
-    term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-  );
-
-  // Create regex with word boundaries for whole word matching
-  const pattern = new RegExp(`\\b(${escapedTerms.join("|")})\\b`, "gi");
-
-  // Cache for future use
-  cachedPattern = pattern;
-  cachedSortedTerms = sortedTerms;
-  cachedGlossaryTermLookup = glossaryLookup;
-  cachedExternalLinkLookup = externalLookup;
-
-  return { pattern, sortedTerms, glossaryLookup, externalLookup };
-}
-
 /**
- * Find all matches in the text
- * PERFORMANCE OPTIMIZED: Uses cached regex pattern and lookup maps
- */
-function findAllMatches(text: string): Match[] {
-  const matches: Match[] = [];
-
-  // Get cached data (pattern + lookup maps)
-  const { pattern, glossaryLookup, externalLookup } = getOrCreateCachedData();
-
-  // Reset regex lastIndex to avoid issues with global flag
-  pattern.lastIndex = 0;
-
-  let match;
-  while ((match = pattern.exec(text)) !== null) {
-    const matchedText = match[0];
-    const lowerMatchedText = matchedText.toLowerCase();
-
-    // Fast lookup using Map instead of array.find()
-    const glossaryTerm = glossaryLookup.get(lowerMatchedText);
-
-    if (glossaryTerm) {
-      // Check if this glossary term has any all-caps abbreviation terms
-      const abbreviationTerms = glossaryTerm.terms.filter(
-        (term) =>
-          term === term.toUpperCase() && term.length >= 2 && /[A-Z]/.test(term)
-      );
-
-      // If this term has abbreviations, check if matched text is one of them (exact case)
-      if (abbreviationTerms.length > 0) {
-        // Check if matchedText exactly matches one of the abbreviation terms
-        const isExactAbbreviationMatch = abbreviationTerms.some(
-          (abbr) => abbr === matchedText
-        );
-
-        if (!isExactAbbreviationMatch) {
-          // This is a case-insensitive match of an abbreviation (e.g., "or" matching "OR")
-          // Skip it - we only want exact case matches for abbreviations
-          continue;
-        }
-      }
-
-      // Either not an abbreviation term, or exact case match of abbreviation - create the link
-      matches.push({
-        start: match.index,
-        end: match.index + matchedText.length,
-        text: matchedText,
-        key: glossaryTerm.key,
-        isExternal: false,
-      });
-      continue;
-    }
-
-    // Fast lookup for external links
-    const externalLink = externalLookup.get(lowerMatchedText);
-
-    if (externalLink) {
-      matches.push({
-        start: match.index,
-        end: match.index + matchedText.length,
-        text: matchedText,
-        key: "", // No key for external links
-        isExternal: true,
-        url: externalLink.url,
-      });
-    }
-  }
-
-  return matches;
-}
-
-/**
- * Merge adjacent matches that link to the same page and are separated by <= 3 characters
- */
-function mergeAdjacentMatches(matches: Match[], text: string): Match[] {
-  if (matches.length === 0) return matches;
-
-  // Sort matches by start position
-  matches.sort((a, b) => a.start - b.start);
-
-  const merged: Match[] = [];
-  let current = matches[0];
-
-  for (let i = 1; i < matches.length; i++) {
-    const next = matches[i];
-
-    // Check if next match is within 3 characters and links to the same page
-    const gap = next.start - current.end;
-    if (gap <= 3 && gap >= 0 && current.key === next.key) {
-      // Merge: extend current to include the gap and next match
-      current = {
-        start: current.start,
-        end: next.end,
-        text: text.substring(current.start, next.end),
-        key: current.key,
-      };
-    } else {
-      // No merge: push current and move to next
-      merged.push(current);
-      current = next;
-    }
-  }
-
-  // Push the last match
-  merged.push(current);
-
-  return merged;
-}
-
-/**
- * Remove overlapping matches (keep the first occurrence)
- */
-function removeOverlaps(matches: Match[]): Match[] {
-  const result: Match[] = [];
-  const usedPositions = new Set<number>();
-
-  for (const match of matches) {
-    let hasOverlap = false;
-    for (let i = match.start; i < match.end; i++) {
-      if (usedPositions.has(i)) {
-        hasOverlap = true;
-        break;
-      }
-    }
-
-    if (!hasOverlap) {
-      result.push(match);
-      for (let i = match.start; i < match.end; i++) {
-        usedPositions.add(i);
-      }
-    }
-  }
-
-  return result;
-}
-
-/**
- * Automatically link glossary terms in text content
- * @param text The text content to process
- * @param currentPage The current page key (to prevent self-linking)
- * @returns React nodes with autolinked terms
- */
-export function autolinkGlossaryTerms(
-  text: string,
-  currentPage?: string
-): ReactNode[] {
-  // Find all matches
-  let matches = findAllMatches(text);
-
-  // Filter out matches that link to the current page (prevent self-linking)
-  if (currentPage) {
-    matches = matches.filter((match) => match.key !== currentPage);
-  }
-
-  // Merge adjacent matches that link to the same page
-  matches = mergeAdjacentMatches(matches, text);
-
-  // Remove any overlaps
-  matches = removeOverlaps(matches);
-
-  // Sort by start position
-  matches.sort((a, b) => a.start - b.start);
-
-  // Build result
-  const result: ReactNode[] = [];
-  let lastIndex = 0;
-
-  for (let i = 0; i < matches.length; i++) {
-    const match = matches[i];
-
-    // Add text before the match
-    if (match.start > lastIndex) {
-      result.push(text.substring(lastIndex, match.start));
-    }
-
-    // Add the linked term (external or internal)
-    if (match.isExternal && match.url) {
-      // External link
-      result.push(
-        <a
-          key={`external-link-${match.start}-${i}`}
-          href={match.url}
-          target="_blank"
-          rel="nofollow noreferrer"
-          className="text-primary underline decoration-1 underline-offset-2 hover:text-primary/80 transition-colors"
-          title={`Visit ${match.text}`}
-        >
-          {match.text}
-        </a>
-      );
-    } else {
-      // Internal glossary link with hover card
-      const glossaryData = GLOSSARY_DATA[match.key];
-
-      if (glossaryData) {
-        result.push(
-          <HoverCard
-            key={`glossary-link-${match.start}-${i}`}
-            openDelay={200}
-            closeDelay={100}
-          >
-            <HoverCardTrigger asChild>
-              <Link
-                href={`/glossary/${match.key}`}
-                onClick={() => {
-                  try {
-                    trackGlossaryLinkClick(match.key, window.location.pathname);
-                  } catch {}
-                }}
-                className="text-primary underline decoration-1 underline-offset-2 hover:text-primary/80 transition-colors cursor-pointer"
-              >
-                {match.text}
-              </Link>
-            </HoverCardTrigger>
-            <HoverCardContent
-              className="w-80 bg-card border-2 border-secondary shadow-lg"
-              side="top"
-              align="start"
-            >
-              <Link href={`/glossary/${match.key}`}>
-                <div
-                  className="space-y-2 cursor-pointer"
-                  onClick={() => {
-                    try {
-                      trackGlossaryLinkClick(
-                        match.key,
-                        window.location.pathname
-                      );
-                    } catch {}
-                  }}
-                >
-                  <div>
-                    <h4 className="font-medium text-primary">
-                      {glossaryData.title}
-                    </h4>
-                    {glossaryData.abbreviation && (
-                      <p className="text-sm text-muted-foreground">
-                        ({glossaryData.abbreviation})
-                      </p>
-                    )}
-                  </div>
-                  <p className="text-sm leading-relaxed">
-                    {glossaryData.summary}
-                  </p>
-                  <p className="text-xs text-muted-foreground italic">
-                    Click to learn more
-                  </p>
-                </div>
-              </Link>
-            </HoverCardContent>
-          </HoverCard>
-        );
-      } else {
-        // Fallback if no data found
-        result.push(
-          <Link
-            key={`glossary-link-${match.start}-${i}`}
-            href={`/glossary/${match.key}`}
-            className="text-primary underline decoration-1 underline-offset-2 hover:text-primary/80 transition-colors"
-            title={`Learn more about ${match.text}`}
-          >
-            {match.text}
-          </Link>
-        );
-      }
-    }
-
-    lastIndex = match.end;
-  }
-
-  // Add any remaining text
-  if (lastIndex < text.length) {
-    result.push(text.substring(lastIndex));
-  }
-
-  return result.length > 0 ? result : [text];
-}
-
-/**
- * Process text content that may contain line breaks
+ * Autolink glossary terms in text content
+ * Converts plain text into JSX with glossary term links
+ *
+ * @param content - Text or JSX content to process
+ * @param currentPage - Current glossary term slug to avoid self-linking
+ * @returns JSX with autolinked glossary terms or empty string
  */
 export function autolinkGlossaryContent(
-  content: string,
+  content: string | ReactNode,
   currentPage?: string
-): ReactNode {
-  // Type guard: if content is not a string, return it as-is
+): string | ReactNode {
+  // If content is already JSX/ReactNode, return as-is (can't safely parse)
   if (typeof content !== "string") {
-    console.warn(
-      "autolinkGlossaryContent received non-string value:",
-      typeof content
-    );
-    return content as ReactNode;
+    return content;
   }
 
-  const lines = content.split("\n");
+  // If empty string, return empty string (not null to avoid type issues)
+  if (!content || content.trim() === "") {
+    return "";
+  }
 
-  return lines.map((line, index) => (
-    <span key={`line-${index}`}>
-      {autolinkGlossaryTerms(line, currentPage)}
-      {index < lines.length - 1 && <br />}
-    </span>
-  ));
+  // Build regex pattern from all term variations
+  // Sort by length (longest first) to match longer terms before shorter ones
+  const allTerms = GLOSSARY_TERMS.flatMap(({ key, terms }) =>
+    terms.map((term) => ({
+      key,
+      term,
+      length: term.length,
+    }))
+  ).sort((a, b) => b.length - a.length);
+
+  // Create regex pattern that matches whole words only
+  const pattern = allTerms
+    .map(({ term }) =>
+      // Escape special regex characters
+      term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    )
+    .join("|");
+
+  const regex = new RegExp(`\\b(${pattern})\\b`, "gi");
+
+  // Split content by matches
+  const parts: ReactNode[] = [];
+  let lastIndex = 0;
+  let match;
+  let linkCount = 0;
+
+  while ((match = regex.exec(content)) !== null) {
+    const matchedText = match[0];
+    const matchIndex = match.index;
+
+    // Add text before match
+    if (matchIndex > lastIndex) {
+      parts.push(content.substring(lastIndex, matchIndex));
+    }
+
+    // Find which term this matched
+    const termData = allTerms.find(
+      ({ term }) => term.toLowerCase() === matchedText.toLowerCase()
+    );
+
+    if (termData && termData.key !== currentPage) {
+      // Add linked term
+      parts.push(
+        <Link
+          key={`glossary-link-${linkCount++}`}
+          href={`/glossary/${termData.key}`}
+          className="glossary-link text-primary underline decoration-1 underline-offset-2 hover:text-primary/80 transition-colors"
+        >
+          {matchedText}
+        </Link>
+      );
+    } else {
+      // Don't link to current page or if no data found
+      parts.push(matchedText);
+    }
+
+    lastIndex = matchIndex + matchedText.length;
+  }
+
+  // Add remaining text
+  if (lastIndex < content.length) {
+    parts.push(content.substring(lastIndex));
+  }
+
+  // If no links were created, return original string
+  if (parts.length === 1 && typeof parts[0] === "string") {
+    return parts[0];
+  }
+
+  return <>{parts}</>;
 }
 
 /**
- * MEMOIZED VERSION: Hook to automatically link glossary terms with caching
- * Use this in components to prevent re-processing on every render
- * @param text The text content to process
- * @param currentPage The current page key (to prevent self-linking)
- * @returns Memoized React nodes with autolinked terms
+ * Legacy function for backward compatibility
+ * @deprecated Use autolinkGlossaryContent instead
  */
-export function useAutolinkGlossaryTerms(
-  text: string,
+export function autolinkGlossaryTerms(
+  content: string | ReactNode,
   currentPage?: string
-): ReactNode[] {
-  return useMemo(() => {
-    return autolinkGlossaryTerms(text, currentPage);
-  }, [text, currentPage]);
-}
-
-/**
- * MEMOIZED VERSION: Hook to automatically link glossary content with caching
- * Use this in components to prevent re-processing on every render
- * @param content The content to process
- * @param currentPage The current page key
- * @returns Memoized React nodes with autolinked terms
- */
-export function useAutolinkGlossaryContent(
-  content: string,
-  currentPage?: string
-): ReactNode {
-  return useMemo(() => {
-    return autolinkGlossaryContent(content, currentPage);
-  }, [content, currentPage]);
+): string | ReactNode {
+  return autolinkGlossaryContent(content, currentPage);
 }
