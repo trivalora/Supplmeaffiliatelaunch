@@ -120,6 +120,77 @@ Supabase/PostgreSQL (Schema: api)
 │   └── 187 with SEO metadata (94.9%)
 └── analytics_events (growing) ← NEW in v0.6.0
 └── affiliate_clicks (growing) ← NEW in v0.6.0
+````
+
+### ⚠️ Database Connection Rules (CRITICAL)
+
+**All database tables are in the `api` schema**, not `public`. Always specify the schema when connecting.
+
+**✅ CORRECT - Node.js/JavaScript Scripts:**
+```javascript
+import { createClient } from '@supabase/supabase-js';
+import { config } from 'dotenv';
+
+config({ path: '.env.local' });
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_ROLE_KEY,
+  { db: { schema: 'api' } }  // ← MUST specify schema!
+);
+
+// Then query normally
+const { data } = await supabase
+  .from('glossary_terms')
+  .select('*')
+  .eq('slug', 'polyphenols');
+```
+
+**❌ WRONG - Missing schema:**
+```javascript
+// This will fail with "schema must be one of the following: api"
+const supabase = createClient(url, key);  // Missing schema config!
+```
+
+**✅ CORRECT - API Routes (Server Components):**
+```typescript
+// In app/api/*/route.ts files
+import { createClient } from '@/lib/supabase/server';
+
+export async function GET() {
+  const supabase = createClient();  // Already configured with api schema
+  const { data } = await supabase.from('glossary_terms').select('*');
+  return Response.json(data);
+}
+```
+
+**Environment Variables Required:**
+```bash
+NEXT_PUBLIC_SUPABASE_URL=https://xxx.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=xxx
+SUPABASE_SERVICE_ROLE_KEY=xxx  # Required for write operations
+DATABASE_URL=postgresql://...  # For direct psql access
+```
+
+**Supabase CLI - Limited Direct Query Support:**
+```bash
+# ❌ WRONG - This syntax doesn't exist
+npx supabase db execute --sql "SELECT ..." --linked
+
+# ✅ CORRECT - Use migrations for schema changes
+npx supabase db push --linked
+
+# ✅ CORRECT - For ad-hoc queries, use Node.js scripts (see above)
+# OR use psql directly with DATABASE_URL
+psql "$DATABASE_URL" -c "SELECT * FROM api.glossary_terms LIMIT 5;"
+```
+
+**Best Practice for Scripts:**
+- Create `.js` files in `scripts/` directory
+- Use ES modules (`import` syntax) since package.json has `"type": "module"`
+- Always configure schema: `{ db: { schema: 'api' } }`
+- Load env vars with `dotenv`
+
 ### API Routes
 
 **Production (All Live - 11 endpoints)**:
