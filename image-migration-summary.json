@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-12-01T21:05:44.502Z",
+  "mapping": {
+    "total": 933,
+    "vitacost": 630,
+    "iherb": 303
+  },
+  "images": {
+    "found": 933,
+    "missing": 0
+  },
+  "database_updates": {
+    "updated": 377,
+    "failed": 0,
+    "already_local": 217,
+    "unmapped": 406
+  },
+  "total_products": 1000,
+  "success_rate": "37.70%"
+}
