@@ -135,6 +135,18 @@ export function GlossaryTemplate({
         <section data-layout-section>
           <div data-layout-container>
             <div className="max-w-4xl mx-auto">
+              {/* Definition Section */}
+              <div className="bg-card border border-border rounded-[14px] p-8 mb-6">
+                <h2 className="text-primary mb-4">Definition: {term}</h2>
+                <div className="text-foreground leading-relaxed">
+                  {typeof definition === 'string' ? (
+                    <p>{definition}</p>
+                  ) : (
+                    definition
+                  )}
+                </div>
+              </div>
+
               {/* Why It Matters */}
               {whyItMatters && (
                 <div className="bg-card border border-border rounded-[14px] p-8 mb-6">

@@ -138,7 +138,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const fullUrl = `${baseUrl}${route.path}`;
   
   // Use SEO title and description if available, otherwise fall back to route data
-  const title = seoContent ? `${seoContent.title} | Suppl.me` : `${route.title} - Suppl.me`;
+  const title = seoContent ? `${seoContent.title} - Suppl.me` : `${route.title} - Suppl.me`;
   const description = seoContent ? seoContent.description : (route.description || `Evidence-based information about ${route.title} supplements: benefits, dosing, safety, and retailer comparison.`);
   const keywords = seoContent ? seoContent.keywords.join(', ') : `${route.title}, ${route.title.toLowerCase()} supplements, ${route.title.toLowerCase()} benefits, ${route.title.toLowerCase()} dosage, supplement research`;
   
