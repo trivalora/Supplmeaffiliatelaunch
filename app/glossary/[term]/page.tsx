@@ -12,7 +12,7 @@ async function getGlossaryTerm(slug: string): Promise<GlossaryTerm | null> {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
     const response = await fetch(`${baseUrl}/api/glossary/${slug}`, {
-      cache: "no-store", // Changed from force-cache to no-store to always fetch fresh data
+      next: { revalidate: 3600 }, // Cache for 1 hour, allows static generation
     });
 
     if (!response.ok) {
@@ -63,23 +63,15 @@ async function getHardcodedGlossaryComponent(slug: string) {
 
 /**
  * Generate static params for all glossary terms
- * Fetches from database instead of routes.config.ts
+ * Uses routes.config.ts as source of truth during build
  */
 export async function generateStaticParams() {
   try {
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
-    const response = await fetch(`${baseUrl}/api/glossary?limit=500`, {
-      cache: "no-store", // Temporarily disable cache to get fresh data after database changes
-    });
-
-    if (!response.ok) {
-      console.error("Failed to fetch glossary terms for static generation");
-      return [];
-    }
-
-    const { terms } = await response.json();
-    return terms.map((term: GlossaryTerm) => ({
-      term: term.slug,
+    // Import routes config directly to avoid API calls during build
+    const { GLOSSARY_ROUTES } = await import("../../../src/routes.config");
+    
+    return GLOSSARY_ROUTES.map((route) => ({
+      term: route.key,
     }));
   } catch (error) {
     console.error("Error generating static params for glossary:", error);

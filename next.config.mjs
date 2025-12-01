@@ -24,6 +24,10 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "cloudinary.images-iherb.com",
+      },
+      {
+        protocol: "https",
         hostname: "www.vitacost.com",
       },
       {

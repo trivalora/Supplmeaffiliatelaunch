@@ -75,7 +75,7 @@
     "@vercel/node": "^2.3.0",
     "baseline-browser-mapping": "^2.8.32",
     "critical": "^7.2.1",
-    "sharp": "^0.33.2",
+    "sharp": "^0.33.5",
     "subset-font": "^2.2.0",
     "supabase": "^2.62.5",
     "ts-node": "^10.9.2",

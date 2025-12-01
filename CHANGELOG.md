@@ -4,6 +4,18 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.6.6.3] - December 1, 2025
+
+### Fixed
+
+- **Build Performance**: Fixed glossary static generation to use routes.config.ts instead of API
+  - **Issue**: `generateStaticParams()` was fetching from API with `cache: "no-store"` causing dynamic server errors
+  - **Solution**: Import GLOSSARY_ROUTES directly during build for static param generation
+  - **Cache Strategy**: Changed `getGlossaryTerm()` from `cache: "no-store"` to `next: { revalidate: 3600 }`
+  - **Result**: All 195 glossary pages now properly statically generated with ISR (1 hour revalidation)
+  - **Build Time**: Eliminated "Dynamic server usage" errors for glossary routes
+  - Files: `app/glossary/[term]/page.tsx`
+
 ## [0.6.6.2] - December 1, 2025
 
 ### 🔧 Glossary Data Integrity Fix

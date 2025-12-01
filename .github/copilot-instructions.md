@@ -16,7 +16,7 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.6.2 (Dec 1, 2025)  
+**Current Version:** 0.6.6.3 (Dec 1, 2025)  
 **Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance + **ALL 197 glossary terms enhanced** + **Glossary system 100% consistent** + **Enhanced hero typography**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
@@ -34,6 +34,15 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - ✅ Backend Analytics: Server-side tracking with affiliate click_id generation
 - ✅ **Glossary Enhancement: 197/197 terms (100%) enhanced to 500+ words with rich content**
 - ✅ **Glossary System: 100% consistent architecture** (v0.6.6)
+
+**Version 0.6.6.3 Highlights:**
+⚡ **Build Performance Fix** ✅
+
+- **Static Generation**: Changed glossary from API fetch to routes.config.ts during build
+- **Cache Strategy**: `cache: "no-store"` → `next: { revalidate: 3600 }` for static generation
+- **Build Time**: Eliminated dynamic server errors during glossary page generation
+- **Performance**: All 195 glossary pages now properly statically generated (ISR 1h)
+- **See**: `app/glossary/[term]/page.tsx` - generateStaticParams uses GLOSSARY_ROUTES
 
 **Version 0.6.6.2 Highlights:**
 🔧 **Glossary Data Integrity Fix** ✅
