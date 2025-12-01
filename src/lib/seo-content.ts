@@ -18,7 +18,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Ashwagandha Supplement",
     title: "Ashwagandha - Benefits, Risks & Best Price",
     description:
-      "Ashwagandha benefits, risks & best price. Evidence-based review for stress, anxiety, and cognition. Clinical trials, dosing, safety, and retailer comparison.",
+      "Ashwagandha benefits, risks & best price: Reduces stress and cortisol by 30%, improves sleep quality, boosts testosterone. Evidence-based dosing for anxiety, athletic performance, and cognitive health. Compare top-rated products.",
     keywords: [
       "ashwagandha",
       "withania somnifera",
@@ -36,7 +36,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "BCAAs (Branched-Chain Amino Acids)",
     title: "BCAAs - Benefits, Risks & Best Price",
     description:
-      "BCAAs (leucine, isoleucine, valine) benefits for muscle recovery, potential risks, and best prices. Clinical studies, dosing protocols, and retailer comparison.",
+      "BCAAs benefits, risks & best price: Reduces muscle soreness, accelerates recovery, prevents muscle breakdown during training. Optimal dosing by workout intensity and body weight. Find quality leucine-rich formulas.",
     keywords: [
       "BCAAs",
       "branched-chain amino acids",
@@ -54,7 +54,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Calcium Supplement",
     title: "Calcium - Benefits, Risks & Best Price",
     description:
-      "Calcium benefits for bone health, risks (cardiovascular considerations), and best prices. Forms (citrate vs carbonate), absorption, dosing, safety, and retailer comparison.",
+      "Calcium benefits, risks & best price: Strengthens bones, prevents osteoporosis, supports muscle and nerve function. Citrate vs carbonate comparison, dosing by age and diet. Balance cardiovascular safety with bone health.",
     keywords: [
       "calcium",
       "bone health",
@@ -71,7 +71,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Casein Protein",
     title: "Casein Protein - Benefits, Risks & Best Price",
     description:
-      "Casein protein benefits for overnight muscle recovery, potential risks, and best prices. Micellar casein for lean mass gains. Compare with whey protein across retailers.",
+      "Casein protein benefits, risks & best price: Slow-release amino acids for overnight muscle recovery, increases lean mass, reduces muscle breakdown. Dosing for nighttime use, fat loss, and muscle building goals.",
     keywords: [
       "casein protein",
       "micellar casein",
@@ -87,7 +87,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Collagen Peptides",
     title: "Collagen - Benefits, Risks & Best Price",
     description:
-      "Collagen benefits for skin, joints, and bones, safety profile, and best prices. Hydrolyzed collagen clinical trials, bioavailability, dosing, and retailer comparison.",
+      "Collagen peptides benefits, risks & best price: Improves skin elasticity, reduces joint pain, strengthens bones and hair. Type I vs II comparison, dosing for beauty vs joint health goals. Find verified hydrolyzed formulas.",
     keywords: [
       "collagen peptides",
       "hydrolyzed collagen",
@@ -104,7 +104,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Creatine Monohydrate",
     title: "Creatine - Benefits, Risks & Best Price",
     description:
-      "Creatine benefits for strength and cognition, safety profile, and best prices. 1000+ studies, loading protocols, side effects, and retailer comparison.",
+      "Creatine benefits, risks & best price: Increases strength by 8%, boosts muscle growth, enhances brain function. Loading vs maintenance protocols, timing strategies. 1000+ studies validate safety and efficacy.",
     keywords: [
       "creatine monohydrate",
       "muscle strength",
@@ -120,7 +120,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Curcumin (Turmeric Extract)",
     title: "Curcumin - Benefits, Risks & Best Price",
     description:
-      "Curcumin benefits for inflammation, potential risks, and best prices. Bioavailability solutions (piperine, liposomal), clinical efficacy, safety, and retailer comparison.",
+      "Curcumin benefits, risks & best price: Reduces inflammation, eases joint pain, supports brain health. Bioavailability critical—piperine vs liposomal absorption. Dosing for arthritis, recovery, and daily wellness.",
     keywords: [
       "curcumin",
       "turmeric extract",
@@ -137,7 +137,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Iron Supplement",
     title: "Iron - Benefits, Risks & Best Price",
     description:
-      "Iron benefits for anemia, risks (GI side effects, overload), and best prices. Forms (ferrous sulfate, bisglycinate, heme), absorption strategies, and retailer comparison.",
+      "Iron benefits, risks & best price: Treats anemia, boosts energy and cognition, supports pregnancy. Bisglycinate for sensitive stomachs vs ferrous sulfate for cost. Dosing by deficiency severity and absorption timing.",
     keywords: [
       "iron supplement",
       "iron deficiency",
@@ -154,7 +154,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Magnesium Glycinate",
     title: "Magnesium - Benefits, Risks & Best Price",
     description:
-      "Magnesium benefits for sleep and muscles, safety profile, and best prices. Glycinate vs citrate forms, bioavailability, dosing, and retailer comparison.",
+      "Magnesium benefits, risks & best price: Improves sleep quality, relieves muscle cramps, reduces blood pressure. Glycinate for relaxation vs citrate for digestion. Dosing by health goal and deficiency symptoms.",
     keywords: [
       "magnesium",
       "magnesium glycinate",
@@ -171,7 +171,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Multivitamin",
     title: "Multivitamin - Benefits, Risks & Best Price",
     description:
-      "Multivitamin benefits for nutrient gaps, risks (overdosing considerations), and best prices. Bioavailable forms, third-party testing, cost-effectiveness, and retailer comparison.",
+      "Multivitamin benefits, risks & best price: Fills nutrient gaps, supports immune function, boosts energy levels. Methylated vs standard forms, third-party testing importance. Dosing for age, gender, and dietary restrictions.",
     keywords: [
       "multivitamin",
       "daily vitamin",
@@ -187,7 +187,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Omega-3 Fish Oil",
     title: "Omega-3 - Benefits, Risks & Best Price",
     description:
-      "Omega-3 benefits for heart and brain, risks (oxidation, purity), and best prices. EPA/DHA clinical trials, IFOS standards, dosing, and retailer comparison.",
+      "Omega-3 benefits, risks & best price: Lowers triglycerides by 25%, supports brain health, reduces inflammation. EPA vs DHA ratios for different goals, IFOS purity certification. Dosing for heart, joints, and cognitive function.",
     keywords: [
       "omega-3",
       "fish oil",
@@ -205,7 +205,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Prebiotic Fiber",
     title: "Prebiotics - Benefits, Risks & Best Price",
     description:
-      "Prebiotic benefits for gut health, risks (FODMAP sensitivity), and best prices. Inulin, FOS, GOS clinical efficacy, synergy with probiotics, and retailer comparison.",
+      "Prebiotic benefits, risks & best price: Feeds beneficial gut bacteria, improves digestion, enhances mineral absorption. Inulin vs FOS vs GOS for IBS sensitivity. Dosing to maximize probiotic synergy without bloating.",
     keywords: [
       "prebiotics",
       "prebiotic fiber",
@@ -223,7 +223,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Probiotic Supplement",
     title: "Probiotics - Benefits, Risks & Best Price",
     description:
-      "Probiotic benefits for gut and immune health, safety considerations, and best prices. Lactobacillus, Bifidobacterium strains, CFU counts, storage, and retailer comparison.",
+      "Probiotic benefits, risks & best price: Improves gut health, strengthens immunity, aids digestion. Lactobacillus for digestive health vs Bifidobacterium for immunity. CFU counts, strain selection, and refrigeration needs.",
     keywords: [
       "probiotics",
       "gut health",
@@ -241,7 +241,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Sulforaphane (Broccoli Extract)",
     title: "Sulforaphane - Benefits, Risks & Best Price",
     description:
-      "Sulforaphane benefits for detox and antioxidants, safety profile, and best prices. Broccoli sprouts myrosinase activity, bioavailability, clinical applications, and retailer comparison.",
+      "Sulforaphane benefits, risks & best price: Activates detox pathways, powerful antioxidant protection, supports cellular health. Myrosinase-activated vs stabilized forms. Dosing for cancer prevention and anti-aging goals.",
     keywords: [
       "sulforaphane",
       "broccoli sprouts",
@@ -258,7 +258,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Vitamin C Supplement",
     title: "Vitamin C - Benefits, Risks & Best Price",
     description:
-      "Vitamin C benefits for immune and collagen, risks (GI upset at high doses), and best prices. Forms (ascorbic acid, liposomal), mega-dosing safety, and retailer comparison.",
+      "Vitamin C benefits, risks & best price: Boosts immune function, accelerates wound healing, supports collagen production. Ascorbic acid vs liposomal absorption. Dosing for daily wellness, illness prevention, and high-dose therapy.",
     keywords: [
       "vitamin C",
       "ascorbic acid",
@@ -275,7 +275,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Vitamin D3 Supplement",
     title: "Vitamin D - Benefits, Risks & Best Price",
     description:
-      "Vitamin D benefits for bones and immunity, risks (toxicity at excessive doses), and best prices. Blood level targets (25-hydroxyvitamin D), dosing, K2 synergy, and retailer comparison.",
+      "Vitamin D benefits, risks & best price: Strengthens bones, enhances immunity, regulates mood. D3 superior to D2, K2 synergy for calcium utilization. Dosing by blood levels, season, and deficiency status to reach optimal 40-60 ng/mL.",
     keywords: [
       "vitamin D",
       "vitamin D3",
@@ -292,7 +292,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Whey Protein",
     title: "Whey Protein - Benefits, Risks & Best Price",
     description:
-      "Whey protein benefits for muscle growth, potential risks (lactose intolerance, allergies), and best prices. Concentrate, isolate, hydrolysate forms, leucine content, quality, and retailer comparison.",
+      "Whey protein benefits, risks & best price: Builds muscle mass, accelerates recovery, supports weight loss. Isolate for low-lactose vs concentrate for value. Dosing by training intensity, body weight, and protein goals.",
     keywords: [
       "whey protein",
       "whey isolate",
@@ -309,7 +309,7 @@ export const SEO_SUPPLEMENT_DATA: Record<string, SEOSupplementContent> = {
     name: "Zinc Supplement",
     title: "Zinc - Benefits, Risks & Best Price",
     description:
-      "Zinc benefits for immune and hormonal health, risks (copper depletion, nausea), and best prices. Forms (picolinate, citrate, gluconate), wound healing, testosterone, skin health, and retailer comparison.",
+      "Zinc benefits, risks & best price: Strengthens immune system, boosts testosterone, improves skin health. Picolinate for absorption vs gluconate for affordability. Dosing to avoid copper depletion, optimize immunity and hormone balance.",
     keywords: [
       "zinc",
       "zinc picolinate",
