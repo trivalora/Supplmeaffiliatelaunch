@@ -1,45 +1,48 @@
 #!/usr/bin/env node
 /**
  * Generate Component Map for Dynamic Routing
- * 
+ *
  * This script auto-generates the COMPONENT_MAP in app/[slug]/page.tsx
  * by reading src/routes.config.ts.
- * 
+ *
  * Run after adding new supplements: node scripts/generate-component-map.mjs
  */
 
-import { readFileSync, writeFileSync } from 'fs';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import { readFileSync, writeFileSync } from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const projectRoot = join(__dirname, '..');
+const projectRoot = join(__dirname, "..", "..");
 
 // Read routes.config.ts
-const routesConfigPath = join(projectRoot, 'src', 'routes.config.ts');
-const routesContent = readFileSync(routesConfigPath, 'utf-8');
+const routesConfigPath = join(projectRoot, "src", "routes.config.ts");
+const routesContent = readFileSync(routesConfigPath, "utf-8");
 
 // Extract all routes from KNOWLEDGEBASE_ROUTES (includes comparison pages)
 const supplementRoutes = [];
 const comparisonRoutes = [];
 
 // Parse KNOWLEDGEBASE_ROUTES
-const knowledgebaseMatch = routesContent.match(/export const KNOWLEDGEBASE_ROUTES:\s*RouteConfig\[\]\s*=\s*\[([\s\S]*?)\n\];\s*(?:export|\/\/)/);
+const knowledgebaseMatch = routesContent.match(
+  /export const KNOWLEDGEBASE_ROUTES:\s*RouteConfig\[\]\s*=\s*\[([\s\S]*?)\n\];\s*(?:export|\/\/)/
+);
 if (knowledgebaseMatch) {
   const routesArrayContent = knowledgebaseMatch[1];
-  
+
   // Extract all component names with their category
-  const routePattern = /{\s*[\s\S]*?componentName:\s*['"]([^'"]+)['"][\s\S]*?category:\s*['"]([^'"]+)['"][\s\S]*?}/g;
+  const routePattern =
+    /{\s*[\s\S]*?componentName:\s*['"]([^'"]+)['"][\s\S]*?category:\s*['"]([^'"]+)['"][\s\S]*?}/g;
   let match;
-  
+
   while ((match = routePattern.exec(routesArrayContent)) !== null) {
     const componentName = match[1];
     const category = match[2];
-    
-    if (category === 'knowledgebase') {
+
+    if (category === "knowledgebase") {
       supplementRoutes.push(componentName);
-    } else if (category === 'comparison') {
+    } else if (category === "comparison") {
       comparisonRoutes.push(componentName);
     }
   }
@@ -50,21 +53,24 @@ console.log(`Found ${comparisonRoutes.length} comparison components`);
 
 // Generate imports
 const supplementImports = supplementRoutes
-  .map(name => `import { ${name} } from '@/components/pages/supplements/${name}';`)
-  .join('\n');
+  .map(
+    (name) =>
+      `import { ${name} } from '@/components/pages/supplements/${name}';`
+  )
+  .join("\n");
 
 const comparisonImports = comparisonRoutes
-  .map(name => `  ${name},`)
-  .join('\n');
+  .map((name) => `  ${name},`)
+  .join("\n");
 
 // Generate component map entries
 const supplementMapEntries = supplementRoutes
-  .map(name => `  '${name}': ${name},`)
-  .join('\n');
+  .map((name) => `  '${name}': ${name},`)
+  .join("\n");
 
 const comparisonMapEntries = comparisonRoutes
-  .map(name => `  '${name}': ${name},`)
-  .join('\n');
+  .map((name) => `  '${name}': ${name},`)
+  .join("\n");
 
 // Generate the new file content
 const newContent = `import { notFound } from 'next/navigation';
@@ -210,10 +216,12 @@ export default async function SupplementPage({ params }: PageProps) {
 `;
 
 // Write to app/[slug]/page.tsx
-const pagePath = join(projectRoot, 'app', '[slug]', 'page.tsx');
-writeFileSync(pagePath, newContent, 'utf-8');
+const pagePath = join(projectRoot, "app", "[slug]", "page.tsx");
+writeFileSync(pagePath, newContent, "utf-8");
 
-console.log('\n✅ Component map generated successfully!');
+console.log("\n✅ Component map generated successfully!");
 console.log(`📝 Updated: app/[slug]/page.tsx`);
-console.log(`📊 Total components: ${supplementRoutes.length + comparisonRoutes.length}`);
-console.log('\n💡 To use: npm run build');
+console.log(
+  `📊 Total components: ${supplementRoutes.length + comparisonRoutes.length}`
+);
+console.log("\n💡 To use: npm run build");

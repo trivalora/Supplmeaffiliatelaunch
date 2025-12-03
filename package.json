@@ -88,7 +88,7 @@
     "images": "node scripts/web-build/optimize-images.mjs",
     "cache:remote-images": "node scripts/web-build/cache-remote-images.mjs",
     "subset:fonts": "node scripts/web-build/subset-fonts.mjs",
-    "generate:component-map": "node scripts/generate-component-map.mjs",
+    "generate:component-map": "node scripts/generators/generate-component-map.mjs",
     "prebuild": "npm run generate:component-map",
     "build": "next build",
     "postbuild": "node scripts/web-build/build-structured-data.mjs && node scripts/web-build/ping-search-engines.mjs",

@@ -1,369 +1,69 @@
-# Module Architecture Overview
+# Architecture Overview
 
-## System Architecture
+This document explains the high-level architecture of the suppl.me Affiliate Launch project.
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                         DATA PIPELINE                                │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                       │
-│  Step 1-8: Price Per Unit Calculation                               │
-│  ├── 3,184 matched products                                         │
-│  ├── 3,039 with price per unit (95.4%)                              │
-│  └── 145 excluded (no ingredient amounts)                           │
-│                                                                       │
-│  Step 9: Create Embeddable Module                                   │
-│  ├── Filter products (keep only with PPU)                           │
-│  ├── Group by supplement (17 categories)                            │
-│  ├── Extract metadata & filters (40 types)                          │
-│  └── Generate JSON files                                            │
-│                                                                       │
-└─────────────────────────────────────────────────────────────────────┘
-                              │
-                              ├─────────────────────┐
-                              │                     │
-                              ▼                     ▼
-┌──────────────────────────────────┐  ┌──────────────────────────────┐
-│    FULL MODULE JSON (2.4 MB)    │  │ PER-SUPPLEMENT JSON (100KB)  │
-├──────────────────────────────────┤  ├──────────────────────────────┤
-│ product-comparison-module.json   │  │ supplements/vitamin-d.json   │
-│                                  │  │ supplements/magnesium.json   │
-│ • All 3,039 products             │  │ supplements/omega-3.json     │
-│ • All 17 supplements             │  │ ... (17 total files)         │
-│ • 40 filters with IDs            │  │                              │
-│ • Complete metadata              │  │ • Faster loading             │
-│                                  │  │ • Category-specific          │
-│ Use for: Multi-category pages    │  │ Use for: Single supplement   │
-└──────────────────────────────────┘  └──────────────────────────────┘
-                              │                     │
-                              └─────────┬───────────┘
-                                        │
-                                        ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        WEB API ENDPOINT                              │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                       │
-│  GET /api/products/product-comparison-module.json                   │
-│  GET /api/products/supplements/{supplement}.json                    │
-│  GET /api/products/module-config.json                               │
-│                                                                       │
-│  • Serve static JSON files                                          │
-│  • Enable CORS for cross-origin requests                            │
-│  • Add gzip compression (70% size reduction)                        │
-│  • Optional: CDN for global performance                             │
-│                                                                       │
-└─────────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                    REACT WIDGET COMPONENT                            │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                       │
-│  SupplementComparisonWidget.tsx                                     │
-│                                                                       │
-│  Props:                          Features:                          │
-│  ├── supplement (optional)       ├── Real-time search               │
-│  ├── apiEndpoint                 ├── 40+ filters                    │
-│  ├── defaultLimit                ├── Sort (PPU, price, rating)      │
-│  ├── showSearch                  ├── Pagination                     │
-│  ├── showFilters                 ├── Responsive design              │
-│  └── compact                     └── TypeScript types               │
-│                                                                       │
-└─────────────────────────────────────────────────────────────────────┘
-                              │
-                              ├─────────────┬──────────────┐
-                              │             │              │
-                              ▼             ▼              ▼
-┌────────────────────┐  ┌──────────────┐  ┌──────────────────────┐
-│  BLOG POST EMBED   │  │  COMPARISON  │  │   LANDING PAGE       │
-├────────────────────┤  │     PAGE     │  ├──────────────────────┤
-│                    │  ├──────────────┤  │                      │
-│ <article>          │  │ <div>        │  │ <main>               │
-│   <h1>Best Vit D   │  │   <Widget    │  │   <Widget />         │
-│   </h1>            │  │     supp="d" │  │                      │
-│                    │  │   />         │  │   User selects       │
-│   <Widget          │  │ </div>       │  │   supplement         │
-│     supplement="d" │  │              │  │ </main>              │
-│     compact        │  │ Dedicated    │  │                      │
-│   />               │  │ product page │  │ Category selector    │
-│                    │  │              │  │                      │
-│ </article>         │  └──────────────┘  └──────────────────────┘
-│                    │
-│ Mid-article embed  │
-└────────────────────┘
-```
+## Frontend
 
-## Data Flow
+- Framework: React 18 with Vite
+- Routing: React Router with lazy-loaded routes
+- Styling: Tailwind classes (utility-first), standard CSS where needed
+- SEO: `SEOHead` component for meta tags, canonical, JSON-LD
+- Analytics: Google Tag Manager via `AnalyticsProvider` and `pushPageView`
+- Performance:
+  - Code-splitting by route with `React.lazy`
+  - Manual chunk grouping (glossary + vendor libraries) in `vite.config.ts`
+  - Hover-based route prefetch utility
 
-```
-User Interaction
-      │
-      ▼
-┌─────────────────┐
-│  User opens     │
-│  page with      │──┐
-│  widget         │  │
-└─────────────────┘  │
-                     │
-      ┌──────────────┘
-      │
-      ▼
-┌─────────────────┐     ┌──────────────────┐
-│  Widget checks  │────>│  Pre-selected    │
-│  props          │     │  supplement?     │
-└─────────────────┘     └──────────────────┘
-                              │
-                 ┌────────────┴───────────┐
-                 │                        │
-                 ▼ No                     ▼ Yes
-        ┌─────────────────┐     ┌──────────────────┐
-        │  Show supplement│     │  Fetch JSON data │
-        │  selector grid  │     │  for supplement  │
-        └─────────────────┘     └──────────────────┘
-                 │                        │
-                 │ User clicks            │
-                 └────────────┬───────────┘
-                              │
-                              ▼
-                    ┌──────────────────┐
-                    │  Load supplement │
-                    │  data from API   │
-                    └──────────────────┘
-                              │
-                              ▼
-                    ┌──────────────────┐
-                    │  Display product │
-                    │  list with       │
-                    │  filters & search│
-                    └──────────────────┘
-                              │
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-          ▼                   ▼                   ▼
-   ┌──────────┐      ┌──────────────┐    ┌──────────┐
-   │  Search  │      │  Apply       │    │  Sort    │
-   │  products│      │  filters     │    │  results │
-   └──────────┘      └──────────────┘    └──────────┘
-          │                   │                   │
-          └───────────────────┼───────────────────┘
-                              │
-                              ▼
-                    ┌──────────────────┐
-                    │  Re-render list  │
-                    │  (client-side)   │
-                    └──────────────────┘
-                              │
-                              ▼
-                    ┌──────────────────┐
-                    │  User clicks     │
-                    │  "View Product"  │
-                    └──────────────────┘
-                              │
-                              ▼
-                    ┌──────────────────┐
-                    │  Navigate to     │
-                    │  retailer site   │
-                    │  (affiliate link)│
-                    └──────────────────┘
-```
+### Routing Details
 
-## Component Structure
+- `src/routes.config.ts` defines all knowledgebase and glossary routes, including titles, descriptions, and component paths.
+- `src/utils/routePaths.ts` maps internal keys to canonical URL slugs.
+- `src/router/routeMap.tsx` converts the config into React Router routes and injects basic per-route SEO metadata including JSON-LD for v2 supplement pages.
+- `src/router/RouterLayout.tsx` composes the app chrome (Header/Footer), handles pageview events, scroll restoration, and mounts route elements.
+- Aliases like `/ashwaghandha` → `/ashwagandha` and `/bcaa` → `/bcaas` are handled as client-side redirects to preserve canonical analytics and SEO.
 
-```
-SupplementComparisonWidget
-├── State Management
-│   ├── supplement (selected category)
-│   ├── data (loaded JSON)
-│   ├── searchTerm
-│   ├── activeFilters (Set<string>)
-│   ├── sortBy
-│   └── limit
-│
-├── Effects
-│   └── useEffect (load data when supplement changes)
-│
-├── Computed Values
-│   └── filteredProducts (useMemo)
-│       ├── Apply search
-│       ├── Apply filters
-│       ├── Sort
-│       └── Limit
-│
-└── Render
-    ├── No supplement selected
-    │   └── Supplement selector grid
-    │
-    ├── Loading state
-    │   └── Loading message
-    │
-    ├── Error state
-    │   └── Error message + back button
-    │
-    └── Main view
-        ├── Header
-        │   ├── Back button
-        │   ├── Supplement name
-        │   └── Statistics
-        │
-        ├── Search bar (if showSearch)
-        │
-        ├── Controls
-        │   ├── Sort selector
-        │   └── Limit selector
-        │
-        ├── Filters (if showFilters)
-        │   ├── Dietary preferences
-        │   ├── Free-from options
-        │   ├── Formulation types
-        │   └── Clear all button
-        │
-        └── Product list
-            ├── Results header
-            └── Product cards
-                ├── Product info
-                │   ├── Name
-                │   ├── Brand/Retailer
-                │   └── Tags
-                ├── Pricing
-                │   ├── Price per unit
-                │   ├── Total price
-                │   └── Amount per serving
-                └── Actions
-                    ├── View product link
-                    └── Rating (if available)
-```
+### SEO & Structured Data
 
-## File Structure
+- `SEOHead` updates document title and meta tags, sets canonical links, and injects JSON-LD.
+- `scripts/generate-sitemap.mjs` builds `public/sitemap.xml` from route configs.
+- `scripts/build-structured-data.mjs` pre-generates JSON-LD files under `public/structured-data` for supplements.
 
-```
-project/
-├── data-pipeline/
-│   ├── scripts/
-│   │   └── step9-create-module/
-│   │       └── create_embeddable_module.py
-│   └── output/
-│       └── step9-embeddable-module/
-│           ├── product-comparison-module.json (2.4 MB)
-│           ├── module-config.json
-│           ├── STEP9_SUMMARY.md
-│           └── supplements/
-│               ├── vitamin-d.json (187 products)
-│               ├── magnesium.json (191 products)
-│               ├── omega-3.json (380 products)
-│               └── ... (14 more)
-│
-├── src/
-│   └── components/
-│       ├── SupplementComparisonWidget.tsx (React component)
-│       └── SupplementComparisonWidget.css (Styling)
-│
-├── docs/
-│   ├── WIDGET_USAGE.md (Complete documentation)
-│   ├── widget-demo.html (Interactive demo)
-│   └── vanilla-example.html (Pure JS implementation)
-│
-└── QUICK_REFERENCE.md (Cheat sheet)
-```
+### Assets
 
-## Integration Patterns
+- Images are bundled by Vite from `src/assets/`.
+- Consider converting large PNGs to WebP/AVIF and using responsive `picture` sources.
 
-### Pattern 1: Blog Post Embed
-```tsx
-// For supplement review articles
-<SupplementComparisonWidget 
-  supplement="vitamin-d"
-  compact={true}
-  defaultLimit={10}
-/>
-```
-**Use case:** Mid-article product comparison  
-**Loading:** Fast (100-300KB JSON)  
-**User experience:** Immediate results
+## Backend (Serverless on Vercel)
 
-### Pattern 2: Comparison Page
-```tsx
-// Dedicated product comparison pages
-<SupplementComparisonWidget 
-  supplement="magnesium"
-  showFilters={true}
-  defaultLimit={50}
-/>
-```
-**Use case:** Full-featured comparison  
-**Loading:** Fast (100-300KB JSON)  
-**User experience:** Comprehensive filtering
+- Endpoints live in `/api/*` as TypeScript files, built by Vercel.
+- Common response helpers: `api/_lib/respond.ts` for consistent envelopes, cache headers, and ETag.
+- Database layer: `api/_lib/db.ts` creates a lazy PostgreSQL pool using env vars and exports `query`/`safeQuery`.
+- Example endpoints:
+  - `GET /api/health` – simple health check
+  - `GET /api/prices` – mock price aggregation (replace with real sources)
+  - `POST /api/events` – event ingestion with optional DB persistence
+  - `GET /api/auth/favorites` / `POST /api/auth/favorites` – favorites with API key auth
+  - `GET /api/redirect` – affiliate redirect with basic validation
+  - `GET /api/structured-data/supplement` and `/api/structured-data/glossary` – JSON-LD writers
 
-### Pattern 3: Landing Page
-```tsx
-// Category selector first
-<SupplementComparisonWidget />
-```
-**Use case:** Main product discovery  
-**Loading:** Instant (no initial load)  
-**User experience:** Browse all categories
+## Build & Deployment
 
-### Pattern 4: Multi-Category
-```tsx
-// Multiple widgets on one page
-<div>
-  <SupplementComparisonWidget supplement="vitamin-d" defaultLimit={5} />
-  <SupplementComparisonWidget supplement="magnesium" defaultLimit={5} />
-</div>
-```
-**Use case:** "Best of" collections  
-**Loading:** Parallel (200-600KB total)  
-**User experience:** Side-by-side comparison
+- Vite production build outputs to `build/` with manifest enabled.
+- Postbuild scripts generate sitemap and structured data.
+- Vercel deployment uses `vercel.json` rewrites to expose `/sitemap.xml` and `/robots.txt` while keeping SPA routing.
 
-## Performance Optimization
+## Analytics
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     OPTIMIZATION LAYERS                      │
-├─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Layer 1: File Structure                                     │
-│  ├── Per-supplement files (100-300KB vs 2.4MB)              │
-│  └── Lazy load only needed data                             │
-│                                                               │
-│  Layer 2: Network                                            │
-│  ├── CDN distribution (global edge caching)                 │
-│  ├── Gzip compression (70% size reduction)                  │
-│  └── HTTP/2 multiplexing                                    │
-│                                                               │
-│  Layer 3: Client-Side                                        │
-│  ├── useMemo for filtered products                          │
-│  ├── Debounced search input                                 │
-│  ├── Virtual scrolling (future enhancement)                 │
-│  └── Code splitting (lazy load component)                   │
-│                                                               │
-│  Layer 4: Caching                                            │
-│  ├── Browser cache (304 responses)                          │
-│  ├── Service worker (offline support)                       │
-│  └── LocalStorage (recent searches)                         │
-│                                                               │
-└─────────────────────────────────────────────────────────────┘
-```
+- Uses Google Tag Manager (GTM). Set `VITE_GTM_ID` in environment.
+- Pageviews are pushed on route changes with page name, category, and path.
+- Server-side `/api/events` can accept additional events and optionally persist them.
 
-## Deployment Checklist
+## Environment & Config
 
-- [ ] Generate data files (Step 9 script)
-- [ ] Deploy JSON to `/api/products/` endpoint
-- [ ] Enable gzip compression on server
-- [ ] Set up CDN (optional but recommended)
-- [ ] Install React component
-- [ ] Test on staging environment
-- [ ] Verify all 17 supplement categories load
-- [ ] Test filters and search functionality
-- [ ] Check mobile responsiveness
-- [ ] Add affiliate tracking to URLs
-- [ ] Monitor API response times
-- [ ] Set up error tracking
-- [ ] Configure analytics events
-- [ ] Document custom styling for team
-- [ ] Schedule weekly data updates
-- [ ] Deploy to production
+- Public (Vite) env vars typed in `src/env.d.ts` include `VITE_CANONICAL_BASE_URL`, `VITE_GTM_ID`, and optional `VITE_API_BASE_URL`.
+- Server-side env vars include Postgres settings and `API_KEY_FAVORITES`.
 
----
+## Performance Monitoring
 
-**Architecture Version:** 1.0  
-**Last Updated:** 2025-11-19
+- Run `npm run analyze` to generate a gzip/raw size report and spot large assets.
+- Manual chunking in `vite.config.ts` can be adjusted as needed.

@@ -1,13 +1,9 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import IHerbBadgeLogoRgb from '@/imports/IHerbBadgeLogoRgb1-106-1526';
-import { useAffiliateTooltip } from '@/components/shared/ui-extensions/AffiliateTooltip';
-import {
-  trackAffiliateClick,
-  trackRetailerClick,
-  trackProductClick
-} from '@/lib/analytics';
+import Link from "next/link";
+import IHerbBadgeLogoRgb from "@/imports/IHerbBadgeLogoRgb1-106-1526";
+import { useAffiliateTooltip } from "@/components/shared/ui-extensions/AffiliateTooltip";
+import { trackAffiliateClickDual } from "@/lib/analytics-dual";
 
 interface AffiliateButtonsProps {
   amazonLink: string;
@@ -24,28 +20,54 @@ export function AffiliateButtons({
   iherbUnavailable,
   supplementName,
   productName,
-  brand
+  brand,
 }: AffiliateButtonsProps) {
   const tooltipHandlers = useAffiliateTooltip();
 
-  const handleAmazonClick = () => {
-    trackAffiliateClick('Amazon', supplementName, 'product_card');
-    trackRetailerClick('Amazon', supplementName, 'bottom');
-    trackProductClick(productName, brand, 'Amazon', supplementName, 0, 'comparison');
-  };
-
-  const handleIHerbClick = () => {
-    trackAffiliateClick('iHerb', supplementName, 'product_card');
-    trackRetailerClick('iHerb', supplementName, 'bottom');
-    trackProductClick(productName, brand, 'iHerb', supplementName, 0, 'comparison');
-  };
-
-  const handleCompareClick = () => {
-    trackAffiliateClick('Compare All', supplementName, 'product_card');
-  };
-
   // Convert supplement name to URL-friendly slug (e.g., "Vitamin D" -> "vitamin-d")
-  const supplementSlug = supplementName.toLowerCase().replace(/\s+/g, '-');
+  const supplementSlug = supplementName.toLowerCase().replace(/\s+/g, "-");
+
+  const handleAmazonClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault(); // Prevent immediate navigation
+
+    try {
+      const { trackingUrl } = await trackAffiliateClickDual({
+        productName: productName,
+        brand: brand,
+        supplementSlug: supplementSlug,
+        retailerSlug: "amazon",
+        price: 0, // Unknown price on knowledgebase pages
+        affiliateUrl: amazonLink,
+      });
+
+      // Open tracking URL with click_id (or fallback to original)
+      window.open(trackingUrl || amazonLink, "_blank");
+    } catch (error) {
+      console.error("Failed to track Amazon click:", error);
+      window.open(amazonLink, "_blank"); // Fallback to original URL
+    }
+  };
+
+  const handleIHerbClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault(); // Prevent immediate navigation
+
+    try {
+      const { trackingUrl } = await trackAffiliateClickDual({
+        productName: productName,
+        brand: brand,
+        supplementSlug: supplementSlug,
+        retailerSlug: "iherb",
+        price: 0, // Unknown price on knowledgebase pages
+        affiliateUrl: iherbLink || "",
+      });
+
+      // Open tracking URL with click_id (or fallback to original)
+      window.open(trackingUrl || iherbLink, "_blank");
+    } catch (error) {
+      console.error("Failed to track iHerb click:", error);
+      window.open(iherbLink, "_blank"); // Fallback to original URL
+    }
+  };
 
   return (
     <div className="flex gap-2">
@@ -55,7 +77,7 @@ export function AffiliateButtons({
         rel="nofollow noreferrer"
         data-button-height="md"
         className="flex-1 rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-3"
-        style={{ backgroundColor: 'var(--color-amazon)' }}
+        style={{ backgroundColor: "var(--color-amazon)" }}
         {...tooltipHandlers}
         onClick={handleAmazonClick}
       >
@@ -63,10 +85,10 @@ export function AffiliateButtons({
           src="/optimized/2f3309a930da536601e44619e42e44f89c102eb7-48.webp"
           alt="Amazon"
           className="h-5 w-auto invert"
-          style={{ filter: 'invert(1)' }}
+          style={{ filter: "invert(1)" }}
         />
       </a>
-      {(iherbUnavailable || !iherbLink) ? (
+      {iherbUnavailable || !iherbLink ? (
         <div
           data-button-height="md"
           className="flex-1 px-3 rounded-lg flex items-center justify-center bg-tertiary border border-secondary opacity-50 cursor-not-allowed relative group"
@@ -93,12 +115,11 @@ export function AffiliateButtons({
           </div>
         </a>
       )}
-      {/* Compare All button */}
+      {/* Compare All button - no tracking needed, internal navigation */}
       <Link
         href={`/comparison/${supplementSlug}`}
         data-button-height="md"
         className="flex-1 px-3 rounded-lg text-center bg-tertiary text-primary border border-secondary hover:opacity-90 transition-opacity text-sm flex items-center justify-center"
-        onClick={handleCompareClick}
       >
         Compare All
       </Link>

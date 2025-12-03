@@ -26,6 +26,7 @@ import {
   trackComparisonProductImpression,
   trackComparisonProductClick,
 } from "@/lib/analytics";
+import { trackAffiliateClickDual } from "@/lib/analytics-dual";
 import { DualRangeSlider } from "./ui/dual-range-slider";
 import { useSupplementProducts } from "@/hooks";
 import { ProductGridSkeleton, ErrorState } from "@/components/shared";
@@ -113,7 +114,7 @@ export function ProductComparisonClient({
 
   // Handle buy click - show refill modal if we can estimate servings
   const handleBuyClick = useCallback(
-    (
+    async (
       e: React.MouseEvent,
       url: string,
       product: any,
@@ -129,7 +130,36 @@ export function ProductComparisonClient({
         serving_size: product.serving_size,
       });
 
-      // Track the click
+      // DUAL TRACKING: Server-side + GTM + click_id generation
+      let trackingUrl = url;
+      let clickId: string | undefined;
+
+      try {
+        const result = await trackAffiliateClickDual({
+          productId: product.id,
+          productName:
+            product.dsld_product_name ||
+            product.product_name ||
+            "Unknown Product",
+          brand: product.brand || "Unknown Brand",
+          supplementSlug: supplementId,
+          retailerSlug: retailer.toLowerCase().replace(/\s+/g, "-"),
+          price: price,
+          pricePerUnit: pricePerUnit,
+          affiliateUrl: url,
+        });
+
+        // Use enhanced tracking URL with click_id parameters
+        if (result.success && result.trackingUrl) {
+          trackingUrl = result.trackingUrl;
+          clickId = result.clickId;
+        }
+      } catch (error) {
+        console.error("[Comparison] Affiliate tracking failed:", error);
+        // Fallback: proceed with original URL if tracking fails
+      }
+
+      // Also send to GTM (for redundancy)
       trackComparisonProductClick(
         {
           id: product.id || `${product.brand}-${idx}`,
@@ -139,7 +169,7 @@ export function ProductComparisonClient({
           pricePerUnit: pricePerUnit,
           unit: product.unit || "unit",
           retailer: retailer,
-          productUrl: url,
+          productUrl: trackingUrl,
           position: idx + 1,
         },
         supplementId,
@@ -159,10 +189,10 @@ export function ProductComparisonClient({
           brand: product.brand || "Unknown Brand",
           servings: estimate.servingsPerContainer,
         });
-        setPendingBuyUrl(url);
+        setPendingBuyUrl(trackingUrl);
         setShowRefillModal(true);
       }
-      // If no servings estimate, let the link proceed normally
+      // If no servings estimate, let the link proceed with trackingUrl
     },
     [supplementId]
   );

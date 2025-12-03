@@ -5,9 +5,18 @@
 
 ## Summary
 
-Successfully migrated **268 products** (iHerb + Vitacost) from external CDN URLs to self-hosted local images. **100% success rate** for all products that exist in the database.
+**Database Status: 748/1,663 Products (45%) with Local Images** ✅
 
-## Migration Results
+### Overall Migration Statistics
+- **Total Products**: 1,663 in database
+- **Local Images**: 748 products (45%) using `/images/products/` paths
+- **External URLs**: 194 products (12%) still on external CDNs (Amazon, etc.)
+- **Missing Images**: 58 products (3%) with no image URLs
+- **Success Rate**: 73% of products with images now use local storage
+
+## Recent Migration Results (v0.6.6.6)
+
+Successfully migrated **268 products** (iHerb + Vitacost) from external CDN URLs to self-hosted local images. **100% success rate** for all products that exist in the database.
 
 ### iHerb Products
 - **Processed**: 308 image mappings
@@ -21,10 +30,10 @@ Successfully migrated **268 products** (iHerb + Vitacost) from external CDN URLs
 - **Images Copied**: 57 unique files
 - **Not Found**: 41 products (not in database)
 
-### Total Achievement
-- **🎯 268 products** now use local images
-- **🖼️ 267 unique image files** in `public/images/products/`
-- **⚡ Zero external dependencies** - Cloudinary/Vitacost eliminated
+### v0.6.6.6 Achievement
+- **🎯 268 products** migrated in this phase
+- **🖼️ 267 unique image files** added to `public/images/products/`
+- **⚡ Zero external dependencies** - Cloudinary/Vitacost eliminated for these products
 - **📊 100% success rate** for existing products
 
 ## Google Search Console - "Non-retrievable" Images

@@ -19,11 +19,8 @@ import IHerbBadgeLogoRgb from "@/imports/IHerbBadgeLogoRgb1-106-1526";
 import { HeroImage, SectionImage, ProductImage } from "@/components/images";
 
 import { PageKey } from "@/routes.config";
-import {
-  trackCTAClick,
-  trackRetailerClick,
-  trackAffiliateClick,
-} from "@/lib/analytics";
+import { trackCTAClick } from "@/lib/analytics";
+import { trackAffiliateClickDual } from "@/lib/analytics-dual";
 import { getProductsBySupplementName } from "@/components/templates/KnowledgebaseTemplate";
 import { ComparePricesCTA } from "@/components/shared/content/ComparePricesCTA";
 
@@ -563,11 +560,15 @@ function AffiliateButtonsLP({
   amazonLink,
   iherbLink,
   supplementName,
+  productName,
+  brand,
   onNavigate,
 }: {
   amazonLink: string;
   iherbLink: string;
   supplementName: string;
+  productName: string;
+  brand: string;
   onNavigate: (page: PageKey) => void;
 }) {
   const tooltipHandlers = useAffiliateTooltip();
@@ -597,17 +598,57 @@ function AffiliateButtonsLP({
       "multivitamin-comparison") as PageKey;
   };
 
+  const handleAmazonClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    try {
+      const supplementSlug = supplementName.toLowerCase().replace(/\s+/g, "-");
+      const { trackingUrl } = await trackAffiliateClickDual({
+        productName: productName,
+        brand: brand,
+        supplementSlug: supplementSlug,
+        retailerSlug: "amazon",
+        price: 0, // Price not available on landing page cards
+        affiliateUrl: amazonLink,
+      });
+
+      window.open(trackingUrl || amazonLink, "_blank");
+    } catch (error) {
+      console.error("Failed to track Amazon click:", error);
+      window.open(amazonLink, "_blank");
+    }
+  };
+
+  const handleIHerbClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    try {
+      const supplementSlug = supplementName.toLowerCase().replace(/\s+/g, "-");
+      const { trackingUrl } = await trackAffiliateClickDual({
+        productName: productName,
+        brand: brand,
+        supplementSlug: supplementSlug,
+        retailerSlug: "iherb",
+        price: 0, // Price not available on landing page cards
+        affiliateUrl: iherbLink,
+      });
+
+      window.open(trackingUrl || iherbLink, "_blank");
+    } catch (error) {
+      console.error("Failed to track iHerb click:", error);
+      window.open(iherbLink, "_blank");
+    }
+  };
+
   return (
     <div className="flex gap-2 w-full">
       <a
         href={amazonLink}
         target="_blank"
         rel="nofollow noreferrer"
-        onClick={(e) => {
-          e.stopPropagation();
-          trackAffiliateClick("Amazon", "landing", "product_card");
-          trackRetailerClick("Amazon", "landing", "hero");
-        }}
+        onClick={handleAmazonClick}
         data-button-height="md"
         className="flex-1 bg-black rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-4"
         {...tooltipHandlers}
@@ -622,11 +663,7 @@ function AffiliateButtonsLP({
         href={iherbLink}
         target="_blank"
         rel="nofollow noreferrer"
-        onClick={(e) => {
-          e.stopPropagation();
-          trackAffiliateClick("iHerb", "landing", "product_card");
-          trackRetailerClick("iHerb", "landing", "hero");
-        }}
+        onClick={handleIHerbClick}
         data-button-height="md"
         className="flex-1 px-4 rounded-lg transition-opacity hover:opacity-90 flex items-center justify-center bg-tertiary border border-secondary"
         {...tooltipHandlers}
@@ -804,6 +841,8 @@ function PopularComparisonsSection({
                     amazonLink={supplement.amazonLink}
                     iherbLink={supplement.iherbLink}
                     supplementName={supplement.supplementName}
+                    productName={supplement.name}
+                    brand={supplement.brand}
                     onNavigate={onNavigate}
                   />
                 </div>

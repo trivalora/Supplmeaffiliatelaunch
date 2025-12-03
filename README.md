@@ -2,24 +2,24 @@
 
 ## 🚀 Production Status
 
-**Version**: 0.6.6.6  
+**Version**: 0.6.6.7  
 **Build Status**: ✅ Successful (0 errors, 0 warnings)  
 **Pages Generated**: 1,936 static pages  
-**Last Updated**: December 1, 2025  
+**Last Updated**: December 2, 2025  
 
 ### Current State
 - ✅ **Production Ready**: All systems operational
 - ✅ **17 Supplement Pages** with evidence-based information
 - ✅ **197 Glossary Terms** in Supabase database (100% consistent architecture)
 - ✅ **17 Price Comparison Pages** across 7 retailers
-- ✅ **1,691 Product Detail Pages** with DSLD integration
+- ✅ **1,663 Product Detail Pages** (1,691 → 1,663 actual count) with DSLD integration
 - ✅ **Supabase Backend**: PostgreSQL with 11 API endpoints
 - ✅ **Backend Analytics**: Triple-platform server-side (GA4 + Facebook + TikTok)
 - ✅ **Social Tracking**: ~98% event capture across all platforms
 - ✅ **CSS Performance**: Optimized with minimal critical CSS (500 bytes inline)
 - ✅ **Mobile Optimized**: Images optimized for all device sizes
-- ✅ **Image Migration**: 268 products with local images (iHerb + Vitacost - 100% COMPLETE)
-- ✅ **Clean Workspace**: All migration artifacts archived
+- ✅ **Image Migration**: 748 products with local images (45% of catalog - iHerb + Vitacost + earlier phases)
+- ✅ **Workspace Cleanup**: 85% reduction in root directory files, organized archives
 
 **Status**: ✅ **PRODUCTION READY** - All endpoints operational
 
@@ -77,6 +77,9 @@ See **[API Documentation](docs/API_DOCUMENTATION.md)** for complete reference.
 - **[Adding Supplements](docs/ADDING_SUPPLEMENTS.md)** - How to add new supplements
 
 ### Archives
+- **[v0.6.6 Image Migration](.archive/v0.6.6-image-migration/README.md)** - Image migration artifacts (Dec 2025)
+- **[v0.6.5 Glossary Enhancement](.archive/v0.6.5-glossary-enhancement/README.md)** - Glossary batch scripts (Nov-Dec 2025)
+- **[Completion Reports](.archive/completion-reports/README.md)** - Historical milestone reports
 - **[v0.4.1 Glossary Migration](.archive/v0.4.1-glossary-migration/README.md)** - Glossary backend migration artifacts
 - **[v0.3 Migration](.archive/v0.3-migration/README.md)** - Database migration artifacts
 - **[Deployment Artifacts](.archive/deployment-artifacts/README.md)** - Deployment troubleshooting docs
