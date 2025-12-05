@@ -31,7 +31,7 @@ export function BcaaKnowledgebasePage({
   onLegalClick?: () => void;
 }) {
   const pageProps: KnowledgebasePageProps = {
-    supplementName: "BCAAs",
+    supplementName: "BCAA",
     currentPage: "bcaas",
     heroDescription:
       "Essential amino acids (leucine, isoleucine, valine) with meta-analytic evidence supporting benefits for liver cancer surgery, hepatic encephalopathy, and exercise-induced muscle damage reduction",

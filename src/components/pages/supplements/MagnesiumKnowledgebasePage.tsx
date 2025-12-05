@@ -30,7 +30,7 @@ export function MagnesiumKnowledgebasePage({
   onLegalClick?: () => void;
 }) {
   const pageProps: KnowledgebasePageProps = {
-    supplementName: "Magnesium Glycinate",
+    supplementName: "Magnesium",
     currentPage: "magnesium",
     heroDescription:
       "Highly bioavailable magnesium chelated with glycine for superior absorption and tolerability. Ideal for sleep, muscle relaxation, and daily magnesium support without GI side effects.",

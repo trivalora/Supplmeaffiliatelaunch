@@ -19,7 +19,7 @@ export function CollagenKnowledgebasePage({
 }) {
   
   const pageProps: KnowledgebasePageProps = {
-    supplementName: "Collagen Peptides",
+    supplementName: "Collagen",
     currentPage: "collagenpeptides",
     heroDescription: "Evidence-based overview of hydrolyzed collagen supplements popular for joint, skin, and bone health, as well as exercise recovery and muscle maintenance.",
     heroImageUrl: getSupplementImage('collagenpeptides'),
