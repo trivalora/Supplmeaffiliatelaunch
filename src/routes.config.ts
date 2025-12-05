@@ -1822,17 +1822,6 @@ export const GLOSSARY_ROUTES: RouteConfig[] = [
     category: "glossary",
   },
   {
-    key: "homair",
-    title: "HOMA-IR",
-    abbreviation: "Homeostatic Model Assessment of Insulin Resistance",
-    description:
-      "Mathematical formula quantifying insulin resistance from fasting glucose and insulin",
-    componentPath: "./components/pages/glossary/HOMAIRPage",
-    componentName: "HOMAIRPage",
-    showInNav: true,
-    category: "glossary",
-  },
-  {
     key: "nfkb",
     title: "NF-κB",
     abbreviation: "Nuclear Factor Kappa B",
