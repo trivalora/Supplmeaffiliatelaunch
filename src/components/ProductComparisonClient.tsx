@@ -597,7 +597,8 @@ export function ProductComparisonClient({
             <div className="bg-card rounded-xl p-4 sm:p-6 shadow-sm border border-secondary/20 mb-4 sm:mb-6 mx-4 sm:mx-0">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4 sm:mb-6">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize">
-                  Compare All {getSupplementName(supplementId)} Products
+                  Best {getSupplementName(supplementId)} Deals - Compare All
+                  Products
                 </h1>
                 <div className="text-sm text-muted-foreground">
                   <span className="font-semibold text-foreground">
