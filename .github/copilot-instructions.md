@@ -24,8 +24,8 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.13 (Dec 5, 2025)  
-**Status:** ✅ Production-ready with 24h cache + on-demand revalidation + case-insensitive autolinking + duplicate H2 fix + triple-platform tracking + optimized CSS + **100% glossary enhanced** + **100% affiliate coverage** + **Cookie consent + fingerprinting**  
+**Current Version:** 0.6.14 (Dec 5, 2025)  
+**Status:** ✅ Production-ready with 24h cache + on-demand revalidation + case-insensitive autolinking + duplicate H2 fix + triple-platform tracking + optimized CSS + **100% glossary enhanced** + **100% affiliate coverage** + **Cookie consent (custom, no iubenda)**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
 **Key Stats:**
@@ -55,6 +55,16 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - **Build**: Production build verified post-changes
 
 Impact: ~30% more event capture and improved funnel visibility.
+
+**Version 0.6.14 Highlights:**
+🧹 **iubenda Removal - Performance Optimization** ✅
+
+- **Removed**: iubenda Privacy Controls tag + custom template from GTM
+- **Size Reduction**: ~150KB of JavaScript removed
+- **HTTP Requests**: Eliminated 2 requests to cdn.iubenda.com
+- **Cookie Consent**: Using custom `CookieConsent.tsx` component (already in place)
+- **GTM Container**: New clean version available: `input/gtm_container_no_iubenda.json`
+- **Impact**: Faster page loads, cleaner dependencies, same GDPR compliance
 
 **Version 0.6.11 Highlights:**
 🚀 **Smart Cache with On-Demand Revalidation** ✅
