@@ -24,8 +24,8 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.10 (Dec 3, 2025)  
-**Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance + **ALL 197 glossary terms enhanced** + **Glossary system 100% consistent** + **Enhanced hero typography** + **ALL product images migrated to local storage** + **Workspace cleaned & optimized** + **100% affiliate tracking coverage**  
+**Current Version:** 0.6.11 (Dec 5, 2025)  
+**Status:** ✅ Production-ready with 24h cache + on-demand revalidation + case-insensitive autolinking + duplicate H2 fix + triple-platform tracking + optimized CSS + **100% glossary enhanced** + **100% affiliate coverage**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
 **Key Stats:**
@@ -55,6 +55,21 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - **Build**: Production build verified post-changes
 
 Impact: ~30% more event capture and improved funnel visibility.
+
+**Version 0.6.11 Highlights:**
+🚀 **Smart Cache with On-Demand Revalidation** ✅
+
+- **24-Hour Cache**: All API endpoints now cache for 24 hours (vs 1 hour)
+- **7-Day Stale**: Stale-while-revalidate extended to 7 days (vs 1 day)
+- **Revalidation API**: New `/api/revalidate` endpoint for instant cache purging
+- **Webhook Integration**: Supabase webhooks configured for auto-purge on data changes
+- **96% Fewer Queries**: Database queries reduced by 24x (1h → 24h cache)
+- **Cache Tags**: Added for selective revalidation (glossary, supplements, products)
+- **Security**: `REVALIDATION_SECRET` added to Vercel + local env
+- **Documentation**: Complete setup guides in `docs/CACHE_REVALIDATION.md` + `docs/SUPABASE_WEBHOOK_SETUP.md`
+- **Autolinking Fix**: Case-insensitive matching + plural support for glossary terms
+- **H2 Fix**: Resolved duplicate heading warnings on knowledgebase pages
+- **Impact**: Better performance, lower costs, instant updates when content changes
 
 **Version 0.6.9 Highlights:**
 🎯 **Landing Page Tracking - COMPLETE!** ✅
