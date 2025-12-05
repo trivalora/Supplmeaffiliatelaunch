@@ -5,7 +5,7 @@
 ## 🎯 Quick Project Identity
 
 **Name:** Suppl.me - Evidence-Based Supplement Comparison Platform  
-**Version:** 0.6.9 (Production - December 3, 2025)  
+**Version:** 0.6.10 (Production - December 3, 2025)  
 **Stack:** Next.js 16 + React 19 + Supabase PostgreSQL + TypeScript + Tailwind v4  
 **Status:** ✅ Production-ready, 1,936 pages live on Vercel, **197 glossary terms**, **748 products with local images (45% of 1,663 catalog)**, **100% affiliate tracking coverage**
 
@@ -391,8 +391,8 @@ NEXT_PUBLIC_SITE_URL=https://www.suppl.me
 
 ---
 
-**Last Updated:** November 2025  
-**Version:** 0.5.0  
+**Last Updated:** December 3, 2025  
+**Version:** 0.6.10  
 **Status:** Production Ready ✅
 
 ---

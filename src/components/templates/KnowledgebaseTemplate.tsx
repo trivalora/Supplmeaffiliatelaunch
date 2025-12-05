@@ -6,7 +6,8 @@ import { ImageWithFallback } from "@/components/shared/ui-extensions/ImageWithFa
 import { SectionImage } from "@/components/images";
 import { WhatToExpectSection } from "@/components/WhatToExpectSection";
 import { AffiliateTooltip } from "@/components/shared/ui-extensions/AffiliateTooltip";
-import { trackSupplementView, trackSupplementSection } from "@/lib/analytics";
+import { trackSupplementViewDual } from "@/lib/analytics-dual";
+import { trackSupplementSection } from "@/lib/analytics";
 
 // Import all extracted sections
 import {
@@ -236,7 +237,9 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
   // Fire supplement_view on mount
   useEffect(() => {
     try {
-      trackSupplementView(props.supplementName);
+      // Generate slug from supplement name
+      const slug = props.supplementName.toLowerCase().replace(/\s+/g, "-");
+      trackSupplementViewDual(props.supplementName, slug);
     } catch {}
   }, [props.supplementName]);
 

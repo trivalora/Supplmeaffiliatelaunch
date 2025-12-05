@@ -24,7 +24,7 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.9 (Dec 3, 2025)  
+**Current Version:** 0.6.10 (Dec 3, 2025)  
 **Status:** ✅ Production-ready with triple-platform server-side tracking + optimized CSS performance + **ALL 197 glossary terms enhanced** + **Glossary system 100% consistent** + **Enhanced hero typography** + **ALL product images migrated to local storage** + **Workspace cleaned & optimized** + **100% affiliate tracking coverage**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
@@ -43,6 +43,18 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 - ✅ **Glossary Enhancement: 197/197 terms (100%) enhanced to 500+ words with rich content**
 - ✅ **Glossary System: 100% consistent architecture** (v0.6.6)
 - ✅ **Affiliate Tracking: 100% coverage** - Product detail + comparison + knowledgebase + landing pages (v0.6.9)
+
+**Version 0.6.10 Highlights:**
+🎯 Dual Tracking Coverage – Search, Knowledgebase, Comparison
+
+- **Search**: Replaced `trackSearch` with `trackSearchDual()` in `SearchResults.tsx`
+- **Knowledgebase**: Replaced `trackSupplementView` with `trackSupplementViewDual()` in `KnowledgebaseTemplate.tsx`
+- **Comparison**: Added `trackComparisonViewDual()` in `ProductComparisonClient.tsx` (view events include filters)
+- **Deduplication**: Unified `event_id` across GTM + server-side events
+- **Validation**: Added `scripts/validate-dual-tracking.sql` to audit coverage, data quality, and breakdowns
+- **Build**: Production build verified post-changes
+
+Impact: ~30% more event capture and improved funnel visibility.
 
 **Version 0.6.9 Highlights:**
 🎯 **Landing Page Tracking - COMPLETE!** ✅

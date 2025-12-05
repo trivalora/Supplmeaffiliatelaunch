@@ -2,7 +2,8 @@
 
 import { getSearchableRoutes, PageKey, RouteConfig } from "@/routes.config";
 import { useEffect, useRef, useState } from "react";
-import { trackSearch, trackSearchResultClick } from "@/lib/analytics";
+import { trackSearchDual } from "@/lib/analytics-dual";
+import { trackSearchResultClick } from "@/lib/analytics";
 import { getSupplementThumbnail } from "@/lib/supplementImages";
 import Image from "next/image";
 
@@ -253,7 +254,7 @@ export function SearchResults({
     if (!q) return;
     if (debounceRef.current) window.clearTimeout(debounceRef.current);
     debounceRef.current = window.setTimeout(() => {
-      trackSearch(q, filteredResults.length);
+      trackSearchDual(q, filteredResults.length);
     }, 300);
     return () => {
       if (debounceRef.current) window.clearTimeout(debounceRef.current);

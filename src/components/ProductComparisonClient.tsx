@@ -26,7 +26,10 @@ import {
   trackComparisonProductImpression,
   trackComparisonProductClick,
 } from "@/lib/analytics";
-import { trackAffiliateClickDual } from "@/lib/analytics-dual";
+import {
+  trackAffiliateClickDual,
+  trackComparisonViewDual,
+} from "@/lib/analytics-dual";
 import { DualRangeSlider } from "./ui/dual-range-slider";
 import { useSupplementProducts } from "@/hooks";
 import { ProductGridSkeleton, ErrorState } from "@/components/shared";
@@ -37,12 +40,13 @@ interface ProductComparisonClientProps {
   supplementId: string;
 }
 
-// Map our 18 supplements to the API endpoints
+// Map our 21 supplements to the API endpoints (including all comparison slugs)
 const SUPPLEMENTS = [
   { id: "ashwagandha", name: "Ashwagandha", icon: "🌿" },
   { id: "bcaa", name: "BCAA", icon: "💪" },
   { id: "calcium", name: "Calcium", icon: "🦴" },
   { id: "casein", name: "Casein", icon: "🥛" },
+  { id: "casein-protein", name: "Casein Protein", icon: "🥛" },
   { id: "collagen", name: "Collagen", icon: "✨" },
   { id: "creatine", name: "Creatine", icon: "⚡" },
   { id: "curcumin", name: "Curcumin", icon: "🧡" },
@@ -52,9 +56,11 @@ const SUPPLEMENTS = [
   { id: "omega-3", name: "Omega-3", icon: "🐟" },
   { id: "prebiotics", name: "Prebiotics", icon: "🌱" },
   { id: "probiotics", name: "Probiotics", icon: "🦠" },
+  { id: "sulforaphane", name: "Sulforaphane", icon: "🥦" },
   { id: "vitamin-c", name: "Vitamin C", icon: "🍊" },
   { id: "vitamin-d", name: "Vitamin D", icon: "☀️" },
   { id: "whey", name: "Whey Protein", icon: "🏋️" },
+  { id: "whey-protein", name: "Whey Protein", icon: "🏋️" },
   { id: "zinc", name: "Zinc", icon: "⚙️" },
 ];
 
@@ -423,6 +429,29 @@ export function ProductComparisonClient({
     sortBy,
   ]);
 
+  // Track comparison page view with dual tracking (GTM + Supabase)
+  useEffect(() => {
+    if (apiProducts && apiProducts.length > 0) {
+      const filters: {
+        search?: string;
+        dietary?: string[];
+        sortBy?: string;
+      } = {};
+
+      if (searchQuery) filters.search = searchQuery;
+      if (activeDietaryFilters.size > 0) {
+        filters.dietary = Array.from(activeDietaryFilters);
+      }
+      if (sortBy !== "price_asc") filters.sortBy = sortBy;
+
+      trackComparisonViewDual(
+        supplementId,
+        apiProducts.length,
+        Object.keys(filters).length > 0 ? filters : undefined
+      );
+    }
+  }, [apiProducts, supplementId, searchQuery, activeDietaryFilters, sortBy]);
+
   function toggleDietaryFilter(filterKey: string) {
     const newFilters = new Set(activeDietaryFilters);
     if (newFilters.has(filterKey)) {
@@ -517,6 +546,14 @@ export function ProductComparisonClient({
     ...otherFilterKeys,
   ];
 
+  // Helper: get supplement name from SUPPLEMENTS array
+  const getSupplementName = (id: string) => {
+    const found = SUPPLEMENTS.find((s) => s.id === id);
+    if (found) return found.name;
+    // Fallback: prettify slug
+    return id.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  };
+
   // Show loading skeleton
   if (loading) {
     return (
@@ -524,9 +561,9 @@ export function ProductComparisonClient({
         <main data-layout-main style={{ paddingTop: "var(--header-height)" }}>
           <div data-layout-container className="py-4 sm:py-8">
             <div className="bg-card rounded-xl p-4 sm:p-6 shadow-sm border border-secondary/20 mb-4 sm:mb-6 mx-4 sm:mx-0">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-4">
-                Compare All {supplementId.replace(/-/g, " ")} Products
-              </h1>
+              <div className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-4">
+                Compare All {getSupplementName(supplementId)} Products
+              </div>
               <p className="text-muted-foreground">
                 Loading products from database...
               </p>
@@ -560,7 +597,7 @@ export function ProductComparisonClient({
             <div className="bg-card rounded-xl p-4 sm:p-6 shadow-sm border border-secondary/20 mb-4 sm:mb-6 mx-4 sm:mx-0">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4 sm:mb-6">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize">
-                  Compare All {supplementId.replace(/-/g, " ")} Products
+                  Compare All {getSupplementName(supplementId)} Products
                 </h1>
                 <div className="text-sm text-muted-foreground">
                   <span className="font-semibold text-foreground">
