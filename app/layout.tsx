@@ -3,6 +3,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { AnalyticsProvider } from "@/components/providers/AnalyticsProvider";
+import { CookieConsent } from "@/components/shared/CookieConsent";
 // CSS Strategy: Critical CSS inline + Main CSS via Next.js imports
 // Next.js will chunk and optimize these automatically
 import "../src/styles/globals.css";
@@ -108,6 +109,7 @@ export default function RootLayout({
           <Header />
           <main className="min-h-screen overflow-x-hidden">{children}</main>
           <Footer />
+          <CookieConsent />
         </AnalyticsProvider>
       </body>
     </html>

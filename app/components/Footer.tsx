@@ -110,6 +110,13 @@ export function Footer() {
             Privacy Policy
           </Link>
           <Link
+            href="/privacy-policy#do-not-sell"
+            className="text-secondary hover:opacity-80 transition-opacity"
+            title="California Consumer Privacy Act (CCPA) - Do Not Sell My Personal Information"
+          >
+            Do Not Sell My Info
+          </Link>
+          <Link
             href="/cookie-policy"
             className="text-secondary hover:opacity-80 transition-opacity"
           >
