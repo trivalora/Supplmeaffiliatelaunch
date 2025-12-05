@@ -596,11 +596,15 @@ export function ProductComparisonClient({
             {/* Controls */}
             <div className="bg-card rounded-xl p-4 sm:p-6 shadow-sm border border-secondary/20 mb-4 sm:mb-6 mx-4 sm:mx-0">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4 sm:mb-6">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize">
-                  Best {getSupplementName(supplementId)} Deals - Compare All
-                  Products
-                </h1>
-                <div className="text-sm text-muted-foreground">
+                <div>
+                  <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-2">
+                    Compare All {getSupplementName(supplementId)} Products
+                  </h1>
+                  <p className="text-sm text-muted-foreground">
+                    Find the best {getSupplementName(supplementId).toLowerCase()} deals from top retailers. Compare prices, quality, and certifications to get the best value.
+                  </p>
+                </div>
+                <div className="text-sm text-muted-foreground shrink-0">
                   <span className="font-semibold text-foreground">
                     {apiProducts?.length || 0}
                   </span>{" "}
