@@ -1,9 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Search, X, Check, Info } from "lucide-react";
-import { motion, AnimatePresence } from "motion/react";
-import { Input } from "@/components/ui/input";
+import { Search, X, Check } from "lucide-react";
 import { SearchResults } from "@/components/shared/content/SearchResults";
 import {
   MobileSearchSheet,
@@ -14,7 +12,6 @@ import {
   useAffiliateTooltip,
   AffiliateTooltip,
 } from "@/components/shared/ui-extensions/AffiliateTooltip";
-import { WaitlistSignup } from "@/components/shared/WaitlistSignup";
 import IHerbBadgeLogoRgb from "@/imports/IHerbBadgeLogoRgb1-106-1526";
 import { HeroImage, SectionImage, ProductImage } from "@/components/images";
 
@@ -864,143 +861,6 @@ function CTASection({ onScrollToSearch }: { onScrollToSearch?: () => void }) {
 }
 
 // ========================================
-// NEWSLETTER SECTION
-// ========================================
-function NewsletterSection() {
-  const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<
-    "idle" | "loading" | "success" | "error"
-  >("idle");
-  const [errorMessage, setErrorMessage] = useState("");
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-
-    // Basic email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!email) {
-      setStatus("error");
-      setErrorMessage("Please enter your email address");
-      return;
-    }
-    if (!emailRegex.test(email)) {
-      setStatus("error");
-      setErrorMessage("Please enter a valid email address");
-      return;
-    }
-
-    setStatus("loading");
-    setErrorMessage("");
-
-    try {
-      const resp = await fetch("/api/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, source: "landing_newsletter" }),
-      });
-      const data = await resp.json().catch(() => ({}));
-      if (!resp.ok || data?.ok === false) {
-        throw new Error(data?.error || "Subscription failed");
-      }
-      setStatus("success");
-      setEmail("");
-
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setStatus("idle");
-      }, 5000);
-    } catch (error: any) {
-      setStatus("error");
-      setErrorMessage(
-        error?.message || "Something went wrong. Please try again."
-      );
-    }
-  };
-
-  return (
-    <section
-      id="newsletter"
-      data-layout-section
-      style={{ backgroundColor: "var(--section-bg-secondary)" }}
-    >
-      <div data-layout-container>
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-          <div className="flex-1">
-            <h2 className="mb-2">Stay informed</h2>
-            <p className="mb-2">
-              Sign-up for your newsletter of curated news from the world of
-              supplements
-            </p>
-            <p className="text-sm">No marketing emails—max 1/week. Promised.</p>
-          </div>
-
-          <div className="w-full md:w-auto md:min-w-[400px]">
-            <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-              <div className="flex gap-2">
-                <Input
-                  type="email"
-                  placeholder="Enter your email"
-                  value={email}
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                    if (status === "error") {
-                      setStatus("idle");
-                      setErrorMessage("");
-                    }
-                  }}
-                  disabled={status === "loading" || status === "success"}
-                  className="flex-1"
-                  aria-label="Email address"
-                  autoComplete="email"
-                  inputMode="email"
-                  enterKeyHint="send"
-                />
-                <button
-                  type="submit"
-                  disabled={status === "loading" || status === "success"}
-                  className="bg-primary text-primary-foreground px-6 py-2 rounded-xl hover:opacity-90 transition-opacity whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {status === "loading"
-                    ? "Subscribing..."
-                    : status === "success"
-                    ? "Subscribed!"
-                    : "Subscribe"}
-                </button>
-              </div>
-
-              <div aria-live="polite" aria-atomic="true">
-                <AnimatePresence mode="wait">
-                  {status === "error" && errorMessage && (
-                    <motion.p
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      className="text-sm text-red-600"
-                    >
-                      {errorMessage}
-                    </motion.p>
-                  )}
-                  {status === "success" && (
-                    <motion.p
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      className="text-sm text-green-700"
-                    >
-                      ✓ Thanks for subscribing! Check your inbox to confirm.
-                    </motion.p>
-                  )}
-                </AnimatePresence>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ========================================
 // MAIN LANDING PAGE
 // ========================================
 export function LandingPage(props: LandingPageProps) {
@@ -1034,16 +894,6 @@ export function LandingPage(props: LandingPageProps) {
       <OurMissionSection onNavigate={props.onNavigate} />
       <PopularComparisonsSection onNavigate={props.onNavigate} />
       <CTASection onScrollToSearch={handleScrollToSearch} />
-      <NewsletterSection />
-
-      {/* Waitlist Section */}
-      <WaitlistSignup
-        title="Get Early Access to New Features"
-        subtitle="We're building personalized supplement tracking, smart refill reminders, and more. Join the waitlist to be first in line."
-        buttonText="Join the Waitlist"
-        interest="early_access"
-        className="bg-muted/30"
-      />
 
       {/* Global affiliate tooltip */}
       <AffiliateTooltip />

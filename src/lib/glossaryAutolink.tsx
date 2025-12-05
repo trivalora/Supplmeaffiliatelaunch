@@ -863,25 +863,26 @@ export function autolinkGlossaryContent(
       key,
       term,
       length: term.length,
-      isAbbreviation: /^[A-Z]{2,6}$/.test(term) || /^[A-Z]{2,6}\s*\(/.test(term),
+      isAbbreviation:
+        /^[A-Z]{2,6}$/.test(term) || /^[A-Z]{2,6}\s*\(/.test(term),
     }))
   ).sort((a, b) => b.length - a.length);
 
   // Split into abbreviations (case-sensitive) and regular terms (case-insensitive)
-  const abbreviations = allTerms.filter(t => t.isAbbreviation);
-  const regularTerms = allTerms.filter(t => !t.isAbbreviation);
+  const abbreviations = allTerms.filter((t) => t.isAbbreviation);
+  const regularTerms = allTerms.filter((t) => !t.isAbbreviation);
 
   // Create two separate regex patterns
   const abbrevPattern = abbreviations
     .map(({ term }) => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
     .join("|");
-  
+
   const regularPattern = regularTerms
     .map(({ term }) => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
     .join("|");
 
   // Combine patterns with case-sensitive for abbreviations, case-insensitive for regular
-  const combinedPattern = abbrevPattern 
+  const combinedPattern = abbrevPattern
     ? `\\b(${abbrevPattern})\\b|\\b(${regularPattern})\\b`
     : `\\b(${regularPattern})\\b`;
 
@@ -904,10 +905,11 @@ export function autolinkGlossaryContent(
 
     // Find which term this matched
     // For abbreviations, use exact match; for regular terms, use case-insensitive
-    const termData = allTerms.find(({ term, isAbbreviation }) => 
-      isAbbreviation 
-        ? term === matchedText  // Exact match for abbreviations
-        : term.toLowerCase() === matchedText.toLowerCase()  // Case-insensitive for regular
+    const termData = allTerms.find(
+      ({ term, isAbbreviation }) =>
+        isAbbreviation
+          ? term === matchedText // Exact match for abbreviations
+          : term.toLowerCase() === matchedText.toLowerCase() // Case-insensitive for regular
     );
 
     if (termData && termData.key !== currentPage) {
