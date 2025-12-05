@@ -601,7 +601,10 @@ export function ProductComparisonClient({
                     Compare All {getSupplementName(supplementId)} Products
                   </h1>
                   <p className="text-sm text-muted-foreground">
-                    Find the best {getSupplementName(supplementId).toLowerCase()} deals from top retailers. Compare prices, quality, and certifications to get the best value.
+                    Find the best{" "}
+                    {getSupplementName(supplementId).toLowerCase()} deals from
+                    top retailers. Compare prices, quality, and certifications
+                    to get the best value.
                   </p>
                 </div>
                 <div className="text-sm text-muted-foreground shrink-0">

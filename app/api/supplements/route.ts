@@ -61,7 +61,7 @@ export async function GET(request: Request) {
       { supplements: data || [] },
       {
         headers: {
-          'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+          'Cache-Control': 'no-store, no-cache, must-revalidate',
         },
       }
     );

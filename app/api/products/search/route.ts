@@ -245,8 +245,8 @@ export async function GET(request: Request) {
       },
       {
         headers: {
-          // Cache for 10 minutes, stale-while-revalidate for 1 hour
-          "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600",
+          // Cache invalidated - serving fresh data
+          "Cache-Control": "no-store, no-cache, must-revalidate",
         },
       }
     );

@@ -167,9 +167,9 @@ export async function GET(
       { product },
       {
         headers: {
-          // Cache for 1 hour, stale-while-revalidate for 24 hours
+          // Cache invalidated - serving fresh data
           "Cache-Control":
-            "public, s-maxage=3600, stale-while-revalidate=86400",
+            "no-store, no-cache, must-revalidate",
         },
       }
     );
