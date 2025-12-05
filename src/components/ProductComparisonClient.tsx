@@ -603,8 +603,9 @@ export function ProductComparisonClient({
                   <p className="text-sm text-muted-foreground">
                     Find the best{" "}
                     {getSupplementName(supplementId).toLowerCase()} supplement
-                    deals from top retailers. Compare prices, quality, and
-                    certifications to get the best value for your purchase.
+                    deals from top retailers. This comprehensive comparison
+                    helps you compare prices, quality, and certifications to get
+                    the best value for your purchase.
                   </p>
                 </div>
                 <div className="text-sm text-muted-foreground shrink-0">

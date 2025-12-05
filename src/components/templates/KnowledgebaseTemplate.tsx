@@ -120,7 +120,10 @@ function HeroLeftPanel({
             Benefits, Risks & Best Price
           </span>
         </h1>
-        <p style={{ color: "var(--tertiary)" }}>{heroDescription}</p>
+        <p style={{ color: "var(--tertiary)" }}>
+          {heroDescription} Compare prices from top retailers to find the best
+          value for {supplementName.toLowerCase()}.
+        </p>
       </div>
     </div>
   );
