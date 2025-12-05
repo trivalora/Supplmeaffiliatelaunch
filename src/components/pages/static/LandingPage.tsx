@@ -215,14 +215,11 @@ function HeroSection({
       <div className="relative z-10 w-full px-[2vw] md:px-[var(--page-padding-inline)]">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="mb-4 text-white text-4xl md:text-5xl">
-            Your evidence-backed supplement stack for less.
-            <br />
-            <span style={{ color: "var(--secondary)" }}>In seconds.</span>
+            Evidence-Based Supplement Research & Price Comparison
           </h1>
 
           <p className="mb-6 text-white/80 text-base md:text-lg max-w-2xl mx-auto">
-            Find the most efficacious stack for your goals because we show price
-            per mg of active ingredient and link every claim to sources.
+            Find the most efficacious supplement stack for your goals. We show price per mg of active ingredient and link every claim to research sources.
           </p>
 
           {/* Tabs */}

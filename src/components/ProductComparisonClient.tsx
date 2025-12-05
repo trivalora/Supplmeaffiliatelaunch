@@ -598,13 +598,10 @@ export function ProductComparisonClient({
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4 sm:mb-6">
                 <div>
                   <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-2">
-                    Compare All {getSupplementName(supplementId)} Products
+                    {getSupplementName(supplementId)} Price Comparison
                   </h1>
                   <p className="text-sm text-muted-foreground">
-                    Find the best{" "}
-                    {getSupplementName(supplementId).toLowerCase()} deals from
-                    top retailers. Compare prices, quality, and certifications
-                    to get the best value.
+                    Find the best {getSupplementName(supplementId).toLowerCase()} supplement deals from top retailers. Compare prices, quality, and certifications to get the best value for your purchase.
                   </p>
                 </div>
                 <div className="text-sm text-muted-foreground shrink-0">
