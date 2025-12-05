@@ -337,6 +337,7 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
                 drawbacks={props.drawbacks}
                 drawbacksIntro={props.drawbacksIntro}
                 currentPage={props.currentPage}
+                useSemanticHeadings={false}
               />
             </div>
 

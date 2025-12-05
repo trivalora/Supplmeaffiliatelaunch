@@ -12,6 +12,7 @@ interface BenefitsDrawbacksSectionProps {
   drawbacks: BenefitDrawback[];
   drawbacksIntro?: string;
   currentPage?: string;
+  useSemanticHeadings?: boolean;
 }
 
 export function BenefitsDrawbacksSection({
@@ -19,6 +20,7 @@ export function BenefitsDrawbacksSection({
   drawbacks,
   drawbacksIntro,
   currentPage,
+  useSemanticHeadings = true,
 }: BenefitsDrawbacksSectionProps) {
   const shouldUseAutolink = currentPage && !currentPage.startsWith("glossary-");
 
@@ -49,7 +51,13 @@ export function BenefitsDrawbacksSection({
         data-knowledgebase-card-benefits
         className="bg-benefit-b rounded-[14px] border border-benefit-b-accent p-8"
       >
-        <h2 className="text-primary mb-6">Main Benefits</h2>
+        {useSemanticHeadings ? (
+          <h2 className="text-primary mb-6">Main Benefits</h2>
+        ) : (
+          <div className="text-primary mb-6 text-2xl font-bold">
+            Main Benefits
+          </div>
+        )}
         <div data-knowledgebase-content-list className="space-y-4">
           {benefits.map((benefit, index) => {
             const IconComponent = benefit.icon;
@@ -77,7 +85,11 @@ export function BenefitsDrawbacksSection({
         data-knowledgebase-card-drawbacks
         className="bg-warning rounded-[14px] border border-warning-accent p-8"
       >
-        <h2 className="text-primary mb-6">Main Risks</h2>
+        {useSemanticHeadings ? (
+          <h2 className="text-primary mb-6">Main Risks</h2>
+        ) : (
+          <div className="text-primary mb-6 text-2xl font-bold">Main Risks</div>
+        )}
         {drawbacksIntro && (
           <p className="text-foreground leading-7 mb-4">
             {linkedDrawbacksIntro}
