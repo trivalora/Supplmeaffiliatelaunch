@@ -302,7 +302,9 @@ export async function GET(
       },
       {
         headers: {
-          "Cache-Control": "public, s-maxage=1800, stale-while-revalidate=3600",
+          "Cache-Control":
+            "public, s-maxage=86400, stale-while-revalidate=604800",
+          "Cache-Tag": "products",
         },
       }
     );
