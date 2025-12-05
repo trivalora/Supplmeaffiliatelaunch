@@ -4,6 +4,29 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.6.13] - December 5, 2025
+
+### 🔧 SEO Structure Fixes - Comparison Pages & Footer
+
+**Focus:** Fix heading structure issues flagged by SEObility (21 pages affected).
+
+#### Fixed ✅
+- ✅ **Comparison Pages H2 Missing**: Added screen-reader-only H2 "All Products" to establish proper H1→H2 hierarchy
+- ✅ **Semantic HTML Cleanup**: Changed product brand from `<p>` to `<div>` for consistency
+- ✅ **H3/H4 Verification**: Confirmed all H3 and H4 tags removed from product cards (already done in previous versions)
+- ✅ **Footer Duplicates**: Removed duplicate "Price Comparisons" section causing H3 "Supplement Research" duplication across all pages
+
+#### Impact
+- **17 comparison pages**: Fixed missing H2 level warning + eliminated duplicate heading issues
+- **All pages**: Removed duplicate H3 in footer affecting every page sitewide
+- **SEO**: Proper semantic HTML hierarchy (H1 → H2 → styled divs) improves search engine understanding
+
+#### Modified Files
+- `src/components/ProductComparisonClient.tsx` - Added H2, changed brand `<p>` to `<div>`
+- `app/components/Footer.tsx` - Removed duplicate "Price Comparisons" section
+
+---
+
 ## [0.6.12] - December 5, 2025
 
 ### 🍪 Cookie Consent + Enhanced Fingerprinting + CCPA Compliance

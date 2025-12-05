@@ -761,9 +761,9 @@ export function ProductComparisonClient({
                     if (dietaryKeys.length === 0) return null;
                     return (
                       <div>
-                        <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">
+                        <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">
                           Dietary Preferences
-                        </h4>
+                        </div>
                         <div className="flex flex-wrap gap-2">
                           {dietaryKeys.map((key) => {
                             const filter = filters[key];
@@ -820,9 +820,9 @@ export function ProductComparisonClient({
                     if (otherKeys.length === 0) return null;
                     return (
                       <div>
-                        <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">
+                        <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">
                           Formulation & Attributes
-                        </h4>
+                        </div>
                         <div className="flex flex-wrap gap-2">
                           {otherKeys.map((key) => {
                             const filter = filters[key];
@@ -1340,6 +1340,9 @@ export function ProductComparisonClient({
                   </div>
                 </div>
 
+                {/* Products Section */}
+                <h2 className="sr-only">All Products</h2>
+
                 {/* Mobile Card View */}
                 <div className="lg:hidden space-y-4">
                   {filteredProducts.map((product, idx) => {
@@ -1404,12 +1407,12 @@ export function ProductComparisonClient({
                               )}
                             </div>
                             <div className="flex-1 min-w-0">
-                              <h3 className="font-semibold text-sm mb-1 line-clamp-2">
+                              <div className="font-semibold text-sm mb-1 line-clamp-2">
                                 {getNormalizedProductName(product)}
-                              </h3>
-                              <p className="text-xs text-muted-foreground mb-2">
+                              </div>
+                              <div className="text-xs text-muted-foreground mb-2">
                                 {product.brand}
-                              </p>
+                              </div>
                               <div className="inline-flex flex-col gap-0.5 bg-secondary/10 border border-secondary rounded-lg px-2.5 py-1.5">
                                 <div className="text-base font-bold text-primary">
                                   ${lowestRetailerPrice?.price?.toFixed(2)}
@@ -1426,13 +1429,13 @@ export function ProductComparisonClient({
                           </div>
                         </div>
                         <div className="border-t border-secondary/20 p-3 bg-tertiary/10">
-                          <h4 className="text-xs font-semibold text-muted-foreground uppercase mb-2">
+                          <div className="text-xs font-semibold text-muted-foreground uppercase mb-2">
                             Available at {product.retailer_prices?.length || 0}{" "}
                             retailer
                             {(product.retailer_prices?.length || 0) !== 1
                               ? "s"
                               : ""}
-                          </h4>
+                          </div>
                           <div className="space-y-2">
                             {product.retailer_prices
                               ?.sort(

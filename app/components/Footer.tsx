@@ -59,30 +59,6 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Price Comparisons Section - SEO internal links */}
-        <div className="mb-8">
-          <h3 className="text-sm font-semibold text-secondary/80 mb-4 text-center md:text-left">
-            Price Comparisons
-          </h3>
-          <div className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2">
-            {supplementRoutes.map((route) => {
-              // Map knowledgebase paths to comparison paths
-              const comparisonPath = route.path
-                ? `/comparison${route.path}`
-                : `/comparison/${route.key}`;
-              return (
-                <Link
-                  key={`comparison-${route.key}`}
-                  href={comparisonPath}
-                  className="text-sm text-secondary/70 hover:text-secondary transition-opacity"
-                >
-                  {route.title}
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-
         {/* Legal Links */}
         <div className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4 mb-8">
           <Link

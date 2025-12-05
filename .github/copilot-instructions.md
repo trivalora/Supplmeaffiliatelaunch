@@ -24,7 +24,7 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.12 (Dec 5, 2025)  
+**Current Version:** 0.6.13 (Dec 5, 2025)  
 **Status:** ✅ Production-ready with 24h cache + on-demand revalidation + case-insensitive autolinking + duplicate H2 fix + triple-platform tracking + optimized CSS + **100% glossary enhanced** + **100% affiliate coverage** + **Cookie consent + fingerprinting**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
