@@ -181,6 +181,16 @@ export function ProductComparisonSection({
           })}
         </div>
 
+        {/* Link to full comparison page */}
+        <div className="mt-6 text-center">
+          <a
+            href={`/comparison/${supplementName.toLowerCase().replace(/\s+/g, "-")}`}
+            className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors font-medium"
+          >
+            Compare All {formatSupplementName(supplementName)} Products
+          </a>
+        </div>
+
         <div className="mt-6 p-4 bg-background rounded-lg border border-secondary">
           <p className="text-sm text-muted-foreground">
             <strong>Affiliate Disclosure:</strong> We earn from qualifying

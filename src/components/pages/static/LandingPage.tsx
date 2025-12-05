@@ -219,7 +219,9 @@ function HeroSection({
           </h1>
 
           <p className="mb-6 text-white/80 text-base md:text-lg max-w-2xl mx-auto">
-            Find the most efficacious supplement stack for your goals. We show price per mg of active ingredient and link every claim to research sources.
+            Find the most efficacious supplement stack for your goals. We show
+            price per mg of active ingredient and link every claim to research
+            sources.
           </p>
 
           {/* Tabs */}
