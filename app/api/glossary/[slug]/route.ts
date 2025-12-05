@@ -49,7 +49,7 @@ export async function GET(
         status: 200,
         headers: {
           "Cache-Control":
-            "no-store, no-cache, must-revalidate",
+            "public, s-maxage=3600, stale-while-revalidate=86400",
         },
       }
     );

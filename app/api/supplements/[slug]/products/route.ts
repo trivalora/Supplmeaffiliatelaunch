@@ -302,7 +302,7 @@ export async function GET(
       },
       {
         headers: {
-          "Cache-Control": "no-store, no-cache, must-revalidate",
+          "Cache-Control": "public, s-maxage=1800, stale-while-revalidate=3600",
         },
       }
     );
