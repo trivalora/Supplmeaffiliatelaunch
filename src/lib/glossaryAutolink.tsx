@@ -881,12 +881,14 @@ export function autolinkGlossaryContent(
     .map(({ term }) => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
     .join("|");
 
-  // Combine patterns with case-sensitive for abbreviations, case-insensitive for regular
+  // Combine patterns:
+  // - Abbreviations: exact word boundary match (case-sensitive)
+  // - Regular terms: match with optional plural 's' (case-insensitive)
   const combinedPattern = abbrevPattern
-    ? `\\b(${abbrevPattern})\\b|\\b(${regularPattern})\\b`
-    : `\\b(${regularPattern})\\b`;
+    ? `\\b(${abbrevPattern})\\b|\\b(${regularPattern})s?\\b`
+    : `\\b(${regularPattern})s?\\b`;
 
-  const regex = new RegExp(combinedPattern, "g");
+  const regex = new RegExp(combinedPattern, "gi");
 
   // Split content by matches
   const parts: ReactNode[] = [];
@@ -903,14 +905,23 @@ export function autolinkGlossaryContent(
       parts.push(content.substring(lastIndex, matchIndex));
     }
 
+    // Remove trailing 's' if present for matching (but keep it in display)
+    const matchedTextNoPlural = matchedText.replace(/s$/i, "");
+
     // Find which term this matched
-    // For abbreviations, use exact match; for regular terms, use case-insensitive
-    const termData = allTerms.find(
-      ({ term, isAbbreviation }) =>
-        isAbbreviation
-          ? term === matchedText // Exact match for abbreviations
-          : term.toLowerCase() === matchedText.toLowerCase() // Case-insensitive for regular
-    );
+    // For abbreviations, use exact match; for regular terms, use case-insensitive with optional plural
+    const termData = allTerms.find(({ term, isAbbreviation }) => {
+      if (isAbbreviation) {
+        // Exact match for abbreviations (case-sensitive)
+        return term === matchedText;
+      } else {
+        // Case-insensitive match for regular terms, allow plural
+        const termLower = term.toLowerCase();
+        const matchedLower = matchedText.toLowerCase();
+        const matchedNoPlural = matchedTextNoPlural.toLowerCase();
+        return termLower === matchedLower || termLower === matchedNoPlural;
+      }
+    });
 
     if (termData && termData.key !== currentPage) {
       // Add linked term
