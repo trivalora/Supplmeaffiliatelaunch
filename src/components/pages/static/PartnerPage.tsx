@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ExternalLink, CheckCircle2, Calendar } from "lucide-react";
 import { ResponsivePicture } from "@/components/shared/content/ResponsivePicture";
 import { SEOHead } from "@/components/SEOHead";
+import { autolinkGlossaryContent } from "@/lib/glossaryAutolink";
 
 // Forest aerial image path (optimized version available)
 const imgForestAerial =
@@ -734,10 +735,9 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                     Third-Party Verification
                   </h4>
                   <p>
-                    We don't just claim quality—we prove it. Every product
-                    recommendation is backed by research grades (A-D),
-                    peer-reviewed studies, and meta-analysis citations.
-                    Affiliate managers approve what's undeniable.
+                    {autolinkGlossaryContent(
+                      "We don't just claim quality—we prove it. Every product recommendation is backed by research grades (A-D), peer-reviewed studies, and meta-analysis citations. Affiliate managers approve what's undeniable."
+                    )}
                   </p>
                 </div>
 
