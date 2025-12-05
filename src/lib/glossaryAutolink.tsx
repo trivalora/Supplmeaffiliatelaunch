@@ -857,23 +857,35 @@ export function autolinkGlossaryContent(
 
   // Build regex pattern from all term variations
   // Sort by length (longest first) to match longer terms before shorter ones
+  // Separate abbreviations (all caps, 2-6 chars) for case-sensitive matching
   const allTerms = GLOSSARY_TERMS.flatMap(({ key, terms }) =>
     terms.map((term) => ({
       key,
       term,
       length: term.length,
+      isAbbreviation: /^[A-Z]{2,6}$/.test(term) || /^[A-Z]{2,6}\s*\(/.test(term),
     }))
   ).sort((a, b) => b.length - a.length);
 
-  // Create regex pattern that matches whole words only
-  const pattern = allTerms
-    .map(({ term }) =>
-      // Escape special regex characters
-      term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-    )
+  // Split into abbreviations (case-sensitive) and regular terms (case-insensitive)
+  const abbreviations = allTerms.filter(t => t.isAbbreviation);
+  const regularTerms = allTerms.filter(t => !t.isAbbreviation);
+
+  // Create two separate regex patterns
+  const abbrevPattern = abbreviations
+    .map(({ term }) => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .join("|");
+  
+  const regularPattern = regularTerms
+    .map(({ term }) => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
     .join("|");
 
-  const regex = new RegExp(`\\b(${pattern})\\b`, "gi");
+  // Combine patterns with case-sensitive for abbreviations, case-insensitive for regular
+  const combinedPattern = abbrevPattern 
+    ? `\\b(${abbrevPattern})\\b|\\b(${regularPattern})\\b`
+    : `\\b(${regularPattern})\\b`;
+
+  const regex = new RegExp(combinedPattern, "g");
 
   // Split content by matches
   const parts: ReactNode[] = [];
@@ -891,8 +903,11 @@ export function autolinkGlossaryContent(
     }
 
     // Find which term this matched
-    const termData = allTerms.find(
-      ({ term }) => term.toLowerCase() === matchedText.toLowerCase()
+    // For abbreviations, use exact match; for regular terms, use case-insensitive
+    const termData = allTerms.find(({ term, isAbbreviation }) => 
+      isAbbreviation 
+        ? term === matchedText  // Exact match for abbreviations
+        : term.toLowerCase() === matchedText.toLowerCase()  // Case-insensitive for regular
     );
 
     if (termData && termData.key !== currentPage) {
