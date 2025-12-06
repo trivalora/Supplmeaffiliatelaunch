@@ -50,9 +50,11 @@ const nextConfig = {
     root: process.cwd(),
   },
 
-  // CSS Optimization (Phase 1)
+  // CSS Optimization + Static Generation Settings
   experimental: {
     optimizeCss: true, // Enable built-in CSS optimization
+    staticGenerationMaxConcurrency: 8, // Limit concurrent generations to avoid memory issues
+    staticGenerationMinPagesPerWorker: 25, // Minimum pages per worker
   },
 
   // Environment variables available to the browser

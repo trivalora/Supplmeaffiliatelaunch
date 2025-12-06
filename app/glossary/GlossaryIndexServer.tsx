@@ -1,15 +1,15 @@
-import Link from 'next/link';
-import { Search } from 'lucide-react';
-import { GLOSSARY_ROUTES } from '@/routes.config';
+import Link from "next/link";
+import { Search } from "lucide-react";
+import { GLOSSARY_ROUTES } from "@/routes.config";
 
 export function GlossaryIndexServer() {
   // Get all visible glossary terms sorted alphabetically
-  const visibleTerms = GLOSSARY_ROUTES
-    .filter((route) => route.showInNav)
-    .sort((a, b) => a.title.localeCompare(b.title));
+  const visibleTerms = GLOSSARY_ROUTES.filter((route) => route.showInNav).sort(
+    (a, b) => a.title.localeCompare(b.title)
+  );
 
   // Generate alphabet array
-  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
   // Get count of terms per letter
   const letterCounts = alphabet.reduce((acc, letter) => {
@@ -36,7 +36,7 @@ export function GlossaryIndexServer() {
       data-page-content
     >
       {/* Anchor for "top" navigation */}
-      <div id="top" className="absolute" style={{ top: '78px' }}></div>
+      <div id="top" className="absolute" style={{ top: "78px" }}></div>
 
       <main className="flex-1" id="hero">
         {/* Hero Section */}
@@ -50,7 +50,8 @@ export function GlossaryIndexServer() {
                 Understanding key terms and concepts in supplement research
               </p>
               <p className="text-secondary-foreground text-sm">
-                {visibleTerms.length} terms • Click a letter to jump to that section
+                {visibleTerms.length} terms • Click a letter to jump to that
+                section
               </p>
             </div>
           </div>
@@ -66,8 +67,8 @@ export function GlossaryIndexServer() {
                   href={`#letter-${letter}`}
                   className={`w-8 h-8 flex items-center justify-center rounded-md text-sm font-medium transition-colors ${
                     letterCounts[letter] > 0
-                      ? 'bg-primary text-primary-foreground hover:bg-primary/90'
-                      : 'bg-muted text-muted-foreground cursor-not-allowed'
+                      ? "bg-primary text-primary-foreground hover:bg-primary/90"
+                      : "bg-muted text-muted-foreground cursor-not-allowed"
                   }`}
                   aria-disabled={letterCounts[letter] === 0}
                 >
@@ -87,7 +88,11 @@ export function GlossaryIndexServer() {
                 if (termsForLetter.length === 0) return null;
 
                 return (
-                  <div key={letter} id={`letter-${letter}`} className="scroll-mt-32">
+                  <div
+                    key={letter}
+                    id={`letter-${letter}`}
+                    className="scroll-mt-32"
+                  >
                     <h2 className="text-3xl font-bold text-primary mb-6 pb-3 border-b-2 border-primary/20">
                       {letter}
                     </h2>

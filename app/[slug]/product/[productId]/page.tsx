@@ -17,22 +17,59 @@ export async function generateStaticParams() {
     m.createClient()
   );
 
-  const { data: products } = await supabase
-    .from("products")
-    .select("id, supplement_slug");
+  // Supabase/PostgREST has a max-rows limit (default 1000)
+  // Must paginate to get all products
+  const PAGE_SIZE = 1000;
+  let allProducts: { slug: string; productId: string }[] = [];
+  let page = 0;
+  let hasMore = true;
 
-  const allProducts = (products || []).map(
-    (p: { id: string; supplement_slug: string }) => ({
-      slug: p.supplement_slug,
-      productId: p.id,
-    })
-  );
+  while (hasMore) {
+    const start = page * PAGE_SIZE;
+    const end = start + PAGE_SIZE - 1;
+
+    const { data: products, error } = await supabase
+      .from("products")
+      .select("id, supplement_slug")
+      .range(start, end)
+      .order("id");
+
+    if (error) {
+      console.error("❌ Error fetching products page", page, ":", error);
+      break;
+    }
+
+    if (!products || products.length === 0) {
+      hasMore = false;
+      break;
+    }
+
+    allProducts.push(
+      ...products.map((p: { id: string; supplement_slug: string }) => ({
+        slug: p.supplement_slug,
+        productId: p.id,
+      }))
+    );
+
+    // If we got less than PAGE_SIZE, we've reached the end
+    if (products.length < PAGE_SIZE) {
+      hasMore = false;
+    } else {
+      page++;
+    }
+  }
 
   console.log(
-    `Generating static params for ${allProducts.length} product pages`
+    `✅ Generating static params for ${allProducts.length} product pages (${
+      page + 1
+    } pages fetched)`
   );
   return allProducts;
 }
+
+// Disable limit on number of static paths (Next.js 15 default is 1000)
+export const dynamicParams = true; // Allow dynamic paths beyond static ones
+export const dynamic = "force-static"; // Force static generation
 
 export async function generateMetadata({
   params,
