@@ -20,15 +20,21 @@ import {
 import { PageKey } from "@/routes.config";
 import { getSupplementImage } from "@/lib/supplementImages";
 
+interface ProbioticsPageProps {
+  onNavigate?: (page: PageKey) => void;
+  onContactClick?: () => void;
+  onLegalClick?: () => void;
+  overviewContent?: string;
+  additionalOverviewContent?: string;
+}
+
 export function ProbioticsKnowledgebasePage({
   onNavigate,
   onContactClick,
   onLegalClick,
-}: {
-  onNavigate?: (page: PageKey) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+  overviewContent: dbOverviewContent,
+  additionalOverviewContent: dbAdditionalContent,
+}: ProbioticsPageProps = {}) {
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Probiotics",
     currentPage: "probiotics",
@@ -37,7 +43,7 @@ export function ProbioticsKnowledgebasePage({
     heroImageUrl: getSupplementImage("probiotics"),
 
     overviewTitle: "What are Probiotics?",
-    overviewContent: (
+    overviewContent: dbOverviewContent || (
       <p>
         Probiotics are <span className="font-medium">live microorganisms</span>{" "}
         (primarily bacteria, sometimes yeasts) that, when consumed in adequate

@@ -747,6 +747,30 @@ body {
   }
 }
 
+/* === OVERVIEW SECTION - AUTOLINKED GLOSSARY TERMS === */
+/* Styling for glossary terms automatically linked in overview content */
+.overview-text .glossary-link {
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.overview-text .glossary-link:hover {
+  color: var(--primary-hover, #2e7d32);
+  text-decoration-thickness: 2px;
+}
+
+.dark .overview-text .glossary-link {
+  color: #81c784;
+}
+
+.dark .overview-text .glossary-link:hover {
+  color: #a5d6a7;
+}
+
 /* === FOOTNOTE LINKS === */
 /* Clickable footnote references in text */
 .footnote-link {

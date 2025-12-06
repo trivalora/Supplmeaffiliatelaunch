@@ -1,4 +1,5 @@
-import { LucideIcon } from 'lucide-react';
+import { LucideIcon } from "lucide-react";
+import { autolinkGlossaryTerms } from "@/lib/glossaryAutolink";
 
 export interface DietarySource {
   icon: LucideIcon;
@@ -8,24 +9,41 @@ export interface DietarySource {
 
 interface OverviewSectionProps {
   overviewTitle?: string;
-  overviewContent: React.ReactNode;
+  overviewContent: string | React.ReactNode; // Support both string (from DB) and ReactNode (legacy TSX)
   dietarySources?: DietarySource[];
-  additionalOverviewContent?: React.ReactNode;
+  additionalOverviewContent?: string | React.ReactNode; // Support both formats
+  currentPage?: string; // For self-link prevention in autolinking
 }
 
 export function OverviewSection({
   overviewTitle = "What is this supplement?",
   overviewContent,
   dietarySources,
-  additionalOverviewContent
+  additionalOverviewContent,
+  currentPage,
 }: OverviewSectionProps) {
+  // Process autolinking for plain text content from database
+  // If content is already JSX (legacy), pass through unchanged
+  const linkedOverview =
+    typeof overviewContent === "string"
+      ? autolinkGlossaryTerms(overviewContent, currentPage)
+      : overviewContent;
+
+  const linkedAdditional =
+    typeof additionalOverviewContent === "string"
+      ? autolinkGlossaryTerms(additionalOverviewContent, currentPage)
+      : additionalOverviewContent;
+
   return (
-    <div data-knowledgebase-card-info className="bg-card rounded-[14px] border border-border p-8">
+    <div
+      data-knowledgebase-card-info
+      className="bg-card rounded-[14px] border border-border p-8"
+    >
       <h2 className="text-primary mb-6">{overviewTitle}</h2>
 
       <div data-knowledgebase-content-text className="space-y-4">
-        <div className="text-foreground leading-7">
-          {overviewContent}
+        <div className="text-foreground leading-7 overview-text">
+          {linkedOverview}
         </div>
 
         {dietarySources && dietarySources.length > 0 && (
@@ -55,8 +73,8 @@ export function OverviewSection({
         )}
 
         {additionalOverviewContent && (
-          <div className="text-foreground leading-7">
-            {additionalOverviewContent}
+          <div className="text-foreground leading-7 overview-text">
+            {linkedAdditional}
           </div>
         )}
       </div>

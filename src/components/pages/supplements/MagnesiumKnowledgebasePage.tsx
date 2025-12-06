@@ -20,15 +20,21 @@ import {
 } from "@/components/iconExports";
 import { getSupplementImage } from "@/lib/supplementImages";
 
+interface MagnesiumPageProps {
+  onNavigate?: (page: string) => void;
+  onContactClick?: () => void;
+  onLegalClick?: () => void;
+  overviewContent?: string;
+  additionalOverviewContent?: string;
+}
+
 export function MagnesiumKnowledgebasePage({
   onNavigate,
   onContactClick,
   onLegalClick,
-}: {
-  onNavigate?: (page: string) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+  overviewContent: dbOverviewContent,
+  additionalOverviewContent: dbAdditionalContent,
+}: MagnesiumPageProps = {}) {
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Magnesium",
     currentPage: "magnesium",
@@ -37,7 +43,7 @@ export function MagnesiumKnowledgebasePage({
     heroImageUrl: getSupplementImage("magnesium"),
 
     overviewTitle: "What is Magnesium Glycinate?",
-    overviewContent: (
+    overviewContent: dbOverviewContent || (
       <>
         <p>
           Magnesium glycinate is a{" "}

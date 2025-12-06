@@ -21,15 +21,21 @@ import {
 import { PageKey } from "@/routes.config";
 import { getSupplementImage } from "@/lib/supplementImages";
 
+interface CollagenPageProps {
+  onNavigate?: (page: PageKey) => void;
+  onContactClick?: () => void;
+  onLegalClick?: () => void;
+  overviewContent?: string;
+  additionalOverviewContent?: string;
+}
+
 export function CollagenKnowledgebasePage({
   onNavigate,
   onContactClick,
   onLegalClick,
-}: {
-  onNavigate?: (page: PageKey) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+  overviewContent: dbOverviewContent,
+  additionalOverviewContent: dbAdditionalContent,
+}: CollagenPageProps = {}) {
   const pageProps: KnowledgebasePageProps = {
     supplementName: "Collagen",
     currentPage: "collagenpeptides",
@@ -38,7 +44,7 @@ export function CollagenKnowledgebasePage({
     heroImageUrl: getSupplementImage("collagenpeptides"),
 
     overviewTitle: "What are Collagen Peptides?",
-    overviewContent: (
+    overviewContent: dbOverviewContent || (
       <p>
         Collagen is a <span className="font-medium">structural protein</span>{" "}
         comprising roughly a third of the body's total protein.{" "}
@@ -65,7 +71,7 @@ export function CollagenKnowledgebasePage({
         description: "Easily dissolves in both hot and cold liquids",
       },
     ],
-    additionalOverviewContent: (
+    additionalOverviewContent: dbAdditionalContent || (
       <p>
         Collagen peptides contain primarily glycine, proline, and
         hydroxyproline, which support connective tissue repair and function

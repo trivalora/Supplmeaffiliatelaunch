@@ -21,15 +21,22 @@ import {
 import { PageKey } from "@/routes.config";
 import { getSupplementImage } from "@/lib/supplementImages";
 
+interface BcaaPageProps {
+  onNavigate?: (page: PageKey) => void;
+  onContactClick?: () => void;
+  onLegalClick?: () => void;
+  // NEW: Database content props (optional for backward compatibility)
+  overviewContent?: string;
+  additionalOverviewContent?: string;
+}
+
 export function BcaaKnowledgebasePage({
   onNavigate,
   onContactClick,
   onLegalClick,
-}: {
-  onNavigate?: (page: PageKey) => void;
-  onContactClick?: () => void;
-  onLegalClick?: () => void;
-}) {
+  overviewContent: dbOverviewContent,
+  additionalOverviewContent: dbAdditionalContent,
+}: BcaaPageProps) {
   const pageProps: KnowledgebasePageProps = {
     supplementName: "BCAA",
     currentPage: "bcaas",
@@ -38,7 +45,7 @@ export function BcaaKnowledgebasePage({
     heroImageUrl: getSupplementImage("bcaas"),
 
     overviewTitle: "What are BCAAs?",
-    overviewContent: (
+    overviewContent: dbOverviewContent || (
       <>
         <p>
           Branched-chain{" "}
@@ -145,7 +152,7 @@ export function BcaaKnowledgebasePage({
       },
     ],
 
-    additionalOverviewContent: (
+    additionalOverviewContent: dbAdditionalContent || (
       <>
         <p style={{ marginTop: "var(--space-lg)" }}>
           In patients with{" "}

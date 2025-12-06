@@ -24,8 +24,8 @@
 
 Evidence-based supplement information platform. **Next.js 16 App Router** (production-ready, Vercel-deployed) with static site generation for 1,936 pages.
 
-**Current Version:** 0.6.14 (Dec 5, 2025)  
-**Status:** ✅ Production-ready with 24h cache + on-demand revalidation + case-insensitive autolinking + duplicate H2 fix + triple-platform tracking + optimized CSS + **100% glossary enhanced** + **100% affiliate coverage** + **Cookie consent (custom, no iubenda)**  
+**Current Version:** 0.7.0 (Dec 6, 2025)  
+**Status:** ✅ Production-ready with database-driven content + automatic glossary autolinking + 24h cache + on-demand revalidation + triple-platform tracking + optimized CSS + **100% glossary enhanced** + **100% affiliate coverage**  
 **Location:** `/Users/roxyjune/Desktop/trivalora/suppl/affiliate-launch`
 
 **Key Stats:**
@@ -56,15 +56,17 @@ Evidence-based supplement information platform. **Next.js 16 App Router** (produ
 
 Impact: ~30% more event capture and improved funnel visibility.
 
-**Version 0.6.14 Highlights:**
-🧹 **iubenda Removal - Performance Optimization** ✅
+**Version 0.7.0 Highlights:**
+📊 **Database-Driven Content System - COMPLETE!** ✅
 
-- **Removed**: iubenda Privacy Controls tag + custom template from GTM
-- **Size Reduction**: ~150KB of JavaScript removed
-- **HTTP Requests**: Eliminated 2 requests to cdn.iubenda.com
-- **Cookie Consent**: Using custom `CookieConsent.tsx` component (already in place)
-- **GTM Container**: New clean version available: `input/gtm_container_no_iubenda.json`
-- **Impact**: Faster page loads, cleaner dependencies, same GDPR compliance
+- **Content Migration**: All 17 supplement overviews moved to PostgreSQL database
+- **Autolinking**: 197 glossary terms automatically linked on every page
+- **Database**: `overview_content` + `additional_overview_content` columns in `api.supplements`
+- **Coverage**: 10-20 glossary links per supplement page (up from 0)
+- **SEO Impact**: Massively improved internal linking structure
+- **Scripts**: `extract-knowledgebase-content.mjs` + `push-content-to-supabase.mjs`
+- **Verification**: Dev testing confirmed database content + autolinking working
+- **See**: `WEEK3_PHASE2_COMPLETE.md` for full details
 
 **Version 0.6.11 Highlights:**
 🚀 **Smart Cache with On-Demand Revalidation** ✅

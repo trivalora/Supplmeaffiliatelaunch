@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { getSupplementRoutes, getRouteByPath } from '../lib/route-adapter';
 import { getSEOContent } from '@/lib/seo-content';
 import { PageViewTracker } from '../components/PageViewTracker';
+import { createClient } from '@/lib/supabase/server';
 
 /**
  * AUTO-GENERATED COMPONENT IMPORTS
@@ -194,11 +195,29 @@ export default async function SupplementPage({ params }: PageProps) {
     notFound();
   }
   
-  // Render the component
+  // Fetch database content for knowledgebase pages
+  let supplementData = null;
+  if (route.category === 'knowledgebase') {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from('supplements')
+      .select('overview_content, additional_overview_content')
+      .eq('slug', slug)
+      .single();
+    
+    if (!error && data) {
+      supplementData = data;
+    }
+  }
+  
+  // Render the component with database content (if available)
   return (
     <>
       <PageViewTracker pageName={route.title} pageCategory="supplement" />
-      <Component />
+      <Component 
+        overviewContent={supplementData?.overview_content}
+        additionalOverviewContent={supplementData?.additional_overview_content}
+      />
     </>
   );
 }

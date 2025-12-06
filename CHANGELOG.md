@@ -4,6 +4,57 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## [0.7.0] - December 6, 2025
+
+### 📊 Database-Driven Content System - COMPLETE!
+
+**Focus:** Migrate all supplement overview content from hardcoded JSX to PostgreSQL database with automatic glossary autolinking.
+
+#### Added ✅
+- ✅ **Content Migration**: All 17 supplement overviews moved to database (`api.supplements`)
+- ✅ **Autolinking**: 197 glossary terms automatically linked on every supplement page
+- ✅ **Database Columns**: `overview_content` + `additional_overview_content` (TEXT)
+- ✅ **Migration Scripts**: `extract-knowledgebase-content.mjs`, `push-content-to-supabase.mjs`
+- ✅ **Documentation**: Complete migration guide in `WEEK3_PHASE2_COMPLETE.md`
+
+#### Changed 🔄
+- All 17 supplement knowledgebase components now accept database props
+- `OverviewSection` automatically autolinks plain text from database
+- Content centralized in database (single source of truth)
+- Build process fetches database content during static generation
+
+#### Improved 📈
+- **SEO**: 10-20 glossary links per supplement page (up from 0)
+- **Internal Linking**: 197 glossary terms discoverable from supplement pages
+- **Maintainability**: Bulk content updates via SQL (no code changes)
+- **Consistency**: All supplements follow same database-driven pattern
+- **Orphaned Terms**: Reduced via automatic autolinking coverage
+
+#### Technical Details
+- **Extraction Method**: Regex-based JSX parsing with fallback pattern support
+- **Authentication**: Supabase Service Role key for database writes
+- **Backward Compatibility**: JSX fallback mechanism (`dbContent || <JSX>`)
+- **Verification**: Dev testing confirmed database content + autolinking
+- **Build Time**: ~7 minutes for 1,256 pages with database fetch
+
+#### Statistics 📊
+- **Total Content**: ~20KB plain text across 17 supplements
+- **Largest Content**: Curcumin (12.5KB of meta-analysis details)
+- **Average Links**: 10-20 glossary terms per supplement page
+- **Build Logs**: "Rendering [term] from database" for all 197 terms
+
+#### New Files
+- `scripts/extract-knowledgebase-content.mjs` - Extract plain text from TSX
+- `scripts/push-content-to-supabase.mjs` - Push content to database
+- `WEEK3_PHASE2_COMPLETE.md` - Complete migration documentation
+
+#### Modified Files
+- All 17 `src/components/pages/supplements/*KnowledgebasePage.tsx` - Accept DB props
+- `app/[slug]/page.tsx` - Fetch database content for knowledgebase pages
+- `src/components/sections/knowledgebase/OverviewSection.tsx` - Autolink DB content
+
+---
+
 ## [0.6.14] - December 5, 2025
 
 ### 🧹 iubenda Removal - Performance Optimization
