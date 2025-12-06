@@ -4,6 +4,32 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## v0.7.1 (2025-12-06) - Full Static Site Generation Fix
+
+**🐛 Bug Fix: Missing 663 Product Pages**
+
+- **Problem**: Build was only generating 1,256 pages instead of 1,919
+- **Root Cause**: Supabase/PostgREST has 1,000 max-rows limit by default
+- **Solution**: Added pagination to `generateStaticParams()` in product detail page
+- **Impact**: Now generates all 1,919 pages (+663 pages, +52% coverage)
+  - 1,663 product pages (was 1,000)
+  - 197 glossary pages
+  - 18 supplement pages
+  - 18 comparison pages
+  - 23 static pages
+
+**Technical Details:**
+- Modified `app/[slug]/product/[productId]/page.tsx`
+- Fetches products in batches of 1,000 using `.range(start, end)`
+- All 1,663 products now properly indexed by search engines
+- Build time: ~3 seconds for static generation (13 workers)
+
+**Files Changed:**
+- `app/[slug]/product/[productId]/page.tsx` - Added pagination loop
+- `next.config.mjs` - Added static generation concurrency settings
+
+---
+
 ## [0.7.0] - December 6, 2025
 
 ### 📊 Database-Driven Content System - COMPLETE!
