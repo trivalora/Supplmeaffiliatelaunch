@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import { GlossaryPageWrapper } from "../components/GlossaryPageWrapper";
 import { PageViewTracker } from "../components/PageViewTracker";
+import { GlossaryIndexServer } from "./GlossaryIndexServer";
 
 export const metadata: Metadata = {
   title: "Supplement Research Glossary",
@@ -12,7 +12,7 @@ export default function GlossaryIndexPage() {
   return (
     <>
       <PageViewTracker pageName="Glossary Index" pageCategory="glossary" />
-      <GlossaryPageWrapper />
+      <GlossaryIndexServer />
     </>
   );
 }
