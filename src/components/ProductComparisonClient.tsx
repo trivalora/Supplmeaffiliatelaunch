@@ -561,9 +561,9 @@ export function ProductComparisonClient({
         <main data-layout-main style={{ paddingTop: "var(--header-height)" }}>
           <div data-layout-container className="py-4 sm:py-8">
             <div className="bg-card rounded-xl p-4 sm:p-6 shadow-sm border border-secondary/20 mb-4 sm:mb-6 mx-4 sm:mx-0">
-              <div className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-4">
-                Compare All {getSupplementName(supplementId)} Products
-              </div>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-4">
+                {getSupplementName(supplementId)} Price Comparison
+              </h1>
               <p className="text-muted-foreground">
                 Loading products from database...
               </p>

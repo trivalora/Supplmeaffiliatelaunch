@@ -1,5 +1,6 @@
 import { LucideIcon } from "lucide-react";
 import { autolinkGlossaryTerms } from "@/lib/glossaryAutolink";
+import { useMemo } from "react";
 
 export interface BenefitDrawback {
   icon: LucideIcon;
@@ -24,24 +25,33 @@ export function BenefitsDrawbacksSection({
 }: BenefitsDrawbacksSectionProps) {
   const shouldUseAutolink = currentPage && !currentPage.startsWith("glossary-");
 
-  // Process all benefits
-  const linkedBenefits = benefits.map((benefit) =>
-    shouldUseAutolink
-      ? autolinkGlossaryTerms(benefit.description, currentPage)
-      : benefit.description
+  // Memoize autolinked content to prevent duplicate processing on mobile/desktop renders
+  const linkedBenefits = useMemo(
+    () =>
+      benefits.map((benefit) =>
+        shouldUseAutolink
+          ? autolinkGlossaryTerms(benefit.description, currentPage)
+          : benefit.description
+      ),
+    [benefits, shouldUseAutolink, currentPage]
   );
 
-  // Process drawbacks intro
-  const linkedDrawbacksIntro =
-    shouldUseAutolink && drawbacksIntro
-      ? autolinkGlossaryTerms(drawbacksIntro, currentPage)
-      : drawbacksIntro;
+  const linkedDrawbacksIntro = useMemo(
+    () =>
+      shouldUseAutolink && drawbacksIntro
+        ? autolinkGlossaryTerms(drawbacksIntro, currentPage)
+        : drawbacksIntro,
+    [drawbacksIntro, shouldUseAutolink, currentPage]
+  );
 
-  // Process all drawbacks
-  const linkedDrawbacks = drawbacks.map((drawback) =>
-    shouldUseAutolink
-      ? autolinkGlossaryTerms(drawback.description, currentPage)
-      : drawback.description
+  const linkedDrawbacks = useMemo(
+    () =>
+      drawbacks.map((drawback) =>
+        shouldUseAutolink
+          ? autolinkGlossaryTerms(drawback.description, currentPage)
+          : drawback.description
+      ),
+    [drawbacks, shouldUseAutolink, currentPage]
   );
 
   return (

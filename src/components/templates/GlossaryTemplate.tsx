@@ -233,7 +233,7 @@ export function GlossaryTemplate({
 
                     {/* Markdown/JSX key points from database */}
                     {keyPointsContent && (
-                      <div className="key-points-content text-foreground/90 leading-relaxed [&_h3]:hidden [&_ul]:space-y-4 [&_ul]:list-none [&_ul]:pl-0 [&_ul]:m-0 [&_li]:pl-5 [&_li]:border-l-2 [&_li]:border-secondary/40 [&_li]:py-2.5 [&_li]:bg-white/[0.02] [&_li]:rounded-r-xl [&_li]:backdrop-blur-sm [&_strong]:text-primary [&_strong]:font-semibold [&_p]:mb-0">
+                      <div className="key-points-content text-foreground/90 leading-relaxed [&_h3]:hidden [&_ul]:space-y-4 [&_ul]:list-none [&_ul]:pl-0 [&_ul]:m-0 [&_li]:pl-5 [&_li]:border-l-2 [&_li]:border-secondary/40 [&_li]:py-2.5 [&_li]:bg-white/[0.02] [&_li]:rounded-r-xl [&_li]:backdrop-blur-sm [&_p]:mb-0">
                         {keyPointsContent}
                       </div>
                     )}
@@ -286,7 +286,7 @@ export function GlossaryTemplate({
                         Common Misconceptions
                       </h2>
                     </div>
-                    <div className="misconceptions-content text-foreground/90 leading-relaxed [&_p]:mb-5 [&_p:last-child]:mb-0 [&_strong]:font-semibold">
+                    <div className="misconceptions-content text-foreground/90 leading-relaxed [&_p]:mb-5 [&_p:last-child]:mb-0">
                       {commonMisconceptions}
                     </div>
                   </div>
@@ -367,7 +367,7 @@ export function GlossaryTemplate({
                         Detailed Explanation
                       </h2>
                     </div>
-                    <div className="text-foreground/90 leading-relaxed prose prose-sm max-w-none [&_h3]:text-lg [&_h3]:font-semibold [&_h3]:text-primary [&_h3]:mt-6 [&_h3]:mb-3 [&_h4]:text-base [&_h4]:font-medium [&_h4]:text-primary [&_h4]:mt-4 [&_h4]:mb-2 [&_p]:mb-4 [&_ul]:space-y-2 [&_ol]:space-y-2 [&_strong]:text-primary">
+                    <div className="text-foreground/90 leading-relaxed prose prose-sm max-w-none [&_h3]:text-lg [&_h3]:font-semibold [&_h3]:text-primary [&_h3]:mt-6 [&_h3]:mb-3 [&_h4]:text-base [&_h4]:font-medium [&_h4]:text-primary [&_h4]:mt-4 [&_h4]:mb-2 [&_p]:mb-4 [&_ul]:space-y-2 [&_ol]:space-y-2">
                       {expandedExplanation}
                     </div>
                   </div>

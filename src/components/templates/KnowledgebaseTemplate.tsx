@@ -324,7 +324,7 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
         {/* Two-column layout on desktop, stacked on mobile */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
           {/* Left Column - Main Content (2/3 width on desktop) */}
-          <div className="lg:col-span-2 space-y-8 order-1">
+          <div className="lg:col-span-2 space-y-8 lg:order-1 order-2">
             {/* Overview */}
             <OverviewSection
               overviewTitle={props.overviewTitle}
@@ -332,17 +332,6 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
               dietarySources={props.dietarySources}
               additionalOverviewContent={props.additionalOverviewContent}
             />
-
-            {/* Benefits & Drawbacks - Mobile Only (shown after Overview on mobile) */}
-            <div className="lg:hidden">
-              <BenefitsDrawbacksSection
-                benefits={props.benefits}
-                drawbacks={props.drawbacks}
-                drawbacksIntro={props.drawbacksIntro}
-                currentPage={props.currentPage}
-                useSemanticHeadings={false}
-              />
-            </div>
 
             {/* Research Summary - In left column */}
             {props.researchGrades && (
@@ -354,14 +343,15 @@ export function KnowledgebaseTemplate(props: KnowledgebasePageProps) {
             )}
           </div>
 
-          {/* Right Column - Sidebar (1/3 width on desktop) - Desktop Only */}
-          <div className="lg:col-span-1 order-2 hidden lg:block">
+          {/* Right Column - Benefits & Drawbacks (Sidebar on desktop, above overview on mobile) */}
+          <div className="lg:col-span-1 lg:order-2 order-1">
             <div className="lg:sticky lg:top-[calc(var(--header-height)+1rem)]">
               <BenefitsDrawbacksSection
                 benefits={props.benefits}
                 drawbacks={props.drawbacks}
                 drawbacksIntro={props.drawbacksIntro}
                 currentPage={props.currentPage}
+                useSemanticHeadings={true}
               />
             </div>
           </div>

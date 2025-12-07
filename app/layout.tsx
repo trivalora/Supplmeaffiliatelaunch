@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Suppl.me Research Team" }],
   icons: {
     icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "Suppl - Evidence-Based Supplement Research & Price Comparison",

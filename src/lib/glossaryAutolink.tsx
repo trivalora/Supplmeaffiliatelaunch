@@ -415,7 +415,7 @@ const GLOSSARY_TERMS: GlossaryTerm[] = [
     ],
   },
   {
-    key: "homair",
+    key: "homa-ir",
     terms: [
       "HOMA-IR",
       "Homeostatic Model Assessment of Insulin Resistance",

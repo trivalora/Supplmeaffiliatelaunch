@@ -75,6 +75,12 @@ const nextConfig = {
   // Redirects for SEO - handle common URL variations
   async redirects() {
     return [
+      // Glossary redirects (fix slug mismatches)
+      {
+        source: "/glossary/homair",
+        destination: "/glossary/homa-ir",
+        permanent: true,
+      },
       // Comparison page redirects (fix Seobility 404s)
       {
         source: "/comparison/bcaas",
