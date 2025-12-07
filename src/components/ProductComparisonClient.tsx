@@ -561,10 +561,37 @@ export function ProductComparisonClient({
         <main data-layout-main style={{ paddingTop: "var(--header-height)" }}>
           <div data-layout-container className="py-4 sm:py-8">
             <div className="bg-card rounded-xl p-4 sm:p-6 shadow-sm border border-secondary/20 mb-4 sm:mb-6 mx-4 sm:mx-0">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-4">
-                {getSupplementName(supplementId)} Price Comparison
-              </h1>
-              <p className="text-muted-foreground">
+              <div className="mb-4 sm:mb-6">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-3">
+                  {getSupplementName(supplementId)} Price Comparison
+                </h1>
+                <div className="space-y-3 text-sm text-muted-foreground max-w-4xl">
+                  <p>
+                    Find the best{" "}
+                    {getSupplementName(supplementId).toLowerCase()} supplement
+                    deals from top retailers. This comprehensive price
+                    comparison helps you compare prices, quality, and
+                    certifications to get the best value for your purchase.
+                  </p>
+                  <p>
+                    Our {getSupplementName(supplementId).toLowerCase()} price
+                    comparison tool analyzes products from leading supplement
+                    retailers including iHerb, Amazon, and Vitacost. Compare
+                    prices per serving, check third-party certifications, and
+                    filter by dietary preferences to find the perfect{" "}
+                    {getSupplementName(supplementId).toLowerCase()} supplement
+                    for your needs.
+                  </p>
+                  <p>
+                    Use our filters to narrow down options by price range,
+                    brand, form (capsules, tablets, powder), and certifications
+                    (Non-GMO, organic, third-party tested). Sort by price to
+                    find the most affordable options or by price per serving to
+                    get the best long-term value.
+                  </p>
+                </div>
+              </div>
+              <p className="text-muted-foreground text-sm mt-4">
                 Loading products from database...
               </p>
             </div>
