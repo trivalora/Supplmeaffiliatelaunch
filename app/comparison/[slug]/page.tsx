@@ -99,7 +99,7 @@ export default async function ComparisonPage({ params }: PageProps) {
       .single();
 
     if (supplement) {
-      // Fetch products with prices
+      // Fetch ALL products with prices (no limit - get complete catalog)
       const { data: products } = await supabase
         .from("products")
         .select(
@@ -123,7 +123,6 @@ export default async function ComparisonPage({ params }: PageProps) {
         `
         )
         .eq("supplement_id", supplement.id)
-        .limit(25)
         .order("brand");
 
       if (products) {
@@ -180,7 +179,7 @@ export default async function ComparisonPage({ params }: PageProps) {
               description: `Compare prices for ${route.title} supplements from top retailers`,
               numberOfItems: initialProducts.length,
               itemListElement: initialProducts
-                .slice(0, 10)
+                .slice(0, 50) // Google recommends limiting to 50 items for performance
                 .map((product: any, index: number) => ({
                   "@type": "Product",
                   position: index + 1,
