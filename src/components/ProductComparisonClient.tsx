@@ -595,34 +595,56 @@ export function ProductComparisonClient({
           <div data-layout-container className="py-4 sm:py-8">
             {/* Controls */}
             <div className="bg-card rounded-xl p-4 sm:p-6 shadow-sm border border-secondary/20 mb-4 sm:mb-6 mx-4 sm:mx-0">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4 sm:mb-6">
-                <div>
-                  <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-2">
-                    {getSupplementName(supplementId)} Price Comparison
-                  </h1>
-                  <p className="text-sm text-muted-foreground">
+              <div className="mb-4 sm:mb-6">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                  <div className="flex-1">
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-primary capitalize mb-2">
+                      {getSupplementName(supplementId)} Price Comparison
+                    </h1>
+                  </div>
+                  <div className="text-sm text-muted-foreground shrink-0">
+                    <span className="font-semibold text-foreground">
+                      {apiProducts?.length || 0}
+                    </span>{" "}
+                    total products
+                    {allFilteredProducts.length <
+                      (apiProducts?.length || 0) && (
+                      <span>
+                        {" "}
+                        •{" "}
+                        <span className="font-semibold text-primary">
+                          {allFilteredProducts.length}
+                        </span>{" "}
+                        matching filters
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+                <div className="space-y-3 text-sm text-muted-foreground max-w-4xl">
+                  <p>
                     Find the best{" "}
                     {getSupplementName(supplementId).toLowerCase()} supplement
-                    deals from top retailers. This comprehensive comparison
-                    helps you compare prices, quality, and certifications to get
-                    the best value for your purchase.
+                    deals from top retailers. This comprehensive price
+                    comparison helps you compare prices, quality, and
+                    certifications to get the best value for your purchase.
                   </p>
-                </div>
-                <div className="text-sm text-muted-foreground shrink-0">
-                  <span className="font-semibold text-foreground">
-                    {apiProducts?.length || 0}
-                  </span>{" "}
-                  total products
-                  {allFilteredProducts.length < (apiProducts?.length || 0) && (
-                    <span>
-                      {" "}
-                      •{" "}
-                      <span className="font-semibold text-primary">
-                        {allFilteredProducts.length}
-                      </span>{" "}
-                      matching filters
-                    </span>
-                  )}
+                  <p>
+                    Our {getSupplementName(supplementId).toLowerCase()} price
+                    comparison tool analyzes {apiProducts?.length || 0} products
+                    from leading supplement retailers including iHerb, Amazon,
+                    and Vitacost. Compare prices per serving, check third-party
+                    certifications, and filter by dietary preferences to find
+                    the perfect {getSupplementName(supplementId).toLowerCase()}{" "}
+                    supplement for your needs.
+                  </p>
+                  <p>
+                    Use our filters to narrow down options by price range,
+                    brand, form (capsules, tablets, powder), and certifications
+                    (Non-GMO, organic, third-party tested). Sort by price to
+                    find the most affordable options or by price per serving to
+                    get the best long-term value.
+                  </p>
                 </div>
               </div>
 
