@@ -7,6 +7,10 @@ import {
 import { ProductComparisonClient } from "@/components/ProductComparisonClient";
 import { PageViewTracker } from "../../components/PageViewTracker";
 
+// Force dynamic rendering with 1-hour revalidation
+export const dynamic = "force-dynamic";
+export const revalidate = 3600; // 1 hour cache
+
 interface PageProps {
   params: Promise<{
     slug: string;
