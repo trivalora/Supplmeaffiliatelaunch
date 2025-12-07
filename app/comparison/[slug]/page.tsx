@@ -85,15 +85,79 @@ export default async function ComparisonPage({ params }: PageProps) {
     notFound();
   }
 
-  // Render the client component with the supplement ID
-  // Note: SEO intro text is now inside ProductComparisonClient for consistency
+  // Fetch initial products server-side for SEO
+  let initialProducts = null;
+  try {
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.suppl.me";
+    const apiUrl = `${baseUrl}/api/supplements/${route.supplementId}/products?limit=25&sort=price_asc`;
+
+    const response = await fetch(apiUrl, {
+      next: { revalidate: 3600 }, // Cache for 1 hour
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      initialProducts = data.products;
+    }
+  } catch (error) {
+    console.error("Failed to fetch initial products:", error);
+    // Continue without initial products - client will load them
+  }
+
+  // Render the client component with the supplement ID and initial products
   return (
     <>
       <PageViewTracker
         pageName={`${route.title} Comparison`}
         pageCategory="comparison"
       />
-      <ProductComparisonClient supplementId={route.supplementId} />
+
+      {/* Server-rendered SEO content with Schema.org markup */}
+      {initialProducts && initialProducts.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              name: `${route.title} Price Comparison`,
+              description: `Compare prices for ${route.title} supplements from top retailers`,
+              numberOfItems: initialProducts.length,
+              itemListElement: initialProducts
+                .slice(0, 10)
+                .map((product: any, index: number) => ({
+                  "@type": "Product",
+                  position: index + 1,
+                  name: product.dsld_product_name || product.brand,
+                  brand: {
+                    "@type": "Brand",
+                    name: product.brand,
+                  },
+                  offers: {
+                    "@type": "AggregateOffer",
+                    lowPrice: product.best_total_price,
+                    priceCurrency: "USD",
+                    offerCount: product.price_count || 1,
+                    availability: "https://schema.org/InStock",
+                  },
+                  ...(product.product_image_url && {
+                    image: product.product_image_url.startsWith("http")
+                      ? product.product_image_url
+                      : `${
+                          process.env.NEXT_PUBLIC_SITE_URL ||
+                          "https://www.suppl.me"
+                        }${product.product_image_url}`,
+                  }),
+                })),
+            }),
+          }}
+        />
+      )}
+
+      <ProductComparisonClient
+        supplementId={route.supplementId}
+        initialProducts={initialProducts}
+      />
     </>
   );
 }

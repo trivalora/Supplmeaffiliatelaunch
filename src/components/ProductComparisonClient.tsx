@@ -38,6 +38,7 @@ const imgAmazonButton = "/images/amazon-button.png";
 
 interface ProductComparisonClientProps {
   supplementId: string;
+  initialProducts?: any[] | null;
 }
 
 // Map our 21 supplements to the API endpoints (including all comparison slugs)
@@ -73,6 +74,7 @@ interface ProductData {
 
 export function ProductComparisonClient({
   supplementId,
+  initialProducts = null,
 }: ProductComparisonClientProps) {
   const router = useRouter();
   const [filters, setFilters] = useState<Record<string, any>>({});
@@ -88,9 +90,9 @@ export function ProductComparisonClient({
 
   // API Hook - fetch products from database
   const {
-    products: apiProducts,
+    products: hookProducts,
     pagination,
-    loading,
+    loading: hookLoading,
     error,
     filters: apiFilters,
     setFilters: setApiFilters,
@@ -101,6 +103,10 @@ export function ProductComparisonClient({
     sort: sortBy,
     in_stock: true,
   });
+
+  // Use initialProducts if available (for SSR), otherwise use hook data
+  const apiProducts = hookProducts || initialProducts || [];
+  const loading = hookLoading && !initialProducts; // Don't show loading if we have initialProducts
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 100]);
   const [priceFilterActive, setPriceFilterActive] = useState(false);
   const [displayedCount, setDisplayedCount] = useState(25);
