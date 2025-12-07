@@ -85,19 +85,75 @@ export default async function ComparisonPage({ params }: PageProps) {
     notFound();
   }
 
-  // Fetch initial products server-side for SEO
+  // Fetch initial products server-side for SEO (direct database query)
   let initialProducts = null;
   try {
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.suppl.me";
-    const apiUrl = `${baseUrl}/api/supplements/${route.supplementId}/products?limit=25&sort=price_asc`;
+    const { createClient } = await import("@/lib/supabase/server");
+    const supabase = createClient();
 
-    const response = await fetch(apiUrl, {
-      next: { revalidate: 3600 }, // Cache for 1 hour
-    });
+    // Get supplement ID
+    const { data: supplement } = await supabase
+      .from("supplements")
+      .select("id")
+      .eq("slug", route.supplementId)
+      .single();
 
-    if (response.ok) {
-      const data = await response.json();
-      initialProducts = data.products;
+    if (supplement) {
+      // Fetch products with prices
+      const { data: products } = await supabase
+        .from("products")
+        .select(
+          `
+          id,
+          json_id,
+          brand,
+          product_name,
+          dsld_product_name,
+          product_image_url,
+          third_party_tested,
+          certifications,
+          filters,
+          prices!inner (
+            price,
+            total_price,
+            retailer:retailers (
+              name
+            )
+          )
+        `
+        )
+        .eq("supplement_id", supplement.id)
+        .limit(25)
+        .order("brand");
+
+      if (products) {
+        // Process products to match API response format
+        initialProducts = products.map((p: any) => {
+          const prices = p.prices || [];
+          const bestPrice = prices.reduce(
+            (min: number, curr: any) =>
+              curr.total_price < min ? curr.total_price : min,
+            Infinity
+          );
+
+          return {
+            id: p.id,
+            json_id: p.json_id,
+            brand: p.brand,
+            product_name: p.product_name,
+            dsld_product_name: p.dsld_product_name,
+            product_image_url: p.product_image_url,
+            third_party_tested: p.third_party_tested,
+            certifications: p.certifications,
+            filters: p.filters,
+            best_total_price: bestPrice === Infinity ? null : bestPrice,
+            price_count: prices.length,
+            available_retailers: prices.map(
+              (pr: any) => pr.retailer?.name || "Unknown"
+            ),
+          };
+        });
+      }
     }
   } catch (error) {
     console.error("Failed to fetch initial products:", error);
