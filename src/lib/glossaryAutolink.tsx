@@ -3,8 +3,8 @@
 // Run: node scripts/generate-glossary-autolink.mjs to regenerate
 
 import { ReactNode } from "react";
-import Link from "next/link";
 import { GLOSSARY_DATA } from "./glossaryData";
+import { GlossaryTooltip } from "@/components/shared/GlossaryTooltip";
 
 /**
  * Glossary term definition for autolinking
@@ -927,25 +927,35 @@ export function autolinkGlossaryContent(
     if (termData && termData.key !== currentPage) {
       // Add linked term with tooltip including definition
       const glossaryInfo = GLOSSARY_DATA[termData.key];
-      const tooltipText = glossaryInfo
-        ? `${glossaryInfo.title}${
-            glossaryInfo.abbreviation ? ` (${glossaryInfo.abbreviation})` : ""
-          }: ${glossaryInfo.summary}`
-        : `See glossary: ${
-            GLOSSARY_TERMS.find((t) => t.key === termData.key)?.terms[0] ||
-            matchedText
-          }`;
-
-      parts.push(
-        <Link
-          key={`glossary-link-${linkCount++}`}
-          href={`/glossary/${termData.key}`}
-          className="glossary-link text-primary underline decoration-1 underline-offset-2 hover:text-primary/80 transition-colors"
-          title={tooltipText}
-        >
-          {matchedText}
-        </Link>
-      );
+      
+      if (glossaryInfo) {
+        // Use HoverCard tooltip
+        parts.push(
+          <GlossaryTooltip
+            key={`glossary-link-${linkCount++}`}
+            href={`/glossary/${termData.key}`}
+            title={glossaryInfo.title}
+            abbreviation={glossaryInfo.abbreviation}
+            summary={glossaryInfo.summary}
+          >
+            {matchedText}
+          </GlossaryTooltip>
+        );
+      } else {
+        // Fallback to simple link if no data
+        const termName = GLOSSARY_TERMS.find((t) => t.key === termData.key)?.terms[0] || matchedText;
+        parts.push(
+          <GlossaryTooltip
+            key={`glossary-link-${linkCount++}`}
+            href={`/glossary/${termData.key}`}
+            title={termName}
+            abbreviation=""
+            summary={`See glossary for more information about ${termName}`}
+          >
+            {matchedText}
+          </GlossaryTooltip>
+        );
+      }
     } else {
       // Don't link to current page or if no data found
       parts.push(matchedText);
