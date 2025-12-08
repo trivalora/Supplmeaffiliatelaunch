@@ -77,15 +77,13 @@ export function AffiliateButtons({
         rel="nofollow noreferrer"
         data-button-height="md"
         className="flex-1 rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-3"
-        style={{ backgroundColor: "var(--color-amazon)" }}
         {...tooltipHandlers}
         onClick={handleAmazonClick}
       >
         <img
-          src="/optimized/2f3309a930da536601e44619e42e44f89c102eb7-48.webp"
+          src="/images/amazon-button.png"
           alt="Amazon"
-          className="h-5 w-auto invert"
-          style={{ filter: "invert(1)" }}
+          className="h-full w-auto object-contain"
         />
       </a>
       {iherbUnavailable || !iherbLink ? (

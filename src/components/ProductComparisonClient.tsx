@@ -1238,11 +1238,7 @@ export function ProductComparisonClient({
                                               )}
                                               target="_blank"
                                               rel="nofollow noreferrer"
-                                              className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg transition-opacity hover:opacity-90"
-                                              style={{
-                                                backgroundColor:
-                                                  "var(--color-amazon)",
-                                              }}
+                                              className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg transition-opacity hover:opacity-90 overflow-hidden"
                                               {...tooltipHandlers}
                                               onClick={(e) =>
                                                 handleBuyClick(
@@ -1261,7 +1257,7 @@ export function ProductComparisonClient({
                                               <img
                                                 src={imgAmazonButton}
                                                 alt="Amazon"
-                                                className="h-4 w-auto invert"
+                                                className="h-full w-auto object-contain"
                                               />
                                             </a>
                                           ) : r.retailer.toLowerCase() ===
@@ -1619,11 +1615,7 @@ export function ProductComparisonClient({
                                         href={addUTMParameters(r.product_url)}
                                         target="_blank"
                                         rel="nofollow noreferrer"
-                                        className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg transition-opacity hover:opacity-90"
-                                        style={{
-                                          backgroundColor:
-                                            "var(--color-amazon)",
-                                        }}
+                                        className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg transition-opacity hover:opacity-90 overflow-hidden"
                                         {...tooltipHandlers}
                                         onClick={(e) =>
                                           handleBuyClick(
@@ -1640,7 +1632,7 @@ export function ProductComparisonClient({
                                         <img
                                           src={imgAmazonButton}
                                           alt="Amazon"
-                                          className="h-3.5 w-auto invert"
+                                          className="h-full w-auto object-contain"
                                         />
                                       </a>
                                     ) : r.retailer.toLowerCase() ===
