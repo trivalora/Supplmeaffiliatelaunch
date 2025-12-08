@@ -4,6 +4,7 @@
 
 import { ReactNode } from "react";
 import Link from "next/link";
+import { GLOSSARY_DATA } from "./glossaryData";
 
 /**
  * Glossary term definition for autolinking
@@ -924,14 +925,18 @@ export function autolinkGlossaryContent(
     });
 
     if (termData && termData.key !== currentPage) {
-      // Add linked term with tooltip
-      const termName = GLOSSARY_TERMS.find(t => t.key === termData.key)?.terms[0] || matchedText;
+      // Add linked term with tooltip including definition
+      const glossaryInfo = GLOSSARY_DATA[termData.key];
+      const tooltipText = glossaryInfo
+        ? `${glossaryInfo.title}${glossaryInfo.abbreviation ? ` (${glossaryInfo.abbreviation})` : ""}: ${glossaryInfo.summary}`
+        : `See glossary: ${GLOSSARY_TERMS.find((t) => t.key === termData.key)?.terms[0] || matchedText}`;
+      
       parts.push(
         <Link
           key={`glossary-link-${linkCount++}`}
           href={`/glossary/${termData.key}`}
           className="glossary-link text-primary underline decoration-1 underline-offset-2 hover:text-primary/80 transition-colors"
-          title={`See glossary: ${termName}`}
+          title={tooltipText}
         >
           {matchedText}
         </Link>
