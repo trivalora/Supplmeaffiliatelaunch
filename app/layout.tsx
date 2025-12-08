@@ -111,6 +111,10 @@ export default function RootLayout({
           <main className="min-h-screen overflow-x-hidden">{children}</main>
           <Footer />
           <CookieConsent />
+          <script
+            type="text/javascript"
+            src="https://s.skimresources.com/js/295565X1782964.skimlinks.js"
+          />
         </AnalyticsProvider>
       </body>
     </html>

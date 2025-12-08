@@ -100,7 +100,7 @@ export function Footer({
           </button>
         </div>
 
-        {/* Social Media Icons */}
+        {/* Social Media Icons - Follow Us */}
         <div className="flex justify-center md:justify-start gap-6 mt-8">
           <a
             href="https://facebook.com/suppl.me"

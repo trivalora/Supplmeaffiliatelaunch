@@ -106,7 +106,7 @@ export function Footer() {
           </Link>
         </div>
 
-        {/* Social Media Icons */}
+        {/* Social Media Icons - Follow Us */}
         <div className="flex justify-center md:justify-start gap-6 mb-8">
           <a
             href="https://www.facebook.com/profile.php?id=61584731278593"

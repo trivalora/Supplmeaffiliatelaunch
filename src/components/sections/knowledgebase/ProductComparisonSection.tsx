@@ -7,6 +7,7 @@ import {
 } from "@/lib/supplementProductsData";
 import { ProductImage } from "@/components/images";
 import { AffiliateButtons } from "./AffiliateButtons";
+import { ShareStripInline } from "@/components/shared/ShareStripInline";
 
 function formatSupplementName(name: string): string {
   const specialCases: Record<string, string> = {
@@ -179,6 +180,11 @@ export function ProductComparisonSection({
               </div>
             );
           })}
+        </div>
+
+        {/* Sharing Strip */}
+        <div className="mt-6">
+          <ShareStripInline />
         </div>
 
         <div className="mt-6 p-4 bg-background rounded-lg border border-secondary">
