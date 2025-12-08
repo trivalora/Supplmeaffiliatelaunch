@@ -7,7 +7,7 @@ import {
 } from "@/lib/supplementProductsData";
 import { ProductImage } from "@/components/images";
 import { AffiliateButtons } from "./AffiliateButtons";
-import { ShareModal } from "@/components/shared/ShareModal";
+import { ShareStrip } from "@/components/shared/ShareStrip";
 
 function formatSupplementName(name: string): string {
   const specialCases: Record<string, string> = {
@@ -191,7 +191,7 @@ export function ProductComparisonSection({
 
         {/* Sharing Strip */}
         <div className="mt-6">
-          <ShareModal />
+          <ShareStrip />
         </div>
       </div>
     </div>
