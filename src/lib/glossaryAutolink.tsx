@@ -864,7 +864,7 @@ export function autolinkGlossaryContent(
       term,
       length: term.length,
       isAbbreviation:
-        /^[A-Z]{2,6}$/.test(term) || /^[A-Z]{2,6}\s*\(/.test(term),
+        /^[A-Z]{1,6}$/.test(term) || /^[A-Z]{1,6}\s*\(/.test(term),
     }))
   ).sort((a, b) => b.length - a.length);
 
@@ -924,12 +924,14 @@ export function autolinkGlossaryContent(
     });
 
     if (termData && termData.key !== currentPage) {
-      // Add linked term
+      // Add linked term with tooltip
+      const termName = GLOSSARY_TERMS.find(t => t.key === termData.key)?.terms[0] || matchedText;
       parts.push(
         <Link
           key={`glossary-link-${linkCount++}`}
           href={`/glossary/${termData.key}`}
           className="glossary-link text-primary underline decoration-1 underline-offset-2 hover:text-primary/80 transition-colors"
+          title={`See glossary: ${termName}`}
         >
           {matchedText}
         </Link>
