@@ -1,6 +1,7 @@
-import { autolinkGlossaryTerms } from "@/lib/glossaryAutolink";
+import { autolinkGlossaryContent } from "@/lib/glossaryAutolink";
 import { formatFootnotes } from "./formatFootnotes";
 import { ResearchGrade, Reference } from "./types";
+import { Fragment, ReactNode } from "react";
 
 interface ResearchSectionProps {
   researchGrades?: ResearchGrade[];
@@ -17,18 +18,47 @@ export function ResearchSection({
 
   const shouldUseAutolink = currentPage && !currentPage.startsWith("glossary-");
 
-  // Process all grade descriptions
-  const linkedGradeDescriptions = researchGrades.map((grade) => {
-    const linked = shouldUseAutolink
-      ? autolinkGlossaryTerms(grade.description, currentPage)
-      : grade.description;
-    // Convert ReactNode to array format expected by formatFootnotes
-    if (typeof linked === "string") {
-      return linked;
-    }
-    // If it's JSX, wrap in mutable array
-    return [linked];
-  });
+  // Helper function to apply both footnotes and glossary linking
+  const processDescription = (description: string): ReactNode => {
+    // First, split by footnotes
+    const parts = description.split(/(\[\d+\](?:\[\d+\])*)/g);
+    
+    return parts.map((part, index) => {
+      // If it's a footnote pattern
+      if (/^\[\d+\](?:\[\d+\])*$/.test(part)) {
+        // Extract footnote numbers
+        const numbers = part.match(/\d+/g) || [];
+        return (
+          <sup key={index}>
+            {numbers.map((num, idx) => {
+              const refIndex = parseInt(num) - 1;
+              const reference = references?.[refIndex];
+              return (
+                <Fragment key={idx}>
+                  <a
+                    href={reference?.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footnote-link cursor-help text-primary hover:text-primary/80"
+                    title={reference ? `${reference.authors} (${reference.year}). ${reference.title}` : undefined}
+                  >
+                    [{num}]
+                  </a>
+                </Fragment>
+              );
+            })}
+          </sup>
+        );
+      }
+      
+      // For text parts, apply glossary autolinking if enabled
+      if (shouldUseAutolink && part.trim()) {
+        return <Fragment key={index}>{autolinkGlossaryContent(part, currentPage)}</Fragment>;
+      }
+      
+      return <Fragment key={index}>{part}</Fragment>;
+    });
+  };
 
   const getGradeColor = (letter: "A" | "B" | "C" | "D") => {
     switch (letter) {
@@ -113,12 +143,7 @@ export function ResearchSection({
 
               {/* Description */}
               <p className="text-muted-foreground wrap-break-word">
-                {shouldUseAutolink
-                  ? formatFootnotes(
-                      linkedGradeDescriptions[index] || grade.description,
-                      references
-                    )
-                  : formatFootnotes(grade.description, references)}
+                {processDescription(grade.description)}
               </p>
             </div>
           ))}

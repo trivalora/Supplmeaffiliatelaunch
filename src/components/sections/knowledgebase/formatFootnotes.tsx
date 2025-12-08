@@ -1,13 +1,16 @@
-import { ReactNode, Fragment } from 'react';
-import { FootnotePopup } from './FootnotePopup';
-import { Reference } from './types';
+import { ReactNode, Fragment } from "react";
+import { FootnotePopup } from "./FootnotePopup";
+import { Reference } from "./types";
 
 export function formatFootnotes(
   content: ReactNode[] | string,
   references?: Reference[]
 ): ReactNode {
   // Helper function to convert a footnote string to hover cards
-  const convertFootnoteToPopup = (footnoteStr: string, keyPrefix: string | number) => {
+  const convertFootnoteToPopup = (
+    footnoteStr: string,
+    keyPrefix: string | number
+  ) => {
     // Extract individual footnote numbers: "[1][4][7]" -> ["1", "4", "7"]
     const numbers = footnoteStr.match(/\d+/g) || [];
 
@@ -26,12 +29,16 @@ export function formatFootnotes(
   // If it's already an array (from autolinkGlossaryTerms), process each element
   if (Array.isArray(content)) {
     return content.map((node, index) => {
-      if (typeof node === 'string') {
+      if (typeof node === "string") {
         // Process string parts for footnotes
         const parts = node.split(/(\[\d+\](?:\[\d+\])*)/g);
         return parts.map((part, partIndex) => {
           if (/^\[\d+\](?:\[\d+\])*$/.test(part)) {
-            return <sup key={`${index}-${partIndex}`}>{convertFootnoteToPopup(part, `${index}-${partIndex}`)}</sup>;
+            return (
+              <sup key={`${index}-${partIndex}`}>
+                {convertFootnoteToPopup(part, `${index}-${partIndex}`)}
+              </sup>
+            );
           }
           return <Fragment key={`${index}-${partIndex}`}>{part}</Fragment>;
         });

@@ -928,9 +928,14 @@ export function autolinkGlossaryContent(
       // Add linked term with tooltip including definition
       const glossaryInfo = GLOSSARY_DATA[termData.key];
       const tooltipText = glossaryInfo
-        ? `${glossaryInfo.title}${glossaryInfo.abbreviation ? ` (${glossaryInfo.abbreviation})` : ""}: ${glossaryInfo.summary}`
-        : `See glossary: ${GLOSSARY_TERMS.find((t) => t.key === termData.key)?.terms[0] || matchedText}`;
-      
+        ? `${glossaryInfo.title}${
+            glossaryInfo.abbreviation ? ` (${glossaryInfo.abbreviation})` : ""
+          }: ${glossaryInfo.summary}`
+        : `See glossary: ${
+            GLOSSARY_TERMS.find((t) => t.key === termData.key)?.terms[0] ||
+            matchedText
+          }`;
+
       parts.push(
         <Link
           key={`glossary-link-${linkCount++}`}
