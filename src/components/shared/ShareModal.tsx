@@ -180,7 +180,7 @@ export function ShareModal() {
                 <span className="font-medium">Share on LinkedIn</span>
               </button>
 
-              {navigator.share && (
+              {typeof navigator !== "undefined" && navigator.share && (
                 <button
                   onClick={handleNativeShare}
                   className="w-full flex items-center gap-4 p-4 bg-gray-100 dark:bg-secondary/10 hover:bg-gray-200 dark:hover:bg-secondary/20 text-gray-900 dark:text-secondary rounded-lg transition-colors"
