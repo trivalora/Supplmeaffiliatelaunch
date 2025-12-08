@@ -33,7 +33,7 @@ import {
 import { DualRangeSlider } from "./ui/dual-range-slider";
 import { useSupplementProducts } from "@/hooks";
 import { ProductGridSkeleton, ErrorState } from "@/components/shared";
-import { ShareStripInline } from "@/components/shared/ShareStripInline";
+import { ShareModal } from "@/components/shared/ShareModal";
 
 const imgAmazonButton = "/images/amazon-button.png";
 
@@ -945,7 +945,7 @@ export function ProductComparisonClient({
 
             {/* Sharing Strip */}
             <div className="mb-6">
-              <ShareStripInline />
+              <ShareModal />
             </div>
 
             {/* Products Display */}

@@ -7,7 +7,7 @@ import {
 } from "@/lib/supplementProductsData";
 import { ProductImage } from "@/components/images";
 import { AffiliateButtons } from "./AffiliateButtons";
-import { ShareStripInline } from "@/components/shared/ShareStripInline";
+import { ShareModal } from "@/components/shared/ShareModal";
 
 function formatSupplementName(name: string): string {
   const specialCases: Record<string, string> = {
