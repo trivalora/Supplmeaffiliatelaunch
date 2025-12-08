@@ -21,7 +21,16 @@ export function ShareStripInline() {
     }
 
     if (shareUrl) {
-      window.open(shareUrl, "_blank", "width=600,height=400");
+      // Open in popup window
+      const width = 600;
+      const height = 500;
+      const left = window.screen.width / 2 - width / 2;
+      const top = window.screen.height / 2 - height / 2;
+      window.open(
+        shareUrl,
+        "shareWindow",
+        `width=${width},height=${height},left=${left},top=${top},toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes`
+      );
     }
 
     // Track share click
@@ -67,14 +76,14 @@ export function ShareStripInline() {
   };
 
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 py-4 px-4 bg-primary/20 rounded-lg border border-secondary/20">
-      <p className="text-secondary text-sm font-medium whitespace-nowrap">
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 py-4 px-4 bg-primary dark:bg-primary/20 rounded-lg border border-secondary/20">
+      <p className="text-white dark:text-secondary text-sm font-medium whitespace-nowrap">
         Spread the word if you like what we do
       </p>
       <div className="flex items-center gap-3">
         <button
           onClick={() => handleShare("facebook")}
-          className="text-secondary hover:opacity-80 transition-opacity p-2 hover:bg-secondary/10 rounded-full"
+          className="text-white dark:text-secondary hover:opacity-80 transition-opacity p-2 hover:bg-white/10 dark:hover:bg-secondary/10 rounded-full"
           aria-label="Share on Facebook"
         >
           <svg
@@ -92,7 +101,7 @@ export function ShareStripInline() {
         </button>
         <button
           onClick={() => handleShare("twitter")}
-          className="text-secondary hover:opacity-80 transition-opacity p-2 hover:bg-secondary/10 rounded-full"
+          className="text-white dark:text-secondary hover:opacity-80 transition-opacity p-2 hover:bg-white/10 dark:hover:bg-secondary/10 rounded-full"
           aria-label="Share on X (Twitter)"
         >
           <svg
@@ -106,7 +115,7 @@ export function ShareStripInline() {
         </button>
         <button
           onClick={() => handleShare("linkedin")}
-          className="text-secondary hover:opacity-80 transition-opacity p-2 hover:bg-secondary/10 rounded-full"
+          className="text-white dark:text-secondary hover:opacity-80 transition-opacity p-2 hover:bg-white/10 dark:hover:bg-secondary/10 rounded-full"
           aria-label="Share on LinkedIn"
         >
           <svg
@@ -124,7 +133,7 @@ export function ShareStripInline() {
         </button>
         <button
           onClick={handleNativeShare}
-          className="text-secondary hover:opacity-80 transition-opacity p-2 hover:bg-secondary/10 rounded-full"
+          className="text-white dark:text-secondary hover:opacity-80 transition-opacity p-2 hover:bg-white/10 dark:hover:bg-secondary/10 rounded-full"
           aria-label="Share via other methods"
         >
           <svg
