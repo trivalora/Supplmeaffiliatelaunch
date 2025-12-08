@@ -1,5 +1,5 @@
 import { autolinkGlossaryContent } from "@/lib/glossaryAutolink";
-import { formatFootnotes } from "./formatFootnotes";
+import { FootnotePopup } from "./FootnotePopup";
 import { ResearchGrade, Reference } from "./types";
 import { Fragment, ReactNode } from "react";
 
@@ -22,7 +22,7 @@ export function ResearchSection({
   const processDescription = (description: string): ReactNode => {
     // First, split by footnotes
     const parts = description.split(/(\[\d+\](?:\[\d+\])*)/g);
-    
+
     return parts.map((part, index) => {
       // If it's a footnote pattern
       if (/^\[\d+\](?:\[\d+\])*$/.test(part)) {
@@ -35,27 +35,23 @@ export function ResearchSection({
               const reference = references?.[refIndex];
               return (
                 <Fragment key={idx}>
-                  <a
-                    href={reference?.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="footnote-link cursor-help text-primary hover:text-primary/80"
-                    title={reference ? `${reference.authors} (${reference.year}). ${reference.title}` : undefined}
-                  >
-                    [{num}]
-                  </a>
+                  <FootnotePopup refNumber={num} reference={reference} />
                 </Fragment>
               );
             })}
           </sup>
         );
       }
-      
+
       // For text parts, apply glossary autolinking if enabled
       if (shouldUseAutolink && part.trim()) {
-        return <Fragment key={index}>{autolinkGlossaryContent(part, currentPage)}</Fragment>;
+        return (
+          <Fragment key={index}>
+            {autolinkGlossaryContent(part, currentPage)}
+          </Fragment>
+        );
       }
-      
+
       return <Fragment key={index}>{part}</Fragment>;
     });
   };
