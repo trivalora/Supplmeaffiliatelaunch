@@ -5,13 +5,10 @@ import { X } from "lucide-react";
 
 export function ShareStrip() {
   const [showFacebookModal, setShowFacebookModal] = useState(false);
+  const [showTwitterModal, setShowTwitterModal] = useState(false);
+  const [showLinkedInModal, setShowLinkedInModal] = useState(false);
 
   const handleShare = (platform: string) => {
-    const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent(
-      "Check out suppl.me for evidence-based supplement information!"
-    );
-
     // Track share click
     if (typeof window !== "undefined" && window.dataLayer) {
       window.dataLayer.push({
@@ -26,18 +23,14 @@ export function ShareStrip() {
       return;
     }
 
-    let shareUrl = "";
-    switch (platform) {
-      case "twitter":
-        shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
-        break;
-      case "linkedin":
-        shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
-        break;
+    if (platform === "twitter") {
+      setShowTwitterModal(true);
+      return;
     }
 
-    if (shareUrl) {
-      window.open(shareUrl, "_blank", "noopener,noreferrer");
+    if (platform === "linkedin") {
+      setShowLinkedInModal(true);
+      return;
     }
   };
 
@@ -135,6 +128,78 @@ export function ShareStrip() {
               frameBorder="0"
               allowFullScreen={true}
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+          </div>
+        </div>
+      )}
+
+      {/* Twitter Share Modal - Embedded on page */}
+      {showTwitterModal && (
+        <div
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+          onClick={() => setShowTwitterModal(false)}
+        >
+          <div
+            className="bg-white dark:bg-[#15202b] rounded-2xl shadow-2xl max-w-xl w-full relative overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={() => setShowTwitterModal(false)}
+              className="absolute top-4 right-4 z-10 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors bg-white/80 dark:bg-black/40 rounded-full p-1"
+              aria-label="Close"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            {/* Twitter iframe embed */}
+            <iframe
+              src={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                window.location.href
+              )}&text=${encodeURIComponent(
+                "Check out suppl.me for evidence-based supplement information!"
+              )}`}
+              width="100%"
+              height="600"
+              style={{ border: "none", overflow: "hidden" }}
+              scrolling="yes"
+              frameBorder="0"
+              allowFullScreen={true}
+            ></iframe>
+          </div>
+        </div>
+      )}
+
+      {/* LinkedIn Share Modal - Embedded on page */}
+      {showLinkedInModal && (
+        <div
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+          onClick={() => setShowLinkedInModal(false)}
+        >
+          <div
+            className="bg-white dark:bg-[#1b1f23] rounded-2xl shadow-2xl max-w-xl w-full relative overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={() => setShowLinkedInModal(false)}
+              className="absolute top-4 right-4 z-10 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors bg-white/80 dark:bg-black/40 rounded-full p-1"
+              aria-label="Close"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            {/* LinkedIn iframe embed */}
+            <iframe
+              src={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+                window.location.href
+              )}`}
+              width="100%"
+              height="600"
+              style={{ border: "none", overflow: "hidden" }}
+              scrolling="yes"
+              frameBorder="0"
+              allowFullScreen={true}
             ></iframe>
           </div>
         </div>
