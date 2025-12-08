@@ -182,16 +182,16 @@ export function ProductComparisonSection({
           })}
         </div>
 
-        {/* Sharing Strip */}
-        <div className="mt-6">
-          <ShareStripInline />
-        </div>
-
         <div className="mt-6 p-4 bg-background rounded-lg border border-secondary">
           <p className="text-sm text-muted-foreground">
             <strong>Affiliate Disclosure:</strong> We earn from qualifying
             purchases at no extra cost to you.
           </p>
+        </div>
+
+        {/* Sharing Strip */}
+        <div className="mt-6">
+          <ShareModal />
         </div>
       </div>
     </div>
