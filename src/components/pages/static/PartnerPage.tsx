@@ -82,7 +82,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
     <div className="min-h-screen bg-tertiary" data-page-content>
       {/* Hero Section */}
       <div
-        className="relative flex items-center justify-center overflow-visible"
+        className="relative flex items-center justify-center overflow-hidden"
         style={{
           minHeight: "500px",
           height: "60vh",
@@ -90,7 +90,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
         }}
       >
         {/* Background Image - optimized responsive */}
-        <div className="absolute inset-0 w-full h-full">
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
           <ResponsivePicture
             file="4bdf2cba5e05e7d70b9f1402336825a64b04e236.png"
             alt="Forest canopy aerial view - partnership and growth in supplement industry"
