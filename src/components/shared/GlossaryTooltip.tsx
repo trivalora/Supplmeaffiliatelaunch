@@ -1,8 +1,12 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
-import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card';
+import { useState } from "react";
+import Link from "next/link";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
 
 interface GlossaryTooltipProps {
   href: string;
@@ -12,21 +16,17 @@ interface GlossaryTooltipProps {
   children: React.ReactNode;
 }
 
-export function GlossaryTooltip({ 
-  href, 
-  title, 
-  abbreviation, 
-  summary, 
-  children 
+export function GlossaryTooltip({
+  href,
+  title,
+  abbreviation,
+  summary,
+  children,
 }: GlossaryTooltipProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <HoverCard
-      openDelay={200}
-      open={isOpen}
-      onOpenChange={setIsOpen}
-    >
+    <HoverCard openDelay={200} open={isOpen} onOpenChange={setIsOpen}>
       <HoverCardTrigger asChild>
         <Link
           href={href}
@@ -51,9 +51,7 @@ export function GlossaryTooltip({
               <span className="text-muted-foreground"> ({abbreviation})</span>
             )}
           </p>
-          <p className="text-sm text-foreground">
-            {summary}
-          </p>
+          <p className="text-sm text-foreground">{summary}</p>
         </div>
       </HoverCardContent>
     </HoverCard>

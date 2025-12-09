@@ -606,6 +606,7 @@ export function PartnerPage({ onNavigate }: PartnerPageProps) {
                     autoComplete="email"
                     inputMode="email"
                     enterKeyHint="next"
+                    data-cfasync="false"
                   />
                 </div>
 

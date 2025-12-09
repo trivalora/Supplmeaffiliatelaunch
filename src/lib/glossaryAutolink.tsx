@@ -927,7 +927,7 @@ export function autolinkGlossaryContent(
     if (termData && termData.key !== currentPage) {
       // Add linked term with tooltip including definition
       const glossaryInfo = GLOSSARY_DATA[termData.key];
-      
+
       if (glossaryInfo) {
         // Use HoverCard tooltip
         parts.push(
@@ -943,7 +943,9 @@ export function autolinkGlossaryContent(
         );
       } else {
         // Fallback to simple link if no data
-        const termName = GLOSSARY_TERMS.find((t) => t.key === termData.key)?.terms[0] || matchedText;
+        const termName =
+          GLOSSARY_TERMS.find((t) => t.key === termData.key)?.terms[0] ||
+          matchedText;
         parts.push(
           <GlossaryTooltip
             key={`glossary-link-${linkCount++}`}
