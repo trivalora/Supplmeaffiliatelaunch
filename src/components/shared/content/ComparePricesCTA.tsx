@@ -29,7 +29,6 @@ export function ComparePricesCTA({ onScrollToSearch }: ComparePricesCTAProps) {
       style={{ backgroundColor: "#162F1C", color: "#ffffff" }}
     >
       <div data-layout-container className="text-center">
-        <h2 className="mb-4">Start making better supplement decisions</h2>
         <p className="mb-8 max-w-2xl mx-auto" style={{ color: "#E0CBA8" }}>
           Join thousands of people who trust science-backed recommendations and
           transparent pricing.
