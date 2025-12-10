@@ -10,9 +10,9 @@ import "../src/styles/globals.css";
 import "../src/fonts.css";
 
 export const metadata: Metadata = {
-  title: "Suppl - Evidence-Based Supplement Research & Price Comparison",
+  title: "Suppl - Get Evidence-Backed Supplement Stacks for Less",
   description:
-    "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
+    "Find the most efficacious supplement stack for your goals in seconds. Compare prices per mg of active ingredient with every claim linked to research sources.",
   keywords:
     "supplements, evidence-based supplements, supplement research, meta-analysis, clinical trials, supplement comparison, supplement reviews, supplement prices, iHerb, Amazon supplements, vitamin research, mineral supplements",
   authors: [{ name: "Suppl.me Research Team" }],
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Suppl - Evidence-Based Supplement Research & Price Comparison",
+    title: "Suppl - Get Evidence-Backed Supplement Stacks for Less",
     description:
-      "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
+      "Find the most efficacious supplement stack for your goals in seconds. Compare prices per mg of active ingredient with every claim linked to research sources.",
     url: "https://www.suppl.me",
     siteName: "Suppl.me",
     type: "website",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Suppl - Evidence-Based Supplement Research",
+    title: "Suppl - Get Evidence-Backed Supplement Stacks for Less",
     description:
-      "Comprehensive evidence-based supplement information with clinical research, meta-analysis reviews, and multi-retailer price comparison.",
+      "Find the most efficacious supplement stack for your goals in seconds. Compare prices per mg of active ingredient with every claim linked to research sources.",
     images: ["https://www.suppl.me/images/og-home.jpg"],
   },
   alternates: {

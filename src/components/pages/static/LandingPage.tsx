@@ -215,7 +215,7 @@ function HeroSection({
       <div className="relative z-10 w-full px-[2vw] md:px-[var(--page-padding-inline)]">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="mb-4 text-white text-4xl md:text-5xl">
-            Evidence-Based Supplement Research & Price Comparison
+            Get an evidence-backed supplement stack for less. In seconds.
           </h1>
 
           <p className="mb-6 text-white/80 text-base md:text-lg max-w-2xl mx-auto">
