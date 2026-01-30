@@ -4,6 +4,33 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## v0.7.2 (2026-01-30) - Amazon Button UX & Refill Modal Removal
+
+**🎨 Amazon Button Styling & Refill Modal Flow Removal**
+
+- **Amazon Button Golden Styling**: Applied `#FF9900` background to all 4 affiliate button locations (knowledgebase, landing page, comparison, product detail)
+- **Logo Consistency**: Resized Amazon logo to `h-6 w-6 object-contain` to match iHerb button dimensions across all pages
+- **Padding Consistency**: Standardized button padding - `px-3` for knowledgebase/comparison, `px-4` for landing page
+- **Refill Modal Removed**: Replaced conditional `setShowRefillModal(true)` flow with direct `window.open()` for affiliate links in:
+  - ProductComparisonClient.tsx (line 193, 201)
+  - ProductDetailClient.tsx (removed refill path, now direct navigation)
+- **GTM Tracking Verified**: All affiliate clicks automatically fire GTM events via `trackAffiliateClickDual()` in analytics-dual.ts (no changes needed - already working)
+- **Build Status**: ✅ All 1,920 pages generated successfully (1,663 products + 197 glossary + 17 supplements + 17 comparisons + 25 static)
+
+**Files Changed:**
+- `src/components/sections/knowledgebase/AffiliateButtons.tsx` - Golden styling, h-6 w-6 logo sizing
+- `src/components/pages/static/LandingPage.tsx` - Same golden styling and sizing
+- `src/components/ProductComparisonClient.tsx` - Refill modal removed, direct window.open() calls
+- `app/components/ProductDetailClient.tsx` - Refill modal removed, direct window.open() for all paths
+
+**User Impact:**
+- Better visual consistency with iHerb button (same logo size)
+- Faster affiliate navigation (no extra modal step)
+- Improved mobile experience (smaller, cleaner buttons)
+- Full analytics tracking maintained on all affiliate clicks
+
+---
+
 ## v0.7.1 (2025-12-06) - Full Static Site Generation Fix
 
 **🐛 Bug Fix: Missing 663 Product Pages**

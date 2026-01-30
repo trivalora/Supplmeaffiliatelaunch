@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { AnalyticsProvider } from "@/components/providers/AnalyticsProvider";
 import { CookieConsent } from "@/components/shared/CookieConsent";
+import { GeorestrictionCheck } from "./components/GeorestrictionCheck";
 // CSS Strategy: Critical CSS inline + Main CSS via Next.js imports
 // Next.js will chunk and optimize these automatically
 import "../src/styles/globals.css";
@@ -101,6 +102,7 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
+        <GeorestrictionCheck />
         <AnalyticsProvider
           googleTagManagerId={gtmId}
           googleAnalyticsId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}

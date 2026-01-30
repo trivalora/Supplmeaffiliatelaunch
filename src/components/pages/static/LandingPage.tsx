@@ -647,13 +647,14 @@ function AffiliateButtonsLP({
         rel="nofollow noreferrer"
         onClick={handleAmazonClick}
         data-button-height="md"
-        className="flex-1 rounded-lg overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center px-4"
+        className="flex-1 px-4 rounded-lg overflow-hidden hover:bg-[#FF9900]/90 transition-colors flex items-center justify-center bg-[#FF9900]"
+        style={{ backgroundColor: "var(--color-amazon)" }}
         {...tooltipHandlers}
       >
         <img
           src="/images/amazon-button.png"
           alt="Amazon"
-          className="h-full w-auto object-contain"
+          className="h-6 w-6 object-contain"
         />
       </a>
       <a

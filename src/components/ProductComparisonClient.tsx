@@ -189,23 +189,8 @@ export function ProductComparisonClient({
         "buy_now"
       );
 
-      if (estimate?.servingsPerContainer) {
-        e.preventDefault();
-        e.stopPropagation();
-        setSelectedProduct({
-          id: product.id || `${product.brand}-${idx}`,
-          name:
-            product.dsld_product_name ||
-            product.product_name ||
-            product.brand ||
-            "Unknown Product",
-          brand: product.brand || "Unknown Brand",
-          servings: estimate.servingsPerContainer,
-        });
-        setPendingBuyUrl(trackingUrl);
-        setShowRefillModal(true);
-      }
-      // If no servings estimate, let the link proceed with trackingUrl
+      // Direct navigation with tracking URL (skip refill modal for now)
+      window.open(trackingUrl || url, "_blank", "noopener,noreferrer");
     },
     [supplementId]
   );
@@ -1238,7 +1223,11 @@ export function ProductComparisonClient({
                                               )}
                                               target="_blank"
                                               rel="nofollow noreferrer"
-                                              className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg transition-opacity hover:opacity-90 overflow-hidden"
+                                              className="inline-flex items-center justify-center gap-2 w-full px-3 py-2 rounded-lg transition-colors hover:bg-[#FF9900]/90 overflow-hidden bg-[#FF9900]"
+                                              style={{
+                                                backgroundColor:
+                                                  "var(--color-amazon)",
+                                              }}
                                               {...tooltipHandlers}
                                               onClick={(e) =>
                                                 handleBuyClick(
@@ -1257,7 +1246,7 @@ export function ProductComparisonClient({
                                               <img
                                                 src={imgAmazonButton}
                                                 alt="Amazon"
-                                                className="h-full w-auto object-contain"
+                                                className="h-6 w-6 object-contain"
                                               />
                                             </a>
                                           ) : r.retailer.toLowerCase() ===

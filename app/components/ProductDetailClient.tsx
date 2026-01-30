@@ -139,22 +139,12 @@ export function ProductDetailClient({
       // Use tracking URL (includes click_id for commission reconciliation)
       const finalUrl = trackingUrl || url;
 
-      if (estimatedServings) {
-        setPendingBuyUrl(finalUrl);
-        setShowRefillModal(true);
-      } else {
-        // No servings data available, proceed directly
-        window.open(finalUrl, "_blank", "noopener,noreferrer");
-      }
+      // Direct navigation with tracking URL (skip refill modal for now)
+      window.open(finalUrl, "_blank", "noopener,noreferrer");
     } catch (error) {
       console.error("[ProductDetail] Affiliate tracking failed:", error);
       // Fallback: proceed with original URL if tracking fails
-      if (estimatedServings) {
-        setPendingBuyUrl(url);
-        setShowRefillModal(true);
-      } else {
-        window.open(url, "_blank", "noopener,noreferrer");
-      }
+      window.open(url, "_blank", "noopener,noreferrer");
     }
   };
 
@@ -714,7 +704,7 @@ export function ProductDetailClient({
                                 <img
                                   src={imgAmazonButton}
                                   alt="Amazon"
-                                  className="h-5 w-auto invert"
+                                  className="h-6 w-6 object-contain"
                                 />
                               </a>
                             ) : retailer.retailer.toLowerCase() ===
