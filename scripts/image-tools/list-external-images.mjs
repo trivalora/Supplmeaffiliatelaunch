@@ -6,8 +6,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 async function listExternalImages() {
@@ -27,11 +27,11 @@ async function listExternalImages() {
   const products = allProducts.filter(
     (p) =>
       p.product_image_url &&
-      !p.product_image_url.startsWith("/images/products/")
+      !p.product_image_url.startsWith("/images/products/"),
   );
 
   console.log(
-    `📊 Found ${products.length} products with external image URLs\n`
+    `📊 Found ${products.length} products with external image URLs\n`,
   );
 
   // Group by domain

@@ -6,8 +6,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 async function compareUrls() {
@@ -45,7 +45,7 @@ async function compareUrls() {
     .filter(
       (p) =>
         p.product_image_url &&
-        !p.product_image_url.startsWith("/images/products/")
+        !p.product_image_url.startsWith("/images/products/"),
     )
     .map((p) => ({
       url: p.product_image_url,
@@ -54,7 +54,7 @@ async function compareUrls() {
     }));
 
   console.log(
-    `📊 Database has ${dbExternalUrls.length} products with external URLs\n`
+    `📊 Database has ${dbExternalUrls.length} products with external URLs\n`,
   );
 
   // Compare
@@ -70,13 +70,13 @@ async function compareUrls() {
   });
 
   const inCsvOnly = Array.from(csvUrls).filter(
-    (url) => !dbExternalUrls.find((db) => db.url === url)
+    (url) => !dbExternalUrls.find((db) => db.url === url),
   );
 
   console.log("📈 COMPARISON RESULTS:\n");
   console.log(`  ✅ In BOTH CSV & Database: ${inBoth.length} products`);
   console.log(
-    `  🗄️  In Database ONLY (not in CSV): ${inDbOnly.length} products`
+    `  🗄️  In Database ONLY (not in CSV): ${inDbOnly.length} products`,
   );
   console.log(`  📄 In CSV ONLY (not in database): ${inCsvOnly.length} URLs\n`);
 
@@ -93,12 +93,12 @@ async function compareUrls() {
   // Save detailed reports
   fs.writeFileSync(
     "vitacost-in-both.txt",
-    inBoth.map((p) => `${p.url}\t${p.name}\t(ID: ${p.id})`).join("\n")
+    inBoth.map((p) => `${p.url}\t${p.name}\t(ID: ${p.id})`).join("\n"),
   );
 
   fs.writeFileSync(
     "vitacost-db-only.txt",
-    inDbOnly.map((p) => `${p.url}\t${p.name}\t(ID: ${p.id})`).join("\n")
+    inDbOnly.map((p) => `${p.url}\t${p.name}\t(ID: ${p.id})`).join("\n"),
   );
 
   fs.writeFileSync("vitacost-csv-only.txt", inCsvOnly.join("\n"));
@@ -106,20 +106,20 @@ async function compareUrls() {
   console.log("✅ Reports saved:");
   console.log("   • vitacost-in-both.txt - URLs in both CSV and database");
   console.log(
-    "   • vitacost-db-only.txt - Products in database but not in CSV"
+    "   • vitacost-db-only.txt - Products in database but not in CSV",
   );
   console.log("   • vitacost-csv-only.txt - URLs in CSV but not in database\n");
 
   // Summary
   console.log("📋 SUMMARY:");
   console.log(
-    `   ${inBoth.length} products CAN be migrated (have images in CSV)`
+    `   ${inBoth.length} products CAN be migrated (have images in CSV)`,
   );
   console.log(
-    `   ${inDbOnly.length} products CANNOT be migrated (no images in CSV)`
+    `   ${inDbOnly.length} products CANNOT be migrated (no images in CSV)`,
   );
   console.log(
-    `   ${inCsvOnly.length} CSV images are for products not in your database\n`
+    `   ${inCsvOnly.length} CSV images are for products not in your database\n`,
   );
 }
 

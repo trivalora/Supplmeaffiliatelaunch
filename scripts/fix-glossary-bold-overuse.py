@@ -31,7 +31,7 @@ AFFECTED_TERMS = [
 def init_supabase() -> Client:
     """Initialize Supabase client"""
     url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL")
-    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+    key = os.environ.get("SUPABASE_SECRET_KEY")
     
     if not url or not key:
         raise ValueError("Missing Supabase credentials in environment")

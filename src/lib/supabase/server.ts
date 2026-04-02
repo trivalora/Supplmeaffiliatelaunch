@@ -1,34 +1,34 @@
 /**
  * Supabase Server Client
- * 
+ *
  * This file creates a Supabase client for server-side operations.
  * Uses the service role key which bypasses Row-Level Security (RLS).
- * 
+ *
  * ⚠️ WARNING: Only use this on the server (API routes, Server Components).
  * Never expose the service role key to the client.
- * 
+ *
  * Usage:
  * import { createClient } from '@/lib/supabase/server';
  * const supabase = createClient();
  * const { data, error } = await supabase.from('products').select('*');
  */
 
-import { createClient as createSupabaseClient } from '@supabase/supabase-js';
-import type { Database } from './types-generated';
+import { createClient as createSupabaseClient } from "@supabase/supabase-js";
+import type { Database } from "./types-generated";
 
 export function createClient() {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const supabaseSecretKey = process.env.SUPABASE_SECRET_KEY;
 
-  if (!supabaseUrl || !supabaseServiceKey) {
+  if (!supabaseUrl || !supabaseSecretKey) {
     throw new Error(
-      'Missing Supabase server environment variables. ' +
-      'Please set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in .env.local'
+      "Missing Supabase server environment variables. " +
+        "Please set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SECRET_KEY in .env.local",
     );
   }
 
-  return createSupabaseClient<Database>(supabaseUrl, supabaseServiceKey, {
-    db: { schema: 'api' },
+  return createSupabaseClient<Database>(supabaseUrl, supabaseSecretKey, {
+    db: { schema: "api" },
     auth: {
       persistSession: false,
       autoRefreshToken: false,

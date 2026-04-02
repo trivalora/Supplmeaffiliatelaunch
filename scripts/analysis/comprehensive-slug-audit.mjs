@@ -6,8 +6,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 console.log("🔍 COMPREHENSIVE GLOSSARY SLUG AUDIT\n");
@@ -44,7 +44,7 @@ const autolinkSet = new Set(autolinkKeys);
 const missingInAutolink = dbTerms.filter((t) => !autolinkSet.has(t.slug));
 if (missingInAutolink.length > 0) {
   console.log(
-    `❌ ${missingInAutolink.length} terms in DB but NOT in glossaryAutolink.tsx:`
+    `❌ ${missingInAutolink.length} terms in DB but NOT in glossaryAutolink.tsx:`,
   );
   missingInAutolink.forEach((t) => console.log(`   - ${t.slug} (${t.term})`));
 } else {
@@ -55,7 +55,7 @@ if (missingInAutolink.length > 0) {
 const extraInAutolink = autolinkKeys.filter((k) => !dbSlugs.has(k));
 if (extraInAutolink.length > 0) {
   console.log(
-    `\n❌ ${extraInAutolink.length} keys in glossaryAutolink.tsx but NOT in database:`
+    `\n❌ ${extraInAutolink.length} keys in glossaryAutolink.tsx but NOT in database:`,
   );
   extraInAutolink.forEach((k) => console.log(`   - ${k}`));
 } else {
@@ -72,7 +72,7 @@ const duplicates = Object.entries(slugCounts).filter(([_, count]) => count > 1);
 if (duplicates.length > 0) {
   console.log(`❌ Found ${duplicates.length} duplicate slugs:`);
   duplicates.forEach(([slug, count]) =>
-    console.log(`   - ${slug} (${count} times)`)
+    console.log(`   - ${slug} (${count} times)`),
   );
 } else {
   console.log("✅ No duplicate slugs in database");
@@ -94,12 +94,12 @@ if (badSlugs.length > 0) {
     console.log(
       `   - ${t.slug} → should be ${t.slug
         .toLowerCase()
-        .replace(/[^a-z0-9-]/g, "-")}`
-    )
+        .replace(/[^a-z0-9-]/g, "-")}`,
+    ),
   );
 } else {
   console.log(
-    "✅ All slugs follow consistent format (lowercase, alphanumeric + hyphens)"
+    "✅ All slugs follow consistent format (lowercase, alphanumeric + hyphens)",
   );
 }
 
@@ -112,7 +112,7 @@ dbTerms.forEach((t) => {
   const withoutHyphen = t.slug.replace(/-/g, "");
   const similar = dbTerms.filter(
     (other) =>
-      other.slug !== t.slug && other.slug.replace(/-/g, "") === withoutHyphen
+      other.slug !== t.slug && other.slug.replace(/-/g, "") === withoutHyphen,
   );
   if (similar.length > 0) {
     potentialIssues.push({
@@ -124,7 +124,7 @@ dbTerms.forEach((t) => {
 
 if (potentialIssues.length > 0) {
   console.log(
-    `⚠️  Found ${potentialIssues.length} slug patterns that might cause confusion:`
+    `⚠️  Found ${potentialIssues.length} slug patterns that might cause confusion:`,
   );
   potentialIssues.forEach((issue) => {
     console.log(`   - ${issue.slug} vs ${issue.similar.join(", ")}`);

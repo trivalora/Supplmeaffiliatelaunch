@@ -5,8 +5,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 async function checkHomaIR() {
@@ -15,7 +15,7 @@ async function checkHomaIR() {
   const { data, error } = await supabase
     .from("glossary_terms")
     .select(
-      "slug, term, definition, why_it_matters, simple_explanation, key_points"
+      "slug, term, definition, why_it_matters, simple_explanation, key_points",
     )
     .or("slug.eq.homa-ir,slug.eq.homair");
 
@@ -37,28 +37,28 @@ async function checkHomaIR() {
     console.log(
       `Definition: ${
         term.definition ? `${term.definition.substring(0, 100)}...` : "NULL"
-      }`
+      }`,
     );
     console.log(
       `Why it matters: ${
         term.why_it_matters
           ? `${term.why_it_matters.substring(0, 100)}...`
           : "NULL"
-      }`
+      }`,
     );
     console.log(
       `Simple explanation: ${
         term.simple_explanation
           ? `${term.simple_explanation.substring(0, 100)}...`
           : "NULL"
-      }`
+      }`,
     );
     console.log(
       `Key points: ${
         term.key_points
           ? `${JSON.stringify(term.key_points).substring(0, 100)}...`
           : "NULL"
-      }`
+      }`,
     );
     console.log("---\n");
   }

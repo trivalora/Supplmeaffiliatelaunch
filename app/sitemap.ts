@@ -3,9 +3,8 @@ import { createClient } from "@supabase/supabase-js";
 
 // Import route configurations
 const getRoutes = async () => {
-  const { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES } = await import(
-    "../src/routes.config"
-  );
+  const { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES } =
+    await import("../src/routes.config");
   return { KNOWLEDGEBASE_ROUTES, GLOSSARY_ROUTES };
 };
 
@@ -18,8 +17,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Initialize Supabase client
   const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    { db: { schema: "api" } }
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
+    { db: { schema: "api" } },
   );
 
   // Get routes configuration
@@ -35,7 +34,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // 2. Supplement pages (17 pages)
   const supplementRoutes = KNOWLEDGEBASE_ROUTES.filter(
-    (r) => r.category === "knowledgebase" && r.showInNav
+    (r) => r.category === "knowledgebase" && r.showInNav,
   );
   for (const route of supplementRoutes) {
     if (route.path) {

@@ -5,8 +5,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 async function checkImageStats() {
@@ -25,7 +25,7 @@ async function checkImageStats() {
     data?.filter(
       (p) =>
         p.product_image_url &&
-        !p.product_image_url.startsWith("/images/products/")
+        !p.product_image_url.startsWith("/images/products/"),
     ) || [];
   console.log("🌐 Products with EXTERNAL images:", externalImages.length);
 
@@ -35,11 +35,11 @@ async function checkImageStats() {
   console.log("\n📈 MIGRATION PROGRESS:");
   console.log(
     "   Local:",
-    Math.round((localImages.length / count) * 100) + "%"
+    Math.round((localImages.length / count) * 100) + "%",
   );
   console.log(
     "   External:",
-    Math.round((externalImages.length / count) * 100) + "%"
+    Math.round((externalImages.length / count) * 100) + "%",
   );
   console.log("   Missing:", Math.round((noImages.length / count) * 100) + "%");
 }

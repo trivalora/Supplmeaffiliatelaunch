@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const supabaseSecretKey = process.env.SUPABASE_SECRET_KEY!;
 
 export async function GET(request: NextRequest) {
   try {
@@ -11,11 +11,11 @@ export async function GET(request: NextRequest) {
 
     if (!token) {
       return NextResponse.redirect(
-        new URL("/refill/error?type=invalid", request.url)
+        new URL("/refill/error?type=invalid", request.url),
       );
     }
 
-    const supabase = createClient(supabaseUrl, supabaseServiceKey);
+    const supabase = createClient(supabaseUrl, supabaseSecretKey);
 
     // Find the reminder by token
     const { data: reminder, error: fetchError } = await supabase
@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
 
     if (fetchError || !reminder) {
       return NextResponse.redirect(
-        new URL("/refill/error?type=not_found", request.url)
+        new URL("/refill/error?type=not_found", request.url),
       );
     }
 
@@ -47,7 +47,7 @@ export async function GET(request: NextRequest) {
     if (updateError) {
       console.error("Error cancelling refill reminder:", updateError);
       return NextResponse.redirect(
-        new URL("/refill/error?type=unknown", request.url)
+        new URL("/refill/error?type=unknown", request.url),
       );
     }
 
@@ -55,7 +55,7 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error("Cancel refill reminder error:", error);
     return NextResponse.redirect(
-      new URL("/refill/error?type=unknown", request.url)
+      new URL("/refill/error?type=unknown", request.url),
     );
   }
 }

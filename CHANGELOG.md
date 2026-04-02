@@ -4,6 +4,21 @@ All notable changes to the Suppl.me Affiliate Launch project.
 
 ---
 
+## v0.7.3 (2026-04-02) - Supabase Key Migration
+
+**🔑 Migrated from Legacy Supabase API Keys to New Format**
+
+- **Renamed env vars**: `NEXT_PUBLIC_SUPABASE_ANON_KEY` → `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
+- **Renamed env vars**: `SUPABASE_SERVICE_ROLE_KEY` → `SUPABASE_SECRET_KEY`
+- **Updated**: `src/lib/supabase/client.ts` — browser client uses publishable key
+- **Updated**: `src/lib/supabase/server.ts` — server client uses secret key
+- **Updated**: `app/api/refill-reminder/cancel/route.ts`
+- **Updated**: `app/sitemap.ts`
+- **Updated**: 35+ scripts in `scripts/` (analysis, image-tools, database, migration, generators)
+- **Build Status**: ✅ All env vars aligned across `.env.local` and `.env.production`
+
+---
+
 ## v0.7.2 (2026-01-30) - Amazon Button UX & Refill Modal Removal
 
 **🎨 Amazon Button Styling & Refill Modal Flow Removal**

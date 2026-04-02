@@ -7,8 +7,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 const MAPPING_FILE = "/Users/roxyjune/Downloads/input/images/image_mapping.csv";
@@ -40,7 +40,7 @@ async function debugMatching() {
     .not("product_image_url", "is", null);
 
   console.log(
-    `📊 Database has ${products.length} products with external URLs\n`
+    `📊 Database has ${products.length} products with external URLs\n`,
   );
 
   // Check matches
@@ -75,7 +75,7 @@ async function debugMatching() {
   console.log(`   DB external URLs: ${products.length}`);
   console.log(`   Should match: ${exactMatches} products`);
   console.log(
-    `   Coverage: ${((exactMatches / products.length) * 100).toFixed(1)}%`
+    `   Coverage: ${((exactMatches / products.length) * 100).toFixed(1)}%`,
   );
 }
 

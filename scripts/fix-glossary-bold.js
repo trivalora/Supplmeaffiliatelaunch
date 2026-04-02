@@ -10,7 +10,7 @@ import { createClient } from "@supabase/supabase-js";
 config({ path: ".env.local" });
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const supabaseKey = process.env.SUPABASE_SECRET_KEY;
 
 if (!supabaseUrl || !supabaseKey) {
   console.error("❌ Missing Supabase credentials");
@@ -130,7 +130,7 @@ async function fixTerm(slug) {
     `  Reduction: ${originalCount - newCount} (${(
       (1 - newCount / originalCount) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
 
   // Update

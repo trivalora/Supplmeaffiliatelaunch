@@ -13,8 +13,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 console.log("🚀 Applying v0.7.0 Data Migration...\n");
@@ -22,11 +22,11 @@ console.log("   Populating knowledgebase content for 17 supplements\n");
 
 // Read the extraction report (more reliable than parsing SQL)
 const report = JSON.parse(
-  readFileSync("scripts/extraction-report.json", "utf-8")
+  readFileSync("scripts/extraction-report.json", "utf-8"),
 );
 
 console.log(
-  `📝 Processing ${report.results.length} supplements from extraction report\n`
+  `📝 Processing ${report.results.length} supplements from extraction report\n`,
 );
 
 let successCount = 0;
@@ -54,7 +54,7 @@ for (const result of report.results) {
       console.log(
         `✅ ${slug}: ${overviewContent?.length || 0} + ${
           additionalOverviewContent?.length || 0
-        } chars`
+        } chars`,
       );
       successCount++;
     }

@@ -12,8 +12,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 console.log("🚀 Applying v0.7.0 Schema Migration...\n");
@@ -92,7 +92,7 @@ try {
 } catch (err) {
   console.error("❌ Migration failed:", err.message);
   console.log(
-    "\n⚠️  Please apply the migration manually in Supabase SQL Editor:\n"
+    "\n⚠️  Please apply the migration manually in Supabase SQL Editor:\n",
   );
   console.log(migrationSQL);
   process.exit(1);

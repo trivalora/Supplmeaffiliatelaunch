@@ -13,8 +13,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 console.log("🚀 Applying v0.7.0 Data Migration...\n");
@@ -23,7 +23,7 @@ console.log("   Populating knowledgebase content for 17 supplements\n");
 // Read the generated SQL file
 const sqlFile = readFileSync(
   "scripts/generated-content-migration.sql",
-  "utf-8"
+  "utf-8",
 );
 
 // Extract individual UPDATE statements
@@ -48,10 +48,10 @@ for (const statement of updateStatements) {
 
   // Extract overview_content
   const overviewMatch = statement.match(
-    /overview_content = '([^']*(?:''[^']*)*)'/
+    /overview_content = '([^']*(?:''[^']*)*)'/,
   );
   const additionalMatch = statement.match(
-    /additional_overview_content = '([^']*(?:''[^']*)*)'/
+    /additional_overview_content = '([^']*(?:''[^']*)*)'/,
   );
 
   const overviewContent = overviewMatch
@@ -79,7 +79,7 @@ for (const statement of updateStatements) {
       console.log(
         `✅ ${slug}: ${overviewContent?.length || 0} + ${
           additionalContent?.length || 0
-        } chars`
+        } chars`,
       );
       successCount++;
     }

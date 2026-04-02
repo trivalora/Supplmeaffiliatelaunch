@@ -12,8 +12,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 // Paths
@@ -162,7 +162,7 @@ async function migrateImages() {
     const unmappedFile = path.join(process.cwd(), "unmapped-images.json");
     fs.writeFileSync(unmappedFile, JSON.stringify(unmapped, null, 2));
     console.log(
-      `📝 Saved ${unmapped.length} unmapped URLs to unmapped-images.json\n`
+      `📝 Saved ${unmapped.length} unmapped URLs to unmapped-images.json\n`,
     );
   }
 
@@ -200,7 +200,7 @@ async function migrateImages() {
       `   Progress: ${progress}/${updates.length} (${(
         (progress / updates.length) *
         100
-      ).toFixed(1)}%)`
+      ).toFixed(1)}%)`,
     );
   }
 

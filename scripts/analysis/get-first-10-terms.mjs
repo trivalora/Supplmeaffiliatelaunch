@@ -4,15 +4,15 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 // Get first 10 terms alphabetically with their current content
 const { data: terms, error } = await supabase
   .from("glossary_terms")
   .select(
-    "slug, term, definition, expanded_explanation, why_it_matters, simple_explanation, key_points, examples, common_misconceptions"
+    "slug, term, definition, expanded_explanation, why_it_matters, simple_explanation, key_points, examples, common_misconceptions",
   )
   .order("term")
   .limit(10);
@@ -45,7 +45,7 @@ terms.forEach((t, i) => {
   console.log(
     `   Has: definition=${!!t.definition}, expanded=${!!t.expanded_explanation}, whyMatters=${!!t.why_it_matters}, simple=${!!t.simple_explanation}, keyPoints=${!!t.key_points}, examples=${
       (t.examples || []).length
-    }`
+    }`,
   );
   console.log("");
 });

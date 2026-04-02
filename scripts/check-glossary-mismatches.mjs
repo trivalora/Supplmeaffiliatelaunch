@@ -6,8 +6,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 // Get all glossary terms from database
@@ -38,7 +38,7 @@ for (const term of dbTerms) {
 
 if (mismatches.length > 0) {
   console.log(
-    `❌ ${mismatches.length} mismatches found (DB slug not in autolink):`
+    `❌ ${mismatches.length} mismatches found (DB slug not in autolink):`,
   );
   mismatches.forEach((m) => console.log(`  - ${m.db} (${m.term})`));
   process.exit(1);

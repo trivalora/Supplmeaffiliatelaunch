@@ -5,8 +5,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 const brokenTerms = ["probiotics", "prebiotics", "creatine", "ashwagandha"];
@@ -24,7 +24,7 @@ async function checkTerms() {
       console.error(`Error checking ${slug}:`, error);
     } else if (data.length > 0) {
       console.log(
-        `⚠️  Found: ${slug} → ${data[0].term} (SHOULD BE REMOVED - this is a supplement)`
+        `⚠️  Found: ${slug} → ${data[0].term} (SHOULD BE REMOVED - this is a supplement)`,
       );
     } else {
       console.log(`✓ ${slug} not in database (correct)`);

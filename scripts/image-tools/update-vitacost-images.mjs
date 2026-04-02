@@ -11,8 +11,8 @@ config({ path: path.join(__dirname, "..", ".env.local") });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 // CSV parser that handles quoted values with embedded commas
@@ -145,7 +145,7 @@ async function updateVitacostImages() {
     productsUpdated += products.length;
     const productIds = products.map((p) => p.id).join(", ");
     console.log(
-      `  ✅ Updated ${products.length} product(s) (${productIds}) → ${filename}`
+      `  ✅ Updated ${products.length} product(s) (${productIds}) → ${filename}`,
     );
   }
 
@@ -161,7 +161,7 @@ async function updateVitacostImages() {
 
   if (notFoundProducts.length > 0) {
     console.log(
-      `\n⚠️  Products not found in database (${notFoundProducts.length}):`
+      `\n⚠️  Products not found in database (${notFoundProducts.length}):`,
     );
     notFoundProducts.forEach(({ original_url, filename }) => {
       console.log(`  - ${filename}`);

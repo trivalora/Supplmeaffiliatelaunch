@@ -5,6 +5,7 @@ package-lock.json
 # Environment & Credentials
 .env
 .env.local
+.env.production
 .env.*.local
 *.key
 *.pem

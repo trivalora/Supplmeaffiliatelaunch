@@ -25,8 +25,8 @@ config({ path: path.join(__dirname, "..", ".env.local") });
 // Initialize Supabase client
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 // Paths
@@ -149,7 +149,7 @@ async function main() {
 
     if (!products || products.length === 0) {
       console.log(
-        `${progress} ⚠️  No products found with URL: ${mapping.original_url}`
+        `${progress} ⚠️  No products found with URL: ${mapping.original_url}`,
       );
       stats.notFound++;
       notFoundProducts.push({
@@ -166,7 +166,7 @@ async function main() {
       stats.copied++;
     } catch (err) {
       console.log(
-        `${progress} ❌ Failed to copy ${mapping.filename}: ${err.message}`
+        `${progress} ❌ Failed to copy ${mapping.filename}: ${err.message}`,
       );
       stats.failed++;
       failedUpdates.push({
@@ -185,7 +185,7 @@ async function main() {
 
     if (updateError) {
       console.log(
-        `${progress} ❌ Failed to update database: ${updateError.message}`
+        `${progress} ❌ Failed to update database: ${updateError.message}`,
       );
       stats.failed++;
       failedUpdates.push({
@@ -200,7 +200,7 @@ async function main() {
     console.log(
       `${progress} ✅ Updated ${products.length} product${
         products.length > 1 ? "s" : ""
-      } (${dsldIds}) → ${mapping.filename}`
+      } (${dsldIds}) → ${mapping.filename}`,
     );
   }
 

@@ -16,7 +16,7 @@ const __dirname = dirname(__filename);
 dotenv.config({ path: resolve(__dirname, "../.env.local") });
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const supabaseKey = process.env.SUPABASE_SECRET_KEY;
 
 if (!supabaseUrl || !supabaseKey) {
   console.error("❌ Missing Supabase credentials");
@@ -29,7 +29,7 @@ async function deleteKnowledgebasePages() {
   const slugsToDelete = ["creatine", "bcaa", "prebiotics", "probiotics"];
 
   console.log(
-    `🗑️  Deleting ${slugsToDelete.length} knowledgebase pages from glossary_terms...`
+    `🗑️  Deleting ${slugsToDelete.length} knowledgebase pages from glossary_terms...`,
   );
 
   const { data, error } = await supabase
@@ -46,7 +46,7 @@ async function deleteKnowledgebasePages() {
 
   console.log(
     `✅ Deleted ${data?.length || 0} records:`,
-    data?.map((r) => r.slug)
+    data?.map((r) => r.slug),
   );
   console.log("✅ Done!");
 }

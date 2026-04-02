@@ -15,12 +15,12 @@ import { config } from "dotenv";
 config({ path: ".env.local" });
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const supabaseKey = process.env.SUPABASE_SECRET_KEY;
 
 if (!supabaseUrl || !supabaseKey) {
   console.error("❌ Missing required environment variables:");
   console.error("   NEXT_PUBLIC_SUPABASE_URL:", supabaseUrl ? "✓" : "✗");
-  console.error("   SUPABASE_SERVICE_ROLE_KEY:", supabaseKey ? "✓" : "✗");
+  console.error("   SUPABASE_SECRET_KEY:", supabaseKey ? "✓" : "✗");
   process.exit(1);
 }
 
@@ -117,7 +117,7 @@ async function main() {
       const hasUnnumbered = term.common_misconceptions.some(
         (item) =>
           item.match(/^\*\*(?:Myth|Fact)\*\*:/) &&
-          !item.match(/^\*\*(?:Myth|Fact) #\d+\*\*:/)
+          !item.match(/^\*\*(?:Myth|Fact) #\d+\*\*:/),
       );
 
       if (hasUnnumbered) {
@@ -125,7 +125,7 @@ async function main() {
         hasChanges = true;
         console.log(`📝 ${term.term} (${term.slug})`);
         console.log(
-          `   Misconceptions: ${term.common_misconceptions.length} items`
+          `   Misconceptions: ${term.common_misconceptions.length} items`,
         );
 
         if (!isDryRun) {
@@ -134,7 +134,7 @@ async function main() {
               console.log(
                 `   ${i + 1}. ${item.substring(0, 50)}... → ${numbered[
                   i
-                ].substring(0, 50)}...`
+                ].substring(0, 50)}...`,
               );
             }
           });

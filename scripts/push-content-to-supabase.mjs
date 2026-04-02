@@ -19,12 +19,12 @@ const __dirname = dirname(__filename);
 config({ path: join(__dirname, "..", ".env.local") });
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const supabaseKey = process.env.SUPABASE_SECRET_KEY;
 
 if (!supabaseUrl || !supabaseKey) {
   console.error("❌ Missing required environment variables:");
   console.error("   NEXT_PUBLIC_SUPABASE_URL:", supabaseUrl ? "✅" : "❌");
-  console.error("   SUPABASE_SERVICE_ROLE_KEY:", supabaseKey ? "✅" : "❌");
+  console.error("   SUPABASE_SECRET_KEY:", supabaseKey ? "✅" : "❌");
   process.exit(1);
 }
 
@@ -64,8 +64,8 @@ for (const result of report.results) {
     const additionalLen = additionalOverviewContent?.length || 0;
     console.log(
       `✅ ${slug.padEnd(20)} | Overview: ${String(overviewLen).padStart(
-        5
-      )} chars | Additional: ${String(additionalLen).padStart(5)} chars`
+        5,
+      )} chars | Additional: ${String(additionalLen).padStart(5)} chars`,
     );
     successCount++;
   } catch (error) {
@@ -97,7 +97,7 @@ if (errorCount === 0) {
     .select("slug, overview_content, additional_overview_content")
     .in(
       "slug",
-      report.results.map((r) => r.slug)
+      report.results.map((r) => r.slug),
     )
     .order("slug");
 
@@ -112,10 +112,10 @@ if (errorCount === 0) {
       const additionalLen = row.additional_overview_content?.length || 0;
       console.log(
         `   ${row.slug.padEnd(20)} | Overview: ${hasOverview} (${String(
-          overviewLen
+          overviewLen,
         ).padStart(5)} chars) | Additional: ${hasAdditional} (${String(
-          additionalLen
-        ).padStart(5)} chars)`
+          additionalLen,
+        ).padStart(5)} chars)`,
       );
     });
   }

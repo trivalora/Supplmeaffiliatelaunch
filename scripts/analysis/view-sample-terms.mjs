@@ -4,8 +4,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 // Get specific terms by searching
@@ -21,7 +21,7 @@ if (carotenoids && carotenoids.length > 0) {
   console.log("Definition:", term.definition?.substring(0, 200) + "...");
   console.log(
     "\nExpanded Explanation:",
-    term.expanded_explanation?.substring(0, 500) + "..."
+    term.expanded_explanation?.substring(0, 500) + "...",
   );
   console.log("\nWhy It Matters:", term.why_it_matters);
   console.log("\nExamples:", term.examples);

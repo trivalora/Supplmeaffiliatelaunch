@@ -5,8 +5,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 // Add expanded explanations for the 4 missing terms
@@ -81,7 +81,7 @@ for (const update of updates) {
     console.error(`❌ Error updating ${update.slug}:`, error);
   } else {
     console.log(
-      `✅ Updated ${update.slug} with expanded explanation (${update.expanded_explanation.length} chars)`
+      `✅ Updated ${update.slug} with expanded explanation (${update.expanded_explanation.length} chars)`,
     );
   }
 }

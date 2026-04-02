@@ -11,8 +11,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 async function testAllWebhooks() {
@@ -50,7 +50,7 @@ async function testAllWebhooks() {
     if (supplementError) throw supplementError;
     console.log(
       "   ✅ Updated supplement:",
-      supplementData[0]?.name || "Magnesium"
+      supplementData[0]?.name || "Magnesium",
     );
     console.log("   📡 Webhook should trigger for api.supplements");
   } catch (error) {
@@ -98,10 +98,10 @@ async function testAllWebhooks() {
   console.log("   4. Verify 3 successful deliveries (Status 200)\n");
   console.log("🌐 Webhook URLs to check:");
   console.log(
-    "   • Glossary: https://supabase.com/dashboard/project/rdraqlnxypwlhkhngyjk/database/hooks"
+    "   • Glossary: https://supabase.com/dashboard/project/rdraqlnxypwlhkhngyjk/database/hooks",
   );
   console.log(
-    "   • Each webhook should show recent delivery within last minute\n"
+    "   • Each webhook should show recent delivery within last minute\n",
   );
   console.log("🔄 Cache revalidation should happen automatically now!");
   console.log("   Visit these pages to see updated timestamps:");

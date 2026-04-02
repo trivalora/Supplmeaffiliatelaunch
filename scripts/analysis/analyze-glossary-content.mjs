@@ -5,8 +5,8 @@ config({ path: ".env.local" });
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY,
-  { db: { schema: "api" } }
+  process.env.SUPABASE_SECRET_KEY,
+  { db: { schema: "api" } },
 );
 
 async function analyze() {
@@ -14,7 +14,7 @@ async function analyze() {
   const { data: terms, error } = await supabase
     .from("glossary_terms")
     .select(
-      "slug, term, definition, expanded_explanation, why_it_matters, simple_explanation, technical_explanation, real_world_context, examples, key_points, common_misconceptions"
+      "slug, term, definition, expanded_explanation, why_it_matters, simple_explanation, technical_explanation, real_world_context, examples, key_points, common_misconceptions",
     )
     .order("term");
 
@@ -69,7 +69,7 @@ async function analyze() {
   console.log(
     "Under 300 words:",
     under300.length,
-    `(${((under300.length / analysis.length) * 100).toFixed(1)}%)`
+    `(${((under300.length / analysis.length) * 100).toFixed(1)}%)`,
   );
   console.log("300-499 words:", under500.length - under300.length);
   console.log("500-799 words:", over500.length - over800.length);
@@ -91,49 +91,49 @@ async function analyze() {
     `expanded_explanation: ${hasExpanded}/${analysis.length} (${(
       (hasExpanded / analysis.length) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
   console.log(
     `why_it_matters: ${hasWhyMatters}/${analysis.length} (${(
       (hasWhyMatters / analysis.length) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
   console.log(
     `simple_explanation: ${hasSimple}/${analysis.length} (${(
       (hasSimple / analysis.length) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
   console.log(
     `technical_explanation: ${hasTechnical}/${analysis.length} (${(
       (hasTechnical / analysis.length) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
   console.log(
     `real_world_context: ${hasRealWorld}/${analysis.length} (${(
       (hasRealWorld / analysis.length) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
   console.log(
     `examples: ${hasExamples}/${analysis.length} (${(
       (hasExamples / analysis.length) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
   console.log(
     `key_points: ${hasKeyPoints}/${analysis.length} (${(
       (hasKeyPoints / analysis.length) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
   console.log(
     `common_misconceptions: ${hasMisconceptions}/${analysis.length} (${(
       (hasMisconceptions / analysis.length) *
       100
-    ).toFixed(1)}%)`
+    ).toFixed(1)}%)`,
   );
   console.log("");
 
@@ -181,8 +181,8 @@ async function analyze() {
         terms: analysis.sort((a, b) => a.words - b.words),
       },
       null,
-      2
-    )
+      2,
+    ),
   );
   console.log("Saved to scripts/glossary-analysis.json");
 }
